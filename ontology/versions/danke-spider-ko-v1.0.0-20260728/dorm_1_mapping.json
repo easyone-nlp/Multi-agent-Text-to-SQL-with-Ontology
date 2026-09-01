@@ -1,0 +1,105 @@
+{
+  "class_table": {
+    "Student": "Student",
+    "Dorm": "Dorm",
+    "Dorm_amenity": "Dorm_amenity",
+    "Has_amenity": "Has_amenity",
+    "Lives_in": "Lives_in"
+  },
+  "property_column": {
+    "Student_StuID": [
+      "Student",
+      "StuID"
+    ],
+    "Student_LName": [
+      "Student",
+      "LName"
+    ],
+    "Student_Fname": [
+      "Student",
+      "Fname"
+    ],
+    "Student_Age": [
+      "Student",
+      "Age"
+    ],
+    "Student_Sex": [
+      "Student",
+      "Sex"
+    ],
+    "Student_Major": [
+      "Student",
+      "Major"
+    ],
+    "Student_Advisor": [
+      "Student",
+      "Advisor"
+    ],
+    "Student_city_code": [
+      "Student",
+      "city_code"
+    ],
+    "Dorm_dormid": [
+      "Dorm",
+      "dormid"
+    ],
+    "Dorm_dorm_name": [
+      "Dorm",
+      "dorm_name"
+    ],
+    "Dorm_student_capacity": [
+      "Dorm",
+      "student_capacity"
+    ],
+    "Dorm_gender": [
+      "Dorm",
+      "gender"
+    ],
+    "Dorm_amenity_amenid": [
+      "Dorm_amenity",
+      "amenid"
+    ],
+    "Dorm_amenity_amenity_name": [
+      "Dorm_amenity",
+      "amenity_name"
+    ],
+    "Has_amenity_dormid": [
+      "Has_amenity",
+      "dormid"
+    ],
+    "Has_amenity_amenid": [
+      "Has_amenity",
+      "amenid"
+    ],
+    "Lives_in_stuid": [
+      "Lives_in",
+      "stuid"
+    ],
+    "Lives_in_dormid": [
+      "Lives_in",
+      "dormid"
+    ],
+    "Lives_in_room_number": [
+      "Lives_in",
+      "room_number"
+    ]
+  },
+  "object_property_fk": {
+    "Has_amenity_Dorm_amenity_fk0": [
+      "Has_amenity.amenid",
+      "Dorm_amenity.amenid"
+    ],
+    "Has_amenity_Dorm_fk1": [
+      "Has_amenity.dormid",
+      "Dorm.dormid"
+    ],
+    "Lives_in_Dorm_fk2": [
+      "Lives_in.dormid",
+      "Dorm.dormid"
+    ],
+    "Lives_in_Student_fk3": [
+      "Lives_in.stuid",
+      "Student.StuID"
+    ]
+  }
+}

@@ -1,0 +1,2618 @@
+{
+  "db_id": "formula_1",
+  "classes": [
+    {
+      "name": "circuits",
+      "source_table": "circuits",
+      "ranking": 3.0,
+      "primary_label": "경기장",
+      "synonyms": [
+        "경주 코스",
+        "레이스 코스",
+        "경기장",
+        "트랙",
+        "경주 경로",
+        "경기장 정보"
+      ]
+    },
+    {
+      "name": "races",
+      "source_table": "races",
+      "ranking": 3.5,
+      "primary_label": "레이스",
+      "synonyms": [
+        "레이스",
+        "경주",
+        "경기",
+        "경기 정보",
+        "경기 기록",
+        "레이스 기록"
+      ]
+    },
+    {
+      "name": "drivers",
+      "source_table": "drivers",
+      "ranking": 3.0,
+      "primary_label": "운전자",
+      "synonyms": [
+        "드라이버",
+        "운전자",
+        "선수",
+        "경기 참가자",
+        "운전사",
+        "경기 기록자"
+      ]
+    },
+    {
+      "name": "status",
+      "source_table": "status",
+      "ranking": 1.0,
+      "primary_label": "상태 id",
+      "synonyms": [
+        "상태",
+        "현재 상태",
+        "경기 상태",
+        "상태 정보",
+        "레이스 상태"
+      ]
+    },
+    {
+      "name": "seasons",
+      "source_table": "seasons",
+      "ranking": 3.0,
+      "primary_label": "시즌",
+      "synonyms": [
+        "시즌",
+        "레이스 시즌",
+        "시즌 정보",
+        "레이스 기간",
+        "시즌 데이터"
+      ]
+    },
+    {
+      "name": "constructors",
+      "source_table": "constructors",
+      "ranking": 3.0,
+      "primary_label": "Constructor",
+      "synonyms": [
+        "팀",
+        "구단",
+        "팀 정보",
+        "레이스 팀",
+        "구단 정보"
+      ]
+    },
+    {
+      "name": "constructorStandings",
+      "source_table": "constructorStandings",
+      "ranking": 3.5,
+      "primary_label": "constructor standings",
+      "synonyms": [
+        "팀 순위",
+        "구조자 순위",
+        "팀 성적",
+        "구조자 성적",
+        "팀 경기 결과"
+      ]
+    },
+    {
+      "name": "results",
+      "source_table": "results",
+      "ranking": 3.5,
+      "primary_label": "결과",
+      "synonyms": [
+        "경기 결과",
+        "경기 성적",
+        "경기 결과 기록",
+        "경기 성적 기록",
+        "경기 결과 데이터"
+      ]
+    },
+    {
+      "name": "driverStandings",
+      "source_table": "driverStandings",
+      "ranking": 3.5,
+      "primary_label": "driver standings",
+      "synonyms": [
+        "드라이버 순위",
+        "운전자 순위",
+        "드라이버 성적",
+        "운전자 성적",
+        "드라이버 경기 결과"
+      ]
+    },
+    {
+      "name": "constructorResults",
+      "source_table": "constructorResults",
+      "ranking": 3.0,
+      "primary_label": "constructor results",
+      "synonyms": [
+        "Constructor Results",
+        "Constructor Result",
+        "Constructor Performance",
+        "Constructor Standings",
+        "Constructor Rankings"
+      ]
+    },
+    {
+      "name": "qualifying",
+      "source_table": "qualifying",
+      "ranking": 3.5,
+      "primary_label": "정식 순위표",
+      "synonyms": [
+        "Qualifying Session",
+        "Qualifying Data",
+        "Qualifying Results",
+        "Qualifying Info",
+        "Qualifying Details"
+      ]
+    },
+    {
+      "name": "pitStops",
+      "source_table": "pitStops",
+      "ranking": 3.5,
+      "primary_label": "피트스톱",
+      "synonyms": [
+        "Pit Stop",
+        "Pit Stop Data",
+        "Pit Stop Records",
+        "Pit Stop Information",
+        "Pit Stop Details"
+      ]
+    },
+    {
+      "name": "lapTimes",
+      "source_table": "lapTimes",
+      "ranking": 3.5,
+      "primary_label": "lap times",
+      "synonyms": [
+        "라프 시간",
+        "레이스 시간",
+        "트랙 시간",
+        "주행 시간",
+        "라프 기록",
+        "레이스 라프 시간",
+        "트랙 라프 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "circuits_circuitId",
+      "domain": "circuits",
+      "source_table": "circuits",
+      "source_column": "circuitId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "경기장 ID",
+      "synonyms": [
+        "circuitId",
+        "트랙 ID",
+        "트랙 식별 번호",
+        "트랙 고유 번호",
+        "트랙 아이디",
+        "트랙 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "circuits_circuitRef",
+      "domain": "circuits",
+      "source_table": "circuits",
+      "source_column": "circuitRef",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "경기장 참조",
+      "synonyms": [
+        "circuit reference",
+        "circuit ref",
+        "circuit code",
+        "circuit identifier",
+        "circuit reference code",
+        "circuit ref code",
+        "circuit identifier code",
+        "circuit reference number"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "circuits_name",
+      "domain": "circuits",
+      "source_table": "circuits",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "circuit name",
+        "circuit title",
+        "circuit official name",
+        "circuit name official",
+        "circuit title official",
+        "circuit name code",
+        "circuit name reference"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울경기장": [
+          "서울 경기장"
+        ],
+        "마카오경기장": [
+          "마카오 경기장"
+        ]
+      }
+    },
+    {
+      "name": "circuits_location",
+      "domain": "circuits",
+      "source_table": "circuits",
+      "source_column": "location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "위치",
+      "synonyms": [
+        "지점",
+        "도시",
+        "도시명",
+        "위치",
+        "장소",
+        "위치정보",
+        "지역",
+        "지점명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "circuits_country",
+      "domain": "circuits",
+      "source_table": "circuits",
+      "source_column": "country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "나라",
+        "국가명",
+        "국가코드",
+        "국가정보",
+        "지역 국가",
+        "국가명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "circuits_lat",
+      "domain": "circuits",
+      "source_table": "circuits",
+      "source_column": "lat",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "위도",
+      "synonyms": [
+        "위도",
+        "위도 좌표",
+        "위도값",
+        "위도 정보",
+        "纬度",
+        "纬度坐标",
+        "纬度数值"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "circuits_lng",
+      "domain": "circuits",
+      "source_table": "circuits",
+      "source_column": "lng",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "경도",
+      "synonyms": [
+        "경도",
+        "lng",
+        "지리 좌표 경도",
+        "위치 경도",
+        "longitude",
+        "경도 좌표",
+        "지리 경도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "circuits_alt",
+      "domain": "circuits",
+      "source_table": "circuits",
+      "source_column": "alt",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고도",
+      "synonyms": [
+        "고도",
+        "alt",
+        "지리 고도",
+        "위치 고도",
+        "altitude",
+        "지형 고도",
+        "고도 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "circuits_url",
+      "domain": "circuits",
+      "source_table": "circuits",
+      "source_column": "url",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "URL",
+      "synonyms": [
+        "URL",
+        "링크",
+        "웹 주소",
+        "주소",
+        "외부 링크",
+        "위키 주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "races_raceId",
+      "domain": "races",
+      "source_table": "races",
+      "source_column": "raceId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "레이스 id",
+      "synonyms": [
+        "raceId",
+        "경기 ID",
+        "레이스 ID",
+        "레이스 식별자",
+        "경기 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "races_year",
+      "domain": "races",
+      "source_table": "races",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "year",
+        "연도",
+        "년도",
+        "경기 연도",
+        "레이스 연도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "races_round",
+      "domain": "races",
+      "source_table": "races",
+      "source_column": "round",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "라운드",
+      "synonyms": [
+        "round",
+        "순번",
+        "라운드",
+        "레이스 순번",
+        "경기 순서"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "races_circuitId",
+      "domain": "races",
+      "source_table": "races",
+      "source_column": "circuitId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "경기장 id",
+      "synonyms": [
+        "circuitId",
+        "경기장 ID",
+        "경기장 식별자",
+        "경기장 코드",
+        "circuit 번호",
+        "경기장 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "races_name",
+      "domain": "races",
+      "source_table": "races",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "경기 이름",
+        "이름",
+        "경기 제목",
+        "경기명",
+        "경기 소제목",
+        "경기 표제어"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023년 레이스": [
+          "2023년 레이스"
+        ],
+        "그랜드 프리즘 레이스": [
+          "그랜드 프리즘 레이스"
+        ]
+      }
+    },
+    {
+      "name": "races_date",
+      "domain": "races",
+      "source_table": "races",
+      "source_column": "date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "일자",
+      "synonyms": [
+        "date",
+        "날짜",
+        "일자",
+        "경기 일자",
+        "경기 날짜",
+        "일정 날짜",
+        "경기 일정"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "races_time",
+      "domain": "races",
+      "source_table": "races",
+      "source_column": "time",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "시간",
+      "synonyms": [
+        "시간",
+        "시작 시간",
+        "경기 시간",
+        "시각",
+        "시간 정보",
+        "time",
+        "시작 시각"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "races_url",
+      "domain": "races",
+      "source_table": "races",
+      "source_column": "url",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "URL",
+      "synonyms": [
+        "링크",
+        "URL",
+        "주소",
+        "웹 주소",
+        "연관 링크",
+        "인터넷 주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "drivers_driverId",
+      "domain": "drivers",
+      "source_table": "drivers",
+      "source_column": "driverId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "운전자 ID",
+      "synonyms": [
+        "driverId",
+        "driver identifier",
+        "driver number",
+        "driver unique id",
+        "driver code",
+        "driver key"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "drivers_driverRef",
+      "domain": "drivers",
+      "source_table": "drivers",
+      "source_column": "driverRef",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "운전자 참조",
+      "synonyms": [
+        "driverRef",
+        "driver reference",
+        "driver reference code",
+        "driver identifier code",
+        "driver reference number",
+        "driver code"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "drivers_number",
+      "domain": "drivers",
+      "source_table": "drivers",
+      "source_column": "number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "번호",
+      "synonyms": [
+        "number",
+        "driver number",
+        "car number",
+        "driver vehicle number",
+        "driver number code",
+        "driver license number",
+        "driver car number"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "drivers_code",
+      "domain": "drivers",
+      "source_table": "drivers",
+      "source_column": "code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "코드",
+      "synonyms": [
+        "코드",
+        "드라이버 코드",
+        "단축코드",
+        "code",
+        "기타코드",
+        "코드명",
+        "드라이버 코드명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "drivers_forename",
+      "domain": "drivers",
+      "source_table": "drivers",
+      "source_column": "forename",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "성명",
+        "전성",
+        "전이름",
+        "전성명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "drivers_surname",
+      "domain": "drivers",
+      "source_table": "drivers",
+      "source_column": "surname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성함",
+      "synonyms": [
+        "성",
+        "후성",
+        "후이름",
+        "성명",
+        "후성명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "drivers_dob",
+      "domain": "drivers",
+      "source_table": "drivers",
+      "source_column": "dob",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "생년월일",
+      "synonyms": [
+        "생일",
+        "출생일",
+        "출생년월일",
+        "DOB",
+        "생년월일",
+        "출생일자",
+        "출생년월"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "drivers_nationality",
+      "domain": "drivers",
+      "source_table": "drivers",
+      "source_column": "nationality",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "국적",
+      "synonyms": [
+        "국적",
+        "나라",
+        "국적 정보",
+        "출신국",
+        "국적별",
+        "국적명",
+        "국적코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "drivers_url",
+      "domain": "drivers",
+      "source_table": "drivers",
+      "source_column": "url",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "URL",
+      "synonyms": [
+        "링크",
+        "URL",
+        "웹사이트",
+        "외부 주소",
+        "도움말 링크",
+        "연관 링크",
+        "위키 링크"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "status_statusId",
+      "domain": "status",
+      "source_table": "status",
+      "source_column": "statusId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "상태 id",
+      "synonyms": [
+        "statusId",
+        "상태 ID",
+        "상태 식별자",
+        "상태 번호",
+        "상태 코드",
+        "상태 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "status_status",
+      "domain": "status",
+      "source_table": "status",
+      "source_column": "status",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "상태",
+      "synonyms": [
+        "status",
+        "상태 이름",
+        "상태 설명",
+        "상태 정보",
+        "상태 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "활성": [
+          "활성"
+        ],
+        "비활성": [
+          "비활성"
+        ],
+        "예약": [
+          "예약"
+        ]
+      }
+    },
+    {
+      "name": "seasons_year",
+      "domain": "seasons",
+      "source_table": "seasons",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "시즌 년도",
+        "년도 정보",
+        "년도 코드",
+        "년도 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "seasons_url",
+      "domain": "seasons",
+      "source_table": "seasons",
+      "source_column": "url",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "URL",
+      "synonyms": [
+        "링크",
+        "URL",
+        "외부 주소",
+        "시즌 링크",
+        "주소",
+        "URL 주소",
+        "외부 링크",
+        "시즌 URL"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "constructors_constructorId",
+      "domain": "constructors",
+      "source_table": "constructors",
+      "source_column": "constructorId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "Constructor ID",
+      "synonyms": [
+        "constructorId",
+        "Constructor ID 번호",
+        "식별 번호",
+        "ID",
+        "구조체 ID",
+        "Constructor 식별자",
+        "Constructor 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "constructors_constructorRef",
+      "domain": "constructors",
+      "source_table": "constructors",
+      "source_column": "constructorRef",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "Constructor Reference",
+      "synonyms": [
+        "constructor reference",
+        "constructor ref",
+        "constructor code",
+        "ref",
+        "reference",
+        "constructor reference code"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "constructors_name",
+      "domain": "constructors",
+      "source_table": "constructors",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "Constructor Name",
+        "Constructor 이름",
+        "Constructor Name in Database",
+        "Constructor's Name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Mercedes": [
+          "mercedes",
+          "mercedez"
+        ],
+        "Red Bull": [
+          "red bull",
+          "redbull"
+        ]
+      }
+    },
+    {
+      "name": "constructors_nationality",
+      "domain": "constructors",
+      "source_table": "constructors",
+      "source_column": "nationality",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "국적",
+      "synonyms": [
+        "국적",
+        "국가",
+        "출신국",
+        "국가별",
+        "국적 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "영국": [
+          "영국",
+          "uk"
+        ],
+        "독일": [
+          "독일",
+          "germany"
+        ]
+      }
+    },
+    {
+      "name": "constructors_url",
+      "domain": "constructors",
+      "source_table": "constructors",
+      "source_column": "url",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "URL",
+      "synonyms": [
+        "웹사이트",
+        "URL 주소",
+        "공식 사이트",
+        "사이트 주소",
+        "링크"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "constructorStandings_constructorStandingsId",
+      "domain": "constructorStandings",
+      "source_table": "constructorStandings",
+      "source_column": "constructorStandingsId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "constructor standings id",
+      "synonyms": [
+        "constructor standings id",
+        "standings id",
+        "standings record id",
+        "constructor standings record id",
+        "standings record",
+        "standings number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "constructorStandings_raceId",
+      "domain": "constructorStandings",
+      "source_table": "constructorStandings",
+      "source_column": "raceId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "race id",
+      "synonyms": [
+        "race id",
+        "race number",
+        "race identifier",
+        "race code",
+        "race record id",
+        "race record"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "constructorStandings_constructorId",
+      "domain": "constructorStandings",
+      "source_table": "constructorStandings",
+      "source_column": "constructorId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "constructor id",
+      "synonyms": [
+        "constructor id",
+        "constructor number",
+        "constructor identifier",
+        "constructor code",
+        "constructor record id",
+        "constructor record"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "constructorStandings_points",
+      "domain": "constructorStandings",
+      "source_table": "constructorStandings",
+      "source_column": "points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "점수",
+      "synonyms": [
+        "포인트",
+        "득점",
+        "점수",
+        "스코어",
+        "포인트 수",
+        "득점 수",
+        "점수 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "constructorStandings_position",
+      "domain": "constructorStandings",
+      "source_table": "constructorStandings",
+      "source_column": "position",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "순위",
+      "synonyms": [
+        "순위",
+        "위치",
+        "순위 수치",
+        "등수",
+        "위치 수치",
+        "등수 수치",
+        "순위 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "첫 번째",
+          "1위"
+        ],
+        "2": [
+          "두 번째",
+          "2위"
+        ],
+        "3": [
+          "세 번째",
+          "3위"
+        ]
+      }
+    },
+    {
+      "name": "constructorStandings_positionText",
+      "domain": "constructorStandings",
+      "source_table": "constructorStandings",
+      "source_column": "positionText",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "순위 텍스트",
+      "synonyms": [
+        "순위 텍스트",
+        "위치 텍스트",
+        "등수 텍스트",
+        "순위 문자열",
+        "위치 문자열",
+        "등수 문자열",
+        "순위 표현"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1st": [
+          "1위"
+        ],
+        "2nd": [
+          "2위"
+        ],
+        "3rd": [
+          "3위"
+        ]
+      }
+    },
+    {
+      "name": "constructorStandings_wins",
+      "domain": "constructorStandings",
+      "source_table": "constructorStandings",
+      "source_column": "wins",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "승리 수",
+      "synonyms": [
+        "승리 수",
+        "승수",
+        "승리 횟수",
+        "승리",
+        "승리 기록",
+        "승리 수치",
+        "wins"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "results_resultId",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "resultId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "결과 ID",
+      "synonyms": [
+        "resultId",
+        "결과 ID",
+        "결과 식별자",
+        "result 식별자",
+        "결과 번호",
+        "result 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "results_raceId",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "raceId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "레이스 ID",
+      "synonyms": [
+        "raceId",
+        "경기 ID",
+        "경기 식별자",
+        "race 식별자",
+        "경기 번호",
+        "race 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "results_driverId",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "driverId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "드라이버 ID",
+      "synonyms": [
+        "driverId",
+        "드라이버 ID",
+        "드라이버 식별자",
+        "driver 식별자",
+        "드라이버 번호",
+        "driver 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "results_constructorId",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "constructorId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "컨스트럭터 ID",
+      "synonyms": [
+        "constructorId",
+        "team_id",
+        "team",
+        "construct_id",
+        "team_number",
+        "construct"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "results_number",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "번호",
+      "synonyms": [
+        "number",
+        "car_number",
+        "vehicle_number",
+        "driving_number",
+        "car_num"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "results_grid",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "grid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "그리드",
+      "synonyms": [
+        "grid",
+        "starting_grid",
+        "start_grid",
+        "start_position",
+        "starting_position",
+        "grid_number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "results_position",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "position",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 4.0,
+      "primary_label": "위치",
+      "synonyms": [
+        "순위",
+        "위치",
+        "정렬",
+        "위치순위",
+        "순위수치",
+        "위치번호",
+        "정렬순위",
+        "위치순번"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "1위",
+          "첫 번째"
+        ],
+        "2": [
+          "2위",
+          "두 번째"
+        ],
+        "3": [
+          "3위",
+          "세 번째"
+        ]
+      }
+    },
+    {
+      "name": "results_positionText",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "positionText",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "위치 텍스트",
+      "synonyms": [
+        "순위문자",
+        "위치문자",
+        "정렬문자",
+        "위치텍스트",
+        "순위문자열",
+        "위치문자열",
+        "정렬문자열"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1st": [
+          "1위"
+        ],
+        "2nd": [
+          "2위"
+        ],
+        "3rd": [
+          "3위"
+        ]
+      }
+    },
+    {
+      "name": "results_positionOrder",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "positionOrder",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "위치 순서",
+      "synonyms": [
+        "순위순서",
+        "위치순서",
+        "정렬순서",
+        "위치순번",
+        "순위번호",
+        "위치번호",
+        "정렬번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "results_points",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "포인트",
+      "synonyms": [
+        "포인트",
+        "득점",
+        "점수",
+        "득점 수",
+        "포인트 수",
+        "결과 포인트",
+        "스코어"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "results_laps",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "laps",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "라운드",
+      "synonyms": [
+        "라프",
+        "완주 라프",
+        "라프 수",
+        "완주 수",
+        "라프 횟수",
+        "라프 수량",
+        "완주 라프 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "results_time",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "time",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "시간",
+      "synonyms": [
+        "시간",
+        "경기 시간",
+        "완료 시간",
+        "경기 완료 시간",
+        "시간 정보",
+        "경기 소요 시간",
+        "시간 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1:32.456": [
+          "1분 32초 456밀리초"
+        ]
+      }
+    },
+    {
+      "name": "results_milliseconds",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "milliseconds",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "밀리초",
+      "synonyms": [
+        "밀리초",
+        "ms",
+        "시간 백만분의 1",
+        "밀리초 값",
+        "ms 값",
+        "시간 단위",
+        "밀리초 시간",
+        "시간 측정"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "results_fastestLap",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "fastestLap",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "가장 빠른 라프",
+      "synonyms": [
+        "가장 빠른 라프 번호",
+        "빠른 라프 번호",
+        "가장 빠른 라프",
+        "빠른 라프",
+        "라프 번호",
+        "최고 라프"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "results_rank",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "랭크",
+      "synonyms": [
+        "순위",
+        "등수",
+        "경기 순위",
+        "등수 값",
+        "순위 수치",
+        "등수 정보",
+        "경기 등수",
+        "순위 기준"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "1위",
+          "최고"
+        ],
+        "2": [
+          "2위"
+        ]
+      }
+    },
+    {
+      "name": "results_fastestLapTime",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "fastestLapTime",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "가장 빠른 라프 시간",
+      "synonyms": [
+        "최고 라프 시간",
+        "빠른 라프 시간",
+        "최고 라프 시간 정보",
+        "라프 시간",
+        "최고 라프 시간 데이터",
+        "빠른 라프 시간 정보",
+        "라프 시간 정보",
+        "최고 라프 시간 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1:23.456": [
+          "1분 23초 456밀리초"
+        ]
+      }
+    },
+    {
+      "name": "results_fastestLapSpeed",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "fastestLapSpeed",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "가장 빠른 라프 속도",
+      "synonyms": [
+        "최고 라프 속도",
+        "빠른 라프 속도",
+        "최고 라프 속도 정보",
+        "라프 속도",
+        "최고 라프 속도 데이터",
+        "빠른 라프 속도 정보",
+        "라프 속도 정보",
+        "최고 라프 속도 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "300.5 km/h": [
+          "300.5km/h"
+        ]
+      }
+    },
+    {
+      "name": "results_statusId",
+      "domain": "results",
+      "source_table": "results",
+      "source_column": "statusId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "상태 ID",
+      "synonyms": [
+        "상태 코드",
+        "경기 상태 코드",
+        "상태 번호",
+        "결과 상태",
+        "경기 상태",
+        "상태 번호 정보",
+        "상태 코드 정보",
+        "결과 상태 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "정상",
+          "완료"
+        ],
+        "2": [
+          "중단",
+          "정지"
+        ],
+        "3": [
+          "사고",
+          "장애"
+        ]
+      }
+    },
+    {
+      "name": "driverStandings_driverStandingsId",
+      "domain": "driverStandings",
+      "source_table": "driverStandings",
+      "source_column": "driverStandingsId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "driver standings id",
+      "synonyms": [
+        "driver standings id",
+        "드라이버 스탙인 ID",
+        "드라이버 순위 ID",
+        "스탠딩 ID",
+        "스탠딩 번호",
+        "드라이버 순위 코드",
+        "드라이버 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "driverStandings_raceId",
+      "domain": "driverStandings",
+      "source_table": "driverStandings",
+      "source_column": "raceId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "race id",
+      "synonyms": [
+        "race id",
+        "레이스 ID",
+        "경기 ID",
+        "레이스 번호",
+        "경기 코드",
+        "레이스 식별자",
+        "경기 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "driverStandings_driverId",
+      "domain": "driverStandings",
+      "source_table": "driverStandings",
+      "source_column": "driverId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "driver id",
+      "synonyms": [
+        "driver id",
+        "드라이버 ID",
+        "드라이버 번호",
+        "드라이버 코드",
+        "드라이버 식별자",
+        "드라이버 식별 번호",
+        "드라이버 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "driverStandings_points",
+      "domain": "driverStandings",
+      "source_table": "driverStandings",
+      "source_column": "points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "points",
+      "synonyms": [
+        "포인트",
+        "점수",
+        "득점",
+        "스코어",
+        "득점 수",
+        "포인트 수",
+        "점수 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "driverStandings_position",
+      "domain": "driverStandings",
+      "source_table": "driverStandings",
+      "source_column": "position",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "position",
+      "synonyms": [
+        "순위",
+        "위치",
+        "등수",
+        "순위 수",
+        "등수 정보",
+        "순위 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "driverStandings_positionText",
+      "domain": "driverStandings",
+      "source_table": "driverStandings",
+      "source_column": "positionText",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "position text",
+      "synonyms": [
+        "순위 텍스트",
+        "위치 텍스트",
+        "등수 텍스트",
+        "순위 문자",
+        "위치 문자",
+        "등수 문자",
+        "순위 설명",
+        "위치 설명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1위": [
+          "1위",
+          "1등"
+        ],
+        "2위": [
+          "2위",
+          "2등"
+        ],
+        "3위": [
+          "3위",
+          "3등"
+        ]
+      }
+    },
+    {
+      "name": "driverStandings_wins",
+      "domain": "driverStandings",
+      "source_table": "driverStandings",
+      "source_column": "wins",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "wins",
+      "synonyms": [
+        "승리 수",
+        "승수",
+        "승리 횟수",
+        "승리",
+        "wins"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "constructorResults_constructorResultsId",
+      "domain": "constructorResults",
+      "source_table": "constructorResults",
+      "source_column": "constructorResultsId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "constructor results id",
+      "synonyms": [
+        "constructorResultsId",
+        "CR ID",
+        "constructor result ID",
+        "constructor result identifier",
+        "CR number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "constructorResults_raceId",
+      "domain": "constructorResults",
+      "source_table": "constructorResults",
+      "source_column": "raceId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "race id",
+      "synonyms": [
+        "raceId",
+        "R ID",
+        "race identifier",
+        "race number",
+        "race code"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "constructorResults_constructorId",
+      "domain": "constructorResults",
+      "source_table": "constructorResults",
+      "source_column": "constructorId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "constructor id",
+      "synonyms": [
+        "constructorId",
+        "C ID",
+        "constructor identifier",
+        "constructor code",
+        "constructor number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "constructorResults_points",
+      "domain": "constructorResults",
+      "source_table": "constructorResults",
+      "source_column": "points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "points",
+      "synonyms": [
+        "포인트",
+        "점수",
+        "점수 값",
+        "획득 포인트",
+        "점수 정보",
+        "점수 데이터",
+        "득점",
+        "포인트 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "constructorResults_status",
+      "domain": "constructorResults",
+      "source_table": "constructorResults",
+      "source_column": "status",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.5,
+      "primary_label": "status",
+      "synonyms": [
+        "상태",
+        "결과 상태",
+        "경기 상태",
+        "상태 코드",
+        "결과 코드",
+        "상태 정보",
+        "상태 데이터",
+        "상태 코드 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "정상"
+        ],
+        "2": [
+          "중단"
+        ],
+        "3": [
+          "결과 없음"
+        ]
+      }
+    },
+    {
+      "name": "qualifying_qualifyId",
+      "domain": "qualifying",
+      "source_table": "qualifying",
+      "source_column": "qualifyId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "정식 순위 ID",
+      "synonyms": [
+        "qualifyId",
+        "Qualifying ID",
+        "Qualify No",
+        "Qualify Sequence",
+        "Qualify Identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "qualifying_raceId",
+      "domain": "qualifying",
+      "source_table": "qualifying",
+      "source_column": "raceId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "레이스 ID",
+      "synonyms": [
+        "raceId",
+        "Race Number",
+        "Race Identifier",
+        "Race Sequence",
+        "Race Code"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "qualifying_driverId",
+      "domain": "qualifying",
+      "source_table": "qualifying",
+      "source_column": "driverId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "드라이버 ID",
+      "synonyms": [
+        "driverId",
+        "Driver Number",
+        "Driver Identifier",
+        "Driver Code",
+        "Driver Sequence"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "qualifying_constructorId",
+      "domain": "qualifying",
+      "source_table": "qualifying",
+      "source_column": "constructorId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "코스트럭터 ID",
+      "synonyms": [
+        "constructorId",
+        "team_id",
+        "team",
+        "construct_id",
+        "construct",
+        "team identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "qualifying_number",
+      "domain": "qualifying",
+      "source_table": "qualifying",
+      "source_column": "number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "번호",
+      "synonyms": [
+        "number",
+        "driver_number",
+        "car_number",
+        "driver_num",
+        "car_num"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "qualifying_position",
+      "domain": "qualifying",
+      "source_table": "qualifying",
+      "source_column": "position",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "순위",
+      "synonyms": [
+        "position",
+        "rank",
+        "pos",
+        "order",
+        "place",
+        "rankings"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "qualifying_q1",
+      "domain": "qualifying",
+      "source_table": "qualifying",
+      "source_column": "q1",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "Q1 시간",
+      "synonyms": [
+        "q1",
+        "first practice time",
+        "first session time",
+        "q1 time",
+        "first practice",
+        "first session"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1:12.34": [
+          "1분 12초 34밀리초",
+          "1:12.34"
+        ]
+      }
+    },
+    {
+      "name": "qualifying_q2",
+      "domain": "qualifying",
+      "source_table": "qualifying",
+      "source_column": "q2",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "Q2 시간",
+      "synonyms": [
+        "q2",
+        "second practice time",
+        "second session time",
+        "q2 time",
+        "second practice",
+        "second session"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1:13.56": [
+          "1분 13초 56밀리초",
+          "1:13.56"
+        ]
+      }
+    },
+    {
+      "name": "qualifying_q3",
+      "domain": "qualifying",
+      "source_table": "qualifying",
+      "source_column": "q3",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "Q3 시간",
+      "synonyms": [
+        "q3",
+        "third practice time",
+        "third session time",
+        "q3 time",
+        "third practice",
+        "third session"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1:14.78": [
+          "1분 14초 78밀리초",
+          "1:14.78"
+        ]
+      }
+    },
+    {
+      "name": "pitStops_raceId",
+      "domain": "pitStops",
+      "source_table": "pitStops",
+      "source_column": "raceId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "레이스 ID",
+      "synonyms": [
+        "raceId",
+        "race identifier",
+        "race number",
+        "race code",
+        "race key",
+        "race id number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitStops_driverId",
+      "domain": "pitStops",
+      "source_table": "pitStops",
+      "source_column": "driverId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "드라이버 ID",
+      "synonyms": [
+        "driverId",
+        "driver identifier",
+        "driver number",
+        "driver code",
+        "driver key",
+        "driver id number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitStops_stop",
+      "domain": "pitStops",
+      "source_table": "pitStops",
+      "source_column": "stop",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "스톱 번호",
+      "synonyms": [
+        "stop",
+        "stop number",
+        "stop count",
+        "stop sequence",
+        "stop index",
+        "stop position",
+        "stop order"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "첫 번째"
+        ],
+        "2": [
+          "두 번째"
+        ]
+      }
+    },
+    {
+      "name": "pitStops_lap",
+      "domain": "pitStops",
+      "source_table": "pitStops",
+      "source_column": "lap",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "랩 번호",
+      "synonyms": [
+        "lap",
+        "라프",
+        "라프 수",
+        "피트 스톱 라프",
+        "라프 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "100": [
+          "100랩"
+        ]
+      }
+    },
+    {
+      "name": "pitStops_time",
+      "domain": "pitStops",
+      "source_table": "pitStops",
+      "source_column": "time",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "시간",
+      "synonyms": [
+        "time",
+        "시간",
+        "시각",
+        "피트 스톱 시간",
+        "시간 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "01:30": [
+          "1분 30초"
+        ]
+      }
+    },
+    {
+      "name": "pitStops_duration",
+      "domain": "pitStops",
+      "source_table": "pitStops",
+      "source_column": "duration",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "지속 시간",
+      "synonyms": [
+        "duration",
+        "지속 시간",
+        "피트 스톱 지속 시간",
+        "시간 간격",
+        "지속 기간"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "15.5": [
+          "15.5초"
+        ]
+      }
+    },
+    {
+      "name": "pitStops_milliseconds",
+      "domain": "pitStops",
+      "source_table": "pitStops",
+      "source_column": "milliseconds",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.2,
+      "primary_label": "밀리초",
+      "synonyms": [
+        "밀리초",
+        "ms",
+        "밀리세컨드",
+        "시간(밀리초)",
+        "ms 값",
+        "milliseconds",
+        "경기 시간",
+        "pit 스타일 시간"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "lapTimes_raceId",
+      "domain": "lapTimes",
+      "source_table": "lapTimes",
+      "source_column": "raceId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "race id",
+      "synonyms": [
+        "raceId",
+        "경기 ID",
+        "경기 번호",
+        "경기 식별자",
+        "경기 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "lapTimes_driverId",
+      "domain": "lapTimes",
+      "source_table": "lapTimes",
+      "source_column": "driverId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "driver id",
+      "synonyms": [
+        "driverId",
+        "드라이버 ID",
+        "드라이버 번호",
+        "드라이버 식별자",
+        "드라이버 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "lapTimes_lap",
+      "domain": "lapTimes",
+      "source_table": "lapTimes",
+      "source_column": "lap",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "lap",
+      "synonyms": [
+        "lap",
+        "라프",
+        "라프 수",
+        "라프 번호",
+        "라프 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "첫 라프",
+          "1라프"
+        ],
+        "2": [
+          "두 번째 라프",
+          "2라프"
+        ]
+      }
+    },
+    {
+      "name": "lapTimes_position",
+      "domain": "lapTimes",
+      "source_table": "lapTimes",
+      "source_column": "position",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "position",
+      "synonyms": [
+        "position",
+        "순위",
+        "위치",
+        "순위 정보",
+        "정렬 순서",
+        "경기 순위",
+        "리더보드 위치"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "1위",
+          "첫 번째"
+        ],
+        "2": [
+          "2위",
+          "두 번째"
+        ],
+        "3": [
+          "3위",
+          "세 번째"
+        ]
+      }
+    },
+    {
+      "name": "lapTimes_time",
+      "domain": "lapTimes",
+      "source_table": "lapTimes",
+      "source_column": "time",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "time",
+      "synonyms": [
+        "time",
+        "시간",
+        "라이트 시간",
+        "완료 시간",
+        "경기 시간",
+        "라이프 시간",
+        "시간 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1:23.456": [
+          "1분 23초 456밀리초"
+        ],
+        "2:00.000": [
+          "2분"
+        ]
+      }
+    },
+    {
+      "name": "lapTimes_milliseconds",
+      "domain": "lapTimes",
+      "source_table": "lapTimes",
+      "source_column": "milliseconds",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "milliseconds",
+      "synonyms": [
+        "milliseconds",
+        "밀리초",
+        "ms",
+        "밀리세컨드",
+        "시간(ms)",
+        "밀리초 정보",
+        "밀리세컨드 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "races_circuits_fk0",
+      "domain": "races",
+      "range": "circuits",
+      "source_fk": [
+        "races.circuitId",
+        "circuits.circuitId"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "constructorStandings_races_fk1",
+      "domain": "constructorStandings",
+      "range": "races",
+      "source_fk": [
+        "constructorStandings.raceId",
+        "races.raceId"
+      ],
+      "weight": 1.0,
+      "primary_label": "참여",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "constructorStandings_constructors_fk2",
+      "domain": "constructorStandings",
+      "range": "constructors",
+      "source_fk": [
+        "constructorStandings.constructorId",
+        "constructors.constructorId"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "results_drivers_fk3",
+      "domain": "results",
+      "range": "drivers",
+      "source_fk": [
+        "results.driverId",
+        "drivers.driverId"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "results_races_fk4",
+      "domain": "results",
+      "range": "races",
+      "source_fk": [
+        "results.raceId",
+        "races.raceId"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "results_constructors_fk5",
+      "domain": "results",
+      "range": "constructors",
+      "source_fk": [
+        "results.constructorId",
+        "constructors.constructorId"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "driverStandings_drivers_fk6",
+      "domain": "driverStandings",
+      "range": "drivers",
+      "source_fk": [
+        "driverStandings.driverId",
+        "drivers.driverId"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "driverStandings_races_fk7",
+      "domain": "driverStandings",
+      "range": "races",
+      "source_fk": [
+        "driverStandings.raceId",
+        "races.raceId"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "constructorResults_races_fk8",
+      "domain": "constructorResults",
+      "range": "races",
+      "source_fk": [
+        "constructorResults.raceId",
+        "races.raceId"
+      ],
+      "weight": 1.0,
+      "primary_label": "참여",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "constructorResults_constructors_fk9",
+      "domain": "constructorResults",
+      "range": "constructors",
+      "source_fk": [
+        "constructorResults.constructorId",
+        "constructors.constructorId"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "qualifying_drivers_fk10",
+      "domain": "qualifying",
+      "range": "drivers",
+      "source_fk": [
+        "qualifying.driverId",
+        "drivers.driverId"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "qualifying_races_fk11",
+      "domain": "qualifying",
+      "range": "races",
+      "source_fk": [
+        "qualifying.raceId",
+        "races.raceId"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "qualifying_constructors_fk12",
+      "domain": "qualifying",
+      "range": "constructors",
+      "source_fk": [
+        "qualifying.constructorId",
+        "constructors.constructorId"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "pitStops_drivers_fk13",
+      "domain": "pitStops",
+      "range": "drivers",
+      "source_fk": [
+        "pitStops.driverId",
+        "drivers.driverId"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "pitStops_races_fk14",
+      "domain": "pitStops",
+      "range": "races",
+      "source_fk": [
+        "pitStops.raceId",
+        "races.raceId"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "lapTimes_drivers_fk15",
+      "domain": "lapTimes",
+      "range": "drivers",
+      "source_fk": [
+        "lapTimes.driverId",
+        "drivers.driverId"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "lapTimes_races_fk16",
+      "domain": "lapTimes",
+      "range": "races",
+      "source_fk": [
+        "lapTimes.raceId",
+        "races.raceId"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

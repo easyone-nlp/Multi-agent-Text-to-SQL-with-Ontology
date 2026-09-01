@@ -1,0 +1,2244 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "사업자",
+      "target_class": "business",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "업체",
+      "target_class": "business",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상점",
+      "target_class": "business",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사업체",
+      "target_class": "business",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "서비스 제공자",
+      "target_class": "business",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "카테고리",
+      "target_class": "category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "업종",
+      "target_class": "category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분류",
+      "target_class": "category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "업종 코드",
+      "target_class": "category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "업종별 분류",
+      "target_class": "category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "업종 카테고리",
+      "target_class": "category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자",
+      "target_class": "user",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객",
+      "target_class": "user",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자 정보",
+      "target_class": "user",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "회원",
+      "target_class": "user",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자 데이터",
+      "target_class": "user",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "체크인",
+      "target_class": "checkin",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약 정보",
+      "target_class": "checkin",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약 기록",
+      "target_class": "checkin",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약 내역",
+      "target_class": "checkin",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약 데이터",
+      "target_class": "checkin",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이웃 이름",
+      "target_class": "neighbourhood",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지역 정보",
+      "target_class": "neighbourhood",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지역 데이터",
+      "target_class": "neighbourhood",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지역",
+      "target_class": "neighbourhood",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지역명",
+      "target_class": "neighbourhood",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "리뷰",
+      "target_class": "review",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "리뷰 정보",
+      "target_class": "review",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "리뷰 데이터",
+      "target_class": "review",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "리뷰 기록",
+      "target_class": "review",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "리뷰 내용",
+      "target_class": "review",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "tip id",
+      "target_class": "tip",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "팁",
+      "target_class": "tip",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "추천",
+      "target_class": "tip",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "정보",
+      "target_class": "tip",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "노트",
+      "target_class": "tip",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참고",
+      "target_class": "tip",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고려사항",
+      "target_class": "tip",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "추천 사항",
+      "target_class": "tip",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "정보 제공",
+      "target_class": "tip",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 ID",
+      "target_class": "business",
+      "target_property": "business_bid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "bid",
+      "target_class": "business",
+      "target_property": "business_bid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "business_id",
+      "target_class": "business",
+      "target_property": "business_bid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별번호",
+      "target_class": "business",
+      "target_property": "business_bid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "business",
+      "target_property": "business_bid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "business",
+      "target_property": "business_bid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "business",
+      "target_property": "business_bid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별자",
+      "target_class": "business",
+      "target_property": "business_bid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업 id",
+      "target_class": "business",
+      "target_property": "business_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "business_id",
+      "target_class": "business",
+      "target_property": "business_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 ID",
+      "target_class": "business",
+      "target_property": "business_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 식별번호",
+      "target_class": "business",
+      "target_property": "business_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 코드",
+      "target_class": "business",
+      "target_property": "business_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "business",
+      "target_property": "business_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별자",
+      "target_class": "business",
+      "target_property": "business_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "business",
+      "target_property": "business_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "business",
+      "target_property": "business_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 이름",
+      "target_class": "business",
+      "target_property": "business_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자명",
+      "target_class": "business",
+      "target_property": "business_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자칭호",
+      "target_class": "business",
+      "target_property": "business_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 주소",
+      "target_class": "business",
+      "target_property": "business_full_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "full address",
+      "target_class": "business",
+      "target_property": "business_full_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소",
+      "target_class": "business",
+      "target_property": "business_full_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업장 주소",
+      "target_class": "business",
+      "target_property": "business_full_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 주소 정보",
+      "target_class": "business",
+      "target_property": "business_full_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 정보",
+      "target_class": "business",
+      "target_property": "business_full_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업장 주소 정보",
+      "target_class": "business",
+      "target_property": "business_full_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시",
+      "target_class": "business",
+      "target_property": "business_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city",
+      "target_class": "business",
+      "target_property": "business_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "business",
+      "target_property": "business_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 이름",
+      "target_class": "business",
+      "target_property": "business_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명",
+      "target_class": "business",
+      "target_property": "business_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 정보",
+      "target_class": "business",
+      "target_property": "business_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 이름 정보",
+      "target_class": "business",
+      "target_property": "business_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위도",
+      "target_class": "business",
+      "target_property": "business_latitude",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "latitude",
+      "target_class": "business",
+      "target_property": "business_latitude",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위도 좌표",
+      "target_class": "business",
+      "target_property": "business_latitude",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위도 정보",
+      "target_class": "business",
+      "target_property": "business_latitude",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위도 값",
+      "target_class": "business",
+      "target_property": "business_latitude",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좌표 위도",
+      "target_class": "business",
+      "target_property": "business_latitude",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위도 데이터",
+      "target_class": "business",
+      "target_property": "business_latitude",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경도",
+      "target_class": "business",
+      "target_property": "business_longitude",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "經度",
+      "target_class": "business",
+      "target_property": "business_longitude",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "longitude",
+      "target_class": "business",
+      "target_property": "business_longitude",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 경도",
+      "target_class": "business",
+      "target_property": "business_longitude",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좌표 경도",
+      "target_class": "business",
+      "target_property": "business_longitude",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 수",
+      "target_class": "business",
+      "target_property": "business_review_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후기 수",
+      "target_class": "business",
+      "target_property": "business_review_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "review count",
+      "target_class": "business",
+      "target_property": "business_review_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 개수",
+      "target_class": "business",
+      "target_property": "business_review_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후기 개수",
+      "target_class": "business",
+      "target_property": "business_review_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "오픈 여부",
+      "target_class": "business",
+      "target_property": "business_is_open",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 중",
+      "target_class": "business",
+      "target_property": "business_is_open",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "เปิด cửa",
+      "target_class": "business",
+      "target_property": "business_is_open",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "is open",
+      "target_class": "business",
+      "target_property": "business_is_open",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 여부",
+      "target_class": "business",
+      "target_property": "business_is_open",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비즈니스 상태",
+      "target_class": "business",
+      "target_property": "business_is_open",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개점 여부",
+      "target_class": "business",
+      "target_property": "business_is_open",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점",
+      "target_class": "business",
+      "target_property": "business_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 수치",
+      "target_class": "business",
+      "target_property": "business_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 점수",
+      "target_class": "business",
+      "target_property": "business_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "business",
+      "target_property": "business_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 정보",
+      "target_class": "business",
+      "target_property": "business_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가",
+      "target_class": "business",
+      "target_property": "business_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수 값",
+      "target_class": "business",
+      "target_property": "business_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 데이터",
+      "target_class": "business",
+      "target_property": "business_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주",
+      "target_class": "business",
+      "target_property": "business_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 주",
+      "target_class": "business",
+      "target_property": "business_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 이름",
+      "target_class": "business",
+      "target_property": "business_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 코드",
+      "target_class": "business",
+      "target_property": "business_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 정보",
+      "target_class": "business",
+      "target_property": "business_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 주 단위",
+      "target_class": "business",
+      "target_property": "business_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 이름 정보",
+      "target_class": "business",
+      "target_property": "business_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 코드 데이터",
+      "target_class": "business",
+      "target_property": "business_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "category",
+      "target_property": "category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "category",
+      "target_property": "category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카테고리 ID",
+      "target_class": "category",
+      "target_property": "category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별번호",
+      "target_class": "category",
+      "target_property": "category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "category",
+      "target_property": "category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카테고리 번호",
+      "target_class": "category",
+      "target_property": "category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 ID",
+      "target_class": "category",
+      "target_property": "category_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "business id",
+      "target_class": "category",
+      "target_property": "category_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업체 ID",
+      "target_class": "category",
+      "target_property": "category_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업체 번호",
+      "target_class": "category",
+      "target_property": "category_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업체 식별자",
+      "target_class": "category",
+      "target_property": "category_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 식별번호",
+      "target_class": "category",
+      "target_property": "category_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카테고리 이름",
+      "target_class": "category",
+      "target_property": "category_category_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "category name",
+      "target_class": "category",
+      "target_property": "category_category_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류명",
+      "target_class": "category",
+      "target_property": "category_category_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카테고리",
+      "target_class": "category",
+      "target_property": "category_category_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류",
+      "target_class": "category",
+      "target_property": "category_category_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류 이름",
+      "target_class": "category",
+      "target_property": "category_category_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 고유 번호",
+      "target_class": "user",
+      "target_property": "user_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "uid",
+      "target_class": "user",
+      "target_property": "user_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 ID",
+      "target_class": "user",
+      "target_property": "user_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 ID",
+      "target_class": "user",
+      "target_property": "user_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 고유 식별자",
+      "target_class": "user",
+      "target_property": "user_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 id",
+      "target_class": "user",
+      "target_property": "user_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "user_id",
+      "target_class": "user",
+      "target_property": "user_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 ID",
+      "target_class": "user",
+      "target_property": "user_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 식별자",
+      "target_class": "user",
+      "target_property": "user_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 고유 번호",
+      "target_class": "user",
+      "target_property": "user_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유저 ID",
+      "target_class": "user",
+      "target_property": "user_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 코드",
+      "target_class": "user",
+      "target_property": "user_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "user",
+      "target_property": "user_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "user",
+      "target_property": "user_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 이름",
+      "target_class": "user",
+      "target_property": "user_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 별명",
+      "target_class": "user",
+      "target_property": "user_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 대표 이름",
+      "target_class": "user",
+      "target_property": "user_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "user",
+      "target_property": "user_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크인 ID",
+      "target_class": "checkin",
+      "target_property": "checkin_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "cid",
+      "target_class": "checkin",
+      "target_property": "checkin_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기록 번호",
+      "target_class": "checkin",
+      "target_property": "checkin_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "checkin",
+      "target_property": "checkin_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크인 고유값",
+      "target_class": "checkin",
+      "target_property": "checkin_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 ID",
+      "target_class": "checkin",
+      "target_property": "checkin_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "business id",
+      "target_class": "checkin",
+      "target_property": "checkin_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업체 ID",
+      "target_class": "checkin",
+      "target_property": "checkin_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 번호",
+      "target_class": "checkin",
+      "target_property": "checkin_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업체 식별자",
+      "target_class": "checkin",
+      "target_property": "checkin_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업체 코드",
+      "target_class": "checkin",
+      "target_property": "checkin_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수량",
+      "target_class": "checkin",
+      "target_property": "checkin_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "count",
+      "target_class": "checkin",
+      "target_property": "checkin_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크인 횟수",
+      "target_class": "checkin",
+      "target_property": "checkin_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 수",
+      "target_class": "checkin",
+      "target_property": "checkin_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "횟수",
+      "target_class": "checkin",
+      "target_property": "checkin_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카운트",
+      "target_class": "checkin",
+      "target_property": "checkin_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크인 수",
+      "target_class": "checkin",
+      "target_property": "checkin_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "checkin",
+      "target_property": "checkin_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일",
+      "target_class": "checkin",
+      "target_property": "checkin_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "checkin",
+      "target_property": "checkin_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날",
+      "target_class": "checkin",
+      "target_property": "checkin_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일기",
+      "target_class": "checkin",
+      "target_property": "checkin_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜 정보",
+      "target_class": "checkin",
+      "target_property": "checkin_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 정보",
+      "target_class": "checkin",
+      "target_property": "checkin_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 기록",
+      "target_class": "checkin",
+      "target_property": "checkin_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역 번호",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역 고유 번호",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 ID",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "business id",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업소 번호",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업소 아이디",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업소 고유 번호",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업소 식별자",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이웃 이름",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_neighbourhood_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "neighbourhood name",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_neighbourhood_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역 이름",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_neighbourhood_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 이름",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_neighbourhood_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역명",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_neighbourhood_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "neighbourhood",
+      "target_property": "neighbourhood_neighbourhood_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 ID",
+      "target_class": "review",
+      "target_property": "review_rid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "rid",
+      "target_class": "review",
+      "target_property": "review_rid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 아이디",
+      "target_class": "review",
+      "target_property": "review_rid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 번호",
+      "target_class": "review",
+      "target_property": "review_rid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 식별자",
+      "target_class": "review",
+      "target_property": "review_rid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 고유 번호",
+      "target_class": "review",
+      "target_property": "review_rid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 ID",
+      "target_class": "review",
+      "target_property": "review_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "business_id",
+      "target_class": "review",
+      "target_property": "review_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업체 ID",
+      "target_class": "review",
+      "target_property": "review_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업체 ID",
+      "target_class": "review",
+      "target_property": "review_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업체 식별자",
+      "target_class": "review",
+      "target_property": "review_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업체 번호",
+      "target_class": "review",
+      "target_property": "review_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 ID",
+      "target_class": "review",
+      "target_property": "review_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "user_id",
+      "target_class": "review",
+      "target_property": "review_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유저 ID",
+      "target_class": "review",
+      "target_property": "review_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 식별자",
+      "target_class": "review",
+      "target_property": "review_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유저 번호",
+      "target_class": "review",
+      "target_property": "review_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 고유 번호",
+      "target_class": "review",
+      "target_property": "review_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "评分",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 평점",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 정보",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 점수",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 점수",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 텍스트",
+      "target_class": "review",
+      "target_property": "review_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "내용",
+      "target_class": "review",
+      "target_property": "review_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "텍스트",
+      "target_class": "review",
+      "target_property": "review_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 내용",
+      "target_class": "review",
+      "target_property": "review_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "문자",
+      "target_class": "review",
+      "target_property": "review_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 본문",
+      "target_class": "review",
+      "target_property": "review_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 텍스트 내용",
+      "target_class": "review",
+      "target_property": "review_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 글",
+      "target_class": "review",
+      "target_property": "review_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "review",
+      "target_property": "review_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성 연도",
+      "target_class": "review",
+      "target_property": "review_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 연도",
+      "target_class": "review",
+      "target_property": "review_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 정보",
+      "target_class": "review",
+      "target_property": "review_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 데이터",
+      "target_class": "review",
+      "target_property": "review_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도 기준",
+      "target_class": "review",
+      "target_property": "review_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 값",
+      "target_class": "review",
+      "target_property": "review_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월",
+      "target_class": "review",
+      "target_property": "review_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월 정보",
+      "target_class": "review",
+      "target_property": "review_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월 데이터",
+      "target_class": "review",
+      "target_property": "review_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월 기준",
+      "target_class": "review",
+      "target_property": "review_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월별",
+      "target_class": "review",
+      "target_property": "review_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월자료",
+      "target_class": "review",
+      "target_property": "review_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월 기록",
+      "target_class": "review",
+      "target_property": "review_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월 입력",
+      "target_class": "review",
+      "target_property": "review_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "tip id",
+      "target_class": "tip",
+      "target_property": "tip_tip_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "tip_id",
+      "target_class": "tip",
+      "target_property": "tip_tip_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "tip 번호",
+      "target_class": "tip",
+      "target_property": "tip_tip_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 ID",
+      "target_class": "tip",
+      "target_property": "tip_tip_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "tip 식별자",
+      "target_class": "tip",
+      "target_property": "tip_tip_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 고유번호",
+      "target_class": "tip",
+      "target_property": "tip_tip_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "tip 고유 ID",
+      "target_class": "tip",
+      "target_property": "tip_tip_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "business id",
+      "target_class": "tip",
+      "target_property": "tip_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "business_id",
+      "target_class": "tip",
+      "target_property": "tip_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 ID",
+      "target_class": "tip",
+      "target_property": "tip_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당 ID",
+      "target_class": "tip",
+      "target_property": "tip_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 식별자",
+      "target_class": "tip",
+      "target_property": "tip_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "business 식별자",
+      "target_class": "tip",
+      "target_property": "tip_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "business 고유 ID",
+      "target_class": "tip",
+      "target_property": "tip_business_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "text",
+      "target_class": "tip",
+      "target_property": "tip_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 내용",
+      "target_class": "tip",
+      "target_property": "tip_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "텍스트",
+      "target_class": "tip",
+      "target_property": "tip_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 메시지",
+      "target_class": "tip",
+      "target_property": "tip_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 텍스트",
+      "target_class": "tip",
+      "target_property": "tip_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "내용",
+      "target_class": "tip",
+      "target_property": "tip_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "user id",
+      "target_class": "tip",
+      "target_property": "tip_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 ID",
+      "target_class": "tip",
+      "target_property": "tip_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 고유 번호",
+      "target_class": "tip",
+      "target_property": "tip_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 식별자",
+      "target_class": "tip",
+      "target_property": "tip_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유저 ID",
+      "target_class": "tip",
+      "target_property": "tip_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유저 고유 번호",
+      "target_class": "tip",
+      "target_property": "tip_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 코드",
+      "target_class": "tip",
+      "target_property": "tip_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "user_id",
+      "target_class": "tip",
+      "target_property": "tip_user_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "likes",
+      "target_class": "tip",
+      "target_property": "tip_likes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좋아요 수",
+      "target_class": "tip",
+      "target_property": "tip_likes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좋아요",
+      "target_class": "tip",
+      "target_property": "tip_likes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좋아요 개수",
+      "target_class": "tip",
+      "target_property": "tip_likes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좋아요 카운트",
+      "target_class": "tip",
+      "target_property": "tip_likes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좋아요 갯수",
+      "target_class": "tip",
+      "target_property": "tip_likes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "year",
+      "target_class": "tip",
+      "target_property": "tip_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "tip",
+      "target_property": "tip_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성 년도",
+      "target_class": "tip",
+      "target_property": "tip_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 정보",
+      "target_class": "tip",
+      "target_property": "tip_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 데이터",
+      "target_class": "tip",
+      "target_property": "tip_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "month",
+      "target_class": "tip",
+      "target_property": "tip_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월",
+      "target_class": "tip",
+      "target_property": "tip_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월별",
+      "target_class": "tip",
+      "target_property": "tip_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월 정보",
+      "target_class": "tip",
+      "target_property": "tip_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월 데이터",
+      "target_class": "tip",
+      "target_property": "tip_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월 기준",
+      "target_class": "tip",
+      "target_property": "tip_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월별 데이터",
+      "target_class": "tip",
+      "target_property": "tip_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월 기록",
+      "target_class": "tip",
+      "target_property": "tip_month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월별 입력",
+      "target_class": "tip",
+      "target_property": "tip_month",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "business",
+      "target_property": "business_is_open",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "오픈",
+      "target_class": "business",
+      "target_property": "business_is_open",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "열려 있음",
+      "target_class": "business",
+      "target_property": "business_is_open",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "0",
+      "target_class": "business",
+      "target_property": "business_is_open",
+      "value": "0"
+    },
+    {
+      "entry_type": "value",
+      "key": "닫힘",
+      "target_class": "business",
+      "target_property": "business_is_open",
+      "value": "0"
+    },
+    {
+      "entry_type": "value",
+      "key": "닫혀 있음",
+      "target_class": "business",
+      "target_property": "business_is_open",
+      "value": "0"
+    },
+    {
+      "entry_type": "value",
+      "key": "식당",
+      "target_class": "category",
+      "target_property": "category_category_name",
+      "value": "식당"
+    },
+    {
+      "entry_type": "value",
+      "key": "음식점",
+      "target_class": "category",
+      "target_property": "category_category_name",
+      "value": "식당"
+    },
+    {
+      "entry_type": "value",
+      "key": "카페",
+      "target_class": "category",
+      "target_property": "category_category_name",
+      "value": "카페"
+    },
+    {
+      "entry_type": "value",
+      "key": "커피숍",
+      "target_class": "category",
+      "target_property": "category_category_name",
+      "value": "카페"
+    },
+    {
+      "entry_type": "value",
+      "key": "스포츠",
+      "target_class": "category",
+      "target_property": "category_category_name",
+      "value": "스포츠"
+    },
+    {
+      "entry_type": "value",
+      "key": "스포츠장",
+      "target_class": "category",
+      "target_property": "category_category_name",
+      "value": "스포츠"
+    },
+    {
+      "entry_type": "value",
+      "key": "user123",
+      "target_class": "user",
+      "target_property": "user_user_id",
+      "value": "user123"
+    },
+    {
+      "entry_type": "value",
+      "key": "usr123",
+      "target_class": "user",
+      "target_property": "user_user_id",
+      "value": "user123"
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "user",
+      "target_property": "user_name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "민수",
+      "target_class": "user",
+      "target_property": "user_name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "12345",
+      "target_class": "checkin",
+      "target_property": "checkin_business_id",
+      "value": "12345"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-10-01",
+      "target_class": "checkin",
+      "target_property": "checkin_day",
+      "value": "2023-10-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "10월 1일",
+      "target_class": "checkin",
+      "target_property": "checkin_day",
+      "value": "2023-10-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020",
+      "target_class": "review",
+      "target_property": "review_year",
+      "value": "2020"
+    },
+    {
+      "entry_type": "value",
+      "key": "1월",
+      "target_class": "review",
+      "target_property": "review_month",
+      "value": "1월"
+    },
+    {
+      "entry_type": "value",
+      "key": "12월",
+      "target_class": "review",
+      "target_property": "review_month",
+      "value": "12월"
+    },
+    {
+      "entry_type": "value",
+      "key": "맛있는 추천",
+      "target_class": "tip",
+      "target_property": "tip_text",
+      "value": "맛있는 추천"
+    },
+    {
+      "entry_type": "value",
+      "key": "좋은 추천",
+      "target_class": "tip",
+      "target_property": "tip_text",
+      "value": "맛있는 추천"
+    },
+    {
+      "entry_type": "value",
+      "key": "가격이 비싸요",
+      "target_class": "tip",
+      "target_property": "tip_text",
+      "value": "가격이 비싸요"
+    },
+    {
+      "entry_type": "value",
+      "key": "비싸요",
+      "target_class": "tip",
+      "target_property": "tip_text",
+      "value": "가격이 비싸요"
+    },
+    {
+      "entry_type": "value",
+      "key": "1월",
+      "target_class": "tip",
+      "target_property": "tip_month",
+      "value": "1월"
+    },
+    {
+      "entry_type": "value",
+      "key": "jan",
+      "target_class": "tip",
+      "target_property": "tip_month",
+      "value": "1월"
+    },
+    {
+      "entry_type": "value",
+      "key": "6월",
+      "target_class": "tip",
+      "target_property": "tip_month",
+      "value": "6월"
+    },
+    {
+      "entry_type": "value",
+      "key": "jun",
+      "target_class": "tip",
+      "target_property": "tip_month",
+      "value": "6월"
+    }
+  ]
+}

@@ -1,0 +1,8424 @@
+{
+  "db_id": "baseball_1",
+  "classes": [
+    {
+      "name": "all_star",
+      "source_table": "all_star",
+      "ranking": 3.5,
+      "primary_label": "all star",
+      "synonyms": [
+        "전설 선수",
+        "최고 선수",
+        "스타 선수",
+        "대표 선수",
+        "명예 유니폼 소유자"
+      ]
+    },
+    {
+      "name": "appearances",
+      "source_table": "appearances",
+      "ranking": 3.5,
+      "primary_label": "출현 기록",
+      "synonyms": [
+        "경기 출전 기록",
+        "경기 참여",
+        "출전 기록",
+        "경기 출전",
+        "경기 참여 기록"
+      ]
+    },
+    {
+      "name": "manager_award",
+      "source_table": "manager_award",
+      "ranking": 3.5,
+      "primary_label": "매니저 보상",
+      "synonyms": [
+        "코치 수상 기록",
+        "감독 수상 기록",
+        "관리자 수상",
+        "코치 감독 수상",
+        "관리자 수상 기록"
+      ]
+    },
+    {
+      "name": "player_award",
+      "source_table": "player_award",
+      "ranking": 3.5,
+      "primary_label": "player award",
+      "synonyms": [
+        "선수 수상 기록",
+        "선수 상 수상",
+        "선수 상",
+        "선수 영예",
+        "선수 상장"
+      ]
+    },
+    {
+      "name": "manager_award_vote",
+      "source_table": "manager_award_vote",
+      "ranking": 3.5,
+      "primary_label": "매니저 보상 투표",
+      "synonyms": [
+        "코치 수상 투표",
+        "코치 상 투표",
+        "코치 영예 투표",
+        "코치 상장 투표",
+        "코치 투표"
+      ]
+    },
+    {
+      "name": "player_award_vote",
+      "source_table": "player_award_vote",
+      "ranking": 1.0,
+      "primary_label": "player award vote",
+      "synonyms": [
+        "선수 투표",
+        "선수 상 투표",
+        "선수 영예 투표",
+        "선수 상장 투표",
+        "선수 투표 기록"
+      ]
+    },
+    {
+      "name": "batting",
+      "source_table": "batting",
+      "ranking": 3.5,
+      "primary_label": "타격 통계",
+      "synonyms": [
+        "타격",
+        "타수",
+        "안타",
+        "출루",
+        "타율",
+        "타자 성적",
+        "타격 기록",
+        "타격 통계"
+      ]
+    },
+    {
+      "name": "batting_postseason",
+      "source_table": "batting_postseason",
+      "ranking": 3.5,
+      "primary_label": "batting postseason",
+      "synonyms": [
+        "포스트시즌 타격",
+        "시즌 후 타격",
+        "포스트시즌 타수",
+        "시즌 후 안타",
+        "포스트시즌 타율",
+        "시즌 후 타자 성적",
+        "포스트시즌 기록",
+        "시즌 후 통계"
+      ]
+    },
+    {
+      "name": "player_college",
+      "source_table": "player_college",
+      "ranking": 3.5,
+      "primary_label": "player college",
+      "synonyms": [
+        "대학 선수",
+        "대학 기록",
+        "대학 성적",
+        "대학 정보",
+        "대학 타자",
+        "대학 통계",
+        "대학 데이터"
+      ]
+    },
+    {
+      "name": "fielding",
+      "source_table": "fielding",
+      "ranking": 3.5,
+      "primary_label": "필드링 데이터",
+      "synonyms": [
+        "수비",
+        "야구 수비",
+        "수비자",
+        "야구 수비자",
+        "수비 역할"
+      ]
+    },
+    {
+      "name": "fielding_outfield",
+      "source_table": "fielding_outfield",
+      "ranking": 3.5,
+      "primary_label": "fielding outfield",
+      "synonyms": [
+        "외야수",
+        "야구 외야수",
+        "외야",
+        "야구 외야",
+        "외야 역할"
+      ]
+    },
+    {
+      "name": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "ranking": 3.5,
+      "primary_label": "fielding postseason",
+      "synonyms": [
+        "포스트시즌 수비",
+        "야구 포스트시즌 수비",
+        "포스트시즌",
+        "야구 포스트시즌",
+        "포스트시즌 수비자"
+      ]
+    },
+    {
+      "name": "hall_of_fame",
+      "source_table": "hall_of_fame",
+      "ranking": 3.5,
+      "primary_label": "hall of fame",
+      "synonyms": [
+        "명예의 전당",
+        "영예의 전당",
+        "선수 명예의 전당",
+        "야구 명예의 전당",
+        "선수 영예의 전당"
+      ]
+    },
+    {
+      "name": "home_game",
+      "source_table": "home_game",
+      "ranking": 3.5,
+      "primary_label": "홈 게임",
+      "synonyms": [
+        "홈 경기",
+        "홈 경기 정보",
+        "야구 홈 경기",
+        "홈 경기 데이터",
+        "야구 홈 경기 정보"
+      ]
+    },
+    {
+      "name": "manager",
+      "source_table": "manager",
+      "ranking": 1.0,
+      "primary_label": "manager",
+      "synonyms": [
+        "감독",
+        "감독 정보",
+        "야구 감독",
+        "팀 감독",
+        "감독 데이터"
+      ]
+    },
+    {
+      "name": "manager_half",
+      "source_table": "manager_half",
+      "ranking": 3.5,
+      "primary_label": "매니저 반",
+      "synonyms": [
+        "관리자 반 데이터",
+        "관리자 반 정보",
+        "관리자 반 기록",
+        "관리자 반 세부사항"
+      ]
+    },
+    {
+      "name": "player",
+      "source_table": "player",
+      "ranking": 3.5,
+      "primary_label": "플레이어",
+      "synonyms": [
+        "선수",
+        "선수 정보",
+        "선수 데이터",
+        "선수 기록",
+        "선수 세부사항"
+      ]
+    },
+    {
+      "name": "park",
+      "source_table": "park",
+      "ranking": 3.5,
+      "primary_label": "공원",
+      "synonyms": [
+        "구장",
+        "구장 정보",
+        "구장 데이터",
+        "구장 기록",
+        "구장 세부사항"
+      ]
+    },
+    {
+      "name": "pitching",
+      "source_table": "pitching",
+      "ranking": 3.5,
+      "primary_label": "피칭 기록",
+      "synonyms": [
+        "투수 기록",
+        "투수 성능",
+        "투수 데이터",
+        "투수 성적",
+        "투수 정보"
+      ]
+    },
+    {
+      "name": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "ranking": 3.5,
+      "primary_label": "피칭 포스트시즌",
+      "synonyms": [
+        "포스트시즌 투수 기록",
+        "포스트시즌 투수 데이터",
+        "포스트시즌 투수 성적",
+        "포스트시즌 투수 성과",
+        "포스트시즌 투수 정보"
+      ]
+    },
+    {
+      "name": "salary",
+      "source_table": "salary",
+      "ranking": 3.0,
+      "primary_label": "급여",
+      "synonyms": [
+        "연봉 정보",
+        "연봉 기록",
+        "연봉 데이터",
+        "연봉 성적",
+        "연봉 성과"
+      ]
+    },
+    {
+      "name": "college",
+      "source_table": "college",
+      "ranking": 3.0,
+      "primary_label": "대학",
+      "synonyms": [
+        "대학",
+        "대학원",
+        "학교",
+        "학부",
+        "학사"
+      ]
+    },
+    {
+      "name": "postseason",
+      "source_table": "postseason",
+      "ranking": 3.5,
+      "primary_label": "포스트시즌",
+      "synonyms": [
+        "시즌 후",
+        "후기 경기",
+        "시즌 종료",
+        "후반기 경기",
+        "시즌 마무리"
+      ]
+    },
+    {
+      "name": "team",
+      "source_table": "team",
+      "ranking": 3.5,
+      "primary_label": "팀",
+      "synonyms": [
+        "팀",
+        "구단",
+        "클럽",
+        "팀 정보",
+        "구단 정보"
+      ]
+    },
+    {
+      "name": "team_franchise",
+      "source_table": "team_franchise",
+      "ranking": 1.0,
+      "primary_label": "team franchise",
+      "synonyms": [
+        "구단 등록 정보",
+        "구단 정보",
+        "구단 등록",
+        "구단 데이터",
+        "구단 기록",
+        "구단 사항"
+      ]
+    },
+    {
+      "name": "team_half",
+      "source_table": "team_half",
+      "ranking": 3.5,
+      "primary_label": "팀 반",
+      "synonyms": [
+        "반시즌 데이터",
+        "시즌 중반 데이터",
+        "반시즌 기록",
+        "시즌 중간 데이터",
+        "반시즌 정보",
+        "시즌 중간 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "all_star_player_id",
+      "domain": "all_star",
+      "source_table": "all_star",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "player id",
+      "synonyms": [
+        "플레이어 ID",
+        "선수 ID",
+        "플레이어 코드",
+        "선수 식별자",
+        "pid",
+        "player_id"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "player123": [
+          "player123"
+        ]
+      }
+    },
+    {
+      "name": "all_star_year",
+      "domain": "all_star",
+      "source_table": "all_star",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "연도",
+        "년도",
+        "시즌",
+        "년도 정보",
+        "년도 코드",
+        "year",
+        "yr"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "all_star_game_num",
+      "domain": "all_star",
+      "source_table": "all_star",
+      "source_column": "game_num",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "game num",
+      "synonyms": [
+        "경기 수",
+        "경기 횟수",
+        "경기",
+        "게임 수",
+        "게임 횟수",
+        "game_num",
+        "game count"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "all_star_game_id",
+      "domain": "all_star",
+      "source_table": "all_star",
+      "source_column": "game_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "game id",
+      "synonyms": [
+        "game_id",
+        "경기 식별자",
+        "경기 ID",
+        "경기 번호",
+        "경기 코드",
+        "경기 식별"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "all_star_team_id",
+      "domain": "all_star",
+      "source_table": "all_star",
+      "source_column": "team_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "team id",
+      "synonyms": [
+        "team_id",
+        "팀 식별자",
+        "팀 ID",
+        "팀 코드",
+        "팀 식별",
+        "팀 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "all_star_league_id",
+      "domain": "all_star",
+      "source_table": "all_star",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "league id",
+      "synonyms": [
+        "league_id",
+        "리그 식별자",
+        "리그 ID",
+        "리그 코드",
+        "리그 식별",
+        "리그 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "all_star_gp",
+      "domain": "all_star",
+      "source_table": "all_star",
+      "source_column": "gp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "gp",
+      "synonyms": [
+        "gp",
+        "출전 경기 수",
+        "경기 수",
+        "출전 횟수",
+        "경기 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "all_star_starting_pos",
+      "domain": "all_star",
+      "source_table": "all_star",
+      "source_column": "starting_pos",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "starting pos",
+      "synonyms": [
+        "starting pos",
+        "출발 위치",
+        "시작 위치",
+        "출전 위치",
+        "시작 순위",
+        "시작 위치 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_year",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "연도",
+        "년도",
+        "출장년도",
+        "년도 정보",
+        "년도 데이터",
+        "년도 기준",
+        "년도 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_team_id",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "team_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "팀 ID",
+      "synonyms": [
+        "팀 ID",
+        "소속 팀",
+        "팀 식별자",
+        "팀 코드",
+        "팀 번호",
+        "팀 식별",
+        "팀 정보",
+        "팀 코드 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_league_id",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "리그 ID",
+      "synonyms": [
+        "리그 ID",
+        "소속 리그",
+        "리그 식별자",
+        "리그 코드",
+        "리그 번호",
+        "리그 식별",
+        "리그 정보",
+        "리그 코드 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_player_id",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "선수 ID",
+      "synonyms": [
+        "player_id",
+        "플레이어 ID",
+        "선수 ID",
+        "선수 번호",
+        "구단원 ID",
+        "선수 코드",
+        "구단원 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_all",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_all",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "전체 출전 수",
+      "synonyms": [
+        "g_all",
+        "g_all 수",
+        "총 출장 수",
+        "전체 출장 수",
+        "전체 출장",
+        "출장 수",
+        "g_all 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_gs",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "gs",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "출전 수",
+      "synonyms": [
+        "gs",
+        "정규 출장 수",
+        "정규 출장",
+        "gs 수",
+        "gs 값",
+        "정규 경기 출장",
+        "정규 경기 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_batting",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_batting",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "타격 출전 수",
+      "synonyms": [
+        "g batting",
+        "타격 출장 수",
+        "타격 경기 수",
+        "타격 횟수",
+        "타격 출전 수",
+        "타격 경기",
+        "타격 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_defense",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_defense",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "수비 출전 수",
+      "synonyms": [
+        "g defense",
+        "수비 출장 수",
+        "수비 경기 수",
+        "수비 횟수",
+        "수비 출전 수",
+        "수비 경기",
+        "수비 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_p",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_p",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "포수 출전 수",
+      "synonyms": [
+        "g p",
+        "투수 출장 수",
+        "투수 경기 수",
+        "투수 횟수",
+        "투수 출전 수",
+        "투수 경기",
+        "투수 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_c",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_c",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "카운터 출전 수",
+      "synonyms": [
+        "g_c",
+        "g 코브라",
+        "코브라 출전 횟수",
+        "g_c 수치",
+        "코브라 게임 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_1b",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_1b",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "1루수 출전 수",
+      "synonyms": [
+        "g_1b",
+        "g 1루수",
+        "1루수 출전 횟수",
+        "g_1b 수치",
+        "1루수 게임 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_2b",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_2b",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "2루수 출전 수",
+      "synonyms": [
+        "g_2b",
+        "g 2루수",
+        "2루수 출전 횟수",
+        "g_2b 수치",
+        "2루수 게임 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_3b",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_3b",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "3루수 출전 수",
+      "synonyms": [
+        "g_3b",
+        "3루수 출장수",
+        "3루수 기록",
+        "3루수 횟수",
+        "3루수 출전수",
+        "3루수 기록수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_ss",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_ss",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "스리커스 출전 수",
+      "synonyms": [
+        "g_ss",
+        "실외수수수 출장수",
+        "실외수수수 기록",
+        "실외수수수 횟수",
+        "실외수수수 출전수",
+        "실외수수수 기록수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_lf",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_lf",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "좌외야수 출전 수",
+      "synonyms": [
+        "g_lf",
+        "좌수수 출장수",
+        "좌수수 기록",
+        "좌수수 횟수",
+        "좌수수 출전수",
+        "좌수수 기록수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_cf",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_cf",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "중앙외야수 출전 수",
+      "synonyms": [
+        "g cf",
+        "중심 외野 출장 횟수",
+        "g cf 수",
+        "외野 중심 출장",
+        "g cf 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_rf",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_rf",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "우외야수 출전 수",
+      "synonyms": [
+        "g rf",
+        "오른쪽 외野 출장 횟수",
+        "g rf 수",
+        "외野 오른쪽 출장",
+        "g rf 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_of",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_of",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "외야수 출전 수",
+      "synonyms": [
+        "g of",
+        "외野 출장 횟수",
+        "g of 수",
+        "외野 출장",
+        "g of 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_dh",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_dh",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "디펜스 히트 출전 수",
+      "synonyms": [
+        "g dh",
+        "디하이트 출장 횟수",
+        "DH 출장 수",
+        "DH 출장",
+        "디하이트 횟수",
+        "DH 역할 출장"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_ph",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_ph",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "대체 타자 출전 수",
+      "synonyms": [
+        "g ph",
+        "대체 타자 출장 횟수",
+        "PH 출장 수",
+        "PH 출장",
+        "대체 타자 횟수",
+        "PH 역할 출장"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appearances_g_pr",
+      "domain": "appearances",
+      "source_table": "appearances",
+      "source_column": "g_pr",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "프리미엄 출전 수",
+      "synonyms": [
+        "g pr",
+        "대체 타자 출장 횟수",
+        "PR 출장 수",
+        "PR 출장",
+        "대체 타자 횟수",
+        "PR 역할 출장"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_award_player_id",
+      "domain": "manager_award",
+      "source_table": "manager_award",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "플레이어 ID",
+      "synonyms": [
+        "player_id",
+        "플레이어 ID",
+        "관리자 플레이어 ID",
+        "플레이어 식별자",
+        "관리자 플레이어 번호",
+        "플레이어 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_award_award_id",
+      "domain": "manager_award",
+      "source_table": "manager_award",
+      "source_column": "award_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "보상 ID",
+      "synonyms": [
+        "award_id",
+        "상장 ID",
+        "관리자 상장 ID",
+        "상장 식별자",
+        "상장 코드",
+        "관리자 상장 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_award_year",
+      "domain": "manager_award",
+      "source_table": "manager_award",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 4.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "year",
+        "연도",
+        "수상 연도",
+        "관리자 수상 연도",
+        "년도",
+        "관리자 수상 년도"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": []
+      }
+    },
+    {
+      "name": "manager_award_league_id",
+      "domain": "manager_award",
+      "source_table": "manager_award",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "리그 ID",
+      "synonyms": [
+        "리그 ID",
+        "리그 식별자",
+        "리그 코드",
+        "리그 번호",
+        "리그 식별",
+        "리그 아이디",
+        "리그 식별 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "KBO": []
+      }
+    },
+    {
+      "name": "manager_award_tie",
+      "domain": "manager_award",
+      "source_table": "manager_award",
+      "source_column": "tie",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "무승부",
+      "synonyms": [
+        "경쟁",
+        "수상 경쟁",
+        "tie 정보",
+        "경쟁 상황",
+        "tie 데이터",
+        "수상 경쟁 상황",
+        "tie 내용",
+        "경쟁 상태"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Y": [
+          "예",
+          "yes"
+        ],
+        "N": [
+          "아니오",
+          "no"
+        ]
+      }
+    },
+    {
+      "name": "manager_award_notes",
+      "domain": "manager_award",
+      "source_table": "manager_award",
+      "source_column": "notes",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "비고",
+      "synonyms": [
+        "비고",
+        "추가 설명",
+        "설명",
+        "비고 정보",
+        "추가 설명 정보",
+        "설명 사항",
+        "비고 데이터",
+        "추가 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_award_player_id",
+      "domain": "player_award",
+      "source_table": "player_award",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "player id",
+      "synonyms": [
+        "플레이어 ID",
+        "선수 ID",
+        "pid",
+        "player_pid",
+        "pid_값",
+        "선수 식별자",
+        "player_id"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_award_award_id",
+      "domain": "player_award",
+      "source_table": "player_award",
+      "source_column": "award_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "award id",
+      "synonyms": [
+        "상 ID",
+        "상 식별자",
+        "award_pid",
+        "award_id_값",
+        "상 번호",
+        "상 식별"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_award_year",
+      "domain": "player_award",
+      "source_table": "player_award",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "year",
+      "synonyms": [
+        "연도",
+        "년도",
+        "년도_값",
+        "수여 연도",
+        "년도_수여",
+        "년도_정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_award_league_id",
+      "domain": "player_award",
+      "source_table": "player_award",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "league id",
+      "synonyms": [
+        "리그 ID",
+        "리그 식별자",
+        "리그 코드",
+        "리그 번호",
+        "리그 식별정보",
+        "리그 아이디"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_award_tie",
+      "domain": "player_award",
+      "source_table": "player_award",
+      "source_column": "tie",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "tie",
+      "synonyms": [
+        "경쟁 상황",
+        "상의 경쟁",
+        "수상 경쟁",
+        "상의 경쟁 상태",
+        "경쟁 정보",
+        "상의 경쟁 상황",
+        "수상 경쟁 상황"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "yes": [
+          "예",
+          "Y"
+        ],
+        "no": [
+          "아니오",
+          "N"
+        ]
+      }
+    },
+    {
+      "name": "player_award_notes",
+      "domain": "player_award",
+      "source_table": "player_award",
+      "source_column": "notes",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "notes",
+      "synonyms": [
+        "추가 설명",
+        "설명",
+        "비고",
+        "참고 정보",
+        "추가 정보",
+        "비고 정보",
+        "설명 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_award_vote_award_id",
+      "domain": "manager_award_vote",
+      "source_table": "manager_award_vote",
+      "source_column": "award_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "보상 id",
+      "synonyms": [
+        "상장 ID",
+        "상장 번호",
+        "상장 코드",
+        "상장 식별자",
+        "award_id",
+        "상장 고유 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "1"
+        ],
+        "2": [
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "manager_award_vote_year",
+      "domain": "manager_award_vote",
+      "source_table": "manager_award_vote",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "연도",
+        "년도",
+        "상장 연도",
+        "award 연도",
+        "년도 정보",
+        "년도 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_award_vote_league_id",
+      "domain": "manager_award_vote",
+      "source_table": "manager_award_vote",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "리그 id",
+      "synonyms": [
+        "연맹 ID",
+        "연맹 번호",
+        "연맹 코드",
+        "연맹 식별자",
+        "league_id",
+        "연맹 고유 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "AL": [
+          "AL",
+          "American League"
+        ],
+        "NL": [
+          "NL",
+          "National League"
+        ]
+      }
+    },
+    {
+      "name": "manager_award_vote_player_id",
+      "domain": "manager_award_vote",
+      "source_table": "manager_award_vote",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "플레이어 id",
+      "synonyms": [
+        "player_id",
+        "선수 ID",
+        "선수 식별자",
+        "선수 코드",
+        "플레이어 ID",
+        "선수 번호",
+        "플레이어 코드",
+        "선수 고유 ID"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "player001": [
+          "player001"
+        ]
+      }
+    },
+    {
+      "name": "manager_award_vote_points_won",
+      "domain": "manager_award_vote",
+      "source_table": "manager_award_vote",
+      "source_column": "points_won",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "획득 점수",
+      "synonyms": [
+        "points_won",
+        "획득 점수",
+        "획득 포인트",
+        "득점",
+        "획득 포인트 수",
+        "득점 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_award_vote_points_max",
+      "domain": "manager_award_vote",
+      "source_table": "manager_award_vote",
+      "source_column": "points_max",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "최대 점수",
+      "synonyms": [
+        "points_max",
+        "최대 점수",
+        "최대 포인트",
+        "최대득점",
+        "최대 포인트 수",
+        "최대 획득 포인트"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_award_vote_votes_first",
+      "domain": "manager_award_vote",
+      "source_table": "manager_award_vote",
+      "source_column": "votes_first",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "첫 번째 투표 수",
+      "synonyms": [
+        "votes_first",
+        "투표 최초",
+        "첫 번째 투표",
+        "최초 투표 점수",
+        "첫 투표",
+        "투표 순위 첫 번째",
+        "첫째 투표",
+        "순위 첫 번째"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_award_vote_award_id",
+      "domain": "player_award_vote",
+      "source_table": "player_award_vote",
+      "source_column": "award_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "award id",
+      "synonyms": [
+        "상금 ID",
+        "상금 번호",
+        "상금 식별자",
+        "상금 코드",
+        "award_id",
+        "상금 고유값"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_award_vote_year",
+      "domain": "player_award_vote",
+      "source_table": "player_award_vote",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "년도",
+        "년도 정보",
+        "년도 데이터",
+        "year",
+        "년도 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_award_vote_league_id",
+      "domain": "player_award_vote",
+      "source_table": "player_award_vote",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "league id",
+      "synonyms": [
+        "리그 ID",
+        "리그 번호",
+        "리그 식별자",
+        "리그 코드",
+        "league_id",
+        "리그 고유값"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_award_vote_player_id",
+      "domain": "player_award_vote",
+      "source_table": "player_award_vote",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "player id",
+      "synonyms": [
+        "player_id",
+        "선수 ID",
+        "선수 번호",
+        "선수 식별자",
+        "선수 코드",
+        "선수 고유값",
+        "선수 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_award_vote_points_won",
+      "domain": "player_award_vote",
+      "source_table": "player_award_vote",
+      "source_column": "points_won",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "points won",
+      "synonyms": [
+        "points_won",
+        "획득 점수",
+        "점수",
+        "점수 획득",
+        "득점"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_award_vote_points_max",
+      "domain": "player_award_vote",
+      "source_table": "player_award_vote",
+      "source_column": "points_max",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "points max",
+      "synonyms": [
+        "points_max",
+        "최대 점수",
+        "최대득점",
+        "점수 한도",
+        "점수 한계",
+        "점수 상한"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_award_vote_votes_first",
+      "domain": "player_award_vote",
+      "source_table": "player_award_vote",
+      "source_column": "votes_first",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "votes first",
+      "synonyms": [
+        "votes_first",
+        "첫 번째 득표 수",
+        "최초 득표",
+        "첫 득표",
+        "첫 순위 득표",
+        "첫 번째 순위 득표",
+        "첫 순위 득점"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_player_id",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "플레이어 ID",
+      "synonyms": [
+        "player_id",
+        "플레이어 ID",
+        "선수 ID",
+        "선수 고유번호",
+        "선수 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_year",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "year",
+        "연도",
+        "년도",
+        "경기년도",
+        "시즌년도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_stint",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "stint",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "시트",
+      "synonyms": [
+        "stint",
+        "시즌 기간",
+        "경기 기간",
+        "시즌 내 기간",
+        "시즌 나이"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_team_id",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "team_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "팀 ID",
+      "synonyms": [
+        "team_id",
+        "구단 ID",
+        "구단 코드",
+        "타자 구단",
+        "구단 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_league_id",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "리그 ID",
+      "synonyms": [
+        "league_id",
+        "리그 ID",
+        "리그 코드",
+        "타자 리그",
+        "리그 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_g",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "g",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "경기",
+      "synonyms": [
+        "g",
+        "경기 수",
+        "출전 경기",
+        "타자 경기",
+        "경기"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_ab",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "ab",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "타석",
+      "synonyms": [
+        "타수",
+        "타수량",
+        "AB",
+        "타수 기록",
+        "AB 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_r",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "r",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "득점",
+      "synonyms": [
+        "득점",
+        "득점수",
+        "R",
+        "득점 기록",
+        "R 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_h",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "h",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "안타",
+      "synonyms": [
+        "안타",
+        "안타수",
+        "H",
+        "안타 기록",
+        "H 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_double",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "double",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "이중 안타",
+      "synonyms": [
+        "이중타",
+        "이중타수",
+        "double",
+        "이중타 개수",
+        "이중타 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_triple",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "triple",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "삼중 안타",
+      "synonyms": [
+        "삼중타",
+        "삼중타수",
+        "triple",
+        "삼중타 개수",
+        "삼중타 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_hr",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "hr",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.5,
+      "primary_label": "홈런",
+      "synonyms": [
+        "홈런",
+        "홈런수",
+        "hr",
+        "홈런 개수",
+        "홈런 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_rbi",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "rbi",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "타점",
+      "synonyms": [
+        "rbi",
+        "출루수",
+        "타자 도움 수",
+        "레이스 수",
+        "출루 기여 수",
+        "타자 레이스",
+        "타자 도움"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_sb",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "sb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "도루",
+      "synonyms": [
+        "sb",
+        "도루",
+        "도루 수",
+        "도루 기록",
+        "도루 횟수",
+        "도루 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_cs",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "cs",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "출루 실패",
+      "synonyms": [
+        "cs",
+        "삼진",
+        "삼진 수",
+        "삼진 기록",
+        "삼진 횟수",
+        "삼진 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_bb",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "bb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "볼넷",
+      "synonyms": [
+        "볼넷",
+        "bb",
+        "볼넷 수",
+        "볼넷 개수",
+        "볼넷 카운트",
+        "볼넷 횟수",
+        "볼넷 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_so",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "so",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "삼진",
+      "synonyms": [
+        "삼진",
+        "so",
+        "삼진 수",
+        "삼진 개수",
+        "삼진 카운트",
+        "삼진 횟수",
+        "삼진 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_ibb",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "ibb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이중 볼넷",
+      "synonyms": [
+        "인터내셔널 볼넷",
+        "ibb",
+        "IBB 수",
+        "인터내셔널 볼넷 수",
+        "IBB 개수",
+        "IBB 카운트"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_hbp",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "hbp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "타자에게 히트",
+      "synonyms": [
+        "hbp",
+        "헤드볼",
+        "헤드볼 타수",
+        "타자 헤드볼",
+        "헤드볼 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_sh",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "sh",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시도",
+      "synonyms": [
+        "sh",
+        "시도",
+        "타자 시도",
+        "타자 시도 횟수",
+        "시도 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_sf",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "sf",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "사용된 타석",
+      "synonyms": [
+        "sf",
+        "스트라이크 플레이",
+        "타자 스트라이크",
+        "스트라이크 기록",
+        "타자 스트라이크 플레이"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_g_idp",
+      "domain": "batting",
+      "source_table": "batting",
+      "source_column": "g_idp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "g idp",
+      "synonyms": [
+        "g idp",
+        "인내심 실패 수",
+        "게임 인내심 실패",
+        "인내심 실패 게임 수",
+        "g_idp 수치",
+        "인내심 실패 게임"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_year",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "연도",
+        "시즌년도",
+        "경기연도",
+        "년도정보",
+        "년도코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_round",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "round",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "라운드",
+      "synonyms": [
+        "라운드",
+        "라운드 정보",
+        "포스트시즌 라운드",
+        "라운드명",
+        "라운드 코드",
+        "라운드 번호",
+        "라운드명칭",
+        "라운드 구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1라운드": [
+          "1라운드"
+        ],
+        "2라운드": [
+          "2라운드"
+        ]
+      }
+    },
+    {
+      "name": "batting_postseason_player_id",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "player id",
+      "synonyms": [
+        "선수 ID",
+        "선수 고유 ID",
+        "선수코드",
+        "선수 식별자",
+        "선수번호",
+        "선수 식별"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_team_id",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "team_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "team id",
+      "synonyms": [
+        "team_id",
+        "팀 ID",
+        "팀 식별자",
+        "소속 팀",
+        "팀 코드",
+        "팀"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_league_id",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "league id",
+      "synonyms": [
+        "league_id",
+        "리그 ID",
+        "리그 식별자",
+        "참가 리그",
+        "리그 코드",
+        "리그"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "KBO": [
+          "KBO"
+        ]
+      }
+    },
+    {
+      "name": "batting_postseason_g",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "g",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "경기",
+      "synonyms": [
+        "g",
+        "경기 수",
+        "출전 경기",
+        "경기",
+        "경기 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_ab",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "ab",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "타석",
+      "synonyms": [
+        "ab",
+        "타수",
+        "타수량",
+        "타수 기록",
+        "타수 수",
+        "타수 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_r",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "r",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "득점",
+      "synonyms": [
+        "r",
+        "삼진",
+        "삼진 수",
+        "삼진 횟수",
+        "삼진 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_h",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "h",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "안타",
+      "synonyms": [
+        "h",
+        "안타",
+        "안타 수",
+        "안타 횟수",
+        "안타 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_double",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "double",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이중안타",
+      "synonyms": [
+        "더블",
+        "더블 타수",
+        "더블 수",
+        "더블 타",
+        "더블 카운트"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_triple",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "triple",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "삼중안타",
+      "synonyms": [
+        "트리플",
+        "트리플 타수",
+        "트리플 수",
+        "트리플 타",
+        "트리플 카운트"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_hr",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "hr",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "홈런",
+      "synonyms": [
+        "홈런",
+        "HR",
+        "홈런 수",
+        "홈런 카운트",
+        "HR 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_rbi",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "rbi",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "타점",
+      "synonyms": [
+        "rbi",
+        "루닝 베이스 인덱스",
+        "루닝 베이스",
+        "rbi 수치",
+        "타자 축구 수",
+        "루닝 베이스 인덱스 수치",
+        "rbi 값",
+        "타자 러닝 베이스"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_sb",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "sb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "스틸",
+      "synonyms": [
+        "도루",
+        "도루 횟수",
+        "sb",
+        "도루 수",
+        "도루 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_cs",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "cs",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "카운트 스탠드",
+      "synonyms": [
+        "캐리지",
+        "cs",
+        "캐리지 수",
+        "캐리지 기록",
+        "수비 실책"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_bb",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "bb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "볼넷",
+      "synonyms": [
+        "삼진",
+        "삼진수",
+        "bb",
+        "삼진 카운트",
+        "삼진 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_so",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "so",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "삼진",
+      "synonyms": [
+        "삼진",
+        "삼진수",
+        "so",
+        "삼진 카운트",
+        "삼진 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_ibb",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "ibb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이중볼넷",
+      "synonyms": [
+        "인터럽트 삼진",
+        "ibb",
+        "인터럽트 삼진 수",
+        "삼진 인터럽트",
+        "삼진 차단"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_hbp",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "hbp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "타자에게 허용된 허브",
+      "synonyms": [
+        "hbp",
+        "해트 부상",
+        "헤드 부상",
+        "hbp 수",
+        "해트 부상 횟수",
+        "헤드 부상 횟수",
+        "hbp 발생"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_sh",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "sh",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시도",
+      "synonyms": [
+        "sh",
+        "시리즈",
+        "슈도",
+        "sh 수",
+        "시리즈 횟수",
+        "슈도 횟수",
+        "sh 발생"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_sf",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "sf",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "스페이스",
+      "synonyms": [
+        "sf",
+        "스플라이",
+        "sf 수",
+        "스플라이 횟수",
+        "sf 발생"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "batting_postseason_g_idp",
+      "domain": "batting_postseason",
+      "source_table": "batting_postseason",
+      "source_column": "g_idp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "g idp",
+      "synonyms": [
+        "g idp",
+        "타수",
+        "타수 기록",
+        "기록된 타수",
+        "g_idp 수치",
+        "타수 값",
+        "타수 기록 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_college_player_id",
+      "domain": "player_college",
+      "source_table": "player_college",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "player id",
+      "synonyms": [
+        "플레이어 ID",
+        "선수 ID",
+        "플레이어 코드",
+        "선수 식별자",
+        "player_id",
+        "플레이어 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_college_college_id",
+      "domain": "player_college",
+      "source_table": "player_college",
+      "source_column": "college_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "college id",
+      "synonyms": [
+        "대학 ID",
+        "college_id",
+        "대학 코드",
+        "대학 식별자",
+        "대학 번호",
+        "학교 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_college_year",
+      "domain": "player_college",
+      "source_table": "player_college",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "year",
+      "synonyms": [
+        "년도",
+        "학년",
+        "재학년도",
+        "학기",
+        "year"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "1년"
+        ],
+        "2": [
+          "2년"
+        ],
+        "3": [
+          "3년"
+        ],
+        "4": [
+          "4년"
+        ]
+      }
+    },
+    {
+      "name": "fielding_player_id",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "플레이어 ID",
+      "synonyms": [
+        "player_id",
+        "플레이어 ID",
+        "선수 ID",
+        "선수 고유 번호",
+        "플레이어 고유 식별자",
+        "선수 식별자",
+        "player identifier"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_year",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "연도",
+        "시즌",
+        "년도 정보",
+        "연도 기록",
+        "연도 데이터",
+        "시즌 연도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_stint",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "stint",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "스티ント",
+      "synonyms": [
+        "시즌 내부 구분",
+        "시즌 구분",
+        "시즌 내 기록",
+        "시즌 번호",
+        "시즌 구분자",
+        "시즌 내부 정보",
+        "시즌 번호 정보",
+        "시즌 내 기록 구분"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_team_id",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "team_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "팀 ID",
+      "synonyms": [
+        "team_id",
+        "팀 ID",
+        "소속 팀",
+        "팀 식별자",
+        "팀 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_league_id",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "리그 ID",
+      "synonyms": [
+        "league_id",
+        "리그 ID",
+        "소속 리그",
+        "리그 식별자",
+        "리그 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_pos",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "pos",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.8,
+      "primary_label": "포지션",
+      "synonyms": [
+        "pos",
+        "포지션",
+        "위치",
+        "포지션 코드",
+        "직책",
+        "경기 위치"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "C": [
+          "카운터",
+          "카운터 포지션"
+        ],
+        "1B": [
+          "1번 타자",
+          "1번 라인"
+        ],
+        "2B": [
+          "2번 타자",
+          "2번 라인"
+        ],
+        "3B": [
+          "3번 타자",
+          "3번 라인"
+        ],
+        "SS": [
+          "스탠드업",
+          "스탠드 스위치"
+        ],
+        "LF": [
+          "좌측 타자"
+        ],
+        "CF": [
+          "중앙 타자"
+        ],
+        "RF": [
+          "우측 타자"
+        ]
+      }
+    },
+    {
+      "name": "fielding_g",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "g",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "경기 수",
+      "synonyms": [
+        "g",
+        "출전 횟수",
+        "게임 수",
+        "출전",
+        "게임"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_gs",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "gs",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.9,
+      "primary_label": "출전 경기 수",
+      "synonyms": [
+        "gs",
+        "스틸",
+        "스틸 횟수",
+        "스틸 게임",
+        "스틸 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_inn_outs",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "inn_outs",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.2,
+      "primary_label": "인 내외",
+      "synonyms": [
+        "inn outs",
+        "인닝 외 수",
+        "인닝 외",
+        "인닝 수",
+        "외 수"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_po",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "po",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.7,
+      "primary_label": "포스",
+      "synonyms": [
+        "po",
+        "안타 수",
+        "안타",
+        "안타 개수",
+        "po 수",
+        "필드링 안타"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_a",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "a",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.6,
+      "primary_label": "아웃",
+      "synonyms": [
+        "a",
+        "더블 플레이",
+        "더블 플레이 수",
+        "a 수",
+        "필드링 더블 플레이"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_e",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "e",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.4,
+      "primary_label": "에러",
+      "synonyms": [
+        "e",
+        "에러",
+        "에러 수",
+        "필드링 에러",
+        "e 수",
+        "필드링 에러 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_dp",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "dp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.3,
+      "primary_label": "디프",
+      "synonyms": [
+        "dp",
+        "더블 플레이",
+        "더블 플레이 수",
+        "dp 수",
+        "더블 플레이 기록",
+        "더블 플레이 횟수",
+        "dp 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_pb",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "pb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.2,
+      "primary_label": "파이브",
+      "synonyms": [
+        "pb",
+        "패브리케이션",
+        "패브",
+        "패브리케이션 수",
+        "패브리케이션 횟수",
+        "pb 수치",
+        "패브리케이션 기록",
+        "필드링 패브리케이션"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_wp",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "wp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.1,
+      "primary_label": "워프",
+      "synonyms": [
+        "wp",
+        "웨이브 패스",
+        "웨이브",
+        "웨이브 패스 수",
+        "웨이브 수",
+        "패스 수",
+        "웨이브 패스 횟수",
+        "웨이브 패스 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_sb",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "sb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "스브",
+      "synonyms": [
+        "도루",
+        "sb",
+        "도루 수",
+        "도루 카운트",
+        "도루 기록",
+        "sb 수",
+        "도루 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_cs",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "cs",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "씨브",
+      "synonyms": [
+        "캐치오버",
+        "cs",
+        "캐치오버 수",
+        "cs 카운트",
+        "캐치오버 기록",
+        "cs 수",
+        "캐치오버 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_zr",
+      "domain": "fielding",
+      "source_table": "fielding",
+      "source_column": "zr",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "조르",
+      "synonyms": [
+        "정확한 캐치",
+        "zr",
+        "정확한 캐치 수",
+        "zr 카운트",
+        "정확한 캐치 기록",
+        "zr 수",
+        "정확한 캐치 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_outfield_player_id",
+      "domain": "fielding_outfield",
+      "source_table": "fielding_outfield",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "player id",
+      "synonyms": [
+        "플레이어 ID",
+        "선수 ID",
+        "player_id",
+        "선수 식별자",
+        "ID"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "player id": [
+          "player id"
+        ]
+      }
+    },
+    {
+      "name": "fielding_outfield_year",
+      "domain": "fielding_outfield",
+      "source_table": "fielding_outfield",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "연도",
+        "년도",
+        "년도 정보",
+        "년도 데이터",
+        "year"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_outfield_stint",
+      "domain": "fielding_outfield",
+      "source_table": "fielding_outfield",
+      "source_column": "stint",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "stint",
+      "synonyms": [
+        "기간",
+        "활동 기간",
+        "stint",
+        "활동 시간",
+        "기간 정보",
+        "stint 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_outfield_glf",
+      "domain": "fielding_outfield",
+      "source_table": "fielding_outfield",
+      "source_column": "glf",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "glf",
+      "synonyms": [
+        "glf",
+        "외야 구장 성과",
+        "GLF 수치",
+        "외야 성과 지표",
+        "구장 성과"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_outfield_gcf",
+      "domain": "fielding_outfield",
+      "source_table": "fielding_outfield",
+      "source_column": "gcf",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "gcf",
+      "synonyms": [
+        "gcf",
+        "외야 정확도",
+        "GCF 수치",
+        "외야 정확성 지표",
+        "정확도 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_outfield_grf",
+      "domain": "fielding_outfield",
+      "source_table": "fielding_outfield",
+      "source_column": "grf",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "grf",
+      "synonyms": [
+        "grf",
+        "외야 총 성과",
+        "GRF 수치",
+        "외야 총 지표",
+        "총 성과 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_postseason_player_id",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "player id",
+      "synonyms": [
+        "player_id",
+        "선수 ID",
+        "선수 고유 번호",
+        "플레이어 ID",
+        "선수 식별자",
+        "플레이어 식별자",
+        "선수 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_postseason_year",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년",
+      "synonyms": [
+        "year",
+        "년도",
+        "시즌 년도",
+        "년도 정보",
+        "년도 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_postseason_team_id",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "team_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "team id",
+      "synonyms": [
+        "team_id",
+        "팀 ID",
+        "팀 고유 번호",
+        "팀 코드",
+        "팀 식별자",
+        "팀 식별 코드",
+        "팀 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_postseason_league_id",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "league id",
+      "synonyms": [
+        "리그 ID",
+        "리그 식별자",
+        "리그 코드",
+        "리그",
+        "리그 아이디",
+        "리그 번호",
+        "리그 식별"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_postseason_round",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "round",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "라운드",
+      "synonyms": [
+        "라운드",
+        "라운드 번호",
+        "경기 라운드",
+        "라운드 정보",
+        "라운드명",
+        "라운드 코드",
+        "라운드 식별"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "postseason": [
+          "포스트시즌"
+        ]
+      }
+    },
+    {
+      "name": "fielding_postseason_pos",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "pos",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "포지션",
+      "synonyms": [
+        "위치",
+        "포지션",
+        "위치 코드",
+        "포지션 이름",
+        "포지션 식별",
+        "포지션 정보",
+        "위치명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "C": [
+          "카운터"
+        ],
+        "1B": [
+          "1번 타자"
+        ],
+        "2B": [
+          "2번 타자"
+        ],
+        "3B": [
+          "3번 타자"
+        ],
+        "SS": [
+          "스리커브"
+        ],
+        "LF": [
+          "좌익수"
+        ],
+        "CF": [
+          "센터수"
+        ],
+        "RF": [
+          "우익수"
+        ],
+        "P": [
+          "포수"
+        ]
+      }
+    },
+    {
+      "name": "fielding_postseason_g",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "g",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "경기",
+      "synonyms": [
+        "g",
+        "경기 수",
+        "경기",
+        "경기 횟수",
+        "경기 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_postseason_gs",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "gs",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "출전 경기",
+      "synonyms": [
+        "gs",
+        "스타팅 경기",
+        "스타팅 경기 수",
+        "스 tart 경기",
+        "스 tart 경기 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_postseason_inn_outs",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "inn_outs",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "inn outs",
+      "synonyms": [
+        "inn outs",
+        "인닝 Outs",
+        "인닝 Outs 수",
+        "인닝 Outs 수치",
+        "Outs 수"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_postseason_po",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "po",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "포",
+      "synonyms": [
+        "po",
+        "포수 성공 수비",
+        "포수 성공 횟수",
+        "수비 성공",
+        "포수 수비 성공"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_postseason_a",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "a",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "아웃",
+      "synonyms": [
+        "a",
+        "야수 수비 성공",
+        "야수 성공 수비",
+        "야수 수비 횟수",
+        "야수 성공"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_postseason_e",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "e",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "에러",
+      "synonyms": [
+        "e",
+        "야수 수비 실패",
+        "야수 실패 수비",
+        "야수 수비 오류",
+        "야수 실패"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_postseason_dp",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "dp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "더블 플레이",
+      "synonyms": [
+        "dp",
+        "도루",
+        "도루 횟수",
+        "도루 기록",
+        "도루 수",
+        "도루 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_postseason_tp",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "tp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "트리플 플레이",
+      "synonyms": [
+        "tp",
+        "타수",
+        "타수 기록",
+        "타수 수",
+        "타수 수치",
+        "타수 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_postseason_pb",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "pb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "포스터 블록",
+      "synonyms": [
+        "pb",
+        "폴런드",
+        "폴런드 횟수",
+        "폴런드 기록",
+        "폴런드 수",
+        "폴런드 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_postseason_sb",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "sb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "스틸",
+      "synonyms": [
+        "도루",
+        "sb",
+        "도루 횟수",
+        "도루 수",
+        "도루 기록",
+        "sb 수치",
+        "도루 통계"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "fielding_postseason_cs",
+      "domain": "fielding_postseason",
+      "source_table": "fielding_postseason",
+      "source_column": "cs",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "카운터 스타트",
+      "synonyms": [
+        "캐리어",
+        "cs",
+        "캐리어 횟수",
+        "캐리어 수",
+        "캐리어 기록",
+        "cs 수치",
+        "캐리어 통계"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "hall_of_fame_player_id",
+      "domain": "hall_of_fame",
+      "source_table": "hall_of_fame",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "player id",
+      "synonyms": [
+        "player_id",
+        "플레이어 ID",
+        "선수 ID",
+        "구단원 ID",
+        "선수 고유 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "hall_of_fame_yearid",
+      "domain": "hall_of_fame",
+      "source_table": "hall_of_fame",
+      "source_column": "yearid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "년도",
+      "synonyms": [
+        "yearid",
+        "년도",
+        "입단 연도",
+        "년도 정보",
+        "년도 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "hall_of_fame_votedby",
+      "domain": "hall_of_fame",
+      "source_table": "hall_of_fame",
+      "source_column": "votedby",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "투표자",
+      "synonyms": [
+        "votedby",
+        "후보자",
+        "선정된 사람",
+        "후보 이름",
+        "유력 후보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "hall_of_fame_ballots",
+      "domain": "hall_of_fame",
+      "source_table": "hall_of_fame",
+      "source_column": "ballots",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "투표장",
+      "synonyms": [
+        "ballots",
+        "투표수",
+        "투표 총수",
+        "투표 총량",
+        "투표 총 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "hall_of_fame_needed",
+      "domain": "hall_of_fame",
+      "source_table": "hall_of_fame",
+      "source_column": "needed",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "필요한 투표수",
+      "synonyms": [
+        "needed",
+        "필요 투표 수",
+        "필요한 투표 수",
+        "필요 투표",
+        "필요 수",
+        "필요한 최소 투표"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "hall_of_fame_votes",
+      "domain": "hall_of_fame",
+      "source_table": "hall_of_fame",
+      "source_column": "votes",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "투표수",
+      "synonyms": [
+        "votes",
+        "투표 수",
+        "득표수",
+        "득표",
+        "투표 횟수",
+        "투표 수치",
+        "투표 결과"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "hall_of_fame_inducted",
+      "domain": "hall_of_fame",
+      "source_table": "hall_of_fame",
+      "source_column": "inducted",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "인정된 날짜",
+      "synonyms": [
+        "inducted",
+        "induction status",
+        "hall of fame status",
+        "inducted status",
+        "hall of fame entry"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "hall_of_fame_category",
+      "domain": "hall_of_fame",
+      "source_table": "hall_of_fame",
+      "source_column": "category",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "분류",
+      "synonyms": [
+        "category",
+        "induction class",
+        "hall of fame category",
+        "category type",
+        "induction type",
+        "hall of fame class",
+        "category name",
+        "induction category"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "player": [
+          "선수"
+        ],
+        "coach": [
+          "코치"
+        ],
+        "manager": [
+          "매니저"
+        ]
+      }
+    },
+    {
+      "name": "hall_of_fame_needed_note",
+      "domain": "hall_of_fame",
+      "source_table": "hall_of_fame",
+      "source_column": "needed_note",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "필요한 노트",
+      "synonyms": [
+        "needed note",
+        "votes needed note",
+        "induction votes note",
+        "needed information",
+        "votes needed details",
+        "induction requirements note",
+        "needed explanation",
+        "votes needed comment"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "home_game_year",
+      "domain": "home_game",
+      "source_table": "home_game",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "연도",
+        "년도 정보",
+        "년도 데이터",
+        "년도 값",
+        "년도 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "home_game_league_id",
+      "domain": "home_game",
+      "source_table": "home_game",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "리그 id",
+      "synonyms": [
+        "리그 ID",
+        "리그 식별자",
+        "리그 코드",
+        "리그 번호",
+        "리그 식별 정보",
+        "리그 고유 ID"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "home_game_team_id",
+      "domain": "home_game",
+      "source_table": "home_game",
+      "source_column": "team_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "팀 id",
+      "synonyms": [
+        "팀 ID",
+        "팀 식별자",
+        "팀 코드",
+        "팀 번호",
+        "팀 고유 ID",
+        "팀 식별 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "home_game_park_id",
+      "domain": "home_game",
+      "source_table": "home_game",
+      "source_column": "park_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "파크 id",
+      "synonyms": [
+        "park_id",
+        "파크 ID",
+        "파크 식별자",
+        "공원 ID",
+        "경기장 ID",
+        "파크 코드",
+        "경기장 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "home_game_span_first",
+      "domain": "home_game",
+      "source_table": "home_game",
+      "source_column": "span_first",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "스팬 첫 번째",
+      "synonyms": [
+        "span_first",
+        "시작 연도",
+        "시작 시기",
+        "시작년도",
+        "시작 기간",
+        "첫 번째 시기"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "home_game_span_last",
+      "domain": "home_game",
+      "source_table": "home_game",
+      "source_column": "span_last",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "스팬 마지막",
+      "synonyms": [
+        "span_last",
+        "종료 연도",
+        "종료 시기",
+        "종료년도",
+        "종료 기간",
+        "마지막 시기"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "home_game_games",
+      "domain": "home_game",
+      "source_table": "home_game",
+      "source_column": "games",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "게임 수",
+      "synonyms": [
+        "게임 수",
+        "경기 수",
+        "게임",
+        "경기",
+        "games"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "home_game_openings",
+      "domain": "home_game",
+      "source_table": "home_game",
+      "source_column": "openings",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "오픈 수",
+      "synonyms": [
+        "열린 문 수",
+        "문 개수",
+        "열린 문",
+        "openings",
+        "문"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "home_game_attendance",
+      "domain": "home_game",
+      "source_table": "home_game",
+      "source_column": "attendance",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "관객 수",
+      "synonyms": [
+        "관객 수",
+        "입장자 수",
+        "관객",
+        "입장자",
+        "attendance"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_player_id",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "player id",
+      "synonyms": [
+        "player_id",
+        "선수 ID",
+        "선수 식별자",
+        "관리자 선수 ID",
+        "플레이어 ID",
+        "선수 고유 번호",
+        "관리자 플레이어 ID"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_year",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "year",
+        "년도",
+        "관리자 년도",
+        "년도 정보",
+        "연도",
+        "관리자 연도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_team_id",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "team_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "team id",
+      "synonyms": [
+        "team_id",
+        "팀 ID",
+        "팀 식별자",
+        "관리자 팀 ID",
+        "팀 고유 번호",
+        "관리자 팀",
+        "팀 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_league_id",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "league id",
+      "synonyms": [
+        "리그 ID",
+        "리그 식별자",
+        "리그 코드",
+        "리그 아이디",
+        "리그 고유값",
+        "리그 식별정보",
+        "리그 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_inseason",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "inseason",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "inseason",
+      "synonyms": [
+        "시즌 중 여부",
+        "시즌 여부",
+        "시즌 중",
+        "시즌 상태",
+        "시즌 여부 정보",
+        "시즌 중 여부 수치",
+        "시즌 여부 표시",
+        "시즌 중 여부 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_g",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "g",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "g",
+      "synonyms": [
+        "경기 수",
+        "경기 횟수",
+        "경기 수치",
+        "경기 기록",
+        "경기 수 정보",
+        "경기 횟수 기록",
+        "경기 수치 기록",
+        "경기 수 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_w",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "w",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "w",
+      "synonyms": [
+        "승리 수",
+        "승리",
+        "w",
+        "승리 기록",
+        "승리 횟수",
+        "승리 통계",
+        "승리 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_l",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "l",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "l",
+      "synonyms": [
+        "l",
+        "승리 수",
+        "승리 경기 수",
+        "승리 수량",
+        "승리 경기",
+        "승리 기록",
+        "승리 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_rank",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "rank",
+      "synonyms": [
+        "rank",
+        "순위",
+        "등수",
+        "등수 순위",
+        "성적 순위",
+        "등수 기준",
+        "등수 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_plyr_mgr",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "plyr_mgr",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "plyr mgr",
+      "synonyms": [
+        "플레이어 매니저",
+        "관리자 선수",
+        "매니저 플레이어",
+        "plyr_mgr",
+        "플레이어 매니저 ID",
+        "관리자 선수 ID",
+        "매니저 플레이어 ID"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_half_player_id",
+      "domain": "manager_half",
+      "source_table": "manager_half",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "플레이어 ID",
+      "synonyms": [
+        "플레이어 ID",
+        "선수 ID",
+        "플레이어 코드",
+        "선수 식별자",
+        "player_id",
+        "선수 고유 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_half_year",
+      "domain": "manager_half",
+      "source_table": "manager_half",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "시즌",
+        "년도 정보",
+        "year",
+        "년도 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_half_team_id",
+      "domain": "manager_half",
+      "source_table": "manager_half",
+      "source_column": "team_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "팀 ID",
+      "synonyms": [
+        "팀 ID",
+        "구단 ID",
+        "팀 코드",
+        "팀 식별자",
+        "team_id",
+        "팀 고유 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_half_league_id",
+      "domain": "manager_half",
+      "source_table": "manager_half",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "리그 ID",
+      "synonyms": [
+        "리그ID",
+        "리그 식별자",
+        "리그코드",
+        "리그",
+        "리그아이디",
+        "리그정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_half_inseason",
+      "domain": "manager_half",
+      "source_table": "manager_half",
+      "source_column": "inseason",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "시즌 중",
+      "synonyms": [
+        "시즌중",
+        "시즌 여부",
+        "시즌중 여부",
+        "inseason",
+        "시즌 여부 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_half_half",
+      "domain": "manager_half",
+      "source_table": "manager_half",
+      "source_column": "half",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "반",
+      "synonyms": [
+        "반기",
+        "상하반기",
+        "시즌 반기",
+        "상반기",
+        "하반기",
+        "반기 수치",
+        "시즌 반기 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "첫 반"
+        ],
+        "2": [
+          "두 번째 반"
+        ]
+      }
+    },
+    {
+      "name": "manager_half_g",
+      "domain": "manager_half",
+      "source_table": "manager_half",
+      "source_column": "g",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "경기",
+      "synonyms": [
+        "g",
+        "경기 수",
+        "경기",
+        "경기 횟수",
+        "경기 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_half_w",
+      "domain": "manager_half",
+      "source_table": "manager_half",
+      "source_column": "w",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "승",
+      "synonyms": [
+        "w",
+        "승리 수",
+        "승리",
+        "승리 횟수",
+        "승리 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_half_l",
+      "domain": "manager_half",
+      "source_table": "manager_half",
+      "source_column": "l",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "패",
+      "synonyms": [
+        "l",
+        "패배 수",
+        "패배",
+        "패배 횟수",
+        "패배 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_half_rank",
+      "domain": "manager_half",
+      "source_table": "manager_half",
+      "source_column": "rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "순위",
+      "synonyms": [
+        "순위",
+        "등수",
+        "등수 정보",
+        "등수 차원",
+        "등수 순위",
+        "rank",
+        "등수 표시",
+        "등수 지수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_player_id",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "플레이어 ID",
+      "synonyms": [
+        "플레이어 ID",
+        "플레이어 식별자",
+        "ID",
+        "플레이어 고유 번호",
+        "플레이어 번호",
+        "player_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_birth_year",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "birth_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "출생 연도",
+      "synonyms": [
+        "생년도",
+        "태어난 해",
+        "출생년도",
+        "birth_year",
+        "년도"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1980": [
+          "1980년"
+        ]
+      }
+    },
+    {
+      "name": "player_birth_month",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "birth_month",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "출생 월",
+      "synonyms": [
+        "생월",
+        "태어난 월",
+        "출생월",
+        "birth_month",
+        "월"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "1월"
+        ]
+      }
+    },
+    {
+      "name": "player_birth_day",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "birth_day",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "출생 일",
+      "synonyms": [
+        "출생일",
+        "출생일자",
+        "출생날",
+        "출생일자리",
+        "출생일정보",
+        "출생일자기"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "15": [
+          "15일"
+        ]
+      }
+    },
+    {
+      "name": "player_birth_country",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "birth_country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "출생 국가",
+      "synonyms": [
+        "출신국",
+        "국가",
+        "출생국가",
+        "국적",
+        "국가정보",
+        "국가명",
+        "국가코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국": [
+          "대한민국"
+        ],
+        "미국": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "player_birth_state",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "birth_state",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "출생 주",
+      "synonyms": [
+        "출신주",
+        "주",
+        "출생주",
+        "지역",
+        "출신지",
+        "주정보",
+        "주명",
+        "지역명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "California": [
+          "캘리포니아"
+        ]
+      }
+    },
+    {
+      "name": "player_birth_city",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "birth_city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "출생 도시",
+      "synonyms": [
+        "birth city",
+        "birthplace city",
+        "birth location city",
+        "city of birth",
+        "birth city name",
+        "native city",
+        "place of birth city"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "세인트루이스": [
+          "Saint Louis"
+        ]
+      }
+    },
+    {
+      "name": "player_death_year",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "death_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "사망 연도",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": [
+          "2020년"
+        ]
+      }
+    },
+    {
+      "name": "player_death_month",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "death_month",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "사망 월",
+      "synonyms": [
+        "사망 월",
+        "사망 달",
+        "사망 월수",
+        "사망 달수",
+        "사망 월 정보",
+        "사망 달 정보",
+        "사망 월 기록",
+        "사망 달 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "12": [
+          "12월"
+        ]
+      }
+    },
+    {
+      "name": "player_death_day",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "death_day",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "사망 일",
+      "synonyms": [
+        "death day",
+        "death date day",
+        "death day of death",
+        "death day part",
+        "death day number",
+        "death day info",
+        "death day detail"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "5": [
+          "5일"
+        ]
+      }
+    },
+    {
+      "name": "player_death_country",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "death_country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "사망 국가",
+      "synonyms": [
+        "death country",
+        "country of death",
+        "death nation",
+        "died country",
+        "death country code",
+        "country where died",
+        "death place country"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국": [
+          "대한민국"
+        ],
+        "미국": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "player_death_state",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "death_state",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "사망 주",
+      "synonyms": [
+        "death state",
+        "death state of player",
+        "deceased state",
+        "state of death",
+        "place of death state"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Texas": [
+          "텍사스"
+        ]
+      }
+    },
+    {
+      "name": "player_death_city",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "death_city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "사망 도시",
+      "synonyms": [
+        "사망 도시",
+        "사망 시티",
+        "사망 도시명",
+        "death city",
+        "사망 지역"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "뉴욕": [
+          "New York"
+        ]
+      }
+    },
+    {
+      "name": "player_name_first",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "name_first",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름 첫글자",
+      "synonyms": [
+        "이름 첫자",
+        "성명 첫 이름",
+        "이름 첫부분",
+        "name first",
+        "성명 앞부분"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_name_last",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "name_last",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름 끝글자",
+      "synonyms": [
+        "이름 끝자",
+        "성명 끝 이름",
+        "이름 끝부분",
+        "name last",
+        "성명 뒷부분"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_name_given",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "name_given",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름 주어진 이름",
+      "synonyms": [
+        "이름",
+        "주 이름",
+        "이름 주",
+        "이름 주소",
+        "이름 주로 사용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_weight",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "weight",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "체중",
+      "synonyms": [
+        "체중",
+        "몸무게",
+        "무게",
+        "체중 정보",
+        "무게 데이터",
+        "체중 기록",
+        "무게 측정"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_height",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "height",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "신장",
+      "synonyms": [
+        "키",
+        "신장",
+        "신장 정보",
+        "키 데이터",
+        "신장 기록",
+        "키 측정",
+        "신장 측정"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_bats",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "bats",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "타격 패턴",
+      "synonyms": [
+        "타격 손잡이",
+        "타격 팔",
+        "타석 손잡이",
+        "타격 방향",
+        "타격 팔쪽",
+        "타격 손",
+        "타격 팔쪽 정보",
+        "타격 손잡이 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "오른손": [
+          "오른손잡이"
+        ],
+        "왼손": [
+          "왼손잡이"
+        ]
+      }
+    },
+    {
+      "name": "player_throws",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "throws",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "던지기 패턴",
+      "synonyms": [
+        "던지기 손잡이",
+        "던지기 팔",
+        "던지기 방향",
+        "던지기 손",
+        "던지기 팔쪽",
+        "던지기 손잡이 정보",
+        "던지기 팔쪽 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "오른손": [
+          "오른손잡이"
+        ],
+        "왼손": [
+          "왼손잡이"
+        ]
+      }
+    },
+    {
+      "name": "player_debut",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "debut",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "데뷔 경기",
+      "synonyms": [
+        "데뷔 날짜",
+        "첫 경기 날짜",
+        "입단 날짜",
+        "첫 출전 날짜",
+        "데뷔 일자",
+        "첫 경기 일자",
+        "입단 일자",
+        "첫 경기"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_final_game",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "final_game",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "최후 경기",
+      "synonyms": [
+        "final game",
+        "last game",
+        "final appearance",
+        "last game played",
+        "final game date",
+        "last game played date",
+        "final game occurrence"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_retro_id",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "retro_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "Retro ID",
+      "synonyms": [
+        "retro id",
+        "retro identifier",
+        "retro number",
+        "Retro ID number",
+        "retro code",
+        "retro identifier code"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_bbref_id",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "bbref_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "BBREF ID",
+      "synonyms": [
+        "bbref id",
+        "bbref identifier",
+        "bbref number",
+        "BBREF ID number",
+        "bbref code",
+        "bbref identifier code"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "park_park_id",
+      "domain": "park",
+      "source_table": "park",
+      "source_column": "park_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.5,
+      "primary_label": "공원 ID",
+      "synonyms": [
+        "공원 ID",
+        "공원 식별자",
+        "p_id",
+        "park_id",
+        "공원 고유 번호",
+        "공원 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "park_park_name",
+      "domain": "park",
+      "source_table": "park",
+      "source_column": "park_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "공원 이름",
+      "synonyms": [
+        "공원 이름",
+        "공원 공식명",
+        "p_name",
+        "park_name",
+        "공원 공식 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 종로구 공원": [
+          "서울 종로구 공원",
+          "종로구 공원"
+        ],
+        "부산 해운대 공원": [
+          "해운대 공원",
+          "부산 해운대 공원"
+        ]
+      }
+    },
+    {
+      "name": "park_park_alias",
+      "domain": "park",
+      "source_table": "park",
+      "source_column": "park_alias",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.2,
+      "primary_label": "공원 별명",
+      "synonyms": [
+        "공원 별칭",
+        "공원 대체명",
+        "p_alias",
+        "park_alias",
+        "공원 별명",
+        "공원 대체 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "산책로 공원": [
+          "산책로",
+          "산책 공원"
+        ],
+        "아이스링크 공원": [
+          "아이스링크",
+          "빙상 공원"
+        ]
+      }
+    },
+    {
+      "name": "park_city",
+      "domain": "park",
+      "source_table": "park",
+      "source_column": "city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "시",
+      "synonyms": [
+        "도시",
+        "도시명",
+        "도시 이름",
+        "도시 정보",
+        "도시명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울시"
+        ],
+        "부산": [
+          "부산시"
+        ]
+      }
+    },
+    {
+      "name": "park_state",
+      "domain": "park",
+      "source_table": "park",
+      "source_column": "state",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "주",
+      "synonyms": [
+        "주",
+        "시도",
+        "주 이름",
+        "주명",
+        "주 정보",
+        "시도 이름",
+        "주명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "경기도": [
+          "경기"
+        ],
+        "강원도": [
+          "강원"
+        ]
+      }
+    },
+    {
+      "name": "park_country",
+      "domain": "park",
+      "source_table": "park",
+      "source_column": "country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "국가명",
+        "국가 이름",
+        "국가 정보",
+        "국가명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "한국",
+          "Korea"
+        ]
+      }
+    },
+    {
+      "name": "pitching_player_id",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "플레이어 ID",
+      "synonyms": [
+        "player_id",
+        "선수 ID",
+        "선수 식별자",
+        "선수 코드",
+        "선수 번호",
+        "선수 고유 ID",
+        "선수 식별"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "player001": [
+          "player001",
+          "P001"
+        ]
+      }
+    },
+    {
+      "name": "pitching_year",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "year",
+        "년도",
+        "연도",
+        "시즌 연도",
+        "연도 정보",
+        "년도 코드",
+        "시즌년도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_stint",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "stint",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "스티ント",
+      "synonyms": [
+        "stint",
+        "시즌 내부 구분자",
+        "시즌 구분",
+        "시즌 내부 번호",
+        "시즌 구분자",
+        "시즌 내부 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_team_id",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "team_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "팀 ID",
+      "synonyms": [
+        "team_id",
+        "팀 ID",
+        "팀 식별자",
+        "팀 코드",
+        "팀 번호",
+        "팀 식별",
+        "팀 구분자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "LAA": [
+          "LAA",
+          "Los Angeles Angels"
+        ],
+        "NYM": [
+          "NYM",
+          "New York Mets"
+        ]
+      }
+    },
+    {
+      "name": "pitching_league_id",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "리그 ID",
+      "synonyms": [
+        "league_id",
+        "리그 ID",
+        "리그 식별자",
+        "리그 코드",
+        "리그 번호",
+        "리그 식별",
+        "리그 구분자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "AL": [
+          "AL",
+          "American League"
+        ],
+        "NL": [
+          "NL",
+          "National League"
+        ]
+      }
+    },
+    {
+      "name": "pitching_w",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "w",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "승",
+      "synonyms": [
+        "w",
+        "승수",
+        "승",
+        "승 횟수",
+        "승 기록",
+        "승 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_l",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "l",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "패",
+      "synonyms": [
+        "패배 수",
+        "L",
+        "패배",
+        "L수",
+        "패배 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_g",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "g",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "경기",
+      "synonyms": [
+        "경기 수",
+        "G",
+        "경기",
+        "G수",
+        "경기 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_gs",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "gs",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "출전 경기",
+      "synonyms": [
+        "정식 경기 수",
+        "GS",
+        "정식 경기",
+        "GS수",
+        "정식 경기 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_cg",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "cg",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "완투",
+      "synonyms": [
+        "cg",
+        "코너 기록",
+        "코너 수",
+        "코너 기록 수",
+        "코너"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_sho",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "sho",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시도",
+      "synonyms": [
+        "sho",
+        "시도 기록",
+        "시도 수",
+        "시도 기록 수",
+        "시도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_sv",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "sv",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "스프링",
+      "synonyms": [
+        "sv",
+        "스피드 기록",
+        "스피드 수",
+        "스피드 기록 수",
+        "스피드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_ipouts",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "ipouts",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "IP 및 아웃",
+      "synonyms": [
+        "ipouts",
+        "인내 시간",
+        "ipouts 수치",
+        "인내 기록",
+        "ipouts 값",
+        "인내 시간 기록",
+        "ipouts 측정",
+        "ipouts 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_h",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "h",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "안타",
+      "synonyms": [
+        "h",
+        "허트 수",
+        "h 값",
+        "허트 기록",
+        "h 측정",
+        "허트 수치",
+        "허트 기준",
+        "h 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_er",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "er",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "실점",
+      "synonyms": [
+        "er",
+        "에러 수",
+        "er 값",
+        "에러 기록",
+        "er 측정",
+        "에러 수치",
+        "에러 기준",
+        "er 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_hr",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "hr",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "홈런",
+      "synonyms": [
+        "홈런",
+        "HR",
+        "홈런 수",
+        "HR 수",
+        "HR 값",
+        "홈런 기록",
+        "HR 통계"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_bb",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "bb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "볼넷",
+      "synonyms": [
+        "범타",
+        "BB",
+        "범타 수",
+        "BB 수",
+        "BB 값",
+        "범타 기록",
+        "BB 통계"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_so",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "so",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "삼진",
+      "synonyms": [
+        "삼진",
+        "SO",
+        "삼진 수",
+        "SO 수",
+        "SO 값",
+        "삼진 기록",
+        "SO 통계"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_baopp",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "baopp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "볼넷 및 삼진 비율",
+      "synonyms": [
+        "baopp",
+        "평균 타율",
+        "타율",
+        "타율 지표",
+        "공격성 지표",
+        "BAOPP 지표",
+        "타율 평균"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_era",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "era",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "ERA",
+      "synonyms": [
+        "era",
+        "평균자책점",
+        "자책점 평균",
+        "투수 성능",
+        "자책점 지표",
+        "투수 ERA"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_ibb",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "ibb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이중볼넷",
+      "synonyms": [
+        "ibb",
+        "인바",
+        "아이바",
+        "인바 수",
+        "아이바 수",
+        "볼 투구 수",
+        "인바 지표",
+        "아이바 지표"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_wp",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "wp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "위드포인트",
+      "synonyms": [
+        "wp",
+        "웨이브 투구 수",
+        "웨이브",
+        "웨이브 투구",
+        "웨이브 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_hbp",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "hbp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "홈런 타격",
+      "synonyms": [
+        "hbp",
+        "헤이트 투구 수",
+        "헤이트",
+        "헤이트 투구",
+        "헤이트 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_bk",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "bk",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "블록",
+      "synonyms": [
+        "bk",
+        "볼 투구 수",
+        "볼",
+        "볼 투구",
+        "볼 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_bfp",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "bfp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "블록 및 포인트",
+      "synonyms": [
+        "bfp",
+        "보너스 포인트",
+        "보너스 포인트 수치",
+        "BFP 값",
+        "피칭 보너스 포인트"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_gf",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "gf",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "골",
+      "synonyms": [
+        "gf",
+        "게임 수치",
+        "피칭 게임",
+        "게임",
+        "GF 값",
+        "피칭 게임 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_r",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "r",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "득점",
+      "synonyms": [
+        "r",
+        "라운드 수치",
+        "피칭 라운드",
+        "라운드",
+        "R 값",
+        "피칭 라운드 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_sh",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "sh",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시도",
+      "synonyms": [
+        "sh",
+        "수비 시도",
+        "수비 성공",
+        "시도 수",
+        "수비 성공 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_sf",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "sf",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "스프링 포인트",
+      "synonyms": [
+        "sf",
+        "수비 실패",
+        "시도 실패",
+        "수비 실패 수",
+        "실패 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_g_idp",
+      "domain": "pitching",
+      "source_table": "pitching",
+      "source_column": "g_idp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "g idp",
+      "synonyms": [
+        "g idp",
+        "IDP 수",
+        "게임 IDP",
+        "일반 수비 실수",
+        "IDP"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_player_id",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "플레이어 ID",
+      "synonyms": [
+        "선수 ID",
+        "선수 식별 번호",
+        "플레이어 ID",
+        "pid",
+        "playerid",
+        "선수 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_year",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "연도",
+        "년도",
+        "시즌 연도",
+        "년도 정보",
+        "년도 코드",
+        "year"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_round",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "round",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "라운드",
+      "synonyms": [
+        "라운드",
+        "라운드 정보",
+        "라운드 코드",
+        "라운드 번호",
+        "라운드명",
+        "라운드 구분",
+        "rnd"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1라운드": [
+          "1라운드"
+        ],
+        "2라운드": [
+          "2라운드"
+        ]
+      }
+    },
+    {
+      "name": "pitching_postseason_team_id",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "team_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "팀 ID",
+      "synonyms": [
+        "team_id",
+        "팀 ID",
+        "팀 식별자",
+        "소속 팀 ID",
+        "팀 코드",
+        "팀 구분자",
+        "팀 식별"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_league_id",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "리그 ID",
+      "synonyms": [
+        "league_id",
+        "리그 ID",
+        "리그 식별자",
+        "소속 리그 ID",
+        "리그 코드",
+        "리그 구분자",
+        "리그 식별"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_w",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "w",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "승",
+      "synonyms": [
+        "w",
+        "승수",
+        "승 횟수",
+        "승 기록",
+        "승수 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_l",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "l",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "패",
+      "synonyms": [
+        "패수",
+        "L",
+        "패",
+        "L수",
+        "패수 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_g",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "g",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "경기",
+      "synonyms": [
+        "g",
+        "출전수",
+        "경기수",
+        "출전 횟수",
+        "G 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_gs",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "gs",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "출전 경기",
+      "synonyms": [
+        "gs",
+        "정규 출전수",
+        "정규 경기 수",
+        "정규 경기",
+        "정규 G",
+        "정규 출전"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_cg",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "cg",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "완투",
+      "synonyms": [
+        "cg",
+        "코치 투구 수",
+        "코치 투구",
+        "코치 투구 기록",
+        "포스트시즌 코치 투구"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_sho",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "sho",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "시도",
+      "synonyms": [
+        "sho",
+        "투수 투구 수",
+        "투수 투구",
+        "투수 투구 기록",
+        "포스트시즌 투수 투구"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_sv",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "sv",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "스탠딩",
+      "synonyms": [
+        "sv",
+        "스크린 투구 수",
+        "스크린 투구",
+        "스크린 투구 기록",
+        "포스트시즌 스크린 투구"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_ipouts",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "ipouts",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "IP아웃",
+      "synonyms": [
+        "ipouts",
+        "ipouts 수",
+        "ipouts 기준 수",
+        "외야수 출루 수",
+        "ipouts 계산 수",
+        "ipouts 기준 값",
+        "ipouts 기준 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_h",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "h",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "안타",
+      "synonyms": [
+        "h",
+        "h 기록",
+        "외야수 출루 수",
+        "h 수",
+        "h 기준 수",
+        "h 기준 기록",
+        "h 기준 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_er",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "er",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "실점",
+      "synonyms": [
+        "er",
+        "er 기록",
+        "에러 수",
+        "er 수",
+        "er 기준 수",
+        "er 기준 기록",
+        "er 기준 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_hr",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "hr",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "홈런",
+      "synonyms": [
+        "홈런",
+        "HR",
+        "홈런 수",
+        "HR 수",
+        "HR 값",
+        "홈런 기록",
+        "HR 통계",
+        "HR 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_bb",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "bb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "볼넷",
+      "synonyms": [
+        "볼넷",
+        "BB",
+        "볼넷 수",
+        "BB 수",
+        "BB 값",
+        "볼넷 기록",
+        "BB 통계",
+        "BB 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_so",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "so",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "삼진",
+      "synonyms": [
+        "삼진",
+        "SO",
+        "삼진 수",
+        "SO 수",
+        "SO 값",
+        "삼진 기록",
+        "SO 통계",
+        "SO 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_baopp",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "baopp",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "배포",
+      "synonyms": [
+        "baopp",
+        "출루율",
+        "출루율 데이터",
+        "BAOPP 값",
+        "출루율 지표",
+        "BAOPP 지표"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_era",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "era",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "ERA",
+      "synonyms": [
+        "era",
+        "에라",
+        "투수 에라",
+        "투수 평균 에라",
+        "ERA 값",
+        "에라 지표"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_ibb",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "ibb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이볼넷",
+      "synonyms": [
+        "ibb",
+        "인바",
+        "인بار 수",
+        "투수 인바",
+        "IBB 값",
+        "인바 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_wp",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "wp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "위드",
+      "synonyms": [
+        "wp",
+        "외야 안타",
+        "외야 안타 수",
+        "외야 안타 통계",
+        "wp 통계",
+        "외야 안타 기록",
+        "wp 기록",
+        "외야 안타 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_hbp",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "hbp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "홈런 타격",
+      "synonyms": [
+        "hbp",
+        "홈런 안타",
+        "홈런 안타 수",
+        "홈런 안타 통계",
+        "hbp 통계",
+        "홈런 안타 기록",
+        "hbp 기록",
+        "홈런 안타 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_bk",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "bk",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "블록",
+      "synonyms": [
+        "bk",
+        "볼넷",
+        "볼넷 수",
+        "볼넷 통계",
+        "bk 통계",
+        "볼넷 기록",
+        "bk 기록",
+        "볼넷 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_bfp",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "bfp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "BFP",
+      "synonyms": [
+        "bfp",
+        "보조 투수 수",
+        "보조 투수 기록",
+        "보조 투수 횟수",
+        "보조 투수 수치",
+        "bfp 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_gf",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "gf",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "골",
+      "synonyms": [
+        "gf",
+        "완투 수",
+        "완투 기록",
+        "완투 횟수",
+        "완투 수치",
+        "gf 수치",
+        "완투 기록 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_r",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "r",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "득점",
+      "synonyms": [
+        "r",
+        "허용 타수",
+        "타수",
+        "타수 수치",
+        "r 수치",
+        "허용 타수 기록",
+        "타수 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_sh",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "sh",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시도",
+      "synonyms": [
+        "sh",
+        "삼진",
+        "삼진수",
+        "삼진 기록",
+        "삼진 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_sf",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "sf",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "스페이스",
+      "synonyms": [
+        "sf",
+        "적정 수비",
+        "수비 기록",
+        "수비 횟수",
+        "수비 수",
+        "적정 수비 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pitching_postseason_g_idp",
+      "domain": "pitching_postseason",
+      "source_table": "pitching_postseason",
+      "source_column": "g_idp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "G IDP",
+      "synonyms": [
+        "g_idp",
+        "타자 수",
+        "타자 기록",
+        "타자 횟수",
+        "타자 수 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "salary_year",
+      "domain": "salary",
+      "source_table": "salary",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "연도 정보",
+        "년도 데이터",
+        "연도 열",
+        "년도 기준",
+        "년도 값",
+        "연도 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "salary_team_id",
+      "domain": "salary",
+      "source_table": "salary",
+      "source_column": "team_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "팀 ID",
+      "synonyms": [
+        "팀 ID",
+        "팀 식별자",
+        "팀 코드",
+        "팀 식별 정보",
+        "팀 ID 값",
+        "팀 코드 정보",
+        "팀 식별 열",
+        "팀 식별자 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "salary_league_id",
+      "domain": "salary",
+      "source_table": "salary",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "리그 ID",
+      "synonyms": [
+        "리그 ID",
+        "리그 식별자",
+        "리그 코드",
+        "리그 식별 정보",
+        "리그 ID 값",
+        "리그 코드 정보",
+        "리그 식별 열",
+        "리그 식별자 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "salary_player_id",
+      "domain": "salary",
+      "source_table": "salary",
+      "source_column": "player_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "플레이어 ID",
+      "synonyms": [
+        "플레이어 ID",
+        "선수 ID",
+        "선수 식별자",
+        "pid",
+        "player",
+        "선수"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "salary_salary",
+      "domain": "salary",
+      "source_table": "salary",
+      "source_column": "salary",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "급여",
+      "synonyms": [
+        "급여",
+        "연도별 급여",
+        "연봉",
+        "보너리",
+        "수입",
+        "급여액",
+        "연도 급여"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "college_college_id",
+      "domain": "college",
+      "source_table": "college",
+      "source_column": "college_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "대학 ID",
+      "synonyms": [
+        "college_id",
+        "college identifier",
+        "college code",
+        "school id",
+        "school identifier",
+        "college number",
+        "school code"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "college_name_full",
+      "domain": "college",
+      "source_table": "college",
+      "source_column": "name_full",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름 전체",
+      "synonyms": [
+        "name_full",
+        "college name",
+        "school name",
+        "institution name",
+        "college full name",
+        "school full name",
+        "college title",
+        "school title"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국대학교": [
+          "한국대",
+          "한국대학교"
+        ],
+        "서울대학교": [
+          "서울대"
+        ]
+      }
+    },
+    {
+      "name": "college_city",
+      "domain": "college",
+      "source_table": "college",
+      "source_column": "city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "도시",
+      "synonyms": [
+        "city",
+        "college city",
+        "school city",
+        "institution city",
+        "college location",
+        "school location",
+        "college town",
+        "school town"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울시"
+        ],
+        "인천": [
+          "인천시"
+        ]
+      }
+    },
+    {
+      "name": "college_state",
+      "domain": "college",
+      "source_table": "college",
+      "source_column": "state",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "주",
+      "synonyms": [
+        "주",
+        "지역",
+        "주소",
+        "행정구역",
+        "주코드",
+        "주소지",
+        "주 정보",
+        "주 지역"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "경기도": [
+          "경기"
+        ],
+        "강원도": [
+          "강원"
+        ]
+      }
+    },
+    {
+      "name": "college_country",
+      "domain": "college",
+      "source_table": "college",
+      "source_column": "country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "나라",
+        "국가명",
+        "국가 이름",
+        "국가 정보",
+        "국가 코드",
+        "국가명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "한국"
+        ]
+      }
+    },
+    {
+      "name": "postseason_year",
+      "domain": "postseason",
+      "source_table": "postseason",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "연도 정보",
+        "시즌 연도",
+        "연도 코드",
+        "년도 데이터",
+        "연도 번호",
+        "시즌 년도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "postseason_round",
+      "domain": "postseason",
+      "source_table": "postseason",
+      "source_column": "round",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "라운드",
+      "synonyms": [
+        "라운드",
+        "스테이지",
+        "경기 단계",
+        "라운드 정보",
+        "경기 단계 정보",
+        "라운드 코드",
+        "단계"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1라운드": [
+          "1라운드",
+          "1라운드 경기"
+        ],
+        "2라운드": [
+          "2라운드",
+          "2라운드 경기"
+        ],
+        "결승": [
+          "결승전",
+          "결승 라운드"
+        ]
+      }
+    },
+    {
+      "name": "postseason_team_id_winner",
+      "domain": "postseason",
+      "source_table": "postseason",
+      "source_column": "team_id_winner",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "승리 팀 ID",
+      "synonyms": [
+        "승리 팀 ID",
+        "팀 식별자",
+        "승리 팀 코드",
+        "팀 ID",
+        "승리 팀",
+        "팀 식별번호",
+        "팀 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "postseason_league_id_winner",
+      "domain": "postseason",
+      "source_table": "postseason",
+      "source_column": "league_id_winner",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "승리 리그 ID",
+      "synonyms": [
+        "리그 우승 리그 ID",
+        "우승 리그 코드",
+        "리그 ID(우승)",
+        "리그 코드(우승 팀)",
+        "우승 리그 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "postseason_team_id_loser",
+      "domain": "postseason",
+      "source_table": "postseason",
+      "source_column": "team_id_loser",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "패배 팀 ID",
+      "synonyms": [
+        "후승 팀 ID",
+        "팀 ID(후승)",
+        "리그 후승 팀 코드",
+        "후승 팀 식별자",
+        "팀 코드(후승)"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "postseason_league_id_loser",
+      "domain": "postseason",
+      "source_table": "postseason",
+      "source_column": "league_id_loser",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "패배 리그 ID",
+      "synonyms": [
+        "리그 후승 리그 ID",
+        "리그 ID(후승)",
+        "후승 리그 코드",
+        "리그 코드(후승 팀)",
+        "후승 리그 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "postseason_wins",
+      "domain": "postseason",
+      "source_table": "postseason",
+      "source_column": "wins",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "승리 수",
+      "synonyms": [
+        "승리수",
+        "승수",
+        "승리",
+        "승리 횟수",
+        "wins",
+        "승리 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "postseason_losses",
+      "domain": "postseason",
+      "source_table": "postseason",
+      "source_column": "losses",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "패배 수",
+      "synonyms": [
+        "패배수",
+        "패수",
+        "패배",
+        "패배 횟수",
+        "losses",
+        "패배 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "postseason_ties",
+      "domain": "postseason",
+      "source_table": "postseason",
+      "source_column": "ties",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "무승부 수",
+      "synonyms": [
+        "무승부 수",
+        "무승부",
+        "무승부 횟수",
+        "ties",
+        "무승부 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_year",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "시즌",
+        "년도 정보",
+        "연도 코드",
+        "시즌년도",
+        "년도별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_league_id",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "리그 id",
+      "synonyms": [
+        "리그 ID",
+        "리그 코드",
+        "리그 식별자",
+        "리그 번호",
+        "리그 구분자",
+        "리그 식별"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "AL": [
+          "알리그",
+          "American League"
+        ],
+        "NL": [
+          "nl리그",
+          "National League"
+        ]
+      }
+    },
+    {
+      "name": "team_team_id",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "team_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "팀 id",
+      "synonyms": [
+        "팀 ID",
+        "팀 코드",
+        "팀 식별자",
+        "팀 번호",
+        "팀 구분자",
+        "팀 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_franchise_id",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "franchise_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "프랜차이즈 id",
+      "synonyms": [
+        "프랜차이즈 ID",
+        "프랜차이즈 식별자",
+        "구단 식별자",
+        "프랜차이즈 코드",
+        "프랜차이즈 번호",
+        "franchise_id",
+        "franchise"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_div_id",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "div_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "디비전 id",
+      "synonyms": [
+        "디비 ID",
+        "디비 식별자",
+        "리그 구분 코드",
+        "구분 ID",
+        "디비",
+        "div_id",
+        "분류 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "E": [
+          "East",
+          "동부"
+        ],
+        "W": [
+          "West",
+          "서부"
+        ]
+      }
+    },
+    {
+      "name": "team_rank",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.2,
+      "primary_label": "순위",
+      "synonyms": [
+        "순위",
+        "등수",
+        "등급",
+        "랭킹",
+        "rank",
+        "순위 정보",
+        "등수 데이터",
+        "성적 순위"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_g",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "g",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "경기 수",
+      "synonyms": [
+        "g",
+        "경기 수",
+        "전체 경기",
+        "경기",
+        "G 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_ghome",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "ghome",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.9,
+      "primary_label": "홈 경기 수",
+      "synonyms": [
+        "ghome",
+        "홈 경기 수",
+        "홈 경기",
+        "홈 게임 수",
+        "홈 게임"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_w",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "w",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.4,
+      "primary_label": "승",
+      "synonyms": [
+        "w",
+        "승리 수",
+        "승리",
+        "승",
+        "승리 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_l",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "l",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.4,
+      "primary_label": "패",
+      "synonyms": [
+        "패배 수",
+        "L",
+        "패",
+        "L수",
+        "패배 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_div_win",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "div_win",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.2,
+      "primary_label": "디비전 승",
+      "synonyms": [
+        "디비전 우승 횟수",
+        "디비전 우승",
+        "디비전 결과",
+        "디비전 승리",
+        "디비전 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Y": [
+          "예",
+          "승"
+        ],
+        "N": [
+          "아니오",
+          "패"
+        ]
+      }
+    },
+    {
+      "name": "team_wc_win",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "wc_win",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "월드 챔피언십 승",
+      "synonyms": [
+        "월드시리즈 우승",
+        "WC 우승",
+        "월드시리즈 결과",
+        "월드시리즈 승리",
+        "WC 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Y": [
+          "예",
+          "승"
+        ],
+        "N": [
+          "아니오",
+          "패"
+        ]
+      }
+    },
+    {
+      "name": "team_lg_win",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "lg_win",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.1,
+      "primary_label": "리그 승",
+      "synonyms": [
+        "리그 우승",
+        "lg_win",
+        "리그 차지",
+        "리그 승리",
+        "리그 우승 여부",
+        "리그 승리 여부",
+        "리그 차지 여부",
+        "리그 우승 상태"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Y": [
+          "예",
+          "승"
+        ],
+        "N": [
+          "아니오",
+          "패"
+        ]
+      }
+    },
+    {
+      "name": "team_ws_win",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "ws_win",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.3,
+      "primary_label": "세이브 승",
+      "synonyms": [
+        "월드시리즈 우승",
+        "ws_win",
+        "월드시리즈 차지",
+        "월드 시리즈 승리",
+        "월드 시리즈 우승 여부",
+        "월드 시리즈 차지 여부",
+        "월드 시리즈 승리 여부"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Y": [
+          "예",
+          "승"
+        ],
+        "N": [
+          "아니오",
+          "패"
+        ]
+      }
+    },
+    {
+      "name": "team_r",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "r",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.7,
+      "primary_label": "타점",
+      "synonyms": [
+        "r",
+        "라운드 관리",
+        "라운드 성과",
+        "라운드 관리 성과",
+        "라운드 성과 지표",
+        "라운드 관리 수치",
+        "라운드 성과 값",
+        "라운드 관리 지표"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_ab",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "ab",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.6,
+      "primary_label": "타석",
+      "synonyms": [
+        "ab",
+        "타수",
+        "총 타수",
+        "타수 수",
+        "타수 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_h",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "h",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "안타",
+      "synonyms": [
+        "h",
+        "안타",
+        "안타 수",
+        "타자 안타",
+        "안타 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_double",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "double",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "이중타",
+      "synonyms": [
+        "double",
+        "이중타",
+        "이중타 수",
+        "타자 이중타",
+        "이중타 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_triple",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "triple",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "삼중타",
+      "synonyms": [
+        "트리플",
+        "삼중타",
+        "3중타",
+        "트리플 수",
+        "삼중타 수",
+        "triple",
+        "triple 수",
+        "삼중타 개수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_hr",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "hr",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.9,
+      "primary_label": "홈런",
+      "synonyms": [
+        "홈런",
+        "HR",
+        "홈런 수",
+        "HR 수",
+        "홈런 개수",
+        "HR 개수",
+        "타자 홈런",
+        "홈런 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_bb",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "bb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.6,
+      "primary_label": "볼넷",
+      "synonyms": [
+        "볼넷",
+        "BB",
+        "볼넷 수",
+        "BB 수",
+        "볼넷 개수",
+        "BB 개수",
+        "타자 볼넷",
+        "볼넷 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_so",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "so",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.7,
+      "primary_label": "삼진",
+      "synonyms": [
+        "so",
+        "삼진수",
+        "삼진",
+        "삼진 카운트",
+        "삼진 횟수",
+        "삼진 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_sb",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "sb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.4,
+      "primary_label": "스틸",
+      "synonyms": [
+        "sb",
+        "도루수",
+        "도루",
+        "도루 횟수",
+        "도루 수치",
+        "도루 카운트"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_cs",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "cs",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.3,
+      "primary_label": "카운터 스타트",
+      "synonyms": [
+        "cs",
+        "출루실패수",
+        "출루 실패",
+        "출루 실패 횟수",
+        "출루 실패 수치",
+        "출루 실패 카운트"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_hbp",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "hbp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.2,
+      "primary_label": "홈런 타격",
+      "synonyms": [
+        "hbp",
+        "하이트 부트",
+        "하이트 부트 수치",
+        "hbp 수치",
+        "하이트 부트 기록",
+        "하이트 부트 카운트",
+        "hbp 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_sf",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "sf",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.1,
+      "primary_label": "스페이스 타격",
+      "synonyms": [
+        "sf",
+        "세라머트",
+        "세라머트 수치",
+        "sf 수치",
+        "세라머트 기록",
+        "세라머트 카운트",
+        "sf 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_ra",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "ra",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "자책점",
+      "synonyms": [
+        "ra",
+        "리그 아웃",
+        "리그 아웃 수치",
+        "ra 수치",
+        "리그 아웃 기록",
+        "리그 아웃 카운트",
+        "ra 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_er",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "er",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.7,
+      "primary_label": "에러",
+      "synonyms": [
+        "에러 수",
+        "에러",
+        "er",
+        "에러 통계",
+        "실책 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_era",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "era",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.6,
+      "primary_label": "에라",
+      "synonyms": [
+        "ERA",
+        "평균 에러 수",
+        "에러 평균",
+        "에러 기준",
+        "에러 평균치",
+        "에러율"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_cg",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "cg",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "승무",
+      "synonyms": [
+        "코치 투수",
+        "cg",
+        "투수 기록",
+        "코치 기록",
+        "투수 수",
+        "코치 투수 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_sho",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "sho",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.4,
+      "primary_label": "쇼",
+      "synonyms": [
+        "sho",
+        "보조 던지기 수",
+        "보조 던지기",
+        "sho 수",
+        "보조 던지기 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_sv",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "sv",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.6,
+      "primary_label": "세이브",
+      "synonyms": [
+        "sv",
+        "스트라이크아웃 수",
+        "스트라이크아웃",
+        "sv 수",
+        "스트라이크아웃 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_ipouts",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "ipouts",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.3,
+      "primary_label": "아웃 수",
+      "synonyms": [
+        "ipouts",
+        "외野수 출루 수",
+        "외野수 출루",
+        "ipouts 수",
+        "외野수 출루 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_ha",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "ha",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.2,
+      "primary_label": "홈런 타격",
+      "synonyms": [
+        "ha",
+        "홈 투구 수",
+        "홈 투수 수",
+        "홈 투구 횟수",
+        "홈 투수 기록",
+        "투수 수",
+        "홈 투구"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_hra",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "hra",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.1,
+      "primary_label": "홈런 타격",
+      "synonyms": [
+        "hra",
+        "홈 라인업 투구 수",
+        "홈 투구 라인업",
+        "홈 투구 라인업 수",
+        "홈 라인업 투구",
+        "홈 라인업 투수 수",
+        "홈 라인업 투구 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_bba",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "bba",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "볼넷",
+      "synonyms": [
+        "bba",
+        "베테랑 투구 수",
+        "홈 베테랑 투구",
+        "홈 베테랑 투구 수",
+        "베테랑 투구",
+        "홈 베테랑 투수 수",
+        "홈 베테랑 투구 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_soa",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "soa",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "삼진",
+      "synonyms": [
+        "soa",
+        "홈 삼진 수",
+        "홈에서의 삼진 수",
+        "삼진 수(홈)",
+        "홈 삼진"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_e",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "e",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.3,
+      "primary_label": "에러",
+      "synonyms": [
+        "e",
+        "홈 에러 수",
+        "홈에서의 에러 수",
+        "에러 수(홈)",
+        "홈 에러"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_dp",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "dp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "디플리트",
+      "synonyms": [
+        "dp",
+        "홈 더블 플레이 수",
+        "홈에서의 더블 플레이 수",
+        "더블 플레이 수(홈)",
+        "홈 더블 플레이"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_fp",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "fp",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "프리미엄",
+      "synonyms": [
+        "fp",
+        "퍼스트 베이스 출장 수",
+        "fp 수",
+        "퍼스트 베이스 출장",
+        "fp 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_name",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "팀 이름",
+      "synonyms": [
+        "name",
+        "구단 이름",
+        "팀 이름",
+        "구단명",
+        "팀명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_park",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "park",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.7,
+      "primary_label": "경기장",
+      "synonyms": [
+        "park",
+        "경기장 이름",
+        "경기장",
+        "구장 이름",
+        "구장"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_attendance",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "attendance",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.4,
+      "primary_label": "관객 수",
+      "synonyms": [
+        "관객수",
+        "관객 수치",
+        "관객 수량",
+        "관람 인원",
+        "이용 인원"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_bpf",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "bpf",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.4,
+      "primary_label": "타율",
+      "synonyms": [
+        "평균 관객 수",
+        "평균 관객 수치",
+        "관객 평균",
+        "관객 평균 수",
+        "관객 평균 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_ppf",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "ppf",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.3,
+      "primary_label": "피칭 평균",
+      "synonyms": [
+        "평균 관객 수",
+        "평균 관객 수치",
+        "관객 평균",
+        "관객 평균 수",
+        "관객 평균 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_team_id_br",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "team_id_br",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "팀 id br",
+      "synonyms": [
+        "team id br",
+        "team identifier br",
+        "team id breakdown",
+        "team id br code",
+        "team id br identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_team_id_lahman45",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "team_id_lahman45",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "팀 id lahman45",
+      "synonyms": [
+        "team id lahman45",
+        "lahman45 team id",
+        "team identifier lahman45",
+        "team id lahman",
+        "team id lahman45 code"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_team_id_retro",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "team_id_retro",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "팀 id retro",
+      "synonyms": [
+        "team id retro",
+        "retro team id",
+        "team identifier retro",
+        "team id retro code",
+        "team id retro identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_franchise_franchise_id",
+      "domain": "team_franchise",
+      "source_table": "team_franchise",
+      "source_column": "franchise_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "franchise id",
+      "synonyms": [
+        "프랜차이즈 ID",
+        "프랜차이즈 고유번호",
+        "프랜차이즈 식별자",
+        "franchise_id",
+        "프랜차이즈 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_franchise_franchise_name",
+      "domain": "team_franchise",
+      "source_table": "team_franchise",
+      "source_column": "franchise_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "franchise name",
+      "synonyms": [
+        "프랜차이즈 이름",
+        "팀 이름",
+        "프랜차이즈명",
+        "franchise_name",
+        "팀명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_franchise_active",
+      "domain": "team_franchise",
+      "source_table": "team_franchise",
+      "source_column": "active",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "active",
+      "synonyms": [
+        "활동 상태",
+        "활동 여부",
+        "프랜차이즈 활동 여부",
+        "active",
+        "활동 여아"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_franchise_na_assoc",
+      "domain": "team_franchise",
+      "source_table": "team_franchise",
+      "source_column": "na_assoc",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "na assoc",
+      "synonyms": [
+        "NA 연맹",
+        "NA 연맹 소속",
+        "NA 연맹 정보",
+        "NA 연맹 관련",
+        "연맹 소속",
+        "연맹 정보",
+        "NA 소속",
+        "NA 연맹 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_half_year",
+      "domain": "team_half",
+      "source_table": "team_half",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "시즌",
+        "연도 정보",
+        "년도별",
+        "년도 데이터",
+        "시즌 연도",
+        "연도 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_half_league_id",
+      "domain": "team_half",
+      "source_table": "team_half",
+      "source_column": "league_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "리그 id",
+      "synonyms": [
+        "리그 ID",
+        "리그 코드",
+        "리그 식별자",
+        "리그 번호",
+        "리그 고유 ID",
+        "리그 코드값",
+        "리그 식별번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_half_team_id",
+      "domain": "team_half",
+      "source_table": "team_half",
+      "source_column": "team_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "팀 id",
+      "synonyms": [
+        "팀 ID",
+        "팀 코드",
+        "팀 식별자",
+        "팀 번호",
+        "팀 고유 ID",
+        "팀 코드값",
+        "팀 식별번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_half_half",
+      "domain": "team_half",
+      "source_table": "team_half",
+      "source_column": "half",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "반",
+      "synonyms": [
+        "반기",
+        "상반기",
+        "하반기",
+        "반기 정보",
+        "half",
+        "반기 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_half_div_id",
+      "domain": "team_half",
+      "source_table": "team_half",
+      "source_column": "div_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "분류 id",
+      "synonyms": [
+        "분류 ID",
+        "구분 ID",
+        "분류코드",
+        "분류",
+        "div_id",
+        "구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_half_div_win",
+      "domain": "team_half",
+      "source_table": "team_half",
+      "source_column": "div_win",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "분류 승",
+      "synonyms": [
+        "부문 승리",
+        "분류 승리",
+        "구분 승리",
+        "분류 승률",
+        "div_win",
+        "부문 승수"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승": [
+          "승리"
+        ],
+        "패": [
+          "패배"
+        ]
+      }
+    },
+    {
+      "name": "team_half_rank",
+      "domain": "team_half",
+      "source_table": "team_half",
+      "source_column": "rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.5,
+      "primary_label": "순위",
+      "synonyms": [
+        "순위",
+        "등수",
+        "등수 정보",
+        "등수 순위",
+        "rank",
+        "등수 값",
+        "순위 수치",
+        "등수 순"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_half_g",
+      "domain": "team_half",
+      "source_table": "team_half",
+      "source_column": "g",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "경기",
+      "synonyms": [
+        "경기 수",
+        "경기 횟수",
+        "경기 수치",
+        "g",
+        "경기",
+        "경기 기록",
+        "경기 수량",
+        "경기 수 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_half_w",
+      "domain": "team_half",
+      "source_table": "team_half",
+      "source_column": "w",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "승",
+      "synonyms": [
+        "승리 수",
+        "승리 횟수",
+        "승리 수치",
+        "w",
+        "승리",
+        "승리 기록",
+        "승리 수량"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_half_l",
+      "domain": "team_half",
+      "source_table": "team_half",
+      "source_column": "l",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "패",
+      "synonyms": [
+        "패배 수",
+        "패수",
+        "L",
+        "패배 경기 수",
+        "L 수",
+        "반기 패배 수",
+        "L 값",
+        "패배 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "all_star_player_fk0",
+      "domain": "all_star",
+      "range": "player",
+      "source_fk": [
+        "all_star.player_id",
+        "player.player_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "appearances_player_fk1",
+      "domain": "appearances",
+      "range": "player",
+      "source_fk": [
+        "appearances.player_id",
+        "player.player_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "출전",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "appearances_team_fk2",
+      "domain": "appearances",
+      "range": "team",
+      "source_fk": [
+        "appearances.team_id",
+        "team.team_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "manager_award_player_fk3",
+      "domain": "manager_award",
+      "range": "player",
+      "source_fk": [
+        "manager_award.player_id",
+        "player.player_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관리상 수상",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "player_award_player_fk4",
+      "domain": "player_award",
+      "range": "player",
+      "source_fk": [
+        "player_award.player_id",
+        "player.player_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "선수상 수상",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "player_award_vote_player_fk5",
+      "domain": "player_award_vote",
+      "range": "player",
+      "source_fk": [
+        "player_award_vote.player_id",
+        "player.player_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "상표 투표",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "batting_player_fk6",
+      "domain": "batting",
+      "range": "player",
+      "source_fk": [
+        "batting.player_id",
+        "player.player_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "타격",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "batting_postseason_team_fk7",
+      "domain": "batting_postseason",
+      "range": "team",
+      "source_fk": [
+        "batting_postseason.team_id",
+        "team.team_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "포스트시즌 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "batting_postseason_player_fk8",
+      "domain": "batting_postseason",
+      "range": "player",
+      "source_fk": [
+        "batting_postseason.player_id",
+        "player.player_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "포스트시즌 타격",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "player_college_college_fk9",
+      "domain": "player_college",
+      "range": "college",
+      "source_fk": [
+        "player_college.college_id",
+        "college.college_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "대학 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "player_college_player_fk10",
+      "domain": "player_college",
+      "range": "player",
+      "source_fk": [
+        "player_college.player_id",
+        "player.player_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "대학 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "fielding_player_fk11",
+      "domain": "fielding",
+      "range": "player",
+      "source_fk": [
+        "fielding.player_id",
+        "player.player_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "수비",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "fielding_outfield_player_fk12",
+      "domain": "fielding_outfield",
+      "range": "player",
+      "source_fk": [
+        "fielding_outfield.player_id",
+        "player.player_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "외야 수비",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "fielding_postseason_player_fk13",
+      "domain": "fielding_postseason",
+      "range": "player",
+      "source_fk": [
+        "fielding_postseason.player_id",
+        "player.player_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "포스트시즌 수비",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "hall_of_fame_player_fk14",
+      "domain": "hall_of_fame",
+      "range": "player",
+      "source_fk": [
+        "hall_of_fame.player_id",
+        "player.player_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "영예의 명예관",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "home_game_park_fk15",
+      "domain": "home_game",
+      "range": "park",
+      "source_fk": [
+        "home_game.park_id",
+        "park.park_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "주거 경기장",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "home_game_team_fk16",
+      "domain": "home_game",
+      "range": "team",
+      "source_fk": [
+        "home_game.team_id",
+        "team.team_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "홈 경기 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "manager_team_fk17",
+      "domain": "manager",
+      "range": "team",
+      "source_fk": [
+        "manager.team_id",
+        "team.team_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관리 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "manager_half_team_fk18",
+      "domain": "manager_half",
+      "range": "team",
+      "source_fk": [
+        "manager_half.team_id",
+        "team.team_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "반기 관리 소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

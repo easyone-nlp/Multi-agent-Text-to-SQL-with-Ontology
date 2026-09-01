@@ -1,0 +1,1236 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "제품",
+      "target_class": "product",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상품",
+      "target_class": "product",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "물건",
+      "target_class": "product",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "품목",
+      "target_class": "product",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상품코드",
+      "target_class": "product",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상품명",
+      "target_class": "product",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "매장",
+      "target_class": "store",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "점포",
+      "target_class": "store",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "매장정보",
+      "target_class": "store",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "매장코드",
+      "target_class": "store",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "매장명",
+      "target_class": "store",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "매장 위치",
+      "target_class": "store",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구역",
+      "target_class": "district",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지역",
+      "target_class": "district",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구역정보",
+      "target_class": "district",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구역코드",
+      "target_class": "district",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구역명",
+      "target_class": "district",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지역정보",
+      "target_class": "district",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "store product",
+      "target_class": "store_product",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "store item",
+      "target_class": "store_product",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "product in store",
+      "target_class": "store_product",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "retail product",
+      "target_class": "store_product",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "shop product",
+      "target_class": "store_product",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "store inventory",
+      "target_class": "store_product",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "in-store item",
+      "target_class": "store_product",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "store district",
+      "target_class": "store_district",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "store area",
+      "target_class": "store_district",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "retail district",
+      "target_class": "store_district",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "shop area",
+      "target_class": "store_district",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "location district",
+      "target_class": "store_district",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "in-store area",
+      "target_class": "store_district",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "store region",
+      "target_class": "store_district",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 ID",
+      "target_class": "product",
+      "target_property": "product_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 번호",
+      "target_class": "product",
+      "target_property": "product_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 식별자",
+      "target_class": "product",
+      "target_property": "product_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product_id",
+      "target_class": "product",
+      "target_property": "product_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 고유 번호",
+      "target_class": "product",
+      "target_property": "product_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "product",
+      "target_property": "product_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 코드",
+      "target_class": "product",
+      "target_property": "product_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 이름",
+      "target_class": "product",
+      "target_property": "product_product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품명",
+      "target_class": "product",
+      "target_property": "product_product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품",
+      "target_class": "product",
+      "target_property": "product_product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product",
+      "target_class": "product",
+      "target_property": "product_product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 제목",
+      "target_class": "product",
+      "target_property": "product_product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품명칭",
+      "target_class": "product",
+      "target_property": "product_product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 정보",
+      "target_class": "product",
+      "target_property": "product_product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 타이틀",
+      "target_class": "product",
+      "target_property": "product_product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "크기",
+      "target_class": "product",
+      "target_property": "product_dimensions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "규격",
+      "target_class": "product",
+      "target_property": "product_dimensions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "크기 정보",
+      "target_class": "product",
+      "target_property": "product_dimensions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 크기",
+      "target_class": "product",
+      "target_property": "product_dimensions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dimensions",
+      "target_class": "product",
+      "target_property": "product_dimensions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 규격",
+      "target_class": "product",
+      "target_property": "product_dimensions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "크기 데이터",
+      "target_class": "product",
+      "target_property": "product_dimensions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 크기 정보",
+      "target_class": "product",
+      "target_property": "product_dimensions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "DPI",
+      "target_class": "product",
+      "target_property": "product_dpi",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dpi",
+      "target_class": "product",
+      "target_property": "product_dpi",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해상도",
+      "target_class": "product",
+      "target_property": "product_dpi",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해상도 수치",
+      "target_class": "product",
+      "target_property": "product_dpi",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Dots Per Inch",
+      "target_class": "product",
+      "target_property": "product_dpi",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "화질 세부 정보",
+      "target_class": "product",
+      "target_property": "product_dpi",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "색상 페이지당 분 출력 속도",
+      "target_class": "product",
+      "target_property": "product_pages_per_minute_color",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pages per minute color",
+      "target_class": "product",
+      "target_property": "product_pages_per_minute_color",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "색 인쇄 속도",
+      "target_class": "product",
+      "target_property": "product_pages_per_minute_color",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "색 페이지 처리 속도",
+      "target_class": "product",
+      "target_property": "product_pages_per_minute_color",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분당 색 페이지 수",
+      "target_class": "product",
+      "target_property": "product_pages_per_minute_color",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "색 인쇄 효율",
+      "target_class": "product",
+      "target_property": "product_pages_per_minute_color",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "색 출력 속도",
+      "target_class": "product",
+      "target_property": "product_pages_per_minute_color",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 페이지 크기",
+      "target_class": "product",
+      "target_property": "product_max_page_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "max page size",
+      "target_class": "product",
+      "target_property": "product_max_page_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가장 큰 페이지 크기",
+      "target_class": "product",
+      "target_property": "product_max_page_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 페이지 사이즈",
+      "target_class": "product",
+      "target_property": "product_max_page_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 페이지 규격",
+      "target_class": "product",
+      "target_property": "product_max_page_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "페이지 크기 제한",
+      "target_class": "product",
+      "target_property": "product_max_page_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인터페이스",
+      "target_class": "product",
+      "target_property": "product_interface",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인터페이스 유형",
+      "target_class": "product",
+      "target_property": "product_interface",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인터페이스 정보",
+      "target_class": "product",
+      "target_property": "product_interface",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인터페이스 종류",
+      "target_class": "product",
+      "target_property": "product_interface",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인터페이스 형식",
+      "target_class": "product",
+      "target_property": "product_interface",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인터페이스 기술",
+      "target_class": "product",
+      "target_property": "product_interface",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인터페이스 데이터",
+      "target_class": "product",
+      "target_property": "product_interface",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인터페이스 특성",
+      "target_class": "product",
+      "target_property": "product_interface",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 ID",
+      "target_class": "store",
+      "target_property": "store_Store_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Store_ID",
+      "target_class": "store",
+      "target_property": "store_Store_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 식별 번호",
+      "target_class": "store",
+      "target_property": "store_Store_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스토어 ID",
+      "target_class": "store",
+      "target_property": "store_Store_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스토어 식별자",
+      "target_class": "store",
+      "target_property": "store_Store_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스토어 번호",
+      "target_class": "store",
+      "target_property": "store_Store_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스토어 고유 번호",
+      "target_class": "store",
+      "target_property": "store_Store_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 이름",
+      "target_class": "store",
+      "target_property": "store_Store_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Store_Name",
+      "target_class": "store",
+      "target_property": "store_Store_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스토어 이름",
+      "target_class": "store",
+      "target_property": "store_Store_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장명",
+      "target_class": "store",
+      "target_property": "store_Store_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스토어 명",
+      "target_class": "store",
+      "target_property": "store_Store_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 대표 이름",
+      "target_class": "store",
+      "target_property": "store_Store_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "type",
+      "target_class": "store",
+      "target_property": "store_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 유형",
+      "target_class": "store",
+      "target_property": "store_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Store_Type",
+      "target_class": "store",
+      "target_property": "store_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스토어 유형",
+      "target_class": "store",
+      "target_property": "store_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 종류",
+      "target_class": "store",
+      "target_property": "store_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스토어 종류",
+      "target_class": "store",
+      "target_property": "store_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스토어 타입",
+      "target_class": "store",
+      "target_property": "store_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 카테고리",
+      "target_class": "store",
+      "target_property": "store_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "area size",
+      "target_class": "store",
+      "target_property": "store_Area_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "면적",
+      "target_class": "store",
+      "target_property": "store_Area_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "규모",
+      "target_class": "store",
+      "target_property": "store_Area_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공간 크기",
+      "target_class": "store",
+      "target_property": "store_Area_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "면적 크기",
+      "target_class": "store",
+      "target_property": "store_Area_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실적 면적",
+      "target_class": "store",
+      "target_property": "store_Area_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가맹점 면적",
+      "target_class": "store",
+      "target_property": "store_Area_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Area_size",
+      "target_class": "store",
+      "target_property": "store_Area_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "number of product category",
+      "target_class": "store",
+      "target_property": "store_Number_of_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 카테고리 수",
+      "target_class": "store",
+      "target_property": "store_Number_of_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카테고리 개수",
+      "target_class": "store",
+      "target_property": "store_Number_of_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 분류 수",
+      "target_class": "store",
+      "target_property": "store_Number_of_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 카테고리 개수",
+      "target_class": "store",
+      "target_property": "store_Number_of_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Number_of_product_category",
+      "target_class": "store",
+      "target_property": "store_Number_of_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 종류 수",
+      "target_class": "store",
+      "target_property": "store_Number_of_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ranking",
+      "target_class": "store",
+      "target_property": "store_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "store",
+      "target_property": "store_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수",
+      "target_class": "store",
+      "target_property": "store_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭킹",
+      "target_class": "store",
+      "target_property": "store_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Ranking",
+      "target_class": "store",
+      "target_property": "store_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가맹점 순위",
+      "target_class": "store",
+      "target_property": "store_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성능 순위",
+      "target_class": "store",
+      "target_property": "store_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "store",
+      "target_property": "store_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역 ID",
+      "target_class": "district",
+      "target_property": "district_District_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "District_ID",
+      "target_class": "district",
+      "target_property": "district_District_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역 번호",
+      "target_class": "district",
+      "target_property": "district_District_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "District No",
+      "target_class": "district",
+      "target_property": "district_District_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역 식별자",
+      "target_class": "district",
+      "target_property": "district_District_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "District Identifier",
+      "target_class": "district",
+      "target_property": "district_District_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역 이름",
+      "target_class": "district",
+      "target_property": "district_District_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역명",
+      "target_class": "district",
+      "target_property": "district_District_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 이름",
+      "target_class": "district",
+      "target_property": "district_District_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "District_name",
+      "target_class": "district",
+      "target_property": "district_District_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역명",
+      "target_class": "district",
+      "target_property": "district_District_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역",
+      "target_class": "district",
+      "target_property": "district_District_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주재시",
+      "target_class": "district",
+      "target_property": "district_Headquartered_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "본부 도시",
+      "target_class": "district",
+      "target_property": "district_Headquartered_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 이름",
+      "target_class": "district",
+      "target_property": "district_Headquartered_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Headquartered_City",
+      "target_class": "district",
+      "target_property": "district_Headquartered_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "district",
+      "target_property": "district_Headquartered_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "본부 도시명",
+      "target_class": "district",
+      "target_property": "district_Headquartered_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시 인구",
+      "target_class": "district",
+      "target_property": "district_City_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 인구",
+      "target_class": "district",
+      "target_property": "district_City_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 거주 인구",
+      "target_class": "district",
+      "target_property": "district_City_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 인구 수",
+      "target_class": "district",
+      "target_property": "district_City_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 인구량",
+      "target_class": "district",
+      "target_property": "district_City_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 인구 정보",
+      "target_class": "district",
+      "target_property": "district_City_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 인구 수치",
+      "target_class": "district",
+      "target_property": "district_City_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 인구 데이터",
+      "target_class": "district",
+      "target_property": "district_City_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 수",
+      "target_class": "district",
+      "target_property": "district_City_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시 면적",
+      "target_class": "district",
+      "target_property": "district_City_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 면적",
+      "target_class": "district",
+      "target_property": "district_City_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 넓이",
+      "target_class": "district",
+      "target_property": "district_City_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 площадь",
+      "target_class": "district",
+      "target_property": "district_City_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 면적 수치",
+      "target_class": "district",
+      "target_property": "district_City_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 면적 정보",
+      "target_class": "district",
+      "target_property": "district_City_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 면적 데이터",
+      "target_class": "district",
+      "target_property": "district_City_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "면적 수",
+      "target_class": "district",
+      "target_property": "district_City_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "면적",
+      "target_class": "district",
+      "target_property": "district_City_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "store id",
+      "target_class": "store_product",
+      "target_property": "store_product_Store_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product id",
+      "target_class": "store_product",
+      "target_property": "store_product_Product_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "store id",
+      "target_class": "store_district",
+      "target_property": "store_district_Store_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "district id",
+      "target_class": "store_district",
+      "target_property": "store_district_District_ID",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시 강남구 매장",
+      "target_class": "store",
+      "target_property": "store_Store_Name",
+      "value": "서울시 강남구 매장"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 강남 매장",
+      "target_class": "store",
+      "target_property": "store_Store_Name",
+      "value": "서울시 강남구 매장"
+    },
+    {
+      "entry_type": "value",
+      "key": "강남 매장",
+      "target_class": "store",
+      "target_property": "store_Store_Name",
+      "value": "서울시 강남구 매장"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산시 해운대 매장",
+      "target_class": "store",
+      "target_property": "store_Store_Name",
+      "value": "부산시 해운대 매장"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산 해운대 매장",
+      "target_class": "store",
+      "target_property": "store_Store_Name",
+      "value": "부산시 해운대 매장"
+    },
+    {
+      "entry_type": "value",
+      "key": "해운대 매장",
+      "target_class": "store",
+      "target_property": "store_Store_Name",
+      "value": "부산시 해운대 매장"
+    },
+    {
+      "entry_type": "value",
+      "key": "서구",
+      "target_class": "district",
+      "target_property": "district_District_name",
+      "value": "서구"
+    },
+    {
+      "entry_type": "value",
+      "key": "동구",
+      "target_class": "district",
+      "target_property": "district_District_name",
+      "value": "동구"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "district",
+      "target_property": "district_Headquartered_City",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천",
+      "target_class": "district",
+      "target_property": "district_Headquartered_City",
+      "value": "인천"
+    }
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "db_id": "dorm_1",
+  "classes": [
+    {
+      "name": "Student",
+      "source_table": "Student",
+      "ranking": 3.5,
+      "primary_label": "학생",
+      "synonyms": [
+        "학생",
+        "입주자",
+        "학도",
+        "주거자",
+        "학생 정보",
+        "학생 데이터"
+      ]
+    },
+    {
+      "name": "Dorm",
+      "source_table": "Dorm",
+      "ranking": 1.0,
+      "primary_label": "도서관",
+      "synonyms": [
+        "숙소",
+        "생활관",
+        "거주 공간",
+        "숙소 정보",
+        "생활관 정보",
+        "숙소 데이터"
+      ]
+    },
+    {
+      "name": "Dorm_amenity",
+      "source_table": "Dorm_amenity",
+      "ranking": 1.0,
+      "primary_label": "dorm amenity",
+      "synonyms": [
+        "시설",
+        "공동시설",
+        "숙소 시설",
+        "생활관 시설",
+        "공용 시설",
+        "숙소 기능"
+      ]
+    },
+    {
+      "name": "Has_amenity",
+      "source_table": "Has_amenity",
+      "ranking": 1.0,
+      "primary_label": "has amenity",
+      "synonyms": [
+        "갖추고 있는 시설",
+        "보유 시설",
+        "설치된 시설",
+        "갖춘 시설",
+        "설비"
+      ]
+    },
+    {
+      "name": "Lives_in",
+      "source_table": "Lives_in",
+      "ranking": 1.0,
+      "primary_label": "lives in",
+      "synonyms": [
+        "거주하는 공간",
+        "거주지",
+        "거주 공간",
+        "거주자",
+        "거주 위치",
+        "거주 장소"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Student_StuID",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "StuID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 ID",
+        "학번",
+        "StuID",
+        "학생 고유 번호",
+        "학번 번호",
+        "학생 식별자",
+        "학번 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_LName",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "LName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "직계",
+        "성 이름",
+        "성자",
+        "성명",
+        "LName",
+        "성 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김",
+          "이",
+          "박"
+        ]
+      }
+    },
+    {
+      "name": "Student_Fname",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Fname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "성명",
+        "이름 정보",
+        "이름자",
+        "이름 데이터",
+        "Fname"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "민수": [
+          "민수",
+          "지현",
+          "서연"
+        ]
+      }
+    },
+    {
+      "name": "Student_Age",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "나이",
+      "synonyms": [
+        "나이",
+        "연령",
+        "나이 정보",
+        "연령 데이터",
+        "나이 열",
+        "연령 열",
+        "나이 기준",
+        "연령 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Sex",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Sex",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성별",
+      "synonyms": [
+        "성별",
+        "성",
+        "성별 정보",
+        "성 데이터",
+        "성별 코드",
+        "성 코드",
+        "성별 구분",
+        "성 구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남자": [
+          "남자",
+          "여자"
+        ]
+      }
+    },
+    {
+      "name": "Student_Major",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Major",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "전공",
+      "synonyms": [
+        "전공",
+        "전공 코드",
+        "전공 정보",
+        "전공 데이터",
+        "전공 코드 열",
+        "전공 열",
+        "전공 구분",
+        "전공 코드 구분"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Advisor",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Advisor",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "상담사",
+      "synonyms": [
+        "Advisor",
+        "교수",
+        "멘토",
+        "지도 교수",
+        "지도자",
+        "학부모",
+        "학문 지도자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_city_code",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "city_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "시 코드",
+      "synonyms": [
+        "city_code",
+        "도시 코드",
+        "도시 식별자",
+        "거주 도시 코드",
+        "도시 코드 정보",
+        "도시 식별번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "01": [
+          "01",
+          "02",
+          "03"
+        ]
+      }
+    },
+    {
+      "name": "Dorm_dormid",
+      "domain": "Dorm",
+      "source_table": "Dorm",
+      "source_column": "dormid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "도서관 ID",
+      "synonyms": [
+        "dormid",
+        "거주 공간 ID",
+        "Dorm 번호",
+        "거주 공간 식별자",
+        "Dorm 코드",
+        "식별 번호",
+        "Dorm 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Dorm_dorm_name",
+      "domain": "Dorm",
+      "source_table": "Dorm",
+      "source_column": "dorm_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "도서관 이름",
+      "synonyms": [
+        "dorm_name",
+        "dorm 이름",
+        "거주 공간 이름",
+        "거주지 이름",
+        "거주 공간",
+        "거주지"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국도서관": [
+          "한국 도서관"
+        ],
+        "국제도서관": [
+          "국제 도서관"
+        ]
+      }
+    },
+    {
+      "name": "Dorm_student_capacity",
+      "domain": "Dorm",
+      "source_table": "Dorm",
+      "source_column": "student_capacity",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "학생 수용 인원",
+      "synonyms": [
+        "student_capacity",
+        "학생 수용량",
+        "학생 수용 인원",
+        "학생 수용 수",
+        "학생 수용 인원 수",
+        "학생 수용 능력"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Dorm_gender",
+      "domain": "Dorm",
+      "source_table": "Dorm",
+      "source_column": "gender",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성별",
+      "synonyms": [
+        "성별",
+        "성",
+        "성별 정보",
+        "성별 구분",
+        "성별 데이터",
+        "성별 코드",
+        "성별 타입",
+        "성별 구분자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남자": [
+          "남"
+        ],
+        "여자": [
+          "여"
+        ]
+      }
+    },
+    {
+      "name": "Dorm_amenity_amenid",
+      "domain": "Dorm_amenity",
+      "source_table": "Dorm_amenity",
+      "source_column": "amenid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "amenity id",
+      "synonyms": [
+        "amenid",
+        "편의 시설 ID",
+        "시설 번호",
+        "편의 시설 고유 번호",
+        "시설 식별자",
+        "아메니티 ID",
+        "편의 시설 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Dorm_amenity_amenity_name",
+      "domain": "Dorm_amenity",
+      "source_table": "Dorm_amenity",
+      "source_column": "amenity_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "amenity name",
+      "synonyms": [
+        "amenity_name",
+        "편의 시설 이름",
+        "시설명",
+        "아메니티 이름",
+        "편의 시설 제목",
+        "시설 이름",
+        "편의 시설 타이틀"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "스포츠 시설": [
+          "스포츠",
+          "스포츠 시설"
+        ],
+        "식당": [
+          "식당",
+          "식사 공간"
+        ],
+        "세탁소": [
+          "세탁소",
+          "세탁"
+        ]
+      }
+    },
+    {
+      "name": "Has_amenity_dormid",
+      "domain": "Has_amenity",
+      "source_table": "Has_amenity",
+      "source_column": "dormid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "dorm id",
+      "synonyms": [
+        "dormid",
+        "숙소 ID",
+        "숙소 번호",
+        "dorm identifier",
+        "숙소 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Has_amenity_amenid",
+      "domain": "Has_amenity",
+      "source_table": "Has_amenity",
+      "source_column": "amenid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "amenity id",
+      "synonyms": [
+        "amenid",
+        "편의 시설 ID",
+        "편의 시설 번호",
+        "amenity identifier",
+        "편의 시설 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Lives_in_stuid",
+      "domain": "Lives_in",
+      "source_table": "Lives_in",
+      "source_column": "stuid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 id",
+      "synonyms": [
+        "stuid",
+        "학생 ID",
+        "학번",
+        "학생 식별 번호",
+        "학번 번호",
+        "학자 정보",
+        "학생 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Lives_in_dormid",
+      "domain": "Lives_in",
+      "source_table": "Lives_in",
+      "source_column": "dormid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "동아파트 id",
+      "synonyms": [
+        "dormid",
+        "총기실 ID",
+        "총기실 코드",
+        "거주 총기실",
+        "총기실 식별자",
+        "총기실 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Lives_in_room_number",
+      "domain": "Lives_in",
+      "source_table": "Lives_in",
+      "source_column": "room_number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "방 번호",
+      "synonyms": [
+        "room_number",
+        "방 번호",
+        "객실 번호",
+        "거주 방",
+        "방 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "101": [
+          "101"
+        ],
+        "205": [
+          "205"
+        ],
+        "303": [
+          "303"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Has_amenity_Dorm_amenity_fk0",
+      "domain": "Has_amenity",
+      "range": "Dorm_amenity",
+      "source_fk": [
+        "Has_amenity.amenid",
+        "Dorm_amenity.amenid"
+      ],
+      "weight": 1.0,
+      "primary_label": "소유",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Has_amenity_Dorm_fk1",
+      "domain": "Has_amenity",
+      "range": "Dorm",
+      "source_fk": [
+        "Has_amenity.dormid",
+        "Dorm.dormid"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Lives_in_Dorm_fk2",
+      "domain": "Lives_in",
+      "range": "Dorm",
+      "source_fk": [
+        "Lives_in.dormid",
+        "Dorm.dormid"
+      ],
+      "weight": 1.0,
+      "primary_label": "거주",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Lives_in_Student_fk3",
+      "domain": "Lives_in",
+      "range": "Student",
+      "source_fk": [
+        "Lives_in.stuid",
+        "Student.StuID"
+      ],
+      "weight": 1.0,
+      "primary_label": "거주",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

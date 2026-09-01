@@ -1,0 +1,353 @@
+{
+  "db_id": "phone_market",
+  "classes": [
+    {
+      "name": "phone",
+      "source_table": "phone",
+      "ranking": 3.0,
+      "primary_label": "전화기",
+      "synonyms": [
+        "휴대폰",
+        "스마트폰",
+        "핸드폰",
+        "모바일",
+        "전화기"
+      ]
+    },
+    {
+      "name": "market",
+      "source_table": "market",
+      "ranking": 3.0,
+      "primary_label": "시장",
+      "synonyms": [
+        "시장",
+        "경제",
+        "산업",
+        "거래",
+        "브랜드"
+      ]
+    },
+    {
+      "name": "phone_market",
+      "source_table": "phone_market",
+      "ranking": 3.0,
+      "primary_label": "폰 마켓",
+      "synonyms": [
+        "휴대폰 시장",
+        "스마트폰 시장",
+        "제품 시장",
+        "기기 시장",
+        "시장 연결"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "phone_Name",
+      "domain": "phone",
+      "source_table": "phone",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "제품명",
+        "전화기 이름",
+        "명",
+        "제품 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "phone_Phone_ID",
+      "domain": "phone",
+      "source_table": "phone",
+      "source_column": "Phone_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "phone id",
+      "synonyms": [
+        "ID",
+        "전화기 ID",
+        "아이디",
+        "기기 번호",
+        "번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "phone_Memory_in_G",
+      "domain": "phone",
+      "source_table": "phone",
+      "source_column": "Memory_in_G",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "memory in g",
+      "synonyms": [
+        "메모리",
+        "용량",
+        "기기 메모리",
+        "보유 메모리",
+        "기기 용량"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "phone_Carrier",
+      "domain": "phone",
+      "source_table": "phone",
+      "source_column": "Carrier",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "carrier",
+      "synonyms": [
+        "통신사",
+        "사용자 통신사",
+        "运营商",
+        "통신 기업",
+        "통신 업체",
+        "사용자 기업",
+        "통신 회사",
+        "통신사 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "phone_Price",
+      "domain": "phone",
+      "source_table": "phone",
+      "source_column": "Price",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "price",
+      "synonyms": [
+        "가격",
+        "전화기 가격",
+        "가격 정보",
+        "가격값",
+        "가격 수치",
+        "전화기 비용",
+        "가격 수준",
+        "가격 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "market_Market_ID",
+      "domain": "market",
+      "source_table": "market",
+      "source_column": "Market_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "market id",
+      "synonyms": [
+        "시장 ID",
+        "시장 번호",
+        "시장 고유 번호",
+        "시장 식별자",
+        "Market_ID",
+        "시장 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "market_District",
+      "domain": "market",
+      "source_table": "market",
+      "source_column": "District",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "district",
+      "synonyms": [
+        "구역",
+        "지역",
+        "시장 위치",
+        "구",
+        "District",
+        "시장 지역"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "market_Num_of_employees",
+      "domain": "market",
+      "source_table": "market",
+      "source_column": "Num_of_employees",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "num of employees",
+      "synonyms": [
+        "직원 수",
+        "근로자 수",
+        "직원 개수",
+        "직원 수량",
+        "Num_of_employees"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "market_Num_of_shops",
+      "domain": "market",
+      "source_table": "market",
+      "source_column": "Num_of_shops",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "num of shops",
+      "synonyms": [
+        "상점 수",
+        "상점 개수",
+        "매장 수",
+        "매장 개수",
+        "상점 수량",
+        "Num_of_shops",
+        "매장 수량"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "market_Ranking",
+      "domain": "market",
+      "source_table": "market",
+      "source_column": "Ranking",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "ranking",
+      "synonyms": [
+        "랭킹",
+        "순위",
+        "등수",
+        "위치",
+        "등급",
+        "순위 정보",
+        "경영 순위",
+        "시장 순위"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "phone_market_Market_ID",
+      "domain": "phone_market",
+      "source_table": "phone_market",
+      "source_column": "Market_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시장 ID",
+      "synonyms": [
+        "시장 ID",
+        "시장 번호",
+        "시장 식별자",
+        "Market_ID",
+        "시장 고유 번호",
+        "시장 식별 번호",
+        "시장 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "phone_market_Phone_ID",
+      "domain": "phone_market",
+      "source_table": "phone_market",
+      "source_column": "Phone_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "폰 ID",
+      "synonyms": [
+        "전화기 ID",
+        "전화기 번호",
+        "전화기 식별자",
+        "Phone_ID",
+        "전화기 고유 번호",
+        "전화기 식별 번호",
+        "전화기 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "phone_market_Num_of_stock",
+      "domain": "phone_market",
+      "source_table": "phone_market",
+      "source_column": "Num_of_stock",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "재고 수량",
+      "synonyms": [
+        "재고 수량",
+        "남은 수량",
+        "재고 개수",
+        "Num_of_stock",
+        "전화기 수량",
+        "재고",
+        "남은 개수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "phone_market_phone_fk0",
+      "domain": "phone_market",
+      "range": "phone",
+      "source_fk": [
+        "phone_market.Phone_ID",
+        "phone.Phone_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "phone_market_market_fk1",
+      "domain": "phone_market",
+      "range": "market",
+      "source_fk": [
+        "phone_market.Market_ID",
+        "market.Market_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

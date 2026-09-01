@@ -1,0 +1,137 @@
+{
+  "class_table": {
+    "club": "club",
+    "club_rank": "club_rank",
+    "player": "player",
+    "competition": "competition",
+    "competition_result": "competition_result"
+  },
+  "property_column": {
+    "club_Club_ID": [
+      "club",
+      "Club_ID"
+    ],
+    "club_name": [
+      "club",
+      "name"
+    ],
+    "club_Region": [
+      "club",
+      "Region"
+    ],
+    "club_Start_year": [
+      "club",
+      "Start_year"
+    ],
+    "club_rank_Rank": [
+      "club_rank",
+      "Rank"
+    ],
+    "club_rank_Club_ID": [
+      "club_rank",
+      "Club_ID"
+    ],
+    "club_rank_Gold": [
+      "club_rank",
+      "Gold"
+    ],
+    "club_rank_Silver": [
+      "club_rank",
+      "Silver"
+    ],
+    "club_rank_Bronze": [
+      "club_rank",
+      "Bronze"
+    ],
+    "club_rank_Total": [
+      "club_rank",
+      "Total"
+    ],
+    "player_Player_ID": [
+      "player",
+      "Player_ID"
+    ],
+    "player_name": [
+      "player",
+      "name"
+    ],
+    "player_Position": [
+      "player",
+      "Position"
+    ],
+    "player_Club_ID": [
+      "player",
+      "Club_ID"
+    ],
+    "player_Apps": [
+      "player",
+      "Apps"
+    ],
+    "player_Tries": [
+      "player",
+      "Tries"
+    ],
+    "player_Goals": [
+      "player",
+      "Goals"
+    ],
+    "player_Points": [
+      "player",
+      "Points"
+    ],
+    "competition_Competition_ID": [
+      "competition",
+      "Competition_ID"
+    ],
+    "competition_Year": [
+      "competition",
+      "Year"
+    ],
+    "competition_Competition_type": [
+      "competition",
+      "Competition_type"
+    ],
+    "competition_Country": [
+      "competition",
+      "Country"
+    ],
+    "competition_result_Competition_ID": [
+      "competition_result",
+      "Competition_ID"
+    ],
+    "competition_result_Club_ID_1": [
+      "competition_result",
+      "Club_ID_1"
+    ],
+    "competition_result_Club_ID_2": [
+      "competition_result",
+      "Club_ID_2"
+    ],
+    "competition_result_Score": [
+      "competition_result",
+      "Score"
+    ]
+  },
+  "object_property_fk": {
+    "club_rank_club_fk0": [
+      "club_rank.Club_ID",
+      "club.Club_ID"
+    ],
+    "player_club_fk1": [
+      "player.Club_ID",
+      "club.Club_ID"
+    ],
+    "competition_result_competition_fk2": [
+      "competition_result.Competition_ID",
+      "competition.Competition_ID"
+    ],
+    "competition_result_club_fk3": [
+      "competition_result.Club_ID_2",
+      "club.Club_ID"
+    ],
+    "competition_result_club_fk4": [
+      "competition_result.Club_ID_1",
+      "club.Club_ID"
+    ]
+  }
+}

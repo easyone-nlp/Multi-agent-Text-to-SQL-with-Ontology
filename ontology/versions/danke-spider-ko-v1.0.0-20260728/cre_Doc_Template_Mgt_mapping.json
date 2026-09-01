@@ -1,0 +1,92 @@
+{
+  "class_table": {
+    "Ref_Template_Types": "Ref_Template_Types",
+    "Templates": "Templates",
+    "Documents": "Documents",
+    "Paragraphs": "Paragraphs"
+  },
+  "property_column": {
+    "Ref_Template_Types_Template_Type_Code": [
+      "Ref_Template_Types",
+      "Template_Type_Code"
+    ],
+    "Ref_Template_Types_Template_Type_Description": [
+      "Ref_Template_Types",
+      "Template_Type_Description"
+    ],
+    "Templates_Template_ID": [
+      "Templates",
+      "Template_ID"
+    ],
+    "Templates_Version_Number": [
+      "Templates",
+      "Version_Number"
+    ],
+    "Templates_Template_Type_Code": [
+      "Templates",
+      "Template_Type_Code"
+    ],
+    "Templates_Date_Effective_From": [
+      "Templates",
+      "Date_Effective_From"
+    ],
+    "Templates_Date_Effective_To": [
+      "Templates",
+      "Date_Effective_To"
+    ],
+    "Templates_Template_Details": [
+      "Templates",
+      "Template_Details"
+    ],
+    "Documents_Document_ID": [
+      "Documents",
+      "Document_ID"
+    ],
+    "Documents_Template_ID": [
+      "Documents",
+      "Template_ID"
+    ],
+    "Documents_Document_Name": [
+      "Documents",
+      "Document_Name"
+    ],
+    "Documents_Document_Description": [
+      "Documents",
+      "Document_Description"
+    ],
+    "Documents_Other_Details": [
+      "Documents",
+      "Other_Details"
+    ],
+    "Paragraphs_Paragraph_ID": [
+      "Paragraphs",
+      "Paragraph_ID"
+    ],
+    "Paragraphs_Document_ID": [
+      "Paragraphs",
+      "Document_ID"
+    ],
+    "Paragraphs_Paragraph_Text": [
+      "Paragraphs",
+      "Paragraph_Text"
+    ],
+    "Paragraphs_Other_Details": [
+      "Paragraphs",
+      "Other_Details"
+    ]
+  },
+  "object_property_fk": {
+    "Templates_Ref_Template_Types_fk0": [
+      "Templates.Template_Type_Code",
+      "Ref_Template_Types.Template_Type_Code"
+    ],
+    "Documents_Templates_fk1": [
+      "Documents.Template_ID",
+      "Templates.Template_ID"
+    ],
+    "Paragraphs_Documents_fk2": [
+      "Paragraphs.Document_ID",
+      "Documents.Document_ID"
+    ]
+  }
+}

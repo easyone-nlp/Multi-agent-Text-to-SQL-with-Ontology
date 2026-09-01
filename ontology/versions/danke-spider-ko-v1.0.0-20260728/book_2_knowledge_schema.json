@@ -1,0 +1,275 @@
+{
+  "db_id": "book_2",
+  "classes": [
+    {
+      "name": "publication",
+      "source_table": "publication",
+      "ranking": 3.0,
+      "primary_label": "출판물",
+      "synonyms": [
+        "발간",
+        "출판",
+        "도서 출판",
+        "출판물",
+        "출판 정보",
+        "출판 기록"
+      ]
+    },
+    {
+      "name": "book",
+      "source_table": "book",
+      "ranking": 3.0,
+      "primary_label": "도서",
+      "synonyms": [
+        "도서",
+        "책",
+        "도서 정보",
+        "도서 데이터",
+        "도서 목록",
+        "도서 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "publication_Publication_ID",
+      "domain": "publication",
+      "source_table": "publication",
+      "source_column": "Publication_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "출판물 ID",
+      "synonyms": [
+        "출판물 ID",
+        "Publication_ID",
+        "출판물 고유 번호",
+        "공개 번호",
+        "판권 번호",
+        "출판물 식별자",
+        "Publication 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "publication_Book_ID",
+      "domain": "publication",
+      "source_table": "publication",
+      "source_column": "Book_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "도서 ID",
+      "synonyms": [
+        "도서 ID",
+        "Book_ID",
+        "도서 고유 번호",
+        "책 식별자",
+        "Book 식별자",
+        "도서 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "publication_Publisher",
+      "domain": "publication",
+      "source_table": "publication",
+      "source_column": "Publisher",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "출판사",
+      "synonyms": [
+        "출판사",
+        "출판업체",
+        "출판자",
+        "출판 회사",
+        "출판 기관",
+        "출판 조직",
+        "Book Publisher",
+        "출판사 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국출판사": [
+          "한국출판사"
+        ],
+        "미국출판사": [
+          "미국출판사"
+        ]
+      }
+    },
+    {
+      "name": "publication_Publication_Date",
+      "domain": "publication",
+      "source_table": "publication",
+      "source_column": "Publication_Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "출판일자",
+      "synonyms": [
+        "출판일자",
+        "출판일",
+        "발행일",
+        "출판일자 정보",
+        "Publication_Date",
+        "발행일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-05-10": [
+          "2023년 5월 10일"
+        ]
+      }
+    },
+    {
+      "name": "publication_Price",
+      "domain": "publication",
+      "source_table": "publication",
+      "source_column": "Price",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "가격",
+      "synonyms": [
+        "가격",
+        "가격 정보",
+        "Price",
+        "도서 가격",
+        "판매 가격",
+        "원가",
+        "가격 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "book_Book_ID",
+      "domain": "book",
+      "source_table": "book",
+      "source_column": "Book_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "도서 ID",
+      "synonyms": [
+        "Book_ID",
+        "도서ID",
+        "도서번호",
+        "책ID",
+        "책번호",
+        "도서 식별자",
+        "도서코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "book_Title",
+      "domain": "book",
+      "source_table": "book",
+      "source_column": "Title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "제목",
+      "synonyms": [
+        "Title",
+        "제목",
+        "책제목",
+        "도서제목",
+        "도서명",
+        "책 이름",
+        "도서 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "소설": [
+          "소설",
+          "소설책"
+        ],
+        "비전": [
+          "비전",
+          "비전서"
+        ]
+      }
+    },
+    {
+      "name": "book_Issues",
+      "domain": "book",
+      "source_table": "book",
+      "source_column": "Issues",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "발행 수",
+      "synonyms": [
+        "Issues",
+        "발행수",
+        "도서발행수",
+        "도서수량",
+        "도서발행횟수",
+        "발행횟수",
+        "도서수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "book_Writer",
+      "domain": "book",
+      "source_table": "book",
+      "source_column": "Writer",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "저자",
+      "synonyms": [
+        "저자",
+        "작가",
+        "작성자",
+        "저자명",
+        "글쓴이",
+        "작가명",
+        "작성자명",
+        "저자 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김영하": [
+          "김영하"
+        ],
+        "이문열": [
+          "이문열"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "publication_book_fk0",
+      "domain": "publication",
+      "range": "book",
+      "source_fk": [
+        "publication.Book_ID",
+        "book.Book_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "발행한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

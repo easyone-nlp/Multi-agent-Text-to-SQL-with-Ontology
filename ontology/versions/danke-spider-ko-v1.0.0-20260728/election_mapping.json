@@ -1,0 +1,95 @@
+{
+  "class_table": {
+    "county": "county",
+    "party": "party",
+    "election": "election"
+  },
+  "property_column": {
+    "county_County_Id": [
+      "county",
+      "County_Id"
+    ],
+    "county_County_name": [
+      "county",
+      "County_name"
+    ],
+    "county_Population": [
+      "county",
+      "Population"
+    ],
+    "county_Zip_code": [
+      "county",
+      "Zip_code"
+    ],
+    "party_Party_ID": [
+      "party",
+      "Party_ID"
+    ],
+    "party_Year": [
+      "party",
+      "Year"
+    ],
+    "party_Party": [
+      "party",
+      "Party"
+    ],
+    "party_Governor": [
+      "party",
+      "Governor"
+    ],
+    "party_Lieutenant_Governor": [
+      "party",
+      "Lieutenant_Governor"
+    ],
+    "party_Comptroller": [
+      "party",
+      "Comptroller"
+    ],
+    "party_Attorney_General": [
+      "party",
+      "Attorney_General"
+    ],
+    "party_US_Senate": [
+      "party",
+      "US_Senate"
+    ],
+    "election_Election_ID": [
+      "election",
+      "Election_ID"
+    ],
+    "election_Counties_Represented": [
+      "election",
+      "Counties_Represented"
+    ],
+    "election_District": [
+      "election",
+      "District"
+    ],
+    "election_Delegate": [
+      "election",
+      "Delegate"
+    ],
+    "election_Party": [
+      "election",
+      "Party"
+    ],
+    "election_First_Elected": [
+      "election",
+      "First_Elected"
+    ],
+    "election_Committee": [
+      "election",
+      "Committee"
+    ]
+  },
+  "object_property_fk": {
+    "election_county_fk0": [
+      "election.District",
+      "county.County_Id"
+    ],
+    "election_party_fk1": [
+      "election.Party",
+      "party.Party_ID"
+    ]
+  }
+}

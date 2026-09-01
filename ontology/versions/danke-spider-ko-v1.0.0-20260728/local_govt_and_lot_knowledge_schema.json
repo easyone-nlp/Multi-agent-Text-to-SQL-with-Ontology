@@ -1,0 +1,1476 @@
+{
+  "db_id": "local_govt_and_lot",
+  "classes": [
+    {
+      "name": "Customers",
+      "source_table": "Customers",
+      "ranking": 3.0,
+      "primary_label": "고객들",
+      "synonyms": [
+        "고객 정보",
+        "이용자 데이터",
+        "주민 거래자",
+        "사용자 기록",
+        "이용자 정보"
+      ]
+    },
+    {
+      "name": "Properties",
+      "source_table": "Properties",
+      "ranking": 3.5,
+      "primary_label": "properties",
+      "synonyms": [
+        "부동산 정보",
+        "재산 데이터",
+        "지자체 자산",
+        "재산 기록",
+        "소유 자산"
+      ]
+    },
+    {
+      "name": "Residents",
+      "source_table": "Residents",
+      "ranking": 3.5,
+      "primary_label": "주민",
+      "synonyms": [
+        "주민 정보",
+        "거주자 데이터",
+        "지자체 주민",
+        "거주자 기록",
+        "이용자 목록"
+      ]
+    },
+    {
+      "name": "Organizations",
+      "source_table": "Organizations",
+      "ranking": 3.0,
+      "primary_label": "조직",
+      "synonyms": [
+        "기관",
+        "기관정보",
+        "행정기관",
+        "공공기관",
+        "지자체 기관"
+      ]
+    },
+    {
+      "name": "Services",
+      "source_table": "Services",
+      "ranking": 3.5,
+      "primary_label": "서비스",
+      "synonyms": [
+        "서비스",
+        "서비스 정보",
+        "행정 서비스",
+        "공공 서비스",
+        "지자체 서비스"
+      ]
+    },
+    {
+      "name": "Residents_Services",
+      "source_table": "Residents_Services",
+      "ranking": 3.5,
+      "primary_label": "residents services",
+      "synonyms": [
+        "주민 서비스",
+        "주민 서비스 연결",
+        "주민 서비스 목록",
+        "주민 서비스 정보",
+        "주민 서비스 관계"
+      ]
+    },
+    {
+      "name": "Things",
+      "source_table": "Things",
+      "ranking": 3.0,
+      "primary_label": "물건",
+      "synonyms": [
+        "things",
+        "items",
+        "entities",
+        "objects",
+        "assets",
+        "elements",
+        "components",
+        "resources"
+      ]
+    },
+    {
+      "name": "Customer_Events",
+      "source_table": "Customer_Events",
+      "ranking": 3.5,
+      "primary_label": "고객 이벤트",
+      "synonyms": [
+        "customer events",
+        "customer activities",
+        "customer incidents",
+        "customer occurrences",
+        "customer happenings",
+        "customer logs",
+        "customer transactions",
+        "customer interactions"
+      ]
+    },
+    {
+      "name": "Customer_Event_Notes",
+      "source_table": "Customer_Event_Notes",
+      "ranking": 3.5,
+      "primary_label": "고객 이벤트 노트",
+      "synonyms": [
+        "event notes",
+        "event comments",
+        "event remarks",
+        "event logs",
+        "event annotations",
+        "event records",
+        "event descriptions"
+      ]
+    },
+    {
+      "name": "Timed_Status_of_Things",
+      "source_table": "Timed_Status_of_Things",
+      "ranking": 3.0,
+      "primary_label": "timed status of things",
+      "synonyms": [
+        "시간 기반 상태 정보",
+        "물체 상태 기록",
+        "시간별 상태 데이터",
+        "물체 상태 추적",
+        "시간 기반 상태 기록"
+      ]
+    },
+    {
+      "name": "Timed_Locations_of_Things",
+      "source_table": "Timed_Locations_of_Things",
+      "ranking": 3.0,
+      "primary_label": "timed locations of things",
+      "synonyms": [
+        "시간 기반 위치 정보",
+        "물체 위치 기록",
+        "시간별 위치 데이터",
+        "물체 위치 추적",
+        "시간 기반 위치 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Customers_customer_id",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 ID",
+        "고객 번호",
+        "고유 고객 번호",
+        "고객 식별자",
+        "고객코드",
+        "ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_details",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "고객 정보",
+      "synonyms": [
+        "고객 정보",
+        "고객 세부 사항",
+        "고객 세부 내용",
+        "고객 정보 내용",
+        "고객 정보 텍스트",
+        "고객 상세 정보",
+        "고객 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "개인 정보": [
+          "개인정보"
+        ],
+        "주소": [
+          "주소정보"
+        ],
+        "연락처": [
+          "연락처 정보"
+        ]
+      }
+    },
+    {
+      "name": "Properties_property_id",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "property_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "property id",
+      "synonyms": [
+        "물건 ID",
+        "지적 재산 ID",
+        "물건 식별 번호",
+        "지적재산 식별번호",
+        "property_id",
+        "물건 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_property_type_code",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "property_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "property type code",
+      "synonyms": [
+        "물건 유형 코드",
+        "지적재산 유형 코드",
+        "물건 종류 코드",
+        "지적재산 코드",
+        "property_type_code",
+        "물건 유형"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아파트": [
+          "아파트",
+          "아파트 단지"
+        ],
+        "빌라": [
+          "빌라",
+          "개인 주택"
+        ],
+        "오피스텔": [
+          "오피스텔",
+          "오피스텔 단지"
+        ]
+      }
+    },
+    {
+      "name": "Properties_property_address",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "property_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "property address",
+      "synonyms": [
+        "물건 주소",
+        "지적재산 주소",
+        "물건 위치",
+        "지적재산 위치",
+        "property_address",
+        "물건 주소 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_other_details",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "other details",
+      "synonyms": [
+        "기타 정보",
+        "추가 설명",
+        "기타 내용",
+        "기타 세부 사항",
+        "기타 설명",
+        "기타 정보 입력",
+        "기타 정보 기재",
+        "기타 세부 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Residents_resident_id",
+      "domain": "Residents",
+      "source_table": "Residents",
+      "source_column": "resident_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주민 ID",
+      "synonyms": [
+        "주민 번호",
+        "주민 ID",
+        "아이디",
+        "주민 식별 번호",
+        "resident_id",
+        "주민 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Residents_property_id",
+      "domain": "Residents",
+      "source_table": "Residents",
+      "source_column": "property_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "부동산 ID",
+      "synonyms": [
+        "부동산 번호",
+        "건물 ID",
+        "물건 ID",
+        "자산 ID",
+        "property_id",
+        "부동산 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Residents_date_moved_in",
+      "domain": "Residents",
+      "source_table": "Residents",
+      "source_column": "date_moved_in",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "입주일",
+      "synonyms": [
+        "입주일",
+        "등록일",
+        "입주 날짜",
+        "등록 날짜",
+        "date_moved_in",
+        "입주 일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-15": [
+          "2023년 1월 15일",
+          "1월 15일"
+        ]
+      }
+    },
+    {
+      "name": "Residents_date_moved_out",
+      "domain": "Residents",
+      "source_table": "Residents",
+      "source_column": "date_moved_out",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "퇴거일",
+      "synonyms": [
+        "이사 해지 일자",
+        "이사 날짜",
+        "이사 해지일",
+        "이사 일자",
+        "이사 해지 날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-06-30": [
+          "2023년 6월 30일",
+          "6월 30일"
+        ]
+      }
+    },
+    {
+      "name": "Residents_other_details",
+      "domain": "Residents",
+      "source_table": "Residents",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "기타 정보",
+      "synonyms": [
+        "기타 정보",
+        "기타 내용",
+        "추가 정보",
+        "기타 상세 사항",
+        "기타 데이터",
+        "기타 설명",
+        "기타 세부 사항"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Organizations_organization_id",
+      "domain": "Organizations",
+      "source_table": "Organizations",
+      "source_column": "organization_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "조직 ID",
+      "synonyms": [
+        "조직 ID",
+        "기관 ID",
+        "조직 식별 번호",
+        "기관 식별 번호",
+        "organization_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Organizations_parent_organization_id",
+      "domain": "Organizations",
+      "source_table": "Organizations",
+      "source_column": "parent_organization_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "부모 조직 ID",
+      "synonyms": [
+        "상위 조직 ID",
+        "부모 조직 ID",
+        "조직 상위 ID",
+        "기관 상위 ID",
+        "parent_organization_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Organizations_organization_details",
+      "domain": "Organizations",
+      "source_table": "Organizations",
+      "source_column": "organization_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "조직 상세 정보",
+      "synonyms": [
+        "조직 상세 정보",
+        "기관 정보",
+        "조직 설명",
+        "기관 설명",
+        "organization_details"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Services_service_id",
+      "domain": "Services",
+      "source_table": "Services",
+      "source_column": "service_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "서비스 ID",
+      "synonyms": [
+        "서비스 ID",
+        "서비스 식별 번호",
+        "service_id",
+        "서비스 고유 번호",
+        "서비스 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Services_organization_id",
+      "domain": "Services",
+      "source_table": "Services",
+      "source_column": "organization_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "기관 ID",
+      "synonyms": [
+        "기관 ID",
+        "기관 식별 번호",
+        "organization_id",
+        "서비스 제공 기관 코드",
+        "기관 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Services_service_type_code",
+      "domain": "Services",
+      "source_table": "Services",
+      "source_column": "service_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "서비스 유형 코드",
+      "synonyms": [
+        "서비스 유형 코드",
+        "service_type_code",
+        "서비스 종류 코드",
+        "서비스 유형 식별자",
+        "서비스 타입 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "공공서비스": [
+          "공공서비스",
+          "공공"
+        ],
+        "개인서비스": [
+          "개인서비스",
+          "개인"
+        ],
+        "교육서비스": [
+          "교육서비스",
+          "교육"
+        ]
+      }
+    },
+    {
+      "name": "Services_service_details",
+      "domain": "Services",
+      "source_table": "Services",
+      "source_column": "service_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "서비스 상세 정보",
+      "synonyms": [
+        "서비스 설명",
+        "서비스 세부 내용",
+        "서비스 설명 정보",
+        "서비스 요약",
+        "서비스 내용",
+        "서비스 상세 정보",
+        "서비스 설명 필드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Residents_Services_resident_id",
+      "domain": "Residents_Services",
+      "source_table": "Residents_Services",
+      "source_column": "resident_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "resident id",
+      "synonyms": [
+        "주민 번호",
+        "주민 ID",
+        "주민 식별 번호",
+        "주민 고유 번호",
+        "주민 코드",
+        "resident id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Residents_Services_service_id",
+      "domain": "Residents_Services",
+      "source_table": "Residents_Services",
+      "source_column": "service_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "service id",
+      "synonyms": [
+        "서비스 번호",
+        "서비스 ID",
+        "서비스 식별 번호",
+        "서비스 고유 번호",
+        "서비스 코드",
+        "service id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Residents_Services_date_moved_in",
+      "domain": "Residents_Services",
+      "source_table": "Residents_Services",
+      "source_column": "date_moved_in",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "date moved in",
+      "synonyms": [
+        "입주일",
+        "등록일",
+        "입주 날짜",
+        "등록 날짜",
+        "주민 입주일",
+        "date_moved_in"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-05-10": [
+          "2023년 5월 10일",
+          "2023-05-10"
+        ]
+      }
+    },
+    {
+      "name": "Residents_Services_property_id",
+      "domain": "Residents_Services",
+      "source_table": "Residents_Services",
+      "source_column": "property_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "property id",
+      "synonyms": [
+        "property id",
+        "재산 번호",
+        "주거지 재산 ID",
+        "재산 식별자",
+        "재산 코드",
+        "주거지 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Residents_Services_date_requested",
+      "domain": "Residents_Services",
+      "source_table": "Residents_Services",
+      "source_column": "date_requested",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "date requested",
+      "synonyms": [
+        "date requested",
+        "요청 날짜",
+        "서비스 요청일",
+        "요청일자",
+        "요청 시간",
+        "서비스 요청일자",
+        "요청 날짜와 시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-04-20": [
+          "2023년 4월 20일",
+          "2023-04-20"
+        ]
+      }
+    },
+    {
+      "name": "Residents_Services_date_provided",
+      "domain": "Residents_Services",
+      "source_table": "Residents_Services",
+      "source_column": "date_provided",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "date provided",
+      "synonyms": [
+        "date provided",
+        "제공 날짜",
+        "서비스 제공일",
+        "제공일자",
+        "제공 시간",
+        "서비스 제공일자",
+        "제공 날짜와 시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-05-15": [
+          "2023년 5월 15일",
+          "2023-05-15"
+        ]
+      }
+    },
+    {
+      "name": "Residents_Services_other_details",
+      "domain": "Residents_Services",
+      "source_table": "Residents_Services",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.5,
+      "primary_label": "other details",
+      "synonyms": [
+        "기타 정보",
+        "추가 설명",
+        "기타 설명",
+        "기타 세부 사항",
+        "기타 정보 내용",
+        "기타 세부 정보",
+        "기타 내용",
+        "기타 추가 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Things_thing_id",
+      "domain": "Things",
+      "source_table": "Things",
+      "source_column": "thing_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "물건 ID",
+      "synonyms": [
+        "thing_id",
+        "물품 ID",
+        "시설 번호",
+        "thing_seq",
+        "thing_no"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Things_organization_id",
+      "domain": "Things",
+      "source_table": "Things",
+      "source_column": "organization_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "기관 ID",
+      "synonyms": [
+        "organization_id",
+        "기관 ID",
+        "소속 기관 번호",
+        "org_id",
+        "기관_seq"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Things_Type_of_Thing_Code",
+      "domain": "Things",
+      "source_table": "Things",
+      "source_column": "Type_of_Thing_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "물건 유형 코드",
+      "synonyms": [
+        "Type_of_Thing_Code",
+        "물품 유형 코드",
+        "thing_type_code",
+        "thing_type",
+        "thing_category"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "A001": [
+          "A001"
+        ],
+        "B002": [
+          "B002"
+        ]
+      }
+    },
+    {
+      "name": "Things_service_type_code",
+      "domain": "Things",
+      "source_table": "Things",
+      "source_column": "service_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "서비스 유형 코드",
+      "synonyms": [
+        "서비스 유형 코드",
+        "서비스 종류 코드",
+        "서비스 타입 코드",
+        "서비스 코드",
+        "서비스 타입",
+        "서비스 유형"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "S001": [
+          "S001"
+        ],
+        "S002": [
+          "S002"
+        ]
+      }
+    },
+    {
+      "name": "Things_service_details",
+      "domain": "Things",
+      "source_table": "Things",
+      "source_column": "service_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "서비스 세부 정보",
+      "synonyms": [
+        "서비스 상세 정보",
+        "서비스 설명",
+        "서비스 세부 사항",
+        "서비스 내용",
+        "서비스 정보",
+        "서비스 세부내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Events_Customer_Event_ID",
+      "domain": "Customer_Events",
+      "source_table": "Customer_Events",
+      "source_column": "Customer_Event_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "customer event id",
+      "synonyms": [
+        "고유 식별 번호",
+        "이벤트 ID",
+        "고객 이벤트 ID",
+        "이벤트 고유 번호",
+        "고객 이벤트 고유 ID",
+        "고유 식별자",
+        "고객 이벤트 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Events_customer_id",
+      "domain": "Customer_Events",
+      "source_table": "Customer_Events",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 ID",
+        "고유 고객 번호",
+        "고객 식별자",
+        "고객 고유 번호",
+        "고객 식별 번호",
+        "고객 번호",
+        "고객 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Events_date_moved_in",
+      "domain": "Customer_Events",
+      "source_table": "Customer_Events",
+      "source_column": "date_moved_in",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "이사 날짜",
+      "synonyms": [
+        "이사 날짜",
+        "이사 일시",
+        "입주 날짜",
+        "입주 일시",
+        "이사 일자",
+        "이사 시간",
+        "이사 일자 시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Events_property_id",
+      "domain": "Customer_Events",
+      "source_table": "Customer_Events",
+      "source_column": "property_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "부동산 ID",
+      "synonyms": [
+        "property id",
+        "부동산 번호",
+        "건물 ID",
+        "재산 번호",
+        "물건 ID",
+        "부동산 식별자",
+        "재산 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Events_resident_id",
+      "domain": "Customer_Events",
+      "source_table": "Customer_Events",
+      "source_column": "resident_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "거주자 ID",
+      "synonyms": [
+        "resident id",
+        "거주자 번호",
+        "주민 ID",
+        "주민 코드",
+        "거주자 식별자",
+        "주민 식별번호",
+        "인구 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Events_thing_id",
+      "domain": "Customer_Events",
+      "source_table": "Customer_Events",
+      "source_column": "thing_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "물건 ID",
+      "synonyms": [
+        "thing id",
+        "물건 번호",
+        "물품 ID",
+        "항목 코드",
+        "물건 식별자",
+        "항목 식별번호",
+        "물품 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Event_Notes_Customer_Event_Note_ID",
+      "domain": "Customer_Event_Notes",
+      "source_table": "Customer_Event_Notes",
+      "source_column": "Customer_Event_Note_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 이벤트 노트 ID",
+      "synonyms": [
+        "고유 식별 번호",
+        "고객 이벤트 노트 ID",
+        "고객 이벤트 노트 고유 번호",
+        "고유 번호",
+        "고객 이벤트 노트 식별자",
+        "고객 이벤트 노트 아이디",
+        "고유 식별 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Event_Notes_Customer_Event_ID",
+      "domain": "Customer_Event_Notes",
+      "source_table": "Customer_Event_Notes",
+      "source_column": "Customer_Event_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 이벤트 ID",
+      "synonyms": [
+        "고유 식별 번호",
+        "고객 이벤트 ID",
+        "고객 이벤트 고유 번호",
+        "고유 번호",
+        "고객 이벤트 식별자",
+        "고객 이벤트 아이디",
+        "고유 식별 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Event_Notes_service_type_code",
+      "domain": "Customer_Event_Notes",
+      "source_table": "Customer_Event_Notes",
+      "source_column": "service_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "서비스 유형 코드",
+      "synonyms": [
+        "서비스 유형 코드",
+        "서비스 코드",
+        "서비스 유형 코드 정보",
+        "서비스 코드 정보",
+        "서비스 유형 코드 값",
+        "서비스 코드 값",
+        "서비스 유형 코드 항목",
+        "서비스 코드 항목"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "주거 서비스": [
+          "주거 서비스",
+          "residential service"
+        ],
+        "이사 서비스": [
+          "이사 서비스",
+          "move-in service"
+        ],
+        "보안 서비스": [
+          "보안 서비스",
+          "security service"
+        ]
+      }
+    },
+    {
+      "name": "Customer_Event_Notes_resident_id",
+      "domain": "Customer_Event_Notes",
+      "source_table": "Customer_Event_Notes",
+      "source_column": "resident_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "거주자 ID",
+      "synonyms": [
+        "resident_id",
+        "주민번호",
+        "주민 ID",
+        "주민 정보",
+        "주민 식별 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Event_Notes_property_id",
+      "domain": "Customer_Event_Notes",
+      "source_table": "Customer_Event_Notes",
+      "source_column": "property_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "부동산 ID",
+      "synonyms": [
+        "property_id",
+        "부동산 번호",
+        "건물 번호",
+        "자산 번호",
+        "소유물 ID",
+        "자산 정보",
+        "자산 식별 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Event_Notes_date_moved_in",
+      "domain": "Customer_Event_Notes",
+      "source_table": "Customer_Event_Notes",
+      "source_column": "date_moved_in",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "이사 입주일",
+      "synonyms": [
+        "date_moved_in",
+        "이사일",
+        "입주일",
+        "이사 날짜",
+        "입주 날짜",
+        "이사 일자",
+        "입주 일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Timed_Status_of_Things_thing_id",
+      "domain": "Timed_Status_of_Things",
+      "source_table": "Timed_Status_of_Things",
+      "source_column": "thing_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "thing id",
+      "synonyms": [
+        "thing_id",
+        "물건 ID",
+        "물건 식별자",
+        "thing_seq",
+        "thing_number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Timed_Status_of_Things_Date_and_Date",
+      "domain": "Timed_Status_of_Things",
+      "source_table": "Timed_Status_of_Things",
+      "source_column": "Date_and_Date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "date and date",
+      "synonyms": [
+        "Date_and_Date",
+        "날짜",
+        "날짜와 시간",
+        "일시",
+        "날짜 시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Timed_Status_of_Things_Status_of_Thing_Code",
+      "domain": "Timed_Status_of_Things",
+      "source_table": "Timed_Status_of_Things",
+      "source_column": "Status_of_Thing_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "status of thing code",
+      "synonyms": [
+        "Status_of_Thing_Code",
+        "상태 코드",
+        "상태 코드 값",
+        "thing_status_code",
+        "status_code"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "정상": [
+          "정상"
+        ],
+        "비정상": [
+          "비정상"
+        ],
+        "보수 필요": [
+          "보수 필요"
+        ]
+      }
+    },
+    {
+      "name": "Timed_Locations_of_Things_thing_id",
+      "domain": "Timed_Locations_of_Things",
+      "source_table": "Timed_Locations_of_Things",
+      "source_column": "thing_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "thing id",
+      "synonyms": [
+        "thing_id",
+        "item ID",
+        "entity ID",
+        "object ID",
+        "thing",
+        "item"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Timed_Locations_of_Things_Date_and_Time",
+      "domain": "Timed_Locations_of_Things",
+      "source_table": "Timed_Locations_of_Things",
+      "source_column": "Date_and_Time",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 4.0,
+      "primary_label": "date and time",
+      "synonyms": [
+        "Date_and_Time",
+        "time recorded",
+        "observation time",
+        "timestamp",
+        "datetime",
+        "time"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-05 14:30:00": [
+          "2023-10-05 14:30"
+        ]
+      }
+    },
+    {
+      "name": "Timed_Locations_of_Things_Location_Code",
+      "domain": "Timed_Locations_of_Things",
+      "source_table": "Timed_Locations_of_Things",
+      "source_column": "Location_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "location code",
+      "synonyms": [
+        "Location_Code",
+        "location",
+        "place code",
+        "site code",
+        "position code"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "LOC001": [
+          "LOC001",
+          "001"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Residents_Properties_fk0",
+      "domain": "Residents",
+      "range": "Properties",
+      "source_fk": [
+        "Residents.property_id",
+        "Properties.property_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소유",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Services_Organizations_fk1",
+      "domain": "Services",
+      "range": "Organizations",
+      "source_fk": [
+        "Services.organization_id",
+        "Organizations.organization_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Residents_Services_Residents_fk2",
+      "domain": "Residents_Services",
+      "range": "Residents",
+      "source_fk": [
+        "Residents_Services.resident_id",
+        "Residents.resident_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "등록",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Residents_Services_Residents_fk3",
+      "domain": "Residents_Services",
+      "range": "Residents",
+      "source_fk": [
+        "Residents_Services.property_id",
+        "Residents.property_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소유",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Residents_Services_Residents_fk4",
+      "domain": "Residents_Services",
+      "range": "Residents",
+      "source_fk": [
+        "Residents_Services.date_moved_in",
+        "Residents.date_moved_in"
+      ],
+      "weight": 1.0,
+      "primary_label": "이전일",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Residents_Services_Services_fk5",
+      "domain": "Residents_Services",
+      "range": "Services",
+      "source_fk": [
+        "Residents_Services.service_id",
+        "Services.service_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "사용",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Things_Organizations_fk6",
+      "domain": "Things",
+      "range": "Organizations",
+      "source_fk": [
+        "Things.organization_id",
+        "Organizations.organization_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customer_Events_Residents_fk7",
+      "domain": "Customer_Events",
+      "range": "Residents",
+      "source_fk": [
+        "Customer_Events.resident_id",
+        "Residents.resident_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customer_Events_Residents_fk8",
+      "domain": "Customer_Events",
+      "range": "Residents",
+      "source_fk": [
+        "Customer_Events.property_id",
+        "Residents.property_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소유",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customer_Events_Residents_fk9",
+      "domain": "Customer_Events",
+      "range": "Residents",
+      "source_fk": [
+        "Customer_Events.date_moved_in",
+        "Residents.date_moved_in"
+      ],
+      "weight": 1.0,
+      "primary_label": "이전일",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customer_Events_Customers_fk10",
+      "domain": "Customer_Events",
+      "range": "Customers",
+      "source_fk": [
+        "Customer_Events.customer_id",
+        "Customers.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customer_Events_Things_fk11",
+      "domain": "Customer_Events",
+      "range": "Things",
+      "source_fk": [
+        "Customer_Events.thing_id",
+        "Things.thing_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customer_Event_Notes_Customer_Events_fk12",
+      "domain": "Customer_Event_Notes",
+      "range": "Customer_Events",
+      "source_fk": [
+        "Customer_Event_Notes.Customer_Event_ID",
+        "Customer_Events.Customer_Event_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "기록",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Timed_Status_of_Things_Things_fk13",
+      "domain": "Timed_Status_of_Things",
+      "range": "Things",
+      "source_fk": [
+        "Timed_Status_of_Things.thing_id",
+        "Things.thing_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "상태",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Timed_Locations_of_Things_Things_fk14",
+      "domain": "Timed_Locations_of_Things",
+      "range": "Things",
+      "source_fk": [
+        "Timed_Locations_of_Things.thing_id",
+        "Things.thing_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "위치",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

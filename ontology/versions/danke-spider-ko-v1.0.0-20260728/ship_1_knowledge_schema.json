@@ -1,0 +1,336 @@
+{
+  "db_id": "ship_1",
+  "classes": [
+    {
+      "name": "captain",
+      "source_table": "captain",
+      "ranking": 1.0,
+      "primary_label": "captain",
+      "synonyms": [
+        "선장",
+        "선장 정보",
+        "선장 데이터",
+        "선장 목록",
+        "선장 기록",
+        "선장 정보 저장소"
+      ]
+    },
+    {
+      "name": "Ship",
+      "source_table": "Ship",
+      "ranking": 3.5,
+      "primary_label": "선박",
+      "synonyms": [
+        "선박",
+        "선박 정보",
+        "선박 데이터",
+        "선박 목록",
+        "선박 기록",
+        "선박 저장소"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "captain_Captain_ID",
+      "domain": "captain",
+      "source_table": "captain",
+      "source_column": "Captain_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "captain id",
+      "synonyms": [
+        "Captain_ID",
+        "선장 ID",
+        "선장 번호",
+        "선장 식별자",
+        "선장 고유번호",
+        "선장 아이디",
+        "선장 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "captain_Name",
+      "domain": "captain",
+      "source_table": "captain",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "Name",
+        "선장 이름",
+        "선장",
+        "선장명",
+        "이름",
+        "선장의 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "captain_Ship_ID",
+      "domain": "captain",
+      "source_table": "captain",
+      "source_column": "Ship_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "ship id",
+      "synonyms": [
+        "Ship_ID",
+        "선박 ID",
+        "선박 번호",
+        "선박 식별자",
+        "선박 고유번호",
+        "선박 아이디",
+        "선박 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "captain_age",
+      "domain": "captain",
+      "source_table": "captain",
+      "source_column": "age",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "연령",
+        "나이",
+        "연齢",
+        "나이 정보",
+        "나이 데이터",
+        "연령 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "captain_Class",
+      "domain": "captain",
+      "source_table": "captain",
+      "source_column": "Class",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "class",
+      "synonyms": [
+        "직책",
+        "등급",
+        "직류",
+        "직책 정보",
+        "등급 정보",
+        "직급"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "captain_Rank",
+      "domain": "captain",
+      "source_table": "captain",
+      "source_column": "Rank",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "rank",
+      "synonyms": [
+        "등급",
+        "우대",
+        "등수",
+        "등급 정보",
+        "우대 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Ship_Ship_ID",
+      "domain": "Ship",
+      "source_table": "Ship",
+      "source_column": "Ship_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "선박 ID",
+      "synonyms": [
+        "선박 ID",
+        "선박 고유 번호",
+        "선박 식별자",
+        "Ship_ID",
+        "선박 번호",
+        "선박 고유 ID",
+        "선박 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Ship_Name",
+      "domain": "Ship",
+      "source_table": "Ship",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [
+        "선박 이름",
+        "이름",
+        "선박명",
+        "Name",
+        "선박 제목",
+        "선박 대표 이름",
+        "선박 고유 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아이언 하이브리드": [
+          "아이언 하이브리드"
+        ],
+        "서울 마린": [
+          "서울 마린"
+        ]
+      }
+    },
+    {
+      "name": "Ship_Type",
+      "domain": "Ship",
+      "source_table": "Ship",
+      "source_column": "Type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "형태",
+      "synonyms": [
+        "선박 유형",
+        "유형",
+        "선박 종류",
+        "Type",
+        "선박 분류",
+        "선박 타입",
+        "선박 구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "전투선": [
+          "전투선"
+        ],
+        "운송선": [
+          "운송선"
+        ]
+      }
+    },
+    {
+      "name": "Ship_Built_Year",
+      "domain": "Ship",
+      "source_table": "Ship",
+      "source_column": "Built_Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "건설 연도",
+      "synonyms": [
+        "제조년도",
+        "구축년도",
+        "건조년도",
+        "출조년도",
+        "생성년도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Ship_Class",
+      "domain": "Ship",
+      "source_table": "Ship",
+      "source_column": "Class",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "클래스",
+      "synonyms": [
+        "클래스",
+        "분류",
+        "선박종류",
+        "종류",
+        "Class",
+        "분류정보",
+        "선박클래스",
+        "분류구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대형 선박": [
+          "대형 선박"
+        ],
+        "중형 선박": [
+          "중형 선박"
+        ]
+      }
+    },
+    {
+      "name": "Ship_Flag",
+      "domain": "Ship",
+      "source_table": "Ship",
+      "source_column": "Flag",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "플래그",
+      "synonyms": [
+        "국가표지",
+        "국가대표",
+        "선박국가",
+        "국가표지 정보",
+        "Flag",
+        "국가대표표지",
+        "선박국가표지"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "대한민국"
+        ],
+        "미국": [
+          "미국"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "captain_Ship_fk0",
+      "domain": "captain",
+      "range": "Ship",
+      "source_fk": [
+        "captain.Ship_ID",
+        "Ship.Ship_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

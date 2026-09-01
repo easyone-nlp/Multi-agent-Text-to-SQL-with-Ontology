@@ -1,0 +1,357 @@
+{
+  "db_id": "allergy_1",
+  "classes": [
+    {
+      "name": "Allergy_Type",
+      "source_table": "Allergy_Type",
+      "ranking": 3.0,
+      "primary_label": "allergy type",
+      "synonyms": [
+        "알레르기 분류",
+        "알레르기 유형",
+        "알레르기 카테고리",
+        "알레르기 종류",
+        "알레르기 분류 코드"
+      ]
+    },
+    {
+      "name": "Has_Allergy",
+      "source_table": "Has_Allergy",
+      "ranking": 1.0,
+      "primary_label": "has allergy",
+      "synonyms": [
+        "알레르기 소유",
+        "알레르기 보유",
+        "알레르기 소유 관계",
+        "알레르기 보유 관계",
+        "알레르기 소유 정보"
+      ]
+    },
+    {
+      "name": "Student",
+      "source_table": "Student",
+      "ranking": 3.5,
+      "primary_label": "학생",
+      "synonyms": [
+        "학생",
+        "학생 정보",
+        "학생 데이터",
+        "학생 기록",
+        "학생 정보 저장"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Allergy_Type_Allergy",
+      "domain": "Allergy_Type",
+      "source_table": "Allergy_Type",
+      "source_column": "Allergy",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "allergy name",
+      "synonyms": [
+        "알레르기 이름",
+        "알레르기",
+        "알레르기명",
+        "알레르기 종류",
+        "알레르기 코드",
+        "알레르기 타이틀"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "알레르기": [
+          "알레르기"
+        ],
+        "식물 알레르기": [
+          "식물 알레르기"
+        ],
+        "과일 알레르기": [
+          "과일 알레르기"
+        ]
+      }
+    },
+    {
+      "name": "Allergy_Type_AllergyType",
+      "domain": "Allergy_Type",
+      "source_table": "Allergy_Type",
+      "source_column": "AllergyType",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "allergy type",
+      "synonyms": [
+        "알레르기 유형",
+        "알레르기 타입",
+        "알레르기 종류",
+        "알레르기 구분",
+        "알레르기 카테고리",
+        "알레르기 분류"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "피부 알레르기": [
+          "피부 알레르기"
+        ],
+        "호흡기 알레르기": [
+          "호흡기 알레르기"
+        ],
+        "식물 알레르기": [
+          "식물 알레르기"
+        ]
+      }
+    },
+    {
+      "name": "Has_Allergy_StuID",
+      "domain": "Has_Allergy",
+      "source_table": "Has_Allergy",
+      "source_column": "StuID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "stuid",
+      "synonyms": [
+        "StuID",
+        "학번",
+        "학생 ID",
+        "학번 번호",
+        "학생 식별자",
+        "학번 정보",
+        "학생 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Has_Allergy_Allergy",
+      "domain": "Has_Allergy",
+      "source_table": "Has_Allergy",
+      "source_column": "Allergy",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "allergy",
+      "synonyms": [
+        "Allergy",
+        "알레르기 유형",
+        "알레르기 종류",
+        "알레르기 정보",
+        "알레르기 코드",
+        "알레르기 타입",
+        "알레르기 명"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_StuID",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "StuID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "stuid",
+      "synonyms": [
+        "StuID",
+        "학생 ID",
+        "학번",
+        "학번 번호",
+        "학번 정보",
+        "학생 고유 ID",
+        "학번 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_LName",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "LName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "last name",
+      "synonyms": [
+        "LName",
+        "성",
+        "성 이름",
+        "후성",
+        "성자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Fname",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Fname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "first name",
+      "synonyms": [
+        "Fname",
+        "이름",
+        "전성",
+        "이름 정보",
+        "이름 입력",
+        "이름 필드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Age",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "나이",
+        "연령",
+        "나이 정보",
+        "연령 데이터",
+        "나이 열",
+        "연령 열",
+        "나이 기준",
+        "연령 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Sex",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Sex",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "sex",
+      "synonyms": [
+        "성별",
+        "성",
+        "성별 정보",
+        "성 데이터",
+        "남녀",
+        "성별 구분",
+        "성별 코드",
+        "성별 분류"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Major",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Major",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "major",
+      "synonyms": [
+        "전공",
+        "전공 번호",
+        "전공 코드",
+        "전공 정보",
+        "전공 번호 데이터",
+        "전공 코드 데이터",
+        "전공 기준",
+        "전공 구분"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Advisor",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Advisor",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "advisor",
+      "synonyms": [
+        "멘토",
+        "조언자",
+        "멘토 번호",
+        "멘토 ID",
+        "조언자 ID",
+        "멘토자",
+        "멘토 코드",
+        "조언자 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_city_code",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "city_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "city code",
+      "synonyms": [
+        "도시 코드",
+        "거주 도시 코드",
+        "도시 코드 정보",
+        "도시 코드 값",
+        "도시 코드 번호",
+        "도시 코드 아이디",
+        "도시 코드 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Has_Allergy_Allergy_Type_fk0",
+      "domain": "Has_Allergy",
+      "range": "Allergy_Type",
+      "source_fk": [
+        "Has_Allergy.Allergy",
+        "Allergy_Type.Allergy"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Has_Allergy_Student_fk1",
+      "domain": "Has_Allergy",
+      "range": "Student",
+      "source_fk": [
+        "Has_Allergy.StuID",
+        "Student.StuID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

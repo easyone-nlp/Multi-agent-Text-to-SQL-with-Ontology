@@ -1,0 +1,75 @@
+{
+  "class_table": {
+    "driver": "driver",
+    "school": "school",
+    "school_bus": "school_bus"
+  },
+  "property_column": {
+    "driver_Driver_ID": [
+      "driver",
+      "Driver_ID"
+    ],
+    "driver_Name": [
+      "driver",
+      "Name"
+    ],
+    "driver_Party": [
+      "driver",
+      "Party"
+    ],
+    "driver_Home_city": [
+      "driver",
+      "Home_city"
+    ],
+    "driver_Age": [
+      "driver",
+      "Age"
+    ],
+    "school_School_ID": [
+      "school",
+      "School_ID"
+    ],
+    "school_Grade": [
+      "school",
+      "Grade"
+    ],
+    "school_School": [
+      "school",
+      "School"
+    ],
+    "school_Location": [
+      "school",
+      "Location"
+    ],
+    "school_Type": [
+      "school",
+      "Type"
+    ],
+    "school_bus_School_ID": [
+      "school_bus",
+      "School_ID"
+    ],
+    "school_bus_Driver_ID": [
+      "school_bus",
+      "Driver_ID"
+    ],
+    "school_bus_Years_Working": [
+      "school_bus",
+      "Years_Working"
+    ],
+    "school_bus_If_full_time": [
+      "school_bus",
+      "If_full_time"
+    ]
+  },
+  "object_property_fk": {
+    "school_bus_driver_fk0": [
+      "school_bus.Driver_ID",
+      "driver.Driver_ID"
+    ],
+    "school_bus_school_fk1": [
+      "school_bus.School_ID",
+      "school.School_ID"
+    ]
+  }
+}

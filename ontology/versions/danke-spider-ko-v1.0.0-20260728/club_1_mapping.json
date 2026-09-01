@@ -1,0 +1,79 @@
+{
+  "class_table": {
+    "Student": "Student",
+    "Club": "Club",
+    "Member_of_club": "Member_of_club"
+  },
+  "property_column": {
+    "Student_StuID": [
+      "Student",
+      "StuID"
+    ],
+    "Student_LName": [
+      "Student",
+      "LName"
+    ],
+    "Student_Fname": [
+      "Student",
+      "Fname"
+    ],
+    "Student_Age": [
+      "Student",
+      "Age"
+    ],
+    "Student_Sex": [
+      "Student",
+      "Sex"
+    ],
+    "Student_Major": [
+      "Student",
+      "Major"
+    ],
+    "Student_Advisor": [
+      "Student",
+      "Advisor"
+    ],
+    "Student_city_code": [
+      "Student",
+      "city_code"
+    ],
+    "Club_ClubID": [
+      "Club",
+      "ClubID"
+    ],
+    "Club_ClubName": [
+      "Club",
+      "ClubName"
+    ],
+    "Club_ClubDesc": [
+      "Club",
+      "ClubDesc"
+    ],
+    "Club_ClubLocation": [
+      "Club",
+      "ClubLocation"
+    ],
+    "Member_of_club_StuID": [
+      "Member_of_club",
+      "StuID"
+    ],
+    "Member_of_club_ClubID": [
+      "Member_of_club",
+      "ClubID"
+    ],
+    "Member_of_club_Position": [
+      "Member_of_club",
+      "Position"
+    ]
+  },
+  "object_property_fk": {
+    "Member_of_club_Club_fk0": [
+      "Member_of_club.ClubID",
+      "Club.ClubID"
+    ],
+    "Member_of_club_Student_fk1": [
+      "Member_of_club.StuID",
+      "Student.StuID"
+    ]
+  }
+}

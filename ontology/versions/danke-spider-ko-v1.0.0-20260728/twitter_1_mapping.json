@@ -1,0 +1,67 @@
+{
+  "class_table": {
+    "follows": "follows",
+    "tweets": "tweets",
+    "user_profiles": "user_profiles"
+  },
+  "property_column": {
+    "follows_f1": [
+      "follows",
+      "f1"
+    ],
+    "follows_f2": [
+      "follows",
+      "f2"
+    ],
+    "tweets_id": [
+      "tweets",
+      "id"
+    ],
+    "tweets_uid": [
+      "tweets",
+      "uid"
+    ],
+    "tweets_text": [
+      "tweets",
+      "text"
+    ],
+    "tweets_createdate": [
+      "tweets",
+      "createdate"
+    ],
+    "user_profiles_uid": [
+      "user_profiles",
+      "uid"
+    ],
+    "user_profiles_name": [
+      "user_profiles",
+      "name"
+    ],
+    "user_profiles_email": [
+      "user_profiles",
+      "email"
+    ],
+    "user_profiles_partitionid": [
+      "user_profiles",
+      "partitionid"
+    ],
+    "user_profiles_followers": [
+      "user_profiles",
+      "followers"
+    ]
+  },
+  "object_property_fk": {
+    "follows_user_profiles_fk0": [
+      "follows.f2",
+      "user_profiles.uid"
+    ],
+    "follows_user_profiles_fk1": [
+      "follows.f1",
+      "user_profiles.uid"
+    ],
+    "tweets_user_profiles_fk2": [
+      "tweets.uid",
+      "user_profiles.uid"
+    ]
+  }
+}

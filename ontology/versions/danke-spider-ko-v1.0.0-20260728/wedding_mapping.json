@@ -1,0 +1,79 @@
+{
+  "class_table": {
+    "people": "people",
+    "church": "church",
+    "wedding": "wedding"
+  },
+  "property_column": {
+    "people_People_ID": [
+      "people",
+      "People_ID"
+    ],
+    "people_Name": [
+      "people",
+      "Name"
+    ],
+    "people_Country": [
+      "people",
+      "Country"
+    ],
+    "people_Is_Male": [
+      "people",
+      "Is_Male"
+    ],
+    "people_Age": [
+      "people",
+      "Age"
+    ],
+    "church_Church_ID": [
+      "church",
+      "Church_ID"
+    ],
+    "church_Name": [
+      "church",
+      "Name"
+    ],
+    "church_Organized_by": [
+      "church",
+      "Organized_by"
+    ],
+    "church_Open_Date": [
+      "church",
+      "Open_Date"
+    ],
+    "church_Continuation_of": [
+      "church",
+      "Continuation_of"
+    ],
+    "wedding_Church_ID": [
+      "wedding",
+      "Church_ID"
+    ],
+    "wedding_Male_ID": [
+      "wedding",
+      "Male_ID"
+    ],
+    "wedding_Female_ID": [
+      "wedding",
+      "Female_ID"
+    ],
+    "wedding_Year": [
+      "wedding",
+      "Year"
+    ]
+  },
+  "object_property_fk": {
+    "wedding_people_fk0": [
+      "wedding.Female_ID",
+      "people.People_ID"
+    ],
+    "wedding_people_fk1": [
+      "wedding.Male_ID",
+      "people.People_ID"
+    ],
+    "wedding_church_fk2": [
+      "wedding.Church_ID",
+      "church.Church_ID"
+    ]
+  }
+}

@@ -1,0 +1,681 @@
+{
+  "db_id": "car_1",
+  "classes": [
+    {
+      "name": "continents",
+      "source_table": "continents",
+      "ranking": 3.0,
+      "primary_label": "지역",
+      "synonyms": [
+        "대륙",
+        "지리적 대륙",
+        "지구 대륙",
+        "지리적 지역",
+        "대륙 정보"
+      ]
+    },
+    {
+      "name": "countries",
+      "source_table": "countries",
+      "ranking": 3.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "국",
+        "국가 목록",
+        "국가 정보",
+        "국가 데이터"
+      ]
+    },
+    {
+      "name": "car_makers",
+      "source_table": "car_makers",
+      "ranking": 3.0,
+      "primary_label": "car makers",
+      "synonyms": [
+        "자동차 제조사",
+        "차량 제조사",
+        "자동차 브랜드",
+        "제조사",
+        "자동차 회사"
+      ]
+    },
+    {
+      "name": "model_list",
+      "source_table": "model_list",
+      "ranking": 3.0,
+      "primary_label": "모델 리스트",
+      "synonyms": [
+        "모델 목록",
+        "모델 목록 테이블",
+        "모델 목록 정보",
+        "모델 목록 데이터",
+        "모델 목록 목록"
+      ]
+    },
+    {
+      "name": "car_names",
+      "source_table": "car_names",
+      "ranking": 3.0,
+      "primary_label": "car names",
+      "synonyms": [
+        "차량 이름",
+        "차량 이름 테이블",
+        "차량 이름 정보",
+        "차량 이름 데이터",
+        "차량 이름 목록"
+      ]
+    },
+    {
+      "name": "cars_data",
+      "source_table": "cars_data",
+      "ranking": 3.5,
+      "primary_label": "cars data",
+      "synonyms": [
+        "차량 데이터",
+        "차량 데이터 테이블",
+        "차량 데이터 정보",
+        "차량 데이터 목록",
+        "차량 데이터 저장"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "continents_ContId",
+      "domain": "continents",
+      "source_table": "continents",
+      "source_column": "ContId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "지역 ID",
+      "synonyms": [
+        "지역 코드",
+        "지역 번호",
+        "지역 식별자",
+        "지역 고유 ID",
+        "지역 인덱스",
+        "지역 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "continents_Continent",
+      "domain": "continents",
+      "source_table": "continents",
+      "source_column": "Continent",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "지역",
+      "synonyms": [
+        "지역명",
+        "지방",
+        "지역 이름",
+        "지방명",
+        "지역",
+        "지방 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아시아": [
+          "아시아"
+        ],
+        "유럽": [
+          "유럽"
+        ],
+        "아프리카": [
+          "아프리카"
+        ],
+        "남미": [
+          "남미"
+        ],
+        "북미": [
+          "북미"
+        ],
+        "오세아니아": [
+          "오세아니아"
+        ],
+        "antarctica": [
+          "antarctica"
+        ]
+      }
+    },
+    {
+      "name": "countries_CountryId",
+      "domain": "countries",
+      "source_table": "countries",
+      "source_column": "CountryId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "국가 id",
+      "synonyms": [
+        "국가 코드",
+        "국가 번호",
+        "국가 식별자",
+        "국가 고유번호",
+        "국가 인덱스"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "countries_CountryName",
+      "domain": "countries",
+      "source_table": "countries",
+      "source_column": "CountryName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "국가 이름",
+      "synonyms": [
+        "국가명",
+        "국가",
+        "나라",
+        "국",
+        "국명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "대한민국"
+        ],
+        "미국": [
+          "미국"
+        ]
+      }
+    },
+    {
+      "name": "countries_Continent",
+      "domain": "countries",
+      "source_table": "countries",
+      "source_column": "Continent",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "대륙",
+      "synonyms": [
+        "대륙",
+        "지방",
+        "지역",
+        "반도",
+        "대륙명",
+        "연안"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아시아": [
+          "아시아"
+        ],
+        "유럽": [
+          "유럽"
+        ],
+        "아프리카": [
+          "아프리카"
+        ]
+      }
+    },
+    {
+      "name": "car_makers_Id",
+      "domain": "car_makers",
+      "source_table": "car_makers",
+      "source_column": "Id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "아이디",
+        "ID",
+        "제조사 코드",
+        "차량 제조사 식별자",
+        "제조사 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "car_makers_Maker",
+      "domain": "car_makers",
+      "source_table": "car_makers",
+      "source_column": "Maker",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "maker",
+      "synonyms": [
+        "제조사",
+        "제조사 이름",
+        "차량 제조사",
+        "제조사명",
+        "제조사 브랜드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "car_makers_FullName",
+      "domain": "car_makers",
+      "source_table": "car_makers",
+      "source_column": "FullName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "full name",
+      "synonyms": [
+        "공식 이름",
+        "공식 제조사 이름",
+        "제조사 공식명",
+        "제조사 완전 이름",
+        "제조사 đầy đủ 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "car_makers_Country",
+      "domain": "car_makers",
+      "source_table": "car_makers",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "country",
+      "synonyms": [
+        "국가",
+        "나라",
+        "국",
+        "지역",
+        "제조사 소재국",
+        "원산지",
+        "등록 국가",
+        "소재국"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "model_list_ModelId",
+      "domain": "model_list",
+      "source_table": "model_list",
+      "source_column": "ModelId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "모델 ID",
+      "synonyms": [
+        "모델 고유 ID",
+        "모델 번호",
+        "모델 코드",
+        "모델 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "model_list_Maker",
+      "domain": "model_list",
+      "source_table": "model_list",
+      "source_column": "Maker",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "제조사",
+      "synonyms": [
+        "제조사 ID",
+        "제조사 코드",
+        "제조사 번호",
+        "제조사 식별자",
+        "제조사 고유 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "model_list_Model",
+      "domain": "model_list",
+      "source_table": "model_list",
+      "source_column": "Model",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "모델명",
+      "synonyms": [
+        "모델 이름",
+        "모델명",
+        "모델 제목",
+        "모델 타이틀",
+        "모델 명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "car_names_MakeId",
+      "domain": "car_names",
+      "source_table": "car_names",
+      "source_column": "MakeId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "make id",
+      "synonyms": [
+        "제조사 ID",
+        "제조사 코드",
+        "제조사 식별자",
+        "제조사 번호",
+        "제조사 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "car_names_Model",
+      "domain": "car_names",
+      "source_table": "car_names",
+      "source_column": "Model",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "model",
+      "synonyms": [
+        "모델명",
+        "차종",
+        "차량 유형",
+        "모델",
+        "차량 모델"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "SUV": [
+          "SUV",
+          "소형 SUV"
+        ],
+        "sedan": [
+          "sedan",
+          "승용차"
+        ]
+      }
+    },
+    {
+      "name": "car_names_Make",
+      "domain": "car_names",
+      "source_table": "car_names",
+      "source_column": "Make",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "make",
+      "synonyms": [
+        "제조사",
+        "브랜드",
+        "제조사명",
+        "제조사 이름",
+        "제조사 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Hyundai": [
+          "Hyundai",
+          "현대"
+        ],
+        "Toyota": [
+          "Toyota",
+          "타요"
+        ]
+      }
+    },
+    {
+      "name": "cars_data_Id",
+      "domain": "cars_data",
+      "source_table": "cars_data",
+      "source_column": "Id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "아이디",
+        "아이디 값",
+        "차량 ID",
+        "차량 번호",
+        "차량 고유 번호",
+        "차량 고유 ID",
+        "차량 식별 번호",
+        "차량 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cars_data_MPG",
+      "domain": "cars_data",
+      "source_table": "cars_data",
+      "source_column": "MPG",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "mpg",
+      "synonyms": [
+        "연료 효율",
+        "연비",
+        "가allon 효율",
+        "연료 소비 효율",
+        "연비 지수"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cars_data_Cylinders",
+      "domain": "cars_data",
+      "source_table": "cars_data",
+      "source_column": "Cylinders",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "cylinders",
+      "synonyms": [
+        "실린더 수",
+        "엔진 실린더 수",
+        "엔진 층수",
+        "실린더 개수",
+        "엔진 층"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cars_data_Edispl",
+      "domain": "cars_data",
+      "source_table": "cars_data",
+      "source_column": "Edispl",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "edispl",
+      "synonyms": [
+        "엔진 배기량",
+        "엔진 용량",
+        "배기량",
+        "엔진 부피",
+        "엔진 사이즈"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cars_data_Horsepower",
+      "domain": "cars_data",
+      "source_table": "cars_data",
+      "source_column": "Horsepower",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "horsepower",
+      "synonyms": [
+        "출력 성능",
+        "엔진 출력",
+        "성능",
+        "힘",
+        "엔진 힘"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cars_data_Weight",
+      "domain": "cars_data",
+      "source_table": "cars_data",
+      "source_column": "Weight",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "weight",
+      "synonyms": [
+        "무게",
+        "차량 무게",
+        "체중",
+        "무게 데이터",
+        "무게 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cars_data_Accelerate",
+      "domain": "cars_data",
+      "source_table": "cars_data",
+      "source_column": "Accelerate",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "accelerate",
+      "synonyms": [
+        "가속도",
+        "가속 시간",
+        "스피드 증가",
+        "가속률",
+        "가속 성능",
+        "스피드 증가율",
+        "가속 능력"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cars_data_Year",
+      "domain": "cars_data",
+      "source_table": "cars_data",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "제조년도",
+        "생산년도",
+        "차량년도",
+        "제조년",
+        "생산년",
+        "차량생산년",
+        "제조년월"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "countries_continents_fk0",
+      "domain": "countries",
+      "range": "continents",
+      "source_fk": [
+        "countries.Continent",
+        "continents.ContId"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "car_makers_countries_fk1",
+      "domain": "car_makers",
+      "range": "countries",
+      "source_fk": [
+        "car_makers.Country",
+        "countries.CountryId"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "model_list_car_makers_fk2",
+      "domain": "model_list",
+      "range": "car_makers",
+      "source_fk": [
+        "model_list.Maker",
+        "car_makers.Id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "car_names_model_list_fk3",
+      "domain": "car_names",
+      "range": "model_list",
+      "source_fk": [
+        "car_names.Model",
+        "model_list.Model"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "cars_data_car_names_fk4",
+      "domain": "cars_data",
+      "range": "car_names",
+      "source_fk": [
+        "cars_data.Id",
+        "car_names.MakeId"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

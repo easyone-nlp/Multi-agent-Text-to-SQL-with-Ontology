@@ -1,0 +1,1761 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "course authors and tutors",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강사 및 강의 개발자",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 담당자",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 작성자",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 책임자",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 작성자 및 강사",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 개발자 및 강사",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생",
+      "target_class": "Students",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학습자",
+      "target_class": "Students",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학습자 정보",
+      "target_class": "Students",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 데이터",
+      "target_class": "Students",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 목록",
+      "target_class": "Students",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학습자 목록",
+      "target_class": "Students",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "과목",
+      "target_class": "Subjects",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학과",
+      "target_class": "Subjects",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학문 분야",
+      "target_class": "Subjects",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학문 주제",
+      "target_class": "Subjects",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학과 정보",
+      "target_class": "Subjects",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "과목 정보",
+      "target_class": "Subjects",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학문 분야 정보",
+      "target_class": "Subjects",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강좌",
+      "target_class": "Courses",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 정보",
+      "target_class": "Courses",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 목록",
+      "target_class": "Courses",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 데이터",
+      "target_class": "Courses",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수업 정보",
+      "target_class": "Courses",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 내용",
+      "target_class": "Courses",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 수강 등록",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수강 기록",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 등록",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수강 내역",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 등록 정보",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 수강 기록",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 시험 참여 내역",
+      "target_class": "Student_Tests_Taken",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "테스트 기록",
+      "target_class": "Student_Tests_Taken",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시험 내역",
+      "target_class": "Student_Tests_Taken",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "테스트 성적",
+      "target_class": "Student_Tests_Taken",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시험 결과",
+      "target_class": "Student_Tests_Taken",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 테스트 기록",
+      "target_class": "Student_Tests_Taken",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "author id",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_author_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "author_id",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_author_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강사 ID",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_author_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의자 ID",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_author_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아UTHOR_ID",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_author_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강사 고유 번호",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_author_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "author tutor atb",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_author_tutor_ATB",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "author_tutor_ATB",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_author_tutor_ATB",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강사 역할",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_author_tutor_ATB",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의자 상태",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_author_tutor_ATB",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ATB 정보",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_author_tutor_ATB",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강사 타입",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_author_tutor_ATB",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "login name",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_login_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "login_name",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_login_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "로그인 이름",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_login_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_login_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강사 이름",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_login_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의자 이름",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_login_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "password",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비밀번호",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "암호",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패스워드",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비밀번호 정보",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "로그인 비밀번호",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "암호화된 비밀번호",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패스워드 값",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계정 비밀번호",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "personal name",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개인 이름",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실명",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 필드",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개인 이름 정보",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 데이터",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "middle name",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_middle_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "중간 이름",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_middle_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 중간",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_middle_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "중간 성명",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_middle_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "중간 이름 정보",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_middle_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 중간 부분",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_middle_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "중간 이름 데이터",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_middle_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "중간 이름 필드",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_middle_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "중간 이름 값",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_middle_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "family name",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_family_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가족 이름",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_family_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_family_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_family_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성씨",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_family_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가족 성",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_family_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성자",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_family_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gender mf",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_gender_mf",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_gender_mf",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 정보",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_gender_mf",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 구분",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_gender_mf",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 코드",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_gender_mf",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 데이터",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_gender_mf",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 구분자",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_gender_mf",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "address line 1",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_address_line_1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 첫 줄",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_address_line_1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 1번지",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_address_line_1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 1",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_address_line_1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 라인 1",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_address_line_1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 1번",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_address_line_1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 첫 번째 줄",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_address_line_1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 1라인",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_address_line_1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "Students",
+      "target_property": "Students_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "Students",
+      "target_property": "Students_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학습자 ID",
+      "target_class": "Students",
+      "target_property": "Students_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학습자 고유 번호",
+      "target_class": "Students",
+      "target_property": "Students_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "student id",
+      "target_class": "Students",
+      "target_property": "Students_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학습자 식별자",
+      "target_class": "Students",
+      "target_property": "Students_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록일",
+      "target_class": "Students",
+      "target_property": "Students_date_of_registration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 로그인 일시",
+      "target_class": "Students",
+      "target_property": "Students_date_of_latest_logon",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 접속 시간",
+      "target_class": "Students",
+      "target_property": "Students_date_of_latest_logon",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "로그인 날짜",
+      "target_class": "Students",
+      "target_property": "Students_date_of_latest_logon",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 로그인 날짜",
+      "target_class": "Students",
+      "target_property": "Students_date_of_latest_logon",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "접속 일시",
+      "target_class": "Students",
+      "target_property": "Students_date_of_latest_logon",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "로그인 시간",
+      "target_class": "Students",
+      "target_property": "Students_date_of_latest_logon",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 접속 날짜",
+      "target_class": "Students",
+      "target_property": "Students_date_of_latest_logon",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 로그인 기록",
+      "target_class": "Students",
+      "target_property": "Students_date_of_latest_logon",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "로그인 이름",
+      "target_class": "Students",
+      "target_property": "Students_login_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "Students",
+      "target_property": "Students_login_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계정 이름",
+      "target_class": "Students",
+      "target_property": "Students_login_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학습자 아이디",
+      "target_class": "Students",
+      "target_property": "Students_login_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "로그인 아이디",
+      "target_class": "Students",
+      "target_property": "Students_login_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "login_name",
+      "target_class": "Students",
+      "target_property": "Students_login_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "Students",
+      "target_property": "Students_login_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비밀번호",
+      "target_class": "Students",
+      "target_property": "Students_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "암호",
+      "target_class": "Students",
+      "target_property": "Students_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패스워드",
+      "target_class": "Students",
+      "target_property": "Students_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "password",
+      "target_class": "Students",
+      "target_property": "Students_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "암호화된 비밀번호",
+      "target_class": "Students",
+      "target_property": "Students_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "Students",
+      "target_property": "Students_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개인 이름",
+      "target_class": "Students",
+      "target_property": "Students_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Students",
+      "target_property": "Students_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "본명",
+      "target_class": "Students",
+      "target_property": "Students_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실명",
+      "target_class": "Students",
+      "target_property": "Students_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실제 이름",
+      "target_class": "Students",
+      "target_property": "Students_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개인명",
+      "target_class": "Students",
+      "target_property": "Students_personal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "중간 이름",
+      "target_class": "Students",
+      "target_property": "Students_middle_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가족 이름",
+      "target_class": "Students",
+      "target_property": "Students_family_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Students",
+      "target_property": "Students_family_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "Students",
+      "target_property": "Students_family_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성부",
+      "target_class": "Students",
+      "target_property": "Students_family_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 이름",
+      "target_class": "Students",
+      "target_property": "Students_family_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가족 성",
+      "target_class": "Students",
+      "target_property": "Students_family_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과목 ID",
+      "target_class": "Subjects",
+      "target_property": "Subjects_subject_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과목 이름",
+      "target_class": "Subjects",
+      "target_property": "Subjects_subject_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강좌 ID",
+      "target_class": "Courses",
+      "target_property": "Courses_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "course_id",
+      "target_class": "Courses",
+      "target_property": "Courses_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의 ID",
+      "target_class": "Courses",
+      "target_property": "Courses_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의 번호",
+      "target_class": "Courses",
+      "target_property": "Courses_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의 식별자",
+      "target_class": "Courses",
+      "target_property": "Courses_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의 코드",
+      "target_class": "Courses",
+      "target_property": "Courses_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "course number",
+      "target_class": "Courses",
+      "target_property": "Courses_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "course identifier",
+      "target_class": "Courses",
+      "target_property": "Courses_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자 ID",
+      "target_class": "Courses",
+      "target_property": "Courses_author_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "author_id",
+      "target_class": "Courses",
+      "target_property": "Courses_author_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자 번호",
+      "target_class": "Courses",
+      "target_property": "Courses_author_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자 식별자",
+      "target_class": "Courses",
+      "target_property": "Courses_author_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "author number",
+      "target_class": "Courses",
+      "target_property": "Courses_author_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "author identifier",
+      "target_class": "Courses",
+      "target_property": "Courses_author_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과목 ID",
+      "target_class": "Courses",
+      "target_property": "Courses_subject_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "subject_id",
+      "target_class": "Courses",
+      "target_property": "Courses_subject_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과목 번호",
+      "target_class": "Courses",
+      "target_property": "Courses_subject_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과목 식별자",
+      "target_class": "Courses",
+      "target_property": "Courses_subject_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "subject number",
+      "target_class": "Courses",
+      "target_property": "Courses_subject_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "subject identifier",
+      "target_class": "Courses",
+      "target_property": "Courses_subject_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강좌 이름",
+      "target_class": "Courses",
+      "target_property": "Courses_course_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의명",
+      "target_class": "Courses",
+      "target_property": "Courses_course_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수업명",
+      "target_class": "Courses",
+      "target_property": "Courses_course_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과정 이름",
+      "target_class": "Courses",
+      "target_property": "Courses_course_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과정명",
+      "target_class": "Courses",
+      "target_property": "Courses_course_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "course name",
+      "target_class": "Courses",
+      "target_property": "Courses_course_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의 제목",
+      "target_class": "Courses",
+      "target_property": "Courses_course_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과정 제목",
+      "target_class": "Courses",
+      "target_property": "Courses_course_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강좌 설명",
+      "target_class": "Courses",
+      "target_property": "Courses_course_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의 설명",
+      "target_class": "Courses",
+      "target_property": "Courses_course_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수업 설명",
+      "target_class": "Courses",
+      "target_property": "Courses_course_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과정 설명",
+      "target_class": "Courses",
+      "target_property": "Courses_course_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과정 소개",
+      "target_class": "Courses",
+      "target_property": "Courses_course_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "course description",
+      "target_class": "Courses",
+      "target_property": "Courses_course_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의 요약",
+      "target_class": "Courses",
+      "target_property": "Courses_course_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과정 요약",
+      "target_class": "Courses",
+      "target_property": "Courses_course_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 ID",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_registration_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 번호",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_registration_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 식별자",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_registration_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 고유 ID",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_registration_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 인식자",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_registration_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 코드",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_registration_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 번호",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 식별자",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 고유 ID",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 인식자",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 코드",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 고유 번호",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강좌 ID",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과정 ID",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과정 번호",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과정 식별자",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과정 고유 ID",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과정 인식자",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과정 코드",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "과정 고유 번호",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_course_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 일시",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_date_of_enrolment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록일",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_date_of_enrolment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록일시",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_date_of_enrolment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 날짜",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_date_of_enrolment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 시간",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_date_of_enrolment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 일자",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_date_of_enrolment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "완료 일시",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_date_of_completion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "완료일",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_date_of_completion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "완료일시",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_date_of_completion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "완료 날짜",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_date_of_completion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "완료 시간",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_date_of_completion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "완료 일자",
+      "target_class": "Student_Course_Enrolment",
+      "target_property": "Student_Course_Enrolment_date_of_completion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 ID",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_registration_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 등록 번호",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_registration_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 번호",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_registration_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_registration_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록자 ID",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_registration_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "registration id",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_registration_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시험 날짜",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_date_test_taken",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시험 일시",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_date_test_taken",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시험 날짜와 시간",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_date_test_taken",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시험 일자",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_date_test_taken",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시험 시간",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_date_test_taken",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date test taken",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_date_test_taken",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시험 결과",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_test_result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시험 성적",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_test_result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시험 결과 정보",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_test_result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시험 성적 정보",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_test_result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시험 결과 내용",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_test_result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "test result",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_test_result",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "M",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_gender_mf",
+      "value": "M"
+    },
+    {
+      "entry_type": "value",
+      "key": "남성",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_gender_mf",
+      "value": "M"
+    },
+    {
+      "entry_type": "value",
+      "key": "F",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_gender_mf",
+      "value": "F"
+    },
+    {
+      "entry_type": "value",
+      "key": "여성",
+      "target_class": "Course_Authors_and_Tutors",
+      "target_property": "Course_Authors_and_Tutors_gender_mf",
+      "value": "F"
+    },
+    {
+      "entry_type": "value",
+      "key": "student123",
+      "target_class": "Students",
+      "target_property": "Students_login_name",
+      "value": "student123"
+    },
+    {
+      "entry_type": "value",
+      "key": "user001",
+      "target_class": "Students",
+      "target_property": "Students_login_name",
+      "value": "student123"
+    },
+    {
+      "entry_type": "value",
+      "key": "수학",
+      "target_class": "Subjects",
+      "target_property": "Subjects_subject_name",
+      "value": "수학"
+    },
+    {
+      "entry_type": "value",
+      "key": "물리",
+      "target_class": "Subjects",
+      "target_property": "Subjects_subject_name",
+      "value": "물리"
+    },
+    {
+      "entry_type": "value",
+      "key": "화학",
+      "target_class": "Subjects",
+      "target_property": "Subjects_subject_name",
+      "value": "화학"
+    },
+    {
+      "entry_type": "value",
+      "key": "기초 프로그래밍",
+      "target_class": "Courses",
+      "target_property": "Courses_course_name",
+      "value": "기초 프로그래밍"
+    },
+    {
+      "entry_type": "value",
+      "key": "데이터 분석",
+      "target_class": "Courses",
+      "target_property": "Courses_course_name",
+      "value": "데이터 분석"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-10-05",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_date_test_taken",
+      "value": "2023-10-05"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 10월 5일",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_date_test_taken",
+      "value": "2023-10-05"
+    },
+    {
+      "entry_type": "value",
+      "key": "합격",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_test_result",
+      "value": "합격"
+    },
+    {
+      "entry_type": "value",
+      "key": "불합격",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_test_result",
+      "value": "불합격"
+    },
+    {
+      "entry_type": "value",
+      "key": "보류",
+      "target_class": "Student_Tests_Taken",
+      "target_property": "Student_Tests_Taken_test_result",
+      "value": "보류"
+    }
+  ]
+}

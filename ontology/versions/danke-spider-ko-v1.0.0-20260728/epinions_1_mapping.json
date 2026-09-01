@@ -1,0 +1,76 @@
+{
+  "class_table": {
+    "item": "item",
+    "review": "review",
+    "useracct": "useracct",
+    "trust": "trust"
+  },
+  "property_column": {
+    "item_i_id": [
+      "item",
+      "i_id"
+    ],
+    "item_title": [
+      "item",
+      "title"
+    ],
+    "review_a_id": [
+      "review",
+      "a_id"
+    ],
+    "review_u_id": [
+      "review",
+      "u_id"
+    ],
+    "review_i_id": [
+      "review",
+      "i_id"
+    ],
+    "review_rating": [
+      "review",
+      "rating"
+    ],
+    "review_rank": [
+      "review",
+      "rank"
+    ],
+    "useracct_u_id": [
+      "useracct",
+      "u_id"
+    ],
+    "useracct_name": [
+      "useracct",
+      "name"
+    ],
+    "trust_source_u_id": [
+      "trust",
+      "source_u_id"
+    ],
+    "trust_target_u_id": [
+      "trust",
+      "target_u_id"
+    ],
+    "trust_trust": [
+      "trust",
+      "trust"
+    ]
+  },
+  "object_property_fk": {
+    "review_item_fk0": [
+      "review.i_id",
+      "item.i_id"
+    ],
+    "review_useracct_fk1": [
+      "review.u_id",
+      "useracct.u_id"
+    ],
+    "trust_useracct_fk2": [
+      "trust.target_u_id",
+      "useracct.u_id"
+    ],
+    "trust_useracct_fk3": [
+      "trust.source_u_id",
+      "useracct.u_id"
+    ]
+  }
+}

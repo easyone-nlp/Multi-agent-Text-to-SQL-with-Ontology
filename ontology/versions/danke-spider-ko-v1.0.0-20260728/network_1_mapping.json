@@ -1,0 +1,55 @@
+{
+  "class_table": {
+    "Highschooler": "Highschooler",
+    "Friend": "Friend",
+    "Likes": "Likes"
+  },
+  "property_column": {
+    "Highschooler_ID": [
+      "Highschooler",
+      "ID"
+    ],
+    "Highschooler_name": [
+      "Highschooler",
+      "name"
+    ],
+    "Highschooler_grade": [
+      "Highschooler",
+      "grade"
+    ],
+    "Friend_student_id": [
+      "Friend",
+      "student_id"
+    ],
+    "Friend_friend_id": [
+      "Friend",
+      "friend_id"
+    ],
+    "Likes_student_id": [
+      "Likes",
+      "student_id"
+    ],
+    "Likes_liked_id": [
+      "Likes",
+      "liked_id"
+    ]
+  },
+  "object_property_fk": {
+    "Friend_Highschooler_fk0": [
+      "Friend.friend_id",
+      "Highschooler.ID"
+    ],
+    "Friend_Highschooler_fk1": [
+      "Friend.student_id",
+      "Highschooler.ID"
+    ],
+    "Likes_Highschooler_fk2": [
+      "Likes.student_id",
+      "Highschooler.ID"
+    ],
+    "Likes_Highschooler_fk3": [
+      "Likes.liked_id",
+      "Highschooler.ID"
+    ]
+  }
+}

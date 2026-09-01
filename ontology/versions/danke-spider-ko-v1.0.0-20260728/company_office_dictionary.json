@@ -1,0 +1,1012 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "건물",
+      "target_class": "buildings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "건물 정보",
+      "target_class": "buildings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "회사 건물",
+      "target_class": "buildings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구조물",
+      "target_class": "buildings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "건물 목록",
+      "target_class": "buildings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "회사",
+      "target_class": "Companies",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "기업",
+      "target_class": "Companies",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "회사 목록",
+      "target_class": "Companies",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "기업 정보",
+      "target_class": "Companies",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "회사 데이터",
+      "target_class": "Companies",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "office locations",
+      "target_class": "Office_locations",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사무실 위치",
+      "target_class": "Office_locations",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "오피스 위치",
+      "target_class": "Office_locations",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지점 위치",
+      "target_class": "Office_locations",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사무실 정보",
+      "target_class": "Office_locations",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "오피스 위치 목록",
+      "target_class": "Office_locations",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "buildings",
+      "target_property": "buildings_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "buildings",
+      "target_property": "buildings_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 번호",
+      "target_class": "buildings",
+      "target_property": "buildings_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 식별자",
+      "target_class": "buildings",
+      "target_property": "buildings_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 고유 번호",
+      "target_class": "buildings",
+      "target_property": "buildings_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 아이디",
+      "target_class": "buildings",
+      "target_property": "buildings_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 코드",
+      "target_class": "buildings",
+      "target_property": "buildings_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "buildings",
+      "target_property": "buildings_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "buildings",
+      "target_property": "buildings_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 이름",
+      "target_class": "buildings",
+      "target_property": "buildings_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 제목",
+      "target_class": "buildings",
+      "target_property": "buildings_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물명",
+      "target_class": "buildings",
+      "target_property": "buildings_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 고유 이름",
+      "target_class": "buildings",
+      "target_property": "buildings_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city",
+      "target_class": "buildings",
+      "target_property": "buildings_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "City",
+      "target_class": "buildings",
+      "target_property": "buildings_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "buildings",
+      "target_property": "buildings_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 이름",
+      "target_class": "buildings",
+      "target_property": "buildings_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 위치 도시",
+      "target_class": "buildings",
+      "target_property": "buildings_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 소재지 도시",
+      "target_class": "buildings",
+      "target_property": "buildings_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명",
+      "target_class": "buildings",
+      "target_property": "buildings_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "height",
+      "target_class": "buildings",
+      "target_property": "buildings_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "높이",
+      "target_class": "buildings",
+      "target_property": "buildings_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 높이",
+      "target_class": "buildings",
+      "target_property": "buildings_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "높이 정보",
+      "target_class": "buildings",
+      "target_property": "buildings_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 높이 데이터",
+      "target_class": "buildings",
+      "target_property": "buildings_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Height",
+      "target_class": "buildings",
+      "target_property": "buildings_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "높이 수치",
+      "target_class": "buildings",
+      "target_property": "buildings_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 높이 값",
+      "target_class": "buildings",
+      "target_property": "buildings_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stories",
+      "target_class": "buildings",
+      "target_property": "buildings_Stories",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "층수",
+      "target_class": "buildings",
+      "target_property": "buildings_Stories",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 층수",
+      "target_class": "buildings",
+      "target_property": "buildings_Stories",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 층수 데이터",
+      "target_class": "buildings",
+      "target_property": "buildings_Stories",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Stories",
+      "target_class": "buildings",
+      "target_property": "buildings_Stories",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "층 수치",
+      "target_class": "buildings",
+      "target_property": "buildings_Stories",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 층수 값",
+      "target_class": "buildings",
+      "target_property": "buildings_Stories",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "status",
+      "target_class": "buildings",
+      "target_property": "buildings_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태",
+      "target_class": "buildings",
+      "target_property": "buildings_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 상태",
+      "target_class": "buildings",
+      "target_property": "buildings_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "현황",
+      "target_class": "buildings",
+      "target_property": "buildings_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 현황",
+      "target_class": "buildings",
+      "target_property": "buildings_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Status",
+      "target_class": "buildings",
+      "target_property": "buildings_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 상태 정보",
+      "target_class": "buildings",
+      "target_property": "buildings_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 상태 데이터",
+      "target_class": "buildings",
+      "target_property": "buildings_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회사 ID",
+      "target_class": "Companies",
+      "target_property": "Companies_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "Companies",
+      "target_property": "Companies_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회사 번호",
+      "target_class": "Companies",
+      "target_property": "Companies_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 번호",
+      "target_class": "Companies",
+      "target_property": "Companies_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "Companies",
+      "target_property": "Companies_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "Companies",
+      "target_property": "Companies_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회사 코드",
+      "target_class": "Companies",
+      "target_property": "Companies_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회사 이름",
+      "target_class": "Companies",
+      "target_property": "Companies_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "Companies",
+      "target_property": "Companies_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Companies",
+      "target_property": "Companies_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회사명",
+      "target_class": "Companies",
+      "target_property": "Companies_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회사 대표 이름",
+      "target_class": "Companies",
+      "target_property": "Companies_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회사 표시 이름",
+      "target_class": "Companies",
+      "target_property": "Companies_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "본사",
+      "target_class": "Companies",
+      "target_property": "Companies_Headquarters",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Headquarters",
+      "target_class": "Companies",
+      "target_property": "Companies_Headquarters",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "본사 위치",
+      "target_class": "Companies",
+      "target_property": "Companies_Headquarters",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "본사 소재지",
+      "target_class": "Companies",
+      "target_property": "Companies_Headquarters",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회사 본사",
+      "target_class": "Companies",
+      "target_property": "Companies_Headquarters",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "본사 주소",
+      "target_class": "Companies",
+      "target_property": "Companies_Headquarters",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업종",
+      "target_class": "Companies",
+      "target_property": "Companies_Industry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "산업",
+      "target_class": "Companies",
+      "target_property": "Companies_Industry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "산업분류",
+      "target_class": "Companies",
+      "target_property": "Companies_Industry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "산업类别",
+      "target_class": "Companies",
+      "target_property": "Companies_Industry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "산업분야",
+      "target_class": "Companies",
+      "target_property": "Companies_Industry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업종분류",
+      "target_class": "Companies",
+      "target_property": "Companies_Industry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "산업군",
+      "target_class": "Companies",
+      "target_property": "Companies_Industry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매출 양",
+      "target_class": "Companies",
+      "target_property": "Companies_Sales_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매출",
+      "target_class": "Companies",
+      "target_property": "Companies_Sales_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매출액",
+      "target_class": "Companies",
+      "target_property": "Companies_Sales_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매출금",
+      "target_class": "Companies",
+      "target_property": "Companies_Sales_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매출규모",
+      "target_class": "Companies",
+      "target_property": "Companies_Sales_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매출액(십억)",
+      "target_class": "Companies",
+      "target_property": "Companies_Sales_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매출액(십억 단위)",
+      "target_class": "Companies",
+      "target_property": "Companies_Sales_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매출액(십억원)",
+      "target_class": "Companies",
+      "target_property": "Companies_Sales_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매출액(십억원 단위)",
+      "target_class": "Companies",
+      "target_property": "Companies_Sales_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이익 양",
+      "target_class": "Companies",
+      "target_property": "Companies_Profits_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수익",
+      "target_class": "Companies",
+      "target_property": "Companies_Profits_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수익액",
+      "target_class": "Companies",
+      "target_property": "Companies_Profits_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이익",
+      "target_class": "Companies",
+      "target_property": "Companies_Profits_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이익액",
+      "target_class": "Companies",
+      "target_property": "Companies_Profits_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이익(십억)",
+      "target_class": "Companies",
+      "target_property": "Companies_Profits_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이익(십억 단위)",
+      "target_class": "Companies",
+      "target_property": "Companies_Profits_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이익액(십억원)",
+      "target_class": "Companies",
+      "target_property": "Companies_Profits_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이익액(십억원 단위)",
+      "target_class": "Companies",
+      "target_property": "Companies_Profits_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자산 양",
+      "target_class": "Companies",
+      "target_property": "Companies_Assets_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자산",
+      "target_class": "Companies",
+      "target_property": "Companies_Assets_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자산 금액",
+      "target_class": "Companies",
+      "target_property": "Companies_Assets_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자산 규모",
+      "target_class": "Companies",
+      "target_property": "Companies_Assets_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자산 가치",
+      "target_class": "Companies",
+      "target_property": "Companies_Assets_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자산 총량",
+      "target_class": "Companies",
+      "target_property": "Companies_Assets_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자산 수준",
+      "target_class": "Companies",
+      "target_property": "Companies_Assets_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자산 금액(십억)",
+      "target_class": "Companies",
+      "target_property": "Companies_Assets_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자산 측면",
+      "target_class": "Companies",
+      "target_property": "Companies_Assets_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 가치",
+      "target_class": "Companies",
+      "target_property": "Companies_Market_Value_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 가격",
+      "target_class": "Companies",
+      "target_property": "Companies_Market_Value_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 가치(십억)",
+      "target_class": "Companies",
+      "target_property": "Companies_Market_Value_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주식 가치",
+      "target_class": "Companies",
+      "target_property": "Companies_Market_Value_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회사 가치",
+      "target_class": "Companies",
+      "target_property": "Companies_Market_Value_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 평가",
+      "target_class": "Companies",
+      "target_property": "Companies_Market_Value_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 평가액",
+      "target_class": "Companies",
+      "target_property": "Companies_Market_Value_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 가격(십억)",
+      "target_class": "Companies",
+      "target_property": "Companies_Market_Value_billion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "building id",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_building_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 ID",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_building_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 번호",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_building_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 식별자",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_building_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 코드",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_building_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 고유 번호",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_building_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "company id",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_company_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회사 ID",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_company_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회사 번호",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_company_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회사 식별자",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_company_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회사 코드",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_company_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회사 고유 번호",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_company_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "move in year",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_move_in_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입주 연도",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_move_in_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이전 연도",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_move_in_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이전년도",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_move_in_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입주년도",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_move_in_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입주 시기",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_move_in_year",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "2020",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_move_in_year",
+      "value": "2020"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020년",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_move_in_year",
+      "value": "2020"
+    },
+    {
+      "entry_type": "value",
+      "key": "2021",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_move_in_year",
+      "value": "2021"
+    },
+    {
+      "entry_type": "value",
+      "key": "2021년",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_move_in_year",
+      "value": "2021"
+    },
+    {
+      "entry_type": "value",
+      "key": "2022",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_move_in_year",
+      "value": "2022"
+    },
+    {
+      "entry_type": "value",
+      "key": "2022년",
+      "target_class": "Office_locations",
+      "target_property": "Office_locations_move_in_year",
+      "value": "2022"
+    }
+  ]
+}

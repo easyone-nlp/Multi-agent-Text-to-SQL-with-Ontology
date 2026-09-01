@@ -1,0 +1,1320 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "농구 경기",
+      "target_class": "basketball_match",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "농구 경기 정보",
+      "target_class": "basketball_match",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "농구 대회",
+      "target_class": "basketball_match",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "농구 경기 기록",
+      "target_class": "basketball_match",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "농구 경기 데이터",
+      "target_class": "basketball_match",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대학",
+      "target_class": "university",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대학 정보",
+      "target_class": "university",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대학 데이터",
+      "target_class": "university",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대학 기록",
+      "target_class": "university",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대학 목록",
+      "target_class": "university",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 ID",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 번호",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 식별자",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 코드",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 고유 번호",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Team ID",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 ID",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 번호",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 식별자",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 코드",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 고유 번호",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "School ID",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 이름",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀명",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구단 이름",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구단명",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 코드 이름",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Team Name",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 정규 시즌",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Regular_Season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 정규 경기",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Regular_Season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정규 시즌 결과",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Regular_Season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 정규 경기 결과",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Regular_Season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 정규 시즌 데이터",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Regular_Season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 정규 시즌 정보",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Regular_Season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 정규 경기 결과 정보",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Regular_Season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 정규 시즌 결과 정보",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Regular_Season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 승률",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 성적",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 성적 비율",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 비율",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 성적 데이터",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 성적 정보",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 비율 정보",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 성적 비율 정보",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 성적 수치",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 홈 경기",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Home",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 홈 결과",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Home",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 홈 경기 결과",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Home",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 홈 데이터",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Home",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 홈 정보",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Home",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 홈 경기 결과 정보",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Home",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 홈 성적",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Home",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 홈 경기 성적",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Home",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC 외부 경기",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ACC Road",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아코드 외부 경기",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리그 외부 경기 성적",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아코드 외부 경기 결과",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가장 최근 아코드 외부 경기",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 경기",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Games",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "All Games",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Games",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "모든 경기 성적",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Games",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 경기 결과",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Games",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "모든 경기",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Games",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 경기 승률",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Games_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "All Games Percent",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Games_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 경기 백분율",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Games_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "모든 경기 성적 백분율",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Games_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 경기 성공률",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Games_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "모든 경기 성공률",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Games_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 홈 경기",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Home",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 홈",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Home",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈 경기 성적",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Home",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈 성적",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Home",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈 경기 결과",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Home",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 외부 경기",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 원정",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원정 경기 성적",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원정 성적",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 원정 경기",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원정 경기 결과",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 중립 경기",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Neutral",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 중립",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Neutral",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "중립 경기 성적",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Neutral",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "중립 성적",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Neutral",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "중립 경기 결과",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Neutral",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 ID",
+      "target_class": "university",
+      "target_property": "university_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "School_ID",
+      "target_class": "university",
+      "target_property": "university_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 식별 번호",
+      "target_class": "university",
+      "target_property": "university_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 번호",
+      "target_class": "university",
+      "target_property": "university_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 고유 번호",
+      "target_class": "university",
+      "target_property": "university_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 식별자",
+      "target_class": "university",
+      "target_property": "university_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교",
+      "target_class": "university",
+      "target_property": "university_School",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "School",
+      "target_class": "university",
+      "target_property": "university_School",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학 이름",
+      "target_class": "university",
+      "target_property": "university_School",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 이름",
+      "target_class": "university",
+      "target_property": "university_School",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교명",
+      "target_class": "university",
+      "target_property": "university_School",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "university",
+      "target_property": "university_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Location",
+      "target_class": "university",
+      "target_property": "university_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "university",
+      "target_property": "university_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학 위치",
+      "target_class": "university",
+      "target_property": "university_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 위치",
+      "target_class": "university",
+      "target_property": "university_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 정보",
+      "target_class": "university",
+      "target_property": "university_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "university",
+      "target_property": "university_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설립 연도",
+      "target_class": "university",
+      "target_property": "university_Founded",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설립년도",
+      "target_class": "university",
+      "target_property": "university_Founded",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "founded",
+      "target_class": "university",
+      "target_property": "university_Founded",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "founded_year",
+      "target_class": "university",
+      "target_property": "university_Founded",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설립 연번",
+      "target_class": "university",
+      "target_property": "university_Founded",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설립 시기",
+      "target_class": "university",
+      "target_property": "university_Founded",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소속",
+      "target_class": "university",
+      "target_property": "university_Affiliation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연맹",
+      "target_class": "university",
+      "target_property": "university_Affiliation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "협회",
+      "target_class": "university",
+      "target_property": "university_Affiliation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학 연맹",
+      "target_class": "university",
+      "target_property": "university_Affiliation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연합",
+      "target_class": "university",
+      "target_property": "university_Affiliation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수강생 수",
+      "target_class": "university",
+      "target_property": "university_Enrollment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "재학생 수",
+      "target_class": "university",
+      "target_property": "university_Enrollment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 수",
+      "target_class": "university",
+      "target_property": "university_Enrollment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 인원",
+      "target_class": "university",
+      "target_property": "university_Enrollment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록자 수",
+      "target_class": "university",
+      "target_property": "university_Enrollment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인원",
+      "target_class": "university",
+      "target_property": "university_Enrollment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수",
+      "target_class": "university",
+      "target_property": "university_Enrollment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "별명",
+      "target_class": "university",
+      "target_property": "university_Nickname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학 별명",
+      "target_class": "university",
+      "target_property": "university_Nickname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인기 별명",
+      "target_class": "university",
+      "target_property": "university_Nickname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학의 별명",
+      "target_class": "university",
+      "target_property": "university_Nickname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "니크네임",
+      "target_class": "university",
+      "target_property": "university_Nickname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Nickname",
+      "target_class": "university",
+      "target_property": "university_Nickname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "특징 별명",
+      "target_class": "university",
+      "target_property": "university_Nickname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주요 컨퍼런스",
+      "target_class": "university",
+      "target_property": "university_Primary_conference",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주요 연맹",
+      "target_class": "university",
+      "target_property": "university_Primary_conference",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주축구 연맹",
+      "target_class": "university",
+      "target_property": "university_Primary_conference",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주요 대회",
+      "target_class": "university",
+      "target_property": "university_Primary_conference",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주연맹",
+      "target_class": "university",
+      "target_property": "university_Primary_conference",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Primary conference",
+      "target_class": "university",
+      "target_property": "university_Primary_conference",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주요 축구 연맹",
+      "target_class": "university",
+      "target_property": "university_Primary_conference",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 대회",
+      "target_class": "university",
+      "target_property": "university_Primary_conference",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주연맹 이름",
+      "target_class": "university",
+      "target_property": "university_Primary_conference",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "한국 대학교",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_Name",
+      "value": "한국 대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국대",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_Name",
+      "value": "한국 대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국 대학",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_Name",
+      "value": "한국 대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국 대학교",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_Name",
+      "value": "미국 대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국대",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_Name",
+      "value": "미국 대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국 대학",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_Team_Name",
+      "value": "미국 대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "승리",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Regular_Season",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "승",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Regular_Season",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "패배",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Regular_Season",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "패",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Regular_Season",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "승리",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Home",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "승",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Home",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "패배",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Home",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "패",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Home",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "승리",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Road",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "승",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Road",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "패배",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Road",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "패",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_ACC_Road",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "승리",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Games",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "승",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Games",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "패배",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Games",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "패",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Games",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "승리",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Home",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "승",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Home",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "패배",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Home",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "패",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Home",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "승리",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Road",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "승",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Road",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "패배",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Road",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "패",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Road",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "승리",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Neutral",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "승",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Neutral",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "패배",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Neutral",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "패",
+      "target_class": "basketball_match",
+      "target_property": "basketball_match_All_Neutral",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국과학기술원",
+      "target_class": "university",
+      "target_property": "university_School",
+      "value": "한국과학기술원"
+    },
+    {
+      "entry_type": "value",
+      "key": "KAIST",
+      "target_class": "university",
+      "target_property": "university_School",
+      "value": "한국과학기술원"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울대학교",
+      "target_class": "university",
+      "target_property": "university_School",
+      "value": "서울대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "Seoul National University",
+      "target_class": "university",
+      "target_property": "university_School",
+      "value": "서울대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "university",
+      "target_property": "university_Location",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "Seoul",
+      "target_class": "university",
+      "target_property": "university_Location",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "university",
+      "target_property": "university_Location",
+      "value": "부산"
+    },
+    {
+      "entry_type": "value",
+      "key": "Busan",
+      "target_class": "university",
+      "target_property": "university_Location",
+      "value": "부산"
+    },
+    {
+      "entry_type": "value",
+      "key": "공립",
+      "target_class": "university",
+      "target_property": "university_Affiliation",
+      "value": "공립"
+    },
+    {
+      "entry_type": "value",
+      "key": "public",
+      "target_class": "university",
+      "target_property": "university_Affiliation",
+      "value": "공립"
+    },
+    {
+      "entry_type": "value",
+      "key": "민간",
+      "target_class": "university",
+      "target_property": "university_Affiliation",
+      "value": "민간"
+    },
+    {
+      "entry_type": "value",
+      "key": "private",
+      "target_class": "university",
+      "target_property": "university_Affiliation",
+      "value": "민간"
+    },
+    {
+      "entry_type": "value",
+      "key": "스파이더",
+      "target_class": "university",
+      "target_property": "university_Nickname",
+      "value": "스파이더"
+    },
+    {
+      "entry_type": "value",
+      "key": "파이어",
+      "target_class": "university",
+      "target_property": "university_Nickname",
+      "value": "파이어"
+    },
+    {
+      "entry_type": "value",
+      "key": "Pac-12",
+      "target_class": "university",
+      "target_property": "university_Primary_conference",
+      "value": "Pac-12"
+    },
+    {
+      "entry_type": "value",
+      "key": "Big Ten",
+      "target_class": "university",
+      "target_property": "university_Primary_conference",
+      "value": "Big Ten"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "class_table": {
+    "Roles": "Roles",
+    "Users": "Users",
+    "Document_Structures": "Document_Structures",
+    "Functional_Areas": "Functional_Areas",
+    "Images": "Images",
+    "Documents": "Documents",
+    "Document_Functional_Areas": "Document_Functional_Areas",
+    "Document_Sections": "Document_Sections",
+    "Document_Sections_Images": "Document_Sections_Images"
+  },
+  "property_column": {
+    "Roles_role_code": [
+      "Roles",
+      "role_code"
+    ],
+    "Roles_role_description": [
+      "Roles",
+      "role_description"
+    ],
+    "Users_user_id": [
+      "Users",
+      "user_id"
+    ],
+    "Users_role_code": [
+      "Users",
+      "role_code"
+    ],
+    "Users_user_name": [
+      "Users",
+      "user_name"
+    ],
+    "Users_user_login": [
+      "Users",
+      "user_login"
+    ],
+    "Users_password": [
+      "Users",
+      "password"
+    ],
+    "Document_Structures_document_structure_code": [
+      "Document_Structures",
+      "document_structure_code"
+    ],
+    "Document_Structures_parent_document_structure_code": [
+      "Document_Structures",
+      "parent_document_structure_code"
+    ],
+    "Document_Structures_document_structure_description": [
+      "Document_Structures",
+      "document_structure_description"
+    ],
+    "Functional_Areas_functional_area_code": [
+      "Functional_Areas",
+      "functional_area_code"
+    ],
+    "Functional_Areas_parent_functional_area_code": [
+      "Functional_Areas",
+      "parent_functional_area_code"
+    ],
+    "Functional_Areas_functional_area_description": [
+      "Functional_Areas",
+      "functional_area_description"
+    ],
+    "Images_image_id": [
+      "Images",
+      "image_id"
+    ],
+    "Images_image_alt_text": [
+      "Images",
+      "image_alt_text"
+    ],
+    "Images_image_name": [
+      "Images",
+      "image_name"
+    ],
+    "Images_image_url": [
+      "Images",
+      "image_url"
+    ],
+    "Documents_document_code": [
+      "Documents",
+      "document_code"
+    ],
+    "Documents_document_structure_code": [
+      "Documents",
+      "document_structure_code"
+    ],
+    "Documents_document_type_code": [
+      "Documents",
+      "document_type_code"
+    ],
+    "Documents_access_count": [
+      "Documents",
+      "access_count"
+    ],
+    "Documents_document_name": [
+      "Documents",
+      "document_name"
+    ],
+    "Document_Functional_Areas_document_code": [
+      "Document_Functional_Areas",
+      "document_code"
+    ],
+    "Document_Functional_Areas_functional_area_code": [
+      "Document_Functional_Areas",
+      "functional_area_code"
+    ],
+    "Document_Sections_section_id": [
+      "Document_Sections",
+      "section_id"
+    ],
+    "Document_Sections_document_code": [
+      "Document_Sections",
+      "document_code"
+    ],
+    "Document_Sections_section_sequence": [
+      "Document_Sections",
+      "section_sequence"
+    ],
+    "Document_Sections_section_code": [
+      "Document_Sections",
+      "section_code"
+    ],
+    "Document_Sections_section_title": [
+      "Document_Sections",
+      "section_title"
+    ],
+    "Document_Sections_Images_section_id": [
+      "Document_Sections_Images",
+      "section_id"
+    ],
+    "Document_Sections_Images_image_id": [
+      "Document_Sections_Images",
+      "image_id"
+    ]
+  },
+  "object_property_fk": {
+    "Users_Roles_fk0": [
+      "Users.role_code",
+      "Roles.role_code"
+    ],
+    "Documents_Document_Structures_fk1": [
+      "Documents.document_structure_code",
+      "Document_Structures.document_structure_code"
+    ],
+    "Document_Functional_Areas_Functional_Areas_fk2": [
+      "Document_Functional_Areas.functional_area_code",
+      "Functional_Areas.functional_area_code"
+    ],
+    "Document_Functional_Areas_Documents_fk3": [
+      "Document_Functional_Areas.document_code",
+      "Documents.document_code"
+    ],
+    "Document_Sections_Documents_fk4": [
+      "Document_Sections.document_code",
+      "Documents.document_code"
+    ],
+    "Document_Sections_Images_Images_fk5": [
+      "Document_Sections_Images.image_id",
+      "Images.image_id"
+    ],
+    "Document_Sections_Images_Document_Sections_fk6": [
+      "Document_Sections_Images.section_id",
+      "Document_Sections.section_id"
+    ]
+  }
+}

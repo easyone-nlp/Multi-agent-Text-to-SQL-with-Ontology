@@ -1,0 +1,2515 @@
+{
+  "db_id": "sakila_1",
+  "classes": [
+    {
+      "name": "actor",
+      "source_table": "actor",
+      "ranking": 3.0,
+      "primary_label": "배우",
+      "synonyms": [
+        "배우",
+        "배우 정보",
+        "영화 배우",
+        "연기자",
+        "연기자 정보"
+      ]
+    },
+    {
+      "name": "address",
+      "source_table": "address",
+      "ranking": 3.5,
+      "primary_label": "주소",
+      "synonyms": [
+        "영화관 주소",
+        "영화관 위치",
+        "관람 장소 주소",
+        "영화관 위치 정보",
+        "관람 장소 위치"
+      ]
+    },
+    {
+      "name": "category",
+      "source_table": "category",
+      "ranking": 3.0,
+      "primary_label": "카테고리",
+      "synonyms": [
+        "영화 장르",
+        "장르 정보",
+        "영화 카테고리",
+        "영화 분류",
+        "장르"
+      ]
+    },
+    {
+      "name": "city",
+      "source_table": "city",
+      "ranking": 3.0,
+      "primary_label": "도시",
+      "synonyms": [
+        "도시",
+        "도시 정보",
+        "도시 목록",
+        "도시 데이터",
+        "도시 목표"
+      ]
+    },
+    {
+      "name": "country",
+      "source_table": "country",
+      "ranking": 3.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "국가 정보",
+        "국가 목록",
+        "국가 데이터",
+        "국가 목표"
+      ]
+    },
+    {
+      "name": "customer",
+      "source_table": "customer",
+      "ranking": 1.0,
+      "primary_label": "customer",
+      "synonyms": [
+        "고객",
+        "고객 정보",
+        "고객 목록",
+        "고객 데이터",
+        "고객 목표"
+      ]
+    },
+    {
+      "name": "film",
+      "source_table": "film",
+      "ranking": 3.5,
+      "primary_label": "영화",
+      "synonyms": [
+        "영화",
+        "영화제목",
+        "영화명",
+        "영화정보",
+        "영화목록"
+      ]
+    },
+    {
+      "name": "film_actor",
+      "source_table": "film_actor",
+      "ranking": 3.0,
+      "primary_label": "film actor",
+      "synonyms": [
+        "영화배우",
+        "영화배우관계",
+        "영화배우연관",
+        "영화배우정보",
+        "영화배우목록"
+      ]
+    },
+    {
+      "name": "film_category",
+      "source_table": "film_category",
+      "ranking": 3.0,
+      "primary_label": "film category",
+      "synonyms": [
+        "영화장르",
+        "영화장르관계",
+        "영화장르연관",
+        "영화장르정보",
+        "영화장르목록"
+      ]
+    },
+    {
+      "name": "film_text",
+      "source_table": "film_text",
+      "ranking": 3.5,
+      "primary_label": "영화 텍스트",
+      "synonyms": [
+        "영화 텍스트",
+        "영화 내용",
+        "영화 설명",
+        "영화 자막",
+        "영화 설명문"
+      ]
+    },
+    {
+      "name": "inventory",
+      "source_table": "inventory",
+      "ranking": 3.0,
+      "primary_label": "재고",
+      "synonyms": [
+        "대여 목록",
+        "대여 목록 관리",
+        "대여 정보",
+        "대여 목록 데이터",
+        "대여 목록 테이블"
+      ]
+    },
+    {
+      "name": "language",
+      "source_table": "language",
+      "ranking": 3.0,
+      "primary_label": "언어",
+      "synonyms": [
+        "언어",
+        "언어 정보",
+        "언어 데이터",
+        "언어 목록",
+        "언어 코드"
+      ]
+    },
+    {
+      "name": "payment",
+      "source_table": "payment",
+      "ranking": 3.0,
+      "primary_label": "결제",
+      "synonyms": [
+        "결제",
+        "지불",
+        "수수료",
+        "지급",
+        "청구서",
+        "지불내역"
+      ]
+    },
+    {
+      "name": "rental",
+      "source_table": "rental",
+      "ranking": 3.5,
+      "primary_label": "대여 정보",
+      "synonyms": [
+        "대여",
+        "대여기록",
+        "대여내역",
+        "대여정보",
+        "대여일지",
+        "대여내역서"
+      ]
+    },
+    {
+      "name": "staff",
+      "source_table": "staff",
+      "ranking": 3.5,
+      "primary_label": "직원",
+      "synonyms": [
+        "직원",
+        "직원정보",
+        "직원목록",
+        "직원데이터",
+        "직원기록",
+        "직원정보서"
+      ]
+    },
+    {
+      "name": "store",
+      "source_table": "store",
+      "ranking": 3.0,
+      "primary_label": "매장",
+      "synonyms": [
+        "대여점 정보",
+        "영화관 정보",
+        "대여소 정보",
+        "영화 대여소",
+        "대여점 데이터"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "actor_actor_id",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "actor_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "배우 id",
+      "synonyms": [
+        "actor_id",
+        "배우 ID",
+        "배우 고유번호",
+        "영화 배우 번호",
+        "배우 식별자",
+        "배우 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "actor_first_name",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "first_name",
+        "이름",
+        "배우 이름",
+        "배우 첫 이름",
+        "배우의 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "지민": [
+          "지민"
+        ],
+        "서지현": [
+          "서지현"
+        ]
+      }
+    },
+    {
+      "name": "actor_last_name",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "last_name",
+        "성",
+        "배우 성",
+        "배우의 성",
+        "배우 마지막 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김"
+        ],
+        "박": [
+          "박"
+        ]
+      }
+    },
+    {
+      "name": "actor_last_update",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "last_update",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "최종 수정 시간",
+      "synonyms": [
+        "마지막 업데이트 시간",
+        "최근 수정일",
+        "수정일시",
+        "마지막 수정 시간",
+        "업데이트 일시",
+        "last update",
+        "최종 수정 시간",
+        "수정 일자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "address_address_id",
+      "domain": "address",
+      "source_table": "address",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "주소 ID",
+      "synonyms": [
+        "주소 ID",
+        "주소 고유 번호",
+        "주소 식별자",
+        "address_id",
+        "주소 번호",
+        "주소 식별번호",
+        "주소 고유값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "address_address",
+      "domain": "address",
+      "source_table": "address",
+      "source_column": "address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "주소",
+      "synonyms": [
+        "주소",
+        "주소 정보",
+        "주소 내용",
+        "address",
+        "주소 데이터",
+        "주소 내용물",
+        "주소 주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "address_address2",
+      "domain": "address",
+      "source_table": "address",
+      "source_column": "address2",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.1,
+      "primary_label": "주소2",
+      "synonyms": [
+        "주소2",
+        "보조 주소",
+        "주소 보조 정보",
+        "address2",
+        "보조 주소 정보",
+        "주소 추가 정보",
+        "주소 보조"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "address_district",
+      "domain": "address",
+      "source_table": "address",
+      "source_column": "district",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "구역",
+      "synonyms": [
+        "district",
+        "지역",
+        "구역",
+        "행정구역",
+        "지방",
+        "지역정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "address_city_id",
+      "domain": "address",
+      "source_table": "address",
+      "source_column": "city_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.4,
+      "primary_label": "시 ID",
+      "synonyms": [
+        "city_id",
+        "도시 아이디",
+        "도시 번호",
+        "도시 코드",
+        "도시 식별자",
+        "도시 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "address_postal_code",
+      "domain": "address",
+      "source_table": "address",
+      "source_column": "postal_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "우편번호",
+      "synonyms": [
+        "postal_code",
+        "우편번호",
+        "우편 코드",
+        "우편번호 정보",
+        "우편 코드 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "address_phone",
+      "domain": "address",
+      "source_table": "address",
+      "source_column": "phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.3,
+      "primary_label": "전화번호",
+      "synonyms": [
+        "전화번호",
+        "전화",
+        "연락처",
+        "전화번호 정보",
+        "전화번호 필드",
+        "phone"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "address_last_update",
+      "domain": "address",
+      "source_table": "address",
+      "source_column": "last_update",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 0.2,
+      "primary_label": "최종 업데이트",
+      "synonyms": [
+        "최근 업데이트 시간",
+        "업데이트 시간",
+        "마지막 수정 시간",
+        "최근 수정 시간",
+        "last_update"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "category_category_id",
+      "domain": "category",
+      "source_table": "category",
+      "source_column": "category_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "카테고리 ID",
+      "synonyms": [
+        "카테고리 ID",
+        "분류 번호",
+        "분류 아이디",
+        "category_id",
+        "ID",
+        "분류 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "category_name",
+      "domain": "category",
+      "source_table": "category",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "분류 이름",
+        "카테고리명",
+        "title",
+        "분류",
+        "분류명",
+        "name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "전자제품": [
+          "전자제품",
+          "전자기기"
+        ],
+        "의류": [
+          "의류",
+          "의복"
+        ],
+        "식품": [
+          "식품",
+          "음식"
+        ]
+      }
+    },
+    {
+      "name": "category_last_update",
+      "domain": "category",
+      "source_table": "category",
+      "source_column": "last_update",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "최종 업데이트",
+      "synonyms": [
+        "최종 수정 시간",
+        "업데이트 시간",
+        "마지막 수정 일시",
+        "last_update",
+        "수정 일시",
+        "업데이트 일시"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_city_id",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "city_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "도시 ID",
+      "synonyms": [
+        "도시 ID",
+        "도시 번호",
+        "도시 코드",
+        "city_id",
+        "도시 고유번호",
+        "도시 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_city",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "도시 이름",
+      "synonyms": [
+        "도시",
+        "도시명",
+        "도시 이름",
+        "도시명칭",
+        "도시 이름을 나타내는 컬럼",
+        "도시 정보",
+        "도시 이름 컬럼",
+        "도시명칭 컬럼"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "부산": [
+          "부산"
+        ],
+        "인천": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "city_country_id",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "country_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "국가 ID",
+      "synonyms": [
+        "country id",
+        "국가 코드",
+        "국가 번호",
+        "국가 식별자",
+        "국가 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_last_update",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "last_update",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "최종 수정 시간",
+      "synonyms": [
+        "최근 수정 시간",
+        "마지막 업데이트 시간",
+        "업데이트 일시",
+        "최근 수정일",
+        "last update",
+        "마지막 수정 시간",
+        "수정 일시",
+        "업데이트 시간"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_country_id",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "country_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "국가 id",
+      "synonyms": [
+        "country_id",
+        "국가 ID",
+        "국가 번호",
+        "국가 코드",
+        "국가 식별자",
+        "ID",
+        "국가 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_country",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "국가 이름",
+      "synonyms": [
+        "country",
+        "국가",
+        "국가명",
+        "국가 이름",
+        "국가명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "대한민국"
+        ],
+        "미국": [
+          "미국"
+        ],
+        "중국": [
+          "중국"
+        ]
+      }
+    },
+    {
+      "name": "country_last_update",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "last_update",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "최종 업데이트 시간",
+      "synonyms": [
+        "last_update",
+        "최종 수정 시간",
+        "마지막 업데이트",
+        "수정일시",
+        "최종 수정 일시",
+        "업데이트 시간",
+        "마지막 수정 시간"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "customer_customer_id",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "customer id",
+      "synonyms": [
+        "고유번호",
+        "고객 번호",
+        "고객 ID",
+        "고객 식별자",
+        "고객코드",
+        "ID",
+        "고유ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "customer_store_id",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "store_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "store id",
+      "synonyms": [
+        "가맹점 번호",
+        "가맹점 ID",
+        "가맹점 식별자",
+        "가맹점코드",
+        "ID",
+        "가맹점고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "customer_first_name",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "first name",
+      "synonyms": [
+        "이름",
+        "성명",
+        "이름 중간",
+        "이름부분",
+        "이름 요소",
+        "이름 중"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "customer_last_name",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "last name",
+      "synonyms": [
+        "성",
+        "이름",
+        "성명",
+        "성 정보",
+        "성자",
+        "성 부분",
+        "성 데이터",
+        "성 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "customer_email",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "email",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "email",
+      "synonyms": [
+        "이메일",
+        "이메일 주소",
+        "이메일 주소 정보",
+        "이메일 주소 데이터",
+        "이메일 주소 입력"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "customer_address_id",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "address id",
+      "synonyms": [
+        "주소 ID",
+        "주소 식별자",
+        "주소 번호",
+        "주소 코드",
+        "주소 식별",
+        "주소 정보 ID",
+        "주소 번호 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "customer_active",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "active",
+      "range_types": [
+        "boolean"
+      ],
+      "ranking": 1.0,
+      "primary_label": "active",
+      "synonyms": [
+        "활동 여부",
+        "활성 여부",
+        "활성 상태",
+        "활성화 여부",
+        "활동 상태",
+        "active",
+        "활성"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "customer_create_date",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "create_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "create date",
+      "synonyms": [
+        "등록일",
+        "생성일",
+        "등록일시",
+        "생성일시",
+        "create_date",
+        "생성 날짜",
+        "등록 날짜"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "customer_last_update",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "last_update",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "last update",
+      "synonyms": [
+        "최근 수정일",
+        "마지막 수정일",
+        "최근 수정일시",
+        "마지막 수정일시",
+        "last_update",
+        "수정 날짜",
+        "수정일"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_film_id",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "film_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "영화 ID",
+      "synonyms": [
+        "영화 ID",
+        "영화 고유 번호",
+        "영화 식별자",
+        "film_id",
+        "영화 번호",
+        "영화 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_title",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "제목",
+      "synonyms": [
+        "제목",
+        "영화 제목",
+        "영화 이름",
+        "title",
+        "영화 제목 정보",
+        "영화 이름 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_description",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.9,
+      "primary_label": "설명",
+      "synonyms": [
+        "설명",
+        "영화 설명",
+        "영화 소개",
+        "description",
+        "영화 설명 정보",
+        "영화 요약"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_release_year",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "release_year",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 3.2,
+      "primary_label": "출시 연도",
+      "synonyms": [
+        "출시 연도",
+        "발매 연도",
+        "개봉 연도",
+        "제작 연도",
+        "release_year",
+        "연도",
+        "출시년도"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_language_id",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "language_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "언어 ID",
+      "synonyms": [
+        "언어 코드",
+        "언어 아이디",
+        "language_id",
+        "언어",
+        "언어 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_original_language_id",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "original_language_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "원본 언어 ID",
+      "synonyms": [
+        "원본 언어 코드",
+        "원어 코드",
+        "원래 언어",
+        "original_language_id",
+        "원본 언어",
+        "원어"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_rental_duration",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "rental_duration",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "대여 기간",
+      "synonyms": [
+        "대여 기간",
+        "대여 시간",
+        "대여 소요 시간",
+        "대여 지속 시간",
+        "대여 소요 기간"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_rental_rate",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "rental_rate",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.9,
+      "primary_label": "대여료",
+      "synonyms": [
+        "렌탈 요금",
+        "대여 비용",
+        "대여 금액",
+        "대여 요율",
+        "렌탈 비용",
+        "대여 요금"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_length",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "length",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.7,
+      "primary_label": "장소",
+      "synonyms": [
+        "길이",
+        "장소",
+        "영화 길이",
+        "장수",
+        "동영상 길이",
+        "영화의 길이"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_replacement_cost",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "replacement_cost",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.1,
+      "primary_label": "대체 비용",
+      "synonyms": [
+        "대체 비용",
+        "교체 비용",
+        "대체 비용 정보",
+        "교체 비용 정보",
+        "replacement_cost",
+        "대체 비용 값",
+        "교체 비용 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_rating",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "rating",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.7,
+      "primary_label": "등급",
+      "synonyms": [
+        "평점",
+        "평가 점수",
+        "평점 정보",
+        "평가",
+        "rating",
+        "평점 값",
+        "평가 점수 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "G": [
+          "G",
+          "G등급"
+        ],
+        "PG": [
+          "PG",
+          "PG등급"
+        ],
+        "PG-13": [
+          "PG-13",
+          "PG-13등급"
+        ],
+        "R": [
+          "R",
+          "R등급"
+        ],
+        "NC-17": [
+          "NC-17",
+          "NC-17등급"
+        ]
+      }
+    },
+    {
+      "name": "film_special_features",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "special_features",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.4,
+      "primary_label": "특별 기능",
+      "synonyms": [
+        "특별 기능",
+        "특징",
+        "특별 기능 정보",
+        "특징 정보",
+        "special_features",
+        "특별 기능 값",
+        "특징 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Behind the Scenes": [
+          "백서",
+          "배경 설명"
+        ],
+        "Commentaries": [
+          "코멘터리",
+          "코멘터리 영상"
+        ],
+        "Deleted Scenes": [
+          "삭제된 장면",
+          "삭제된 장면"
+        ],
+        "Trailers": [
+          "트레일러",
+          "트레일러 영상"
+        ]
+      }
+    },
+    {
+      "name": "film_last_update",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "last_update",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.2,
+      "primary_label": "최종 업데이트",
+      "synonyms": [
+        "최종 수정일",
+        "마지막 수정 시간",
+        "업데이트 일시",
+        "최근 변경 일자",
+        "마지막 업데이트",
+        "last update",
+        "수정 일시",
+        "최종 변경 시간"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_actor_actor_id",
+      "domain": "film_actor",
+      "source_table": "film_actor",
+      "source_column": "actor_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "actor id",
+      "synonyms": [
+        "actor_id",
+        "배우 고유 번호",
+        "배우 번호",
+        "배우 식별자",
+        "배우 ID",
+        "배우 고유 ID",
+        "배우 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_actor_film_id",
+      "domain": "film_actor",
+      "source_table": "film_actor",
+      "source_column": "film_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "film id",
+      "synonyms": [
+        "영화 ID",
+        "영화 번호",
+        "영화 식별자",
+        "영화 코드",
+        "영화 고유번호",
+        "영화 식별번호",
+        "영화 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_actor_last_update",
+      "domain": "film_actor",
+      "source_table": "film_actor",
+      "source_column": "last_update",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "last update",
+      "synonyms": [
+        "최근 수정 시간",
+        "마지막 수정 일시",
+        "업데이트 시간",
+        "최종 수정 날짜",
+        "last update",
+        "마지막 업데이트",
+        "수정 일시",
+        "업데이트 일시"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_category_film_id",
+      "domain": "film_category",
+      "source_table": "film_category",
+      "source_column": "film_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "film id",
+      "synonyms": [
+        "영화 ID",
+        "영화 번호",
+        "영화 코드",
+        "영화 식별자",
+        "영화 고유 번호",
+        "film_id",
+        "film"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_category_category_id",
+      "domain": "film_category",
+      "source_table": "film_category",
+      "source_column": "category_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "category id",
+      "synonyms": [
+        "카테고리 ID",
+        "카테고리 번호",
+        "카테고리 코드",
+        "카테고리 식별자",
+        "카테고리 고유 번호",
+        "category_id",
+        "category"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_category_last_update",
+      "domain": "film_category",
+      "source_table": "film_category",
+      "source_column": "last_update",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "last update",
+      "synonyms": [
+        "마지막 업데이트",
+        "최근 수정일",
+        "수정 시간",
+        "마지막 수정 날짜",
+        "last_update",
+        "업데이트 시간"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_text_film_id",
+      "domain": "film_text",
+      "source_table": "film_text",
+      "source_column": "film_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "영화 id",
+      "synonyms": [
+        "영화 ID",
+        "영화 번호",
+        "영화 식별자",
+        "film_id",
+        "영화 고유 번호",
+        "영화 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_text_title",
+      "domain": "film_text",
+      "source_table": "film_text",
+      "source_column": "title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "제목",
+      "synonyms": [
+        "제목",
+        "영화 제목",
+        "영화 이름",
+        "제목 정보",
+        "title",
+        "영화 타이틀"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아이언맨": [
+          "아이언맨",
+          "Iron Man"
+        ],
+        "타이타닉": [
+          "타이타닉",
+          "Titanic"
+        ]
+      }
+    },
+    {
+      "name": "film_text_description",
+      "domain": "film_text",
+      "source_table": "film_text",
+      "source_column": "description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "설명",
+      "synonyms": [
+        "설명",
+        "영화 설명",
+        "설명 정보",
+        "description",
+        "영화 요약",
+        "영화 내용",
+        "영화 소개"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "inventory_inventory_id",
+      "domain": "inventory",
+      "source_table": "inventory",
+      "source_column": "inventory_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "재고 id",
+      "synonyms": [
+        "inventory_id",
+        "대여 목록 ID",
+        "inventory 번호",
+        "대여 목록 식별자",
+        "대여 목록 고유 번호",
+        "inventory 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "inventory_film_id",
+      "domain": "inventory",
+      "source_table": "inventory",
+      "source_column": "film_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "영화 id",
+      "synonyms": [
+        "film_id",
+        "영화 ID",
+        "영화 번호",
+        "영화 식별자",
+        "대여 영화 고유 번호",
+        "영화 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "inventory_store_id",
+      "domain": "inventory",
+      "source_table": "inventory",
+      "source_column": "store_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "매장 id",
+      "synonyms": [
+        "store_id",
+        "매장 ID",
+        "매장 번호",
+        "매장 식별자",
+        "대여 매장 고유 번호",
+        "매장 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "inventory_last_update",
+      "domain": "inventory",
+      "source_table": "inventory",
+      "source_column": "last_update",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 0.5,
+      "primary_label": "최종 업데이트",
+      "synonyms": [
+        "최근 업데이트 시간",
+        "마지막 수정 시간",
+        "업데이트 날짜",
+        "수정 일시",
+        "최종 업데이트 시간",
+        "last update",
+        "마지막 업데이트"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "language_language_id",
+      "domain": "language",
+      "source_table": "language",
+      "source_column": "language_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "언어 ID",
+      "synonyms": [
+        "language_id",
+        "언어 ID",
+        "언어 고유 ID",
+        "언어 번호",
+        "언어 식별자",
+        "lang_id",
+        "언어 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "language_name",
+      "domain": "language",
+      "source_table": "language",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "언어 이름",
+        "언어명",
+        "언어 코드명",
+        "언어 제목",
+        "언어 표시 이름",
+        "언어 표시명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국어": [
+          "한국어",
+          "Korean"
+        ],
+        "영어": [
+          "영어",
+          "English"
+        ],
+        "중국어": [
+          "중국어",
+          "Chinese"
+        ]
+      }
+    },
+    {
+      "name": "language_last_update",
+      "domain": "language",
+      "source_table": "language",
+      "source_column": "last_update",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "last update",
+      "synonyms": [
+        "last_update",
+        "최종 업데이트 시간",
+        "마지막 수정 시간",
+        "업데이트 시간",
+        "언어 업데이트 시간",
+        "마지막 변경 시간",
+        "언어 변경 시간"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "payment_payment_id",
+      "domain": "payment",
+      "source_table": "payment",
+      "source_column": "payment_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "결제 ID",
+      "synonyms": [
+        "결제 번호",
+        "결제 아이디",
+        "결제 ID",
+        "payment_id",
+        "결제 고유 번호",
+        "결제 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "payment_customer_id",
+      "domain": "payment",
+      "source_table": "payment",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 번호",
+        "고객 ID",
+        "고객 아이디",
+        "customer_id",
+        "고객 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "payment_staff_id",
+      "domain": "payment",
+      "source_table": "payment",
+      "source_column": "staff_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "직원 ID",
+      "synonyms": [
+        "직원 번호",
+        "직원 ID",
+        "직원 아이디",
+        "staff_id",
+        "직원 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "payment_rental_id",
+      "domain": "payment",
+      "source_table": "payment",
+      "source_column": "rental_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "대여 ID",
+      "synonyms": [
+        "rental_id",
+        "대여 번호",
+        "대여 기록 번호",
+        "대여 ID",
+        "대여 기록 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "payment_amount",
+      "domain": "payment",
+      "source_table": "payment",
+      "source_column": "amount",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "금액",
+      "synonyms": [
+        "amount",
+        "지불 금액",
+        "결제 금액",
+        "대여 금액",
+        "지불액",
+        "금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "payment_payment_date",
+      "domain": "payment",
+      "source_table": "payment",
+      "source_column": "payment_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 3.0,
+      "primary_label": "결제 일시",
+      "synonyms": [
+        "payment_date",
+        "지불 날짜",
+        "결제 날짜",
+        "대여 날짜",
+        "지불일",
+        "결제일"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-15 10:30:00": [
+          "2023-01-15",
+          "10:30"
+        ]
+      }
+    },
+    {
+      "name": "payment_last_update",
+      "domain": "payment",
+      "source_table": "payment",
+      "source_column": "last_update",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "최종 수정 일시",
+      "synonyms": [
+        "최종 업데이트 시간",
+        "마지막 수정일시",
+        "업데이트 일시",
+        "최근 수정 시간",
+        "마지막 업데이트 일시",
+        "last update",
+        "최종 수정 시간"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "rental_rental_id",
+      "domain": "rental",
+      "source_table": "rental",
+      "source_column": "rental_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "대여 번호",
+      "synonyms": [
+        "대여 번호",
+        "대여 ID",
+        "Rental ID",
+        "대여 고유 ID",
+        "Rental 고유 ID",
+        "대여 식별자",
+        "Rental 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "rental_rental_date",
+      "domain": "rental",
+      "source_table": "rental",
+      "source_column": "rental_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 4.0,
+      "primary_label": "대여 일시",
+      "synonyms": [
+        "대여 날짜",
+        "대여 일자",
+        "대여 일시",
+        "대여일",
+        "Rental Date",
+        "Rental 일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "rental_inventory_id",
+      "domain": "rental",
+      "source_table": "rental",
+      "source_column": "inventory_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "재고 아이디",
+      "synonyms": [
+        "영화 번호",
+        "영화 ID",
+        "Inventory ID",
+        "영화 고유 ID",
+        "Inventory 고유 ID",
+        "대여 영화 ID",
+        "영화 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "rental_customer_id",
+      "domain": "rental",
+      "source_table": "rental",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 아이디",
+      "synonyms": [
+        "고객 번호",
+        "고객 ID",
+        "고객 식별자",
+        "고객코드",
+        "customer_id",
+        "고객 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "rental_return_date",
+      "domain": "rental",
+      "source_table": "rental",
+      "source_column": "return_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 4.0,
+      "primary_label": "반납 일시",
+      "synonyms": [
+        "반환 일시",
+        "반환 시간",
+        "반환 날짜",
+        "반환 일자",
+        "return_date"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "rental_staff_id",
+      "domain": "rental",
+      "source_table": "rental",
+      "source_column": "staff_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "직원 아이디",
+      "synonyms": [
+        "직원 번호",
+        "직원 ID",
+        "직원 식별자",
+        "직원코드",
+        "staff_id",
+        "직원 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "rental_last_update",
+      "domain": "rental",
+      "source_table": "rental",
+      "source_column": "last_update",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 0.5,
+      "primary_label": "최종 업데이트 일시",
+      "synonyms": [
+        "최종 수정일",
+        "마지막 업데이트",
+        "수정 일시",
+        "최근 수정 시간",
+        "last update",
+        "최종 변경일시",
+        "마지막 수정 날짜",
+        "업데이트 일시"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "staff_staff_id",
+      "domain": "staff",
+      "source_table": "staff",
+      "source_column": "staff_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "직원 ID",
+      "synonyms": [
+        "직원 ID",
+        "직원 번호",
+        "사원 ID",
+        "직원 고유 ID",
+        "staff_id",
+        "직원 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "staff_first_name",
+      "domain": "staff",
+      "source_table": "staff",
+      "source_column": "first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "staff_last_name",
+      "domain": "staff",
+      "source_table": "staff",
+      "source_column": "last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성명",
+      "synonyms": [
+        "성",
+        "직원 성",
+        "이름의 끝자",
+        "성 이름",
+        "직원의 성",
+        "성 정보",
+        "성 부분",
+        "성칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "staff_address_id",
+      "domain": "staff",
+      "source_table": "staff",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "주소 ID",
+      "synonyms": [
+        "address_id",
+        "주소 ID",
+        "주소번호",
+        "주소 식별자",
+        "주소아이디",
+        "주소코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "staff_picture",
+      "domain": "staff",
+      "source_table": "staff",
+      "source_column": "picture",
+      "range_types": [
+        "others"
+      ],
+      "ranking": 0.1,
+      "primary_label": "사진",
+      "synonyms": [
+        "picture",
+        "사진",
+        "이미지",
+        "사진 정보",
+        "사진 데이터",
+        "사진 파일"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "staff_email",
+      "domain": "staff",
+      "source_table": "staff",
+      "source_column": "email",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이메일",
+      "synonyms": [
+        "email",
+        "이메일",
+        "메일 주소",
+        "이메일 주소",
+        "이메일 정보",
+        "이메일 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "staff_store_id",
+      "domain": "staff",
+      "source_table": "staff",
+      "source_column": "store_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "스토어 ID",
+      "synonyms": [
+        "store_id",
+        "매장 ID",
+        "매장 번호",
+        "매장 식별자",
+        "store",
+        "매장"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "staff_active",
+      "domain": "staff",
+      "source_table": "staff",
+      "source_column": "active",
+      "range_types": [
+        "boolean"
+      ],
+      "ranking": 2.5,
+      "primary_label": "활성화 여부",
+      "synonyms": [
+        "active",
+        "활동 중",
+        "활동 여부",
+        "활성화",
+        "활동 상태",
+        "활성"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "true": [
+          "활성",
+          "사용 중"
+        ],
+        "false": [
+          "비활성",
+          "사용 안 함"
+        ]
+      }
+    },
+    {
+      "name": "staff_username",
+      "domain": "staff",
+      "source_table": "staff",
+      "source_column": "username",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "사용자 이름",
+      "synonyms": [
+        "username",
+        "사용자 이름",
+        "아이디",
+        "계정 이름",
+        "사용자",
+        "이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "staff_password",
+      "domain": "staff",
+      "source_table": "staff",
+      "source_column": "password",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.1,
+      "primary_label": "비밀번호",
+      "synonyms": [
+        "비밀번호",
+        "암호",
+        "패스워드",
+        "암호화된 비밀번호",
+        "비밀번호 정보",
+        "계정 비밀번호",
+        "암호값",
+        "password"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "staff_last_update",
+      "domain": "staff",
+      "source_table": "staff",
+      "source_column": "last_update",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 0.1,
+      "primary_label": "최종 업데이트 시간",
+      "synonyms": [
+        "최근 수정 시간",
+        "마지막 업데이트",
+        "수정 일시",
+        "최종 업데이트 시간",
+        "last_update",
+        "최근 변경 시간",
+        "업데이트 시간",
+        "마지막 수정 일시"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "store_store_id",
+      "domain": "store",
+      "source_table": "store",
+      "source_column": "store_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "매장 ID",
+      "synonyms": [
+        "store_id",
+        "영업점 번호",
+        "스토어 ID",
+        "스토어 식별자",
+        "스토어 코드",
+        "영업점 코드",
+        "스토어 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "store_manager_staff_id",
+      "domain": "store",
+      "source_table": "store",
+      "source_column": "manager_staff_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "매장 관리자 직원 ID",
+      "synonyms": [
+        "manager_staff_id",
+        "관리자 직원 ID",
+        "관리자 직원 번호",
+        "스태프 관리자 ID",
+        "스태프 관리자 번호",
+        "관리자 직원 코드",
+        "관리자 스태프 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "store_address_id",
+      "domain": "store",
+      "source_table": "store",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "주소 ID",
+      "synonyms": [
+        "address_id",
+        "주소 ID",
+        "주소 번호",
+        "주소 코드",
+        "영업점 주소 ID",
+        "주소 식별자",
+        "영업점 주소 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "store_last_update",
+      "domain": "store",
+      "source_table": "store",
+      "source_column": "last_update",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 0.5,
+      "primary_label": "최종 수정 시간",
+      "synonyms": [
+        "최근 업데이트 시간",
+        "마지막 수정 일시",
+        "업데이트 날짜",
+        "최종 업데이트 시간",
+        "마지막 변경 일시",
+        "last update",
+        "업데이트 일시",
+        "시스템 시간"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "address_city_fk0",
+      "domain": "address",
+      "range": "city",
+      "source_fk": [
+        "address.city_id",
+        "city.city_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "city_country_fk1",
+      "domain": "city",
+      "range": "country",
+      "source_fk": [
+        "city.country_id",
+        "country.country_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "customer_store_fk2",
+      "domain": "customer",
+      "range": "store",
+      "source_fk": [
+        "customer.store_id",
+        "store.store_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "customer_address_fk3",
+      "domain": "customer",
+      "range": "address",
+      "source_fk": [
+        "customer.address_id",
+        "address.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "film_language_fk4",
+      "domain": "film",
+      "range": "language",
+      "source_fk": [
+        "film.original_language_id",
+        "language.language_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "원어민 언어",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "film_language_fk5",
+      "domain": "film",
+      "range": "language",
+      "source_fk": [
+        "film.language_id",
+        "language.language_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "언어",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "film_actor_film_fk6",
+      "domain": "film_actor",
+      "range": "film",
+      "source_fk": [
+        "film_actor.film_id",
+        "film.film_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "출연",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "film_actor_actor_fk7",
+      "domain": "film_actor",
+      "range": "actor",
+      "source_fk": [
+        "film_actor.actor_id",
+        "actor.actor_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "출연",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "film_category_category_fk8",
+      "domain": "film_category",
+      "range": "category",
+      "source_fk": [
+        "film_category.category_id",
+        "category.category_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "분류",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "film_category_film_fk9",
+      "domain": "film_category",
+      "range": "film",
+      "source_fk": [
+        "film_category.film_id",
+        "film.film_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "분류",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "inventory_film_fk10",
+      "domain": "inventory",
+      "range": "film",
+      "source_fk": [
+        "inventory.film_id",
+        "film.film_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소유",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "inventory_store_fk11",
+      "domain": "inventory",
+      "range": "store",
+      "source_fk": [
+        "inventory.store_id",
+        "store.store_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소유",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "payment_staff_fk12",
+      "domain": "payment",
+      "range": "staff",
+      "source_fk": [
+        "payment.staff_id",
+        "staff.staff_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "결제한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "payment_customer_fk13",
+      "domain": "payment",
+      "range": "customer",
+      "source_fk": [
+        "payment.customer_id",
+        "customer.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "결제한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "payment_rental_fk14",
+      "domain": "payment",
+      "range": "rental",
+      "source_fk": [
+        "payment.rental_id",
+        "rental.rental_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "결제한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "rental_customer_fk15",
+      "domain": "rental",
+      "range": "customer",
+      "source_fk": [
+        "rental.customer_id",
+        "customer.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "대여한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "rental_inventory_fk16",
+      "domain": "rental",
+      "range": "inventory",
+      "source_fk": [
+        "rental.inventory_id",
+        "inventory.inventory_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "대여한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "rental_staff_fk17",
+      "domain": "rental",
+      "range": "staff",
+      "source_fk": [
+        "rental.staff_id",
+        "staff.staff_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "대여한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "staff_address_fk18",
+      "domain": "staff",
+      "range": "address",
+      "source_fk": [
+        "staff.address_id",
+        "address.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "store_address_fk19",
+      "domain": "store",
+      "range": "address",
+      "source_fk": [
+        "store.address_id",
+        "address.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "store_staff_fk20",
+      "domain": "store",
+      "range": "staff",
+      "source_fk": [
+        "store.manager_staff_id",
+        "staff.staff_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관리자",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

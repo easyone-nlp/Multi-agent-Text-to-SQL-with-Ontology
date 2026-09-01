@@ -1,0 +1,564 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "기타 운동 선수",
+      "target_class": "gymnast",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "체조 선수",
+      "target_class": "gymnast",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "체조자",
+      "target_class": "gymnast",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "체조인",
+      "target_class": "gymnast",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "체조 운동자",
+      "target_class": "gymnast",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "체조 훈련생",
+      "target_class": "gymnast",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사람",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인구",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인구 통계",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "개인",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인원",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인구 데이터",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 운동 선수 ID",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Gymnast_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gymnast id",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Gymnast_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gymnast identifier",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Gymnast_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gymnast number",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Gymnast_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gymnast code",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Gymnast_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gymnast unique id",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Gymnast_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gymnast id number",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Gymnast_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gymnast key",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Gymnast_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플로어 운동 점수",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Floor_Exercise_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포멜 헤이스 점수",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Pommel_Horse_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "링스 점수",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Rings_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "버트 점수",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Vault_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평행 바 점수",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Parallel_Bars_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가로 줄바지 점수",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Parallel_Bars_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가로 줄바지 운동 점수",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Parallel_Bars_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "parallel bars 점수",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Parallel_Bars_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "parallel bars points",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Parallel_Bars_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가로 줄바지 성적",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Parallel_Bars_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "parallel bars 성적",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Parallel_Bars_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가로 줄바지 총점",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Parallel_Bars_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "parallel bars 총점",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Parallel_Bars_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수평 바 점수",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Horizontal_Bar_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가로바 점수",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Horizontal_Bar_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가로바 성적",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Horizontal_Bar_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가로바 결과",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Horizontal_Bar_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가로바 총점",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Horizontal_Bar_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가로바 평점",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Horizontal_Bar_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 점수",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Total_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 점수",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Total_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 성적",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Total_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 평점",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Total_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 결과",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Total_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 총점",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Total_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 성적",
+      "target_class": "gymnast",
+      "target_property": "gymnast_Total_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "people id",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "People_ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인원 ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개인 번호",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인덱스",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Name",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 이름",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개인명",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "age",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Age",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연세",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년월일",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "height",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신장",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 수치",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신장 정보",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 데이터",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Height",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "hometown",
+      "target_class": "people",
+      "target_property": "people_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출신지",
+      "target_class": "people",
+      "target_property": "people_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "현지",
+      "target_class": "people",
+      "target_property": "people_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록지",
+      "target_class": "people",
+      "target_property": "people_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출산지",
+      "target_class": "people",
+      "target_property": "people_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "people",
+      "target_property": "people_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Hometown",
+      "target_class": "people",
+      "target_property": "people_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출신 지역",
+      "target_class": "people",
+      "target_property": "people_Hometown",
+      "value": null
+    }
+  ]
+}

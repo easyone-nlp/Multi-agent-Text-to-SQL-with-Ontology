@@ -1,0 +1,66 @@
+{
+  "class_table": {
+    "musical": "musical",
+    "actor": "actor"
+  },
+  "property_column": {
+    "musical_Musical_ID": [
+      "musical",
+      "Musical_ID"
+    ],
+    "musical_Name": [
+      "musical",
+      "Name"
+    ],
+    "musical_Year": [
+      "musical",
+      "Year"
+    ],
+    "musical_Award": [
+      "musical",
+      "Award"
+    ],
+    "musical_Category": [
+      "musical",
+      "Category"
+    ],
+    "musical_Nominee": [
+      "musical",
+      "Nominee"
+    ],
+    "musical_Result": [
+      "musical",
+      "Result"
+    ],
+    "actor_Actor_ID": [
+      "actor",
+      "Actor_ID"
+    ],
+    "actor_Name": [
+      "actor",
+      "Name"
+    ],
+    "actor_Musical_ID": [
+      "actor",
+      "Musical_ID"
+    ],
+    "actor_Character": [
+      "actor",
+      "Character"
+    ],
+    "actor_Duration": [
+      "actor",
+      "Duration"
+    ],
+    "actor_age": [
+      "actor",
+      "age"
+    ]
+  },
+  "object_property_fk": {
+    "actor_actor_fk0": [
+      "actor.Musical_ID",
+      "actor.Actor_ID"
+    ]
+  }
+}

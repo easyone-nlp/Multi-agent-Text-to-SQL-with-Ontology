@@ -1,0 +1,1628 @@
+{
+  "db_id": "department_store",
+  "classes": [
+    {
+      "name": "Addresses",
+      "source_table": "Addresses",
+      "ranking": 1.0,
+      "primary_label": "주소",
+      "synonyms": [
+        "주소 정보",
+        "배송 주소",
+        "고객 주소",
+        "지址",
+        "상점 위치",
+        "이동 주소",
+        "등록 주소",
+        "주소 목록"
+      ]
+    },
+    {
+      "name": "Staff",
+      "source_table": "Staff",
+      "ranking": 1.0,
+      "primary_label": "staff",
+      "synonyms": [
+        "직원",
+        "사원",
+        "직원 목록",
+        "직원 데이터",
+        "직원 정보",
+        "직원 테이블"
+      ]
+    },
+    {
+      "name": "Suppliers",
+      "source_table": "Suppliers",
+      "ranking": 3.0,
+      "primary_label": "공급자",
+      "synonyms": [
+        "공급업체",
+        "제공업체",
+        "공급자",
+        "공급업체 목록",
+        "공급업체 데이터",
+        "제조사"
+      ]
+    },
+    {
+      "name": "Department_Store_Chain",
+      "source_table": "Department_Store_Chain",
+      "ranking": 3.0,
+      "primary_label": "department store chain",
+      "synonyms": [
+        "상품별 매장 체인",
+        "부서별 매장 네트워크",
+        "상점 체인",
+        "매장 네트워크",
+        "상품별 체인 매장"
+      ]
+    },
+    {
+      "name": "Customers",
+      "source_table": "Customers",
+      "ranking": 3.5,
+      "primary_label": "고객",
+      "synonyms": []
+    },
+    {
+      "name": "Products",
+      "source_table": "Products",
+      "ranking": 3.5,
+      "primary_label": "products",
+      "synonyms": []
+    },
+    {
+      "name": "Supplier_Addresses",
+      "source_table": "Supplier_Addresses",
+      "ranking": 3.5,
+      "primary_label": "공급자 주소",
+      "synonyms": [
+        "공급업체 주소",
+        "공급자 주소",
+        "공급업체 위치",
+        "공급자 정보",
+        "공급업체 연락처"
+      ]
+    },
+    {
+      "name": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "ranking": 1.0,
+      "primary_label": "고객 주소",
+      "synonyms": [
+        "고객 주소",
+        "고객 정보",
+        "고객 위치",
+        "고객 연락처",
+        "고객 주소록"
+      ]
+    },
+    {
+      "name": "Customer_Orders",
+      "source_table": "Customer_Orders",
+      "ranking": 3.0,
+      "primary_label": "고객 주문",
+      "synonyms": [
+        "고객 주문",
+        "주문 정보",
+        "고객 구매",
+        "주문 내역",
+        "고객 주문 내역"
+      ]
+    },
+    {
+      "name": "Department_Stores",
+      "source_table": "Department_Stores",
+      "ranking": 3.5,
+      "primary_label": "department stores",
+      "synonyms": [
+        "상품 매장",
+        "판매 부서",
+        "매장 정보",
+        "상품 판매소",
+        "매장 데이터"
+      ]
+    },
+    {
+      "name": "Departments",
+      "source_table": "Departments",
+      "ranking": 3.0,
+      "primary_label": "부서",
+      "synonyms": [
+        "부서 정보",
+        "매장 부서",
+        "상품 분류",
+        "업무 부서",
+        "매장 단위"
+      ]
+    },
+    {
+      "name": "Order_Items",
+      "source_table": "Order_Items",
+      "ranking": 3.0,
+      "primary_label": "order items",
+      "synonyms": [
+        "주문 상품",
+        "구매 내역",
+        "주문 상세",
+        "상품 주문",
+        "주문 상품 목록"
+      ]
+    },
+    {
+      "name": "Product_Suppliers",
+      "source_table": "Product_Suppliers",
+      "ranking": 3.5,
+      "primary_label": "product suppliers",
+      "synonyms": [
+        "제조사",
+        "공급자",
+        "제품 공급업체",
+        "원자재 공급자",
+        "제품 공급자"
+      ]
+    },
+    {
+      "name": "Staff_Department_Assignments",
+      "source_table": "Staff_Department_Assignments",
+      "ranking": 3.5,
+      "primary_label": "직원 부서 배정",
+      "synonyms": [
+        "직원 부서 배정",
+        "근무 배정",
+        "직원 부서 근무",
+        "직원 부서 할당",
+        "근무 배정 정보"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Addresses_address_id",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "주소 id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_address_details",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "address_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주소 상세 정보",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 강남구 테헤란로 123": [
+          "서울 강남구 테헤란로 123",
+          "강남구 테헤란로"
+        ],
+        "인천시 남동구 동일로 456": [
+          "인천 남동구 동일로 456",
+          "남동구 동일로"
+        ]
+      }
+    },
+    {
+      "name": "Staff_staff_id",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "staff_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "staff id",
+      "synonyms": [
+        "직원 ID",
+        "직원 번호",
+        "직원 식별자",
+        "사번",
+        "직원 고유 ID",
+        "staff_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_staff_gender",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "staff_gender",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "staff gender",
+      "synonyms": [
+        "성별",
+        "직원 성별",
+        "성별 정보",
+        "직원 성별 데이터",
+        "성별 코드",
+        "staff_gender"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_staff_name",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "staff_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "staff name",
+      "synonyms": [
+        "이름",
+        "직원 이름",
+        "직원명",
+        "직원 대표 이름",
+        "사원 이름",
+        "staff_name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Suppliers_supplier_id",
+      "domain": "Suppliers",
+      "source_table": "Suppliers",
+      "source_column": "supplier_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "공급자 ID",
+      "synonyms": [
+        "공급업체 ID",
+        "제공자 ID",
+        "공급자 ID",
+        "제공자 식별자",
+        "공급업체 식별 번호",
+        "제공자 고유 번호",
+        "공급업체 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Suppliers_supplier_name",
+      "domain": "Suppliers",
+      "source_table": "Suppliers",
+      "source_column": "supplier_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "공급자 이름",
+      "synonyms": [
+        "공급업체 이름",
+        "제공자 이름",
+        "공급자 이름",
+        "제공자",
+        "공급업체명",
+        "제공자명",
+        "공급자명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "삼성전자": [
+          "삼성전자"
+        ],
+        "현대자동차": [
+          "현대자동차"
+        ]
+      }
+    },
+    {
+      "name": "Suppliers_supplier_phone",
+      "domain": "Suppliers",
+      "source_table": "Suppliers",
+      "source_column": "supplier_phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "supplier phone",
+      "synonyms": [
+        "공급업체 전화번호",
+        "제공자 전화번호",
+        "공급자 전화번호",
+        "제공자 전화",
+        "공급업체 연락처",
+        "제공자 연락처",
+        "공급자 연락처"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Department_Store_Chain_dept_store_chain_id",
+      "domain": "Department_Store_Chain",
+      "source_table": "Department_Store_Chain",
+      "source_column": "dept_store_chain_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "department store chain id",
+      "synonyms": [
+        "dept_store_chain_id",
+        "chain_id",
+        "chain_number",
+        "store_chain_id",
+        "chain_identifier",
+        "store_chain_number",
+        "chain_code",
+        "chain_id_number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Department_Store_Chain_dept_store_chain_name",
+      "domain": "Department_Store_Chain",
+      "source_table": "Department_Store_Chain",
+      "source_column": "dept_store_chain_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "department store chain name",
+      "synonyms": [
+        "dept_store_chain_name",
+        "chain_name",
+        "store_chain_name",
+        "chain_title",
+        "chain_display_name",
+        "store_chain_title"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "삼성백화점": [
+          "삼성백화점"
+        ],
+        "현대백화점": [
+          "현대백화점"
+        ],
+        "롯데백화점": [
+          "롯데백화점"
+        ]
+      }
+    },
+    {
+      "name": "Customers_customer_id",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고유번호",
+        "고객번호",
+        "고객ID",
+        "ID",
+        "고객 식별자",
+        "customer_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_payment_method_code",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "payment_method_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "결제 방법 코드",
+      "synonyms": [
+        "결제방법코드",
+        "결제코드",
+        "결제방법",
+        "payment_method_code",
+        "결제수단코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "CARD": [
+          "카드",
+          "신용카드"
+        ],
+        "CASH": [
+          "현금",
+          "현금결제"
+        ],
+        "ONLINE": [
+          "온라인",
+          "온라인결제"
+        ]
+      }
+    },
+    {
+      "name": "Customers_customer_code",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "고객 코드",
+      "synonyms": [
+        "고유코드",
+        "고객코드",
+        "고객번호",
+        "customer_code",
+        "고객식별코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_name",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "고객 이름",
+      "synonyms": [
+        "고객 이름",
+        "고객명",
+        "이름",
+        "고객 이름 정보",
+        "고객명칭",
+        "고객 이름 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_address",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "고객 주소",
+      "synonyms": [
+        "고객 주소",
+        "주소",
+        "고객 주소 정보",
+        "고객 주소 데이터",
+        "주소 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_phone",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "고객 전화번호",
+      "synonyms": [
+        "고객 전화번호",
+        "전화번호",
+        "고객 전화",
+        "고객 연락처",
+        "전화 정보",
+        "고객 전화번호 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_email",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_email",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "고객 이메일",
+      "synonyms": [
+        "이메일",
+        "이메일 주소",
+        "전자우편",
+        "메일 주소",
+        "이메일 정보",
+        "고객 이메일"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_id",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "product id",
+      "synonyms": [
+        "제품 ID",
+        "제품 번호",
+        "제품 식별자",
+        "제품 코드",
+        "product_id",
+        "제품 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_type_code",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "product type code",
+      "synonyms": [
+        "제품 코드",
+        "제품 종류 코드",
+        "제품 타입 코드",
+        "제품 구분 코드",
+        "product_type_code"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Electronics": [
+          "전자제품"
+        ],
+        "Clothing": [
+          "의류"
+        ],
+        "Furniture": [
+          "가구"
+        ]
+      }
+    },
+    {
+      "name": "Products_product_name",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "product name",
+      "synonyms": [
+        "제품 이름",
+        "제품 제목",
+        "제품 명",
+        "제품 소명",
+        "product_name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_price",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_price",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "product price",
+      "synonyms": [
+        "가격",
+        "상품 가격",
+        "가격 정보",
+        "가격 값",
+        "상품의 가격",
+        "가격 데이터",
+        "price"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Supplier_Addresses_supplier_id",
+      "domain": "Supplier_Addresses",
+      "source_table": "Supplier_Addresses",
+      "source_column": "supplier_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "공급자 ID",
+      "synonyms": [
+        "공급업체 ID",
+        "공급자 ID",
+        "제공업체 번호",
+        "제공자 식별자",
+        "공급업체 식별자",
+        "supplier_id",
+        "supplier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Supplier_Addresses_address_id",
+      "domain": "Supplier_Addresses",
+      "source_table": "Supplier_Addresses",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주소 ID",
+      "synonyms": [
+        "주소 ID",
+        "주소 번호",
+        "주소 식별자",
+        "address_id",
+        "주소",
+        "주소 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Supplier_Addresses_date_from",
+      "domain": "Supplier_Addresses",
+      "source_table": "Supplier_Addresses",
+      "source_column": "date_from",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "시작일",
+      "synonyms": [
+        "시작일",
+        "유효 시작일",
+        "시작 날짜",
+        "date_from",
+        "시작 일자",
+        "유효 시작일자",
+        "날짜 시작"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Supplier_Addresses_date_to",
+      "domain": "Supplier_Addresses",
+      "source_table": "Supplier_Addresses",
+      "source_column": "date_to",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "종료일",
+      "synonyms": [
+        "종료일",
+        "마감일",
+        "종료 날짜",
+        "일정 종료",
+        "기한",
+        "종료일자",
+        "date_to"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Addresses_customer_id",
+      "domain": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 id",
+      "synonyms": [
+        "고객 ID",
+        "고객 번호",
+        "고객 식별자",
+        "고객 코드",
+        "customer id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Addresses_address_id",
+      "domain": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "주소 id",
+      "synonyms": [
+        "주소 ID",
+        "주소 번호",
+        "주소 식별자",
+        "주소 코드",
+        "address id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Addresses_date_from",
+      "domain": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "source_column": "date_from",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기간 시작일",
+      "synonyms": [
+        "시작일자",
+        "유효 시작일",
+        "시작일",
+        "이용 시작일",
+        "날짜 시작",
+        "date from"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-01": [
+          "2023년 1월 1일"
+        ]
+      }
+    },
+    {
+      "name": "Customer_Addresses_date_to",
+      "domain": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "source_column": "date_to",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기간 종료일",
+      "synonyms": [
+        "종료일",
+        "마지막일",
+        "종료 날짜",
+        "일정 종료일",
+        "기한",
+        "종료일자",
+        "최종일자",
+        "date_to"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-12-31": [
+          "2023년 12월 31일"
+        ]
+      }
+    },
+    {
+      "name": "Customer_Orders_order_id",
+      "domain": "Customer_Orders",
+      "source_table": "Customer_Orders",
+      "source_column": "order_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주문 ID",
+      "synonyms": [
+        "주문 번호",
+        "주문 ID",
+        "주문 식별자",
+        "order_id",
+        "주문 고유 번호",
+        "주문 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Orders_customer_id",
+      "domain": "Customer_Orders",
+      "source_table": "Customer_Orders",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 번호",
+        "고객 ID",
+        "고객 식별자",
+        "customer_id",
+        "고객 고유 번호",
+        "고객 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Orders_order_status_code",
+      "domain": "Customer_Orders",
+      "source_table": "Customer_Orders",
+      "source_column": "order_status_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "주문 상태 코드",
+      "synonyms": [
+        "주문 상태 코드",
+        "주문 상태",
+        "주문 코드",
+        "order_status_code",
+        "주문 상태 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "DELIVERED": [
+          "배송 완료"
+        ],
+        "PENDING": [
+          "대기 중"
+        ],
+        "CANCELLED": [
+          "취소"
+        ]
+      }
+    },
+    {
+      "name": "Customer_Orders_order_date",
+      "domain": "Customer_Orders",
+      "source_table": "Customer_Orders",
+      "source_column": "order_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "주문 일시",
+      "synonyms": [
+        "주문일자",
+        "주문시간",
+        "주문일시",
+        "배송일자",
+        "주문일",
+        "주문일자 시간",
+        "주문일시 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Department_Stores_dept_store_id",
+      "domain": "Department_Stores",
+      "source_table": "Department_Stores",
+      "source_column": "dept_store_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "department store id",
+      "synonyms": [
+        "dept_store_id",
+        "store_id",
+        "매장ID",
+        "장소ID",
+        "고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Department_Stores_dept_store_chain_id",
+      "domain": "Department_Stores",
+      "source_table": "Department_Stores",
+      "source_column": "dept_store_chain_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "department store chain id",
+      "synonyms": [
+        "dept_store_chain_id",
+        "chain_id",
+        "체인ID",
+        "매장체인ID",
+        "체인번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Department_Stores_store_name",
+      "domain": "Department_Stores",
+      "source_table": "Department_Stores",
+      "source_column": "store_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "store name",
+      "synonyms": [
+        "store_name",
+        "store",
+        "매장명",
+        "이름",
+        "매장이름",
+        "상점명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 강남구 강남대로 123": [
+          "강남대로 123",
+          "강남구 강남대로"
+        ]
+      }
+    },
+    {
+      "name": "Department_Stores_store_address",
+      "domain": "Department_Stores",
+      "source_table": "Department_Stores",
+      "source_column": "store_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "store address",
+      "synonyms": [
+        "store address",
+        "address",
+        "store location",
+        "store address info",
+        "address details",
+        "store location address",
+        "store address information",
+        "store address details"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Department_Stores_store_phone",
+      "domain": "Department_Stores",
+      "source_table": "Department_Stores",
+      "source_column": "store_phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "store phone",
+      "synonyms": [
+        "store phone",
+        "phone number",
+        "store contact number",
+        "store telephone",
+        "store phone number",
+        "store contact phone",
+        "store phone details"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Department_Stores_store_email",
+      "domain": "Department_Stores",
+      "source_table": "Department_Stores",
+      "source_column": "store_email",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "store email",
+      "synonyms": [
+        "store email",
+        "email address",
+        "store contact email",
+        "store email address",
+        "store email info",
+        "store email details",
+        "store contact email address"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Departments_department_id",
+      "domain": "Departments",
+      "source_table": "Departments",
+      "source_column": "department_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "부서 ID",
+      "synonyms": [
+        "department_id",
+        "dept_id",
+        "department number",
+        "department code",
+        "dept_no",
+        "department identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Departments_dept_store_id",
+      "domain": "Departments",
+      "source_table": "Departments",
+      "source_column": "dept_store_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "부서 매장 ID",
+      "synonyms": [
+        "dept_store_id",
+        "store_id",
+        "store number",
+        "store code",
+        "store identifier",
+        "department store id",
+        "dept_store"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Departments_department_name",
+      "domain": "Departments",
+      "source_table": "Departments",
+      "source_column": "department_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "부서 이름",
+      "synonyms": [
+        "department_name",
+        "dept_name",
+        "department title",
+        "department",
+        "dept"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "영업부": [
+          "영업부"
+        ],
+        "인사부": [
+          "인사부"
+        ],
+        "재무부": [
+          "재무부"
+        ]
+      }
+    },
+    {
+      "name": "Order_Items_order_item_id",
+      "domain": "Order_Items",
+      "source_table": "Order_Items",
+      "source_column": "order_item_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "order item id",
+      "synonyms": [
+        "주문 상품 ID",
+        "주문 항목 ID",
+        "order_item_id",
+        "order_item",
+        "OI_ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Order_Items_order_id",
+      "domain": "Order_Items",
+      "source_table": "Order_Items",
+      "source_column": "order_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "order id",
+      "synonyms": [
+        "주문 ID",
+        "주문 번호",
+        "order_id",
+        "order",
+        "O_ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Order_Items_product_id",
+      "domain": "Order_Items",
+      "source_table": "Order_Items",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "product id",
+      "synonyms": [
+        "상품 ID",
+        "상품 번호",
+        "product_id",
+        "product",
+        "P_ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Product_Suppliers_product_id",
+      "domain": "Product_Suppliers",
+      "source_table": "Product_Suppliers",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 4.0,
+      "primary_label": "product id",
+      "synonyms": [
+        "제품 ID",
+        "제품 번호",
+        "제품 식별자",
+        "제품 코드",
+        "product_id",
+        "제품 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Product_Suppliers_supplier_id",
+      "domain": "Product_Suppliers",
+      "source_table": "Product_Suppliers",
+      "source_column": "supplier_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "supplier id",
+      "synonyms": [
+        "공급업체 ID",
+        "공급자 번호",
+        "공급업체 코드",
+        "공급자 식별자",
+        "supplier_id",
+        "공급업체 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Product_Suppliers_date_supplied_from",
+      "domain": "Product_Suppliers",
+      "source_table": "Product_Suppliers",
+      "source_column": "date_supplied_from",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "date supplied from",
+      "synonyms": [
+        "공급 시작일",
+        "공급 시작 날짜",
+        "공급 시작 시간",
+        "제품 공급 시작일",
+        "date_supplied_from"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-01 08:00:00": [
+          "2023년 1월 1일 8시",
+          "2023-01-01"
+        ]
+      }
+    },
+    {
+      "name": "Product_Suppliers_date_supplied_to",
+      "domain": "Product_Suppliers",
+      "source_table": "Product_Suppliers",
+      "source_column": "date_supplied_to",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "date supplied to",
+      "synonyms": [
+        "공급 종료일",
+        "공급 종료 날짜",
+        "제품 공급 종료일자",
+        "공급 마감일",
+        "공급 종료 시점",
+        "제품 공급 마감일",
+        "공급 종료 일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-12-31 18:00:00": [
+          "2023년 12월 31일 18시",
+          "2023-12-31"
+        ]
+      }
+    },
+    {
+      "name": "Product_Suppliers_total_amount_purchased",
+      "domain": "Product_Suppliers",
+      "source_table": "Product_Suppliers",
+      "source_column": "total_amount_purchased",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "total amount purchased",
+      "synonyms": [
+        "총 구매량",
+        "수량 총합",
+        "총 수량",
+        "구매 수량",
+        "총 수량 정보",
+        "구매 총 수량",
+        "수량 합계",
+        "총 구매 수량"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Product_Suppliers_total_value_purchased",
+      "domain": "Product_Suppliers",
+      "source_table": "Product_Suppliers",
+      "source_column": "total_value_purchased",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "total value purchased",
+      "synonyms": [
+        "총 구매 금액",
+        "총 금액",
+        "구매 금액",
+        "총 가치",
+        "구매 총 가치",
+        "총 금액 정보",
+        "구매 금액 합계",
+        "총 가치 금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_Department_Assignments_staff_id",
+      "domain": "Staff_Department_Assignments",
+      "source_table": "Staff_Department_Assignments",
+      "source_column": "staff_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "직원 ID",
+      "synonyms": [
+        "직원 ID",
+        "직원 번호",
+        "직원 식별자",
+        "사원 ID",
+        "직원 코드",
+        "staff id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_Department_Assignments_department_id",
+      "domain": "Staff_Department_Assignments",
+      "source_table": "Staff_Department_Assignments",
+      "source_column": "department_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "부서 ID",
+      "synonyms": [
+        "부서 ID",
+        "부서 번호",
+        "부서 식별자",
+        "사원 부서 코드",
+        "department id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_Department_Assignments_date_assigned_from",
+      "domain": "Staff_Department_Assignments",
+      "source_table": "Staff_Department_Assignments",
+      "source_column": "date_assigned_from",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "배정 시작일시",
+      "synonyms": [
+        "배치 시작일",
+        "등록일",
+        "시작일자",
+        "지정일",
+        "일자",
+        "date assigned from"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_Department_Assignments_job_title_code",
+      "domain": "Staff_Department_Assignments",
+      "source_table": "Staff_Department_Assignments",
+      "source_column": "job_title_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "직무 코드",
+      "synonyms": [
+        "직무 코드",
+        "직무코드 정보",
+        "직무 코드 코드",
+        "직무코드 번호",
+        "직무코드 항목",
+        "직무코드 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "MANAGER": [
+          "매니저",
+          "관리자"
+        ],
+        "ENGINEER": [
+          "엔지니어",
+          "기술자"
+        ],
+        "CLERK": [
+          "클레어크",
+          "서무직"
+        ]
+      }
+    },
+    {
+      "name": "Staff_Department_Assignments_date_assigned_to",
+      "domain": "Staff_Department_Assignments",
+      "source_table": "Staff_Department_Assignments",
+      "source_column": "date_assigned_to",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "배정 종료일시",
+      "synonyms": [
+        "배치일자",
+        "배치일",
+        "배치 날짜",
+        "최종 배치일",
+        "최종 배치일자",
+        "배치일자 정보",
+        "배치일자 코드",
+        "배치일자 항목"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Supplier_Addresses_Suppliers_fk0",
+      "domain": "Supplier_Addresses",
+      "range": "Suppliers",
+      "source_fk": [
+        "Supplier_Addresses.supplier_id",
+        "Suppliers.supplier_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Supplier_Addresses_Addresses_fk1",
+      "domain": "Supplier_Addresses",
+      "range": "Addresses",
+      "source_fk": [
+        "Supplier_Addresses.address_id",
+        "Addresses.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customer_Addresses_Customers_fk2",
+      "domain": "Customer_Addresses",
+      "range": "Customers",
+      "source_fk": [
+        "Customer_Addresses.customer_id",
+        "Customers.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customer_Addresses_Addresses_fk3",
+      "domain": "Customer_Addresses",
+      "range": "Addresses",
+      "source_fk": [
+        "Customer_Addresses.address_id",
+        "Addresses.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customer_Orders_Customers_fk4",
+      "domain": "Customer_Orders",
+      "range": "Customers",
+      "source_fk": [
+        "Customer_Orders.customer_id",
+        "Customers.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "주문한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Department_Stores_Department_Store_Chain_fk5",
+      "domain": "Department_Stores",
+      "range": "Department_Store_Chain",
+      "source_fk": [
+        "Department_Stores.dept_store_chain_id",
+        "Department_Store_Chain.dept_store_chain_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Departments_Department_Stores_fk6",
+      "domain": "Departments",
+      "range": "Department_Stores",
+      "source_fk": [
+        "Departments.dept_store_id",
+        "Department_Stores.dept_store_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Order_Items_Products_fk7",
+      "domain": "Order_Items",
+      "range": "Products",
+      "source_fk": [
+        "Order_Items.product_id",
+        "Products.product_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Order_Items_Customer_Orders_fk8",
+      "domain": "Order_Items",
+      "range": "Customer_Orders",
+      "source_fk": [
+        "Order_Items.order_id",
+        "Customer_Orders.order_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "속한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Product_Suppliers_Products_fk9",
+      "domain": "Product_Suppliers",
+      "range": "Products",
+      "source_fk": [
+        "Product_Suppliers.product_id",
+        "Products.product_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "제공",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Product_Suppliers_Suppliers_fk10",
+      "domain": "Product_Suppliers",
+      "range": "Suppliers",
+      "source_fk": [
+        "Product_Suppliers.supplier_id",
+        "Suppliers.supplier_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "제공",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Staff_Department_Assignments_Staff_fk11",
+      "domain": "Staff_Department_Assignments",
+      "range": "Staff",
+      "source_fk": [
+        "Staff_Department_Assignments.staff_id",
+        "Staff.staff_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Staff_Department_Assignments_Departments_fk12",
+      "domain": "Staff_Department_Assignments",
+      "range": "Departments",
+      "source_fk": [
+        "Staff_Department_Assignments.department_id",
+        "Departments.department_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,805 @@
+{
+  "db_id": "customer_complaints",
+  "classes": [
+    {
+      "name": "Staff",
+      "source_table": "Staff",
+      "ranking": 1.0,
+      "primary_label": "staff",
+      "synonyms": [
+        "직원",
+        "직무",
+        "근로자",
+        "사원",
+        "직책"
+      ]
+    },
+    {
+      "name": "Customers",
+      "source_table": "Customers",
+      "ranking": 3.5,
+      "primary_label": "고객",
+      "synonyms": [
+        "고객",
+        "고객자",
+        "사용자",
+        "이용자",
+        "고객층"
+      ]
+    },
+    {
+      "name": "Products",
+      "source_table": "Products",
+      "ranking": 3.5,
+      "primary_label": "상품",
+      "synonyms": [
+        "제품",
+        "상품",
+        "물품",
+        "제조품",
+        "제품명"
+      ]
+    },
+    {
+      "name": "Complaints",
+      "source_table": "Complaints",
+      "ranking": 3.5,
+      "primary_label": "불만 제기",
+      "synonyms": []
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Staff_staff_id",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "staff_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "staff id",
+      "synonyms": [
+        "직원 ID",
+        "직원 번호",
+        "직원 식별자",
+        "직원 고유 ID",
+        "staff_id",
+        "직원 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_gender",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "gender",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "gender",
+      "synonyms": [
+        "성별",
+        "성",
+        "성별 정보",
+        "성별 코드",
+        "성별 구분",
+        "gender",
+        "성별 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_first_name",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "first name",
+      "synonyms": [
+        "이름",
+        "성명",
+        "성명 첫 글자",
+        "이름 정보",
+        "first_name",
+        "이름 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_last_name",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "last name",
+      "synonyms": [
+        "성",
+        "이름",
+        "성명",
+        "성자",
+        "성부",
+        "성자명",
+        "성 이름",
+        "성부분"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_email_address",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "email_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "email address",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_phone_number",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "phone_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "phone number",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_id",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 ID",
+        "고객 번호",
+        "고객 식별자",
+        "고객 코드",
+        "customer_id",
+        "고유 고객 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_type_code",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "고객 유형 코드",
+      "synonyms": [
+        "고객 유형 코드",
+        "고객 코드",
+        "고객 구분 코드",
+        "고객 타입 코드",
+        "고객 구분",
+        "customer_type_code",
+        "고객 유형"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "B2B": [
+          "B2B 고객",
+          "기업 고객"
+        ],
+        "B2C": [
+          "B2C 고객",
+          "개인 고객"
+        ]
+      }
+    },
+    {
+      "name": "Customers_address_line_1",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "address_line_1",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "주소 라인 1",
+      "synonyms": [
+        "주소 줄 1",
+        "주소 첫 번째 줄",
+        "주소 라인 1",
+        "주소1",
+        "address_line_1",
+        "주소 첫째 줄"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_address_line_2",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "address_line_2",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "주소 라인 2",
+      "synonyms": [
+        "주소 라인 2",
+        "주소 두 번째 줄",
+        "주소_2번",
+        "주소_2라인",
+        "주소_두번째"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_town_city",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "town_city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.2,
+      "primary_label": "시도",
+      "synonyms": [
+        "도시",
+        "마을",
+        "도시명",
+        "도시_이름",
+        "마을명",
+        "도시_마을",
+        "거주지"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_state",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "state",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.9,
+      "primary_label": "주",
+      "synonyms": [
+        "주",
+        "주소_주",
+        "주소_주역",
+        "주_이름",
+        "주_코드",
+        "주_지역",
+        "주_주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_email_address",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "email_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이메일 주소",
+      "synonyms": [
+        "이메일 주소",
+        "이메일",
+        "전자우편 주소",
+        "메일 주소",
+        "이메일 주소 정보",
+        "이메일 주소를 입력한 값",
+        "고객 이메일"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_phone_number",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "phone_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "전화번호",
+      "synonyms": [
+        "전화번호",
+        "연락처",
+        "전화번호 정보",
+        "전화번호 필드",
+        "phone number",
+        "전화번호 데이터",
+        "연락처 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_id",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "상품 ID",
+      "synonyms": [
+        "제품 ID",
+        "제품 번호",
+        "제품 고유번호",
+        "제품 식별자",
+        "product_id",
+        "제품 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_parent_product_id",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "parent_product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "부모 상품 ID",
+      "synonyms": [
+        "부모 제품 ID",
+        "부모 제품 번호",
+        "제품 그룹 ID",
+        "제품 계층 번호",
+        "parent_product_id",
+        "제품 계층 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_category_code",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_category_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "상품 카테고리 코드",
+      "synonyms": [
+        "제품 카테고리 코드",
+        "제품 분류 코드",
+        "제품 카테고리",
+        "제품 분류",
+        "product_category_code",
+        "제품 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "ELECTRONICS": [
+          "전자제품"
+        ],
+        "CLOTHING": [
+          "의류"
+        ],
+        "FOOD": [
+          "식품"
+        ]
+      }
+    },
+    {
+      "name": "Products_date_product_first_available",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "date_product_first_available",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "상품 처음 판매일",
+      "synonyms": [
+        "제품 출시일",
+        "제품 처음 출시 날짜",
+        "제품 출시일자",
+        "제품 처음 판매 일자",
+        "제품 발매일",
+        "제품 처음 제공 날짜",
+        "제품 첫 출시일"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_date_product_discontinued",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "date_product_discontinued",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "상품 중단일",
+      "synonyms": [
+        "제품 중단일",
+        "제품 종료일",
+        "제품 중지 날짜",
+        "제품 판매 종료일",
+        "제품 중단 일자",
+        "제품 철회일",
+        "제품 판매 중단일",
+        "제품 종료 일자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_name",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "상품 이름",
+      "synonyms": [
+        "제품 이름",
+        "제품명",
+        "제품 타이틀",
+        "제품 제목",
+        "제품명칭",
+        "제품 대표 이름",
+        "제품 표기 이름",
+        "제품 이름 기재"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_description",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "상품 설명",
+      "synonyms": [
+        "제품 설명",
+        "상품 설명",
+        "제품 소개",
+        "상품 설명문",
+        "제품 정보",
+        "제품 설명내용",
+        "제품 요약"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_price",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_price",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "상품 가격",
+      "synonyms": [
+        "가격",
+        "제품 가격",
+        "상품 가격",
+        "가격 정보",
+        "제품 비용",
+        "제품 요금",
+        "가격 수치",
+        "제품 가격값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Complaints_complaint_id",
+      "domain": "Complaints",
+      "source_table": "Complaints",
+      "source_column": "complaint_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "불만 번호",
+      "synonyms": [
+        "고유번호",
+        "불만 번호",
+        "complaint_id",
+        "불만 사항 ID",
+        "고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Complaints_product_id",
+      "domain": "Complaints",
+      "source_table": "Complaints",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "제품 번호",
+      "synonyms": [
+        "제품 ID",
+        "제품 번호",
+        "product_id",
+        "제품 식별자",
+        "제품 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Complaints_customer_id",
+      "domain": "Complaints",
+      "source_table": "Complaints",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "고객 번호",
+      "synonyms": [
+        "고객 ID",
+        "고객 번호",
+        "customer_id",
+        "고객 식별자",
+        "고객 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Complaints_complaint_outcome_code",
+      "domain": "Complaints",
+      "source_table": "Complaints",
+      "source_column": "complaint_outcome_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "불만 결과 코드",
+      "synonyms": [
+        "불만 처리 결과 코드",
+        "불만 결과 코드",
+        "불만 처리 코드",
+        "불만 처리 상태",
+        "결과 코드",
+        "처리 결과",
+        "불만 결과",
+        "결과"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "S": [
+          "성공",
+          "성공 처리"
+        ],
+        "F": [
+          "실패",
+          "처리 실패"
+        ]
+      }
+    },
+    {
+      "name": "Complaints_complaint_status_code",
+      "domain": "Complaints",
+      "source_table": "Complaints",
+      "source_column": "complaint_status_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "불만 상태 코드",
+      "synonyms": [
+        "불만 상태 코드",
+        "불만 상태",
+        "불만 현황 코드",
+        "현황 코드",
+        "상태 코드",
+        "불만 현황",
+        "상태"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "O": [
+          "개시",
+          "진행 중"
+        ],
+        "C": [
+          "종료",
+          "완료"
+        ],
+        "P": [
+          "대기",
+          "대기 중"
+        ]
+      }
+    },
+    {
+      "name": "Complaints_complaint_type_code",
+      "domain": "Complaints",
+      "source_table": "Complaints",
+      "source_column": "complaint_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "불만 유형 코드",
+      "synonyms": [
+        "불만 유형 코드",
+        "불만 종류 코드",
+        "불만 유형",
+        "불만 분류 코드",
+        "유형 코드",
+        "불만 분류",
+        "불만 카테고리",
+        "분류 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "T1": [
+          "제품 문제"
+        ],
+        "T2": [
+          "서비스 문제"
+        ],
+        "T3": [
+          "배송 문제"
+        ]
+      }
+    },
+    {
+      "name": "Complaints_date_complaint_raised",
+      "domain": "Complaints",
+      "source_table": "Complaints",
+      "source_column": "date_complaint_raised",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "불만 제기일",
+      "synonyms": [
+        "불만 제기일",
+        "불만 날짜",
+        "제기일",
+        "불만 날짜 시간",
+        "고객 불만 날짜",
+        "불만 제기 시각",
+        "제기 날짜",
+        "불만 날자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Complaints_date_complaint_closed",
+      "domain": "Complaints",
+      "source_table": "Complaints",
+      "source_column": "date_complaint_closed",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "불만 종료일",
+      "synonyms": [
+        "불만 처리일",
+        "처리 날짜",
+        "닫힌 날짜",
+        "불만 닫힌 날짜",
+        "처리 시각",
+        "불만 닫은 날짜",
+        "닫는 날짜",
+        "불만 처리 일시"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Complaints_staff_id",
+      "domain": "Complaints",
+      "source_table": "Complaints",
+      "source_column": "staff_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "직원 번호",
+      "synonyms": [
+        "직원 번호",
+        "직원 ID",
+        "처리자 ID",
+        "직원 식별번호",
+        "처리자 번호",
+        "직원 코드",
+        "직원 식별자",
+        "처리자 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Complaints_Customers_fk0",
+      "domain": "Complaints",
+      "range": "Customers",
+      "source_fk": [
+        "Complaints.customer_id",
+        "Customers.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "고객인",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Complaints_Products_fk1",
+      "domain": "Complaints",
+      "range": "Products",
+      "source_fk": [
+        "Complaints.product_id",
+        "Products.product_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "제품에대한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Complaints_Staff_fk2",
+      "domain": "Complaints",
+      "range": "Staff",
+      "source_fk": [
+        "Complaints.staff_id",
+        "Staff.staff_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "직원인",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

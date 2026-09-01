@@ -1,0 +1,354 @@
+{
+  "db_id": "musical",
+  "classes": [
+    {
+      "name": "musical",
+      "source_table": "musical",
+      "ranking": 3.5,
+      "primary_label": "뮤지컬",
+      "synonyms": [
+        "음악극",
+        "연극",
+        "연출",
+        "공연",
+        "공연물"
+      ]
+    },
+    {
+      "name": "actor",
+      "source_table": "actor",
+      "ranking": 1.0,
+      "primary_label": "actor",
+      "synonyms": [
+        "배우",
+        "연기자",
+        "연출가",
+        "연출자",
+        "공연자"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "musical_Musical_ID",
+      "domain": "musical",
+      "source_table": "musical",
+      "source_column": "Musical_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "뮤지컬 ID",
+      "synonyms": [
+        "Musical_ID",
+        "연극 ID",
+        "연극 고유 번호",
+        "연극 식별자",
+        "연극 번호",
+        "연극 아이디",
+        "연극 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "musical_Name",
+      "domain": "musical",
+      "source_table": "musical",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "이름",
+      "synonyms": [
+        "Name",
+        "연극 이름",
+        "연극 제목",
+        "연극명",
+        "연극"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "musical_Year",
+      "domain": "musical",
+      "source_table": "musical",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "Year",
+        "연극 연도",
+        "연극 년도",
+        "연극 연출 년도",
+        "연극 개막 년도",
+        "연극 개봉 년도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "musical_Award",
+      "domain": "musical",
+      "source_table": "musical",
+      "source_column": "Award",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.2,
+      "primary_label": "상",
+      "synonyms": [
+        "상",
+        "상품",
+        "수상 작품",
+        "상 수상",
+        "상품명",
+        "상품 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "오디션": [
+          "오디션"
+        ],
+        "골든 글로브": [
+          "골든 글로브"
+        ]
+      }
+    },
+    {
+      "name": "musical_Category",
+      "domain": "musical",
+      "source_table": "musical",
+      "source_column": "Category",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "분류",
+      "synonyms": [
+        "카테고리",
+        "분류",
+        "상 분류",
+        "상 범주",
+        "분야",
+        "분류구분",
+        "카테고리명",
+        "상 분류명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "영화": [
+          "영화"
+        ],
+        "드라마": [
+          "드라마"
+        ]
+      }
+    },
+    {
+      "name": "musical_Nominee",
+      "domain": "musical",
+      "source_table": "musical",
+      "source_column": "Nominee",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "후보자",
+      "synonyms": [
+        "후보작",
+        "후보 작품",
+        "후보 이름",
+        "후보",
+        "작품 이름",
+        "후보작명",
+        "후보작 이름",
+        "후보작 제목"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "musical_Result",
+      "domain": "musical",
+      "source_table": "musical",
+      "source_column": "Result",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.7,
+      "primary_label": "결과",
+      "synonyms": [
+        "결과",
+        "상상 결과",
+        "수상 결과",
+        "상황",
+        "결과 정보",
+        "결과 내용",
+        "결과 데이터",
+        "상황 결과"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승리": [
+          "승리"
+        ],
+        "패배": [
+          "패배"
+        ],
+        "무승부": [
+          "무승부"
+        ]
+      }
+    },
+    {
+      "name": "actor_Actor_ID",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "Actor_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "actor id",
+      "synonyms": [
+        "연기자 ID",
+        "연기자 고유 번호",
+        "연기자 식별자",
+        "연기자 번호",
+        "연기자 아이디",
+        "Actor_ID",
+        "연기자 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "actor_Name",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "연기자 이름",
+        "연기자",
+        "연기자명",
+        "Name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "actor_Musical_ID",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "Musical_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "musical id",
+      "synonyms": [
+        "극 ID",
+        "극 고유 번호",
+        "극 식별자",
+        "극 번호",
+        "극 아이디",
+        "Musical_ID",
+        "극 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "actor_Character",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "Character",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "character",
+      "synonyms": [
+        "역할",
+        "캐릭터",
+        "연기 인물",
+        "연극 인물",
+        "역할 이름",
+        "연기자 역할",
+        "연극 캐릭터",
+        "연기한 인물"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "actor_Duration",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "Duration",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "duration",
+      "synonyms": [
+        "연기 시간",
+        "연기 기간",
+        "연극 연기 시간",
+        "연기 소요 시간",
+        "연극 연기 기간",
+        "연기 소요 기간",
+        "연극 연기 시간 길이"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "actor_age",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "연령",
+        "나이",
+        "연기자 나이",
+        "연기자의 연령",
+        "연기자 연령"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "actor_actor_fk0",
+      "domain": "actor",
+      "range": "actor",
+      "source_fk": [
+        "actor.Musical_ID",
+        "actor.Actor_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

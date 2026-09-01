@@ -1,0 +1,613 @@
+{
+  "db_id": "orchestra",
+  "classes": [
+    {
+      "name": "conductor",
+      "source_table": "conductor",
+      "ranking": 1.0,
+      "primary_label": "conductor",
+      "synonyms": [
+        "지휘자",
+        "지휘",
+        "연주자",
+        "예술가",
+        "음악가",
+        "예술인"
+      ]
+    },
+    {
+      "name": "orchestra",
+      "source_table": "orchestra",
+      "ranking": 3.5,
+      "primary_label": "오케스트라",
+      "synonyms": [
+        "오케스트라",
+        "오케스트라 그룹",
+        "음악단",
+        "예술단",
+        "음악 팀"
+      ]
+    },
+    {
+      "name": "performance",
+      "source_table": "performance",
+      "ranking": 3.5,
+      "primary_label": "성과",
+      "synonyms": [
+        "연주회",
+        "연주",
+        "공연",
+        "공연회",
+        "연주 행사",
+        "연주 프로그램"
+      ]
+    },
+    {
+      "name": "show",
+      "source_table": "show",
+      "ranking": 3.5,
+      "primary_label": "시청 정보",
+      "synonyms": [
+        "공연",
+        "연주",
+        "쇼",
+        "공연 일정",
+        "연출",
+        "연기",
+        "공연 프로그램",
+        "쇼 일정"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "conductor_Conductor_ID",
+      "domain": "conductor",
+      "source_table": "conductor",
+      "source_column": "Conductor_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "conductor id",
+      "synonyms": [
+        "지휘자 ID",
+        "지휘자 번호",
+        "지휘자 식별자",
+        "지휘자 코드",
+        "지휘자 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "conductor_Name",
+      "domain": "conductor",
+      "source_table": "conductor",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "지휘자 이름",
+        "지휘자 별명",
+        "지휘자 소명",
+        "지휘자 연명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "conductor_Age",
+      "domain": "conductor",
+      "source_table": "conductor",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "나이",
+        "지휘자 나이",
+        "지휘자 연령",
+        "지휘자 생년",
+        "지휘자 연대"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "conductor_Nationality",
+      "domain": "conductor",
+      "source_table": "conductor",
+      "source_column": "Nationality",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "nationality",
+      "synonyms": [
+        "국적",
+        "출신국",
+        "국가",
+        "원산지",
+        "출신국가",
+        "국적지"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "conductor_Year_of_Work",
+      "domain": "conductor",
+      "source_table": "conductor",
+      "source_column": "Year_of_Work",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year of work",
+      "synonyms": [
+        "작업년도",
+        "활동년도",
+        "시작년도",
+        "활동시작년도",
+        "작업시작년도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "orchestra_Orchestra_ID",
+      "domain": "orchestra",
+      "source_table": "orchestra",
+      "source_column": "Orchestra_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "오케스트라 ID",
+      "synonyms": [
+        "오케스트라 번호",
+        "오케스트라 코드",
+        "오케스트라 식별자",
+        "오케스트라 고유번호",
+        "오케스트라 인덱스"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "orchestra_Orchestra",
+      "domain": "orchestra",
+      "source_table": "orchestra",
+      "source_column": "Orchestra",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "오케스트라",
+      "synonyms": [
+        "오케스트라 이름",
+        "오케스트라 명칭",
+        "오케스트라 소속",
+        "오케스트라 브랜드",
+        "오케스트라 명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시민오케스트라": [
+          "서울시민오케스트라"
+        ],
+        "파리 오케스트라": [
+          "파리 오케스트라"
+        ]
+      }
+    },
+    {
+      "name": "orchestra_Conductor_ID",
+      "domain": "orchestra",
+      "source_table": "orchestra",
+      "source_column": "Conductor_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "지휘자 ID",
+      "synonyms": [
+        "지휘자 번호",
+        "지휘자 코드",
+        "지휘자 식별자",
+        "지휘자 고유번호",
+        "지휘자 인덱스"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "orchestra_Record_Company",
+      "domain": "orchestra",
+      "source_table": "orchestra",
+      "source_column": "Record_Company",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "레코드 회사",
+      "synonyms": [
+        "레코드사",
+        "음반사",
+        "음악사",
+        "레이블",
+        "음악 레이블",
+        "음악 기업",
+        "음반 기업"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "삼성 레코드": [
+          "삼성 레코드"
+        ],
+        "한국 레코드": [
+          "한국 레코드"
+        ]
+      }
+    },
+    {
+      "name": "orchestra_Year_of_Founded",
+      "domain": "orchestra",
+      "source_table": "orchestra",
+      "source_column": "Year_of_Founded",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "설립 연도",
+      "synonyms": [
+        "설립 연도",
+        "창립 연도",
+        "설립 년도",
+        "창립 년",
+        "설립 연",
+        "창립 시기",
+        "설립 일자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "orchestra_Major_Record_Format",
+      "domain": "orchestra",
+      "source_table": "orchestra",
+      "source_column": "Major_Record_Format",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "주요 레코드 포맷",
+      "synonyms": [
+        "주요 레코딩 포맷",
+        "주요 녹음 형식",
+        "기본 레코드 형식",
+        "주요 저장 형식",
+        "기본 녹음 포맷"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "CD": [
+          "CD"
+        ],
+        "디지털": [
+          "디지털"
+        ]
+      }
+    },
+    {
+      "name": "performance_Performance_ID",
+      "domain": "performance",
+      "source_table": "performance",
+      "source_column": "Performance_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "성과 ID",
+      "synonyms": [
+        "성과 번호",
+        "성과 코드",
+        "성과 식별자",
+        "성과 고유번호",
+        "성과 인덱스"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "performance_Orchestra_ID",
+      "domain": "performance",
+      "source_table": "performance",
+      "source_column": "Orchestra_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "오케스트라 ID",
+      "synonyms": [
+        "오케스트라 번호",
+        "오케스트라 코드",
+        "오케스트라 식별자",
+        "오케스트라 고유번호",
+        "오케스트라 인덱스"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "performance_Type",
+      "domain": "performance",
+      "source_table": "performance",
+      "source_column": "Type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "유형",
+      "synonyms": [
+        "유형 코드",
+        "분류",
+        "종류",
+        "타입",
+        "분류 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "콘서트": [
+          "콘서트",
+          "콘서트演出"
+        ],
+        "연주회": [
+          "연주회",
+          "연주"
+        ]
+      }
+    },
+    {
+      "name": "performance_Date",
+      "domain": "performance",
+      "source_table": "performance",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "일자",
+      "synonyms": [
+        "일자",
+        "날짜",
+        "일정",
+        "날",
+        "일정일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-05": [
+          "2023년 10월 5일",
+          "2023-10-05"
+        ]
+      }
+    },
+    {
+      "name": "performance_Official_ratings__millions",
+      "domain": "performance",
+      "source_table": "performance",
+      "source_column": "Official_ratings_(millions)",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "공식 평가(백만원)",
+      "synonyms": [
+        "공식평가",
+        "평가액",
+        "백만원 평가",
+        "공식평가액",
+        "평가금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "performance_Weekly_rank",
+      "domain": "performance",
+      "source_table": "performance",
+      "source_column": "Weekly_rank",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "주간 순위",
+      "synonyms": [
+        "주간순위",
+        "주간위치",
+        "주간등수",
+        "주간등급",
+        "주간순위수치"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1위": [
+          "1위",
+          "첫 번째"
+        ],
+        "5위": [
+          "5위",
+          "다섯 번째"
+        ]
+      }
+    },
+    {
+      "name": "performance_Share",
+      "domain": "performance",
+      "source_table": "performance",
+      "source_column": "Share",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "공유 비율",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "30%": [
+          "30퍼센트",
+          "30%"
+        ]
+      }
+    },
+    {
+      "name": "show_Show_ID",
+      "domain": "show",
+      "source_table": "show",
+      "source_column": "Show_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "show id",
+      "synonyms": [
+        "공연 ID",
+        "공연 번호",
+        "공연 식별자",
+        "공연 코드",
+        "공연 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "show_Performance_ID",
+      "domain": "show",
+      "source_table": "show",
+      "source_column": "Performance_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "performance id",
+      "synonyms": [
+        "공연 ID",
+        "공연 번호",
+        "공연 식별자",
+        "공연 코드",
+        "공연 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "show_If_first_show",
+      "domain": "show",
+      "source_table": "show",
+      "source_column": "If_first_show",
+      "range_types": [
+        "others"
+      ],
+      "ranking": 1.0,
+      "primary_label": "if first show",
+      "synonyms": [
+        "첫 공연 여부",
+        "첫 공연 여하",
+        "첫 공연 여부 체크",
+        "첫 공연 여부 표시",
+        "첫 공연 여부 플래그"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "show_Result",
+      "domain": "show",
+      "source_table": "show",
+      "source_column": "Result",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "result",
+      "synonyms": [
+        "결과",
+        "상황",
+        "결과 정보",
+        "결과 요약",
+        "결과 요약 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "show_Attendance",
+      "domain": "show",
+      "source_table": "show",
+      "source_column": "Attendance",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "attendance",
+      "synonyms": [
+        "관객 수",
+        "참석자 수",
+        "관객 수량",
+        "참석 인원",
+        "관객 수 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "orchestra_conductor_fk0",
+      "domain": "orchestra",
+      "range": "conductor",
+      "source_fk": [
+        "orchestra.Conductor_ID",
+        "conductor.Conductor_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "performance_orchestra_fk1",
+      "domain": "performance",
+      "range": "orchestra",
+      "source_fk": [
+        "performance.Orchestra_ID",
+        "orchestra.Orchestra_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "show_performance_fk2",
+      "domain": "show",
+      "range": "performance",
+      "source_fk": [
+        "show.Performance_ID",
+        "performance.Performance_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,1027 @@
+{
+  "db_id": "driving_school",
+  "classes": [
+    {
+      "name": "Addresses",
+      "source_table": "Addresses",
+      "ranking": 3.5,
+      "primary_label": "주소",
+      "synonyms": [
+        "주소",
+        "위치",
+        "주소록",
+        "지址",
+        "소재지"
+      ]
+    },
+    {
+      "name": "Staff",
+      "source_table": "Staff",
+      "ranking": 3.5,
+      "primary_label": "직원",
+      "synonyms": [
+        "직원",
+        "사원",
+        "직책",
+        "인력",
+        "근로자"
+      ]
+    },
+    {
+      "name": "Vehicles",
+      "source_table": "Vehicles",
+      "ranking": 3.0,
+      "primary_label": "차량",
+      "synonyms": [
+        "차량",
+        "자동차",
+        "차량정보",
+        "운전기",
+        "차량목록"
+      ]
+    },
+    {
+      "name": "Customers",
+      "source_table": "Customers",
+      "ranking": 3.5,
+      "primary_label": "고객",
+      "synonyms": [
+        "고객",
+        "이용자",
+        "회원",
+        "사용자",
+        "고객 정보",
+        "고객 목록",
+        "고객 데이터",
+        "고객 기록"
+      ]
+    },
+    {
+      "name": "Customer_Payments",
+      "source_table": "Customer_Payments",
+      "ranking": 3.0,
+      "primary_label": "고객 결제",
+      "synonyms": [
+        "결제",
+        "지불",
+        "결제 내역",
+        "지불 내역",
+        "고객 결제",
+        "결제 기록",
+        "지불 기록",
+        "고객 지불"
+      ]
+    },
+    {
+      "name": "Lessons",
+      "source_table": "Lessons",
+      "ranking": 3.5,
+      "primary_label": "수업",
+      "synonyms": [
+        "수업",
+        "강의",
+        "수업 정보",
+        "강의 정보",
+        "수업 일정",
+        "강의 일정",
+        "수업 내용",
+        "강의 내용"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Addresses_address_id",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "주소 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_line_1_number_building",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "line_1_number_building",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "1번 라인 번호 건물",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_city",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "시",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_zip_postcode",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "zip_postcode",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "우편번호",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_state_province_county",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "state_province_county",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "주/도/군",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_country",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "국가",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_staff_id",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "staff_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "직원 ID",
+      "synonyms": [
+        "직원 번호",
+        "직원 ID",
+        "사원 ID",
+        "직원 고유 번호",
+        "staff_id",
+        "직원 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_staff_address_id",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "staff_address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "직원 주소 ID",
+      "synonyms": [
+        "직원 주소 ID",
+        "직원 주소 참조",
+        "주소 식별자",
+        "직원 주소 외부 키",
+        "staff_address_id",
+        "주소 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_nickname",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "nickname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "별명",
+      "synonyms": [
+        "별명",
+        "닉네임",
+        "직원 별명",
+        "staff nickname",
+        "직원 닉네임"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_first_name",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성명",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_middle_name",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "middle_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "중간 이름",
+      "synonyms": [
+        "중간 이름",
+        "성 중간 이름",
+        "이름 중간",
+        "중간 성",
+        "middle name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_last_name",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "성명",
+        "성 중간",
+        "성 이름",
+        "성자",
+        "last name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_date_of_birth",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "date_of_birth",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "생년월일",
+      "synonyms": [
+        "생일",
+        "출생일",
+        "출생 날짜",
+        "출생 시간",
+        "생년월일",
+        "생일 정보",
+        "출생일자",
+        "출생일자 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_date_joined_staff",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "date_joined_staff",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "직원 입사일",
+      "synonyms": [
+        "입사일",
+        "입사 날짜",
+        "직원 입사일",
+        "직원 입사 날짜",
+        "입사일자",
+        "직원 입사일자",
+        "입사일 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_date_left_staff",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "date_left_staff",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "직원 퇴사일",
+      "synonyms": [
+        "이탈일",
+        "이탈 날짜",
+        "직원 이탈일",
+        "직원 이탈 날짜",
+        "이탈일자",
+        "직원 이탈일자",
+        "이탈일 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Vehicles_vehicle_id",
+      "domain": "Vehicles",
+      "source_table": "Vehicles",
+      "source_column": "vehicle_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "차량 ID",
+      "synonyms": [
+        "차량 ID",
+        "차량 번호",
+        "차량 식별자",
+        "차량 고유 번호",
+        "vehicle_id",
+        "차량 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Vehicles_vehicle_details",
+      "domain": "Vehicles",
+      "source_table": "Vehicles",
+      "source_column": "vehicle_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "차량 세부 정보",
+      "synonyms": [
+        "차량 정보",
+        "차량 상세 내용",
+        "차량 설명",
+        "차량 세부 사항",
+        "vehicle_details",
+        "차량 설명 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승용차": [
+          "승용차"
+        ],
+        "트럭": [
+          "트럭"
+        ],
+        "SUV": [
+          "SUV"
+        ]
+      }
+    },
+    {
+      "name": "Customers_customer_id",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 ID",
+        "고유 고객 번호",
+        "고객 식별자",
+        "고객 번호",
+        "고객 코드",
+        "고객 식별번호",
+        "고객 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_address_id",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 주소 ID",
+      "synonyms": [
+        "주소 ID",
+        "고객 주소 ID",
+        "주소 참조 ID",
+        "address_id",
+        "고객 주소",
+        "주소 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_status_code",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_status_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "고객 상태 코드",
+      "synonyms": [
+        "고객 상태 코드",
+        "상태 코드",
+        "고객 상태",
+        "상태",
+        "고객 상태 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "ACTIVE": [
+          "활성",
+          "활동 중"
+        ],
+        "INACTIVE": [
+          "비활성",
+          "비활동 중"
+        ],
+        "SUSPENDED": [
+          "정지",
+          "정지 상태"
+        ]
+      }
+    },
+    {
+      "name": "Customers_date_became_customer",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "date_became_customer",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "고객이 되는 날짜",
+      "synonyms": [
+        "고객 가입일",
+        "가입일",
+        "date became customer",
+        "고객 등록일",
+        "회원 가입일",
+        "고객 등록 날짜",
+        "가입 날짜"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_date_of_birth",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "date_of_birth",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "생년월일",
+      "synonyms": [
+        "생일",
+        "출생일",
+        "date of birth",
+        "생년월일",
+        "출생 날짜",
+        "생일 정보",
+        "출생일자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_first_name",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "first name",
+        "성명",
+        "이름 정보",
+        "성",
+        "이름 데이터",
+        "이름 필드",
+        "성명 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_last_name",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "성명",
+        "성 정보",
+        "이름 끝",
+        "성자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_amount_outstanding",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "amount_outstanding",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "미이행 금액",
+      "synonyms": [
+        "미지급 금액",
+        "청구 금액",
+        "잔액",
+        "출금 금액",
+        "미지급액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_email_address",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "email_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이메일 주소",
+      "synonyms": [
+        "이메일",
+        "전자우편",
+        "이메일 주소",
+        "이메일 주소 정보",
+        "메일 주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_phone_number",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "phone_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "전화번호",
+      "synonyms": [
+        "전화번호",
+        "전화번호 정보",
+        "전화번호 필드",
+        "전화번호 데이터",
+        "전화번호 컬럼",
+        "phone number"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_cell_mobile_phone_number",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "cell_mobile_phone_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "모바일 전화번호",
+      "synonyms": [
+        "모바일 전화번호",
+        "휴대폰 번호",
+        "휴대폰 번호 정보",
+        "모바일 전화번호 데이터",
+        "휴대폰 번호 컬럼",
+        "cell mobile phone number"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Payments_customer_id",
+      "domain": "Customer_Payments",
+      "source_table": "Customer_Payments",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 id",
+      "synonyms": [
+        "고객 ID",
+        "고유 고객 번호",
+        "고객 식별자",
+        "고객 번호",
+        "고객 ID 값",
+        "고객 식별 번호",
+        "고객 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Payments_datetime_payment",
+      "domain": "Customer_Payments",
+      "source_table": "Customer_Payments",
+      "source_column": "datetime_payment",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "결제 시간",
+      "synonyms": [
+        "결제 날짜",
+        "결제 시간",
+        "결제 일시",
+        "결제 날짜와 시간",
+        "결제 일자",
+        "결제 시각",
+        "결제 일시 정보",
+        "결제 일자와 시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-05 14:30:00": [
+          "2023-10-05 14:30"
+        ]
+      }
+    },
+    {
+      "name": "Customer_Payments_payment_method_code",
+      "domain": "Customer_Payments",
+      "source_table": "Customer_Payments",
+      "source_column": "payment_method_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "결제 방법 코드",
+      "synonyms": [
+        "결제 방법 코드",
+        "결제 방식 코드",
+        "결제 코드",
+        "결제 방식 정보",
+        "결제 코드 정보",
+        "결제 방법 코드 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "CARD": [
+          "카드"
+        ],
+        "CASH": [
+          "현금"
+        ]
+      }
+    },
+    {
+      "name": "Customer_Payments_amount_payment",
+      "domain": "Customer_Payments",
+      "source_table": "Customer_Payments",
+      "source_column": "amount_payment",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "결제 금액",
+      "synonyms": [
+        "결제 금액",
+        "금액",
+        "지불 금액",
+        "지불액",
+        "지급 금액",
+        "지급액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Lessons_lesson_id",
+      "domain": "Lessons",
+      "source_table": "Lessons",
+      "source_column": "lesson_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "수업 ID",
+      "synonyms": [
+        "수업 ID",
+        "수업 고유 번호",
+        "수업 식별자",
+        "수업 코드",
+        "수업 번호",
+        "lesson_id",
+        "수업 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Lessons_customer_id",
+      "domain": "Lessons",
+      "source_table": "Lessons",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 ID",
+        "고객 고유 번호",
+        "고객 식별자",
+        "고객 코드",
+        "고객 번호",
+        "customer_id",
+        "고객 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Lessons_lesson_status_code",
+      "domain": "Lessons",
+      "source_table": "Lessons",
+      "source_column": "lesson_status_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "수업 상태 코드",
+      "synonyms": [
+        "수업 상태 코드",
+        "수업 상태",
+        "수업 진행 상태",
+        "수업 코드",
+        "수업 상태 정보",
+        "lesson_status_code"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "완료": [
+          "완료",
+          "종료"
+        ],
+        "예약": [
+          "예약됨",
+          "예약 중"
+        ],
+        "취소": [
+          "취소됨",
+          "취소"
+        ]
+      }
+    },
+    {
+      "name": "Lessons_staff_id",
+      "domain": "Lessons",
+      "source_table": "Lessons",
+      "source_column": "staff_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "직원 ID",
+      "synonyms": [
+        "강사 ID",
+        "강사 번호",
+        "강사 식별자",
+        "강사 코드",
+        "staff_id",
+        "강사 고유번호",
+        "강사 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Lessons_vehicle_id",
+      "domain": "Lessons",
+      "source_table": "Lessons",
+      "source_column": "vehicle_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "차량 ID",
+      "synonyms": [
+        "차량 ID",
+        "차량 번호",
+        "차량 식별자",
+        "차량 코드",
+        "vehicle_id",
+        "차량 고유번호",
+        "차량 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Lessons_lesson_date",
+      "domain": "Lessons",
+      "source_table": "Lessons",
+      "source_column": "lesson_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 3.0,
+      "primary_label": "수업 날짜",
+      "synonyms": [
+        "수업 날짜",
+        "수업 일자",
+        "수업 일시",
+        "수업 날짜 시간",
+        "lesson_date",
+        "수업 일자 시간",
+        "수업 일시 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Lessons_lesson_time",
+      "domain": "Lessons",
+      "source_table": "Lessons",
+      "source_column": "lesson_time",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "수업 시간",
+      "synonyms": [
+        "수업 시간",
+        "시간",
+        "수업시각",
+        "시각",
+        "시간대",
+        "수업 시간대",
+        "시간 정보",
+        "수업 시간별"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Lessons_price",
+      "domain": "Lessons",
+      "source_table": "Lessons",
+      "source_column": "price",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "가격",
+      "synonyms": [
+        "가격",
+        "금액",
+        "비용",
+        "수업 요금",
+        "가격 정보",
+        "비용 정보",
+        "수업 비용",
+        "가격 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Staff_Addresses_fk0",
+      "domain": "Staff",
+      "range": "Addresses",
+      "source_fk": [
+        "Staff.staff_address_id",
+        "Addresses.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속 주소",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customers_Addresses_fk1",
+      "domain": "Customers",
+      "range": "Addresses",
+      "source_fk": [
+        "Customers.customer_address_id",
+        "Addresses.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속 주소",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customer_Payments_Customers_fk2",
+      "domain": "Customer_Payments",
+      "range": "Customers",
+      "source_fk": [
+        "Customer_Payments.customer_id",
+        "Customers.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "결제한 고객",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Lessons_Customers_fk3",
+      "domain": "Lessons",
+      "range": "Customers",
+      "source_fk": [
+        "Lessons.customer_id",
+        "Customers.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "수강한 고객",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Lessons_Staff_fk4",
+      "domain": "Lessons",
+      "range": "Staff",
+      "source_fk": [
+        "Lessons.staff_id",
+        "Staff.staff_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "수업 진행자",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Lessons_Vehicles_fk5",
+      "domain": "Lessons",
+      "range": "Vehicles",
+      "source_fk": [
+        "Lessons.vehicle_id",
+        "Vehicles.vehicle_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "수업 차량",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

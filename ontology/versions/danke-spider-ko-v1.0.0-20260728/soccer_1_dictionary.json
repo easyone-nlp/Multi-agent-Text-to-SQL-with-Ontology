@@ -1,0 +1,5450 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "플레이어 속성",
+      "target_class": "Player_Attributes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수 특성",
+      "target_class": "Player_Attributes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수 능력",
+      "target_class": "Player_Attributes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수 정보",
+      "target_class": "Player_Attributes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수 프로필",
+      "target_class": "Player_Attributes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수 데이터",
+      "target_class": "Player_Attributes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수 속성",
+      "target_class": "Player_Attributes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "sqlite sequence",
+      "target_class": "sqlite_sequence",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시퀀스 테이블",
+      "target_class": "sqlite_sequence",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "SQLite 시퀀스",
+      "target_class": "sqlite_sequence",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "자동 증가 시퀀스",
+      "target_class": "sqlite_sequence",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "ID 시퀀스",
+      "target_class": "sqlite_sequence",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "SQLite 자동 증가",
+      "target_class": "sqlite_sequence",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시퀀스 관리 테이블",
+      "target_class": "sqlite_sequence",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "플레이어",
+      "target_class": "Player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수 정보",
+      "target_class": "Player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수 목록",
+      "target_class": "Player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수 데이터",
+      "target_class": "Player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수 목표",
+      "target_class": "Player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수 기록",
+      "target_class": "Player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "리그",
+      "target_class": "League",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기",
+      "target_class": "League",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "팀",
+      "target_class": "League",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 팀",
+      "target_class": "League",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 리그",
+      "target_class": "League",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가",
+      "target_class": "Country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국",
+      "target_class": "Country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 정보",
+      "target_class": "Country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 데이터",
+      "target_class": "Country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 목록",
+      "target_class": "Country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "팀",
+      "target_class": "Team",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 팀",
+      "target_class": "Team",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 팀",
+      "target_class": "Team",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "팀 정보",
+      "target_class": "Team",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 팀 목록",
+      "target_class": "Team",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "팀 속성",
+      "target_class": "Team_Attributes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디 값",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기본키",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 fifa api id",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_player_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "FIFA API ID",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_player_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "FIFA 아이디",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_player_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 FIFA ID",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_player_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "FIFA 플레이어 번호",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_player_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 FIFA 식별자",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_player_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "player_fifa_api_id",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_player_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 api id",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_player_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "API ID",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_player_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 API ID",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_player_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "API 아이디",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_player_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 식별자",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_player_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "player_api_id",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_player_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 API 번호",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_player_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기록일",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜 정보",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜 기록",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜 데이터",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 정보",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기록 일자",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전반 평가",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_overall_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종합 평가",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_overall_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 평가",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_overall_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종합 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_overall_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전반 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_overall_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_overall_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_overall_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전반 평가 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_overall_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "잠재력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_potential",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "잠재력 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_potential",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가능성",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_potential",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가능성 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_potential",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "잠재력 평가",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_potential",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "잠재력 측정",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_potential",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "잠재력 평가 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_potential",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선호 발",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_preferred_foot",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좋은 발",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_preferred_foot",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 발",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_preferred_foot",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주로 사용하는 발",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_preferred_foot",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선호 발 종류",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_preferred_foot",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이동 발",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_preferred_foot",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 발 방향",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_preferred_foot",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선호 발측",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_preferred_foot",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 워크 레이트",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 근력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 활동 비중",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 유형",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격적인 활동",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 근력 비율",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 성향",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 근력 수준",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방어 워크 레이트",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 근력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 활동 비중",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 유형",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비적인 활동",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 근력 비율",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 성향",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 근력 수준",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "크로스",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_crossing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "crossing",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_crossing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "크로스 기술",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_crossing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "크로스 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_crossing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "크로스 성능",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_crossing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "크로스 능력치",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_crossing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "크로스 기술 수준",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_crossing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결정력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_finishing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "finishing",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_finishing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "슈팅",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_finishing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "슈팅 정확도",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_finishing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "슈팅 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_finishing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "슈팅 성능",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_finishing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "슈팅 능력치",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_finishing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "슈팅 기술",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_finishing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "헤딩 정확도",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_heading_accuracy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "heading_accuracy",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_heading_accuracy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "헤딩 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_heading_accuracy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "헤딩 기술",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_heading_accuracy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "헤딩 성능",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_heading_accuracy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "헤딩 능력치",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_heading_accuracy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "머리 슛 정확도",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_heading_accuracy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "머리 슛 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_heading_accuracy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "단거리 패스",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_short_passing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "짧은 패스",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_short_passing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "단축 패스",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_short_passing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "짧은 패스 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_short_passing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "short passing",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_short_passing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "단축 패스 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_short_passing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "짧은 패스 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_short_passing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "short passing 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_short_passing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "볼리",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_volleys",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "벽돌 패스",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_volleys",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "볼 빠르게 치기",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_volleys",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "볼 빠르게 던지기",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_volleys",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "volleys",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_volleys",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "벽돌 패스 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_volleys",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "볼 빠르게 치는 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_volleys",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "volleys 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_volleys",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드리블링",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_dribbling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드리블",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_dribbling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공을 빠르게 굴리기",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_dribbling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드리블 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_dribbling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dribbling",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_dribbling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공을 빠르게 굴리는 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_dribbling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드리블 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_dribbling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dribbling 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_dribbling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "커브",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_curve",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "curve",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_curve",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패스 곡선",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_curve",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡선 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_curve",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡선 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_curve",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패스 곡선 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_curve",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡선 능력 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_curve",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프리킥 정확도",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_free_kick_accuracy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "free_kick_accuracy",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_free_kick_accuracy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프리킥 정확성",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_free_kick_accuracy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프리킥 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_free_kick_accuracy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프리킥 정확도 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_free_kick_accuracy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프리킥 정확성 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_free_kick_accuracy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장거리 패스",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_long_passing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "long_passing",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_long_passing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장거리 패스 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_long_passing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장거리 패스 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_long_passing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장거리 패스 능력 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_long_passing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "볼 컨트롤",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_ball_control",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ball_control",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_ball_control",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공 제어",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_ball_control",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공 조절 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_ball_control",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공 제어 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_ball_control",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ball control 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_ball_control",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공 조절",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_ball_control",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공 조절 능력 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_ball_control",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ball control 평가",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_ball_control",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가속력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_acceleration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "acceleration",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_acceleration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발속",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_acceleration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발속 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_acceleration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가속 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_acceleration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발속 평가",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_acceleration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가속력 평가",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_acceleration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발속 능력 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_acceleration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스프린트 속도",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_sprint_speed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "sprint_speed",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_sprint_speed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순간 속도",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_sprint_speed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스프린트 속도 평가",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_sprint_speed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스프린트 속도 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_sprint_speed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스프린트 속도 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_sprint_speed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스피드 평가",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_sprint_speed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스프린트 속도 능력 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_sprint_speed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "민첩성",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_agility",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신체 민첩성",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_agility",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "агилити",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_agility",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운동 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_agility",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가속력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_agility",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신속성",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_agility",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "агилити 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_agility",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "민첩성 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_agility",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반응력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_reactions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반응 속도",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_reactions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반응 시간",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_reactions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반응 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_reactions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반응 지수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_reactions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반응성",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_reactions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반응 속도 지수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_reactions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반응 능력 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_reactions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "균형감",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "균형 감각",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "균형성",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "균형 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "균형 지수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체력 균형",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "균형력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체지구능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "균형성 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "슈팅 파워",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_shot_power",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "슈팅력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_shot_power",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "슈팅 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_shot_power",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "골 득점력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_shot_power",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스hot_power",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_shot_power",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "슈팅 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_shot_power",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_shot_power",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "슈팅 능력치",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_shot_power",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "골 득점 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_shot_power",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점프력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_jumping",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점프 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_jumping",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "높이 점프",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_jumping",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점프 능력치",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_jumping",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점프력 평가",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_jumping",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점프 능력 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_jumping",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "높이 점프 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_jumping",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점프 능력 평가",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_jumping",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스태미나",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_stamina",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_stamina",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지속력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_stamina",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체력 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_stamina",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체력 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_stamina",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지속력 평가",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_stamina",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스태미나 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_stamina",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체력 평가",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_stamina",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강도",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_strength",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "strength",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_strength",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_strength",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_strength",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "힘",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_strength",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "력량",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_strength",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신체력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_strength",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "력량 수준",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_strength",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장거리 슈팅",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_long_shots",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "long shots",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_long_shots",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장거리 골 득점",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_long_shots",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장거리 슈팅 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_long_shots",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장거리 골",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_long_shots",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장거리 슈팅 기술",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_long_shots",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장거리 골 득점 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_long_shots",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격성",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_aggression",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "aggression",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_aggression",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경쟁심",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_aggression",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격적인 스타일",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_aggression",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_aggression",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경쟁력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_aggression",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격적 성향",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_aggression",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격적인 성향",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_aggression",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인터셉션",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_interceptions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "interceptions",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_interceptions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가로cut",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_interceptions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 가로cut",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_interceptions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가로차기",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_interceptions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_interceptions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가로차기 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_interceptions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포지셔닝",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_positioning",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "positioning",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_positioning",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 판단",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_positioning",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "차지 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_positioning",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정확도",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_positioning",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_positioning",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "차지 위치",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_positioning",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비전",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_vision",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "vision",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_vision",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 파악",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_vision",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전술 판단",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_vision",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_vision",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 이해",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_vision",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전술 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_vision",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_vision",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패널티",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_penalties",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "penalties",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_penalties",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패널티 치기",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_penalties",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패널티 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_penalties",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패널티 스코어",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_penalties",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패널티 기술",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_penalties",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패널티 성능",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_penalties",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마킹",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_marking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "marking",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_marking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 경계",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_marking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 기술",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_marking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마킹 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_marking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 성능",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_marking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마킹 스코어",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_marking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정지 타이틀",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_standing_tackle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "standing_tackle",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_standing_tackle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선수 대신 타격",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_standing_tackle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선수 대신 수비",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_standing_tackle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선수 대신 타격 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_standing_tackle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선수 대신 수비 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_standing_tackle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선수 대신 타격 스코어",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_standing_tackle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선수 대신 수비 스코어",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_standing_tackle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스라이딩 타이틀",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_sliding_tackle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "sliding tackle",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_sliding_tackle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스ไล딩 탈출",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_sliding_tackle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스라이딩 탈출 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_sliding_tackle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스라이딩 탈출력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_sliding_tackle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "슬라이딩 탈출",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_sliding_tackle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "골키퍼 다이빙",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_diving",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gk diving",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_diving",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 타ackle",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_diving",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 타클",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_diving",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_diving",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 타클력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_diving",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 타클 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_diving",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "골키퍼 핸들링",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_handling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gk handling",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_handling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 볼 처리",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_handling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "볼 처리 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_handling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 볼 처리력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_handling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 볼 처리 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_handling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "볼 처리",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_handling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "골키퍼 캐치",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_kicking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gk_kicking",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_kicking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비수 슈팅",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_kicking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비수 발구름",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_kicking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발구름 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_kicking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비수 발구름 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_kicking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gk 발구름",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_kicking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비수 슈팅 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_kicking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "골키퍼 포지셔닝",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_positioning",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gk_positioning",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_positioning",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비수 위치",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_positioning",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비수 위치 판단",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_positioning",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비수 위치 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_positioning",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gk 위치",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_positioning",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비수 위치 판단 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_positioning",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "골키퍼 레프레크스",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_reflexes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gk_reflexes",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_reflexes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비수 반사",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_reflexes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비수 반사 능력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_reflexes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비수 반사력",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_reflexes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gk 반사",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_reflexes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비수 반사력 점수",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_gk_reflexes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시퀀스 이름",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 컬럼",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시퀀스 이름 컬럼",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name 컬럼",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "seq",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_seq",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_seq",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시퀀스 번호",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_seq",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "seq 컬럼",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_seq",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시퀀스 번호 컬럼",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_seq",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호 컬럼",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_seq",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "seq 값",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_seq",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "Player",
+      "target_property": "Player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "Player",
+      "target_property": "Player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 고유 ID",
+      "target_class": "Player",
+      "target_property": "Player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 번호",
+      "target_class": "Player",
+      "target_property": "Player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "Player",
+      "target_property": "Player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유니크 ID",
+      "target_class": "Player",
+      "target_property": "Player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 식별자",
+      "target_class": "Player",
+      "target_property": "Player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 api id",
+      "target_class": "Player",
+      "target_property": "Player_player_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "player api id",
+      "target_class": "Player",
+      "target_property": "Player_player_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 API ID",
+      "target_class": "Player",
+      "target_property": "Player_player_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "API 플레이어 ID",
+      "target_class": "Player",
+      "target_property": "Player_player_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "외부 ID",
+      "target_class": "Player",
+      "target_property": "Player_player_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 외부 식별자",
+      "target_class": "Player",
+      "target_property": "Player_player_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "API 번호",
+      "target_class": "Player",
+      "target_property": "Player_player_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "외부 고유 번호",
+      "target_class": "Player",
+      "target_property": "Player_player_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 이름",
+      "target_class": "Player",
+      "target_property": "Player_player_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "player name",
+      "target_class": "Player",
+      "target_property": "Player_player_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Player",
+      "target_property": "Player_player_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어",
+      "target_class": "Player",
+      "target_property": "Player_player_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선수 이름",
+      "target_class": "Player",
+      "target_property": "Player_player_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어명",
+      "target_class": "Player",
+      "target_property": "Player_player_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 fifa api id",
+      "target_class": "Player",
+      "target_property": "Player_player_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "fifa api id",
+      "target_class": "Player",
+      "target_property": "Player_player_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "fifa id",
+      "target_class": "Player",
+      "target_property": "Player_player_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "player fifa id",
+      "target_class": "Player",
+      "target_property": "Player_player_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "fifa 플레이어 ID",
+      "target_class": "Player",
+      "target_property": "Player_player_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 fifa 번호",
+      "target_class": "Player",
+      "target_property": "Player_player_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "fifa 플레이어 식별자",
+      "target_class": "Player",
+      "target_property": "Player_player_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "player fifa 식별 번호",
+      "target_class": "Player",
+      "target_property": "Player_player_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생일",
+      "target_class": "Player",
+      "target_property": "Player_birthday",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "태어난 날",
+      "target_class": "Player",
+      "target_property": "Player_birthday",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생일",
+      "target_class": "Player",
+      "target_property": "Player_birthday",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년월일",
+      "target_class": "Player",
+      "target_property": "Player_birthday",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "태어난 날짜",
+      "target_class": "Player",
+      "target_property": "Player_birthday",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생일 정보",
+      "target_class": "Player",
+      "target_property": "Player_birthday",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생일자",
+      "target_class": "Player",
+      "target_property": "Player_birthday",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신장",
+      "target_class": "Player",
+      "target_property": "Player_height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키",
+      "target_class": "Player",
+      "target_property": "Player_height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신장 정보",
+      "target_class": "Player",
+      "target_property": "Player_height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 데이터",
+      "target_class": "Player",
+      "target_property": "Player_height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 수치",
+      "target_class": "Player",
+      "target_property": "Player_height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신장 길이",
+      "target_class": "Player",
+      "target_property": "Player_height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 크기",
+      "target_class": "Player",
+      "target_property": "Player_height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체중",
+      "target_class": "Player",
+      "target_property": "Player_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "몸무게",
+      "target_class": "Player",
+      "target_property": "Player_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "무게",
+      "target_class": "Player",
+      "target_property": "Player_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "weight",
+      "target_class": "Player",
+      "target_property": "Player_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "몸무게 정보",
+      "target_class": "Player",
+      "target_property": "Player_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체중 데이터",
+      "target_class": "Player",
+      "target_property": "Player_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "무게 정보",
+      "target_class": "Player",
+      "target_property": "Player_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체중 측정",
+      "target_class": "Player",
+      "target_property": "Player_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "League",
+      "target_property": "League_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리그 ID",
+      "target_class": "League",
+      "target_property": "League_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리그 식별자",
+      "target_class": "League",
+      "target_property": "League_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리그 번호",
+      "target_class": "League",
+      "target_property": "League_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리그 고유번호",
+      "target_class": "League",
+      "target_property": "League_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "League",
+      "target_property": "League_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리그 아이디",
+      "target_class": "League",
+      "target_property": "League_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 ID",
+      "target_class": "League",
+      "target_property": "League_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 식별자",
+      "target_class": "League",
+      "target_property": "League_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 번호",
+      "target_class": "League",
+      "target_property": "League_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 고유번호",
+      "target_class": "League",
+      "target_property": "League_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "country_id",
+      "target_class": "League",
+      "target_property": "League_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 아이디",
+      "target_class": "League",
+      "target_property": "League_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "League",
+      "target_property": "League_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리그 이름",
+      "target_class": "League",
+      "target_property": "League_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리그 제목",
+      "target_class": "League",
+      "target_property": "League_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리그 명칭",
+      "target_class": "League",
+      "target_property": "League_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리그 대표 이름",
+      "target_class": "League",
+      "target_property": "League_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "Country",
+      "target_property": "Country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Country",
+      "target_property": "Country_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 ID",
+      "target_class": "Team",
+      "target_property": "Team_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "Team",
+      "target_property": "Team_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_id",
+      "target_class": "Team",
+      "target_property": "Team_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_number",
+      "target_class": "Team",
+      "target_property": "Team_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_identifier",
+      "target_class": "Team",
+      "target_property": "Team_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_code",
+      "target_class": "Team",
+      "target_property": "Team_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_seq",
+      "target_class": "Team",
+      "target_property": "Team_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_key",
+      "target_class": "Team",
+      "target_property": "Team_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 API ID",
+      "target_class": "Team",
+      "target_property": "Team_team_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_api_id",
+      "target_class": "Team",
+      "target_property": "Team_team_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "api_team_id",
+      "target_class": "Team",
+      "target_property": "Team_team_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "external_team_id",
+      "target_class": "Team",
+      "target_property": "Team_team_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "api_team_number",
+      "target_class": "Team",
+      "target_property": "Team_team_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_api_code",
+      "target_class": "Team",
+      "target_property": "Team_team_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_api_key",
+      "target_class": "Team",
+      "target_property": "Team_team_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_api_seq",
+      "target_class": "Team",
+      "target_property": "Team_team_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 FIFA API ID",
+      "target_class": "Team",
+      "target_property": "Team_team_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_fifa_api_id",
+      "target_class": "Team",
+      "target_property": "Team_team_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "fifa_api_team_id",
+      "target_class": "Team",
+      "target_property": "Team_team_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "fifa_team_id",
+      "target_class": "Team",
+      "target_property": "Team_team_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "fifa_api_team_number",
+      "target_class": "Team",
+      "target_property": "Team_team_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "fifa_team_code",
+      "target_class": "Team",
+      "target_property": "Team_team_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "fifa_team_key",
+      "target_class": "Team",
+      "target_property": "Team_team_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "fifa_team_seq",
+      "target_class": "Team",
+      "target_property": "Team_team_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 장르 이름",
+      "target_class": "Team",
+      "target_property": "Team_team_long_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 장 이름",
+      "target_class": "Team",
+      "target_property": "Team_team_long_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구단 이름",
+      "target_class": "Team",
+      "target_property": "Team_team_long_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 전체 이름",
+      "target_class": "Team",
+      "target_property": "Team_team_long_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공식 팀 이름",
+      "target_class": "Team",
+      "target_property": "Team_team_long_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 명",
+      "target_class": "Team",
+      "target_property": "Team_team_long_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_long_name",
+      "target_class": "Team",
+      "target_property": "Team_team_long_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 장칭",
+      "target_class": "Team",
+      "target_property": "Team_team_long_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 단축 이름",
+      "target_class": "Team",
+      "target_property": "Team_team_short_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 짧은 이름",
+      "target_class": "Team",
+      "target_property": "Team_team_short_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구단 단축명",
+      "target_class": "Team",
+      "target_property": "Team_team_short_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 약자",
+      "target_class": "Team",
+      "target_property": "Team_team_short_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 약칭",
+      "target_class": "Team",
+      "target_property": "Team_team_short_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_short_name",
+      "target_class": "Team",
+      "target_property": "Team_team_short_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 줄임말",
+      "target_class": "Team",
+      "target_property": "Team_team_short_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 약명",
+      "target_class": "Team",
+      "target_property": "Team_team_short_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디 값",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별자",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID 값",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 fifa api id",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_team_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 FIFA API ID",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_team_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "FIFA API ID",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_team_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 식별 번호",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_team_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "FIFA 팀 ID",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_team_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "FIFA 팀 식별자",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_team_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "FIFA 팀 번호",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_team_fifa_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 api id",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_team_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 API ID",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_team_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "API ID",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_team_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 식별 번호",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_team_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 키",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_team_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 식별자",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_team_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "API 팀 번호",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_team_api_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기록일",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "데이터 기준일",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜 정보",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 정보",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기록 날짜",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜 데이터",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildup play speed",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전방 전환 속도",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전환 속도",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전방 속도",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전환 속도 지표",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전방 전환 속도 값",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전환 속도 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전방 전환 속도 측정",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildup play speed class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeedClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전방 전환 속도 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeedClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전환 속도 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeedClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전방 속도 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeedClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전환 속도 클래스",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeedClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전방 전환 속도 분류",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeedClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전환 속도 등급 정보",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeedClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전방 전환 속도 분류 정보",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeedClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildup play dribbling",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribbling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildUpPlayDribbling",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribbling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전방 드리블 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribbling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드리블 능력 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribbling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 드리블 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribbling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드리블 강도",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribbling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드리블 능력",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribbling",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildup play dribbling class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribblingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildUpPlayDribblingClass",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribblingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전방 드리블 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribblingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드리블 능력 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribblingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 드리블 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribblingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드리블 강도 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribblingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildup play passing",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildUpPlayPassing",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전방 패스 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패스 능력 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 패스 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패스 강도",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패스 능력",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildup play passing class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildup play passing level",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildup passing class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "passing class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildup play passing description",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "passing level description",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildup play passing grade",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "passing grade",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildup play positioning class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPositioningClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildup play positioning level",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPositioningClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "positioning class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPositioningClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildup positioning class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPositioningClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "positioning level description",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPositioningClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "buildup play positioning grade",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPositioningClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "positioning grade",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPositioningClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "chance creation passing",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "passing chance creation",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "passing chance",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "chance creation passing value",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "passing chance value",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "chance creation passing score",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "passing chance score",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "chance creation passing class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 기회 패스 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 창출 패스 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패스 기회 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 패스 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "chanceCreationPassingClass",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 패스 등급 정보",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 기회 패스 등급 정보",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "chance creation crossing",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "크로싱 능력 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 기회 크로싱 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "크로싱 기회 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 크로싱 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "chanceCreationCrossing",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 크로싱 능력",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "chance creation crossing class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "크로싱 기회 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 기회 크로싱 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "크로싱 공격 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 크로싱 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "chanceCreationCrossingClass",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 기회 크로싱 등급 정보",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "크로싱 기회 등급 정보",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "chance creation shooting",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShooting",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기회 창출 점수",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShooting",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스코어링 능력",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShooting",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "골 기회 생성 점수",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShooting",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 기회 점수",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShooting",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스코어링 능력 점수",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShooting",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기회 창출 능력",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShooting",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 점수",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShooting",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "chance creation shooting class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShootingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기회 창출 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShootingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스코어링 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShootingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "골 기회 생성 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShootingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 기회 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShootingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShootingClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "chance creation positioning class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPositioningClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기회 창출 위치 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPositioningClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 결정 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPositioningClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 위치 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPositioningClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기회 창출 위치 능력",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPositioningClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스코어링 위치 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPositioningClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격 위치 결정 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPositioningClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 능력",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPositioningClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "defence pressure",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressure",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 압박",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressure",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 압박 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressure",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "압박 강도",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressure",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "defence pressure 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressure",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 압박력",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressure",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "defence pressure 강도",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressure",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "defence pressure class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressureClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 압박 분류",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressureClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 압박 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressureClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "defence pressure 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressureClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "압박 분류",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressureClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 압박 등급 정보",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressureClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "defence pressure 분류",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressureClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "defence aggression",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggression",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 공격성",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggression",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 공격력",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggression",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "defence aggression 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggression",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공격성 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggression",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 공격성 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggression",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "defence aggression 강도",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggression",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "defence aggression class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggressionClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 공격성 분류",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggressionClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 전략 분류",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggressionClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 공격성 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggressionClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 전략 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggressionClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 공격성 클래스",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggressionClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 전략 클래스",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggressionClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 공격성 카테고리",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggressionClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 전략 카테고리",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggressionClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "defence team width",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 팀 너비",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 팀 폭",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 너비",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 팀 폭 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 팀 너비 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 팀 폭 정보",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 너비 수치",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 팀 폭 데이터",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "defence team width class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidthClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 팀 너비 분류",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidthClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 팀 폭 분류",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidthClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 너비 분류",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidthClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 팀 폭 클래스",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidthClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 팀 너비 클래스",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidthClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 팀 폭 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidthClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 너비 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidthClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 팀 폭 카테고리",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidthClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "defence defender line class",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceDefenderLineClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 라인 구조 분류",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceDefenderLineClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 라인 분류",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceDefenderLineClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 라인 등급",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceDefenderLineClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 라인 카테고리",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceDefenderLineClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 라인 클래스",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceDefenderLineClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 라인 등급 정보",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceDefenderLineClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 라인 분류 정보",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceDefenderLineClass",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수비 라인 카테고리 정보",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceDefenderLineClass",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-01-01",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_date",
+      "value": "2023-01-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 1월 1일",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_date",
+      "value": "2023-01-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "오른쪽",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_preferred_foot",
+      "value": "오른쪽"
+    },
+    {
+      "entry_type": "value",
+      "key": "오른발",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_preferred_foot",
+      "value": "오른쪽"
+    },
+    {
+      "entry_type": "value",
+      "key": "오른쪽 발",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_preferred_foot",
+      "value": "오른쪽"
+    },
+    {
+      "entry_type": "value",
+      "key": "왼쪽",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_preferred_foot",
+      "value": "왼쪽"
+    },
+    {
+      "entry_type": "value",
+      "key": "왼발",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_preferred_foot",
+      "value": "왼쪽"
+    },
+    {
+      "entry_type": "value",
+      "key": "왼쪽 발",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_preferred_foot",
+      "value": "왼쪽"
+    },
+    {
+      "entry_type": "value",
+      "key": "고",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": "고"
+    },
+    {
+      "entry_type": "value",
+      "key": "높음",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": "고"
+    },
+    {
+      "entry_type": "value",
+      "key": "높은 수준",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": "고"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": "중간"
+    },
+    {
+      "entry_type": "value",
+      "key": "보통",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": "중간"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간 수준",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": "중간"
+    },
+    {
+      "entry_type": "value",
+      "key": "저",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": "저"
+    },
+    {
+      "entry_type": "value",
+      "key": "낮음",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": "저"
+    },
+    {
+      "entry_type": "value",
+      "key": "낮은 수준",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_attacking_work_rate",
+      "value": "저"
+    },
+    {
+      "entry_type": "value",
+      "key": "고",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": "고"
+    },
+    {
+      "entry_type": "value",
+      "key": "높음",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": "고"
+    },
+    {
+      "entry_type": "value",
+      "key": "높은 수준",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": "고"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": "중간"
+    },
+    {
+      "entry_type": "value",
+      "key": "보통",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": "중간"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간 수준",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": "중간"
+    },
+    {
+      "entry_type": "value",
+      "key": "저",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": "저"
+    },
+    {
+      "entry_type": "value",
+      "key": "낮음",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": "저"
+    },
+    {
+      "entry_type": "value",
+      "key": "낮은 수준",
+      "target_class": "Player_Attributes",
+      "target_property": "Player_Attributes_defensive_work_rate",
+      "value": "저"
+    },
+    {
+      "entry_type": "value",
+      "key": "seq",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_name",
+      "value": "seq"
+    },
+    {
+      "entry_type": "value",
+      "key": "김민재",
+      "target_class": "Player",
+      "target_property": "Player_player_name",
+      "value": "김민재"
+    },
+    {
+      "entry_type": "value",
+      "key": "이강인",
+      "target_class": "Player",
+      "target_property": "Player_player_name",
+      "value": "이강인"
+    },
+    {
+      "entry_type": "value",
+      "key": "1998-05-10",
+      "target_class": "Player",
+      "target_property": "Player_birthday",
+      "value": "1998-05-10"
+    },
+    {
+      "entry_type": "value",
+      "key": "1998년 5월 10일",
+      "target_class": "Player",
+      "target_property": "Player_birthday",
+      "value": "1998-05-10"
+    },
+    {
+      "entry_type": "value",
+      "key": "프리미어 리그",
+      "target_class": "League",
+      "target_property": "League_name",
+      "value": "프리미어 리그"
+    },
+    {
+      "entry_type": "value",
+      "key": "라리가",
+      "target_class": "League",
+      "target_property": "League_name",
+      "value": "라리가"
+    },
+    {
+      "entry_type": "value",
+      "key": "바이어 리그",
+      "target_class": "League",
+      "target_property": "League_name",
+      "value": "바이어 리그"
+    },
+    {
+      "entry_type": "value",
+      "key": "대한민국",
+      "target_class": "Country",
+      "target_property": "Country_name",
+      "value": "대한민국"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국",
+      "target_class": "Country",
+      "target_property": "Country_name",
+      "value": "미국"
+    },
+    {
+      "entry_type": "value",
+      "key": "중국",
+      "target_class": "Country",
+      "target_property": "Country_name",
+      "value": "중국"
+    },
+    {
+      "entry_type": "value",
+      "key": "FC 서울",
+      "target_class": "Team",
+      "target_property": "Team_team_long_name",
+      "value": "FC 서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "삼성 라이온스",
+      "target_class": "Team",
+      "target_property": "Team_team_long_name",
+      "value": "삼성 라이온스"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "Team",
+      "target_property": "Team_team_short_name",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "삼성",
+      "target_class": "Team",
+      "target_property": "Team_team_short_name",
+      "value": "삼성"
+    },
+    {
+      "entry_type": "value",
+      "key": "Low",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeedClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "저",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeedClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "Medium",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeedClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeedClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "High",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeedClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "고",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlaySpeedClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "Low",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribblingClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "저",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribblingClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "Medium",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribblingClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribblingClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "High",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribblingClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "고",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayDribblingClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "Low",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassingClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "저",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassingClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "Medium",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassingClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassingClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "High",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassingClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "고",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPassingClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "Low",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPositioningClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "저",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPositioningClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "Medium",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPositioningClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPositioningClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "High",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPositioningClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "고",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_buildUpPlayPositioningClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "Low",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassingClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "저",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassingClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "Medium",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassingClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassingClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "High",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassingClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "고",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPassingClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "Low",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossingClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "저",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossingClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "Medium",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossingClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossingClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "High",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossingClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "고",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationCrossingClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "Low",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShootingClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "저",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShootingClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "Medium",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShootingClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShootingClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "High",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShootingClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "고",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationShootingClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "Low",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPositioningClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "저",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPositioningClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "Medium",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPositioningClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPositioningClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "High",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPositioningClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "고",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_chanceCreationPositioningClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "Low",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressureClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "저",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressureClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "Medium",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressureClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressureClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "High",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressureClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "고",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defencePressureClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "Low",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggressionClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "저",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggressionClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "Medium",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggressionClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggressionClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "High",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggressionClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "고",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceAggressionClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "Low",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidthClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "저",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidthClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "Medium",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidthClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidthClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "High",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidthClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "고",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceTeamWidthClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "Low",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceDefenderLineClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "저",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceDefenderLineClass",
+      "value": "Low"
+    },
+    {
+      "entry_type": "value",
+      "key": "Medium",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceDefenderLineClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "중간",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceDefenderLineClass",
+      "value": "Medium"
+    },
+    {
+      "entry_type": "value",
+      "key": "High",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceDefenderLineClass",
+      "value": "High"
+    },
+    {
+      "entry_type": "value",
+      "key": "고",
+      "target_class": "Team_Attributes",
+      "target_property": "Team_Attributes_defenceDefenderLineClass",
+      "value": "High"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "class_table": {
+    "wrestler": "wrestler",
+    "Elimination": "Elimination"
+  },
+  "property_column": {
+    "wrestler_Wrestler_ID": [
+      "wrestler",
+      "Wrestler_ID"
+    ],
+    "wrestler_Name": [
+      "wrestler",
+      "Name"
+    ],
+    "wrestler_Reign": [
+      "wrestler",
+      "Reign"
+    ],
+    "wrestler_Days_held": [
+      "wrestler",
+      "Days_held"
+    ],
+    "wrestler_Location": [
+      "wrestler",
+      "Location"
+    ],
+    "wrestler_Event": [
+      "wrestler",
+      "Event"
+    ],
+    "Elimination_Elimination_ID": [
+      "Elimination",
+      "Elimination_ID"
+    ],
+    "Elimination_Wrestler_ID": [
+      "Elimination",
+      "Wrestler_ID"
+    ],
+    "Elimination_Team": [
+      "Elimination",
+      "Team"
+    ],
+    "Elimination_Eliminated_By": [
+      "Elimination",
+      "Eliminated_By"
+    ],
+    "Elimination_Elimination_Move": [
+      "Elimination",
+      "Elimination_Move"
+    ],
+    "Elimination_Time": [
+      "Elimination",
+      "Time"
+    ]
+  },
+  "object_property_fk": {
+    "Elimination_wrestler_fk0": [
+      "Elimination.Wrestler_ID",
+      "wrestler.Wrestler_ID"
+    ]
+  }
+}

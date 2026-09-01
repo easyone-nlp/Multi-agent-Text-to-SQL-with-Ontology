@@ -1,0 +1,66 @@
+{
+  "class_table": {
+    "perpetrator": "perpetrator",
+    "people": "people"
+  },
+  "property_column": {
+    "perpetrator_Perpetrator_ID": [
+      "perpetrator",
+      "Perpetrator_ID"
+    ],
+    "perpetrator_People_ID": [
+      "perpetrator",
+      "People_ID"
+    ],
+    "perpetrator_Date": [
+      "perpetrator",
+      "Date"
+    ],
+    "perpetrator_Year": [
+      "perpetrator",
+      "Year"
+    ],
+    "perpetrator_Location": [
+      "perpetrator",
+      "Location"
+    ],
+    "perpetrator_Country": [
+      "perpetrator",
+      "Country"
+    ],
+    "perpetrator_Killed": [
+      "perpetrator",
+      "Killed"
+    ],
+    "perpetrator_Injured": [
+      "perpetrator",
+      "Injured"
+    ],
+    "people_People_ID": [
+      "people",
+      "People_ID"
+    ],
+    "people_Name": [
+      "people",
+      "Name"
+    ],
+    "people_Height": [
+      "people",
+      "Height"
+    ],
+    "people_Weight": [
+      "people",
+      "Weight"
+    ],
+    "people_Home_Town": [
+      "people",
+      "Home Town"
+    ]
+  },
+  "object_property_fk": {
+    "perpetrator_people_fk0": [
+      "perpetrator.People_ID",
+      "people.People_ID"
+    ]
+  }
+}

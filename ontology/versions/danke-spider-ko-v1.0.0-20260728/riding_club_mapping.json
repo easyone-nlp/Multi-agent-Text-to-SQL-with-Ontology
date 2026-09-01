@@ -1,0 +1,137 @@
+{
+  "class_table": {
+    "player": "player",
+    "club": "club",
+    "coach": "coach",
+    "player_coach": "player_coach",
+    "match_result": "match_result"
+  },
+  "property_column": {
+    "player_Player_ID": [
+      "player",
+      "Player_ID"
+    ],
+    "player_Sponsor_name": [
+      "player",
+      "Sponsor_name"
+    ],
+    "player_Player_name": [
+      "player",
+      "Player_name"
+    ],
+    "player_Gender": [
+      "player",
+      "Gender"
+    ],
+    "player_Residence": [
+      "player",
+      "Residence"
+    ],
+    "player_Occupation": [
+      "player",
+      "Occupation"
+    ],
+    "player_Votes": [
+      "player",
+      "Votes"
+    ],
+    "player_Rank": [
+      "player",
+      "Rank"
+    ],
+    "club_Club_ID": [
+      "club",
+      "Club_ID"
+    ],
+    "club_Club_name": [
+      "club",
+      "Club_name"
+    ],
+    "club_Region": [
+      "club",
+      "Region"
+    ],
+    "club_Start_year": [
+      "club",
+      "Start_year"
+    ],
+    "coach_Coach_ID": [
+      "coach",
+      "Coach_ID"
+    ],
+    "coach_Coach_name": [
+      "coach",
+      "Coach_name"
+    ],
+    "coach_Gender": [
+      "coach",
+      "Gender"
+    ],
+    "coach_Club_ID": [
+      "coach",
+      "Club_ID"
+    ],
+    "coach_Rank": [
+      "coach",
+      "Rank"
+    ],
+    "player_coach_Player_ID": [
+      "player_coach",
+      "Player_ID"
+    ],
+    "player_coach_Coach_ID": [
+      "player_coach",
+      "Coach_ID"
+    ],
+    "player_coach_Starting_year": [
+      "player_coach",
+      "Starting_year"
+    ],
+    "match_result_Rank": [
+      "match_result",
+      "Rank"
+    ],
+    "match_result_Club_ID": [
+      "match_result",
+      "Club_ID"
+    ],
+    "match_result_Gold": [
+      "match_result",
+      "Gold"
+    ],
+    "match_result_Big_Silver": [
+      "match_result",
+      "Big_Silver"
+    ],
+    "match_result_Small_Silver": [
+      "match_result",
+      "Small_Silver"
+    ],
+    "match_result_Bronze": [
+      "match_result",
+      "Bronze"
+    ],
+    "match_result_Points": [
+      "match_result",
+      "Points"
+    ]
+  },
+  "object_property_fk": {
+    "coach_club_fk0": [
+      "coach.Club_ID",
+      "club.Club_ID"
+    ],
+    "player_coach_coach_fk1": [
+      "player_coach.Coach_ID",
+      "coach.Coach_ID"
+    ],
+    "player_coach_player_fk2": [
+      "player_coach.Player_ID",
+      "player.Player_ID"
+    ],
+    "match_result_club_fk3": [
+      "match_result.Club_ID",
+      "club.Club_ID"
+    ]
+  }
+}

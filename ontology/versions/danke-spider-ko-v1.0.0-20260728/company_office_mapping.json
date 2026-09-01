@@ -1,0 +1,87 @@
+{
+  "class_table": {
+    "buildings": "buildings",
+    "Companies": "Companies",
+    "Office_locations": "Office_locations"
+  },
+  "property_column": {
+    "buildings_id": [
+      "buildings",
+      "id"
+    ],
+    "buildings_name": [
+      "buildings",
+      "name"
+    ],
+    "buildings_City": [
+      "buildings",
+      "City"
+    ],
+    "buildings_Height": [
+      "buildings",
+      "Height"
+    ],
+    "buildings_Stories": [
+      "buildings",
+      "Stories"
+    ],
+    "buildings_Status": [
+      "buildings",
+      "Status"
+    ],
+    "Companies_id": [
+      "Companies",
+      "id"
+    ],
+    "Companies_name": [
+      "Companies",
+      "name"
+    ],
+    "Companies_Headquarters": [
+      "Companies",
+      "Headquarters"
+    ],
+    "Companies_Industry": [
+      "Companies",
+      "Industry"
+    ],
+    "Companies_Sales_billion": [
+      "Companies",
+      "Sales_billion"
+    ],
+    "Companies_Profits_billion": [
+      "Companies",
+      "Profits_billion"
+    ],
+    "Companies_Assets_billion": [
+      "Companies",
+      "Assets_billion"
+    ],
+    "Companies_Market_Value_billion": [
+      "Companies",
+      "Market_Value_billion"
+    ],
+    "Office_locations_building_id": [
+      "Office_locations",
+      "building_id"
+    ],
+    "Office_locations_company_id": [
+      "Office_locations",
+      "company_id"
+    ],
+    "Office_locations_move_in_year": [
+      "Office_locations",
+      "move_in_year"
+    ]
+  },
+  "object_property_fk": {
+    "Office_locations_Companies_fk0": [
+      "Office_locations.company_id",
+      "Companies.id"
+    ],
+    "Office_locations_buildings_fk1": [
+      "Office_locations.building_id",
+      "buildings.id"
+    ]
+  }
+}

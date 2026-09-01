@@ -1,0 +1,588 @@
+{
+  "db_id": "game_1",
+  "classes": [
+    {
+      "name": "Student",
+      "source_table": "Student",
+      "ranking": 3.5,
+      "primary_label": "학생",
+      "synonyms": [
+        "플레이어",
+        "게임 사용자",
+        "게임 플레이어",
+        "사용자",
+        "게임 인용자"
+      ]
+    },
+    {
+      "name": "Video_Games",
+      "source_table": "Video_Games",
+      "ranking": 3.0,
+      "primary_label": "video games",
+      "synonyms": [
+        "게임 제목",
+        "게임 정보",
+        "게임 목록",
+        "게임 이름",
+        "게임 데이터"
+      ]
+    },
+    {
+      "name": "Plays_Games",
+      "source_table": "Plays_Games",
+      "ranking": 3.5,
+      "primary_label": "플레이 게임",
+      "synonyms": [
+        "게임 플레이",
+        "게임 참여",
+        "게임 연관",
+        "게임 조인",
+        "게임 연관관계"
+      ]
+    },
+    {
+      "name": "SportsInfo",
+      "source_table": "SportsInfo",
+      "ranking": 3.5,
+      "primary_label": "스포츠 정보",
+      "synonyms": [
+        "스포츠 데이터",
+        "스포츠 정보",
+        "스포츠 관련 데이터",
+        "스포츠 정보 테이블",
+        "스포츠 데이터베이스",
+        "스포츠 정보 저장소",
+        "스포츠 관련 정보 테이블"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Student_StuID",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "StuID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 ID",
+        "학번",
+        "학생 고유 ID",
+        "StuID",
+        "학생 식별 번호",
+        "학생 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_LName",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "LName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "성명",
+        "성자",
+        "LName",
+        "학생 성",
+        "성 정보",
+        "성 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김",
+          "이",
+          "박"
+        ]
+      }
+    },
+    {
+      "name": "Student_Fname",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Fname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "이름 정보",
+        "Fname",
+        "학생 이름",
+        "성명",
+        "이름 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "민수": [
+          "민수",
+          "지현",
+          "서연"
+        ]
+      }
+    },
+    {
+      "name": "Student_Age",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "나이",
+      "synonyms": [
+        "나이",
+        "연령",
+        "나이 정보",
+        "연령 데이터",
+        "나이 열",
+        "연령 열",
+        "나이 컬럼",
+        "연령 컬럼"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Sex",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Sex",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성별",
+      "synonyms": [
+        "성별",
+        "성",
+        "성별 정보",
+        "성 데이터",
+        "성별 열",
+        "성 열",
+        "성별 컬럼",
+        "성 컬럼"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남자": [
+          "남자",
+          "여자"
+        ]
+      }
+    },
+    {
+      "name": "Student_Major",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Major",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "전공",
+      "synonyms": [
+        "전공",
+        "전공 코드",
+        "전공 정보",
+        "전공 데이터",
+        "전공 코드 열",
+        "전공 열",
+        "전공 컬럼",
+        "전공 코드 컬럼"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Advisor",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Advisor",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "상담사",
+      "synonyms": [
+        "Advisor",
+        "조언자",
+        "멘토",
+        "멘토 ID",
+        "멘토 학생 ID",
+        "멘토자",
+        "멘토자 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_city_code",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "city_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "시 코드",
+      "synonyms": [
+        "city_code",
+        "도시 코드",
+        "거주 도시 코드",
+        "도시 코드 정보",
+        "거주 도시"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "01": [
+          "01",
+          "02",
+          "03"
+        ]
+      }
+    },
+    {
+      "name": "Video_Games_GameID",
+      "domain": "Video_Games",
+      "source_table": "Video_Games",
+      "source_column": "GameID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "game id",
+      "synonyms": [
+        "게임 ID",
+        "게임 번호",
+        "게임 식별자",
+        "GameID",
+        "게임 고유 번호",
+        "게임 식별 번호",
+        "ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Video_Games_GName",
+      "domain": "Video_Games",
+      "source_table": "Video_Games",
+      "source_column": "GName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "game name",
+      "synonyms": [
+        "게임 이름",
+        "제목",
+        "제품명",
+        "GName",
+        "게임 제목",
+        "제품 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "배틀그라운드": [
+          "배틀그라운드"
+        ],
+        "피파": [
+          "피파"
+        ]
+      }
+    },
+    {
+      "name": "Video_Games_GType",
+      "domain": "Video_Games",
+      "source_table": "Video_Games",
+      "source_column": "GType",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "game type",
+      "synonyms": [
+        "게임 유형",
+        "분류",
+        "타입",
+        "GType",
+        "게임 카테고리",
+        "게임 종류"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "액션": [
+          "액션"
+        ],
+        "롤플레잉": [
+          "롤플레잉"
+        ],
+        "스포츠": [
+          "스포츠"
+        ]
+      }
+    },
+    {
+      "name": "Plays_Games_StuID",
+      "domain": "Plays_Games",
+      "source_table": "Plays_Games",
+      "source_column": "StuID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 ID",
+        "학생 번호",
+        "학번",
+        "스튜dent ID",
+        "StuID",
+        "학생 식별자",
+        "학번 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Plays_Games_GameID",
+      "domain": "Plays_Games",
+      "source_table": "Plays_Games",
+      "source_column": "GameID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "게임 ID",
+      "synonyms": [
+        "게임 ID",
+        "게임 번호",
+        "게임 식별자",
+        "Video_Games ID",
+        "GameID",
+        "게임 코드",
+        "게임 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Plays_Games_Hours_Played",
+      "domain": "Plays_Games",
+      "source_table": "Plays_Games",
+      "source_column": "Hours_Played",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "플레이 시간",
+      "synonyms": [
+        "플레이 시간",
+        "게임 시간",
+        "Hours_Played",
+        "게임 소요 시간",
+        "시간",
+        "플레이 시간 정보",
+        "게임 플레이 시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "1시간",
+          "하루"
+        ],
+        "2": [
+          "2시간",
+          "두 시간"
+        ],
+        "3": [
+          "3시간",
+          "세 시간"
+        ]
+      }
+    },
+    {
+      "name": "SportsInfo_StuID",
+      "domain": "SportsInfo",
+      "source_table": "SportsInfo",
+      "source_column": "StuID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "StuID",
+        "학생 ID",
+        "학생 고유 번호",
+        "학번",
+        "학생 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "SportsInfo_SportName",
+      "domain": "SportsInfo",
+      "source_table": "SportsInfo",
+      "source_column": "SportName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "스포츠 이름",
+      "synonyms": [
+        "SportName",
+        "스포츠 이름",
+        "운동 종목",
+        "스포츠 타이틀",
+        "운동명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "축구": [
+          "축구"
+        ],
+        "농구": [
+          "농구"
+        ],
+        "배구": [
+          "배구"
+        ],
+        "수영": [
+          "수영"
+        ]
+      }
+    },
+    {
+      "name": "SportsInfo_HoursPerWeek",
+      "domain": "SportsInfo",
+      "source_table": "SportsInfo",
+      "source_column": "HoursPerWeek",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "주간 시간",
+      "synonyms": [
+        "HoursPerWeek",
+        "주당 시간",
+        "주간 활동 시간",
+        "시간 수",
+        "주당 소요 시간"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "SportsInfo_GamesPlayed",
+      "domain": "SportsInfo",
+      "source_table": "SportsInfo",
+      "source_column": "GamesPlayed",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "경기 수",
+      "synonyms": [
+        "경기 수",
+        "게임 수",
+        "경기 횟수",
+        "스포츠 경기 수",
+        "게임 Played",
+        "경기 Played",
+        "게임 수량",
+        "경기 Played 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "SportsInfo_OnScholarship",
+      "domain": "SportsInfo",
+      "source_table": "SportsInfo",
+      "source_column": "OnScholarship",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "장학금 수혜 여부",
+      "synonyms": [
+        "학자금 수혜 여부",
+        "학자금 여부",
+        "학자금 상태",
+        "학자금 여니",
+        "학자금 상황",
+        "학자금 유무",
+        "학자금 여부 확인",
+        "학자금 상태 확인"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "예": [
+          "예",
+          "Yes"
+        ],
+        "아니오": [
+          "아니오",
+          "No"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Plays_Games_Student_fk0",
+      "domain": "Plays_Games",
+      "range": "Student",
+      "source_fk": [
+        "Plays_Games.StuID",
+        "Student.StuID"
+      ],
+      "weight": 1.0,
+      "primary_label": "게임 플레이",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Plays_Games_Video_Games_fk1",
+      "domain": "Plays_Games",
+      "range": "Video_Games",
+      "source_fk": [
+        "Plays_Games.GameID",
+        "Video_Games.GameID"
+      ],
+      "weight": 1.0,
+      "primary_label": "게임 플레이",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "SportsInfo_Student_fk2",
+      "domain": "SportsInfo",
+      "range": "Student",
+      "source_fk": [
+        "SportsInfo.StuID",
+        "Student.StuID"
+      ],
+      "weight": 1.0,
+      "primary_label": "스포츠 정보",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

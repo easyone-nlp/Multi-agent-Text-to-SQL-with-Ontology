@@ -1,0 +1,1075 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "은행 지점",
+      "target_class": "bank",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "은행",
+      "target_class": "bank",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "금융기관",
+      "target_class": "bank",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "은행기관",
+      "target_class": "bank",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "금융회사",
+      "target_class": "bank",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "은행업자",
+      "target_class": "bank",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객",
+      "target_class": "customer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자",
+      "target_class": "customer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "소비자",
+      "target_class": "customer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객님",
+      "target_class": "customer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인사",
+      "target_class": "customer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대출 정보",
+      "target_class": "loan",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대출",
+      "target_class": "loan",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대출금",
+      "target_class": "loan",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대출정보",
+      "target_class": "loan",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대출상품",
+      "target_class": "loan",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대출자금",
+      "target_class": "loan",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 ID",
+      "target_class": "bank",
+      "target_property": "bank_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "branch_ID",
+      "target_class": "bank",
+      "target_property": "bank_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 번호",
+      "target_class": "bank",
+      "target_property": "bank_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜치 ID",
+      "target_class": "bank",
+      "target_property": "bank_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 식별자",
+      "target_class": "bank",
+      "target_property": "bank_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 고유 번호",
+      "target_class": "bank",
+      "target_property": "bank_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 이름",
+      "target_class": "bank",
+      "target_property": "bank_bname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "bname",
+      "target_class": "bank",
+      "target_property": "bank_bname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "은행 이름",
+      "target_class": "bank",
+      "target_property": "bank_bname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜치 이름",
+      "target_class": "bank",
+      "target_property": "bank_bname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점명",
+      "target_class": "bank",
+      "target_property": "bank_bname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "은행 지점명",
+      "target_class": "bank",
+      "target_property": "bank_bname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 수",
+      "target_class": "bank",
+      "target_property": "bank_no_of_customers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "no_of_customers",
+      "target_class": "bank",
+      "target_property": "bank_no_of_customers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 인원",
+      "target_class": "bank",
+      "target_property": "bank_no_of_customers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 고객 수",
+      "target_class": "bank",
+      "target_property": "bank_no_of_customers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "은행 고객 수",
+      "target_class": "bank",
+      "target_property": "bank_no_of_customers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "bank",
+      "target_property": "bank_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명",
+      "target_class": "bank",
+      "target_property": "bank_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 이름",
+      "target_class": "bank",
+      "target_property": "bank_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 정보",
+      "target_class": "bank",
+      "target_property": "bank_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명칭",
+      "target_class": "bank",
+      "target_property": "bank_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주",
+      "target_class": "bank",
+      "target_property": "bank_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 이름",
+      "target_class": "bank",
+      "target_property": "bank_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주명",
+      "target_class": "bank",
+      "target_property": "bank_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 정보",
+      "target_class": "bank",
+      "target_property": "bank_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주명칭",
+      "target_class": "bank",
+      "target_property": "bank_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "customer",
+      "target_property": "customer_cust_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 식별 번호",
+      "target_class": "customer",
+      "target_property": "customer_cust_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 번호",
+      "target_class": "customer",
+      "target_property": "customer_cust_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "customer",
+      "target_property": "customer_cust_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "customer",
+      "target_property": "customer_cust_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 코드",
+      "target_class": "customer",
+      "target_property": "customer_cust_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별",
+      "target_class": "customer",
+      "target_property": "customer_cust_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 이름",
+      "target_class": "customer",
+      "target_property": "customer_cust_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "customer",
+      "target_property": "customer_cust_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객명",
+      "target_class": "customer",
+      "target_property": "customer_cust_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 소유자",
+      "target_class": "customer",
+      "target_property": "customer_cust_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 주인",
+      "target_class": "customer",
+      "target_property": "customer_cust_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 유형",
+      "target_class": "customer",
+      "target_property": "customer_acc_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 종류",
+      "target_class": "customer",
+      "target_property": "customer_acc_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 타입",
+      "target_class": "customer",
+      "target_property": "customer_acc_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 구분",
+      "target_class": "customer",
+      "target_property": "customer_acc_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 형태",
+      "target_class": "customer",
+      "target_property": "customer_acc_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 잔액",
+      "target_class": "customer",
+      "target_property": "customer_acc_bal",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 금액",
+      "target_class": "customer",
+      "target_property": "customer_acc_bal",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "잔액",
+      "target_class": "customer",
+      "target_property": "customer_acc_bal",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 Balance",
+      "target_class": "customer",
+      "target_property": "customer_acc_bal",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 잔액 금액",
+      "target_class": "customer",
+      "target_property": "customer_acc_bal",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 금액 정보",
+      "target_class": "customer",
+      "target_property": "customer_acc_bal",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 Balance 정보",
+      "target_class": "customer",
+      "target_property": "customer_acc_bal",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 수",
+      "target_class": "customer",
+      "target_property": "customer_no_of_loans",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 개수",
+      "target_class": "customer",
+      "target_property": "customer_no_of_loans",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 갯수",
+      "target_class": "customer",
+      "target_property": "customer_no_of_loans",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 수량",
+      "target_class": "customer",
+      "target_property": "customer_no_of_loans",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 개수 정보",
+      "target_class": "customer",
+      "target_property": "customer_no_of_loans",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 수량 정보",
+      "target_class": "customer",
+      "target_property": "customer_no_of_loans",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신용 점수",
+      "target_class": "customer",
+      "target_property": "customer_credit_score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신용 스코어",
+      "target_class": "customer",
+      "target_property": "customer_credit_score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신용 점수 정보",
+      "target_class": "customer",
+      "target_property": "customer_credit_score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신용 스코어 정보",
+      "target_class": "customer",
+      "target_property": "customer_credit_score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신용 점수 값",
+      "target_class": "customer",
+      "target_property": "customer_credit_score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신용 스코어 값",
+      "target_class": "customer",
+      "target_property": "customer_credit_score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신용 점수 수치",
+      "target_class": "customer",
+      "target_property": "customer_credit_score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신용 스코어 수치",
+      "target_class": "customer",
+      "target_property": "customer_credit_score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 ID",
+      "target_class": "customer",
+      "target_property": "customer_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "branch_ID",
+      "target_class": "customer",
+      "target_property": "customer_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜치 ID",
+      "target_class": "customer",
+      "target_property": "customer_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜치 번호",
+      "target_class": "customer",
+      "target_property": "customer_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "สาขา ID",
+      "target_class": "customer",
+      "target_property": "customer_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "สาขา 번호",
+      "target_class": "customer",
+      "target_property": "customer_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜치 코드",
+      "target_class": "customer",
+      "target_property": "customer_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "สาขา 코드",
+      "target_class": "customer",
+      "target_property": "customer_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주",
+      "target_class": "customer",
+      "target_property": "customer_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "state",
+      "target_class": "customer",
+      "target_property": "customer_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "customer",
+      "target_property": "customer_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "customer",
+      "target_property": "customer_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소",
+      "target_class": "customer",
+      "target_property": "customer_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주지",
+      "target_class": "customer",
+      "target_property": "customer_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 정보",
+      "target_class": "customer",
+      "target_property": "customer_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 번호",
+      "target_class": "customer",
+      "target_property": "customer_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 번호",
+      "target_class": "loan",
+      "target_property": "loan_loan_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 ID",
+      "target_class": "loan",
+      "target_property": "loan_loan_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 고유번호",
+      "target_class": "loan",
+      "target_property": "loan_loan_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 코드",
+      "target_class": "loan",
+      "target_property": "loan_loan_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 식별자",
+      "target_class": "loan",
+      "target_property": "loan_loan_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "loan_ID",
+      "target_class": "loan",
+      "target_property": "loan_loan_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 유형",
+      "target_class": "loan",
+      "target_property": "loan_loan_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 종류",
+      "target_class": "loan",
+      "target_property": "loan_loan_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 타입",
+      "target_class": "loan",
+      "target_property": "loan_loan_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 카테고리",
+      "target_class": "loan",
+      "target_property": "loan_loan_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "loan_type",
+      "target_class": "loan",
+      "target_property": "loan_loan_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 번호",
+      "target_class": "loan",
+      "target_property": "loan_cust_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "loan",
+      "target_property": "loan_cust_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 코드",
+      "target_class": "loan",
+      "target_property": "loan_cust_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "loan",
+      "target_property": "loan_cust_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "cust_ID",
+      "target_class": "loan",
+      "target_property": "loan_cust_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별",
+      "target_class": "loan",
+      "target_property": "loan_cust_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 번호",
+      "target_class": "loan",
+      "target_property": "loan_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "branch_ID",
+      "target_class": "loan",
+      "target_property": "loan_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 ID",
+      "target_class": "loan",
+      "target_property": "loan_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 식별자",
+      "target_class": "loan",
+      "target_property": "loan_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 코드",
+      "target_class": "loan",
+      "target_property": "loan_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 고유번호",
+      "target_class": "loan",
+      "target_property": "loan_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 식별",
+      "target_class": "loan",
+      "target_property": "loan_branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 금액",
+      "target_class": "loan",
+      "target_property": "loan_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "amount",
+      "target_class": "loan",
+      "target_property": "loan_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "금액",
+      "target_class": "loan",
+      "target_property": "loan_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "금액 값",
+      "target_class": "loan",
+      "target_property": "loan_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대출 금액 수치",
+      "target_class": "loan",
+      "target_property": "loan_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "금액 데이터",
+      "target_class": "loan",
+      "target_property": "loan_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "금액 정보",
+      "target_class": "loan",
+      "target_property": "loan_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "금액 수치",
+      "target_class": "loan",
+      "target_property": "loan_amount",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "신한은행",
+      "target_class": "bank",
+      "target_property": "bank_bname",
+      "value": "신한은행"
+    },
+    {
+      "entry_type": "value",
+      "key": "국민은행",
+      "target_class": "bank",
+      "target_property": "bank_bname",
+      "value": "국민은행"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "bank",
+      "target_property": "bank_city",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "bank",
+      "target_property": "bank_city",
+      "value": "부산"
+    },
+    {
+      "entry_type": "value",
+      "key": "강원도",
+      "target_class": "bank",
+      "target_property": "bank_state",
+      "value": "강원도"
+    },
+    {
+      "entry_type": "value",
+      "key": "경기도",
+      "target_class": "bank",
+      "target_property": "bank_state",
+      "value": "경기도"
+    },
+    {
+      "entry_type": "value",
+      "key": "예금",
+      "target_class": "customer",
+      "target_property": "customer_acc_type",
+      "value": "예금"
+    },
+    {
+      "entry_type": "value",
+      "key": "예금 계좌",
+      "target_class": "customer",
+      "target_property": "customer_acc_type",
+      "value": "예금"
+    },
+    {
+      "entry_type": "value",
+      "key": "대출",
+      "target_class": "customer",
+      "target_property": "customer_acc_type",
+      "value": "대출"
+    },
+    {
+      "entry_type": "value",
+      "key": "대출 계좌",
+      "target_class": "customer",
+      "target_property": "customer_acc_type",
+      "value": "대출"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "customer",
+      "target_property": "customer_state",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시",
+      "target_class": "customer",
+      "target_property": "customer_state",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "경기",
+      "target_class": "customer",
+      "target_property": "customer_state",
+      "value": "경기"
+    },
+    {
+      "entry_type": "value",
+      "key": "경기도",
+      "target_class": "customer",
+      "target_property": "customer_state",
+      "value": "경기"
+    },
+    {
+      "entry_type": "value",
+      "key": "개인대출",
+      "target_class": "loan",
+      "target_property": "loan_loan_type",
+      "value": "개인대출"
+    },
+    {
+      "entry_type": "value",
+      "key": "개인",
+      "target_class": "loan",
+      "target_property": "loan_loan_type",
+      "value": "개인대출"
+    },
+    {
+      "entry_type": "value",
+      "key": "개인 대출",
+      "target_class": "loan",
+      "target_property": "loan_loan_type",
+      "value": "개인대출"
+    },
+    {
+      "entry_type": "value",
+      "key": "주택대출",
+      "target_class": "loan",
+      "target_property": "loan_loan_type",
+      "value": "주택대출"
+    },
+    {
+      "entry_type": "value",
+      "key": "주택",
+      "target_class": "loan",
+      "target_property": "loan_loan_type",
+      "value": "주택대출"
+    },
+    {
+      "entry_type": "value",
+      "key": "주택 대출",
+      "target_class": "loan",
+      "target_property": "loan_loan_type",
+      "value": "주택대출"
+    },
+    {
+      "entry_type": "value",
+      "key": "자동차대출",
+      "target_class": "loan",
+      "target_property": "loan_loan_type",
+      "value": "자동차대출"
+    },
+    {
+      "entry_type": "value",
+      "key": "자동차",
+      "target_class": "loan",
+      "target_property": "loan_loan_type",
+      "value": "자동차대출"
+    },
+    {
+      "entry_type": "value",
+      "key": "자동차 대출",
+      "target_class": "loan",
+      "target_property": "loan_loan_type",
+      "value": "자동차대출"
+    }
+  ]
+}

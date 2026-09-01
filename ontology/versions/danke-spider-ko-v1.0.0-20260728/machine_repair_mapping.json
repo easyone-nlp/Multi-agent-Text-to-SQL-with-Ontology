@@ -1,0 +1,100 @@
+{
+  "class_table": {
+    "repair": "repair",
+    "machine": "machine",
+    "technician": "technician",
+    "repair_assignment": "repair_assignment"
+  },
+  "property_column": {
+    "repair_repair_ID": [
+      "repair",
+      "repair_ID"
+    ],
+    "repair_name": [
+      "repair",
+      "name"
+    ],
+    "repair_Launch_Date": [
+      "repair",
+      "Launch_Date"
+    ],
+    "repair_Notes": [
+      "repair",
+      "Notes"
+    ],
+    "machine_Machine_ID": [
+      "machine",
+      "Machine_ID"
+    ],
+    "machine_Making_Year": [
+      "machine",
+      "Making_Year"
+    ],
+    "machine_Class": [
+      "machine",
+      "Class"
+    ],
+    "machine_Team": [
+      "machine",
+      "Team"
+    ],
+    "machine_Machine_series": [
+      "machine",
+      "Machine_series"
+    ],
+    "machine_value_points": [
+      "machine",
+      "value_points"
+    ],
+    "machine_quality_rank": [
+      "machine",
+      "quality_rank"
+    ],
+    "technician_technician_id": [
+      "technician",
+      "technician_id"
+    ],
+    "technician_Name": [
+      "technician",
+      "Name"
+    ],
+    "technician_Team": [
+      "technician",
+      "Team"
+    ],
+    "technician_Starting_Year": [
+      "technician",
+      "Starting_Year"
+    ],
+    "technician_Age": [
+      "technician",
+      "Age"
+    ],
+    "repair_assignment_technician_id": [
+      "repair_assignment",
+      "technician_id"
+    ],
+    "repair_assignment_repair_ID": [
+      "repair_assignment",
+      "repair_ID"
+    ],
+    "repair_assignment_Machine_ID": [
+      "repair_assignment",
+      "Machine_ID"
+    ]
+  },
+  "object_property_fk": {
+    "repair_assignment_machine_fk0": [
+      "repair_assignment.Machine_ID",
+      "machine.Machine_ID"
+    ],
+    "repair_assignment_repair_fk1": [
+      "repair_assignment.repair_ID",
+      "repair.repair_ID"
+    ],
+    "repair_assignment_technician_fk2": [
+      "repair_assignment.technician_id",
+      "technician.technician_id"
+    ]
+  }
+}

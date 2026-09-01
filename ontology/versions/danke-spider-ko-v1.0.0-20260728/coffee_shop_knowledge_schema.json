@@ -1,0 +1,561 @@
+{
+  "db_id": "coffee_shop",
+  "classes": [
+    {
+      "name": "shop",
+      "source_table": "shop",
+      "ranking": 3.0,
+      "primary_label": "상점",
+      "synonyms": [
+        "매장",
+        "점포",
+        "숍",
+        "카페",
+        "바이어스"
+      ]
+    },
+    {
+      "name": "member",
+      "source_table": "member",
+      "ranking": 3.5,
+      "primary_label": "회원",
+      "synonyms": [
+        "회원",
+        "사용자",
+        "고객",
+        "이용자",
+        "사람"
+      ]
+    },
+    {
+      "name": "happy_hour",
+      "source_table": "happy_hour",
+      "ranking": 3.5,
+      "primary_label": "happy hour",
+      "synonyms": [
+        "이용 시간",
+        "이용 시기",
+        "시간대",
+        "시간"
+      ]
+    },
+    {
+      "name": "happy_hour_member",
+      "source_table": "happy_hour_member",
+      "ranking": 3.0,
+      "primary_label": "happy hour member",
+      "synonyms": [
+        "히트 시간 고객",
+        "이벤트 참여자",
+        "할인 시간 사용자",
+        "특별 시간 이용 고객",
+        "이벤트 멤버",
+        "할인 고객",
+        "특별 시간 사용자"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "shop_Shop_ID",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "Shop_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "상점 ID",
+      "synonyms": [
+        "Shop_ID",
+        "매장 ID",
+        "식당 번호",
+        "매장 식별자",
+        "숍 ID",
+        "매장 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "shop_Address",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "Address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "주소",
+      "synonyms": [
+        "Address",
+        "주소",
+        "매장 주소",
+        "위치",
+        "매장 위치",
+        "주소 정보",
+        "주소지"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 강남구 테헤란로 123": [
+          "서울 강남구 테헤란로 123"
+        ],
+        "인천시 남동구 동일로 456": [
+          "인천 남동구 동일로 456"
+        ]
+      }
+    },
+    {
+      "name": "shop_Num_of_staff",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "Num_of_staff",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "num of staff",
+      "synonyms": [
+        "Num_of_staff",
+        "직원 수",
+        "직원 수량",
+        "근무자 수",
+        "직원 인원",
+        "직원 수 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "shop_Score",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "Score",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "score",
+      "synonyms": [
+        "평점",
+        "점수",
+        "평가 점수",
+        "점수 값",
+        "평점 정보",
+        "Score"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "shop_Open_Year",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "Open_Year",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "open year",
+      "synonyms": [
+        "개업 연도",
+        "운영 시작 연도",
+        "개점 연도",
+        "연도",
+        "개업년도",
+        "Open_Year",
+        "개점년도"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "member_Member_ID",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Member_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "회원 ID",
+      "synonyms": [
+        "회원 ID",
+        "회원 번호",
+        "식료품점 멤버십 ID",
+        "회원 식별 번호",
+        "Member_ID",
+        "회원 고유 번호",
+        "식료품점 멤버십 계정 ID",
+        "회원 계정 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "member_Name",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "김철수": [
+          "김철수",
+          "이영희"
+        ]
+      }
+    },
+    {
+      "name": "member_Membership_card",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Membership_card",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "회원 카드",
+      "synonyms": [
+        "멤버십 카드",
+        "회원 카드",
+        "카드 번호",
+        "멤버십 번호",
+        "회원 ID",
+        "Membership_card",
+        "카드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "12345678": [
+          "12345678",
+          "87654321"
+        ]
+      }
+    },
+    {
+      "name": "member_Age",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "연령",
+        "나이",
+        "나이 정보",
+        "연령 데이터",
+        "나이 기록",
+        "age",
+        "연령 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "member_Time_of_purchase",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Time_of_purchase",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "time of purchase",
+      "synonyms": [
+        "구매 시간",
+        "시간",
+        "구매 시각",
+        "시간 정보",
+        "구매 일시",
+        "time of purchase"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "member_Level_of_membership",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Level_of_membership",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "level of membership",
+      "synonyms": [
+        "등급",
+        "등급 정보",
+        "회원 등급",
+        "등급 기준",
+        "level of membership"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "member_Address",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "address",
+      "synonyms": [
+        "주소",
+        "주소지",
+        "거주지",
+        "배송지",
+        "주소 정보",
+        "Address",
+        "주소 사항",
+        "거주 주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "happy_hour_HH_ID",
+      "domain": "happy_hour",
+      "source_table": "happy_hour",
+      "source_column": "HH_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "hh id",
+      "synonyms": [
+        "HH_ID",
+        "행사 식사 시간 ID",
+        "식사 시간 고유 번호",
+        "식사 시간 식별자",
+        "HH 식별 번호",
+        "행사 시간 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "happy_hour_Shop_ID",
+      "domain": "happy_hour",
+      "source_table": "happy_hour",
+      "source_column": "Shop_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "shop id",
+      "synonyms": [
+        "Shop_ID",
+        "식당 ID",
+        "식당 식별 번호",
+        "hh_id",
+        "식당 고유 번호",
+        "Shop 식별자",
+        "식당 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "happy_hour_Month",
+      "domain": "happy_hour",
+      "source_table": "happy_hour",
+      "source_column": "Month",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "month",
+      "synonyms": [
+        "Month",
+        "달",
+        "월",
+        "행사 달",
+        "HH 달",
+        "행사 월",
+        "월 이름",
+        "행사 달 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1월": [
+          "1월",
+          "1월"
+        ],
+        "2월": [
+          "2월",
+          "2월"
+        ],
+        "3월": [
+          "3월",
+          "3월"
+        ],
+        "4월": [
+          "4월",
+          "4월"
+        ],
+        "5월": [
+          "5월",
+          "5월"
+        ],
+        "6월": [
+          "6월",
+          "6월"
+        ],
+        "7월": [
+          "7월",
+          "7월"
+        ],
+        "8월": [
+          "8월",
+          "8월"
+        ],
+        "9월": [
+          "9월",
+          "9월"
+        ],
+        "10월": [
+          "10월",
+          "10월"
+        ],
+        "11월": [
+          "11월",
+          "11월"
+        ],
+        "12월": [
+          "12월",
+          "12월"
+        ]
+      }
+    },
+    {
+      "name": "happy_hour_Num_of_shaff_in_charge",
+      "domain": "happy_hour",
+      "source_table": "happy_hour",
+      "source_column": "Num_of_shaff_in_charge",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "num of shaff in charge",
+      "synonyms": [
+        "참여 쉐프 수",
+        "활동 쉐프 수",
+        "Happy hour 쉐프 수",
+        "가게 쉐프 수",
+        "Num of shaff in charge",
+        "참여 인원",
+        "활동 인원",
+        "가게 내 쉐프 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "happy_hour_member_HH_ID",
+      "domain": "happy_hour_member",
+      "source_table": "happy_hour_member",
+      "source_column": "HH_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "hh id",
+      "synonyms": [
+        "HH_ID",
+        "행사 ID",
+        "hh 아이디",
+        "행사 멤버 ID",
+        "hh 멤버 ID",
+        "행사 고유 번호",
+        "hh 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "happy_hour_member_Member_ID",
+      "domain": "happy_hour_member",
+      "source_table": "happy_hour_member",
+      "source_column": "Member_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "member id",
+      "synonyms": [
+        "Member_ID",
+        "회원 ID",
+        "hh 멤버 ID",
+        "회원 고유 번호",
+        "hh 멤버 고유 번호",
+        "회원 식별자",
+        "회원 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "happy_hour_member_Total_amount",
+      "domain": "happy_hour_member",
+      "source_table": "happy_hour_member",
+      "source_column": "Total_amount",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "total amount",
+      "synonyms": [
+        "Total_amount",
+        "총 금액",
+        "hh 총 금액",
+        "누적 금액",
+        "행사 금액",
+        "hh 금액",
+        "총 사용 금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "happy_hour_shop_fk0",
+      "domain": "happy_hour",
+      "range": "shop",
+      "source_fk": [
+        "happy_hour.Shop_ID",
+        "shop.Shop_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "happy_hour_member_member_fk1",
+      "domain": "happy_hour_member",
+      "range": "member",
+      "source_fk": [
+        "happy_hour_member.Member_ID",
+        "member.Member_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

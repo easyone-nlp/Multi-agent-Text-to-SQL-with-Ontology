@@ -1,0 +1,1565 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "플레이어",
+      "target_class": "player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수",
+      "target_class": "player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "등산자",
+      "target_class": "player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "운동가",
+      "target_class": "player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 참여자",
+      "target_class": "player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 선수",
+      "target_class": "player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "클럽",
+      "target_class": "club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "등산 클럽",
+      "target_class": "club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 클럽",
+      "target_class": "club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "운동 단체",
+      "target_class": "club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "등산 그룹",
+      "target_class": "club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "coach",
+      "target_class": "coach",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "코치",
+      "target_class": "coach",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트레이너",
+      "target_class": "coach",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 코치",
+      "target_class": "coach",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "운동 지도자",
+      "target_class": "coach",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 �레이너",
+      "target_class": "coach",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "player coach",
+      "target_class": "player_coach",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "플레이어 코치",
+      "target_class": "player_coach",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "라이더 코치",
+      "target_class": "player_coach",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "코치 플레이어",
+      "target_class": "player_coach",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "라이딩 코치",
+      "target_class": "player_coach",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "플레이어 역할 코치",
+      "target_class": "player_coach",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "코치 및 플레이어",
+      "target_class": "player_coach",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 결과",
+      "target_class": "match_result",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 결과 기록",
+      "target_class": "match_result",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "라이딩 경기 결과",
+      "target_class": "match_result",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 결과 정보",
+      "target_class": "match_result",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 성적",
+      "target_class": "match_result",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 결과 데이터",
+      "target_class": "match_result",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "player id",
+      "target_class": "player",
+      "target_property": "player_Player_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 ID",
+      "target_class": "player",
+      "target_property": "player_Player_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 번호",
+      "target_class": "player",
+      "target_property": "player_Player_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "player",
+      "target_property": "player_Player_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 식별자",
+      "target_class": "player",
+      "target_property": "player_Player_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 고유 번호",
+      "target_class": "player",
+      "target_property": "player_Player_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Player_ID",
+      "target_class": "player",
+      "target_property": "player_Player_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 고유 ID",
+      "target_class": "player",
+      "target_property": "player_Player_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "sponsor name",
+      "target_class": "player",
+      "target_property": "player_Sponsor_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스폰서 이름",
+      "target_class": "player",
+      "target_property": "player_Sponsor_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스폰서",
+      "target_class": "player",
+      "target_property": "player_Sponsor_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스폰서자",
+      "target_class": "player",
+      "target_property": "player_Sponsor_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스폰서명",
+      "target_class": "player",
+      "target_property": "player_Sponsor_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Sponsor_name",
+      "target_class": "player",
+      "target_property": "player_Sponsor_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "player name",
+      "target_class": "player",
+      "target_property": "player_Player_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 이름",
+      "target_class": "player",
+      "target_property": "player_Player_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "player",
+      "target_property": "player_Player_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어",
+      "target_class": "player",
+      "target_property": "player_Player_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어명",
+      "target_class": "player",
+      "target_property": "player_Player_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Player_name",
+      "target_class": "player",
+      "target_property": "player_Player_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gender",
+      "target_class": "player",
+      "target_property": "player_Gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별",
+      "target_class": "player",
+      "target_property": "player_Gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "player",
+      "target_property": "player_Gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 정보",
+      "target_class": "player",
+      "target_property": "player_Gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 데이터",
+      "target_class": "player",
+      "target_property": "player_Gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 항목",
+      "target_class": "player",
+      "target_property": "player_Gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 기준",
+      "target_class": "player",
+      "target_property": "player_Gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "residence",
+      "target_class": "player",
+      "target_property": "player_Residence",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주지",
+      "target_class": "player",
+      "target_property": "player_Residence",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소",
+      "target_class": "player",
+      "target_property": "player_Residence",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주지 정보",
+      "target_class": "player",
+      "target_property": "player_Residence",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주지 데이터",
+      "target_class": "player",
+      "target_property": "player_Residence",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주지 항목",
+      "target_class": "player",
+      "target_property": "player_Residence",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주지 기준",
+      "target_class": "player",
+      "target_property": "player_Residence",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "occupation",
+      "target_class": "player",
+      "target_property": "player_Occupation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직업",
+      "target_class": "player",
+      "target_property": "player_Occupation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직업 정보",
+      "target_class": "player",
+      "target_property": "player_Occupation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직업 데이터",
+      "target_class": "player",
+      "target_property": "player_Occupation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직업 항목",
+      "target_class": "player",
+      "target_property": "player_Occupation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직업 기준",
+      "target_class": "player",
+      "target_property": "player_Occupation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "votes",
+      "target_class": "player",
+      "target_property": "player_Votes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표수",
+      "target_class": "player",
+      "target_property": "player_Votes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표량",
+      "target_class": "player",
+      "target_property": "player_Votes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표",
+      "target_class": "player",
+      "target_property": "player_Votes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표 개수",
+      "target_class": "player",
+      "target_property": "player_Votes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표자 수",
+      "target_class": "player",
+      "target_property": "player_Votes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "rank",
+      "target_class": "player",
+      "target_property": "player_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수",
+      "target_class": "player",
+      "target_property": "player_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "player",
+      "target_property": "player_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "player",
+      "target_property": "player_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 정보",
+      "target_class": "player",
+      "target_property": "player_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 문자열",
+      "target_class": "player",
+      "target_property": "player_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 문자열",
+      "target_class": "player",
+      "target_property": "player_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 코드",
+      "target_class": "player",
+      "target_property": "player_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 값",
+      "target_class": "player",
+      "target_property": "player_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 ID",
+      "target_class": "club",
+      "target_property": "club_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 고유 번호",
+      "target_class": "club",
+      "target_property": "club_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 번호",
+      "target_class": "club",
+      "target_property": "club_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 식별자",
+      "target_class": "club",
+      "target_property": "club_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "club",
+      "target_property": "club_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 아이디",
+      "target_class": "club",
+      "target_property": "club_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 코드",
+      "target_class": "club",
+      "target_property": "club_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 이름",
+      "target_class": "club",
+      "target_property": "club_Club_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽명",
+      "target_class": "club",
+      "target_property": "club_Club_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 타이틀",
+      "target_class": "club",
+      "target_property": "club_Club_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 제목",
+      "target_class": "club",
+      "target_property": "club_Club_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽명칭",
+      "target_class": "club",
+      "target_property": "club_Club_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 소유자",
+      "target_class": "club",
+      "target_property": "club_Club_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "club",
+      "target_property": "club_Region",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역",
+      "target_class": "club",
+      "target_property": "club_Region",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지방",
+      "target_class": "club",
+      "target_property": "club_Region",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역명",
+      "target_class": "club",
+      "target_property": "club_Region",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 지역",
+      "target_class": "club",
+      "target_property": "club_Region",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 위치",
+      "target_class": "club",
+      "target_property": "club_Region",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역 이름",
+      "target_class": "club",
+      "target_property": "club_Region",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 정보",
+      "target_class": "club",
+      "target_property": "club_Region",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 연도",
+      "target_class": "club",
+      "target_property": "club_Start_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개설 연도",
+      "target_class": "club",
+      "target_property": "club_Start_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 시작 연도",
+      "target_class": "club",
+      "target_property": "club_Start_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설립 연도",
+      "target_class": "club",
+      "target_property": "club_Start_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 년도",
+      "target_class": "club",
+      "target_property": "club_Start_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Start_year",
+      "target_class": "club",
+      "target_property": "club_Start_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "coach id",
+      "target_class": "coach",
+      "target_property": "coach_Coach_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코치 ID",
+      "target_class": "coach",
+      "target_property": "coach_Coach_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코치 고유 번호",
+      "target_class": "coach",
+      "target_property": "coach_Coach_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코치 식별자",
+      "target_class": "coach",
+      "target_property": "coach_Coach_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코치 코드",
+      "target_class": "coach",
+      "target_property": "coach_Coach_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코치 번호",
+      "target_class": "coach",
+      "target_property": "coach_Coach_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Coach_ID",
+      "target_class": "coach",
+      "target_property": "coach_Coach_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코치 고유 ID",
+      "target_class": "coach",
+      "target_property": "coach_Coach_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "player name",
+      "target_class": "coach",
+      "target_property": "coach_Coach_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gender",
+      "target_class": "coach",
+      "target_property": "coach_Gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "club id",
+      "target_class": "coach",
+      "target_property": "coach_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 ID",
+      "target_class": "coach",
+      "target_property": "coach_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 번호",
+      "target_class": "coach",
+      "target_property": "coach_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 식별자",
+      "target_class": "coach",
+      "target_property": "coach_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 코드",
+      "target_class": "coach",
+      "target_property": "coach_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 고유번호",
+      "target_class": "coach",
+      "target_property": "coach_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 아이디",
+      "target_class": "coach",
+      "target_property": "coach_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "rank",
+      "target_class": "coach",
+      "target_property": "coach_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "coach",
+      "target_property": "coach_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수",
+      "target_class": "coach",
+      "target_property": "coach_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 수준",
+      "target_class": "coach",
+      "target_property": "coach_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성과 등급",
+      "target_class": "coach",
+      "target_property": "coach_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기술 등급",
+      "target_class": "coach",
+      "target_property": "coach_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 순위",
+      "target_class": "coach",
+      "target_property": "coach_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭크",
+      "target_class": "coach",
+      "target_property": "coach_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 정보",
+      "target_class": "coach",
+      "target_property": "coach_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "player id",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Player_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 ID",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Player_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 번호",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Player_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 고유번호",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Player_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 식별자",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Player_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Player_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "player_id",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Player_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "coach id",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Coach_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코치 ID",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Coach_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코치 번호",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Coach_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코치 고유번호",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Coach_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코치 식별자",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Coach_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Coach_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "coach_id",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Coach_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "starting year",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Starting_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 연도",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Starting_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지도 시작 연도",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Starting_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지도 시작년도",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Starting_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작년도",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Starting_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Starting_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "rank",
+      "target_class": "match_result",
+      "target_property": "match_result_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "match_result",
+      "target_property": "match_result_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수",
+      "target_class": "match_result",
+      "target_property": "match_result_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 정보",
+      "target_class": "match_result",
+      "target_property": "match_result_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 값",
+      "target_class": "match_result",
+      "target_property": "match_result_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭킹",
+      "target_class": "match_result",
+      "target_property": "match_result_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 코드",
+      "target_class": "match_result",
+      "target_property": "match_result_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 순위",
+      "target_class": "match_result",
+      "target_property": "match_result_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Rank",
+      "target_class": "match_result",
+      "target_property": "match_result_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "club id",
+      "target_class": "match_result",
+      "target_property": "match_result_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 ID",
+      "target_class": "match_result",
+      "target_property": "match_result_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 번호",
+      "target_class": "match_result",
+      "target_property": "match_result_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 식별자",
+      "target_class": "match_result",
+      "target_property": "match_result_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 코드",
+      "target_class": "match_result",
+      "target_property": "match_result_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 고유 번호",
+      "target_class": "match_result",
+      "target_property": "match_result_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 식별",
+      "target_class": "match_result",
+      "target_property": "match_result_Club_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gold",
+      "target_class": "match_result",
+      "target_property": "match_result_Gold",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "금메달 수",
+      "target_class": "match_result",
+      "target_property": "match_result_Gold",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "금메달",
+      "target_class": "match_result",
+      "target_property": "match_result_Gold",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "금메달 개수",
+      "target_class": "match_result",
+      "target_property": "match_result_Gold",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "금메달 수량",
+      "target_class": "match_result",
+      "target_property": "match_result_Gold",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "금메달 개",
+      "target_class": "match_result",
+      "target_property": "match_result_Gold",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "big silver",
+      "target_class": "match_result",
+      "target_property": "match_result_Big_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대규모 은메달",
+      "target_class": "match_result",
+      "target_property": "match_result_Big_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Big Silver",
+      "target_class": "match_result",
+      "target_property": "match_result_Big_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "큰 은메달",
+      "target_class": "match_result",
+      "target_property": "match_result_Big_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대형 은메달",
+      "target_class": "match_result",
+      "target_property": "match_result_Big_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "큰 은메달 수상 횟수",
+      "target_class": "match_result",
+      "target_property": "match_result_Big_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대규모 은메달 수",
+      "target_class": "match_result",
+      "target_property": "match_result_Big_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Big Silver 수",
+      "target_class": "match_result",
+      "target_property": "match_result_Big_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "small silver",
+      "target_class": "match_result",
+      "target_property": "match_result_Small_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소은메달",
+      "target_class": "match_result",
+      "target_property": "match_result_Small_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소규모 은메달",
+      "target_class": "match_result",
+      "target_property": "match_result_Small_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소은",
+      "target_class": "match_result",
+      "target_property": "match_result_Small_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소규모 은",
+      "target_class": "match_result",
+      "target_property": "match_result_Small_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소은메달 수",
+      "target_class": "match_result",
+      "target_property": "match_result_Small_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소은메달 개수",
+      "target_class": "match_result",
+      "target_property": "match_result_Small_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소은메달 수량",
+      "target_class": "match_result",
+      "target_property": "match_result_Small_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소은메달 수치",
+      "target_class": "match_result",
+      "target_property": "match_result_Small_Silver",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "bronze",
+      "target_class": "match_result",
+      "target_property": "match_result_Bronze",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브론즈",
+      "target_class": "match_result",
+      "target_property": "match_result_Bronze",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "은메달",
+      "target_class": "match_result",
+      "target_property": "match_result_Bronze",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "은메달 수",
+      "target_class": "match_result",
+      "target_property": "match_result_Bronze",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브론즈 메달",
+      "target_class": "match_result",
+      "target_property": "match_result_Bronze",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "은메달 획득 수",
+      "target_class": "match_result",
+      "target_property": "match_result_Bronze",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브론즈 수",
+      "target_class": "match_result",
+      "target_property": "match_result_Bronze",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "은메달 수량",
+      "target_class": "match_result",
+      "target_property": "match_result_Bronze",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브론즈 메달 수",
+      "target_class": "match_result",
+      "target_property": "match_result_Bronze",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "points",
+      "target_class": "match_result",
+      "target_property": "match_result_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포인트",
+      "target_class": "match_result",
+      "target_property": "match_result_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "match_result",
+      "target_property": "match_result_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수 누적",
+      "target_class": "match_result",
+      "target_property": "match_result_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스코어",
+      "target_class": "match_result",
+      "target_property": "match_result_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "득점",
+      "target_class": "match_result",
+      "target_property": "match_result_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수 총액",
+      "target_class": "match_result",
+      "target_property": "match_result_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포인트 수치",
+      "target_class": "match_result",
+      "target_property": "match_result_Points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수 합계",
+      "target_class": "match_result",
+      "target_property": "match_result_Points",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "삼성 라이온스",
+      "target_class": "club",
+      "target_property": "club_Club_name",
+      "value": "삼성 라이온스"
+    },
+    {
+      "entry_type": "value",
+      "key": "현대 자이언츠",
+      "target_class": "club",
+      "target_property": "club_Club_name",
+      "value": "현대 자이언츠"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "club",
+      "target_property": "club_Region",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천",
+      "target_class": "club",
+      "target_property": "club_Region",
+      "value": "인천"
+    },
+    {
+      "entry_type": "value",
+      "key": "2010",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Starting_year",
+      "value": "2010"
+    },
+    {
+      "entry_type": "value",
+      "key": "2010년",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Starting_year",
+      "value": "2010"
+    },
+    {
+      "entry_type": "value",
+      "key": "2015",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Starting_year",
+      "value": "2015"
+    },
+    {
+      "entry_type": "value",
+      "key": "2015년",
+      "target_class": "player_coach",
+      "target_property": "player_coach_Starting_year",
+      "value": "2015"
+    }
+  ]
+}

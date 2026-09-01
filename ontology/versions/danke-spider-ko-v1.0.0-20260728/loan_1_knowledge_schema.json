@@ -1,0 +1,504 @@
+{
+  "db_id": "loan_1",
+  "classes": [
+    {
+      "name": "bank",
+      "source_table": "bank",
+      "ranking": 3.0,
+      "primary_label": "은행 지점",
+      "synonyms": [
+        "은행",
+        "금융기관",
+        "은행기관",
+        "금융회사",
+        "은행업자"
+      ]
+    },
+    {
+      "name": "customer",
+      "source_table": "customer",
+      "ranking": 3.5,
+      "primary_label": "고객",
+      "synonyms": [
+        "고객",
+        "사용자",
+        "소비자",
+        "고객님",
+        "인사"
+      ]
+    },
+    {
+      "name": "loan",
+      "source_table": "loan",
+      "ranking": 3.5,
+      "primary_label": "대출 정보",
+      "synonyms": [
+        "대출",
+        "대출금",
+        "대출정보",
+        "대출상품",
+        "대출자금"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "bank_branch_ID",
+      "domain": "bank",
+      "source_table": "bank",
+      "source_column": "branch_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "지점 ID",
+      "synonyms": [
+        "branch_ID",
+        "지점 ID",
+        "지점 번호",
+        "브랜치 ID",
+        "지점 식별자",
+        "지점 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "bank_bname",
+      "domain": "bank",
+      "source_table": "bank",
+      "source_column": "bname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "지점 이름",
+      "synonyms": [
+        "bname",
+        "지점 이름",
+        "은행 이름",
+        "브랜치 이름",
+        "지점명",
+        "은행 지점명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "신한은행": [
+          "신한은행"
+        ],
+        "국민은행": [
+          "국민은행"
+        ]
+      }
+    },
+    {
+      "name": "bank_no_of_customers",
+      "domain": "bank",
+      "source_table": "bank",
+      "source_column": "no_of_customers",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "고객 수",
+      "synonyms": [
+        "no_of_customers",
+        "고객 수",
+        "고객 인원",
+        "지점 고객 수",
+        "은행 고객 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "bank_city",
+      "domain": "bank",
+      "source_table": "bank",
+      "source_column": "city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "도시",
+      "synonyms": [
+        "도시",
+        "도시명",
+        "도시 이름",
+        "도시 정보",
+        "도시명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "부산": [
+          "부산"
+        ]
+      }
+    },
+    {
+      "name": "bank_state",
+      "domain": "bank",
+      "source_table": "bank",
+      "source_column": "state",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "주",
+      "synonyms": [
+        "주",
+        "주 이름",
+        "주명",
+        "주 정보",
+        "주명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "강원도": [
+          "강원도"
+        ],
+        "경기도": [
+          "경기도"
+        ]
+      }
+    },
+    {
+      "name": "customer_cust_ID",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "cust_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 ID",
+        "고유 식별 번호",
+        "고객 번호",
+        "ID",
+        "고객 식별자",
+        "고객 코드",
+        "고객 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "customer_cust_name",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "cust_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "고객 이름",
+      "synonyms": [
+        "고객 이름",
+        "이름",
+        "고객명",
+        "고객 소유자",
+        "고객 주인"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "customer_acc_type",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "acc_type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "계좌 유형",
+      "synonyms": [
+        "계좌 유형",
+        "계좌 종류",
+        "계좌 타입",
+        "계좌 구분",
+        "계좌 형태"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "예금": [
+          "예금 계좌"
+        ],
+        "대출": [
+          "대출 계좌"
+        ]
+      }
+    },
+    {
+      "name": "customer_acc_bal",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "acc_bal",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "계좌 잔액",
+      "synonyms": [
+        "계좌 잔액",
+        "계좌 금액",
+        "잔액",
+        "계좌 Balance",
+        "계좌 잔액 금액",
+        "계좌 금액 정보",
+        "계좌 Balance 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "customer_no_of_loans",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "no_of_loans",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "대출 수",
+      "synonyms": [
+        "대출 수",
+        "대출 개수",
+        "대출 갯수",
+        "대출 수량",
+        "대출 개수 정보",
+        "대출 수량 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "customer_credit_score",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "credit_score",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "신용 점수",
+      "synonyms": [
+        "신용 점수",
+        "신용 스코어",
+        "신용 점수 정보",
+        "신용 스코어 정보",
+        "신용 점수 값",
+        "신용 스코어 값",
+        "신용 점수 수치",
+        "신용 스코어 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "customer_branch_ID",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "branch_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "지점 ID",
+      "synonyms": [
+        "branch_ID",
+        "브랜치 ID",
+        "브랜치 번호",
+        "สาขา ID",
+        "สาขา 번호",
+        "브랜치 코드",
+        "สาขา 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "customer_state",
+      "domain": "customer",
+      "source_table": "customer",
+      "source_column": "state",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "주",
+      "synonyms": [
+        "state",
+        "주",
+        "지역",
+        "도시",
+        "주소",
+        "거주지",
+        "지역 정보",
+        "주 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울시"
+        ],
+        "경기": [
+          "경기도"
+        ]
+      }
+    },
+    {
+      "name": "loan_loan_ID",
+      "domain": "loan",
+      "source_table": "loan",
+      "source_column": "loan_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "대출 번호",
+      "synonyms": [
+        "대출 번호",
+        "대출 ID",
+        "대출 고유번호",
+        "대출 코드",
+        "대출 식별자",
+        "loan_ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "loan_loan_type",
+      "domain": "loan",
+      "source_table": "loan",
+      "source_column": "loan_type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "대출 유형",
+      "synonyms": [
+        "대출 종류",
+        "대출 타입",
+        "대출 유형",
+        "대출 카테고리",
+        "loan_type"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "개인대출": [
+          "개인",
+          "개인 대출"
+        ],
+        "주택대출": [
+          "주택",
+          "주택 대출"
+        ],
+        "자동차대출": [
+          "자동차",
+          "자동차 대출"
+        ]
+      }
+    },
+    {
+      "name": "loan_cust_ID",
+      "domain": "loan",
+      "source_table": "loan",
+      "source_column": "cust_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "고객 번호",
+      "synonyms": [
+        "고객 번호",
+        "고객 ID",
+        "고객 코드",
+        "고객 식별자",
+        "cust_ID",
+        "고객 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "loan_branch_ID",
+      "domain": "loan",
+      "source_table": "loan",
+      "source_column": "branch_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "지점 번호",
+      "synonyms": [
+        "branch_ID",
+        "지점 ID",
+        "지점 식별자",
+        "지점 번호",
+        "지점 코드",
+        "지점 고유번호",
+        "지점 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "loan_amount",
+      "domain": "loan",
+      "source_table": "loan",
+      "source_column": "amount",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "대출 금액",
+      "synonyms": [
+        "amount",
+        "금액",
+        "대출 금액",
+        "금액 값",
+        "대출 금액 수치",
+        "금액 데이터",
+        "금액 정보",
+        "금액 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "customer_bank_fk0",
+      "domain": "customer",
+      "range": "bank",
+      "source_fk": [
+        "customer.branch_ID",
+        "bank.branch_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "loan_bank_fk1",
+      "domain": "loan",
+      "range": "bank",
+      "source_fk": [
+        "loan.branch_ID",
+        "bank.branch_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

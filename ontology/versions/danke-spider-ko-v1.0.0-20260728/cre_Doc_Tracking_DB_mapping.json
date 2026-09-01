@@ -1,0 +1,196 @@
+{
+  "class_table": {
+    "Ref_Document_Types": "Ref_Document_Types",
+    "Ref_Calendar": "Ref_Calendar",
+    "Ref_Locations": "Ref_Locations",
+    "Roles": "Roles",
+    "All_Documents": "All_Documents",
+    "Employees": "Employees",
+    "Document_Locations": "Document_Locations",
+    "Documents_to_be_Destroyed": "Documents_to_be_Destroyed"
+  },
+  "property_column": {
+    "Ref_Document_Types_Document_Type_Code": [
+      "Ref_Document_Types",
+      "Document_Type_Code"
+    ],
+    "Ref_Document_Types_Document_Type_Name": [
+      "Ref_Document_Types",
+      "Document_Type_Name"
+    ],
+    "Ref_Document_Types_Document_Type_Description": [
+      "Ref_Document_Types",
+      "Document_Type_Description"
+    ],
+    "Ref_Calendar_Calendar_Date": [
+      "Ref_Calendar",
+      "Calendar_Date"
+    ],
+    "Ref_Calendar_Day_Number": [
+      "Ref_Calendar",
+      "Day_Number"
+    ],
+    "Ref_Locations_Location_Code": [
+      "Ref_Locations",
+      "Location_Code"
+    ],
+    "Ref_Locations_Location_Name": [
+      "Ref_Locations",
+      "Location_Name"
+    ],
+    "Ref_Locations_Location_Description": [
+      "Ref_Locations",
+      "Location_Description"
+    ],
+    "Roles_Role_Code": [
+      "Roles",
+      "Role_Code"
+    ],
+    "Roles_Role_Name": [
+      "Roles",
+      "Role_Name"
+    ],
+    "Roles_Role_Description": [
+      "Roles",
+      "Role_Description"
+    ],
+    "All_Documents_Document_ID": [
+      "All_Documents",
+      "Document_ID"
+    ],
+    "All_Documents_Date_Stored": [
+      "All_Documents",
+      "Date_Stored"
+    ],
+    "All_Documents_Document_Type_Code": [
+      "All_Documents",
+      "Document_Type_Code"
+    ],
+    "All_Documents_Document_Name": [
+      "All_Documents",
+      "Document_Name"
+    ],
+    "All_Documents_Document_Description": [
+      "All_Documents",
+      "Document_Description"
+    ],
+    "All_Documents_Other_Details": [
+      "All_Documents",
+      "Other_Details"
+    ],
+    "Employees_Employee_ID": [
+      "Employees",
+      "Employee_ID"
+    ],
+    "Employees_Role_Code": [
+      "Employees",
+      "Role_Code"
+    ],
+    "Employees_Employee_Name": [
+      "Employees",
+      "Employee_Name"
+    ],
+    "Employees_Gender_MFU": [
+      "Employees",
+      "Gender_MFU"
+    ],
+    "Employees_Date_of_Birth": [
+      "Employees",
+      "Date_of_Birth"
+    ],
+    "Employees_Other_Details": [
+      "Employees",
+      "Other_Details"
+    ],
+    "Document_Locations_Document_ID": [
+      "Document_Locations",
+      "Document_ID"
+    ],
+    "Document_Locations_Location_Code": [
+      "Document_Locations",
+      "Location_Code"
+    ],
+    "Document_Locations_Date_in_Location_From": [
+      "Document_Locations",
+      "Date_in_Location_From"
+    ],
+    "Document_Locations_Date_in_Locaton_To": [
+      "Document_Locations",
+      "Date_in_Locaton_To"
+    ],
+    "Documents_to_be_Destroyed_Document_ID": [
+      "Documents_to_be_Destroyed",
+      "Document_ID"
+    ],
+    "Documents_to_be_Destroyed_Destruction_Authorised_by_Employee_ID": [
+      "Documents_to_be_Destroyed",
+      "Destruction_Authorised_by_Employee_ID"
+    ],
+    "Documents_to_be_Destroyed_Destroyed_by_Employee_ID": [
+      "Documents_to_be_Destroyed",
+      "Destroyed_by_Employee_ID"
+    ],
+    "Documents_to_be_Destroyed_Planned_Destruction_Date": [
+      "Documents_to_be_Destroyed",
+      "Planned_Destruction_Date"
+    ],
+    "Documents_to_be_Destroyed_Actual_Destruction_Date": [
+      "Documents_to_be_Destroyed",
+      "Actual_Destruction_Date"
+    ],
+    "Documents_to_be_Destroyed_Other_Details": [
+      "Documents_to_be_Destroyed",
+      "Other_Details"
+    ]
+  },
+  "object_property_fk": {
+    "All_Documents_Ref_Calendar_fk0": [
+      "All_Documents.Date_Stored",
+      "Ref_Calendar.Calendar_Date"
+    ],
+    "All_Documents_Ref_Document_Types_fk1": [
+      "All_Documents.Document_Type_Code",
+      "Ref_Document_Types.Document_Type_Code"
+    ],
+    "Employees_Roles_fk2": [
+      "Employees.Role_Code",
+      "Roles.Role_Code"
+    ],
+    "Document_Locations_All_Documents_fk3": [
+      "Document_Locations.Document_ID",
+      "All_Documents.Document_ID"
+    ],
+    "Document_Locations_Ref_Calendar_fk4": [
+      "Document_Locations.Date_in_Locaton_To",
+      "Ref_Calendar.Calendar_Date"
+    ],
+    "Document_Locations_Ref_Calendar_fk5": [
+      "Document_Locations.Date_in_Location_From",
+      "Ref_Calendar.Calendar_Date"
+    ],
+    "Document_Locations_Ref_Locations_fk6": [
+      "Document_Locations.Location_Code",
+      "Ref_Locations.Location_Code"
+    ],
+    "Documents_to_be_Destroyed_All_Documents_fk7": [
+      "Documents_to_be_Destroyed.Document_ID",
+      "All_Documents.Document_ID"
+    ],
+    "Documents_to_be_Destroyed_Ref_Calendar_fk8": [
+      "Documents_to_be_Destroyed.Actual_Destruction_Date",
+      "Ref_Calendar.Calendar_Date"
+    ],
+    "Documents_to_be_Destroyed_Ref_Calendar_fk9": [
+      "Documents_to_be_Destroyed.Planned_Destruction_Date",
+      "Ref_Calendar.Calendar_Date"
+    ],
+    "Documents_to_be_Destroyed_Employees_fk10": [
+      "Documents_to_be_Destroyed.Destruction_Authorised_by_Employee_ID",
+      "Employees.Employee_ID"
+    ],
+    "Documents_to_be_Destroyed_Employees_fk11": [
+      "Documents_to_be_Destroyed.Destroyed_by_Employee_ID",
+      "Employees.Employee_ID"
+    ]
+  }
+}

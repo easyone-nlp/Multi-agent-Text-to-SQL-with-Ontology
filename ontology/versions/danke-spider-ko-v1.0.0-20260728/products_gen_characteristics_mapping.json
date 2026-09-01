@@ -1,0 +1,126 @@
+{
+  "class_table": {
+    "Ref_Characteristic_Types": "Ref_Characteristic_Types",
+    "Ref_Colors": "Ref_Colors",
+    "Ref_Product_Categories": "Ref_Product_Categories",
+    "Characteristics": "Characteristics",
+    "Products": "Products",
+    "Product_Characteristics": "Product_Characteristics"
+  },
+  "property_column": {
+    "Ref_Characteristic_Types_characteristic_type_code": [
+      "Ref_Characteristic_Types",
+      "characteristic_type_code"
+    ],
+    "Ref_Characteristic_Types_characteristic_type_description": [
+      "Ref_Characteristic_Types",
+      "characteristic_type_description"
+    ],
+    "Ref_Colors_color_code": [
+      "Ref_Colors",
+      "color_code"
+    ],
+    "Ref_Colors_color_description": [
+      "Ref_Colors",
+      "color_description"
+    ],
+    "Ref_Product_Categories_product_category_code": [
+      "Ref_Product_Categories",
+      "product_category_code"
+    ],
+    "Ref_Product_Categories_product_category_description": [
+      "Ref_Product_Categories",
+      "product_category_description"
+    ],
+    "Ref_Product_Categories_unit_of_measure": [
+      "Ref_Product_Categories",
+      "unit_of_measure"
+    ],
+    "Characteristics_characteristic_id": [
+      "Characteristics",
+      "characteristic_id"
+    ],
+    "Characteristics_characteristic_type_code": [
+      "Characteristics",
+      "characteristic_type_code"
+    ],
+    "Characteristics_characteristic_data_type": [
+      "Characteristics",
+      "characteristic_data_type"
+    ],
+    "Characteristics_characteristic_name": [
+      "Characteristics",
+      "characteristic_name"
+    ],
+    "Characteristics_other_characteristic_details": [
+      "Characteristics",
+      "other_characteristic_details"
+    ],
+    "Products_product_id": [
+      "Products",
+      "product_id"
+    ],
+    "Products_color_code": [
+      "Products",
+      "color_code"
+    ],
+    "Products_product_category_code": [
+      "Products",
+      "product_category_code"
+    ],
+    "Products_product_name": [
+      "Products",
+      "product_name"
+    ],
+    "Products_typical_buying_price": [
+      "Products",
+      "typical_buying_price"
+    ],
+    "Products_typical_selling_price": [
+      "Products",
+      "typical_selling_price"
+    ],
+    "Products_product_description": [
+      "Products",
+      "product_description"
+    ],
+    "Products_other_product_details": [
+      "Products",
+      "other_product_details"
+    ],
+    "Product_Characteristics_product_id": [
+      "Product_Characteristics",
+      "product_id"
+    ],
+    "Product_Characteristics_characteristic_id": [
+      "Product_Characteristics",
+      "characteristic_id"
+    ],
+    "Product_Characteristics_product_characteristic_value": [
+      "Product_Characteristics",
+      "product_characteristic_value"
+    ]
+  },
+  "object_property_fk": {
+    "Characteristics_Ref_Characteristic_Types_fk0": [
+      "Characteristics.characteristic_type_code",
+      "Ref_Characteristic_Types.characteristic_type_code"
+    ],
+    "Products_Ref_Colors_fk1": [
+      "Products.color_code",
+      "Ref_Colors.color_code"
+    ],
+    "Products_Ref_Product_Categories_fk2": [
+      "Products.product_category_code",
+      "Ref_Product_Categories.product_category_code"
+    ],
+    "Product_Characteristics_Products_fk3": [
+      "Product_Characteristics.product_id",
+      "Products.product_id"
+    ],
+    "Product_Characteristics_Characteristics_fk4": [
+      "Product_Characteristics.characteristic_id",
+      "Characteristics.characteristic_id"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "class_table": {
+    "county_public_safety": "county_public_safety",
+    "city": "city"
+  },
+  "property_column": {
+    "county_public_safety_County_ID": [
+      "county_public_safety",
+      "County_ID"
+    ],
+    "county_public_safety_Name": [
+      "county_public_safety",
+      "Name"
+    ],
+    "county_public_safety_Population": [
+      "county_public_safety",
+      "Population"
+    ],
+    "county_public_safety_Police_officers": [
+      "county_public_safety",
+      "Police_officers"
+    ],
+    "county_public_safety_Residents_per_officer": [
+      "county_public_safety",
+      "Residents_per_officer"
+    ],
+    "county_public_safety_Case_burden": [
+      "county_public_safety",
+      "Case_burden"
+    ],
+    "county_public_safety_Crime_rate": [
+      "county_public_safety",
+      "Crime_rate"
+    ],
+    "county_public_safety_Police_force": [
+      "county_public_safety",
+      "Police_force"
+    ],
+    "county_public_safety_Location": [
+      "county_public_safety",
+      "Location"
+    ],
+    "city_City_ID": [
+      "city",
+      "City_ID"
+    ],
+    "city_County_ID": [
+      "city",
+      "County_ID"
+    ],
+    "city_Name": [
+      "city",
+      "Name"
+    ],
+    "city_White": [
+      "city",
+      "White"
+    ],
+    "city_Black": [
+      "city",
+      "Black"
+    ],
+    "city_Amerindian": [
+      "city",
+      "Amerindian"
+    ],
+    "city_Asian": [
+      "city",
+      "Asian"
+    ],
+    "city_Multiracial": [
+      "city",
+      "Multiracial"
+    ],
+    "city_Hispanic": [
+      "city",
+      "Hispanic"
+    ]
+  },
+  "object_property_fk": {
+    "city_county_public_safety_fk0": [
+      "city.County_ID",
+      "county_public_safety.County_ID"
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "class_table": {
+    "business": "business",
+    "category": "category",
+    "user": "user",
+    "checkin": "checkin",
+    "neighbourhood": "neighbourhood",
+    "review": "review",
+    "tip": "tip"
+  },
+  "property_column": {
+    "business_bid": [
+      "business",
+      "bid"
+    ],
+    "business_business_id": [
+      "business",
+      "business_id"
+    ],
+    "business_name": [
+      "business",
+      "name"
+    ],
+    "business_full_address": [
+      "business",
+      "full_address"
+    ],
+    "business_city": [
+      "business",
+      "city"
+    ],
+    "business_latitude": [
+      "business",
+      "latitude"
+    ],
+    "business_longitude": [
+      "business",
+      "longitude"
+    ],
+    "business_review_count": [
+      "business",
+      "review_count"
+    ],
+    "business_is_open": [
+      "business",
+      "is_open"
+    ],
+    "business_rating": [
+      "business",
+      "rating"
+    ],
+    "business_state": [
+      "business",
+      "state"
+    ],
+    "category_id": [
+      "category",
+      "id"
+    ],
+    "category_business_id": [
+      "category",
+      "business_id"
+    ],
+    "category_category_name": [
+      "category",
+      "category_name"
+    ],
+    "user_uid": [
+      "user",
+      "uid"
+    ],
+    "user_user_id": [
+      "user",
+      "user_id"
+    ],
+    "user_name": [
+      "user",
+      "name"
+    ],
+    "checkin_cid": [
+      "checkin",
+      "cid"
+    ],
+    "checkin_business_id": [
+      "checkin",
+      "business_id"
+    ],
+    "checkin_count": [
+      "checkin",
+      "count"
+    ],
+    "checkin_day": [
+      "checkin",
+      "day"
+    ],
+    "neighbourhood_id": [
+      "neighbourhood",
+      "id"
+    ],
+    "neighbourhood_business_id": [
+      "neighbourhood",
+      "business_id"
+    ],
+    "neighbourhood_neighbourhood_name": [
+      "neighbourhood",
+      "neighbourhood_name"
+    ],
+    "review_rid": [
+      "review",
+      "rid"
+    ],
+    "review_business_id": [
+      "review",
+      "business_id"
+    ],
+    "review_user_id": [
+      "review",
+      "user_id"
+    ],
+    "review_rating": [
+      "review",
+      "rating"
+    ],
+    "review_text": [
+      "review",
+      "text"
+    ],
+    "review_year": [
+      "review",
+      "year"
+    ],
+    "review_month": [
+      "review",
+      "month"
+    ],
+    "tip_tip_id": [
+      "tip",
+      "tip_id"
+    ],
+    "tip_business_id": [
+      "tip",
+      "business_id"
+    ],
+    "tip_text": [
+      "tip",
+      "text"
+    ],
+    "tip_user_id": [
+      "tip",
+      "user_id"
+    ],
+    "tip_likes": [
+      "tip",
+      "likes"
+    ],
+    "tip_year": [
+      "tip",
+      "year"
+    ],
+    "tip_month": [
+      "tip",
+      "month"
+    ]
+  },
+  "object_property_fk": {
+    "category_business_fk0": [
+      "category.business_id",
+      "business.business_id"
+    ],
+    "checkin_business_fk1": [
+      "checkin.business_id",
+      "business.business_id"
+    ],
+    "neighbourhood_business_fk2": [
+      "neighbourhood.business_id",
+      "business.business_id"
+    ],
+    "review_user_fk3": [
+      "review.user_id",
+      "user.user_id"
+    ],
+    "review_business_fk4": [
+      "review.business_id",
+      "business.business_id"
+    ],
+    "tip_user_fk5": [
+      "tip.user_id",
+      "user.user_id"
+    ],
+    "tip_business_fk6": [
+      "tip.business_id",
+      "business.business_id"
+    ]
+  }
+}

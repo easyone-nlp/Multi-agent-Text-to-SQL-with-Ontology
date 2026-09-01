@@ -1,0 +1,788 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "대학",
+      "target_class": "college",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대학원",
+      "target_class": "college",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학교",
+      "target_class": "college",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학부",
+      "target_class": "college",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "교육기관",
+      "target_class": "college",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "회원",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이용자",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인사",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "라운드",
+      "target_class": "round",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "단계",
+      "target_class": "round",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "라운드 정보",
+      "target_class": "round",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 단계",
+      "target_class": "round",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대회 단계",
+      "target_class": "round",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학 ID",
+      "target_class": "college",
+      "target_property": "college_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college_id",
+      "target_class": "college",
+      "target_property": "college_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college identifier",
+      "target_class": "college",
+      "target_property": "college_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college number",
+      "target_class": "college",
+      "target_property": "college_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college code",
+      "target_class": "college",
+      "target_property": "college_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college key",
+      "target_class": "college",
+      "target_property": "college_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college id number",
+      "target_class": "college",
+      "target_property": "college_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college unique id",
+      "target_class": "college",
+      "target_property": "college_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "college",
+      "target_property": "college_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "college",
+      "target_property": "college_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college name",
+      "target_class": "college",
+      "target_property": "college_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college title",
+      "target_class": "college",
+      "target_property": "college_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college designation",
+      "target_class": "college",
+      "target_property": "college_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college identifier",
+      "target_class": "college",
+      "target_property": "college_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이사람 이름",
+      "target_class": "college",
+      "target_property": "college_Leader_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "leader name",
+      "target_class": "college",
+      "target_property": "college_Leader_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "leader",
+      "target_class": "college",
+      "target_property": "college_Leader_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college leader",
+      "target_class": "college",
+      "target_property": "college_Leader_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college chief",
+      "target_class": "college",
+      "target_property": "college_Leader_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college head",
+      "target_class": "college",
+      "target_property": "college_Leader_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college leader name",
+      "target_class": "college",
+      "target_property": "college_Leader_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college chief name",
+      "target_class": "college",
+      "target_property": "college_Leader_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학 위치",
+      "target_class": "college",
+      "target_property": "college_College_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college location",
+      "target_class": "college",
+      "target_property": "college_College_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 위치",
+      "target_class": "college",
+      "target_property": "college_College_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학 위치 정보",
+      "target_class": "college",
+      "target_property": "college_College_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 위치 정보",
+      "target_class": "college",
+      "target_property": "college_College_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학 위치 데이터",
+      "target_class": "college",
+      "target_property": "college_College_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 위치 데이터",
+      "target_class": "college",
+      "target_property": "college_College_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 ID",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 번호",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구분자",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 식별자",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "member",
+      "target_property": "member_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "member",
+      "target_property": "member_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 이름",
+      "target_class": "member",
+      "target_property": "member_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "닉네임",
+      "target_class": "member",
+      "target_property": "member_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "member",
+      "target_property": "member_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "member",
+      "target_property": "member_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적",
+      "target_class": "member",
+      "target_property": "member_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나라",
+      "target_class": "member",
+      "target_property": "member_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적 정보",
+      "target_class": "member",
+      "target_property": "member_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "member",
+      "target_property": "member_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학 ID",
+      "target_class": "member",
+      "target_property": "member_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학 번호",
+      "target_class": "member",
+      "target_property": "member_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학 코드",
+      "target_class": "member",
+      "target_property": "member_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 ID",
+      "target_class": "member",
+      "target_property": "member_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 코드",
+      "target_class": "member",
+      "target_property": "member_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학 식별자",
+      "target_class": "member",
+      "target_property": "member_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 식별 번호",
+      "target_class": "member",
+      "target_property": "member_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college id",
+      "target_class": "member",
+      "target_property": "member_College_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 ID",
+      "target_class": "round",
+      "target_property": "round_Round_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 번호",
+      "target_class": "round",
+      "target_property": "round_Round_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 식별자",
+      "target_class": "round",
+      "target_property": "round_Round_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 고유 번호",
+      "target_class": "round",
+      "target_property": "round_Round_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "R_ID",
+      "target_class": "round",
+      "target_property": "round_Round_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 코드",
+      "target_class": "round",
+      "target_property": "round_Round_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멤버 ID",
+      "target_class": "round",
+      "target_property": "round_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 ID",
+      "target_class": "round",
+      "target_property": "round_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 번호",
+      "target_class": "round",
+      "target_property": "round_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 식별자",
+      "target_class": "round",
+      "target_property": "round_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 고유 번호",
+      "target_class": "round",
+      "target_property": "round_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "M_ID",
+      "target_class": "round",
+      "target_property": "round_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 코드",
+      "target_class": "round",
+      "target_property": "round_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "데코 테마",
+      "target_class": "round",
+      "target_property": "round_Decoration_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "데코 주제",
+      "target_class": "round",
+      "target_property": "round_Decoration_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장식 주제",
+      "target_class": "round",
+      "target_property": "round_Decoration_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "데코레이션 주제",
+      "target_class": "round",
+      "target_property": "round_Decoration_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장식 테마",
+      "target_class": "round",
+      "target_property": "round_Decoration_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "디자인 주제",
+      "target_class": "round",
+      "target_property": "round_Decoration_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "테마",
+      "target_class": "round",
+      "target_property": "round_Decoration_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 순위",
+      "target_class": "round",
+      "target_property": "round_Rank_in_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "round",
+      "target_property": "round_Rank_in_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Rank",
+      "target_class": "round",
+      "target_property": "round_Rank_in_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 랭크",
+      "target_class": "round",
+      "target_property": "round_Rank_in_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Rank_in_Round",
+      "target_class": "round",
+      "target_property": "round_Rank_in_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 정보",
+      "target_class": "round",
+      "target_property": "round_Rank_in_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경연 순위",
+      "target_class": "round",
+      "target_property": "round_Rank_in_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 내 순위",
+      "target_class": "round",
+      "target_property": "round_Rank_in_Round",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "한국대학교",
+      "target_class": "college",
+      "target_property": "college_Name",
+      "value": "한국대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국대",
+      "target_class": "college",
+      "target_property": "college_Name",
+      "value": "한국대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울대학교",
+      "target_class": "college",
+      "target_property": "college_Name",
+      "value": "서울대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울대",
+      "target_class": "college",
+      "target_property": "college_Name",
+      "value": "서울대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "김영희",
+      "target_class": "college",
+      "target_property": "college_Leader_Name",
+      "value": "김영희"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시",
+      "target_class": "college",
+      "target_property": "college_College_Location",
+      "value": "서울시"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "college",
+      "target_property": "college_College_Location",
+      "value": "서울시"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천시",
+      "target_class": "college",
+      "target_property": "college_College_Location",
+      "value": "인천시"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천",
+      "target_class": "college",
+      "target_property": "college_College_Location",
+      "value": "인천시"
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "member",
+      "target_property": "member_Name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "박지현",
+      "target_class": "member",
+      "target_property": "member_Name",
+      "value": "박지현"
+    },
+    {
+      "entry_type": "value",
+      "key": "대한민국",
+      "target_class": "member",
+      "target_property": "member_Country",
+      "value": "대한민국"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국",
+      "target_class": "member",
+      "target_property": "member_Country",
+      "value": "미국"
+    },
+    {
+      "entry_type": "value",
+      "key": "파란색 테마",
+      "target_class": "round",
+      "target_property": "round_Decoration_Theme",
+      "value": "파란색 테마"
+    },
+    {
+      "entry_type": "value",
+      "key": "파란색",
+      "target_class": "round",
+      "target_property": "round_Decoration_Theme",
+      "value": "파란색 테마"
+    },
+    {
+      "entry_type": "value",
+      "key": "빨간색 테마",
+      "target_class": "round",
+      "target_property": "round_Decoration_Theme",
+      "value": "빨간색 테마"
+    },
+    {
+      "entry_type": "value",
+      "key": "빨간색",
+      "target_class": "round",
+      "target_property": "round_Decoration_Theme",
+      "value": "빨간색 테마"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "class_table": {
+    "flight": "flight",
+    "aircraft": "aircraft",
+    "employee": "employee",
+    "certificate": "certificate"
+  },
+  "property_column": {
+    "flight_flno": [
+      "flight",
+      "flno"
+    ],
+    "flight_origin": [
+      "flight",
+      "origin"
+    ],
+    "flight_destination": [
+      "flight",
+      "destination"
+    ],
+    "flight_distance": [
+      "flight",
+      "distance"
+    ],
+    "flight_departure_date": [
+      "flight",
+      "departure_date"
+    ],
+    "flight_arrival_date": [
+      "flight",
+      "arrival_date"
+    ],
+    "flight_price": [
+      "flight",
+      "price"
+    ],
+    "flight_aid": [
+      "flight",
+      "aid"
+    ],
+    "aircraft_aid": [
+      "aircraft",
+      "aid"
+    ],
+    "aircraft_name": [
+      "aircraft",
+      "name"
+    ],
+    "aircraft_distance": [
+      "aircraft",
+      "distance"
+    ],
+    "employee_eid": [
+      "employee",
+      "eid"
+    ],
+    "employee_name": [
+      "employee",
+      "name"
+    ],
+    "employee_salary": [
+      "employee",
+      "salary"
+    ],
+    "certificate_eid": [
+      "certificate",
+      "eid"
+    ],
+    "certificate_aid": [
+      "certificate",
+      "aid"
+    ]
+  },
+  "object_property_fk": {
+    "flight_aircraft_fk0": [
+      "flight.aid",
+      "aircraft.aid"
+    ],
+    "certificate_aircraft_fk1": [
+      "certificate.aid",
+      "aircraft.aid"
+    ],
+    "certificate_employee_fk2": [
+      "certificate.eid",
+      "employee.eid"
+    ]
+  }
+}

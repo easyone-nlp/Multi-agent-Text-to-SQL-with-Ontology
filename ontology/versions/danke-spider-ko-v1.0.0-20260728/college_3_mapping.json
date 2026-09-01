@@ -1,0 +1,208 @@
+{
+  "class_table": {
+    "Student": "Student",
+    "Faculty": "Faculty",
+    "Department": "Department",
+    "Member_of": "Member_of",
+    "Course": "Course",
+    "Minor_in": "Minor_in",
+    "Enrolled_in": "Enrolled_in",
+    "Gradeconversion": "Gradeconversion"
+  },
+  "property_column": {
+    "Student_StuID": [
+      "Student",
+      "StuID"
+    ],
+    "Student_LName": [
+      "Student",
+      "LName"
+    ],
+    "Student_Fname": [
+      "Student",
+      "Fname"
+    ],
+    "Student_Age": [
+      "Student",
+      "Age"
+    ],
+    "Student_Sex": [
+      "Student",
+      "Sex"
+    ],
+    "Student_Major": [
+      "Student",
+      "Major"
+    ],
+    "Student_Advisor": [
+      "Student",
+      "Advisor"
+    ],
+    "Student_city_code": [
+      "Student",
+      "city_code"
+    ],
+    "Faculty_FacID": [
+      "Faculty",
+      "FacID"
+    ],
+    "Faculty_Lname": [
+      "Faculty",
+      "Lname"
+    ],
+    "Faculty_Fname": [
+      "Faculty",
+      "Fname"
+    ],
+    "Faculty_Rank": [
+      "Faculty",
+      "Rank"
+    ],
+    "Faculty_Sex": [
+      "Faculty",
+      "Sex"
+    ],
+    "Faculty_Phone": [
+      "Faculty",
+      "Phone"
+    ],
+    "Faculty_Room": [
+      "Faculty",
+      "Room"
+    ],
+    "Faculty_Building": [
+      "Faculty",
+      "Building"
+    ],
+    "Department_DNO": [
+      "Department",
+      "DNO"
+    ],
+    "Department_Division": [
+      "Department",
+      "Division"
+    ],
+    "Department_DName": [
+      "Department",
+      "DName"
+    ],
+    "Department_Room": [
+      "Department",
+      "Room"
+    ],
+    "Department_Building": [
+      "Department",
+      "Building"
+    ],
+    "Department_DPhone": [
+      "Department",
+      "DPhone"
+    ],
+    "Member_of_FacID": [
+      "Member_of",
+      "FacID"
+    ],
+    "Member_of_DNO": [
+      "Member_of",
+      "DNO"
+    ],
+    "Member_of_Appt_Type": [
+      "Member_of",
+      "Appt_Type"
+    ],
+    "Course_CID": [
+      "Course",
+      "CID"
+    ],
+    "Course_CName": [
+      "Course",
+      "CName"
+    ],
+    "Course_Credits": [
+      "Course",
+      "Credits"
+    ],
+    "Course_Instructor": [
+      "Course",
+      "Instructor"
+    ],
+    "Course_Days": [
+      "Course",
+      "Days"
+    ],
+    "Course_Hours": [
+      "Course",
+      "Hours"
+    ],
+    "Course_DNO": [
+      "Course",
+      "DNO"
+    ],
+    "Minor_in_StuID": [
+      "Minor_in",
+      "StuID"
+    ],
+    "Minor_in_DNO": [
+      "Minor_in",
+      "DNO"
+    ],
+    "Enrolled_in_StuID": [
+      "Enrolled_in",
+      "StuID"
+    ],
+    "Enrolled_in_CID": [
+      "Enrolled_in",
+      "CID"
+    ],
+    "Enrolled_in_Grade": [
+      "Enrolled_in",
+      "Grade"
+    ],
+    "Gradeconversion_lettergrade": [
+      "Gradeconversion",
+      "lettergrade"
+    ],
+    "Gradeconversion_gradepoint": [
+      "Gradeconversion",
+      "gradepoint"
+    ]
+  },
+  "object_property_fk": {
+    "Member_of_Department_fk0": [
+      "Member_of.DNO",
+      "Department.DNO"
+    ],
+    "Member_of_Faculty_fk1": [
+      "Member_of.FacID",
+      "Faculty.FacID"
+    ],
+    "Course_Department_fk2": [
+      "Course.DNO",
+      "Department.DNO"
+    ],
+    "Course_Faculty_fk3": [
+      "Course.Instructor",
+      "Faculty.FacID"
+    ],
+    "Minor_in_Department_fk4": [
+      "Minor_in.DNO",
+      "Department.DNO"
+    ],
+    "Minor_in_Student_fk5": [
+      "Minor_in.StuID",
+      "Student.StuID"
+    ],
+    "Enrolled_in_Gradeconversion_fk6": [
+      "Enrolled_in.Grade",
+      "Gradeconversion.lettergrade"
+    ],
+    "Enrolled_in_Course_fk7": [
+      "Enrolled_in.CID",
+      "Course.CID"
+    ],
+    "Enrolled_in_Student_fk8": [
+      "Enrolled_in.StuID",
+      "Student.StuID"
+    ]
+  }
+}

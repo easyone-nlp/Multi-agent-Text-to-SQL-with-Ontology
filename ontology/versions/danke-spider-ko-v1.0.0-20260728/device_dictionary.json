@@ -1,0 +1,1005 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "기기",
+      "target_class": "device",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "장비",
+      "target_class": "device",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "장비 정보",
+      "target_class": "device",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "장비 데이터",
+      "target_class": "device",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "장비 목록",
+      "target_class": "device",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "장비 테이블",
+      "target_class": "device",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "shop",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상점",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상점 정보",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상점 데이터",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상점 목록",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상점 테이블",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "재고",
+      "target_class": "stock",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "재고 정보",
+      "target_class": "stock",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "재고 데이터",
+      "target_class": "stock",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "재고 목록",
+      "target_class": "stock",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "재고 테이블",
+      "target_class": "stock",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기기 ID",
+      "target_class": "device",
+      "target_property": "device_Device_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장치 ID",
+      "target_class": "device",
+      "target_property": "device_Device_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장치 고유 번호",
+      "target_class": "device",
+      "target_property": "device_Device_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장치 식별자",
+      "target_class": "device",
+      "target_property": "device_Device_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장치 번호",
+      "target_class": "device",
+      "target_property": "device_Device_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Device_ID",
+      "target_class": "device",
+      "target_property": "device_Device_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장치 아이디",
+      "target_class": "device",
+      "target_property": "device_Device_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기기",
+      "target_class": "device",
+      "target_property": "device_Device",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장치 이름",
+      "target_class": "device",
+      "target_property": "device_Device",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장치 모델",
+      "target_class": "device",
+      "target_property": "device_Device",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장치 타입",
+      "target_class": "device",
+      "target_property": "device_Device",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장치명",
+      "target_class": "device",
+      "target_property": "device_Device",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Device",
+      "target_class": "device",
+      "target_property": "device_Device",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장치",
+      "target_class": "device",
+      "target_property": "device_Device",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영자",
+      "target_class": "device",
+      "target_property": "device_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "통신사",
+      "target_class": "device",
+      "target_property": "device_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운营商",
+      "target_class": "device",
+      "target_property": "device_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "통신 회사",
+      "target_class": "device",
+      "target_property": "device_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카ARRIER",
+      "target_class": "device",
+      "target_property": "device_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Carrier",
+      "target_class": "device",
+      "target_property": "device_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "통신사 정보",
+      "target_class": "device",
+      "target_property": "device_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패키지 버전",
+      "target_class": "device",
+      "target_property": "device_Package_Version",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로덕트 버전",
+      "target_class": "device",
+      "target_property": "device_Package_Version",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패키지 버전 정보",
+      "target_class": "device",
+      "target_property": "device_Package_Version",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "버전 번호",
+      "target_class": "device",
+      "target_property": "device_Package_Version",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "package version",
+      "target_class": "device",
+      "target_property": "device_Package_Version",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "버전",
+      "target_class": "device",
+      "target_property": "device_Package_Version",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "버전 정보",
+      "target_class": "device",
+      "target_property": "device_Package_Version",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패키지",
+      "target_class": "device",
+      "target_property": "device_Package_Version",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "응용 프로그램",
+      "target_class": "device",
+      "target_property": "device_Applications",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "애플리케이션",
+      "target_class": "device",
+      "target_property": "device_Applications",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "앱",
+      "target_class": "device",
+      "target_property": "device_Applications",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용 가능한 앱",
+      "target_class": "device",
+      "target_property": "device_Applications",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 중 앱",
+      "target_class": "device",
+      "target_property": "device_Applications",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용 앱",
+      "target_class": "device",
+      "target_property": "device_Applications",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "앱 목록",
+      "target_class": "device",
+      "target_property": "device_Applications",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "앱 정보",
+      "target_class": "device",
+      "target_property": "device_Applications",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "applications",
+      "target_class": "device",
+      "target_property": "device_Applications",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소프트웨어 플랫폼",
+      "target_class": "device",
+      "target_property": "device_Software_Platform",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플랫폼",
+      "target_class": "device",
+      "target_property": "device_Software_Platform",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영체제",
+      "target_class": "device",
+      "target_property": "device_Software_Platform",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시스템",
+      "target_class": "device",
+      "target_property": "device_Software_Platform",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소프트웨어",
+      "target_class": "device",
+      "target_property": "device_Software_Platform",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플랫폼 정보",
+      "target_class": "device",
+      "target_property": "device_Software_Platform",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "software platform",
+      "target_class": "device",
+      "target_property": "device_Software_Platform",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영체제 정보",
+      "target_class": "device",
+      "target_property": "device_Software_Platform",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "shop id",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Shop_ID",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 ID",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 번호",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 식별자",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 고유 번호",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "shop name",
+      "target_class": "shop",
+      "target_property": "shop_Shop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Shop_Name",
+      "target_class": "shop",
+      "target_property": "shop_Shop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 이름",
+      "target_class": "shop",
+      "target_property": "shop_Shop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점명",
+      "target_class": "shop",
+      "target_property": "shop_Shop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 제목",
+      "target_class": "shop",
+      "target_property": "shop_Shop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 대표 이름",
+      "target_class": "shop",
+      "target_property": "shop_Shop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 호칭",
+      "target_class": "shop",
+      "target_property": "shop_Shop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "location",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Location",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 위치",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "shop location",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 위치 데이터",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 주소",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "open date",
+      "target_class": "shop",
+      "target_property": "shop_Open_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개업일",
+      "target_class": "shop",
+      "target_property": "shop_Open_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "오픈일",
+      "target_class": "shop",
+      "target_property": "shop_Open_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개점일",
+      "target_class": "shop",
+      "target_property": "shop_Open_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개업 날짜",
+      "target_class": "shop",
+      "target_property": "shop_Open_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개업일자",
+      "target_class": "shop",
+      "target_property": "shop_Open_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Shop_Open_Date",
+      "target_class": "shop",
+      "target_property": "shop_Open_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Open_Date",
+      "target_class": "shop",
+      "target_property": "shop_Open_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "open year",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개업년도",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "오픈년도",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개점년도",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Shop_Open_Year",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Open_Year",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개업 연도",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 개업 연도",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 ID",
+      "target_class": "stock",
+      "target_property": "stock_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Shop_ID",
+      "target_class": "stock",
+      "target_property": "stock_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 ID",
+      "target_class": "stock",
+      "target_property": "stock_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "숍 ID",
+      "target_class": "stock",
+      "target_property": "stock_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 식별자",
+      "target_class": "stock",
+      "target_property": "stock_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "숍 식별 번호",
+      "target_class": "stock",
+      "target_property": "stock_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 코드",
+      "target_class": "stock",
+      "target_property": "stock_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장치 ID",
+      "target_class": "stock",
+      "target_property": "stock_Device_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Device_ID",
+      "target_class": "stock",
+      "target_property": "stock_Device_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장비 ID",
+      "target_class": "stock",
+      "target_property": "stock_Device_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "디바이스 ID",
+      "target_class": "stock",
+      "target_property": "stock_Device_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장비 식별자",
+      "target_class": "stock",
+      "target_property": "stock_Device_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "디바이스 식별 번호",
+      "target_class": "stock",
+      "target_property": "stock_Device_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장비 코드",
+      "target_class": "stock",
+      "target_property": "stock_Device_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수량",
+      "target_class": "stock",
+      "target_property": "stock_Quantity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Quantity",
+      "target_class": "stock",
+      "target_property": "stock_Quantity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보유 수량",
+      "target_class": "stock",
+      "target_property": "stock_Quantity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "재고 수량",
+      "target_class": "stock",
+      "target_property": "stock_Quantity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개수",
+      "target_class": "stock",
+      "target_property": "stock_Quantity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "재고",
+      "target_class": "stock",
+      "target_property": "stock_Quantity",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "스마트폰",
+      "target_class": "device",
+      "target_property": "device_Device",
+      "value": "스마트폰"
+    },
+    {
+      "entry_type": "value",
+      "key": "smartphone",
+      "target_class": "device",
+      "target_property": "device_Device",
+      "value": "스마트폰"
+    },
+    {
+      "entry_type": "value",
+      "key": "태블릿",
+      "target_class": "device",
+      "target_property": "device_Device",
+      "value": "태블릿"
+    },
+    {
+      "entry_type": "value",
+      "key": "tablet",
+      "target_class": "device",
+      "target_property": "device_Device",
+      "value": "태블릿"
+    },
+    {
+      "entry_type": "value",
+      "key": "노트북",
+      "target_class": "device",
+      "target_property": "device_Device",
+      "value": "노트북"
+    },
+    {
+      "entry_type": "value",
+      "key": "laptop",
+      "target_class": "device",
+      "target_property": "device_Device",
+      "value": "노트북"
+    },
+    {
+      "entry_type": "value",
+      "key": "SK텔레콤",
+      "target_class": "device",
+      "target_property": "device_Carrier",
+      "value": "SK텔레콤"
+    },
+    {
+      "entry_type": "value",
+      "key": "SKT",
+      "target_class": "device",
+      "target_property": "device_Carrier",
+      "value": "SK텔레콤"
+    },
+    {
+      "entry_type": "value",
+      "key": "KT",
+      "target_class": "device",
+      "target_property": "device_Carrier",
+      "value": "KT"
+    },
+    {
+      "entry_type": "value",
+      "key": "LG유플러스",
+      "target_class": "device",
+      "target_property": "device_Carrier",
+      "value": "LG유플러스"
+    },
+    {
+      "entry_type": "value",
+      "key": "LG U+",
+      "target_class": "device",
+      "target_property": "device_Carrier",
+      "value": "LG유플러스"
+    },
+    {
+      "entry_type": "value",
+      "key": "V1.0",
+      "target_class": "device",
+      "target_property": "device_Package_Version",
+      "value": "V1.0"
+    },
+    {
+      "entry_type": "value",
+      "key": "V2.5",
+      "target_class": "device",
+      "target_property": "device_Package_Version",
+      "value": "V2.5"
+    },
+    {
+      "entry_type": "value",
+      "key": "메신저",
+      "target_class": "device",
+      "target_property": "device_Applications",
+      "value": "메신저"
+    },
+    {
+      "entry_type": "value",
+      "key": "chat app",
+      "target_class": "device",
+      "target_property": "device_Applications",
+      "value": "메신저"
+    },
+    {
+      "entry_type": "value",
+      "key": "게임",
+      "target_class": "device",
+      "target_property": "device_Applications",
+      "value": "게임"
+    },
+    {
+      "entry_type": "value",
+      "key": "game",
+      "target_class": "device",
+      "target_property": "device_Applications",
+      "value": "게임"
+    },
+    {
+      "entry_type": "value",
+      "key": "금융 앱",
+      "target_class": "device",
+      "target_property": "device_Applications",
+      "value": "금융 앱"
+    },
+    {
+      "entry_type": "value",
+      "key": "financial app",
+      "target_class": "device",
+      "target_property": "device_Applications",
+      "value": "금융 앱"
+    },
+    {
+      "entry_type": "value",
+      "key": "Android",
+      "target_class": "device",
+      "target_property": "device_Software_Platform",
+      "value": "Android"
+    },
+    {
+      "entry_type": "value",
+      "key": "iOS",
+      "target_class": "device",
+      "target_property": "device_Software_Platform",
+      "value": "iOS"
+    },
+    {
+      "entry_type": "value",
+      "key": "Windows",
+      "target_class": "device",
+      "target_property": "device_Software_Platform",
+      "value": "Windows"
+    }
+  ]
+}

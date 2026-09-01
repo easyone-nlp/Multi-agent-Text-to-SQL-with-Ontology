@@ -1,0 +1,83 @@
+{
+  "class_table": {
+    "mountain": "mountain",
+    "camera_lens": "camera_lens",
+    "photos": "photos"
+  },
+  "property_column": {
+    "mountain_id": [
+      "mountain",
+      "id"
+    ],
+    "mountain_name": [
+      "mountain",
+      "name"
+    ],
+    "mountain_Height": [
+      "mountain",
+      "Height"
+    ],
+    "mountain_Prominence": [
+      "mountain",
+      "Prominence"
+    ],
+    "mountain_Range": [
+      "mountain",
+      "Range"
+    ],
+    "mountain_Country": [
+      "mountain",
+      "Country"
+    ],
+    "camera_lens_id": [
+      "camera_lens",
+      "id"
+    ],
+    "camera_lens_brand": [
+      "camera_lens",
+      "brand"
+    ],
+    "camera_lens_name": [
+      "camera_lens",
+      "name"
+    ],
+    "camera_lens_focal_length_mm": [
+      "camera_lens",
+      "focal_length_mm"
+    ],
+    "camera_lens_max_aperture": [
+      "camera_lens",
+      "max_aperture"
+    ],
+    "photos_id": [
+      "photos",
+      "id"
+    ],
+    "photos_camera_lens_id": [
+      "photos",
+      "camera_lens_id"
+    ],
+    "photos_mountain_id": [
+      "photos",
+      "mountain_id"
+    ],
+    "photos_color": [
+      "photos",
+      "color"
+    ],
+    "photos_name": [
+      "photos",
+      "name"
+    ]
+  },
+  "object_property_fk": {
+    "photos_mountain_fk0": [
+      "photos.mountain_id",
+      "mountain.id"
+    ],
+    "photos_camera_lens_fk1": [
+      "photos.camera_lens_id",
+      "camera_lens.id"
+    ]
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "db_id": "body_builder",
+  "classes": [
+    {
+      "name": "body_builder",
+      "source_table": "body_builder",
+      "ranking": 3.0,
+      "primary_label": "body builder",
+      "synonyms": [
+        "신체 관리 데이터",
+        "건강 관리 정보",
+        "체력 데이터",
+        "운동 관련 정보",
+        "신체 건강 기록"
+      ]
+    },
+    {
+      "name": "people",
+      "source_table": "people",
+      "ranking": 3.0,
+      "primary_label": "사람",
+      "synonyms": [
+        "사용자 데이터",
+        "인물 정보",
+        "사용자 기록",
+        "인구 정보",
+        "사용자 프로필"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "body_builder_Body_Builder_ID",
+      "domain": "body_builder",
+      "source_table": "body_builder",
+      "source_column": "Body_Builder_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "body builder id",
+      "synonyms": [
+        "체력 운동 선수 ID",
+        "Body_Builder_ID",
+        "체력 운동 번호",
+        "선수 고유 번호",
+        "Body_Builder 식별자",
+        "체력 운동 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "body_builder_People_ID",
+      "domain": "body_builder",
+      "source_table": "body_builder",
+      "source_column": "People_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "people id",
+      "synonyms": [
+        "개인 ID",
+        "People_ID",
+        "체력 운동 사람 번호",
+        "개인 식별자",
+        "사람 고유 번호",
+        "People 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "body_builder_Snatch",
+      "domain": "body_builder",
+      "source_table": "body_builder",
+      "source_column": "Snatch",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "snatch",
+      "synonyms": [
+        "스나치 성과",
+        "스나치",
+        "Body_Builder 스나치",
+        "체력 운동 스나치",
+        "스나치 성적",
+        "Snatch 성과"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "body_builder_Clean_Jerk",
+      "domain": "body_builder",
+      "source_table": "body_builder",
+      "source_column": "Clean_Jerk",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "clean jerk",
+      "synonyms": [
+        "청정제",
+        "청정제 무게",
+        "클린제",
+        "클린제 무게",
+        "클린제 성과",
+        "청정제 성과",
+        "클린제 결과",
+        "청정제 결과"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "body_builder_Total",
+      "domain": "body_builder",
+      "source_table": "body_builder",
+      "source_column": "Total",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "total",
+      "synonyms": [
+        "총 점수",
+        "총 성적",
+        "전체 점수",
+        "총 평가",
+        "전체 성적",
+        "총 결과",
+        "총 성과"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_People_ID",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "People_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "people id",
+      "synonyms": [
+        "People_ID",
+        "인원 ID",
+        "개인 번호",
+        "아이디",
+        "ID",
+        "인원 식별자",
+        "번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Name",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "Name",
+        "이름",
+        "성명",
+        "성",
+        "개인 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Height",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Height",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "height",
+      "synonyms": [
+        "Height",
+        "신장",
+        "신장 고도",
+        "신장 길이",
+        "신장 정보",
+        "신장 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Weight",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Weight",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "weight",
+      "synonyms": [
+        "체중",
+        "몸무게",
+        "무게",
+        "체중 정보",
+        "몸무게 데이터",
+        "무게 정보",
+        "Weight"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Birth_Date",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Birth_Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "birth date",
+      "synonyms": [
+        "생일",
+        "출생일",
+        "출생일자",
+        "출생일 정보",
+        "생일 데이터",
+        "출생일 데이터",
+        "Birth_Date"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Birth_Place",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Birth_Place",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "birth place",
+      "synonyms": [
+        "출생지",
+        "태어난 곳",
+        "출생 장소",
+        "출생지 정보",
+        "출생지 데이터",
+        "태어난 곳 데이터",
+        "Birth_Place"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "body_builder_people_fk0",
+      "domain": "body_builder",
+      "range": "people",
+      "source_fk": [
+        "body_builder.People_ID",
+        "people.People_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

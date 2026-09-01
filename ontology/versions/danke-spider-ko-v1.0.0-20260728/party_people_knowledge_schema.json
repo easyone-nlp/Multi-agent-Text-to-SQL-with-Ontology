@@ -1,0 +1,614 @@
+{
+  "db_id": "party_people",
+  "classes": [
+    {
+      "name": "region",
+      "source_table": "region",
+      "ranking": 3.0,
+      "primary_label": "지역",
+      "synonyms": [
+        "지역",
+        "구역",
+        "행정구역",
+        "지리적 지역",
+        "지역정보"
+      ]
+    },
+    {
+      "name": "party",
+      "source_table": "party",
+      "ranking": 3.0,
+      "primary_label": "정당",
+      "synonyms": [
+        "정당",
+        "정파",
+        "정당기구",
+        "정당원",
+        "정당 정보"
+      ]
+    },
+    {
+      "name": "member",
+      "source_table": "member",
+      "ranking": 3.0,
+      "primary_label": "회원",
+      "synonyms": [
+        "정당원",
+        "원원",
+        "회원",
+        "정당인",
+        "정당원 정보"
+      ]
+    },
+    {
+      "name": "party_events",
+      "source_table": "party_events",
+      "ranking": 3.0,
+      "primary_label": "party events",
+      "synonyms": []
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "region_Region_ID",
+      "domain": "region",
+      "source_table": "region",
+      "source_column": "Region_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "지역 ID",
+      "synonyms": [
+        "지역 ID",
+        "구역 번호",
+        "지역 코드",
+        "Region_ID",
+        "구역 식별자",
+        "지역 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "region_Region_name",
+      "domain": "region",
+      "source_table": "region",
+      "source_column": "Region_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "지역 이름",
+      "synonyms": [
+        "지역 이름",
+        "구역 이름",
+        "지역명",
+        "Region_name",
+        "구역명",
+        "지역 표시"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "부산": [
+          "부산"
+        ],
+        "인천": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "region_Date",
+      "domain": "region",
+      "source_table": "region",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "일자",
+      "synonyms": [
+        "날짜",
+        "일자",
+        "생성일",
+        "Date",
+        "업데이트 일자",
+        "일자 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-01": [
+          "2023년 1월 1일"
+        ]
+      }
+    },
+    {
+      "name": "region_Label",
+      "domain": "region",
+      "source_table": "region",
+      "source_column": "Label",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "라벨",
+      "synonyms": [
+        "라벨",
+        "레이블",
+        "레이블 정보",
+        "레이블명",
+        "레이블 데이터",
+        "레이블 내용",
+        "레이블 값",
+        "레이블 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "주요": [
+          "주요"
+        ],
+        "보조": [
+          "보조"
+        ]
+      }
+    },
+    {
+      "name": "region_Format",
+      "domain": "region",
+      "source_table": "region",
+      "source_column": "Format",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "형식",
+      "synonyms": [
+        "포맷",
+        "형식",
+        "형식 정보",
+        "형식 데이터",
+        "형식 내용",
+        "형식 값",
+        "형식 이름",
+        "표준 형식"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "PDF": [
+          "PDF"
+        ],
+        "JPEG": [
+          "JPEG"
+        ]
+      }
+    },
+    {
+      "name": "region_Catalogue",
+      "domain": "region",
+      "source_table": "region",
+      "source_column": "Catalogue",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "카탈로그",
+      "synonyms": [
+        "카탈로그",
+        "카탈로그 정보",
+        "카탈로그 데이터",
+        "카탈로그 내용",
+        "카탈로그 값",
+        "카탈로그 이름",
+        "카탈로그 목록"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "A01": [
+          "A01"
+        ],
+        "B02": [
+          "B02"
+        ]
+      }
+    },
+    {
+      "name": "party_Party_ID",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Party_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "정당 ID",
+      "synonyms": [
+        "Party_ID",
+        "정당 ID",
+        "정당 번호",
+        "정당 식별자",
+        "정당 고유 번호",
+        "정당 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "party_Minister",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Minister",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "국무위원",
+      "synonyms": [
+        "Minister",
+        "장관",
+        "대표",
+        "대표 인사",
+        "정당 대표",
+        "정당 주임"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "국무총리": [
+          "국무총리",
+          "총리"
+        ],
+        "외무장관": [
+          "외무장관",
+          "외교장관"
+        ]
+      }
+    },
+    {
+      "name": "party_Took_office",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Took_office",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "임명일",
+      "synonyms": [
+        "Took_office",
+        "취임일",
+        "입성일",
+        "취임 날짜",
+        "정당 입성일",
+        "정당 취임일"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020-05-01": [
+          "2020년 5월 1일"
+        ]
+      }
+    },
+    {
+      "name": "party_Left_office",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Left_office",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "퇴임일",
+      "synonyms": [
+        "해임일",
+        "해임 날짜",
+        "이탈일",
+        "이탈 날짜",
+        "퇴출일",
+        "퇴출 날짜",
+        "정당 해임일",
+        "정당 이탈일"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-12-31": [
+          "2023년 12월 31일"
+        ]
+      }
+    },
+    {
+      "name": "party_Region_ID",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Region_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "지역 ID",
+      "synonyms": [
+        "지역 ID",
+        "지역 번호",
+        "지역 코드",
+        "지역 식별자",
+        "지역 고유 번호",
+        "지역 인덱스",
+        "지역 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "party_Party_name",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Party_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "정당 이름",
+      "synonyms": [
+        "정당 이름",
+        "정당명",
+        "정당",
+        "정당칭",
+        "정당명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "더불어민주당": [
+          "더불어민주당",
+          "민주당"
+        ],
+        "국민의힘": [
+          "국민의힘",
+          "국민힘"
+        ]
+      }
+    },
+    {
+      "name": "member_Member_ID",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Member_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "회원 ID",
+      "synonyms": [
+        "회원 ID",
+        "회원 번호",
+        "ID",
+        "회원 식별 번호",
+        "Member_ID",
+        "회원 고유 번호",
+        "회원 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "member_Member_Name",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Member_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "회원 이름",
+      "synonyms": [
+        "회원 이름",
+        "이름",
+        "회원명",
+        "Member_Name",
+        "회원 대표 이름",
+        "회원 소명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김철수": [
+          "김철수"
+        ],
+        "이영희": [
+          "이영희"
+        ]
+      }
+    },
+    {
+      "name": "member_Party_ID",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Party_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "정당 ID",
+      "synonyms": [
+        "정당 ID",
+        "정당 식별자",
+        "Party_ID",
+        "소속 정당 ID",
+        "정당 코드",
+        "정당 식별 번호",
+        "회원 정당 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "member_In_office",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "In_office",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "임명 상태",
+      "synonyms": [
+        "입사 여부",
+        "현직 여부",
+        "직무 여부",
+        "직원 여부",
+        "현재 직무",
+        "입사 상태",
+        "직무 상태"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "임명됨": [
+          "임명됨"
+        ],
+        "임명되지 않음": [
+          "임명되지 않음"
+        ]
+      }
+    },
+    {
+      "name": "party_events_Event_ID",
+      "domain": "party_events",
+      "source_table": "party_events",
+      "source_column": "Event_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "event id",
+      "synonyms": [
+        "이벤트 ID",
+        "행사 번호",
+        "이벤트 고유 번호",
+        "행사 식별자",
+        "Event_ID",
+        "이벤트 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "party_events_Event_Name",
+      "domain": "party_events",
+      "source_table": "party_events",
+      "source_column": "Event_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "event name",
+      "synonyms": [
+        "이벤트 이름",
+        "행사명",
+        "이벤트 제목",
+        "행사 이름",
+        "Event_Name",
+        "이벤트 타이틀"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "축제": [
+          "축제",
+          "행사"
+        ],
+        "세미나": [
+          "세미나",
+          "세미나 행사"
+        ]
+      }
+    },
+    {
+      "name": "party_events_Party_ID",
+      "domain": "party_events",
+      "source_table": "party_events",
+      "source_column": "Party_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "party id",
+      "synonyms": [
+        "파티 ID",
+        "행사 파티 번호",
+        "파티 식별자",
+        "Party_ID",
+        "파티 코드",
+        "행사 파티"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "party_events_Member_in_charge_ID",
+      "domain": "party_events",
+      "source_table": "party_events",
+      "source_column": "Member_in_charge_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "member in charge id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "party_region_fk0",
+      "domain": "party",
+      "range": "region",
+      "source_fk": [
+        "party.Region_ID",
+        "region.Region_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "member_party_fk1",
+      "domain": "member",
+      "range": "party",
+      "source_fk": [
+        "member.Party_ID",
+        "party.Party_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "party_events_member_fk2",
+      "domain": "party_events",
+      "range": "member",
+      "source_fk": [
+        "party_events.Member_in_charge_ID",
+        "member.Member_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "담당",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "party_events_party_fk3",
+      "domain": "party_events",
+      "range": "party",
+      "source_fk": [
+        "party_events.Party_ID",
+        "party.Party_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참여",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

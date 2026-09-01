@@ -1,0 +1,732 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "지리정보",
+      "target_class": "GEOGRAPHIC",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지리 정보",
+      "target_class": "GEOGRAPHIC",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "위치 데이터",
+      "target_class": "GEOGRAPHIC",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지리적 정보",
+      "target_class": "GEOGRAPHIC",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지리",
+      "target_class": "GEOGRAPHIC",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지리적 위치",
+      "target_class": "GEOGRAPHIC",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "위치 정보",
+      "target_class": "GEOGRAPHIC",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지리적 데이터",
+      "target_class": "GEOGRAPHIC",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "식당",
+      "target_class": "RESTAURANT",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음식점",
+      "target_class": "RESTAURANT",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "식사 장소",
+      "target_class": "RESTAURANT",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "식당 정보",
+      "target_class": "RESTAURANT",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음식점 데이터",
+      "target_class": "RESTAURANT",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "식당 목록",
+      "target_class": "RESTAURANT",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음식점 정보",
+      "target_class": "RESTAURANT",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "location",
+      "target_class": "LOCATION",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "위치",
+      "target_class": "LOCATION",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "위치 정보",
+      "target_class": "LOCATION",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지리적 위치",
+      "target_class": "LOCATION",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "위치 데이터",
+      "target_class": "LOCATION",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지리",
+      "target_class": "LOCATION",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지리적 위치 정보",
+      "target_class": "LOCATION",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시 이름",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_CITY_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_CITY_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_CITY_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 이름",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_CITY_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_CITY_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "군구",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_COUNTY",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_COUNTY",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "군",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_COUNTY",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시군구",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_COUNTY",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_COUNTY",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_REGION",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역구",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_REGION",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역명",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_REGION",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_REGION",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지방",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_REGION",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당 번호",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당 고유 번호",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당 식별 번호",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당 ID",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당 고유 ID",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당 이름",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명칭",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소유자 이름",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 이름",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당명",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름으로 불리는",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당의 이름",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "food type",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_FOOD_TYPE",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음식 종류",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_FOOD_TYPE",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요리 종류",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_FOOD_TYPE",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음식 타입",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_FOOD_TYPE",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음식 유형",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_FOOD_TYPE",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식사 유형",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_FOOD_TYPE",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음식 카테고리",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_FOOD_TYPE",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요리 타입",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_FOOD_TYPE",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city name",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_CITY_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "rating",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_RATING",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_RATING",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 수치",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_RATING",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 점수",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_RATING",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_RATING",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_RATING",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 정보",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_RATING",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 평점",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_RATING",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "评分",
+      "target_class": "RESTAURANT",
+      "target_property": "RESTAURANT_RATING",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "restaurant id",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_RESTAURANT_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "RESTAURANT_ID",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_RESTAURANT_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음식점 ID",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_RESTAURANT_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당 번호",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_RESTAURANT_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 ID",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_RESTAURANT_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당 고유번호",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_RESTAURANT_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사업자 식별자",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_RESTAURANT_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "house number",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_HOUSE_NUMBER",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "HOUSE_NUMBER",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_HOUSE_NUMBER",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 번호",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_HOUSE_NUMBER",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 건물번호",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_HOUSE_NUMBER",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아파트 번호",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_HOUSE_NUMBER",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호수",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_HOUSE_NUMBER",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "street name",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_STREET_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "STREET_NAME",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_STREET_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도로 이름",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_STREET_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "길 이름",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_STREET_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 도로",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_STREET_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거리 이름",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_STREET_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 도로명",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_STREET_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city name",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_CITY_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 이름",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_CITY_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_CITY_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_CITY_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시 이름",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_CITY_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시",
+      "target_class": "LOCATION",
+      "target_property": "LOCATION_CITY_NAME",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_CITY_NAME",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_CITY_NAME",
+      "value": "부산"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_CITY_NAME",
+      "value": "인천"
+    },
+    {
+      "entry_type": "value",
+      "key": "강원도",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_COUNTY",
+      "value": "강원도"
+    },
+    {
+      "entry_type": "value",
+      "key": "경기도",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_COUNTY",
+      "value": "경기도"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울권",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_REGION",
+      "value": "서울권"
+    },
+    {
+      "entry_type": "value",
+      "key": "경기권",
+      "target_class": "GEOGRAPHIC",
+      "target_property": "GEOGRAPHIC_REGION",
+      "value": "경기권"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "class_table": {
+    "candidate": "candidate",
+    "people": "people"
+  },
+  "property_column": {
+    "candidate_Candidate_ID": [
+      "candidate",
+      "Candidate_ID"
+    ],
+    "candidate_People_ID": [
+      "candidate",
+      "People_ID"
+    ],
+    "candidate_Poll_Source": [
+      "candidate",
+      "Poll_Source"
+    ],
+    "candidate_Date": [
+      "candidate",
+      "Date"
+    ],
+    "candidate_Support_rate": [
+      "candidate",
+      "Support_rate"
+    ],
+    "candidate_Consider_rate": [
+      "candidate",
+      "Consider_rate"
+    ],
+    "candidate_Oppose_rate": [
+      "candidate",
+      "Oppose_rate"
+    ],
+    "candidate_Unsure_rate": [
+      "candidate",
+      "Unsure_rate"
+    ],
+    "people_People_ID": [
+      "people",
+      "People_ID"
+    ],
+    "people_Sex": [
+      "people",
+      "Sex"
+    ],
+    "people_Name": [
+      "people",
+      "Name"
+    ],
+    "people_Date_of_Birth": [
+      "people",
+      "Date_of_Birth"
+    ],
+    "people_Height": [
+      "people",
+      "Height"
+    ],
+    "people_Weight": [
+      "people",
+      "Weight"
+    ]
+  },
+  "object_property_fk": {
+    "candidate_people_fk0": [
+      "candidate.People_ID",
+      "people.People_ID"
+    ]
+  }
+}

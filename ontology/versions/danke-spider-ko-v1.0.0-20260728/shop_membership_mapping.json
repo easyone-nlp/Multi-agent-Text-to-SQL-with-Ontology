@@ -1,0 +1,100 @@
+{
+  "class_table": {
+    "member": "member",
+    "branch": "branch",
+    "membership_register_branch": "membership_register_branch",
+    "purchase": "purchase"
+  },
+  "property_column": {
+    "member_Member_ID": [
+      "member",
+      "Member_ID"
+    ],
+    "member_Card_Number": [
+      "member",
+      "Card_Number"
+    ],
+    "member_Name": [
+      "member",
+      "Name"
+    ],
+    "member_Hometown": [
+      "member",
+      "Hometown"
+    ],
+    "member_Level": [
+      "member",
+      "Level"
+    ],
+    "branch_Branch_ID": [
+      "branch",
+      "Branch_ID"
+    ],
+    "branch_Name": [
+      "branch",
+      "Name"
+    ],
+    "branch_Open_year": [
+      "branch",
+      "Open_year"
+    ],
+    "branch_Address_road": [
+      "branch",
+      "Address_road"
+    ],
+    "branch_City": [
+      "branch",
+      "City"
+    ],
+    "branch_membership_amount": [
+      "branch",
+      "membership_amount"
+    ],
+    "membership_register_branch_Member_ID": [
+      "membership_register_branch",
+      "Member_ID"
+    ],
+    "membership_register_branch_Branch_ID": [
+      "membership_register_branch",
+      "Branch_ID"
+    ],
+    "membership_register_branch_Register_Year": [
+      "membership_register_branch",
+      "Register_Year"
+    ],
+    "purchase_Member_ID": [
+      "purchase",
+      "Member_ID"
+    ],
+    "purchase_Branch_ID": [
+      "purchase",
+      "Branch_ID"
+    ],
+    "purchase_Year": [
+      "purchase",
+      "Year"
+    ],
+    "purchase_Total_pounds": [
+      "purchase",
+      "Total_pounds"
+    ]
+  },
+  "object_property_fk": {
+    "membership_register_branch_branch_fk0": [
+      "membership_register_branch.Branch_ID",
+      "branch.Branch_ID"
+    ],
+    "membership_register_branch_member_fk1": [
+      "membership_register_branch.Member_ID",
+      "member.Member_ID"
+    ],
+    "purchase_branch_fk2": [
+      "purchase.Branch_ID",
+      "branch.Branch_ID"
+    ],
+    "purchase_member_fk3": [
+      "purchase.Member_ID",
+      "member.Member_ID"
+    ]
+  }
+}

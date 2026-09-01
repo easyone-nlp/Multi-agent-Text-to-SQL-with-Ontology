@@ -1,0 +1,236 @@
+{
+  "class_table": {
+    "Breeds": "Breeds",
+    "Charges": "Charges",
+    "Sizes": "Sizes",
+    "Treatment_Types": "Treatment_Types",
+    "Owners": "Owners",
+    "Dogs": "Dogs",
+    "Professionals": "Professionals",
+    "Treatments": "Treatments"
+  },
+  "property_column": {
+    "Breeds_breed_code": [
+      "Breeds",
+      "breed_code"
+    ],
+    "Breeds_breed_name": [
+      "Breeds",
+      "breed_name"
+    ],
+    "Charges_charge_id": [
+      "Charges",
+      "charge_id"
+    ],
+    "Charges_charge_type": [
+      "Charges",
+      "charge_type"
+    ],
+    "Charges_charge_amount": [
+      "Charges",
+      "charge_amount"
+    ],
+    "Sizes_size_code": [
+      "Sizes",
+      "size_code"
+    ],
+    "Sizes_size_description": [
+      "Sizes",
+      "size_description"
+    ],
+    "Treatment_Types_treatment_type_code": [
+      "Treatment_Types",
+      "treatment_type_code"
+    ],
+    "Treatment_Types_treatment_type_description": [
+      "Treatment_Types",
+      "treatment_type_description"
+    ],
+    "Owners_owner_id": [
+      "Owners",
+      "owner_id"
+    ],
+    "Owners_first_name": [
+      "Owners",
+      "first_name"
+    ],
+    "Owners_last_name": [
+      "Owners",
+      "last_name"
+    ],
+    "Owners_street": [
+      "Owners",
+      "street"
+    ],
+    "Owners_city": [
+      "Owners",
+      "city"
+    ],
+    "Owners_state": [
+      "Owners",
+      "state"
+    ],
+    "Owners_zip_code": [
+      "Owners",
+      "zip_code"
+    ],
+    "Owners_email_address": [
+      "Owners",
+      "email_address"
+    ],
+    "Owners_home_phone": [
+      "Owners",
+      "home_phone"
+    ],
+    "Owners_cell_number": [
+      "Owners",
+      "cell_number"
+    ],
+    "Dogs_dog_id": [
+      "Dogs",
+      "dog_id"
+    ],
+    "Dogs_owner_id": [
+      "Dogs",
+      "owner_id"
+    ],
+    "Dogs_abandoned_yn": [
+      "Dogs",
+      "abandoned_yn"
+    ],
+    "Dogs_breed_code": [
+      "Dogs",
+      "breed_code"
+    ],
+    "Dogs_size_code": [
+      "Dogs",
+      "size_code"
+    ],
+    "Dogs_name": [
+      "Dogs",
+      "name"
+    ],
+    "Dogs_age": [
+      "Dogs",
+      "age"
+    ],
+    "Dogs_date_of_birth": [
+      "Dogs",
+      "date_of_birth"
+    ],
+    "Dogs_gender": [
+      "Dogs",
+      "gender"
+    ],
+    "Dogs_weight": [
+      "Dogs",
+      "weight"
+    ],
+    "Dogs_date_arrived": [
+      "Dogs",
+      "date_arrived"
+    ],
+    "Dogs_date_adopted": [
+      "Dogs",
+      "date_adopted"
+    ],
+    "Dogs_date_departed": [
+      "Dogs",
+      "date_departed"
+    ],
+    "Professionals_professional_id": [
+      "Professionals",
+      "professional_id"
+    ],
+    "Professionals_role_code": [
+      "Professionals",
+      "role_code"
+    ],
+    "Professionals_first_name": [
+      "Professionals",
+      "first_name"
+    ],
+    "Professionals_street": [
+      "Professionals",
+      "street"
+    ],
+    "Professionals_city": [
+      "Professionals",
+      "city"
+    ],
+    "Professionals_state": [
+      "Professionals",
+      "state"
+    ],
+    "Professionals_zip_code": [
+      "Professionals",
+      "zip_code"
+    ],
+    "Professionals_last_name": [
+      "Professionals",
+      "last_name"
+    ],
+    "Professionals_email_address": [
+      "Professionals",
+      "email_address"
+    ],
+    "Professionals_home_phone": [
+      "Professionals",
+      "home_phone"
+    ],
+    "Professionals_cell_number": [
+      "Professionals",
+      "cell_number"
+    ],
+    "Treatments_treatment_id": [
+      "Treatments",
+      "treatment_id"
+    ],
+    "Treatments_dog_id": [
+      "Treatments",
+      "dog_id"
+    ],
+    "Treatments_professional_id": [
+      "Treatments",
+      "professional_id"
+    ],
+    "Treatments_treatment_type_code": [
+      "Treatments",
+      "treatment_type_code"
+    ],
+    "Treatments_date_of_treatment": [
+      "Treatments",
+      "date_of_treatment"
+    ],
+    "Treatments_cost_of_treatment": [
+      "Treatments",
+      "cost_of_treatment"
+    ]
+  },
+  "object_property_fk": {
+    "Dogs_Owners_fk0": [
+      "Dogs.owner_id",
+      "Owners.owner_id"
+    ],
+    "Dogs_Sizes_fk2": [
+      "Dogs.size_code",
+      "Sizes.size_code"
+    ],
+    "Dogs_Breeds_fk3": [
+      "Dogs.breed_code",
+      "Breeds.breed_code"
+    ],
+    "Treatments_Dogs_fk4": [
+      "Treatments.dog_id",
+      "Dogs.dog_id"
+    ],
+    "Treatments_Professionals_fk5": [
+      "Treatments.professional_id",
+      "Professionals.professional_id"
+    ],
+    "Treatments_Treatment_Types_fk6": [
+      "Treatments.treatment_type_code",
+      "Treatment_Types.treatment_type_code"
+    ]
+  }
+}

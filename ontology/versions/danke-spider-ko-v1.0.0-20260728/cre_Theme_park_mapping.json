@@ -1,0 +1,288 @@
+{
+  "class_table": {
+    "Ref_Hotel_Star_Ratings": "Ref_Hotel_Star_Ratings",
+    "Locations": "Locations",
+    "Ref_Attraction_Types": "Ref_Attraction_Types",
+    "Visitors": "Visitors",
+    "Features": "Features",
+    "Hotels": "Hotels",
+    "Tourist_Attractions": "Tourist_Attractions",
+    "Street_Markets": "Street_Markets",
+    "Shops": "Shops",
+    "Museums": "Museums",
+    "Royal_Family": "Royal_Family",
+    "Theme_Parks": "Theme_Parks",
+    "Visits": "Visits",
+    "Photos": "Photos",
+    "Staff": "Staff",
+    "Tourist_Attraction_Features": "Tourist_Attraction_Features"
+  },
+  "property_column": {
+    "Ref_Hotel_Star_Ratings_star_rating_code": [
+      "Ref_Hotel_Star_Ratings",
+      "star_rating_code"
+    ],
+    "Ref_Hotel_Star_Ratings_star_rating_description": [
+      "Ref_Hotel_Star_Ratings",
+      "star_rating_description"
+    ],
+    "Locations_Location_ID": [
+      "Locations",
+      "Location_ID"
+    ],
+    "Locations_Location_Name": [
+      "Locations",
+      "Location_Name"
+    ],
+    "Locations_Address": [
+      "Locations",
+      "Address"
+    ],
+    "Locations_Other_Details": [
+      "Locations",
+      "Other_Details"
+    ],
+    "Ref_Attraction_Types_Attraction_Type_Code": [
+      "Ref_Attraction_Types",
+      "Attraction_Type_Code"
+    ],
+    "Ref_Attraction_Types_Attraction_Type_Description": [
+      "Ref_Attraction_Types",
+      "Attraction_Type_Description"
+    ],
+    "Visitors_Tourist_ID": [
+      "Visitors",
+      "Tourist_ID"
+    ],
+    "Visitors_Tourist_Details": [
+      "Visitors",
+      "Tourist_Details"
+    ],
+    "Features_Feature_ID": [
+      "Features",
+      "Feature_ID"
+    ],
+    "Features_Feature_Details": [
+      "Features",
+      "Feature_Details"
+    ],
+    "Hotels_hotel_id": [
+      "Hotels",
+      "hotel_id"
+    ],
+    "Hotels_star_rating_code": [
+      "Hotels",
+      "star_rating_code"
+    ],
+    "Hotels_pets_allowed_yn": [
+      "Hotels",
+      "pets_allowed_yn"
+    ],
+    "Hotels_price_range": [
+      "Hotels",
+      "price_range"
+    ],
+    "Hotels_other_hotel_details": [
+      "Hotels",
+      "other_hotel_details"
+    ],
+    "Tourist_Attractions_Tourist_Attraction_ID": [
+      "Tourist_Attractions",
+      "Tourist_Attraction_ID"
+    ],
+    "Tourist_Attractions_Attraction_Type_Code": [
+      "Tourist_Attractions",
+      "Attraction_Type_Code"
+    ],
+    "Tourist_Attractions_Location_ID": [
+      "Tourist_Attractions",
+      "Location_ID"
+    ],
+    "Tourist_Attractions_How_to_Get_There": [
+      "Tourist_Attractions",
+      "How_to_Get_There"
+    ],
+    "Tourist_Attractions_Name": [
+      "Tourist_Attractions",
+      "Name"
+    ],
+    "Tourist_Attractions_Description": [
+      "Tourist_Attractions",
+      "Description"
+    ],
+    "Tourist_Attractions_Opening_Hours": [
+      "Tourist_Attractions",
+      "Opening_Hours"
+    ],
+    "Tourist_Attractions_Other_Details": [
+      "Tourist_Attractions",
+      "Other_Details"
+    ],
+    "Street_Markets_Market_ID": [
+      "Street_Markets",
+      "Market_ID"
+    ],
+    "Street_Markets_Market_Details": [
+      "Street_Markets",
+      "Market_Details"
+    ],
+    "Shops_Shop_ID": [
+      "Shops",
+      "Shop_ID"
+    ],
+    "Shops_Shop_Details": [
+      "Shops",
+      "Shop_Details"
+    ],
+    "Museums_Museum_ID": [
+      "Museums",
+      "Museum_ID"
+    ],
+    "Museums_Museum_Details": [
+      "Museums",
+      "Museum_Details"
+    ],
+    "Royal_Family_Royal_Family_ID": [
+      "Royal_Family",
+      "Royal_Family_ID"
+    ],
+    "Royal_Family_Royal_Family_Details": [
+      "Royal_Family",
+      "Royal_Family_Details"
+    ],
+    "Theme_Parks_Theme_Park_ID": [
+      "Theme_Parks",
+      "Theme_Park_ID"
+    ],
+    "Theme_Parks_Theme_Park_Details": [
+      "Theme_Parks",
+      "Theme_Park_Details"
+    ],
+    "Visits_Visit_ID": [
+      "Visits",
+      "Visit_ID"
+    ],
+    "Visits_Tourist_Attraction_ID": [
+      "Visits",
+      "Tourist_Attraction_ID"
+    ],
+    "Visits_Tourist_ID": [
+      "Visits",
+      "Tourist_ID"
+    ],
+    "Visits_Visit_Date": [
+      "Visits",
+      "Visit_Date"
+    ],
+    "Visits_Visit_Details": [
+      "Visits",
+      "Visit_Details"
+    ],
+    "Photos_Photo_ID": [
+      "Photos",
+      "Photo_ID"
+    ],
+    "Photos_Tourist_Attraction_ID": [
+      "Photos",
+      "Tourist_Attraction_ID"
+    ],
+    "Photos_Name": [
+      "Photos",
+      "Name"
+    ],
+    "Photos_Description": [
+      "Photos",
+      "Description"
+    ],
+    "Photos_Filename": [
+      "Photos",
+      "Filename"
+    ],
+    "Photos_Other_Details": [
+      "Photos",
+      "Other_Details"
+    ],
+    "Staff_Staff_ID": [
+      "Staff",
+      "Staff_ID"
+    ],
+    "Staff_Tourist_Attraction_ID": [
+      "Staff",
+      "Tourist_Attraction_ID"
+    ],
+    "Staff_Name": [
+      "Staff",
+      "Name"
+    ],
+    "Staff_Other_Details": [
+      "Staff",
+      "Other_Details"
+    ],
+    "Tourist_Attraction_Features_Tourist_Attraction_ID": [
+      "Tourist_Attraction_Features",
+      "Tourist_Attraction_ID"
+    ],
+    "Tourist_Attraction_Features_Feature_ID": [
+      "Tourist_Attraction_Features",
+      "Feature_ID"
+    ]
+  },
+  "object_property_fk": {
+    "Hotels_Ref_Hotel_Star_Ratings_fk0": [
+      "Hotels.star_rating_code",
+      "Ref_Hotel_Star_Ratings.star_rating_code"
+    ],
+    "Tourist_Attractions_Ref_Attraction_Types_fk1": [
+      "Tourist_Attractions.Attraction_Type_Code",
+      "Ref_Attraction_Types.Attraction_Type_Code"
+    ],
+    "Tourist_Attractions_Locations_fk2": [
+      "Tourist_Attractions.Location_ID",
+      "Locations.Location_ID"
+    ],
+    "Street_Markets_Tourist_Attractions_fk3": [
+      "Street_Markets.Market_ID",
+      "Tourist_Attractions.Tourist_Attraction_ID"
+    ],
+    "Shops_Tourist_Attractions_fk4": [
+      "Shops.Shop_ID",
+      "Tourist_Attractions.Tourist_Attraction_ID"
+    ],
+    "Museums_Tourist_Attractions_fk5": [
+      "Museums.Museum_ID",
+      "Tourist_Attractions.Tourist_Attraction_ID"
+    ],
+    "Royal_Family_Tourist_Attractions_fk6": [
+      "Royal_Family.Royal_Family_ID",
+      "Tourist_Attractions.Tourist_Attraction_ID"
+    ],
+    "Theme_Parks_Tourist_Attractions_fk7": [
+      "Theme_Parks.Theme_Park_ID",
+      "Tourist_Attractions.Tourist_Attraction_ID"
+    ],
+    "Visits_Visitors_fk8": [
+      "Visits.Tourist_ID",
+      "Visitors.Tourist_ID"
+    ],
+    "Visits_Tourist_Attractions_fk9": [
+      "Visits.Tourist_Attraction_ID",
+      "Tourist_Attractions.Tourist_Attraction_ID"
+    ],
+    "Photos_Tourist_Attractions_fk10": [
+      "Photos.Tourist_Attraction_ID",
+      "Tourist_Attractions.Tourist_Attraction_ID"
+    ],
+    "Staff_Tourist_Attractions_fk11": [
+      "Staff.Tourist_Attraction_ID",
+      "Tourist_Attractions.Tourist_Attraction_ID"
+    ],
+    "Tourist_Attraction_Features_Features_fk12": [
+      "Tourist_Attraction_Features.Feature_ID",
+      "Features.Feature_ID"
+    ],
+    "Tourist_Attraction_Features_Tourist_Attractions_fk13": [
+      "Tourist_Attraction_Features.Tourist_Attraction_ID",
+      "Tourist_Attractions.Tourist_Attraction_ID"
+    ]
+  }
+}

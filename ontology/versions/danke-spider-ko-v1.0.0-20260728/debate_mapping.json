@@ -1,0 +1,75 @@
+{
+  "class_table": {
+    "people": "people",
+    "debate": "debate",
+    "debate_people": "debate_people"
+  },
+  "property_column": {
+    "people_People_ID": [
+      "people",
+      "People_ID"
+    ],
+    "people_District": [
+      "people",
+      "District"
+    ],
+    "people_Name": [
+      "people",
+      "Name"
+    ],
+    "people_Party": [
+      "people",
+      "Party"
+    ],
+    "people_Age": [
+      "people",
+      "Age"
+    ],
+    "debate_Debate_ID": [
+      "debate",
+      "Debate_ID"
+    ],
+    "debate_Date": [
+      "debate",
+      "Date"
+    ],
+    "debate_Venue": [
+      "debate",
+      "Venue"
+    ],
+    "debate_Num_of_Audience": [
+      "debate",
+      "Num_of_Audience"
+    ],
+    "debate_people_Debate_ID": [
+      "debate_people",
+      "Debate_ID"
+    ],
+    "debate_people_Affirmative": [
+      "debate_people",
+      "Affirmative"
+    ],
+    "debate_people_Negative": [
+      "debate_people",
+      "Negative"
+    ],
+    "debate_people_If_Affirmative_Win": [
+      "debate_people",
+      "If_Affirmative_Win"
+    ]
+  },
+  "object_property_fk": {
+    "debate_people_people_fk0": [
+      "debate_people.Negative",
+      "people.People_ID"
+    ],
+    "debate_people_people_fk1": [
+      "debate_people.Affirmative",
+      "people.People_ID"
+    ],
+    "debate_people_debate_fk2": [
+      "debate_people.Debate_ID",
+      "debate.Debate_ID"
+    ]
+  }
+}

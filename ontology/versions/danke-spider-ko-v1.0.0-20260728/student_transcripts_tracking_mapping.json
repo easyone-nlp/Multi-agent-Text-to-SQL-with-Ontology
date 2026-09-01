@@ -1,0 +1,287 @@
+{
+  "class_table": {
+    "Addresses": "Addresses",
+    "Courses": "Courses",
+    "Departments": "Departments",
+    "Degree_Programs": "Degree_Programs",
+    "Sections": "Sections",
+    "Semesters": "Semesters",
+    "Students": "Students",
+    "Student_Enrolment": "Student_Enrolment",
+    "Student_Enrolment_Courses": "Student_Enrolment_Courses",
+    "Transcripts": "Transcripts",
+    "Transcript_Contents": "Transcript_Contents"
+  },
+  "property_column": {
+    "Addresses_address_id": [
+      "Addresses",
+      "address_id"
+    ],
+    "Addresses_line_1": [
+      "Addresses",
+      "line_1"
+    ],
+    "Addresses_line_2": [
+      "Addresses",
+      "line_2"
+    ],
+    "Addresses_line_3": [
+      "Addresses",
+      "line_3"
+    ],
+    "Addresses_city": [
+      "Addresses",
+      "city"
+    ],
+    "Addresses_zip_postcode": [
+      "Addresses",
+      "zip_postcode"
+    ],
+    "Addresses_state_province_county": [
+      "Addresses",
+      "state_province_county"
+    ],
+    "Addresses_country": [
+      "Addresses",
+      "country"
+    ],
+    "Addresses_other_address_details": [
+      "Addresses",
+      "other_address_details"
+    ],
+    "Courses_course_id": [
+      "Courses",
+      "course_id"
+    ],
+    "Courses_course_name": [
+      "Courses",
+      "course_name"
+    ],
+    "Courses_course_description": [
+      "Courses",
+      "course_description"
+    ],
+    "Courses_other_details": [
+      "Courses",
+      "other_details"
+    ],
+    "Departments_department_id": [
+      "Departments",
+      "department_id"
+    ],
+    "Departments_department_name": [
+      "Departments",
+      "department_name"
+    ],
+    "Departments_department_description": [
+      "Departments",
+      "department_description"
+    ],
+    "Departments_other_details": [
+      "Departments",
+      "other_details"
+    ],
+    "Degree_Programs_degree_program_id": [
+      "Degree_Programs",
+      "degree_program_id"
+    ],
+    "Degree_Programs_department_id": [
+      "Degree_Programs",
+      "department_id"
+    ],
+    "Degree_Programs_degree_summary_name": [
+      "Degree_Programs",
+      "degree_summary_name"
+    ],
+    "Degree_Programs_degree_summary_description": [
+      "Degree_Programs",
+      "degree_summary_description"
+    ],
+    "Degree_Programs_other_details": [
+      "Degree_Programs",
+      "other_details"
+    ],
+    "Sections_section_id": [
+      "Sections",
+      "section_id"
+    ],
+    "Sections_course_id": [
+      "Sections",
+      "course_id"
+    ],
+    "Sections_section_name": [
+      "Sections",
+      "section_name"
+    ],
+    "Sections_section_description": [
+      "Sections",
+      "section_description"
+    ],
+    "Sections_other_details": [
+      "Sections",
+      "other_details"
+    ],
+    "Semesters_semester_id": [
+      "Semesters",
+      "semester_id"
+    ],
+    "Semesters_semester_name": [
+      "Semesters",
+      "semester_name"
+    ],
+    "Semesters_semester_description": [
+      "Semesters",
+      "semester_description"
+    ],
+    "Semesters_other_details": [
+      "Semesters",
+      "other_details"
+    ],
+    "Students_student_id": [
+      "Students",
+      "student_id"
+    ],
+    "Students_current_address_id": [
+      "Students",
+      "current_address_id"
+    ],
+    "Students_permanent_address_id": [
+      "Students",
+      "permanent_address_id"
+    ],
+    "Students_first_name": [
+      "Students",
+      "first_name"
+    ],
+    "Students_middle_name": [
+      "Students",
+      "middle_name"
+    ],
+    "Students_last_name": [
+      "Students",
+      "last_name"
+    ],
+    "Students_cell_mobile_number": [
+      "Students",
+      "cell_mobile_number"
+    ],
+    "Students_email_address": [
+      "Students",
+      "email_address"
+    ],
+    "Students_ssn": [
+      "Students",
+      "ssn"
+    ],
+    "Students_date_first_registered": [
+      "Students",
+      "date_first_registered"
+    ],
+    "Students_date_left": [
+      "Students",
+      "date_left"
+    ],
+    "Students_other_student_details": [
+      "Students",
+      "other_student_details"
+    ],
+    "Student_Enrolment_student_enrolment_id": [
+      "Student_Enrolment",
+      "student_enrolment_id"
+    ],
+    "Student_Enrolment_degree_program_id": [
+      "Student_Enrolment",
+      "degree_program_id"
+    ],
+    "Student_Enrolment_semester_id": [
+      "Student_Enrolment",
+      "semester_id"
+    ],
+    "Student_Enrolment_student_id": [
+      "Student_Enrolment",
+      "student_id"
+    ],
+    "Student_Enrolment_other_details": [
+      "Student_Enrolment",
+      "other_details"
+    ],
+    "Student_Enrolment_Courses_student_course_id": [
+      "Student_Enrolment_Courses",
+      "student_course_id"
+    ],
+    "Student_Enrolment_Courses_course_id": [
+      "Student_Enrolment_Courses",
+      "course_id"
+    ],
+    "Student_Enrolment_Courses_student_enrolment_id": [
+      "Student_Enrolment_Courses",
+      "student_enrolment_id"
+    ],
+    "Transcripts_transcript_id": [
+      "Transcripts",
+      "transcript_id"
+    ],
+    "Transcripts_transcript_date": [
+      "Transcripts",
+      "transcript_date"
+    ],
+    "Transcripts_other_details": [
+      "Transcripts",
+      "other_details"
+    ],
+    "Transcript_Contents_student_course_id": [
+      "Transcript_Contents",
+      "student_course_id"
+    ],
+    "Transcript_Contents_transcript_id": [
+      "Transcript_Contents",
+      "transcript_id"
+    ]
+  },
+  "object_property_fk": {
+    "Degree_Programs_Departments_fk0": [
+      "Degree_Programs.department_id",
+      "Departments.department_id"
+    ],
+    "Sections_Courses_fk1": [
+      "Sections.course_id",
+      "Courses.course_id"
+    ],
+    "Students_Addresses_fk2": [
+      "Students.permanent_address_id",
+      "Addresses.address_id"
+    ],
+    "Students_Addresses_fk3": [
+      "Students.current_address_id",
+      "Addresses.address_id"
+    ],
+    "Student_Enrolment_Students_fk4": [
+      "Student_Enrolment.student_id",
+      "Students.student_id"
+    ],
+    "Student_Enrolment_Semesters_fk5": [
+      "Student_Enrolment.semester_id",
+      "Semesters.semester_id"
+    ],
+    "Student_Enrolment_Degree_Programs_fk6": [
+      "Student_Enrolment.degree_program_id",
+      "Degree_Programs.degree_program_id"
+    ],
+    "Student_Enrolment_Courses_Student_Enrolment_fk7": [
+      "Student_Enrolment_Courses.student_enrolment_id",
+      "Student_Enrolment.student_enrolment_id"
+    ],
+    "Student_Enrolment_Courses_Courses_fk8": [
+      "Student_Enrolment_Courses.course_id",
+      "Courses.course_id"
+    ],
+    "Transcript_Contents_Transcripts_fk9": [
+      "Transcript_Contents.transcript_id",
+      "Transcripts.transcript_id"
+    ],
+    "Transcript_Contents_Student_Enrolment_Courses_fk10": [
+      "Transcript_Contents.student_course_id",
+      "Student_Enrolment_Courses.student_course_id"
+    ]
+  }
+}

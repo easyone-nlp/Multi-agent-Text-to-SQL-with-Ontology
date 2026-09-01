@@ -1,0 +1,280 @@
+{
+  "db_id": "race_track",
+  "classes": [
+    {
+      "name": "race",
+      "source_table": "race",
+      "ranking": 3.5,
+      "primary_label": "경기",
+      "synonyms": [
+        "경주",
+        "경주 이벤트",
+        "경주 정보",
+        "경주 행사",
+        "경주 기록"
+      ]
+    },
+    {
+      "name": "track",
+      "source_table": "track",
+      "ranking": 3.0,
+      "primary_label": "트랙",
+      "synonyms": [
+        "트랙",
+        "트랙 정보",
+        "트랙 데이터",
+        "트랙 위치",
+        "트랙 구조",
+        "트랙 설계"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "race_Race_ID",
+      "domain": "race",
+      "source_table": "race",
+      "source_column": "Race_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "경기 ID",
+      "synonyms": [
+        "경기 ID",
+        "RACE_ID",
+        "경기 고유 번호",
+        "경기 식별자",
+        "경기 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "race_Name",
+      "domain": "race",
+      "source_table": "race",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "경기 이름",
+        "제목",
+        "RACE_NAME",
+        "경기 제목"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "그랑프리": [
+          "그랑프리"
+        ],
+        "프리미엄 레이스": [
+          "프리미엄 레이스"
+        ]
+      }
+    },
+    {
+      "name": "race_Class",
+      "domain": "race",
+      "source_table": "race",
+      "source_column": "Class",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "클래스",
+      "synonyms": [
+        "분류",
+        "경기 유형",
+        "클래스",
+        "RACE_CLASS",
+        "경기 분류"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "F1": [
+          "F1"
+        ],
+        "F2": [
+          "F2"
+        ]
+      }
+    },
+    {
+      "name": "race_Date",
+      "domain": "race",
+      "source_table": "race",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "일자",
+      "synonyms": [
+        "날짜",
+        "경기일",
+        "일자",
+        "시기",
+        "일자 정보",
+        "날짜 정보",
+        "경기 일자",
+        "일자 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2024-05-10": [
+          "2024-05-10"
+        ]
+      }
+    },
+    {
+      "name": "race_Track_ID",
+      "domain": "race",
+      "source_table": "race",
+      "source_column": "Track_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "트랙 ID",
+      "synonyms": [
+        "트랙 ID",
+        "트랙 번호",
+        "트랙 식별자",
+        "트랙 코드",
+        "트랙 고유 ID",
+        "트랙 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "track_Track_ID",
+      "domain": "track",
+      "source_table": "track",
+      "source_column": "Track_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "트랙 ID",
+      "synonyms": [
+        "트랙 ID",
+        "트랙 식별 번호",
+        "트랙 고유 번호",
+        "트랙 번호",
+        "Track_ID",
+        "트랙 아이디",
+        "트랙 고유 ID",
+        "트랙 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "track_Name",
+      "domain": "track",
+      "source_table": "track",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "트랙 1": [
+          "트랙1"
+        ],
+        "트랙 2": [
+          "트랙2"
+        ]
+      }
+    },
+    {
+      "name": "track_Location",
+      "domain": "track",
+      "source_table": "track",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "location",
+      "synonyms": [
+        "위치",
+        "지역",
+        "위치 정보",
+        "위치명",
+        "장소",
+        "위치 데이터",
+        "지역 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "track_Seating",
+      "domain": "track",
+      "source_table": "track",
+      "source_column": "Seating",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "seating",
+      "synonyms": [
+        "좌석 수",
+        "좌석",
+        "총 앉은 인원",
+        "좌석 수치",
+        "사용 가능한 좌석",
+        "시원한 자리"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "track_Year_Opened",
+      "domain": "track",
+      "source_table": "track",
+      "source_column": "Year_Opened",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year opened",
+      "synonyms": [
+        "개장 연도",
+        "개장년도",
+        "연도",
+        "운영 시작 연도",
+        "개장 시기",
+        "운영 시작년도",
+        "연도 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "race_track_fk0",
+      "domain": "race",
+      "range": "track",
+      "source_fk": [
+        "race.Track_ID",
+        "track.Track_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "트랙 연결",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

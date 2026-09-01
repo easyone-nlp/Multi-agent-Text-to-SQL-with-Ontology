@@ -1,0 +1,830 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "allergy type",
+      "target_class": "Allergy_Type",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "알레르기 분류",
+      "target_class": "Allergy_Type",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "알레르기 유형",
+      "target_class": "Allergy_Type",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "알레르기 카테고리",
+      "target_class": "Allergy_Type",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "알레르기 종류",
+      "target_class": "Allergy_Type",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "알레르기 분류 코드",
+      "target_class": "Allergy_Type",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "has allergy",
+      "target_class": "Has_Allergy",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "알레르기 소유",
+      "target_class": "Has_Allergy",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "알레르기 보유",
+      "target_class": "Has_Allergy",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "알레르기 소유 관계",
+      "target_class": "Has_Allergy",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "알레르기 보유 관계",
+      "target_class": "Has_Allergy",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "알레르기 소유 정보",
+      "target_class": "Has_Allergy",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 정보",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 데이터",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 기록",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 정보 저장",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "allergy name",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_Allergy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 이름",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_Allergy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_Allergy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기명",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_Allergy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 종류",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_Allergy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 코드",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_Allergy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 타이틀",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_Allergy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "allergy type",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_AllergyType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 유형",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_AllergyType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 타입",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_AllergyType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 종류",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_AllergyType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 구분",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_AllergyType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 카테고리",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_AllergyType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 분류",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_AllergyType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stuid",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "StuID",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번 번호",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 식별자",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번 정보",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 고유 번호",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "allergy",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_Allergy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Allergy",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_Allergy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 유형",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_Allergy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 종류",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_Allergy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 정보",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_Allergy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 코드",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_Allergy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 타입",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_Allergy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "알레르기 명",
+      "target_class": "Has_Allergy",
+      "target_property": "Has_Allergy_Allergy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stuid",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "StuID",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번 번호",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번 정보",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 고유 ID",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번 코드",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last name",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "LName",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 이름",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후성",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성자",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "first name",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Fname",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전성",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 입력",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 필드",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "age",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 정보",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 열",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 열",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 기준",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 기준",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "sex",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 정보",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "남녀",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 구분",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 코드",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 분류",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "major",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 번호",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 코드",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 정보",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 번호 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 코드 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 기준",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 구분",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "advisor",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "조언자",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토 번호",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토 ID",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "조언자 ID",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토자",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토 코드",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "조언자 코드",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city code",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주 도시 코드",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드 정보",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드 값",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드 번호",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드 아이디",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드 식별자",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "알레르기",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_Allergy",
+      "value": "알레르기"
+    },
+    {
+      "entry_type": "value",
+      "key": "식물 알레르기",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_Allergy",
+      "value": "식물 알레르기"
+    },
+    {
+      "entry_type": "value",
+      "key": "과일 알레르기",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_Allergy",
+      "value": "과일 알레르기"
+    },
+    {
+      "entry_type": "value",
+      "key": "피부 알레르기",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_AllergyType",
+      "value": "피부 알레르기"
+    },
+    {
+      "entry_type": "value",
+      "key": "호흡기 알레르기",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_AllergyType",
+      "value": "호흡기 알레르기"
+    },
+    {
+      "entry_type": "value",
+      "key": "식물 알레르기",
+      "target_class": "Allergy_Type",
+      "target_property": "Allergy_Type_AllergyType",
+      "value": "식물 알레르기"
+    }
+  ]
+}

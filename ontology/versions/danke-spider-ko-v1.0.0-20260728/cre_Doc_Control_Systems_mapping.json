@@ -1,0 +1,211 @@
+{
+  "class_table": {
+    "Ref_Document_Types": "Ref_Document_Types",
+    "Roles": "Roles",
+    "Addresses": "Addresses",
+    "Ref_Document_Status": "Ref_Document_Status",
+    "Ref_Shipping_Agents": "Ref_Shipping_Agents",
+    "Documents": "Documents",
+    "Employees": "Employees",
+    "Document_Drafts": "Document_Drafts",
+    "Draft_Copies": "Draft_Copies",
+    "Circulation_History": "Circulation_History",
+    "Documents_Mailed": "Documents_Mailed"
+  },
+  "property_column": {
+    "Ref_Document_Types_document_type_code": [
+      "Ref_Document_Types",
+      "document_type_code"
+    ],
+    "Ref_Document_Types_document_type_description": [
+      "Ref_Document_Types",
+      "document_type_description"
+    ],
+    "Roles_role_code": [
+      "Roles",
+      "role_code"
+    ],
+    "Roles_role_description": [
+      "Roles",
+      "role_description"
+    ],
+    "Addresses_address_id": [
+      "Addresses",
+      "address_id"
+    ],
+    "Addresses_address_details": [
+      "Addresses",
+      "address_details"
+    ],
+    "Ref_Document_Status_document_status_code": [
+      "Ref_Document_Status",
+      "document_status_code"
+    ],
+    "Ref_Document_Status_document_status_description": [
+      "Ref_Document_Status",
+      "document_status_description"
+    ],
+    "Ref_Shipping_Agents_shipping_agent_code": [
+      "Ref_Shipping_Agents",
+      "shipping_agent_code"
+    ],
+    "Ref_Shipping_Agents_shipping_agent_name": [
+      "Ref_Shipping_Agents",
+      "shipping_agent_name"
+    ],
+    "Ref_Shipping_Agents_shipping_agent_description": [
+      "Ref_Shipping_Agents",
+      "shipping_agent_description"
+    ],
+    "Documents_document_id": [
+      "Documents",
+      "document_id"
+    ],
+    "Documents_document_status_code": [
+      "Documents",
+      "document_status_code"
+    ],
+    "Documents_document_type_code": [
+      "Documents",
+      "document_type_code"
+    ],
+    "Documents_shipping_agent_code": [
+      "Documents",
+      "shipping_agent_code"
+    ],
+    "Documents_receipt_date": [
+      "Documents",
+      "receipt_date"
+    ],
+    "Documents_receipt_number": [
+      "Documents",
+      "receipt_number"
+    ],
+    "Documents_other_details": [
+      "Documents",
+      "other_details"
+    ],
+    "Employees_employee_id": [
+      "Employees",
+      "employee_id"
+    ],
+    "Employees_role_code": [
+      "Employees",
+      "role_code"
+    ],
+    "Employees_employee_name": [
+      "Employees",
+      "employee_name"
+    ],
+    "Employees_other_details": [
+      "Employees",
+      "other_details"
+    ],
+    "Document_Drafts_document_id": [
+      "Document_Drafts",
+      "document_id"
+    ],
+    "Document_Drafts_draft_number": [
+      "Document_Drafts",
+      "draft_number"
+    ],
+    "Document_Drafts_draft_details": [
+      "Document_Drafts",
+      "draft_details"
+    ],
+    "Draft_Copies_document_id": [
+      "Draft_Copies",
+      "document_id"
+    ],
+    "Draft_Copies_draft_number": [
+      "Draft_Copies",
+      "draft_number"
+    ],
+    "Draft_Copies_copy_number": [
+      "Draft_Copies",
+      "copy_number"
+    ],
+    "Circulation_History_document_id": [
+      "Circulation_History",
+      "document_id"
+    ],
+    "Circulation_History_draft_number": [
+      "Circulation_History",
+      "draft_number"
+    ],
+    "Circulation_History_copy_number": [
+      "Circulation_History",
+      "copy_number"
+    ],
+    "Circulation_History_employee_id": [
+      "Circulation_History",
+      "employee_id"
+    ],
+    "Documents_Mailed_document_id": [
+      "Documents_Mailed",
+      "document_id"
+    ],
+    "Documents_Mailed_mailed_to_address_id": [
+      "Documents_Mailed",
+      "mailed_to_address_id"
+    ],
+    "Documents_Mailed_mailing_date": [
+      "Documents_Mailed",
+      "mailing_date"
+    ]
+  },
+  "object_property_fk": {
+    "Documents_Ref_Shipping_Agents_fk0": [
+      "Documents.shipping_agent_code",
+      "Ref_Shipping_Agents.shipping_agent_code"
+    ],
+    "Documents_Ref_Document_Status_fk1": [
+      "Documents.document_status_code",
+      "Ref_Document_Status.document_status_code"
+    ],
+    "Documents_Ref_Document_Types_fk2": [
+      "Documents.document_type_code",
+      "Ref_Document_Types.document_type_code"
+    ],
+    "Employees_Roles_fk3": [
+      "Employees.role_code",
+      "Roles.role_code"
+    ],
+    "Document_Drafts_Documents_fk4": [
+      "Document_Drafts.document_id",
+      "Documents.document_id"
+    ],
+    "Draft_Copies_Document_Drafts_fk5": [
+      "Draft_Copies.document_id",
+      "Document_Drafts.document_id"
+    ],
+    "Draft_Copies_Document_Drafts_fk6": [
+      "Draft_Copies.draft_number",
+      "Document_Drafts.draft_number"
+    ],
+    "Circulation_History_Employees_fk7": [
+      "Circulation_History.employee_id",
+      "Employees.employee_id"
+    ],
+    "Circulation_History_Draft_Copies_fk8": [
+      "Circulation_History.document_id",
+      "Draft_Copies.document_id"
+    ],
+    "Circulation_History_Draft_Copies_fk9": [
+      "Circulation_History.draft_number",
+      "Draft_Copies.draft_number"
+    ],
+    "Circulation_History_Draft_Copies_fk10": [
+      "Circulation_History.copy_number",
+      "Draft_Copies.copy_number"
+    ],
+    "Documents_Mailed_Addresses_fk11": [
+      "Documents_Mailed.mailed_to_address_id",
+      "Addresses.address_id"
+    ],
+    "Documents_Mailed_Documents_fk12": [
+      "Documents_Mailed.document_id",
+      "Documents.document_id"
+    ]
+  }
+}

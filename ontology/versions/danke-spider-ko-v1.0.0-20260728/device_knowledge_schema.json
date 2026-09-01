@@ -1,0 +1,432 @@
+{
+  "db_id": "device",
+  "classes": [
+    {
+      "name": "device",
+      "source_table": "device",
+      "ranking": 3.0,
+      "primary_label": "기기",
+      "synonyms": [
+        "장비",
+        "장비 정보",
+        "장비 데이터",
+        "장비 목록",
+        "장비 테이블"
+      ]
+    },
+    {
+      "name": "shop",
+      "source_table": "shop",
+      "ranking": 1.0,
+      "primary_label": "shop",
+      "synonyms": [
+        "상점",
+        "상점 정보",
+        "상점 데이터",
+        "상점 목록",
+        "상점 테이블"
+      ]
+    },
+    {
+      "name": "stock",
+      "source_table": "stock",
+      "ranking": 3.0,
+      "primary_label": "재고",
+      "synonyms": [
+        "재고",
+        "재고 정보",
+        "재고 데이터",
+        "재고 목록",
+        "재고 테이블"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "device_Device_ID",
+      "domain": "device",
+      "source_table": "device",
+      "source_column": "Device_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "기기 ID",
+      "synonyms": [
+        "장치 ID",
+        "장치 고유 번호",
+        "장치 식별자",
+        "장치 번호",
+        "Device_ID",
+        "장치 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "device_Device",
+      "domain": "device",
+      "source_table": "device",
+      "source_column": "Device",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "기기",
+      "synonyms": [
+        "장치 이름",
+        "장치 모델",
+        "장치 타입",
+        "장치명",
+        "Device",
+        "장치"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "스마트폰": [
+          "스마트폰",
+          "smartphone"
+        ],
+        "태블릿": [
+          "태블릿",
+          "tablet"
+        ],
+        "노트북": [
+          "노트북",
+          "laptop"
+        ]
+      }
+    },
+    {
+      "name": "device_Carrier",
+      "domain": "device",
+      "source_table": "device",
+      "source_column": "Carrier",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "운영자",
+      "synonyms": [
+        "통신사",
+        "운营商",
+        "통신 회사",
+        "카ARRIER",
+        "Carrier",
+        "통신사 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "SK텔레콤": [
+          "SK텔레콤",
+          "SKT"
+        ],
+        "KT": [
+          "KT"
+        ],
+        "LG유플러스": [
+          "LG유플러스",
+          "LG U+"
+        ]
+      }
+    },
+    {
+      "name": "device_Package_Version",
+      "domain": "device",
+      "source_table": "device",
+      "source_column": "Package_Version",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "패키지 버전",
+      "synonyms": [
+        "패키지 버전",
+        "프로덕트 버전",
+        "패키지 버전 정보",
+        "버전 번호",
+        "package version",
+        "버전",
+        "버전 정보",
+        "패키지"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "V1.0": [
+          "V1.0"
+        ],
+        "V2.5": [
+          "V2.5"
+        ]
+      }
+    },
+    {
+      "name": "device_Applications",
+      "domain": "device",
+      "source_table": "device",
+      "source_column": "Applications",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "응용 프로그램",
+      "synonyms": [
+        "애플리케이션",
+        "앱",
+        "사용 가능한 앱",
+        "운영 중 앱",
+        "사용 앱",
+        "앱 목록",
+        "앱 정보",
+        "applications"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "메신저": [
+          "메신저",
+          "chat app"
+        ],
+        "게임": [
+          "게임",
+          "game"
+        ],
+        "금융 앱": [
+          "금융 앱",
+          "financial app"
+        ]
+      }
+    },
+    {
+      "name": "device_Software_Platform",
+      "domain": "device",
+      "source_table": "device",
+      "source_column": "Software_Platform",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "소프트웨어 플랫폼",
+      "synonyms": [
+        "소프트웨어 플랫폼",
+        "플랫폼",
+        "운영체제",
+        "시스템",
+        "소프트웨어",
+        "플랫폼 정보",
+        "software platform",
+        "운영체제 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Android": [
+          "Android"
+        ],
+        "iOS": [
+          "iOS"
+        ],
+        "Windows": [
+          "Windows"
+        ]
+      }
+    },
+    {
+      "name": "shop_Shop_ID",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "Shop_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "shop id",
+      "synonyms": [
+        "Shop_ID",
+        "상점 ID",
+        "상점 번호",
+        "상점 식별자",
+        "식별 번호",
+        "상점 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "shop_Shop_Name",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "Shop_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "shop name",
+      "synonyms": [
+        "Shop_Name",
+        "상점 이름",
+        "상점명",
+        "상점 제목",
+        "상점 대표 이름",
+        "상점 호칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "shop_Location",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "location",
+      "synonyms": [
+        "Location",
+        "위치",
+        "상점 위치",
+        "shop location",
+        "위치 정보",
+        "상점 위치 데이터",
+        "상점 주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "shop_Open_Date",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "Open_Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "open date",
+      "synonyms": [
+        "개업일",
+        "오픈일",
+        "개점일",
+        "개업 날짜",
+        "개업일자",
+        "Shop_Open_Date",
+        "Open_Date"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "shop_Open_Year",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "Open_Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "open year",
+      "synonyms": [
+        "개업년도",
+        "오픈년도",
+        "개점년도",
+        "Shop_Open_Year",
+        "Open_Year",
+        "개업 연도",
+        "상점 개업 연도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stock_Shop_ID",
+      "domain": "stock",
+      "source_table": "stock",
+      "source_column": "Shop_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "상점 ID",
+      "synonyms": [
+        "Shop_ID",
+        "매장 ID",
+        "숍 ID",
+        "매장 식별자",
+        "숍 식별 번호",
+        "매장 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stock_Device_ID",
+      "domain": "stock",
+      "source_table": "stock",
+      "source_column": "Device_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "장치 ID",
+      "synonyms": [
+        "Device_ID",
+        "장비 ID",
+        "디바이스 ID",
+        "장비 식별자",
+        "디바이스 식별 번호",
+        "장비 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stock_Quantity",
+      "domain": "stock",
+      "source_table": "stock",
+      "source_column": "Quantity",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 4.0,
+      "primary_label": "수량",
+      "synonyms": [
+        "Quantity",
+        "수량",
+        "보유 수량",
+        "재고 수량",
+        "개수",
+        "재고"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "stock_device_fk0",
+      "domain": "stock",
+      "range": "device",
+      "source_fk": [
+        "stock.Device_ID",
+        "device.Device_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "stock_shop_fk1",
+      "domain": "stock",
+      "range": "shop",
+      "source_fk": [
+        "stock.Shop_ID",
+        "shop.Shop_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

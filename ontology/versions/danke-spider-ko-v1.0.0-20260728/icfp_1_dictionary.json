@@ -1,0 +1,816 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "기관",
+      "target_class": "Inst",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "소속",
+      "target_class": "Inst",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "기관명",
+      "target_class": "Inst",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "기관정보",
+      "target_class": "Inst",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "소속기관",
+      "target_class": "Inst",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자",
+      "target_class": "Authors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "작가",
+      "target_class": "Authors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "작성자",
+      "target_class": "Authors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저술자",
+      "target_class": "Authors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자명",
+      "target_class": "Authors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "논문",
+      "target_class": "Papers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "논문작품",
+      "target_class": "Papers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술논문",
+      "target_class": "Papers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "논문작성물",
+      "target_class": "Papers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "논문정보",
+      "target_class": "Papers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자 수",
+      "target_class": "Authorship",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자 정보",
+      "target_class": "Authorship",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "작가 정보",
+      "target_class": "Authorship",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저작권자",
+      "target_class": "Authorship",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자성",
+      "target_class": "Authorship",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자 관련",
+      "target_class": "Authorship",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자 데이터",
+      "target_class": "Authorship",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "작가 데이터",
+      "target_class": "Authorship",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자 연결",
+      "target_class": "Authorship",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기관 ID",
+      "target_class": "Inst",
+      "target_property": "Inst_instID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인스티튜션 ID",
+      "target_class": "Inst",
+      "target_property": "Inst_instID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술 기관 ID",
+      "target_class": "Inst",
+      "target_property": "Inst_instID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "instID",
+      "target_class": "Inst",
+      "target_property": "Inst_instID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기관 식별 번호",
+      "target_class": "Inst",
+      "target_property": "Inst_instID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술 기관 식별자",
+      "target_class": "Inst",
+      "target_property": "Inst_instID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기관 이름",
+      "target_class": "Inst",
+      "target_property": "Inst_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Inst",
+      "target_property": "Inst_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술 기관 이름",
+      "target_class": "Inst",
+      "target_property": "Inst_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "Inst",
+      "target_property": "Inst_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기관명",
+      "target_class": "Inst",
+      "target_property": "Inst_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술 기관 명",
+      "target_class": "Inst",
+      "target_property": "Inst_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "Inst",
+      "target_property": "Inst_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술 기관 국가",
+      "target_class": "Inst",
+      "target_property": "Inst_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "country",
+      "target_class": "Inst",
+      "target_property": "Inst_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기관 위치 국가",
+      "target_class": "Inst",
+      "target_property": "Inst_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "Inst",
+      "target_property": "Inst_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저자 ID",
+      "target_class": "Authors",
+      "target_property": "Authors_authID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "authID",
+      "target_class": "Authors",
+      "target_property": "Authors_authID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가 ID",
+      "target_class": "Authors",
+      "target_property": "Authors_authID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가 식별번호",
+      "target_class": "Authors",
+      "target_property": "Authors_authID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가 고유번호",
+      "target_class": "Authors",
+      "target_property": "Authors_authID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "author_id",
+      "target_class": "Authors",
+      "target_property": "Authors_authID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Authors",
+      "target_property": "Authors_lname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "lname",
+      "target_class": "Authors",
+      "target_property": "Authors_lname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가 성",
+      "target_class": "Authors",
+      "target_property": "Authors_lname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 이름",
+      "target_class": "Authors",
+      "target_property": "Authors_lname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가의 성",
+      "target_class": "Authors",
+      "target_property": "Authors_lname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last_name",
+      "target_class": "Authors",
+      "target_property": "Authors_lname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Authors",
+      "target_property": "Authors_fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "fname",
+      "target_class": "Authors",
+      "target_property": "Authors_fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가 이름",
+      "target_class": "Authors",
+      "target_property": "Authors_fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "Authors",
+      "target_property": "Authors_fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가의 이름",
+      "target_class": "Authors",
+      "target_property": "Authors_fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "first_name",
+      "target_class": "Authors",
+      "target_property": "Authors_fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 ID",
+      "target_class": "Papers",
+      "target_property": "Papers_paperID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "paperID",
+      "target_class": "Papers",
+      "target_property": "Papers_paperID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 식별 번호",
+      "target_class": "Papers",
+      "target_property": "Papers_paperID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 고유 번호",
+      "target_class": "Papers",
+      "target_property": "Papers_paperID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "paper identifier",
+      "target_class": "Papers",
+      "target_property": "Papers_paperID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 번호",
+      "target_class": "Papers",
+      "target_property": "Papers_paperID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "Papers",
+      "target_property": "Papers_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 제목",
+      "target_class": "Papers",
+      "target_property": "Papers_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목 정보",
+      "target_class": "Papers",
+      "target_property": "Papers_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 제목 정보",
+      "target_class": "Papers",
+      "target_property": "Papers_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 제목을 나타내는 필드",
+      "target_class": "Papers",
+      "target_property": "Papers_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목 필드",
+      "target_class": "Papers",
+      "target_property": "Papers_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 제목 데이터",
+      "target_class": "Papers",
+      "target_property": "Papers_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목 데이터",
+      "target_class": "Papers",
+      "target_property": "Papers_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저자 ID",
+      "target_class": "Authorship",
+      "target_property": "Authorship_authID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "authID",
+      "target_class": "Authorship",
+      "target_property": "Authorship_authID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자 ID",
+      "target_class": "Authorship",
+      "target_property": "Authorship_authID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저자 식별자",
+      "target_class": "Authorship",
+      "target_property": "Authorship_authID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "author ID",
+      "target_class": "Authorship",
+      "target_property": "Authorship_authID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자 고유 번호",
+      "target_class": "Authorship",
+      "target_property": "Authorship_authID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저자 코드",
+      "target_class": "Authorship",
+      "target_property": "Authorship_authID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기관 ID",
+      "target_class": "Authorship",
+      "target_property": "Authorship_instID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "instID",
+      "target_class": "Authorship",
+      "target_property": "Authorship_instID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기관 식별자",
+      "target_class": "Authorship",
+      "target_property": "Authorship_instID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연구소 ID",
+      "target_class": "Authorship",
+      "target_property": "Authorship_instID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기관 코드",
+      "target_class": "Authorship",
+      "target_property": "Authorship_instID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기관 번호",
+      "target_class": "Authorship",
+      "target_property": "Authorship_instID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연구 기관 ID",
+      "target_class": "Authorship",
+      "target_property": "Authorship_instID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기관 식별",
+      "target_class": "Authorship",
+      "target_property": "Authorship_instID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 ID",
+      "target_class": "Authorship",
+      "target_property": "Authorship_paperID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "paperID",
+      "target_class": "Authorship",
+      "target_property": "Authorship_paperID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 식별자",
+      "target_class": "Authorship",
+      "target_property": "Authorship_paperID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 번호",
+      "target_class": "Authorship",
+      "target_property": "Authorship_paperID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 코드",
+      "target_class": "Authorship",
+      "target_property": "Authorship_paperID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 고유 번호",
+      "target_class": "Authorship",
+      "target_property": "Authorship_paperID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 식별",
+      "target_class": "Authorship",
+      "target_property": "Authorship_paperID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저자 순서",
+      "target_class": "Authorship",
+      "target_property": "Authorship_authOrder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "authOrder",
+      "target_class": "Authorship",
+      "target_property": "Authorship_authOrder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공동 저자 순서",
+      "target_class": "Authorship",
+      "target_property": "Authorship_authOrder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저자 순번",
+      "target_class": "Authorship",
+      "target_property": "Authorship_authOrder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "author order",
+      "target_class": "Authorship",
+      "target_property": "Authorship_authOrder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "author sequence",
+      "target_class": "Authorship",
+      "target_property": "Authorship_authOrder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "auth seq",
+      "target_class": "Authorship",
+      "target_property": "Authorship_authOrder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "auth rank",
+      "target_class": "Authorship",
+      "target_property": "Authorship_authOrder",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "한국대학교",
+      "target_class": "Inst",
+      "target_property": "Inst_name",
+      "value": "한국대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국대",
+      "target_class": "Inst",
+      "target_property": "Inst_name",
+      "value": "한국대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울대학교",
+      "target_class": "Inst",
+      "target_property": "Inst_name",
+      "value": "서울대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울대",
+      "target_class": "Inst",
+      "target_property": "Inst_name",
+      "value": "서울대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "대한민국",
+      "target_class": "Inst",
+      "target_property": "Inst_country",
+      "value": "대한민국"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국",
+      "target_class": "Inst",
+      "target_property": "Inst_country",
+      "value": "대한민국"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국",
+      "target_class": "Inst",
+      "target_property": "Inst_country",
+      "value": "미국"
+    },
+    {
+      "entry_type": "value",
+      "key": "김",
+      "target_class": "Authors",
+      "target_property": "Authors_lname",
+      "value": "김"
+    },
+    {
+      "entry_type": "value",
+      "key": "박",
+      "target_class": "Authors",
+      "target_property": "Authors_lname",
+      "value": "박"
+    },
+    {
+      "entry_type": "value",
+      "key": "민수",
+      "target_class": "Authors",
+      "target_property": "Authors_fname",
+      "value": "민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "지영",
+      "target_class": "Authors",
+      "target_property": "Authors_fname",
+      "value": "지영"
+    },
+    {
+      "entry_type": "value",
+      "key": "머신러닝 기반 예측 모델",
+      "target_class": "Papers",
+      "target_property": "Papers_title",
+      "value": "머신러닝 기반 예측 모델"
+    },
+    {
+      "entry_type": "value",
+      "key": "딥러닝을 활용한 자연어 처리",
+      "target_class": "Papers",
+      "target_property": "Papers_title",
+      "value": "딥러닝을 활용한 자연어 처리"
+    }
+  ]
+}

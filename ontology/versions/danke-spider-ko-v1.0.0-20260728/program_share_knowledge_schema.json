@@ -1,0 +1,506 @@
+{
+  "db_id": "program_share",
+  "classes": [
+    {
+      "name": "program",
+      "source_table": "program",
+      "ranking": 3.0,
+      "primary_label": "프로그램",
+      "synonyms": [
+        "프로그램",
+        "프로그램 정보",
+        "영상 콘텐츠",
+        "컨텐츠",
+        "영상"
+      ]
+    },
+    {
+      "name": "channel",
+      "source_table": "channel",
+      "ranking": 3.5,
+      "primary_label": "채널",
+      "synonyms": [
+        "채널",
+        "채널 정보",
+        "방송 채널",
+        "전송 경로",
+        "채널 번호"
+      ]
+    },
+    {
+      "name": "broadcast",
+      "source_table": "broadcast",
+      "ranking": 3.0,
+      "primary_label": "방송 정보",
+      "synonyms": [
+        "방송",
+        "방송 정보",
+        "라이브 스트리밍",
+        "전송",
+        "전파"
+      ]
+    },
+    {
+      "name": "broadcast_share",
+      "source_table": "broadcast_share",
+      "ranking": 3.0,
+      "primary_label": "broadcast share",
+      "synonyms": [
+        "방송 공유",
+        "방송 분배",
+        "방송 공유 데이터",
+        "방송 공유 정보",
+        "방송 공유 기록",
+        "방송 공유 통계"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "program_Program_ID",
+      "domain": "program",
+      "source_table": "program",
+      "source_column": "Program_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "프로그램 ID",
+      "synonyms": [
+        "Program_ID",
+        "프로그램 ID",
+        "프로그램 고유 번호",
+        "ID",
+        "프로그램 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "program_Name",
+      "domain": "program",
+      "source_table": "program",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "Name",
+        "프로그램 이름",
+        "제목",
+        "제목명",
+        "이름",
+        "프로그램 제목"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "KBS1": [
+          "KBS1",
+          "KBS 1"
+        ],
+        "MBC": [
+          "MBC",
+          "MBC 방송"
+        ]
+      }
+    },
+    {
+      "name": "program_Origin",
+      "domain": "program",
+      "source_table": "program",
+      "source_column": "Origin",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "출처",
+      "synonyms": [
+        "Origin",
+        "출처",
+        "출발지",
+        "원점",
+        "소스",
+        "프로그램 출처"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국": [
+          "한국",
+          "Korea"
+        ],
+        "외국": [
+          "외국",
+          "국제"
+        ]
+      }
+    },
+    {
+      "name": "program_Launch",
+      "domain": "program",
+      "source_table": "program",
+      "source_column": "Launch",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "시작 일자",
+      "synonyms": [
+        "launch",
+        "출시년도",
+        "발매년도",
+        "출시일",
+        "발매일",
+        "연도",
+        "시작년도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "program_Owner",
+      "domain": "program",
+      "source_table": "program",
+      "source_column": "Owner",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "소유자",
+      "synonyms": [
+        "owner",
+        "소유자",
+        "소유자명",
+        "주인",
+        "사용자",
+        "제작자",
+        "운영자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "KBS": [
+          "KBS",
+          "Korean Broadcasting System"
+        ],
+        "MBC": [
+          "MBC",
+          "Munhwa Broadcasting Corporation"
+        ]
+      }
+    },
+    {
+      "name": "channel_Channel_ID",
+      "domain": "channel",
+      "source_table": "channel",
+      "source_column": "Channel_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "채널 ID",
+      "synonyms": [
+        "채널 ID",
+        "채널 번호",
+        "채널 식별자",
+        "채널 고유번호",
+        "ID",
+        "채널 아이디",
+        "채널 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "channel_Name",
+      "domain": "channel",
+      "source_table": "channel",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "채널명",
+        "채널 이름",
+        "채널",
+        "채널명칭",
+        "채널 제목"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "KBS": [
+          "KBS",
+          "kbs"
+        ],
+        "MBC": [
+          "MBC",
+          "mbc"
+        ]
+      }
+    },
+    {
+      "name": "channel_Owner",
+      "domain": "channel",
+      "source_table": "channel",
+      "source_column": "Owner",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "소유자",
+      "synonyms": [
+        "소유자",
+        "주인",
+        "소유자 이름",
+        "채널 소유자",
+        "소유자명",
+        "채널 주인"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김철수": [
+          "김철수",
+          "김철수"
+        ]
+      }
+    },
+    {
+      "name": "channel_Share_in_percent",
+      "domain": "channel",
+      "source_table": "channel",
+      "source_column": "Share_in_percent",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "공유 비율",
+      "synonyms": [
+        "공유 비율",
+        "공유 비중",
+        "공유 비율 수치",
+        "공유 비율 정보",
+        "공유 비율 데이터",
+        "공유 비율 값",
+        "공유 비율 측정",
+        "공유 비율 계산"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "channel_Rating_in_percent",
+      "domain": "channel",
+      "source_table": "channel",
+      "source_column": "Rating_in_percent",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "평가 비율",
+      "synonyms": [
+        "평가 비율",
+        "평가 비중",
+        "평가 비율 수치",
+        "평가 비율 정보",
+        "평가 비율 데이터",
+        "평가 비율 값",
+        "평가 비율 측정",
+        "평가 비율 계산"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "broadcast_Channel_ID",
+      "domain": "broadcast",
+      "source_table": "broadcast",
+      "source_column": "Channel_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "채널 ID",
+      "synonyms": [
+        "채널 ID",
+        "채널 식별 번호",
+        "채널 번호",
+        "채널 고유 ID",
+        "채널 코드",
+        "채널 식별자",
+        "Channel_ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "broadcast_Program_ID",
+      "domain": "broadcast",
+      "source_table": "broadcast",
+      "source_column": "Program_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "프로그램 ID",
+      "synonyms": [
+        "프로그램 ID",
+        "프로그램 식별 번호",
+        "프로그램 번호",
+        "프로그램 고유 ID",
+        "프로그램 코드",
+        "프로그램 식별자",
+        "Program_ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "broadcast_Time_of_day",
+      "domain": "broadcast",
+      "source_table": "broadcast",
+      "source_column": "Time_of_day",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "시간대",
+      "synonyms": [
+        "시간",
+        "시간대",
+        "방송 시간",
+        "시간대 정보",
+        "시간대별",
+        "시간대 지정"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "오전": [
+          "오전"
+        ],
+        "오후": [
+          "오후"
+        ],
+        "저녁": [
+          "저녁"
+        ]
+      }
+    },
+    {
+      "name": "broadcast_share_Channel_ID",
+      "domain": "broadcast_share",
+      "source_table": "broadcast_share",
+      "source_column": "Channel_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "channel id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "broadcast_share_Program_ID",
+      "domain": "broadcast_share",
+      "source_table": "broadcast_share",
+      "source_column": "Program_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "program id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "broadcast_share_Date",
+      "domain": "broadcast_share",
+      "source_table": "broadcast_share",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "date",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-01": [
+          "2023년 10월 1일"
+        ]
+      }
+    },
+    {
+      "name": "broadcast_share_Share_in_percent",
+      "domain": "broadcast_share",
+      "source_table": "broadcast_share",
+      "source_column": "Share_in_percent",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "share in percent",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "broadcast_program_fk0",
+      "domain": "broadcast",
+      "range": "program",
+      "source_fk": [
+        "broadcast.Program_ID",
+        "program.Program_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "프로그램 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "broadcast_channel_fk1",
+      "domain": "broadcast",
+      "range": "channel",
+      "source_fk": [
+        "broadcast.Channel_ID",
+        "channel.Channel_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "채널 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "broadcast_share_program_fk2",
+      "domain": "broadcast_share",
+      "range": "program",
+      "source_fk": [
+        "broadcast_share.Program_ID",
+        "program.Program_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "프로그램 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "broadcast_share_channel_fk3",
+      "domain": "broadcast_share",
+      "range": "channel",
+      "source_fk": [
+        "broadcast_share.Channel_ID",
+        "channel.Channel_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "채널 소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

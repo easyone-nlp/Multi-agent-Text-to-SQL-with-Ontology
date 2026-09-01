@@ -1,0 +1,95 @@
+{
+  "class_table": {
+    "book_club": "book_club",
+    "movie": "movie",
+    "culture_company": "culture_company"
+  },
+  "property_column": {
+    "book_club_book_club_id": [
+      "book_club",
+      "book_club_id"
+    ],
+    "book_club_Year": [
+      "book_club",
+      "Year"
+    ],
+    "book_club_Author_or_Editor": [
+      "book_club",
+      "Author_or_Editor"
+    ],
+    "book_club_Book_Title": [
+      "book_club",
+      "Book_Title"
+    ],
+    "book_club_Publisher": [
+      "book_club",
+      "Publisher"
+    ],
+    "book_club_Category": [
+      "book_club",
+      "Category"
+    ],
+    "book_club_Result": [
+      "book_club",
+      "Result"
+    ],
+    "movie_movie_id": [
+      "movie",
+      "movie_id"
+    ],
+    "movie_Title": [
+      "movie",
+      "Title"
+    ],
+    "movie_Year": [
+      "movie",
+      "Year"
+    ],
+    "movie_Director": [
+      "movie",
+      "Director"
+    ],
+    "movie_Budget_million": [
+      "movie",
+      "Budget_million"
+    ],
+    "movie_Gross_worldwide": [
+      "movie",
+      "Gross_worldwide"
+    ],
+    "culture_company_Company_name": [
+      "culture_company",
+      "Company_name"
+    ],
+    "culture_company_Type": [
+      "culture_company",
+      "Type"
+    ],
+    "culture_company_Incorporated_in": [
+      "culture_company",
+      "Incorporated_in"
+    ],
+    "culture_company_Group_Equity_Shareholding": [
+      "culture_company",
+      "Group_Equity_Shareholding"
+    ],
+    "culture_company_book_club_id": [
+      "culture_company",
+      "book_club_id"
+    ],
+    "culture_company_movie_id": [
+      "culture_company",
+      "movie_id"
+    ]
+  },
+  "object_property_fk": {
+    "culture_company_movie_fk0": [
+      "culture_company.movie_id",
+      "movie.movie_id"
+    ],
+    "culture_company_book_club_fk1": [
+      "culture_company.book_club_id",
+      "book_club.book_club_id"
+    ]
+  }
+}

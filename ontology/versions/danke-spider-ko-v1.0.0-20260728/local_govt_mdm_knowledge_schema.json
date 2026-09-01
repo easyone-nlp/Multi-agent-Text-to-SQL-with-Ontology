@@ -1,0 +1,600 @@
+{
+  "db_id": "local_govt_mdm",
+  "classes": [
+    {
+      "name": "Customer_Master_Index",
+      "source_table": "Customer_Master_Index",
+      "ranking": 3.0,
+      "primary_label": "고객 주요 인덱스",
+      "synonyms": [
+        "고객 주요 인덱스",
+        "고객 정보 인덱스",
+        "고객 중심 인덱스",
+        "고객 주요 목록",
+        "고객 중심 목록"
+      ]
+    },
+    {
+      "name": "CMI_Cross_References",
+      "source_table": "CMI_Cross_References",
+      "ranking": 1.0,
+      "primary_label": "cmi cross references",
+      "synonyms": [
+        "고객 인덱스 연관",
+        "고객 인덱스 연결",
+        "고객 주요 연관",
+        "고객 인덱스 링크",
+        "고객 인덱스 참조"
+      ]
+    },
+    {
+      "name": "Council_Tax",
+      "source_table": "Council_Tax",
+      "ranking": 3.0,
+      "primary_label": "council tax",
+      "synonyms": [
+        "지자체 세금",
+        "세금 정보",
+        "지자체 세무",
+        "세금 데이터",
+        "지자체 세금 정보"
+      ]
+    },
+    {
+      "name": "Business_Rates",
+      "source_table": "Business_Rates",
+      "ranking": 3.0,
+      "primary_label": "business rates",
+      "synonyms": [
+        "비즈니스 요금",
+        "사업 요금",
+        "사업자 요금",
+        "비즈니스 요율",
+        "사업 관련 요금"
+      ]
+    },
+    {
+      "name": "Benefits_Overpayments",
+      "source_table": "Benefits_Overpayments",
+      "ranking": 3.0,
+      "primary_label": "benefits overpayments",
+      "synonyms": [
+        "복지 과다 지급",
+        "복지 지급 오버페이",
+        "복지 지급 오류",
+        "복지 과다 지급 내역"
+      ]
+    },
+    {
+      "name": "Parking_Fines",
+      "source_table": "Parking_Fines",
+      "ranking": 3.5,
+      "primary_label": "주차 과태료",
+      "synonyms": [
+        "주차 과태료",
+        "주차 벌금",
+        "주차 벌금 내역",
+        "주차 벌금 기록",
+        "주차 벌금 정보"
+      ]
+    },
+    {
+      "name": "Rent_Arrears",
+      "source_table": "Rent_Arrears",
+      "ranking": 3.0,
+      "primary_label": "임대차 지연",
+      "synonyms": [
+        "임대차 미지급",
+        "임대료 미지급",
+        "임대차 지연",
+        "임대료 지연",
+        "임대차 미납",
+        "임대료 미납",
+        "임대차 미청구",
+        "임대료 미청구"
+      ]
+    },
+    {
+      "name": "Electoral_Register",
+      "source_table": "Electoral_Register",
+      "ranking": 3.0,
+      "primary_label": "선거 등록자 목록",
+      "synonyms": [
+        "선거 등록",
+        "선거 등록부",
+        "선거 목록",
+        "선거 등록자",
+        "선거 정보",
+        "선거 등록자 목록",
+        "선거 등록 데이터",
+        "선거 등록 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Customer_Master_Index_master_customer_id",
+      "domain": "Customer_Master_Index",
+      "source_table": "Customer_Master_Index",
+      "source_column": "master_customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "주요 고객 ID",
+      "synonyms": [
+        "주고객ID",
+        "고객ID",
+        "마스터고객ID",
+        "고객식별번호",
+        "master_customer_id",
+        "고객번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Master_Index_cmi_details",
+      "domain": "Customer_Master_Index",
+      "source_table": "Customer_Master_Index",
+      "source_column": "cmi_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "cmi 상세 정보",
+      "synonyms": [
+        "cmi상세내용",
+        "고객상세정보",
+        "상세내용",
+        "cmi_dtl",
+        "cmi_dtl_info",
+        "cmi_dtl_data",
+        "cmi_details",
+        "상세정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "기본 정보": [
+          "기본정보"
+        ],
+        "추가 정보": [
+          "추가정보"
+        ]
+      }
+    },
+    {
+      "name": "CMI_Cross_References_cmi_cross_ref_id",
+      "domain": "CMI_Cross_References",
+      "source_table": "CMI_Cross_References",
+      "source_column": "cmi_cross_ref_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "cmi cross reference id",
+      "synonyms": [
+        "cmi cross ref id",
+        "cmi cross reference id",
+        "cmi reference id",
+        "cross reference id",
+        "cmi ref id",
+        "cmi cross ref number",
+        "cmi reference number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "CMI_Cross_References_master_customer_id",
+      "domain": "CMI_Cross_References",
+      "source_table": "CMI_Cross_References",
+      "source_column": "master_customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "master customer id",
+      "synonyms": [
+        "master customer id",
+        "master customer number",
+        "main customer id",
+        "primary customer id",
+        "customer master id",
+        "customer master number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "CMI_Cross_References_source_system_code",
+      "domain": "CMI_Cross_References",
+      "source_table": "CMI_Cross_References",
+      "source_column": "source_system_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "source system code",
+      "synonyms": [
+        "source system code",
+        "original system code",
+        "source code",
+        "original system",
+        "system code",
+        "source system identifier"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "CRM": [
+          "crm"
+        ],
+        "ERP": [
+          "erp"
+        ],
+        "HRM": [
+          "hrm"
+        ]
+      }
+    },
+    {
+      "name": "Council_Tax_council_tax_id",
+      "domain": "Council_Tax",
+      "source_table": "Council_Tax",
+      "source_column": "council_tax_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "council tax id",
+      "synonyms": [
+        "Council Tax ID",
+        "Council Tax Number",
+        "Tax ID",
+        "CT ID",
+        "Council Tax Identifier",
+        "Tax Record ID",
+        "CT Record ID",
+        "Council Tax Serial Number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Council_Tax_cmi_cross_ref_id",
+      "domain": "Council_Tax",
+      "source_table": "Council_Tax",
+      "source_column": "cmi_cross_ref_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "cmi cross reference id",
+      "synonyms": [
+        "CMI Cross Ref ID",
+        "CMI Reference ID",
+        "CMI Cross Reference Number",
+        "CMI ID",
+        "CMI Cross Ref",
+        "CMI Reference",
+        "CMI Cross Reference Code",
+        "CMI Ref ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Business_Rates_business_rates_id",
+      "domain": "Business_Rates",
+      "source_table": "Business_Rates",
+      "source_column": "business_rates_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "business rates id",
+      "synonyms": [
+        "사업세 ID",
+        "사업세 고유 번호",
+        "사업세 코드",
+        "사업세 식별자",
+        "사업세 번호",
+        "business_rates_id",
+        "사업세 고유ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Business_Rates_cmi_cross_ref_id",
+      "domain": "Business_Rates",
+      "source_table": "Business_Rates",
+      "source_column": "cmi_cross_ref_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "cmi cross reference id",
+      "synonyms": [
+        "CMI 교차 참조 ID",
+        "CMI 교차 참조 코드",
+        "CMI 참조 ID",
+        "CMI 교차 참조 번호",
+        "cmi_cross_ref_id",
+        "CMI 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Benefits_Overpayments_council_tax_id",
+      "domain": "Benefits_Overpayments",
+      "source_table": "Benefits_Overpayments",
+      "source_column": "council_tax_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "council tax id",
+      "synonyms": [
+        "council tax id",
+        "council tax identifier",
+        "council tax number",
+        "tax id",
+        "overpayment council tax id",
+        "council tax reference"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Benefits_Overpayments_cmi_cross_ref_id",
+      "domain": "Benefits_Overpayments",
+      "source_table": "Benefits_Overpayments",
+      "source_column": "cmi_cross_ref_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "cmi cross ref id",
+      "synonyms": [
+        "cmi cross ref id",
+        "cmi cross reference id",
+        "cmi reference id",
+        "cmi cross ref",
+        "cmi cross reference",
+        "cmi reference",
+        "cmi id",
+        "cmi cross ref identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Parking_Fines_council_tax_id",
+      "domain": "Parking_Fines",
+      "source_table": "Parking_Fines",
+      "source_column": "council_tax_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "공과금 번호",
+      "synonyms": [
+        "council tax id",
+        "parking fine id",
+        "council tax number",
+        "tax id",
+        "council id",
+        "tax identification number",
+        "council tax identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Parking_Fines_cmi_cross_ref_id",
+      "domain": "Parking_Fines",
+      "source_table": "Parking_Fines",
+      "source_column": "cmi_cross_ref_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "CMI 교차 참조 번호",
+      "synonyms": [
+        "cmi cross reference id",
+        "cmi reference id",
+        "cmi cross ref id",
+        "cmi id",
+        "cross reference id",
+        "cmi reference number",
+        "cmi cross reference identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Rent_Arrears_council_tax_id",
+      "domain": "Rent_Arrears",
+      "source_table": "Rent_Arrears",
+      "source_column": "council_tax_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "공과세 ID",
+      "synonyms": [
+        "세무서 고유 번호",
+        "임대료 부채 ID",
+        "세무서 식별자",
+        "임대료 부채 고유 번호",
+        "세무서 ID",
+        "임대료 부채 식별자",
+        "세무서 코드",
+        "임대료 부채 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Rent_Arrears_cmi_cross_ref_id",
+      "domain": "Rent_Arrears",
+      "source_table": "Rent_Arrears",
+      "source_column": "cmi_cross_ref_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "CMI 교차 참조 ID",
+      "synonyms": [
+        "CMI 교차 참조 ID",
+        "CMI 참조 번호",
+        "CMI 교차 참조 코드",
+        "CMI 교차 참조 식별자",
+        "CMI 교차 참조 고유 번호",
+        "CMI 참조 ID",
+        "CMI 교차 참조 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Electoral_Register_electoral_register_id",
+      "domain": "Electoral_Register",
+      "source_table": "Electoral_Register",
+      "source_column": "electoral_register_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "선거 등록자 ID",
+      "synonyms": [
+        "전자투표 등록 ID",
+        "투표자 고유 번호",
+        "등록 인구 ID",
+        "electoral_register_id",
+        "전자투표 번호",
+        "투표자 식별자",
+        "등록 인구 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Electoral_Register_cmi_cross_ref_id",
+      "domain": "Electoral_Register",
+      "source_table": "Electoral_Register",
+      "source_column": "cmi_cross_ref_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "CMI 교차 참조 ID",
+      "synonyms": [
+        "CMI 참조 ID",
+        "cmi_cross_ref_id",
+        "외부 참조 번호",
+        "다른 데이터 연계 ID",
+        "CMI 연결 ID",
+        "연계 참조 번호",
+        "외부 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "CMI_Cross_References_Customer_Master_Index_fk0",
+      "domain": "CMI_Cross_References",
+      "range": "Customer_Master_Index",
+      "source_fk": [
+        "CMI_Cross_References.master_customer_id",
+        "Customer_Master_Index.master_customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Council_Tax_CMI_Cross_References_fk1",
+      "domain": "Council_Tax",
+      "range": "CMI_Cross_References",
+      "source_fk": [
+        "Council_Tax.cmi_cross_ref_id",
+        "CMI_Cross_References.cmi_cross_ref_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Business_Rates_CMI_Cross_References_fk2",
+      "domain": "Business_Rates",
+      "range": "CMI_Cross_References",
+      "source_fk": [
+        "Business_Rates.cmi_cross_ref_id",
+        "CMI_Cross_References.cmi_cross_ref_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Benefits_Overpayments_CMI_Cross_References_fk3",
+      "domain": "Benefits_Overpayments",
+      "range": "CMI_Cross_References",
+      "source_fk": [
+        "Benefits_Overpayments.cmi_cross_ref_id",
+        "CMI_Cross_References.cmi_cross_ref_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Parking_Fines_CMI_Cross_References_fk4",
+      "domain": "Parking_Fines",
+      "range": "CMI_Cross_References",
+      "source_fk": [
+        "Parking_Fines.cmi_cross_ref_id",
+        "CMI_Cross_References.cmi_cross_ref_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Rent_Arrears_CMI_Cross_References_fk5",
+      "domain": "Rent_Arrears",
+      "range": "CMI_Cross_References",
+      "source_fk": [
+        "Rent_Arrears.cmi_cross_ref_id",
+        "CMI_Cross_References.cmi_cross_ref_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Electoral_Register_CMI_Cross_References_fk6",
+      "domain": "Electoral_Register",
+      "range": "CMI_Cross_References",
+      "source_fk": [
+        "Electoral_Register.cmi_cross_ref_id",
+        "CMI_Cross_References.cmi_cross_ref_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

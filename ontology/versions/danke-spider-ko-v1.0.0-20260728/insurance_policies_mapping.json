@@ -1,0 +1,129 @@
+{
+  "class_table": {
+    "Customers": "Customers",
+    "Customer_Policies": "Customer_Policies",
+    "Claims": "Claims",
+    "Settlements": "Settlements",
+    "Payments": "Payments"
+  },
+  "property_column": {
+    "Customers_Customer_ID": [
+      "Customers",
+      "Customer_ID"
+    ],
+    "Customers_Customer_Details": [
+      "Customers",
+      "Customer_Details"
+    ],
+    "Customer_Policies_Policy_ID": [
+      "Customer_Policies",
+      "Policy_ID"
+    ],
+    "Customer_Policies_Customer_ID": [
+      "Customer_Policies",
+      "Customer_ID"
+    ],
+    "Customer_Policies_Policy_Type_Code": [
+      "Customer_Policies",
+      "Policy_Type_Code"
+    ],
+    "Customer_Policies_Start_Date": [
+      "Customer_Policies",
+      "Start_Date"
+    ],
+    "Customer_Policies_End_Date": [
+      "Customer_Policies",
+      "End_Date"
+    ],
+    "Claims_Claim_ID": [
+      "Claims",
+      "Claim_ID"
+    ],
+    "Claims_Policy_ID": [
+      "Claims",
+      "Policy_ID"
+    ],
+    "Claims_Date_Claim_Made": [
+      "Claims",
+      "Date_Claim_Made"
+    ],
+    "Claims_Date_Claim_Settled": [
+      "Claims",
+      "Date_Claim_Settled"
+    ],
+    "Claims_Amount_Claimed": [
+      "Claims",
+      "Amount_Claimed"
+    ],
+    "Claims_Amount_Settled": [
+      "Claims",
+      "Amount_Settled"
+    ],
+    "Settlements_Settlement_ID": [
+      "Settlements",
+      "Settlement_ID"
+    ],
+    "Settlements_Claim_ID": [
+      "Settlements",
+      "Claim_ID"
+    ],
+    "Settlements_Date_Claim_Made": [
+      "Settlements",
+      "Date_Claim_Made"
+    ],
+    "Settlements_Date_Claim_Settled": [
+      "Settlements",
+      "Date_Claim_Settled"
+    ],
+    "Settlements_Amount_Claimed": [
+      "Settlements",
+      "Amount_Claimed"
+    ],
+    "Settlements_Amount_Settled": [
+      "Settlements",
+      "Amount_Settled"
+    ],
+    "Settlements_Customer_Policy_ID": [
+      "Settlements",
+      "Customer_Policy_ID"
+    ],
+    "Payments_Payment_ID": [
+      "Payments",
+      "Payment_ID"
+    ],
+    "Payments_Settlement_ID": [
+      "Payments",
+      "Settlement_ID"
+    ],
+    "Payments_Payment_Method_Code": [
+      "Payments",
+      "Payment_Method_Code"
+    ],
+    "Payments_Date_Payment_Made": [
+      "Payments",
+      "Date_Payment_Made"
+    ],
+    "Payments_Amount_Payment": [
+      "Payments",
+      "Amount_Payment"
+    ]
+  },
+  "object_property_fk": {
+    "Customer_Policies_Customers_fk0": [
+      "Customer_Policies.Customer_ID",
+      "Customers.Customer_ID"
+    ],
+    "Claims_Customer_Policies_fk1": [
+      "Claims.Policy_ID",
+      "Customer_Policies.Policy_ID"
+    ],
+    "Settlements_Claims_fk2": [
+      "Settlements.Claim_ID",
+      "Claims.Claim_ID"
+    ],
+    "Payments_Settlements_fk3": [
+      "Payments.Settlement_ID",
+      "Settlements.Settlement_ID"
+    ]
+  }
+}

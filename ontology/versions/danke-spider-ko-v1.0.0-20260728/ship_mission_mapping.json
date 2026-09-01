@@ -1,0 +1,62 @@
+{
+  "class_table": {
+    "mission": "mission",
+    "ship": "ship"
+  },
+  "property_column": {
+    "mission_Mission_ID": [
+      "mission",
+      "Mission_ID"
+    ],
+    "mission_Ship_ID": [
+      "mission",
+      "Ship_ID"
+    ],
+    "mission_Code": [
+      "mission",
+      "Code"
+    ],
+    "mission_Launched_Year": [
+      "mission",
+      "Launched_Year"
+    ],
+    "mission_Location": [
+      "mission",
+      "Location"
+    ],
+    "mission_Speed_knots": [
+      "mission",
+      "Speed_knots"
+    ],
+    "mission_Fate": [
+      "mission",
+      "Fate"
+    ],
+    "ship_Ship_ID": [
+      "ship",
+      "Ship_ID"
+    ],
+    "ship_Name": [
+      "ship",
+      "Name"
+    ],
+    "ship_Type": [
+      "ship",
+      "Type"
+    ],
+    "ship_Nationality": [
+      "ship",
+      "Nationality"
+    ],
+    "ship_Tonnage": [
+      "ship",
+      "Tonnage"
+    ]
+  },
+  "object_property_fk": {
+    "mission_ship_fk0": [
+      "mission.Ship_ID",
+      "ship.Ship_ID"
+    ]
+  }
+}

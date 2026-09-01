@@ -1,0 +1,471 @@
+{
+  "db_id": "music_4",
+  "classes": [
+    {
+      "name": "artist",
+      "source_table": "artist",
+      "ranking": 3.0,
+      "primary_label": "가수",
+      "synonyms": [
+        "음악인",
+        "가수",
+        "아티스트",
+        "뮤지션",
+        "음악가"
+      ]
+    },
+    {
+      "name": "volume",
+      "source_table": "volume",
+      "ranking": 1.0,
+      "primary_label": "volume id",
+      "synonyms": [
+        "볼륨",
+        "음량",
+        "볼륨 데이터",
+        "볼륨 정보",
+        "볼륨 설정"
+      ]
+    },
+    {
+      "name": "music_festival",
+      "source_table": "music_festival",
+      "ranking": 3.5,
+      "primary_label": "음악축제",
+      "synonyms": [
+        "음악 콘서트",
+        "축제",
+        "음악 축제",
+        "음악 행사",
+        "음악 행사 데이터"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "artist_Artist_ID",
+      "domain": "artist",
+      "source_table": "artist",
+      "source_column": "Artist_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "가수 ID",
+      "synonyms": [
+        "아티스트 ID",
+        "아이디",
+        "아티스트 식별 번호",
+        "ID",
+        "아티스트 고유 번호",
+        "Artist_ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "artist_Artist",
+      "domain": "artist",
+      "source_table": "artist",
+      "source_column": "Artist",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "가수",
+      "synonyms": [
+        "아티스트",
+        "가수 이름",
+        "아티스트 이름",
+        "가수",
+        "아티스트명",
+        "Artist",
+        "Artist Name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "이지은": [
+          "이지은"
+        ]
+      }
+    },
+    {
+      "name": "artist_Age",
+      "domain": "artist",
+      "source_table": "artist",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "나이",
+      "synonyms": [
+        "나이",
+        "연령",
+        "아티스트 연령",
+        "연령 정보",
+        "나이 정보",
+        "Age"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "artist_Famous_Title",
+      "domain": "artist",
+      "source_table": "artist",
+      "source_column": "Famous_Title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "명작 제목",
+      "synonyms": [
+        "유명 곡 제목",
+        "가수 유명 곡",
+        "가수의 유명 곡",
+        "유명 곡",
+        "가수의 대표 곡",
+        "대표 곡 제목",
+        "가수 대표 곡",
+        "유명 곡 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "봄날의 노래": [
+          "봄날의 노래"
+        ],
+        "사랑의 흔적": [
+          "사랑의 흔적"
+        ]
+      }
+    },
+    {
+      "name": "artist_Famous_Release_date",
+      "domain": "artist",
+      "source_table": "artist",
+      "source_column": "Famous_Release_date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "명작 발매일",
+      "synonyms": [
+        "유명 곡 발매일",
+        "가수 유명 곡 발매일",
+        "가수의 유명 곡 발매일",
+        "유명 곡 날짜",
+        "가수 대표 곡 발매일",
+        "대표 곡 발매일",
+        "가수의 대표 곡 발매일"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020-03-15": [
+          "2020년 3월 15일"
+        ]
+      }
+    },
+    {
+      "name": "volume_Volume_ID",
+      "domain": "volume",
+      "source_table": "volume",
+      "source_column": "Volume_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "volume id",
+      "synonyms": [
+        "Volume_ID",
+        "volume 번호",
+        "volume 식별자",
+        "volume 고유번호",
+        "volume 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "volume_Volume_Issue",
+      "domain": "volume",
+      "source_table": "volume",
+      "source_column": "Volume_Issue",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "volume issue",
+      "synonyms": [
+        "Volume_Issue",
+        "volume 문제",
+        "volume 번호",
+        "volume 제목",
+        "volume 문제 번호",
+        "volume 아이디"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "1"
+        ],
+        "2": [
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "volume_Issue_Date",
+      "domain": "volume",
+      "source_table": "volume",
+      "source_column": "Issue_Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "issue date",
+      "synonyms": [
+        "Issue_Date",
+        "발행일",
+        "발행 날짜",
+        "volume 발행일",
+        "volume 날짜",
+        "issue 날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-01": [
+          "2023-01-01"
+        ]
+      }
+    },
+    {
+      "name": "volume_Weeks_on_Top",
+      "domain": "volume",
+      "source_table": "volume",
+      "source_column": "Weeks_on_Top",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "weeks on top",
+      "synonyms": [
+        "주간 상위권 주수",
+        "주간 차트 순위 유지 주수",
+        "주간 상위권 지속 주수",
+        "주간 순위 유지 기간",
+        "주간 차트 순위 유지 기간",
+        "주간 순위 유지 주수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "volume_Song",
+      "domain": "volume",
+      "source_table": "volume",
+      "source_column": "Song",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "song",
+      "synonyms": [
+        "노래 제목",
+        "곡 제목",
+        "음악 제목",
+        "가사 제목",
+        "곡 이름",
+        "노래 이름",
+        "곡"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "가요": [
+          "가요",
+          "노래"
+        ]
+      }
+    },
+    {
+      "name": "volume_Artist_ID",
+      "domain": "volume",
+      "source_table": "volume",
+      "source_column": "Artist_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "artist id",
+      "synonyms": [
+        "아티스트 ID",
+        "예술가 식별자",
+        "아티스트 번호",
+        "가수 ID",
+        "아티스트 코드",
+        "가수 식별자",
+        "아티스트 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "music_festival_ID",
+      "domain": "music_festival",
+      "source_table": "music_festival",
+      "source_column": "ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "ID",
+        "행사 ID",
+        "행사 고유 번호",
+        "행사 번호",
+        "식별 번호",
+        "고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "music_festival_Music_Festival",
+      "domain": "music_festival",
+      "source_table": "music_festival",
+      "source_column": "Music_Festival",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "music festival",
+      "synonyms": [
+        "Music_Festival",
+        "행사 이름",
+        "행사 제목",
+        "공연 이름",
+        "공연 제목"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "music_festival_Date_of_ceremony",
+      "domain": "music_festival",
+      "source_table": "music_festival",
+      "source_column": "Date_of_ceremony",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "date of ceremony",
+      "synonyms": [
+        "Date_of_ceremony",
+        "행사 날짜",
+        "행사 일자",
+        "공연 날짜",
+        "공연 일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "music_festival_Category",
+      "domain": "music_festival",
+      "source_table": "music_festival",
+      "source_column": "Category",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "category",
+      "synonyms": [
+        "분류",
+        "카테고리",
+        "음악 축제 분류",
+        "분류 정보",
+        "카테고리명",
+        "음악 분류",
+        "분야"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "music_festival_Volume",
+      "domain": "music_festival",
+      "source_table": "music_festival",
+      "source_column": "Volume",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "volume",
+      "synonyms": [
+        "규모",
+        "수준",
+        "볼륨",
+        "규모 수치",
+        "볼륨 값",
+        "크기",
+        "수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "music_festival_Result",
+      "domain": "music_festival",
+      "source_table": "music_festival",
+      "source_column": "Result",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "result",
+      "synonyms": [
+        "결과",
+        "성과",
+        "결과 내용",
+        "성과 정보",
+        "결과 문자열",
+        "성과 데이터",
+        "결과 사항"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "volume_artist_fk0",
+      "domain": "volume",
+      "range": "artist",
+      "source_fk": [
+        "volume.Artist_ID",
+        "artist.Artist_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "music_festival_volume_fk1",
+      "domain": "music_festival",
+      "range": "volume",
+      "source_fk": [
+        "music_festival.Volume",
+        "volume.Volume_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

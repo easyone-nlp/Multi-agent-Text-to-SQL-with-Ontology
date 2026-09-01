@@ -1,0 +1,795 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "운전자",
+      "target_class": "driver",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "운전사",
+      "target_class": "driver",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "운전원",
+      "target_class": "driver",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "운전 담당자",
+      "target_class": "driver",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학교",
+      "target_class": "school",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "교육기관",
+      "target_class": "school",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학원",
+      "target_class": "school",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학교 기관",
+      "target_class": "school",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "school bus",
+      "target_class": "school_bus",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학교 버스",
+      "target_class": "school_bus",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "버스",
+      "target_class": "school_bus",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "버스 차량",
+      "target_class": "school_bus",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학원 버스",
+      "target_class": "school_bus",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver id",
+      "target_class": "driver",
+      "target_property": "driver_Driver_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운전자 ID",
+      "target_class": "driver",
+      "target_property": "driver_Driver_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운전자 번호",
+      "target_class": "driver",
+      "target_property": "driver_Driver_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운전자 식별자",
+      "target_class": "driver",
+      "target_property": "driver_Driver_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운전자 고유 번호",
+      "target_class": "driver",
+      "target_property": "driver_Driver_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Driver_ID",
+      "target_class": "driver",
+      "target_property": "driver_Driver_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운전자 아이디",
+      "target_class": "driver",
+      "target_property": "driver_Driver_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "driver",
+      "target_property": "driver_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "driver",
+      "target_property": "driver_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운전자 이름",
+      "target_class": "driver",
+      "target_property": "driver_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운전자 별명",
+      "target_class": "driver",
+      "target_property": "driver_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운전자 성명",
+      "target_class": "driver",
+      "target_property": "driver_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Driver_Name",
+      "target_class": "driver",
+      "target_property": "driver_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "party",
+      "target_class": "driver",
+      "target_property": "driver_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "당파",
+      "target_class": "driver",
+      "target_property": "driver_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정치적 소속",
+      "target_class": "driver",
+      "target_property": "driver_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운전자 당파",
+      "target_class": "driver",
+      "target_property": "driver_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운전자 정치적 소속",
+      "target_class": "driver",
+      "target_property": "driver_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Party",
+      "target_class": "driver",
+      "target_property": "driver_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운전자 당",
+      "target_class": "driver",
+      "target_property": "driver_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "home city",
+      "target_class": "driver",
+      "target_property": "driver_Home_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈시티",
+      "target_class": "driver",
+      "target_property": "driver_Home_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주거 도시",
+      "target_class": "driver",
+      "target_property": "driver_Home_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주 도시",
+      "target_class": "driver",
+      "target_property": "driver_Home_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소",
+      "target_class": "driver",
+      "target_property": "driver_Home_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주지",
+      "target_class": "driver",
+      "target_property": "driver_Home_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "driver",
+      "target_property": "driver_Home_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주거지",
+      "target_class": "driver",
+      "target_property": "driver_Home_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "age",
+      "target_class": "driver",
+      "target_property": "driver_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "driver",
+      "target_property": "driver_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "driver",
+      "target_property": "driver_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연세",
+      "target_class": "driver",
+      "target_property": "driver_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년대",
+      "target_class": "driver",
+      "target_property": "driver_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년",
+      "target_class": "driver",
+      "target_property": "driver_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연齢",
+      "target_class": "driver",
+      "target_property": "driver_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 ID",
+      "target_class": "school",
+      "target_property": "school_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 식별 번호",
+      "target_class": "school",
+      "target_property": "school_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 코드",
+      "target_class": "school",
+      "target_property": "school_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 고유번호",
+      "target_class": "school",
+      "target_property": "school_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "School_ID",
+      "target_class": "school",
+      "target_property": "school_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 아이디",
+      "target_class": "school",
+      "target_property": "school_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 식별자",
+      "target_class": "school",
+      "target_property": "school_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학년",
+      "target_class": "school",
+      "target_property": "school_Grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학급",
+      "target_class": "school",
+      "target_property": "school_Grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학년 수준",
+      "target_class": "school",
+      "target_property": "school_Grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Grade",
+      "target_class": "school",
+      "target_property": "school_Grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학년 정보",
+      "target_class": "school",
+      "target_property": "school_Grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학년 등급",
+      "target_class": "school",
+      "target_property": "school_Grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학년대",
+      "target_class": "school",
+      "target_property": "school_Grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교",
+      "target_class": "school",
+      "target_property": "school_School",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 이름",
+      "target_class": "school",
+      "target_property": "school_School",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 명칭",
+      "target_class": "school",
+      "target_property": "school_School",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 대표 이름",
+      "target_class": "school",
+      "target_property": "school_School",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "School",
+      "target_class": "school",
+      "target_property": "school_School",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 대표",
+      "target_class": "school",
+      "target_property": "school_School",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교명",
+      "target_class": "school",
+      "target_property": "school_School",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "school",
+      "target_property": "school_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "school",
+      "target_property": "school_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 위치",
+      "target_class": "school",
+      "target_property": "school_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "school",
+      "target_property": "school_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 위치 정보",
+      "target_class": "school",
+      "target_property": "school_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소 정보",
+      "target_class": "school",
+      "target_property": "school_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 데이터",
+      "target_class": "school",
+      "target_property": "school_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 위치 데이터",
+      "target_class": "school",
+      "target_property": "school_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유형",
+      "target_class": "school",
+      "target_property": "school_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종류",
+      "target_class": "school",
+      "target_property": "school_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 종류",
+      "target_class": "school",
+      "target_property": "school_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 유형",
+      "target_class": "school",
+      "target_property": "school_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "타입",
+      "target_class": "school",
+      "target_property": "school_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 타입",
+      "target_class": "school",
+      "target_property": "school_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 구분",
+      "target_class": "school",
+      "target_property": "school_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학교 유형 정보",
+      "target_class": "school",
+      "target_property": "school_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "school id",
+      "target_class": "school_bus",
+      "target_property": "school_bus_School_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver id",
+      "target_class": "school_bus",
+      "target_property": "school_bus_Driver_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "years working",
+      "target_class": "school_bus",
+      "target_property": "school_bus_Years_Working",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "if full time",
+      "target_class": "school_bus",
+      "target_property": "school_bus_If_full_time",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "초등",
+      "target_class": "school",
+      "target_property": "school_Grade",
+      "value": "초등"
+    },
+    {
+      "entry_type": "value",
+      "key": "초등학교",
+      "target_class": "school",
+      "target_property": "school_Grade",
+      "value": "초등"
+    },
+    {
+      "entry_type": "value",
+      "key": "중등",
+      "target_class": "school",
+      "target_property": "school_Grade",
+      "value": "중등"
+    },
+    {
+      "entry_type": "value",
+      "key": "중학교",
+      "target_class": "school",
+      "target_property": "school_Grade",
+      "value": "중등"
+    },
+    {
+      "entry_type": "value",
+      "key": "고등학교",
+      "target_class": "school",
+      "target_property": "school_Grade",
+      "value": "중등"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시립고등학교",
+      "target_class": "school",
+      "target_property": "school_School",
+      "value": "서울시립고등학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시립고",
+      "target_class": "school",
+      "target_property": "school_School",
+      "value": "서울시립고등학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "경기도립중학교",
+      "target_class": "school",
+      "target_property": "school_School",
+      "value": "경기도립중학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "경기도립중",
+      "target_class": "school",
+      "target_property": "school_School",
+      "value": "경기도립중학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시 강남구",
+      "target_class": "school",
+      "target_property": "school_Location",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "강남구",
+      "target_class": "school",
+      "target_property": "school_Location",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 강남",
+      "target_class": "school",
+      "target_property": "school_Location",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천시 미추홀구",
+      "target_class": "school",
+      "target_property": "school_Location",
+      "value": "인천시 미추홀구"
+    },
+    {
+      "entry_type": "value",
+      "key": "미추홀구",
+      "target_class": "school",
+      "target_property": "school_Location",
+      "value": "인천시 미추홀구"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천 미추홀",
+      "target_class": "school",
+      "target_property": "school_Location",
+      "value": "인천시 미추홀구"
+    },
+    {
+      "entry_type": "value",
+      "key": "공립",
+      "target_class": "school",
+      "target_property": "school_Type",
+      "value": "공립"
+    },
+    {
+      "entry_type": "value",
+      "key": "공립학교",
+      "target_class": "school",
+      "target_property": "school_Type",
+      "value": "공립"
+    },
+    {
+      "entry_type": "value",
+      "key": "민간",
+      "target_class": "school",
+      "target_property": "school_Type",
+      "value": "민간"
+    },
+    {
+      "entry_type": "value",
+      "key": "민간학교",
+      "target_class": "school",
+      "target_property": "school_Type",
+      "value": "민간"
+    },
+    {
+      "entry_type": "value",
+      "key": " tư영학교",
+      "target_class": "school",
+      "target_property": "school_Type",
+      "value": "민간"
+    },
+    {
+      "entry_type": "value",
+      "key": "yes",
+      "target_class": "school_bus",
+      "target_property": "school_bus_If_full_time",
+      "value": "yes"
+    },
+    {
+      "entry_type": "value",
+      "key": "예",
+      "target_class": "school_bus",
+      "target_property": "school_bus_If_full_time",
+      "value": "yes"
+    },
+    {
+      "entry_type": "value",
+      "key": "no",
+      "target_class": "school_bus",
+      "target_property": "school_bus_If_full_time",
+      "value": "no"
+    },
+    {
+      "entry_type": "value",
+      "key": "아니오",
+      "target_class": "school_bus",
+      "target_property": "school_bus_If_full_time",
+      "value": "no"
+    }
+  ]
+}

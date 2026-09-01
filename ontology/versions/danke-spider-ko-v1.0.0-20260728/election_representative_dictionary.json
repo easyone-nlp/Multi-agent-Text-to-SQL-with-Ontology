@@ -1,0 +1,718 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "선거",
+      "target_class": "election",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "총선",
+      "target_class": "election",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지방선거",
+      "target_class": "election",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대선",
+      "target_class": "election",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선거일",
+      "target_class": "election",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선거구",
+      "target_class": "election",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선거운동",
+      "target_class": "election",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선거결과",
+      "target_class": "election",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대표자",
+      "target_class": "representative",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "정치인",
+      "target_class": "representative",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국회의원",
+      "target_class": "representative",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지자체장",
+      "target_class": "representative",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대표",
+      "target_class": "representative",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대표자 정보",
+      "target_class": "representative",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대표자 목록",
+      "target_class": "representative",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대표자 데이터",
+      "target_class": "representative",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선거 ID",
+      "target_class": "election",
+      "target_property": "election_Election_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의석 선거 ID",
+      "target_class": "election",
+      "target_property": "election_Election_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선거 번호",
+      "target_class": "election",
+      "target_property": "election_Election_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선거 식별자",
+      "target_class": "election",
+      "target_property": "election_Election_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선거 고유 ID",
+      "target_class": "election",
+      "target_property": "election_Election_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Election_ID",
+      "target_class": "election",
+      "target_property": "election_Election_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표자 ID",
+      "target_class": "election",
+      "target_property": "election_Representative_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표 ID",
+      "target_class": "election",
+      "target_property": "election_Representative_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표 식별자",
+      "target_class": "election",
+      "target_property": "election_Representative_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표 번호",
+      "target_class": "election",
+      "target_property": "election_Representative_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표 고유 ID",
+      "target_class": "election",
+      "target_property": "election_Representative_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Representative_ID",
+      "target_class": "election",
+      "target_property": "election_Representative_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표 식별 번호",
+      "target_class": "election",
+      "target_property": "election_Representative_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표 고유 번호",
+      "target_class": "election",
+      "target_property": "election_Representative_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "election",
+      "target_property": "election_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선거 날짜",
+      "target_class": "election",
+      "target_property": "election_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선거 일자",
+      "target_class": "election",
+      "target_property": "election_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선거 일",
+      "target_class": "election",
+      "target_property": "election_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선거 날",
+      "target_class": "election",
+      "target_property": "election_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Date",
+      "target_class": "election",
+      "target_property": "election_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표 수",
+      "target_class": "election",
+      "target_property": "election_Votes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "득표수",
+      "target_class": "election",
+      "target_property": "election_Votes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "득표",
+      "target_class": "election",
+      "target_property": "election_Votes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표수",
+      "target_class": "election",
+      "target_property": "election_Votes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표 결과",
+      "target_class": "election",
+      "target_property": "election_Votes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "votes",
+      "target_class": "election",
+      "target_property": "election_Votes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표",
+      "target_class": "election",
+      "target_property": "election_Votes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표 비율",
+      "target_class": "election",
+      "target_property": "election_Vote_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "득표 비율",
+      "target_class": "election",
+      "target_property": "election_Vote_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "득표율",
+      "target_class": "election",
+      "target_property": "election_Vote_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표율",
+      "target_class": "election",
+      "target_property": "election_Vote_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "vote percent",
+      "target_class": "election",
+      "target_property": "election_Vote_Percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의석 수",
+      "target_class": "election",
+      "target_property": "election_Seats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의석",
+      "target_class": "election",
+      "target_property": "election_Seats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의석 확보 수",
+      "target_class": "election",
+      "target_property": "election_Seats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의석 획득",
+      "target_class": "election",
+      "target_property": "election_Seats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "seats",
+      "target_class": "election",
+      "target_property": "election_Seats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "election",
+      "target_property": "election_Place",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "election",
+      "target_property": "election_Place",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상위",
+      "target_class": "election",
+      "target_property": "election_Place",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 순위",
+      "target_class": "election",
+      "target_property": "election_Place",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정렬 순위",
+      "target_class": "election",
+      "target_property": "election_Place",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수",
+      "target_class": "election",
+      "target_property": "election_Place",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "election",
+      "target_property": "election_Place",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 정보",
+      "target_class": "election",
+      "target_property": "election_Place",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "representative id",
+      "target_class": "representative",
+      "target_property": "representative_Representative_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표자 ID",
+      "target_class": "representative",
+      "target_property": "representative_Representative_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표자 고유 ID",
+      "target_class": "representative",
+      "target_property": "representative_Representative_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표자 번호",
+      "target_class": "representative",
+      "target_property": "representative_Representative_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표자 식별 번호",
+      "target_class": "representative",
+      "target_property": "representative_Representative_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "representative",
+      "target_property": "representative_Representative_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "representative",
+      "target_property": "representative_Representative_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "representative",
+      "target_property": "representative_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "representative",
+      "target_property": "representative_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표자 이름",
+      "target_class": "representative",
+      "target_property": "representative_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "representative",
+      "target_property": "representative_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표자 성명",
+      "target_class": "representative",
+      "target_property": "representative_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "state",
+      "target_class": "representative",
+      "target_property": "representative_State",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주",
+      "target_class": "representative",
+      "target_property": "representative_State",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 이름",
+      "target_class": "representative",
+      "target_property": "representative_State",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 코드",
+      "target_class": "representative",
+      "target_property": "representative_State",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 정보",
+      "target_class": "representative",
+      "target_property": "representative_State",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주명",
+      "target_class": "representative",
+      "target_property": "representative_State",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "party",
+      "target_class": "representative",
+      "target_property": "representative_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당",
+      "target_class": "representative",
+      "target_property": "representative_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "당명",
+      "target_class": "representative",
+      "target_property": "representative_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정파",
+      "target_class": "representative",
+      "target_property": "representative_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당명",
+      "target_class": "representative",
+      "target_property": "representative_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "당 이름",
+      "target_class": "representative",
+      "target_property": "representative_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 정보",
+      "target_class": "representative",
+      "target_property": "representative_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 이름",
+      "target_class": "representative",
+      "target_property": "representative_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "당",
+      "target_class": "representative",
+      "target_property": "representative_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "lifespan",
+      "target_class": "representative",
+      "target_property": "representative_Lifespan",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활동 기간",
+      "target_class": "representative",
+      "target_property": "representative_Lifespan",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정치 활동 기간",
+      "target_class": "representative",
+      "target_property": "representative_Lifespan",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "임기",
+      "target_class": "representative",
+      "target_property": "representative_Lifespan",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "임기 정보",
+      "target_class": "representative",
+      "target_property": "representative_Lifespan",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "임기 길이",
+      "target_class": "representative",
+      "target_property": "representative_Lifespan",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활동 기간 정보",
+      "target_class": "representative",
+      "target_property": "representative_Lifespan",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "임기 기간",
+      "target_class": "representative",
+      "target_property": "representative_Lifespan",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-05-10",
+      "target_class": "election",
+      "target_property": "election_Date",
+      "value": "2023-05-10"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 5월 10일",
+      "target_class": "election",
+      "target_property": "election_Date",
+      "value": "2023-05-10"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "election",
+      "target_property": "election_Place",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시",
+      "target_class": "election",
+      "target_property": "election_Place",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "election",
+      "target_property": "election_Place",
+      "value": "부산"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산시",
+      "target_class": "election",
+      "target_property": "election_Place",
+      "value": "부산"
+    }
+  ]
+}

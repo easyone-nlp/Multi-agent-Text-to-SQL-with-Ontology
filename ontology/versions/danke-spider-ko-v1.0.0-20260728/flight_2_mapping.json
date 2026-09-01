@@ -1,0 +1,71 @@
+{
+  "class_table": {
+    "airlines": "airlines",
+    "airports": "airports",
+    "flights": "flights"
+  },
+  "property_column": {
+    "airlines_uid": [
+      "airlines",
+      "uid"
+    ],
+    "airlines_Airline": [
+      "airlines",
+      "Airline"
+    ],
+    "airlines_Abbreviation": [
+      "airlines",
+      "Abbreviation"
+    ],
+    "airlines_Country": [
+      "airlines",
+      "Country"
+    ],
+    "airports_City": [
+      "airports",
+      "City"
+    ],
+    "airports_AirportCode": [
+      "airports",
+      "AirportCode"
+    ],
+    "airports_AirportName": [
+      "airports",
+      "AirportName"
+    ],
+    "airports_Country": [
+      "airports",
+      "Country"
+    ],
+    "airports_CountryAbbrev": [
+      "airports",
+      "CountryAbbrev"
+    ],
+    "flights_Airline": [
+      "flights",
+      "Airline"
+    ],
+    "flights_FlightNo": [
+      "flights",
+      "FlightNo"
+    ],
+    "flights_SourceAirport": [
+      "flights",
+      "SourceAirport"
+    ],
+    "flights_DestAirport": [
+      "flights",
+      "DestAirport"
+    ]
+  },
+  "object_property_fk": {
+    "flights_airports_fk0": [
+      "flights.DestAirport",
+      "airports.AirportCode"
+    ],
+    "flights_airports_fk1": [
+      "flights.SourceAirport",
+      "airports.AirportCode"
+    ]
+  }
+}

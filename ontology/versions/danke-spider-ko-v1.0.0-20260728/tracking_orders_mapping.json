@@ -1,0 +1,151 @@
+{
+  "class_table": {
+    "Customers": "Customers",
+    "Invoices": "Invoices",
+    "Orders": "Orders",
+    "Products": "Products",
+    "Order_Items": "Order_Items",
+    "Shipments": "Shipments",
+    "Shipment_Items": "Shipment_Items"
+  },
+  "property_column": {
+    "Customers_customer_id": [
+      "Customers",
+      "customer_id"
+    ],
+    "Customers_customer_name": [
+      "Customers",
+      "customer_name"
+    ],
+    "Customers_customer_details": [
+      "Customers",
+      "customer_details"
+    ],
+    "Invoices_invoice_number": [
+      "Invoices",
+      "invoice_number"
+    ],
+    "Invoices_invoice_date": [
+      "Invoices",
+      "invoice_date"
+    ],
+    "Invoices_invoice_details": [
+      "Invoices",
+      "invoice_details"
+    ],
+    "Orders_order_id": [
+      "Orders",
+      "order_id"
+    ],
+    "Orders_customer_id": [
+      "Orders",
+      "customer_id"
+    ],
+    "Orders_order_status": [
+      "Orders",
+      "order_status"
+    ],
+    "Orders_date_order_placed": [
+      "Orders",
+      "date_order_placed"
+    ],
+    "Orders_order_details": [
+      "Orders",
+      "order_details"
+    ],
+    "Products_product_id": [
+      "Products",
+      "product_id"
+    ],
+    "Products_product_name": [
+      "Products",
+      "product_name"
+    ],
+    "Products_product_details": [
+      "Products",
+      "product_details"
+    ],
+    "Order_Items_order_item_id": [
+      "Order_Items",
+      "order_item_id"
+    ],
+    "Order_Items_product_id": [
+      "Order_Items",
+      "product_id"
+    ],
+    "Order_Items_order_id": [
+      "Order_Items",
+      "order_id"
+    ],
+    "Order_Items_order_item_status": [
+      "Order_Items",
+      "order_item_status"
+    ],
+    "Order_Items_order_item_details": [
+      "Order_Items",
+      "order_item_details"
+    ],
+    "Shipments_shipment_id": [
+      "Shipments",
+      "shipment_id"
+    ],
+    "Shipments_order_id": [
+      "Shipments",
+      "order_id"
+    ],
+    "Shipments_invoice_number": [
+      "Shipments",
+      "invoice_number"
+    ],
+    "Shipments_shipment_tracking_number": [
+      "Shipments",
+      "shipment_tracking_number"
+    ],
+    "Shipments_shipment_date": [
+      "Shipments",
+      "shipment_date"
+    ],
+    "Shipments_other_shipment_details": [
+      "Shipments",
+      "other_shipment_details"
+    ],
+    "Shipment_Items_shipment_id": [
+      "Shipment_Items",
+      "shipment_id"
+    ],
+    "Shipment_Items_order_item_id": [
+      "Shipment_Items",
+      "order_item_id"
+    ]
+  },
+  "object_property_fk": {
+    "Orders_Customers_fk0": [
+      "Orders.customer_id",
+      "Customers.customer_id"
+    ],
+    "Order_Items_Products_fk1": [
+      "Order_Items.product_id",
+      "Products.product_id"
+    ],
+    "Order_Items_Orders_fk2": [
+      "Order_Items.order_id",
+      "Orders.order_id"
+    ],
+    "Shipments_Invoices_fk3": [
+      "Shipments.invoice_number",
+      "Invoices.invoice_number"
+    ],
+    "Shipments_Orders_fk4": [
+      "Shipments.order_id",
+      "Orders.order_id"
+    ],
+    "Shipment_Items_Shipments_fk5": [
+      "Shipment_Items.shipment_id",
+      "Shipments.shipment_id"
+    ],
+    "Shipment_Items_Order_Items_fk6": [
+      "Shipment_Items.order_item_id",
+      "Order_Items.order_item_id"
+    ]
+  }
+}

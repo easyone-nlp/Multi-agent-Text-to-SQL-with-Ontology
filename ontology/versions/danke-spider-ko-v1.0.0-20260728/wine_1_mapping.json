@@ -1,0 +1,99 @@
+{
+  "class_table": {
+    "grapes": "grapes",
+    "appellations": "appellations",
+    "wine": "wine"
+  },
+  "property_column": {
+    "grapes_ID": [
+      "grapes",
+      "ID"
+    ],
+    "grapes_Grape": [
+      "grapes",
+      "Grape"
+    ],
+    "grapes_Color": [
+      "grapes",
+      "Color"
+    ],
+    "appellations_No": [
+      "appellations",
+      "No"
+    ],
+    "appellations_Appelation": [
+      "appellations",
+      "Appelation"
+    ],
+    "appellations_County": [
+      "appellations",
+      "County"
+    ],
+    "appellations_State": [
+      "appellations",
+      "State"
+    ],
+    "appellations_Area": [
+      "appellations",
+      "Area"
+    ],
+    "appellations_isAVA": [
+      "appellations",
+      "isAVA"
+    ],
+    "wine_No": [
+      "wine",
+      "No"
+    ],
+    "wine_Grape": [
+      "wine",
+      "Grape"
+    ],
+    "wine_Winery": [
+      "wine",
+      "Winery"
+    ],
+    "wine_Appelation": [
+      "wine",
+      "Appelation"
+    ],
+    "wine_State": [
+      "wine",
+      "State"
+    ],
+    "wine_Name": [
+      "wine",
+      "Name"
+    ],
+    "wine_Year": [
+      "wine",
+      "Year"
+    ],
+    "wine_Price": [
+      "wine",
+      "Price"
+    ],
+    "wine_Score": [
+      "wine",
+      "Score"
+    ],
+    "wine_Cases": [
+      "wine",
+      "Cases"
+    ],
+    "wine_Drink": [
+      "wine",
+      "Drink"
+    ]
+  },
+  "object_property_fk": {
+    "wine_appellations_fk0": [
+      "wine.Appelation",
+      "appellations.Appelation"
+    ],
+    "wine_grapes_fk1": [
+      "wine.Grape",
+      "grapes.Grape"
+    ]
+  }
+}

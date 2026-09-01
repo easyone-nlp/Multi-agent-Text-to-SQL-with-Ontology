@@ -1,0 +1,914 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "축제 세부 정보",
+      "target_class": "festival_detail",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "행사 정보",
+      "target_class": "festival_detail",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "축제 세부 사항",
+      "target_class": "festival_detail",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이벤트 데이터",
+      "target_class": "festival_detail",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "행사 세부 내용",
+      "target_class": "festival_detail",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "문화 행사 정보",
+      "target_class": "festival_detail",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예술 작품",
+      "target_class": "artwork",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "창작물",
+      "target_class": "artwork",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "미술 작품",
+      "target_class": "artwork",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예술 작품 정보",
+      "target_class": "artwork",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "창작물 데이터",
+      "target_class": "artwork",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "출품 정보",
+      "target_class": "nomination",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "후보자 정보",
+      "target_class": "nomination",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "추천 기록",
+      "target_class": "nomination",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "후보 선정",
+      "target_class": "nomination",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수상 후보",
+      "target_class": "nomination",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "후보자 데이터",
+      "target_class": "nomination",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "축제 ID",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Festival_ID",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 ID",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "축제 식별 번호",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "축제 고유 번호",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 식별자",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "축제 고유 ID",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "축제 이름",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 이름",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "축제명",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 이름",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 제목",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "축제 제목",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Festival Name",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최 기관 이름",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Chair_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최자 이름",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Chair_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주재자 이름",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Chair_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "chair name",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Chair_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최자",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Chair_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주재자",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Chair_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최자명",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Chair_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "chair",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Chair_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 장소",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소 정보",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소명",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 위치",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소 코드",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 연도",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 정보",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사년도",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 코드",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 번호",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가 인원 수",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Num_of_Audience",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관객 수",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Num_of_Audience",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인원 수",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Num_of_Audience",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참석자 수",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Num_of_Audience",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관객 인원",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Num_of_Audience",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관객 수 정보",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Num_of_Audience",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인원 수 정보",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Num_of_Audience",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관객 수 코드",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Num_of_Audience",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예술 작품 ID",
+      "target_class": "artwork",
+      "target_property": "artwork_Artwork_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Artwork_ID",
+      "target_class": "artwork",
+      "target_property": "artwork_Artwork_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작품 ID",
+      "target_class": "artwork",
+      "target_property": "artwork_Artwork_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시물 ID",
+      "target_class": "artwork",
+      "target_property": "artwork_Artwork_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작품 식별자",
+      "target_class": "artwork",
+      "target_property": "artwork_Artwork_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아트워크 ID",
+      "target_class": "artwork",
+      "target_property": "artwork_Artwork_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아트워크 식별자",
+      "target_class": "artwork",
+      "target_property": "artwork_Artwork_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유형",
+      "target_class": "artwork",
+      "target_property": "artwork_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Type",
+      "target_class": "artwork",
+      "target_property": "artwork_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류",
+      "target_class": "artwork",
+      "target_property": "artwork_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종류",
+      "target_class": "artwork",
+      "target_property": "artwork_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시물 유형",
+      "target_class": "artwork",
+      "target_property": "artwork_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아트워크 유형",
+      "target_class": "artwork",
+      "target_property": "artwork_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류구분",
+      "target_class": "artwork",
+      "target_property": "artwork_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "타입",
+      "target_class": "artwork",
+      "target_property": "artwork_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "artwork",
+      "target_property": "artwork_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Name",
+      "target_class": "artwork",
+      "target_property": "artwork_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "artwork",
+      "target_property": "artwork_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작품명",
+      "target_class": "artwork",
+      "target_property": "artwork_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아트워크 이름",
+      "target_class": "artwork",
+      "target_property": "artwork_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작명",
+      "target_class": "artwork",
+      "target_property": "artwork_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작품 제목",
+      "target_class": "artwork",
+      "target_property": "artwork_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작품 ID",
+      "target_class": "nomination",
+      "target_property": "nomination_Artwork_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Artwork_ID",
+      "target_class": "nomination",
+      "target_property": "nomination_Artwork_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아트워크 ID",
+      "target_class": "nomination",
+      "target_property": "nomination_Artwork_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작품 식별자",
+      "target_class": "nomination",
+      "target_property": "nomination_Artwork_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아트워크 식별자",
+      "target_class": "nomination",
+      "target_property": "nomination_Artwork_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작품 번호",
+      "target_class": "nomination",
+      "target_property": "nomination_Artwork_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아트워크 번호",
+      "target_class": "nomination",
+      "target_property": "nomination_Artwork_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "축제 ID",
+      "target_class": "nomination",
+      "target_property": "nomination_Festival_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Festival_ID",
+      "target_class": "nomination",
+      "target_property": "nomination_Festival_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 ID",
+      "target_class": "nomination",
+      "target_property": "nomination_Festival_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "페스티벌 ID",
+      "target_class": "nomination",
+      "target_property": "nomination_Festival_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 식별자",
+      "target_class": "nomination",
+      "target_property": "nomination_Festival_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "페스티벌 식별자",
+      "target_class": "nomination",
+      "target_property": "nomination_Festival_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 번호",
+      "target_class": "nomination",
+      "target_property": "nomination_Festival_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "페스티벌 번호",
+      "target_class": "nomination",
+      "target_property": "nomination_Festival_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과",
+      "target_class": "nomination",
+      "target_property": "nomination_Result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Result",
+      "target_class": "nomination",
+      "target_property": "nomination_Result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상황",
+      "target_class": "nomination",
+      "target_property": "nomination_Result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 정보",
+      "target_class": "nomination",
+      "target_property": "nomination_Result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태",
+      "target_class": "nomination",
+      "target_property": "nomination_Result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 데이터",
+      "target_class": "nomination",
+      "target_property": "nomination_Result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 문자열",
+      "target_class": "nomination",
+      "target_property": "nomination_Result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상황 문자열",
+      "target_class": "nomination",
+      "target_property": "nomination_Result",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "한국 전통 축제",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_Name",
+      "value": "한국 전통 축제"
+    },
+    {
+      "entry_type": "value",
+      "key": "전통 축제",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_Name",
+      "value": "한국 전통 축제"
+    },
+    {
+      "entry_type": "value",
+      "key": "국제 축제",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_Name",
+      "value": "국제 축제"
+    },
+    {
+      "entry_type": "value",
+      "key": "국제 행사",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Festival_Name",
+      "value": "국제 축제"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Chair_Name",
+      "value": "서울시"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Chair_Name",
+      "value": "서울시"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국문화재단",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Chair_Name",
+      "value": "한국문화재단"
+    },
+    {
+      "entry_type": "value",
+      "key": "문화재단",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Chair_Name",
+      "value": "한국문화재단"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시 강남구",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Location",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "강남구",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Location",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 강남구",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Location",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산시 해운대구",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Location",
+      "value": "부산시 해운대구"
+    },
+    {
+      "entry_type": "value",
+      "key": "해운대구",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Location",
+      "value": "부산시 해운대구"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산 해운대구",
+      "target_class": "festival_detail",
+      "target_property": "festival_detail_Location",
+      "value": "부산시 해운대구"
+    },
+    {
+      "entry_type": "value",
+      "key": "그림",
+      "target_class": "artwork",
+      "target_property": "artwork_Type",
+      "value": "그림"
+    },
+    {
+      "entry_type": "value",
+      "key": "painting",
+      "target_class": "artwork",
+      "target_property": "artwork_Type",
+      "value": "그림"
+    },
+    {
+      "entry_type": "value",
+      "key": "조각",
+      "target_class": "artwork",
+      "target_property": "artwork_Type",
+      "value": "조각"
+    },
+    {
+      "entry_type": "value",
+      "key": "sculpture",
+      "target_class": "artwork",
+      "target_property": "artwork_Type",
+      "value": "조각"
+    },
+    {
+      "entry_type": "value",
+      "key": "사진",
+      "target_class": "artwork",
+      "target_property": "artwork_Type",
+      "value": "사진"
+    },
+    {
+      "entry_type": "value",
+      "key": "photo",
+      "target_class": "artwork",
+      "target_property": "artwork_Type",
+      "value": "사진"
+    },
+    {
+      "entry_type": "value",
+      "key": "승리",
+      "target_class": "nomination",
+      "target_property": "nomination_Result",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "패배",
+      "target_class": "nomination",
+      "target_property": "nomination_Result",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "무승부",
+      "target_class": "nomination",
+      "target_property": "nomination_Result",
+      "value": "무승부"
+    }
+  ]
+}

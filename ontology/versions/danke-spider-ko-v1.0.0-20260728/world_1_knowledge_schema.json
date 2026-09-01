@@ -1,0 +1,634 @@
+{
+  "db_id": "world_1",
+  "classes": [
+    {
+      "name": "city",
+      "source_table": "city",
+      "ranking": 3.0,
+      "primary_label": "도시",
+      "synonyms": [
+        "도시",
+        "도시 정보",
+        "도시 목록",
+        "도시 데이터",
+        "도시 목표"
+      ]
+    },
+    {
+      "name": "sqlite_sequence",
+      "source_table": "sqlite_sequence",
+      "ranking": 1.0,
+      "primary_label": "sqlite sequence",
+      "synonyms": [
+        "시퀀스",
+        "자동 증가",
+        "시퀀스 테이블",
+        "자동 번호",
+        "시퀀스 관리"
+      ]
+    },
+    {
+      "name": "country",
+      "source_table": "country",
+      "ranking": 3.5,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "국가 정보",
+        "국가 목록",
+        "국가 데이터",
+        "국가 목표"
+      ]
+    },
+    {
+      "name": "countrylanguage",
+      "source_table": "countrylanguage",
+      "ranking": 3.0,
+      "primary_label": "국가 언어",
+      "synonyms": [
+        "국가 언어",
+        "국가별 언어 데이터",
+        "언어 사용 국가",
+        "국가 언어 목록",
+        "언어별 국가 정보",
+        "국가 언어 통계"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "city_ID",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "city ID",
+        "city number",
+        "city code",
+        "city identifier",
+        "city key"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_Name",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_CountryCode",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "CountryCode",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "country code",
+      "synonyms": [
+        "국가 코드",
+        "국가코드",
+        "국가 코드 정보",
+        "국가 코드 식별자",
+        "국가 코드 값",
+        "국가 코드 표시",
+        "국가 코드 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_District",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "District",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "district",
+      "synonyms": [
+        "구역",
+        "행정구역",
+        "지역",
+        "구",
+        "구역명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_Population",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Population",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "population",
+      "synonyms": [
+        "인구수",
+        "인구",
+        "인구량",
+        "인구 통계",
+        "인구 데이터",
+        "인구 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "sqlite_sequence_name",
+      "domain": "sqlite_sequence",
+      "source_table": "sqlite_sequence",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "제목",
+        "대상",
+        "대상명",
+        "구분명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "seq": [
+          "seq"
+        ]
+      }
+    },
+    {
+      "name": "sqlite_sequence_seq",
+      "domain": "sqlite_sequence",
+      "source_table": "sqlite_sequence",
+      "source_column": "seq",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "seq",
+      "synonyms": [
+        "시퀀스",
+        "번호",
+        "순번",
+        "번호값",
+        "시퀀스 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_Code",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "code",
+      "synonyms": [
+        "국가 코드",
+        "code",
+        "코드",
+        "국가 코드 식별자",
+        "코드 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_Name",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "국가 이름",
+        "이름",
+        "공식 이름",
+        "국가 명칭",
+        "국가 표기"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_Continent",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Continent",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "continent",
+      "synonyms": [
+        "대륙",
+        "지역",
+        "대륙 이름",
+        "국가 대륙",
+        "지리적 대륙"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_Region",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Region",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "region",
+      "synonyms": [
+        "지역",
+        "지역명",
+        "지역코드",
+        "지방",
+        "지역정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_SurfaceArea",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "SurfaceArea",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "surface area",
+      "synonyms": [
+        "면적",
+        "면적값",
+        "지형면적",
+        "국토면적",
+        "영토면적"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_IndepYear",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "IndepYear",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "indepdent year",
+      "synonyms": [
+        "독립년",
+        "독립년도",
+        "해방년",
+        "독립시기",
+        "해방년도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_Population",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Population",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "population",
+      "synonyms": [
+        "인구수",
+        "인구",
+        "인구량",
+        "인구규모",
+        "인구자원"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_LifeExpectancy",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "LifeExpectancy",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "life expectancy",
+      "synonyms": [
+        "평균수명",
+        "수명",
+        "생명기",
+        "평균생명기",
+        "수명지수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_GNP",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "GNP",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "gnp",
+      "synonyms": [
+        "국내총생산",
+        "GNP",
+        "경제성장률",
+        "경제규모",
+        "국내총생산량"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_GNPOld",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "GNPOld",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "gnp old",
+      "synonyms": [
+        "GDP",
+        "GNP",
+        "국가경제",
+        "경제지표",
+        "국가총생산"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_LocalName",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "LocalName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "local name",
+      "synonyms": [
+        "국가명",
+        "국가공식이름",
+        "국어이름",
+        "국가명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_GovernmentForm",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "GovernmentForm",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "government form",
+      "synonyms": [
+        "정부구조",
+        "정부형태",
+        "정치체제",
+        "정부형식",
+        "정부구성"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_HeadOfState",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "HeadOfState",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "head of state",
+      "synonyms": [
+        "국장",
+        "대표",
+        "수장",
+        "대통령",
+        "정상",
+        "대리"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_Capital",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Capital",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "capital",
+      "synonyms": [
+        "도시",
+        "도",
+        "수도",
+        "행정 중심지",
+        "정치 중심지"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_Code2",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Code2",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "code2",
+      "synonyms": [
+        "국가 코드",
+        "국가 코드2",
+        "ISO 코드",
+        "국가 식별자",
+        "국가 코드 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "countrylanguage_CountryCode",
+      "domain": "countrylanguage",
+      "source_table": "countrylanguage",
+      "source_column": "CountryCode",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "국가 코드",
+      "synonyms": [
+        "국가 코드",
+        "국가 식별 코드",
+        "국가 코드 값",
+        "국가 코드 정보",
+        "국가 코드 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "countrylanguage_Language",
+      "domain": "countrylanguage",
+      "source_table": "countrylanguage",
+      "source_column": "Language",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "언어",
+      "synonyms": [
+        "언어",
+        "언어 이름",
+        "언어 코드",
+        "언어 정보",
+        "언어 종류"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국어": [
+          "한국어",
+          "korean"
+        ],
+        "영어": [
+          "영어",
+          "english"
+        ],
+        "프랑스어": [
+          "프랑스어",
+          "french"
+        ]
+      }
+    },
+    {
+      "name": "countrylanguage_IsOfficial",
+      "domain": "countrylanguage",
+      "source_table": "countrylanguage",
+      "source_column": "IsOfficial",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "공식 여부",
+      "synonyms": [
+        "공식 여부",
+        "공식 여부 여부",
+        "공식 여부 정보",
+        "공식 여부 코드",
+        "공식 여부 지정"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "예": [
+          "예",
+          "yes"
+        ],
+        "아니오": [
+          "아니오",
+          "no"
+        ]
+      }
+    },
+    {
+      "name": "countrylanguage_Percentage",
+      "domain": "countrylanguage",
+      "source_table": "countrylanguage",
+      "source_column": "Percentage",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "백분율",
+      "synonyms": [
+        "백분율",
+        "비율",
+        "분율",
+        "율",
+        "비율값",
+        "백분율 비율",
+        "분율 비율",
+        "율 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "city_country_fk0",
+      "domain": "city",
+      "range": "country",
+      "source_fk": [
+        "city.CountryCode",
+        "country.Code"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "countrylanguage_country_fk1",
+      "domain": "countrylanguage",
+      "range": "country",
+      "source_fk": [
+        "countrylanguage.CountryCode",
+        "country.Code"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

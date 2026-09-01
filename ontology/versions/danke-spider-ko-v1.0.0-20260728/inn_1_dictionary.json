@@ -1,0 +1,844 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "방",
+      "target_class": "Rooms",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "객실",
+      "target_class": "Rooms",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "객실 정보",
+      "target_class": "Rooms",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "객실 목록",
+      "target_class": "Rooms",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "객실 데이터",
+      "target_class": "Rooms",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "객실 목표",
+      "target_class": "Rooms",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약",
+      "target_class": "Reservations",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약 정보",
+      "target_class": "Reservations",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약 목록",
+      "target_class": "Reservations",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약 데이터",
+      "target_class": "Reservations",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약 목표",
+      "target_class": "Reservations",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방 ID",
+      "target_class": "Rooms",
+      "target_property": "Rooms_RoomId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 ID",
+      "target_class": "Rooms",
+      "target_property": "Rooms_RoomId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 번호",
+      "target_class": "Rooms",
+      "target_property": "Rooms_RoomId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 식별자",
+      "target_class": "Rooms",
+      "target_property": "Rooms_RoomId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 코드",
+      "target_class": "Rooms",
+      "target_property": "Rooms_RoomId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "RoomId",
+      "target_class": "Rooms",
+      "target_property": "Rooms_RoomId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 고유 번호",
+      "target_class": "Rooms",
+      "target_property": "Rooms_RoomId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 식별번호",
+      "target_class": "Rooms",
+      "target_property": "Rooms_RoomId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방 이름",
+      "target_class": "Rooms",
+      "target_property": "Rooms_roomName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 이름",
+      "target_class": "Rooms",
+      "target_property": "Rooms_roomName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 제목",
+      "target_class": "Rooms",
+      "target_property": "Rooms_roomName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 명",
+      "target_class": "Rooms",
+      "target_property": "Rooms_roomName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "roomName",
+      "target_class": "Rooms",
+      "target_property": "Rooms_roomName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 타이틀",
+      "target_class": "Rooms",
+      "target_property": "Rooms_roomName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 명칭",
+      "target_class": "Rooms",
+      "target_property": "Rooms_roomName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "침대 수",
+      "target_class": "Rooms",
+      "target_property": "Rooms_beds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "침대 개수",
+      "target_class": "Rooms",
+      "target_property": "Rooms_beds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "침대 수량",
+      "target_class": "Rooms",
+      "target_property": "Rooms_beds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "침대 갯수",
+      "target_class": "Rooms",
+      "target_property": "Rooms_beds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "beds",
+      "target_class": "Rooms",
+      "target_property": "Rooms_beds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "침대 유형",
+      "target_class": "Rooms",
+      "target_property": "Rooms_bedType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "침대 종류",
+      "target_class": "Rooms",
+      "target_property": "Rooms_bedType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "침대 형태",
+      "target_class": "Rooms",
+      "target_property": "Rooms_bedType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "침대 타입",
+      "target_class": "Rooms",
+      "target_property": "Rooms_bedType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "침대 구분",
+      "target_class": "Rooms",
+      "target_property": "Rooms_bedType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "bed type",
+      "target_class": "Rooms",
+      "target_property": "Rooms_bedType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 인원 수",
+      "target_class": "Rooms",
+      "target_property": "Rooms_maxOccupancy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 인원",
+      "target_class": "Rooms",
+      "target_property": "Rooms_maxOccupancy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 수용 인원",
+      "target_class": "Rooms",
+      "target_property": "Rooms_maxOccupancy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인원 제한",
+      "target_class": "Rooms",
+      "target_property": "Rooms_maxOccupancy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인원 수",
+      "target_class": "Rooms",
+      "target_property": "Rooms_maxOccupancy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "max occupancy",
+      "target_class": "Rooms",
+      "target_property": "Rooms_maxOccupancy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기본 가격",
+      "target_class": "Rooms",
+      "target_property": "Rooms_basePrice",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기준 가격",
+      "target_class": "Rooms",
+      "target_property": "Rooms_basePrice",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기본 요금",
+      "target_class": "Rooms",
+      "target_property": "Rooms_basePrice",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기본 비용",
+      "target_class": "Rooms",
+      "target_property": "Rooms_basePrice",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격",
+      "target_class": "Rooms",
+      "target_property": "Rooms_basePrice",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "base price",
+      "target_class": "Rooms",
+      "target_property": "Rooms_basePrice",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "裝장 스타일",
+      "target_class": "Rooms",
+      "target_property": "Rooms_decor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장식",
+      "target_class": "Rooms",
+      "target_property": "Rooms_decor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 장식",
+      "target_class": "Rooms",
+      "target_property": "Rooms_decor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장식 스타일",
+      "target_class": "Rooms",
+      "target_property": "Rooms_decor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장식 유형",
+      "target_class": "Rooms",
+      "target_property": "Rooms_decor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 장식 유형",
+      "target_class": "Rooms",
+      "target_property": "Rooms_decor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장식 특징",
+      "target_class": "Rooms",
+      "target_property": "Rooms_decor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장식 방식",
+      "target_class": "Rooms",
+      "target_property": "Rooms_decor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장식 요소",
+      "target_class": "Rooms",
+      "target_property": "Rooms_decor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "code",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "room",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Room",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Room",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Room",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 번호",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Room",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Room",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호실",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Room",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "check in",
+      "target_class": "Reservations",
+      "target_property": "Reservations_CheckIn",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크인",
+      "target_class": "Reservations",
+      "target_property": "Reservations_CheckIn",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입실일",
+      "target_class": "Reservations",
+      "target_property": "Reservations_CheckIn",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크인 날짜",
+      "target_class": "Reservations",
+      "target_property": "Reservations_CheckIn",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입실 일자",
+      "target_class": "Reservations",
+      "target_property": "Reservations_CheckIn",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크인 날",
+      "target_class": "Reservations",
+      "target_property": "Reservations_CheckIn",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크인 일자",
+      "target_class": "Reservations",
+      "target_property": "Reservations_CheckIn",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "check out",
+      "target_class": "Reservations",
+      "target_property": "Reservations_CheckOut",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크아웃",
+      "target_class": "Reservations",
+      "target_property": "Reservations_CheckOut",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크아웃 날짜",
+      "target_class": "Reservations",
+      "target_property": "Reservations_CheckOut",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "퇴실 날짜",
+      "target_class": "Reservations",
+      "target_property": "Reservations_CheckOut",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "퇴실일",
+      "target_class": "Reservations",
+      "target_property": "Reservations_CheckOut",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크아웃일",
+      "target_class": "Reservations",
+      "target_property": "Reservations_CheckOut",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "CheckOut",
+      "target_class": "Reservations",
+      "target_property": "Reservations_CheckOut",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크아웃 날자",
+      "target_class": "Reservations",
+      "target_property": "Reservations_CheckOut",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "rate",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요금",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "금액",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크아웃 요금",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크아웃 가격",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크아웃 금액",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Rate",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last name",
+      "target_class": "Reservations",
+      "target_property": "Reservations_LastName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Reservations",
+      "target_property": "Reservations_LastName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후성",
+      "target_class": "Reservations",
+      "target_property": "Reservations_LastName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크아웃 성",
+      "target_class": "Reservations",
+      "target_property": "Reservations_LastName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크아웃 후성",
+      "target_class": "Reservations",
+      "target_property": "Reservations_LastName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체크아웃 성명",
+      "target_class": "Reservations",
+      "target_property": "Reservations_LastName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "LastName",
+      "target_class": "Reservations",
+      "target_property": "Reservations_LastName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "first name",
+      "target_class": "Reservations",
+      "target_property": "Reservations_FirstName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "Reservations",
+      "target_property": "Reservations_FirstName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Reservations",
+      "target_property": "Reservations_FirstName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Reservations",
+      "target_property": "Reservations_FirstName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전성",
+      "target_class": "Reservations",
+      "target_property": "Reservations_FirstName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "adults",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Adults",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성인",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Adults",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성인 인원",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Adults",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성인 수",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Adults",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성인 수량",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Adults",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성인 개수",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Adults",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "kids",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Kids",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "어린이",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Kids",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "어린이 인원",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Kids",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "어린이 수",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Kids",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "어린이 수량",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Kids",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "어린이 개수",
+      "target_class": "Reservations",
+      "target_property": "Reservations_Kids",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "스테이트 룸",
+      "target_class": "Rooms",
+      "target_property": "Rooms_roomName",
+      "value": "스테이트 룸"
+    },
+    {
+      "entry_type": "value",
+      "key": "프리미엄 룸",
+      "target_class": "Rooms",
+      "target_property": "Rooms_roomName",
+      "value": "프리미엄 룸"
+    },
+    {
+      "entry_type": "value",
+      "key": "싱글",
+      "target_class": "Rooms",
+      "target_property": "Rooms_bedType",
+      "value": "싱글"
+    },
+    {
+      "entry_type": "value",
+      "key": "더블",
+      "target_class": "Rooms",
+      "target_property": "Rooms_bedType",
+      "value": "더블"
+    },
+    {
+      "entry_type": "value",
+      "key": "퀸사이즈",
+      "target_class": "Rooms",
+      "target_property": "Rooms_bedType",
+      "value": "퀸사이즈"
+    },
+    {
+      "entry_type": "value",
+      "key": "현대식",
+      "target_class": "Rooms",
+      "target_property": "Rooms_decor",
+      "value": "현대식"
+    },
+    {
+      "entry_type": "value",
+      "key": "클래식",
+      "target_class": "Rooms",
+      "target_property": "Rooms_decor",
+      "value": "클래식"
+    },
+    {
+      "entry_type": "value",
+      "key": "트렌디",
+      "target_class": "Rooms",
+      "target_property": "Rooms_decor",
+      "value": "트렌디"
+    }
+  ]
+}

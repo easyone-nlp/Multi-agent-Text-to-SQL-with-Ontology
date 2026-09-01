@@ -1,0 +1,350 @@
+{
+  "class_table": {
+    "Third_Party_Companies": "Third_Party_Companies",
+    "Maintenance_Contracts": "Maintenance_Contracts",
+    "Parts": "Parts",
+    "Skills": "Skills",
+    "Staff": "Staff",
+    "Assets": "Assets",
+    "Asset_Parts": "Asset_Parts",
+    "Maintenance_Engineers": "Maintenance_Engineers",
+    "Engineer_Skills": "Engineer_Skills",
+    "Fault_Log": "Fault_Log",
+    "Engineer_Visits": "Engineer_Visits",
+    "Part_Faults": "Part_Faults",
+    "Fault_Log_Parts": "Fault_Log_Parts",
+    "Skills_Required_To_Fix": "Skills_Required_To_Fix"
+  },
+  "property_column": {
+    "Third_Party_Companies_company_id": [
+      "Third_Party_Companies",
+      "company_id"
+    ],
+    "Third_Party_Companies_company_type": [
+      "Third_Party_Companies",
+      "company_type"
+    ],
+    "Third_Party_Companies_company_name": [
+      "Third_Party_Companies",
+      "company_name"
+    ],
+    "Third_Party_Companies_company_address": [
+      "Third_Party_Companies",
+      "company_address"
+    ],
+    "Third_Party_Companies_other_company_details": [
+      "Third_Party_Companies",
+      "other_company_details"
+    ],
+    "Maintenance_Contracts_maintenance_contract_id": [
+      "Maintenance_Contracts",
+      "maintenance_contract_id"
+    ],
+    "Maintenance_Contracts_maintenance_contract_company_id": [
+      "Maintenance_Contracts",
+      "maintenance_contract_company_id"
+    ],
+    "Maintenance_Contracts_contract_start_date": [
+      "Maintenance_Contracts",
+      "contract_start_date"
+    ],
+    "Maintenance_Contracts_contract_end_date": [
+      "Maintenance_Contracts",
+      "contract_end_date"
+    ],
+    "Maintenance_Contracts_other_contract_details": [
+      "Maintenance_Contracts",
+      "other_contract_details"
+    ],
+    "Parts_part_id": [
+      "Parts",
+      "part_id"
+    ],
+    "Parts_part_name": [
+      "Parts",
+      "part_name"
+    ],
+    "Parts_chargeable_yn": [
+      "Parts",
+      "chargeable_yn"
+    ],
+    "Parts_chargeable_amount": [
+      "Parts",
+      "chargeable_amount"
+    ],
+    "Parts_other_part_details": [
+      "Parts",
+      "other_part_details"
+    ],
+    "Skills_skill_id": [
+      "Skills",
+      "skill_id"
+    ],
+    "Skills_skill_code": [
+      "Skills",
+      "skill_code"
+    ],
+    "Skills_skill_description": [
+      "Skills",
+      "skill_description"
+    ],
+    "Staff_staff_id": [
+      "Staff",
+      "staff_id"
+    ],
+    "Staff_staff_name": [
+      "Staff",
+      "staff_name"
+    ],
+    "Staff_gender": [
+      "Staff",
+      "gender"
+    ],
+    "Staff_other_staff_details": [
+      "Staff",
+      "other_staff_details"
+    ],
+    "Assets_asset_id": [
+      "Assets",
+      "asset_id"
+    ],
+    "Assets_maintenance_contract_id": [
+      "Assets",
+      "maintenance_contract_id"
+    ],
+    "Assets_supplier_company_id": [
+      "Assets",
+      "supplier_company_id"
+    ],
+    "Assets_asset_details": [
+      "Assets",
+      "asset_details"
+    ],
+    "Assets_asset_make": [
+      "Assets",
+      "asset_make"
+    ],
+    "Assets_asset_model": [
+      "Assets",
+      "asset_model"
+    ],
+    "Assets_asset_acquired_date": [
+      "Assets",
+      "asset_acquired_date"
+    ],
+    "Assets_asset_disposed_date": [
+      "Assets",
+      "asset_disposed_date"
+    ],
+    "Assets_other_asset_details": [
+      "Assets",
+      "other_asset_details"
+    ],
+    "Asset_Parts_asset_id": [
+      "Asset_Parts",
+      "asset_id"
+    ],
+    "Asset_Parts_part_id": [
+      "Asset_Parts",
+      "part_id"
+    ],
+    "Maintenance_Engineers_engineer_id": [
+      "Maintenance_Engineers",
+      "engineer_id"
+    ],
+    "Maintenance_Engineers_company_id": [
+      "Maintenance_Engineers",
+      "company_id"
+    ],
+    "Maintenance_Engineers_first_name": [
+      "Maintenance_Engineers",
+      "first_name"
+    ],
+    "Maintenance_Engineers_last_name": [
+      "Maintenance_Engineers",
+      "last_name"
+    ],
+    "Maintenance_Engineers_other_details": [
+      "Maintenance_Engineers",
+      "other_details"
+    ],
+    "Engineer_Skills_engineer_id": [
+      "Engineer_Skills",
+      "engineer_id"
+    ],
+    "Engineer_Skills_skill_id": [
+      "Engineer_Skills",
+      "skill_id"
+    ],
+    "Fault_Log_fault_log_entry_id": [
+      "Fault_Log",
+      "fault_log_entry_id"
+    ],
+    "Fault_Log_asset_id": [
+      "Fault_Log",
+      "asset_id"
+    ],
+    "Fault_Log_recorded_by_staff_id": [
+      "Fault_Log",
+      "recorded_by_staff_id"
+    ],
+    "Fault_Log_fault_log_entry_datetime": [
+      "Fault_Log",
+      "fault_log_entry_datetime"
+    ],
+    "Fault_Log_fault_description": [
+      "Fault_Log",
+      "fault_description"
+    ],
+    "Fault_Log_other_fault_details": [
+      "Fault_Log",
+      "other_fault_details"
+    ],
+    "Engineer_Visits_engineer_visit_id": [
+      "Engineer_Visits",
+      "engineer_visit_id"
+    ],
+    "Engineer_Visits_contact_staff_id": [
+      "Engineer_Visits",
+      "contact_staff_id"
+    ],
+    "Engineer_Visits_engineer_id": [
+      "Engineer_Visits",
+      "engineer_id"
+    ],
+    "Engineer_Visits_fault_log_entry_id": [
+      "Engineer_Visits",
+      "fault_log_entry_id"
+    ],
+    "Engineer_Visits_fault_status": [
+      "Engineer_Visits",
+      "fault_status"
+    ],
+    "Engineer_Visits_visit_start_datetime": [
+      "Engineer_Visits",
+      "visit_start_datetime"
+    ],
+    "Engineer_Visits_visit_end_datetime": [
+      "Engineer_Visits",
+      "visit_end_datetime"
+    ],
+    "Engineer_Visits_other_visit_details": [
+      "Engineer_Visits",
+      "other_visit_details"
+    ],
+    "Part_Faults_part_fault_id": [
+      "Part_Faults",
+      "part_fault_id"
+    ],
+    "Part_Faults_part_id": [
+      "Part_Faults",
+      "part_id"
+    ],
+    "Part_Faults_fault_short_name": [
+      "Part_Faults",
+      "fault_short_name"
+    ],
+    "Part_Faults_fault_description": [
+      "Part_Faults",
+      "fault_description"
+    ],
+    "Part_Faults_other_fault_details": [
+      "Part_Faults",
+      "other_fault_details"
+    ],
+    "Fault_Log_Parts_fault_log_entry_id": [
+      "Fault_Log_Parts",
+      "fault_log_entry_id"
+    ],
+    "Fault_Log_Parts_part_fault_id": [
+      "Fault_Log_Parts",
+      "part_fault_id"
+    ],
+    "Fault_Log_Parts_fault_status": [
+      "Fault_Log_Parts",
+      "fault_status"
+    ],
+    "Skills_Required_To_Fix_part_fault_id": [
+      "Skills_Required_To_Fix",
+      "part_fault_id"
+    ],
+    "Skills_Required_To_Fix_skill_id": [
+      "Skills_Required_To_Fix",
+      "skill_id"
+    ]
+  },
+  "object_property_fk": {
+    "Maintenance_Contracts_Third_Party_Companies_fk0": [
+      "Maintenance_Contracts.maintenance_contract_company_id",
+      "Third_Party_Companies.company_id"
+    ],
+    "Assets_Third_Party_Companies_fk1": [
+      "Assets.supplier_company_id",
+      "Third_Party_Companies.company_id"
+    ],
+    "Assets_Maintenance_Contracts_fk2": [
+      "Assets.maintenance_contract_id",
+      "Maintenance_Contracts.maintenance_contract_id"
+    ],
+    "Asset_Parts_Assets_fk3": [
+      "Asset_Parts.asset_id",
+      "Assets.asset_id"
+    ],
+    "Asset_Parts_Parts_fk4": [
+      "Asset_Parts.part_id",
+      "Parts.part_id"
+    ],
+    "Maintenance_Engineers_Third_Party_Companies_fk5": [
+      "Maintenance_Engineers.company_id",
+      "Third_Party_Companies.company_id"
+    ],
+    "Engineer_Skills_Skills_fk6": [
+      "Engineer_Skills.skill_id",
+      "Skills.skill_id"
+    ],
+    "Engineer_Skills_Maintenance_Engineers_fk7": [
+      "Engineer_Skills.engineer_id",
+      "Maintenance_Engineers.engineer_id"
+    ],
+    "Fault_Log_Staff_fk8": [
+      "Fault_Log.recorded_by_staff_id",
+      "Staff.staff_id"
+    ],
+    "Fault_Log_Assets_fk9": [
+      "Fault_Log.asset_id",
+      "Assets.asset_id"
+    ],
+    "Engineer_Visits_Staff_fk10": [
+      "Engineer_Visits.contact_staff_id",
+      "Staff.staff_id"
+    ],
+    "Engineer_Visits_Maintenance_Engineers_fk11": [
+      "Engineer_Visits.engineer_id",
+      "Maintenance_Engineers.engineer_id"
+    ],
+    "Engineer_Visits_Fault_Log_fk12": [
+      "Engineer_Visits.fault_log_entry_id",
+      "Fault_Log.fault_log_entry_id"
+    ],
+    "Part_Faults_Parts_fk13": [
+      "Part_Faults.part_id",
+      "Parts.part_id"
+    ],
+    "Fault_Log_Parts_Fault_Log_fk14": [
+      "Fault_Log_Parts.fault_log_entry_id",
+      "Fault_Log.fault_log_entry_id"
+    ],
+    "Fault_Log_Parts_Part_Faults_fk15": [
+      "Fault_Log_Parts.part_fault_id",
+      "Part_Faults.part_fault_id"
+    ],
+    "Skills_Required_To_Fix_Skills_fk16": [
+      "Skills_Required_To_Fix.skill_id",
+      "Skills.skill_id"
+    ],
+    "Skills_Required_To_Fix_Part_Faults_fk17": [
+      "Skills_Required_To_Fix.part_fault_id",
+      "Part_Faults.part_fault_id"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "class_table": {
+    "product": "product",
+    "store": "store",
+    "district": "district",
+    "store_product": "store_product",
+    "store_district": "store_district"
+  },
+  "property_column": {
+    "product_product_id": [
+      "product",
+      "product_id"
+    ],
+    "product_product": [
+      "product",
+      "product"
+    ],
+    "product_dimensions": [
+      "product",
+      "dimensions"
+    ],
+    "product_dpi": [
+      "product",
+      "dpi"
+    ],
+    "product_pages_per_minute_color": [
+      "product",
+      "pages_per_minute_color"
+    ],
+    "product_max_page_size": [
+      "product",
+      "max_page_size"
+    ],
+    "product_interface": [
+      "product",
+      "interface"
+    ],
+    "store_Store_ID": [
+      "store",
+      "Store_ID"
+    ],
+    "store_Store_Name": [
+      "store",
+      "Store_Name"
+    ],
+    "store_Type": [
+      "store",
+      "Type"
+    ],
+    "store_Area_size": [
+      "store",
+      "Area_size"
+    ],
+    "store_Number_of_product_category": [
+      "store",
+      "Number_of_product_category"
+    ],
+    "store_Ranking": [
+      "store",
+      "Ranking"
+    ],
+    "district_District_ID": [
+      "district",
+      "District_ID"
+    ],
+    "district_District_name": [
+      "district",
+      "District_name"
+    ],
+    "district_Headquartered_City": [
+      "district",
+      "Headquartered_City"
+    ],
+    "district_City_Population": [
+      "district",
+      "City_Population"
+    ],
+    "district_City_Area": [
+      "district",
+      "City_Area"
+    ],
+    "store_product_Store_ID": [
+      "store_product",
+      "Store_ID"
+    ],
+    "store_product_Product_ID": [
+      "store_product",
+      "Product_ID"
+    ],
+    "store_district_Store_ID": [
+      "store_district",
+      "Store_ID"
+    ],
+    "store_district_District_ID": [
+      "store_district",
+      "District_ID"
+    ]
+  },
+  "object_property_fk": {
+    "store_product_store_fk0": [
+      "store_product.Store_ID",
+      "store.Store_ID"
+    ],
+    "store_district_district_fk1": [
+      "store_district.District_ID",
+      "district.District_ID"
+    ],
+    "store_district_store_fk2": [
+      "store_district.Store_ID",
+      "store.Store_ID"
+    ]
+  }
+}

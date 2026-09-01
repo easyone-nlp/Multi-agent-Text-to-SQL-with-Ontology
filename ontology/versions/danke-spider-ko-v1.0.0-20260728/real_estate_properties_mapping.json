@@ -1,0 +1,177 @@
+{
+  "class_table": {
+    "Ref_Feature_Types": "Ref_Feature_Types",
+    "Ref_Property_Types": "Ref_Property_Types",
+    "Other_Available_Features": "Other_Available_Features",
+    "Properties": "Properties",
+    "Other_Property_Features": "Other_Property_Features"
+  },
+  "property_column": {
+    "Ref_Feature_Types_feature_type_code": [
+      "Ref_Feature_Types",
+      "feature_type_code"
+    ],
+    "Ref_Feature_Types_feature_type_name": [
+      "Ref_Feature_Types",
+      "feature_type_name"
+    ],
+    "Ref_Property_Types_property_type_code": [
+      "Ref_Property_Types",
+      "property_type_code"
+    ],
+    "Ref_Property_Types_property_type_description": [
+      "Ref_Property_Types",
+      "property_type_description"
+    ],
+    "Other_Available_Features_feature_id": [
+      "Other_Available_Features",
+      "feature_id"
+    ],
+    "Other_Available_Features_feature_type_code": [
+      "Other_Available_Features",
+      "feature_type_code"
+    ],
+    "Other_Available_Features_feature_name": [
+      "Other_Available_Features",
+      "feature_name"
+    ],
+    "Other_Available_Features_feature_description": [
+      "Other_Available_Features",
+      "feature_description"
+    ],
+    "Properties_property_id": [
+      "Properties",
+      "property_id"
+    ],
+    "Properties_property_type_code": [
+      "Properties",
+      "property_type_code"
+    ],
+    "Properties_date_on_market": [
+      "Properties",
+      "date_on_market"
+    ],
+    "Properties_date_sold": [
+      "Properties",
+      "date_sold"
+    ],
+    "Properties_property_name": [
+      "Properties",
+      "property_name"
+    ],
+    "Properties_property_address": [
+      "Properties",
+      "property_address"
+    ],
+    "Properties_room_count": [
+      "Properties",
+      "room_count"
+    ],
+    "Properties_vendor_requested_price": [
+      "Properties",
+      "vendor_requested_price"
+    ],
+    "Properties_buyer_offered_price": [
+      "Properties",
+      "buyer_offered_price"
+    ],
+    "Properties_agreed_selling_price": [
+      "Properties",
+      "agreed_selling_price"
+    ],
+    "Properties_apt_feature_1": [
+      "Properties",
+      "apt_feature_1"
+    ],
+    "Properties_apt_feature_2": [
+      "Properties",
+      "apt_feature_2"
+    ],
+    "Properties_apt_feature_3": [
+      "Properties",
+      "apt_feature_3"
+    ],
+    "Properties_fld_feature_1": [
+      "Properties",
+      "fld_feature_1"
+    ],
+    "Properties_fld_feature_2": [
+      "Properties",
+      "fld_feature_2"
+    ],
+    "Properties_fld_feature_3": [
+      "Properties",
+      "fld_feature_3"
+    ],
+    "Properties_hse_feature_1": [
+      "Properties",
+      "hse_feature_1"
+    ],
+    "Properties_hse_feature_2": [
+      "Properties",
+      "hse_feature_2"
+    ],
+    "Properties_hse_feature_3": [
+      "Properties",
+      "hse_feature_3"
+    ],
+    "Properties_oth_feature_1": [
+      "Properties",
+      "oth_feature_1"
+    ],
+    "Properties_oth_feature_2": [
+      "Properties",
+      "oth_feature_2"
+    ],
+    "Properties_oth_feature_3": [
+      "Properties",
+      "oth_feature_3"
+    ],
+    "Properties_shp_feature_1": [
+      "Properties",
+      "shp_feature_1"
+    ],
+    "Properties_shp_feature_2": [
+      "Properties",
+      "shp_feature_2"
+    ],
+    "Properties_shp_feature_3": [
+      "Properties",
+      "shp_feature_3"
+    ],
+    "Properties_other_property_details": [
+      "Properties",
+      "other_property_details"
+    ],
+    "Other_Property_Features_property_id": [
+      "Other_Property_Features",
+      "property_id"
+    ],
+    "Other_Property_Features_feature_id": [
+      "Other_Property_Features",
+      "feature_id"
+    ],
+    "Other_Property_Features_property_feature_description": [
+      "Other_Property_Features",
+      "property_feature_description"
+    ]
+  },
+  "object_property_fk": {
+    "Other_Available_Features_Ref_Feature_Types_fk0": [
+      "Other_Available_Features.feature_type_code",
+      "Ref_Feature_Types.feature_type_code"
+    ],
+    "Properties_Ref_Property_Types_fk1": [
+      "Properties.property_type_code",
+      "Ref_Property_Types.property_type_code"
+    ],
+    "Other_Property_Features_Properties_fk2": [
+      "Other_Property_Features.property_id",
+      "Properties.property_id"
+    ],
+    "Other_Property_Features_Other_Available_Features_fk3": [
+      "Other_Property_Features.feature_id",
+      "Other_Available_Features.feature_id"
+    ]
+  }
+}

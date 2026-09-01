@@ -1,0 +1,126 @@
+{
+  "class_table": {
+    "Campuses": "Campuses",
+    "csu_fees": "csu_fees",
+    "degrees": "degrees",
+    "discipline_enrollments": "discipline_enrollments",
+    "enrollments": "enrollments",
+    "faculty": "faculty"
+  },
+  "property_column": {
+    "Campuses_Id": [
+      "Campuses",
+      "Id"
+    ],
+    "Campuses_Campus": [
+      "Campuses",
+      "Campus"
+    ],
+    "Campuses_Location": [
+      "Campuses",
+      "Location"
+    ],
+    "Campuses_County": [
+      "Campuses",
+      "County"
+    ],
+    "Campuses_Year": [
+      "Campuses",
+      "Year"
+    ],
+    "csu_fees_Campus": [
+      "csu_fees",
+      "Campus"
+    ],
+    "csu_fees_Year": [
+      "csu_fees",
+      "Year"
+    ],
+    "csu_fees_CampusFee": [
+      "csu_fees",
+      "CampusFee"
+    ],
+    "degrees_Year": [
+      "degrees",
+      "Year"
+    ],
+    "degrees_Campus": [
+      "degrees",
+      "Campus"
+    ],
+    "degrees_Degrees": [
+      "degrees",
+      "Degrees"
+    ],
+    "discipline_enrollments_Campus": [
+      "discipline_enrollments",
+      "Campus"
+    ],
+    "discipline_enrollments_Discipline": [
+      "discipline_enrollments",
+      "Discipline"
+    ],
+    "discipline_enrollments_Year": [
+      "discipline_enrollments",
+      "Year"
+    ],
+    "discipline_enrollments_Undergraduate": [
+      "discipline_enrollments",
+      "Undergraduate"
+    ],
+    "discipline_enrollments_Graduate": [
+      "discipline_enrollments",
+      "Graduate"
+    ],
+    "enrollments_Campus": [
+      "enrollments",
+      "Campus"
+    ],
+    "enrollments_Year": [
+      "enrollments",
+      "Year"
+    ],
+    "enrollments_TotalEnrollment_AY": [
+      "enrollments",
+      "TotalEnrollment_AY"
+    ],
+    "enrollments_FTE_AY": [
+      "enrollments",
+      "FTE_AY"
+    ],
+    "faculty_Campus": [
+      "faculty",
+      "Campus"
+    ],
+    "faculty_Year": [
+      "faculty",
+      "Year"
+    ],
+    "faculty_Faculty": [
+      "faculty",
+      "Faculty"
+    ]
+  },
+  "object_property_fk": {
+    "csu_fees_Campuses_fk0": [
+      "csu_fees.Campus",
+      "Campuses.Id"
+    ],
+    "degrees_Campuses_fk1": [
+      "degrees.Campus",
+      "Campuses.Id"
+    ],
+    "discipline_enrollments_Campuses_fk2": [
+      "discipline_enrollments.Campus",
+      "Campuses.Id"
+    ],
+    "enrollments_Campuses_fk3": [
+      "enrollments.Campus",
+      "Campuses.Id"
+    ],
+    "faculty_Campuses_fk4": [
+      "faculty.Campus",
+      "Campuses.Id"
+    ]
+  }
+}

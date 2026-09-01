@@ -1,0 +1,1194 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "스테이디움",
+      "target_class": "stadium",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기장",
+      "target_class": "stadium",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 시설",
+      "target_class": "stadium",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기장 정보",
+      "target_class": "stadium",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기장 데이터",
+      "target_class": "stadium",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기장 위치",
+      "target_class": "stadium",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 시설 정보",
+      "target_class": "stadium",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기",
+      "target_class": "game",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "injury accident",
+      "target_class": "injury_accident",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "stadium",
+      "target_property": "stadium_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "stadium",
+      "target_property": "stadium_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이드 ID",
+      "target_class": "stadium",
+      "target_property": "stadium_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이드 고유 번호",
+      "target_class": "stadium",
+      "target_property": "stadium_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이드 식별자",
+      "target_class": "stadium",
+      "target_property": "stadium_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이드 번호",
+      "target_class": "stadium",
+      "target_property": "stadium_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "stadium",
+      "target_property": "stadium_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "stadium",
+      "target_property": "stadium_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이드 이름",
+      "target_class": "stadium",
+      "target_property": "stadium_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이드명",
+      "target_class": "stadium",
+      "target_property": "stadium_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이드 제목",
+      "target_class": "stadium",
+      "target_property": "stadium_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이드 고유명",
+      "target_class": "stadium",
+      "target_property": "stadium_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈 게임 수",
+      "target_class": "stadium",
+      "target_property": "stadium_Home_Games",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "home games",
+      "target_class": "stadium",
+      "target_property": "stadium_Home_Games",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈 경기 수",
+      "target_class": "stadium",
+      "target_property": "stadium_Home_Games",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈 게임 개수",
+      "target_class": "stadium",
+      "target_property": "stadium_Home_Games",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈 경기 횟수",
+      "target_class": "stadium",
+      "target_property": "stadium_Home_Games",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 관중 수",
+      "target_class": "stadium",
+      "target_property": "stadium_Average_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 관객 수",
+      "target_class": "stadium",
+      "target_property": "stadium_Average_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 출석률",
+      "target_class": "stadium",
+      "target_property": "stadium_Average_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 인원 수",
+      "target_class": "stadium",
+      "target_property": "stadium_Average_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 관람 인원",
+      "target_class": "stadium",
+      "target_property": "stadium_Average_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 관객",
+      "target_class": "stadium",
+      "target_property": "stadium_Average_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 출석 수",
+      "target_class": "stadium",
+      "target_property": "stadium_Average_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 인원",
+      "target_class": "stadium",
+      "target_property": "stadium_Average_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 관객 수량",
+      "target_class": "stadium",
+      "target_property": "stadium_Average_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 관중 수",
+      "target_class": "stadium",
+      "target_property": "stadium_Total_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 관객 수",
+      "target_class": "stadium",
+      "target_property": "stadium_Total_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 출석 수",
+      "target_class": "stadium",
+      "target_property": "stadium_Total_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 관람 인원",
+      "target_class": "stadium",
+      "target_property": "stadium_Total_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 관객 수량",
+      "target_class": "stadium",
+      "target_property": "stadium_Total_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 인원 수",
+      "target_class": "stadium",
+      "target_property": "stadium_Total_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 관객",
+      "target_class": "stadium",
+      "target_property": "stadium_Total_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 관람 인원 수",
+      "target_class": "stadium",
+      "target_property": "stadium_Total_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 출석 인원",
+      "target_class": "stadium",
+      "target_property": "stadium_Total_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "용량 비율",
+      "target_class": "stadium",
+      "target_property": "stadium_Capacity_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "용량 비분율",
+      "target_class": "stadium",
+      "target_property": "stadium_Capacity_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "용량 비율 수치",
+      "target_class": "stadium",
+      "target_property": "stadium_Capacity_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "용량 비분율 수치",
+      "target_class": "stadium",
+      "target_property": "stadium_Capacity_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "용량 비율 값",
+      "target_class": "stadium",
+      "target_property": "stadium_Capacity_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "용량 비분율 값",
+      "target_class": "stadium",
+      "target_property": "stadium_Capacity_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "용량 비율 계산",
+      "target_class": "stadium",
+      "target_property": "stadium_Capacity_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "용량 비분율 계산",
+      "target_class": "stadium",
+      "target_property": "stadium_Capacity_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이디움 ID",
+      "target_class": "game",
+      "target_property": "game_stadium_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stadium_id",
+      "target_class": "game",
+      "target_property": "game_stadium_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스타디움 ID",
+      "target_class": "game",
+      "target_property": "game_stadium_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기장 ID",
+      "target_class": "game",
+      "target_property": "game_stadium_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스타디움 식별자",
+      "target_class": "game",
+      "target_property": "game_stadium_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기장 식별자",
+      "target_class": "game",
+      "target_property": "game_stadium_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스타디움 번호",
+      "target_class": "game",
+      "target_property": "game_stadium_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기장 번호",
+      "target_class": "game",
+      "target_property": "game_stadium_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "game",
+      "target_property": "game_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "game",
+      "target_property": "game_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 ID",
+      "target_class": "game",
+      "target_property": "game_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기록 ID",
+      "target_class": "game",
+      "target_property": "game_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 식별자",
+      "target_class": "game",
+      "target_property": "game_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기록 식별자",
+      "target_class": "game",
+      "target_property": "game_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 번호",
+      "target_class": "game",
+      "target_property": "game_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기록 번호",
+      "target_class": "game",
+      "target_property": "game_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시즌",
+      "target_class": "game",
+      "target_property": "game_Season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Season",
+      "target_class": "game",
+      "target_property": "game_Season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시즌 정보",
+      "target_class": "game",
+      "target_property": "game_Season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 시즌",
+      "target_class": "game",
+      "target_property": "game_Season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시즌 번호",
+      "target_class": "game",
+      "target_property": "game_Season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 시즌 번호",
+      "target_class": "game",
+      "target_property": "game_Season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시즌 코드",
+      "target_class": "game",
+      "target_property": "game_Season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "game",
+      "target_property": "game_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "game",
+      "target_property": "game_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기일",
+      "target_class": "game",
+      "target_property": "game_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일",
+      "target_class": "game",
+      "target_property": "game_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날",
+      "target_class": "game",
+      "target_property": "game_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 날짜",
+      "target_class": "game",
+      "target_property": "game_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 정보",
+      "target_class": "game",
+      "target_property": "game_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Date",
+      "target_class": "game",
+      "target_property": "game_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈 팀",
+      "target_class": "game",
+      "target_property": "game_Home_team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈",
+      "target_class": "game",
+      "target_property": "game_Home_team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈 구단",
+      "target_class": "game",
+      "target_property": "game_Home_team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈팀 이름",
+      "target_class": "game",
+      "target_property": "game_Home_team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Home_team",
+      "target_class": "game",
+      "target_property": "game_Home_team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "어웨이 팀",
+      "target_class": "game",
+      "target_property": "game_Away_team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "어웨이",
+      "target_class": "game",
+      "target_property": "game_Away_team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "어웨이 팀 이름",
+      "target_class": "game",
+      "target_property": "game_Away_team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "어웨이 구단",
+      "target_class": "game",
+      "target_property": "game_Away_team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Away_team",
+      "target_class": "game",
+      "target_property": "game_Away_team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스코어",
+      "target_class": "game",
+      "target_property": "game_Score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과",
+      "target_class": "game",
+      "target_property": "game_Score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "game",
+      "target_property": "game_Score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스코어 정보",
+      "target_class": "game",
+      "target_property": "game_Score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 결과",
+      "target_class": "game",
+      "target_property": "game_Score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "득점 정보",
+      "target_class": "game",
+      "target_property": "game_Score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 점수",
+      "target_class": "game",
+      "target_property": "game_Score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스코어 값",
+      "target_class": "game",
+      "target_property": "game_Score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 종류",
+      "target_class": "game",
+      "target_property": "game_Competition",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대회",
+      "target_class": "game",
+      "target_property": "game_Competition",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 대회",
+      "target_class": "game",
+      "target_property": "game_Competition",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 이름",
+      "target_class": "game",
+      "target_property": "game_Competition",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 대회 이름",
+      "target_class": "game",
+      "target_property": "game_Competition",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 경기",
+      "target_class": "game",
+      "target_property": "game_Competition",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 대회명",
+      "target_class": "game",
+      "target_property": "game_Competition",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "game id",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_game_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "game_id",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_game_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "game",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_game_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "game identifier",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_game_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "game number",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_game_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "game id number",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_game_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "game code",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_game_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "identifier",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "item id",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "record id",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "item number",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "record number",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "item identifier",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "player",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Player",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "athlete",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Player",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "sportsman",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Player",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "player name",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Player",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "player identifier",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Player",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "player code",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Player",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "injury",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Injury",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Injury",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해 유형",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Injury",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해 내용",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Injury",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해 종류",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Injury",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해 정보",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Injury",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "number of matches",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Number_of_matches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 수",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Number_of_matches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 개수",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Number_of_matches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 횟수",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Number_of_matches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 수량",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Number_of_matches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 수치",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Number_of_matches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "source",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Source",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출처",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Source",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원천",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Source",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정보 출처",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Source",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해 정보 출처",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Source",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소스",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Source",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Source",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Source",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소스 정보",
+      "target_class": "injury_accident",
+      "target_property": "injury_accident_Source",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 스타디움",
+      "target_class": "stadium",
+      "target_property": "stadium_name",
+      "value": "서울 스타디움"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산 스타디움",
+      "target_class": "stadium",
+      "target_property": "stadium_name",
+      "value": "부산 스타디움"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023",
+      "target_class": "game",
+      "target_property": "game_Season",
+      "value": "2023"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년",
+      "target_class": "game",
+      "target_property": "game_Season",
+      "value": "2023"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-05-10",
+      "target_class": "game",
+      "target_property": "game_Date",
+      "value": "2023-05-10"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 5월 10일",
+      "target_class": "game",
+      "target_property": "game_Date",
+      "value": "2023-05-10"
+    },
+    {
+      "entry_type": "value",
+      "key": "삼성",
+      "target_class": "game",
+      "target_property": "game_Home_team",
+      "value": "삼성"
+    },
+    {
+      "entry_type": "value",
+      "key": "삼성 라이온스",
+      "target_class": "game",
+      "target_property": "game_Home_team",
+      "value": "삼성"
+    },
+    {
+      "entry_type": "value",
+      "key": "현대",
+      "target_class": "game",
+      "target_property": "game_Home_team",
+      "value": "현대"
+    },
+    {
+      "entry_type": "value",
+      "key": "현대 자이언츠",
+      "target_class": "game",
+      "target_property": "game_Home_team",
+      "value": "현대"
+    },
+    {
+      "entry_type": "value",
+      "key": "LG",
+      "target_class": "game",
+      "target_property": "game_Away_team",
+      "value": "LG"
+    },
+    {
+      "entry_type": "value",
+      "key": "LG 트윈스",
+      "target_class": "game",
+      "target_property": "game_Away_team",
+      "value": "LG"
+    },
+    {
+      "entry_type": "value",
+      "key": "SK",
+      "target_class": "game",
+      "target_property": "game_Away_team",
+      "value": "SK"
+    },
+    {
+      "entry_type": "value",
+      "key": "SK 와이즈",
+      "target_class": "game",
+      "target_property": "game_Away_team",
+      "value": "SK"
+    },
+    {
+      "entry_type": "value",
+      "key": "3-1",
+      "target_class": "game",
+      "target_property": "game_Score",
+      "value": "3-1"
+    },
+    {
+      "entry_type": "value",
+      "key": "3대1",
+      "target_class": "game",
+      "target_property": "game_Score",
+      "value": "3-1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2-2",
+      "target_class": "game",
+      "target_property": "game_Score",
+      "value": "2-2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2대2",
+      "target_class": "game",
+      "target_property": "game_Score",
+      "value": "2-2"
+    },
+    {
+      "entry_type": "value",
+      "key": "KBO",
+      "target_class": "game",
+      "target_property": "game_Competition",
+      "value": "KBO"
+    },
+    {
+      "entry_type": "value",
+      "key": "KBO 리그",
+      "target_class": "game",
+      "target_property": "game_Competition",
+      "value": "KBO"
+    },
+    {
+      "entry_type": "value",
+      "key": "프리미어 리그",
+      "target_class": "game",
+      "target_property": "game_Competition",
+      "value": "프리미어 리그"
+    },
+    {
+      "entry_type": "value",
+      "key": "프리미어",
+      "target_class": "game",
+      "target_property": "game_Competition",
+      "value": "프리미어 리그"
+    }
+  ]
+}

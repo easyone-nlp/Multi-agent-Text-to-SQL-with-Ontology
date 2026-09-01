@@ -1,0 +1,5310 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "배우",
+      "target_class": "actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "배우 정보",
+      "target_class": "actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 배우",
+      "target_class": "actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연기자",
+      "target_class": "actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연기자 정보",
+      "target_class": "actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주소",
+      "target_class": "address",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화관 주소",
+      "target_class": "address",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화관 위치",
+      "target_class": "address",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관람 장소 주소",
+      "target_class": "address",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화관 위치 정보",
+      "target_class": "address",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관람 장소 위치",
+      "target_class": "address",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "카테고리",
+      "target_class": "category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 장르",
+      "target_class": "category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "장르 정보",
+      "target_class": "category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 카테고리",
+      "target_class": "category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 분류",
+      "target_class": "category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "장르",
+      "target_class": "category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도시",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도시 정보",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도시 목록",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도시 데이터",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도시 목표",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 정보",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 목록",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 데이터",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 목표",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "customer",
+      "target_class": "customer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객",
+      "target_class": "customer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 정보",
+      "target_class": "customer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 목록",
+      "target_class": "customer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 데이터",
+      "target_class": "customer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 목표",
+      "target_class": "customer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화제목",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화명",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화정보",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화목록",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "film actor",
+      "target_class": "film_actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화배우",
+      "target_class": "film_actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화배우관계",
+      "target_class": "film_actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화배우연관",
+      "target_class": "film_actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화배우정보",
+      "target_class": "film_actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화배우목록",
+      "target_class": "film_actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "film category",
+      "target_class": "film_category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화장르",
+      "target_class": "film_category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화장르관계",
+      "target_class": "film_category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화장르연관",
+      "target_class": "film_category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화장르정보",
+      "target_class": "film_category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화장르목록",
+      "target_class": "film_category",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 텍스트",
+      "target_class": "film_text",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 내용",
+      "target_class": "film_text",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 설명",
+      "target_class": "film_text",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 자막",
+      "target_class": "film_text",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 설명문",
+      "target_class": "film_text",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "재고",
+      "target_class": "inventory",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여 목록",
+      "target_class": "inventory",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여 목록 관리",
+      "target_class": "inventory",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여 정보",
+      "target_class": "inventory",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여 목록 데이터",
+      "target_class": "inventory",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여 목록 테이블",
+      "target_class": "inventory",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "언어",
+      "target_class": "language",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "언어 정보",
+      "target_class": "language",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "언어 데이터",
+      "target_class": "language",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "언어 목록",
+      "target_class": "language",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "언어 코드",
+      "target_class": "language",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "결제",
+      "target_class": "payment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지불",
+      "target_class": "payment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수수료",
+      "target_class": "payment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지급",
+      "target_class": "payment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "청구서",
+      "target_class": "payment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지불내역",
+      "target_class": "payment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여 정보",
+      "target_class": "rental",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여",
+      "target_class": "rental",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여기록",
+      "target_class": "rental",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여내역",
+      "target_class": "rental",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여정보",
+      "target_class": "rental",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여일지",
+      "target_class": "rental",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여내역서",
+      "target_class": "rental",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "직원",
+      "target_class": "staff",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "직원정보",
+      "target_class": "staff",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "직원목록",
+      "target_class": "staff",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "직원데이터",
+      "target_class": "staff",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "직원기록",
+      "target_class": "staff",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "직원정보서",
+      "target_class": "staff",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "매장",
+      "target_class": "store",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여점 정보",
+      "target_class": "store",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화관 정보",
+      "target_class": "store",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여소 정보",
+      "target_class": "store",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 대여소",
+      "target_class": "store",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여점 데이터",
+      "target_class": "store",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우 id",
+      "target_class": "actor",
+      "target_property": "actor_actor_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "actor_id",
+      "target_class": "actor",
+      "target_property": "actor_actor_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우 ID",
+      "target_class": "actor",
+      "target_property": "actor_actor_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우 고유번호",
+      "target_class": "actor",
+      "target_property": "actor_actor_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 배우 번호",
+      "target_class": "actor",
+      "target_property": "actor_actor_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우 식별자",
+      "target_class": "actor",
+      "target_property": "actor_actor_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우 고유 ID",
+      "target_class": "actor",
+      "target_property": "actor_actor_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "actor",
+      "target_property": "actor_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "first_name",
+      "target_class": "actor",
+      "target_property": "actor_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우 이름",
+      "target_class": "actor",
+      "target_property": "actor_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우 첫 이름",
+      "target_class": "actor",
+      "target_property": "actor_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우의 이름",
+      "target_class": "actor",
+      "target_property": "actor_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "actor",
+      "target_property": "actor_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last_name",
+      "target_class": "actor",
+      "target_property": "actor_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우 성",
+      "target_class": "actor",
+      "target_property": "actor_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우의 성",
+      "target_class": "actor",
+      "target_property": "actor_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우 마지막 이름",
+      "target_class": "actor",
+      "target_property": "actor_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 수정 시간",
+      "target_class": "actor",
+      "target_property": "actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 업데이트 시간",
+      "target_class": "actor",
+      "target_property": "actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 수정일",
+      "target_class": "actor",
+      "target_property": "actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수정일시",
+      "target_class": "actor",
+      "target_property": "actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정 시간",
+      "target_class": "actor",
+      "target_property": "actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 일시",
+      "target_class": "actor",
+      "target_property": "actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last update",
+      "target_class": "actor",
+      "target_property": "actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수정 일자",
+      "target_class": "actor",
+      "target_property": "actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 ID",
+      "target_class": "address",
+      "target_property": "address_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 고유 번호",
+      "target_class": "address",
+      "target_property": "address_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 식별자",
+      "target_class": "address",
+      "target_property": "address_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "address_id",
+      "target_class": "address",
+      "target_property": "address_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 번호",
+      "target_class": "address",
+      "target_property": "address_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 식별번호",
+      "target_class": "address",
+      "target_property": "address_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 고유값",
+      "target_class": "address",
+      "target_property": "address_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소",
+      "target_class": "address",
+      "target_property": "address_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 정보",
+      "target_class": "address",
+      "target_property": "address_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 내용",
+      "target_class": "address",
+      "target_property": "address_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "address",
+      "target_class": "address",
+      "target_property": "address_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 데이터",
+      "target_class": "address",
+      "target_property": "address_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 내용물",
+      "target_class": "address",
+      "target_property": "address_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 주소",
+      "target_class": "address",
+      "target_property": "address_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소2",
+      "target_class": "address",
+      "target_property": "address_address2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보조 주소",
+      "target_class": "address",
+      "target_property": "address_address2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 보조 정보",
+      "target_class": "address",
+      "target_property": "address_address2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "address2",
+      "target_class": "address",
+      "target_property": "address_address2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보조 주소 정보",
+      "target_class": "address",
+      "target_property": "address_address2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 추가 정보",
+      "target_class": "address",
+      "target_property": "address_address2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 보조",
+      "target_class": "address",
+      "target_property": "address_address2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역",
+      "target_class": "address",
+      "target_property": "address_district",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "district",
+      "target_class": "address",
+      "target_property": "address_district",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "address",
+      "target_property": "address_district",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행정구역",
+      "target_class": "address",
+      "target_property": "address_district",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지방",
+      "target_class": "address",
+      "target_property": "address_district",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역정보",
+      "target_class": "address",
+      "target_property": "address_district",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시 ID",
+      "target_class": "address",
+      "target_property": "address_city_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city_id",
+      "target_class": "address",
+      "target_property": "address_city_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 아이디",
+      "target_class": "address",
+      "target_property": "address_city_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 번호",
+      "target_class": "address",
+      "target_property": "address_city_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드",
+      "target_class": "address",
+      "target_property": "address_city_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 식별자",
+      "target_class": "address",
+      "target_property": "address_city_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 ID",
+      "target_class": "address",
+      "target_property": "address_city_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우편번호",
+      "target_class": "address",
+      "target_property": "address_postal_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "postal_code",
+      "target_class": "address",
+      "target_property": "address_postal_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우편 코드",
+      "target_class": "address",
+      "target_property": "address_postal_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우편번호 정보",
+      "target_class": "address",
+      "target_property": "address_postal_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우편 코드 정보",
+      "target_class": "address",
+      "target_property": "address_postal_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호",
+      "target_class": "address",
+      "target_property": "address_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화",
+      "target_class": "address",
+      "target_property": "address_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연락처",
+      "target_class": "address",
+      "target_property": "address_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호 정보",
+      "target_class": "address",
+      "target_property": "address_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호 필드",
+      "target_class": "address",
+      "target_property": "address_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "phone",
+      "target_class": "address",
+      "target_property": "address_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 업데이트",
+      "target_class": "address",
+      "target_property": "address_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 업데이트 시간",
+      "target_class": "address",
+      "target_property": "address_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 시간",
+      "target_class": "address",
+      "target_property": "address_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정 시간",
+      "target_class": "address",
+      "target_property": "address_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 수정 시간",
+      "target_class": "address",
+      "target_property": "address_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last_update",
+      "target_class": "address",
+      "target_property": "address_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카테고리 ID",
+      "target_class": "category",
+      "target_property": "category_category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류 번호",
+      "target_class": "category",
+      "target_property": "category_category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류 아이디",
+      "target_class": "category",
+      "target_property": "category_category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "category_id",
+      "target_class": "category",
+      "target_property": "category_category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "category",
+      "target_property": "category_category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류 코드",
+      "target_class": "category",
+      "target_property": "category_category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "category",
+      "target_property": "category_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류 이름",
+      "target_class": "category",
+      "target_property": "category_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카테고리명",
+      "target_class": "category",
+      "target_property": "category_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "title",
+      "target_class": "category",
+      "target_property": "category_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류",
+      "target_class": "category",
+      "target_property": "category_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류명",
+      "target_class": "category",
+      "target_property": "category_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "category",
+      "target_property": "category_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 업데이트",
+      "target_class": "category",
+      "target_property": "category_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 수정 시간",
+      "target_class": "category",
+      "target_property": "category_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 시간",
+      "target_class": "category",
+      "target_property": "category_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정 일시",
+      "target_class": "category",
+      "target_property": "category_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last_update",
+      "target_class": "category",
+      "target_property": "category_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수정 일시",
+      "target_class": "category",
+      "target_property": "category_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 일시",
+      "target_class": "category",
+      "target_property": "category_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 ID",
+      "target_class": "city",
+      "target_property": "city_city_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 번호",
+      "target_class": "city",
+      "target_property": "city_city_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드",
+      "target_class": "city",
+      "target_property": "city_city_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city_id",
+      "target_class": "city",
+      "target_property": "city_city_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 고유번호",
+      "target_class": "city",
+      "target_property": "city_city_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 식별자",
+      "target_class": "city",
+      "target_property": "city_city_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 이름",
+      "target_class": "city",
+      "target_property": "city_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "city",
+      "target_property": "city_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명",
+      "target_class": "city",
+      "target_property": "city_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명칭",
+      "target_class": "city",
+      "target_property": "city_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 이름을 나타내는 컬럼",
+      "target_class": "city",
+      "target_property": "city_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 정보",
+      "target_class": "city",
+      "target_property": "city_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 이름 컬럼",
+      "target_class": "city",
+      "target_property": "city_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명칭 컬럼",
+      "target_class": "city",
+      "target_property": "city_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 ID",
+      "target_class": "city",
+      "target_property": "city_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "country id",
+      "target_class": "city",
+      "target_property": "city_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드",
+      "target_class": "city",
+      "target_property": "city_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 번호",
+      "target_class": "city",
+      "target_property": "city_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 식별자",
+      "target_class": "city",
+      "target_property": "city_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 수정 시간",
+      "target_class": "city",
+      "target_property": "city_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 수정 시간",
+      "target_class": "city",
+      "target_property": "city_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 업데이트 시간",
+      "target_class": "city",
+      "target_property": "city_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 일시",
+      "target_class": "city",
+      "target_property": "city_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 수정일",
+      "target_class": "city",
+      "target_property": "city_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last update",
+      "target_class": "city",
+      "target_property": "city_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정 시간",
+      "target_class": "city",
+      "target_property": "city_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수정 일시",
+      "target_class": "city",
+      "target_property": "city_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 시간",
+      "target_class": "city",
+      "target_property": "city_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 id",
+      "target_class": "country",
+      "target_property": "country_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "country_id",
+      "target_class": "country",
+      "target_property": "country_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 ID",
+      "target_class": "country",
+      "target_property": "country_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 번호",
+      "target_class": "country",
+      "target_property": "country_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드",
+      "target_class": "country",
+      "target_property": "country_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 식별자",
+      "target_class": "country",
+      "target_property": "country_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "country",
+      "target_property": "country_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 고유 번호",
+      "target_class": "country",
+      "target_property": "country_country_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 이름",
+      "target_class": "country",
+      "target_property": "country_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "country",
+      "target_class": "country",
+      "target_property": "country_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "country",
+      "target_property": "country_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "country",
+      "target_property": "country_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명칭",
+      "target_class": "country",
+      "target_property": "country_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 업데이트 시간",
+      "target_class": "country",
+      "target_property": "country_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last_update",
+      "target_class": "country",
+      "target_property": "country_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 수정 시간",
+      "target_class": "country",
+      "target_property": "country_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 업데이트",
+      "target_class": "country",
+      "target_property": "country_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수정일시",
+      "target_class": "country",
+      "target_property": "country_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 수정 일시",
+      "target_class": "country",
+      "target_property": "country_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 시간",
+      "target_class": "country",
+      "target_property": "country_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정 시간",
+      "target_class": "country",
+      "target_property": "country_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer id",
+      "target_class": "customer",
+      "target_property": "customer_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "customer",
+      "target_property": "customer_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 번호",
+      "target_class": "customer",
+      "target_property": "customer_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "customer",
+      "target_property": "customer_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "customer",
+      "target_property": "customer_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객코드",
+      "target_class": "customer",
+      "target_property": "customer_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "customer",
+      "target_property": "customer_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유ID",
+      "target_class": "customer",
+      "target_property": "customer_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "store id",
+      "target_class": "customer",
+      "target_property": "customer_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가맹점 번호",
+      "target_class": "customer",
+      "target_property": "customer_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가맹점 ID",
+      "target_class": "customer",
+      "target_property": "customer_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가맹점 식별자",
+      "target_class": "customer",
+      "target_property": "customer_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가맹점코드",
+      "target_class": "customer",
+      "target_property": "customer_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "customer",
+      "target_property": "customer_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가맹점고유번호",
+      "target_class": "customer",
+      "target_property": "customer_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "first name",
+      "target_class": "customer",
+      "target_property": "customer_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "customer",
+      "target_property": "customer_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "customer",
+      "target_property": "customer_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 중간",
+      "target_class": "customer",
+      "target_property": "customer_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름부분",
+      "target_class": "customer",
+      "target_property": "customer_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 요소",
+      "target_class": "customer",
+      "target_property": "customer_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 중",
+      "target_class": "customer",
+      "target_property": "customer_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last name",
+      "target_class": "customer",
+      "target_property": "customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "customer",
+      "target_property": "customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "customer",
+      "target_property": "customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "customer",
+      "target_property": "customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 정보",
+      "target_class": "customer",
+      "target_property": "customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성자",
+      "target_class": "customer",
+      "target_property": "customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 부분",
+      "target_class": "customer",
+      "target_property": "customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 데이터",
+      "target_class": "customer",
+      "target_property": "customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 이름",
+      "target_class": "customer",
+      "target_property": "customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "email",
+      "target_class": "customer",
+      "target_property": "customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일",
+      "target_class": "customer",
+      "target_property": "customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 주소",
+      "target_class": "customer",
+      "target_property": "customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 주소 정보",
+      "target_class": "customer",
+      "target_property": "customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 주소 데이터",
+      "target_class": "customer",
+      "target_property": "customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 주소 입력",
+      "target_class": "customer",
+      "target_property": "customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "address id",
+      "target_class": "customer",
+      "target_property": "customer_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 ID",
+      "target_class": "customer",
+      "target_property": "customer_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 식별자",
+      "target_class": "customer",
+      "target_property": "customer_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 번호",
+      "target_class": "customer",
+      "target_property": "customer_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 코드",
+      "target_class": "customer",
+      "target_property": "customer_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 식별",
+      "target_class": "customer",
+      "target_property": "customer_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 정보 ID",
+      "target_class": "customer",
+      "target_property": "customer_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 번호 정보",
+      "target_class": "customer",
+      "target_property": "customer_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "active",
+      "target_class": "customer",
+      "target_property": "customer_active",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활동 여부",
+      "target_class": "customer",
+      "target_property": "customer_active",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활성 여부",
+      "target_class": "customer",
+      "target_property": "customer_active",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활성 상태",
+      "target_class": "customer",
+      "target_property": "customer_active",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활성화 여부",
+      "target_class": "customer",
+      "target_property": "customer_active",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활동 상태",
+      "target_class": "customer",
+      "target_property": "customer_active",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활성",
+      "target_class": "customer",
+      "target_property": "customer_active",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "create date",
+      "target_class": "customer",
+      "target_property": "customer_create_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록일",
+      "target_class": "customer",
+      "target_property": "customer_create_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성일",
+      "target_class": "customer",
+      "target_property": "customer_create_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록일시",
+      "target_class": "customer",
+      "target_property": "customer_create_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성일시",
+      "target_class": "customer",
+      "target_property": "customer_create_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "create_date",
+      "target_class": "customer",
+      "target_property": "customer_create_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성 날짜",
+      "target_class": "customer",
+      "target_property": "customer_create_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 날짜",
+      "target_class": "customer",
+      "target_property": "customer_create_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last update",
+      "target_class": "customer",
+      "target_property": "customer_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 수정일",
+      "target_class": "customer",
+      "target_property": "customer_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정일",
+      "target_class": "customer",
+      "target_property": "customer_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 수정일시",
+      "target_class": "customer",
+      "target_property": "customer_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정일시",
+      "target_class": "customer",
+      "target_property": "customer_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last_update",
+      "target_class": "customer",
+      "target_property": "customer_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수정 날짜",
+      "target_class": "customer",
+      "target_property": "customer_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수정일",
+      "target_class": "customer",
+      "target_property": "customer_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 ID",
+      "target_class": "film",
+      "target_property": "film_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 고유 번호",
+      "target_class": "film",
+      "target_property": "film_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별자",
+      "target_class": "film",
+      "target_property": "film_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "film_id",
+      "target_class": "film",
+      "target_property": "film_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 번호",
+      "target_class": "film",
+      "target_property": "film_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 고유 ID",
+      "target_class": "film",
+      "target_property": "film_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "film",
+      "target_property": "film_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 제목",
+      "target_class": "film",
+      "target_property": "film_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 이름",
+      "target_class": "film",
+      "target_property": "film_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "title",
+      "target_class": "film",
+      "target_property": "film_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 제목 정보",
+      "target_class": "film",
+      "target_property": "film_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 이름 정보",
+      "target_class": "film",
+      "target_property": "film_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설명",
+      "target_class": "film",
+      "target_property": "film_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 설명",
+      "target_class": "film",
+      "target_property": "film_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 소개",
+      "target_class": "film",
+      "target_property": "film_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "description",
+      "target_class": "film",
+      "target_property": "film_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 설명 정보",
+      "target_class": "film",
+      "target_property": "film_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 요약",
+      "target_class": "film",
+      "target_property": "film_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출시 연도",
+      "target_class": "film",
+      "target_property": "film_release_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발매 연도",
+      "target_class": "film",
+      "target_property": "film_release_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개봉 연도",
+      "target_class": "film",
+      "target_property": "film_release_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작 연도",
+      "target_class": "film",
+      "target_property": "film_release_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "release_year",
+      "target_class": "film",
+      "target_property": "film_release_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도",
+      "target_class": "film",
+      "target_property": "film_release_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출시년도",
+      "target_class": "film",
+      "target_property": "film_release_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 ID",
+      "target_class": "film",
+      "target_property": "film_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 코드",
+      "target_class": "film",
+      "target_property": "film_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 아이디",
+      "target_class": "film",
+      "target_property": "film_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "language_id",
+      "target_class": "film",
+      "target_property": "film_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어",
+      "target_class": "film",
+      "target_property": "film_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 번호",
+      "target_class": "film",
+      "target_property": "film_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원본 언어 ID",
+      "target_class": "film",
+      "target_property": "film_original_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원본 언어 코드",
+      "target_class": "film",
+      "target_property": "film_original_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원어 코드",
+      "target_class": "film",
+      "target_property": "film_original_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원래 언어",
+      "target_class": "film",
+      "target_property": "film_original_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "original_language_id",
+      "target_class": "film",
+      "target_property": "film_original_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원본 언어",
+      "target_class": "film",
+      "target_property": "film_original_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원어",
+      "target_class": "film",
+      "target_property": "film_original_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 기간",
+      "target_class": "film",
+      "target_property": "film_rental_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 시간",
+      "target_class": "film",
+      "target_property": "film_rental_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 소요 시간",
+      "target_class": "film",
+      "target_property": "film_rental_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 지속 시간",
+      "target_class": "film",
+      "target_property": "film_rental_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 소요 기간",
+      "target_class": "film",
+      "target_property": "film_rental_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여료",
+      "target_class": "film",
+      "target_property": "film_rental_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "렌탈 요금",
+      "target_class": "film",
+      "target_property": "film_rental_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 비용",
+      "target_class": "film",
+      "target_property": "film_rental_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 금액",
+      "target_class": "film",
+      "target_property": "film_rental_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 요율",
+      "target_class": "film",
+      "target_property": "film_rental_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "렌탈 비용",
+      "target_class": "film",
+      "target_property": "film_rental_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 요금",
+      "target_class": "film",
+      "target_property": "film_rental_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "film",
+      "target_property": "film_length",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "길이",
+      "target_class": "film",
+      "target_property": "film_length",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 길이",
+      "target_class": "film",
+      "target_property": "film_length",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장수",
+      "target_class": "film",
+      "target_property": "film_length",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "동영상 길이",
+      "target_class": "film",
+      "target_property": "film_length",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화의 길이",
+      "target_class": "film",
+      "target_property": "film_length",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대체 비용",
+      "target_class": "film",
+      "target_property": "film_replacement_cost",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교체 비용",
+      "target_class": "film",
+      "target_property": "film_replacement_cost",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대체 비용 정보",
+      "target_class": "film",
+      "target_property": "film_replacement_cost",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교체 비용 정보",
+      "target_class": "film",
+      "target_property": "film_replacement_cost",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "replacement_cost",
+      "target_class": "film",
+      "target_property": "film_replacement_cost",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대체 비용 값",
+      "target_class": "film",
+      "target_property": "film_replacement_cost",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교체 비용 값",
+      "target_class": "film",
+      "target_property": "film_replacement_cost",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 점수",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 정보",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "rating",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 값",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 점수 값",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "특별 기능",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "특징",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "특별 기능 정보",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "특징 정보",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "special_features",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "특별 기능 값",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "특징 값",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 업데이트",
+      "target_class": "film",
+      "target_property": "film_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 수정일",
+      "target_class": "film",
+      "target_property": "film_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정 시간",
+      "target_class": "film",
+      "target_property": "film_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 일시",
+      "target_class": "film",
+      "target_property": "film_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 변경 일자",
+      "target_class": "film",
+      "target_property": "film_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 업데이트",
+      "target_class": "film",
+      "target_property": "film_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last update",
+      "target_class": "film",
+      "target_property": "film_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수정 일시",
+      "target_class": "film",
+      "target_property": "film_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 변경 시간",
+      "target_class": "film",
+      "target_property": "film_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "actor id",
+      "target_class": "film_actor",
+      "target_property": "film_actor_actor_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "actor_id",
+      "target_class": "film_actor",
+      "target_property": "film_actor_actor_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우 고유 번호",
+      "target_class": "film_actor",
+      "target_property": "film_actor_actor_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우 번호",
+      "target_class": "film_actor",
+      "target_property": "film_actor_actor_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우 식별자",
+      "target_class": "film_actor",
+      "target_property": "film_actor_actor_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우 ID",
+      "target_class": "film_actor",
+      "target_property": "film_actor_actor_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우 고유 ID",
+      "target_class": "film_actor",
+      "target_property": "film_actor_actor_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배우 코드",
+      "target_class": "film_actor",
+      "target_property": "film_actor_actor_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "film id",
+      "target_class": "film_actor",
+      "target_property": "film_actor_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 ID",
+      "target_class": "film_actor",
+      "target_property": "film_actor_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 번호",
+      "target_class": "film_actor",
+      "target_property": "film_actor_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별자",
+      "target_class": "film_actor",
+      "target_property": "film_actor_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 코드",
+      "target_class": "film_actor",
+      "target_property": "film_actor_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 고유번호",
+      "target_class": "film_actor",
+      "target_property": "film_actor_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별번호",
+      "target_class": "film_actor",
+      "target_property": "film_actor_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 아이디",
+      "target_class": "film_actor",
+      "target_property": "film_actor_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last update",
+      "target_class": "film_actor",
+      "target_property": "film_actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 수정 시간",
+      "target_class": "film_actor",
+      "target_property": "film_actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정 일시",
+      "target_class": "film_actor",
+      "target_property": "film_actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 시간",
+      "target_class": "film_actor",
+      "target_property": "film_actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 수정 날짜",
+      "target_class": "film_actor",
+      "target_property": "film_actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 업데이트",
+      "target_class": "film_actor",
+      "target_property": "film_actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수정 일시",
+      "target_class": "film_actor",
+      "target_property": "film_actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 일시",
+      "target_class": "film_actor",
+      "target_property": "film_actor_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "film id",
+      "target_class": "film_category",
+      "target_property": "film_category_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 ID",
+      "target_class": "film_category",
+      "target_property": "film_category_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 번호",
+      "target_class": "film_category",
+      "target_property": "film_category_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 코드",
+      "target_class": "film_category",
+      "target_property": "film_category_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별자",
+      "target_class": "film_category",
+      "target_property": "film_category_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 고유 번호",
+      "target_class": "film_category",
+      "target_property": "film_category_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "film_id",
+      "target_class": "film_category",
+      "target_property": "film_category_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "film",
+      "target_class": "film_category",
+      "target_property": "film_category_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "category id",
+      "target_class": "film_category",
+      "target_property": "film_category_category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카테고리 ID",
+      "target_class": "film_category",
+      "target_property": "film_category_category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카테고리 번호",
+      "target_class": "film_category",
+      "target_property": "film_category_category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카테고리 코드",
+      "target_class": "film_category",
+      "target_property": "film_category_category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카테고리 식별자",
+      "target_class": "film_category",
+      "target_property": "film_category_category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카테고리 고유 번호",
+      "target_class": "film_category",
+      "target_property": "film_category_category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "category_id",
+      "target_class": "film_category",
+      "target_property": "film_category_category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "category",
+      "target_class": "film_category",
+      "target_property": "film_category_category_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last update",
+      "target_class": "film_category",
+      "target_property": "film_category_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 업데이트",
+      "target_class": "film_category",
+      "target_property": "film_category_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 수정일",
+      "target_class": "film_category",
+      "target_property": "film_category_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수정 시간",
+      "target_class": "film_category",
+      "target_property": "film_category_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정 날짜",
+      "target_class": "film_category",
+      "target_property": "film_category_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last_update",
+      "target_class": "film_category",
+      "target_property": "film_category_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 시간",
+      "target_class": "film_category",
+      "target_property": "film_category_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 id",
+      "target_class": "film_text",
+      "target_property": "film_text_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 ID",
+      "target_class": "film_text",
+      "target_property": "film_text_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 번호",
+      "target_class": "film_text",
+      "target_property": "film_text_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별자",
+      "target_class": "film_text",
+      "target_property": "film_text_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "film_id",
+      "target_class": "film_text",
+      "target_property": "film_text_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 고유 번호",
+      "target_class": "film_text",
+      "target_property": "film_text_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 코드",
+      "target_class": "film_text",
+      "target_property": "film_text_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "film_text",
+      "target_property": "film_text_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 제목",
+      "target_class": "film_text",
+      "target_property": "film_text_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 이름",
+      "target_class": "film_text",
+      "target_property": "film_text_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목 정보",
+      "target_class": "film_text",
+      "target_property": "film_text_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "title",
+      "target_class": "film_text",
+      "target_property": "film_text_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 타이틀",
+      "target_class": "film_text",
+      "target_property": "film_text_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설명",
+      "target_class": "film_text",
+      "target_property": "film_text_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 설명",
+      "target_class": "film_text",
+      "target_property": "film_text_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설명 정보",
+      "target_class": "film_text",
+      "target_property": "film_text_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "description",
+      "target_class": "film_text",
+      "target_property": "film_text_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 요약",
+      "target_class": "film_text",
+      "target_property": "film_text_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 내용",
+      "target_class": "film_text",
+      "target_property": "film_text_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 소개",
+      "target_class": "film_text",
+      "target_property": "film_text_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "재고 id",
+      "target_class": "inventory",
+      "target_property": "inventory_inventory_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "inventory_id",
+      "target_class": "inventory",
+      "target_property": "inventory_inventory_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 목록 ID",
+      "target_class": "inventory",
+      "target_property": "inventory_inventory_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "inventory 번호",
+      "target_class": "inventory",
+      "target_property": "inventory_inventory_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 목록 식별자",
+      "target_class": "inventory",
+      "target_property": "inventory_inventory_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 목록 고유 번호",
+      "target_class": "inventory",
+      "target_property": "inventory_inventory_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "inventory 식별자",
+      "target_class": "inventory",
+      "target_property": "inventory_inventory_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 id",
+      "target_class": "inventory",
+      "target_property": "inventory_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "film_id",
+      "target_class": "inventory",
+      "target_property": "inventory_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 ID",
+      "target_class": "inventory",
+      "target_property": "inventory_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 번호",
+      "target_class": "inventory",
+      "target_property": "inventory_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별자",
+      "target_class": "inventory",
+      "target_property": "inventory_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 영화 고유 번호",
+      "target_class": "inventory",
+      "target_property": "inventory_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별 번호",
+      "target_class": "inventory",
+      "target_property": "inventory_film_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 id",
+      "target_class": "inventory",
+      "target_property": "inventory_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "store_id",
+      "target_class": "inventory",
+      "target_property": "inventory_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 ID",
+      "target_class": "inventory",
+      "target_property": "inventory_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 번호",
+      "target_class": "inventory",
+      "target_property": "inventory_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 식별자",
+      "target_class": "inventory",
+      "target_property": "inventory_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 매장 고유 번호",
+      "target_class": "inventory",
+      "target_property": "inventory_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 식별 번호",
+      "target_class": "inventory",
+      "target_property": "inventory_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 업데이트",
+      "target_class": "inventory",
+      "target_property": "inventory_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 업데이트 시간",
+      "target_class": "inventory",
+      "target_property": "inventory_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정 시간",
+      "target_class": "inventory",
+      "target_property": "inventory_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 날짜",
+      "target_class": "inventory",
+      "target_property": "inventory_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수정 일시",
+      "target_class": "inventory",
+      "target_property": "inventory_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 업데이트 시간",
+      "target_class": "inventory",
+      "target_property": "inventory_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last update",
+      "target_class": "inventory",
+      "target_property": "inventory_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 업데이트",
+      "target_class": "inventory",
+      "target_property": "inventory_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 ID",
+      "target_class": "language",
+      "target_property": "language_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "language_id",
+      "target_class": "language",
+      "target_property": "language_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 고유 ID",
+      "target_class": "language",
+      "target_property": "language_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 번호",
+      "target_class": "language",
+      "target_property": "language_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 식별자",
+      "target_class": "language",
+      "target_property": "language_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "lang_id",
+      "target_class": "language",
+      "target_property": "language_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 코드",
+      "target_class": "language",
+      "target_property": "language_language_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "language",
+      "target_property": "language_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "language",
+      "target_property": "language_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 이름",
+      "target_class": "language",
+      "target_property": "language_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어명",
+      "target_class": "language",
+      "target_property": "language_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 코드명",
+      "target_class": "language",
+      "target_property": "language_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 제목",
+      "target_class": "language",
+      "target_property": "language_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 표시 이름",
+      "target_class": "language",
+      "target_property": "language_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 표시명",
+      "target_class": "language",
+      "target_property": "language_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last update",
+      "target_class": "language",
+      "target_property": "language_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last_update",
+      "target_class": "language",
+      "target_property": "language_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 업데이트 시간",
+      "target_class": "language",
+      "target_property": "language_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정 시간",
+      "target_class": "language",
+      "target_property": "language_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 시간",
+      "target_class": "language",
+      "target_property": "language_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 업데이트 시간",
+      "target_class": "language",
+      "target_property": "language_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 변경 시간",
+      "target_class": "language",
+      "target_property": "language_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 변경 시간",
+      "target_class": "language",
+      "target_property": "language_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 ID",
+      "target_class": "payment",
+      "target_property": "payment_payment_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 번호",
+      "target_class": "payment",
+      "target_property": "payment_payment_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 아이디",
+      "target_class": "payment",
+      "target_property": "payment_payment_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "payment_id",
+      "target_class": "payment",
+      "target_property": "payment_payment_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 고유 번호",
+      "target_class": "payment",
+      "target_property": "payment_payment_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 식별자",
+      "target_class": "payment",
+      "target_property": "payment_payment_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "payment",
+      "target_property": "payment_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 번호",
+      "target_class": "payment",
+      "target_property": "payment_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 아이디",
+      "target_class": "payment",
+      "target_property": "payment_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_id",
+      "target_class": "payment",
+      "target_property": "payment_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "payment",
+      "target_property": "payment_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 ID",
+      "target_class": "payment",
+      "target_property": "payment_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 번호",
+      "target_class": "payment",
+      "target_property": "payment_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 아이디",
+      "target_class": "payment",
+      "target_property": "payment_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "staff_id",
+      "target_class": "payment",
+      "target_property": "payment_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 식별자",
+      "target_class": "payment",
+      "target_property": "payment_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 ID",
+      "target_class": "payment",
+      "target_property": "payment_rental_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "rental_id",
+      "target_class": "payment",
+      "target_property": "payment_rental_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 번호",
+      "target_class": "payment",
+      "target_property": "payment_rental_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 기록 번호",
+      "target_class": "payment",
+      "target_property": "payment_rental_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 기록 ID",
+      "target_class": "payment",
+      "target_property": "payment_rental_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "금액",
+      "target_class": "payment",
+      "target_property": "payment_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "amount",
+      "target_class": "payment",
+      "target_property": "payment_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지불 금액",
+      "target_class": "payment",
+      "target_property": "payment_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 금액",
+      "target_class": "payment",
+      "target_property": "payment_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 금액",
+      "target_class": "payment",
+      "target_property": "payment_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지불액",
+      "target_class": "payment",
+      "target_property": "payment_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 일시",
+      "target_class": "payment",
+      "target_property": "payment_payment_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "payment_date",
+      "target_class": "payment",
+      "target_property": "payment_payment_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지불 날짜",
+      "target_class": "payment",
+      "target_property": "payment_payment_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 날짜",
+      "target_class": "payment",
+      "target_property": "payment_payment_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 날짜",
+      "target_class": "payment",
+      "target_property": "payment_payment_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지불일",
+      "target_class": "payment",
+      "target_property": "payment_payment_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제일",
+      "target_class": "payment",
+      "target_property": "payment_payment_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 수정 일시",
+      "target_class": "payment",
+      "target_property": "payment_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 업데이트 시간",
+      "target_class": "payment",
+      "target_property": "payment_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정일시",
+      "target_class": "payment",
+      "target_property": "payment_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 일시",
+      "target_class": "payment",
+      "target_property": "payment_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 수정 시간",
+      "target_class": "payment",
+      "target_property": "payment_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 업데이트 일시",
+      "target_class": "payment",
+      "target_property": "payment_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last update",
+      "target_class": "payment",
+      "target_property": "payment_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 수정 시간",
+      "target_class": "payment",
+      "target_property": "payment_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 번호",
+      "target_class": "rental",
+      "target_property": "rental_rental_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 ID",
+      "target_class": "rental",
+      "target_property": "rental_rental_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Rental ID",
+      "target_class": "rental",
+      "target_property": "rental_rental_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 고유 ID",
+      "target_class": "rental",
+      "target_property": "rental_rental_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Rental 고유 ID",
+      "target_class": "rental",
+      "target_property": "rental_rental_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 식별자",
+      "target_class": "rental",
+      "target_property": "rental_rental_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Rental 식별자",
+      "target_class": "rental",
+      "target_property": "rental_rental_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 일시",
+      "target_class": "rental",
+      "target_property": "rental_rental_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 날짜",
+      "target_class": "rental",
+      "target_property": "rental_rental_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 일자",
+      "target_class": "rental",
+      "target_property": "rental_rental_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여일",
+      "target_class": "rental",
+      "target_property": "rental_rental_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Rental Date",
+      "target_class": "rental",
+      "target_property": "rental_rental_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Rental 일자",
+      "target_class": "rental",
+      "target_property": "rental_rental_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "재고 아이디",
+      "target_class": "rental",
+      "target_property": "rental_inventory_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 번호",
+      "target_class": "rental",
+      "target_property": "rental_inventory_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 ID",
+      "target_class": "rental",
+      "target_property": "rental_inventory_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Inventory ID",
+      "target_class": "rental",
+      "target_property": "rental_inventory_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 고유 ID",
+      "target_class": "rental",
+      "target_property": "rental_inventory_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Inventory 고유 ID",
+      "target_class": "rental",
+      "target_property": "rental_inventory_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대여 영화 ID",
+      "target_class": "rental",
+      "target_property": "rental_inventory_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별자",
+      "target_class": "rental",
+      "target_property": "rental_inventory_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 아이디",
+      "target_class": "rental",
+      "target_property": "rental_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 번호",
+      "target_class": "rental",
+      "target_property": "rental_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "rental",
+      "target_property": "rental_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "rental",
+      "target_property": "rental_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객코드",
+      "target_class": "rental",
+      "target_property": "rental_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_id",
+      "target_class": "rental",
+      "target_property": "rental_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반납 일시",
+      "target_class": "rental",
+      "target_property": "rental_return_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반환 일시",
+      "target_class": "rental",
+      "target_property": "rental_return_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반환 시간",
+      "target_class": "rental",
+      "target_property": "rental_return_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반환 날짜",
+      "target_class": "rental",
+      "target_property": "rental_return_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반환 일자",
+      "target_class": "rental",
+      "target_property": "rental_return_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "return_date",
+      "target_class": "rental",
+      "target_property": "rental_return_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 아이디",
+      "target_class": "rental",
+      "target_property": "rental_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 번호",
+      "target_class": "rental",
+      "target_property": "rental_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 ID",
+      "target_class": "rental",
+      "target_property": "rental_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 식별자",
+      "target_class": "rental",
+      "target_property": "rental_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원코드",
+      "target_class": "rental",
+      "target_property": "rental_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "staff_id",
+      "target_class": "rental",
+      "target_property": "rental_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 업데이트 일시",
+      "target_class": "rental",
+      "target_property": "rental_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 수정일",
+      "target_class": "rental",
+      "target_property": "rental_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 업데이트",
+      "target_class": "rental",
+      "target_property": "rental_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수정 일시",
+      "target_class": "rental",
+      "target_property": "rental_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 수정 시간",
+      "target_class": "rental",
+      "target_property": "rental_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last update",
+      "target_class": "rental",
+      "target_property": "rental_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 변경일시",
+      "target_class": "rental",
+      "target_property": "rental_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정 날짜",
+      "target_class": "rental",
+      "target_property": "rental_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 일시",
+      "target_class": "rental",
+      "target_property": "rental_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 ID",
+      "target_class": "staff",
+      "target_property": "staff_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 번호",
+      "target_class": "staff",
+      "target_property": "staff_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사원 ID",
+      "target_class": "staff",
+      "target_property": "staff_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 고유 ID",
+      "target_class": "staff",
+      "target_property": "staff_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "staff_id",
+      "target_class": "staff",
+      "target_property": "staff_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 식별자",
+      "target_class": "staff",
+      "target_property": "staff_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "staff",
+      "target_property": "staff_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "staff",
+      "target_property": "staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "staff",
+      "target_property": "staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 성",
+      "target_class": "staff",
+      "target_property": "staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름의 끝자",
+      "target_class": "staff",
+      "target_property": "staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 이름",
+      "target_class": "staff",
+      "target_property": "staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원의 성",
+      "target_class": "staff",
+      "target_property": "staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 정보",
+      "target_class": "staff",
+      "target_property": "staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 부분",
+      "target_class": "staff",
+      "target_property": "staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성칭",
+      "target_class": "staff",
+      "target_property": "staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 ID",
+      "target_class": "staff",
+      "target_property": "staff_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "address_id",
+      "target_class": "staff",
+      "target_property": "staff_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소번호",
+      "target_class": "staff",
+      "target_property": "staff_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 식별자",
+      "target_class": "staff",
+      "target_property": "staff_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소아이디",
+      "target_class": "staff",
+      "target_property": "staff_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소코드",
+      "target_class": "staff",
+      "target_property": "staff_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사진",
+      "target_class": "staff",
+      "target_property": "staff_picture",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "picture",
+      "target_class": "staff",
+      "target_property": "staff_picture",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이미지",
+      "target_class": "staff",
+      "target_property": "staff_picture",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사진 정보",
+      "target_class": "staff",
+      "target_property": "staff_picture",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사진 데이터",
+      "target_class": "staff",
+      "target_property": "staff_picture",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사진 파일",
+      "target_class": "staff",
+      "target_property": "staff_picture",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일",
+      "target_class": "staff",
+      "target_property": "staff_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "email",
+      "target_class": "staff",
+      "target_property": "staff_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "메일 주소",
+      "target_class": "staff",
+      "target_property": "staff_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 주소",
+      "target_class": "staff",
+      "target_property": "staff_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 정보",
+      "target_class": "staff",
+      "target_property": "staff_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 데이터",
+      "target_class": "staff",
+      "target_property": "staff_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스토어 ID",
+      "target_class": "staff",
+      "target_property": "staff_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "store_id",
+      "target_class": "staff",
+      "target_property": "staff_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 ID",
+      "target_class": "staff",
+      "target_property": "staff_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 번호",
+      "target_class": "staff",
+      "target_property": "staff_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 식별자",
+      "target_class": "staff",
+      "target_property": "staff_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "store",
+      "target_class": "staff",
+      "target_property": "staff_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장",
+      "target_class": "staff",
+      "target_property": "staff_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활성화 여부",
+      "target_class": "staff",
+      "target_property": "staff_active",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "active",
+      "target_class": "staff",
+      "target_property": "staff_active",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활동 중",
+      "target_class": "staff",
+      "target_property": "staff_active",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활동 여부",
+      "target_class": "staff",
+      "target_property": "staff_active",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활성화",
+      "target_class": "staff",
+      "target_property": "staff_active",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활동 상태",
+      "target_class": "staff",
+      "target_property": "staff_active",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활성",
+      "target_class": "staff",
+      "target_property": "staff_active",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 이름",
+      "target_class": "staff",
+      "target_property": "staff_username",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "username",
+      "target_class": "staff",
+      "target_property": "staff_username",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "staff",
+      "target_property": "staff_username",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계정 이름",
+      "target_class": "staff",
+      "target_property": "staff_username",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자",
+      "target_class": "staff",
+      "target_property": "staff_username",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "staff",
+      "target_property": "staff_username",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비밀번호",
+      "target_class": "staff",
+      "target_property": "staff_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "암호",
+      "target_class": "staff",
+      "target_property": "staff_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패스워드",
+      "target_class": "staff",
+      "target_property": "staff_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "암호화된 비밀번호",
+      "target_class": "staff",
+      "target_property": "staff_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비밀번호 정보",
+      "target_class": "staff",
+      "target_property": "staff_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계정 비밀번호",
+      "target_class": "staff",
+      "target_property": "staff_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "암호값",
+      "target_class": "staff",
+      "target_property": "staff_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "password",
+      "target_class": "staff",
+      "target_property": "staff_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 업데이트 시간",
+      "target_class": "staff",
+      "target_property": "staff_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 수정 시간",
+      "target_class": "staff",
+      "target_property": "staff_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 업데이트",
+      "target_class": "staff",
+      "target_property": "staff_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수정 일시",
+      "target_class": "staff",
+      "target_property": "staff_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last_update",
+      "target_class": "staff",
+      "target_property": "staff_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 변경 시간",
+      "target_class": "staff",
+      "target_property": "staff_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 시간",
+      "target_class": "staff",
+      "target_property": "staff_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정 일시",
+      "target_class": "staff",
+      "target_property": "staff_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 ID",
+      "target_class": "store",
+      "target_property": "store_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "store_id",
+      "target_class": "store",
+      "target_property": "store_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영업점 번호",
+      "target_class": "store",
+      "target_property": "store_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스토어 ID",
+      "target_class": "store",
+      "target_property": "store_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스토어 식별자",
+      "target_class": "store",
+      "target_property": "store_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스토어 코드",
+      "target_class": "store",
+      "target_property": "store_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영업점 코드",
+      "target_class": "store",
+      "target_property": "store_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스토어 고유번호",
+      "target_class": "store",
+      "target_property": "store_store_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 관리자 직원 ID",
+      "target_class": "store",
+      "target_property": "store_manager_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "manager_staff_id",
+      "target_class": "store",
+      "target_property": "store_manager_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관리자 직원 ID",
+      "target_class": "store",
+      "target_property": "store_manager_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관리자 직원 번호",
+      "target_class": "store",
+      "target_property": "store_manager_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스태프 관리자 ID",
+      "target_class": "store",
+      "target_property": "store_manager_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스태프 관리자 번호",
+      "target_class": "store",
+      "target_property": "store_manager_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관리자 직원 코드",
+      "target_class": "store",
+      "target_property": "store_manager_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관리자 스태프 ID",
+      "target_class": "store",
+      "target_property": "store_manager_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 ID",
+      "target_class": "store",
+      "target_property": "store_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "address_id",
+      "target_class": "store",
+      "target_property": "store_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 번호",
+      "target_class": "store",
+      "target_property": "store_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 코드",
+      "target_class": "store",
+      "target_property": "store_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영업점 주소 ID",
+      "target_class": "store",
+      "target_property": "store_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 식별자",
+      "target_class": "store",
+      "target_property": "store_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영업점 주소 코드",
+      "target_class": "store",
+      "target_property": "store_address_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 수정 시간",
+      "target_class": "store",
+      "target_property": "store_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 업데이트 시간",
+      "target_class": "store",
+      "target_property": "store_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 수정 일시",
+      "target_class": "store",
+      "target_property": "store_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 날짜",
+      "target_class": "store",
+      "target_property": "store_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 업데이트 시간",
+      "target_class": "store",
+      "target_property": "store_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 변경 일시",
+      "target_class": "store",
+      "target_property": "store_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last update",
+      "target_class": "store",
+      "target_property": "store_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 일시",
+      "target_class": "store",
+      "target_property": "store_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시스템 시간",
+      "target_class": "store",
+      "target_property": "store_last_update",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "지민",
+      "target_class": "actor",
+      "target_property": "actor_first_name",
+      "value": "지민"
+    },
+    {
+      "entry_type": "value",
+      "key": "서지현",
+      "target_class": "actor",
+      "target_property": "actor_first_name",
+      "value": "서지현"
+    },
+    {
+      "entry_type": "value",
+      "key": "김",
+      "target_class": "actor",
+      "target_property": "actor_last_name",
+      "value": "김"
+    },
+    {
+      "entry_type": "value",
+      "key": "박",
+      "target_class": "actor",
+      "target_property": "actor_last_name",
+      "value": "박"
+    },
+    {
+      "entry_type": "value",
+      "key": "전자제품",
+      "target_class": "category",
+      "target_property": "category_name",
+      "value": "전자제품"
+    },
+    {
+      "entry_type": "value",
+      "key": "전자기기",
+      "target_class": "category",
+      "target_property": "category_name",
+      "value": "전자제품"
+    },
+    {
+      "entry_type": "value",
+      "key": "의류",
+      "target_class": "category",
+      "target_property": "category_name",
+      "value": "의류"
+    },
+    {
+      "entry_type": "value",
+      "key": "의복",
+      "target_class": "category",
+      "target_property": "category_name",
+      "value": "의류"
+    },
+    {
+      "entry_type": "value",
+      "key": "식품",
+      "target_class": "category",
+      "target_property": "category_name",
+      "value": "식품"
+    },
+    {
+      "entry_type": "value",
+      "key": "음식",
+      "target_class": "category",
+      "target_property": "category_name",
+      "value": "식품"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "city",
+      "target_property": "city_city",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "city",
+      "target_property": "city_city",
+      "value": "부산"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천",
+      "target_class": "city",
+      "target_property": "city_city",
+      "value": "인천"
+    },
+    {
+      "entry_type": "value",
+      "key": "대한민국",
+      "target_class": "country",
+      "target_property": "country_country",
+      "value": "대한민국"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국",
+      "target_class": "country",
+      "target_property": "country_country",
+      "value": "미국"
+    },
+    {
+      "entry_type": "value",
+      "key": "중국",
+      "target_class": "country",
+      "target_property": "country_country",
+      "value": "중국"
+    },
+    {
+      "entry_type": "value",
+      "key": "G",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": "G"
+    },
+    {
+      "entry_type": "value",
+      "key": "G등급",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": "G"
+    },
+    {
+      "entry_type": "value",
+      "key": "PG",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": "PG"
+    },
+    {
+      "entry_type": "value",
+      "key": "PG등급",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": "PG"
+    },
+    {
+      "entry_type": "value",
+      "key": "PG-13",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": "PG-13"
+    },
+    {
+      "entry_type": "value",
+      "key": "PG-13등급",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": "PG-13"
+    },
+    {
+      "entry_type": "value",
+      "key": "R",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": "R"
+    },
+    {
+      "entry_type": "value",
+      "key": "R등급",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": "R"
+    },
+    {
+      "entry_type": "value",
+      "key": "NC-17",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": "NC-17"
+    },
+    {
+      "entry_type": "value",
+      "key": "NC-17등급",
+      "target_class": "film",
+      "target_property": "film_rating",
+      "value": "NC-17"
+    },
+    {
+      "entry_type": "value",
+      "key": "Behind the Scenes",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": "Behind the Scenes"
+    },
+    {
+      "entry_type": "value",
+      "key": "백서",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": "Behind the Scenes"
+    },
+    {
+      "entry_type": "value",
+      "key": "배경 설명",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": "Behind the Scenes"
+    },
+    {
+      "entry_type": "value",
+      "key": "Commentaries",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": "Commentaries"
+    },
+    {
+      "entry_type": "value",
+      "key": "코멘터리",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": "Commentaries"
+    },
+    {
+      "entry_type": "value",
+      "key": "코멘터리 영상",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": "Commentaries"
+    },
+    {
+      "entry_type": "value",
+      "key": "Deleted Scenes",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": "Deleted Scenes"
+    },
+    {
+      "entry_type": "value",
+      "key": "삭제된 장면",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": "Deleted Scenes"
+    },
+    {
+      "entry_type": "value",
+      "key": "Trailers",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": "Trailers"
+    },
+    {
+      "entry_type": "value",
+      "key": "트레일러",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": "Trailers"
+    },
+    {
+      "entry_type": "value",
+      "key": "트레일러 영상",
+      "target_class": "film",
+      "target_property": "film_special_features",
+      "value": "Trailers"
+    },
+    {
+      "entry_type": "value",
+      "key": "아이언맨",
+      "target_class": "film_text",
+      "target_property": "film_text_title",
+      "value": "아이언맨"
+    },
+    {
+      "entry_type": "value",
+      "key": "Iron Man",
+      "target_class": "film_text",
+      "target_property": "film_text_title",
+      "value": "아이언맨"
+    },
+    {
+      "entry_type": "value",
+      "key": "타이타닉",
+      "target_class": "film_text",
+      "target_property": "film_text_title",
+      "value": "타이타닉"
+    },
+    {
+      "entry_type": "value",
+      "key": "Titanic",
+      "target_class": "film_text",
+      "target_property": "film_text_title",
+      "value": "타이타닉"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국어",
+      "target_class": "language",
+      "target_property": "language_name",
+      "value": "한국어"
+    },
+    {
+      "entry_type": "value",
+      "key": "Korean",
+      "target_class": "language",
+      "target_property": "language_name",
+      "value": "한국어"
+    },
+    {
+      "entry_type": "value",
+      "key": "영어",
+      "target_class": "language",
+      "target_property": "language_name",
+      "value": "영어"
+    },
+    {
+      "entry_type": "value",
+      "key": "English",
+      "target_class": "language",
+      "target_property": "language_name",
+      "value": "영어"
+    },
+    {
+      "entry_type": "value",
+      "key": "중국어",
+      "target_class": "language",
+      "target_property": "language_name",
+      "value": "중국어"
+    },
+    {
+      "entry_type": "value",
+      "key": "Chinese",
+      "target_class": "language",
+      "target_property": "language_name",
+      "value": "중국어"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-01-15 10:30:00",
+      "target_class": "payment",
+      "target_property": "payment_payment_date",
+      "value": "2023-01-15 10:30:00"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-01-15",
+      "target_class": "payment",
+      "target_property": "payment_payment_date",
+      "value": "2023-01-15 10:30:00"
+    },
+    {
+      "entry_type": "value",
+      "key": "10:30",
+      "target_class": "payment",
+      "target_property": "payment_payment_date",
+      "value": "2023-01-15 10:30:00"
+    },
+    {
+      "entry_type": "value",
+      "key": "true",
+      "target_class": "staff",
+      "target_property": "staff_active",
+      "value": "true"
+    },
+    {
+      "entry_type": "value",
+      "key": "활성",
+      "target_class": "staff",
+      "target_property": "staff_active",
+      "value": "true"
+    },
+    {
+      "entry_type": "value",
+      "key": "사용 중",
+      "target_class": "staff",
+      "target_property": "staff_active",
+      "value": "true"
+    },
+    {
+      "entry_type": "value",
+      "key": "false",
+      "target_class": "staff",
+      "target_property": "staff_active",
+      "value": "false"
+    },
+    {
+      "entry_type": "value",
+      "key": "비활성",
+      "target_class": "staff",
+      "target_property": "staff_active",
+      "value": "false"
+    },
+    {
+      "entry_type": "value",
+      "key": "사용 안 함",
+      "target_class": "staff",
+      "target_property": "staff_active",
+      "value": "false"
+    }
+  ]
+}

@@ -1,0 +1,2216 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "플레이어",
+      "target_class": "players",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수",
+      "target_class": "players",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 참여자",
+      "target_class": "players",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "타이어 선수",
+      "target_class": "players",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 선수",
+      "target_class": "players",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "매치",
+      "target_class": "matches",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기",
+      "target_class": "matches",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 기록",
+      "target_class": "matches",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 정보",
+      "target_class": "matches",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 데이터",
+      "target_class": "matches",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "랭킹 정보",
+      "target_class": "rankings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "순위",
+      "target_class": "rankings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "등수",
+      "target_class": "rankings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "랭킹",
+      "target_class": "rankings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "순위 정보",
+      "target_class": "rankings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "등수 기록",
+      "target_class": "rankings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 ID",
+      "target_class": "players",
+      "target_property": "players_player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 고유 ID",
+      "target_class": "players",
+      "target_property": "players_player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 번호",
+      "target_class": "players",
+      "target_property": "players_player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 코드",
+      "target_class": "players",
+      "target_property": "players_player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 식별자",
+      "target_class": "players",
+      "target_property": "players_player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 고유번호",
+      "target_class": "players",
+      "target_property": "players_player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 인덱스",
+      "target_class": "players",
+      "target_property": "players_player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 식별코드",
+      "target_class": "players",
+      "target_property": "players_player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "players",
+      "target_property": "players_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "players",
+      "target_property": "players_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "손",
+      "target_class": "players",
+      "target_property": "players_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "손자리",
+      "target_class": "players",
+      "target_property": "players_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주손",
+      "target_class": "players",
+      "target_property": "players_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우측 손",
+      "target_class": "players",
+      "target_property": "players_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좌측 손",
+      "target_class": "players",
+      "target_property": "players_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우손",
+      "target_class": "players",
+      "target_property": "players_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좌손",
+      "target_class": "players",
+      "target_property": "players_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년월일",
+      "target_class": "players",
+      "target_property": "players_birth_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생일",
+      "target_class": "players",
+      "target_property": "players_birth_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생일",
+      "target_class": "players",
+      "target_property": "players_birth_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생년월일",
+      "target_class": "players",
+      "target_property": "players_birth_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "태어난 날짜",
+      "target_class": "players",
+      "target_property": "players_birth_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생일자",
+      "target_class": "players",
+      "target_property": "players_birth_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생일자기",
+      "target_class": "players",
+      "target_property": "players_birth_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드",
+      "target_class": "players",
+      "target_property": "players_country_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "베스트 오브",
+      "target_class": "matches",
+      "target_property": "matches_best_of",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "세트 수",
+      "target_class": "matches",
+      "target_property": "matches_best_of",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 수",
+      "target_class": "matches",
+      "target_property": "matches_best_of",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 세트",
+      "target_class": "matches",
+      "target_property": "matches_best_of",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "세트 개수",
+      "target_class": "matches",
+      "target_property": "matches_best_of",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 개수",
+      "target_class": "matches",
+      "target_property": "matches_best_of",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드로우 사이즈",
+      "target_class": "matches",
+      "target_property": "matches_draw_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드로우 인원",
+      "target_class": "matches",
+      "target_property": "matches_draw_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 수",
+      "target_class": "matches",
+      "target_property": "matches_draw_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드로우 규모",
+      "target_class": "matches",
+      "target_property": "matches_draw_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 수",
+      "target_class": "matches",
+      "target_property": "matches_draw_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 나이",
+      "target_class": "matches",
+      "target_property": "matches_loser_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 연령",
+      "target_class": "matches",
+      "target_property": "matches_loser_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실력자 나이",
+      "target_class": "matches",
+      "target_property": "matches_loser_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실력자 연령",
+      "target_class": "matches",
+      "target_property": "matches_loser_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 엔트리",
+      "target_class": "matches",
+      "target_property": "matches_loser_entry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 정보",
+      "target_class": "matches",
+      "target_property": "matches_loser_entry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패배자 등록",
+      "target_class": "matches",
+      "target_property": "matches_loser_entry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선수 정보",
+      "target_class": "matches",
+      "target_property": "matches_loser_entry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 데이터",
+      "target_class": "matches",
+      "target_property": "matches_loser_entry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 정보",
+      "target_class": "matches",
+      "target_property": "matches_loser_entry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 손",
+      "target_class": "matches",
+      "target_property": "matches_loser_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "손 상태",
+      "target_class": "matches",
+      "target_property": "matches_loser_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "손의 상태",
+      "target_class": "matches",
+      "target_property": "matches_loser_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "손 정보",
+      "target_class": "matches",
+      "target_property": "matches_loser_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "손 데이터",
+      "target_class": "matches",
+      "target_property": "matches_loser_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "손 상황",
+      "target_class": "matches",
+      "target_property": "matches_loser_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 키",
+      "target_class": "matches",
+      "target_property": "matches_loser_ht",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 정보",
+      "target_class": "matches",
+      "target_property": "matches_loser_ht",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 데이터",
+      "target_class": "matches",
+      "target_property": "matches_loser_ht",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 수치",
+      "target_class": "matches",
+      "target_property": "matches_loser_ht",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 값",
+      "target_class": "matches",
+      "target_property": "matches_loser_ht",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 측정",
+      "target_class": "matches",
+      "target_property": "matches_loser_ht",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 ID",
+      "target_class": "matches",
+      "target_property": "matches_loser_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실격자 ID",
+      "target_class": "matches",
+      "target_property": "matches_loser_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패배자 ID",
+      "target_class": "matches",
+      "target_property": "matches_loser_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실격자 번호",
+      "target_class": "matches",
+      "target_property": "matches_loser_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패배자 번호",
+      "target_class": "matches",
+      "target_property": "matches_loser_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실격자 식별자",
+      "target_class": "matches",
+      "target_property": "matches_loser_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 식별자",
+      "target_class": "matches",
+      "target_property": "matches_loser_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 IOC",
+      "target_class": "matches",
+      "target_property": "matches_loser_ioc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 국제 올림픽 위원회",
+      "target_class": "matches",
+      "target_property": "matches_loser_ioc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 IOC 코드",
+      "target_class": "matches",
+      "target_property": "matches_loser_ioc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 올림픽 코드",
+      "target_class": "matches",
+      "target_property": "matches_loser_ioc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 국제 코드",
+      "target_class": "matches",
+      "target_property": "matches_loser_ioc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 코드",
+      "target_class": "matches",
+      "target_property": "matches_loser_ioc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 국제 식별자",
+      "target_class": "matches",
+      "target_property": "matches_loser_ioc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 식별 코드",
+      "target_class": "matches",
+      "target_property": "matches_loser_ioc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 이름",
+      "target_class": "matches",
+      "target_property": "matches_loser_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자",
+      "target_class": "matches",
+      "target_property": "matches_loser_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실패자",
+      "target_class": "matches",
+      "target_property": "matches_loser_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패배자",
+      "target_class": "matches",
+      "target_property": "matches_loser_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실격자",
+      "target_class": "matches",
+      "target_property": "matches_loser_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실패자 이름",
+      "target_class": "matches",
+      "target_property": "matches_loser_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패배자 이름",
+      "target_class": "matches",
+      "target_property": "matches_loser_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실격자 이름",
+      "target_class": "matches",
+      "target_property": "matches_loser_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 랭크",
+      "target_class": "matches",
+      "target_property": "matches_loser_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 순위",
+      "target_class": "matches",
+      "target_property": "matches_loser_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 랭킹",
+      "target_class": "matches",
+      "target_property": "matches_loser_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 등수",
+      "target_class": "matches",
+      "target_property": "matches_loser_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 랭크 수치",
+      "target_class": "matches",
+      "target_property": "matches_loser_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 랭크 포인트",
+      "target_class": "matches",
+      "target_property": "matches_loser_rank_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 랭크 점수",
+      "target_class": "matches",
+      "target_property": "matches_loser_rank_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 랭크 점",
+      "target_class": "matches",
+      "target_property": "matches_loser_rank_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 랭크 지수",
+      "target_class": "matches",
+      "target_property": "matches_loser_rank_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 랭크 값",
+      "target_class": "matches",
+      "target_property": "matches_loser_rank_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 시드",
+      "target_class": "matches",
+      "target_property": "matches_loser_seed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 시드 번호",
+      "target_class": "matches",
+      "target_property": "matches_loser_seed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 시드 수치",
+      "target_class": "matches",
+      "target_property": "matches_loser_seed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 시드 값",
+      "target_class": "matches",
+      "target_property": "matches_loser_seed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패자 시드 등수",
+      "target_class": "matches",
+      "target_property": "matches_loser_seed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매치 번호",
+      "target_class": "matches",
+      "target_property": "matches_match_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매치 넘버",
+      "target_class": "matches",
+      "target_property": "matches_match_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매치 ID",
+      "target_class": "matches",
+      "target_property": "matches_match_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매치 코드",
+      "target_class": "matches",
+      "target_property": "matches_match_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매치 인덱스",
+      "target_class": "matches",
+      "target_property": "matches_match_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매치 식별자",
+      "target_class": "matches",
+      "target_property": "matches_match_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분",
+      "target_class": "matches",
+      "target_property": "matches_minutes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분수",
+      "target_class": "matches",
+      "target_property": "matches_minutes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분간",
+      "target_class": "matches",
+      "target_property": "matches_minutes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분량",
+      "target_class": "matches",
+      "target_property": "matches_minutes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분 기간",
+      "target_class": "matches",
+      "target_property": "matches_minutes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분 수",
+      "target_class": "matches",
+      "target_property": "matches_minutes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드",
+      "target_class": "matches",
+      "target_property": "matches_round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 수",
+      "target_class": "matches",
+      "target_property": "matches_round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 번호",
+      "target_class": "matches",
+      "target_property": "matches_round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 단계",
+      "target_class": "matches",
+      "target_property": "matches_round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 순서",
+      "target_class": "matches",
+      "target_property": "matches_round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스코어",
+      "target_class": "matches",
+      "target_property": "matches_score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "matches",
+      "target_property": "matches_score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과",
+      "target_class": "matches",
+      "target_property": "matches_score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승패",
+      "target_class": "matches",
+      "target_property": "matches_score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수 정보",
+      "target_class": "matches",
+      "target_property": "matches_score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 정보",
+      "target_class": "matches",
+      "target_property": "matches_score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승패 정보",
+      "target_class": "matches",
+      "target_property": "matches_score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "표면",
+      "target_class": "matches",
+      "target_property": "matches_surface",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 표면",
+      "target_class": "matches",
+      "target_property": "matches_surface",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "표면 유형",
+      "target_class": "matches",
+      "target_property": "matches_surface",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "테니스 표면",
+      "target_class": "matches",
+      "target_property": "matches_surface",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 종류",
+      "target_class": "matches",
+      "target_property": "matches_surface",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "표면 종류",
+      "target_class": "matches",
+      "target_property": "matches_surface",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "테니스 경기 표면",
+      "target_class": "matches",
+      "target_property": "matches_surface",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "토너먼트 날짜",
+      "target_class": "matches",
+      "target_property": "matches_tourney_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "matches",
+      "target_property": "matches_tourney_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "matches",
+      "target_property": "matches_tourney_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 날짜",
+      "target_class": "matches",
+      "target_property": "matches_tourney_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "토너먼트 일자",
+      "target_class": "matches",
+      "target_property": "matches_tourney_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일정",
+      "target_class": "matches",
+      "target_property": "matches_tourney_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 일정",
+      "target_class": "matches",
+      "target_property": "matches_tourney_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜 정보",
+      "target_class": "matches",
+      "target_property": "matches_tourney_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "토너먼트 ID",
+      "target_class": "matches",
+      "target_property": "matches_tourney_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "matches",
+      "target_property": "matches_tourney_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코드",
+      "target_class": "matches",
+      "target_property": "matches_tourney_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "matches",
+      "target_property": "matches_tourney_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "matches",
+      "target_property": "matches_tourney_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "토너먼트 코드",
+      "target_class": "matches",
+      "target_property": "matches_tourney_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "토너먼트 레벨",
+      "target_class": "matches",
+      "target_property": "matches_tourney_level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "matches",
+      "target_property": "matches_tourney_level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레벨",
+      "target_class": "matches",
+      "target_property": "matches_tourney_level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수",
+      "target_class": "matches",
+      "target_property": "matches_tourney_level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강도",
+      "target_class": "matches",
+      "target_property": "matches_tourney_level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계층",
+      "target_class": "matches",
+      "target_property": "matches_tourney_level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "토너먼트 이름",
+      "target_class": "matches",
+      "target_property": "matches_tourney_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "matches",
+      "target_property": "matches_tourney_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "matches",
+      "target_property": "matches_tourney_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명칭",
+      "target_class": "matches",
+      "target_property": "matches_tourney_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호칭",
+      "target_class": "matches",
+      "target_property": "matches_tourney_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표명",
+      "target_class": "matches",
+      "target_property": "matches_tourney_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 나이",
+      "target_class": "matches",
+      "target_property": "matches_winner_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 연령",
+      "target_class": "matches",
+      "target_property": "matches_winner_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "matches",
+      "target_property": "matches_winner_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "matches",
+      "target_property": "matches_winner_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년월일",
+      "target_class": "matches",
+      "target_property": "matches_winner_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생년도",
+      "target_class": "matches",
+      "target_property": "matches_winner_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 엔트리",
+      "target_class": "matches",
+      "target_property": "matches_winner_entry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 엔트리 번호",
+      "target_class": "matches",
+      "target_property": "matches_winner_entry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "엔트리 번호",
+      "target_class": "matches",
+      "target_property": "matches_winner_entry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가 번호",
+      "target_class": "matches",
+      "target_property": "matches_winner_entry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 번호",
+      "target_class": "matches",
+      "target_property": "matches_winner_entry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "엔트리 정보",
+      "target_class": "matches",
+      "target_property": "matches_winner_entry",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 손",
+      "target_class": "matches",
+      "target_property": "matches_winner_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "손",
+      "target_class": "matches",
+      "target_property": "matches_winner_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "오른손",
+      "target_class": "matches",
+      "target_property": "matches_winner_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "왼손",
+      "target_class": "matches",
+      "target_property": "matches_winner_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "손 정보",
+      "target_class": "matches",
+      "target_property": "matches_winner_hand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 키",
+      "target_class": "matches",
+      "target_property": "matches_winner_ht",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 코드",
+      "target_class": "matches",
+      "target_property": "matches_winner_ht",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 식별자",
+      "target_class": "matches",
+      "target_property": "matches_winner_ht",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 번호",
+      "target_class": "matches",
+      "target_property": "matches_winner_ht",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 인덱스",
+      "target_class": "matches",
+      "target_property": "matches_winner_ht",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 고유값",
+      "target_class": "matches",
+      "target_property": "matches_winner_ht",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 ID",
+      "target_class": "matches",
+      "target_property": "matches_winner_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 고유번호",
+      "target_class": "matches",
+      "target_property": "matches_winner_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 식별번호",
+      "target_class": "matches",
+      "target_property": "matches_winner_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 번호",
+      "target_class": "matches",
+      "target_property": "matches_winner_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 인덱스",
+      "target_class": "matches",
+      "target_property": "matches_winner_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 코드",
+      "target_class": "matches",
+      "target_property": "matches_winner_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 IOC",
+      "target_class": "matches",
+      "target_property": "matches_winner_ioc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 IOC 코드",
+      "target_class": "matches",
+      "target_property": "matches_winner_ioc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 국제올림픽위원회 코드",
+      "target_class": "matches",
+      "target_property": "matches_winner_ioc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "IOC 승자 코드",
+      "target_class": "matches",
+      "target_property": "matches_winner_ioc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 국제코드",
+      "target_class": "matches",
+      "target_property": "matches_winner_ioc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "IOC 식별자",
+      "target_class": "matches",
+      "target_property": "matches_winner_ioc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 이름",
+      "target_class": "matches",
+      "target_property": "matches_winner_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우승자 이름",
+      "target_class": "matches",
+      "target_property": "matches_winner_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이긴 사람",
+      "target_class": "matches",
+      "target_property": "matches_winner_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이긴 이름",
+      "target_class": "matches",
+      "target_property": "matches_winner_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 랭크",
+      "target_class": "matches",
+      "target_property": "matches_winner_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우승자 랭크",
+      "target_class": "matches",
+      "target_property": "matches_winner_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭크",
+      "target_class": "matches",
+      "target_property": "matches_winner_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수",
+      "target_class": "matches",
+      "target_property": "matches_winner_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 정보",
+      "target_class": "matches",
+      "target_property": "matches_winner_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 랭크 포인트",
+      "target_class": "matches",
+      "target_property": "matches_winner_rank_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우승자 랭크 포인트",
+      "target_class": "matches",
+      "target_property": "matches_winner_rank_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭크 포인트",
+      "target_class": "matches",
+      "target_property": "matches_winner_rank_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 포인트",
+      "target_class": "matches",
+      "target_property": "matches_winner_rank_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 점수",
+      "target_class": "matches",
+      "target_property": "matches_winner_rank_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 시드",
+      "target_class": "matches",
+      "target_property": "matches_winner_seed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 시드 번호",
+      "target_class": "matches",
+      "target_property": "matches_winner_seed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우승자 시드",
+      "target_class": "matches",
+      "target_property": "matches_winner_seed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승리자 시드",
+      "target_class": "matches",
+      "target_property": "matches_winner_seed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우승자 시드 번호",
+      "target_class": "matches",
+      "target_property": "matches_winner_seed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승자 시드 수",
+      "target_class": "matches",
+      "target_property": "matches_winner_seed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시드 번호 (승자)",
+      "target_class": "matches",
+      "target_property": "matches_winner_seed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "matches",
+      "target_property": "matches_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년",
+      "target_class": "matches",
+      "target_property": "matches_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시즌",
+      "target_class": "matches",
+      "target_property": "matches_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 정보",
+      "target_class": "matches",
+      "target_property": "matches_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 데이터",
+      "target_class": "matches",
+      "target_property": "matches_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 값",
+      "target_class": "matches",
+      "target_property": "matches_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 코드",
+      "target_class": "matches",
+      "target_property": "matches_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭킹 날짜",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 날짜",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록일",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수정일",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭킹 기준일",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 일자",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭킹 업데이트일",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭킹",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭킹 수치",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 순위",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭킹 값",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 지수",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 ID",
+      "target_class": "rankings",
+      "target_property": "rankings_player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 고유 ID",
+      "target_class": "rankings",
+      "target_property": "rankings_player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 번호",
+      "target_class": "rankings",
+      "target_property": "rankings_player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록자 ID",
+      "target_class": "rankings",
+      "target_property": "rankings_player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 코드",
+      "target_class": "rankings",
+      "target_property": "rankings_player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 식별자",
+      "target_class": "rankings",
+      "target_property": "rankings_player_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭킹 포인트",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭킹 점수",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포인트",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭킹 값",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수 정보",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭킹 총점",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "토우 수",
+      "target_class": "rankings",
+      "target_property": "rankings_tours",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "토너먼트 수",
+      "target_class": "rankings",
+      "target_property": "rankings_tours",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "토우 개수",
+      "target_class": "rankings",
+      "target_property": "rankings_tours",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 수",
+      "target_class": "rankings",
+      "target_property": "rankings_tours",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "토우 횟수",
+      "target_class": "rankings",
+      "target_property": "rankings_tours",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참여 토너먼트 수",
+      "target_class": "rankings",
+      "target_property": "rankings_tours",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "김",
+      "target_class": "players",
+      "target_property": "players_first_name",
+      "value": "김"
+    },
+    {
+      "entry_type": "value",
+      "key": "박",
+      "target_class": "players",
+      "target_property": "players_first_name",
+      "value": "박"
+    },
+    {
+      "entry_type": "value",
+      "key": "민수",
+      "target_class": "players",
+      "target_property": "players_last_name",
+      "value": "민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "지현",
+      "target_class": "players",
+      "target_property": "players_last_name",
+      "value": "지현"
+    },
+    {
+      "entry_type": "value",
+      "key": "오른손",
+      "target_class": "players",
+      "target_property": "players_hand",
+      "value": "오른손"
+    },
+    {
+      "entry_type": "value",
+      "key": "왼손",
+      "target_class": "players",
+      "target_property": "players_hand",
+      "value": "왼손"
+    },
+    {
+      "entry_type": "value",
+      "key": "1990-05-15",
+      "target_class": "players",
+      "target_property": "players_birth_date",
+      "value": "1990-05-15"
+    },
+    {
+      "entry_type": "value",
+      "key": "1990년 5월 15일",
+      "target_class": "players",
+      "target_property": "players_birth_date",
+      "value": "1990-05-15"
+    },
+    {
+      "entry_type": "value",
+      "key": "KR",
+      "target_class": "players",
+      "target_property": "players_country_code",
+      "value": "KR"
+    },
+    {
+      "entry_type": "value",
+      "key": "US",
+      "target_class": "players",
+      "target_property": "players_country_code",
+      "value": "US"
+    },
+    {
+      "entry_type": "value",
+      "key": "25",
+      "target_class": "matches",
+      "target_property": "matches_loser_age",
+      "value": "25"
+    },
+    {
+      "entry_type": "value",
+      "key": "12345",
+      "target_class": "matches",
+      "target_property": "matches_loser_entry",
+      "value": "12345"
+    },
+    {
+      "entry_type": "value",
+      "key": "오른손",
+      "target_class": "matches",
+      "target_property": "matches_loser_hand",
+      "value": "오른손"
+    },
+    {
+      "entry_type": "value",
+      "key": "right",
+      "target_class": "matches",
+      "target_property": "matches_loser_hand",
+      "value": "오른손"
+    },
+    {
+      "entry_type": "value",
+      "key": "왼손",
+      "target_class": "matches",
+      "target_property": "matches_loser_hand",
+      "value": "왼손"
+    },
+    {
+      "entry_type": "value",
+      "key": "left",
+      "target_class": "matches",
+      "target_property": "matches_loser_hand",
+      "value": "왼손"
+    },
+    {
+      "entry_type": "value",
+      "key": "KOR",
+      "target_class": "matches",
+      "target_property": "matches_loser_ioc",
+      "value": "KOR"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국",
+      "target_class": "matches",
+      "target_property": "matches_loser_ioc",
+      "value": "KOR"
+    },
+    {
+      "entry_type": "value",
+      "key": "김지현",
+      "target_class": "matches",
+      "target_property": "matches_loser_name",
+      "value": "김지현"
+    },
+    {
+      "entry_type": "value",
+      "key": "1R",
+      "target_class": "matches",
+      "target_property": "matches_round",
+      "value": "1R"
+    },
+    {
+      "entry_type": "value",
+      "key": "1라운드",
+      "target_class": "matches",
+      "target_property": "matches_round",
+      "value": "1R"
+    },
+    {
+      "entry_type": "value",
+      "key": "2R",
+      "target_class": "matches",
+      "target_property": "matches_round",
+      "value": "2R"
+    },
+    {
+      "entry_type": "value",
+      "key": "2라운드",
+      "target_class": "matches",
+      "target_property": "matches_round",
+      "value": "2R"
+    },
+    {
+      "entry_type": "value",
+      "key": "QF",
+      "target_class": "matches",
+      "target_property": "matches_round",
+      "value": "QF"
+    },
+    {
+      "entry_type": "value",
+      "key": "쿼터파인",
+      "target_class": "matches",
+      "target_property": "matches_round",
+      "value": "QF"
+    },
+    {
+      "entry_type": "value",
+      "key": "6-4, 7-5",
+      "target_class": "matches",
+      "target_property": "matches_score",
+      "value": "6-4, 7-5"
+    },
+    {
+      "entry_type": "value",
+      "key": "6-4 7-5",
+      "target_class": "matches",
+      "target_property": "matches_score",
+      "value": "6-4, 7-5"
+    },
+    {
+      "entry_type": "value",
+      "key": "클리어",
+      "target_class": "matches",
+      "target_property": "matches_surface",
+      "value": "클리어"
+    },
+    {
+      "entry_type": "value",
+      "key": "clay",
+      "target_class": "matches",
+      "target_property": "matches_surface",
+      "value": "클리어"
+    },
+    {
+      "entry_type": "value",
+      "key": "하이드로",
+      "target_class": "matches",
+      "target_property": "matches_surface",
+      "value": "하이드로"
+    },
+    {
+      "entry_type": "value",
+      "key": "hard",
+      "target_class": "matches",
+      "target_property": "matches_surface",
+      "value": "하이드로"
+    },
+    {
+      "entry_type": "value",
+      "key": "그라운드",
+      "target_class": "matches",
+      "target_property": "matches_surface",
+      "value": "그라운드"
+    },
+    {
+      "entry_type": "value",
+      "key": "grass",
+      "target_class": "matches",
+      "target_property": "matches_surface",
+      "value": "그라운드"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-05-10",
+      "target_class": "matches",
+      "target_property": "matches_tourney_date",
+      "value": "2023-05-10"
+    },
+    {
+      "entry_type": "value",
+      "key": "250",
+      "target_class": "matches",
+      "target_property": "matches_tourney_level",
+      "value": "250"
+    },
+    {
+      "entry_type": "value",
+      "key": "250급",
+      "target_class": "matches",
+      "target_property": "matches_tourney_level",
+      "value": "250"
+    },
+    {
+      "entry_type": "value",
+      "key": "500",
+      "target_class": "matches",
+      "target_property": "matches_tourney_level",
+      "value": "500"
+    },
+    {
+      "entry_type": "value",
+      "key": "500급",
+      "target_class": "matches",
+      "target_property": "matches_tourney_level",
+      "value": "500"
+    },
+    {
+      "entry_type": "value",
+      "key": "파리 오픈",
+      "target_class": "matches",
+      "target_property": "matches_tourney_name",
+      "value": "파리 오픈"
+    },
+    {
+      "entry_type": "value",
+      "key": "28",
+      "target_class": "matches",
+      "target_property": "matches_winner_age",
+      "value": "28"
+    },
+    {
+      "entry_type": "value",
+      "key": "67890",
+      "target_class": "matches",
+      "target_property": "matches_winner_entry",
+      "value": "67890"
+    },
+    {
+      "entry_type": "value",
+      "key": "오른손",
+      "target_class": "matches",
+      "target_property": "matches_winner_hand",
+      "value": "오른손"
+    },
+    {
+      "entry_type": "value",
+      "key": "right",
+      "target_class": "matches",
+      "target_property": "matches_winner_hand",
+      "value": "오른손"
+    },
+    {
+      "entry_type": "value",
+      "key": "왼손",
+      "target_class": "matches",
+      "target_property": "matches_winner_hand",
+      "value": "왼손"
+    },
+    {
+      "entry_type": "value",
+      "key": "left",
+      "target_class": "matches",
+      "target_property": "matches_winner_hand",
+      "value": "왼손"
+    },
+    {
+      "entry_type": "value",
+      "key": "USA",
+      "target_class": "matches",
+      "target_property": "matches_winner_ioc",
+      "value": "USA"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국",
+      "target_class": "matches",
+      "target_property": "matches_winner_ioc",
+      "value": "USA"
+    },
+    {
+      "entry_type": "value",
+      "key": "이승재",
+      "target_class": "matches",
+      "target_property": "matches_winner_name",
+      "value": "이승재"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023",
+      "target_class": "matches",
+      "target_property": "matches_year",
+      "value": "2023"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-10-01",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_date",
+      "value": "2023-10-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 10월 1일",
+      "target_class": "rankings",
+      "target_property": "rankings_ranking_date",
+      "value": "2023-10-01"
+    }
+  ]
+}

@@ -1,0 +1,669 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "대학",
+      "target_class": "College",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고등학교",
+      "target_class": "College",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학교",
+      "target_class": "College",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학원",
+      "target_class": "College",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "플레이어",
+      "target_class": "Player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수",
+      "target_class": "Player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "축구인",
+      "target_class": "Player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기참가자",
+      "target_class": "Player",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "tryout",
+      "target_class": "Tryout",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시범 경기",
+      "target_class": "Tryout",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "훈련",
+      "target_class": "Tryout",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선발 시험",
+      "target_class": "Tryout",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트라이아웃",
+      "target_class": "Tryout",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선발 훈련",
+      "target_class": "Tryout",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학 이름",
+      "target_class": "College",
+      "target_property": "College_cName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주",
+      "target_class": "College",
+      "target_property": "College_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입학생 수",
+      "target_class": "College",
+      "target_property": "College_enr",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 id",
+      "target_class": "Player",
+      "target_property": "Player_pID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pID",
+      "target_class": "Player",
+      "target_property": "Player_pID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 ID",
+      "target_class": "Player",
+      "target_property": "Player_pID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 번호",
+      "target_class": "Player",
+      "target_property": "Player_pID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 고유 번호",
+      "target_class": "Player",
+      "target_property": "Player_pID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pID 값",
+      "target_class": "Player",
+      "target_property": "Player_pID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 식별자",
+      "target_class": "Player",
+      "target_property": "Player_pID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 이름",
+      "target_class": "Player",
+      "target_property": "Player_pName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pName",
+      "target_class": "Player",
+      "target_property": "Player_pName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선수 이름",
+      "target_class": "Player",
+      "target_property": "Player_pName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선수명",
+      "target_class": "Player",
+      "target_property": "Player_pName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pName 값",
+      "target_class": "Player",
+      "target_property": "Player_pName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 대표 이름",
+      "target_class": "Player",
+      "target_property": "Player_pName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예카드",
+      "target_class": "Player",
+      "target_property": "Player_yCard",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "yCard",
+      "target_class": "Player",
+      "target_property": "Player_yCard",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "노란카드",
+      "target_class": "Player",
+      "target_property": "Player_yCard",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "yellow card 기록",
+      "target_class": "Player",
+      "target_property": "Player_yCard",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "yCard 값",
+      "target_class": "Player",
+      "target_property": "Player_yCard",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "노란카드 기록",
+      "target_class": "Player",
+      "target_property": "Player_yCard",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 노란카드",
+      "target_class": "Player",
+      "target_property": "Player_yCard",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트레이닝 시간",
+      "target_class": "Player",
+      "target_property": "Player_HS",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "훈련 시간",
+      "target_class": "Player",
+      "target_property": "Player_HS",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수업 시간",
+      "target_class": "Player",
+      "target_property": "Player_HS",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "훈련 소요 시간",
+      "target_class": "Player",
+      "target_property": "Player_HS",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "HS",
+      "target_class": "Player",
+      "target_property": "Player_HS",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "훈련 시간 수",
+      "target_class": "Player",
+      "target_property": "Player_HS",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "훈련 시수",
+      "target_class": "Player",
+      "target_property": "Player_HS",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수업 소요 시간",
+      "target_class": "Player",
+      "target_property": "Player_HS",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 id",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pID",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선수 ID",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선수 식별자",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 ID",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 식별자",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선수 고유 번호",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학 이름",
+      "target_class": "Tryout",
+      "target_property": "Tryout_cName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "cName",
+      "target_class": "Tryout",
+      "target_property": "Tryout_cName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학명",
+      "target_class": "Tryout",
+      "target_property": "Tryout_cName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학",
+      "target_class": "Tryout",
+      "target_property": "Tryout_cName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "college name",
+      "target_class": "Tryout",
+      "target_property": "Tryout_cName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 포지션",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pPos",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pPos",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pPos",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선수 위치",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pPos",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선수 역할",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pPos",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이어 위치",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pPos",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pPos",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결정",
+      "target_class": "Tryout",
+      "target_property": "Tryout_decision",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과",
+      "target_class": "Tryout",
+      "target_property": "Tryout_decision",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "판정",
+      "target_class": "Tryout",
+      "target_property": "Tryout_decision",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 정보",
+      "target_class": "Tryout",
+      "target_property": "Tryout_decision",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결정 사항",
+      "target_class": "Tryout",
+      "target_property": "Tryout_decision",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "판정 결과",
+      "target_class": "Tryout",
+      "target_property": "Tryout_decision",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 내용",
+      "target_class": "Tryout",
+      "target_property": "Tryout_decision",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결정 내용",
+      "target_class": "Tryout",
+      "target_property": "Tryout_decision",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "한국대학교",
+      "target_class": "College",
+      "target_property": "College_cName",
+      "value": "한국대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국대",
+      "target_class": "College",
+      "target_property": "College_cName",
+      "value": "한국대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울대학교",
+      "target_class": "College",
+      "target_property": "College_cName",
+      "value": "서울대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울대",
+      "target_class": "College",
+      "target_property": "College_cName",
+      "value": "서울대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "College",
+      "target_property": "College_state",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시",
+      "target_class": "College",
+      "target_property": "College_state",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "경기",
+      "target_class": "College",
+      "target_property": "College_state",
+      "value": "경기"
+    },
+    {
+      "entry_type": "value",
+      "key": "경기도",
+      "target_class": "College",
+      "target_property": "College_state",
+      "value": "경기"
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "Player",
+      "target_property": "Player_pName",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "이지훈",
+      "target_class": "Player",
+      "target_property": "Player_pName",
+      "value": "이지훈"
+    },
+    {
+      "entry_type": "value",
+      "key": "예",
+      "target_class": "Player",
+      "target_property": "Player_yCard",
+      "value": "예"
+    },
+    {
+      "entry_type": "value",
+      "key": "yes",
+      "target_class": "Player",
+      "target_property": "Player_yCard",
+      "value": "예"
+    },
+    {
+      "entry_type": "value",
+      "key": "아니오",
+      "target_class": "Player",
+      "target_property": "Player_yCard",
+      "value": "아니오"
+    },
+    {
+      "entry_type": "value",
+      "key": "no",
+      "target_class": "Player",
+      "target_property": "Player_yCard",
+      "value": "아니오"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국대학교",
+      "target_class": "Tryout",
+      "target_property": "Tryout_cName",
+      "value": "한국대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국대",
+      "target_class": "Tryout",
+      "target_property": "Tryout_cName",
+      "value": "한국대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울대학교",
+      "target_class": "Tryout",
+      "target_property": "Tryout_cName",
+      "value": "서울대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울대",
+      "target_class": "Tryout",
+      "target_property": "Tryout_cName",
+      "value": "서울대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "수비수",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pPos",
+      "value": "수비수"
+    },
+    {
+      "entry_type": "value",
+      "key": "수비",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pPos",
+      "value": "수비수"
+    },
+    {
+      "entry_type": "value",
+      "key": "공격수",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pPos",
+      "value": "공격수"
+    },
+    {
+      "entry_type": "value",
+      "key": "공격",
+      "target_class": "Tryout",
+      "target_property": "Tryout_pPos",
+      "value": "공격수"
+    },
+    {
+      "entry_type": "value",
+      "key": "승인",
+      "target_class": "Tryout",
+      "target_property": "Tryout_decision",
+      "value": "승인"
+    },
+    {
+      "entry_type": "value",
+      "key": "거부",
+      "target_class": "Tryout",
+      "target_property": "Tryout_decision",
+      "value": "거부"
+    }
+  ]
+}

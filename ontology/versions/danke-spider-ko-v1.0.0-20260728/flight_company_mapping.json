@@ -1,0 +1,99 @@
+{
+  "class_table": {
+    "airport": "airport",
+    "operate_company": "operate_company",
+    "flight": "flight"
+  },
+  "property_column": {
+    "airport_id": [
+      "airport",
+      "id"
+    ],
+    "airport_City": [
+      "airport",
+      "City"
+    ],
+    "airport_Country": [
+      "airport",
+      "Country"
+    ],
+    "airport_IATA": [
+      "airport",
+      "IATA"
+    ],
+    "airport_ICAO": [
+      "airport",
+      "ICAO"
+    ],
+    "airport_name": [
+      "airport",
+      "name"
+    ],
+    "operate_company_id": [
+      "operate_company",
+      "id"
+    ],
+    "operate_company_name": [
+      "operate_company",
+      "name"
+    ],
+    "operate_company_Type": [
+      "operate_company",
+      "Type"
+    ],
+    "operate_company_Principal_activities": [
+      "operate_company",
+      "Principal_activities"
+    ],
+    "operate_company_Incorporated_in": [
+      "operate_company",
+      "Incorporated_in"
+    ],
+    "operate_company_Group_Equity_Shareholding": [
+      "operate_company",
+      "Group_Equity_Shareholding"
+    ],
+    "flight_id": [
+      "flight",
+      "id"
+    ],
+    "flight_Vehicle_Flight_number": [
+      "flight",
+      "Vehicle_Flight_number"
+    ],
+    "flight_Date": [
+      "flight",
+      "Date"
+    ],
+    "flight_Pilot": [
+      "flight",
+      "Pilot"
+    ],
+    "flight_Velocity": [
+      "flight",
+      "Velocity"
+    ],
+    "flight_Altitude": [
+      "flight",
+      "Altitude"
+    ],
+    "flight_airport_id": [
+      "flight",
+      "airport_id"
+    ],
+    "flight_company_id": [
+      "flight",
+      "company_id"
+    ]
+  },
+  "object_property_fk": {
+    "flight_operate_company_fk0": [
+      "flight.company_id",
+      "operate_company.id"
+    ],
+    "flight_airport_fk1": [
+      "flight.airport_id",
+      "airport.id"
+    ]
+  }
+}

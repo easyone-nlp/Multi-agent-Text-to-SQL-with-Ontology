@@ -1,0 +1,718 @@
+{
+  "db_id": "riding_club",
+  "classes": [
+    {
+      "name": "player",
+      "source_table": "player",
+      "ranking": 3.5,
+      "primary_label": "플레이어",
+      "synonyms": [
+        "선수",
+        "등산자",
+        "운동가",
+        "경기 참여자",
+        "스포츠 선수"
+      ]
+    },
+    {
+      "name": "club",
+      "source_table": "club",
+      "ranking": 3.5,
+      "primary_label": "클럽",
+      "synonyms": [
+        "클럽",
+        "등산 클럽",
+        "스포츠 클럽",
+        "운동 단체",
+        "등산 그룹"
+      ]
+    },
+    {
+      "name": "coach",
+      "source_table": "coach",
+      "ranking": 1.0,
+      "primary_label": "coach",
+      "synonyms": [
+        "코치",
+        "트레이너",
+        "스포츠 코치",
+        "운동 지도자",
+        "스포츠 �레이너"
+      ]
+    },
+    {
+      "name": "player_coach",
+      "source_table": "player_coach",
+      "ranking": 3.0,
+      "primary_label": "player coach",
+      "synonyms": [
+        "플레이어 코치",
+        "라이더 코치",
+        "코치 플레이어",
+        "라이딩 코치",
+        "플레이어 역할 코치",
+        "코치 및 플레이어"
+      ]
+    },
+    {
+      "name": "match_result",
+      "source_table": "match_result",
+      "ranking": 3.0,
+      "primary_label": "경기 결과",
+      "synonyms": [
+        "경기 결과",
+        "경기 결과 기록",
+        "라이딩 경기 결과",
+        "경기 결과 정보",
+        "경기 성적",
+        "경기 결과 데이터"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "player_Player_ID",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Player_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "player id",
+      "synonyms": [
+        "플레이어 ID",
+        "플레이어 번호",
+        "ID",
+        "플레이어 식별자",
+        "플레이어 고유 번호",
+        "Player_ID",
+        "플레이어 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Sponsor_name",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Sponsor_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "sponsor name",
+      "synonyms": [
+        "스폰서 이름",
+        "스폰서",
+        "스폰서자",
+        "스폰서명",
+        "Sponsor_name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Player_name",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Player_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "player name",
+      "synonyms": [
+        "플레이어 이름",
+        "이름",
+        "플레이어",
+        "플레이어명",
+        "Player_name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Gender",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Gender",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "gender",
+      "synonyms": [
+        "성별",
+        "성",
+        "성별 정보",
+        "성별 데이터",
+        "성별 항목",
+        "gender",
+        "성별 기준"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Residence",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Residence",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "residence",
+      "synonyms": [
+        "거주지",
+        "주소",
+        "거주지 정보",
+        "거주지 데이터",
+        "거주지 항목",
+        "residence",
+        "거주지 기준"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Occupation",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Occupation",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "occupation",
+      "synonyms": [
+        "직업",
+        "직업 정보",
+        "직업 데이터",
+        "직업 항목",
+        "occupation",
+        "직업 기준"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Votes",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Votes",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "votes",
+      "synonyms": [
+        "투표수",
+        "투표량",
+        "투표",
+        "투표 개수",
+        "투표자 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Rank",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Rank",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "rank",
+      "synonyms": [
+        "등수",
+        "등급",
+        "순위",
+        "등수 정보",
+        "등수 문자열",
+        "순위 문자열",
+        "등수 코드",
+        "등수 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "club_Club_ID",
+      "domain": "club",
+      "source_table": "club",
+      "source_column": "Club_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "클럽 ID",
+      "synonyms": [
+        "클럽 ID",
+        "클럽 고유 번호",
+        "클럽 번호",
+        "클럽 식별자",
+        "ID",
+        "클럽 아이디",
+        "클럽 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "club_Club_name",
+      "domain": "club",
+      "source_table": "club",
+      "source_column": "Club_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "클럽 이름",
+      "synonyms": [
+        "클럽 이름",
+        "클럽명",
+        "클럽 타이틀",
+        "클럽 제목",
+        "클럽명칭",
+        "클럽 소유자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "삼성 라이온스": [
+          "삼성 라이온스"
+        ],
+        "현대 자이언츠": [
+          "현대 자이언츠"
+        ]
+      }
+    },
+    {
+      "name": "club_Region",
+      "domain": "club",
+      "source_table": "club",
+      "source_column": "Region",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "지역",
+      "synonyms": [
+        "지역",
+        "구역",
+        "지방",
+        "지역명",
+        "클럽 지역",
+        "클럽 위치",
+        "구역 이름",
+        "지역 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "인천": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "club_Start_year",
+      "domain": "club",
+      "source_table": "club",
+      "source_column": "Start_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "시작 연도",
+      "synonyms": [
+        "시작 연도",
+        "개설 연도",
+        "운영 시작 연도",
+        "설립 연도",
+        "시작 년도",
+        "Start_year"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "coach_Coach_ID",
+      "domain": "coach",
+      "source_table": "coach",
+      "source_column": "Coach_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "coach id",
+      "synonyms": [
+        "코치 ID",
+        "코치 고유 번호",
+        "코치 식별자",
+        "코치 코드",
+        "코치 번호",
+        "Coach_ID",
+        "코치 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "coach_Coach_name",
+      "domain": "coach",
+      "source_table": "coach",
+      "source_column": "Coach_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "player name",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "coach_Gender",
+      "domain": "coach",
+      "source_table": "coach",
+      "source_column": "Gender",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "gender",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "coach_Club_ID",
+      "domain": "coach",
+      "source_table": "coach",
+      "source_column": "Club_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "club id",
+      "synonyms": [
+        "클럽 ID",
+        "클럽 번호",
+        "클럽 식별자",
+        "클럽 코드",
+        "클럽 고유번호",
+        "클럽 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "coach_Rank",
+      "domain": "coach",
+      "source_table": "coach",
+      "source_column": "Rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "rank",
+      "synonyms": [
+        "등급",
+        "등수",
+        "등급 수준",
+        "성과 등급",
+        "기술 등급",
+        "등수 순위",
+        "랭크",
+        "등급 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_coach_Player_ID",
+      "domain": "player_coach",
+      "source_table": "player_coach",
+      "source_column": "Player_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "player id",
+      "synonyms": [
+        "플레이어 ID",
+        "플레이어 번호",
+        "플레이어 고유번호",
+        "플레이어 식별자",
+        "ID",
+        "player_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_coach_Coach_ID",
+      "domain": "player_coach",
+      "source_table": "player_coach",
+      "source_column": "Coach_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "coach id",
+      "synonyms": [
+        "코치 ID",
+        "코치 번호",
+        "코치 고유번호",
+        "코치 식별자",
+        "ID",
+        "coach_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_coach_Starting_year",
+      "domain": "player_coach",
+      "source_table": "player_coach",
+      "source_column": "Starting_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "starting year",
+      "synonyms": [
+        "시작 연도",
+        "지도 시작 연도",
+        "지도 시작년도",
+        "시작년도",
+        "연도",
+        "starting year"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2010": [
+          "2010년"
+        ],
+        "2015": [
+          "2015년"
+        ]
+      }
+    },
+    {
+      "name": "match_result_Rank",
+      "domain": "match_result",
+      "source_table": "match_result",
+      "source_column": "Rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "rank",
+      "synonyms": [
+        "순위",
+        "등수",
+        "등수 정보",
+        "등수 값",
+        "랭킹",
+        "등수 코드",
+        "경기 순위",
+        "Rank"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_result_Club_ID",
+      "domain": "match_result",
+      "source_table": "match_result",
+      "source_column": "Club_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "club id",
+      "synonyms": [
+        "클럽 ID",
+        "클럽 번호",
+        "클럽 식별자",
+        "클럽 코드",
+        "클럽 고유 번호",
+        "클럽 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_result_Gold",
+      "domain": "match_result",
+      "source_table": "match_result",
+      "source_column": "Gold",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "gold",
+      "synonyms": [
+        "금메달 수",
+        "금메달",
+        "금메달 개수",
+        "금메달 수량",
+        "금메달 개"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_result_Big_Silver",
+      "domain": "match_result",
+      "source_table": "match_result",
+      "source_column": "Big_Silver",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "big silver",
+      "synonyms": [
+        "대규모 은메달",
+        "Big Silver",
+        "큰 은메달",
+        "대형 은메달",
+        "큰 은메달 수상 횟수",
+        "대규모 은메달 수",
+        "Big Silver 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_result_Small_Silver",
+      "domain": "match_result",
+      "source_table": "match_result",
+      "source_column": "Small_Silver",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "small silver",
+      "synonyms": [
+        "소은메달",
+        "소규모 은메달",
+        "소은",
+        "소규모 은",
+        "소은메달 수",
+        "소은메달 개수",
+        "소은메달 수량",
+        "소은메달 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_result_Bronze",
+      "domain": "match_result",
+      "source_table": "match_result",
+      "source_column": "Bronze",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "bronze",
+      "synonyms": [
+        "브론즈",
+        "은메달",
+        "은메달 수",
+        "브론즈 메달",
+        "은메달 획득 수",
+        "브론즈 수",
+        "은메달 수량",
+        "브론즈 메달 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_result_Points",
+      "domain": "match_result",
+      "source_table": "match_result",
+      "source_column": "Points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "points",
+      "synonyms": [
+        "포인트",
+        "점수",
+        "점수 누적",
+        "스코어",
+        "득점",
+        "점수 총액",
+        "포인트 수치",
+        "점수 합계"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "coach_club_fk0",
+      "domain": "coach",
+      "range": "club",
+      "source_fk": [
+        "coach.Club_ID",
+        "club.Club_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "player_coach_coach_fk1",
+      "domain": "player_coach",
+      "range": "coach",
+      "source_fk": [
+        "player_coach.Coach_ID",
+        "coach.Coach_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "지도자 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "player_coach_player_fk2",
+      "domain": "player_coach",
+      "range": "player",
+      "source_fk": [
+        "player_coach.Player_ID",
+        "player.Player_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "플레이어 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "match_result_club_fk3",
+      "domain": "match_result",
+      "range": "club",
+      "source_fk": [
+        "match_result.Club_ID",
+        "club.Club_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "경기 소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

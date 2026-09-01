@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "version": "v1.0.0",
+  "status": "frozen",
+  "created_at": "2026-07-28T00:00:00+09:00",
+  "description": "Initial explicitly versioned synonym bundle at the pre-hybrid baseline freeze.",
+  "files": {
+    "column_synonyms": {
+      "path": "column_synonyms.json",
+      "source_at_freeze": "ontology/synonym_v2.json",
+      "sha256": "09581f93b2879fa0b99c1fac065fffd4de417cdbf3d42892e086de9e56a5a753"
+    },
+    "table_synonyms": {
+      "path": "table_synonyms.json",
+      "source_at_freeze": "ontology/synonym_table.json",
+      "sha256": "a7024d26ecf458e3a2c6516eaf8e8b96e32248c8d79c30703e647927d81598c1"
+    },
+    "legacy_synonyms": {
+      "path": "legacy_synonyms.json",
+      "source_at_freeze": "ontology/synonym.json",
+      "sha256": "ce7a95be20cce127e914eb0f5e6cb7d3c70ae139f10460f72551429855dae6f1",
+      "status": "archived_for_provenance"
+    }
+  },
+  "mutation_policy": "Never edit files inside a released version directory. Publish any correction as a new semantic version and update ../registry.json."
+}

@@ -1,0 +1,113 @@
+{
+  "class_table": {
+    "Student": "Student",
+    "Restaurant": "Restaurant",
+    "Type_Of_Restaurant": "Type_Of_Restaurant",
+    "Restaurant_Type": "Restaurant_Type",
+    "Visits_Restaurant": "Visits_Restaurant"
+  },
+  "property_column": {
+    "Student_StuID": [
+      "Student",
+      "StuID"
+    ],
+    "Student_LName": [
+      "Student",
+      "LName"
+    ],
+    "Student_Fname": [
+      "Student",
+      "Fname"
+    ],
+    "Student_Age": [
+      "Student",
+      "Age"
+    ],
+    "Student_Sex": [
+      "Student",
+      "Sex"
+    ],
+    "Student_Major": [
+      "Student",
+      "Major"
+    ],
+    "Student_Advisor": [
+      "Student",
+      "Advisor"
+    ],
+    "Student_city_code": [
+      "Student",
+      "city_code"
+    ],
+    "Restaurant_ResID": [
+      "Restaurant",
+      "ResID"
+    ],
+    "Restaurant_ResName": [
+      "Restaurant",
+      "ResName"
+    ],
+    "Restaurant_Address": [
+      "Restaurant",
+      "Address"
+    ],
+    "Restaurant_Rating": [
+      "Restaurant",
+      "Rating"
+    ],
+    "Type_Of_Restaurant_ResID": [
+      "Type_Of_Restaurant",
+      "ResID"
+    ],
+    "Type_Of_Restaurant_ResTypeID": [
+      "Type_Of_Restaurant",
+      "ResTypeID"
+    ],
+    "Restaurant_Type_ResTypeID": [
+      "Restaurant_Type",
+      "ResTypeID"
+    ],
+    "Restaurant_Type_ResTypeName": [
+      "Restaurant_Type",
+      "ResTypeName"
+    ],
+    "Restaurant_Type_ResTypeDescription": [
+      "Restaurant_Type",
+      "ResTypeDescription"
+    ],
+    "Visits_Restaurant_StuID": [
+      "Visits_Restaurant",
+      "StuID"
+    ],
+    "Visits_Restaurant_ResID": [
+      "Visits_Restaurant",
+      "ResID"
+    ],
+    "Visits_Restaurant_Time": [
+      "Visits_Restaurant",
+      "Time"
+    ],
+    "Visits_Restaurant_Spent": [
+      "Visits_Restaurant",
+      "Spent"
+    ]
+  },
+  "object_property_fk": {
+    "Type_Of_Restaurant_Restaurant_Type_fk0": [
+      "Type_Of_Restaurant.ResTypeID",
+      "Restaurant_Type.ResTypeID"
+    ],
+    "Type_Of_Restaurant_Restaurant_fk1": [
+      "Type_Of_Restaurant.ResID",
+      "Restaurant.ResID"
+    ],
+    "Visits_Restaurant_Restaurant_fk2": [
+      "Visits_Restaurant.ResID",
+      "Restaurant.ResID"
+    ],
+    "Visits_Restaurant_Student_fk3": [
+      "Visits_Restaurant.StuID",
+      "Student.StuID"
+    ]
+  }
+}

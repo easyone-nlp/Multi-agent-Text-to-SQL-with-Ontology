@@ -1,0 +1,2755 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "저자",
+      "target_class": "author",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "작가",
+      "target_class": "author",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "논문 저자",
+      "target_class": "author",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연구자",
+      "target_class": "author",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "작성자",
+      "target_class": "author",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "세미나",
+      "target_class": "conference",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "컨퍼런스",
+      "target_class": "conference",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학회",
+      "target_class": "conference",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 행사",
+      "target_class": "conference",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "모임",
+      "target_class": "conference",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도메인",
+      "target_class": "domain",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분야",
+      "target_class": "domain",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학문 분야",
+      "target_class": "domain",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주제",
+      "target_class": "domain",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학문 분야 코드",
+      "target_class": "domain",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분야 코드",
+      "target_class": "domain",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도메인 작성자",
+      "target_class": "domain_author",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자",
+      "target_class": "domain_author",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자 정보",
+      "target_class": "domain_author",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자 목록",
+      "target_class": "domain_author",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자 데이터",
+      "target_class": "domain_author",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자 관련 정보",
+      "target_class": "domain_author",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "domain conference",
+      "target_class": "domain_conference",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학회",
+      "target_class": "domain_conference",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학회 정보",
+      "target_class": "domain_conference",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학회 목록",
+      "target_class": "domain_conference",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학회 데이터",
+      "target_class": "domain_conference",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학회 관련 정보",
+      "target_class": "domain_conference",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저널",
+      "target_class": "journal",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술지",
+      "target_class": "journal",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술지 정보",
+      "target_class": "journal",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술지 목록",
+      "target_class": "journal",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술지 데이터",
+      "target_class": "journal",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술지 관련 정보",
+      "target_class": "journal",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도메인 저널",
+      "target_class": "domain_journal",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 저널",
+      "target_class": "domain_journal",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분야별 저널",
+      "target_class": "domain_journal",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술지",
+      "target_class": "domain_journal",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 저널 정보",
+      "target_class": "domain_journal",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분야별 학술지",
+      "target_class": "domain_journal",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "키워드",
+      "target_class": "keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 키워드",
+      "target_class": "keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학문 용어",
+      "target_class": "keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 용어",
+      "target_class": "keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "키워드 정보",
+      "target_class": "keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도메인 키워드",
+      "target_class": "domain_keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분야 키워드",
+      "target_class": "domain_keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학문 키워드",
+      "target_class": "domain_keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분야별 키워드",
+      "target_class": "domain_keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "키워드 분류",
+      "target_class": "domain_keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 키워드 분류",
+      "target_class": "domain_keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "출판물",
+      "target_class": "publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "논문",
+      "target_class": "publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술작품",
+      "target_class": "publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "논문 발행물",
+      "target_class": "publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 출판물",
+      "target_class": "publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 저작물",
+      "target_class": "publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 기사",
+      "target_class": "publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 저널",
+      "target_class": "publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "domain publication",
+      "target_class": "domain_publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분야 논문",
+      "target_class": "domain_publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분야 출판물",
+      "target_class": "domain_publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분야 학술작품",
+      "target_class": "domain_publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분야 기사",
+      "target_class": "domain_publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분야 저널",
+      "target_class": "domain_publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분야 저작물",
+      "target_class": "domain_publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분야 발행물",
+      "target_class": "domain_publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분야 학술 저널",
+      "target_class": "domain_publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "조직",
+      "target_class": "organization",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "기관",
+      "target_class": "organization",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 기관",
+      "target_class": "organization",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 조직",
+      "target_class": "organization",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 단체",
+      "target_class": "organization",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 기관 정보",
+      "target_class": "organization",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 단위",
+      "target_class": "organization",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 기관 목록",
+      "target_class": "organization",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 조직 정보",
+      "target_class": "organization",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "출판 키워드",
+      "target_class": "publication_keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "논문 키워드",
+      "target_class": "publication_keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 키워드",
+      "target_class": "publication_keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "논문 관련 단어",
+      "target_class": "publication_keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "키워드 목록",
+      "target_class": "publication_keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술 용어",
+      "target_class": "publication_keyword",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "작성한다",
+      "target_class": "writes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자 논문",
+      "target_class": "writes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "작성 기록",
+      "target_class": "writes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자 관련",
+      "target_class": "writes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "작성자",
+      "target_class": "writes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저자 연결",
+      "target_class": "writes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인용 정보",
+      "target_class": "cite",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참조 기록",
+      "target_class": "cite",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인용 목록",
+      "target_class": "cite",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참조 관계",
+      "target_class": "cite",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인용 데이터",
+      "target_class": "cite",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저자 ID",
+      "target_class": "author",
+      "target_property": "author_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "aid",
+      "target_class": "author",
+      "target_property": "author_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "author",
+      "target_property": "author_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "author",
+      "target_property": "author_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디값",
+      "target_class": "author",
+      "target_property": "author_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디 번호",
+      "target_class": "author",
+      "target_property": "author_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디코드",
+      "target_class": "author",
+      "target_property": "author_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈페이지",
+      "target_class": "author",
+      "target_property": "author_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "homepage",
+      "target_class": "author",
+      "target_property": "author_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "웹사이트",
+      "target_class": "author",
+      "target_property": "author_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈페이지 주소",
+      "target_class": "author",
+      "target_property": "author_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈페이지 URL",
+      "target_class": "author",
+      "target_property": "author_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "웹사이트 주소",
+      "target_class": "author",
+      "target_property": "author_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "온라인 프로필",
+      "target_class": "author",
+      "target_property": "author_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "author",
+      "target_property": "author_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "author",
+      "target_property": "author_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저자 이름",
+      "target_class": "author",
+      "target_property": "author_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "author",
+      "target_property": "author_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "author",
+      "target_property": "author_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저자의 이름",
+      "target_class": "author",
+      "target_property": "author_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 데이터",
+      "target_class": "author",
+      "target_property": "author_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "oid",
+      "target_class": "author",
+      "target_property": "author_oid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학자 ID",
+      "target_class": "author",
+      "target_property": "author_oid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학자 식별 번호",
+      "target_class": "author",
+      "target_property": "author_oid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학자 고유 번호",
+      "target_class": "author",
+      "target_property": "author_oid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학자 코드",
+      "target_class": "author",
+      "target_property": "author_oid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학자 식별자",
+      "target_class": "author",
+      "target_property": "author_oid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "세미나 ID",
+      "target_class": "conference",
+      "target_property": "conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "cid",
+      "target_class": "conference",
+      "target_property": "conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회의 ID",
+      "target_class": "conference",
+      "target_property": "conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술 회의 번호",
+      "target_class": "conference",
+      "target_property": "conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 회의 코드",
+      "target_class": "conference",
+      "target_property": "conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술 행사 식별자",
+      "target_class": "conference",
+      "target_property": "conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "cid 번호",
+      "target_class": "conference",
+      "target_property": "conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술 행사 ID",
+      "target_class": "conference",
+      "target_property": "conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈페이지",
+      "target_class": "conference",
+      "target_property": "conference_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "homepage",
+      "target_class": "conference",
+      "target_property": "conference_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "웹사이트",
+      "target_class": "conference",
+      "target_property": "conference_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈페이지 주소",
+      "target_class": "conference",
+      "target_property": "conference_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술 회의 URL",
+      "target_class": "conference",
+      "target_property": "conference_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 회의 주소",
+      "target_class": "conference",
+      "target_property": "conference_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술 행사 웹사이트",
+      "target_class": "conference",
+      "target_property": "conference_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "conference",
+      "target_property": "conference_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회의 이름",
+      "target_class": "conference",
+      "target_property": "conference_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술 회의 제목",
+      "target_class": "conference",
+      "target_property": "conference_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 회의 이름",
+      "target_class": "conference",
+      "target_property": "conference_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술 행사명",
+      "target_class": "conference",
+      "target_property": "conference_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "conference",
+      "target_property": "conference_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 ID",
+      "target_class": "domain",
+      "target_property": "domain_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "did",
+      "target_class": "domain",
+      "target_property": "domain_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 식별자",
+      "target_class": "domain",
+      "target_property": "domain_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "domain",
+      "target_property": "domain_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 번호",
+      "target_class": "domain",
+      "target_property": "domain_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 고유번호",
+      "target_class": "domain",
+      "target_property": "domain_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 식별",
+      "target_class": "domain",
+      "target_property": "domain_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "domain",
+      "target_property": "domain_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "domain",
+      "target_property": "domain_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 이름",
+      "target_class": "domain",
+      "target_property": "domain_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인명",
+      "target_class": "domain",
+      "target_property": "domain_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 이름 정보",
+      "target_class": "domain",
+      "target_property": "domain_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 제목",
+      "target_class": "domain",
+      "target_property": "domain_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 표시명",
+      "target_class": "domain",
+      "target_property": "domain_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 이름 데이터",
+      "target_class": "domain",
+      "target_property": "domain_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자 ID",
+      "target_class": "domain_author",
+      "target_property": "domain_author_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "aid",
+      "target_class": "domain_author",
+      "target_property": "domain_author_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가 ID",
+      "target_class": "domain_author",
+      "target_property": "domain_author_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가 식별자",
+      "target_class": "domain_author",
+      "target_property": "domain_author_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가 번호",
+      "target_class": "domain_author",
+      "target_property": "domain_author_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가 코드",
+      "target_class": "domain_author",
+      "target_property": "domain_author_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가 고유번호",
+      "target_class": "domain_author",
+      "target_property": "domain_author_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 ID",
+      "target_class": "domain_author",
+      "target_property": "domain_author_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "did",
+      "target_class": "domain_author",
+      "target_property": "domain_author_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분야 ID",
+      "target_class": "domain_author",
+      "target_property": "domain_author_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분야 식별자",
+      "target_class": "domain_author",
+      "target_property": "domain_author_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분야 번호",
+      "target_class": "domain_author",
+      "target_property": "domain_author_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분야 코드",
+      "target_class": "domain_author",
+      "target_property": "domain_author_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분야 고유번호",
+      "target_class": "domain_author",
+      "target_property": "domain_author_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회의 ID",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "cid",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "conference id",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "conference identifier",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "conference code",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "conference number",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "conference id number",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "conference code number",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 ID",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "did",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "domain id",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "domain identifier",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "domain code",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "domain number",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "domain id number",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "domain code number",
+      "target_class": "domain_conference",
+      "target_property": "domain_conference_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈페이지",
+      "target_class": "journal",
+      "target_property": "journal_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "웹사이트",
+      "target_class": "journal",
+      "target_property": "journal_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "온라인 홈페이지",
+      "target_class": "journal",
+      "target_property": "journal_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사이트 주소",
+      "target_class": "journal",
+      "target_property": "journal_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈페이지 주소",
+      "target_class": "journal",
+      "target_property": "journal_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "온라인 주소",
+      "target_class": "journal",
+      "target_property": "journal_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "journal",
+      "target_property": "journal_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술지 ID",
+      "target_class": "journal",
+      "target_property": "journal_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별번호",
+      "target_class": "journal",
+      "target_property": "journal_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "journal",
+      "target_property": "journal_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문지 식별자",
+      "target_class": "journal",
+      "target_property": "journal_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문지 ID",
+      "target_class": "journal",
+      "target_property": "journal_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문지 고유 번호",
+      "target_class": "journal",
+      "target_property": "journal_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "journal",
+      "target_property": "journal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술지 이름",
+      "target_class": "journal",
+      "target_property": "journal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문지 이름",
+      "target_class": "journal",
+      "target_property": "journal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "journal",
+      "target_property": "journal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술지 공식 이름",
+      "target_class": "journal",
+      "target_property": "journal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문지 공식 이름",
+      "target_class": "journal",
+      "target_property": "journal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목 이름",
+      "target_class": "journal",
+      "target_property": "journal_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 ID",
+      "target_class": "domain_journal",
+      "target_property": "domain_journal_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "did",
+      "target_class": "domain_journal",
+      "target_property": "domain_journal_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 식별자",
+      "target_class": "domain_journal",
+      "target_property": "domain_journal_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 번호",
+      "target_class": "domain_journal",
+      "target_property": "domain_journal_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 코드",
+      "target_class": "domain_journal",
+      "target_property": "domain_journal_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 식별",
+      "target_class": "domain_journal",
+      "target_property": "domain_journal_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저널 ID",
+      "target_class": "domain_journal",
+      "target_property": "domain_journal_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "jid",
+      "target_class": "domain_journal",
+      "target_property": "domain_journal_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저널 식별자",
+      "target_class": "domain_journal",
+      "target_property": "domain_journal_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저널 번호",
+      "target_class": "domain_journal",
+      "target_property": "domain_journal_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저널 코드",
+      "target_class": "domain_journal",
+      "target_property": "domain_journal_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저널 식별",
+      "target_class": "domain_journal",
+      "target_property": "domain_journal_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드",
+      "target_class": "keyword",
+      "target_property": "keyword_keyword",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "단어",
+      "target_class": "keyword",
+      "target_property": "keyword_keyword",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "문자열",
+      "target_class": "keyword",
+      "target_property": "keyword_keyword",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드 정보",
+      "target_class": "keyword",
+      "target_property": "keyword_keyword",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "검색어",
+      "target_class": "keyword",
+      "target_property": "keyword_keyword",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "어떤 단어",
+      "target_class": "keyword",
+      "target_property": "keyword_keyword",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드 내용",
+      "target_class": "keyword",
+      "target_property": "keyword_keyword",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "문자열 정보",
+      "target_class": "keyword",
+      "target_property": "keyword_keyword",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드 ID",
+      "target_class": "keyword",
+      "target_property": "keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "kid",
+      "target_class": "keyword",
+      "target_property": "keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "keyword",
+      "target_property": "keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "keyword",
+      "target_property": "keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드 번호",
+      "target_class": "keyword",
+      "target_property": "keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 ID",
+      "target_class": "keyword",
+      "target_property": "keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드 식별자",
+      "target_class": "keyword",
+      "target_property": "keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "kid 번호",
+      "target_class": "keyword",
+      "target_property": "keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 ID",
+      "target_class": "domain_keyword",
+      "target_property": "domain_keyword_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "did",
+      "target_class": "domain_keyword",
+      "target_property": "domain_keyword_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 식별자",
+      "target_class": "domain_keyword",
+      "target_property": "domain_keyword_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 번호",
+      "target_class": "domain_keyword",
+      "target_property": "domain_keyword_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 코드",
+      "target_class": "domain_keyword",
+      "target_property": "domain_keyword_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인키",
+      "target_class": "domain_keyword",
+      "target_property": "domain_keyword_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드 ID",
+      "target_class": "domain_keyword",
+      "target_property": "domain_keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "kid",
+      "target_class": "domain_keyword",
+      "target_property": "domain_keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드 식별자",
+      "target_class": "domain_keyword",
+      "target_property": "domain_keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드 번호",
+      "target_class": "domain_keyword",
+      "target_property": "domain_keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드 코드",
+      "target_class": "domain_keyword",
+      "target_property": "domain_keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드키",
+      "target_class": "domain_keyword",
+      "target_property": "domain_keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요약",
+      "target_class": "publication",
+      "target_property": "publication_abstract",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요약내용",
+      "target_class": "publication",
+      "target_property": "publication_abstract",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "abstract",
+      "target_class": "publication",
+      "target_property": "publication_abstract",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요약문",
+      "target_class": "publication",
+      "target_property": "publication_abstract",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요약 정보",
+      "target_class": "publication",
+      "target_property": "publication_abstract",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참조 ID",
+      "target_class": "publication",
+      "target_property": "publication_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "cid",
+      "target_class": "publication",
+      "target_property": "publication_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "컨퍼런스 ID",
+      "target_class": "publication",
+      "target_property": "publication_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "컨퍼런스 식별자",
+      "target_class": "publication",
+      "target_property": "publication_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "cid 번호",
+      "target_class": "publication",
+      "target_property": "publication_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "컨퍼런스 코드",
+      "target_class": "publication",
+      "target_property": "publication_cid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인용 번호",
+      "target_class": "publication",
+      "target_property": "publication_citation_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인용수",
+      "target_class": "publication",
+      "target_property": "publication_citation_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인용 횟수",
+      "target_class": "publication",
+      "target_property": "publication_citation_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인용수치",
+      "target_class": "publication",
+      "target_property": "publication_citation_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인용수량",
+      "target_class": "publication",
+      "target_property": "publication_citation_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인용수를 나타내는 수치",
+      "target_class": "publication",
+      "target_property": "publication_citation_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "citation num",
+      "target_class": "publication",
+      "target_property": "publication_citation_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지명 ID",
+      "target_class": "publication",
+      "target_property": "publication_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "jid",
+      "target_class": "publication",
+      "target_property": "publication_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "journal id",
+      "target_class": "publication",
+      "target_property": "publication_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "journal identifier",
+      "target_class": "publication",
+      "target_property": "publication_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "journal number",
+      "target_class": "publication",
+      "target_property": "publication_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "journal code",
+      "target_class": "publication",
+      "target_property": "publication_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "journal identifier number",
+      "target_class": "publication",
+      "target_property": "publication_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "journal id number",
+      "target_class": "publication",
+      "target_property": "publication_jid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판물 ID",
+      "target_class": "publication",
+      "target_property": "publication_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pid",
+      "target_class": "publication",
+      "target_property": "publication_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "paper id",
+      "target_class": "publication",
+      "target_property": "publication_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "paper identifier",
+      "target_class": "publication",
+      "target_property": "publication_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "paper number",
+      "target_class": "publication",
+      "target_property": "publication_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "paper code",
+      "target_class": "publication",
+      "target_property": "publication_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "paper identifier number",
+      "target_class": "publication",
+      "target_property": "publication_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "paper id number",
+      "target_class": "publication",
+      "target_property": "publication_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참조 번호",
+      "target_class": "publication",
+      "target_property": "publication_reference_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "reference num",
+      "target_class": "publication",
+      "target_property": "publication_reference_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "reference number",
+      "target_class": "publication",
+      "target_property": "publication_reference_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "reference count",
+      "target_class": "publication",
+      "target_property": "publication_reference_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "reference quantity",
+      "target_class": "publication",
+      "target_property": "publication_reference_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "reference value",
+      "target_class": "publication",
+      "target_property": "publication_reference_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "reference identifier",
+      "target_class": "publication",
+      "target_property": "publication_reference_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "reference index",
+      "target_class": "publication",
+      "target_property": "publication_reference_num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "publication",
+      "target_property": "publication_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문제목",
+      "target_class": "publication",
+      "target_property": "publication_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 이름",
+      "target_class": "publication",
+      "target_property": "publication_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목 정보",
+      "target_class": "publication",
+      "target_property": "publication_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목 필드",
+      "target_class": "publication",
+      "target_property": "publication_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 제목 정보",
+      "target_class": "publication",
+      "target_property": "publication_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 제목 데이터",
+      "target_class": "publication",
+      "target_property": "publication_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "publication",
+      "target_property": "publication_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발행년도",
+      "target_class": "publication",
+      "target_property": "publication_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도 정보",
+      "target_class": "publication",
+      "target_property": "publication_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 연도",
+      "target_class": "publication",
+      "target_property": "publication_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 발행년도",
+      "target_class": "publication",
+      "target_property": "publication_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도 데이터",
+      "target_class": "publication",
+      "target_property": "publication_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 연도 정보",
+      "target_class": "publication",
+      "target_property": "publication_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발행년도 데이터",
+      "target_class": "publication",
+      "target_property": "publication_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 ID",
+      "target_class": "domain_publication",
+      "target_property": "domain_publication_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "did",
+      "target_class": "domain_publication",
+      "target_property": "domain_publication_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 식별자",
+      "target_class": "domain_publication",
+      "target_property": "domain_publication_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 번호",
+      "target_class": "domain_publication",
+      "target_property": "domain_publication_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 코드",
+      "target_class": "domain_publication",
+      "target_property": "domain_publication_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메인 식별",
+      "target_class": "domain_publication",
+      "target_property": "domain_publication_did",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판 ID",
+      "target_class": "domain_publication",
+      "target_property": "domain_publication_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pid",
+      "target_class": "domain_publication",
+      "target_property": "domain_publication_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 ID",
+      "target_class": "domain_publication",
+      "target_property": "domain_publication_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 식별자",
+      "target_class": "domain_publication",
+      "target_property": "domain_publication_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 번호",
+      "target_class": "domain_publication",
+      "target_property": "domain_publication_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 코드",
+      "target_class": "domain_publication",
+      "target_property": "domain_publication_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 식별",
+      "target_class": "domain_publication",
+      "target_property": "domain_publication_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대륙",
+      "target_class": "organization",
+      "target_property": "organization_continent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지리적 지역",
+      "target_class": "organization",
+      "target_property": "organization_continent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대륙 정보",
+      "target_class": "organization",
+      "target_property": "organization_continent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "organization",
+      "target_property": "organization_continent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대륙명",
+      "target_class": "organization",
+      "target_property": "organization_continent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈페이지",
+      "target_class": "organization",
+      "target_property": "organization_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "웹사이트",
+      "target_class": "organization",
+      "target_property": "organization_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공식 사이트",
+      "target_class": "organization",
+      "target_property": "organization_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "웹 주소",
+      "target_class": "organization",
+      "target_property": "organization_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈페이지 주소",
+      "target_class": "organization",
+      "target_property": "organization_homepage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "organization",
+      "target_property": "organization_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기관명",
+      "target_class": "organization",
+      "target_property": "organization_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공식 이름",
+      "target_class": "organization",
+      "target_property": "organization_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기관 이름",
+      "target_class": "organization",
+      "target_property": "organization_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명칭",
+      "target_class": "organization",
+      "target_property": "organization_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "OID",
+      "target_class": "organization",
+      "target_property": "organization_oid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "oid",
+      "target_class": "organization",
+      "target_property": "organization_oid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기관 번호",
+      "target_class": "organization",
+      "target_property": "organization_oid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 식별자",
+      "target_class": "organization",
+      "target_property": "organization_oid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기관 ID",
+      "target_class": "organization",
+      "target_property": "organization_oid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기관 고유 번호",
+      "target_class": "organization",
+      "target_property": "organization_oid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술 기관 ID",
+      "target_class": "organization",
+      "target_property": "organization_oid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "organization",
+      "target_property": "organization_oid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판물 ID",
+      "target_class": "publication_keyword",
+      "target_property": "publication_keyword_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pid",
+      "target_class": "publication_keyword",
+      "target_property": "publication_keyword_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 ID",
+      "target_class": "publication_keyword",
+      "target_property": "publication_keyword_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 번호",
+      "target_class": "publication_keyword",
+      "target_property": "publication_keyword_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 식별자",
+      "target_class": "publication_keyword",
+      "target_property": "publication_keyword_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학술 논문 ID",
+      "target_class": "publication_keyword",
+      "target_property": "publication_keyword_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "논문 식별 번호",
+      "target_class": "publication_keyword",
+      "target_property": "publication_keyword_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드 ID",
+      "target_class": "publication_keyword",
+      "target_property": "publication_keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "kid",
+      "target_class": "publication_keyword",
+      "target_property": "publication_keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드 번호",
+      "target_class": "publication_keyword",
+      "target_property": "publication_keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드 식별자",
+      "target_class": "publication_keyword",
+      "target_property": "publication_keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드 식별 번호",
+      "target_class": "publication_keyword",
+      "target_property": "publication_keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키워드 고유 번호",
+      "target_class": "publication_keyword",
+      "target_property": "publication_keyword_kid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자 ID",
+      "target_class": "writes",
+      "target_property": "writes_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "aid",
+      "target_class": "writes",
+      "target_property": "writes_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자 식별자",
+      "target_class": "writes",
+      "target_property": "writes_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자 고유번호",
+      "target_class": "writes",
+      "target_property": "writes_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자 번호",
+      "target_class": "writes",
+      "target_property": "writes_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자 코드",
+      "target_class": "writes",
+      "target_property": "writes_aid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성한 항목 ID",
+      "target_class": "writes",
+      "target_property": "writes_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pid",
+      "target_class": "writes",
+      "target_property": "writes_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판물 ID",
+      "target_class": "writes",
+      "target_property": "writes_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판물 식별자",
+      "target_class": "writes",
+      "target_property": "writes_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판물 고유번호",
+      "target_class": "writes",
+      "target_property": "writes_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판물 번호",
+      "target_class": "writes",
+      "target_property": "writes_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판물 코드",
+      "target_class": "writes",
+      "target_property": "writes_pid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인용된 항목",
+      "target_class": "cite",
+      "target_property": "cite_cited",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "cited",
+      "target_class": "cite",
+      "target_property": "cite_cited",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피인용된 논문",
+      "target_class": "cite",
+      "target_property": "cite_cited",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인용된 논문 번호",
+      "target_class": "cite",
+      "target_property": "cite_cited",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피인용 번호",
+      "target_class": "cite",
+      "target_property": "cite_cited",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인용 대상",
+      "target_class": "cite",
+      "target_property": "cite_cited",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인용한 항목",
+      "target_class": "cite",
+      "target_property": "cite_citing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "citing",
+      "target_class": "cite",
+      "target_property": "cite_citing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인용한 논문",
+      "target_class": "cite",
+      "target_property": "cite_citing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인용 소스",
+      "target_class": "cite",
+      "target_property": "cite_citing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인용 논문 번호",
+      "target_class": "cite",
+      "target_property": "cite_citing",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인용 소스 번호",
+      "target_class": "cite",
+      "target_property": "cite_citing",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "https://example.com",
+      "target_class": "author",
+      "target_property": "author_homepage",
+      "value": "https://example.com"
+    },
+    {
+      "entry_type": "value",
+      "key": "https://example.com",
+      "target_class": "conference",
+      "target_property": "conference_homepage",
+      "value": "https://example.com"
+    },
+    {
+      "entry_type": "value",
+      "key": "예시 도메인",
+      "target_class": "domain",
+      "target_property": "domain_name",
+      "value": "예시 도메인"
+    },
+    {
+      "entry_type": "value",
+      "key": "예시",
+      "target_class": "domain",
+      "target_property": "domain_name",
+      "value": "예시 도메인"
+    },
+    {
+      "entry_type": "value",
+      "key": "주요 도메인",
+      "target_class": "domain",
+      "target_property": "domain_name",
+      "value": "주요 도메인"
+    },
+    {
+      "entry_type": "value",
+      "key": "주요",
+      "target_class": "domain",
+      "target_property": "domain_name",
+      "value": "주요 도메인"
+    },
+    {
+      "entry_type": "value",
+      "key": "기술",
+      "target_class": "keyword",
+      "target_property": "keyword_keyword",
+      "value": "기술"
+    },
+    {
+      "entry_type": "value",
+      "key": "소프트웨어",
+      "target_class": "keyword",
+      "target_property": "keyword_keyword",
+      "value": "소프트웨어"
+    },
+    {
+      "entry_type": "value",
+      "key": "인공지능",
+      "target_class": "keyword",
+      "target_property": "keyword_keyword",
+      "value": "인공지능"
+    },
+    {
+      "entry_type": "value",
+      "key": "100",
+      "target_class": "publication",
+      "target_property": "publication_citation_num",
+      "value": "100"
+    },
+    {
+      "entry_type": "value",
+      "key": "50",
+      "target_class": "publication",
+      "target_property": "publication_reference_num",
+      "value": "50"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020",
+      "target_class": "publication",
+      "target_property": "publication_year",
+      "value": "2020"
+    },
+    {
+      "entry_type": "value",
+      "key": "아시아",
+      "target_class": "organization",
+      "target_property": "organization_continent",
+      "value": "아시아"
+    },
+    {
+      "entry_type": "value",
+      "key": "유럽",
+      "target_class": "organization",
+      "target_property": "organization_continent",
+      "value": "유럽"
+    },
+    {
+      "entry_type": "value",
+      "key": "아프리카",
+      "target_class": "organization",
+      "target_property": "organization_continent",
+      "value": "아프리카"
+    }
+  ]
+}

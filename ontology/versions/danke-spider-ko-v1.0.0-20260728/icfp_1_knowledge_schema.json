@@ -1,0 +1,396 @@
+{
+  "db_id": "icfp_1",
+  "classes": [
+    {
+      "name": "Inst",
+      "source_table": "Inst",
+      "ranking": 3.0,
+      "primary_label": "기관",
+      "synonyms": [
+        "기관",
+        "소속",
+        "기관명",
+        "기관정보",
+        "소속기관"
+      ]
+    },
+    {
+      "name": "Authors",
+      "source_table": "Authors",
+      "ranking": 3.0,
+      "primary_label": "저자",
+      "synonyms": [
+        "저자",
+        "작가",
+        "작성자",
+        "저술자",
+        "저자명"
+      ]
+    },
+    {
+      "name": "Papers",
+      "source_table": "Papers",
+      "ranking": 3.0,
+      "primary_label": "논문",
+      "synonyms": [
+        "논문",
+        "논문작품",
+        "학술논문",
+        "논문작성물",
+        "논문정보"
+      ]
+    },
+    {
+      "name": "Authorship",
+      "source_table": "Authorship",
+      "ranking": 3.0,
+      "primary_label": "저자 수",
+      "synonyms": [
+        "저자 정보",
+        "작가 정보",
+        "저작권자",
+        "저자성",
+        "저자 관련",
+        "저자 데이터",
+        "작가 데이터",
+        "저자 연결"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Inst_instID",
+      "domain": "Inst",
+      "source_table": "Inst",
+      "source_column": "instID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기관 ID",
+      "synonyms": [
+        "인스티튜션 ID",
+        "기관 ID",
+        "학술 기관 ID",
+        "instID",
+        "기관 식별 번호",
+        "학술 기관 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Inst_name",
+      "domain": "Inst",
+      "source_table": "Inst",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "기관 이름",
+      "synonyms": [
+        "이름",
+        "기관 이름",
+        "학술 기관 이름",
+        "name",
+        "기관명",
+        "학술 기관 명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국대학교": [
+          "한국대",
+          "한국대학교"
+        ],
+        "서울대학교": [
+          "서울대"
+        ]
+      }
+    },
+    {
+      "name": "Inst_country",
+      "domain": "Inst",
+      "source_table": "Inst",
+      "source_column": "country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "학술 기관 국가",
+        "country",
+        "기관 위치 국가",
+        "국가명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "한국"
+        ],
+        "미국": [
+          "미국"
+        ]
+      }
+    },
+    {
+      "name": "Authors_authID",
+      "domain": "Authors",
+      "source_table": "Authors",
+      "source_column": "authID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "저자 ID",
+      "synonyms": [
+        "authID",
+        "작가 ID",
+        "작가 식별번호",
+        "작가 고유번호",
+        "author_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Authors_lname",
+      "domain": "Authors",
+      "source_table": "Authors",
+      "source_column": "lname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "lname",
+        "성",
+        "작가 성",
+        "성 이름",
+        "작가의 성",
+        "last_name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김"
+        ],
+        "박": [
+          "박"
+        ]
+      }
+    },
+    {
+      "name": "Authors_fname",
+      "domain": "Authors",
+      "source_table": "Authors",
+      "source_column": "fname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "fname",
+        "이름",
+        "작가 이름",
+        "이름 정보",
+        "작가의 이름",
+        "first_name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "민수": [
+          "민수"
+        ],
+        "지영": [
+          "지영"
+        ]
+      }
+    },
+    {
+      "name": "Papers_paperID",
+      "domain": "Papers",
+      "source_table": "Papers",
+      "source_column": "paperID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "논문 ID",
+      "synonyms": [
+        "paperID",
+        "논문 ID",
+        "논문 식별 번호",
+        "논문 고유 번호",
+        "paper identifier",
+        "논문 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Papers_title",
+      "domain": "Papers",
+      "source_table": "Papers",
+      "source_column": "title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "제목",
+      "synonyms": [
+        "제목",
+        "논문 제목",
+        "제목 정보",
+        "논문 제목 정보",
+        "논문 제목을 나타내는 필드",
+        "제목 필드",
+        "논문 제목 데이터",
+        "제목 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "머신러닝 기반 예측 모델": [
+          "머신러닝 기반 예측 모델"
+        ],
+        "딥러닝을 활용한 자연어 처리": [
+          "딥러닝을 활용한 자연어 처리"
+        ]
+      }
+    },
+    {
+      "name": "Authorship_authID",
+      "domain": "Authorship",
+      "source_table": "Authorship",
+      "source_column": "authID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "저자 ID",
+      "synonyms": [
+        "authID",
+        "작성자 ID",
+        "저자 식별자",
+        "author ID",
+        "작성자 고유 번호",
+        "저자 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Authorship_instID",
+      "domain": "Authorship",
+      "source_table": "Authorship",
+      "source_column": "instID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기관 ID",
+      "synonyms": [
+        "instID",
+        "기관 ID",
+        "기관 식별자",
+        "연구소 ID",
+        "기관 코드",
+        "기관 번호",
+        "연구 기관 ID",
+        "기관 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Authorship_paperID",
+      "domain": "Authorship",
+      "source_table": "Authorship",
+      "source_column": "paperID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "논문 ID",
+      "synonyms": [
+        "paperID",
+        "논문 ID",
+        "논문 식별자",
+        "논문 번호",
+        "논문 코드",
+        "논문 고유 번호",
+        "논문 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Authorship_authOrder",
+      "domain": "Authorship",
+      "source_table": "Authorship",
+      "source_column": "authOrder",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "저자 순서",
+      "synonyms": [
+        "authOrder",
+        "저자 순서",
+        "공동 저자 순서",
+        "저자 순번",
+        "author order",
+        "author sequence",
+        "auth seq",
+        "auth rank"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Authorship_Papers_fk0",
+      "domain": "Authorship",
+      "range": "Papers",
+      "source_fk": [
+        "Authorship.paperID",
+        "Papers.paperID"
+      ],
+      "weight": 1.0,
+      "primary_label": "작성한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Authorship_Inst_fk1",
+      "domain": "Authorship",
+      "range": "Inst",
+      "source_fk": [
+        "Authorship.instID",
+        "Inst.instID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Authorship_Authors_fk2",
+      "domain": "Authorship",
+      "range": "Authors",
+      "source_fk": [
+        "Authorship.authID",
+        "Authors.authID"
+      ],
+      "weight": 1.0,
+      "primary_label": "저작한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

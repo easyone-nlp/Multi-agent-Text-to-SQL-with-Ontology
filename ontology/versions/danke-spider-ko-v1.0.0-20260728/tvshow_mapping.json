@@ -1,0 +1,119 @@
+{
+  "class_table": {
+    "TV_Channel": "TV_Channel",
+    "TV_series": "TV_series",
+    "Cartoon": "Cartoon"
+  },
+  "property_column": {
+    "TV_Channel_id": [
+      "TV_Channel",
+      "id"
+    ],
+    "TV_Channel_series_name": [
+      "TV_Channel",
+      "series_name"
+    ],
+    "TV_Channel_Country": [
+      "TV_Channel",
+      "Country"
+    ],
+    "TV_Channel_Language": [
+      "TV_Channel",
+      "Language"
+    ],
+    "TV_Channel_Content": [
+      "TV_Channel",
+      "Content"
+    ],
+    "TV_Channel_Pixel_aspect_ratio_PAR": [
+      "TV_Channel",
+      "Pixel_aspect_ratio_PAR"
+    ],
+    "TV_Channel_Hight_definition_TV": [
+      "TV_Channel",
+      "Hight_definition_TV"
+    ],
+    "TV_Channel_Pay_per_view_PPV": [
+      "TV_Channel",
+      "Pay_per_view_PPV"
+    ],
+    "TV_Channel_Package_Option": [
+      "TV_Channel",
+      "Package_Option"
+    ],
+    "TV_series_id": [
+      "TV_series",
+      "id"
+    ],
+    "TV_series_Episode": [
+      "TV_series",
+      "Episode"
+    ],
+    "TV_series_Air_Date": [
+      "TV_series",
+      "Air_Date"
+    ],
+    "TV_series_Rating": [
+      "TV_series",
+      "Rating"
+    ],
+    "TV_series_Share": [
+      "TV_series",
+      "Share"
+    ],
+    "TV_series_18_49_Rating_Share": [
+      "TV_series",
+      "18_49_Rating_Share"
+    ],
+    "TV_series_Viewers_m": [
+      "TV_series",
+      "Viewers_m"
+    ],
+    "TV_series_Weekly_Rank": [
+      "TV_series",
+      "Weekly_Rank"
+    ],
+    "TV_series_Channel": [
+      "TV_series",
+      "Channel"
+    ],
+    "Cartoon_id": [
+      "Cartoon",
+      "id"
+    ],
+    "Cartoon_Title": [
+      "Cartoon",
+      "Title"
+    ],
+    "Cartoon_Directed_by": [
+      "Cartoon",
+      "Directed_by"
+    ],
+    "Cartoon_Written_by": [
+      "Cartoon",
+      "Written_by"
+    ],
+    "Cartoon_Original_air_date": [
+      "Cartoon",
+      "Original_air_date"
+    ],
+    "Cartoon_Production_code": [
+      "Cartoon",
+      "Production_code"
+    ],
+    "Cartoon_Channel": [
+      "Cartoon",
+      "Channel"
+    ]
+  },
+  "object_property_fk": {
+    "TV_series_TV_Channel_fk0": [
+      "TV_series.Channel",
+      "TV_Channel.id"
+    ],
+    "Cartoon_TV_Channel_fk1": [
+      "Cartoon.Channel",
+      "TV_Channel.id"
+    ]
+  }
+}

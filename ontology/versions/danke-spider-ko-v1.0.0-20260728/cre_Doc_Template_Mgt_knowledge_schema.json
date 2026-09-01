@@ -1,0 +1,473 @@
+{
+  "db_id": "cre_Doc_Template_Mgt",
+  "classes": [
+    {
+      "name": "Ref_Template_Types",
+      "source_table": "Ref_Template_Types",
+      "ranking": 3.0,
+      "primary_label": "참조 템플릿 유형",
+      "synonyms": [
+        "템플릿 유형",
+        "템플릿 카테고리",
+        "템플릿 분류",
+        "템플릿 종류",
+        "템플릿 그룹",
+        "템플릿 분류 코드"
+      ]
+    },
+    {
+      "name": "Templates",
+      "source_table": "Templates",
+      "ranking": 3.5,
+      "primary_label": "템플릿",
+      "synonyms": [
+        "템플릿",
+        "템플릿 데이터",
+        "템플릿 파일",
+        "템플릿 문서",
+        "템플릿 설계",
+        "템플릿 구조"
+      ]
+    },
+    {
+      "name": "Documents",
+      "source_table": "Documents",
+      "ranking": 3.0,
+      "primary_label": "문서",
+      "synonyms": [
+        "문서",
+        "문서 데이터",
+        "문서 파일",
+        "문서 내용",
+        "문서 정보",
+        "문서 기록"
+      ]
+    },
+    {
+      "name": "Paragraphs",
+      "source_table": "Paragraphs",
+      "ranking": 3.0,
+      "primary_label": "문장",
+      "synonyms": [
+        "문단",
+        "문장",
+        "내용부분",
+        "단락",
+        "구절",
+        "문단정보",
+        "문단데이터",
+        "문단내용"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Ref_Template_Types_Template_Type_Code",
+      "domain": "Ref_Template_Types",
+      "source_table": "Ref_Template_Types",
+      "source_column": "Template_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "템플릿 유형 코드",
+      "synonyms": [
+        "코드",
+        "코드값",
+        "코드번호",
+        "코드아이디",
+        "코드키"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "T001": [
+          "T001"
+        ],
+        "T002": [
+          "T002"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Template_Types_Template_Type_Description",
+      "domain": "Ref_Template_Types",
+      "source_table": "Ref_Template_Types",
+      "source_column": "Template_Type_Description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "템플릿 유형 설명",
+      "synonyms": [
+        "설명",
+        "설명문",
+        "설명내용",
+        "설명자료",
+        "설명정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Templates_Template_ID",
+      "domain": "Templates",
+      "source_table": "Templates",
+      "source_column": "Template_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "템플릿 ID",
+      "synonyms": [
+        "템플릿 번호",
+        "템플릿 코드",
+        "템플릿 식별자",
+        "템플릿 고유번호",
+        "템플릿 식별번호",
+        "템플릿 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Templates_Version_Number",
+      "domain": "Templates",
+      "source_table": "Templates",
+      "source_column": "Version_Number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "버전 번호",
+      "synonyms": [
+        "버전 번호",
+        "버전번호",
+        "버전",
+        "버전 정보",
+        "버전코드",
+        "버전 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Templates_Template_Type_Code",
+      "domain": "Templates",
+      "source_table": "Templates",
+      "source_column": "Template_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "템플릿 타입 코드",
+      "synonyms": [
+        "템플릿 유형 코드",
+        "템플릿 종류 코드",
+        "템플릿 코드 유형",
+        "템플릿 타입 식별자",
+        "템플릿 구분 코드",
+        "템플릿 코드 타입",
+        "템플릿 분류 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "TEMPLATE_TYPE_01": [
+          "TEMPLATE_TYPE_01"
+        ],
+        "TEMPLATE_TYPE_02": [
+          "TEMPLATE_TYPE_02"
+        ]
+      }
+    },
+    {
+      "name": "Templates_Date_Effective_From",
+      "domain": "Templates",
+      "source_table": "Templates",
+      "source_column": "Date_Effective_From",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "효과 시작일",
+      "synonyms": [
+        "시작일",
+        "적용 시작일",
+        "효과 시작일",
+        "시작 날짜",
+        "적용 시작 날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Templates_Date_Effective_To",
+      "domain": "Templates",
+      "source_table": "Templates",
+      "source_column": "Date_Effective_To",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "효과 종료일",
+      "synonyms": [
+        "종료일",
+        "적용 종료일",
+        "효과 종료일",
+        "종료 날짜",
+        "적용 종료 날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Templates_Template_Details",
+      "domain": "Templates",
+      "source_table": "Templates",
+      "source_column": "Template_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "템플릿 상세 정보",
+      "synonyms": [
+        "상세 정보",
+        "세부 내용",
+        "템플릿 정보",
+        "상세 설명",
+        "세부 사항"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_Document_ID",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "Document_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "문서 ID",
+      "synonyms": [
+        "문서 번호",
+        "문서 식별자",
+        "문서 코드",
+        "문서 고유번호",
+        "문서 ID",
+        "문서 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_Template_ID",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "Template_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "템플릿 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_Document_Name",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "Document_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "문서 이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "계약서": [
+          "계약서"
+        ],
+        "보고서": [
+          "보고서"
+        ]
+      }
+    },
+    {
+      "name": "Documents_Document_Description",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "Document_Description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "문서 설명",
+      "synonyms": [
+        "문서 설명",
+        "문서 내용",
+        "문서 요약",
+        "문서 설명서",
+        "문서 설명 정보",
+        "문서 내용 설명",
+        "문서 요약 정보",
+        "문서 설명서 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_Other_Details",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "Other_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "기타 세부 사항",
+      "synonyms": [
+        "기타 정보",
+        "추가 세부 사항",
+        "기타 설명",
+        "기타 내용",
+        "기타 세부 정보",
+        "기타 설명 사항",
+        "기타 추가 정보",
+        "기타 세부 설명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Paragraphs_Paragraph_ID",
+      "domain": "Paragraphs",
+      "source_table": "Paragraphs",
+      "source_column": "Paragraph_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "문장 ID",
+      "synonyms": [
+        "문장 번호",
+        "문장 식별자",
+        "ID",
+        "문장 코드",
+        "문장 고유 번호",
+        "문장 인덱스",
+        "문장 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Paragraphs_Document_ID",
+      "domain": "Paragraphs",
+      "source_table": "Paragraphs",
+      "source_column": "Document_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "문서 ID",
+      "synonyms": [
+        "문서 고유 번호",
+        "문서 식별자",
+        "문서 코드",
+        "문서 번호",
+        "문서 식별번호",
+        "문서 식별 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Paragraphs_Paragraph_Text",
+      "domain": "Paragraphs",
+      "source_table": "Paragraphs",
+      "source_column": "Paragraph_Text",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "문장 텍스트",
+      "synonyms": [
+        "문장 텍스트",
+        "문장 내용",
+        "문서 문장",
+        "문장 데이터",
+        "문서 텍스트",
+        "문장 정보",
+        "문서 문장 텍스트"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Paragraphs_Other_Details",
+      "domain": "Paragraphs",
+      "source_table": "Paragraphs",
+      "source_column": "Other_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "다른 세부 정보",
+      "synonyms": [
+        "추가 정보",
+        "기타 정보",
+        "다른 정보",
+        "보조 설명",
+        "기타 세부 사항",
+        "추가 설명",
+        "기타 설명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Templates_Ref_Template_Types_fk0",
+      "domain": "Templates",
+      "range": "Ref_Template_Types",
+      "source_fk": [
+        "Templates.Template_Type_Code",
+        "Ref_Template_Types.Template_Type_Code"
+      ],
+      "weight": 1.0,
+      "primary_label": "템플릿 유형 참조",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Documents_Templates_fk1",
+      "domain": "Documents",
+      "range": "Templates",
+      "source_fk": [
+        "Documents.Template_ID",
+        "Templates.Template_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "문서 템플릿 참조",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Paragraphs_Documents_fk2",
+      "domain": "Paragraphs",
+      "range": "Documents",
+      "source_fk": [
+        "Paragraphs.Document_ID",
+        "Documents.Document_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "절 문서 참조",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "class_table": {
+    "device": "device",
+    "shop": "shop",
+    "stock": "stock"
+  },
+  "property_column": {
+    "device_Device_ID": [
+      "device",
+      "Device_ID"
+    ],
+    "device_Device": [
+      "device",
+      "Device"
+    ],
+    "device_Carrier": [
+      "device",
+      "Carrier"
+    ],
+    "device_Package_Version": [
+      "device",
+      "Package_Version"
+    ],
+    "device_Applications": [
+      "device",
+      "Applications"
+    ],
+    "device_Software_Platform": [
+      "device",
+      "Software_Platform"
+    ],
+    "shop_Shop_ID": [
+      "shop",
+      "Shop_ID"
+    ],
+    "shop_Shop_Name": [
+      "shop",
+      "Shop_Name"
+    ],
+    "shop_Location": [
+      "shop",
+      "Location"
+    ],
+    "shop_Open_Date": [
+      "shop",
+      "Open_Date"
+    ],
+    "shop_Open_Year": [
+      "shop",
+      "Open_Year"
+    ],
+    "stock_Shop_ID": [
+      "stock",
+      "Shop_ID"
+    ],
+    "stock_Device_ID": [
+      "stock",
+      "Device_ID"
+    ],
+    "stock_Quantity": [
+      "stock",
+      "Quantity"
+    ]
+  },
+  "object_property_fk": {
+    "stock_device_fk0": [
+      "stock.Device_ID",
+      "device.Device_ID"
+    ],
+    "stock_shop_fk1": [
+      "stock.Shop_ID",
+      "shop.Shop_ID"
+    ]
+  }
+}

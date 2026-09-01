@@ -1,0 +1,326 @@
+{
+  "db_id": "museum_visit",
+  "classes": [
+    {
+      "name": "museum",
+      "source_table": "museum",
+      "ranking": 3.5,
+      "primary_label": "미술관",
+      "synonyms": [
+        "박물관",
+        "박물관 정보",
+        "전시소",
+        "미술관",
+        "역사박물관",
+        "박물관 데이터",
+        "전시 공간",
+        "문화 기관"
+      ]
+    },
+    {
+      "name": "visitor",
+      "source_table": "visitor",
+      "ranking": 3.0,
+      "primary_label": "고객",
+      "synonyms": [
+        "관람객",
+        "방문객",
+        "고객",
+        "방문자",
+        "관람자",
+        "이용객"
+      ]
+    },
+    {
+      "name": "visit",
+      "source_table": "visit",
+      "ranking": 3.0,
+      "primary_label": "방문 기록",
+      "synonyms": [
+        "방문",
+        "관람",
+        "방문기록",
+        "관람기록",
+        "방문내역",
+        "관람내역",
+        "방문로그",
+        "관람로그"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "museum_Museum_ID",
+      "domain": "museum",
+      "source_table": "museum",
+      "source_column": "Museum_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "미술관 id",
+      "synonyms": [
+        "아이디",
+        "번호",
+        "코드",
+        "ID",
+        "식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "museum_Name",
+      "domain": "museum",
+      "source_table": "museum",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "제목",
+        "명칭",
+        "소명",
+        "호칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울 미술관": [
+          "서울 미술관"
+        ],
+        "부산 미술관": [
+          "부산 미술관"
+        ]
+      }
+    },
+    {
+      "name": "museum_Num_of_Staff",
+      "domain": "museum",
+      "source_table": "museum",
+      "source_column": "Num_of_Staff",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "num of staff",
+      "synonyms": [
+        "직원 수",
+        "인원 수",
+        "직원 수량",
+        "인력 수",
+        "직원 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "museum_Open_Year",
+      "domain": "museum",
+      "source_table": "museum",
+      "source_column": "Open_Year",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "open year",
+      "synonyms": [
+        "개관 연도",
+        "운영 시작 연도",
+        "개장 연도",
+        "설립 연도",
+        "시작 연도"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "visitor_ID",
+      "domain": "visitor",
+      "source_table": "visitor",
+      "source_column": "ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "customer id",
+      "synonyms": [
+        "고객 번호",
+        "방문자 ID",
+        "고유번호",
+        "고객 식별자",
+        "방문자 고유 ID",
+        "고객 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "visitor_Name",
+      "domain": "visitor",
+      "source_table": "visitor",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "visitor_Level_of_membership",
+      "domain": "visitor",
+      "source_table": "visitor",
+      "source_column": "Level_of_membership",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "level of membership",
+      "synonyms": [
+        "멤버십 등급",
+        "등급",
+        "등급 정보",
+        "멤버십 수준",
+        "등급 코드",
+        "등급 지정",
+        "등급 구분",
+        "멤버십 분류"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "visitor_Age",
+      "domain": "visitor",
+      "source_table": "visitor",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "나이",
+        "연령",
+        "생년월일",
+        "출생년도",
+        "연령대",
+        "나이대",
+        "생년"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "visit_Museum_ID",
+      "domain": "visit",
+      "source_table": "visit",
+      "source_column": "Museum_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "museum id",
+      "synonyms": [
+        "박물관 번호",
+        "박물관 코드",
+        "박물관 식별자",
+        "박물관 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "visit_visitor_ID",
+      "domain": "visit",
+      "source_table": "visit",
+      "source_column": "visitor_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "customer id",
+      "synonyms": [
+        "고객 번호",
+        "고객 코드",
+        "방문자 번호",
+        "고객 ID",
+        "방문자 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "visit_Num_of_Ticket",
+      "domain": "visit",
+      "source_table": "visit",
+      "source_column": "Num_of_Ticket",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "num of ticket",
+      "synonyms": [
+        "티켓 수량",
+        "티켓 개수",
+        "티켓 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "visit_Total_spent",
+      "domain": "visit",
+      "source_table": "visit",
+      "source_column": "Total_spent",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "total spent",
+      "synonyms": [
+        "총 지출",
+        "총 소비",
+        "총 비용",
+        "총 지출 금액",
+        "총 소비 금액",
+        "총 비용 금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "visit_visitor_fk0",
+      "domain": "visit",
+      "range": "visitor",
+      "source_fk": [
+        "visit.visitor_ID",
+        "visitor.ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "방문한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "visit_museum_fk1",
+      "domain": "visit",
+      "range": "museum",
+      "source_fk": [
+        "visit.Museum_ID",
+        "museum.Museum_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "방문한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

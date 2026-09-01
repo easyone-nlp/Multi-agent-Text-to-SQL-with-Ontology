@@ -1,0 +1,67 @@
+{
+  "class_table": {
+    "college": "college",
+    "member": "member",
+    "round": "round"
+  },
+  "property_column": {
+    "college_College_ID": [
+      "college",
+      "College_ID"
+    ],
+    "college_Name": [
+      "college",
+      "Name"
+    ],
+    "college_Leader_Name": [
+      "college",
+      "Leader_Name"
+    ],
+    "college_College_Location": [
+      "college",
+      "College_Location"
+    ],
+    "member_Member_ID": [
+      "member",
+      "Member_ID"
+    ],
+    "member_Name": [
+      "member",
+      "Name"
+    ],
+    "member_Country": [
+      "member",
+      "Country"
+    ],
+    "member_College_ID": [
+      "member",
+      "College_ID"
+    ],
+    "round_Round_ID": [
+      "round",
+      "Round_ID"
+    ],
+    "round_Member_ID": [
+      "round",
+      "Member_ID"
+    ],
+    "round_Decoration_Theme": [
+      "round",
+      "Decoration_Theme"
+    ],
+    "round_Rank_in_Round": [
+      "round",
+      "Rank_in_Round"
+    ]
+  },
+  "object_property_fk": {
+    "member_college_fk0": [
+      "member.College_ID",
+      "college.College_ID"
+    ],
+    "round_member_fk1": [
+      "round.Member_ID",
+      "member.Member_ID"
+    ]
+  }
+}

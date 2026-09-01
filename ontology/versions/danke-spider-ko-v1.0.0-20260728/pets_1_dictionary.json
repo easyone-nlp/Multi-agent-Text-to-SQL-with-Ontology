@@ -1,0 +1,809 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "학생",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 정보",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 데이터",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 목록",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 기록",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 정보 테이블",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "has pet",
+      "target_class": "Has_Pet",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생-반려동물 관계",
+      "target_class": "Has_Pet",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생의 반려동물",
+      "target_class": "Has_Pet",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "반려동물 소유자",
+      "target_class": "Has_Pet",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "소유 관계",
+      "target_class": "Has_Pet",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생-동물 관계",
+      "target_class": "Has_Pet",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "애완동물",
+      "target_class": "Pets",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "반려동물 정보",
+      "target_class": "Pets",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "동물 데이터",
+      "target_class": "Pets",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "반려동물 목록",
+      "target_class": "Pets",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "동물 기록",
+      "target_class": "Pets",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "반려동물 정보 테이블",
+      "target_class": "Pets",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 고유 번호",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 코드",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 식별자",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번 번호",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성씨",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성자",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성함",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년월일",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생년도",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이대",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령대",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 정보",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 코드",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 구분",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공코드",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공번호",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공구분",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공코드값",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상담사",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상담자",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토링 담당자",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토링 책임자",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토링 관리자",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토링 지도자",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시 코드",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 식별자",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시 코드 정보",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 식별 번호",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시 코드 값",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드 데이터",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시 코드 식별자",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 id",
+      "target_class": "Has_Pet",
+      "target_property": "Has_Pet_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 고유 번호",
+      "target_class": "Has_Pet",
+      "target_property": "Has_Pet_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 코드",
+      "target_class": "Has_Pet",
+      "target_property": "Has_Pet_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "Has_Pet",
+      "target_property": "Has_Pet_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 식별자",
+      "target_class": "Has_Pet",
+      "target_property": "Has_Pet_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "Has_Pet",
+      "target_property": "Has_Pet_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 인덱스",
+      "target_class": "Has_Pet",
+      "target_property": "Has_Pet_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반려동물 id",
+      "target_class": "Has_Pet",
+      "target_property": "Has_Pet_PetID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반려동물 고유 번호",
+      "target_class": "Has_Pet",
+      "target_property": "Has_Pet_PetID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "동물 코드",
+      "target_class": "Has_Pet",
+      "target_property": "Has_Pet_PetID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반려동물 식별자",
+      "target_class": "Has_Pet",
+      "target_property": "Has_Pet_PetID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "동물 ID",
+      "target_class": "Has_Pet",
+      "target_property": "Has_Pet_PetID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반려동물 인덱스",
+      "target_class": "Has_Pet",
+      "target_property": "Has_Pet_PetID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "동물 고유 번호",
+      "target_class": "Has_Pet",
+      "target_property": "Has_Pet_PetID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "애완동물 ID",
+      "target_class": "Pets",
+      "target_property": "Pets_PetID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "Pets",
+      "target_property": "Pets_PetID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "Pets",
+      "target_property": "Pets_PetID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "Pets",
+      "target_property": "Pets_PetID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "Pets",
+      "target_property": "Pets_PetID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별자",
+      "target_class": "Pets",
+      "target_property": "Pets_PetID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "애완동물 종류",
+      "target_class": "Pets",
+      "target_property": "Pets_PetType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종류",
+      "target_class": "Pets",
+      "target_property": "Pets_PetType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "형태",
+      "target_class": "Pets",
+      "target_property": "Pets_PetType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류",
+      "target_class": "Pets",
+      "target_property": "Pets_PetType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "타입",
+      "target_class": "Pets",
+      "target_property": "Pets_PetType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종",
+      "target_class": "Pets",
+      "target_property": "Pets_PetType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "애완동물 나이",
+      "target_class": "Pets",
+      "target_property": "Pets_pet_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "Pets",
+      "target_property": "Pets_pet_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "Pets",
+      "target_property": "Pets_pet_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연수",
+      "target_class": "Pets",
+      "target_property": "Pets_pet_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체중",
+      "target_class": "Pets",
+      "target_property": "Pets_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "몸무게",
+      "target_class": "Pets",
+      "target_property": "Pets_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "무게",
+      "target_class": "Pets",
+      "target_property": "Pets_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체중량",
+      "target_class": "Pets",
+      "target_property": "Pets_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "몸의 무게",
+      "target_class": "Pets",
+      "target_property": "Pets_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체중 정보",
+      "target_class": "Pets",
+      "target_property": "Pets_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "무게 데이터",
+      "target_class": "Pets",
+      "target_property": "Pets_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체중 측정",
+      "target_class": "Pets",
+      "target_property": "Pets_weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "몸무게 수치",
+      "target_class": "Pets",
+      "target_property": "Pets_weight",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "김",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": "김"
+    },
+    {
+      "entry_type": "value",
+      "key": "박",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": "김"
+    },
+    {
+      "entry_type": "value",
+      "key": "이",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": "김"
+    },
+    {
+      "entry_type": "value",
+      "key": "민수",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": "민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "지현",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": "민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "서연",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": "민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "남자",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": "남자"
+    },
+    {
+      "entry_type": "value",
+      "key": "여자",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": "남자"
+    },
+    {
+      "entry_type": "value",
+      "key": "01",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": "01"
+    },
+    {
+      "entry_type": "value",
+      "key": "02",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": "01"
+    },
+    {
+      "entry_type": "value",
+      "key": "03",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": "01"
+    },
+    {
+      "entry_type": "value",
+      "key": "강아지",
+      "target_class": "Pets",
+      "target_property": "Pets_PetType",
+      "value": "강아지"
+    },
+    {
+      "entry_type": "value",
+      "key": "고양이",
+      "target_class": "Pets",
+      "target_property": "Pets_PetType",
+      "value": "고양이"
+    },
+    {
+      "entry_type": "value",
+      "key": "새",
+      "target_class": "Pets",
+      "target_property": "Pets_PetType",
+      "value": "새"
+    }
+  ]
+}

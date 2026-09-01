@@ -1,0 +1,708 @@
+{
+  "db_id": "cre_Docs_and_Epenses",
+  "classes": [
+    {
+      "name": "Ref_Document_Types",
+      "source_table": "Ref_Document_Types",
+      "ranking": 3.0,
+      "primary_label": "참조 문서 유형",
+      "synonyms": [
+        "문서 유형 참조",
+        "문서 종류 코드",
+        "문서 타입 목록",
+        "문서 구분 정보",
+        "문서 종류 참조"
+      ]
+    },
+    {
+      "name": "Ref_Budget_Codes",
+      "source_table": "Ref_Budget_Codes",
+      "ranking": 3.0,
+      "primary_label": "참조 예산 코드",
+      "synonyms": [
+        "예산 코드 참조",
+        "예산 코드 목록",
+        "예산 코드 정보",
+        "예산 코드 정의",
+        "예산 코드 코드"
+      ]
+    },
+    {
+      "name": "Projects",
+      "source_table": "Projects",
+      "ranking": 3.5,
+      "primary_label": "프로젝트",
+      "synonyms": [
+        "프로젝트 정보",
+        "프로젝트 데이터",
+        "프로젝트 목록",
+        "프로젝트 코드",
+        "프로젝트 정의"
+      ]
+    },
+    {
+      "name": "Documents",
+      "source_table": "Documents",
+      "ranking": 3.5,
+      "primary_label": "문서",
+      "synonyms": [
+        "문서",
+        "문서 데이터",
+        "문서 정보",
+        "문서 기록",
+        "문서 내용"
+      ]
+    },
+    {
+      "name": "Statements",
+      "source_table": "Statements",
+      "ranking": 1.0,
+      "primary_label": "statements",
+      "synonyms": [
+        "Statement",
+        "문항",
+        "항목",
+        "문서 항목",
+        "신고서"
+      ]
+    },
+    {
+      "name": "Documents_with_Expenses",
+      "source_table": "Documents_with_Expenses",
+      "ranking": 3.0,
+      "primary_label": "문서와 지출",
+      "synonyms": [
+        "문서 및 지출",
+        "문서 지출 정보",
+        "지출 문서",
+        "문서와 지출",
+        "지출 관련 문서"
+      ]
+    },
+    {
+      "name": "Accounts",
+      "source_table": "Accounts",
+      "ranking": 3.0,
+      "primary_label": "계좌",
+      "synonyms": [
+        "계정",
+        "회원",
+        "계좌",
+        "계정 정보",
+        "회원 정보"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Ref_Document_Types_Document_Type_Code",
+      "domain": "Ref_Document_Types",
+      "source_table": "Ref_Document_Types",
+      "source_column": "Document_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "문서 유형 코드",
+      "synonyms": [
+        "문서 유형 코드",
+        "문서 코드",
+        "유형 코드",
+        "DT 코드",
+        "Document_Type_Code"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "DOC001": [
+          "DOC001"
+        ],
+        "DOC002": [
+          "DOC002"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Document_Types_Document_Type_Name",
+      "domain": "Ref_Document_Types",
+      "source_table": "Ref_Document_Types",
+      "source_column": "Document_Type_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "문서 유형 이름",
+      "synonyms": [
+        "문서 유형 이름",
+        "문서 이름",
+        "유형 이름",
+        "문서 유형",
+        "DT 이름",
+        "Document_Type_Name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "계약서": [
+          "계약서"
+        ],
+        "입사서": [
+          "입사서"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Document_Types_Document_Type_Description",
+      "domain": "Ref_Document_Types",
+      "source_table": "Ref_Document_Types",
+      "source_column": "Document_Type_Description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "문서 유형 설명",
+      "synonyms": [
+        "문서 유형 설명",
+        "문서 설명",
+        "유형 설명",
+        "DT 설명",
+        "Document_Type_Description"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Ref_Budget_Codes_Budget_Type_Code",
+      "domain": "Ref_Budget_Codes",
+      "source_table": "Ref_Budget_Codes",
+      "source_column": "Budget_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "예산 유형 코드",
+      "synonyms": [
+        "예산 유형 코드",
+        "예산 코드",
+        "예산 구분 코드",
+        "예산 코드 값",
+        "예산 유형 식별자",
+        "예산 코드 식별"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "예산 유형 A": [
+          "예산 유형 A"
+        ],
+        "예산 유형 B": [
+          "예산 유형 B"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Budget_Codes_Budget_Type_Description",
+      "domain": "Ref_Budget_Codes",
+      "source_table": "Ref_Budget_Codes",
+      "source_column": "Budget_Type_Description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "예산 유형 설명",
+      "synonyms": [
+        "예산 유형 설명",
+        "예산 구분 설명",
+        "예산 유형 정보",
+        "예산 코드 설명",
+        "예산 유형 기술"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Projects_Project_ID",
+      "domain": "Projects",
+      "source_table": "Projects",
+      "source_column": "Project_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "프로젝트 ID",
+      "synonyms": [
+        "프로젝트 ID",
+        "프로젝트 식별자",
+        "프로젝트 번호",
+        "Project_ID",
+        "프로젝트 고유번호",
+        "프로젝트 코드",
+        "프로젝트 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Projects_Project_Details",
+      "domain": "Projects",
+      "source_table": "Projects",
+      "source_column": "Project_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "프로젝트 세부 정보",
+      "synonyms": [
+        "프로젝트 세부 사항",
+        "프로젝트 설명",
+        "프로젝트 정보",
+        "Project_Details",
+        "프로젝트 내용",
+        "프로젝트 설명문",
+        "프로젝트 세부내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "설계 중": [
+          "설계 중"
+        ],
+        "진행 중": [
+          "진행 중"
+        ],
+        "완료": [
+          "완료"
+        ]
+      }
+    },
+    {
+      "name": "Documents_Document_ID",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "Document_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "문서 ID",
+      "synonyms": [
+        "문서 ID",
+        "문서 고유 번호",
+        "문서 식별자",
+        "문서 번호",
+        "문서 고유 ID",
+        "문서 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_Document_Type_Code",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "Document_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "문서 유형 코드",
+      "synonyms": [
+        "문서 코드",
+        "문서 유형 코드",
+        "문서 유형",
+        "문서 코드 값",
+        "문서 코드 정보",
+        "문서 코드 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "CONTRACT": [
+          "계약서",
+          "계약"
+        ],
+        "INVOICE": [
+          "입금서",
+          "청구서"
+        ],
+        "REPORT": [
+          "보고서",
+          "보고"
+        ]
+      }
+    },
+    {
+      "name": "Documents_Project_ID",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "Project_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "프로젝트 ID",
+      "synonyms": [
+        "프로젝트 ID",
+        "프로젝트 고유 번호",
+        "프로젝트 식별자",
+        "프로젝트 번호",
+        "프로젝트 고유 ID",
+        "프로젝트 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_Document_Date",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "Document_Date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "문서 날짜",
+      "synonyms": [
+        "문서일자",
+        "날짜",
+        "생성일시",
+        "일자",
+        "문서 생성일",
+        "일시",
+        "Document_Date"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_Document_Name",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "Document_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "문서 이름",
+      "synonyms": [
+        "문서명",
+        "이름",
+        "문서 제목",
+        "제목",
+        "Document_Name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_Document_Description",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "Document_Description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "문서 설명",
+      "synonyms": [
+        "문서 설명",
+        "설명",
+        "문서 내용",
+        "내용",
+        "Document_Description"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_Other_Details",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "Other_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기타 세부 사항",
+      "synonyms": [
+        "기타 정보",
+        "추가 설명",
+        "기타 세부 사항",
+        "기타 설명",
+        "기타 내용",
+        "기타 정보 기록",
+        "기타 세부 정보",
+        "기타 설명 사항"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Statements_Statement_ID",
+      "domain": "Statements",
+      "source_table": "Statements",
+      "source_column": "Statement_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "statement id",
+      "synonyms": [
+        "Statement_ID",
+        "statement number",
+        "statement code",
+        "statement identifier",
+        "statement key",
+        "statement unique id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Statements_Statement_Details",
+      "domain": "Statements",
+      "source_table": "Statements",
+      "source_column": "Statement_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "statement details",
+      "synonyms": [
+        "Statement_Details",
+        "statement information",
+        "statement content",
+        "statement description",
+        "statement text",
+        "statement note",
+        "statement entry"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_with_Expenses_Document_ID",
+      "domain": "Documents_with_Expenses",
+      "source_table": "Documents_with_Expenses",
+      "source_column": "Document_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "문서 id",
+      "synonyms": [
+        "문서 ID",
+        "문서 식별 번호",
+        "문서 고유 번호",
+        "문서 코드",
+        "문서 번호",
+        "문서 식별자",
+        "문서 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_with_Expenses_Budget_Type_Code",
+      "domain": "Documents_with_Expenses",
+      "source_table": "Documents_with_Expenses",
+      "source_column": "Budget_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "예산 유형 코드",
+      "synonyms": [
+        "예산 유형 코드",
+        "예산 코드",
+        "예산 유형",
+        "예산 타입 코드",
+        "예산 타입"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "예산1": [
+          "예산1",
+          "예산A"
+        ],
+        "예산2": [
+          "예산2",
+          "예산B"
+        ]
+      }
+    },
+    {
+      "name": "Documents_with_Expenses_Document_Details",
+      "domain": "Documents_with_Expenses",
+      "source_table": "Documents_with_Expenses",
+      "source_column": "Document_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "문서 세부 정보",
+      "synonyms": [
+        "문서 내용",
+        "문서 상세 정보",
+        "문서 설명",
+        "문서 세부 사항",
+        "문서 정보",
+        "문서 세부 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Accounts_Account_ID",
+      "domain": "Accounts",
+      "source_table": "Accounts",
+      "source_column": "Account_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "계좌 ID",
+      "synonyms": [
+        "계좌 ID",
+        "계좌 번호",
+        "계좌 식별자",
+        "계좌 코드",
+        "계좌 고유 번호",
+        "계좌 식별번호",
+        "계좌 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Accounts_Statement_ID",
+      "domain": "Accounts",
+      "source_table": "Accounts",
+      "source_column": "Statement_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "계좌 명세서 ID",
+      "synonyms": [
+        "회계 기록 ID",
+        "회계 식별자",
+        "회계 번호",
+        "회계 코드",
+        "회계 기록 번호",
+        "회계 식별번호",
+        "회계 아이디",
+        "Statement ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Accounts_Account_Details",
+      "domain": "Accounts",
+      "source_table": "Accounts",
+      "source_column": "Account_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "계좌 상세 정보",
+      "synonyms": [
+        "계좌 설명",
+        "계좌 정보",
+        "계좌 설명문",
+        "계좌 세부 정보",
+        "계좌 설명내용",
+        "계좌 세부내용",
+        "계좌 설명자료"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "예금자 정보": [
+          "예금자 정보"
+        ],
+        "이체 내역": [
+          "이체 내역"
+        ],
+        "계좌 상태": [
+          "계좌 상태"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Documents_Projects_fk0",
+      "domain": "Documents",
+      "range": "Projects",
+      "source_fk": [
+        "Documents.Project_ID",
+        "Projects.Project_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Documents_Ref_Document_Types_fk1",
+      "domain": "Documents",
+      "range": "Ref_Document_Types",
+      "source_fk": [
+        "Documents.Document_Type_Code",
+        "Ref_Document_Types.Document_Type_Code"
+      ],
+      "weight": 1.0,
+      "primary_label": "유형 지정",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Statements_Documents_fk2",
+      "domain": "Statements",
+      "range": "Documents",
+      "source_fk": [
+        "Statements.Statement_ID",
+        "Documents.Document_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참조",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Documents_with_Expenses_Documents_fk3",
+      "domain": "Documents_with_Expenses",
+      "range": "Documents",
+      "source_fk": [
+        "Documents_with_Expenses.Document_ID",
+        "Documents.Document_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "연관",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Documents_with_Expenses_Ref_Budget_Codes_fk4",
+      "domain": "Documents_with_Expenses",
+      "range": "Ref_Budget_Codes",
+      "source_fk": [
+        "Documents_with_Expenses.Budget_Type_Code",
+        "Ref_Budget_Codes.Budget_Type_Code"
+      ],
+      "weight": 1.0,
+      "primary_label": "예산 유형 지정",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Accounts_Statements_fk5",
+      "domain": "Accounts",
+      "range": "Statements",
+      "source_fk": [
+        "Accounts.Statement_ID",
+        "Statements.Statement_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참조",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,830 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "사람",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인물",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참가자",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참여자",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인원",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인사",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "debate",
+      "target_class": "debate",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "토론",
+      "target_class": "debate",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "토론회",
+      "target_class": "debate",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "토론 세션",
+      "target_class": "debate",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "토론 회의",
+      "target_class": "debate",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "토론 이벤트",
+      "target_class": "debate",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "debate people",
+      "target_class": "debate_people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "토론 참가자",
+      "target_class": "debate_people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "토론 인원",
+      "target_class": "debate_people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "토론 참여자",
+      "target_class": "debate_people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "토론 참가자 목록",
+      "target_class": "debate_people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "토론 인원 목록",
+      "target_class": "debate_people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "people id",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "People_ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 고유 번호",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 식별 번호",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 고유 ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 번호",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "district",
+      "target_class": "people",
+      "target_property": "people_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "District",
+      "target_class": "people",
+      "target_property": "people_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "people",
+      "target_property": "people_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역",
+      "target_class": "people",
+      "target_property": "people_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행정구역",
+      "target_class": "people",
+      "target_property": "people_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지방",
+      "target_class": "people",
+      "target_property": "people_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역 정보",
+      "target_class": "people",
+      "target_property": "people_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 정보",
+      "target_class": "people",
+      "target_property": "people_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Name",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인명",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인물 이름",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 데이터",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "party",
+      "target_class": "people",
+      "target_property": "people_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당",
+      "target_class": "people",
+      "target_property": "people_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "당파",
+      "target_class": "people",
+      "target_property": "people_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정치적 소속",
+      "target_class": "people",
+      "target_property": "people_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 소속",
+      "target_class": "people",
+      "target_property": "people_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 정보",
+      "target_class": "people",
+      "target_property": "people_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당명",
+      "target_class": "people",
+      "target_property": "people_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당별",
+      "target_class": "people",
+      "target_property": "people_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 소속 정보",
+      "target_class": "people",
+      "target_property": "people_Party",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "age",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 정보",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 정보",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 데이터",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 데이터",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 차이",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 차이",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate id",
+      "target_class": "debate",
+      "target_property": "debate_Debate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate_id",
+      "target_class": "debate",
+      "target_property": "debate_Debate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate identifier",
+      "target_class": "debate",
+      "target_property": "debate_Debate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate number",
+      "target_class": "debate",
+      "target_property": "debate_Debate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate sequence",
+      "target_class": "debate",
+      "target_property": "debate_Debate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate code",
+      "target_class": "debate",
+      "target_property": "debate_Debate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate key",
+      "target_class": "debate",
+      "target_property": "debate_Debate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date",
+      "target_class": "debate",
+      "target_property": "debate_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate date",
+      "target_class": "debate",
+      "target_property": "debate_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "event date",
+      "target_class": "debate",
+      "target_property": "debate_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "meeting date",
+      "target_class": "debate",
+      "target_property": "debate_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate time",
+      "target_class": "debate",
+      "target_property": "debate_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate day",
+      "target_class": "debate",
+      "target_property": "debate_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate period",
+      "target_class": "debate",
+      "target_property": "debate_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "venue",
+      "target_class": "debate",
+      "target_property": "debate_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate venue",
+      "target_class": "debate",
+      "target_property": "debate_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "event location",
+      "target_class": "debate",
+      "target_property": "debate_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "meeting location",
+      "target_class": "debate",
+      "target_property": "debate_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate place",
+      "target_class": "debate",
+      "target_property": "debate_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate site",
+      "target_class": "debate",
+      "target_property": "debate_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate location",
+      "target_class": "debate",
+      "target_property": "debate_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "num of audience",
+      "target_class": "debate",
+      "target_property": "debate_Num_of_Audience",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 수",
+      "target_class": "debate",
+      "target_property": "debate_Num_of_Audience",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인원 수",
+      "target_class": "debate",
+      "target_property": "debate_Num_of_Audience",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관객 수",
+      "target_class": "debate",
+      "target_property": "debate_Num_of_Audience",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인원",
+      "target_class": "debate",
+      "target_property": "debate_Num_of_Audience",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "audience count",
+      "target_class": "debate",
+      "target_property": "debate_Num_of_Audience",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate id",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Debate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Debate_ID",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Debate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate identifier",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Debate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate number",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Debate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate code",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Debate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate key",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Debate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate serial",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Debate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "debate unique id",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Debate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "affirmative",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Affirmative",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당화된 측",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Affirmative",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "긍정 측",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Affirmative",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "긍정",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Affirmative",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당화",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Affirmative",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "긍정 측 인물",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Affirmative",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "negative",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Negative",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반대 측",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Negative",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부정 측",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Negative",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부정",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Negative",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반대",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Negative",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부정 측 인물",
+      "target_class": "debate_people",
+      "target_property": "debate_people_Negative",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "if affirmative win",
+      "target_class": "debate_people",
+      "target_property": "debate_people_If_Affirmative_Win",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "If_Affirmative_Win",
+      "target_class": "debate_people",
+      "target_property": "debate_people_If_Affirmative_Win",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "affirmative win result",
+      "target_class": "debate_people",
+      "target_property": "debate_people_If_Affirmative_Win",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "win result if affirmative",
+      "target_class": "debate_people",
+      "target_property": "debate_people_If_Affirmative_Win",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "affirmative victory outcome",
+      "target_class": "debate_people",
+      "target_property": "debate_people_If_Affirmative_Win",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "affirmative win explanation",
+      "target_class": "debate_people",
+      "target_property": "debate_people_If_Affirmative_Win",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "win condition for affirmative",
+      "target_class": "debate_people",
+      "target_property": "debate_people_If_Affirmative_Win",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "affirmative win scenario",
+      "target_class": "debate_people",
+      "target_property": "debate_people_If_Affirmative_Win",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-10-05",
+      "target_class": "debate",
+      "target_property": "debate_Date",
+      "value": "2023-10-05"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 10월 5일",
+      "target_class": "debate",
+      "target_property": "debate_Date",
+      "value": "2023-10-05"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시청",
+      "target_class": "debate",
+      "target_property": "debate_Venue",
+      "value": "서울시청"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "debate",
+      "target_property": "debate_Venue",
+      "value": "서울시청"
+    },
+    {
+      "entry_type": "value",
+      "key": "others",
+      "target_class": "debate_people",
+      "target_property": "debate_people_If_Affirmative_Win",
+      "value": "others"
+    }
+  ]
+}

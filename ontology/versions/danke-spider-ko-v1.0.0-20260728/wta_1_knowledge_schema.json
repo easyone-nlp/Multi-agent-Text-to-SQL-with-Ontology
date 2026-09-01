@@ -1,0 +1,1094 @@
+{
+  "db_id": "wta_1",
+  "classes": [
+    {
+      "name": "players",
+      "source_table": "players",
+      "ranking": 3.5,
+      "primary_label": "플레이어",
+      "synonyms": [
+        "선수",
+        "플레이어",
+        "경기 참여자",
+        "타이어 선수",
+        "스포츠 선수"
+      ]
+    },
+    {
+      "name": "matches",
+      "source_table": "matches",
+      "ranking": 3.5,
+      "primary_label": "매치",
+      "synonyms": [
+        "경기",
+        "매치",
+        "경기 기록",
+        "경기 정보",
+        "경기 데이터"
+      ]
+    },
+    {
+      "name": "rankings",
+      "source_table": "rankings",
+      "ranking": 4.5,
+      "primary_label": "랭킹 정보",
+      "synonyms": [
+        "순위",
+        "등수",
+        "랭킹",
+        "순위 정보",
+        "등수 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "players_player_id",
+      "domain": "players",
+      "source_table": "players",
+      "source_column": "player_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "플레이어 ID",
+      "synonyms": [
+        "플레이어 ID",
+        "플레이어 고유 ID",
+        "플레이어 번호",
+        "플레이어 코드",
+        "플레이어 식별자",
+        "플레이어 고유번호",
+        "플레이어 인덱스",
+        "플레이어 식별코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "players_first_name",
+      "domain": "players",
+      "source_table": "players",
+      "source_column": "first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김"
+        ],
+        "박": [
+          "박"
+        ]
+      }
+    },
+    {
+      "name": "players_last_name",
+      "domain": "players",
+      "source_table": "players",
+      "source_column": "last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "민수": [
+          "민수"
+        ],
+        "지현": [
+          "지현"
+        ]
+      }
+    },
+    {
+      "name": "players_hand",
+      "domain": "players",
+      "source_table": "players",
+      "source_column": "hand",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "손",
+      "synonyms": [
+        "손자리",
+        "주손",
+        "우측 손",
+        "좌측 손",
+        "우손",
+        "좌손"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "오른손": [
+          "오른손"
+        ],
+        "왼손": [
+          "왼손"
+        ]
+      }
+    },
+    {
+      "name": "players_birth_date",
+      "domain": "players",
+      "source_table": "players",
+      "source_column": "birth_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "생년월일",
+      "synonyms": [
+        "생일",
+        "출생일",
+        "출생년월일",
+        "생년월일",
+        "태어난 날짜",
+        "출생일자",
+        "출생일자기"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1990-05-15": [
+          "1990년 5월 15일"
+        ]
+      }
+    },
+    {
+      "name": "players_country_code",
+      "domain": "players",
+      "source_table": "players",
+      "source_column": "country_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "국가 코드",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "KR": [
+          "KR"
+        ],
+        "US": [
+          "US"
+        ]
+      }
+    },
+    {
+      "name": "matches_best_of",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "best_of",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "베스트 오브",
+      "synonyms": [
+        "세트 수",
+        "게임 수",
+        "최대 세트",
+        "세트 개수",
+        "게임 개수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "matches_draw_size",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "draw_size",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "드로우 사이즈",
+      "synonyms": [
+        "드로우 인원",
+        "참가자 수",
+        "드로우 규모",
+        "경기 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "matches_loser_age",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "loser_age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "패자 나이",
+      "synonyms": [
+        "패자 연령",
+        "패자 나이",
+        "실력자 나이",
+        "실력자 연령"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "25": [
+          "25"
+        ]
+      }
+    },
+    {
+      "name": "matches_loser_entry",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "loser_entry",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "패자 엔트리",
+      "synonyms": [
+        "패자 정보",
+        "패배자 등록",
+        "선수 정보",
+        "패자 데이터",
+        "등록 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "12345": [
+          "12345"
+        ]
+      }
+    },
+    {
+      "name": "matches_loser_hand",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "loser_hand",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "패자 손",
+      "synonyms": [
+        "손 상태",
+        "손의 상태",
+        "손 정보",
+        "손 데이터",
+        "손 상황"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "오른손": [
+          "오른손",
+          "right"
+        ],
+        "왼손": [
+          "왼손",
+          "left"
+        ]
+      }
+    },
+    {
+      "name": "matches_loser_ht",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "loser_ht",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "패자 키",
+      "synonyms": [
+        "키 정보",
+        "키 데이터",
+        "키 수치",
+        "키 값",
+        "키 측정"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "matches_loser_id",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "loser_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "패자 ID",
+      "synonyms": [
+        "패자 ID",
+        "실격자 ID",
+        "패배자 ID",
+        "실격자 번호",
+        "패배자 번호",
+        "실격자 식별자",
+        "패자 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "matches_loser_ioc",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "loser_ioc",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "패자 IOC",
+      "synonyms": [
+        "패자 IOC",
+        "패자 국제 올림픽 위원회",
+        "패자 IOC 코드",
+        "패자 올림픽 코드",
+        "패자 국제 코드",
+        "패자 코드",
+        "패자 국제 식별자",
+        "패자 식별 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "KOR": [
+          "KOR",
+          "한국"
+        ]
+      }
+    },
+    {
+      "name": "matches_loser_name",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "loser_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "패자 이름",
+      "synonyms": [
+        "패자",
+        "실패자",
+        "패배자",
+        "실격자",
+        "패자 이름",
+        "실패자 이름",
+        "패배자 이름",
+        "실격자 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김지현": [
+          "김지현"
+        ]
+      }
+    },
+    {
+      "name": "matches_loser_rank",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "loser_rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.2,
+      "primary_label": "패자 랭크",
+      "synonyms": [
+        "패자 랭크",
+        "패자 순위",
+        "패자 랭킹",
+        "패자 등수",
+        "패자 랭크 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "matches_loser_rank_points",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "loser_rank_points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.9,
+      "primary_label": "패자 랭크 포인트",
+      "synonyms": [
+        "패자 랭크 포인트",
+        "패자 랭크 점수",
+        "패자 랭크 점",
+        "패자 랭크 지수",
+        "패자 랭크 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "matches_loser_seed",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "loser_seed",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.7,
+      "primary_label": "패자 시드",
+      "synonyms": [
+        "패자 시드",
+        "패자 시드 번호",
+        "패자 시드 수치",
+        "패자 시드 값",
+        "패자 시드 등수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "matches_match_num",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "match_num",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.2,
+      "primary_label": "매치 번호",
+      "synonyms": [
+        "매치 번호",
+        "매치 넘버",
+        "매치 ID",
+        "매치 코드",
+        "매치 인덱스",
+        "매치 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "matches_minutes",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "minutes",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "분",
+      "synonyms": [
+        "분",
+        "분수",
+        "분간",
+        "분량",
+        "분 기간",
+        "분 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "matches_round",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "round",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "라운드",
+      "synonyms": [
+        "라운드",
+        "라운드 수",
+        "라운드 번호",
+        "라운드 단계",
+        "라운드 순서"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1R": [
+          "1R",
+          "1라운드"
+        ],
+        "2R": [
+          "2R",
+          "2라운드"
+        ],
+        "QF": [
+          "QF",
+          "쿼터파인"
+        ]
+      }
+    },
+    {
+      "name": "matches_score",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "score",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "스코어",
+      "synonyms": [
+        "점수",
+        "결과",
+        "승패",
+        "스코어",
+        "점수 정보",
+        "결과 정보",
+        "승패 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "6-4, 7-5": [
+          "6-4, 7-5",
+          "6-4 7-5"
+        ]
+      }
+    },
+    {
+      "name": "matches_surface",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "surface",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "표면",
+      "synonyms": [
+        "경기 표면",
+        "표면 유형",
+        "테니스 표면",
+        "경기 종류",
+        "표면 종류",
+        "테니스 경기 표면"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "클리어": [
+          "클리어",
+          "clay"
+        ],
+        "하이드로": [
+          "하이드로",
+          "hard"
+        ],
+        "그라운드": [
+          "그라운드",
+          "grass"
+        ]
+      }
+    },
+    {
+      "name": "matches_tourney_date",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "tourney_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "토너먼트 날짜",
+      "synonyms": [
+        "날짜",
+        "일자",
+        "경기 날짜",
+        "토너먼트 일자",
+        "일정",
+        "경기 일정",
+        "날짜 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-05-10": [
+          "2023-05-10"
+        ]
+      }
+    },
+    {
+      "name": "matches_tourney_id",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "tourney_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "토너먼트 ID",
+      "synonyms": [
+        "ID",
+        "코드",
+        "번호",
+        "아이디",
+        "토너먼트 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "matches_tourney_level",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "tourney_level",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.2,
+      "primary_label": "토너먼트 레벨",
+      "synonyms": [
+        "등급",
+        "레벨",
+        "등수",
+        "강도",
+        "계층"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "250": [
+          "250",
+          "250급"
+        ],
+        "500": [
+          "500",
+          "500급"
+        ]
+      }
+    },
+    {
+      "name": "matches_tourney_name",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "tourney_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "토너먼트 이름",
+      "synonyms": [
+        "이름",
+        "제목",
+        "명칭",
+        "호칭",
+        "대표명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "파리 오픈": [
+          "파리 오픈"
+        ]
+      }
+    },
+    {
+      "name": "matches_winner_age",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "winner_age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "승자 나이",
+      "synonyms": [
+        "승자 연령",
+        "연령",
+        "나이",
+        "생년월일",
+        "출생년도"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "28": [
+          "28"
+        ]
+      }
+    },
+    {
+      "name": "matches_winner_entry",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "winner_entry",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "승자 엔트리",
+      "synonyms": [
+        "승자 엔트리 번호",
+        "엔트리 번호",
+        "참가 번호",
+        "참가자 번호",
+        "엔트리 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "67890": [
+          "67890"
+        ]
+      }
+    },
+    {
+      "name": "matches_winner_hand",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "winner_hand",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "승자 손",
+      "synonyms": [
+        "승자 손",
+        "손",
+        "오른손",
+        "왼손",
+        "손 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "오른손": [
+          "오른손",
+          "right"
+        ],
+        "왼손": [
+          "왼손",
+          "left"
+        ]
+      }
+    },
+    {
+      "name": "matches_winner_ht",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "winner_ht",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "승자 키",
+      "synonyms": [
+        "승자 코드",
+        "승자 식별자",
+        "승자 번호",
+        "승자 인덱스",
+        "승자 고유값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "matches_winner_id",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "winner_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "승자 ID",
+      "synonyms": [
+        "승자 고유번호",
+        "승자 식별번호",
+        "승자 번호",
+        "승자 인덱스",
+        "승자 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "matches_winner_ioc",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "winner_ioc",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "승자 IOC",
+      "synonyms": [
+        "승자 IOC 코드",
+        "승자 국제올림픽위원회 코드",
+        "IOC 승자 코드",
+        "승자 국제코드",
+        "IOC 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "USA": [
+          "USA",
+          "미국"
+        ]
+      }
+    },
+    {
+      "name": "matches_winner_name",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "winner_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "승자 이름",
+      "synonyms": [
+        "승자 이름",
+        "우승자 이름",
+        "이긴 사람",
+        "이긴 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "이승재": [
+          "이승재"
+        ]
+      }
+    },
+    {
+      "name": "matches_winner_rank",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "winner_rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.2,
+      "primary_label": "승자 랭크",
+      "synonyms": [
+        "승자 랭크",
+        "우승자 랭크",
+        "랭크",
+        "등수",
+        "등수 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "matches_winner_rank_points",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "winner_rank_points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.9,
+      "primary_label": "승자 랭크 포인트",
+      "synonyms": [
+        "승자 랭크 포인트",
+        "우승자 랭크 포인트",
+        "랭크 포인트",
+        "등수 포인트",
+        "등수 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "matches_winner_seed",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "winner_seed",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.7,
+      "primary_label": "승자 시드",
+      "synonyms": [
+        "승자 시드 번호",
+        "우승자 시드",
+        "승리자 시드",
+        "우승자 시드 번호",
+        "승자 시드 수",
+        "시드 번호 (승자)"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "matches_year",
+      "domain": "matches",
+      "source_table": "matches",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "년",
+        "시즌",
+        "년도 정보",
+        "년도 데이터",
+        "년도 값",
+        "년도 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023": [
+          "2023"
+        ]
+      }
+    },
+    {
+      "name": "rankings_ranking_date",
+      "domain": "rankings",
+      "source_table": "rankings",
+      "source_column": "ranking_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 4.5,
+      "primary_label": "랭킹 날짜",
+      "synonyms": [
+        "업데이트 날짜",
+        "등록일",
+        "수정일",
+        "랭킹 기준일",
+        "등록 일자",
+        "랭킹 업데이트일"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-01": [
+          "2023년 10월 1일"
+        ]
+      }
+    },
+    {
+      "name": "rankings_ranking",
+      "domain": "rankings",
+      "source_table": "rankings",
+      "source_column": "ranking",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "랭킹",
+      "synonyms": [
+        "등수",
+        "랭킹 수치",
+        "등급",
+        "등수 순위",
+        "랭킹 값",
+        "등수 지수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "rankings_player_id",
+      "domain": "rankings",
+      "source_table": "rankings",
+      "source_column": "player_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "플레이어 ID",
+      "synonyms": [
+        "플레이어 고유 ID",
+        "플레이어 번호",
+        "등록자 ID",
+        "플레이어 코드",
+        "플레이어 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "rankings_ranking_points",
+      "domain": "rankings",
+      "source_table": "rankings",
+      "source_column": "ranking_points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.5,
+      "primary_label": "랭킹 포인트",
+      "synonyms": [
+        "랭킹 점수",
+        "포인트",
+        "점수",
+        "랭킹 값",
+        "점수 정보",
+        "랭킹 총점"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "rankings_tours",
+      "domain": "rankings",
+      "source_table": "rankings",
+      "source_column": "tours",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "토우 수",
+      "synonyms": [
+        "토너먼트 수",
+        "토우 개수",
+        "경기 수",
+        "토우 횟수",
+        "참여 토너먼트 수",
+        "토우 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "matches_players_fk0",
+      "domain": "matches",
+      "range": "players",
+      "source_fk": [
+        "matches.winner_id",
+        "players.player_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "승리자",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "matches_players_fk1",
+      "domain": "matches",
+      "range": "players",
+      "source_fk": [
+        "matches.loser_id",
+        "players.player_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "패배자",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "rankings_players_fk2",
+      "domain": "rankings",
+      "range": "players",
+      "source_fk": [
+        "rankings.player_id",
+        "players.player_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "등급 소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,1040 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "영화",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화제목",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화명",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화작품",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화정보",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화제작물",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화관",
+      "target_class": "cinema",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화관 정보",
+      "target_class": "cinema",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화관 위치",
+      "target_class": "cinema",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화관 데이터",
+      "target_class": "cinema",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화관 위치 정보",
+      "target_class": "cinema",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화관 위치 데이터",
+      "target_class": "cinema",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상영 스케줄",
+      "target_class": "schedule",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상영 일정",
+      "target_class": "schedule",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 상영표",
+      "target_class": "schedule",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 시간표",
+      "target_class": "schedule",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 스케줄",
+      "target_class": "schedule",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 상영 일정 정보",
+      "target_class": "schedule",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 시간표 정보",
+      "target_class": "schedule",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 ID",
+      "target_class": "film",
+      "target_property": "film_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 고유 번호",
+      "target_class": "film",
+      "target_property": "film_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별자",
+      "target_class": "film",
+      "target_property": "film_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Film_ID",
+      "target_class": "film",
+      "target_property": "film_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 번호",
+      "target_class": "film",
+      "target_property": "film_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 고유 ID",
+      "target_class": "film",
+      "target_property": "film_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별 번호",
+      "target_class": "film",
+      "target_property": "film_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈 순위",
+      "target_class": "film",
+      "target_property": "film_Rank_in_series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈 랭크",
+      "target_class": "film",
+      "target_property": "film_Rank_in_series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈 위치",
+      "target_class": "film",
+      "target_property": "film_Rank_in_series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈 순번",
+      "target_class": "film",
+      "target_property": "film_Rank_in_series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Rank_in_series",
+      "target_class": "film",
+      "target_property": "film_Rank_in_series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈 내 순위",
+      "target_class": "film",
+      "target_property": "film_Rank_in_series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시즌 번호",
+      "target_class": "film",
+      "target_property": "film_Number_in_season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시즌 순번",
+      "target_class": "film",
+      "target_property": "film_Number_in_season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시즌 내 번호",
+      "target_class": "film",
+      "target_property": "film_Number_in_season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Number_in_season",
+      "target_class": "film",
+      "target_property": "film_Number_in_season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시즌 순위",
+      "target_class": "film",
+      "target_property": "film_Number_in_season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시즌 내 위치",
+      "target_class": "film",
+      "target_property": "film_Number_in_season",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 제목",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 이름",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "타이틀",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목 정보",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 제목 정보",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독",
+      "target_class": "film",
+      "target_property": "film_Directed_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연출자",
+      "target_class": "film",
+      "target_property": "film_Directed_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연출",
+      "target_class": "film",
+      "target_property": "film_Directed_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연출자 이름",
+      "target_class": "film",
+      "target_property": "film_Directed_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독 이름",
+      "target_class": "film",
+      "target_property": "film_Directed_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독자",
+      "target_class": "film",
+      "target_property": "film_Directed_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연출자 정보",
+      "target_class": "film",
+      "target_property": "film_Directed_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원본 방영일",
+      "target_class": "film",
+      "target_property": "film_Original_air_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방영일",
+      "target_class": "film",
+      "target_property": "film_Original_air_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최초 방영일",
+      "target_class": "film",
+      "target_property": "film_Original_air_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원래 방영일",
+      "target_class": "film",
+      "target_property": "film_Original_air_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방영 날짜",
+      "target_class": "film",
+      "target_property": "film_Original_air_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원래 방영 날짜",
+      "target_class": "film",
+      "target_property": "film_Original_air_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방영 일자",
+      "target_class": "film",
+      "target_property": "film_Original_air_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방영일 정보",
+      "target_class": "film",
+      "target_property": "film_Original_air_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작 코드",
+      "target_class": "film",
+      "target_property": "film_Production_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작 번호",
+      "target_class": "film",
+      "target_property": "film_Production_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생산 코드",
+      "target_class": "film",
+      "target_property": "film_Production_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생산 번호",
+      "target_class": "film",
+      "target_property": "film_Production_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Production code",
+      "target_class": "film",
+      "target_property": "film_Production_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작 정보",
+      "target_class": "film",
+      "target_property": "film_Production_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작 식별자",
+      "target_class": "film",
+      "target_property": "film_Production_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생산 식별자",
+      "target_class": "film",
+      "target_property": "film_Production_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "cinema id",
+      "target_class": "cinema",
+      "target_property": "cinema_Cinema_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Cinema_ID",
+      "target_class": "cinema",
+      "target_property": "cinema_Cinema_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 ID",
+      "target_class": "cinema",
+      "target_property": "cinema_Cinema_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 식별번호",
+      "target_class": "cinema",
+      "target_property": "cinema_Cinema_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 고유번호",
+      "target_class": "cinema",
+      "target_property": "cinema_Cinema_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 번호",
+      "target_class": "cinema",
+      "target_property": "cinema_Cinema_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 식별자",
+      "target_class": "cinema",
+      "target_property": "cinema_Cinema_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "cinema",
+      "target_property": "cinema_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Name",
+      "target_class": "cinema",
+      "target_property": "cinema_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 이름",
+      "target_class": "cinema",
+      "target_property": "cinema_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관명",
+      "target_class": "cinema",
+      "target_property": "cinema_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 대표 이름",
+      "target_class": "cinema",
+      "target_property": "cinema_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 표지 이름",
+      "target_class": "cinema",
+      "target_property": "cinema_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 표지",
+      "target_class": "cinema",
+      "target_property": "cinema_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "openning year",
+      "target_class": "cinema",
+      "target_property": "cinema_Openning_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Openning_year",
+      "target_class": "cinema",
+      "target_property": "cinema_Openning_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개관 연도",
+      "target_class": "cinema",
+      "target_property": "cinema_Openning_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 개관 연도",
+      "target_class": "cinema",
+      "target_property": "cinema_Openning_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 연도",
+      "target_class": "cinema",
+      "target_property": "cinema_Openning_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 개업 연도",
+      "target_class": "cinema",
+      "target_property": "cinema_Openning_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 개업년도",
+      "target_class": "cinema",
+      "target_property": "cinema_Openning_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "capacity",
+      "target_class": "cinema",
+      "target_property": "cinema_Capacity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "용량",
+      "target_class": "cinema",
+      "target_property": "cinema_Capacity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관객 수",
+      "target_class": "cinema",
+      "target_property": "cinema_Capacity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 용량",
+      "target_class": "cinema",
+      "target_property": "cinema_Capacity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관객용량",
+      "target_class": "cinema",
+      "target_property": "cinema_Capacity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Capacity",
+      "target_class": "cinema",
+      "target_property": "cinema_Capacity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관객 수용량",
+      "target_class": "cinema",
+      "target_property": "cinema_Capacity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "location",
+      "target_class": "cinema",
+      "target_property": "cinema_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "cinema",
+      "target_property": "cinema_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "cinema",
+      "target_property": "cinema_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "cinema",
+      "target_property": "cinema_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 위치",
+      "target_class": "cinema",
+      "target_property": "cinema_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Location",
+      "target_class": "cinema",
+      "target_property": "cinema_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 위치 정보",
+      "target_class": "cinema",
+      "target_property": "cinema_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소 위치",
+      "target_class": "cinema",
+      "target_property": "cinema_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 ID",
+      "target_class": "schedule",
+      "target_property": "schedule_Cinema_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Cinema_ID",
+      "target_class": "schedule",
+      "target_property": "schedule_Cinema_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 식별자",
+      "target_class": "schedule",
+      "target_property": "schedule_Cinema_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 코드",
+      "target_class": "schedule",
+      "target_property": "schedule_Cinema_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 번호",
+      "target_class": "schedule",
+      "target_property": "schedule_Cinema_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 고유 번호",
+      "target_class": "schedule",
+      "target_property": "schedule_Cinema_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화관 식별",
+      "target_class": "schedule",
+      "target_property": "schedule_Cinema_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 ID",
+      "target_class": "schedule",
+      "target_property": "schedule_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Film_ID",
+      "target_class": "schedule",
+      "target_property": "schedule_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별자",
+      "target_class": "schedule",
+      "target_property": "schedule_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 코드",
+      "target_class": "schedule",
+      "target_property": "schedule_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 번호",
+      "target_class": "schedule",
+      "target_property": "schedule_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 고유 번호",
+      "target_class": "schedule",
+      "target_property": "schedule_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별",
+      "target_class": "schedule",
+      "target_property": "schedule_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "schedule",
+      "target_property": "schedule_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Date",
+      "target_class": "schedule",
+      "target_property": "schedule_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "schedule",
+      "target_property": "schedule_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상영일",
+      "target_class": "schedule",
+      "target_property": "schedule_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 상영일",
+      "target_class": "schedule",
+      "target_property": "schedule_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 정보",
+      "target_class": "schedule",
+      "target_property": "schedule_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 데이터",
+      "target_class": "schedule",
+      "target_property": "schedule_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상영 날짜",
+      "target_class": "schedule",
+      "target_property": "schedule_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "하루 상영 횟수",
+      "target_class": "schedule",
+      "target_property": "schedule_Show_times_per_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "하루 당 상영 횟수",
+      "target_class": "schedule",
+      "target_property": "schedule_Show_times_per_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "하루에 몇 번 상영",
+      "target_class": "schedule",
+      "target_property": "schedule_Show_times_per_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상영 횟수",
+      "target_class": "schedule",
+      "target_property": "schedule_Show_times_per_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Show_times_per_day",
+      "target_class": "schedule",
+      "target_property": "schedule_Show_times_per_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "하루 당 상영 시간",
+      "target_class": "schedule",
+      "target_property": "schedule_Show_times_per_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상영 빈도",
+      "target_class": "schedule",
+      "target_property": "schedule_Show_times_per_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일일 상영 횟수",
+      "target_class": "schedule",
+      "target_property": "schedule_Show_times_per_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격",
+      "target_class": "schedule",
+      "target_property": "schedule_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상영 가격",
+      "target_class": "schedule",
+      "target_property": "schedule_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요금",
+      "target_class": "schedule",
+      "target_property": "schedule_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Price",
+      "target_class": "schedule",
+      "target_property": "schedule_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상영 비용",
+      "target_class": "schedule",
+      "target_property": "schedule_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "티켓 가격",
+      "target_class": "schedule",
+      "target_property": "schedule_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상영 요금",
+      "target_class": "schedule",
+      "target_property": "schedule_Price",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "스파이더맨",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": "스파이더맨"
+    },
+    {
+      "entry_type": "value",
+      "key": "아이언맨",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": "아이언맨"
+    },
+    {
+      "entry_type": "value",
+      "key": "존 워커",
+      "target_class": "film",
+      "target_property": "film_Directed_by",
+      "value": "존 워커"
+    },
+    {
+      "entry_type": "value",
+      "key": "이정현",
+      "target_class": "film",
+      "target_property": "film_Directed_by",
+      "value": "이정현"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020-05-01",
+      "target_class": "film",
+      "target_property": "film_Original_air_date",
+      "value": "2020-05-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020년 5월 1일",
+      "target_class": "film",
+      "target_property": "film_Original_air_date",
+      "value": "2020-05-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-10-01",
+      "target_class": "schedule",
+      "target_property": "schedule_Date",
+      "value": "2023-10-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 10월 1일",
+      "target_class": "schedule",
+      "target_property": "schedule_Date",
+      "value": "2023-10-01"
+    }
+  ]
+}

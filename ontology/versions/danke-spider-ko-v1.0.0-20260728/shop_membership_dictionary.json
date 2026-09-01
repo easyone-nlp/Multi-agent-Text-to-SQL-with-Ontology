@@ -1,0 +1,1089 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "회원",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구매자",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 정보",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지점",
+      "target_class": "branch",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "매장",
+      "target_class": "branch",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "본점",
+      "target_class": "branch",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "สาขา",
+      "target_class": "branch",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "점",
+      "target_class": "branch",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "멤버십 등록 지점",
+      "target_class": "membership_register_branch",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "멤버십 등록",
+      "target_class": "membership_register_branch",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "회원 등록",
+      "target_class": "membership_register_branch",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "등록 정보",
+      "target_class": "membership_register_branch",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "멤버십 등록 정보",
+      "target_class": "membership_register_branch",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "회원 등록 기록",
+      "target_class": "membership_register_branch",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구매 기록",
+      "target_class": "purchase",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 ID",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 번호",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구분자",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구분",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구분자 ID",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 구분자",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 번호",
+      "target_class": "member",
+      "target_property": "member_Card_Number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드번호",
+      "target_class": "member",
+      "target_property": "member_Card_Number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 넘버",
+      "target_class": "member",
+      "target_property": "member_Card_Number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "메모리카드 번호",
+      "target_class": "member",
+      "target_property": "member_Card_Number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 카드 번호",
+      "target_class": "member",
+      "target_property": "member_Card_Number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 카드 번호",
+      "target_class": "member",
+      "target_property": "member_Card_Number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "member",
+      "target_property": "member_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "hometown",
+      "target_class": "member",
+      "target_property": "member_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출신지",
+      "target_class": "member",
+      "target_property": "member_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "현지",
+      "target_class": "member",
+      "target_property": "member_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원산지",
+      "target_class": "member",
+      "target_property": "member_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름이 있는 곳",
+      "target_class": "member",
+      "target_property": "member_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생지",
+      "target_class": "member",
+      "target_property": "member_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "member",
+      "target_property": "member_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원래 곳",
+      "target_class": "member",
+      "target_property": "member_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전역",
+      "target_class": "member",
+      "target_property": "member_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "level",
+      "target_class": "member",
+      "target_property": "member_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "member",
+      "target_property": "member_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레벨",
+      "target_class": "member",
+      "target_property": "member_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 수준",
+      "target_class": "member",
+      "target_property": "member_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 정보",
+      "target_class": "member",
+      "target_property": "member_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레벨 등급",
+      "target_class": "member",
+      "target_property": "member_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 상태",
+      "target_class": "member",
+      "target_property": "member_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 차트",
+      "target_class": "member",
+      "target_property": "member_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레벨 계층",
+      "target_class": "member",
+      "target_property": "member_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 ID",
+      "target_class": "branch",
+      "target_property": "branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜치 ID",
+      "target_class": "branch",
+      "target_property": "branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜치 식별 번호",
+      "target_class": "branch",
+      "target_property": "branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜치 고유 번호",
+      "target_class": "branch",
+      "target_property": "branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "branch",
+      "target_property": "branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Branch_ID",
+      "target_class": "branch",
+      "target_property": "branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜치 코드",
+      "target_class": "branch",
+      "target_property": "branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜치 번호",
+      "target_class": "branch",
+      "target_property": "branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별자",
+      "target_class": "branch",
+      "target_property": "branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "branch",
+      "target_property": "branch_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜치 이름",
+      "target_class": "branch",
+      "target_property": "branch_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명칭",
+      "target_class": "branch",
+      "target_property": "branch_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 이름",
+      "target_class": "branch",
+      "target_property": "branch_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점명",
+      "target_class": "branch",
+      "target_property": "branch_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명",
+      "target_class": "branch",
+      "target_property": "branch_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개업 연도",
+      "target_class": "branch",
+      "target_property": "branch_Open_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개설년도",
+      "target_class": "branch",
+      "target_property": "branch_Open_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 시작 연도",
+      "target_class": "branch",
+      "target_property": "branch_Open_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개점 연도",
+      "target_class": "branch",
+      "target_property": "branch_Open_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개장 연도",
+      "target_class": "branch",
+      "target_property": "branch_Open_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 시작년도",
+      "target_class": "branch",
+      "target_property": "branch_Open_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개설 연도",
+      "target_class": "branch",
+      "target_property": "branch_Open_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜치 개설년도",
+      "target_class": "branch",
+      "target_property": "branch_Open_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 도로",
+      "target_class": "branch",
+      "target_property": "branch_Address_road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도로 주소",
+      "target_class": "branch",
+      "target_property": "branch_Address_road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소로",
+      "target_class": "branch",
+      "target_property": "branch_Address_road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도로 이름",
+      "target_class": "branch",
+      "target_property": "branch_Address_road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Address_road",
+      "target_class": "branch",
+      "target_property": "branch_Address_road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도로 주소 정보",
+      "target_class": "branch",
+      "target_property": "branch_Address_road",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시",
+      "target_class": "branch",
+      "target_property": "branch_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "branch",
+      "target_property": "branch_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 이름",
+      "target_class": "branch",
+      "target_property": "branch_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명",
+      "target_class": "branch",
+      "target_property": "branch_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 정보",
+      "target_class": "branch",
+      "target_property": "branch_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "City",
+      "target_class": "branch",
+      "target_property": "branch_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 수",
+      "target_class": "branch",
+      "target_property": "branch_membership_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가입 금액",
+      "target_class": "branch",
+      "target_property": "branch_membership_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 비용",
+      "target_class": "branch",
+      "target_property": "branch_membership_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 요금",
+      "target_class": "branch",
+      "target_property": "branch_membership_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "membership_amount",
+      "target_class": "branch",
+      "target_property": "branch_membership_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가입 비용",
+      "target_class": "branch",
+      "target_property": "branch_membership_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 수수료",
+      "target_class": "branch",
+      "target_property": "branch_membership_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멤버 아이디",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 ID",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 번호",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 고유 번호",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Member_ID",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 식별자",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 코드",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 아이디",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 ID",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 번호",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Branch_ID",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 식별자",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 코드",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 고유 번호",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 식별",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 연도",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Register_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 년도",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Register_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Register_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Register_Year",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Register_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 연도 정보",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Register_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 년도 코드",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Register_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 연도 식별",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Register_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 ID",
+      "target_class": "purchase",
+      "target_property": "purchase_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 번호",
+      "target_class": "purchase",
+      "target_property": "purchase_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구매자 ID",
+      "target_class": "purchase",
+      "target_property": "purchase_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Member_ID",
+      "target_class": "purchase",
+      "target_property": "purchase_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 식별자",
+      "target_class": "purchase",
+      "target_property": "purchase_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구매자 식별자",
+      "target_class": "purchase",
+      "target_property": "purchase_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점 ID",
+      "target_class": "purchase",
+      "target_property": "purchase_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜치 ID",
+      "target_class": "purchase",
+      "target_property": "purchase_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 ID",
+      "target_class": "purchase",
+      "target_property": "purchase_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 번호",
+      "target_class": "purchase",
+      "target_property": "purchase_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Branch_ID",
+      "target_class": "purchase",
+      "target_property": "purchase_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 식별자",
+      "target_class": "purchase",
+      "target_property": "purchase_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜치 식별자",
+      "target_class": "purchase",
+      "target_property": "purchase_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 코드",
+      "target_class": "purchase",
+      "target_property": "purchase_Branch_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "purchase",
+      "target_property": "purchase_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구매 년도",
+      "target_class": "purchase",
+      "target_property": "purchase_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 정보",
+      "target_class": "purchase",
+      "target_property": "purchase_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Year",
+      "target_class": "purchase",
+      "target_property": "purchase_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 기록",
+      "target_class": "purchase",
+      "target_property": "purchase_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 파운드",
+      "target_class": "purchase",
+      "target_property": "purchase_Total_pounds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 금액",
+      "target_class": "purchase",
+      "target_property": "purchase_Total_pounds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구매 금액",
+      "target_class": "purchase",
+      "target_property": "purchase_Total_pounds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 비용",
+      "target_class": "purchase",
+      "target_property": "purchase_Total_pounds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 구매 금액",
+      "target_class": "purchase",
+      "target_property": "purchase_Total_pounds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Total_pounds",
+      "target_class": "purchase",
+      "target_property": "purchase_Total_pounds",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "1234-5678",
+      "target_class": "member",
+      "target_property": "member_Card_Number",
+      "value": "1234-5678"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울지점",
+      "target_class": "branch",
+      "target_property": "branch_Name",
+      "value": "서울지점"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산지점",
+      "target_class": "branch",
+      "target_property": "branch_Name",
+      "value": "부산지점"
+    },
+    {
+      "entry_type": "value",
+      "key": "2010",
+      "target_class": "branch",
+      "target_property": "branch_Open_year",
+      "value": "2010"
+    },
+    {
+      "entry_type": "value",
+      "key": "2015",
+      "target_class": "branch",
+      "target_property": "branch_Open_year",
+      "value": "2015"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시 강남구 강남대로",
+      "target_class": "branch",
+      "target_property": "branch_Address_road",
+      "value": "서울시 강남구 강남대로"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "branch",
+      "target_property": "branch_City",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "branch",
+      "target_property": "branch_City",
+      "value": "부산"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Register_Year",
+      "value": "2023"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Register_Year",
+      "value": "2023"
+    },
+    {
+      "entry_type": "value",
+      "key": "2022",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Register_Year",
+      "value": "2022"
+    },
+    {
+      "entry_type": "value",
+      "key": "2022년",
+      "target_class": "membership_register_branch",
+      "target_property": "membership_register_branch_Register_Year",
+      "value": "2022"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023",
+      "target_class": "purchase",
+      "target_property": "purchase_Year",
+      "value": "2023"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년",
+      "target_class": "purchase",
+      "target_property": "purchase_Year",
+      "value": "2023"
+    },
+    {
+      "entry_type": "value",
+      "key": "2022",
+      "target_class": "purchase",
+      "target_property": "purchase_Year",
+      "value": "2022"
+    },
+    {
+      "entry_type": "value",
+      "key": "2022년",
+      "target_class": "purchase",
+      "target_property": "purchase_Year",
+      "value": "2022"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "class_table": {
+    "Customers": "Customers",
+    "Services": "Services",
+    "Available_Policies": "Available_Policies",
+    "Customers_Policies": "Customers_Policies",
+    "First_Notification_of_Loss": "First_Notification_of_Loss",
+    "Claims": "Claims",
+    "Settlements": "Settlements"
+  },
+  "property_column": {
+    "Customers_Customer_ID": [
+      "Customers",
+      "Customer_ID"
+    ],
+    "Customers_Customer_name": [
+      "Customers",
+      "Customer_name"
+    ],
+    "Services_Service_ID": [
+      "Services",
+      "Service_ID"
+    ],
+    "Services_Service_name": [
+      "Services",
+      "Service_name"
+    ],
+    "Available_Policies_Policy_ID": [
+      "Available_Policies",
+      "Policy_ID"
+    ],
+    "Available_Policies_policy_type_code": [
+      "Available_Policies",
+      "policy_type_code"
+    ],
+    "Available_Policies_Customer_Phone": [
+      "Available_Policies",
+      "Customer_Phone"
+    ],
+    "Customers_Policies_Customer_ID": [
+      "Customers_Policies",
+      "Customer_ID"
+    ],
+    "Customers_Policies_Policy_ID": [
+      "Customers_Policies",
+      "Policy_ID"
+    ],
+    "Customers_Policies_Date_Opened": [
+      "Customers_Policies",
+      "Date_Opened"
+    ],
+    "Customers_Policies_Date_Closed": [
+      "Customers_Policies",
+      "Date_Closed"
+    ],
+    "First_Notification_of_Loss_FNOL_ID": [
+      "First_Notification_of_Loss",
+      "FNOL_ID"
+    ],
+    "First_Notification_of_Loss_Customer_ID": [
+      "First_Notification_of_Loss",
+      "Customer_ID"
+    ],
+    "First_Notification_of_Loss_Policy_ID": [
+      "First_Notification_of_Loss",
+      "Policy_ID"
+    ],
+    "First_Notification_of_Loss_Service_ID": [
+      "First_Notification_of_Loss",
+      "Service_ID"
+    ],
+    "Claims_Claim_ID": [
+      "Claims",
+      "Claim_ID"
+    ],
+    "Claims_FNOL_ID": [
+      "Claims",
+      "FNOL_ID"
+    ],
+    "Claims_Effective_Date": [
+      "Claims",
+      "Effective_Date"
+    ],
+    "Settlements_Settlement_ID": [
+      "Settlements",
+      "Settlement_ID"
+    ],
+    "Settlements_Claim_ID": [
+      "Settlements",
+      "Claim_ID"
+    ],
+    "Settlements_Effective_Date": [
+      "Settlements",
+      "Effective_Date"
+    ],
+    "Settlements_Settlement_Amount": [
+      "Settlements",
+      "Settlement_Amount"
+    ]
+  },
+  "object_property_fk": {
+    "Customers_Policies_Available_Policies_fk0": [
+      "Customers_Policies.Policy_ID",
+      "Available_Policies.Policy_ID"
+    ],
+    "Customers_Policies_Customers_fk1": [
+      "Customers_Policies.Customer_ID",
+      "Customers.Customer_ID"
+    ],
+    "First_Notification_of_Loss_Customers_Policies_fk2": [
+      "First_Notification_of_Loss.Customer_ID",
+      "Customers_Policies.Customer_ID"
+    ],
+    "First_Notification_of_Loss_Customers_Policies_fk3": [
+      "First_Notification_of_Loss.Policy_ID",
+      "Customers_Policies.Policy_ID"
+    ],
+    "First_Notification_of_Loss_Services_fk4": [
+      "First_Notification_of_Loss.Service_ID",
+      "Services.Service_ID"
+    ],
+    "Claims_First_Notification_of_Loss_fk5": [
+      "Claims.FNOL_ID",
+      "First_Notification_of_Loss.FNOL_ID"
+    ],
+    "Settlements_Claims_fk6": [
+      "Settlements.Claim_ID",
+      "Claims.Claim_ID"
+    ]
+  }
+}

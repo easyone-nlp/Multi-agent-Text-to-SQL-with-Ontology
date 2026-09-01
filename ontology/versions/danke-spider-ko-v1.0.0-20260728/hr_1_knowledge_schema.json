@@ -1,0 +1,948 @@
+{
+  "db_id": "hr_1",
+  "classes": [
+    {
+      "name": "regions",
+      "source_table": "regions",
+      "ranking": 1.0,
+      "primary_label": "지역",
+      "synonyms": [
+        "지역",
+        "지역코드",
+        "지역정보",
+        "지역그룹",
+        "지역구분",
+        "지역코드표",
+        "지역분류",
+        "지역구역"
+      ]
+    },
+    {
+      "name": "countries",
+      "source_table": "countries",
+      "ranking": 3.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "국가코드",
+        "국가정보",
+        "국가목록",
+        "국가코드표",
+        "국가분류",
+        "국가그룹",
+        "국가리스트"
+      ]
+    },
+    {
+      "name": "departments",
+      "source_table": "departments",
+      "ranking": 3.0,
+      "primary_label": "부서",
+      "synonyms": [
+        "부서",
+        "부서코드",
+        "부서정보",
+        "부서목록",
+        "부서코드표",
+        "부서분류",
+        "부서그룹",
+        "부서리스트"
+      ]
+    },
+    {
+      "name": "jobs",
+      "source_table": "jobs",
+      "ranking": 3.0,
+      "primary_label": "직무",
+      "synonyms": [
+        "직무",
+        "직책",
+        "직업",
+        "업무",
+        "직무코드",
+        "직무분류",
+        "직무목록",
+        "직무리스트"
+      ]
+    },
+    {
+      "name": "employees",
+      "source_table": "employees",
+      "ranking": 3.5,
+      "primary_label": "사원",
+      "synonyms": [
+        "직원",
+        "사원",
+        "직원정보",
+        "인력",
+        "인사",
+        "직원목록",
+        "직원리스트",
+        "직원데이터"
+      ]
+    },
+    {
+      "name": "job_history",
+      "source_table": "job_history",
+      "ranking": 3.5,
+      "primary_label": "직무 기록",
+      "synonyms": [
+        "직무이력",
+        "직무변경기록",
+        "직무이력서",
+        "직무변경이력",
+        "직무이력정보",
+        "직무이력리스트",
+        "직무변경내역"
+      ]
+    },
+    {
+      "name": "locations",
+      "source_table": "locations",
+      "ranking": 1.0,
+      "primary_label": "locations",
+      "synonyms": [
+        "직장 위치",
+        "근무지",
+        "사무실 위치",
+        "근무 장소",
+        "근무 위치",
+        "직원 위치",
+        "부서 위치"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "regions_REGION_ID",
+      "domain": "regions",
+      "source_table": "regions",
+      "source_column": "REGION_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "지역 ID",
+      "synonyms": [
+        "REGION_ID",
+        "지역 ID",
+        "지역 번호",
+        "구역 번호",
+        "지역 식별자",
+        "구역 ID",
+        "지역 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "regions_REGION_NAME",
+      "domain": "regions",
+      "source_table": "regions",
+      "source_column": "REGION_NAME",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "지역 이름",
+      "synonyms": [
+        "REGION_NAME",
+        "지역 이름",
+        "구역 이름",
+        "지역명",
+        "구역명",
+        "지역 타이틀",
+        "지역 제목"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "부산": [
+          "부산"
+        ],
+        "인천": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "countries_COUNTRY_ID",
+      "domain": "countries",
+      "source_table": "countries",
+      "source_column": "COUNTRY_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.5,
+      "primary_label": "국가 id",
+      "synonyms": [
+        "국가 코드",
+        "국가 ID",
+        "COUNTRY_ID",
+        "국가 식별자",
+        "국가 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "countries_COUNTRY_NAME",
+      "domain": "countries",
+      "source_table": "countries",
+      "source_column": "COUNTRY_NAME",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "국가 이름",
+      "synonyms": [
+        "국가 이름",
+        "나라 이름",
+        "국가명",
+        "국가",
+        "국가명칭",
+        "COUNTRY_NAME"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "대한민국"
+        ],
+        "미국": [
+          "미국"
+        ],
+        "중국": [
+          "중국"
+        ]
+      }
+    },
+    {
+      "name": "countries_REGION_ID",
+      "domain": "countries",
+      "source_table": "countries",
+      "source_column": "REGION_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "지역 id",
+      "synonyms": [
+        "지역 ID",
+        "지역 번호",
+        "지역코드",
+        "REGION_ID",
+        "지역 식별자",
+        "지역"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "departments_DEPARTMENT_ID",
+      "domain": "departments",
+      "source_table": "departments",
+      "source_column": "DEPARTMENT_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "부서 id",
+      "synonyms": [
+        "DEPARTMENT_ID",
+        "department number",
+        "dept id",
+        "department code",
+        "dept number",
+        "department identifier",
+        "department key"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "departments_DEPARTMENT_NAME",
+      "domain": "departments",
+      "source_table": "departments",
+      "source_column": "DEPARTMENT_NAME",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "부서 이름",
+      "synonyms": [
+        "부서 이름",
+        "팀 이름",
+        "사원 부서",
+        "팀명",
+        "department name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "영업부": [
+          "영업부"
+        ],
+        "인사부": [
+          "인사부"
+        ]
+      }
+    },
+    {
+      "name": "departments_MANAGER_ID",
+      "domain": "departments",
+      "source_table": "departments",
+      "source_column": "MANAGER_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "관리자 id",
+      "synonyms": [
+        "관리자 ID",
+        "매니저 ID",
+        "관리자 번호",
+        "매니저 아이디",
+        "manager id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "departments_LOCATION_ID",
+      "domain": "departments",
+      "source_table": "departments",
+      "source_column": "LOCATION_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "위치 id",
+      "synonyms": [
+        "지역 식별자",
+        "위치 코드",
+        "지역 ID",
+        "위치 번호",
+        "지역 코드",
+        "LOCATION_ID",
+        "위치 식별자",
+        "지역 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "jobs_JOB_ID",
+      "domain": "jobs",
+      "source_table": "jobs",
+      "source_column": "JOB_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "직무 ID",
+      "synonyms": [
+        "JOB_ID",
+        "직무ID",
+        "직무코드",
+        "직무번호",
+        "직무 식별자",
+        "직무키"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "jobs_JOB_TITLE",
+      "domain": "jobs",
+      "source_table": "jobs",
+      "source_column": "JOB_TITLE",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "직무 제목",
+      "synonyms": [
+        "JOB_TITLE",
+        "직무명",
+        "직무제목",
+        "직무이름",
+        "직무",
+        "직업명",
+        "직책"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "개발자": [
+          "개발자"
+        ],
+        "관리자": [
+          "관리자"
+        ],
+        "영업사원": [
+          "영업사원"
+        ]
+      }
+    },
+    {
+      "name": "jobs_MIN_SALARY",
+      "domain": "jobs",
+      "source_table": "jobs",
+      "source_column": "MIN_SALARY",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "최소 급여",
+      "synonyms": [
+        "MIN_SALARY",
+        "최소급여",
+        "최저급여",
+        "최소급여액",
+        "최저보상",
+        "급여 최소값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "jobs_MAX_SALARY",
+      "domain": "jobs",
+      "source_table": "jobs",
+      "source_column": "MAX_SALARY",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "최대 급여",
+      "synonyms": [
+        "최대 급여",
+        "최대 월급",
+        "급여 최대액",
+        "최대 급여 금액",
+        "MAX_SALARY",
+        "최대 월급 금액",
+        "급여 상한",
+        "월급 최대값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employees_EMPLOYEE_ID",
+      "domain": "employees",
+      "source_table": "employees",
+      "source_column": "EMPLOYEE_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "사원 ID",
+      "synonyms": [
+        "직원 ID",
+        "사원 번호",
+        "직원 번호",
+        "사원 ID",
+        "EMPLOYEE_ID",
+        "직원 고유 ID",
+        "사원 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employees_FIRST_NAME",
+      "domain": "employees",
+      "source_table": "employees",
+      "source_column": "FIRST_NAME",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employees_LAST_NAME",
+      "domain": "employees",
+      "source_table": "employees",
+      "source_column": "LAST_NAME",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성명",
+      "synonyms": [
+        "성",
+        "이름",
+        "성명",
+        "성별",
+        "성자",
+        "성부",
+        "성칭",
+        "성정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employees_EMAIL",
+      "domain": "employees",
+      "source_table": "employees",
+      "source_column": "EMAIL",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "이메일",
+      "synonyms": [
+        "이메일",
+        "이메일 주소",
+        "메일",
+        "전자우편",
+        "e-mail",
+        "메일주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employees_PHONE_NUMBER",
+      "domain": "employees",
+      "source_table": "employees",
+      "source_column": "PHONE_NUMBER",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "전화번호",
+      "synonyms": [
+        "전화번호",
+        "전화",
+        "연락처",
+        "전화번호 정보",
+        "연락처 번호",
+        "전화번호 데이터",
+        "연락처 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employees_HIRE_DATE",
+      "domain": "employees",
+      "source_table": "employees",
+      "source_column": "HIRE_DATE",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "입사일",
+      "synonyms": [
+        "채용일",
+        "입사일",
+        "채용 날짜",
+        "입사 날짜",
+        "입사일자",
+        "채용일자",
+        "입사일자 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employees_JOB_ID",
+      "domain": "employees",
+      "source_table": "employees",
+      "source_column": "JOB_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "직무 ID",
+      "synonyms": [
+        "JOB_ID",
+        "직무코드",
+        "직무",
+        "직책",
+        "직무ID",
+        "직무번호",
+        "직책코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employees_SALARY",
+      "domain": "employees",
+      "source_table": "employees",
+      "source_column": "SALARY",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "급여",
+      "synonyms": [
+        "SALARY",
+        "급여",
+        "월급",
+        "소득",
+        "임금",
+        "급여액",
+        "보너스"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employees_COMMISSION_PCT",
+      "domain": "employees",
+      "source_table": "employees",
+      "source_column": "COMMISSION_PCT",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "보상률",
+      "synonyms": [
+        "COMMISSION_PCT",
+        "수수료율",
+        "수수료 비율",
+        "수수료",
+        "수수료 비율 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employees_MANAGER_ID",
+      "domain": "employees",
+      "source_table": "employees",
+      "source_column": "MANAGER_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "매니저 ID",
+      "synonyms": [
+        "MANAGER_ID",
+        "상사 ID",
+        "관리자 ID",
+        "상사 번호",
+        "관리자 번호",
+        "상사의 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employees_DEPARTMENT_ID",
+      "domain": "employees",
+      "source_table": "employees",
+      "source_column": "DEPARTMENT_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "부서 ID",
+      "synonyms": [
+        "DEPARTMENT_ID",
+        "부서 ID",
+        "소속 부서 ID",
+        "부서 번호",
+        "소속 부서의 ID",
+        "소속 부서"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "job_history_EMPLOYEE_ID",
+      "domain": "job_history",
+      "source_table": "job_history",
+      "source_column": "EMPLOYEE_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "직원 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "job_history_START_DATE",
+      "domain": "job_history",
+      "source_table": "job_history",
+      "source_column": "START_DATE",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 3.0,
+      "primary_label": "시작 일자",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "job_history_END_DATE",
+      "domain": "job_history",
+      "source_table": "job_history",
+      "source_column": "END_DATE",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 3.0,
+      "primary_label": "종료 일자",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "job_history_JOB_ID",
+      "domain": "job_history",
+      "source_table": "job_history",
+      "source_column": "JOB_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "직무 ID",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "job_history_DEPARTMENT_ID",
+      "domain": "job_history",
+      "source_table": "job_history",
+      "source_column": "DEPARTMENT_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "부서 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "locations_LOCATION_ID",
+      "domain": "locations",
+      "source_table": "locations",
+      "source_column": "LOCATION_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "location id",
+      "synonyms": [
+        "지역 ID",
+        "위치 ID",
+        "LOCATION_ID",
+        "위치 식별자",
+        "지역 번호",
+        "식별 번호",
+        "지역 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "locations_STREET_ADDRESS",
+      "domain": "locations",
+      "source_table": "locations",
+      "source_column": "STREET_ADDRESS",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "street address",
+      "synonyms": [
+        "거리 주소",
+        "주소",
+        "STREET_ADDRESS",
+        "주소 정보",
+        "도로 주소",
+        "주소지"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "locations_POSTAL_CODE",
+      "domain": "locations",
+      "source_table": "locations",
+      "source_column": "POSTAL_CODE",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "postal code",
+      "synonyms": [
+        "우편번호",
+        "POSTAL_CODE",
+        "우편 코드",
+        "우편 번호 정보",
+        "우편 코드 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "locations_CITY",
+      "domain": "locations",
+      "source_table": "locations",
+      "source_column": "CITY",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "city",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "locations_STATE_PROVINCE",
+      "domain": "locations",
+      "source_table": "locations",
+      "source_column": "STATE_PROVINCE",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "state province",
+      "synonyms": [
+        "주",
+        "주소",
+        "도시",
+        "지역",
+        "주 번호",
+        "주 이름",
+        "주 소재지",
+        "주 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "locations_COUNTRY_ID",
+      "domain": "locations",
+      "source_table": "locations",
+      "source_column": "COUNTRY_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "country id",
+      "synonyms": [
+        "국가 코드",
+        "국가 식별자",
+        "국가 ID",
+        "국가 코드 값",
+        "국가 번호",
+        "국가 코드 정보",
+        "국가 ID 값",
+        "국가 코드 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "countries_regions_fk0",
+      "domain": "countries",
+      "range": "regions",
+      "source_fk": [
+        "countries.REGION_ID",
+        "regions.REGION_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "employees_jobs_fk1",
+      "domain": "employees",
+      "range": "jobs",
+      "source_fk": [
+        "employees.JOB_ID",
+        "jobs.JOB_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "employees_departments_fk2",
+      "domain": "employees",
+      "range": "departments",
+      "source_fk": [
+        "employees.DEPARTMENT_ID",
+        "departments.DEPARTMENT_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "job_history_jobs_fk3",
+      "domain": "job_history",
+      "range": "jobs",
+      "source_fk": [
+        "job_history.JOB_ID",
+        "jobs.JOB_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "job_history_departments_fk4",
+      "domain": "job_history",
+      "range": "departments",
+      "source_fk": [
+        "job_history.DEPARTMENT_ID",
+        "departments.DEPARTMENT_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "job_history_employees_fk5",
+      "domain": "job_history",
+      "range": "employees",
+      "source_fk": [
+        "job_history.EMPLOYEE_ID",
+        "employees.EMPLOYEE_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "locations_countries_fk6",
+      "domain": "locations",
+      "range": "countries",
+      "source_fk": [
+        "locations.COUNTRY_ID",
+        "countries.COUNTRY_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

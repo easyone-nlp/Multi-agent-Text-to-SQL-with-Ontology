@@ -1,0 +1,303 @@
+{
+  "db_id": "course_teach",
+  "classes": [
+    {
+      "name": "course",
+      "source_table": "course",
+      "ranking": 3.0,
+      "primary_label": "course",
+      "synonyms": [
+        "강의",
+        "수업",
+        "강의 과정",
+        "강의 내용",
+        "강의 일정"
+      ]
+    },
+    {
+      "name": "teacher",
+      "source_table": "teacher",
+      "ranking": 3.5,
+      "primary_label": "교사",
+      "synonyms": [
+        "강사",
+        "교수",
+        "강사 정보",
+        "강사 목록",
+        "강사 데이터"
+      ]
+    },
+    {
+      "name": "course_arrange",
+      "source_table": "course_arrange",
+      "ranking": 3.0,
+      "primary_label": "course arrange",
+      "synonyms": [
+        "강의 일정",
+        "수업 일정",
+        "강의 배치",
+        "강의 일정 관리",
+        "강의 일정 설정"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "course_Course_ID",
+      "domain": "course",
+      "source_table": "course",
+      "source_column": "Course_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "course id",
+      "synonyms": [
+        "강좌 코드",
+        "강좌 번호",
+        "강좌 식별자",
+        "강좌 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "course_Staring_Date",
+      "domain": "course",
+      "source_table": "course",
+      "source_column": "Staring_Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "staring date",
+      "synonyms": [
+        "시작 날짜",
+        "시작일",
+        "강좌 시작일",
+        "시작일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "course_Course",
+      "domain": "course",
+      "source_table": "course",
+      "source_column": "Course",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "course",
+      "synonyms": [
+        "강좌 이름",
+        "강좌 제목",
+        "강좌명",
+        "강좌 타이틀"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "teacher_Teacher_ID",
+      "domain": "teacher",
+      "source_table": "teacher",
+      "source_column": "Teacher_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "교사 ID",
+      "synonyms": [
+        "교사 고유 ID",
+        "교사 번호",
+        "교사 코드",
+        "교사 식별자",
+        "교사 고유번호",
+        "교사 ID",
+        "교사 식별번호",
+        "교사 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "teacher_Name",
+      "domain": "teacher",
+      "source_table": "teacher",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "박지현": [
+          "박지현"
+        ]
+      }
+    },
+    {
+      "name": "teacher_Age",
+      "domain": "teacher",
+      "source_table": "teacher",
+      "source_column": "Age",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "나이",
+      "synonyms": [
+        "연령",
+        "나이대",
+        "생년월일",
+        "출생년도",
+        "연령대",
+        "나이 정보",
+        "연령 정보",
+        "생년"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "teacher_Hometown",
+      "domain": "teacher",
+      "source_table": "teacher",
+      "source_column": "Hometown",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "출신지",
+      "synonyms": [
+        "출신지",
+        "본적",
+        "출생지",
+        "등록지",
+        "도시",
+        "지역"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "인천": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "course_arrange_Course_ID",
+      "domain": "course_arrange",
+      "source_table": "course_arrange",
+      "source_column": "Course_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "course id",
+      "synonyms": [
+        "강의 코드",
+        "강의 번호",
+        "강의 식별자",
+        "강의 ID",
+        "강의 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "course_arrange_Teacher_ID",
+      "domain": "course_arrange",
+      "source_table": "course_arrange",
+      "source_column": "Teacher_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "teacher id",
+      "synonyms": [
+        "강사 코드",
+        "강사 번호",
+        "강사 식별자",
+        "강사 ID",
+        "강사 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "course_arrange_Grade",
+      "domain": "course_arrange",
+      "source_table": "course_arrange",
+      "source_column": "Grade",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "grade",
+      "synonyms": [
+        "등급",
+        "등급 정보",
+        "강의 등급",
+        "등급 코드",
+        "등급 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "1학년",
+          "1학기"
+        ],
+        "2": [
+          "2학년",
+          "2학기"
+        ],
+        "3": [
+          "3학년",
+          "3학기"
+        ],
+        "4": [
+          "4학년",
+          "4학기"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "course_arrange_teacher_fk0",
+      "domain": "course_arrange",
+      "range": "teacher",
+      "source_fk": [
+        "course_arrange.Teacher_ID",
+        "teacher.Teacher_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "담당",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "course_arrange_course_fk1",
+      "domain": "course_arrange",
+      "range": "course",
+      "source_fk": [
+        "course_arrange.Course_ID",
+        "course.Course_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "강의 연결",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

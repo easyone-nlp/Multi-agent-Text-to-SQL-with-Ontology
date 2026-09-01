@@ -1,0 +1,1479 @@
+{
+  "db_id": "college_2",
+  "classes": [
+    {
+      "name": "classroom",
+      "source_table": "classroom",
+      "ranking": 3.0,
+      "primary_label": "강의실",
+      "synonyms": [
+        "강의실",
+        "강의실 정보",
+        "강의실 목록",
+        "강의실 데이터",
+        "강의실 위치"
+      ]
+    },
+    {
+      "name": "department",
+      "source_table": "department",
+      "ranking": 3.0,
+      "primary_label": "부서 이름",
+      "synonyms": [
+        "학과",
+        "학과 정보",
+        "학과 목록",
+        "학과 데이터",
+        "학과 구성"
+      ]
+    },
+    {
+      "name": "course",
+      "source_table": "course",
+      "ranking": 3.0,
+      "primary_label": "강좌",
+      "synonyms": [
+        "강의 과정",
+        "강의 과정 정보",
+        "강의 과정 목록",
+        "강의 과정 데이터",
+        "강의 과정 설정"
+      ]
+    },
+    {
+      "name": "instructor",
+      "source_table": "instructor",
+      "ranking": 3.0,
+      "primary_label": "강사",
+      "synonyms": [
+        "강사",
+        "교수",
+        "강사 정보",
+        "강사 목록",
+        "강사 데이터"
+      ]
+    },
+    {
+      "name": "section",
+      "source_table": "section",
+      "ranking": 3.5,
+      "primary_label": "강좌 섹션",
+      "synonyms": [
+        "강의실",
+        "강의 섹션",
+        "강의실 정보",
+        "강의실 목록",
+        "강의실 데이터"
+      ]
+    },
+    {
+      "name": "teaches",
+      "source_table": "teaches",
+      "ranking": 3.0,
+      "primary_label": "강의를 가르치는 교수",
+      "synonyms": [
+        "강사-강의실 관계",
+        "강사 강의 관계",
+        "강사-강의실 연결",
+        "강사 강의 연결",
+        "강사 강의 매핑"
+      ]
+    },
+    {
+      "name": "student",
+      "source_table": "student",
+      "ranking": 3.0,
+      "primary_label": "학생",
+      "synonyms": [
+        "학생",
+        "학생 정보",
+        "학생 데이터",
+        "학생 목록"
+      ]
+    },
+    {
+      "name": "takes",
+      "source_table": "takes",
+      "ranking": 3.5,
+      "primary_label": "수강 정보",
+      "synonyms": [
+        "수강",
+        "수강 내역",
+        "수업 참여",
+        "수강 기록",
+        "수업 등록"
+      ]
+    },
+    {
+      "name": "advisor",
+      "source_table": "advisor",
+      "ranking": 3.0,
+      "primary_label": "강사 정보",
+      "synonyms": [
+        "멘토",
+        "지도교수",
+        "멘토링",
+        "지도자",
+        "학습지도자"
+      ]
+    },
+    {
+      "name": "time_slot",
+      "source_table": "time_slot",
+      "ranking": 1.0,
+      "primary_label": "time slot",
+      "synonyms": [
+        "class time",
+        "schedule time",
+        "timing",
+        "slot time",
+        "time period",
+        "class schedule",
+        "timing slot"
+      ]
+    },
+    {
+      "name": "prereq",
+      "source_table": "prereq",
+      "ranking": 1.0,
+      "primary_label": "필수 사전 조건",
+      "synonyms": [
+        "prerequisite course",
+        "course requirement",
+        "pre-requisite",
+        "precondition",
+        "requirement",
+        "pre-req",
+        "precondition course"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "classroom_building",
+      "domain": "classroom",
+      "source_table": "classroom",
+      "source_column": "building",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "건물",
+      "synonyms": [
+        "건물",
+        "건물명",
+        "건물 이름",
+        "실내",
+        "실내 이름",
+        "building",
+        "건물 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "A Building": [
+          "A 건물"
+        ],
+        "B Building": [
+          "B 건물"
+        ]
+      }
+    },
+    {
+      "name": "classroom_room_number",
+      "domain": "classroom",
+      "source_table": "classroom",
+      "source_column": "room_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "실번호",
+      "synonyms": [
+        "실 번호",
+        "방 번호",
+        "강의실 번호",
+        "실 번호 정보",
+        "강의실 번호 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "101": [
+          "101"
+        ],
+        "205": [
+          "205"
+        ]
+      }
+    },
+    {
+      "name": "classroom_capacity",
+      "domain": "classroom",
+      "source_table": "classroom",
+      "source_column": "capacity",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "용량",
+      "synonyms": [
+        "용량",
+        "인원 수",
+        "최대 인원",
+        "용량 수",
+        "수용 인원",
+        "용량 기준",
+        "용량 정보",
+        "용량값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "department_dept_name",
+      "domain": "department",
+      "source_table": "department",
+      "source_column": "dept_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "부서 이름",
+      "synonyms": [
+        "학과 이름",
+        "학과",
+        "학과명",
+        "학부과",
+        "department name",
+        "dept_name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "department_building",
+      "domain": "department",
+      "source_table": "department",
+      "source_column": "building",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "건물",
+      "synonyms": [
+        "건물",
+        "건물 이름",
+        "학교 건물",
+        "건물명",
+        "building",
+        "building name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "department_budget",
+      "domain": "department",
+      "source_table": "department",
+      "source_column": "budget",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "예산",
+      "synonyms": [
+        "예산",
+        "학과 예산",
+        "재정",
+        "재원",
+        "예산 금액",
+        "budget",
+        "budget amount"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "course_course_id",
+      "domain": "course",
+      "source_table": "course",
+      "source_column": "course_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "강좌 ID",
+      "synonyms": [
+        "course_id",
+        "course code",
+        "course number",
+        "class id",
+        "class code",
+        "course identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "course_title",
+      "domain": "course",
+      "source_table": "course",
+      "source_column": "title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "제목",
+      "synonyms": [
+        "title",
+        "course name",
+        "class name",
+        "subject",
+        "subject name",
+        "course title",
+        "class title"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "데이터베이스": [
+          "데이터베이스"
+        ],
+        "프로그래밍": [
+          "프로그래밍"
+        ]
+      }
+    },
+    {
+      "name": "course_dept_name",
+      "domain": "course",
+      "source_table": "course",
+      "source_column": "dept_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "학과 이름",
+      "synonyms": [
+        "dept_name",
+        "department name",
+        "department",
+        "major",
+        "academic department",
+        "department code"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "컴퓨터공학부": [
+          "컴퓨터공학부"
+        ],
+        "경영학부": [
+          "경영학부"
+        ]
+      }
+    },
+    {
+      "name": "course_credits",
+      "domain": "course",
+      "source_table": "course",
+      "source_column": "credits",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "학점",
+      "synonyms": [
+        "학점",
+        "학점수",
+        "학점 정보",
+        "학점량",
+        "학점수치",
+        "학점 개수",
+        "학점 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "instructor_ID",
+      "domain": "instructor",
+      "source_table": "instructor",
+      "source_column": "ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "ID",
+        "교수 번호",
+        "강사 ID",
+        "교수 고유 번호",
+        "교수 코드",
+        "교수 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "instructor_name",
+      "domain": "instructor",
+      "source_table": "instructor",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "강사 이름",
+        "교수 이름",
+        "강사명",
+        "교수명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ]
+      }
+    },
+    {
+      "name": "instructor_dept_name",
+      "domain": "instructor",
+      "source_table": "instructor",
+      "source_column": "dept_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "학과 이름",
+      "synonyms": [
+        "department name",
+        "부서 이름",
+        "학과 이름",
+        "학부대표",
+        "학과",
+        "학문 분야"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "컴퓨터공학부": [
+          "컴퓨터공학부"
+        ]
+      }
+    },
+    {
+      "name": "instructor_salary",
+      "domain": "instructor",
+      "source_table": "instructor",
+      "source_column": "salary",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "임금",
+      "synonyms": [
+        "급여",
+        "보너스",
+        "수입",
+        "급여액",
+        "임금",
+        "수당",
+        "급여금액",
+        "보상금"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "section_course_id",
+      "domain": "section",
+      "source_table": "section",
+      "source_column": "course_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "강좌 id",
+      "synonyms": [
+        "course_id",
+        "course",
+        "class",
+        "subject_id",
+        "course number",
+        "course code",
+        "class code",
+        "subject"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "section_sec_id",
+      "domain": "section",
+      "source_table": "section",
+      "source_column": "sec_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "섹션 id",
+      "synonyms": [
+        "세션 ID",
+        "강의 섹션 ID",
+        "학기별 세션 코드",
+        "세션 식별자",
+        "section id",
+        "sec_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "section_semester",
+      "domain": "section",
+      "source_table": "section",
+      "source_column": "semester",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "학기",
+      "synonyms": [
+        "학기",
+        "학기 정보",
+        "강의 학기",
+        "학기 코드",
+        "semester"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Fall": [
+          "fall",
+          "여름",
+          "겨울"
+        ],
+        "Spring": [
+          "spring",
+          "봄"
+        ]
+      }
+    },
+    {
+      "name": "section_year",
+      "domain": "section",
+      "source_table": "section",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.8,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "학년",
+        "학년도 수치",
+        "년도 정보",
+        "학년도 데이터",
+        "년도 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "section_building",
+      "domain": "section",
+      "source_table": "section",
+      "source_column": "building",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.2,
+      "primary_label": "건물",
+      "synonyms": [
+        "건물",
+        "건물명",
+        "건물 이름",
+        "교실 건물",
+        "건물 코드",
+        "건물명칭",
+        "건물 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "section_room_number",
+      "domain": "section",
+      "source_table": "section",
+      "source_column": "room_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "강의실 번호",
+      "synonyms": [
+        "실번호",
+        "방번호",
+        "강의실 번호",
+        "실번호 정보",
+        "방 번호 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "section_time_slot_id",
+      "domain": "section",
+      "source_table": "section",
+      "source_column": "time_slot_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "시간 슬롯 id",
+      "synonyms": [
+        "시간대 식별자",
+        "시간 구간 ID",
+        "시간표 코드",
+        "시간 구분 식별자",
+        "시간대 코드",
+        "시간표 식별자",
+        "시간대 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "teaches_ID",
+      "domain": "teaches",
+      "source_table": "teaches",
+      "source_column": "ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "ID",
+        "강사 ID",
+        "강사 번호",
+        "강사 코드",
+        "인사 코드",
+        "교수 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "teaches_course_id",
+      "domain": "teaches",
+      "source_table": "teaches",
+      "source_column": "course_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "course id",
+      "synonyms": [
+        "course_id",
+        "과정 ID",
+        "과목 ID",
+        "과정 코드",
+        "과목 코드",
+        "강의 과목 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "teaches_sec_id",
+      "domain": "teaches",
+      "source_table": "teaches",
+      "source_column": "sec_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "section id",
+      "synonyms": [
+        "sec_id",
+        "세션 ID",
+        "섹션 코드",
+        "강의 섹션 ID",
+        "강의 세션 코드",
+        "분반 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "teaches_semester",
+      "domain": "teaches",
+      "source_table": "teaches",
+      "source_column": "semester",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "semester",
+      "synonyms": [
+        "학기",
+        "학기 정보",
+        "학기명",
+        "학기 데이터",
+        "학기 코드",
+        "학기 값",
+        "학기 번호",
+        "학기 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "teaches_year",
+      "domain": "teaches",
+      "source_table": "teaches",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "년도",
+        "년도 정보",
+        "년도 데이터",
+        "년도 코드",
+        "년도 값",
+        "년도 번호",
+        "년도 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "student_ID",
+      "domain": "student",
+      "source_table": "student",
+      "source_column": "ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "ID",
+        "학번",
+        "학번 정보",
+        "학생 고유 ID",
+        "학번 코드",
+        "학번 번호",
+        "학번 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "student_name",
+      "domain": "student",
+      "source_table": "student",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "학생 이름",
+        "이름 정보",
+        "학생 이름 정보",
+        "이름 데이터",
+        "학생 이름 데이터",
+        "이름 필드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "박지현": [
+          "박지현"
+        ]
+      }
+    },
+    {
+      "name": "student_dept_name",
+      "domain": "student",
+      "source_table": "student",
+      "source_column": "dept_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "학과 이름",
+      "synonyms": [
+        "학과 이름",
+        "학과",
+        "학과명",
+        "학과 정보",
+        "학과 이름 정보",
+        "학과 데이터",
+        "학과명 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "컴퓨터공학부": [
+          "컴퓨터공학부"
+        ],
+        "경영학부": [
+          "경영학부"
+        ]
+      }
+    },
+    {
+      "name": "student_tot_cred",
+      "domain": "student",
+      "source_table": "student",
+      "source_column": "tot_cred",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "총 학점",
+      "synonyms": [
+        "총 학점",
+        "학점 총량",
+        "학점 합계",
+        "학점 총계",
+        "학점 누적",
+        "tot_cred",
+        "총 졸업 학점"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "takes_ID",
+      "domain": "takes",
+      "source_table": "takes",
+      "source_column": "ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "ID",
+        "학번",
+        "학생 ID",
+        "학번 정보",
+        "학생 식별 번호",
+        "학번 코드",
+        "학생 고유 ID",
+        "학번 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "takes_course_id",
+      "domain": "takes",
+      "source_table": "takes",
+      "source_column": "course_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "course id",
+      "synonyms": [
+        "course_id",
+        "course",
+        "class",
+        "subject",
+        "course number",
+        "course code",
+        "class code",
+        "subject id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "takes_sec_id",
+      "domain": "takes",
+      "source_table": "takes",
+      "source_column": "sec_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "section id",
+      "synonyms": [
+        "sec_id",
+        "section",
+        "section id",
+        "class section",
+        "section code",
+        "section number",
+        "section identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "takes_semester",
+      "domain": "takes",
+      "source_table": "takes",
+      "source_column": "semester",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "학기",
+      "synonyms": [
+        "학기",
+        "학기 정보",
+        "학기명",
+        "학기 코드",
+        "학기 데이터",
+        "학기 번호",
+        "학기 구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "takes_year",
+      "domain": "takes",
+      "source_table": "takes",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "학년",
+      "synonyms": [
+        "년도",
+        "학년도",
+        "학년도 정보",
+        "년도 데이터",
+        "년도 코드",
+        "학년도 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "takes_grade",
+      "domain": "takes",
+      "source_table": "takes",
+      "source_column": "grade",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "학점",
+      "synonyms": [
+        "성적",
+        "성적 정보",
+        "성적 데이터",
+        "성적 코드",
+        "성적 결과",
+        "성적 구분",
+        "성적 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "A": [
+          "A+",
+          "A"
+        ],
+        "B": [
+          "B+",
+          "B"
+        ],
+        "C": [
+          "C+",
+          "C"
+        ],
+        "D": [
+          "D+",
+          "D"
+        ],
+        "F": [
+          "F"
+        ]
+      }
+    },
+    {
+      "name": "advisor_s_ID",
+      "domain": "advisor",
+      "source_table": "advisor",
+      "source_column": "s_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "s_ID",
+        "학생 ID",
+        "학번",
+        "학생 식별자",
+        "학생 코드",
+        "학번 정보",
+        "학생 식별 번호",
+        "학번 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "advisor_i_ID",
+      "domain": "advisor",
+      "source_table": "advisor",
+      "source_column": "i_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "강사 ID",
+      "synonyms": [
+        "i_ID",
+        "교수 ID",
+        "교수 코드",
+        "교수 식별자",
+        "교수 식별 번호",
+        "교수 아이디",
+        "교수 번호",
+        "교수 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "time_slot_time_slot_id",
+      "domain": "time_slot",
+      "source_table": "time_slot",
+      "source_column": "time_slot_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "time slot id",
+      "synonyms": [
+        "time_slot_id",
+        "시간 스로트 ID",
+        "시간 구간 식별자",
+        "TSID",
+        "시간 구간 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "time_slot_day",
+      "domain": "time_slot",
+      "source_table": "time_slot",
+      "source_column": "day",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "day",
+      "synonyms": [
+        "day",
+        "요일",
+        "시간 스로트 요일",
+        "일",
+        "요일 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "time_slot_start_hr",
+      "domain": "time_slot",
+      "source_table": "time_slot",
+      "source_column": "start_hr",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "start hour",
+      "synonyms": [
+        "start_hr",
+        "시작 시간 시",
+        "시작 시",
+        "시작 시간의 시",
+        "시"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "time_slot_start_min",
+      "domain": "time_slot",
+      "source_table": "time_slot",
+      "source_column": "start_min",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "start minute",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "time_slot_end_hr",
+      "domain": "time_slot",
+      "source_table": "time_slot",
+      "source_column": "end_hr",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "end hour",
+      "synonyms": [
+        "종료 시",
+        "강의 끝 시간",
+        "종료 시간 시",
+        "종료 시각",
+        "강의 종료 시",
+        "시간 끝 시",
+        "시간 종료 시"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "time_slot_end_min",
+      "domain": "time_slot",
+      "source_table": "time_slot",
+      "source_column": "end_min",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "end minute",
+      "synonyms": [
+        "종료 분",
+        "강의 끝 분",
+        "종료 시간 분",
+        "시간 끝 분",
+        "시간 종료 분",
+        "강의 종료 분",
+        "종료 시각 분"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "prereq_course_id",
+      "domain": "prereq",
+      "source_table": "prereq",
+      "source_column": "course_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "과정 ID",
+      "synonyms": [
+        "course_id",
+        "course",
+        "class",
+        "subject",
+        "course number",
+        "course code"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "prereq_prereq_id",
+      "domain": "prereq",
+      "source_table": "prereq",
+      "source_column": "prereq_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "사전 조건 ID",
+      "synonyms": [
+        "prereq_id",
+        "prerequisite",
+        "pre_req",
+        "pre_course",
+        "required course",
+        "prerequisite course"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "course_department_fk0",
+      "domain": "course",
+      "range": "department",
+      "source_fk": [
+        "course.dept_name",
+        "department.dept_name"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "instructor_department_fk1",
+      "domain": "instructor",
+      "range": "department",
+      "source_fk": [
+        "instructor.dept_name",
+        "department.dept_name"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "section_classroom_fk2",
+      "domain": "section",
+      "range": "classroom",
+      "source_fk": [
+        "section.building",
+        "classroom.building"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "section_classroom_fk3",
+      "domain": "section",
+      "range": "classroom",
+      "source_fk": [
+        "section.room_number",
+        "classroom.room_number"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "section_course_fk4",
+      "domain": "section",
+      "range": "course",
+      "source_fk": [
+        "section.course_id",
+        "course.course_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "강의 수강",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "teaches_instructor_fk5",
+      "domain": "teaches",
+      "range": "instructor",
+      "source_fk": [
+        "teaches.ID",
+        "instructor.ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "강의 담당",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "teaches_section_fk6",
+      "domain": "teaches",
+      "range": "section",
+      "source_fk": [
+        "teaches.course_id",
+        "section.course_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "강의 수강",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "teaches_section_fk7",
+      "domain": "teaches",
+      "range": "section",
+      "source_fk": [
+        "teaches.sec_id",
+        "section.sec_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "강의 수강",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "teaches_section_fk8",
+      "domain": "teaches",
+      "range": "section",
+      "source_fk": [
+        "teaches.semester",
+        "section.semester"
+      ],
+      "weight": 1.0,
+      "primary_label": "학기",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "teaches_section_fk9",
+      "domain": "teaches",
+      "range": "section",
+      "source_fk": [
+        "teaches.year",
+        "section.year"
+      ],
+      "weight": 1.0,
+      "primary_label": "학년",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "student_department_fk10",
+      "domain": "student",
+      "range": "department",
+      "source_fk": [
+        "student.dept_name",
+        "department.dept_name"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "takes_student_fk11",
+      "domain": "takes",
+      "range": "student",
+      "source_fk": [
+        "takes.ID",
+        "student.ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "수강",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "takes_section_fk12",
+      "domain": "takes",
+      "range": "section",
+      "source_fk": [
+        "takes.course_id",
+        "section.course_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "수강",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "takes_section_fk13",
+      "domain": "takes",
+      "range": "section",
+      "source_fk": [
+        "takes.sec_id",
+        "section.sec_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "수강",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "takes_section_fk14",
+      "domain": "takes",
+      "range": "section",
+      "source_fk": [
+        "takes.semester",
+        "section.semester"
+      ],
+      "weight": 1.0,
+      "primary_label": "학기",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "takes_section_fk15",
+      "domain": "takes",
+      "range": "section",
+      "source_fk": [
+        "takes.year",
+        "section.year"
+      ],
+      "weight": 1.0,
+      "primary_label": "학년",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "advisor_student_fk16",
+      "domain": "advisor",
+      "range": "student",
+      "source_fk": [
+        "advisor.s_ID",
+        "student.ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "상담자",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "advisor_instructor_fk17",
+      "domain": "advisor",
+      "range": "instructor",
+      "source_fk": [
+        "advisor.i_ID",
+        "instructor.ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "상담자",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "prereq_course_fk18",
+      "domain": "prereq",
+      "range": "course",
+      "source_fk": [
+        "prereq.prereq_id",
+        "course.course_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "전제 조건",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "prereq_course_fk19",
+      "domain": "prereq",
+      "range": "course",
+      "source_fk": [
+        "prereq.course_id",
+        "course.course_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "전제 조건",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,1663 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "계좌",
+      "target_class": "Accounts",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "계정",
+      "target_class": "Accounts",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "은행 계좌",
+      "target_class": "Accounts",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "계좌 정보",
+      "target_class": "Accounts",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "은행 계정",
+      "target_class": "Accounts",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 정보",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 데이터",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 목록",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 카드",
+      "target_class": "Customers_Cards",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "카드",
+      "target_class": "Customers_Cards",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "카드 정보",
+      "target_class": "Customers_Cards",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "결제 카드",
+      "target_class": "Customers_Cards",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "카드 데이터",
+      "target_class": "Customers_Cards",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "금융 거래",
+      "target_class": "Financial_Transactions",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "결제 내역",
+      "target_class": "Financial_Transactions",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "카드 거래",
+      "target_class": "Financial_Transactions",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수입/지출 내역",
+      "target_class": "Financial_Transactions",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "은행 거래",
+      "target_class": "Financial_Transactions",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지출 내역",
+      "target_class": "Financial_Transactions",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "입금/출금 내역",
+      "target_class": "Financial_Transactions",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "결제 기록",
+      "target_class": "Financial_Transactions",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 ID",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 번호",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 식별자",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 고유 번호",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 식별 번호",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 코드",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "Accounts",
+      "target_property": "Accounts_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 번호",
+      "target_class": "Accounts",
+      "target_property": "Accounts_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 고객 번호",
+      "target_class": "Accounts",
+      "target_property": "Accounts_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "Accounts",
+      "target_property": "Accounts_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 코드",
+      "target_class": "Accounts",
+      "target_property": "Accounts_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별 번호",
+      "target_class": "Accounts",
+      "target_property": "Accounts_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID 번호",
+      "target_class": "Accounts",
+      "target_property": "Accounts_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 고유 번호",
+      "target_class": "Accounts",
+      "target_property": "Accounts_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 이름",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌명",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌명칭",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 제목",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 이름 정보",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌명세",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 표시 이름",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 제목 정보",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 계좌 정보",
+      "target_class": "Accounts",
+      "target_property": "Accounts_other_account_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "추가 계좌 설명",
+      "target_class": "Accounts",
+      "target_property": "Accounts_other_account_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 계좌 세부 사항",
+      "target_class": "Accounts",
+      "target_property": "Accounts_other_account_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 설명",
+      "target_class": "Accounts",
+      "target_property": "Accounts_other_account_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 정보",
+      "target_class": "Accounts",
+      "target_property": "Accounts_other_account_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 세부 사항",
+      "target_class": "Accounts",
+      "target_property": "Accounts_other_account_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 설명 정보",
+      "target_class": "Accounts",
+      "target_property": "Accounts_other_account_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 계좌 설명",
+      "target_class": "Accounts",
+      "target_property": "Accounts_other_account_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유ID",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객ID",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별 번호",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 고유 번호",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_id",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 이름",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_first_name",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 이름",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 성",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_last_name",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후 이름",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 주소",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주지",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 필드",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_address",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 주소 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 전화번호",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 전화",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연락처",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_phone",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 이메일",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 주소",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_email",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 이메일 주소",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "다른 고객 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_other_customer_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 고객 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_other_customer_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "추가 고객 세부사항",
+      "target_class": "Customers",
+      "target_property": "Customers_other_customer_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 고객 데이터",
+      "target_class": "Customers",
+      "target_property": "Customers_other_customer_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 고객 정보 내용",
+      "target_class": "Customers",
+      "target_property": "Customers_other_customer_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 고객 세부 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_other_customer_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 고객 정보 항목",
+      "target_class": "Customers",
+      "target_property": "Customers_other_customer_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 고객 정보 설명",
+      "target_class": "Customers",
+      "target_property": "Customers_other_customer_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 ID",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "card_id",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 식별 번호",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 고유 번호",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 번호",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 식별자",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_id",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별 번호",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 고유 번호",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 번호",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 유형 코드",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "card_type_code",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 종류 코드",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 타입 코드",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 코드",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 유형",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 번호",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 넘버",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 번호 정보",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드번호 데이터",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "card number",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "card number data",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "card number info",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유효 시작일",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유효 시작 날짜",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유효 시작 시간",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유효 시작일자",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 유효 시작일",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "valid from date",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "valid from time",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "valid from date time",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유효 종료일",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_to",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유효 종료 날짜",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_to",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유효 종료 시간",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_to",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유효 종료일자",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_to",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 유효 종료일",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_to",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "valid to date",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_to",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "valid to time",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_to",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "valid to date time",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_date_valid_to",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "다른 카드 정보",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_other_card_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 카드 정보",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_other_card_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "추가 카드 세부 사항",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_other_card_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 세부 정보",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_other_card_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 설명",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_other_card_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 정보",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_other_card_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 카드 설명",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_other_card_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 세부 내용",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_other_card_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 정보 내용",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_other_card_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거래 ID",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거래 번호",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랜잭션 ID",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거래 고유 번호",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랜잭션 번호",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "transaction_id",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거래 식별자",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이전 거래 ID",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_previous_transaction_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이전 거래 번호",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_previous_transaction_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이전 트랜잭션 ID",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_previous_transaction_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이전 트랜잭션 번호",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_previous_transaction_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이전 ID",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_previous_transaction_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "previous_transaction_id",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_previous_transaction_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이전 거래 식별자",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_previous_transaction_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 ID",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_account_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 번호",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_account_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 식별자",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_account_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 고유 번호",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_account_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "account_id",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_account_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 식별",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_account_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 ID",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_card_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "card_id",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_card_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 아이디",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_card_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 번호",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_card_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 식별자",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_card_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 고유번호",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_card_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 식별",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_card_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거래 유형",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "transaction_type",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랜잭션 유형",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랜잭션 종류",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거래 종류",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랜잭션 타입",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거래 일시",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "transaction_date",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랜잭션 날짜",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거래 날짜",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랜잭션 시간",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거래 시간",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜 시간",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거래 금액",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 금액",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수량",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "금액",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "transaction amount",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거래 비고",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_comment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거래 메모",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_comment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설명",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_comment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비고",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_comment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "추가 설명",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_comment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "메모",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_comment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "transaction comment",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_comment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거래 설명",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_comment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "다른 거래 세부 사항",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_other_transaction_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "추가 정보",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_other_transaction_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 세부 사항",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_other_transaction_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 정보",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_other_transaction_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 설명",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_other_transaction_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 세부내용",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_other_transaction_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "other transaction details",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_other_transaction_details",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "예금",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_name",
+      "value": "예금"
+    },
+    {
+      "entry_type": "value",
+      "key": "적금",
+      "target_class": "Accounts",
+      "target_property": "Accounts_account_name",
+      "value": "적금"
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_first_name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "민수",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_first_name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "박",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_last_name",
+      "value": "박"
+    },
+    {
+      "entry_type": "value",
+      "key": "박씨",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_last_name",
+      "value": "박"
+    },
+    {
+      "entry_type": "value",
+      "key": "VISA",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_type_code",
+      "value": "VISA"
+    },
+    {
+      "entry_type": "value",
+      "key": "비자",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_type_code",
+      "value": "VISA"
+    },
+    {
+      "entry_type": "value",
+      "key": "MASTER",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_type_code",
+      "value": "MASTER"
+    },
+    {
+      "entry_type": "value",
+      "key": "마스터",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_type_code",
+      "value": "MASTER"
+    },
+    {
+      "entry_type": "value",
+      "key": "AMERICAN_EXPRESS",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_type_code",
+      "value": "AMERICAN_EXPRESS"
+    },
+    {
+      "entry_type": "value",
+      "key": "애메리칸 익스프레스",
+      "target_class": "Customers_Cards",
+      "target_property": "Customers_Cards_card_type_code",
+      "value": "AMERICAN_EXPRESS"
+    },
+    {
+      "entry_type": "value",
+      "key": "입금",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_type",
+      "value": "입금"
+    },
+    {
+      "entry_type": "value",
+      "key": "입금 거래",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_type",
+      "value": "입금"
+    },
+    {
+      "entry_type": "value",
+      "key": "출금",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_type",
+      "value": "출금"
+    },
+    {
+      "entry_type": "value",
+      "key": "출금 거래",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_type",
+      "value": "출금"
+    },
+    {
+      "entry_type": "value",
+      "key": "이체",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_type",
+      "value": "이체"
+    },
+    {
+      "entry_type": "value",
+      "key": "이체 거래",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_type",
+      "value": "이체"
+    },
+    {
+      "entry_type": "value",
+      "key": "결제",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_type",
+      "value": "결제"
+    },
+    {
+      "entry_type": "value",
+      "key": "결제 거래",
+      "target_class": "Financial_Transactions",
+      "target_property": "Financial_Transactions_transaction_type",
+      "value": "결제"
+    }
+  ]
+}

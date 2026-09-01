@@ -1,0 +1,442 @@
+{
+  "db_id": "club_1",
+  "classes": [
+    {
+      "name": "Student",
+      "source_table": "Student",
+      "ranking": 3.5,
+      "primary_label": "학생",
+      "synonyms": [
+        "학생",
+        "학자",
+        "학생 정보",
+        "학생 목록",
+        "학생 데이터"
+      ]
+    },
+    {
+      "name": "Club",
+      "source_table": "Club",
+      "ranking": 3.0,
+      "primary_label": "클럽",
+      "synonyms": [
+        "클럽",
+        "단체",
+        "모임",
+        "클럽 정보",
+        "클럽 목록"
+      ]
+    },
+    {
+      "name": "Member_of_club",
+      "source_table": "Member_of_club",
+      "ranking": 3.5,
+      "primary_label": "멤버 of 클럽",
+      "synonyms": [
+        "클럽원",
+        "멤버",
+        "참여",
+        "가입",
+        "멤버십"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Student_StuID",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "StuID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 ID",
+        "학번",
+        "학생 고유 번호",
+        "StuID",
+        "학생 식별자",
+        "학번 번호",
+        "학생 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_LName",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "LName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "가족 성",
+        "성 이름",
+        "성자",
+        "성 부분",
+        "LName",
+        "성 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김",
+          "이",
+          "박"
+        ]
+      }
+    },
+    {
+      "name": "Student_Fname",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Fname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "가족 이름",
+        "이름 부분",
+        "이름 정보",
+        "Fname",
+        "이름 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "민수": [
+          "민수",
+          "지현",
+          "서연"
+        ]
+      }
+    },
+    {
+      "name": "Student_Age",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "나이",
+      "synonyms": [
+        "연령",
+        "나이",
+        "나이 정보",
+        "연령 데이터",
+        "나이 열",
+        "연령 컬럼",
+        "나이 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Sex",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Sex",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성별",
+      "synonyms": [
+        "성별",
+        "성",
+        "성별 정보",
+        "성별 데이터",
+        "성별 컬럼",
+        "성별 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남자": [
+          "남자",
+          "여자"
+        ]
+      }
+    },
+    {
+      "name": "Student_Major",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Major",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "전공",
+      "synonyms": [
+        "전공",
+        "전공 정보",
+        "전공 코드",
+        "전공 데이터",
+        "전공 컬럼",
+        "전공 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Advisor",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Advisor",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "상담사",
+      "synonyms": [
+        "Advisor",
+        "조언자",
+        "멘토",
+        "멘토 번호",
+        "멘토ID",
+        "조언자 ID",
+        "멘토 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_city_code",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "city_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "시 코드",
+      "synonyms": [
+        "city_code",
+        "도시 코드",
+        "거주 도시 코드",
+        "도시 코드 정보",
+        "도시코드 값",
+        "거주 도시"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "01": [
+          "01",
+          "02",
+          "03"
+        ]
+      }
+    },
+    {
+      "name": "Club_ClubID",
+      "domain": "Club",
+      "source_table": "Club",
+      "source_column": "ClubID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "클럽 ID",
+      "synonyms": [
+        "클럽 ID",
+        "클럽 번호",
+        "클럽 식별자",
+        "클럽 코드",
+        "클럽 고유번호",
+        "클럽 아이디",
+        "클럽 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Club_ClubName",
+      "domain": "Club",
+      "source_table": "Club",
+      "source_column": "ClubName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "클럽 이름",
+      "synonyms": [
+        "클럽 이름",
+        "클럽 타이틀",
+        "클럽 명칭",
+        "클럽 제목",
+        "클럽 브랜드",
+        "클럽 대표명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "삼성클럽": [
+          "삼성클럽"
+        ],
+        "현대클럽": [
+          "현대클럽"
+        ]
+      }
+    },
+    {
+      "name": "Club_ClubDesc",
+      "domain": "Club",
+      "source_table": "Club",
+      "source_column": "ClubDesc",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "클럽 설명",
+      "synonyms": [
+        "클럽 설명",
+        "클럽 소개",
+        "클럽 정보",
+        "클럽 요약",
+        "클럽 설명문",
+        "클럽 간단 설명",
+        "클럽 개요"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Club_ClubLocation",
+      "domain": "Club",
+      "source_table": "Club",
+      "source_column": "ClubLocation",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "클럽 위치",
+      "synonyms": [
+        "클럽 위치",
+        "위치",
+        "주소",
+        "설치 위치",
+        "위치 정보",
+        "클럽 주소",
+        "설치 위치 정보",
+        "클럽 위치 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Member_of_club_StuID",
+      "domain": "Member_of_club",
+      "source_table": "Member_of_club",
+      "source_column": "StuID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "학생 id",
+      "synonyms": [
+        "StuID",
+        "학생 ID",
+        "학번",
+        "학생 식별 번호",
+        "학생 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Member_of_club_ClubID",
+      "domain": "Member_of_club",
+      "source_table": "Member_of_club",
+      "source_column": "ClubID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "클럽 id",
+      "synonyms": [
+        "ClubID",
+        "클럽 ID",
+        "클럽 고유 번호",
+        "클럽 식별 번호",
+        "클럽 번호",
+        "클럽 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Member_of_club_Position",
+      "domain": "Member_of_club",
+      "source_table": "Member_of_club",
+      "source_column": "Position",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "직위",
+      "synonyms": [
+        "Position",
+        "역할",
+        "직책",
+        "직위",
+        "직역",
+        "위치"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "회장": [
+          "회장"
+        ],
+        "부회장": [
+          "부회장"
+        ],
+        "부서장": [
+          "부서장"
+        ],
+        "원장": [
+          "원장"
+        ],
+        "일반 멤버": [
+          "일반 멤버"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Member_of_club_Club_fk0",
+      "domain": "Member_of_club",
+      "range": "Club",
+      "source_fk": [
+        "Member_of_club.ClubID",
+        "Club.ClubID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Member_of_club_Student_fk1",
+      "domain": "Member_of_club",
+      "range": "Student",
+      "source_fk": [
+        "Member_of_club.StuID",
+        "Student.StuID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

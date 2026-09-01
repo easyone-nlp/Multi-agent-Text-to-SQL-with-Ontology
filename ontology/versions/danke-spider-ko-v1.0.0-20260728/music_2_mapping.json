@@ -1,0 +1,135 @@
+{
+  "class_table": {
+    "Songs": "Songs",
+    "Albums": "Albums",
+    "Band": "Band",
+    "Instruments": "Instruments",
+    "Performance": "Performance",
+    "Tracklists": "Tracklists",
+    "Vocals": "Vocals"
+  },
+  "property_column": {
+    "Songs_SongId": [
+      "Songs",
+      "SongId"
+    ],
+    "Songs_Title": [
+      "Songs",
+      "Title"
+    ],
+    "Albums_AId": [
+      "Albums",
+      "AId"
+    ],
+    "Albums_Title": [
+      "Albums",
+      "Title"
+    ],
+    "Albums_Year": [
+      "Albums",
+      "Year"
+    ],
+    "Albums_Label": [
+      "Albums",
+      "Label"
+    ],
+    "Albums_Type": [
+      "Albums",
+      "Type"
+    ],
+    "Band_Id": [
+      "Band",
+      "Id"
+    ],
+    "Band_Firstname": [
+      "Band",
+      "Firstname"
+    ],
+    "Band_Lastname": [
+      "Band",
+      "Lastname"
+    ],
+    "Instruments_SongId": [
+      "Instruments",
+      "SongId"
+    ],
+    "Instruments_BandmateId": [
+      "Instruments",
+      "BandmateId"
+    ],
+    "Instruments_Instrument": [
+      "Instruments",
+      "Instrument"
+    ],
+    "Performance_SongId": [
+      "Performance",
+      "SongId"
+    ],
+    "Performance_Bandmate": [
+      "Performance",
+      "Bandmate"
+    ],
+    "Performance_StagePosition": [
+      "Performance",
+      "StagePosition"
+    ],
+    "Tracklists_AlbumId": [
+      "Tracklists",
+      "AlbumId"
+    ],
+    "Tracklists_Position": [
+      "Tracklists",
+      "Position"
+    ],
+    "Tracklists_SongId": [
+      "Tracklists",
+      "SongId"
+    ],
+    "Vocals_SongId": [
+      "Vocals",
+      "SongId"
+    ],
+    "Vocals_Bandmate": [
+      "Vocals",
+      "Bandmate"
+    ],
+    "Vocals_Type": [
+      "Vocals",
+      "Type"
+    ]
+  },
+  "object_property_fk": {
+    "Instruments_Band_fk0": [
+      "Instruments.BandmateId",
+      "Band.Id"
+    ],
+    "Instruments_Songs_fk1": [
+      "Instruments.SongId",
+      "Songs.SongId"
+    ],
+    "Performance_Band_fk2": [
+      "Performance.Bandmate",
+      "Band.Id"
+    ],
+    "Performance_Songs_fk3": [
+      "Performance.SongId",
+      "Songs.SongId"
+    ],
+    "Tracklists_Albums_fk4": [
+      "Tracklists.AlbumId",
+      "Albums.AId"
+    ],
+    "Tracklists_Songs_fk5": [
+      "Tracklists.SongId",
+      "Songs.SongId"
+    ],
+    "Vocals_Band_fk6": [
+      "Vocals.Bandmate",
+      "Band.Id"
+    ],
+    "Vocals_Songs_fk7": [
+      "Vocals.SongId",
+      "Songs.SongId"
+    ]
+  }
+}

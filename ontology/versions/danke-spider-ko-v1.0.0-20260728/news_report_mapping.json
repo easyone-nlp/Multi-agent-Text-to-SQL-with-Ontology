@@ -1,0 +1,71 @@
+{
+  "class_table": {
+    "event": "event",
+    "journalist": "journalist",
+    "news_report": "news_report"
+  },
+  "property_column": {
+    "event_Event_ID": [
+      "event",
+      "Event_ID"
+    ],
+    "event_Date": [
+      "event",
+      "Date"
+    ],
+    "event_Venue": [
+      "event",
+      "Venue"
+    ],
+    "event_Name": [
+      "event",
+      "Name"
+    ],
+    "event_Event_Attendance": [
+      "event",
+      "Event_Attendance"
+    ],
+    "journalist_journalist_ID": [
+      "journalist",
+      "journalist_ID"
+    ],
+    "journalist_Name": [
+      "journalist",
+      "Name"
+    ],
+    "journalist_Nationality": [
+      "journalist",
+      "Nationality"
+    ],
+    "journalist_Age": [
+      "journalist",
+      "Age"
+    ],
+    "journalist_Years_working": [
+      "journalist",
+      "Years_working"
+    ],
+    "news_report_journalist_ID": [
+      "news_report",
+      "journalist_ID"
+    ],
+    "news_report_Event_ID": [
+      "news_report",
+      "Event_ID"
+    ],
+    "news_report_Work_Type": [
+      "news_report",
+      "Work_Type"
+    ]
+  },
+  "object_property_fk": {
+    "news_report_event_fk0": [
+      "news_report.Event_ID",
+      "event.Event_ID"
+    ],
+    "news_report_journalist_fk1": [
+      "news_report.journalist_ID",
+      "journalist.journalist_ID"
+    ]
+  }
+}

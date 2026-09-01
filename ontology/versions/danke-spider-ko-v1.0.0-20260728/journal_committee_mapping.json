@@ -1,0 +1,59 @@
+{
+  "class_table": {
+    "journal": "journal",
+    "editor": "editor",
+    "journal_committee": "journal_committee"
+  },
+  "property_column": {
+    "journal_Journal_ID": [
+      "journal",
+      "Journal_ID"
+    ],
+    "journal_Date": [
+      "journal",
+      "Date"
+    ],
+    "journal_Theme": [
+      "journal",
+      "Theme"
+    ],
+    "journal_Sales": [
+      "journal",
+      "Sales"
+    ],
+    "editor_Editor_ID": [
+      "editor",
+      "Editor_ID"
+    ],
+    "editor_Name": [
+      "editor",
+      "Name"
+    ],
+    "editor_Age": [
+      "editor",
+      "Age"
+    ],
+    "journal_committee_Editor_ID": [
+      "journal_committee",
+      "Editor_ID"
+    ],
+    "journal_committee_Journal_ID": [
+      "journal_committee",
+      "Journal_ID"
+    ],
+    "journal_committee_Work_Type": [
+      "journal_committee",
+      "Work_Type"
+    ]
+  },
+  "object_property_fk": {
+    "journal_committee_journal_fk0": [
+      "journal_committee.Journal_ID",
+      "journal.Journal_ID"
+    ],
+    "journal_committee_editor_fk1": [
+      "journal_committee.Editor_ID",
+      "editor.Editor_ID"
+    ]
+  }
+}

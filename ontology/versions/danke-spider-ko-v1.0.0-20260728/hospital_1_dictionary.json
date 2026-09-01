@@ -1,0 +1,4169 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "의사",
+      "target_class": "Physician",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "의료진",
+      "target_class": "Physician",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "의사님",
+      "target_class": "Physician",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "의사 정보",
+      "target_class": "Physician",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "의사 목록",
+      "target_class": "Physician",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "의사 데이터",
+      "target_class": "Physician",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "의사 기록",
+      "target_class": "Physician",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "부서",
+      "target_class": "Department",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분과",
+      "target_class": "Department",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "기능부문",
+      "target_class": "Department",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "소속",
+      "target_class": "Department",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "분야",
+      "target_class": "Department",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "affiliated with",
+      "target_class": "Affiliated_With",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연관",
+      "target_class": "Affiliated_With",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연계",
+      "target_class": "Affiliated_With",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연속",
+      "target_class": "Affiliated_With",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "소속 관계",
+      "target_class": "Affiliated_With",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연관관계",
+      "target_class": "Affiliated_With",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수술 절차",
+      "target_class": "Procedures",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "치료 과정",
+      "target_class": "Procedures",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "치료 항목",
+      "target_class": "Procedures",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "치료 방법",
+      "target_class": "Procedures",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "치료 프로세스",
+      "target_class": "Procedures",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "치료 일정",
+      "target_class": "Procedures",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "trained in",
+      "target_class": "Trained_In",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연수 내용",
+      "target_class": "Trained_In",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "기술 연수",
+      "target_class": "Trained_In",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "교육 기록",
+      "target_class": "Trained_In",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "기술 훈련",
+      "target_class": "Trained_In",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "교육 이력",
+      "target_class": "Trained_In",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "patient",
+      "target_class": "Patient",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "환자 정보",
+      "target_class": "Patient",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "환자 데이터",
+      "target_class": "Patient",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "환자 기록",
+      "target_class": "Patient",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "환자 사항",
+      "target_class": "Patient",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "간호사",
+      "target_class": "Nurse",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "간호원",
+      "target_class": "Nurse",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "간호인력",
+      "target_class": "Nurse",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "간호직원",
+      "target_class": "Nurse",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "간호자",
+      "target_class": "Nurse",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "간호인",
+      "target_class": "Nurse",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "간호공",
+      "target_class": "Nurse",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "간호조",
+      "target_class": "Nurse",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약",
+      "target_class": "Appointment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "진료예약",
+      "target_class": "Appointment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "검사예약",
+      "target_class": "Appointment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "진료일정",
+      "target_class": "Appointment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약정보",
+      "target_class": "Appointment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약관리",
+      "target_class": "Appointment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약서",
+      "target_class": "Appointment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "약물",
+      "target_class": "Medication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "약",
+      "target_class": "Medication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "처방약",
+      "target_class": "Medication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "약물처방",
+      "target_class": "Medication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "약물관리",
+      "target_class": "Medication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "약물정보",
+      "target_class": "Medication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "약물처방내역",
+      "target_class": "Medication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "약물처방기록",
+      "target_class": "Medication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "prescribes",
+      "target_class": "Prescribes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "처방",
+      "target_class": "Prescribes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "진료",
+      "target_class": "Prescribes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "처방처",
+      "target_class": "Prescribes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "의사-환자 관계",
+      "target_class": "Prescribes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "진료처",
+      "target_class": "Prescribes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "처방 정보",
+      "target_class": "Prescribes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "의료 처방",
+      "target_class": "Prescribes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "진료 기록",
+      "target_class": "Prescribes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "block",
+      "target_class": "Block",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약",
+      "target_class": "Block",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용",
+      "target_class": "Block",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "병상 예약",
+      "target_class": "Block",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "병상 사용",
+      "target_class": "Block",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약 상태",
+      "target_class": "Block",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "병상 예약 정보",
+      "target_class": "Block",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "병상 사용 상태",
+      "target_class": "Block",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예약 관리",
+      "target_class": "Block",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "room",
+      "target_class": "Room",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "병상",
+      "target_class": "Room",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "병상 정보",
+      "target_class": "Room",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "병상 위치",
+      "target_class": "Room",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "병상 데이터",
+      "target_class": "Room",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "병상 위치 정보",
+      "target_class": "Room",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "병상 위치 관리",
+      "target_class": "Room",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "병상 정보 저장",
+      "target_class": "Room",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "병상 위치 기록",
+      "target_class": "Room",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "on call",
+      "target_class": "On_Call",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "근무 일정",
+      "target_class": "On_Call",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "의료진 근무",
+      "target_class": "On_Call",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "근무 스케줄",
+      "target_class": "On_Call",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "의료진 일정",
+      "target_class": "On_Call",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주거 기록",
+      "target_class": "Stay",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "입원 기록",
+      "target_class": "Stay",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "입원 정보",
+      "target_class": "Stay",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "환자 입원",
+      "target_class": "Stay",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "입원 데이터",
+      "target_class": "Stay",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "입원 기간",
+      "target_class": "Stay",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "undergoes",
+      "target_class": "Undergoes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수술 기록",
+      "target_class": "Undergoes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수술 정보",
+      "target_class": "Undergoes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "환자 수술",
+      "target_class": "Undergoes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수술 데이터",
+      "target_class": "Undergoes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수술 일정",
+      "target_class": "Undergoes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 ID",
+      "target_class": "Physician",
+      "target_property": "Physician_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 번호",
+      "target_class": "Physician",
+      "target_property": "Physician_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고용 번호",
+      "target_class": "Physician",
+      "target_property": "Physician_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사원 ID",
+      "target_class": "Physician",
+      "target_property": "Physician_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 고유 번호",
+      "target_class": "Physician",
+      "target_property": "Physician_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "EmployeeID",
+      "target_class": "Physician",
+      "target_property": "Physician_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 고유 식별자",
+      "target_class": "Physician",
+      "target_property": "Physician_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Physician",
+      "target_property": "Physician_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 이름",
+      "target_class": "Physician",
+      "target_property": "Physician_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "Physician",
+      "target_property": "Physician_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 성명",
+      "target_class": "Physician",
+      "target_property": "Physician_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "Physician",
+      "target_property": "Physician_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "position",
+      "target_class": "Physician",
+      "target_property": "Physician_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직책",
+      "target_class": "Physician",
+      "target_property": "Physician_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직무",
+      "target_class": "Physician",
+      "target_property": "Physician_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직위",
+      "target_class": "Physician",
+      "target_property": "Physician_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 직책",
+      "target_class": "Physician",
+      "target_property": "Physician_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 직위",
+      "target_class": "Physician",
+      "target_property": "Physician_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직무 정보",
+      "target_class": "Physician",
+      "target_property": "Physician_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 직무",
+      "target_class": "Physician",
+      "target_property": "Physician_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ssn",
+      "target_class": "Physician",
+      "target_property": "Physician_SSN",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SSN",
+      "target_class": "Physician",
+      "target_property": "Physician_SSN",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사회보장번호",
+      "target_class": "Physician",
+      "target_property": "Physician_SSN",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주민등록번호",
+      "target_class": "Physician",
+      "target_property": "Physician_SSN",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주민번호",
+      "target_class": "Physician",
+      "target_property": "Physician_SSN",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록번호",
+      "target_class": "Physician",
+      "target_property": "Physician_SSN",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "departmentid",
+      "target_class": "Department",
+      "target_property": "Department_DepartmentID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 ID",
+      "target_class": "Department",
+      "target_property": "Department_DepartmentID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메스트 ID",
+      "target_class": "Department",
+      "target_property": "Department_DepartmentID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 식별자",
+      "target_class": "Department",
+      "target_property": "Department_DepartmentID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메스트 번호",
+      "target_class": "Department",
+      "target_property": "Department_DepartmentID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 코드",
+      "target_class": "Department",
+      "target_property": "Department_DepartmentID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 고유 번호",
+      "target_class": "Department",
+      "target_property": "Department_DepartmentID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "Department",
+      "target_property": "Department_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 이름",
+      "target_class": "Department",
+      "target_property": "Department_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메스트 이름",
+      "target_class": "Department",
+      "target_property": "Department_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 명칭",
+      "target_class": "Department",
+      "target_property": "Department_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메스트 명칭",
+      "target_class": "Department",
+      "target_property": "Department_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 공식 이름",
+      "target_class": "Department",
+      "target_property": "Department_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도메스트 공식 이름",
+      "target_class": "Department",
+      "target_property": "Department_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head",
+      "target_class": "Department",
+      "target_property": "Department_Head",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표 의사",
+      "target_class": "Department",
+      "target_property": "Department_Head",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 ID",
+      "target_class": "Department",
+      "target_property": "Department_Head",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 번호",
+      "target_class": "Department",
+      "target_property": "Department_Head",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표 의사 ID",
+      "target_class": "Department",
+      "target_property": "Department_Head",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 고유 번호",
+      "target_class": "Department",
+      "target_property": "Department_Head",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 식별자",
+      "target_class": "Department",
+      "target_property": "Department_Head",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사ID",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사번호",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 식별자",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 코드",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 고유번호",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_Department",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서ID",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_Department",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서번호",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_Department",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 식별자",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_Department",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 코드",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_Department",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 고유번호",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_Department",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주요 소속",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_PrimaryAffiliation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주요 소속 여부",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_PrimaryAffiliation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주된 부서 여부",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_PrimaryAffiliation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주된 소속 여부",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_PrimaryAffiliation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주된 부서 여부 확인",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_PrimaryAffiliation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주된 소속 여부 표시",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_PrimaryAffiliation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주된 부서 여부 판단",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_PrimaryAffiliation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주된 부서 여부 체크",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_PrimaryAffiliation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "code",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코드",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코드번호",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "절차코드",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별번호",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코드값",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로세스코드",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유코드",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "절차명",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명칭",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호스피탈코드",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "절차이름",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "진료명",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "cost",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Cost",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비용",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Cost",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Cost",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비용정보",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Cost",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비용액",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Cost",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요금",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Cost",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비용수치",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Cost",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비용값",
+      "target_class": "Procedures",
+      "target_property": "Procedures_Cost",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "physician",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 ID",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전문가",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전문가 ID",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 코드",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 번호",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "treatment",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_Treatment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "치료",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_Treatment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "치료 코드",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_Treatment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "치료 프로그램",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_Treatment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "치료 번호",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_Treatment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "치료 프로세스",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_Treatment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "certification date",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationDate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인증 일자",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationDate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인증 날짜",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationDate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자격증 날짜",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationDate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인증 일",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationDate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자격증 일자",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationDate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인증 일시",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationDate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "certification expires",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationExpires",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인증 만료일",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationExpires",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자격 소멸일",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationExpires",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자격 기간 종료일",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationExpires",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인증 종료일",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationExpires",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자격 만료 날짜",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationExpires",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자격 소멸 날짜",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationExpires",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인증 만료 날짜",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationExpires",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자격 기간 종료",
+      "target_class": "Trained_In",
+      "target_property": "Trained_In_CertificationExpires",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ssn",
+      "target_class": "Patient",
+      "target_property": "Patient_SSN",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SSN",
+      "target_class": "Patient",
+      "target_property": "Patient_SSN",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사회보장번호",
+      "target_class": "Patient",
+      "target_property": "Patient_SSN",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주민등록번호",
+      "target_class": "Patient",
+      "target_property": "Patient_SSN",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주민번호",
+      "target_class": "Patient",
+      "target_property": "Patient_SSN",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 고유 식별 번호",
+      "target_class": "Patient",
+      "target_property": "Patient_SSN",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "Patient",
+      "target_property": "Patient_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "address",
+      "target_class": "Patient",
+      "target_property": "Patient_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소",
+      "target_class": "Patient",
+      "target_property": "Patient_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소지",
+      "target_class": "Patient",
+      "target_property": "Patient_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주지",
+      "target_class": "Patient",
+      "target_property": "Patient_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Address",
+      "target_class": "Patient",
+      "target_property": "Patient_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 정보",
+      "target_class": "Patient",
+      "target_property": "Patient_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "phone",
+      "target_class": "Patient",
+      "target_property": "Patient_Phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호",
+      "target_class": "Patient",
+      "target_property": "Patient_Phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화",
+      "target_class": "Patient",
+      "target_property": "Patient_Phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연락처",
+      "target_class": "Patient",
+      "target_property": "Patient_Phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "휴대폰 번호",
+      "target_class": "Patient",
+      "target_property": "Patient_Phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호 정보",
+      "target_class": "Patient",
+      "target_property": "Patient_Phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "insurance id",
+      "target_class": "Patient",
+      "target_property": "Patient_InsuranceID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보험 ID",
+      "target_class": "Patient",
+      "target_property": "Patient_InsuranceID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보험 계좌 번호",
+      "target_class": "Patient",
+      "target_property": "Patient_InsuranceID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보험 번호",
+      "target_class": "Patient",
+      "target_property": "Patient_InsuranceID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보험 계좌",
+      "target_class": "Patient",
+      "target_property": "Patient_InsuranceID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pcp",
+      "target_class": "Patient",
+      "target_property": "Patient_PCP",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주치의",
+      "target_class": "Patient",
+      "target_property": "Patient_PCP",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주치의 ID",
+      "target_class": "Patient",
+      "target_property": "Patient_PCP",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 ID",
+      "target_class": "Patient",
+      "target_property": "Patient_PCP",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "PCP",
+      "target_class": "Patient",
+      "target_property": "Patient_PCP",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주치의 식별자",
+      "target_class": "Patient",
+      "target_property": "Patient_PCP",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주치의 고유 번호",
+      "target_class": "Patient",
+      "target_property": "Patient_PCP",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "employee id",
+      "target_class": "Nurse",
+      "target_property": "Nurse_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 ID",
+      "target_class": "Nurse",
+      "target_property": "Nurse_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 번호",
+      "target_class": "Nurse",
+      "target_property": "Nurse_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사원 ID",
+      "target_class": "Nurse",
+      "target_property": "Nurse_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 고유 ID",
+      "target_class": "Nurse",
+      "target_property": "Nurse_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사원 고유 번호",
+      "target_class": "Nurse",
+      "target_property": "Nurse_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 고유 식별자",
+      "target_class": "Nurse",
+      "target_property": "Nurse_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사원 식별 번호",
+      "target_class": "Nurse",
+      "target_property": "Nurse_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 식별 번호",
+      "target_class": "Nurse",
+      "target_property": "Nurse_EmployeeID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "Nurse",
+      "target_property": "Nurse_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "position",
+      "target_class": "Nurse",
+      "target_property": "Nurse_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "registered",
+      "target_class": "Nurse",
+      "target_property": "Nurse_Registered",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 여부",
+      "target_class": "Nurse",
+      "target_property": "Nurse_Registered",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록상태",
+      "target_class": "Nurse",
+      "target_property": "Nurse_Registered",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록유무",
+      "target_class": "Nurse",
+      "target_property": "Nurse_Registered",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 여하",
+      "target_class": "Nurse",
+      "target_property": "Nurse_Registered",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 여부 체크",
+      "target_class": "Nurse",
+      "target_property": "Nurse_Registered",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 여부 확인",
+      "target_class": "Nurse",
+      "target_property": "Nurse_Registered",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 여부 정보",
+      "target_class": "Nurse",
+      "target_property": "Nurse_Registered",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 여부 표시",
+      "target_class": "Nurse",
+      "target_property": "Nurse_Registered",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ssn",
+      "target_class": "Nurse",
+      "target_property": "Nurse_SSN",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예약 ID",
+      "target_class": "Appointment",
+      "target_property": "Appointment_AppointmentID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예약 번호",
+      "target_class": "Appointment",
+      "target_property": "Appointment_AppointmentID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약속 ID",
+      "target_class": "Appointment",
+      "target_property": "Appointment_AppointmentID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예약 아이디",
+      "target_class": "Appointment",
+      "target_property": "Appointment_AppointmentID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약속 식별자",
+      "target_class": "Appointment",
+      "target_property": "Appointment_AppointmentID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예약 코드",
+      "target_class": "Appointment",
+      "target_property": "Appointment_AppointmentID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "AppointmentID",
+      "target_class": "Appointment",
+      "target_property": "Appointment_AppointmentID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약속 고유 번호",
+      "target_class": "Appointment",
+      "target_property": "Appointment_AppointmentID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 번호",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 식별자",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 ID",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 소셜보장번호",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 코드",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Patient",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "준비 간호사",
+      "target_class": "Appointment",
+      "target_property": "Appointment_PrepNurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "간호사",
+      "target_class": "Appointment",
+      "target_property": "Appointment_PrepNurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "간호사 ID",
+      "target_class": "Appointment",
+      "target_property": "Appointment_PrepNurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "간호사 직원 번호",
+      "target_class": "Appointment",
+      "target_property": "Appointment_PrepNurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "준비 간호사 코드",
+      "target_class": "Appointment",
+      "target_property": "Appointment_PrepNurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "PrepNurse",
+      "target_class": "Appointment",
+      "target_property": "Appointment_PrepNurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사ID",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사코드",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사직원ID",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사사번",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사번호",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사고유ID",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사직원",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 시간",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Start",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작시간",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Start",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "진료시작시간",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Start",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작일시",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Start",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "진료시작일시",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Start",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작날짜",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Start",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "진료시작날짜",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Start",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작",
+      "target_class": "Appointment",
+      "target_property": "Appointment_Start",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료 시간",
+      "target_class": "Appointment",
+      "target_property": "Appointment_End",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료시간",
+      "target_class": "Appointment",
+      "target_property": "Appointment_End",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "진료종료시간",
+      "target_class": "Appointment",
+      "target_property": "Appointment_End",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료일시",
+      "target_class": "Appointment",
+      "target_property": "Appointment_End",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "진료종료일시",
+      "target_class": "Appointment",
+      "target_property": "Appointment_End",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료날짜",
+      "target_class": "Appointment",
+      "target_property": "Appointment_End",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "진료종료날짜",
+      "target_class": "Appointment",
+      "target_property": "Appointment_End",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료",
+      "target_class": "Appointment",
+      "target_property": "Appointment_End",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "검사실",
+      "target_class": "Appointment",
+      "target_property": "Appointment_ExaminationRoom",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "진료실",
+      "target_class": "Appointment",
+      "target_property": "Appointment_ExaminationRoom",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "진료방",
+      "target_class": "Appointment",
+      "target_property": "Appointment_ExaminationRoom",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "진료실 이름",
+      "target_class": "Appointment",
+      "target_property": "Appointment_ExaminationRoom",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사실",
+      "target_class": "Appointment",
+      "target_property": "Appointment_ExaminationRoom",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "examination room",
+      "target_class": "Appointment",
+      "target_property": "Appointment_ExaminationRoom",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "진료방 이름",
+      "target_class": "Appointment",
+      "target_property": "Appointment_ExaminationRoom",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의료실",
+      "target_class": "Appointment",
+      "target_property": "Appointment_ExaminationRoom",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "code",
+      "target_class": "Medication",
+      "target_property": "Medication_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코드",
+      "target_class": "Medication",
+      "target_property": "Medication_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품코드",
+      "target_class": "Medication",
+      "target_property": "Medication_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약품코드",
+      "target_class": "Medication",
+      "target_property": "Medication_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별번호",
+      "target_class": "Medication",
+      "target_property": "Medication_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품ID",
+      "target_class": "Medication",
+      "target_property": "Medication_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품번호",
+      "target_class": "Medication",
+      "target_property": "Medication_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "Medication",
+      "target_property": "Medication_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Medication",
+      "target_property": "Medication_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품명",
+      "target_class": "Medication",
+      "target_property": "Medication_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약품명",
+      "target_class": "Medication",
+      "target_property": "Medication_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품이름",
+      "target_class": "Medication",
+      "target_property": "Medication_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품명칭",
+      "target_class": "Medication",
+      "target_property": "Medication_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약품이름",
+      "target_class": "Medication",
+      "target_property": "Medication_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "brand",
+      "target_class": "Medication",
+      "target_property": "Medication_Brand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜드",
+      "target_class": "Medication",
+      "target_property": "Medication_Brand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제조사",
+      "target_class": "Medication",
+      "target_property": "Medication_Brand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제조사명",
+      "target_class": "Medication",
+      "target_property": "Medication_Brand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품브랜드",
+      "target_class": "Medication",
+      "target_property": "Medication_Brand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제조사이름",
+      "target_class": "Medication",
+      "target_property": "Medication_Brand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브랜드명",
+      "target_class": "Medication",
+      "target_property": "Medication_Brand",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "description",
+      "target_class": "Medication",
+      "target_property": "Medication_Description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약품 설명",
+      "target_class": "Medication",
+      "target_property": "Medication_Description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효과 설명",
+      "target_class": "Medication",
+      "target_property": "Medication_Description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "용도 설명",
+      "target_class": "Medication",
+      "target_property": "Medication_Description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 설명",
+      "target_class": "Medication",
+      "target_property": "Medication_Description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설명",
+      "target_class": "Medication",
+      "target_property": "Medication_Description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약품 설명문",
+      "target_class": "Medication",
+      "target_property": "Medication_Description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효능 설명",
+      "target_class": "Medication",
+      "target_property": "Medication_Description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "용법 설명",
+      "target_class": "Medication",
+      "target_property": "Medication_Description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "physician",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사ID",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의료진",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사코드",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사번호",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 식별자",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 고유 ID",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "patient",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자ID",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자번호",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자코드",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 식별자",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 고유 ID",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 정보",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "medication",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Medication",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Medication",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약품",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Medication",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약코드",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Medication",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약품코드",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Medication",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약품 정보",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Medication",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약품 고유 ID",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Medication",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "처방 약",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Medication",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "진료일시",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 진료 일자",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예약 일시",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜 정보",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의료 기록 날짜",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "诊疗日시",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일시",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "appointment",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Appointment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예약",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Appointment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예약 번호",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Appointment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "진료 예약",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Appointment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예약 ID",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Appointment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예약 정보",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Appointment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예약 아이디",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Appointment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예약 코드",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Appointment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dose",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Dose",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "복용량",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Dose",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "처방량",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Dose",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약량",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Dose",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약의 복용량",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Dose",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약량 정보",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Dose",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약의 용량",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Dose",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약의 일일 복용량",
+      "target_class": "Prescribes",
+      "target_property": "Prescribes_Dose",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "block floor",
+      "target_class": "Block",
+      "target_property": "Block_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "층",
+      "target_class": "Block",
+      "target_property": "Block_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "층수",
+      "target_class": "Block",
+      "target_property": "Block_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 층",
+      "target_class": "Block",
+      "target_property": "Block_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 번호",
+      "target_class": "Block",
+      "target_property": "Block_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "층 번호",
+      "target_class": "Block",
+      "target_property": "Block_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "BlockFloor",
+      "target_class": "Block",
+      "target_property": "Block_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "층 정보",
+      "target_class": "Block",
+      "target_property": "Block_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "block code",
+      "target_class": "Block",
+      "target_property": "Block_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코드",
+      "target_class": "Block",
+      "target_property": "Block_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 코드",
+      "target_class": "Block",
+      "target_property": "Block_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 식별 번호",
+      "target_class": "Block",
+      "target_property": "Block_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "BlockCode",
+      "target_class": "Block",
+      "target_property": "Block_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코드 값",
+      "target_class": "Block",
+      "target_property": "Block_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 번호",
+      "target_class": "Block",
+      "target_property": "Block_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "roomnumber",
+      "target_class": "Room",
+      "target_property": "Room_RoomNumber",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "room type",
+      "target_class": "Room",
+      "target_property": "Room_RoomType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 종류",
+      "target_class": "Room",
+      "target_property": "Room_RoomType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방 유형",
+      "target_class": "Room",
+      "target_property": "Room_RoomType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방 타입",
+      "target_class": "Room",
+      "target_property": "Room_RoomType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방 종류",
+      "target_class": "Room",
+      "target_property": "Room_RoomType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방 구분",
+      "target_class": "Room",
+      "target_property": "Room_RoomType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방 형태",
+      "target_class": "Room",
+      "target_property": "Room_RoomType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 유형",
+      "target_class": "Room",
+      "target_property": "Room_RoomType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방 카테고리",
+      "target_class": "Room",
+      "target_property": "Room_RoomType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "block floor",
+      "target_class": "Room",
+      "target_property": "Room_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 층",
+      "target_class": "Room",
+      "target_property": "Room_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록의 층",
+      "target_class": "Room",
+      "target_property": "Room_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록_층수",
+      "target_class": "Room",
+      "target_property": "Room_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "층",
+      "target_class": "Room",
+      "target_property": "Room_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "층수",
+      "target_class": "Room",
+      "target_property": "Room_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "block code",
+      "target_class": "Room",
+      "target_property": "Room_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 코드",
+      "target_class": "Room",
+      "target_property": "Room_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 번호",
+      "target_class": "Room",
+      "target_property": "Room_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 코드 정보",
+      "target_class": "Room",
+      "target_property": "Room_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 번호 정보",
+      "target_class": "Room",
+      "target_property": "Room_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 코드 값",
+      "target_class": "Room",
+      "target_property": "Room_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 번호 값",
+      "target_class": "Room",
+      "target_property": "Room_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "unavailable",
+      "target_class": "Room",
+      "target_property": "Room_Unavailable",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용 불가",
+      "target_class": "Room",
+      "target_property": "Room_Unavailable",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용 불가능",
+      "target_class": "Room",
+      "target_property": "Room_Unavailable",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불가능",
+      "target_class": "Room",
+      "target_property": "Room_Unavailable",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비활성화",
+      "target_class": "Room",
+      "target_property": "Room_Unavailable",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용 불가능 여부",
+      "target_class": "Room",
+      "target_property": "Room_Unavailable",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비활성",
+      "target_class": "Room",
+      "target_property": "Room_Unavailable",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용 불가 여부",
+      "target_class": "Room",
+      "target_property": "Room_Unavailable",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "간호사",
+      "target_class": "On_Call",
+      "target_property": "On_Call_Nurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "간호사 번호",
+      "target_class": "On_Call",
+      "target_property": "On_Call_Nurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "nurse",
+      "target_class": "On_Call",
+      "target_property": "On_Call_Nurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "간호사 ID",
+      "target_class": "On_Call",
+      "target_property": "On_Call_Nurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Nurse ID",
+      "target_class": "On_Call",
+      "target_property": "On_Call_Nurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사",
+      "target_class": "On_Call",
+      "target_property": "On_Call_Nurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 번호",
+      "target_class": "On_Call",
+      "target_property": "On_Call_Nurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록층",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 층",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 레벨",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 층 번호",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 레벨 번호",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 층 코드",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 층 정보",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 층 식별자",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockFloor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록코드",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 코드",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 식별자",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 코드 번호",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 코드 정보",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 코드 식별",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "블록 코드 식별자",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "oncall 시작 시간",
+      "target_class": "On_Call",
+      "target_property": "On_Call_OnCallStart",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "oncall start",
+      "target_class": "On_Call",
+      "target_property": "On_Call_OnCallStart",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 시간",
+      "target_class": "On_Call",
+      "target_property": "On_Call_OnCallStart",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출근 시간",
+      "target_class": "On_Call",
+      "target_property": "On_Call_OnCallStart",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "근무 시작",
+      "target_class": "On_Call",
+      "target_property": "On_Call_OnCallStart",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 날짜",
+      "target_class": "On_Call",
+      "target_property": "On_Call_OnCallStart",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "oncall 종료 시간",
+      "target_class": "On_Call",
+      "target_property": "On_Call_OnCallEnd",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "oncall end",
+      "target_class": "On_Call",
+      "target_property": "On_Call_OnCallEnd",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료 시간",
+      "target_class": "On_Call",
+      "target_property": "On_Call_OnCallEnd",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "퇴근 시간",
+      "target_class": "On_Call",
+      "target_property": "On_Call_OnCallEnd",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "근무 종료",
+      "target_class": "On_Call",
+      "target_property": "On_Call_OnCallEnd",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료 날짜",
+      "target_class": "On_Call",
+      "target_property": "On_Call_OnCallEnd",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주거 기록 ID",
+      "target_class": "Stay",
+      "target_property": "Stay_StayID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 번호",
+      "target_class": "Stay",
+      "target_property": "Stay_StayID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 ID",
+      "target_class": "Stay",
+      "target_property": "Stay_StayID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "StayID",
+      "target_class": "Stay",
+      "target_property": "Stay_StayID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 식별자",
+      "target_class": "Stay",
+      "target_property": "Stay_StayID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 고유 번호",
+      "target_class": "Stay",
+      "target_property": "Stay_StayID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 코드",
+      "target_class": "Stay",
+      "target_property": "Stay_StayID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자",
+      "target_class": "Stay",
+      "target_property": "Stay_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 ID",
+      "target_class": "Stay",
+      "target_property": "Stay_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 번호",
+      "target_class": "Stay",
+      "target_property": "Stay_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 식별자",
+      "target_class": "Stay",
+      "target_property": "Stay_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 코드",
+      "target_class": "Stay",
+      "target_property": "Stay_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SSN",
+      "target_class": "Stay",
+      "target_property": "Stay_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개인 식별 번호",
+      "target_class": "Stay",
+      "target_property": "Stay_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실",
+      "target_class": "Stay",
+      "target_property": "Stay_Room",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "병상",
+      "target_class": "Stay",
+      "target_property": "Stay_Room",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "병상 번호",
+      "target_class": "Stay",
+      "target_property": "Stay_Room",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "병상 ID",
+      "target_class": "Stay",
+      "target_property": "Stay_Room",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Room",
+      "target_class": "Stay",
+      "target_property": "Stay_Room",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "병상 식별자",
+      "target_class": "Stay",
+      "target_property": "Stay_Room",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "병상 코드",
+      "target_class": "Stay",
+      "target_property": "Stay_Room",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실 번호",
+      "target_class": "Stay",
+      "target_property": "Stay_Room",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주거 시작 시간",
+      "target_class": "Stay",
+      "target_property": "Stay_StayStart",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 시작 시간",
+      "target_class": "Stay",
+      "target_property": "Stay_StayStart",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 시작 날짜",
+      "target_class": "Stay",
+      "target_property": "Stay_StayStart",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 시작",
+      "target_class": "Stay",
+      "target_property": "Stay_StayStart",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 시작 시각",
+      "target_class": "Stay",
+      "target_property": "Stay_StayStart",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 시작 일시",
+      "target_class": "Stay",
+      "target_property": "Stay_StayStart",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 시작 시간대",
+      "target_class": "Stay",
+      "target_property": "Stay_StayStart",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 시작 일자",
+      "target_class": "Stay",
+      "target_property": "Stay_StayStart",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 시작 기록",
+      "target_class": "Stay",
+      "target_property": "Stay_StayStart",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주거 종료 시간",
+      "target_class": "Stay",
+      "target_property": "Stay_StayEnd",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 종료 시간",
+      "target_class": "Stay",
+      "target_property": "Stay_StayEnd",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 종료 날짜",
+      "target_class": "Stay",
+      "target_property": "Stay_StayEnd",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 종료",
+      "target_class": "Stay",
+      "target_property": "Stay_StayEnd",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 종료 시각",
+      "target_class": "Stay",
+      "target_property": "Stay_StayEnd",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 종료 일시",
+      "target_class": "Stay",
+      "target_property": "Stay_StayEnd",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 종료 시간대",
+      "target_class": "Stay",
+      "target_property": "Stay_StayEnd",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 종료 일자",
+      "target_class": "Stay",
+      "target_property": "Stay_StayEnd",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 종료 기록",
+      "target_class": "Stay",
+      "target_property": "Stay_StayEnd",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "patient",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 번호",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 ID",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 식별 번호",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "환자 고유 번호",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "patient id",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Patient",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "procedures",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Procedures",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의료 절차",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Procedures",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "치료 코드",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Procedures",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의료 서비스 코드",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Procedures",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의료 절차 코드",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Procedures",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "procedures code",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Procedures",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stay",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Stay",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 기간",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Stay",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 정보",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Stay",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 번호",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Stay",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 기록",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Stay",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입원 ID",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Stay",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stay id",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Stay",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date undergoes",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_DateUndergoes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수술 일자",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_DateUndergoes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "치료 일시",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_DateUndergoes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_DateUndergoes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일시",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_DateUndergoes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수술 날짜",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_DateUndergoes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "치료 날짜",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_DateUndergoes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 시간",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_DateUndergoes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일시 정보",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_DateUndergoes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "physician",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 번호",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 ID",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 코드",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 식별자",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의사 고유 번호",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_Physician",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "assisting nurse",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_AssistingNurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "간호사",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_AssistingNurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "간호사 번호",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_AssistingNurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "간호사 ID",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_AssistingNurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "간호사 코드",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_AssistingNurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "간호사 식별자",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_AssistingNurse",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "간호사 고유 번호",
+      "target_class": "Undergoes",
+      "target_property": "Undergoes_AssistingNurse",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "Physician",
+      "target_property": "Physician_Name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "이지은",
+      "target_class": "Physician",
+      "target_property": "Physician_Name",
+      "value": "이지은"
+    },
+    {
+      "entry_type": "value",
+      "key": "true",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_PrimaryAffiliation",
+      "value": "true"
+    },
+    {
+      "entry_type": "value",
+      "key": "주요",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_PrimaryAffiliation",
+      "value": "true"
+    },
+    {
+      "entry_type": "value",
+      "key": "예",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_PrimaryAffiliation",
+      "value": "true"
+    },
+    {
+      "entry_type": "value",
+      "key": "false",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_PrimaryAffiliation",
+      "value": "false"
+    },
+    {
+      "entry_type": "value",
+      "key": "비주요",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_PrimaryAffiliation",
+      "value": "false"
+    },
+    {
+      "entry_type": "value",
+      "key": "아니오",
+      "target_class": "Affiliated_With",
+      "target_property": "Affiliated_With_PrimaryAffiliation",
+      "value": "false"
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "Block",
+      "target_property": "Block_BlockFloor",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2",
+      "target_class": "Block",
+      "target_property": "Block_BlockFloor",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "3",
+      "target_class": "Block",
+      "target_property": "Block_BlockFloor",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "4",
+      "target_class": "Block",
+      "target_property": "Block_BlockFloor",
+      "value": "4"
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockFloor",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "1층",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockFloor",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockFloor",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2층",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockFloor",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "A",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockCode",
+      "value": "A"
+    },
+    {
+      "entry_type": "value",
+      "key": "A블록",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockCode",
+      "value": "A"
+    },
+    {
+      "entry_type": "value",
+      "key": "B",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockCode",
+      "value": "B"
+    },
+    {
+      "entry_type": "value",
+      "key": "B블록",
+      "target_class": "On_Call",
+      "target_property": "On_Call_BlockCode",
+      "value": "B"
+    },
+    {
+      "entry_type": "value",
+      "key": "101",
+      "target_class": "Stay",
+      "target_property": "Stay_Patient",
+      "value": "101"
+    },
+    {
+      "entry_type": "value",
+      "key": "205",
+      "target_class": "Stay",
+      "target_property": "Stay_Room",
+      "value": "205"
+    },
+    {
+      "entry_type": "value",
+      "key": "2025-04-01 08:00:00",
+      "target_class": "Stay",
+      "target_property": "Stay_StayStart",
+      "value": "2025-04-01 08:00:00"
+    },
+    {
+      "entry_type": "value",
+      "key": "2025-04-01 08:00",
+      "target_class": "Stay",
+      "target_property": "Stay_StayStart",
+      "value": "2025-04-01 08:00:00"
+    },
+    {
+      "entry_type": "value",
+      "key": "2025-04-05 17:30:00",
+      "target_class": "Stay",
+      "target_property": "Stay_StayEnd",
+      "value": "2025-04-05 17:30:00"
+    },
+    {
+      "entry_type": "value",
+      "key": "2025-04-05 17:30",
+      "target_class": "Stay",
+      "target_property": "Stay_StayEnd",
+      "value": "2025-04-05 17:30:00"
+    }
+  ]
+}

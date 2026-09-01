@@ -1,0 +1,319 @@
+{
+  "class_table": {
+    "Album": "Album",
+    "Artist": "Artist",
+    "Customer": "Customer",
+    "Employee": "Employee",
+    "Genre": "Genre",
+    "Invoice": "Invoice",
+    "InvoiceLine": "InvoiceLine",
+    "MediaType": "MediaType",
+    "Playlist": "Playlist",
+    "PlaylistTrack": "PlaylistTrack",
+    "Track": "Track"
+  },
+  "property_column": {
+    "Album_AlbumId": [
+      "Album",
+      "AlbumId"
+    ],
+    "Album_Title": [
+      "Album",
+      "Title"
+    ],
+    "Album_ArtistId": [
+      "Album",
+      "ArtistId"
+    ],
+    "Artist_ArtistId": [
+      "Artist",
+      "ArtistId"
+    ],
+    "Artist_Name": [
+      "Artist",
+      "Name"
+    ],
+    "Customer_CustomerId": [
+      "Customer",
+      "CustomerId"
+    ],
+    "Customer_FirstName": [
+      "Customer",
+      "FirstName"
+    ],
+    "Customer_LastName": [
+      "Customer",
+      "LastName"
+    ],
+    "Customer_Company": [
+      "Customer",
+      "Company"
+    ],
+    "Customer_Address": [
+      "Customer",
+      "Address"
+    ],
+    "Customer_City": [
+      "Customer",
+      "City"
+    ],
+    "Customer_State": [
+      "Customer",
+      "State"
+    ],
+    "Customer_Country": [
+      "Customer",
+      "Country"
+    ],
+    "Customer_PostalCode": [
+      "Customer",
+      "PostalCode"
+    ],
+    "Customer_Phone": [
+      "Customer",
+      "Phone"
+    ],
+    "Customer_Fax": [
+      "Customer",
+      "Fax"
+    ],
+    "Customer_Email": [
+      "Customer",
+      "Email"
+    ],
+    "Customer_SupportRepId": [
+      "Customer",
+      "SupportRepId"
+    ],
+    "Employee_EmployeeId": [
+      "Employee",
+      "EmployeeId"
+    ],
+    "Employee_LastName": [
+      "Employee",
+      "LastName"
+    ],
+    "Employee_FirstName": [
+      "Employee",
+      "FirstName"
+    ],
+    "Employee_Title": [
+      "Employee",
+      "Title"
+    ],
+    "Employee_ReportsTo": [
+      "Employee",
+      "ReportsTo"
+    ],
+    "Employee_BirthDate": [
+      "Employee",
+      "BirthDate"
+    ],
+    "Employee_HireDate": [
+      "Employee",
+      "HireDate"
+    ],
+    "Employee_Address": [
+      "Employee",
+      "Address"
+    ],
+    "Employee_City": [
+      "Employee",
+      "City"
+    ],
+    "Employee_State": [
+      "Employee",
+      "State"
+    ],
+    "Employee_Country": [
+      "Employee",
+      "Country"
+    ],
+    "Employee_PostalCode": [
+      "Employee",
+      "PostalCode"
+    ],
+    "Employee_Phone": [
+      "Employee",
+      "Phone"
+    ],
+    "Employee_Fax": [
+      "Employee",
+      "Fax"
+    ],
+    "Employee_Email": [
+      "Employee",
+      "Email"
+    ],
+    "Genre_GenreId": [
+      "Genre",
+      "GenreId"
+    ],
+    "Genre_Name": [
+      "Genre",
+      "Name"
+    ],
+    "Invoice_InvoiceId": [
+      "Invoice",
+      "InvoiceId"
+    ],
+    "Invoice_CustomerId": [
+      "Invoice",
+      "CustomerId"
+    ],
+    "Invoice_InvoiceDate": [
+      "Invoice",
+      "InvoiceDate"
+    ],
+    "Invoice_BillingAddress": [
+      "Invoice",
+      "BillingAddress"
+    ],
+    "Invoice_BillingCity": [
+      "Invoice",
+      "BillingCity"
+    ],
+    "Invoice_BillingState": [
+      "Invoice",
+      "BillingState"
+    ],
+    "Invoice_BillingCountry": [
+      "Invoice",
+      "BillingCountry"
+    ],
+    "Invoice_BillingPostalCode": [
+      "Invoice",
+      "BillingPostalCode"
+    ],
+    "Invoice_Total": [
+      "Invoice",
+      "Total"
+    ],
+    "InvoiceLine_InvoiceLineId": [
+      "InvoiceLine",
+      "InvoiceLineId"
+    ],
+    "InvoiceLine_InvoiceId": [
+      "InvoiceLine",
+      "InvoiceId"
+    ],
+    "InvoiceLine_TrackId": [
+      "InvoiceLine",
+      "TrackId"
+    ],
+    "InvoiceLine_UnitPrice": [
+      "InvoiceLine",
+      "UnitPrice"
+    ],
+    "InvoiceLine_Quantity": [
+      "InvoiceLine",
+      "Quantity"
+    ],
+    "MediaType_MediaTypeId": [
+      "MediaType",
+      "MediaTypeId"
+    ],
+    "MediaType_Name": [
+      "MediaType",
+      "Name"
+    ],
+    "Playlist_PlaylistId": [
+      "Playlist",
+      "PlaylistId"
+    ],
+    "Playlist_Name": [
+      "Playlist",
+      "Name"
+    ],
+    "PlaylistTrack_PlaylistId": [
+      "PlaylistTrack",
+      "PlaylistId"
+    ],
+    "PlaylistTrack_TrackId": [
+      "PlaylistTrack",
+      "TrackId"
+    ],
+    "Track_TrackId": [
+      "Track",
+      "TrackId"
+    ],
+    "Track_Name": [
+      "Track",
+      "Name"
+    ],
+    "Track_AlbumId": [
+      "Track",
+      "AlbumId"
+    ],
+    "Track_MediaTypeId": [
+      "Track",
+      "MediaTypeId"
+    ],
+    "Track_GenreId": [
+      "Track",
+      "GenreId"
+    ],
+    "Track_Composer": [
+      "Track",
+      "Composer"
+    ],
+    "Track_Milliseconds": [
+      "Track",
+      "Milliseconds"
+    ],
+    "Track_Bytes": [
+      "Track",
+      "Bytes"
+    ],
+    "Track_UnitPrice": [
+      "Track",
+      "UnitPrice"
+    ]
+  },
+  "object_property_fk": {
+    "Album_Artist_fk0": [
+      "Album.ArtistId",
+      "Artist.ArtistId"
+    ],
+    "Customer_Employee_fk1": [
+      "Customer.SupportRepId",
+      "Employee.EmployeeId"
+    ],
+    "Employee_Employee_fk2": [
+      "Employee.ReportsTo",
+      "Employee.EmployeeId"
+    ],
+    "Invoice_Customer_fk3": [
+      "Invoice.CustomerId",
+      "Customer.CustomerId"
+    ],
+    "InvoiceLine_Track_fk4": [
+      "InvoiceLine.TrackId",
+      "Track.TrackId"
+    ],
+    "InvoiceLine_Invoice_fk5": [
+      "InvoiceLine.InvoiceId",
+      "Invoice.InvoiceId"
+    ],
+    "PlaylistTrack_Track_fk6": [
+      "PlaylistTrack.TrackId",
+      "Track.TrackId"
+    ],
+    "PlaylistTrack_Playlist_fk7": [
+      "PlaylistTrack.PlaylistId",
+      "Playlist.PlaylistId"
+    ],
+    "Track_MediaType_fk8": [
+      "Track.MediaTypeId",
+      "MediaType.MediaTypeId"
+    ],
+    "Track_Genre_fk9": [
+      "Track.GenreId",
+      "Genre.GenreId"
+    ],
+    "Track_Album_fk10": [
+      "Track.AlbumId",
+      "Album.AlbumId"
+    ]
+  }
+}

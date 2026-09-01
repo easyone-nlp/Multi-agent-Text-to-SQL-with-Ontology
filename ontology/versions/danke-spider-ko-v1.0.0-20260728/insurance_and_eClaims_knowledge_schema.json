@@ -1,0 +1,915 @@
+{
+  "db_id": "insurance_and_eClaims",
+  "classes": [
+    {
+      "name": "Customers",
+      "source_table": "Customers",
+      "ranking": 3.0,
+      "primary_label": "고객들",
+      "synonyms": [
+        "고객 정보",
+        "보험 고객",
+        "eClaim 고객",
+        "고객 목록",
+        "보험 보험 고객"
+      ]
+    },
+    {
+      "name": "Staff",
+      "source_table": "Staff",
+      "ranking": 3.0,
+      "primary_label": "직원",
+      "synonyms": [
+        "직원",
+        "보험 직원",
+        "eClaim 직원",
+        "직원 목록",
+        "보험 관리자"
+      ]
+    },
+    {
+      "name": "Policies",
+      "source_table": "Policies",
+      "ranking": 3.5,
+      "primary_label": "정책",
+      "synonyms": [
+        "보험 정책",
+        "eClaim 정책",
+        "보험 계약",
+        "보험 정책 목록",
+        "보험 계약서"
+      ]
+    },
+    {
+      "name": "Claim_Headers",
+      "source_table": "Claim_Headers",
+      "ranking": 3.5,
+      "primary_label": "claim headers",
+      "synonyms": [
+        "claim header",
+        "claim header data",
+        "claim header information",
+        "claim header details",
+        "claim header records"
+      ]
+    },
+    {
+      "name": "Claims_Documents",
+      "source_table": "Claims_Documents",
+      "ranking": 3.0,
+      "primary_label": "claims documents",
+      "synonyms": [
+        "claim document",
+        "claim document data",
+        "claim document information",
+        "claim document details",
+        "claim document records"
+      ]
+    },
+    {
+      "name": "Claims_Processing_Stages",
+      "source_table": "Claims_Processing_Stages",
+      "ranking": 3.0,
+      "primary_label": "claims processing stages",
+      "synonyms": [
+        "claim processing stage",
+        "claim processing stage data",
+        "claim processing stage information",
+        "claim processing stage details",
+        "claim processing stage records"
+      ]
+    },
+    {
+      "name": "Claims_Processing",
+      "source_table": "Claims_Processing",
+      "ranking": 3.0,
+      "primary_label": "claims processing",
+      "synonyms": [
+        "청구서 처리",
+        "보험 청구",
+        "사고 보상",
+        "청구 관리",
+        "보험 청구 처리",
+        "사고 보상 절차",
+        "청구서 관리",
+        "보험 청구 업무"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Customers_Customer_ID",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "Customer_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "customer id",
+      "synonyms": [
+        "고유번호",
+        "고객번호",
+        "고객ID",
+        "ID",
+        "고객아이디",
+        "고객 식별자",
+        "고객코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_Customer_Details",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "Customer_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "customer details",
+      "synonyms": [
+        "고객정보",
+        "상세정보",
+        "고객상세내용",
+        "고객자료",
+        "고객정보내용",
+        "고객상세사항",
+        "고객세부정보",
+        "고객정보세부내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_Staff_ID",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "Staff_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "직원 ID",
+      "synonyms": [
+        "직원 번호",
+        "사원 ID",
+        "직원 식별자",
+        "직원 고유 번호",
+        "사번",
+        "Staff_ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_Staff_Details",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "Staff_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "직원 상세 정보",
+      "synonyms": [
+        "직원 정보",
+        "사원 세부 정보",
+        "직원 데이터",
+        "사원 상세 내용",
+        "Staff_Details",
+        "직원 상세 정보",
+        "사원 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "경력 10년 이상": [
+          "경력 10년 이상",
+          "10년 이상 경력"
+        ],
+        "경력 5년 이하": [
+          "경력 5년 이하",
+          "5년 이하 경력"
+        ]
+      }
+    },
+    {
+      "name": "Policies_Policy_ID",
+      "domain": "Policies",
+      "source_table": "Policies",
+      "source_column": "Policy_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "정책 ID",
+      "synonyms": [
+        "정책 ID",
+        "보험 번호",
+        "정책 식별자",
+        "Policy_ID",
+        "보험 계약 ID",
+        "Policy No."
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Policies_Customer_ID",
+      "domain": "Policies",
+      "source_table": "Policies",
+      "source_column": "Customer_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 ID",
+        "고객 번호",
+        "Customer_ID",
+        "고객 식별자",
+        "고객 계약 ID",
+        "Client ID",
+        "Customer No."
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Policies_Policy_Type_Code",
+      "domain": "Policies",
+      "source_table": "Policies",
+      "source_column": "Policy_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "정책 유형 코드",
+      "synonyms": [
+        "정책 유형 코드",
+        "보험 종류 코드",
+        "Policy_Type_Code",
+        "보험 유형 코드",
+        "Policy Type",
+        "Policy Category Code"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "기본 보험": [
+          "기본",
+          "기본 보험"
+        ],
+        "건강 보험": [
+          "건강",
+          "건강 보험"
+        ],
+        "자동차 보험": [
+          "자동차",
+          "자동차 보험"
+        ]
+      }
+    },
+    {
+      "name": "Policies_Start_Date",
+      "domain": "Policies",
+      "source_table": "Policies",
+      "source_column": "Start_Date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "시작 일자",
+      "synonyms": [
+        "시작일",
+        "시작 시간",
+        "시작 날짜",
+        "보장 시작일",
+        "시작 일자",
+        "시작 날짜 시간",
+        "시작 일시"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Policies_End_Date",
+      "domain": "Policies",
+      "source_table": "Policies",
+      "source_column": "End_Date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "종료 일자",
+      "synonyms": [
+        "종료일",
+        "종료 시간",
+        "종료 날짜",
+        "보장 종료일",
+        "종료 일자",
+        "종료 날짜 시간",
+        "종료 일시"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claim_Headers_Claim_Header_ID",
+      "domain": "Claim_Headers",
+      "source_table": "Claim_Headers",
+      "source_column": "Claim_Header_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "claim header id",
+      "synonyms": [
+        "claim header id",
+        "claim header",
+        "claim id",
+        "claim header identifier",
+        "claim header number",
+        "claim header code",
+        "claim header key"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claim_Headers_Claim_Status_Code",
+      "domain": "Claim_Headers",
+      "source_table": "Claim_Headers",
+      "source_column": "Claim_Status_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "claim status code",
+      "synonyms": [
+        "claim status code",
+        "claim status",
+        "claim status code value",
+        "claim status identifier",
+        "claim status code field",
+        "claim status code number"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승인": [
+          "승인됨",
+          "승인된 상태"
+        ],
+        "반려": [
+          "반려됨",
+          "거부됨"
+        ],
+        "처리 중": [
+          "진행 중",
+          "대기 중"
+        ]
+      }
+    },
+    {
+      "name": "Claim_Headers_Claim_Type_Code",
+      "domain": "Claim_Headers",
+      "source_table": "Claim_Headers",
+      "source_column": "Claim_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.8,
+      "primary_label": "claim type code",
+      "synonyms": [
+        "claim type code",
+        "claim type",
+        "claim type code value",
+        "claim type identifier",
+        "claim type code field",
+        "claim type code number"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "의료": [
+          "의료비",
+          "건강 보험"
+        ],
+        "자동차": [
+          "차량 사고",
+          "자동차 보험"
+        ],
+        "재산": [
+          "재산 손해",
+          "재산 보험"
+        ]
+      }
+    },
+    {
+      "name": "Claim_Headers_Policy_ID",
+      "domain": "Claim_Headers",
+      "source_table": "Claim_Headers",
+      "source_column": "Policy_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "policy id",
+      "synonyms": [
+        "Policy_ID",
+        "Policy number",
+        "Policy No",
+        "Policy ID number",
+        "Policy identifier",
+        "Insurance policy ID",
+        "Policy ID code"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claim_Headers_Date_of_Claim",
+      "domain": "Claim_Headers",
+      "source_table": "Claim_Headers",
+      "source_column": "Date_of_Claim",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "date of claim",
+      "synonyms": [
+        "claim date",
+        "date of submission",
+        "claim submission date",
+        "claim date of filing",
+        "claim filing date",
+        "date when claim was submitted",
+        "date of claim submission"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claim_Headers_Date_of_Settlement",
+      "domain": "Claim_Headers",
+      "source_table": "Claim_Headers",
+      "source_column": "Date_of_Settlement",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "date of settlement",
+      "synonyms": [
+        "settlement date",
+        "date of payment",
+        "date when claim was settled",
+        "claim settlement date",
+        "date of claim settlement",
+        "settlement date of claim",
+        "date of claim resolution"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claim_Headers_Amount_Claimed",
+      "domain": "Claim_Headers",
+      "source_table": "Claim_Headers",
+      "source_column": "Amount_Claimed",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "amount claimed",
+      "synonyms": [
+        "amount claimed",
+        "claimed amount",
+        "claim amount",
+        "claimed money",
+        "claim value",
+        "claim sum",
+        "claimed value",
+        "claim money"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claim_Headers_Amount_Piad",
+      "domain": "Claim_Headers",
+      "source_table": "Claim_Headers",
+      "source_column": "Amount_Piad",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "amount piad",
+      "synonyms": [
+        "amount piad",
+        "paid amount",
+        "paid money",
+        "paid value",
+        "paid sum",
+        "paid claim",
+        "claimed payment",
+        "payment amount"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Documents_Claim_ID",
+      "domain": "Claims_Documents",
+      "source_table": "Claims_Documents",
+      "source_column": "Claim_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "claim id",
+      "synonyms": [
+        "claim id",
+        "claim number",
+        "claim identifier",
+        "claim key",
+        "claim id number",
+        "claim header id",
+        "claim header identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Documents_Document_Type_Code",
+      "domain": "Claims_Documents",
+      "source_table": "Claims_Documents",
+      "source_column": "Document_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "document type code",
+      "synonyms": [
+        "document type code",
+        "doc type code",
+        "document type",
+        "document category code",
+        "document type identifier",
+        "document code",
+        "doc type"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "INVOICE": [
+          "invoice"
+        ],
+        "RECEIPT": [
+          "receipt"
+        ],
+        "CERTIFICATE": [
+          "certificate"
+        ]
+      }
+    },
+    {
+      "name": "Claims_Documents_Created_by_Staff_ID",
+      "domain": "Claims_Documents",
+      "source_table": "Claims_Documents",
+      "source_column": "Created_by_Staff_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "created by staff id",
+      "synonyms": [
+        "created by staff id",
+        "staff id",
+        "creator staff id",
+        "staff identifier",
+        "staff number",
+        "staff id number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Documents_Created_Date",
+      "domain": "Claims_Documents",
+      "source_table": "Claims_Documents",
+      "source_column": "Created_Date",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "created date",
+      "synonyms": [
+        "created date",
+        "creation date",
+        "document created date",
+        "date created",
+        "created date numeric",
+        "claim document date",
+        "document creation date",
+        "created date number"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Processing_Stages_Claim_Stage_ID",
+      "domain": "Claims_Processing_Stages",
+      "source_table": "Claims_Processing_Stages",
+      "source_column": "Claim_Stage_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "claim stage id",
+      "synonyms": [
+        "claim stage id",
+        "claim stage number",
+        "stage identifier",
+        "stage id",
+        "claim stage code",
+        "stage number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Processing_Stages_Next_Claim_Stage_ID",
+      "domain": "Claims_Processing_Stages",
+      "source_table": "Claims_Processing_Stages",
+      "source_column": "Next_Claim_Stage_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "next claim stage id",
+      "synonyms": [
+        "next claim stage id",
+        "next stage id",
+        "next stage number",
+        "next claim stage number",
+        "next stage code",
+        "next stage identifier",
+        "next claim stage code"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Processing_Stages_Claim_Status_Name",
+      "domain": "Claims_Processing_Stages",
+      "source_table": "Claims_Processing_Stages",
+      "source_column": "Claim_Status_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "claim status name",
+      "synonyms": [
+        "claim status name",
+        "claim status",
+        "status name",
+        "status",
+        "claim status identifier",
+        "claim status code"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승인됨": [
+          "승인"
+        ],
+        "반려됨": [
+          "반려"
+        ],
+        "검토 중": [
+          "검토"
+        ]
+      }
+    },
+    {
+      "name": "Claims_Processing_Stages_Claim_Status_Description",
+      "domain": "Claims_Processing_Stages",
+      "source_table": "Claims_Processing_Stages",
+      "source_column": "Claim_Status_Description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "claim status description",
+      "synonyms": [
+        "claim status description",
+        "claim status detail",
+        "claim status explanation",
+        "status description",
+        "status details",
+        "claim status note",
+        "claim status info",
+        "claim status remark"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Processing_Claim_Processing_ID",
+      "domain": "Claims_Processing",
+      "source_table": "Claims_Processing",
+      "source_column": "Claim_Processing_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "claim processing id",
+      "synonyms": [
+        "claim processing id",
+        "claim processing identifier",
+        "processing id",
+        "claim processing number",
+        "claim processing unique id",
+        "claim processing key",
+        "processing unique identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Processing_Claim_ID",
+      "domain": "Claims_Processing",
+      "source_table": "Claims_Processing",
+      "source_column": "Claim_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "claim id",
+      "synonyms": [
+        "claim id",
+        "claim identifier",
+        "claim number",
+        "claim unique id",
+        "claim key",
+        "claim unique identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Processing_Claim_Outcome_Code",
+      "domain": "Claims_Processing",
+      "source_table": "Claims_Processing",
+      "source_column": "Claim_Outcome_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "claim outcome code",
+      "synonyms": [
+        "claim outcome code",
+        "claim result code",
+        "claim status code",
+        "claim outcome identifier",
+        "claim result identifier",
+        "claim outcome value"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "APPROVED": [
+          "승인"
+        ],
+        "REJECTED": [
+          "거부"
+        ],
+        "PENDING": [
+          "대기"
+        ]
+      }
+    },
+    {
+      "name": "Claims_Processing_Claim_Stage_ID",
+      "domain": "Claims_Processing",
+      "source_table": "Claims_Processing",
+      "source_column": "Claim_Stage_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "claim stage id",
+      "synonyms": [
+        "claim stage id",
+        "claim stage",
+        "stage id",
+        "stage number",
+        "processing stage",
+        "claim stage code",
+        "claim stage identifier",
+        "stage identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Processing_Staff_ID",
+      "domain": "Claims_Processing",
+      "source_table": "Claims_Processing",
+      "source_column": "Staff_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "staff id",
+      "synonyms": [
+        "staff id",
+        "staff member id",
+        "staff number",
+        "employee id",
+        "staff identifier",
+        "employee identifier",
+        "staff code"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Policies_Customers_fk0",
+      "domain": "Policies",
+      "range": "Customers",
+      "source_fk": [
+        "Policies.Customer_ID",
+        "Customers.Customer_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "고객 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Claim_Headers_Policies_fk1",
+      "domain": "Claim_Headers",
+      "range": "Policies",
+      "source_fk": [
+        "Claim_Headers.Policy_ID",
+        "Policies.Policy_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "정책 참조",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Claims_Documents_Staff_fk2",
+      "domain": "Claims_Documents",
+      "range": "Staff",
+      "source_fk": [
+        "Claims_Documents.Created_by_Staff_ID",
+        "Staff.Staff_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "작성한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Claims_Documents_Claim_Headers_fk3",
+      "domain": "Claims_Documents",
+      "range": "Claim_Headers",
+      "source_fk": [
+        "Claims_Documents.Claim_ID",
+        "Claim_Headers.Claim_Header_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "청구서 참조",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Claims_Processing_Staff_fk4",
+      "domain": "Claims_Processing",
+      "range": "Staff",
+      "source_fk": [
+        "Claims_Processing.Staff_ID",
+        "Staff.Staff_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "처리한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Claims_Processing_Claim_Headers_fk5",
+      "domain": "Claims_Processing",
+      "range": "Claim_Headers",
+      "source_fk": [
+        "Claims_Processing.Claim_ID",
+        "Claim_Headers.Claim_Header_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "청구서 참조",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

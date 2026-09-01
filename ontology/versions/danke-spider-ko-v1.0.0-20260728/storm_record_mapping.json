@@ -1,0 +1,67 @@
+{
+  "class_table": {
+    "storm": "storm",
+    "region": "region",
+    "affected_region": "affected_region"
+  },
+  "property_column": {
+    "storm_Storm_ID": [
+      "storm",
+      "Storm_ID"
+    ],
+    "storm_Name": [
+      "storm",
+      "Name"
+    ],
+    "storm_Dates_active": [
+      "storm",
+      "Dates_active"
+    ],
+    "storm_Max_speed": [
+      "storm",
+      "Max_speed"
+    ],
+    "storm_Damage_millions_USD": [
+      "storm",
+      "Damage_millions_USD"
+    ],
+    "storm_Number_Deaths": [
+      "storm",
+      "Number_Deaths"
+    ],
+    "region_Region_id": [
+      "region",
+      "Region_id"
+    ],
+    "region_Region_code": [
+      "region",
+      "Region_code"
+    ],
+    "region_Region_name": [
+      "region",
+      "Region_name"
+    ],
+    "affected_region_Region_id": [
+      "affected_region",
+      "Region_id"
+    ],
+    "affected_region_Storm_ID": [
+      "affected_region",
+      "Storm_ID"
+    ],
+    "affected_region_Number_city_affected": [
+      "affected_region",
+      "Number_city_affected"
+    ]
+  },
+  "object_property_fk": {
+    "affected_region_storm_fk0": [
+      "affected_region.Storm_ID",
+      "storm.Storm_ID"
+    ],
+    "affected_region_region_fk1": [
+      "affected_region.Region_id",
+      "region.Region_id"
+    ]
+  }
+}

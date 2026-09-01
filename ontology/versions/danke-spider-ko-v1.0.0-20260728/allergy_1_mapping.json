@@ -1,0 +1,67 @@
+{
+  "class_table": {
+    "Allergy_Type": "Allergy_Type",
+    "Has_Allergy": "Has_Allergy",
+    "Student": "Student"
+  },
+  "property_column": {
+    "Allergy_Type_Allergy": [
+      "Allergy_Type",
+      "Allergy"
+    ],
+    "Allergy_Type_AllergyType": [
+      "Allergy_Type",
+      "AllergyType"
+    ],
+    "Has_Allergy_StuID": [
+      "Has_Allergy",
+      "StuID"
+    ],
+    "Has_Allergy_Allergy": [
+      "Has_Allergy",
+      "Allergy"
+    ],
+    "Student_StuID": [
+      "Student",
+      "StuID"
+    ],
+    "Student_LName": [
+      "Student",
+      "LName"
+    ],
+    "Student_Fname": [
+      "Student",
+      "Fname"
+    ],
+    "Student_Age": [
+      "Student",
+      "Age"
+    ],
+    "Student_Sex": [
+      "Student",
+      "Sex"
+    ],
+    "Student_Major": [
+      "Student",
+      "Major"
+    ],
+    "Student_Advisor": [
+      "Student",
+      "Advisor"
+    ],
+    "Student_city_code": [
+      "Student",
+      "city_code"
+    ]
+  },
+  "object_property_fk": {
+    "Has_Allergy_Allergy_Type_fk0": [
+      "Has_Allergy.Allergy",
+      "Allergy_Type.Allergy"
+    ],
+    "Has_Allergy_Student_fk1": [
+      "Has_Allergy.StuID",
+      "Student.StuID"
+    ]
+  }
+}

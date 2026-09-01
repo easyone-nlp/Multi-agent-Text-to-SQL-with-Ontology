@@ -1,0 +1,128 @@
+{
+  "class_table": {
+    "Accounts": "Accounts",
+    "Customers": "Customers",
+    "Customers_Cards": "Customers_Cards",
+    "Financial_Transactions": "Financial_Transactions"
+  },
+  "property_column": {
+    "Accounts_account_id": [
+      "Accounts",
+      "account_id"
+    ],
+    "Accounts_customer_id": [
+      "Accounts",
+      "customer_id"
+    ],
+    "Accounts_account_name": [
+      "Accounts",
+      "account_name"
+    ],
+    "Accounts_other_account_details": [
+      "Accounts",
+      "other_account_details"
+    ],
+    "Customers_customer_id": [
+      "Customers",
+      "customer_id"
+    ],
+    "Customers_customer_first_name": [
+      "Customers",
+      "customer_first_name"
+    ],
+    "Customers_customer_last_name": [
+      "Customers",
+      "customer_last_name"
+    ],
+    "Customers_customer_address": [
+      "Customers",
+      "customer_address"
+    ],
+    "Customers_customer_phone": [
+      "Customers",
+      "customer_phone"
+    ],
+    "Customers_customer_email": [
+      "Customers",
+      "customer_email"
+    ],
+    "Customers_other_customer_details": [
+      "Customers",
+      "other_customer_details"
+    ],
+    "Customers_Cards_card_id": [
+      "Customers_Cards",
+      "card_id"
+    ],
+    "Customers_Cards_customer_id": [
+      "Customers_Cards",
+      "customer_id"
+    ],
+    "Customers_Cards_card_type_code": [
+      "Customers_Cards",
+      "card_type_code"
+    ],
+    "Customers_Cards_card_number": [
+      "Customers_Cards",
+      "card_number"
+    ],
+    "Customers_Cards_date_valid_from": [
+      "Customers_Cards",
+      "date_valid_from"
+    ],
+    "Customers_Cards_date_valid_to": [
+      "Customers_Cards",
+      "date_valid_to"
+    ],
+    "Customers_Cards_other_card_details": [
+      "Customers_Cards",
+      "other_card_details"
+    ],
+    "Financial_Transactions_transaction_id": [
+      "Financial_Transactions",
+      "transaction_id"
+    ],
+    "Financial_Transactions_previous_transaction_id": [
+      "Financial_Transactions",
+      "previous_transaction_id"
+    ],
+    "Financial_Transactions_account_id": [
+      "Financial_Transactions",
+      "account_id"
+    ],
+    "Financial_Transactions_card_id": [
+      "Financial_Transactions",
+      "card_id"
+    ],
+    "Financial_Transactions_transaction_type": [
+      "Financial_Transactions",
+      "transaction_type"
+    ],
+    "Financial_Transactions_transaction_date": [
+      "Financial_Transactions",
+      "transaction_date"
+    ],
+    "Financial_Transactions_transaction_amount": [
+      "Financial_Transactions",
+      "transaction_amount"
+    ],
+    "Financial_Transactions_transaction_comment": [
+      "Financial_Transactions",
+      "transaction_comment"
+    ],
+    "Financial_Transactions_other_transaction_details": [
+      "Financial_Transactions",
+      "other_transaction_details"
+    ]
+  },
+  "object_property_fk": {
+    "Financial_Transactions_Accounts_fk0": [
+      "Financial_Transactions.account_id",
+      "Accounts.account_id"
+    ],
+    "Financial_Transactions_Customers_Cards_fk1": [
+      "Financial_Transactions.card_id",
+      "Customers_Cards.card_id"
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "class_table": {
+    "Addresses": "Addresses",
+    "Products": "Products",
+    "Customers": "Customers",
+    "Customer_Addresses": "Customer_Addresses",
+    "Customer_Contact_Channels": "Customer_Contact_Channels",
+    "Customer_Orders": "Customer_Orders",
+    "Order_Items": "Order_Items"
+  },
+  "property_column": {
+    "Addresses_address_id": [
+      "Addresses",
+      "address_id"
+    ],
+    "Addresses_address_content": [
+      "Addresses",
+      "address_content"
+    ],
+    "Addresses_city": [
+      "Addresses",
+      "city"
+    ],
+    "Addresses_zip_postcode": [
+      "Addresses",
+      "zip_postcode"
+    ],
+    "Addresses_state_province_county": [
+      "Addresses",
+      "state_province_county"
+    ],
+    "Addresses_country": [
+      "Addresses",
+      "country"
+    ],
+    "Addresses_other_address_details": [
+      "Addresses",
+      "other_address_details"
+    ],
+    "Products_product_id": [
+      "Products",
+      "product_id"
+    ],
+    "Products_product_details": [
+      "Products",
+      "product_details"
+    ],
+    "Customers_customer_id": [
+      "Customers",
+      "customer_id"
+    ],
+    "Customers_payment_method": [
+      "Customers",
+      "payment_method"
+    ],
+    "Customers_customer_name": [
+      "Customers",
+      "customer_name"
+    ],
+    "Customers_date_became_customer": [
+      "Customers",
+      "date_became_customer"
+    ],
+    "Customers_other_customer_details": [
+      "Customers",
+      "other_customer_details"
+    ],
+    "Customer_Addresses_customer_id": [
+      "Customer_Addresses",
+      "customer_id"
+    ],
+    "Customer_Addresses_address_id": [
+      "Customer_Addresses",
+      "address_id"
+    ],
+    "Customer_Addresses_date_address_from": [
+      "Customer_Addresses",
+      "date_address_from"
+    ],
+    "Customer_Addresses_address_type": [
+      "Customer_Addresses",
+      "address_type"
+    ],
+    "Customer_Addresses_date_address_to": [
+      "Customer_Addresses",
+      "date_address_to"
+    ],
+    "Customer_Contact_Channels_customer_id": [
+      "Customer_Contact_Channels",
+      "customer_id"
+    ],
+    "Customer_Contact_Channels_channel_code": [
+      "Customer_Contact_Channels",
+      "channel_code"
+    ],
+    "Customer_Contact_Channels_active_from_date": [
+      "Customer_Contact_Channels",
+      "active_from_date"
+    ],
+    "Customer_Contact_Channels_active_to_date": [
+      "Customer_Contact_Channels",
+      "active_to_date"
+    ],
+    "Customer_Contact_Channels_contact_number": [
+      "Customer_Contact_Channels",
+      "contact_number"
+    ],
+    "Customer_Orders_order_id": [
+      "Customer_Orders",
+      "order_id"
+    ],
+    "Customer_Orders_customer_id": [
+      "Customer_Orders",
+      "customer_id"
+    ],
+    "Customer_Orders_order_status": [
+      "Customer_Orders",
+      "order_status"
+    ],
+    "Customer_Orders_order_date": [
+      "Customer_Orders",
+      "order_date"
+    ],
+    "Customer_Orders_order_details": [
+      "Customer_Orders",
+      "order_details"
+    ],
+    "Order_Items_order_id": [
+      "Order_Items",
+      "order_id"
+    ],
+    "Order_Items_product_id": [
+      "Order_Items",
+      "product_id"
+    ],
+    "Order_Items_order_quantity": [
+      "Order_Items",
+      "order_quantity"
+    ]
+  },
+  "object_property_fk": {
+    "Customer_Addresses_Customers_fk0": [
+      "Customer_Addresses.customer_id",
+      "Customers.customer_id"
+    ],
+    "Customer_Addresses_Addresses_fk1": [
+      "Customer_Addresses.address_id",
+      "Addresses.address_id"
+    ],
+    "Customer_Contact_Channels_Customers_fk2": [
+      "Customer_Contact_Channels.customer_id",
+      "Customers.customer_id"
+    ],
+    "Customer_Orders_Customers_fk3": [
+      "Customer_Orders.customer_id",
+      "Customers.customer_id"
+    ],
+    "Order_Items_Customer_Orders_fk4": [
+      "Order_Items.order_id",
+      "Customer_Orders.order_id"
+    ],
+    "Order_Items_Products_fk5": [
+      "Order_Items.product_id",
+      "Products.product_id"
+    ]
+  }
+}

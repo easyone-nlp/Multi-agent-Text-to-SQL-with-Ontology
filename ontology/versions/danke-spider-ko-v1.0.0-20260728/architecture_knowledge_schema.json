@@ -1,0 +1,479 @@
+{
+  "db_id": "architecture",
+  "classes": [
+    {
+      "name": "architect",
+      "source_table": "architect",
+      "ranking": 3.0,
+      "primary_label": "건축가",
+      "synonyms": [
+        "설계자",
+        "건축가",
+        "설계인",
+        "구조 설계자",
+        "건축 엔지니어"
+      ]
+    },
+    {
+      "name": "bridge",
+      "source_table": "bridge",
+      "ranking": 3.0,
+      "primary_label": "브리지",
+      "synonyms": [
+        "교량",
+        "도로 구조물",
+        "교량 구조물",
+        "교량 설계",
+        "도로 시설"
+      ]
+    },
+    {
+      "name": "mill",
+      "source_table": "mill",
+      "ranking": 3.0,
+      "primary_label": "밀",
+      "synonyms": [
+        "밀",
+        "밀가루 가공 시설",
+        "밀 가공 시설",
+        "밀 공장",
+        "밀 시설"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "architect_id",
+      "domain": "architect",
+      "source_table": "architect",
+      "source_column": "id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "아이디",
+        "아키텍트 ID",
+        "ID",
+        "아키텍트 고유 번호",
+        "아이디 값",
+        "아키텍트 식별자",
+        "ID 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "architect_name",
+      "domain": "architect",
+      "source_table": "architect",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "명",
+        "소유자",
+        "주인",
+        "주인공"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김철수": [
+          "김철수"
+        ],
+        "이영미": [
+          "이영미"
+        ]
+      }
+    },
+    {
+      "name": "architect_nationality",
+      "domain": "architect",
+      "source_table": "architect",
+      "source_column": "nationality",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "nationality",
+      "synonyms": [
+        "국적",
+        "나라",
+        "국적 정보",
+        "국적별",
+        "국적 데이터",
+        "국적명",
+        "국적 항목",
+        "국적 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "architect_gender",
+      "domain": "architect",
+      "source_table": "architect",
+      "source_column": "gender",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "gender",
+      "synonyms": [
+        "성별",
+        "성별 정보",
+        "성별 데이터",
+        "성별 기록",
+        "성별 항목",
+        "성별 코드",
+        "성별 값",
+        "gender"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "bridge_architect_id",
+      "domain": "bridge",
+      "source_table": "bridge",
+      "source_column": "architect_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "건축가 id",
+      "synonyms": [
+        "architect_id",
+        "설계자 ID",
+        "설계자 식별자",
+        "建筑师ID",
+        "建筑师编号"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "bridge_id",
+      "domain": "bridge",
+      "source_table": "bridge",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "ID",
+      "synonyms": [
+        "id",
+        "브리지 ID",
+        "브리지 식별자",
+        "지역구 ID",
+        "구분자 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "bridge_name",
+      "domain": "bridge",
+      "source_table": "bridge",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "브리지 이름",
+        "건물명",
+        "지역명",
+        "명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울대교": [
+          "서울대교"
+        ],
+        "경복대교": [
+          "경복대교"
+        ]
+      }
+    },
+    {
+      "name": "bridge_location",
+      "domain": "bridge",
+      "source_table": "bridge",
+      "source_column": "location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "위치",
+      "synonyms": [
+        "위치",
+        "위치 정보",
+        "지점",
+        "장소",
+        "위치명",
+        "지역",
+        "위치 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시": [
+          "서울시"
+        ],
+        "부산시": [
+          "부산시"
+        ]
+      }
+    },
+    {
+      "name": "bridge_length_meters",
+      "domain": "bridge",
+      "source_table": "bridge",
+      "source_column": "length_meters",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "길이 미터",
+      "synonyms": [
+        "길이(미터)",
+        "미터 길이",
+        "길이(미터 단위)",
+        "미터 기준 길이",
+        "미터로 표현된 길이",
+        "미터 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "bridge_length_feet",
+      "domain": "bridge",
+      "source_table": "bridge",
+      "source_column": "length_feet",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "길이 피트",
+      "synonyms": [
+        "피트 길이",
+        "피트로 표현된 길이",
+        "피트 기준 길이",
+        "피트 기준",
+        "피트 단위 길이",
+        "피트로 표현",
+        "피트로 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mill_architect_id",
+      "domain": "mill",
+      "source_table": "mill",
+      "source_column": "architect_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "건축가 id",
+      "synonyms": [
+        "architect_id",
+        "설계자 ID",
+        "설계자 식별자",
+        "建筑师ID",
+        "建筑师编号"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mill_id",
+      "domain": "mill",
+      "source_table": "mill",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "id",
+        "건물 ID",
+        "건물 식별자",
+        "물건 번호",
+        "번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mill_location",
+      "domain": "mill",
+      "source_table": "mill",
+      "source_column": "location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "위치",
+      "synonyms": [
+        "location",
+        "위치",
+        "장소",
+        "위치 정보",
+        "지점",
+        "위치명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "부산": [
+          "부산"
+        ]
+      }
+    },
+    {
+      "name": "mill_name",
+      "domain": "mill",
+      "source_table": "mill",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "건물 이름",
+        "명칭",
+        "소명",
+        "제목",
+        "명",
+        "건물명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울밀": [
+          "서울밀"
+        ],
+        "부산밀": [
+          "부산밀"
+        ]
+      }
+    },
+    {
+      "name": "mill_type",
+      "domain": "mill",
+      "source_table": "mill",
+      "source_column": "type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "유형",
+      "synonyms": [
+        "유형",
+        "종류",
+        "타입",
+        "형태",
+        "분류",
+        "형식",
+        "구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "고대밀": [
+          "고대밀"
+        ],
+        "현대밀": [
+          "현대밀"
+        ]
+      }
+    },
+    {
+      "name": "mill_built_year",
+      "domain": "mill",
+      "source_table": "mill",
+      "source_column": "built_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "건축년도",
+      "synonyms": [
+        "건축년도",
+        "공사년도",
+        "구축년도",
+        "건립년도",
+        "구성년도",
+        "연도",
+        "년도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mill_notes",
+      "domain": "mill",
+      "source_table": "mill",
+      "source_column": "notes",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "비고",
+      "synonyms": [
+        "비고",
+        "설명",
+        "추가 정보",
+        "기념비 설명",
+        "비고 내용",
+        "설명 사항",
+        "추가 설명",
+        "기타 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "bridge_architect_fk0",
+      "domain": "bridge",
+      "range": "architect",
+      "source_fk": [
+        "bridge.architect_id",
+        "architect.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "mill_architect_fk1",
+      "domain": "mill",
+      "range": "architect",
+      "source_fk": [
+        "mill.architect_id",
+        "architect.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

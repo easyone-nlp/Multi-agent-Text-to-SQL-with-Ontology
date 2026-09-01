@@ -1,0 +1,2240 @@
+{
+  "db_id": "soccer_1",
+  "classes": [
+    {
+      "name": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "ranking": 3.5,
+      "primary_label": "플레이어 속성",
+      "synonyms": [
+        "선수 특성",
+        "선수 능력",
+        "선수 정보",
+        "선수 프로필",
+        "선수 데이터",
+        "선수 속성"
+      ]
+    },
+    {
+      "name": "sqlite_sequence",
+      "source_table": "sqlite_sequence",
+      "ranking": 1.0,
+      "primary_label": "sqlite sequence",
+      "synonyms": [
+        "시퀀스 테이블",
+        "SQLite 시퀀스",
+        "자동 증가 시퀀스",
+        "ID 시퀀스",
+        "SQLite 자동 증가",
+        "시퀀스 관리 테이블"
+      ]
+    },
+    {
+      "name": "Player",
+      "source_table": "Player",
+      "ranking": 3.5,
+      "primary_label": "플레이어",
+      "synonyms": [
+        "선수 정보",
+        "선수 목록",
+        "선수 데이터",
+        "선수 목표",
+        "선수 기록"
+      ]
+    },
+    {
+      "name": "League",
+      "source_table": "League",
+      "ranking": 3.0,
+      "primary_label": "리그",
+      "synonyms": [
+        "리그",
+        "경기",
+        "팀",
+        "경기 팀",
+        "스포츠 리그"
+      ]
+    },
+    {
+      "name": "Country",
+      "source_table": "Country",
+      "ranking": 3.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "국",
+        "국가 정보",
+        "국가 데이터",
+        "국가 목록"
+      ]
+    },
+    {
+      "name": "Team",
+      "source_table": "Team",
+      "ranking": 3.0,
+      "primary_label": "팀",
+      "synonyms": [
+        "팀",
+        "스포츠 팀",
+        "경기 팀",
+        "팀 정보",
+        "스포츠 팀 목록"
+      ]
+    },
+    {
+      "name": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "ranking": 3.5,
+      "primary_label": "팀 속성",
+      "synonyms": []
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Player_Attributes_id",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "ID",
+      "synonyms": [
+        "아이디",
+        "ID",
+        "아이디 값",
+        "식별 번호",
+        "기본키"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_player_fifa_api_id",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "player_fifa_api_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "플레이어 fifa api id",
+      "synonyms": [
+        "FIFA API ID",
+        "FIFA 아이디",
+        "플레이어 FIFA ID",
+        "FIFA 플레이어 번호",
+        "플레이어 FIFA 식별자",
+        "player_fifa_api_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_player_api_id",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "player_api_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "플레이어 api id",
+      "synonyms": [
+        "API ID",
+        "플레이어 API ID",
+        "API 아이디",
+        "플레이어 식별자",
+        "player_api_id",
+        "플레이어 API 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_date",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "날짜",
+      "synonyms": [
+        "날짜",
+        "기록일",
+        "일자",
+        "날짜 정보",
+        "날짜 기록",
+        "날짜 데이터",
+        "일자 정보",
+        "기록 일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-01": [
+          "2023년 1월 1일",
+          "2023-01-01"
+        ]
+      }
+    },
+    {
+      "name": "Player_Attributes_overall_rating",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "overall_rating",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 4.0,
+      "primary_label": "전반 평가",
+      "synonyms": [
+        "종합 평가",
+        "전반 평가",
+        "전체 평가",
+        "종합 점수",
+        "전반 점수",
+        "전체 점수",
+        "평가 점수",
+        "전반 평가 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_potential",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "potential",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "잠재력",
+      "synonyms": [
+        "잠재력",
+        "잠재력 점수",
+        "가능성",
+        "가능성 점수",
+        "잠재력 평가",
+        "잠재력 측정",
+        "잠재력 평가 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_preferred_foot",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "preferred_foot",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "선호 발",
+      "synonyms": [
+        "선호 발",
+        "좋은 발",
+        "주 발",
+        "주로 사용하는 발",
+        "선호 발 종류",
+        "이동 발",
+        "주 발 방향",
+        "선호 발측"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "오른쪽": [
+          "오른발",
+          "오른쪽 발"
+        ],
+        "왼쪽": [
+          "왼발",
+          "왼쪽 발"
+        ]
+      }
+    },
+    {
+      "name": "Player_Attributes_attacking_work_rate",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "attacking_work_rate",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "공격 워크 레이트",
+      "synonyms": [
+        "공격 근력",
+        "공격 활동 비중",
+        "공격 유형",
+        "공격적인 활동",
+        "공격 근력 비율",
+        "공격 성향",
+        "공격 근력 수준"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "고": [
+          "높음",
+          "높은 수준"
+        ],
+        "중간": [
+          "보통",
+          "중간 수준"
+        ],
+        "저": [
+          "낮음",
+          "낮은 수준"
+        ]
+      }
+    },
+    {
+      "name": "Player_Attributes_defensive_work_rate",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "defensive_work_rate",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "방어 워크 레이트",
+      "synonyms": [
+        "수비 근력",
+        "수비 활동 비중",
+        "수비 유형",
+        "수비적인 활동",
+        "수비 근력 비율",
+        "수비 성향",
+        "수비 근력 수준"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "고": [
+          "높음",
+          "높은 수준"
+        ],
+        "중간": [
+          "보통",
+          "중간 수준"
+        ],
+        "저": [
+          "낮음",
+          "낮은 수준"
+        ]
+      }
+    },
+    {
+      "name": "Player_Attributes_crossing",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "crossing",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "크로스",
+      "synonyms": [
+        "crossing",
+        "크로스",
+        "크로스 기술",
+        "크로스 능력",
+        "크로스 성능",
+        "크로스 능력치",
+        "크로스 기술 수준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_finishing",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "finishing",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "결정력",
+      "synonyms": [
+        "finishing",
+        "슈팅",
+        "슈팅 정확도",
+        "슈팅 능력",
+        "슈팅 성능",
+        "슈팅 능력치",
+        "슈팅 기술"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_heading_accuracy",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "heading_accuracy",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "헤딩 정확도",
+      "synonyms": [
+        "heading_accuracy",
+        "헤딩 정확도",
+        "헤딩 능력",
+        "헤딩 기술",
+        "헤딩 성능",
+        "헤딩 능력치",
+        "머리 슛 정확도",
+        "머리 슛 능력"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_short_passing",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "short_passing",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "단거리 패스",
+      "synonyms": [
+        "짧은 패스",
+        "단축 패스",
+        "짧은 패스 능력",
+        "short passing",
+        "단축 패스 능력",
+        "짧은 패스 점수",
+        "short passing 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_volleys",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "volleys",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "볼리",
+      "synonyms": [
+        "벽돌 패스",
+        "볼 빠르게 치기",
+        "볼 빠르게 던지기",
+        "volleys",
+        "벽돌 패스 능력",
+        "볼 빠르게 치는 능력",
+        "volleys 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_dribbling",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "dribbling",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "드리블링",
+      "synonyms": [
+        "드리블",
+        "공을 빠르게 굴리기",
+        "드리블 능력",
+        "dribbling",
+        "공을 빠르게 굴리는 능력",
+        "드리블 점수",
+        "dribbling 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_curve",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "curve",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "커브",
+      "synonyms": [
+        "curve",
+        "패스 곡선",
+        "곡선 능력",
+        "곡선 점수",
+        "패스 곡선 능력",
+        "곡선 능력 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_free_kick_accuracy",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "free_kick_accuracy",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "프리킥 정확도",
+      "synonyms": [
+        "free_kick_accuracy",
+        "프리킥 정확도",
+        "프리킥 정확성",
+        "프리킥 점수",
+        "프리킥 정확도 점수",
+        "프리킥 정확성 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_long_passing",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "long_passing",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "장거리 패스",
+      "synonyms": [
+        "long_passing",
+        "장거리 패스",
+        "장거리 패스 능력",
+        "장거리 패스 점수",
+        "장거리 패스 능력 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_ball_control",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "ball_control",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "볼 컨트롤",
+      "synonyms": [
+        "ball_control",
+        "공 제어",
+        "공 조절 능력",
+        "공 제어 능력",
+        "ball control 점수",
+        "공 조절",
+        "공 조절 능력 점수",
+        "ball control 평가"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_acceleration",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "acceleration",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "가속력",
+      "synonyms": [
+        "acceleration",
+        "발속",
+        "가속력",
+        "발속 능력",
+        "가속 능력",
+        "발속 평가",
+        "가속력 평가",
+        "발속 능력 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_sprint_speed",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "sprint_speed",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "스프린트 속도",
+      "synonyms": [
+        "sprint_speed",
+        "스프린트 속도",
+        "순간 속도",
+        "스프린트 속도 평가",
+        "스프린트 속도 점수",
+        "스프린트 속도 능력",
+        "스피드 평가",
+        "스프린트 속도 능력 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_agility",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "agility",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "민첩성",
+      "synonyms": [
+        "신체 민첩성",
+        "민첩성",
+        "агилити",
+        "운동 능력",
+        "가속력",
+        "신속성",
+        "агилити 점수",
+        "민첩성 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_reactions",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "reactions",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "반응력",
+      "synonyms": [
+        "반응 속도",
+        "반응력",
+        "반응 시간",
+        "반응 능력",
+        "반응 지수",
+        "반응성",
+        "반응 속도 지수",
+        "반응 능력 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_balance",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "balance",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "균형감",
+      "synonyms": [
+        "균형 감각",
+        "균형성",
+        "균형 능력",
+        "균형 지수",
+        "체력 균형",
+        "균형력",
+        "체지구능력",
+        "균형성 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_shot_power",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "shot_power",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "슈팅 파워",
+      "synonyms": [
+        "슈팅력",
+        "슈팅 능력",
+        "골 득점력",
+        "스hot_power",
+        "슈팅 점수",
+        "공격력",
+        "슈팅 능력치",
+        "골 득점 능력"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_jumping",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "jumping",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "점프력",
+      "synonyms": [
+        "점프 능력",
+        "점프력",
+        "높이 점프",
+        "점프 능력치",
+        "점프력 평가",
+        "점프 능력 점수",
+        "높이 점프 능력",
+        "점프 능력 평가"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_stamina",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "stamina",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "스태미나",
+      "synonyms": [
+        "체력",
+        "지속력",
+        "체력 능력",
+        "스태미나",
+        "체력 점수",
+        "지속력 평가",
+        "스태미나 능력",
+        "체력 평가"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_strength",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "strength",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "강도",
+      "synonyms": [
+        "strength",
+        "력",
+        "체력",
+        "힘",
+        "력량",
+        "신체력",
+        "력량 수준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_long_shots",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "long_shots",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "장거리 슈팅",
+      "synonyms": [
+        "long shots",
+        "장거리 슈팅",
+        "장거리 골 득점",
+        "장거리 슈팅 능력",
+        "장거리 골",
+        "장거리 슈팅 기술",
+        "장거리 골 득점 능력"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_aggression",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "aggression",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "공격성",
+      "synonyms": [
+        "aggression",
+        "경쟁심",
+        "공격성",
+        "공격적인 스타일",
+        "공격력",
+        "경쟁력",
+        "공격적 성향",
+        "공격적인 성향"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_interceptions",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "interceptions",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "인터셉션",
+      "synonyms": [
+        "interceptions",
+        "가로cut",
+        "수비 가로cut",
+        "가로차기",
+        "수비 능력",
+        "가로차기 능력"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_positioning",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "positioning",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "포지셔닝",
+      "synonyms": [
+        "positioning",
+        "위치 판단",
+        "차지 능력",
+        "위치 정확도",
+        "위치 능력",
+        "차지 위치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_vision",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "vision",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "비전",
+      "synonyms": [
+        "vision",
+        "경기 파악",
+        "전술 판단",
+        "시야",
+        "경기 이해",
+        "전술 능력",
+        "시야 능력"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_penalties",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "penalties",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "패널티",
+      "synonyms": [
+        "penalties",
+        "패널티",
+        "패널티 치기",
+        "패널티 능력",
+        "패널티 스코어",
+        "패널티 기술",
+        "패널티 성능"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_marking",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "marking",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "마킹",
+      "synonyms": [
+        "marking",
+        "수비 경계",
+        "마킹",
+        "수비 기술",
+        "마킹 능력",
+        "수비 성능",
+        "마킹 스코어"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_standing_tackle",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "standing_tackle",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "정지 타이틀",
+      "synonyms": [
+        "standing_tackle",
+        "선수 대신 타격",
+        "선수 대신 수비",
+        "선수 대신 타격 능력",
+        "선수 대신 수비 능력",
+        "선수 대신 타격 스코어",
+        "선수 대신 수비 스코어"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_sliding_tackle",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "sliding_tackle",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "스라이딩 타이틀",
+      "synonyms": [
+        "sliding tackle",
+        "스ไล딩 탈출",
+        "스라이딩 탈출 능력",
+        "스라이딩 탈출력",
+        "슬라이딩 탈출"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_gk_diving",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "gk_diving",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "골키퍼 다이빙",
+      "synonyms": [
+        "gk diving",
+        "수비 타ackle",
+        "수비 타클",
+        "수비 능력",
+        "수비 타클력",
+        "수비 타클 능력"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_gk_handling",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "gk_handling",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "골키퍼 핸들링",
+      "synonyms": [
+        "gk handling",
+        "수비 볼 처리",
+        "볼 처리 능력",
+        "수비 볼 처리력",
+        "수비 볼 처리 능력",
+        "볼 처리"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_gk_kicking",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "gk_kicking",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "골키퍼 캐치",
+      "synonyms": [
+        "gk_kicking",
+        "수비수 슈팅",
+        "수비수 발구름",
+        "발구름 능력",
+        "수비수 발구름 능력",
+        "gk 발구름",
+        "수비수 슈팅 능력"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_gk_positioning",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "gk_positioning",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "골키퍼 포지셔닝",
+      "synonyms": [
+        "gk_positioning",
+        "수비수 위치",
+        "수비수 위치 판단",
+        "수비수 위치 능력",
+        "gk 위치",
+        "수비수 위치 판단 능력"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_Attributes_gk_reflexes",
+      "domain": "Player_Attributes",
+      "source_table": "Player_Attributes",
+      "source_column": "gk_reflexes",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "골키퍼 레프레크스",
+      "synonyms": [
+        "gk_reflexes",
+        "수비수 반사",
+        "수비수 반사 능력",
+        "수비수 반사력",
+        "gk 반사",
+        "수비수 반사력 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "sqlite_sequence_name",
+      "domain": "sqlite_sequence",
+      "source_table": "sqlite_sequence",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "시퀀스 이름",
+        "명",
+        "이름 컬럼",
+        "시퀀스 이름 컬럼",
+        "name",
+        "name 컬럼"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "seq": [
+          "seq"
+        ]
+      }
+    },
+    {
+      "name": "sqlite_sequence_seq",
+      "domain": "sqlite_sequence",
+      "source_table": "sqlite_sequence",
+      "source_column": "seq",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "seq",
+      "synonyms": [
+        "번호",
+        "시퀀스 번호",
+        "seq",
+        "seq 컬럼",
+        "시퀀스 번호 컬럼",
+        "번호 컬럼",
+        "seq 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_id",
+      "domain": "Player",
+      "source_table": "Player",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "id",
+        "플레이어 고유 ID",
+        "아이디",
+        "플레이어 번호",
+        "식별 번호",
+        "유니크 ID",
+        "플레이어 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_player_api_id",
+      "domain": "Player",
+      "source_table": "Player",
+      "source_column": "player_api_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "플레이어 api id",
+      "synonyms": [
+        "player api id",
+        "플레이어 API ID",
+        "API 플레이어 ID",
+        "외부 ID",
+        "플레이어 외부 식별자",
+        "API 번호",
+        "외부 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_player_name",
+      "domain": "Player",
+      "source_table": "Player",
+      "source_column": "player_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "플레이어 이름",
+      "synonyms": [
+        "player name",
+        "플레이어 이름",
+        "이름",
+        "플레이어",
+        "선수 이름",
+        "플레이어명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민재": [
+          "김민재"
+        ],
+        "이강인": [
+          "이강인"
+        ]
+      }
+    },
+    {
+      "name": "Player_player_fifa_api_id",
+      "domain": "Player",
+      "source_table": "Player",
+      "source_column": "player_fifa_api_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "플레이어 fifa api id",
+      "synonyms": [
+        "fifa api id",
+        "fifa id",
+        "player fifa id",
+        "fifa 플레이어 ID",
+        "플레이어 fifa 번호",
+        "fifa 플레이어 식별자",
+        "player fifa 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_birthday",
+      "domain": "Player",
+      "source_table": "Player",
+      "source_column": "birthday",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "생일",
+      "synonyms": [
+        "생일",
+        "태어난 날",
+        "출생일",
+        "생년월일",
+        "태어난 날짜",
+        "생일 정보",
+        "출생일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1998-05-10": [
+          "1998년 5월 10일"
+        ]
+      }
+    },
+    {
+      "name": "Player_height",
+      "domain": "Player",
+      "source_table": "Player",
+      "source_column": "height",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "신장",
+      "synonyms": [
+        "신장",
+        "키",
+        "신장 정보",
+        "키 데이터",
+        "키 수치",
+        "신장 길이",
+        "키 크기"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_weight",
+      "domain": "Player",
+      "source_table": "Player",
+      "source_column": "weight",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "체중",
+      "synonyms": [
+        "체중",
+        "몸무게",
+        "무게",
+        "weight",
+        "몸무게 정보",
+        "체중 데이터",
+        "무게 정보",
+        "체중 측정"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "League_id",
+      "domain": "League",
+      "source_table": "League",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "ID",
+      "synonyms": [
+        "리그 ID",
+        "리그 식별자",
+        "리그 번호",
+        "리그 고유번호",
+        "id",
+        "리그 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "League_country_id",
+      "domain": "League",
+      "source_table": "League",
+      "source_column": "country_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "국가 ID",
+      "synonyms": [
+        "국가 ID",
+        "국가 식별자",
+        "국가 번호",
+        "국가 고유번호",
+        "country_id",
+        "국가 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "League_name",
+      "domain": "League",
+      "source_table": "League",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "리그 이름",
+        "리그 제목",
+        "리그 명칭",
+        "리그 대표 이름",
+        "이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "프리미어 리그": [
+          "프리미어 리그"
+        ],
+        "라리가": [
+          "라리가"
+        ],
+        "바이어 리그": [
+          "바이어 리그"
+        ]
+      }
+    },
+    {
+      "name": "Country_id",
+      "domain": "Country",
+      "source_table": "Country",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Country_name",
+      "domain": "Country",
+      "source_table": "Country",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "대한민국"
+        ],
+        "미국": [
+          "미국"
+        ],
+        "중국": [
+          "중국"
+        ]
+      }
+    },
+    {
+      "name": "Team_id",
+      "domain": "Team",
+      "source_table": "Team",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "팀 ID",
+      "synonyms": [
+        "id",
+        "team_id",
+        "team_number",
+        "team_identifier",
+        "team_code",
+        "team_seq",
+        "team_key"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_team_api_id",
+      "domain": "Team",
+      "source_table": "Team",
+      "source_column": "team_api_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "팀 API ID",
+      "synonyms": [
+        "team_api_id",
+        "api_team_id",
+        "external_team_id",
+        "api_team_number",
+        "team_api_code",
+        "team_api_key",
+        "team_api_seq"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_team_fifa_api_id",
+      "domain": "Team",
+      "source_table": "Team",
+      "source_column": "team_fifa_api_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "팀 FIFA API ID",
+      "synonyms": [
+        "team_fifa_api_id",
+        "fifa_api_team_id",
+        "fifa_team_id",
+        "fifa_api_team_number",
+        "fifa_team_code",
+        "fifa_team_key",
+        "fifa_team_seq"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_team_long_name",
+      "domain": "Team",
+      "source_table": "Team",
+      "source_column": "team_long_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "팀 장르 이름",
+      "synonyms": [
+        "팀 장 이름",
+        "구단 이름",
+        "팀 전체 이름",
+        "공식 팀 이름",
+        "팀 명",
+        "team_long_name",
+        "팀 장칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "FC 서울": [
+          "FC 서울"
+        ],
+        "삼성 라이온스": [
+          "삼성 라이온스"
+        ]
+      }
+    },
+    {
+      "name": "Team_team_short_name",
+      "domain": "Team",
+      "source_table": "Team",
+      "source_column": "team_short_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "팀 단축 이름",
+      "synonyms": [
+        "팀 짧은 이름",
+        "구단 단축명",
+        "팀 약자",
+        "팀 약칭",
+        "team_short_name",
+        "팀 줄임말",
+        "팀 약명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "삼성": [
+          "삼성"
+        ]
+      }
+    },
+    {
+      "name": "Team_Attributes_id",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "ID",
+      "synonyms": [
+        "아이디",
+        "ID",
+        "고유번호",
+        "번호",
+        "아이디 값",
+        "식별자",
+        "ID 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_Attributes_team_fifa_api_id",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "team_fifa_api_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "팀 fifa api id",
+      "synonyms": [
+        "팀 FIFA API ID",
+        "FIFA API ID",
+        "팀 식별 번호",
+        "FIFA 팀 ID",
+        "FIFA 팀 식별자",
+        "FIFA 팀 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_Attributes_team_api_id",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "team_api_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "팀 api id",
+      "synonyms": [
+        "팀 API ID",
+        "API ID",
+        "팀 식별 번호",
+        "팀 키",
+        "팀 식별자",
+        "API 팀 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_Attributes_date",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "날짜",
+      "synonyms": [
+        "일자",
+        "날짜",
+        "기록일",
+        "데이터 기준일",
+        "날짜 정보",
+        "일자 정보",
+        "기록 날짜",
+        "날짜 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_Attributes_buildUpPlaySpeed",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "buildUpPlaySpeed",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "buildup play speed",
+      "synonyms": [
+        "전방 전환 속도",
+        "전환 속도",
+        "전방 속도",
+        "전환 속도 지표",
+        "전방 전환 속도 값",
+        "전환 속도 수치",
+        "전방 전환 속도 측정"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_Attributes_buildUpPlaySpeedClass",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "buildUpPlaySpeedClass",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "buildup play speed class",
+      "synonyms": [
+        "전방 전환 속도 등급",
+        "전환 속도 등급",
+        "전방 속도 등급",
+        "전환 속도 클래스",
+        "전방 전환 속도 분류",
+        "전환 속도 등급 정보",
+        "전방 전환 속도 분류 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Low": [
+          "저"
+        ],
+        "Medium": [
+          "중간"
+        ],
+        "High": [
+          "고"
+        ]
+      }
+    },
+    {
+      "name": "Team_Attributes_buildUpPlayDribbling",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "buildUpPlayDribbling",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "buildup play dribbling",
+      "synonyms": [
+        "buildUpPlayDribbling",
+        "전방 드리블 수치",
+        "드리블 능력 수치",
+        "공격 드리블 수치",
+        "드리블 강도",
+        "드리블 능력"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_Attributes_buildUpPlayDribblingClass",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "buildUpPlayDribblingClass",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "buildup play dribbling class",
+      "synonyms": [
+        "buildUpPlayDribblingClass",
+        "전방 드리블 등급",
+        "드리블 능력 등급",
+        "공격 드리블 등급",
+        "드리블 강도 등급"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Low": [
+          "저"
+        ],
+        "Medium": [
+          "중간"
+        ],
+        "High": [
+          "고"
+        ]
+      }
+    },
+    {
+      "name": "Team_Attributes_buildUpPlayPassing",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "buildUpPlayPassing",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "buildup play passing",
+      "synonyms": [
+        "buildUpPlayPassing",
+        "전방 패스 수치",
+        "패스 능력 수치",
+        "공격 패스 수치",
+        "패스 강도",
+        "패스 능력"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_Attributes_buildUpPlayPassingClass",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "buildUpPlayPassingClass",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "buildup play passing class",
+      "synonyms": [
+        "buildup play passing class",
+        "buildup play passing level",
+        "buildup passing class",
+        "passing class",
+        "buildup play passing description",
+        "passing level description",
+        "buildup play passing grade",
+        "passing grade"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Low": [
+          "저"
+        ],
+        "Medium": [
+          "중간"
+        ],
+        "High": [
+          "고"
+        ]
+      }
+    },
+    {
+      "name": "Team_Attributes_buildUpPlayPositioningClass",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "buildUpPlayPositioningClass",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "buildup play positioning class",
+      "synonyms": [
+        "buildup play positioning class",
+        "buildup play positioning level",
+        "positioning class",
+        "buildup positioning class",
+        "positioning level description",
+        "buildup play positioning grade",
+        "positioning grade"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Low": [
+          "저"
+        ],
+        "Medium": [
+          "중간"
+        ],
+        "High": [
+          "고"
+        ]
+      }
+    },
+    {
+      "name": "Team_Attributes_chanceCreationPassing",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "chanceCreationPassing",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "chance creation passing",
+      "synonyms": [
+        "chance creation passing",
+        "passing chance creation",
+        "passing chance",
+        "chance creation passing value",
+        "passing chance value",
+        "chance creation passing score",
+        "passing chance score"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_Attributes_chanceCreationPassingClass",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "chanceCreationPassingClass",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "chance creation passing class",
+      "synonyms": [
+        "공격 기회 패스 등급",
+        "공격 창출 패스 등급",
+        "패스 기회 등급",
+        "공격 패스 등급",
+        "chanceCreationPassingClass",
+        "공격 패스 등급 정보",
+        "공격 기회 패스 등급 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Low": [
+          "저"
+        ],
+        "Medium": [
+          "중간"
+        ],
+        "High": [
+          "고"
+        ]
+      }
+    },
+    {
+      "name": "Team_Attributes_chanceCreationCrossing",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "chanceCreationCrossing",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "chance creation crossing",
+      "synonyms": [
+        "크로싱 능력 수치",
+        "공격 기회 크로싱 수치",
+        "크로싱 기회 수치",
+        "공격 크로싱 수치",
+        "chanceCreationCrossing",
+        "공격 크로싱 능력"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_Attributes_chanceCreationCrossingClass",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "chanceCreationCrossingClass",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "chance creation crossing class",
+      "synonyms": [
+        "크로싱 기회 등급",
+        "공격 기회 크로싱 등급",
+        "크로싱 공격 등급",
+        "공격 크로싱 등급",
+        "chanceCreationCrossingClass",
+        "공격 기회 크로싱 등급 정보",
+        "크로싱 기회 등급 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Low": [
+          "저"
+        ],
+        "Medium": [
+          "중간"
+        ],
+        "High": [
+          "고"
+        ]
+      }
+    },
+    {
+      "name": "Team_Attributes_chanceCreationShooting",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "chanceCreationShooting",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "chance creation shooting",
+      "synonyms": [
+        "chance creation shooting",
+        "기회 창출 점수",
+        "스코어링 능력",
+        "골 기회 생성 점수",
+        "공격 기회 점수",
+        "스코어링 능력 점수",
+        "기회 창출 능력",
+        "공격 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_Attributes_chanceCreationShootingClass",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "chanceCreationShootingClass",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "chance creation shooting class",
+      "synonyms": [
+        "chance creation shooting class",
+        "기회 창출 등급",
+        "스코어링 등급",
+        "골 기회 생성 등급",
+        "공격 기회 등급",
+        "공격 등급"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Low": [
+          "저"
+        ],
+        "Medium": [
+          "중간"
+        ],
+        "High": [
+          "고"
+        ]
+      }
+    },
+    {
+      "name": "Team_Attributes_chanceCreationPositioningClass",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "chanceCreationPositioningClass",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "chance creation positioning class",
+      "synonyms": [
+        "chance creation positioning class",
+        "기회 창출 위치 등급",
+        "위치 결정 등급",
+        "공격 위치 등급",
+        "기회 창출 위치 능력",
+        "스코어링 위치 등급",
+        "공격 위치 결정 등급",
+        "위치 능력"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Low": [
+          "저"
+        ],
+        "Medium": [
+          "중간"
+        ],
+        "High": [
+          "고"
+        ]
+      }
+    },
+    {
+      "name": "Team_Attributes_defencePressure",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "defencePressure",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "defence pressure",
+      "synonyms": [
+        "수비 압박",
+        "defence pressure",
+        "수비 압박 수치",
+        "압박 강도",
+        "defence pressure 수치",
+        "수비 압박력",
+        "defence pressure 강도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_Attributes_defencePressureClass",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "defencePressureClass",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "defence pressure class",
+      "synonyms": [
+        "수비 압박 분류",
+        "defence pressure class",
+        "수비 압박 등급",
+        "defence pressure 등급",
+        "압박 분류",
+        "수비 압박 등급 정보",
+        "defence pressure 분류"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Low": [
+          "저"
+        ],
+        "Medium": [
+          "중간"
+        ],
+        "High": [
+          "고"
+        ]
+      }
+    },
+    {
+      "name": "Team_Attributes_defenceAggression",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "defenceAggression",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "defence aggression",
+      "synonyms": [
+        "수비 공격성",
+        "defence aggression",
+        "수비 공격력",
+        "defence aggression 수치",
+        "공격성 수치",
+        "수비 공격성 수치",
+        "defence aggression 강도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_Attributes_defenceAggressionClass",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "defenceAggressionClass",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "defence aggression class",
+      "synonyms": [
+        "수비 공격성 분류",
+        "수비 전략 분류",
+        "수비 공격성 등급",
+        "수비 전략 등급",
+        "수비 공격성 클래스",
+        "수비 전략 클래스",
+        "수비 공격성 카테고리",
+        "수비 전략 카테고리"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Low": [
+          "저"
+        ],
+        "Medium": [
+          "중간"
+        ],
+        "High": [
+          "고"
+        ]
+      }
+    },
+    {
+      "name": "Team_Attributes_defenceTeamWidth",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "defenceTeamWidth",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "defence team width",
+      "synonyms": [
+        "수비 팀 너비",
+        "수비 팀 폭",
+        "수비 너비",
+        "수비 팀 폭 수치",
+        "수비 팀 너비 수치",
+        "수비 팀 폭 정보",
+        "수비 너비 수치",
+        "수비 팀 폭 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Team_Attributes_defenceTeamWidthClass",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "defenceTeamWidthClass",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "defence team width class",
+      "synonyms": [
+        "수비 팀 너비 분류",
+        "수비 팀 폭 분류",
+        "수비 너비 분류",
+        "수비 팀 폭 클래스",
+        "수비 팀 너비 클래스",
+        "수비 팀 폭 등급",
+        "수비 너비 등급",
+        "수비 팀 폭 카테고리"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Low": [
+          "저"
+        ],
+        "Medium": [
+          "중간"
+        ],
+        "High": [
+          "고"
+        ]
+      }
+    },
+    {
+      "name": "Team_Attributes_defenceDefenderLineClass",
+      "domain": "Team_Attributes",
+      "source_table": "Team_Attributes",
+      "source_column": "defenceDefenderLineClass",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "defence defender line class",
+      "synonyms": [
+        "수비 라인 구조 분류",
+        "수비 라인 분류",
+        "수비 라인 등급",
+        "수비 라인 카테고리",
+        "수비 라인 클래스",
+        "수비 라인 등급 정보",
+        "수비 라인 분류 정보",
+        "수비 라인 카테고리 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Low": [
+          "저"
+        ],
+        "Medium": [
+          "중간"
+        ],
+        "High": [
+          "고"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Player_Attributes_Player_fk0",
+      "domain": "Player_Attributes",
+      "range": "Player",
+      "source_fk": [
+        "Player_Attributes.player_api_id",
+        "Player.player_api_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Player_Attributes_Player_fk1",
+      "domain": "Player_Attributes",
+      "range": "Player",
+      "source_fk": [
+        "Player_Attributes.player_fifa_api_id",
+        "Player.player_fifa_api_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "League_Country_fk2",
+      "domain": "League",
+      "range": "Country",
+      "source_fk": [
+        "League.country_id",
+        "Country.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Team_Attributes_Team_fk3",
+      "domain": "Team_Attributes",
+      "range": "Team",
+      "source_fk": [
+        "Team_Attributes.team_api_id",
+        "Team.team_api_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Team_Attributes_Team_fk4",
+      "domain": "Team_Attributes",
+      "range": "Team",
+      "source_fk": [
+        "Team_Attributes.team_fifa_api_id",
+        "Team.team_fifa_api_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "class_table": {
+    "Investors": "Investors",
+    "Lots": "Lots",
+    "Ref_Transaction_Types": "Ref_Transaction_Types",
+    "Transactions": "Transactions",
+    "Sales": "Sales",
+    "Purchases": "Purchases",
+    "Transactions_Lots": "Transactions_Lots"
+  },
+  "property_column": {
+    "Investors_investor_id": [
+      "Investors",
+      "investor_id"
+    ],
+    "Investors_Investor_details": [
+      "Investors",
+      "Investor_details"
+    ],
+    "Lots_lot_id": [
+      "Lots",
+      "lot_id"
+    ],
+    "Lots_investor_id": [
+      "Lots",
+      "investor_id"
+    ],
+    "Lots_lot_details": [
+      "Lots",
+      "lot_details"
+    ],
+    "Ref_Transaction_Types_transaction_type_code": [
+      "Ref_Transaction_Types",
+      "transaction_type_code"
+    ],
+    "Ref_Transaction_Types_transaction_type_description": [
+      "Ref_Transaction_Types",
+      "transaction_type_description"
+    ],
+    "Transactions_transaction_id": [
+      "Transactions",
+      "transaction_id"
+    ],
+    "Transactions_investor_id": [
+      "Transactions",
+      "investor_id"
+    ],
+    "Transactions_transaction_type_code": [
+      "Transactions",
+      "transaction_type_code"
+    ],
+    "Transactions_date_of_transaction": [
+      "Transactions",
+      "date_of_transaction"
+    ],
+    "Transactions_amount_of_transaction": [
+      "Transactions",
+      "amount_of_transaction"
+    ],
+    "Transactions_share_count": [
+      "Transactions",
+      "share_count"
+    ],
+    "Transactions_other_details": [
+      "Transactions",
+      "other_details"
+    ],
+    "Sales_sales_transaction_id": [
+      "Sales",
+      "sales_transaction_id"
+    ],
+    "Sales_sales_details": [
+      "Sales",
+      "sales_details"
+    ],
+    "Purchases_purchase_transaction_id": [
+      "Purchases",
+      "purchase_transaction_id"
+    ],
+    "Purchases_purchase_details": [
+      "Purchases",
+      "purchase_details"
+    ],
+    "Transactions_Lots_transaction_id": [
+      "Transactions_Lots",
+      "transaction_id"
+    ],
+    "Transactions_Lots_lot_id": [
+      "Transactions_Lots",
+      "lot_id"
+    ]
+  },
+  "object_property_fk": {
+    "Lots_Investors_fk0": [
+      "Lots.investor_id",
+      "Investors.investor_id"
+    ],
+    "Transactions_Ref_Transaction_Types_fk1": [
+      "Transactions.transaction_type_code",
+      "Ref_Transaction_Types.transaction_type_code"
+    ],
+    "Transactions_Investors_fk2": [
+      "Transactions.investor_id",
+      "Investors.investor_id"
+    ],
+    "Sales_Transactions_fk3": [
+      "Sales.sales_transaction_id",
+      "Transactions.transaction_id"
+    ],
+    "Purchases_Transactions_fk4": [
+      "Purchases.purchase_transaction_id",
+      "Transactions.transaction_id"
+    ],
+    "Transactions_Lots_Transactions_fk5": [
+      "Transactions_Lots.transaction_id",
+      "Transactions.transaction_id"
+    ],
+    "Transactions_Lots_Lots_fk6": [
+      "Transactions_Lots.lot_id",
+      "Lots.lot_id"
+    ]
+  }
+}

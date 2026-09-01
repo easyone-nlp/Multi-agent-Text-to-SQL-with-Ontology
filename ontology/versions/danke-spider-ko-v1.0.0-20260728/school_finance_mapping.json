@@ -1,0 +1,95 @@
+{
+  "class_table": {
+    "School": "School",
+    "budget": "budget",
+    "endowment": "endowment"
+  },
+  "property_column": {
+    "School_School_id": [
+      "School",
+      "School_id"
+    ],
+    "School_School_name": [
+      "School",
+      "School_name"
+    ],
+    "School_Location": [
+      "School",
+      "Location"
+    ],
+    "School_Mascot": [
+      "School",
+      "Mascot"
+    ],
+    "School_Enrollment": [
+      "School",
+      "Enrollment"
+    ],
+    "School_IHSAA_Class": [
+      "School",
+      "IHSAA_Class"
+    ],
+    "School_IHSAA_Football_Class": [
+      "School",
+      "IHSAA_Football_Class"
+    ],
+    "School_County": [
+      "School",
+      "County"
+    ],
+    "budget_School_id": [
+      "budget",
+      "School_id"
+    ],
+    "budget_Year": [
+      "budget",
+      "Year"
+    ],
+    "budget_Budgeted": [
+      "budget",
+      "Budgeted"
+    ],
+    "budget_total_budget_percent_budgeted": [
+      "budget",
+      "total_budget_percent_budgeted"
+    ],
+    "budget_Invested": [
+      "budget",
+      "Invested"
+    ],
+    "budget_total_budget_percent_invested": [
+      "budget",
+      "total_budget_percent_invested"
+    ],
+    "budget_Budget_invested_percent": [
+      "budget",
+      "Budget_invested_percent"
+    ],
+    "endowment_endowment_id": [
+      "endowment",
+      "endowment_id"
+    ],
+    "endowment_School_id": [
+      "endowment",
+      "School_id"
+    ],
+    "endowment_donator_name": [
+      "endowment",
+      "donator_name"
+    ],
+    "endowment_amount": [
+      "endowment",
+      "amount"
+    ]
+  },
+  "object_property_fk": {
+    "budget_School_fk0": [
+      "budget.School_id",
+      "School.School_id"
+    ],
+    "endowment_School_fk1": [
+      "endowment.School_id",
+      "School.School_id"
+    ]
+  }
+}

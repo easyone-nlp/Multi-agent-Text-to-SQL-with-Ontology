@@ -1,0 +1,333 @@
+{
+  "db_id": "storm_record",
+  "classes": [
+    {
+      "name": "storm",
+      "source_table": "storm",
+      "ranking": 3.5,
+      "primary_label": "폭풍우",
+      "synonyms": [
+        "폭우",
+        "폭풍",
+        "기상 현상",
+        "자연 재해",
+        "기상 데이터"
+      ]
+    },
+    {
+      "name": "region",
+      "source_table": "region",
+      "ranking": 3.0,
+      "primary_label": "지역",
+      "synonyms": [
+        "지역",
+        "구역",
+        "지역 정보",
+        "지역 데이터",
+        "지리적 범위"
+      ]
+    },
+    {
+      "name": "affected_region",
+      "source_table": "affected_region",
+      "ranking": 3.0,
+      "primary_label": "영향받은 지역",
+      "synonyms": [
+        "영향 지역",
+        "피해 지역",
+        "영향 구역",
+        "영향 범위",
+        "피해 지역 정보"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "storm_Storm_ID",
+      "domain": "storm",
+      "source_table": "storm",
+      "source_column": "Storm_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "폭풍우 ID",
+      "synonyms": [
+        "폭풍 ID",
+        "폭풍 식별 번호",
+        "스톰 ID",
+        "스톰 식별 번호",
+        "스톰 번호",
+        "폭풍 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "storm_Name",
+      "domain": "storm",
+      "source_table": "storm",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [
+        "폭풍 이름",
+        "스톰 이름",
+        "폭풍명",
+        "스톰명",
+        "명칭",
+        "이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "강풍": [
+          "강풍"
+        ],
+        "태풍": [
+          "태풍"
+        ]
+      }
+    },
+    {
+      "name": "storm_Dates_active",
+      "domain": "storm",
+      "source_table": "storm",
+      "source_column": "Dates_active",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "활동 기간",
+      "synonyms": [
+        "활동 기간",
+        "활동 날짜",
+        "활동 기간 정보",
+        "활동 일자",
+        "활동 기간 기록",
+        "활동 일시",
+        "활동 날짜 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-08-01 to 2023-08-10": [
+          "2023년 8월 1일 ~ 8월 10일"
+        ]
+      }
+    },
+    {
+      "name": "storm_Max_speed",
+      "domain": "storm",
+      "source_table": "storm",
+      "source_column": "Max_speed",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "최대 속도",
+      "synonyms": [
+        "최대 속도",
+        "풍속",
+        "최대 풍속",
+        "풍속 최대값",
+        "풍속 수치",
+        "max speed"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "storm_Damage_millions_USD",
+      "domain": "storm",
+      "source_table": "storm",
+      "source_column": "Damage_millions_USD",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "미국 달러로 계산한 피해 금액(백만)",
+      "synonyms": [
+        "피해 금액",
+        "미래 달러 피해",
+        "미래 달러로 계산한 피해",
+        "피해",
+        "미래 달러 기준 피해",
+        "damage millions usd"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "storm_Number_Deaths",
+      "domain": "storm",
+      "source_table": "storm",
+      "source_column": "Number_Deaths",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "사망자 수",
+      "synonyms": [
+        "사망자 수",
+        "사망자",
+        "사망 인원",
+        "사망자 수치",
+        "number deaths"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "region_Region_id",
+      "domain": "region",
+      "source_table": "region",
+      "source_column": "Region_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "region id",
+      "synonyms": [
+        "지역 ID",
+        "구역 번호",
+        "지역 식별자",
+        "Region_id",
+        "구역 고유 ID",
+        "지역 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "region_Region_code",
+      "domain": "region",
+      "source_table": "region",
+      "source_column": "Region_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "region code",
+      "synonyms": [
+        "지역 코드",
+        "구역 코드",
+        "Region_code",
+        "지역 식별 코드",
+        "구역 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "region_Region_name",
+      "domain": "region",
+      "source_table": "region",
+      "source_column": "Region_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "region name",
+      "synonyms": [
+        "지역 이름",
+        "구역 이름",
+        "Region_name",
+        "지역 명칭",
+        "구역 명칭",
+        "지역 표기"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "affected_region_Region_id",
+      "domain": "affected_region",
+      "source_table": "affected_region",
+      "source_column": "Region_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "지역 ID",
+      "synonyms": [
+        "지역 ID",
+        "지역 식별자",
+        "Region_id",
+        "지역 번호",
+        "구역 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "affected_region_Storm_ID",
+      "domain": "affected_region",
+      "source_table": "affected_region",
+      "source_column": "Storm_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "폭풍 ID",
+      "synonyms": [
+        "태풍 ID",
+        "태풍 식별자",
+        "Storm_ID",
+        "태풍 번호",
+        "풍속 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "affected_region_Number_city_affected",
+      "domain": "affected_region",
+      "source_table": "affected_region",
+      "source_column": "Number_city_affected",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "영향받은 도시 수",
+      "synonyms": [
+        "영향 받은 도시 수",
+        "피해 도시 수",
+        "Number_city_affected",
+        "도시 수",
+        "영향 도시 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "affected_region_storm_fk0",
+      "domain": "affected_region",
+      "range": "storm",
+      "source_fk": [
+        "affected_region.Storm_ID",
+        "storm.Storm_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "영향받은 지역과 폭풍 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "affected_region_region_fk1",
+      "domain": "affected_region",
+      "range": "region",
+      "source_fk": [
+        "affected_region.Region_id",
+        "region.Region_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "영향받은 지역과 지역 연결",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

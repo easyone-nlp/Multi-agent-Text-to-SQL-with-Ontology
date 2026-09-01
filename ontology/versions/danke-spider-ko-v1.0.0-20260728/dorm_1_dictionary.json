@@ -1,0 +1,1383 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "학생",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "입주자",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학도",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주거자",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 정보",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 데이터",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도서관",
+      "target_class": "Dorm",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "숙소",
+      "target_class": "Dorm",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "생활관",
+      "target_class": "Dorm",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "거주 공간",
+      "target_class": "Dorm",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "숙소 정보",
+      "target_class": "Dorm",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "생활관 정보",
+      "target_class": "Dorm",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "숙소 데이터",
+      "target_class": "Dorm",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "dorm amenity",
+      "target_class": "Dorm_amenity",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시설",
+      "target_class": "Dorm_amenity",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "공동시설",
+      "target_class": "Dorm_amenity",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "숙소 시설",
+      "target_class": "Dorm_amenity",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "생활관 시설",
+      "target_class": "Dorm_amenity",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "공용 시설",
+      "target_class": "Dorm_amenity",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "숙소 기능",
+      "target_class": "Dorm_amenity",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "has amenity",
+      "target_class": "Has_amenity",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "갖추고 있는 시설",
+      "target_class": "Has_amenity",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "보유 시설",
+      "target_class": "Has_amenity",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "설치된 시설",
+      "target_class": "Has_amenity",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "갖춘 시설",
+      "target_class": "Has_amenity",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "설비",
+      "target_class": "Has_amenity",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "lives in",
+      "target_class": "Lives_in",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "거주하는 공간",
+      "target_class": "Lives_in",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "거주지",
+      "target_class": "Lives_in",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "거주 공간",
+      "target_class": "Lives_in",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "거주자",
+      "target_class": "Lives_in",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "거주 위치",
+      "target_class": "Lives_in",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "거주 장소",
+      "target_class": "Lives_in",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "StuID",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 고유 번호",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번 번호",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 식별자",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번 코드",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직계",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 이름",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성자",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "LName",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 정보",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름자",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Fname",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 정보",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 열",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 열",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 기준",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 기준",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 정보",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 코드",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 코드",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 구분",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 구분",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 코드",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 정보",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 코드 열",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 열",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 구분",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 코드 구분",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상담사",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Advisor",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교수",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지도 교수",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지도자",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학부모",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학문 지도자",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시 코드",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city_code",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 식별자",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주 도시 코드",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드 정보",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 식별번호",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서관 ID",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dormid",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주 공간 ID",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Dorm 번호",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주 공간 식별자",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Dorm 코드",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Dorm 고유 번호",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서관 이름",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dorm_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dorm_name",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dorm_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dorm 이름",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dorm_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주 공간 이름",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dorm_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주지 이름",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dorm_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주 공간",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dorm_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주지",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dorm_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 수용 인원",
+      "target_class": "Dorm",
+      "target_property": "Dorm_student_capacity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "student_capacity",
+      "target_class": "Dorm",
+      "target_property": "Dorm_student_capacity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 수용량",
+      "target_class": "Dorm",
+      "target_property": "Dorm_student_capacity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 수용 수",
+      "target_class": "Dorm",
+      "target_property": "Dorm_student_capacity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 수용 인원 수",
+      "target_class": "Dorm",
+      "target_property": "Dorm_student_capacity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 수용 능력",
+      "target_class": "Dorm",
+      "target_property": "Dorm_student_capacity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별",
+      "target_class": "Dorm",
+      "target_property": "Dorm_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Dorm",
+      "target_property": "Dorm_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 정보",
+      "target_class": "Dorm",
+      "target_property": "Dorm_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 구분",
+      "target_class": "Dorm",
+      "target_property": "Dorm_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 데이터",
+      "target_class": "Dorm",
+      "target_property": "Dorm_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 코드",
+      "target_class": "Dorm",
+      "target_property": "Dorm_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 타입",
+      "target_class": "Dorm",
+      "target_property": "Dorm_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 구분자",
+      "target_class": "Dorm",
+      "target_property": "Dorm_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "amenity id",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "amenid",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "편의 시설 ID",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설 번호",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "편의 시설 고유 번호",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설 식별자",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아메니티 ID",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "편의 시설 코드",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "amenity name",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenity_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "amenity_name",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenity_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "편의 시설 이름",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenity_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설명",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenity_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아메니티 이름",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenity_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "편의 시설 제목",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenity_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설 이름",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenity_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "편의 시설 타이틀",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenity_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dorm id",
+      "target_class": "Has_amenity",
+      "target_property": "Has_amenity_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dormid",
+      "target_class": "Has_amenity",
+      "target_property": "Has_amenity_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "숙소 ID",
+      "target_class": "Has_amenity",
+      "target_property": "Has_amenity_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "숙소 번호",
+      "target_class": "Has_amenity",
+      "target_property": "Has_amenity_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dorm identifier",
+      "target_class": "Has_amenity",
+      "target_property": "Has_amenity_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "숙소 식별자",
+      "target_class": "Has_amenity",
+      "target_property": "Has_amenity_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "amenity id",
+      "target_class": "Has_amenity",
+      "target_property": "Has_amenity_amenid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "amenid",
+      "target_class": "Has_amenity",
+      "target_property": "Has_amenity_amenid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "편의 시설 ID",
+      "target_class": "Has_amenity",
+      "target_property": "Has_amenity_amenid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "편의 시설 번호",
+      "target_class": "Has_amenity",
+      "target_property": "Has_amenity_amenid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "amenity identifier",
+      "target_class": "Has_amenity",
+      "target_property": "Has_amenity_amenid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "편의 시설 식별자",
+      "target_class": "Has_amenity",
+      "target_property": "Has_amenity_amenid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 id",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_stuid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stuid",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_stuid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_stuid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_stuid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 식별 번호",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_stuid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번 번호",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_stuid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학자 정보",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_stuid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 코드",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_stuid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "동아파트 id",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dormid",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총기실 ID",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총기실 코드",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주 총기실",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총기실 식별자",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총기실 번호",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_dormid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방 번호",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_room_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "room_number",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_room_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "객실 번호",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_room_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주 방",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_room_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방 정보",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_room_number",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "김",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": "김"
+    },
+    {
+      "entry_type": "value",
+      "key": "이",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": "김"
+    },
+    {
+      "entry_type": "value",
+      "key": "박",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": "김"
+    },
+    {
+      "entry_type": "value",
+      "key": "민수",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": "민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "지현",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": "민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "서연",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": "민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "남자",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": "남자"
+    },
+    {
+      "entry_type": "value",
+      "key": "여자",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": "남자"
+    },
+    {
+      "entry_type": "value",
+      "key": "01",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": "01"
+    },
+    {
+      "entry_type": "value",
+      "key": "02",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": "01"
+    },
+    {
+      "entry_type": "value",
+      "key": "03",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": "01"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국도서관",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dorm_name",
+      "value": "한국도서관"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국 도서관",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dorm_name",
+      "value": "한국도서관"
+    },
+    {
+      "entry_type": "value",
+      "key": "국제도서관",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dorm_name",
+      "value": "국제도서관"
+    },
+    {
+      "entry_type": "value",
+      "key": "국제 도서관",
+      "target_class": "Dorm",
+      "target_property": "Dorm_dorm_name",
+      "value": "국제도서관"
+    },
+    {
+      "entry_type": "value",
+      "key": "남자",
+      "target_class": "Dorm",
+      "target_property": "Dorm_gender",
+      "value": "남자"
+    },
+    {
+      "entry_type": "value",
+      "key": "남",
+      "target_class": "Dorm",
+      "target_property": "Dorm_gender",
+      "value": "남자"
+    },
+    {
+      "entry_type": "value",
+      "key": "여자",
+      "target_class": "Dorm",
+      "target_property": "Dorm_gender",
+      "value": "여자"
+    },
+    {
+      "entry_type": "value",
+      "key": "여",
+      "target_class": "Dorm",
+      "target_property": "Dorm_gender",
+      "value": "여자"
+    },
+    {
+      "entry_type": "value",
+      "key": "스포츠 시설",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenity_name",
+      "value": "스포츠 시설"
+    },
+    {
+      "entry_type": "value",
+      "key": "스포츠",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenity_name",
+      "value": "스포츠 시설"
+    },
+    {
+      "entry_type": "value",
+      "key": "식당",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenity_name",
+      "value": "식당"
+    },
+    {
+      "entry_type": "value",
+      "key": "식사 공간",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenity_name",
+      "value": "식당"
+    },
+    {
+      "entry_type": "value",
+      "key": "세탁소",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenity_name",
+      "value": "세탁소"
+    },
+    {
+      "entry_type": "value",
+      "key": "세탁",
+      "target_class": "Dorm_amenity",
+      "target_property": "Dorm_amenity_amenity_name",
+      "value": "세탁소"
+    },
+    {
+      "entry_type": "value",
+      "key": "101",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_room_number",
+      "value": "101"
+    },
+    {
+      "entry_type": "value",
+      "key": "205",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_room_number",
+      "value": "205"
+    },
+    {
+      "entry_type": "value",
+      "key": "303",
+      "target_class": "Lives_in",
+      "target_property": "Lives_in_room_number",
+      "value": "303"
+    }
+  ]
+}

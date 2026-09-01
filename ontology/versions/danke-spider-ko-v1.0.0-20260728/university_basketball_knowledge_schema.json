@@ -1,0 +1,569 @@
+{
+  "db_id": "university_basketball",
+  "classes": [
+    {
+      "name": "basketball_match",
+      "source_table": "basketball_match",
+      "ranking": 3.5,
+      "primary_label": "농구 경기",
+      "synonyms": [
+        "농구 경기",
+        "농구 경기 정보",
+        "농구 대회",
+        "농구 경기 기록",
+        "농구 경기 데이터"
+      ]
+    },
+    {
+      "name": "university",
+      "source_table": "university",
+      "ranking": 3.0,
+      "primary_label": "대학",
+      "synonyms": [
+        "대학",
+        "대학 정보",
+        "대학 데이터",
+        "대학 기록",
+        "대학 목록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "basketball_match_Team_ID",
+      "domain": "basketball_match",
+      "source_table": "basketball_match",
+      "source_column": "Team_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "팀 ID",
+      "synonyms": [
+        "팀 ID",
+        "팀 번호",
+        "팀 식별자",
+        "팀 코드",
+        "팀 고유 번호",
+        "Team ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "basketball_match_School_ID",
+      "domain": "basketball_match",
+      "source_table": "basketball_match",
+      "source_column": "School_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학교 ID",
+      "synonyms": [
+        "학교 ID",
+        "학교 번호",
+        "학교 식별자",
+        "학교 코드",
+        "학교 고유 번호",
+        "School ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "basketball_match_Team_Name",
+      "domain": "basketball_match",
+      "source_table": "basketball_match",
+      "source_column": "Team_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "팀 이름",
+      "synonyms": [
+        "팀 이름",
+        "팀명",
+        "구단 이름",
+        "구단명",
+        "팀 코드 이름",
+        "Team Name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국 대학교": [
+          "한국대",
+          "한국 대학"
+        ],
+        "미국 대학교": [
+          "미국대",
+          "미국 대학"
+        ]
+      }
+    },
+    {
+      "name": "basketball_match_ACC_Regular_Season",
+      "domain": "basketball_match",
+      "source_table": "basketball_match",
+      "source_column": "ACC_Regular_Season",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "ACC 정규 시즌",
+      "synonyms": [
+        "ACC 정규 시즌",
+        "ACC 정규 경기",
+        "정규 시즌 결과",
+        "ACC 정규 경기 결과",
+        "ACC 정규 시즌 데이터",
+        "ACC 정규 시즌 정보",
+        "ACC 정규 경기 결과 정보",
+        "ACC 정규 시즌 결과 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승리": [
+          "승"
+        ],
+        "패배": [
+          "패"
+        ]
+      }
+    },
+    {
+      "name": "basketball_match_ACC_Percent",
+      "domain": "basketball_match",
+      "source_table": "basketball_match",
+      "source_column": "ACC_Percent",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "ACC 승률",
+      "synonyms": [
+        "ACC 성적",
+        "ACC 성적 비율",
+        "ACC 비율",
+        "ACC 성적 데이터",
+        "ACC 성적 정보",
+        "ACC 비율 정보",
+        "ACC 성적 비율 정보",
+        "ACC 성적 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "basketball_match_ACC_Home",
+      "domain": "basketball_match",
+      "source_table": "basketball_match",
+      "source_column": "ACC_Home",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "ACC 홈 경기",
+      "synonyms": [
+        "ACC 홈 경기",
+        "ACC 홈 결과",
+        "ACC 홈 경기 결과",
+        "ACC 홈 데이터",
+        "ACC 홈 정보",
+        "ACC 홈 경기 결과 정보",
+        "ACC 홈 성적",
+        "ACC 홈 경기 성적"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승리": [
+          "승"
+        ],
+        "패배": [
+          "패"
+        ]
+      }
+    },
+    {
+      "name": "basketball_match_ACC_Road",
+      "domain": "basketball_match",
+      "source_table": "basketball_match",
+      "source_column": "ACC_Road",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "ACC 외부 경기",
+      "synonyms": [
+        "ACC Road",
+        "아코드 외부 경기",
+        "리그 외부 경기 성적",
+        "아코드 외부 경기 결과",
+        "가장 최근 아코드 외부 경기"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승리": [
+          "승"
+        ],
+        "패배": [
+          "패"
+        ]
+      }
+    },
+    {
+      "name": "basketball_match_All_Games",
+      "domain": "basketball_match",
+      "source_table": "basketball_match",
+      "source_column": "All_Games",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "전체 경기",
+      "synonyms": [
+        "All Games",
+        "전체 경기",
+        "모든 경기 성적",
+        "전체 경기 결과",
+        "모든 경기"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승리": [
+          "승"
+        ],
+        "패배": [
+          "패"
+        ]
+      }
+    },
+    {
+      "name": "basketball_match_All_Games_Percent",
+      "domain": "basketball_match",
+      "source_table": "basketball_match",
+      "source_column": "All_Games_Percent",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "전체 경기 승률",
+      "synonyms": [
+        "All Games Percent",
+        "전체 경기 백분율",
+        "모든 경기 성적 백분율",
+        "전체 경기 성공률",
+        "모든 경기 성공률"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "basketball_match_All_Home",
+      "domain": "basketball_match",
+      "source_table": "basketball_match",
+      "source_column": "All_Home",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "전체 홈 경기",
+      "synonyms": [
+        "전체 홈",
+        "홈 경기 성적",
+        "홈 성적",
+        "전체 홈 경기",
+        "홈 경기 결과"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승리": [
+          "승"
+        ],
+        "패배": [
+          "패"
+        ]
+      }
+    },
+    {
+      "name": "basketball_match_All_Road",
+      "domain": "basketball_match",
+      "source_table": "basketball_match",
+      "source_column": "All_Road",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "전체 외부 경기",
+      "synonyms": [
+        "전체 원정",
+        "원정 경기 성적",
+        "원정 성적",
+        "전체 원정 경기",
+        "원정 경기 결과"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승리": [
+          "승"
+        ],
+        "패배": [
+          "패"
+        ]
+      }
+    },
+    {
+      "name": "basketball_match_All_Neutral",
+      "domain": "basketball_match",
+      "source_table": "basketball_match",
+      "source_column": "All_Neutral",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "전체 중립 경기",
+      "synonyms": [
+        "전체 중립",
+        "중립 경기 성적",
+        "중립 성적",
+        "전체 중립 경기",
+        "중립 경기 결과"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승리": [
+          "승"
+        ],
+        "패배": [
+          "패"
+        ]
+      }
+    },
+    {
+      "name": "university_School_ID",
+      "domain": "university",
+      "source_table": "university",
+      "source_column": "School_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학교 ID",
+      "synonyms": [
+        "School_ID",
+        "학교 ID",
+        "학교 식별 번호",
+        "학교 번호",
+        "학교 고유 번호",
+        "학교 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "university_School",
+      "domain": "university",
+      "source_table": "university",
+      "source_column": "School",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "학교",
+      "synonyms": [
+        "School",
+        "학교",
+        "대학 이름",
+        "학교 이름",
+        "학교명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국과학기술원": [
+          "한국과학기술원",
+          "KAIST"
+        ],
+        "서울대학교": [
+          "서울대학교",
+          "Seoul National University"
+        ]
+      }
+    },
+    {
+      "name": "university_Location",
+      "domain": "university",
+      "source_table": "university",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "위치",
+      "synonyms": [
+        "Location",
+        "지역",
+        "위치",
+        "대학 위치",
+        "학교 위치",
+        "지역 정보",
+        "위치 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울",
+          "Seoul"
+        ],
+        "부산": [
+          "부산",
+          "Busan"
+        ]
+      }
+    },
+    {
+      "name": "university_Founded",
+      "domain": "university",
+      "source_table": "university",
+      "source_column": "Founded",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "설립 연도",
+      "synonyms": [
+        "설립 연도",
+        "설립년도",
+        "founded",
+        "founded_year",
+        "설립 연번",
+        "설립 시기"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "university_Affiliation",
+      "domain": "university",
+      "source_table": "university",
+      "source_column": "Affiliation",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "소속",
+      "synonyms": [
+        "연맹",
+        "협회",
+        "대학 연맹",
+        "소속",
+        "연합"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "공립": [
+          "공립",
+          "public"
+        ],
+        "민간": [
+          "민간",
+          "private"
+        ]
+      }
+    },
+    {
+      "name": "university_Enrollment",
+      "domain": "university",
+      "source_table": "university",
+      "source_column": "Enrollment",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "수강생 수",
+      "synonyms": [
+        "재학생 수",
+        "학생 수",
+        "등록 인원",
+        "등록자 수",
+        "인원",
+        "수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "university_Nickname",
+      "domain": "university",
+      "source_table": "university",
+      "source_column": "Nickname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "별명",
+      "synonyms": [
+        "별명",
+        "대학 별명",
+        "인기 별명",
+        "대학의 별명",
+        "니크네임",
+        "Nickname",
+        "특징 별명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "스파이더": [
+          "스파이더"
+        ],
+        "파이어": [
+          "파이어"
+        ]
+      }
+    },
+    {
+      "name": "university_Primary_conference",
+      "domain": "university",
+      "source_table": "university",
+      "source_column": "Primary_conference",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "주요 컨퍼런스",
+      "synonyms": [
+        "주요 연맹",
+        "주축구 연맹",
+        "주요 대회",
+        "주연맹",
+        "Primary conference",
+        "주요 축구 연맹",
+        "주 대회",
+        "주연맹 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Pac-12": [
+          "Pac-12"
+        ],
+        "Big Ten": [
+          "Big Ten"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "basketball_match_university_fk0",
+      "domain": "basketball_match",
+      "range": "university",
+      "source_fk": [
+        "basketball_match.School_ID",
+        "university.School_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

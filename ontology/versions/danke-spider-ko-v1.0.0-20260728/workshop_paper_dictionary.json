@@ -1,0 +1,613 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "워크숍",
+      "target_class": "workshop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "세미나",
+      "target_class": "workshop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학술행사",
+      "target_class": "workshop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "세션",
+      "target_class": "workshop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "컨퍼런스",
+      "target_class": "workshop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "제출서",
+      "target_class": "submission",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "제출물",
+      "target_class": "submission",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "논문",
+      "target_class": "submission",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "제출",
+      "target_class": "submission",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "작품",
+      "target_class": "submission",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "제출내용",
+      "target_class": "submission",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "acceptance",
+      "target_class": "Acceptance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수락",
+      "target_class": "Acceptance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "승인",
+      "target_class": "Acceptance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "접수",
+      "target_class": "Acceptance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "승인상태",
+      "target_class": "Acceptance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "결정",
+      "target_class": "Acceptance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워크숍 ID",
+      "target_class": "workshop",
+      "target_property": "workshop_Workshop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워크숍 번호",
+      "target_class": "workshop",
+      "target_property": "workshop_Workshop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워크숍 식별자",
+      "target_class": "workshop",
+      "target_property": "workshop_Workshop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Workshop_ID",
+      "target_class": "workshop",
+      "target_property": "workshop_Workshop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워크숍 고유 번호",
+      "target_class": "workshop",
+      "target_property": "workshop_Workshop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워크숍 코드",
+      "target_class": "workshop",
+      "target_property": "workshop_Workshop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워크숍 식별번호",
+      "target_class": "workshop",
+      "target_property": "workshop_Workshop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "workshop",
+      "target_property": "workshop_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "workshop",
+      "target_property": "workshop_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일정",
+      "target_class": "workshop",
+      "target_property": "workshop_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 정보",
+      "target_class": "workshop",
+      "target_property": "workshop_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜 정보",
+      "target_class": "workshop",
+      "target_property": "workshop_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일정 날짜",
+      "target_class": "workshop",
+      "target_property": "workshop_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자별",
+      "target_class": "workshop",
+      "target_property": "workshop_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일정일",
+      "target_class": "workshop",
+      "target_property": "workshop_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "workshop",
+      "target_property": "workshop_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공간",
+      "target_class": "workshop",
+      "target_property": "workshop_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "현장",
+      "target_class": "workshop",
+      "target_property": "workshop_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소 정보",
+      "target_class": "workshop",
+      "target_property": "workshop_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "workshop",
+      "target_property": "workshop_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사건 장소",
+      "target_class": "workshop",
+      "target_property": "workshop_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 장소",
+      "target_class": "workshop",
+      "target_property": "workshop_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소명",
+      "target_class": "workshop",
+      "target_property": "workshop_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "workshop",
+      "target_property": "workshop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워크숍명",
+      "target_class": "workshop",
+      "target_property": "workshop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "workshop",
+      "target_property": "workshop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워크숍 이름",
+      "target_class": "workshop",
+      "target_property": "workshop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명칭",
+      "target_class": "workshop",
+      "target_property": "workshop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제출서 ID",
+      "target_class": "submission",
+      "target_property": "submission_Submission_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제출 번호",
+      "target_class": "submission",
+      "target_property": "submission_Submission_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제출 ID",
+      "target_class": "submission",
+      "target_property": "submission_Submission_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제출물 ID",
+      "target_class": "submission",
+      "target_property": "submission_Submission_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제출 식별자",
+      "target_class": "submission",
+      "target_property": "submission_Submission_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제출물 식별 번호",
+      "target_class": "submission",
+      "target_property": "submission_Submission_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Submission_ID",
+      "target_class": "submission",
+      "target_property": "submission_Submission_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제출 식별",
+      "target_class": "submission",
+      "target_property": "submission_Submission_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "submission",
+      "target_property": "submission_Scores",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성적",
+      "target_class": "submission",
+      "target_property": "submission_Scores",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 점수",
+      "target_class": "submission",
+      "target_property": "submission_Scores",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수 정보",
+      "target_class": "submission",
+      "target_property": "submission_Scores",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Scores",
+      "target_class": "submission",
+      "target_property": "submission_Scores",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제출 점수",
+      "target_class": "submission",
+      "target_property": "submission_Scores",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제출 성적",
+      "target_class": "submission",
+      "target_property": "submission_Scores",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저자",
+      "target_class": "submission",
+      "target_property": "submission_Author",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자",
+      "target_class": "submission",
+      "target_property": "submission_Author",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가",
+      "target_class": "submission",
+      "target_property": "submission_Author",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자 이름",
+      "target_class": "submission",
+      "target_property": "submission_Author",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Author",
+      "target_class": "submission",
+      "target_property": "submission_Author",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저자 이름",
+      "target_class": "submission",
+      "target_property": "submission_Author",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자 정보",
+      "target_class": "submission",
+      "target_property": "submission_Author",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저자명",
+      "target_class": "submission",
+      "target_property": "submission_Author",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학",
+      "target_class": "submission",
+      "target_property": "submission_College",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학명",
+      "target_class": "submission",
+      "target_property": "submission_College",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학부",
+      "target_class": "submission",
+      "target_property": "submission_College",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학부대학",
+      "target_class": "submission",
+      "target_property": "submission_College",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대학 이름",
+      "target_class": "submission",
+      "target_property": "submission_College",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "submission id",
+      "target_class": "Acceptance",
+      "target_property": "Acceptance_Submission_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "workshop id",
+      "target_class": "Acceptance",
+      "target_property": "Acceptance_Workshop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "result",
+      "target_class": "Acceptance",
+      "target_property": "Acceptance_Result",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "2024-05-10",
+      "target_class": "workshop",
+      "target_property": "workshop_Date",
+      "value": "2024-05-10"
+    },
+    {
+      "entry_type": "value",
+      "key": "2024년 5월 10일",
+      "target_class": "workshop",
+      "target_property": "workshop_Date",
+      "value": "2024-05-10"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시 강남구",
+      "target_class": "workshop",
+      "target_property": "workshop_Venue",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "강남구",
+      "target_class": "workshop",
+      "target_property": "workshop_Venue",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 강남",
+      "target_class": "workshop",
+      "target_property": "workshop_Venue",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "AI 워크숍",
+      "target_class": "workshop",
+      "target_property": "workshop_Name",
+      "value": "AI 워크숍"
+    },
+    {
+      "entry_type": "value",
+      "key": "인공지능 워크숍",
+      "target_class": "workshop",
+      "target_property": "workshop_Name",
+      "value": "AI 워크숍"
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "submission",
+      "target_property": "submission_Author",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "이지은",
+      "target_class": "submission",
+      "target_property": "submission_Author",
+      "value": "이지은"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국대학교",
+      "target_class": "submission",
+      "target_property": "submission_College",
+      "value": "한국대학교"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울대학교",
+      "target_class": "submission",
+      "target_property": "submission_College",
+      "value": "서울대학교"
+    }
+  ]
+}

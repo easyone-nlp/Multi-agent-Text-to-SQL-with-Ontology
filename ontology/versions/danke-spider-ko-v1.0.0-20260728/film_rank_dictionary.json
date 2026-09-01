@@ -1,0 +1,669 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "영화",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화제목",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화정보",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화목록",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화데이터",
+      "target_class": "film",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시장",
+      "target_class": "market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시장데이터",
+      "target_class": "market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시장정보",
+      "target_class": "market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시장분석",
+      "target_class": "market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시장조사",
+      "target_class": "market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 시장 예측",
+      "target_class": "film_market_estimation",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화시장추정",
+      "target_class": "film_market_estimation",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화시장예측",
+      "target_class": "film_market_estimation",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화시장분석",
+      "target_class": "film_market_estimation",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화시장추정데이터",
+      "target_class": "film_market_estimation",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화시장평가",
+      "target_class": "film_market_estimation",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 ID",
+      "target_class": "film",
+      "target_property": "film_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 고유 번호",
+      "target_class": "film",
+      "target_property": "film_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별자",
+      "target_class": "film",
+      "target_property": "film_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Film_ID",
+      "target_class": "film",
+      "target_property": "film_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 번호",
+      "target_class": "film",
+      "target_property": "film_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 코드",
+      "target_class": "film",
+      "target_property": "film_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별",
+      "target_class": "film",
+      "target_property": "film_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 제목",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 이름",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Title",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 타이틀",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 명",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스튜디오",
+      "target_class": "film",
+      "target_property": "film_Studio",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작사",
+      "target_class": "film",
+      "target_property": "film_Studio",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스튜디오 이름",
+      "target_class": "film",
+      "target_property": "film_Studio",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 제작 스튜디오",
+      "target_class": "film",
+      "target_property": "film_Studio",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Studio",
+      "target_class": "film",
+      "target_property": "film_Studio",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작 회사",
+      "target_class": "film",
+      "target_property": "film_Studio",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독",
+      "target_class": "film",
+      "target_property": "film_Director",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독명",
+      "target_class": "film",
+      "target_property": "film_Director",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독자",
+      "target_class": "film",
+      "target_property": "film_Director",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독 이름",
+      "target_class": "film",
+      "target_property": "film_Director",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독자 이름",
+      "target_class": "film",
+      "target_property": "film_Director",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "director",
+      "target_class": "film",
+      "target_property": "film_Director",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독 정보",
+      "target_class": "film",
+      "target_property": "film_Director",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "골드 달러",
+      "target_class": "film",
+      "target_property": "film_Gross_in_dollar",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 수익",
+      "target_class": "film",
+      "target_property": "film_Gross_in_dollar",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수익",
+      "target_class": "film",
+      "target_property": "film_Gross_in_dollar",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수익액",
+      "target_class": "film",
+      "target_property": "film_Gross_in_dollar",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 수익",
+      "target_class": "film",
+      "target_property": "film_Gross_in_dollar",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 수익액",
+      "target_class": "film",
+      "target_property": "film_Gross_in_dollar",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gross",
+      "target_class": "film",
+      "target_property": "film_Gross_in_dollar",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수익 달러",
+      "target_class": "film",
+      "target_property": "film_Gross_in_dollar",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수익 금액",
+      "target_class": "film",
+      "target_property": "film_Gross_in_dollar",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 ID",
+      "target_class": "market",
+      "target_property": "market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 고유 번호",
+      "target_class": "market",
+      "target_property": "market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 식별자",
+      "target_class": "market",
+      "target_property": "market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 번호",
+      "target_class": "market",
+      "target_property": "market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Market_ID",
+      "target_class": "market",
+      "target_property": "market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 식별번호",
+      "target_class": "market",
+      "target_property": "market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 고유 ID",
+      "target_class": "market",
+      "target_property": "market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "market",
+      "target_property": "market_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "market",
+      "target_property": "market_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 이름",
+      "target_class": "market",
+      "target_property": "market_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Country",
+      "target_class": "market",
+      "target_property": "market_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드",
+      "target_class": "market",
+      "target_property": "market_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 정보",
+      "target_class": "market",
+      "target_property": "market_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명칭",
+      "target_class": "market",
+      "target_property": "market_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 수",
+      "target_class": "market",
+      "target_property": "market_Number_cities",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 개수",
+      "target_class": "market",
+      "target_property": "market_Number_cities",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 수량",
+      "target_class": "market",
+      "target_property": "market_Number_cities",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Number_cities",
+      "target_class": "market",
+      "target_property": "market_Number_cities",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 수 정보",
+      "target_class": "market",
+      "target_property": "market_Number_cities",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 개수 데이터",
+      "target_class": "market",
+      "target_property": "market_Number_cities",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 수 기록",
+      "target_class": "market",
+      "target_property": "market_Number_cities",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예측 ID",
+      "target_class": "film_market_estimation",
+      "target_property": "film_market_estimation_Estimation_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "하한 예측",
+      "target_class": "film_market_estimation",
+      "target_property": "film_market_estimation_Low_Estimate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상한 예측",
+      "target_class": "film_market_estimation",
+      "target_property": "film_market_estimation_High_Estimate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 ID",
+      "target_class": "film_market_estimation",
+      "target_property": "film_market_estimation_Film_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유형",
+      "target_class": "film_market_estimation",
+      "target_property": "film_market_estimation_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 ID",
+      "target_class": "film_market_estimation",
+      "target_property": "film_market_estimation_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "film_market_estimation",
+      "target_property": "film_market_estimation_Year",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "아이언맨",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": "아이언맨"
+    },
+    {
+      "entry_type": "value",
+      "key": "타이타닉",
+      "target_class": "film",
+      "target_property": "film_Title",
+      "value": "타이타닉"
+    },
+    {
+      "entry_type": "value",
+      "key": "위메프",
+      "target_class": "film",
+      "target_property": "film_Studio",
+      "value": "위메프"
+    },
+    {
+      "entry_type": "value",
+      "key": "삼성영화",
+      "target_class": "film",
+      "target_property": "film_Studio",
+      "value": "삼성영화"
+    },
+    {
+      "entry_type": "value",
+      "key": "조지 루카스",
+      "target_class": "film",
+      "target_property": "film_Director",
+      "value": "조지 루카스"
+    },
+    {
+      "entry_type": "value",
+      "key": "스티븐 스필버그",
+      "target_class": "film",
+      "target_property": "film_Director",
+      "value": "스티븐 스필버그"
+    },
+    {
+      "entry_type": "value",
+      "key": "대한민국",
+      "target_class": "market",
+      "target_property": "market_Country",
+      "value": "대한민국"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국",
+      "target_class": "market",
+      "target_property": "market_Country",
+      "value": "미국"
+    },
+    {
+      "entry_type": "value",
+      "key": "국내",
+      "target_class": "film_market_estimation",
+      "target_property": "film_market_estimation_Type",
+      "value": "국내"
+    },
+    {
+      "entry_type": "value",
+      "key": "국내 시장",
+      "target_class": "film_market_estimation",
+      "target_property": "film_market_estimation_Type",
+      "value": "국내"
+    },
+    {
+      "entry_type": "value",
+      "key": "해외",
+      "target_class": "film_market_estimation",
+      "target_property": "film_market_estimation_Type",
+      "value": "해외"
+    },
+    {
+      "entry_type": "value",
+      "key": "해외 시장",
+      "target_class": "film_market_estimation",
+      "target_property": "film_market_estimation_Type",
+      "value": "해외"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023",
+      "target_class": "film_market_estimation",
+      "target_property": "film_market_estimation_Year",
+      "value": "2023"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년",
+      "target_class": "film_market_estimation",
+      "target_property": "film_market_estimation_Year",
+      "value": "2023"
+    },
+    {
+      "entry_type": "value",
+      "key": "2024",
+      "target_class": "film_market_estimation",
+      "target_property": "film_market_estimation_Year",
+      "value": "2024"
+    },
+    {
+      "entry_type": "value",
+      "key": "2024년",
+      "target_class": "film_market_estimation",
+      "target_property": "film_market_estimation_Year",
+      "value": "2024"
+    }
+  ]
+}

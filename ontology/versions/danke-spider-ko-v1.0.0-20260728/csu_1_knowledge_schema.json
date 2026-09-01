@@ -1,0 +1,654 @@
+{
+  "db_id": "csu_1",
+  "classes": [
+    {
+      "name": "Campuses",
+      "source_table": "Campuses",
+      "ranking": 3.0,
+      "primary_label": "campuses",
+      "synonyms": [
+        "캠퍼스",
+        "캠퍼스 정보",
+        "캠퍼스 데이터",
+        "캠퍼스 세부 정보",
+        "캠퍼스 위치"
+      ]
+    },
+    {
+      "name": "csu_fees",
+      "source_table": "csu_fees",
+      "ranking": 3.0,
+      "primary_label": "csu fees",
+      "synonyms": [
+        "수수료",
+        "수강료",
+        "수수료 정보",
+        "수강료 정보",
+        "수수료 데이터",
+        "수강료 데이터"
+      ]
+    },
+    {
+      "name": "degrees",
+      "source_table": "degrees",
+      "ranking": 3.5,
+      "primary_label": "학위 정보",
+      "synonyms": [
+        "학위",
+        "학위 정보",
+        "학위 데이터",
+        "학위 세부 정보",
+        "학위 종류"
+      ]
+    },
+    {
+      "name": "discipline_enrollments",
+      "source_table": "discipline_enrollments",
+      "ranking": 3.5,
+      "primary_label": "학과 수강 현황",
+      "synonyms": [
+        "학과 수강자",
+        "학과별 수강자",
+        "학과 관련 수강자",
+        "학과별 등록자",
+        "학과 수강 정보"
+      ]
+    },
+    {
+      "name": "enrollments",
+      "source_table": "enrollments",
+      "ranking": 3.0,
+      "primary_label": "수강생 등록 정보",
+      "synonyms": [
+        "수강자",
+        "등록자",
+        "등록 정보",
+        "수강자 정보",
+        "등록 내역"
+      ]
+    },
+    {
+      "name": "faculty",
+      "source_table": "faculty",
+      "ranking": 3.0,
+      "primary_label": "교수",
+      "synonyms": [
+        "교원",
+        "교수",
+        "교직자",
+        "교수직원",
+        "교직원 정보"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Campuses_Id",
+      "domain": "Campuses",
+      "source_table": "Campuses",
+      "source_column": "Id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "Id",
+        "캠퍼스 ID",
+        "캠퍼스 고유 번호",
+        "캠퍼스 식별자",
+        "캠퍼스 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Campuses_Campus",
+      "domain": "Campuses",
+      "source_table": "Campuses",
+      "source_column": "Campus",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "campus",
+      "synonyms": [
+        "Campus",
+        "캠퍼스 이름",
+        "캠퍼스 명",
+        "캠퍼스 지정명",
+        "캠퍼스 고유명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Campuses_Location",
+      "domain": "Campuses",
+      "source_table": "Campuses",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "location",
+      "synonyms": [
+        "Location",
+        "캠퍼스 위치",
+        "캠퍼스 위치 정보",
+        "캠퍼스 위치명",
+        "캠퍼스 위치 지정"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Campuses_County",
+      "domain": "Campuses",
+      "source_table": "Campuses",
+      "source_column": "County",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "county",
+      "synonyms": [
+        "카운티",
+        "지역",
+        "군",
+        "구역",
+        "지방",
+        "county",
+        "지역 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Campuses_Year",
+      "domain": "Campuses",
+      "source_table": "Campuses",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "연도",
+        "설립년도",
+        "년",
+        "year",
+        "설립 연도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "csu_fees_Campus",
+      "domain": "csu_fees",
+      "source_table": "csu_fees",
+      "source_column": "Campus",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "campus",
+      "synonyms": [
+        "캠퍼스",
+        "대학",
+        "캠퍼스 ID",
+        "대학 코드",
+        "캠퍼스 번호",
+        "대학 식별자",
+        "캠퍼스 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "csu_fees_Year",
+      "domain": "csu_fees",
+      "source_table": "csu_fees",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "year",
+      "synonyms": [
+        "년도",
+        "학년도",
+        "년도 정보",
+        "학년도 코드",
+        "년도 번호",
+        "학년도 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": [
+          "2020년"
+        ]
+      }
+    },
+    {
+      "name": "csu_fees_CampusFee",
+      "domain": "csu_fees",
+      "source_table": "csu_fees",
+      "source_column": "CampusFee",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "campus fee",
+      "synonyms": [
+        "수강료",
+        "캠퍼스 수강료",
+        "수강료 정보",
+        "수강료 금액",
+        "캠퍼스별 수강료",
+        "수강료 금액 정보",
+        "캠퍼스 수수료"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "10000": [
+          "1만원"
+        ]
+      }
+    },
+    {
+      "name": "degrees_Year",
+      "domain": "degrees",
+      "source_table": "degrees",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "년도",
+        "학위 년도",
+        "학년도",
+        "년도 정보",
+        "년도 데이터",
+        "학위 연도",
+        "년도 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "degrees_Campus",
+      "domain": "degrees",
+      "source_table": "degrees",
+      "source_column": "Campus",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "campus",
+      "synonyms": [
+        "캠퍼스",
+        "캠퍼스 번호",
+        "캠퍼스 ID",
+        "캠퍼스 코드",
+        "캠퍼스 식별자",
+        "캠퍼스 정보",
+        "캠퍼스 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "degrees_Degrees",
+      "domain": "degrees",
+      "source_table": "degrees",
+      "source_column": "Degrees",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "degrees",
+      "synonyms": [
+        "학위 수",
+        "학위 개수",
+        "학위 갯수",
+        "학위 수량",
+        "학위 정보",
+        "학위 개수 데이터",
+        "학위 수치",
+        "학위 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "discipline_enrollments_Campus",
+      "domain": "discipline_enrollments",
+      "source_table": "discipline_enrollments",
+      "source_column": "Campus",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "캠퍼스",
+      "synonyms": [
+        "Campus",
+        "학교",
+        "캠퍼스",
+        "캠퍼스 코드",
+        "학교 코드",
+        "campus id",
+        "캠퍼스 id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "discipline_enrollments_Discipline",
+      "domain": "discipline_enrollments",
+      "source_table": "discipline_enrollments",
+      "source_column": "Discipline",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.5,
+      "primary_label": "학과",
+      "synonyms": [
+        "학과",
+        "학문분야",
+        "전공",
+        "학부전공",
+        "학과코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "discipline_enrollments_Year",
+      "domain": "discipline_enrollments",
+      "source_table": "discipline_enrollments",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 4.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "학년",
+        "학기",
+        "년도 정보",
+        "학년도 정보",
+        "년도 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": [
+          "2020년"
+        ],
+        "2021": [
+          "2021년"
+        ]
+      }
+    },
+    {
+      "name": "discipline_enrollments_Undergraduate",
+      "domain": "discipline_enrollments",
+      "source_table": "discipline_enrollments",
+      "source_column": "Undergraduate",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "학부생",
+      "synonyms": [
+        "대학원 학생 수",
+        "학사 학생 수",
+        "학위 학생 수",
+        "undergraduate",
+        "학사 과정 학생 수",
+        "학사 학생"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "discipline_enrollments_Graduate",
+      "domain": "discipline_enrollments",
+      "source_table": "discipline_enrollments",
+      "source_column": "Graduate",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "대학원생",
+      "synonyms": [
+        "석사 학생 수",
+        "석사 과정 학생 수",
+        "석사 학생",
+        "graduate",
+        "석사 과정 학생"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "enrollments_Campus",
+      "domain": "enrollments",
+      "source_table": "enrollments",
+      "source_column": "Campus",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "campus",
+      "synonyms": [
+        "campus",
+        "campus id",
+        "campus code",
+        "campus identifier",
+        "campus number",
+        "campus name"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "enrollments_Year",
+      "domain": "enrollments",
+      "source_table": "enrollments",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "year",
+        "academic year",
+        "year of enrollment",
+        "enrollment year",
+        "study year",
+        "academic year code"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "enrollments_TotalEnrollment_AY",
+      "domain": "enrollments",
+      "source_table": "enrollments",
+      "source_column": "TotalEnrollment_AY",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "totalenrollment ay",
+      "synonyms": [
+        "total enrollment ay",
+        "total enrollment",
+        "total students ay",
+        "total enrollment number",
+        "total student count",
+        "total enrollment figure"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "enrollments_FTE_AY",
+      "domain": "enrollments",
+      "source_table": "enrollments",
+      "source_column": "FTE_AY",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "fte ay",
+      "synonyms": [
+        "FTE AY",
+        "학습시간 기준 총 수강 인원",
+        "FTE",
+        "수강 인원",
+        "학년도별 FTE",
+        "FTE 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "faculty_Campus",
+      "domain": "faculty",
+      "source_table": "faculty",
+      "source_column": "Campus",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "campus",
+      "synonyms": [
+        "캠퍼스",
+        "campus",
+        "캠퍼스 코드",
+        "교내 코드",
+        "캠퍼스 ID",
+        "campus_id",
+        "캠퍼스 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "faculty_Year",
+      "domain": "faculty",
+      "source_table": "faculty",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "년도",
+        "year",
+        "년도 정보",
+        "년도 코드",
+        "year_id",
+        "년도 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "faculty_Faculty",
+      "domain": "faculty",
+      "source_table": "faculty",
+      "source_column": "Faculty",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "faculty",
+      "synonyms": [
+        "교직원 수",
+        "faculty",
+        "교원 수",
+        "교직원 수치",
+        "faculty_id",
+        "교원 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "csu_fees_Campuses_fk0",
+      "domain": "csu_fees",
+      "range": "Campuses",
+      "source_fk": [
+        "csu_fees.Campus",
+        "Campuses.Id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "degrees_Campuses_fk1",
+      "domain": "degrees",
+      "range": "Campuses",
+      "source_fk": [
+        "degrees.Campus",
+        "Campuses.Id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "discipline_enrollments_Campuses_fk2",
+      "domain": "discipline_enrollments",
+      "range": "Campuses",
+      "source_fk": [
+        "discipline_enrollments.Campus",
+        "Campuses.Id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "enrollments_Campuses_fk3",
+      "domain": "enrollments",
+      "range": "Campuses",
+      "source_fk": [
+        "enrollments.Campus",
+        "Campuses.Id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "faculty_Campuses_fk4",
+      "domain": "faculty",
+      "range": "Campuses",
+      "source_fk": [
+        "faculty.Campus",
+        "Campuses.Id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

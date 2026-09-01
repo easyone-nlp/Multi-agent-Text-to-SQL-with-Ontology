@@ -1,0 +1,298 @@
+{
+  "class_table": {
+    "Addresses": "Addresses",
+    "Staff": "Staff",
+    "Suppliers": "Suppliers",
+    "Department_Store_Chain": "Department_Store_Chain",
+    "Customers": "Customers",
+    "Products": "Products",
+    "Supplier_Addresses": "Supplier_Addresses",
+    "Customer_Addresses": "Customer_Addresses",
+    "Customer_Orders": "Customer_Orders",
+    "Department_Stores": "Department_Stores",
+    "Departments": "Departments",
+    "Order_Items": "Order_Items",
+    "Product_Suppliers": "Product_Suppliers",
+    "Staff_Department_Assignments": "Staff_Department_Assignments"
+  },
+  "property_column": {
+    "Addresses_address_id": [
+      "Addresses",
+      "address_id"
+    ],
+    "Addresses_address_details": [
+      "Addresses",
+      "address_details"
+    ],
+    "Staff_staff_id": [
+      "Staff",
+      "staff_id"
+    ],
+    "Staff_staff_gender": [
+      "Staff",
+      "staff_gender"
+    ],
+    "Staff_staff_name": [
+      "Staff",
+      "staff_name"
+    ],
+    "Suppliers_supplier_id": [
+      "Suppliers",
+      "supplier_id"
+    ],
+    "Suppliers_supplier_name": [
+      "Suppliers",
+      "supplier_name"
+    ],
+    "Suppliers_supplier_phone": [
+      "Suppliers",
+      "supplier_phone"
+    ],
+    "Department_Store_Chain_dept_store_chain_id": [
+      "Department_Store_Chain",
+      "dept_store_chain_id"
+    ],
+    "Department_Store_Chain_dept_store_chain_name": [
+      "Department_Store_Chain",
+      "dept_store_chain_name"
+    ],
+    "Customers_customer_id": [
+      "Customers",
+      "customer_id"
+    ],
+    "Customers_payment_method_code": [
+      "Customers",
+      "payment_method_code"
+    ],
+    "Customers_customer_code": [
+      "Customers",
+      "customer_code"
+    ],
+    "Customers_customer_name": [
+      "Customers",
+      "customer_name"
+    ],
+    "Customers_customer_address": [
+      "Customers",
+      "customer_address"
+    ],
+    "Customers_customer_phone": [
+      "Customers",
+      "customer_phone"
+    ],
+    "Customers_customer_email": [
+      "Customers",
+      "customer_email"
+    ],
+    "Products_product_id": [
+      "Products",
+      "product_id"
+    ],
+    "Products_product_type_code": [
+      "Products",
+      "product_type_code"
+    ],
+    "Products_product_name": [
+      "Products",
+      "product_name"
+    ],
+    "Products_product_price": [
+      "Products",
+      "product_price"
+    ],
+    "Supplier_Addresses_supplier_id": [
+      "Supplier_Addresses",
+      "supplier_id"
+    ],
+    "Supplier_Addresses_address_id": [
+      "Supplier_Addresses",
+      "address_id"
+    ],
+    "Supplier_Addresses_date_from": [
+      "Supplier_Addresses",
+      "date_from"
+    ],
+    "Supplier_Addresses_date_to": [
+      "Supplier_Addresses",
+      "date_to"
+    ],
+    "Customer_Addresses_customer_id": [
+      "Customer_Addresses",
+      "customer_id"
+    ],
+    "Customer_Addresses_address_id": [
+      "Customer_Addresses",
+      "address_id"
+    ],
+    "Customer_Addresses_date_from": [
+      "Customer_Addresses",
+      "date_from"
+    ],
+    "Customer_Addresses_date_to": [
+      "Customer_Addresses",
+      "date_to"
+    ],
+    "Customer_Orders_order_id": [
+      "Customer_Orders",
+      "order_id"
+    ],
+    "Customer_Orders_customer_id": [
+      "Customer_Orders",
+      "customer_id"
+    ],
+    "Customer_Orders_order_status_code": [
+      "Customer_Orders",
+      "order_status_code"
+    ],
+    "Customer_Orders_order_date": [
+      "Customer_Orders",
+      "order_date"
+    ],
+    "Department_Stores_dept_store_id": [
+      "Department_Stores",
+      "dept_store_id"
+    ],
+    "Department_Stores_dept_store_chain_id": [
+      "Department_Stores",
+      "dept_store_chain_id"
+    ],
+    "Department_Stores_store_name": [
+      "Department_Stores",
+      "store_name"
+    ],
+    "Department_Stores_store_address": [
+      "Department_Stores",
+      "store_address"
+    ],
+    "Department_Stores_store_phone": [
+      "Department_Stores",
+      "store_phone"
+    ],
+    "Department_Stores_store_email": [
+      "Department_Stores",
+      "store_email"
+    ],
+    "Departments_department_id": [
+      "Departments",
+      "department_id"
+    ],
+    "Departments_dept_store_id": [
+      "Departments",
+      "dept_store_id"
+    ],
+    "Departments_department_name": [
+      "Departments",
+      "department_name"
+    ],
+    "Order_Items_order_item_id": [
+      "Order_Items",
+      "order_item_id"
+    ],
+    "Order_Items_order_id": [
+      "Order_Items",
+      "order_id"
+    ],
+    "Order_Items_product_id": [
+      "Order_Items",
+      "product_id"
+    ],
+    "Product_Suppliers_product_id": [
+      "Product_Suppliers",
+      "product_id"
+    ],
+    "Product_Suppliers_supplier_id": [
+      "Product_Suppliers",
+      "supplier_id"
+    ],
+    "Product_Suppliers_date_supplied_from": [
+      "Product_Suppliers",
+      "date_supplied_from"
+    ],
+    "Product_Suppliers_date_supplied_to": [
+      "Product_Suppliers",
+      "date_supplied_to"
+    ],
+    "Product_Suppliers_total_amount_purchased": [
+      "Product_Suppliers",
+      "total_amount_purchased"
+    ],
+    "Product_Suppliers_total_value_purchased": [
+      "Product_Suppliers",
+      "total_value_purchased"
+    ],
+    "Staff_Department_Assignments_staff_id": [
+      "Staff_Department_Assignments",
+      "staff_id"
+    ],
+    "Staff_Department_Assignments_department_id": [
+      "Staff_Department_Assignments",
+      "department_id"
+    ],
+    "Staff_Department_Assignments_date_assigned_from": [
+      "Staff_Department_Assignments",
+      "date_assigned_from"
+    ],
+    "Staff_Department_Assignments_job_title_code": [
+      "Staff_Department_Assignments",
+      "job_title_code"
+    ],
+    "Staff_Department_Assignments_date_assigned_to": [
+      "Staff_Department_Assignments",
+      "date_assigned_to"
+    ]
+  },
+  "object_property_fk": {
+    "Supplier_Addresses_Suppliers_fk0": [
+      "Supplier_Addresses.supplier_id",
+      "Suppliers.supplier_id"
+    ],
+    "Supplier_Addresses_Addresses_fk1": [
+      "Supplier_Addresses.address_id",
+      "Addresses.address_id"
+    ],
+    "Customer_Addresses_Customers_fk2": [
+      "Customer_Addresses.customer_id",
+      "Customers.customer_id"
+    ],
+    "Customer_Addresses_Addresses_fk3": [
+      "Customer_Addresses.address_id",
+      "Addresses.address_id"
+    ],
+    "Customer_Orders_Customers_fk4": [
+      "Customer_Orders.customer_id",
+      "Customers.customer_id"
+    ],
+    "Department_Stores_Department_Store_Chain_fk5": [
+      "Department_Stores.dept_store_chain_id",
+      "Department_Store_Chain.dept_store_chain_id"
+    ],
+    "Departments_Department_Stores_fk6": [
+      "Departments.dept_store_id",
+      "Department_Stores.dept_store_id"
+    ],
+    "Order_Items_Products_fk7": [
+      "Order_Items.product_id",
+      "Products.product_id"
+    ],
+    "Order_Items_Customer_Orders_fk8": [
+      "Order_Items.order_id",
+      "Customer_Orders.order_id"
+    ],
+    "Product_Suppliers_Products_fk9": [
+      "Product_Suppliers.product_id",
+      "Products.product_id"
+    ],
+    "Product_Suppliers_Suppliers_fk10": [
+      "Product_Suppliers.supplier_id",
+      "Suppliers.supplier_id"
+    ],
+    "Staff_Department_Assignments_Staff_fk11": [
+      "Staff_Department_Assignments.staff_id",
+      "Staff.staff_id"
+    ],
+    "Staff_Department_Assignments_Departments_fk12": [
+      "Staff_Department_Assignments.department_id",
+      "Departments.department_id"
+    ]
+  }
+}

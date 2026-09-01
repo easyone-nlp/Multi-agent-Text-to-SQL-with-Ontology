@@ -1,0 +1,626 @@
+{
+  "db_id": "restaurant_1",
+  "classes": [
+    {
+      "name": "Student",
+      "source_table": "Student",
+      "ranking": 3.5,
+      "primary_label": "학생",
+      "synonyms": [
+        "고객",
+        "고객자",
+        "고객명",
+        "고객 정보",
+        "고객 데이터",
+        "고객 목록",
+        "고객 기록"
+      ]
+    },
+    {
+      "name": "Restaurant",
+      "source_table": "Restaurant",
+      "ranking": 3.0,
+      "primary_label": "식당",
+      "synonyms": [
+        "음식점",
+        "식당",
+        "식사장",
+        "식당 정보",
+        "음식점 데이터",
+        "식당 목록",
+        "음식점 기록"
+      ]
+    },
+    {
+      "name": "Type_Of_Restaurant",
+      "source_table": "Type_Of_Restaurant",
+      "ranking": 3.5,
+      "primary_label": "식당 유형",
+      "synonyms": [
+        "음식점 유형",
+        "음식점 카테고리",
+        "음식점 분류",
+        "음식점 종류",
+        "음식점 타입",
+        "음식점 분류 정보",
+        "음식점 유형 데이터",
+        "음식점 카테고리 목록"
+      ]
+    },
+    {
+      "name": "Restaurant_Type",
+      "source_table": "Restaurant_Type",
+      "ranking": 3.0,
+      "primary_label": "식당 유형",
+      "synonyms": [
+        "식당 유형",
+        "음식점 카테고리",
+        "식사 장소 종류",
+        "식당 분류",
+        "음식점 타입"
+      ]
+    },
+    {
+      "name": "Visits_Restaurant",
+      "source_table": "Visits_Restaurant",
+      "ranking": 3.0,
+      "primary_label": "visits restaurant",
+      "synonyms": [
+        "방문 기록",
+        "식당 방문",
+        "식사 방문",
+        "방문 내역",
+        "식당 방문 기록",
+        "식사 방문 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Student_StuID",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "StuID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "StuID",
+        "학생 ID",
+        "학번",
+        "학생 고유 ID",
+        "학생 번호",
+        "학번 정보",
+        "학생 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_LName",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "LName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "LName",
+        "성",
+        "성 이름",
+        "후성",
+        "성자",
+        "성 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김",
+          "이",
+          "박"
+        ]
+      }
+    },
+    {
+      "name": "Student_Fname",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Fname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "Fname",
+        "이름",
+        "전성",
+        "이름 정보",
+        "이름 데이터",
+        "이름 항목"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "민수": [
+          "민수",
+          "지현",
+          "서연"
+        ]
+      }
+    },
+    {
+      "name": "Student_Age",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "나이",
+      "synonyms": [
+        "나이",
+        "연령",
+        "나이 정보",
+        "연령 데이터",
+        "나이 열",
+        "연령 열",
+        "연령 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Sex",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Sex",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성별",
+      "synonyms": [
+        "성별",
+        "성",
+        "성별 정보",
+        "성 데이터",
+        "성별 열",
+        "성 열",
+        "성 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남자": [
+          "남자",
+          "여자"
+        ]
+      }
+    },
+    {
+      "name": "Student_Major",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Major",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "전공",
+      "synonyms": [
+        "전공",
+        "전공 코드",
+        "전공 정보",
+        "전공 데이터",
+        "전공 열"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Advisor",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Advisor",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "상담사",
+      "synonyms": [
+        "Advisor",
+        "조언자",
+        "멘토",
+        "멘토 ID",
+        "멘토학생ID",
+        "멘토자",
+        "멘토학생"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_city_code",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "city_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "시 코드",
+      "synonyms": [
+        "city_code",
+        "도시코드",
+        "도시",
+        "도시코드값",
+        "도시코드정보",
+        "도시코드명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "01": [
+          "01",
+          "02",
+          "03"
+        ]
+      }
+    },
+    {
+      "name": "Restaurant_ResID",
+      "domain": "Restaurant",
+      "source_table": "Restaurant",
+      "source_column": "ResID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "식당 id",
+      "synonyms": [
+        "ResID",
+        "식당 ID",
+        "식당 번호",
+        "식당 식별자",
+        "식당 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Restaurant_ResName",
+      "domain": "Restaurant",
+      "source_table": "Restaurant",
+      "source_column": "ResName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "식당 이름",
+      "synonyms": [
+        "ResName",
+        "식당 이름",
+        "식당명",
+        "식당 대표 이름",
+        "식당 표시 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한식당": [
+          "한식",
+          "한국식"
+        ],
+        "양식당": [
+          "양식"
+        ]
+      }
+    },
+    {
+      "name": "Restaurant_Address",
+      "domain": "Restaurant",
+      "source_table": "Restaurant",
+      "source_column": "Address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "주소",
+      "synonyms": [
+        "Address",
+        "식당 주소",
+        "주소",
+        "식당 위치",
+        "식당 위치 정보",
+        "식당 주소 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Restaurant_Rating",
+      "domain": "Restaurant",
+      "source_table": "Restaurant",
+      "source_column": "Rating",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "평가",
+      "synonyms": [
+        "평점",
+        "평가",
+        "점수",
+        "별점",
+        "리뷰 점수",
+        "평가 점수",
+        "평점 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Type_Of_Restaurant_ResID",
+      "domain": "Type_Of_Restaurant",
+      "source_table": "Type_Of_Restaurant",
+      "source_column": "ResID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "식당 ID",
+      "synonyms": [
+        "ResID",
+        "식당 ID",
+        "식당 식별자",
+        "식당 번호",
+        "식당 코드",
+        "식당 고유 번호",
+        "식당 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Type_Of_Restaurant_ResTypeID",
+      "domain": "Type_Of_Restaurant",
+      "source_table": "Type_Of_Restaurant",
+      "source_column": "ResTypeID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "식당 유형 ID",
+      "synonyms": [
+        "ResTypeID",
+        "식당 유형 ID",
+        "식당 유형 식별자",
+        "식당 유형 코드",
+        "식당 유형 번호",
+        "식당 유형 고유 번호",
+        "식당 유형 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Restaurant_Type_ResTypeID",
+      "domain": "Restaurant_Type",
+      "source_table": "Restaurant_Type",
+      "source_column": "ResTypeID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "식당 유형 ID",
+      "synonyms": [
+        "ResTypeID",
+        "식당 유형 ID",
+        "식당 유형 고유 번호",
+        "유형 ID",
+        "식당 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Restaurant_Type_ResTypeName",
+      "domain": "Restaurant_Type",
+      "source_table": "Restaurant_Type",
+      "source_column": "ResTypeName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "식당 유형 이름",
+      "synonyms": [
+        "ResTypeName",
+        "식당 유형 이름",
+        "유형 이름",
+        "식당 유형 타이틀",
+        "식당 유형 명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한식": [
+          "한국식",
+          "한국 요리"
+        ],
+        "양식": [
+          "양식 요리"
+        ],
+        "중식": [
+          "중국식"
+        ]
+      }
+    },
+    {
+      "name": "Restaurant_Type_ResTypeDescription",
+      "domain": "Restaurant_Type",
+      "source_table": "Restaurant_Type",
+      "source_column": "ResTypeDescription",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "식당 유형 설명",
+      "synonyms": [
+        "ResTypeDescription",
+        "식당 유형 설명",
+        "유형 설명",
+        "식당 유형 요약",
+        "식당 유형 소개"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Visits_Restaurant_StuID",
+      "domain": "Visits_Restaurant",
+      "source_table": "Visits_Restaurant",
+      "source_column": "StuID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "student id",
+      "synonyms": [
+        "StuID",
+        "학생 ID",
+        "학번",
+        "학생 식별 번호",
+        "학생 고유 번호",
+        "학번 정보",
+        "학생 식당 방문 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Visits_Restaurant_ResID",
+      "domain": "Visits_Restaurant",
+      "source_table": "Visits_Restaurant",
+      "source_column": "ResID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "restaurant id",
+      "synonyms": [
+        "ResID",
+        "식당 ID",
+        "식당 번호",
+        "식당 식별 번호",
+        "식당 고유 번호",
+        "식당 방문 식별자",
+        "식당 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Visits_Restaurant_Time",
+      "domain": "Visits_Restaurant",
+      "source_table": "Visits_Restaurant",
+      "source_column": "Time",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "time",
+      "synonyms": [
+        "Time",
+        "방문 시간",
+        "날짜 시간",
+        "방문 일시",
+        "식당 방문 일시",
+        "시간 정보",
+        "방문 날짜",
+        "시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "18:30": [
+          "18시30분",
+          "18:30"
+        ]
+      }
+    },
+    {
+      "name": "Visits_Restaurant_Spent",
+      "domain": "Visits_Restaurant",
+      "source_table": "Visits_Restaurant",
+      "source_column": "Spent",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "spent",
+      "synonyms": [
+        "지출액",
+        "소비 금액",
+        "지출",
+        "소비 비용",
+        "지출 금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Type_Of_Restaurant_Restaurant_Type_fk0",
+      "domain": "Type_Of_Restaurant",
+      "range": "Restaurant_Type",
+      "source_fk": [
+        "Type_Of_Restaurant.ResTypeID",
+        "Restaurant_Type.ResTypeID"
+      ],
+      "weight": 1.0,
+      "primary_label": "타입 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Type_Of_Restaurant_Restaurant_fk1",
+      "domain": "Type_Of_Restaurant",
+      "range": "Restaurant",
+      "source_fk": [
+        "Type_Of_Restaurant.ResID",
+        "Restaurant.ResID"
+      ],
+      "weight": 1.0,
+      "primary_label": "가게 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Visits_Restaurant_Restaurant_fk2",
+      "domain": "Visits_Restaurant",
+      "range": "Restaurant",
+      "source_fk": [
+        "Visits_Restaurant.ResID",
+        "Restaurant.ResID"
+      ],
+      "weight": 1.0,
+      "primary_label": "방문한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Visits_Restaurant_Student_fk3",
+      "domain": "Visits_Restaurant",
+      "range": "Student",
+      "source_fk": [
+        "Visits_Restaurant.StuID",
+        "Student.StuID"
+      ],
+      "weight": 1.0,
+      "primary_label": "방문한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

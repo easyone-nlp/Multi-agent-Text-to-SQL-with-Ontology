@@ -1,0 +1,215 @@
+{
+  "db_id": "network_2",
+  "classes": [
+    {
+      "name": "Person",
+      "source_table": "Person",
+      "ranking": 1.0,
+      "primary_label": "person",
+      "synonyms": [
+        "사용자",
+        "사람",
+        "개인",
+        "이름",
+        "아이디",
+        "사용자 정보"
+      ]
+    },
+    {
+      "name": "PersonFriend",
+      "source_table": "PersonFriend",
+      "ranking": 1.0,
+      "primary_label": "사람 친구",
+      "synonyms": [
+        "친구",
+        "관계",
+        "연락처",
+        "사람 관계",
+        "친구 정보",
+        "관계 정보"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Person_name",
+      "domain": "Person",
+      "source_table": "Person",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "이지은": [
+          "이지은"
+        ]
+      }
+    },
+    {
+      "name": "Person_age",
+      "domain": "Person",
+      "source_table": "Person",
+      "source_column": "age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "나이",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Person_city",
+      "domain": "Person",
+      "source_table": "Person",
+      "source_column": "city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "도시",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "인천": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "Person_gender",
+      "domain": "Person",
+      "source_table": "Person",
+      "source_column": "gender",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "성별",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "남성": [
+          "남성"
+        ],
+        "여성": [
+          "여성"
+        ]
+      }
+    },
+    {
+      "name": "Person_job",
+      "domain": "Person",
+      "source_table": "Person",
+      "source_column": "job",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "직업",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "학생": [
+          "학생"
+        ],
+        "회사원": [
+          "회사원"
+        ]
+      }
+    },
+    {
+      "name": "PersonFriend_name",
+      "domain": "PersonFriend",
+      "source_table": "PersonFriend",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "PersonFriend_friend",
+      "domain": "PersonFriend",
+      "source_table": "PersonFriend",
+      "source_column": "friend",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "친구 이름",
+      "synonyms": [
+        "친구",
+        "친구 이름",
+        "friend",
+        "친구 정보",
+        "관계 친구"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "PersonFriend_year",
+      "domain": "PersonFriend",
+      "source_table": "PersonFriend",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "년도",
+      "synonyms": [
+        "연도",
+        "년도",
+        "year",
+        "관계 연도",
+        "형성 연도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "PersonFriend_Person_fk0",
+      "domain": "PersonFriend",
+      "range": "Person",
+      "source_fk": [
+        "PersonFriend.friend",
+        "Person.name"
+      ],
+      "weight": 1.0,
+      "primary_label": "친구",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "PersonFriend_Person_fk1",
+      "domain": "PersonFriend",
+      "range": "Person",
+      "source_fk": [
+        "PersonFriend.name",
+        "Person.name"
+      ],
+      "weight": 1.0,
+      "primary_label": "친구",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "class_table": {
+    "continents": "continents",
+    "countries": "countries",
+    "car_makers": "car_makers",
+    "model_list": "model_list",
+    "car_names": "car_names",
+    "cars_data": "cars_data"
+  },
+  "property_column": {
+    "continents_ContId": [
+      "continents",
+      "ContId"
+    ],
+    "continents_Continent": [
+      "continents",
+      "Continent"
+    ],
+    "countries_CountryId": [
+      "countries",
+      "CountryId"
+    ],
+    "countries_CountryName": [
+      "countries",
+      "CountryName"
+    ],
+    "countries_Continent": [
+      "countries",
+      "Continent"
+    ],
+    "car_makers_Id": [
+      "car_makers",
+      "Id"
+    ],
+    "car_makers_Maker": [
+      "car_makers",
+      "Maker"
+    ],
+    "car_makers_FullName": [
+      "car_makers",
+      "FullName"
+    ],
+    "car_makers_Country": [
+      "car_makers",
+      "Country"
+    ],
+    "model_list_ModelId": [
+      "model_list",
+      "ModelId"
+    ],
+    "model_list_Maker": [
+      "model_list",
+      "Maker"
+    ],
+    "model_list_Model": [
+      "model_list",
+      "Model"
+    ],
+    "car_names_MakeId": [
+      "car_names",
+      "MakeId"
+    ],
+    "car_names_Model": [
+      "car_names",
+      "Model"
+    ],
+    "car_names_Make": [
+      "car_names",
+      "Make"
+    ],
+    "cars_data_Id": [
+      "cars_data",
+      "Id"
+    ],
+    "cars_data_MPG": [
+      "cars_data",
+      "MPG"
+    ],
+    "cars_data_Cylinders": [
+      "cars_data",
+      "Cylinders"
+    ],
+    "cars_data_Edispl": [
+      "cars_data",
+      "Edispl"
+    ],
+    "cars_data_Horsepower": [
+      "cars_data",
+      "Horsepower"
+    ],
+    "cars_data_Weight": [
+      "cars_data",
+      "Weight"
+    ],
+    "cars_data_Accelerate": [
+      "cars_data",
+      "Accelerate"
+    ],
+    "cars_data_Year": [
+      "cars_data",
+      "Year"
+    ]
+  },
+  "object_property_fk": {
+    "countries_continents_fk0": [
+      "countries.Continent",
+      "continents.ContId"
+    ],
+    "car_makers_countries_fk1": [
+      "car_makers.Country",
+      "countries.CountryId"
+    ],
+    "model_list_car_makers_fk2": [
+      "model_list.Maker",
+      "car_makers.Id"
+    ],
+    "car_names_model_list_fk3": [
+      "car_names.Model",
+      "model_list.Model"
+    ],
+    "cars_data_car_names_fk4": [
+      "cars_data.Id",
+      "car_names.MakeId"
+    ]
+  }
+}

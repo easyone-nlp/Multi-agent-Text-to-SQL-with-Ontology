@@ -1,0 +1,148 @@
+{
+  "class_table": {
+    "Staff": "Staff",
+    "Customers": "Customers",
+    "Products": "Products",
+    "Complaints": "Complaints"
+  },
+  "property_column": {
+    "Staff_staff_id": [
+      "Staff",
+      "staff_id"
+    ],
+    "Staff_gender": [
+      "Staff",
+      "gender"
+    ],
+    "Staff_first_name": [
+      "Staff",
+      "first_name"
+    ],
+    "Staff_last_name": [
+      "Staff",
+      "last_name"
+    ],
+    "Staff_email_address": [
+      "Staff",
+      "email_address"
+    ],
+    "Staff_phone_number": [
+      "Staff",
+      "phone_number"
+    ],
+    "Customers_customer_id": [
+      "Customers",
+      "customer_id"
+    ],
+    "Customers_customer_type_code": [
+      "Customers",
+      "customer_type_code"
+    ],
+    "Customers_address_line_1": [
+      "Customers",
+      "address_line_1"
+    ],
+    "Customers_address_line_2": [
+      "Customers",
+      "address_line_2"
+    ],
+    "Customers_town_city": [
+      "Customers",
+      "town_city"
+    ],
+    "Customers_state": [
+      "Customers",
+      "state"
+    ],
+    "Customers_email_address": [
+      "Customers",
+      "email_address"
+    ],
+    "Customers_phone_number": [
+      "Customers",
+      "phone_number"
+    ],
+    "Products_product_id": [
+      "Products",
+      "product_id"
+    ],
+    "Products_parent_product_id": [
+      "Products",
+      "parent_product_id"
+    ],
+    "Products_product_category_code": [
+      "Products",
+      "product_category_code"
+    ],
+    "Products_date_product_first_available": [
+      "Products",
+      "date_product_first_available"
+    ],
+    "Products_date_product_discontinued": [
+      "Products",
+      "date_product_discontinued"
+    ],
+    "Products_product_name": [
+      "Products",
+      "product_name"
+    ],
+    "Products_product_description": [
+      "Products",
+      "product_description"
+    ],
+    "Products_product_price": [
+      "Products",
+      "product_price"
+    ],
+    "Complaints_complaint_id": [
+      "Complaints",
+      "complaint_id"
+    ],
+    "Complaints_product_id": [
+      "Complaints",
+      "product_id"
+    ],
+    "Complaints_customer_id": [
+      "Complaints",
+      "customer_id"
+    ],
+    "Complaints_complaint_outcome_code": [
+      "Complaints",
+      "complaint_outcome_code"
+    ],
+    "Complaints_complaint_status_code": [
+      "Complaints",
+      "complaint_status_code"
+    ],
+    "Complaints_complaint_type_code": [
+      "Complaints",
+      "complaint_type_code"
+    ],
+    "Complaints_date_complaint_raised": [
+      "Complaints",
+      "date_complaint_raised"
+    ],
+    "Complaints_date_complaint_closed": [
+      "Complaints",
+      "date_complaint_closed"
+    ],
+    "Complaints_staff_id": [
+      "Complaints",
+      "staff_id"
+    ]
+  },
+  "object_property_fk": {
+    "Complaints_Customers_fk0": [
+      "Complaints.customer_id",
+      "Customers.customer_id"
+    ],
+    "Complaints_Products_fk1": [
+      "Complaints.product_id",
+      "Products.product_id"
+    ],
+    "Complaints_Staff_fk2": [
+      "Complaints.staff_id",
+      "Staff.staff_id"
+    ]
+  }
+}

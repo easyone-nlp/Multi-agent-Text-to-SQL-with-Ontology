@@ -1,0 +1,125 @@
+{
+  "class_table": {
+    "works_on": "works_on",
+    "employee": "employee",
+    "department": "department",
+    "project": "project",
+    "dependent": "dependent",
+    "dept_locations": "dept_locations"
+  },
+  "property_column": {
+    "works_on_Essn": [
+      "works_on",
+      "Essn"
+    ],
+    "works_on_Pno": [
+      "works_on",
+      "Pno"
+    ],
+    "works_on_Hours": [
+      "works_on",
+      "Hours"
+    ],
+    "employee_Fname": [
+      "employee",
+      "Fname"
+    ],
+    "employee_Minit": [
+      "employee",
+      "Minit"
+    ],
+    "employee_Lname": [
+      "employee",
+      "Lname"
+    ],
+    "employee_Ssn": [
+      "employee",
+      "Ssn"
+    ],
+    "employee_Bdate": [
+      "employee",
+      "Bdate"
+    ],
+    "employee_Address": [
+      "employee",
+      "Address"
+    ],
+    "employee_Sex": [
+      "employee",
+      "Sex"
+    ],
+    "employee_Salary": [
+      "employee",
+      "Salary"
+    ],
+    "employee_Super_ssn": [
+      "employee",
+      "Super_ssn"
+    ],
+    "employee_Dno": [
+      "employee",
+      "Dno"
+    ],
+    "department_Dname": [
+      "department",
+      "Dname"
+    ],
+    "department_Dnumber": [
+      "department",
+      "Dnumber"
+    ],
+    "department_Mgr_ssn": [
+      "department",
+      "Mgr_ssn"
+    ],
+    "department_Mgr_start_date": [
+      "department",
+      "Mgr_start_date"
+    ],
+    "project_Pname": [
+      "project",
+      "Pname"
+    ],
+    "project_Pnumber": [
+      "project",
+      "Pnumber"
+    ],
+    "project_Plocation": [
+      "project",
+      "Plocation"
+    ],
+    "project_Dnum": [
+      "project",
+      "Dnum"
+    ],
+    "dependent_Essn": [
+      "dependent",
+      "Essn"
+    ],
+    "dependent_Dependent_name": [
+      "dependent",
+      "Dependent_name"
+    ],
+    "dependent_Sex": [
+      "dependent",
+      "Sex"
+    ],
+    "dependent_Bdate": [
+      "dependent",
+      "Bdate"
+    ],
+    "dependent_Relationship": [
+      "dependent",
+      "Relationship"
+    ],
+    "dept_locations_Dnumber": [
+      "dept_locations",
+      "Dnumber"
+    ],
+    "dept_locations_Dlocation": [
+      "dept_locations",
+      "Dlocation"
+    ]
+  },
+  "object_property_fk": {}
+}

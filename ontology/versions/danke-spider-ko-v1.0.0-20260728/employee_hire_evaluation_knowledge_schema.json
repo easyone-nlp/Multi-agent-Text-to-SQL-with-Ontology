@@ -1,0 +1,478 @@
+{
+  "db_id": "employee_hire_evaluation",
+  "classes": [
+    {
+      "name": "employee",
+      "source_table": "employee",
+      "ranking": 3.0,
+      "primary_label": "사원",
+      "synonyms": [
+        "직원",
+        "인력",
+        "근로자",
+        "사원",
+        "직원정보",
+        "인력자원",
+        "채용대상"
+      ]
+    },
+    {
+      "name": "shop",
+      "source_table": "shop",
+      "ranking": 3.5,
+      "primary_label": "상점",
+      "synonyms": [
+        "매장",
+        "점포",
+        "상점",
+        "매장정보",
+        "매장관리",
+        "상업장소"
+      ]
+    },
+    {
+      "name": "hiring",
+      "source_table": "hiring",
+      "ranking": 3.0,
+      "primary_label": "채용 정보",
+      "synonyms": [
+        "채용",
+        "채용정보",
+        "채용공고",
+        "채용절차",
+        "채용내역",
+        "채용관리",
+        "채용데이터",
+        "채용기록"
+      ]
+    },
+    {
+      "name": "evaluation",
+      "source_table": "evaluation",
+      "ranking": 3.0,
+      "primary_label": "평가",
+      "synonyms": [
+        "평가",
+        "평가 결과",
+        "평가 정보",
+        "평가 데이터",
+        "평가 기준",
+        "평가 내용",
+        "평가 성과"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "employee_Employee_ID",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "Employee_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "employee id",
+      "synonyms": [
+        "사원 번호",
+        "직원 ID",
+        "직원 고유 ID",
+        "직원 코드",
+        "직원 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employee_Name",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "사원 이름",
+        "직원 이름",
+        "성명",
+        "직원 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employee_Age",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "나이",
+        "직원 나이",
+        "사원 나이",
+        "직원 연령",
+        "연령"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employee_City",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "City",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "city",
+      "synonyms": [
+        "도시",
+        "도시명",
+        "도시 정보",
+        "도시 이름",
+        "도시 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "shop_Shop_ID",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "Shop_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "상점 ID",
+      "synonyms": [
+        "상점 고유 번호",
+        "상점 식별자",
+        "상점 코드",
+        "상점 번호",
+        "상점 식별 번호",
+        "상점 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "shop_Name",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "상점 이름",
+        "상점 명칭",
+        "상점 제목",
+        "상점 표시 이름",
+        "상점 표기 이름",
+        "상점 표기명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 중구 상점": [
+          "서울 중구 상점",
+          "서울 상점"
+        ]
+      }
+    },
+    {
+      "name": "shop_Location",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "위치",
+      "synonyms": [
+        "위치 정보",
+        "상점 위치",
+        "상점 위치 정보",
+        "상점 위치 데이터",
+        "상점 위치 지정",
+        "상점 위치 표기"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 강남구": [
+          "강남구",
+          "서울 강남구"
+        ]
+      }
+    },
+    {
+      "name": "shop_District",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "District",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "구",
+      "synonyms": [
+        "구역",
+        "지역",
+        "구",
+        "구역명",
+        "지구"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "중구": [
+          "서울 중구",
+          "중구"
+        ]
+      }
+    },
+    {
+      "name": "shop_Number_products",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "Number_products",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "제품 수",
+      "synonyms": [
+        "제품 수량",
+        "제품 개수",
+        "제품 수",
+        "제품 갯수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "shop_Manager_name",
+      "domain": "shop",
+      "source_table": "shop",
+      "source_column": "Manager_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "매니저 이름",
+      "synonyms": [
+        "매니저 이름",
+        "매니저",
+        "매장 책임자",
+        "매니저명",
+        "관리자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수",
+          "민수"
+        ]
+      }
+    },
+    {
+      "name": "hiring_Shop_ID",
+      "domain": "hiring",
+      "source_table": "hiring",
+      "source_column": "Shop_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "shop id",
+      "synonyms": [
+        "상점 코드",
+        "상점 식별자",
+        "상점 번호",
+        "상점 고유 ID",
+        "상점 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "hiring_Employee_ID",
+      "domain": "hiring",
+      "source_table": "hiring",
+      "source_column": "Employee_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "employee id",
+      "synonyms": [
+        "직원 코드",
+        "직원 식별자",
+        "직원 번호",
+        "직원 고유 ID",
+        "직원 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "hiring_Start_from",
+      "domain": "hiring",
+      "source_table": "hiring",
+      "source_column": "Start_from",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "start from",
+      "synonyms": [
+        "계약 시작일",
+        "시작일자",
+        "계약 시작 시간",
+        "시작 날짜",
+        "계약 시작일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020-01-01": [
+          "2020년 1월 1일"
+        ]
+      }
+    },
+    {
+      "name": "hiring_Is_full_time",
+      "domain": "hiring",
+      "source_table": "hiring",
+      "source_column": "Is_full_time",
+      "range_types": [
+        "others"
+      ],
+      "ranking": 3.0,
+      "primary_label": "is full time",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "Y": [
+          "예",
+          "Yes"
+        ],
+        "N": [
+          "아니오",
+          "No"
+        ]
+      }
+    },
+    {
+      "name": "evaluation_Employee_ID",
+      "domain": "evaluation",
+      "source_table": "evaluation",
+      "source_column": "Employee_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "직원 ID",
+      "synonyms": [
+        "직원 번호",
+        "직원 코드",
+        "직원 식별자",
+        "직원 고유번호",
+        "직원 인덱스",
+        "직원 식별번호",
+        "직원 코드번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "evaluation_Year_awarded",
+      "domain": "evaluation",
+      "source_table": "evaluation",
+      "source_column": "Year_awarded",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "수여 연도",
+      "synonyms": [
+        "수여년도",
+        "발급년도",
+        "평가년도",
+        "지급년도",
+        "발행년도",
+        "수여년"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023": [
+          "2023년"
+        ]
+      }
+    },
+    {
+      "name": "evaluation_Bonus",
+      "domain": "evaluation",
+      "source_table": "evaluation",
+      "source_column": "Bonus",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "보너스",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "hiring_employee_fk0",
+      "domain": "hiring",
+      "range": "employee",
+      "source_fk": [
+        "hiring.Employee_ID",
+        "employee.Employee_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "hiring_shop_fk1",
+      "domain": "hiring",
+      "range": "shop",
+      "source_fk": [
+        "hiring.Shop_ID",
+        "shop.Shop_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "evaluation_employee_fk2",
+      "domain": "evaluation",
+      "range": "employee",
+      "source_fk": [
+        "evaluation.Employee_ID",
+        "employee.Employee_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "평가한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

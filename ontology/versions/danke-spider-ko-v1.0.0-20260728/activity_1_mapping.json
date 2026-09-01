@@ -1,0 +1,117 @@
+{
+  "class_table": {
+    "Activity": "Activity",
+    "Participates_in": "Participates_in",
+    "Faculty_Participates_in": "Faculty_Participates_in",
+    "Student": "Student",
+    "Faculty": "Faculty"
+  },
+  "property_column": {
+    "Activity_actid": [
+      "Activity",
+      "actid"
+    ],
+    "Activity_activity_name": [
+      "Activity",
+      "activity_name"
+    ],
+    "Participates_in_stuid": [
+      "Participates_in",
+      "stuid"
+    ],
+    "Participates_in_actid": [
+      "Participates_in",
+      "actid"
+    ],
+    "Faculty_Participates_in_FacID": [
+      "Faculty_Participates_in",
+      "FacID"
+    ],
+    "Faculty_Participates_in_actid": [
+      "Faculty_Participates_in",
+      "actid"
+    ],
+    "Student_StuID": [
+      "Student",
+      "StuID"
+    ],
+    "Student_LName": [
+      "Student",
+      "LName"
+    ],
+    "Student_Fname": [
+      "Student",
+      "Fname"
+    ],
+    "Student_Age": [
+      "Student",
+      "Age"
+    ],
+    "Student_Sex": [
+      "Student",
+      "Sex"
+    ],
+    "Student_Major": [
+      "Student",
+      "Major"
+    ],
+    "Student_Advisor": [
+      "Student",
+      "Advisor"
+    ],
+    "Student_city_code": [
+      "Student",
+      "city_code"
+    ],
+    "Faculty_FacID": [
+      "Faculty",
+      "FacID"
+    ],
+    "Faculty_Lname": [
+      "Faculty",
+      "Lname"
+    ],
+    "Faculty_Fname": [
+      "Faculty",
+      "Fname"
+    ],
+    "Faculty_Rank": [
+      "Faculty",
+      "Rank"
+    ],
+    "Faculty_Sex": [
+      "Faculty",
+      "Sex"
+    ],
+    "Faculty_Phone": [
+      "Faculty",
+      "Phone"
+    ],
+    "Faculty_Room": [
+      "Faculty",
+      "Room"
+    ],
+    "Faculty_Building": [
+      "Faculty",
+      "Building"
+    ]
+  },
+  "object_property_fk": {
+    "Participates_in_Activity_fk0": [
+      "Participates_in.actid",
+      "Activity.actid"
+    ],
+    "Participates_in_Student_fk1": [
+      "Participates_in.stuid",
+      "Student.StuID"
+    ],
+    "Faculty_Participates_in_Activity_fk2": [
+      "Faculty_Participates_in.actid",
+      "Activity.actid"
+    ],
+    "Faculty_Participates_in_Faculty_fk3": [
+      "Faculty_Participates_in.FacID",
+      "Faculty.FacID"
+    ]
+  }
+}

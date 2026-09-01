@@ -1,0 +1,100 @@
+{
+  "class_table": {
+    "Student": "Student",
+    "Video_Games": "Video_Games",
+    "Plays_Games": "Plays_Games",
+    "SportsInfo": "SportsInfo"
+  },
+  "property_column": {
+    "Student_StuID": [
+      "Student",
+      "StuID"
+    ],
+    "Student_LName": [
+      "Student",
+      "LName"
+    ],
+    "Student_Fname": [
+      "Student",
+      "Fname"
+    ],
+    "Student_Age": [
+      "Student",
+      "Age"
+    ],
+    "Student_Sex": [
+      "Student",
+      "Sex"
+    ],
+    "Student_Major": [
+      "Student",
+      "Major"
+    ],
+    "Student_Advisor": [
+      "Student",
+      "Advisor"
+    ],
+    "Student_city_code": [
+      "Student",
+      "city_code"
+    ],
+    "Video_Games_GameID": [
+      "Video_Games",
+      "GameID"
+    ],
+    "Video_Games_GName": [
+      "Video_Games",
+      "GName"
+    ],
+    "Video_Games_GType": [
+      "Video_Games",
+      "GType"
+    ],
+    "Plays_Games_StuID": [
+      "Plays_Games",
+      "StuID"
+    ],
+    "Plays_Games_GameID": [
+      "Plays_Games",
+      "GameID"
+    ],
+    "Plays_Games_Hours_Played": [
+      "Plays_Games",
+      "Hours_Played"
+    ],
+    "SportsInfo_StuID": [
+      "SportsInfo",
+      "StuID"
+    ],
+    "SportsInfo_SportName": [
+      "SportsInfo",
+      "SportName"
+    ],
+    "SportsInfo_HoursPerWeek": [
+      "SportsInfo",
+      "HoursPerWeek"
+    ],
+    "SportsInfo_GamesPlayed": [
+      "SportsInfo",
+      "GamesPlayed"
+    ],
+    "SportsInfo_OnScholarship": [
+      "SportsInfo",
+      "OnScholarship"
+    ]
+  },
+  "object_property_fk": {
+    "Plays_Games_Student_fk0": [
+      "Plays_Games.StuID",
+      "Student.StuID"
+    ],
+    "Plays_Games_Video_Games_fk1": [
+      "Plays_Games.GameID",
+      "Video_Games.GameID"
+    ],
+    "SportsInfo_Student_fk2": [
+      "SportsInfo.StuID",
+      "Student.StuID"
+    ]
+  }
+}

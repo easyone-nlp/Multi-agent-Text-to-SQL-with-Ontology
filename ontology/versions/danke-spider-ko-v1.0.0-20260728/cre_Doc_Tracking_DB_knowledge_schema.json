@@ -1,0 +1,1036 @@
+{
+  "db_id": "cre_Doc_Tracking_DB",
+  "classes": [
+    {
+      "name": "Ref_Document_Types",
+      "source_table": "Ref_Document_Types",
+      "ranking": 3.0,
+      "primary_label": "참조 문서 유형",
+      "synonyms": [
+        "문서 종류 참고표",
+        "문서 유형 참고 데이터",
+        "문서 타입 참조",
+        "문서 종류 목록",
+        "문서 유형 참고 정보"
+      ]
+    },
+    {
+      "name": "Ref_Calendar",
+      "source_table": "Ref_Calendar",
+      "ranking": 3.0,
+      "primary_label": "참조 달력",
+      "synonyms": [
+        "일정 참고표",
+        "일정 정보 참고 데이터",
+        "일정 타입 참조",
+        "일정 목록",
+        "일정 참고 정보"
+      ]
+    },
+    {
+      "name": "Ref_Locations",
+      "source_table": "Ref_Locations",
+      "ranking": 3.0,
+      "primary_label": "참조 위치",
+      "synonyms": [
+        "위치 참고표",
+        "위치 정보 참고 데이터",
+        "위치 타입 참조",
+        "위치 목록",
+        "위치 참고 정보"
+      ]
+    },
+    {
+      "name": "Roles",
+      "source_table": "Roles",
+      "ranking": 1.0,
+      "primary_label": "roles",
+      "synonyms": [
+        "권한",
+        "역할",
+        "사용자 권한",
+        "관리자",
+        "권리"
+      ]
+    },
+    {
+      "name": "All_Documents",
+      "source_table": "All_Documents",
+      "ranking": 3.5,
+      "primary_label": "모든 문서",
+      "synonyms": [
+        "문서",
+        "문서 목록",
+        "문서 정보",
+        "파일",
+        "문서 데이터"
+      ]
+    },
+    {
+      "name": "Employees",
+      "source_table": "Employees",
+      "ranking": 3.5,
+      "primary_label": "사원",
+      "synonyms": [
+        "사원",
+        "직원",
+        "사원 정보",
+        "직원 목록",
+        "직원 데이터"
+      ]
+    },
+    {
+      "name": "Document_Locations",
+      "source_table": "Document_Locations",
+      "ranking": 3.5,
+      "primary_label": "document locations",
+      "synonyms": [
+        "문서 위치",
+        "문서 위치 정보",
+        "파일 위치",
+        "보관 위치",
+        "문서 보관 장소",
+        "문서 위치 데이터",
+        "문서 저장 위치",
+        "문서 위치 기록"
+      ]
+    },
+    {
+      "name": "Documents_to_be_Destroyed",
+      "source_table": "Documents_to_be_Destroyed",
+      "ranking": 3.5,
+      "primary_label": "파기 대상 문서",
+      "synonyms": [
+        "제거 대상 문서",
+        "삭제 대상 문서",
+        "파기 대상 문서",
+        "소유자에게 제거할 문서",
+        "문서 파기 목록",
+        "문서 삭제 대상",
+        "문서 소유자 제거 목록",
+        "문서 파기 대상"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Ref_Document_Types_Document_Type_Code",
+      "domain": "Ref_Document_Types",
+      "source_table": "Ref_Document_Types",
+      "source_column": "Document_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "문서 유형 코드",
+      "synonyms": [
+        "문서 유형 코드",
+        "문서 코드",
+        "유형 코드",
+        "문서 타입 코드",
+        "DT코드",
+        "Document_Type_Code"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "DOC001": [
+          "DOC001"
+        ],
+        "DOC002": [
+          "DOC002"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Document_Types_Document_Type_Name",
+      "domain": "Ref_Document_Types",
+      "source_table": "Ref_Document_Types",
+      "source_column": "Document_Type_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "문서 유형 이름",
+      "synonyms": [
+        "문서 유형 이름",
+        "문서 이름",
+        "유형 이름",
+        "문서 타입 이름",
+        "DT이름",
+        "Document_Type_Name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "계약서": [
+          "계약서"
+        ],
+        "입사서": [
+          "입사서"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Document_Types_Document_Type_Description",
+      "domain": "Ref_Document_Types",
+      "source_table": "Ref_Document_Types",
+      "source_column": "Document_Type_Description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "문서 유형 설명",
+      "synonyms": [
+        "문서 유형 설명",
+        "문서 설명",
+        "유형 설명",
+        "문서 타입 설명",
+        "DT설명",
+        "Document_Type_Description"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Ref_Calendar_Calendar_Date",
+      "domain": "Ref_Calendar",
+      "source_table": "Ref_Calendar",
+      "source_column": "Calendar_Date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 4.0,
+      "primary_label": "달력 날짜",
+      "synonyms": [
+        "일정 날짜",
+        "일정일자",
+        "일정일",
+        "일정 날짜 정보",
+        "일정일자 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-01": [
+          "2023년 10월 1일"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Calendar_Day_Number",
+      "domain": "Ref_Calendar",
+      "source_table": "Ref_Calendar",
+      "source_column": "Day_Number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "일 수",
+      "synonyms": [
+        "일련번호",
+        "일수",
+        "일련 번호 정보",
+        "일수 정보",
+        "일수 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Ref_Locations_Location_Code",
+      "domain": "Ref_Locations",
+      "source_table": "Ref_Locations",
+      "source_column": "Location_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "위치 코드",
+      "synonyms": [
+        "위치 코드",
+        "지역 코드",
+        "위치 식별자",
+        "코드",
+        "위치 코드 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Ref_Locations_Location_Name",
+      "domain": "Ref_Locations",
+      "source_table": "Ref_Locations",
+      "source_column": "Location_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "위치 이름",
+      "synonyms": [
+        "위치 이름",
+        "지역 이름",
+        "위치 명",
+        "이름",
+        "위치 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "부산": [
+          "부산"
+        ],
+        "인천": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Locations_Location_Description",
+      "domain": "Ref_Locations",
+      "source_table": "Ref_Locations",
+      "source_column": "Location_Description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "위치 설명",
+      "synonyms": [
+        "위치 설명",
+        "지역 설명",
+        "상세 정보",
+        "설명",
+        "위치 설명 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Roles_Role_Code",
+      "domain": "Roles",
+      "source_table": "Roles",
+      "source_column": "Role_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.5,
+      "primary_label": "역할 코드",
+      "synonyms": [
+        "역할 코드",
+        "역할 ID",
+        "코드",
+        "역할 코드값",
+        "역할 식별자",
+        "Role_Code",
+        "코드 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Roles_Role_Name",
+      "domain": "Roles",
+      "source_table": "Roles",
+      "source_column": "Role_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "역할 이름",
+      "synonyms": [
+        "역할 이름",
+        "역할 제목",
+        "이름",
+        "역할 명",
+        "Role_Name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "관리자": [
+          "관리자"
+        ],
+        "사용자": [
+          "사용자"
+        ]
+      }
+    },
+    {
+      "name": "Roles_Role_Description",
+      "domain": "Roles",
+      "source_table": "Roles",
+      "source_column": "Role_Description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "역할 설명",
+      "synonyms": [
+        "역할 설명",
+        "설명",
+        "역할 기능",
+        "Role_Description",
+        "역할 설명문",
+        "역할 설명 내용"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "All_Documents_Document_ID",
+      "domain": "All_Documents",
+      "source_table": "All_Documents",
+      "source_column": "Document_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "문서 ID",
+      "synonyms": [
+        "문서 ID",
+        "문서 번호",
+        "문서 식별자",
+        "문서 고유 번호",
+        "문서 코드",
+        "문서 인덱스"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "All_Documents_Date_Stored",
+      "domain": "All_Documents",
+      "source_table": "All_Documents",
+      "source_column": "Date_Stored",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "저장 일시",
+      "synonyms": [
+        "저장 날짜",
+        "저장 시간",
+        "문서 저장일",
+        "문서 저장 시간",
+        "날짜",
+        "시간",
+        "저장 일시",
+        "일시"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "All_Documents_Document_Type_Code",
+      "domain": "All_Documents",
+      "source_table": "All_Documents",
+      "source_column": "Document_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "문서 유형 코드",
+      "synonyms": [
+        "문서 유형 코드",
+        "문서 코드",
+        "문서 분류 코드",
+        "문서 타입 코드",
+        "유형 코드",
+        "문서 분류"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "CONTRACT": [
+          "계약서",
+          "계약"
+        ],
+        "INVOICE": [
+          "입고서",
+          "청구서"
+        ],
+        "RECEIPT": [
+          "수취서",
+          "수취증"
+        ]
+      }
+    },
+    {
+      "name": "All_Documents_Document_Name",
+      "domain": "All_Documents",
+      "source_table": "All_Documents",
+      "source_column": "Document_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "문서 이름",
+      "synonyms": [
+        "문서 이름",
+        "문서명",
+        "문서제목",
+        "문서명칭",
+        "문서제목명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "All_Documents_Document_Description",
+      "domain": "All_Documents",
+      "source_table": "All_Documents",
+      "source_column": "Document_Description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "문서 설명",
+      "synonyms": [
+        "문서 설명",
+        "문서 설명내용",
+        "문서 설명 정보",
+        "문서 설명문",
+        "문서 설명자료"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "All_Documents_Other_Details",
+      "domain": "All_Documents",
+      "source_table": "All_Documents",
+      "source_column": "Other_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기타 세부 사항",
+      "synonyms": [
+        "기타 정보",
+        "기타 세부 사항",
+        "기타 자료",
+        "기타 설명",
+        "기타 내용",
+        "기타 세부 정보",
+        "기타 설명 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employees_Employee_ID",
+      "domain": "Employees",
+      "source_table": "Employees",
+      "source_column": "Employee_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "employee id",
+      "synonyms": [
+        "사원 ID",
+        "직원 번호",
+        "직원 고유 ID",
+        "사원 고유 번호",
+        "사원 번호",
+        "직원 ID",
+        "직원 고유 식별자",
+        "사원 고유 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employees_Role_Code",
+      "domain": "Employees",
+      "source_table": "Employees",
+      "source_column": "Role_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "role code",
+      "synonyms": [
+        "역할 코드",
+        "직무 코드",
+        "직원 역할 코드",
+        "역할 코드 정보",
+        "직무 코드 정보",
+        "역할 코드 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employees_Employee_Name",
+      "domain": "Employees",
+      "source_table": "Employees",
+      "source_column": "Employee_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "employee name",
+      "synonyms": [
+        "직원 이름",
+        "사원 이름",
+        "직원명",
+        "사원명",
+        "이름",
+        "employee name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employees_Gender_MFU",
+      "domain": "Employees",
+      "source_table": "Employees",
+      "source_column": "Gender_MFU",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "gender mfu",
+      "synonyms": [
+        "성별",
+        "성별 정보",
+        "Gender",
+        "성별 코드",
+        "MFU 성별",
+        "Gender_MFU",
+        "성별 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employees_Date_of_Birth",
+      "domain": "Employees",
+      "source_table": "Employees",
+      "source_column": "Date_of_Birth",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "date of birth",
+      "synonyms": [
+        "생일",
+        "생년월일",
+        "출생일",
+        "출생 날짜",
+        "생년월일 정보",
+        "Date_of_Birth",
+        "날짜"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employees_Other_Details",
+      "domain": "Employees",
+      "source_table": "Employees",
+      "source_column": "Other_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "other details",
+      "synonyms": [
+        "기타 정보",
+        "추가 정보",
+        "기타 세부 사항",
+        "Other_Details",
+        "기타 설명",
+        "기타 데이터",
+        "기타 정보 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Document_Locations_Document_ID",
+      "domain": "Document_Locations",
+      "source_table": "Document_Locations",
+      "source_column": "Document_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "document id",
+      "synonyms": [
+        "문서 ID",
+        "문서 식별자",
+        "문서 번호",
+        "문서 고유번호",
+        "문서 코드",
+        "문서 인식 번호",
+        "문서 고유 ID",
+        "문서 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Document_Locations_Location_Code",
+      "domain": "Document_Locations",
+      "source_table": "Document_Locations",
+      "source_column": "Location_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "location code",
+      "synonyms": [
+        "위치 코드",
+        "장소 코드",
+        "위치 식별자",
+        "위치 인식 코드",
+        "위치 고유 번호",
+        "위치 식별 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Document_Locations_Date_in_Location_From",
+      "domain": "Document_Locations",
+      "source_table": "Document_Locations",
+      "source_column": "Date_in_Location_From",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "date in location from",
+      "synonyms": [
+        "입력 일시",
+        "진입 일자",
+        "위치 진입 시간",
+        "위치 진입 날짜",
+        "입력 일자",
+        "위치 진입 일시",
+        "입력 시간"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Document_Locations_Date_in_Locaton_To",
+      "domain": "Document_Locations",
+      "source_table": "Document_Locations",
+      "source_column": "Date_in_Locaton_To",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "date in locaton to",
+      "synonyms": [
+        "종료일",
+        "마지막날",
+        "종료 날짜",
+        "종료일자",
+        "마지막 날짜"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_to_be_Destroyed_Document_ID",
+      "domain": "Documents_to_be_Destroyed",
+      "source_table": "Documents_to_be_Destroyed",
+      "source_column": "Document_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "문서 ID",
+      "synonyms": [
+        "문서 ID",
+        "문서 고유 번호",
+        "문서 식별자",
+        "문서 번호",
+        "문서 고유 ID",
+        "문서 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_to_be_Destroyed_Destruction_Authorised_by_Employee_ID",
+      "domain": "Documents_to_be_Destroyed",
+      "source_table": "Documents_to_be_Destroyed",
+      "source_column": "Destruction_Authorised_by_Employee_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "파기 승인을 한 직원 ID",
+      "synonyms": [
+        "파기 권한 부여 직원 ID",
+        "파기 승인 직원 ID",
+        "파기 권한 직원 ID",
+        "파기 승인자 ID",
+        "파기 권한 부여자 ID",
+        "파기 승인 직원",
+        "파기 권한 직원",
+        "파기 승인자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_to_be_Destroyed_Destroyed_by_Employee_ID",
+      "domain": "Documents_to_be_Destroyed",
+      "source_table": "Documents_to_be_Destroyed",
+      "source_column": "Destroyed_by_Employee_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "파기한 직원 ID",
+      "synonyms": [
+        "파기 직원 ID",
+        "파기 수행자 ID",
+        "파기 직원",
+        "파기 수행자",
+        "파기자 ID",
+        "파기자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_to_be_Destroyed_Planned_Destruction_Date",
+      "domain": "Documents_to_be_Destroyed",
+      "source_table": "Documents_to_be_Destroyed",
+      "source_column": "Planned_Destruction_Date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "계획 파기 일시",
+      "synonyms": [
+        "예정 파괴일",
+        "계획 파괴일",
+        "예정 파괴 날짜",
+        "계획 날짜",
+        "파괴 예정일",
+        "Destroy Date",
+        "Planned Date",
+        "Destruction Date"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-05 14:30": [
+          "2023년 10월 5일 14시 30분",
+          "2023-10-05T14:30"
+        ]
+      }
+    },
+    {
+      "name": "Documents_to_be_Destroyed_Actual_Destruction_Date",
+      "domain": "Documents_to_be_Destroyed",
+      "source_table": "Documents_to_be_Destroyed",
+      "source_column": "Actual_Destruction_Date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "실제 파기 일시",
+      "synonyms": [
+        "실제 파괴일",
+        "실적 파괴일",
+        "실제 날짜",
+        "파괴 일자",
+        "Actual Date",
+        "Destroy Date",
+        "Destruction Date"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-06 16:15": [
+          "2023년 10월 6일 16시 15분",
+          "2023-10-06T16:15"
+        ]
+      }
+    },
+    {
+      "name": "Documents_to_be_Destroyed_Other_Details",
+      "domain": "Documents_to_be_Destroyed",
+      "source_table": "Documents_to_be_Destroyed",
+      "source_column": "Other_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.5,
+      "primary_label": "기타 세부 사항",
+      "synonyms": [
+        "기타 정보",
+        "기타 설명",
+        "추가 정보",
+        "기타 세부 사항",
+        "Other Info",
+        "Additional Notes",
+        "Other Notes",
+        "Additional Details"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "All_Documents_Ref_Calendar_fk0",
+      "domain": "All_Documents",
+      "range": "Ref_Calendar",
+      "source_fk": [
+        "All_Documents.Date_Stored",
+        "Ref_Calendar.Calendar_Date"
+      ],
+      "weight": 1.0,
+      "primary_label": "저장일",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "All_Documents_Ref_Document_Types_fk1",
+      "domain": "All_Documents",
+      "range": "Ref_Document_Types",
+      "source_fk": [
+        "All_Documents.Document_Type_Code",
+        "Ref_Document_Types.Document_Type_Code"
+      ],
+      "weight": 1.0,
+      "primary_label": "문서 유형",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Employees_Roles_fk2",
+      "domain": "Employees",
+      "range": "Roles",
+      "source_fk": [
+        "Employees.Role_Code",
+        "Roles.Role_Code"
+      ],
+      "weight": 1.0,
+      "primary_label": "역할",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Document_Locations_All_Documents_fk3",
+      "domain": "Document_Locations",
+      "range": "All_Documents",
+      "source_fk": [
+        "Document_Locations.Document_ID",
+        "All_Documents.Document_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "위치 저장",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Document_Locations_Ref_Calendar_fk4",
+      "domain": "Document_Locations",
+      "range": "Ref_Calendar",
+      "source_fk": [
+        "Document_Locations.Date_in_Locaton_To",
+        "Ref_Calendar.Calendar_Date"
+      ],
+      "weight": 1.0,
+      "primary_label": "Document_Locations_Ref_Calendar",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Document_Locations_Ref_Calendar_fk5",
+      "domain": "Document_Locations",
+      "range": "Ref_Calendar",
+      "source_fk": [
+        "Document_Locations.Date_in_Location_From",
+        "Ref_Calendar.Calendar_Date"
+      ],
+      "weight": 1.0,
+      "primary_label": "입소일",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Document_Locations_Ref_Locations_fk6",
+      "domain": "Document_Locations",
+      "range": "Ref_Locations",
+      "source_fk": [
+        "Document_Locations.Location_Code",
+        "Ref_Locations.Location_Code"
+      ],
+      "weight": 1.0,
+      "primary_label": "위치 코드",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Documents_to_be_Destroyed_All_Documents_fk7",
+      "domain": "Documents_to_be_Destroyed",
+      "range": "All_Documents",
+      "source_fk": [
+        "Documents_to_be_Destroyed.Document_ID",
+        "All_Documents.Document_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "파기 대상",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Documents_to_be_Destroyed_Ref_Calendar_fk8",
+      "domain": "Documents_to_be_Destroyed",
+      "range": "Ref_Calendar",
+      "source_fk": [
+        "Documents_to_be_Destroyed.Actual_Destruction_Date",
+        "Ref_Calendar.Calendar_Date"
+      ],
+      "weight": 1.0,
+      "primary_label": "실제 파기일",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Documents_to_be_Destroyed_Ref_Calendar_fk9",
+      "domain": "Documents_to_be_Destroyed",
+      "range": "Ref_Calendar",
+      "source_fk": [
+        "Documents_to_be_Destroyed.Planned_Destruction_Date",
+        "Ref_Calendar.Calendar_Date"
+      ],
+      "weight": 1.0,
+      "primary_label": "계획 파기일",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Documents_to_be_Destroyed_Employees_fk10",
+      "domain": "Documents_to_be_Destroyed",
+      "range": "Employees",
+      "source_fk": [
+        "Documents_to_be_Destroyed.Destruction_Authorised_by_Employee_ID",
+        "Employees.Employee_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "파기 승인자",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Documents_to_be_Destroyed_Employees_fk11",
+      "domain": "Documents_to_be_Destroyed",
+      "range": "Employees",
+      "source_fk": [
+        "Documents_to_be_Destroyed.Destroyed_by_Employee_ID",
+        "Employees.Employee_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "파기자",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

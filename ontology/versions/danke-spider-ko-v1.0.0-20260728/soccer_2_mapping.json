@@ -1,0 +1,63 @@
+{
+  "class_table": {
+    "College": "College",
+    "Player": "Player",
+    "Tryout": "Tryout"
+  },
+  "property_column": {
+    "College_cName": [
+      "College",
+      "cName"
+    ],
+    "College_state": [
+      "College",
+      "state"
+    ],
+    "College_enr": [
+      "College",
+      "enr"
+    ],
+    "Player_pID": [
+      "Player",
+      "pID"
+    ],
+    "Player_pName": [
+      "Player",
+      "pName"
+    ],
+    "Player_yCard": [
+      "Player",
+      "yCard"
+    ],
+    "Player_HS": [
+      "Player",
+      "HS"
+    ],
+    "Tryout_pID": [
+      "Tryout",
+      "pID"
+    ],
+    "Tryout_cName": [
+      "Tryout",
+      "cName"
+    ],
+    "Tryout_pPos": [
+      "Tryout",
+      "pPos"
+    ],
+    "Tryout_decision": [
+      "Tryout",
+      "decision"
+    ]
+  },
+  "object_property_fk": {
+    "Tryout_College_fk0": [
+      "Tryout.cName",
+      "College.cName"
+    ],
+    "Tryout_Player_fk1": [
+      "Tryout.pID",
+      "Player.pID"
+    ]
+  }
+}

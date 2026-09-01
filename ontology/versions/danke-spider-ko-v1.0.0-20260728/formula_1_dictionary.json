@@ -1,0 +1,5891 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "경기장",
+      "target_class": "circuits",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경주 코스",
+      "target_class": "circuits",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "레이스 코스",
+      "target_class": "circuits",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트랙",
+      "target_class": "circuits",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경주 경로",
+      "target_class": "circuits",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기장 정보",
+      "target_class": "circuits",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "레이스",
+      "target_class": "races",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경주",
+      "target_class": "races",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기",
+      "target_class": "races",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 정보",
+      "target_class": "races",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 기록",
+      "target_class": "races",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "레이스 기록",
+      "target_class": "races",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "운전자",
+      "target_class": "drivers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "드라이버",
+      "target_class": "drivers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수",
+      "target_class": "drivers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 참가자",
+      "target_class": "drivers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "운전사",
+      "target_class": "drivers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 기록자",
+      "target_class": "drivers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상태 id",
+      "target_class": "status",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상태",
+      "target_class": "status",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "현재 상태",
+      "target_class": "status",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 상태",
+      "target_class": "status",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상태 정보",
+      "target_class": "status",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "레이스 상태",
+      "target_class": "status",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시즌",
+      "target_class": "seasons",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "레이스 시즌",
+      "target_class": "seasons",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시즌 정보",
+      "target_class": "seasons",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "레이스 기간",
+      "target_class": "seasons",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시즌 데이터",
+      "target_class": "seasons",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Constructor",
+      "target_class": "constructors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "팀",
+      "target_class": "constructors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구단",
+      "target_class": "constructors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "팀 정보",
+      "target_class": "constructors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "레이스 팀",
+      "target_class": "constructors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구단 정보",
+      "target_class": "constructors",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "constructor standings",
+      "target_class": "constructorStandings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "팀 순위",
+      "target_class": "constructorStandings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구조자 순위",
+      "target_class": "constructorStandings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "팀 성적",
+      "target_class": "constructorStandings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구조자 성적",
+      "target_class": "constructorStandings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "팀 경기 결과",
+      "target_class": "constructorStandings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "결과",
+      "target_class": "results",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 결과",
+      "target_class": "results",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 성적",
+      "target_class": "results",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 결과 기록",
+      "target_class": "results",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 성적 기록",
+      "target_class": "results",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 결과 데이터",
+      "target_class": "results",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "driver standings",
+      "target_class": "driverStandings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "드라이버 순위",
+      "target_class": "driverStandings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "운전자 순위",
+      "target_class": "driverStandings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "드라이버 성적",
+      "target_class": "driverStandings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "운전자 성적",
+      "target_class": "driverStandings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "드라이버 경기 결과",
+      "target_class": "driverStandings",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "constructor results",
+      "target_class": "constructorResults",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Constructor Results",
+      "target_class": "constructorResults",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Constructor Result",
+      "target_class": "constructorResults",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Constructor Performance",
+      "target_class": "constructorResults",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Constructor Standings",
+      "target_class": "constructorResults",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Constructor Rankings",
+      "target_class": "constructorResults",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "정식 순위표",
+      "target_class": "qualifying",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Qualifying Session",
+      "target_class": "qualifying",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Qualifying Data",
+      "target_class": "qualifying",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Qualifying Results",
+      "target_class": "qualifying",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Qualifying Info",
+      "target_class": "qualifying",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Qualifying Details",
+      "target_class": "qualifying",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "피트스톱",
+      "target_class": "pitStops",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Pit Stop",
+      "target_class": "pitStops",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Pit Stop Data",
+      "target_class": "pitStops",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Pit Stop Records",
+      "target_class": "pitStops",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Pit Stop Information",
+      "target_class": "pitStops",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "Pit Stop Details",
+      "target_class": "pitStops",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "lap times",
+      "target_class": "lapTimes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "라프 시간",
+      "target_class": "lapTimes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "레이스 시간",
+      "target_class": "lapTimes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트랙 시간",
+      "target_class": "lapTimes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주행 시간",
+      "target_class": "lapTimes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "라프 기록",
+      "target_class": "lapTimes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "레이스 라프 시간",
+      "target_class": "lapTimes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트랙 라프 기록",
+      "target_class": "lapTimes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기장 ID",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuitId",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 ID",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 식별 번호",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 고유 번호",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 아이디",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 식별자",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기장 참조",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit reference",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit ref",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit code",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit identifier",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit reference code",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit ref code",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit identifier code",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit reference number",
+      "target_class": "circuits",
+      "target_property": "circuits_circuitRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "circuits",
+      "target_property": "circuits_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "circuits",
+      "target_property": "circuits_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit name",
+      "target_class": "circuits",
+      "target_property": "circuits_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit title",
+      "target_class": "circuits",
+      "target_property": "circuits_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit official name",
+      "target_class": "circuits",
+      "target_property": "circuits_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit name official",
+      "target_class": "circuits",
+      "target_property": "circuits_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit title official",
+      "target_class": "circuits",
+      "target_property": "circuits_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit name code",
+      "target_class": "circuits",
+      "target_property": "circuits_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit name reference",
+      "target_class": "circuits",
+      "target_property": "circuits_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "circuits",
+      "target_property": "circuits_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점",
+      "target_class": "circuits",
+      "target_property": "circuits_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "circuits",
+      "target_property": "circuits_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명",
+      "target_class": "circuits",
+      "target_property": "circuits_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "circuits",
+      "target_property": "circuits_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치정보",
+      "target_class": "circuits",
+      "target_property": "circuits_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "circuits",
+      "target_property": "circuits_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점명",
+      "target_class": "circuits",
+      "target_property": "circuits_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "circuits",
+      "target_property": "circuits_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나라",
+      "target_class": "circuits",
+      "target_property": "circuits_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "circuits",
+      "target_property": "circuits_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가코드",
+      "target_class": "circuits",
+      "target_property": "circuits_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가정보",
+      "target_class": "circuits",
+      "target_property": "circuits_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 국가",
+      "target_class": "circuits",
+      "target_property": "circuits_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명칭",
+      "target_class": "circuits",
+      "target_property": "circuits_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위도",
+      "target_class": "circuits",
+      "target_property": "circuits_lat",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위도 좌표",
+      "target_class": "circuits",
+      "target_property": "circuits_lat",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위도값",
+      "target_class": "circuits",
+      "target_property": "circuits_lat",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위도 정보",
+      "target_class": "circuits",
+      "target_property": "circuits_lat",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "纬度",
+      "target_class": "circuits",
+      "target_property": "circuits_lat",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "纬度坐标",
+      "target_class": "circuits",
+      "target_property": "circuits_lat",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "纬度数值",
+      "target_class": "circuits",
+      "target_property": "circuits_lat",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경도",
+      "target_class": "circuits",
+      "target_property": "circuits_lng",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "lng",
+      "target_class": "circuits",
+      "target_property": "circuits_lng",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지리 좌표 경도",
+      "target_class": "circuits",
+      "target_property": "circuits_lng",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 경도",
+      "target_class": "circuits",
+      "target_property": "circuits_lng",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "longitude",
+      "target_class": "circuits",
+      "target_property": "circuits_lng",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경도 좌표",
+      "target_class": "circuits",
+      "target_property": "circuits_lng",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지리 경도",
+      "target_class": "circuits",
+      "target_property": "circuits_lng",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고도",
+      "target_class": "circuits",
+      "target_property": "circuits_alt",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "alt",
+      "target_class": "circuits",
+      "target_property": "circuits_alt",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지리 고도",
+      "target_class": "circuits",
+      "target_property": "circuits_alt",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 고도",
+      "target_class": "circuits",
+      "target_property": "circuits_alt",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "altitude",
+      "target_class": "circuits",
+      "target_property": "circuits_alt",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지형 고도",
+      "target_class": "circuits",
+      "target_property": "circuits_alt",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고도 정보",
+      "target_class": "circuits",
+      "target_property": "circuits_alt",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "URL",
+      "target_class": "circuits",
+      "target_property": "circuits_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "링크",
+      "target_class": "circuits",
+      "target_property": "circuits_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "웹 주소",
+      "target_class": "circuits",
+      "target_property": "circuits_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소",
+      "target_class": "circuits",
+      "target_property": "circuits_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "외부 링크",
+      "target_class": "circuits",
+      "target_property": "circuits_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위키 주소",
+      "target_class": "circuits",
+      "target_property": "circuits_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이스 id",
+      "target_class": "races",
+      "target_property": "races_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "raceId",
+      "target_class": "races",
+      "target_property": "races_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 ID",
+      "target_class": "races",
+      "target_property": "races_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이스 ID",
+      "target_class": "races",
+      "target_property": "races_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이스 식별자",
+      "target_class": "races",
+      "target_property": "races_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 번호",
+      "target_class": "races",
+      "target_property": "races_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "races",
+      "target_property": "races_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "year",
+      "target_class": "races",
+      "target_property": "races_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도",
+      "target_class": "races",
+      "target_property": "races_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 연도",
+      "target_class": "races",
+      "target_property": "races_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이스 연도",
+      "target_class": "races",
+      "target_property": "races_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드",
+      "target_class": "races",
+      "target_property": "races_round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "round",
+      "target_class": "races",
+      "target_property": "races_round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순번",
+      "target_class": "races",
+      "target_property": "races_round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이스 순번",
+      "target_class": "races",
+      "target_property": "races_round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 순서",
+      "target_class": "races",
+      "target_property": "races_round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기장 id",
+      "target_class": "races",
+      "target_property": "races_circuitId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuitId",
+      "target_class": "races",
+      "target_property": "races_circuitId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기장 ID",
+      "target_class": "races",
+      "target_property": "races_circuitId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기장 식별자",
+      "target_class": "races",
+      "target_property": "races_circuitId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기장 코드",
+      "target_class": "races",
+      "target_property": "races_circuitId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "circuit 번호",
+      "target_class": "races",
+      "target_property": "races_circuitId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기장 고유번호",
+      "target_class": "races",
+      "target_property": "races_circuitId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "races",
+      "target_property": "races_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "races",
+      "target_property": "races_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 이름",
+      "target_class": "races",
+      "target_property": "races_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 제목",
+      "target_class": "races",
+      "target_property": "races_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기명",
+      "target_class": "races",
+      "target_property": "races_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 소제목",
+      "target_class": "races",
+      "target_property": "races_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 표제어",
+      "target_class": "races",
+      "target_property": "races_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "races",
+      "target_property": "races_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date",
+      "target_class": "races",
+      "target_property": "races_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "races",
+      "target_property": "races_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 일자",
+      "target_class": "races",
+      "target_property": "races_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 날짜",
+      "target_class": "races",
+      "target_property": "races_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일정 날짜",
+      "target_class": "races",
+      "target_property": "races_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 일정",
+      "target_class": "races",
+      "target_property": "races_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간",
+      "target_class": "races",
+      "target_property": "races_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 시간",
+      "target_class": "races",
+      "target_property": "races_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 시간",
+      "target_class": "races",
+      "target_property": "races_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시각",
+      "target_class": "races",
+      "target_property": "races_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 정보",
+      "target_class": "races",
+      "target_property": "races_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "time",
+      "target_class": "races",
+      "target_property": "races_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 시각",
+      "target_class": "races",
+      "target_property": "races_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "URL",
+      "target_class": "races",
+      "target_property": "races_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "링크",
+      "target_class": "races",
+      "target_property": "races_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소",
+      "target_class": "races",
+      "target_property": "races_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "웹 주소",
+      "target_class": "races",
+      "target_property": "races_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연관 링크",
+      "target_class": "races",
+      "target_property": "races_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인터넷 주소",
+      "target_class": "races",
+      "target_property": "races_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운전자 ID",
+      "target_class": "drivers",
+      "target_property": "drivers_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driverId",
+      "target_class": "drivers",
+      "target_property": "drivers_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver identifier",
+      "target_class": "drivers",
+      "target_property": "drivers_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver number",
+      "target_class": "drivers",
+      "target_property": "drivers_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver unique id",
+      "target_class": "drivers",
+      "target_property": "drivers_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver code",
+      "target_class": "drivers",
+      "target_property": "drivers_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver key",
+      "target_class": "drivers",
+      "target_property": "drivers_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운전자 참조",
+      "target_class": "drivers",
+      "target_property": "drivers_driverRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driverRef",
+      "target_class": "drivers",
+      "target_property": "drivers_driverRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver reference",
+      "target_class": "drivers",
+      "target_property": "drivers_driverRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver reference code",
+      "target_class": "drivers",
+      "target_property": "drivers_driverRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver identifier code",
+      "target_class": "drivers",
+      "target_property": "drivers_driverRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver reference number",
+      "target_class": "drivers",
+      "target_property": "drivers_driverRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver code",
+      "target_class": "drivers",
+      "target_property": "drivers_driverRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "drivers",
+      "target_property": "drivers_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "number",
+      "target_class": "drivers",
+      "target_property": "drivers_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver number",
+      "target_class": "drivers",
+      "target_property": "drivers_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "car number",
+      "target_class": "drivers",
+      "target_property": "drivers_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver vehicle number",
+      "target_class": "drivers",
+      "target_property": "drivers_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver number code",
+      "target_class": "drivers",
+      "target_property": "drivers_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver license number",
+      "target_class": "drivers",
+      "target_property": "drivers_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver car number",
+      "target_class": "drivers",
+      "target_property": "drivers_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코드",
+      "target_class": "drivers",
+      "target_property": "drivers_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 코드",
+      "target_class": "drivers",
+      "target_property": "drivers_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "단축코드",
+      "target_class": "drivers",
+      "target_property": "drivers_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "code",
+      "target_class": "drivers",
+      "target_property": "drivers_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타코드",
+      "target_class": "drivers",
+      "target_property": "drivers_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코드명",
+      "target_class": "drivers",
+      "target_property": "drivers_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 코드명",
+      "target_class": "drivers",
+      "target_property": "drivers_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "drivers",
+      "target_property": "drivers_forename",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "drivers",
+      "target_property": "drivers_forename",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전성",
+      "target_class": "drivers",
+      "target_property": "drivers_forename",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전이름",
+      "target_class": "drivers",
+      "target_property": "drivers_forename",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전성명",
+      "target_class": "drivers",
+      "target_property": "drivers_forename",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성함",
+      "target_class": "drivers",
+      "target_property": "drivers_surname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "drivers",
+      "target_property": "drivers_surname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후성",
+      "target_class": "drivers",
+      "target_property": "drivers_surname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후이름",
+      "target_class": "drivers",
+      "target_property": "drivers_surname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "drivers",
+      "target_property": "drivers_surname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후성명",
+      "target_class": "drivers",
+      "target_property": "drivers_surname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년월일",
+      "target_class": "drivers",
+      "target_property": "drivers_dob",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생일",
+      "target_class": "drivers",
+      "target_property": "drivers_dob",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생일",
+      "target_class": "drivers",
+      "target_property": "drivers_dob",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생년월일",
+      "target_class": "drivers",
+      "target_property": "drivers_dob",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "DOB",
+      "target_class": "drivers",
+      "target_property": "drivers_dob",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생일자",
+      "target_class": "drivers",
+      "target_property": "drivers_dob",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생년월",
+      "target_class": "drivers",
+      "target_property": "drivers_dob",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적",
+      "target_class": "drivers",
+      "target_property": "drivers_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나라",
+      "target_class": "drivers",
+      "target_property": "drivers_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적 정보",
+      "target_class": "drivers",
+      "target_property": "drivers_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출신국",
+      "target_class": "drivers",
+      "target_property": "drivers_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적별",
+      "target_class": "drivers",
+      "target_property": "drivers_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적명",
+      "target_class": "drivers",
+      "target_property": "drivers_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적코드",
+      "target_class": "drivers",
+      "target_property": "drivers_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "URL",
+      "target_class": "drivers",
+      "target_property": "drivers_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "링크",
+      "target_class": "drivers",
+      "target_property": "drivers_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "웹사이트",
+      "target_class": "drivers",
+      "target_property": "drivers_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "외부 주소",
+      "target_class": "drivers",
+      "target_property": "drivers_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도움말 링크",
+      "target_class": "drivers",
+      "target_property": "drivers_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연관 링크",
+      "target_class": "drivers",
+      "target_property": "drivers_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위키 링크",
+      "target_class": "drivers",
+      "target_property": "drivers_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 id",
+      "target_class": "status",
+      "target_property": "status_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "statusId",
+      "target_class": "status",
+      "target_property": "status_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 ID",
+      "target_class": "status",
+      "target_property": "status_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 식별자",
+      "target_class": "status",
+      "target_property": "status_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 번호",
+      "target_class": "status",
+      "target_property": "status_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 코드",
+      "target_class": "status",
+      "target_property": "status_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 식별",
+      "target_class": "status",
+      "target_property": "status_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태",
+      "target_class": "status",
+      "target_property": "status_status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "status",
+      "target_class": "status",
+      "target_property": "status_status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 이름",
+      "target_class": "status",
+      "target_property": "status_status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 설명",
+      "target_class": "status",
+      "target_property": "status_status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 정보",
+      "target_class": "status",
+      "target_property": "status_status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 값",
+      "target_class": "status",
+      "target_property": "status_status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "seasons",
+      "target_property": "seasons_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시즌 년도",
+      "target_class": "seasons",
+      "target_property": "seasons_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 정보",
+      "target_class": "seasons",
+      "target_property": "seasons_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 코드",
+      "target_class": "seasons",
+      "target_property": "seasons_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 데이터",
+      "target_class": "seasons",
+      "target_property": "seasons_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "URL",
+      "target_class": "seasons",
+      "target_property": "seasons_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "링크",
+      "target_class": "seasons",
+      "target_property": "seasons_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "외부 주소",
+      "target_class": "seasons",
+      "target_property": "seasons_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시즌 링크",
+      "target_class": "seasons",
+      "target_property": "seasons_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소",
+      "target_class": "seasons",
+      "target_property": "seasons_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "URL 주소",
+      "target_class": "seasons",
+      "target_property": "seasons_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "외부 링크",
+      "target_class": "seasons",
+      "target_property": "seasons_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시즌 URL",
+      "target_class": "seasons",
+      "target_property": "seasons_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Constructor ID",
+      "target_class": "constructors",
+      "target_property": "constructors_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructorId",
+      "target_class": "constructors",
+      "target_property": "constructors_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Constructor ID 번호",
+      "target_class": "constructors",
+      "target_property": "constructors_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "constructors",
+      "target_property": "constructors_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "constructors",
+      "target_property": "constructors_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구조체 ID",
+      "target_class": "constructors",
+      "target_property": "constructors_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Constructor 식별자",
+      "target_class": "constructors",
+      "target_property": "constructors_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Constructor 번호",
+      "target_class": "constructors",
+      "target_property": "constructors_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Constructor Reference",
+      "target_class": "constructors",
+      "target_property": "constructors_constructorRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor reference",
+      "target_class": "constructors",
+      "target_property": "constructors_constructorRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor ref",
+      "target_class": "constructors",
+      "target_property": "constructors_constructorRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor code",
+      "target_class": "constructors",
+      "target_property": "constructors_constructorRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ref",
+      "target_class": "constructors",
+      "target_property": "constructors_constructorRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "reference",
+      "target_class": "constructors",
+      "target_property": "constructors_constructorRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor reference code",
+      "target_class": "constructors",
+      "target_property": "constructors_constructorRef",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "constructors",
+      "target_property": "constructors_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "constructors",
+      "target_property": "constructors_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Constructor Name",
+      "target_class": "constructors",
+      "target_property": "constructors_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Constructor 이름",
+      "target_class": "constructors",
+      "target_property": "constructors_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Constructor Name in Database",
+      "target_class": "constructors",
+      "target_property": "constructors_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Constructor's Name",
+      "target_class": "constructors",
+      "target_property": "constructors_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적",
+      "target_class": "constructors",
+      "target_property": "constructors_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "constructors",
+      "target_property": "constructors_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출신국",
+      "target_class": "constructors",
+      "target_property": "constructors_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가별",
+      "target_class": "constructors",
+      "target_property": "constructors_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적 정보",
+      "target_class": "constructors",
+      "target_property": "constructors_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "URL",
+      "target_class": "constructors",
+      "target_property": "constructors_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "웹사이트",
+      "target_class": "constructors",
+      "target_property": "constructors_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "URL 주소",
+      "target_class": "constructors",
+      "target_property": "constructors_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공식 사이트",
+      "target_class": "constructors",
+      "target_property": "constructors_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사이트 주소",
+      "target_class": "constructors",
+      "target_property": "constructors_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "링크",
+      "target_class": "constructors",
+      "target_property": "constructors_url",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor standings id",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_constructorStandingsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "standings id",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_constructorStandingsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "standings record id",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_constructorStandingsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor standings record id",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_constructorStandingsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "standings record",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_constructorStandingsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "standings number",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_constructorStandingsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race id",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race number",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race identifier",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race code",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race record id",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race record",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor id",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor number",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor identifier",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor code",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor record id",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor record",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포인트",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "득점",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스코어",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포인트 수",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "득점 수",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수 정보",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 수치",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 수치",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 수치",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 정보",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 텍스트",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 텍스트",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 텍스트",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 문자열",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 문자열",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 문자열",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 표현",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승리 수",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_wins",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승수",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_wins",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승리 횟수",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_wins",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승리",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_wins",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승리 기록",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_wins",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승리 수치",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_wins",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "wins",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_wins",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 ID",
+      "target_class": "results",
+      "target_property": "results_resultId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "resultId",
+      "target_class": "results",
+      "target_property": "results_resultId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 식별자",
+      "target_class": "results",
+      "target_property": "results_resultId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "result 식별자",
+      "target_class": "results",
+      "target_property": "results_resultId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 번호",
+      "target_class": "results",
+      "target_property": "results_resultId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "result 번호",
+      "target_class": "results",
+      "target_property": "results_resultId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이스 ID",
+      "target_class": "results",
+      "target_property": "results_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "raceId",
+      "target_class": "results",
+      "target_property": "results_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 ID",
+      "target_class": "results",
+      "target_property": "results_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 식별자",
+      "target_class": "results",
+      "target_property": "results_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race 식별자",
+      "target_class": "results",
+      "target_property": "results_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 번호",
+      "target_class": "results",
+      "target_property": "results_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race 번호",
+      "target_class": "results",
+      "target_property": "results_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 ID",
+      "target_class": "results",
+      "target_property": "results_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driverId",
+      "target_class": "results",
+      "target_property": "results_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 식별자",
+      "target_class": "results",
+      "target_property": "results_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver 식별자",
+      "target_class": "results",
+      "target_property": "results_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 번호",
+      "target_class": "results",
+      "target_property": "results_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver 번호",
+      "target_class": "results",
+      "target_property": "results_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "컨스트럭터 ID",
+      "target_class": "results",
+      "target_property": "results_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructorId",
+      "target_class": "results",
+      "target_property": "results_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_id",
+      "target_class": "results",
+      "target_property": "results_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team",
+      "target_class": "results",
+      "target_property": "results_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "construct_id",
+      "target_class": "results",
+      "target_property": "results_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_number",
+      "target_class": "results",
+      "target_property": "results_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "construct",
+      "target_class": "results",
+      "target_property": "results_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "results",
+      "target_property": "results_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "number",
+      "target_class": "results",
+      "target_property": "results_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "car_number",
+      "target_class": "results",
+      "target_property": "results_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "vehicle_number",
+      "target_class": "results",
+      "target_property": "results_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driving_number",
+      "target_class": "results",
+      "target_property": "results_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "car_num",
+      "target_class": "results",
+      "target_property": "results_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "그리드",
+      "target_class": "results",
+      "target_property": "results_grid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "grid",
+      "target_class": "results",
+      "target_property": "results_grid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "starting_grid",
+      "target_class": "results",
+      "target_property": "results_grid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "start_grid",
+      "target_class": "results",
+      "target_property": "results_grid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "start_position",
+      "target_class": "results",
+      "target_property": "results_grid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "starting_position",
+      "target_class": "results",
+      "target_property": "results_grid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "grid_number",
+      "target_class": "results",
+      "target_property": "results_grid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정렬",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치순위",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위수치",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치번호",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정렬순위",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치순번",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 텍스트",
+      "target_class": "results",
+      "target_property": "results_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위문자",
+      "target_class": "results",
+      "target_property": "results_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치문자",
+      "target_class": "results",
+      "target_property": "results_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정렬문자",
+      "target_class": "results",
+      "target_property": "results_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치텍스트",
+      "target_class": "results",
+      "target_property": "results_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위문자열",
+      "target_class": "results",
+      "target_property": "results_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치문자열",
+      "target_class": "results",
+      "target_property": "results_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정렬문자열",
+      "target_class": "results",
+      "target_property": "results_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 순서",
+      "target_class": "results",
+      "target_property": "results_positionOrder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위순서",
+      "target_class": "results",
+      "target_property": "results_positionOrder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치순서",
+      "target_class": "results",
+      "target_property": "results_positionOrder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정렬순서",
+      "target_class": "results",
+      "target_property": "results_positionOrder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치순번",
+      "target_class": "results",
+      "target_property": "results_positionOrder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위번호",
+      "target_class": "results",
+      "target_property": "results_positionOrder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치번호",
+      "target_class": "results",
+      "target_property": "results_positionOrder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정렬번호",
+      "target_class": "results",
+      "target_property": "results_positionOrder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포인트",
+      "target_class": "results",
+      "target_property": "results_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "득점",
+      "target_class": "results",
+      "target_property": "results_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "results",
+      "target_property": "results_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "득점 수",
+      "target_class": "results",
+      "target_property": "results_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포인트 수",
+      "target_class": "results",
+      "target_property": "results_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 포인트",
+      "target_class": "results",
+      "target_property": "results_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스코어",
+      "target_class": "results",
+      "target_property": "results_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드",
+      "target_class": "results",
+      "target_property": "results_laps",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프",
+      "target_class": "results",
+      "target_property": "results_laps",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "완주 라프",
+      "target_class": "results",
+      "target_property": "results_laps",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프 수",
+      "target_class": "results",
+      "target_property": "results_laps",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "완주 수",
+      "target_class": "results",
+      "target_property": "results_laps",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프 횟수",
+      "target_class": "results",
+      "target_property": "results_laps",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프 수량",
+      "target_class": "results",
+      "target_property": "results_laps",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "완주 라프 수",
+      "target_class": "results",
+      "target_property": "results_laps",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간",
+      "target_class": "results",
+      "target_property": "results_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 시간",
+      "target_class": "results",
+      "target_property": "results_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "완료 시간",
+      "target_class": "results",
+      "target_property": "results_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 완료 시간",
+      "target_class": "results",
+      "target_property": "results_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 정보",
+      "target_class": "results",
+      "target_property": "results_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 소요 시간",
+      "target_class": "results",
+      "target_property": "results_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 기록",
+      "target_class": "results",
+      "target_property": "results_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "밀리초",
+      "target_class": "results",
+      "target_property": "results_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ms",
+      "target_class": "results",
+      "target_property": "results_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 백만분의 1",
+      "target_class": "results",
+      "target_property": "results_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "밀리초 값",
+      "target_class": "results",
+      "target_property": "results_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ms 값",
+      "target_class": "results",
+      "target_property": "results_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 단위",
+      "target_class": "results",
+      "target_property": "results_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "밀리초 시간",
+      "target_class": "results",
+      "target_property": "results_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 측정",
+      "target_class": "results",
+      "target_property": "results_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가장 빠른 라프",
+      "target_class": "results",
+      "target_property": "results_fastestLap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가장 빠른 라프 번호",
+      "target_class": "results",
+      "target_property": "results_fastestLap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "빠른 라프 번호",
+      "target_class": "results",
+      "target_property": "results_fastestLap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "빠른 라프",
+      "target_class": "results",
+      "target_property": "results_fastestLap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프 번호",
+      "target_class": "results",
+      "target_property": "results_fastestLap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 라프",
+      "target_class": "results",
+      "target_property": "results_fastestLap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭크",
+      "target_class": "results",
+      "target_property": "results_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "results",
+      "target_property": "results_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수",
+      "target_class": "results",
+      "target_property": "results_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 순위",
+      "target_class": "results",
+      "target_property": "results_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 값",
+      "target_class": "results",
+      "target_property": "results_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 수치",
+      "target_class": "results",
+      "target_property": "results_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 정보",
+      "target_class": "results",
+      "target_property": "results_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 등수",
+      "target_class": "results",
+      "target_property": "results_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 기준",
+      "target_class": "results",
+      "target_property": "results_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가장 빠른 라프 시간",
+      "target_class": "results",
+      "target_property": "results_fastestLapTime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 라프 시간",
+      "target_class": "results",
+      "target_property": "results_fastestLapTime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "빠른 라프 시간",
+      "target_class": "results",
+      "target_property": "results_fastestLapTime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 라프 시간 정보",
+      "target_class": "results",
+      "target_property": "results_fastestLapTime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프 시간",
+      "target_class": "results",
+      "target_property": "results_fastestLapTime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 라프 시간 데이터",
+      "target_class": "results",
+      "target_property": "results_fastestLapTime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "빠른 라프 시간 정보",
+      "target_class": "results",
+      "target_property": "results_fastestLapTime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프 시간 정보",
+      "target_class": "results",
+      "target_property": "results_fastestLapTime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 라프 시간 기록",
+      "target_class": "results",
+      "target_property": "results_fastestLapTime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가장 빠른 라프 속도",
+      "target_class": "results",
+      "target_property": "results_fastestLapSpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 라프 속도",
+      "target_class": "results",
+      "target_property": "results_fastestLapSpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "빠른 라프 속도",
+      "target_class": "results",
+      "target_property": "results_fastestLapSpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 라프 속도 정보",
+      "target_class": "results",
+      "target_property": "results_fastestLapSpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프 속도",
+      "target_class": "results",
+      "target_property": "results_fastestLapSpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 라프 속도 데이터",
+      "target_class": "results",
+      "target_property": "results_fastestLapSpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "빠른 라프 속도 정보",
+      "target_class": "results",
+      "target_property": "results_fastestLapSpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프 속도 정보",
+      "target_class": "results",
+      "target_property": "results_fastestLapSpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 라프 속도 기록",
+      "target_class": "results",
+      "target_property": "results_fastestLapSpeed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 ID",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 코드",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 상태 코드",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 번호",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 상태",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 상태",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 번호 정보",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 코드 정보",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 상태 코드",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver standings id",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_driverStandingsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 스탙인 ID",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_driverStandingsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 순위 ID",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_driverStandingsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스탠딩 ID",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_driverStandingsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스탠딩 번호",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_driverStandingsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 순위 코드",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_driverStandingsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 번호",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_driverStandingsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race id",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이스 ID",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 ID",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이스 번호",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 코드",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이스 식별자",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 식별 번호",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver id",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 ID",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 번호",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 코드",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 식별자",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 식별 번호",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 고유 번호",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "points",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포인트",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "득점",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스코어",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "득점 수",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포인트 수",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수 값",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "position",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 수",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 정보",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 값",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "position text",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 텍스트",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 텍스트",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 텍스트",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 문자",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 문자",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 문자",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 설명",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 설명",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_positionText",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "wins",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_wins",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승리 수",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_wins",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승수",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_wins",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승리 횟수",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_wins",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승리",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_wins",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor results id",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_constructorResultsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructorResultsId",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_constructorResultsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "CR ID",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_constructorResultsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor result ID",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_constructorResultsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor result identifier",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_constructorResultsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "CR number",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_constructorResultsId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race id",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "raceId",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "R ID",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race identifier",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race number",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race code",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor id",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructorId",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "C ID",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor identifier",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor code",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructor number",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "points",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포인트",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수 값",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "획득 포인트",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수 정보",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수 데이터",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "득점",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포인트 수",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "status",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 상태",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 상태",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 코드",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 코드",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 정보",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 데이터",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 코드 값",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정식 순위 ID",
+      "target_class": "qualifying",
+      "target_property": "qualifying_qualifyId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "qualifyId",
+      "target_class": "qualifying",
+      "target_property": "qualifying_qualifyId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Qualifying ID",
+      "target_class": "qualifying",
+      "target_property": "qualifying_qualifyId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Qualify No",
+      "target_class": "qualifying",
+      "target_property": "qualifying_qualifyId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Qualify Sequence",
+      "target_class": "qualifying",
+      "target_property": "qualifying_qualifyId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Qualify Identifier",
+      "target_class": "qualifying",
+      "target_property": "qualifying_qualifyId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이스 ID",
+      "target_class": "qualifying",
+      "target_property": "qualifying_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "raceId",
+      "target_class": "qualifying",
+      "target_property": "qualifying_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Race Number",
+      "target_class": "qualifying",
+      "target_property": "qualifying_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Race Identifier",
+      "target_class": "qualifying",
+      "target_property": "qualifying_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Race Sequence",
+      "target_class": "qualifying",
+      "target_property": "qualifying_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Race Code",
+      "target_class": "qualifying",
+      "target_property": "qualifying_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 ID",
+      "target_class": "qualifying",
+      "target_property": "qualifying_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driverId",
+      "target_class": "qualifying",
+      "target_property": "qualifying_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Driver Number",
+      "target_class": "qualifying",
+      "target_property": "qualifying_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Driver Identifier",
+      "target_class": "qualifying",
+      "target_property": "qualifying_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Driver Code",
+      "target_class": "qualifying",
+      "target_property": "qualifying_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Driver Sequence",
+      "target_class": "qualifying",
+      "target_property": "qualifying_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코스트럭터 ID",
+      "target_class": "qualifying",
+      "target_property": "qualifying_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "constructorId",
+      "target_class": "qualifying",
+      "target_property": "qualifying_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team_id",
+      "target_class": "qualifying",
+      "target_property": "qualifying_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team",
+      "target_class": "qualifying",
+      "target_property": "qualifying_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "construct_id",
+      "target_class": "qualifying",
+      "target_property": "qualifying_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "construct",
+      "target_class": "qualifying",
+      "target_property": "qualifying_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team identifier",
+      "target_class": "qualifying",
+      "target_property": "qualifying_constructorId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "qualifying",
+      "target_property": "qualifying_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "number",
+      "target_class": "qualifying",
+      "target_property": "qualifying_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver_number",
+      "target_class": "qualifying",
+      "target_property": "qualifying_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "car_number",
+      "target_class": "qualifying",
+      "target_property": "qualifying_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver_num",
+      "target_class": "qualifying",
+      "target_property": "qualifying_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "car_num",
+      "target_class": "qualifying",
+      "target_property": "qualifying_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "qualifying",
+      "target_property": "qualifying_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "position",
+      "target_class": "qualifying",
+      "target_property": "qualifying_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "rank",
+      "target_class": "qualifying",
+      "target_property": "qualifying_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pos",
+      "target_class": "qualifying",
+      "target_property": "qualifying_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "order",
+      "target_class": "qualifying",
+      "target_property": "qualifying_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "place",
+      "target_class": "qualifying",
+      "target_property": "qualifying_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "rankings",
+      "target_class": "qualifying",
+      "target_property": "qualifying_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Q1 시간",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "q1",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "first practice time",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "first session time",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "q1 time",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "first practice",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "first session",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Q2 시간",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "q2",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "second practice time",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "second session time",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "q2 time",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "second practice",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "second session",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Q3 시간",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q3",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "q3",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q3",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "third practice time",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q3",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "third session time",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q3",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "q3 time",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q3",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "third practice",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q3",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "third session",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q3",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이스 ID",
+      "target_class": "pitStops",
+      "target_property": "pitStops_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "raceId",
+      "target_class": "pitStops",
+      "target_property": "pitStops_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race identifier",
+      "target_class": "pitStops",
+      "target_property": "pitStops_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race number",
+      "target_class": "pitStops",
+      "target_property": "pitStops_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race code",
+      "target_class": "pitStops",
+      "target_property": "pitStops_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race key",
+      "target_class": "pitStops",
+      "target_property": "pitStops_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race id number",
+      "target_class": "pitStops",
+      "target_property": "pitStops_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 ID",
+      "target_class": "pitStops",
+      "target_property": "pitStops_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driverId",
+      "target_class": "pitStops",
+      "target_property": "pitStops_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver identifier",
+      "target_class": "pitStops",
+      "target_property": "pitStops_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver number",
+      "target_class": "pitStops",
+      "target_property": "pitStops_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver code",
+      "target_class": "pitStops",
+      "target_property": "pitStops_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver key",
+      "target_class": "pitStops",
+      "target_property": "pitStops_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver id number",
+      "target_class": "pitStops",
+      "target_property": "pitStops_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스톱 번호",
+      "target_class": "pitStops",
+      "target_property": "pitStops_stop",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stop",
+      "target_class": "pitStops",
+      "target_property": "pitStops_stop",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stop number",
+      "target_class": "pitStops",
+      "target_property": "pitStops_stop",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stop count",
+      "target_class": "pitStops",
+      "target_property": "pitStops_stop",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stop sequence",
+      "target_class": "pitStops",
+      "target_property": "pitStops_stop",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stop index",
+      "target_class": "pitStops",
+      "target_property": "pitStops_stop",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stop position",
+      "target_class": "pitStops",
+      "target_property": "pitStops_stop",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stop order",
+      "target_class": "pitStops",
+      "target_property": "pitStops_stop",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랩 번호",
+      "target_class": "pitStops",
+      "target_property": "pitStops_lap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "lap",
+      "target_class": "pitStops",
+      "target_property": "pitStops_lap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프",
+      "target_class": "pitStops",
+      "target_property": "pitStops_lap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프 수",
+      "target_class": "pitStops",
+      "target_property": "pitStops_lap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피트 스톱 라프",
+      "target_class": "pitStops",
+      "target_property": "pitStops_lap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프 번호",
+      "target_class": "pitStops",
+      "target_property": "pitStops_lap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간",
+      "target_class": "pitStops",
+      "target_property": "pitStops_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "time",
+      "target_class": "pitStops",
+      "target_property": "pitStops_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시각",
+      "target_class": "pitStops",
+      "target_property": "pitStops_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피트 스톱 시간",
+      "target_class": "pitStops",
+      "target_property": "pitStops_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 정보",
+      "target_class": "pitStops",
+      "target_property": "pitStops_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지속 시간",
+      "target_class": "pitStops",
+      "target_property": "pitStops_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "duration",
+      "target_class": "pitStops",
+      "target_property": "pitStops_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피트 스톱 지속 시간",
+      "target_class": "pitStops",
+      "target_property": "pitStops_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 간격",
+      "target_class": "pitStops",
+      "target_property": "pitStops_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지속 기간",
+      "target_class": "pitStops",
+      "target_property": "pitStops_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "밀리초",
+      "target_class": "pitStops",
+      "target_property": "pitStops_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ms",
+      "target_class": "pitStops",
+      "target_property": "pitStops_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "밀리세컨드",
+      "target_class": "pitStops",
+      "target_property": "pitStops_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간(밀리초)",
+      "target_class": "pitStops",
+      "target_property": "pitStops_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ms 값",
+      "target_class": "pitStops",
+      "target_property": "pitStops_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "milliseconds",
+      "target_class": "pitStops",
+      "target_property": "pitStops_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 시간",
+      "target_class": "pitStops",
+      "target_property": "pitStops_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pit 스타일 시간",
+      "target_class": "pitStops",
+      "target_property": "pitStops_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "race id",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "raceId",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 ID",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 번호",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 식별자",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 코드",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_raceId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driver id",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "driverId",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 ID",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 번호",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 식별자",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "드라이버 코드",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_driverId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "lap",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_lap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_lap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프 수",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_lap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프 번호",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_lap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라프 정보",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_lap",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "position",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 정보",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정렬 순서",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 순위",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리더보드 위치",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "time",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라이트 시간",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "완료 시간",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 시간",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라이프 시간",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 정보",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "milliseconds",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "밀리초",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ms",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "밀리세컨드",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간(ms)",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "밀리초 정보",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "밀리세컨드 값",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_milliseconds",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "서울경기장",
+      "target_class": "circuits",
+      "target_property": "circuits_name",
+      "value": "서울경기장"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 경기장",
+      "target_class": "circuits",
+      "target_property": "circuits_name",
+      "value": "서울경기장"
+    },
+    {
+      "entry_type": "value",
+      "key": "마카오경기장",
+      "target_class": "circuits",
+      "target_property": "circuits_name",
+      "value": "마카오경기장"
+    },
+    {
+      "entry_type": "value",
+      "key": "마카오 경기장",
+      "target_class": "circuits",
+      "target_property": "circuits_name",
+      "value": "마카오경기장"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 레이스",
+      "target_class": "races",
+      "target_property": "races_name",
+      "value": "2023년 레이스"
+    },
+    {
+      "entry_type": "value",
+      "key": "그랜드 프리즘 레이스",
+      "target_class": "races",
+      "target_property": "races_name",
+      "value": "그랜드 프리즘 레이스"
+    },
+    {
+      "entry_type": "value",
+      "key": "활성",
+      "target_class": "status",
+      "target_property": "status_status",
+      "value": "활성"
+    },
+    {
+      "entry_type": "value",
+      "key": "비활성",
+      "target_class": "status",
+      "target_property": "status_status",
+      "value": "비활성"
+    },
+    {
+      "entry_type": "value",
+      "key": "예약",
+      "target_class": "status",
+      "target_property": "status_status",
+      "value": "예약"
+    },
+    {
+      "entry_type": "value",
+      "key": "Mercedes",
+      "target_class": "constructors",
+      "target_property": "constructors_name",
+      "value": "Mercedes"
+    },
+    {
+      "entry_type": "value",
+      "key": "mercedes",
+      "target_class": "constructors",
+      "target_property": "constructors_name",
+      "value": "Mercedes"
+    },
+    {
+      "entry_type": "value",
+      "key": "mercedez",
+      "target_class": "constructors",
+      "target_property": "constructors_name",
+      "value": "Mercedes"
+    },
+    {
+      "entry_type": "value",
+      "key": "Red Bull",
+      "target_class": "constructors",
+      "target_property": "constructors_name",
+      "value": "Red Bull"
+    },
+    {
+      "entry_type": "value",
+      "key": "red bull",
+      "target_class": "constructors",
+      "target_property": "constructors_name",
+      "value": "Red Bull"
+    },
+    {
+      "entry_type": "value",
+      "key": "redbull",
+      "target_class": "constructors",
+      "target_property": "constructors_name",
+      "value": "Red Bull"
+    },
+    {
+      "entry_type": "value",
+      "key": "영국",
+      "target_class": "constructors",
+      "target_property": "constructors_nationality",
+      "value": "영국"
+    },
+    {
+      "entry_type": "value",
+      "key": "uk",
+      "target_class": "constructors",
+      "target_property": "constructors_nationality",
+      "value": "영국"
+    },
+    {
+      "entry_type": "value",
+      "key": "독일",
+      "target_class": "constructors",
+      "target_property": "constructors_nationality",
+      "value": "독일"
+    },
+    {
+      "entry_type": "value",
+      "key": "germany",
+      "target_class": "constructors",
+      "target_property": "constructors_nationality",
+      "value": "독일"
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "첫 번째",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "1위",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "두 번째",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2위",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "3",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "세 번째",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "3위",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_position",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "1st",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_positionText",
+      "value": "1st"
+    },
+    {
+      "entry_type": "value",
+      "key": "1위",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_positionText",
+      "value": "1st"
+    },
+    {
+      "entry_type": "value",
+      "key": "2nd",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_positionText",
+      "value": "2nd"
+    },
+    {
+      "entry_type": "value",
+      "key": "2위",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_positionText",
+      "value": "2nd"
+    },
+    {
+      "entry_type": "value",
+      "key": "3rd",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_positionText",
+      "value": "3rd"
+    },
+    {
+      "entry_type": "value",
+      "key": "3위",
+      "target_class": "constructorStandings",
+      "target_property": "constructorStandings_positionText",
+      "value": "3rd"
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "1위",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "첫 번째",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2위",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "두 번째",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "3",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "3위",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "세 번째",
+      "target_class": "results",
+      "target_property": "results_position",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "1st",
+      "target_class": "results",
+      "target_property": "results_positionText",
+      "value": "1st"
+    },
+    {
+      "entry_type": "value",
+      "key": "1위",
+      "target_class": "results",
+      "target_property": "results_positionText",
+      "value": "1st"
+    },
+    {
+      "entry_type": "value",
+      "key": "2nd",
+      "target_class": "results",
+      "target_property": "results_positionText",
+      "value": "2nd"
+    },
+    {
+      "entry_type": "value",
+      "key": "2위",
+      "target_class": "results",
+      "target_property": "results_positionText",
+      "value": "2nd"
+    },
+    {
+      "entry_type": "value",
+      "key": "3rd",
+      "target_class": "results",
+      "target_property": "results_positionText",
+      "value": "3rd"
+    },
+    {
+      "entry_type": "value",
+      "key": "3위",
+      "target_class": "results",
+      "target_property": "results_positionText",
+      "value": "3rd"
+    },
+    {
+      "entry_type": "value",
+      "key": "1:32.456",
+      "target_class": "results",
+      "target_property": "results_time",
+      "value": "1:32.456"
+    },
+    {
+      "entry_type": "value",
+      "key": "1분 32초 456밀리초",
+      "target_class": "results",
+      "target_property": "results_time",
+      "value": "1:32.456"
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "results",
+      "target_property": "results_rank",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "1위",
+      "target_class": "results",
+      "target_property": "results_rank",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "최고",
+      "target_class": "results",
+      "target_property": "results_rank",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2",
+      "target_class": "results",
+      "target_property": "results_rank",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2위",
+      "target_class": "results",
+      "target_property": "results_rank",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "1:23.456",
+      "target_class": "results",
+      "target_property": "results_fastestLapTime",
+      "value": "1:23.456"
+    },
+    {
+      "entry_type": "value",
+      "key": "1분 23초 456밀리초",
+      "target_class": "results",
+      "target_property": "results_fastestLapTime",
+      "value": "1:23.456"
+    },
+    {
+      "entry_type": "value",
+      "key": "300.5 km/h",
+      "target_class": "results",
+      "target_property": "results_fastestLapSpeed",
+      "value": "300.5 km/h"
+    },
+    {
+      "entry_type": "value",
+      "key": "300.5km/h",
+      "target_class": "results",
+      "target_property": "results_fastestLapSpeed",
+      "value": "300.5 km/h"
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "정상",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "완료",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "중단",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "정지",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "3",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "사고",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "장애",
+      "target_class": "results",
+      "target_property": "results_statusId",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "1위",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_positionText",
+      "value": "1위"
+    },
+    {
+      "entry_type": "value",
+      "key": "1등",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_positionText",
+      "value": "1위"
+    },
+    {
+      "entry_type": "value",
+      "key": "2위",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_positionText",
+      "value": "2위"
+    },
+    {
+      "entry_type": "value",
+      "key": "2등",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_positionText",
+      "value": "2위"
+    },
+    {
+      "entry_type": "value",
+      "key": "3위",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_positionText",
+      "value": "3위"
+    },
+    {
+      "entry_type": "value",
+      "key": "3등",
+      "target_class": "driverStandings",
+      "target_property": "driverStandings_positionText",
+      "value": "3위"
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_status",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "정상",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_status",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_status",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "중단",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_status",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "3",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_status",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "결과 없음",
+      "target_class": "constructorResults",
+      "target_property": "constructorResults_status",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "1:12.34",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q1",
+      "value": "1:12.34"
+    },
+    {
+      "entry_type": "value",
+      "key": "1분 12초 34밀리초",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q1",
+      "value": "1:12.34"
+    },
+    {
+      "entry_type": "value",
+      "key": "1:13.56",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q2",
+      "value": "1:13.56"
+    },
+    {
+      "entry_type": "value",
+      "key": "1분 13초 56밀리초",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q2",
+      "value": "1:13.56"
+    },
+    {
+      "entry_type": "value",
+      "key": "1:14.78",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q3",
+      "value": "1:14.78"
+    },
+    {
+      "entry_type": "value",
+      "key": "1분 14초 78밀리초",
+      "target_class": "qualifying",
+      "target_property": "qualifying_q3",
+      "value": "1:14.78"
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "pitStops",
+      "target_property": "pitStops_stop",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "첫 번째",
+      "target_class": "pitStops",
+      "target_property": "pitStops_stop",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2",
+      "target_class": "pitStops",
+      "target_property": "pitStops_stop",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "두 번째",
+      "target_class": "pitStops",
+      "target_property": "pitStops_stop",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "100",
+      "target_class": "pitStops",
+      "target_property": "pitStops_lap",
+      "value": "100"
+    },
+    {
+      "entry_type": "value",
+      "key": "100랩",
+      "target_class": "pitStops",
+      "target_property": "pitStops_lap",
+      "value": "100"
+    },
+    {
+      "entry_type": "value",
+      "key": "01:30",
+      "target_class": "pitStops",
+      "target_property": "pitStops_time",
+      "value": "01:30"
+    },
+    {
+      "entry_type": "value",
+      "key": "1분 30초",
+      "target_class": "pitStops",
+      "target_property": "pitStops_time",
+      "value": "01:30"
+    },
+    {
+      "entry_type": "value",
+      "key": "15.5",
+      "target_class": "pitStops",
+      "target_property": "pitStops_duration",
+      "value": "15.5"
+    },
+    {
+      "entry_type": "value",
+      "key": "15.5초",
+      "target_class": "pitStops",
+      "target_property": "pitStops_duration",
+      "value": "15.5"
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_lap",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "첫 라프",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_lap",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "1라프",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_lap",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_lap",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "두 번째 라프",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_lap",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2라프",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_lap",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "1위",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "첫 번째",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2위",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "두 번째",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "3",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "3위",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "세 번째",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_position",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "1:23.456",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_time",
+      "value": "1:23.456"
+    },
+    {
+      "entry_type": "value",
+      "key": "1분 23초 456밀리초",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_time",
+      "value": "1:23.456"
+    },
+    {
+      "entry_type": "value",
+      "key": "2:00.000",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_time",
+      "value": "2:00.000"
+    },
+    {
+      "entry_type": "value",
+      "key": "2분",
+      "target_class": "lapTimes",
+      "target_property": "lapTimes_time",
+      "value": "2:00.000"
+    }
+  ]
+}

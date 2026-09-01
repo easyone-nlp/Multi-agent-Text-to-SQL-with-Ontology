@@ -1,0 +1,321 @@
+{
+  "db_id": "election_representative",
+  "classes": [
+    {
+      "name": "election",
+      "source_table": "election",
+      "ranking": 3.0,
+      "primary_label": "선거",
+      "synonyms": [
+        "선거",
+        "총선",
+        "지방선거",
+        "대선",
+        "선거일",
+        "선거구",
+        "선거운동",
+        "선거결과"
+      ]
+    },
+    {
+      "name": "representative",
+      "source_table": "representative",
+      "ranking": 3.5,
+      "primary_label": "대표자",
+      "synonyms": [
+        "대표자",
+        "정치인",
+        "국회의원",
+        "지자체장",
+        "대표",
+        "대표자 정보",
+        "대표자 목록",
+        "대표자 데이터"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "election_Election_ID",
+      "domain": "election",
+      "source_table": "election",
+      "source_column": "Election_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "선거 ID",
+      "synonyms": [
+        "의석 선거 ID",
+        "선거 ID",
+        "선거 번호",
+        "선거 식별자",
+        "선거 고유 ID",
+        "Election_ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "election_Representative_ID",
+      "domain": "election",
+      "source_table": "election",
+      "source_column": "Representative_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "대표자 ID",
+      "synonyms": [
+        "대표 ID",
+        "대표 식별자",
+        "대표 번호",
+        "대표 고유 ID",
+        "Representative_ID",
+        "대표 식별 번호",
+        "대표 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "election_Date",
+      "domain": "election",
+      "source_table": "election",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "일자",
+      "synonyms": [
+        "선거 날짜",
+        "선거 일자",
+        "선거 일",
+        "선거 날",
+        "일자",
+        "Date"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-05-10": [
+          "2023년 5월 10일"
+        ]
+      }
+    },
+    {
+      "name": "election_Votes",
+      "domain": "election",
+      "source_table": "election",
+      "source_column": "Votes",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "투표 수",
+      "synonyms": [
+        "득표수",
+        "득표",
+        "투표수",
+        "투표 결과",
+        "votes",
+        "투표"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "election_Vote_Percent",
+      "domain": "election",
+      "source_table": "election",
+      "source_column": "Vote_Percent",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "투표 비율",
+      "synonyms": [
+        "득표 비율",
+        "득표율",
+        "투표 비율",
+        "투표율",
+        "vote percent"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "election_Seats",
+      "domain": "election",
+      "source_table": "election",
+      "source_column": "Seats",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "의석 수",
+      "synonyms": [
+        "의석 수",
+        "의석",
+        "의석 확보 수",
+        "의석 획득",
+        "seats"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "election_Place",
+      "domain": "election",
+      "source_table": "election",
+      "source_column": "Place",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "위치",
+      "synonyms": [
+        "위치",
+        "순위",
+        "상위",
+        "위치 순위",
+        "정렬 순위",
+        "등수",
+        "위치 정보",
+        "순위 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울시"
+        ],
+        "부산": [
+          "부산시"
+        ]
+      }
+    },
+    {
+      "name": "representative_Representative_ID",
+      "domain": "representative",
+      "source_table": "representative",
+      "source_column": "Representative_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "representative id",
+      "synonyms": [
+        "대표자 ID",
+        "대표자 고유 ID",
+        "대표자 번호",
+        "representative id",
+        "대표자 식별 번호",
+        "ID",
+        "번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "representative_Name",
+      "domain": "representative",
+      "source_table": "representative",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "대표자 이름",
+        "성명",
+        "name",
+        "대표자 성명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "representative_State",
+      "domain": "representative",
+      "source_table": "representative",
+      "source_column": "State",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "state",
+      "synonyms": [
+        "주",
+        "주 이름",
+        "주 코드",
+        "주 정보",
+        "state",
+        "주명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "representative_Party",
+      "domain": "representative",
+      "source_table": "representative",
+      "source_column": "Party",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "party",
+      "synonyms": [
+        "정당",
+        "당명",
+        "정파",
+        "정당명",
+        "당 이름",
+        "정당 정보",
+        "정당 이름",
+        "당"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "representative_Lifespan",
+      "domain": "representative",
+      "source_table": "representative",
+      "source_column": "Lifespan",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "lifespan",
+      "synonyms": [
+        "활동 기간",
+        "정치 활동 기간",
+        "임기",
+        "임기 정보",
+        "임기 길이",
+        "활동 기간 정보",
+        "임기 기간"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "election_representative_fk0",
+      "domain": "election",
+      "range": "representative",
+      "source_fk": [
+        "election.Representative_ID",
+        "representative.Representative_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

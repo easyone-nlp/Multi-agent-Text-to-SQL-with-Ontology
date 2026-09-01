@@ -1,0 +1,516 @@
+{
+  "db_id": "school_finance",
+  "classes": [
+    {
+      "name": "School",
+      "source_table": "School",
+      "ranking": 3.5,
+      "primary_label": "학교",
+      "synonyms": [
+        "학교",
+        "교육기관",
+        "교육시설",
+        "교육기관 정보"
+      ]
+    },
+    {
+      "name": "budget",
+      "source_table": "budget",
+      "ranking": 3.5,
+      "primary_label": "예산",
+      "synonyms": [
+        "예산",
+        "재정 계획",
+        "재정 배분",
+        "재정 계획서",
+        "재정 예산"
+      ]
+    },
+    {
+      "name": "endowment",
+      "source_table": "endowment",
+      "ranking": 1.0,
+      "primary_label": "endowment id",
+      "synonyms": [
+        "기부금",
+        "재단 자산",
+        "재단 자금",
+        "재단 자산 정보",
+        "재단 자금 정보"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "School_School_id",
+      "domain": "School",
+      "source_table": "School",
+      "source_column": "School_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학교 ID",
+      "synonyms": [
+        "학교ID",
+        "학교아이디",
+        "학교코드",
+        "school_id",
+        "school_ids"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "School_School_name",
+      "domain": "School",
+      "source_table": "School",
+      "source_column": "School_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "학교 이름",
+      "synonyms": [
+        "학교명",
+        "학교이름",
+        "school_name",
+        "school_names",
+        "학교명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "School_Location",
+      "domain": "School",
+      "source_table": "School",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "위치",
+      "synonyms": [
+        "위치",
+        "지역",
+        "학교위치",
+        "학교지역",
+        "location",
+        "locations",
+        "위치정보",
+        "학교위치정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "School_Mascot",
+      "domain": "School",
+      "source_table": "School",
+      "source_column": "Mascot",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "마스코트",
+      "synonyms": [
+        "마스코트",
+        "상징",
+        "대표 캐릭터",
+        "스토리",
+        "기호",
+        "마스코트 이름",
+        "스토리 이름",
+        "대표"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "School_Enrollment",
+      "domain": "School",
+      "source_table": "School",
+      "source_column": "Enrollment",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "등록 인원",
+      "synonyms": [
+        "학생 수",
+        "인원",
+        "수용 인원",
+        "등록 인원",
+        "등록자 수",
+        "인원 수",
+        "등록 인원 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "School_IHSAA_Class",
+      "domain": "School",
+      "source_table": "School",
+      "source_column": "IHSAA_Class",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "IHSAA 학년",
+      "synonyms": [
+        "IHSAA 분류",
+        "분류",
+        "IHSAA 등급",
+        "등급",
+        "IHSAA 클래스",
+        "클래스",
+        "IHSAA 분류 코드",
+        "분류 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1A": [
+          "1A"
+        ],
+        "2A": [
+          "2A"
+        ],
+        "3A": [
+          "3A"
+        ],
+        "4A": [
+          "4A"
+        ]
+      }
+    },
+    {
+      "name": "School_IHSAA_Football_Class",
+      "domain": "School",
+      "source_table": "School",
+      "source_column": "IHSAA_Football_Class",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "IHSAA 축구 학년",
+      "synonyms": [
+        "IHSAA football class",
+        "IHSAA class football",
+        "football classification",
+        "IHSAA football grade",
+        "IHSAA football level",
+        "football class ihsaa",
+        "ihsaa football classification"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1A": [
+          "1A"
+        ],
+        "2A": [
+          "2A"
+        ],
+        "3A": [
+          "3A"
+        ],
+        "4A": [
+          "4A"
+        ]
+      }
+    },
+    {
+      "name": "School_County",
+      "domain": "School",
+      "source_table": "School",
+      "source_column": "County",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "군(구)",
+      "synonyms": [
+        "county",
+        "county name",
+        "location county",
+        "county of school",
+        "school county",
+        "county area",
+        "county region"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "budget_School_id",
+      "domain": "budget",
+      "source_table": "budget",
+      "source_column": "School_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학교 ID",
+      "synonyms": [
+        "학교 ID",
+        "학교 코드",
+        "학교 식별자",
+        "학교 번호",
+        "SCHOOL_ID",
+        "학교 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "budget_Year",
+      "domain": "budget",
+      "source_table": "budget",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 4.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "학년도",
+        "년도 정보",
+        "년도 코드",
+        "YEAR"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": [
+          "2020년"
+        ],
+        "2021": [
+          "2021년"
+        ]
+      }
+    },
+    {
+      "name": "budget_Budgeted",
+      "domain": "budget",
+      "source_table": "budget",
+      "source_column": "Budgeted",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "예산액",
+      "synonyms": [
+        "예산 금액",
+        "예산",
+        "예산액",
+        "예산 투자 금액",
+        "예산 대비 금액",
+        "BUDGETED"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "budget_total_budget_percent_budgeted",
+      "domain": "budget",
+      "source_table": "budget",
+      "source_column": "total_budget_percent_budgeted",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "총 예산 비율 예산",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "budget_Invested",
+      "domain": "budget",
+      "source_table": "budget",
+      "source_column": "Invested",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "투자액",
+      "synonyms": [
+        "투자",
+        "예산 사용 금액",
+        "실제 투자 금액",
+        "예산 투입액",
+        "Invested",
+        "예산 사용액",
+        "실적 투자 금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "budget_total_budget_percent_invested",
+      "domain": "budget",
+      "source_table": "budget",
+      "source_column": "total_budget_percent_invested",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "총 예산 비율 투자",
+      "synonyms": [
+        "예산 사용 비율",
+        "투자 비율",
+        "예산 투입 비율",
+        "예산 사용률",
+        "total_budget_percent_invested"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "budget_Budget_invested_percent",
+      "domain": "budget",
+      "source_table": "budget",
+      "source_column": "Budget_invested_percent",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "예산 투자 비율",
+      "synonyms": [
+        "예산 투자 비율",
+        "투자 비율",
+        "예산 투자 비율 텍스트",
+        "투자 비율 텍스트",
+        "예산 투자 비율 정보",
+        "투자 비율 데이터",
+        "예산 투자 비율 값",
+        "투자 비율 문자열"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "endowment_endowment_id",
+      "domain": "endowment",
+      "source_table": "endowment",
+      "source_column": "endowment_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "endowment id",
+      "synonyms": [
+        "기부금 ID",
+        "기부금 번호",
+        "기부금 식별자",
+        "기부금 고유번호",
+        "endowment_id",
+        "기부금 코드",
+        "기부금 식별 번호",
+        "기부금 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "endowment_School_id",
+      "domain": "endowment",
+      "source_table": "endowment",
+      "source_column": "School_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "school id",
+      "synonyms": [
+        "학교 식별자",
+        "학교 코드",
+        "학교 ID",
+        "학교 식별번호",
+        "학교 고유 번호",
+        "School ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "endowment_donator_name",
+      "domain": "endowment",
+      "source_table": "endowment",
+      "source_column": "donator_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "donator name",
+      "synonyms": [
+        "기부자 이름",
+        "기부자",
+        "기부자명",
+        "donator name",
+        "donator"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김철수": [
+          "김철수"
+        ],
+        "박미화": [
+          "박미화"
+        ]
+      }
+    },
+    {
+      "name": "endowment_amount",
+      "domain": "endowment",
+      "source_table": "endowment",
+      "source_column": "amount",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "amount",
+      "synonyms": [
+        "기부 금액",
+        "금액",
+        "기부 금액 정보",
+        "기부 금액 데이터",
+        "금액 정보",
+        "기부 금액 수치",
+        "금액 값",
+        "기부 금액 측정"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "budget_School_fk0",
+      "domain": "budget",
+      "range": "School",
+      "source_fk": [
+        "budget.School_id",
+        "School.School_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "endowment_School_fk1",
+      "domain": "endowment",
+      "range": "School",
+      "source_fk": [
+        "endowment.School_id",
+        "School.School_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,1264 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "상점",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "매장",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "점포",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "숍",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "카페",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "바이어스",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "회원",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이용자",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사람",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "happy hour",
+      "target_class": "happy_hour",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이용 시간",
+      "target_class": "happy_hour",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이용 시기",
+      "target_class": "happy_hour",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시간대",
+      "target_class": "happy_hour",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시간",
+      "target_class": "happy_hour",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "happy hour member",
+      "target_class": "happy_hour_member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "히트 시간 고객",
+      "target_class": "happy_hour_member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이벤트 참여자",
+      "target_class": "happy_hour_member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "할인 시간 사용자",
+      "target_class": "happy_hour_member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "특별 시간 이용 고객",
+      "target_class": "happy_hour_member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이벤트 멤버",
+      "target_class": "happy_hour_member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "할인 고객",
+      "target_class": "happy_hour_member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "특별 시간 사용자",
+      "target_class": "happy_hour_member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 ID",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Shop_ID",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 ID",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당 번호",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 식별자",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "숍 ID",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 고유 번호",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소",
+      "target_class": "shop",
+      "target_property": "shop_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Address",
+      "target_class": "shop",
+      "target_property": "shop_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 주소",
+      "target_class": "shop",
+      "target_property": "shop_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "shop",
+      "target_property": "shop_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 위치",
+      "target_class": "shop",
+      "target_property": "shop_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 정보",
+      "target_class": "shop",
+      "target_property": "shop_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소지",
+      "target_class": "shop",
+      "target_property": "shop_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "num of staff",
+      "target_class": "shop",
+      "target_property": "shop_Num_of_staff",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Num_of_staff",
+      "target_class": "shop",
+      "target_property": "shop_Num_of_staff",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 수",
+      "target_class": "shop",
+      "target_property": "shop_Num_of_staff",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 수량",
+      "target_class": "shop",
+      "target_property": "shop_Num_of_staff",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "근무자 수",
+      "target_class": "shop",
+      "target_property": "shop_Num_of_staff",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 인원",
+      "target_class": "shop",
+      "target_property": "shop_Num_of_staff",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 수 정보",
+      "target_class": "shop",
+      "target_property": "shop_Num_of_staff",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "score",
+      "target_class": "shop",
+      "target_property": "shop_Score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점",
+      "target_class": "shop",
+      "target_property": "shop_Score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "shop",
+      "target_property": "shop_Score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 점수",
+      "target_class": "shop",
+      "target_property": "shop_Score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수 값",
+      "target_class": "shop",
+      "target_property": "shop_Score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 정보",
+      "target_class": "shop",
+      "target_property": "shop_Score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Score",
+      "target_class": "shop",
+      "target_property": "shop_Score",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "open year",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개업 연도",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 시작 연도",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개점 연도",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개업년도",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Open_Year",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개점년도",
+      "target_class": "shop",
+      "target_property": "shop_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 ID",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 번호",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식료품점 멤버십 ID",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 식별 번호",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Member_ID",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 고유 번호",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식료품점 멤버십 계정 ID",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 계정 번호",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "member",
+      "target_property": "member_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 카드",
+      "target_class": "member",
+      "target_property": "member_Membership_card",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멤버십 카드",
+      "target_class": "member",
+      "target_property": "member_Membership_card",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드 번호",
+      "target_class": "member",
+      "target_property": "member_Membership_card",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멤버십 번호",
+      "target_class": "member",
+      "target_property": "member_Membership_card",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 ID",
+      "target_class": "member",
+      "target_property": "member_Membership_card",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Membership_card",
+      "target_class": "member",
+      "target_property": "member_Membership_card",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카드",
+      "target_class": "member",
+      "target_property": "member_Membership_card",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "age",
+      "target_class": "member",
+      "target_property": "member_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "member",
+      "target_property": "member_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "member",
+      "target_property": "member_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 정보",
+      "target_class": "member",
+      "target_property": "member_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 데이터",
+      "target_class": "member",
+      "target_property": "member_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 기록",
+      "target_class": "member",
+      "target_property": "member_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 정보",
+      "target_class": "member",
+      "target_property": "member_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "time of purchase",
+      "target_class": "member",
+      "target_property": "member_Time_of_purchase",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구매 시간",
+      "target_class": "member",
+      "target_property": "member_Time_of_purchase",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간",
+      "target_class": "member",
+      "target_property": "member_Time_of_purchase",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구매 시각",
+      "target_class": "member",
+      "target_property": "member_Time_of_purchase",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 정보",
+      "target_class": "member",
+      "target_property": "member_Time_of_purchase",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구매 일시",
+      "target_class": "member",
+      "target_property": "member_Time_of_purchase",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "level of membership",
+      "target_class": "member",
+      "target_property": "member_Level_of_membership",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "member",
+      "target_property": "member_Level_of_membership",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 정보",
+      "target_class": "member",
+      "target_property": "member_Level_of_membership",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 등급",
+      "target_class": "member",
+      "target_property": "member_Level_of_membership",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 기준",
+      "target_class": "member",
+      "target_property": "member_Level_of_membership",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "address",
+      "target_class": "member",
+      "target_property": "member_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소",
+      "target_class": "member",
+      "target_property": "member_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소지",
+      "target_class": "member",
+      "target_property": "member_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주지",
+      "target_class": "member",
+      "target_property": "member_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송지",
+      "target_class": "member",
+      "target_property": "member_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 정보",
+      "target_class": "member",
+      "target_property": "member_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Address",
+      "target_class": "member",
+      "target_property": "member_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 사항",
+      "target_class": "member",
+      "target_property": "member_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주 주소",
+      "target_class": "member",
+      "target_property": "member_Address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "hh id",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_HH_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "HH_ID",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_HH_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 식사 시간 ID",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_HH_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식사 시간 고유 번호",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_HH_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식사 시간 식별자",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_HH_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "HH 식별 번호",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_HH_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 시간 코드",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_HH_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "shop id",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Shop_ID",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당 ID",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당 식별 번호",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "hh_id",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당 고유 번호",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Shop 식별자",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식당 코드",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "month",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Month",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "달",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 달",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "HH 달",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 월",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "월 이름",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 달 이름",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "num of shaff in charge",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Num_of_shaff_in_charge",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참여 쉐프 수",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Num_of_shaff_in_charge",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활동 쉐프 수",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Num_of_shaff_in_charge",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Happy hour 쉐프 수",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Num_of_shaff_in_charge",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가게 쉐프 수",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Num_of_shaff_in_charge",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Num of shaff in charge",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Num_of_shaff_in_charge",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참여 인원",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Num_of_shaff_in_charge",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활동 인원",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Num_of_shaff_in_charge",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가게 내 쉐프 수",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Num_of_shaff_in_charge",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "hh id",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_HH_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "HH_ID",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_HH_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 ID",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_HH_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "hh 아이디",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_HH_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 멤버 ID",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_HH_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "hh 멤버 ID",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_HH_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 고유 번호",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_HH_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "hh 고유 번호",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_HH_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "member id",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Member_ID",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 ID",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "hh 멤버 ID",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 고유 번호",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "hh 멤버 고유 번호",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 식별자",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 번호",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "total amount",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Total_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Total_amount",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Total_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 금액",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Total_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "hh 총 금액",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Total_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "누적 금액",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Total_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 금액",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Total_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "hh 금액",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Total_amount",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 사용 금액",
+      "target_class": "happy_hour_member",
+      "target_property": "happy_hour_member_Total_amount",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시 강남구 테헤란로 123",
+      "target_class": "shop",
+      "target_property": "shop_Address",
+      "value": "서울시 강남구 테헤란로 123"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 강남구 테헤란로 123",
+      "target_class": "shop",
+      "target_property": "shop_Address",
+      "value": "서울시 강남구 테헤란로 123"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천시 남동구 동일로 456",
+      "target_class": "shop",
+      "target_property": "shop_Address",
+      "value": "인천시 남동구 동일로 456"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천 남동구 동일로 456",
+      "target_class": "shop",
+      "target_property": "shop_Address",
+      "value": "인천시 남동구 동일로 456"
+    },
+    {
+      "entry_type": "value",
+      "key": "김철수",
+      "target_class": "member",
+      "target_property": "member_Name",
+      "value": "김철수"
+    },
+    {
+      "entry_type": "value",
+      "key": "이영희",
+      "target_class": "member",
+      "target_property": "member_Name",
+      "value": "김철수"
+    },
+    {
+      "entry_type": "value",
+      "key": "12345678",
+      "target_class": "member",
+      "target_property": "member_Membership_card",
+      "value": "12345678"
+    },
+    {
+      "entry_type": "value",
+      "key": "87654321",
+      "target_class": "member",
+      "target_property": "member_Membership_card",
+      "value": "12345678"
+    },
+    {
+      "entry_type": "value",
+      "key": "1월",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": "1월"
+    },
+    {
+      "entry_type": "value",
+      "key": "2월",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": "2월"
+    },
+    {
+      "entry_type": "value",
+      "key": "3월",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": "3월"
+    },
+    {
+      "entry_type": "value",
+      "key": "4월",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": "4월"
+    },
+    {
+      "entry_type": "value",
+      "key": "5월",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": "5월"
+    },
+    {
+      "entry_type": "value",
+      "key": "6월",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": "6월"
+    },
+    {
+      "entry_type": "value",
+      "key": "7월",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": "7월"
+    },
+    {
+      "entry_type": "value",
+      "key": "8월",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": "8월"
+    },
+    {
+      "entry_type": "value",
+      "key": "9월",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": "9월"
+    },
+    {
+      "entry_type": "value",
+      "key": "10월",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": "10월"
+    },
+    {
+      "entry_type": "value",
+      "key": "11월",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": "11월"
+    },
+    {
+      "entry_type": "value",
+      "key": "12월",
+      "target_class": "happy_hour",
+      "target_property": "happy_hour_Month",
+      "value": "12월"
+    }
+  ]
+}

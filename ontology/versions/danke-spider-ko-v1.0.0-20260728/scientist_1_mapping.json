@@ -1,0 +1,47 @@
+{
+  "class_table": {
+    "Scientists": "Scientists",
+    "Projects": "Projects",
+    "AssignedTo": "AssignedTo"
+  },
+  "property_column": {
+    "Scientists_SSN": [
+      "Scientists",
+      "SSN"
+    ],
+    "Scientists_Name": [
+      "Scientists",
+      "Name"
+    ],
+    "Projects_Code": [
+      "Projects",
+      "Code"
+    ],
+    "Projects_Name": [
+      "Projects",
+      "Name"
+    ],
+    "Projects_Hours": [
+      "Projects",
+      "Hours"
+    ],
+    "AssignedTo_Scientist": [
+      "AssignedTo",
+      "Scientist"
+    ],
+    "AssignedTo_Project": [
+      "AssignedTo",
+      "Project"
+    ]
+  },
+  "object_property_fk": {
+    "AssignedTo_Projects_fk0": [
+      "AssignedTo.Project",
+      "Projects.Code"
+    ],
+    "AssignedTo_Scientists_fk1": [
+      "AssignedTo.Scientist",
+      "Scientists.SSN"
+    ]
+  }
+}

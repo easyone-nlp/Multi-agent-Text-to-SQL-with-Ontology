@@ -1,0 +1,644 @@
+{
+  "db_id": "railway",
+  "classes": [
+    {
+      "name": "railway",
+      "source_table": "railway",
+      "ranking": 3.0,
+      "primary_label": "철도",
+      "synonyms": [
+        "철도 데이터",
+        "철도 정보",
+        "철도 테이블",
+        "철도 기반 데이터",
+        "철도 관련 정보"
+      ]
+    },
+    {
+      "name": "train",
+      "source_table": "train",
+      "ranking": 3.0,
+      "primary_label": "열차",
+      "synonyms": [
+        "열차 데이터",
+        "열차 정보",
+        "열차 테이블",
+        "열차 기반 데이터",
+        "열차 관련 정보",
+        "열차 정보 저장"
+      ]
+    },
+    {
+      "name": "manager",
+      "source_table": "manager",
+      "ranking": 3.5,
+      "primary_label": "관리자",
+      "synonyms": [
+        "관리자 데이터",
+        "관리자 정보",
+        "관리자 테이블",
+        "관리자 기반 데이터",
+        "관리자 관련 정보",
+        "관리자 정보 저장"
+      ]
+    },
+    {
+      "name": "railway_manage",
+      "source_table": "railway_manage",
+      "ranking": 3.0,
+      "primary_label": "철도 관리",
+      "synonyms": []
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "railway_Railway_ID",
+      "domain": "railway",
+      "source_table": "railway",
+      "source_column": "Railway_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "철도 ID",
+      "synonyms": [
+        "Railway_ID",
+        "철도 ID",
+        "철도 고유 번호",
+        "철도 식별 번호",
+        "철도 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "railway_Railway",
+      "domain": "railway",
+      "source_table": "railway",
+      "source_column": "Railway",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "철도",
+      "synonyms": [
+        "Railway",
+        "철도 이름",
+        "철도 명칭",
+        "철도",
+        "철도 대표명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울 지하철": [
+          "서울 지하철"
+        ],
+        "경부선": [
+          "경부선"
+        ]
+      }
+    },
+    {
+      "name": "railway_Builder",
+      "domain": "railway",
+      "source_table": "railway",
+      "source_column": "Builder",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "건설사",
+      "synonyms": [
+        "Builder",
+        "건설자",
+        "건설 업체",
+        "철도 건설자",
+        "건설 회사"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국철도공사": [
+          "한국철도공사"
+        ]
+      }
+    },
+    {
+      "name": "railway_Built",
+      "domain": "railway",
+      "source_table": "railway",
+      "source_column": "Built",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "건설 연도",
+      "synonyms": [
+        "건설년도",
+        "완공년도",
+        "구축년도",
+        "완료년도",
+        "건설시기",
+        "구축시기",
+        "built",
+        "built_year"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1970년": [
+          "1970"
+        ],
+        "2000년": [
+          "2000"
+        ]
+      }
+    },
+    {
+      "name": "railway_Wheels",
+      "domain": "railway",
+      "source_table": "railway",
+      "source_column": "Wheels",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "바퀴 수",
+      "synonyms": [
+        "바퀴수",
+        "바퀴구조",
+        "전동구동",
+        "동력구조",
+        "wheels",
+        "wheel_count"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "4개": [
+          "4"
+        ],
+        "6개": [
+          "6"
+        ]
+      }
+    },
+    {
+      "name": "railway_Location",
+      "domain": "railway",
+      "source_table": "railway",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "위치",
+      "synonyms": [
+        "위치",
+        "설치지",
+        "설치위치",
+        "위치정보",
+        "장소",
+        "지점",
+        "location"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "부산": [
+          "부산"
+        ]
+      }
+    },
+    {
+      "name": "railway_ObjectNumber",
+      "domain": "railway",
+      "source_table": "railway",
+      "source_column": "ObjectNumber",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "물체 번호",
+      "synonyms": [
+        "물품 번호",
+        "대상 번호",
+        "물리적 번호",
+        "기계 번호",
+        "ObjectNumber",
+        "물품 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "12345": [
+          "12345"
+        ]
+      }
+    },
+    {
+      "name": "train_Train_ID",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "Train_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "열차 ID",
+      "synonyms": [
+        "Train_ID",
+        "열차 ID",
+        "열차 번호",
+        "열차 식별 번호",
+        "열차 고유 번호",
+        "열차 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "train_Train_Num",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "Train_Num",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "열차 번호",
+      "synonyms": [
+        "Train_Num",
+        "열차 번호",
+        "열차 등록 번호",
+        "열차 수",
+        "열차 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "101": [
+          "101"
+        ],
+        "202": [
+          "202"
+        ]
+      }
+    },
+    {
+      "name": "train_Name",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "Name",
+        "열차 이름",
+        "열차 표기",
+        "열차명",
+        "열차 표시"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울역": [
+          "서울역"
+        ],
+        "부산역": [
+          "부산역"
+        ]
+      }
+    },
+    {
+      "name": "train_From",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "From",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "출발지",
+      "synonyms": [
+        "출발지",
+        "출발역",
+        "from",
+        "출발지역",
+        "출발역명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "인천": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "train_Arrival",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "Arrival",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "도착지",
+      "synonyms": [
+        "도착지",
+        "도착역",
+        "arrival",
+        "도착지역",
+        "도착역명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "부산": [
+          "부산"
+        ],
+        "대구": [
+          "대구"
+        ]
+      }
+    },
+    {
+      "name": "train_Railway_ID",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "Railway_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "철도 회사 ID",
+      "synonyms": [
+        "철도ID",
+        "철도망ID",
+        "railway id",
+        "철도코드",
+        "철도망코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_Manager_ID",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "Manager_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "관리자 ID",
+      "synonyms": [
+        "관리자 ID",
+        "관리자 고유 번호",
+        "관리자 번호",
+        "Manager_ID",
+        "관리자 식별자",
+        "관리자 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_Name",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "김철수": [
+          "김철수",
+          "이영희"
+        ]
+      }
+    },
+    {
+      "name": "manager_Country",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "소속 국가",
+        "국가 코드",
+        "국가명",
+        "국가 정보",
+        "국가별"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국": [
+          "한국",
+          "대한민국"
+        ]
+      }
+    },
+    {
+      "name": "manager_Working_year_starts",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "Working_year_starts",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "근무 연도 시작",
+      "synonyms": [
+        "근무 시작 연도",
+        "작업 연도 시작",
+        "근무 시작년도",
+        "업무 시작 연도",
+        "작업 시작 연도",
+        "연도 시작",
+        "작업 시작년도"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2010년": [
+          "2010년",
+          "2010"
+        ]
+      }
+    },
+    {
+      "name": "manager_Age",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "나이",
+      "synonyms": [
+        "연령",
+        "나이",
+        "연수",
+        "나이 정보",
+        "연령 정보",
+        "나이 데이터",
+        "연령 데이터",
+        "나이 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manager_Level",
+      "domain": "manager",
+      "source_table": "manager",
+      "source_column": "Level",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "등급",
+      "synonyms": [
+        "직급",
+        "등급",
+        "직책",
+        "직위",
+        "등급 정보",
+        "직급 정보",
+        "직책 정보",
+        "직위 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1급": [
+          "1급",
+          "고급"
+        ]
+      }
+    },
+    {
+      "name": "railway_manage_Railway_ID",
+      "domain": "railway_manage",
+      "source_table": "railway_manage",
+      "source_column": "Railway_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "철도 id",
+      "synonyms": [
+        "Railway_ID",
+        "철도 ID",
+        "철도 식별 번호",
+        "철도 고유 번호",
+        "railway number",
+        "railway identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "railway_manage_Manager_ID",
+      "domain": "railway_manage",
+      "source_table": "railway_manage",
+      "source_column": "Manager_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "관리자 id",
+      "synonyms": [
+        "Manager_ID",
+        "관리자 ID",
+        "관리자 식별 번호",
+        "관리자 고유 번호",
+        "manager number",
+        "manager identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "railway_manage_From_Year",
+      "domain": "railway_manage",
+      "source_table": "railway_manage",
+      "source_column": "From_Year",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "from year",
+      "synonyms": [
+        "From_Year",
+        "시작 연도",
+        "운영 시작 연도",
+        "운영 시작년도",
+        "시작년도"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": [
+          "2020년"
+        ],
+        "2021": [
+          "2021년"
+        ],
+        "2022": [
+          "2022년"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "train_railway_fk0",
+      "domain": "train",
+      "range": "railway",
+      "source_fk": [
+        "train.Railway_ID",
+        "railway.Railway_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "railway_manage_railway_fk1",
+      "domain": "railway_manage",
+      "range": "railway",
+      "source_fk": [
+        "railway_manage.Railway_ID",
+        "railway.Railway_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "railway_manage_manager_fk2",
+      "domain": "railway_manage",
+      "range": "manager",
+      "source_fk": [
+        "railway_manage.Manager_ID",
+        "manager.Manager_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

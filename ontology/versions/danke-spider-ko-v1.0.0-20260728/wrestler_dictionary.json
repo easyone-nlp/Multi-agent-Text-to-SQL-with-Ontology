@@ -1,0 +1,585 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "워스터러",
+      "target_class": "wrestler",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "격투선수",
+      "target_class": "wrestler",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "무술가",
+      "target_class": "wrestler",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "격투인",
+      "target_class": "wrestler",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠인",
+      "target_class": "wrestler",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "체육인",
+      "target_class": "wrestler",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "제거",
+      "target_class": "Elimination",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "탈락",
+      "target_class": "Elimination",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "탈락자",
+      "target_class": "Elimination",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "탈락 경기",
+      "target_class": "Elimination",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "탈락자 목록",
+      "target_class": "Elimination",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "탈락자 정보",
+      "target_class": "Elimination",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "탈락자 기록",
+      "target_class": "Elimination",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "탈락자 리스트",
+      "target_class": "Elimination",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "탈락자 데이터",
+      "target_class": "Elimination",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워스터러 id",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Wrestler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워스터 ID",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Wrestler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워스터 번호",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Wrestler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Wrestler_ID",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Wrestler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워스터 식별자",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Wrestler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Wrestler No",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Wrestler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워스터 고유번호",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Wrestler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Wrestler 식별자",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Wrestler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표 이름",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대상 이름",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리건",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Reign",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지배 기간",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Reign",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "재임 기간",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Reign",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "재임",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Reign",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지배",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Reign",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "reign",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Reign",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일수 유지",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Days_held",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일수",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Days_held",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 기간",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Days_held",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일수 보유",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Days_held",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일수 보유 기간",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Days_held",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일수 유지 기간",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Days_held",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일수 기간",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Days_held",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "본부지",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활동 지역",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 정보",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활동 베이스",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Event",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Event",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워머스 이벤트",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Event",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 이름",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Event",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 이름",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Event",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트명",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Event",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워머스 경기",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Event",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제거 ID",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Elimination_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "워스터러 ID",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Wrestler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제거된 사람",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Eliminated_By",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제거 동작",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Elimination_Move",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Time",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "김철수",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Name",
+      "value": "김철수"
+    },
+    {
+      "entry_type": "value",
+      "key": "철수",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Name",
+      "value": "김철수"
+    },
+    {
+      "entry_type": "value",
+      "key": "1년",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Reign",
+      "value": "1년"
+    },
+    {
+      "entry_type": "value",
+      "key": "일년",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Reign",
+      "value": "1년"
+    },
+    {
+      "entry_type": "value",
+      "key": "365",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Days_held",
+      "value": "365"
+    },
+    {
+      "entry_type": "value",
+      "key": "365일",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Days_held",
+      "value": "365"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Location",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Location",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "무대",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Event",
+      "value": "무대"
+    },
+    {
+      "entry_type": "value",
+      "key": "경기",
+      "target_class": "wrestler",
+      "target_property": "wrestler_Event",
+      "value": "무대"
+    },
+    {
+      "entry_type": "value",
+      "key": "팀 A",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Team",
+      "value": "팀 A"
+    },
+    {
+      "entry_type": "value",
+      "key": "팀A",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Team",
+      "value": "팀 A"
+    },
+    {
+      "entry_type": "value",
+      "key": "팀 B",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Team",
+      "value": "팀 B"
+    },
+    {
+      "entry_type": "value",
+      "key": "팀B",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Team",
+      "value": "팀 B"
+    },
+    {
+      "entry_type": "value",
+      "key": "김철수",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Eliminated_By",
+      "value": "김철수"
+    },
+    {
+      "entry_type": "value",
+      "key": "이영희",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Eliminated_By",
+      "value": "이영희"
+    },
+    {
+      "entry_type": "value",
+      "key": "스핀 블러스트",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Elimination_Move",
+      "value": "스핀 블러스트"
+    },
+    {
+      "entry_type": "value",
+      "key": "스윙 히트",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Elimination_Move",
+      "value": "스윙 히트"
+    },
+    {
+      "entry_type": "value",
+      "key": "00:15",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Time",
+      "value": "00:15"
+    },
+    {
+      "entry_type": "value",
+      "key": "15초",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Time",
+      "value": "00:15"
+    },
+    {
+      "entry_type": "value",
+      "key": "01:30",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Time",
+      "value": "01:30"
+    },
+    {
+      "entry_type": "value",
+      "key": "1분 30초",
+      "target_class": "Elimination",
+      "target_property": "Elimination_Time",
+      "value": "01:30"
+    }
+  ]
+}

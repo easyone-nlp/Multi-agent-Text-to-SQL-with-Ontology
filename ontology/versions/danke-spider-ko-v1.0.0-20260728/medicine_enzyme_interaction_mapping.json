@@ -1,0 +1,75 @@
+{
+  "class_table": {
+    "medicine": "medicine",
+    "enzyme": "enzyme",
+    "medicine_enzyme_interaction": "medicine_enzyme_interaction"
+  },
+  "property_column": {
+    "medicine_id": [
+      "medicine",
+      "id"
+    ],
+    "medicine_name": [
+      "medicine",
+      "name"
+    ],
+    "medicine_Trade_Name": [
+      "medicine",
+      "Trade_Name"
+    ],
+    "medicine_FDA_approved": [
+      "medicine",
+      "FDA_approved"
+    ],
+    "enzyme_id": [
+      "enzyme",
+      "id"
+    ],
+    "enzyme_name": [
+      "enzyme",
+      "name"
+    ],
+    "enzyme_Location": [
+      "enzyme",
+      "Location"
+    ],
+    "enzyme_Product": [
+      "enzyme",
+      "Product"
+    ],
+    "enzyme_Chromosome": [
+      "enzyme",
+      "Chromosome"
+    ],
+    "enzyme_OMIM": [
+      "enzyme",
+      "OMIM"
+    ],
+    "enzyme_Porphyria": [
+      "enzyme",
+      "Porphyria"
+    ],
+    "medicine_enzyme_interaction_enzyme_id": [
+      "medicine_enzyme_interaction",
+      "enzyme_id"
+    ],
+    "medicine_enzyme_interaction_medicine_id": [
+      "medicine_enzyme_interaction",
+      "medicine_id"
+    ],
+    "medicine_enzyme_interaction_interaction_type": [
+      "medicine_enzyme_interaction",
+      "interaction_type"
+    ]
+  },
+  "object_property_fk": {
+    "medicine_enzyme_interaction_medicine_fk0": [
+      "medicine_enzyme_interaction.medicine_id",
+      "medicine.id"
+    ],
+    "medicine_enzyme_interaction_enzyme_fk1": [
+      "medicine_enzyme_interaction.enzyme_id",
+      "enzyme.id"
+    ]
+  }
+}

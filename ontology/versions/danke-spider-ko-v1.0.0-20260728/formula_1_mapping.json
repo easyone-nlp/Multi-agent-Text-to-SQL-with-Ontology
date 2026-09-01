@@ -1,0 +1,465 @@
+{
+  "class_table": {
+    "circuits": "circuits",
+    "races": "races",
+    "drivers": "drivers",
+    "status": "status",
+    "seasons": "seasons",
+    "constructors": "constructors",
+    "constructorStandings": "constructorStandings",
+    "results": "results",
+    "driverStandings": "driverStandings",
+    "constructorResults": "constructorResults",
+    "qualifying": "qualifying",
+    "pitStops": "pitStops",
+    "lapTimes": "lapTimes"
+  },
+  "property_column": {
+    "circuits_circuitId": [
+      "circuits",
+      "circuitId"
+    ],
+    "circuits_circuitRef": [
+      "circuits",
+      "circuitRef"
+    ],
+    "circuits_name": [
+      "circuits",
+      "name"
+    ],
+    "circuits_location": [
+      "circuits",
+      "location"
+    ],
+    "circuits_country": [
+      "circuits",
+      "country"
+    ],
+    "circuits_lat": [
+      "circuits",
+      "lat"
+    ],
+    "circuits_lng": [
+      "circuits",
+      "lng"
+    ],
+    "circuits_alt": [
+      "circuits",
+      "alt"
+    ],
+    "circuits_url": [
+      "circuits",
+      "url"
+    ],
+    "races_raceId": [
+      "races",
+      "raceId"
+    ],
+    "races_year": [
+      "races",
+      "year"
+    ],
+    "races_round": [
+      "races",
+      "round"
+    ],
+    "races_circuitId": [
+      "races",
+      "circuitId"
+    ],
+    "races_name": [
+      "races",
+      "name"
+    ],
+    "races_date": [
+      "races",
+      "date"
+    ],
+    "races_time": [
+      "races",
+      "time"
+    ],
+    "races_url": [
+      "races",
+      "url"
+    ],
+    "drivers_driverId": [
+      "drivers",
+      "driverId"
+    ],
+    "drivers_driverRef": [
+      "drivers",
+      "driverRef"
+    ],
+    "drivers_number": [
+      "drivers",
+      "number"
+    ],
+    "drivers_code": [
+      "drivers",
+      "code"
+    ],
+    "drivers_forename": [
+      "drivers",
+      "forename"
+    ],
+    "drivers_surname": [
+      "drivers",
+      "surname"
+    ],
+    "drivers_dob": [
+      "drivers",
+      "dob"
+    ],
+    "drivers_nationality": [
+      "drivers",
+      "nationality"
+    ],
+    "drivers_url": [
+      "drivers",
+      "url"
+    ],
+    "status_statusId": [
+      "status",
+      "statusId"
+    ],
+    "status_status": [
+      "status",
+      "status"
+    ],
+    "seasons_year": [
+      "seasons",
+      "year"
+    ],
+    "seasons_url": [
+      "seasons",
+      "url"
+    ],
+    "constructors_constructorId": [
+      "constructors",
+      "constructorId"
+    ],
+    "constructors_constructorRef": [
+      "constructors",
+      "constructorRef"
+    ],
+    "constructors_name": [
+      "constructors",
+      "name"
+    ],
+    "constructors_nationality": [
+      "constructors",
+      "nationality"
+    ],
+    "constructors_url": [
+      "constructors",
+      "url"
+    ],
+    "constructorStandings_constructorStandingsId": [
+      "constructorStandings",
+      "constructorStandingsId"
+    ],
+    "constructorStandings_raceId": [
+      "constructorStandings",
+      "raceId"
+    ],
+    "constructorStandings_constructorId": [
+      "constructorStandings",
+      "constructorId"
+    ],
+    "constructorStandings_points": [
+      "constructorStandings",
+      "points"
+    ],
+    "constructorStandings_position": [
+      "constructorStandings",
+      "position"
+    ],
+    "constructorStandings_positionText": [
+      "constructorStandings",
+      "positionText"
+    ],
+    "constructorStandings_wins": [
+      "constructorStandings",
+      "wins"
+    ],
+    "results_resultId": [
+      "results",
+      "resultId"
+    ],
+    "results_raceId": [
+      "results",
+      "raceId"
+    ],
+    "results_driverId": [
+      "results",
+      "driverId"
+    ],
+    "results_constructorId": [
+      "results",
+      "constructorId"
+    ],
+    "results_number": [
+      "results",
+      "number"
+    ],
+    "results_grid": [
+      "results",
+      "grid"
+    ],
+    "results_position": [
+      "results",
+      "position"
+    ],
+    "results_positionText": [
+      "results",
+      "positionText"
+    ],
+    "results_positionOrder": [
+      "results",
+      "positionOrder"
+    ],
+    "results_points": [
+      "results",
+      "points"
+    ],
+    "results_laps": [
+      "results",
+      "laps"
+    ],
+    "results_time": [
+      "results",
+      "time"
+    ],
+    "results_milliseconds": [
+      "results",
+      "milliseconds"
+    ],
+    "results_fastestLap": [
+      "results",
+      "fastestLap"
+    ],
+    "results_rank": [
+      "results",
+      "rank"
+    ],
+    "results_fastestLapTime": [
+      "results",
+      "fastestLapTime"
+    ],
+    "results_fastestLapSpeed": [
+      "results",
+      "fastestLapSpeed"
+    ],
+    "results_statusId": [
+      "results",
+      "statusId"
+    ],
+    "driverStandings_driverStandingsId": [
+      "driverStandings",
+      "driverStandingsId"
+    ],
+    "driverStandings_raceId": [
+      "driverStandings",
+      "raceId"
+    ],
+    "driverStandings_driverId": [
+      "driverStandings",
+      "driverId"
+    ],
+    "driverStandings_points": [
+      "driverStandings",
+      "points"
+    ],
+    "driverStandings_position": [
+      "driverStandings",
+      "position"
+    ],
+    "driverStandings_positionText": [
+      "driverStandings",
+      "positionText"
+    ],
+    "driverStandings_wins": [
+      "driverStandings",
+      "wins"
+    ],
+    "constructorResults_constructorResultsId": [
+      "constructorResults",
+      "constructorResultsId"
+    ],
+    "constructorResults_raceId": [
+      "constructorResults",
+      "raceId"
+    ],
+    "constructorResults_constructorId": [
+      "constructorResults",
+      "constructorId"
+    ],
+    "constructorResults_points": [
+      "constructorResults",
+      "points"
+    ],
+    "constructorResults_status": [
+      "constructorResults",
+      "status"
+    ],
+    "qualifying_qualifyId": [
+      "qualifying",
+      "qualifyId"
+    ],
+    "qualifying_raceId": [
+      "qualifying",
+      "raceId"
+    ],
+    "qualifying_driverId": [
+      "qualifying",
+      "driverId"
+    ],
+    "qualifying_constructorId": [
+      "qualifying",
+      "constructorId"
+    ],
+    "qualifying_number": [
+      "qualifying",
+      "number"
+    ],
+    "qualifying_position": [
+      "qualifying",
+      "position"
+    ],
+    "qualifying_q1": [
+      "qualifying",
+      "q1"
+    ],
+    "qualifying_q2": [
+      "qualifying",
+      "q2"
+    ],
+    "qualifying_q3": [
+      "qualifying",
+      "q3"
+    ],
+    "pitStops_raceId": [
+      "pitStops",
+      "raceId"
+    ],
+    "pitStops_driverId": [
+      "pitStops",
+      "driverId"
+    ],
+    "pitStops_stop": [
+      "pitStops",
+      "stop"
+    ],
+    "pitStops_lap": [
+      "pitStops",
+      "lap"
+    ],
+    "pitStops_time": [
+      "pitStops",
+      "time"
+    ],
+    "pitStops_duration": [
+      "pitStops",
+      "duration"
+    ],
+    "pitStops_milliseconds": [
+      "pitStops",
+      "milliseconds"
+    ],
+    "lapTimes_raceId": [
+      "lapTimes",
+      "raceId"
+    ],
+    "lapTimes_driverId": [
+      "lapTimes",
+      "driverId"
+    ],
+    "lapTimes_lap": [
+      "lapTimes",
+      "lap"
+    ],
+    "lapTimes_position": [
+      "lapTimes",
+      "position"
+    ],
+    "lapTimes_time": [
+      "lapTimes",
+      "time"
+    ],
+    "lapTimes_milliseconds": [
+      "lapTimes",
+      "milliseconds"
+    ]
+  },
+  "object_property_fk": {
+    "races_circuits_fk0": [
+      "races.circuitId",
+      "circuits.circuitId"
+    ],
+    "constructorStandings_races_fk1": [
+      "constructorStandings.raceId",
+      "races.raceId"
+    ],
+    "constructorStandings_constructors_fk2": [
+      "constructorStandings.constructorId",
+      "constructors.constructorId"
+    ],
+    "results_drivers_fk3": [
+      "results.driverId",
+      "drivers.driverId"
+    ],
+    "results_races_fk4": [
+      "results.raceId",
+      "races.raceId"
+    ],
+    "results_constructors_fk5": [
+      "results.constructorId",
+      "constructors.constructorId"
+    ],
+    "driverStandings_drivers_fk6": [
+      "driverStandings.driverId",
+      "drivers.driverId"
+    ],
+    "driverStandings_races_fk7": [
+      "driverStandings.raceId",
+      "races.raceId"
+    ],
+    "constructorResults_races_fk8": [
+      "constructorResults.raceId",
+      "races.raceId"
+    ],
+    "constructorResults_constructors_fk9": [
+      "constructorResults.constructorId",
+      "constructors.constructorId"
+    ],
+    "qualifying_drivers_fk10": [
+      "qualifying.driverId",
+      "drivers.driverId"
+    ],
+    "qualifying_races_fk11": [
+      "qualifying.raceId",
+      "races.raceId"
+    ],
+    "qualifying_constructors_fk12": [
+      "qualifying.constructorId",
+      "constructors.constructorId"
+    ],
+    "pitStops_drivers_fk13": [
+      "pitStops.driverId",
+      "drivers.driverId"
+    ],
+    "pitStops_races_fk14": [
+      "pitStops.raceId",
+      "races.raceId"
+    ],
+    "lapTimes_drivers_fk15": [
+      "lapTimes.driverId",
+      "drivers.driverId"
+    ],
+    "lapTimes_races_fk16": [
+      "lapTimes.raceId",
+      "races.raceId"
+    ]
+  }
+}

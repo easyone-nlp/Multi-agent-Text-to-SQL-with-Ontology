@@ -1,0 +1,387 @@
+{
+  "db_id": "department_management",
+  "classes": [
+    {
+      "name": "department",
+      "source_table": "department",
+      "ranking": 3.0,
+      "primary_label": "부서",
+      "synonyms": [
+        "부서",
+        "팀",
+        "사업부",
+        "그룹",
+        "단위"
+      ]
+    },
+    {
+      "name": "head",
+      "source_table": "head",
+      "ranking": 1.0,
+      "primary_label": "머리 id",
+      "synonyms": [
+        "책임자",
+        "관리자",
+        "대표",
+        "이사",
+        "주임"
+      ]
+    },
+    {
+      "name": "management",
+      "source_table": "management",
+      "ranking": 3.0,
+      "primary_label": "관리부서",
+      "synonyms": [
+        "관리",
+        "운영",
+        "조직",
+        "제어",
+        "지휘"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "department_Department_ID",
+      "domain": "department",
+      "source_table": "department",
+      "source_column": "Department_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "부서 ID",
+      "synonyms": [
+        "부서 ID",
+        "사서기 번호",
+        "부서 코드",
+        "식별자",
+        "Department_ID",
+        "부서 고유 번호",
+        "부서 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "department_Name",
+      "domain": "department",
+      "source_table": "department",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "부서명",
+        "명칭",
+        "회사 부서",
+        "부서 이름",
+        "Name",
+        "부서 대표 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "경영부": [
+          "경영부"
+        ],
+        "기술부": [
+          "기술부"
+        ]
+      }
+    },
+    {
+      "name": "department_Creation",
+      "domain": "department",
+      "source_table": "department",
+      "source_column": "Creation",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "창립",
+      "synonyms": [
+        "설립일",
+        "창립일",
+        "설립 날짜",
+        "Creation",
+        "부서 창립일",
+        "설립 일자",
+        "부서 생성일"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2010년": [
+          "2010년"
+        ]
+      }
+    },
+    {
+      "name": "department_Ranking",
+      "domain": "department",
+      "source_table": "department",
+      "source_column": "Ranking",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "등급",
+      "synonyms": [
+        "등급",
+        "순위",
+        "랭킹",
+        "등수",
+        "Ranking",
+        "순위 정보",
+        "등급 값",
+        "등급 순위"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "department_Budget_in_Billions",
+      "domain": "department",
+      "source_table": "department",
+      "source_column": "Budget_in_Billions",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "조달 비용(조)",
+      "synonyms": [
+        "예산",
+        "십억 예산",
+        "예산 금액",
+        "십억 단위 예산",
+        "예산액",
+        "Budget_in_Billions",
+        "예산 수치",
+        "십억 예산 금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "department_Num_Employees",
+      "domain": "department",
+      "source_table": "department",
+      "source_column": "Num_Employees",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "직원 수",
+      "synonyms": [
+        "직원 수",
+        "직원 개수",
+        "직원 수치",
+        "인원 수",
+        "Num_Employees",
+        "직원 수량",
+        "직원 인원"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "head_head_ID",
+      "domain": "head",
+      "source_table": "head",
+      "source_column": "head_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "머리 id",
+      "synonyms": [
+        "head_ID",
+        "head identifier",
+        "head code",
+        "head number",
+        "head unique id",
+        "head key"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "head_name",
+      "domain": "head",
+      "source_table": "head",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "head name",
+        "head title",
+        "head identifier name",
+        "head full name",
+        "head label"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김철수": [
+          "김철수"
+        ]
+      }
+    },
+    {
+      "name": "head_born_state",
+      "domain": "head",
+      "source_table": "head",
+      "source_column": "born_state",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "출생 지방",
+      "synonyms": [
+        "born_state",
+        "birth state",
+        "birth place",
+        "origin",
+        "place of birth",
+        "born location",
+        "born area",
+        "head birth state"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ]
+      }
+    },
+    {
+      "name": "head_age",
+      "domain": "head",
+      "source_table": "head",
+      "source_column": "age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "나이",
+      "synonyms": [
+        "연령",
+        "나이",
+        "생년월일 기반 연령",
+        "연대",
+        "나이 정보",
+        "연령 데이터",
+        "나이 값",
+        "연령 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "management_department_ID",
+      "domain": "management",
+      "source_table": "management",
+      "source_column": "department_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "부서 ID",
+      "synonyms": [
+        "department_ID",
+        "department number",
+        "dept id",
+        "department code",
+        "dept number",
+        "department identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "management_head_ID",
+      "domain": "management",
+      "source_table": "management",
+      "source_column": "head_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "장관 ID",
+      "synonyms": [
+        "head_ID",
+        "head number",
+        "manager id",
+        "head code",
+        "manager number",
+        "head identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "management_temporary_acting",
+      "domain": "management",
+      "source_table": "management",
+      "source_column": "temporary_acting",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "임시 대행",
+      "synonyms": [
+        "temporary_acting",
+        "temporary manager",
+        "acting head",
+        "temporary head",
+        "acting manager",
+        "temporary manager info"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "예": [
+          "예",
+          "yes"
+        ],
+        "아니오": [
+          "아니오",
+          "no"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "management_head_fk0",
+      "domain": "management",
+      "range": "head",
+      "source_fk": [
+        "management.head_ID",
+        "head.head_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "management_department_fk1",
+      "domain": "management",
+      "range": "department",
+      "source_fk": [
+        "management.department_ID",
+        "department.Department_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

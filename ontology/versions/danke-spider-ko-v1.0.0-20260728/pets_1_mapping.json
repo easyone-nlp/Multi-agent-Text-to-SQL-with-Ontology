@@ -1,0 +1,75 @@
+{
+  "class_table": {
+    "Student": "Student",
+    "Has_Pet": "Has_Pet",
+    "Pets": "Pets"
+  },
+  "property_column": {
+    "Student_StuID": [
+      "Student",
+      "StuID"
+    ],
+    "Student_LName": [
+      "Student",
+      "LName"
+    ],
+    "Student_Fname": [
+      "Student",
+      "Fname"
+    ],
+    "Student_Age": [
+      "Student",
+      "Age"
+    ],
+    "Student_Sex": [
+      "Student",
+      "Sex"
+    ],
+    "Student_Major": [
+      "Student",
+      "Major"
+    ],
+    "Student_Advisor": [
+      "Student",
+      "Advisor"
+    ],
+    "Student_city_code": [
+      "Student",
+      "city_code"
+    ],
+    "Has_Pet_StuID": [
+      "Has_Pet",
+      "StuID"
+    ],
+    "Has_Pet_PetID": [
+      "Has_Pet",
+      "PetID"
+    ],
+    "Pets_PetID": [
+      "Pets",
+      "PetID"
+    ],
+    "Pets_PetType": [
+      "Pets",
+      "PetType"
+    ],
+    "Pets_pet_age": [
+      "Pets",
+      "pet_age"
+    ],
+    "Pets_weight": [
+      "Pets",
+      "weight"
+    ]
+  },
+  "object_property_fk": {
+    "Has_Pet_Student_fk0": [
+      "Has_Pet.StuID",
+      "Student.StuID"
+    ],
+    "Has_Pet_Pets_fk1": [
+      "Has_Pet.PetID",
+      "Pets.PetID"
+    ]
+  }
+}

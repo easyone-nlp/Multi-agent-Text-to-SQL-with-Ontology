@@ -1,0 +1,71 @@
+{
+  "class_table": {
+    "artist": "artist",
+    "exhibition": "exhibition",
+    "exhibition_record": "exhibition_record"
+  },
+  "property_column": {
+    "artist_Artist_ID": [
+      "artist",
+      "Artist_ID"
+    ],
+    "artist_Name": [
+      "artist",
+      "Name"
+    ],
+    "artist_Country": [
+      "artist",
+      "Country"
+    ],
+    "artist_Year_Join": [
+      "artist",
+      "Year_Join"
+    ],
+    "artist_Age": [
+      "artist",
+      "Age"
+    ],
+    "exhibition_Exhibition_ID": [
+      "exhibition",
+      "Exhibition_ID"
+    ],
+    "exhibition_Year": [
+      "exhibition",
+      "Year"
+    ],
+    "exhibition_Theme": [
+      "exhibition",
+      "Theme"
+    ],
+    "exhibition_Artist_ID": [
+      "exhibition",
+      "Artist_ID"
+    ],
+    "exhibition_Ticket_Price": [
+      "exhibition",
+      "Ticket_Price"
+    ],
+    "exhibition_record_Exhibition_ID": [
+      "exhibition_record",
+      "Exhibition_ID"
+    ],
+    "exhibition_record_Date": [
+      "exhibition_record",
+      "Date"
+    ],
+    "exhibition_record_Attendance": [
+      "exhibition_record",
+      "Attendance"
+    ]
+  },
+  "object_property_fk": {
+    "exhibition_artist_fk0": [
+      "exhibition.Artist_ID",
+      "artist.Artist_ID"
+    ],
+    "exhibition_record_exhibition_fk1": [
+      "exhibition_record.Exhibition_ID",
+      "exhibition.Exhibition_ID"
+    ]
+  }
+}

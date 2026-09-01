@@ -1,0 +1,853 @@
+{
+  "db_id": "e_learning",
+  "classes": [
+    {
+      "name": "Course_Authors_and_Tutors",
+      "source_table": "Course_Authors_and_Tutors",
+      "ranking": 3.5,
+      "primary_label": "course authors and tutors",
+      "synonyms": [
+        "강사 및 강의 개발자",
+        "강의 담당자",
+        "강의 작성자",
+        "강의 책임자",
+        "강의 작성자 및 강사",
+        "강의 개발자 및 강사"
+      ]
+    },
+    {
+      "name": "Students",
+      "source_table": "Students",
+      "ranking": 3.5,
+      "primary_label": "학생",
+      "synonyms": [
+        "학생",
+        "학습자",
+        "학습자 정보",
+        "학생 데이터",
+        "학생 목록",
+        "학습자 목록"
+      ]
+    },
+    {
+      "name": "Subjects",
+      "source_table": "Subjects",
+      "ranking": 3.0,
+      "primary_label": "과목",
+      "synonyms": [
+        "학과",
+        "과목",
+        "학문 분야",
+        "학문 주제",
+        "학과 정보",
+        "과목 정보",
+        "학문 분야 정보"
+      ]
+    },
+    {
+      "name": "Courses",
+      "source_table": "Courses",
+      "ranking": 3.5,
+      "primary_label": "강좌",
+      "synonyms": [
+        "강의 정보",
+        "강의 목록",
+        "강의 데이터",
+        "수업 정보",
+        "강의 내용"
+      ]
+    },
+    {
+      "name": "Student_Course_Enrolment",
+      "source_table": "Student_Course_Enrolment",
+      "ranking": 3.5,
+      "primary_label": "학생 수강 등록",
+      "synonyms": [
+        "수강 기록",
+        "강의 등록",
+        "수강 내역",
+        "강의 등록 정보",
+        "학생 수강 기록"
+      ]
+    },
+    {
+      "name": "Student_Tests_Taken",
+      "source_table": "Student_Tests_Taken",
+      "ranking": 3.5,
+      "primary_label": "학생 시험 참여 내역",
+      "synonyms": [
+        "테스트 기록",
+        "시험 내역",
+        "테스트 성적",
+        "시험 결과",
+        "학생 테스트 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Course_Authors_and_Tutors_author_id",
+      "domain": "Course_Authors_and_Tutors",
+      "source_table": "Course_Authors_and_Tutors",
+      "source_column": "author_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "author id",
+      "synonyms": [
+        "author_id",
+        "강사 ID",
+        "강의자 ID",
+        "아UTHOR_ID",
+        "강사 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Course_Authors_and_Tutors_author_tutor_ATB",
+      "domain": "Course_Authors_and_Tutors",
+      "source_table": "Course_Authors_and_Tutors",
+      "source_column": "author_tutor_ATB",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "author tutor atb",
+      "synonyms": [
+        "author_tutor_ATB",
+        "강사 역할",
+        "강의자 상태",
+        "ATB 정보",
+        "강사 타입"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Course_Authors_and_Tutors_login_name",
+      "domain": "Course_Authors_and_Tutors",
+      "source_table": "Course_Authors_and_Tutors",
+      "source_column": "login_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "login name",
+      "synonyms": [
+        "login_name",
+        "로그인 이름",
+        "아이디",
+        "강사 이름",
+        "강의자 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Course_Authors_and_Tutors_password",
+      "domain": "Course_Authors_and_Tutors",
+      "source_table": "Course_Authors_and_Tutors",
+      "source_column": "password",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.5,
+      "primary_label": "password",
+      "synonyms": [
+        "비밀번호",
+        "암호",
+        "패스워드",
+        "비밀번호 정보",
+        "로그인 비밀번호",
+        "암호화된 비밀번호",
+        "패스워드 값",
+        "계정 비밀번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Course_Authors_and_Tutors_personal_name",
+      "domain": "Course_Authors_and_Tutors",
+      "source_table": "Course_Authors_and_Tutors",
+      "source_column": "personal_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "personal name",
+      "synonyms": [
+        "이름",
+        "개인 이름",
+        "이름 정보",
+        "실명",
+        "성명",
+        "이름 필드",
+        "개인 이름 정보",
+        "이름 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Course_Authors_and_Tutors_middle_name",
+      "domain": "Course_Authors_and_Tutors",
+      "source_table": "Course_Authors_and_Tutors",
+      "source_column": "middle_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "middle name",
+      "synonyms": [
+        "중간 이름",
+        "이름 중간",
+        "중간 성명",
+        "중간 이름 정보",
+        "이름 중간 부분",
+        "중간 이름 데이터",
+        "중간 이름 필드",
+        "중간 이름 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Course_Authors_and_Tutors_family_name",
+      "domain": "Course_Authors_and_Tutors",
+      "source_table": "Course_Authors_and_Tutors",
+      "source_column": "family_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "family name",
+      "synonyms": [
+        "가족 이름",
+        "성",
+        "성명",
+        "성씨",
+        "가족 성",
+        "성자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Course_Authors_and_Tutors_gender_mf",
+      "domain": "Course_Authors_and_Tutors",
+      "source_table": "Course_Authors_and_Tutors",
+      "source_column": "gender_mf",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "gender mf",
+      "synonyms": [
+        "성별",
+        "성별 정보",
+        "성별 구분",
+        "성별 코드",
+        "성별 데이터",
+        "성별 구분자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "M": [
+          "남성"
+        ],
+        "F": [
+          "여성"
+        ]
+      }
+    },
+    {
+      "name": "Course_Authors_and_Tutors_address_line_1",
+      "domain": "Course_Authors_and_Tutors",
+      "source_table": "Course_Authors_and_Tutors",
+      "source_column": "address_line_1",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "address line 1",
+      "synonyms": [
+        "주소 첫 줄",
+        "주소 1번지",
+        "주소 1",
+        "주소 라인 1",
+        "주소 1번",
+        "주소 첫 번째 줄",
+        "주소 1라인"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_student_id",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "student_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 ID",
+        "학번",
+        "학습자 ID",
+        "학습자 고유 번호",
+        "student id",
+        "학습자 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_date_of_registration",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "date_of_registration",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "등록일",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_date_of_latest_logon",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "date_of_latest_logon",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "최근 로그인 일시",
+      "synonyms": [
+        "최근 로그인 일시",
+        "최근 접속 시간",
+        "로그인 날짜",
+        "최근 로그인 날짜",
+        "접속 일시",
+        "로그인 시간",
+        "최근 접속 날짜",
+        "최근 로그인 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_login_name",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "login_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "로그인 이름",
+      "synonyms": [
+        "로그인 이름",
+        "아이디",
+        "계정 이름",
+        "학습자 아이디",
+        "로그인 아이디",
+        "login_name",
+        "ID"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "student123": [
+          "student123",
+          "user001"
+        ]
+      }
+    },
+    {
+      "name": "Students_password",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "password",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "비밀번호",
+      "synonyms": [
+        "암호",
+        "비밀번호",
+        "패스워드",
+        "password",
+        "암호화된 비밀번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_personal_name",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "personal_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성명",
+      "synonyms": [
+        "개인 이름",
+        "이름",
+        "본명",
+        "실명",
+        "실제 이름",
+        "개인명",
+        "성명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_middle_name",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "middle_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "중간 이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_family_name",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "family_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "가족 이름",
+      "synonyms": [
+        "가족 이름",
+        "성",
+        "성명",
+        "성부",
+        "성 이름",
+        "가족 성"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Subjects_subject_id",
+      "domain": "Subjects",
+      "source_table": "Subjects",
+      "source_column": "subject_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "과목 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Subjects_subject_name",
+      "domain": "Subjects",
+      "source_table": "Subjects",
+      "source_column": "subject_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "과목 이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "수학": [
+          "수학"
+        ],
+        "물리": [
+          "물리"
+        ],
+        "화학": [
+          "화학"
+        ]
+      }
+    },
+    {
+      "name": "Courses_course_id",
+      "domain": "Courses",
+      "source_table": "Courses",
+      "source_column": "course_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "강좌 ID",
+      "synonyms": [
+        "course_id",
+        "강의 ID",
+        "강의 번호",
+        "강의 식별자",
+        "강의 코드",
+        "course number",
+        "course identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Courses_author_id",
+      "domain": "Courses",
+      "source_table": "Courses",
+      "source_column": "author_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "작성자 ID",
+      "synonyms": [
+        "author_id",
+        "작성자 ID",
+        "작성자 번호",
+        "작성자 식별자",
+        "author number",
+        "author identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Courses_subject_id",
+      "domain": "Courses",
+      "source_table": "Courses",
+      "source_column": "subject_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "과목 ID",
+      "synonyms": [
+        "subject_id",
+        "과목 ID",
+        "과목 번호",
+        "과목 식별자",
+        "subject number",
+        "subject identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Courses_course_name",
+      "domain": "Courses",
+      "source_table": "Courses",
+      "source_column": "course_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "강좌 이름",
+      "synonyms": [
+        "강의명",
+        "수업명",
+        "과정 이름",
+        "과정명",
+        "course name",
+        "강의 제목",
+        "과정 제목"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "기초 프로그래밍": [
+          "기초 프로그래밍"
+        ],
+        "데이터 분석": [
+          "데이터 분석"
+        ]
+      }
+    },
+    {
+      "name": "Courses_course_description",
+      "domain": "Courses",
+      "source_table": "Courses",
+      "source_column": "course_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "강좌 설명",
+      "synonyms": [
+        "강의 설명",
+        "수업 설명",
+        "과정 설명",
+        "과정 소개",
+        "course description",
+        "강의 요약",
+        "과정 요약"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Course_Enrolment_registration_id",
+      "domain": "Student_Course_Enrolment",
+      "source_table": "Student_Course_Enrolment",
+      "source_column": "registration_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "등록 ID",
+      "synonyms": [
+        "등록 번호",
+        "등록 ID",
+        "등록 식별자",
+        "등록 고유 ID",
+        "등록 인식자",
+        "등록 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Course_Enrolment_student_id",
+      "domain": "Student_Course_Enrolment",
+      "source_table": "Student_Course_Enrolment",
+      "source_column": "student_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 ID",
+        "학생 번호",
+        "학생 식별자",
+        "학생 고유 ID",
+        "학생 인식자",
+        "학생 코드",
+        "학생 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Course_Enrolment_course_id",
+      "domain": "Student_Course_Enrolment",
+      "source_table": "Student_Course_Enrolment",
+      "source_column": "course_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "강좌 ID",
+      "synonyms": [
+        "과정 ID",
+        "과정 번호",
+        "과정 식별자",
+        "과정 고유 ID",
+        "과정 인식자",
+        "과정 코드",
+        "과정 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Course_Enrolment_date_of_enrolment",
+      "domain": "Student_Course_Enrolment",
+      "source_table": "Student_Course_Enrolment",
+      "source_column": "date_of_enrolment",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "등록 일시",
+      "synonyms": [
+        "등록일",
+        "등록일시",
+        "등록 날짜",
+        "등록 시간",
+        "등록 일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Course_Enrolment_date_of_completion",
+      "domain": "Student_Course_Enrolment",
+      "source_table": "Student_Course_Enrolment",
+      "source_column": "date_of_completion",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "완료 일시",
+      "synonyms": [
+        "완료일",
+        "완료일시",
+        "완료 날짜",
+        "완료 시간",
+        "완료 일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Tests_Taken_registration_id",
+      "domain": "Student_Tests_Taken",
+      "source_table": "Student_Tests_Taken",
+      "source_column": "registration_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "등록 ID",
+      "synonyms": [
+        "등록 ID",
+        "학생 등록 번호",
+        "등록 번호",
+        "학번",
+        "등록자 ID",
+        "registration id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Tests_Taken_date_test_taken",
+      "domain": "Student_Tests_Taken",
+      "source_table": "Student_Tests_Taken",
+      "source_column": "date_test_taken",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "시험 날짜",
+      "synonyms": [
+        "시험 날짜",
+        "시험 일시",
+        "시험 날짜와 시간",
+        "시험 일자",
+        "시험 시간",
+        "date test taken"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-05": [
+          "2023년 10월 5일"
+        ]
+      }
+    },
+    {
+      "name": "Student_Tests_Taken_test_result",
+      "domain": "Student_Tests_Taken",
+      "source_table": "Student_Tests_Taken",
+      "source_column": "test_result",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "시험 결과",
+      "synonyms": [
+        "시험 결과",
+        "시험 성적",
+        "시험 결과 정보",
+        "시험 성적 정보",
+        "시험 결과 내용",
+        "test result"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "합격": [
+          "합격"
+        ],
+        "불합격": [
+          "불합격"
+        ],
+        "보류": [
+          "보류"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Courses_Subjects_fk0",
+      "domain": "Courses",
+      "range": "Subjects",
+      "source_fk": [
+        "Courses.subject_id",
+        "Subjects.subject_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Courses_Course_Authors_and_Tutors_fk1",
+      "domain": "Courses",
+      "range": "Course_Authors_and_Tutors",
+      "source_fk": [
+        "Courses.author_id",
+        "Course_Authors_and_Tutors.author_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "작성한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Student_Course_Enrolment_Students_fk2",
+      "domain": "Student_Course_Enrolment",
+      "range": "Students",
+      "source_fk": [
+        "Student_Course_Enrolment.student_id",
+        "Students.student_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "등록한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Student_Course_Enrolment_Courses_fk3",
+      "domain": "Student_Course_Enrolment",
+      "range": "Courses",
+      "source_fk": [
+        "Student_Course_Enrolment.course_id",
+        "Courses.course_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "수강한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Student_Tests_Taken_Student_Course_Enrolment_fk4",
+      "domain": "Student_Tests_Taken",
+      "range": "Student_Course_Enrolment",
+      "source_fk": [
+        "Student_Tests_Taken.registration_id",
+        "Student_Course_Enrolment.registration_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "class_table": {
+    "Services": "Services",
+    "Participants": "Participants",
+    "Events": "Events",
+    "Participants_in_Events": "Participants_in_Events"
+  },
+  "property_column": {
+    "Services_Service_ID": [
+      "Services",
+      "Service_ID"
+    ],
+    "Services_Service_Type_Code": [
+      "Services",
+      "Service_Type_Code"
+    ],
+    "Participants_Participant_ID": [
+      "Participants",
+      "Participant_ID"
+    ],
+    "Participants_Participant_Type_Code": [
+      "Participants",
+      "Participant_Type_Code"
+    ],
+    "Participants_Participant_Details": [
+      "Participants",
+      "Participant_Details"
+    ],
+    "Events_Event_ID": [
+      "Events",
+      "Event_ID"
+    ],
+    "Events_Service_ID": [
+      "Events",
+      "Service_ID"
+    ],
+    "Events_Event_Details": [
+      "Events",
+      "Event_Details"
+    ],
+    "Participants_in_Events_Event_ID": [
+      "Participants_in_Events",
+      "Event_ID"
+    ],
+    "Participants_in_Events_Participant_ID": [
+      "Participants_in_Events",
+      "Participant_ID"
+    ]
+  },
+  "object_property_fk": {
+    "Events_Services_fk0": [
+      "Events.Service_ID",
+      "Services.Service_ID"
+    ],
+    "Participants_in_Events_Events_fk1": [
+      "Participants_in_Events.Event_ID",
+      "Events.Event_ID"
+    ],
+    "Participants_in_Events_Participants_fk2": [
+      "Participants_in_Events.Participant_ID",
+      "Participants.Participant_ID"
+    ]
+  }
+}

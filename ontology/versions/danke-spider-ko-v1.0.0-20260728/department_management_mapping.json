@@ -1,0 +1,71 @@
+{
+  "class_table": {
+    "department": "department",
+    "head": "head",
+    "management": "management"
+  },
+  "property_column": {
+    "department_Department_ID": [
+      "department",
+      "Department_ID"
+    ],
+    "department_Name": [
+      "department",
+      "Name"
+    ],
+    "department_Creation": [
+      "department",
+      "Creation"
+    ],
+    "department_Ranking": [
+      "department",
+      "Ranking"
+    ],
+    "department_Budget_in_Billions": [
+      "department",
+      "Budget_in_Billions"
+    ],
+    "department_Num_Employees": [
+      "department",
+      "Num_Employees"
+    ],
+    "head_head_ID": [
+      "head",
+      "head_ID"
+    ],
+    "head_name": [
+      "head",
+      "name"
+    ],
+    "head_born_state": [
+      "head",
+      "born_state"
+    ],
+    "head_age": [
+      "head",
+      "age"
+    ],
+    "management_department_ID": [
+      "management",
+      "department_ID"
+    ],
+    "management_head_ID": [
+      "management",
+      "head_ID"
+    ],
+    "management_temporary_acting": [
+      "management",
+      "temporary_acting"
+    ]
+  },
+  "object_property_fk": {
+    "management_head_fk0": [
+      "management.head_ID",
+      "head.head_ID"
+    ],
+    "management_department_fk1": [
+      "management.department_ID",
+      "department.Department_ID"
+    ]
+  }
+}

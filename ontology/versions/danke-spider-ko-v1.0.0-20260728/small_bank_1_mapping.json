@@ -1,0 +1,43 @@
+{
+  "class_table": {
+    "ACCOUNTS": "ACCOUNTS",
+    "SAVINGS": "SAVINGS",
+    "CHECKING": "CHECKING"
+  },
+  "property_column": {
+    "ACCOUNTS_custid": [
+      "ACCOUNTS",
+      "custid"
+    ],
+    "ACCOUNTS_name": [
+      "ACCOUNTS",
+      "name"
+    ],
+    "SAVINGS_custid": [
+      "SAVINGS",
+      "custid"
+    ],
+    "SAVINGS_balance": [
+      "SAVINGS",
+      "balance"
+    ],
+    "CHECKING_custid": [
+      "CHECKING",
+      "custid"
+    ],
+    "CHECKING_balance": [
+      "CHECKING",
+      "balance"
+    ]
+  },
+  "object_property_fk": {
+    "SAVINGS_ACCOUNTS_fk0": [
+      "SAVINGS.custid",
+      "ACCOUNTS.custid"
+    ],
+    "CHECKING_ACCOUNTS_fk1": [
+      "CHECKING.custid",
+      "ACCOUNTS.custid"
+    ]
+  }
+}

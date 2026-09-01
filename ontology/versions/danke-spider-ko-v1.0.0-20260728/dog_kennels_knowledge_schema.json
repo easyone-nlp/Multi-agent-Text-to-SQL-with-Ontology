@@ -1,0 +1,1234 @@
+{
+  "db_id": "dog_kennels",
+  "classes": [
+    {
+      "name": "Breeds",
+      "source_table": "Breeds",
+      "ranking": 1.0,
+      "primary_label": "품종",
+      "synonyms": [
+        "품종",
+        "강아지 품종",
+        "품종 목록",
+        "강아지 종류",
+        "품종 데이터"
+      ]
+    },
+    {
+      "name": "Charges",
+      "source_table": "Charges",
+      "ranking": 1.0,
+      "primary_label": "charges",
+      "synonyms": [
+        "요금",
+        "요금 정책",
+        "비용",
+        "가격 정책",
+        "요금 정보"
+      ]
+    },
+    {
+      "name": "Sizes",
+      "source_table": "Sizes",
+      "ranking": 1.0,
+      "primary_label": "sizes",
+      "synonyms": [
+        "체형",
+        "크기",
+        "체격",
+        "크기 정보",
+        "강아지 크기"
+      ]
+    },
+    {
+      "name": "Treatment_Types",
+      "source_table": "Treatment_Types",
+      "ranking": 3.0,
+      "primary_label": "치료 유형",
+      "synonyms": [
+        "치료 분류",
+        "치료 종류",
+        "치료 유형",
+        "치료 카테고리",
+        "치료 방법"
+      ]
+    },
+    {
+      "name": "Owners",
+      "source_table": "Owners",
+      "ranking": 3.5,
+      "primary_label": "소유자",
+      "synonyms": [
+        "주인",
+        "소유자",
+        "주인 정보",
+        "소유자 목록",
+        "주인 데이터"
+      ]
+    },
+    {
+      "name": "Dogs",
+      "source_table": "Dogs",
+      "ranking": 3.5,
+      "primary_label": "개",
+      "synonyms": [
+        "강아지",
+        "개",
+        "강아지 목록",
+        "강아지 정보",
+        "개 데이터"
+      ]
+    },
+    {
+      "name": "Professionals",
+      "source_table": "Professionals",
+      "ranking": 3.5,
+      "primary_label": "전문가",
+      "synonyms": [
+        "전문가",
+        "직원",
+        "종사자",
+        "인력",
+        "직원들",
+        "전문직",
+        "관리자",
+        "업무자"
+      ]
+    },
+    {
+      "name": "Treatments",
+      "source_table": "Treatments",
+      "ranking": 3.0,
+      "primary_label": "치료 기록",
+      "synonyms": [
+        "치료",
+        "관리",
+        "치료법",
+        "병원",
+        "치료 과정",
+        "치료 서비스",
+        "병원 치료",
+        "의료 서비스"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Breeds_breed_code",
+      "domain": "Breeds",
+      "source_table": "Breeds",
+      "source_column": "breed_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.5,
+      "primary_label": "품종 코드",
+      "synonyms": [
+        "품종 코드",
+        "품종 식별자",
+        "품종 번호",
+        "품종 코드값",
+        "품종 식별번호",
+        "품종 코드 정보",
+        "품종 식별코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Breeds_breed_name",
+      "domain": "Breeds",
+      "source_table": "Breeds",
+      "source_column": "breed_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "품종 이름",
+      "synonyms": [
+        "품종명",
+        "품종",
+        "견종 이름",
+        "견종",
+        "견종명",
+        "견종별 이름",
+        "견종별"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "진우": [
+          "진우"
+        ],
+        "시리": [
+          "시리"
+        ],
+        "코리안 캣": [
+          "코리안 캣"
+        ]
+      }
+    },
+    {
+      "name": "Charges_charge_id",
+      "domain": "Charges",
+      "source_table": "Charges",
+      "source_column": "charge_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "charge id",
+      "synonyms": [
+        "ID",
+        "번호",
+        "코드",
+        "구분자",
+        "키"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Charges_charge_type",
+      "domain": "Charges",
+      "source_table": "Charges",
+      "source_column": "charge_type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "charge type",
+      "synonyms": [
+        "유형",
+        "종류",
+        "분류",
+        "타입",
+        "구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "수수료": [
+          "수수료"
+        ],
+        "이자": [
+          "이자"
+        ],
+        "세금": [
+          "세금"
+        ]
+      }
+    },
+    {
+      "name": "Charges_charge_amount",
+      "domain": "Charges",
+      "source_table": "Charges",
+      "source_column": "charge_amount",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "charge amount",
+      "synonyms": [
+        "금액",
+        "가격",
+        "비용",
+        "수수료",
+        "총액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Sizes_size_code",
+      "domain": "Sizes",
+      "source_table": "Sizes",
+      "source_column": "size_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "size code",
+      "synonyms": [
+        "규격 코드",
+        "크기 코드",
+        "규격 식별자",
+        "크기 식별자",
+        "규격 코드값",
+        "규격 코드 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "S": [
+          "s",
+          "S"
+        ],
+        "M": [
+          "m",
+          "M"
+        ],
+        "L": [
+          "l",
+          "L"
+        ]
+      }
+    },
+    {
+      "name": "Sizes_size_description",
+      "domain": "Sizes",
+      "source_table": "Sizes",
+      "source_column": "size_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "size description",
+      "synonyms": [
+        "규격 설명",
+        "크기 설명",
+        "규격 설명문",
+        "크기 설명문",
+        "규격 설명 정보",
+        "크기 설명 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Treatment_Types_treatment_type_code",
+      "domain": "Treatment_Types",
+      "source_table": "Treatment_Types",
+      "source_column": "treatment_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "치료 유형 코드",
+      "synonyms": [
+        "코드",
+        "코드값",
+        "구분코드",
+        "코드번호",
+        "코드항목"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "CT": [
+          "CT"
+        ],
+        "MRI": [
+          "MRI"
+        ],
+        "X-ray": [
+          "X-ray"
+        ]
+      }
+    },
+    {
+      "name": "Treatment_Types_treatment_type_description",
+      "domain": "Treatment_Types",
+      "source_table": "Treatment_Types",
+      "source_column": "treatment_type_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "치료 유형 설명",
+      "synonyms": [
+        "설명",
+        "설명문",
+        "내용",
+        "설명서",
+        "설명항목"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Owners_owner_id",
+      "domain": "Owners",
+      "source_table": "Owners",
+      "source_column": "owner_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "소유자 ID",
+      "synonyms": [
+        "소유자 ID",
+        "소유자 고유번호",
+        "소유자 번호",
+        "소유자 식별자",
+        "소유자 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Owners_first_name",
+      "domain": "Owners",
+      "source_table": "Owners",
+      "source_column": "first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Owners_last_name",
+      "domain": "Owners",
+      "source_table": "Owners",
+      "source_column": "last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "성명",
+        "성씨",
+        "성자",
+        "성호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Owners_street",
+      "domain": "Owners",
+      "source_table": "Owners",
+      "source_column": "street",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "주소",
+      "synonyms": [
+        "주소",
+        "주소지",
+        "거주지",
+        "주소 정보",
+        "주소 사항"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Owners_city",
+      "domain": "Owners",
+      "source_table": "Owners",
+      "source_column": "city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "시",
+      "synonyms": [
+        "도시",
+        "시",
+        "도",
+        "도시명",
+        "도시 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Owners_state",
+      "domain": "Owners",
+      "source_table": "Owners",
+      "source_column": "state",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "주",
+      "synonyms": [
+        "주",
+        "주소",
+        "지방",
+        "주 정보",
+        "주 사항"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Owners_zip_code",
+      "domain": "Owners",
+      "source_table": "Owners",
+      "source_column": "zip_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "우편번호",
+      "synonyms": [
+        "우편번호",
+        "우편 번호",
+        "우편 번지",
+        "우편 코드",
+        "우편번호 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Owners_email_address",
+      "domain": "Owners",
+      "source_table": "Owners",
+      "source_column": "email_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이메일 주소",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Owners_home_phone",
+      "domain": "Owners",
+      "source_table": "Owners",
+      "source_column": "home_phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "집 전화번호",
+      "synonyms": [
+        "집 전화",
+        "주소지 전화번호",
+        "집 전화번호",
+        "주거지 전화",
+        "가정 전화"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Owners_cell_number",
+      "domain": "Owners",
+      "source_table": "Owners",
+      "source_column": "cell_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "모바일 번호",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Dogs_dog_id",
+      "domain": "Dogs",
+      "source_table": "Dogs",
+      "source_column": "dog_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "개 아이디",
+      "synonyms": [
+        "개 고유 ID",
+        "개 식별 번호",
+        "개 고유 번호",
+        "개 식별자",
+        "개 고유 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Dogs_owner_id",
+      "domain": "Dogs",
+      "source_table": "Dogs",
+      "source_column": "owner_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "소유자 아이디",
+      "synonyms": [
+        "소유자 고유 ID",
+        "소유자 식별 번호",
+        "소유자 고유 번호",
+        "소유자 식별자",
+        "소유자 고유 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Dogs_abandoned_yn",
+      "domain": "Dogs",
+      "source_table": "Dogs",
+      "source_column": "abandoned_yn",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "유기 여부",
+      "synonyms": [
+        "유기 여부",
+        "유기 여부 여부",
+        "유기 여부 코드",
+        "유기 여부 상태",
+        "유기 여부 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Y": [
+          "예",
+          "유기됨"
+        ],
+        "N": [
+          "아니오",
+          "유기되지 않음"
+        ]
+      }
+    },
+    {
+      "name": "Dogs_breed_code",
+      "domain": "Dogs",
+      "source_table": "Dogs",
+      "source_column": "breed_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "품종 코드",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "SP": [
+          "스파이더"
+        ],
+        "GH": [
+          "골드하우스"
+        ]
+      }
+    },
+    {
+      "name": "Dogs_size_code",
+      "domain": "Dogs",
+      "source_table": "Dogs",
+      "source_column": "size_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "체형 코드",
+      "synonyms": [
+        "체형 코드",
+        "체형코드",
+        "체형 코드 값",
+        "체형 코드 정보",
+        "체형 코드 항목"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "S": [
+          "작은 사이즈"
+        ],
+        "M": [
+          "중간 사이즈"
+        ],
+        "L": [
+          "큰 사이즈"
+        ]
+      }
+    },
+    {
+      "name": "Dogs_name",
+      "domain": "Dogs",
+      "source_table": "Dogs",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Dogs_age",
+      "domain": "Dogs",
+      "source_table": "Dogs",
+      "source_column": "age",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.2,
+      "primary_label": "나이",
+      "synonyms": [
+        "나이",
+        "연령",
+        "생년월일",
+        "출생년도",
+        "연령 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Dogs_date_of_birth",
+      "domain": "Dogs",
+      "source_table": "Dogs",
+      "source_column": "date_of_birth",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "생년월일",
+      "synonyms": [
+        "생년월일",
+        "출생일",
+        "출생일자",
+        "생일",
+        "출생일 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Dogs_gender",
+      "domain": "Dogs",
+      "source_table": "Dogs",
+      "source_column": "gender",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "성별",
+      "synonyms": [
+        "성별",
+        "남녀",
+        "성별 정보",
+        "성별 구분",
+        "남자/여자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "M": [
+          "남성"
+        ],
+        "F": [
+          "여성"
+        ]
+      }
+    },
+    {
+      "name": "Dogs_weight",
+      "domain": "Dogs",
+      "source_table": "Dogs",
+      "source_column": "weight",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "체중",
+      "synonyms": [
+        "무게",
+        "체중량",
+        "몸무게",
+        "무게 정보",
+        "체중 데이터",
+        "무게 측정",
+        "체중 기록",
+        "무게 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Dogs_date_arrived",
+      "domain": "Dogs",
+      "source_table": "Dogs",
+      "source_column": "date_arrived",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.3,
+      "primary_label": "입소일",
+      "synonyms": [
+        "입소일",
+        "입소일자",
+        "도입일",
+        "도입일자",
+        "입소일시",
+        "도입일시"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Dogs_date_adopted",
+      "domain": "Dogs",
+      "source_table": "Dogs",
+      "source_column": "date_adopted",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.6,
+      "primary_label": "수용일",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Dogs_date_departed",
+      "domain": "Dogs",
+      "source_table": "Dogs",
+      "source_column": "date_departed",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.4,
+      "primary_label": "이탈일",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Professionals_professional_id",
+      "domain": "Professionals",
+      "source_table": "Professionals",
+      "source_column": "professional_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "전문가 ID",
+      "synonyms": [
+        "전문가 고유 ID",
+        "전문가 번호",
+        "전문가 코드",
+        "전문가 식별자",
+        "전문가 고유번호",
+        "전문가 인덱스",
+        "전문가 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Professionals_role_code",
+      "domain": "Professionals",
+      "source_table": "Professionals",
+      "source_column": "role_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "역할 코드",
+      "synonyms": [
+        "역할 코드",
+        "직책 코드",
+        "직무 코드",
+        "직책 식별자",
+        "직무 식별자",
+        "직책 번호",
+        "직무 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "MD": [
+          "의사",
+          "의료진"
+        ],
+        "RN": [
+          "간호사",
+          "간호진"
+        ],
+        "PHD": [
+          "박사",
+          "학위 소지자"
+        ]
+      }
+    },
+    {
+      "name": "Professionals_first_name",
+      "domain": "Professionals",
+      "source_table": "Professionals",
+      "source_column": "first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성명",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Professionals_street",
+      "domain": "Professionals",
+      "source_table": "Professionals",
+      "source_column": "street",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "도로 주소",
+      "synonyms": [
+        "도로 주소",
+        "주소",
+        "도로 정보",
+        "주소 정보",
+        "도로 위치"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Professionals_city",
+      "domain": "Professionals",
+      "source_table": "Professionals",
+      "source_column": "city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "도시",
+      "synonyms": [
+        "도시",
+        "도시명",
+        "도시 이름",
+        "도시 정보",
+        "도시 위치"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Professionals_state",
+      "domain": "Professionals",
+      "source_table": "Professionals",
+      "source_column": "state",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "주",
+      "synonyms": [
+        "주",
+        "주 이름",
+        "주 정보",
+        "주 코드",
+        "주 명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Professionals_zip_code",
+      "domain": "Professionals",
+      "source_table": "Professionals",
+      "source_column": "zip_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.2,
+      "primary_label": "우편번호",
+      "synonyms": [
+        "우편번호",
+        "편지번호",
+        "주소번호",
+        "지역코드",
+        "번지번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Professionals_last_name",
+      "domain": "Professionals",
+      "source_table": "Professionals",
+      "source_column": "last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "성씨",
+        "성호",
+        "성자",
+        "성자명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Professionals_email_address",
+      "domain": "Professionals",
+      "source_table": "Professionals",
+      "source_column": "email_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.8,
+      "primary_label": "이메일 주소",
+      "synonyms": [
+        "이메일 주소",
+        "이메일",
+        "메일 주소",
+        "전자우편 주소",
+        "이메일 주소 정보",
+        "이메일 주소 필드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Professionals_home_phone",
+      "domain": "Professionals",
+      "source_table": "Professionals",
+      "source_column": "home_phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.2,
+      "primary_label": "집 전화번호",
+      "synonyms": [
+        "집 전화",
+        "주소지 전화",
+        "집 전화번호",
+        "주소 전화",
+        "주소지 전화번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Professionals_cell_number",
+      "domain": "Professionals",
+      "source_table": "Professionals",
+      "source_column": "cell_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.9,
+      "primary_label": "모바일 번호",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Treatments_treatment_id",
+      "domain": "Treatments",
+      "source_table": "Treatments",
+      "source_column": "treatment_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "치료 번호",
+      "synonyms": [
+        "치료 코드",
+        "치료 번호",
+        "치료 식별자",
+        "치료 ID",
+        "치료 고유 번호",
+        "치료 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Treatments_dog_id",
+      "domain": "Treatments",
+      "source_table": "Treatments",
+      "source_column": "dog_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "강아지 번호",
+      "synonyms": [
+        "강아지 코드",
+        "강아지 번호",
+        "강아지 식별자",
+        "강아지 ID",
+        "강아지 고유 번호",
+        "강아지 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Treatments_professional_id",
+      "domain": "Treatments",
+      "source_table": "Treatments",
+      "source_column": "professional_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "전문가 번호",
+      "synonyms": [
+        "전문가 코드",
+        "전문가 번호",
+        "전문가 식별자",
+        "전문가 ID",
+        "전문가 고유 번호",
+        "전문가 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Treatments_treatment_type_code",
+      "domain": "Treatments",
+      "source_table": "Treatments",
+      "source_column": "treatment_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "치료 유형 코드",
+      "synonyms": [
+        "치료 코드",
+        "치료 유형 식별자",
+        "치료 코드 값",
+        "치료 유형 코드",
+        "치료 코드 정보",
+        "치료 유형 식별",
+        "치료 코드 항목",
+        "치료 유형 코드 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "예방 접종": [
+          "예방접종",
+          "예방"
+        ],
+        "치아 정비": [
+          "치아정비",
+          "치아보건"
+        ],
+        "체중 조절": [
+          "체중조절",
+          "체중관리"
+        ]
+      }
+    },
+    {
+      "name": "Treatments_date_of_treatment",
+      "domain": "Treatments",
+      "source_table": "Treatments",
+      "source_column": "date_of_treatment",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "치료 일시",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Treatments_cost_of_treatment",
+      "domain": "Treatments",
+      "source_table": "Treatments",
+      "source_column": "cost_of_treatment",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "치료 비용",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Dogs_Owners_fk0",
+      "domain": "Dogs",
+      "range": "Owners",
+      "source_fk": [
+        "Dogs.owner_id",
+        "Owners.owner_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소유자",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Dogs_Sizes_fk2",
+      "domain": "Dogs",
+      "range": "Sizes",
+      "source_fk": [
+        "Dogs.size_code",
+        "Sizes.size_code"
+      ],
+      "weight": 1.0,
+      "primary_label": "크기",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Dogs_Breeds_fk3",
+      "domain": "Dogs",
+      "range": "Breeds",
+      "source_fk": [
+        "Dogs.breed_code",
+        "Breeds.breed_code"
+      ],
+      "weight": 1.0,
+      "primary_label": "혈통",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Treatments_Dogs_fk4",
+      "domain": "Treatments",
+      "range": "Dogs",
+      "source_fk": [
+        "Treatments.dog_id",
+        "Dogs.dog_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "치료 대상",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Treatments_Professionals_fk5",
+      "domain": "Treatments",
+      "range": "Professionals",
+      "source_fk": [
+        "Treatments.professional_id",
+        "Professionals.professional_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "치료사",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Treatments_Treatment_Types_fk6",
+      "domain": "Treatments",
+      "range": "Treatment_Types",
+      "source_fk": [
+        "Treatments.treatment_type_code",
+        "Treatment_Types.treatment_type_code"
+      ],
+      "weight": 1.0,
+      "primary_label": "치료 유형",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

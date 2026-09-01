@@ -1,0 +1,687 @@
+{
+  "db_id": "flight_4",
+  "classes": [
+    {
+      "name": "routes",
+      "source_table": "routes",
+      "ranking": 3.5,
+      "primary_label": "로트",
+      "synonyms": [
+        "비행 경로",
+        "항로",
+        "비행 경로 정보",
+        "항공 경로",
+        "비행로"
+      ]
+    },
+    {
+      "name": "airports",
+      "source_table": "airports",
+      "ranking": 3.0,
+      "primary_label": "공항",
+      "synonyms": [
+        "공항",
+        "항공기 착륙 장소",
+        "비행기 착륙 장소",
+        "공항 정보",
+        "항공기 기지"
+      ]
+    },
+    {
+      "name": "airlines",
+      "source_table": "airlines",
+      "ranking": 3.5,
+      "primary_label": "항공사",
+      "synonyms": [
+        "항공사",
+        "항공 회사",
+        "항공 기업",
+        "항공 운송사",
+        "항공사 정보"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "routes_rid",
+      "domain": "routes",
+      "source_table": "routes",
+      "source_column": "rid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "로트 ID",
+      "synonyms": [
+        "rid",
+        "route id",
+        "route identifier",
+        "route number",
+        "route code",
+        "route id number",
+        "route identifier number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "routes_dst_apid",
+      "domain": "routes",
+      "source_table": "routes",
+      "source_column": "dst_apid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "도착 공항 ID",
+      "synonyms": [
+        "dst_apid",
+        "destination airport id",
+        "destination airport identifier",
+        "destination airport code",
+        "destination airport number",
+        "destination airport identifier number",
+        "destination airport code id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "routes_dst_ap",
+      "domain": "routes",
+      "source_table": "routes",
+      "source_column": "dst_ap",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "도착 공항",
+      "synonyms": [
+        "dst_ap",
+        "destination airport",
+        "destination airport name",
+        "arrival airport",
+        "arrival airport name",
+        "destination airport name code"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "routes_src_apid",
+      "domain": "routes",
+      "source_table": "routes",
+      "source_column": "src_apid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "출발 공항 ID",
+      "synonyms": [
+        "출발 공항 ID",
+        "출발 항공사 ID",
+        "출발 공항 식별자",
+        "출발 항공기 ID",
+        "출발 공항 번호",
+        "출발 항공사 코드",
+        "출발 항공기 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "routes_src_ap",
+      "domain": "routes",
+      "source_table": "routes",
+      "source_column": "src_ap",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "출발 공항",
+      "synonyms": [
+        "출발 공항",
+        "출발 항공기",
+        "출발 항공장",
+        "출발 항공사",
+        "출발 항공기 이름",
+        "출발 항공장 이름",
+        "출발 공항 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "routes_alid",
+      "domain": "routes",
+      "source_table": "routes",
+      "source_column": "alid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "항공사 ID",
+      "synonyms": [
+        "항공사 ID",
+        "항공사 코드",
+        "항공사 식별자",
+        "항공사 번호",
+        "항공사 코드 ID",
+        "항공사 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "routes_airline",
+      "domain": "routes",
+      "source_table": "routes",
+      "source_column": "airline",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "항공사",
+      "synonyms": [
+        "항공사",
+        "항공 회사",
+        "航空公司",
+        "항공선사",
+        "운송회사",
+        "항공사명",
+        "airline"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "routes_codeshare",
+      "domain": "routes",
+      "source_table": "routes",
+      "source_column": "codeshare",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "코드 공유",
+      "synonyms": [
+        "코드 공유",
+        "공유 코드",
+        "코드 공유 여부",
+        "공유 항공권",
+        "codeshare"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Y": [
+          "예",
+          "Yes"
+        ],
+        "N": [
+          "아니오",
+          "No"
+        ]
+      }
+    },
+    {
+      "name": "airports_apid",
+      "domain": "airports",
+      "source_table": "airports",
+      "source_column": "apid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "공항 ID",
+      "synonyms": [
+        "apid",
+        "공항 ID",
+        "항공사 코드",
+        "공항 번호",
+        "아이디",
+        "공항 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airports_name",
+      "domain": "airports",
+      "source_table": "airports",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "공항 이름",
+      "synonyms": [
+        "name",
+        "공항 이름",
+        "항공기 이름",
+        "공항 명",
+        "이름",
+        "공항 표기"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울국제공항": [
+          "서울국제공항",
+          "서울공항"
+        ],
+        "인천국제공항": [
+          "인천국제공항",
+          "인천공항"
+        ]
+      }
+    },
+    {
+      "name": "airports_city",
+      "domain": "airports",
+      "source_table": "airports",
+      "source_column": "city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "도시",
+      "synonyms": [
+        "city",
+        "도시",
+        "도시 이름",
+        "도시명",
+        "도시 정보",
+        "도시명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "인천": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "airports_country",
+      "domain": "airports",
+      "source_table": "airports",
+      "source_column": "country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "국가명",
+        "국가코드",
+        "국가정보",
+        "country",
+        "국가명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "대한민국"
+        ]
+      }
+    },
+    {
+      "name": "airports_x",
+      "domain": "airports",
+      "source_table": "airports",
+      "source_column": "x",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "경도",
+      "synonyms": [
+        "x좌표",
+        "x축",
+        "x 위치",
+        "x좌표값",
+        "x축 위치",
+        "x",
+        "x축 좌표",
+        "x값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airports_y",
+      "domain": "airports",
+      "source_table": "airports",
+      "source_column": "y",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "위도",
+      "synonyms": [
+        "y좌표",
+        "y축",
+        "y 위치",
+        "y좌표값",
+        "y축 위치",
+        "y",
+        "y축 좌표",
+        "y값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airports_elevation",
+      "domain": "airports",
+      "source_table": "airports",
+      "source_column": "elevation",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고도",
+      "synonyms": [
+        "고도",
+        "높이",
+        "elevation",
+        "고도 정보",
+        "지표고",
+        "비행장 고도",
+        "상대 고도",
+        "고도 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airports_iata",
+      "domain": "airports",
+      "source_table": "airports",
+      "source_column": "iata",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "IATA 코드",
+      "synonyms": [
+        "IATA 코드",
+        "iata",
+        "국제 코드",
+        "3자리 코드",
+        "공항 코드",
+        "국제공항 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "SEL": [
+          "SEL"
+        ]
+      }
+    },
+    {
+      "name": "airports_icao",
+      "domain": "airports",
+      "source_table": "airports",
+      "source_column": "icao",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "ICAO 코드",
+      "synonyms": [
+        "ICAO 코드",
+        "icao",
+        "국제 코드",
+        "4자리 코드",
+        "공항 코드",
+        "국제공항 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "KRSE": [
+          "KRSE"
+        ]
+      }
+    },
+    {
+      "name": "airlines_alid",
+      "domain": "airlines",
+      "source_table": "airlines",
+      "source_column": "alid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "항공사 ID",
+      "synonyms": [
+        "alid",
+        "항공사 ID",
+        "비행사 식별자",
+        "항공사 고유 번호",
+        "alid 번호",
+        "비행사 식별 코드",
+        "항공사 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airlines_name",
+      "domain": "airlines",
+      "source_table": "airlines",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "항공사 이름",
+        "공식명",
+        "회사명",
+        "명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아시아항공": [
+          "아시아항공"
+        ],
+        "대한항공": [
+          "대한항공"
+        ]
+      }
+    },
+    {
+      "name": "airlines_iata",
+      "domain": "airlines",
+      "source_table": "airlines",
+      "source_column": "iata",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "IATA 코드",
+      "synonyms": [
+        "IATA 코드",
+        "항공사 코드",
+        "IATA",
+        "3자리 코드",
+        "국제 코드",
+        "이ATA"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "KE": [
+          "KE"
+        ],
+        "DL": [
+          "DL"
+        ]
+      }
+    },
+    {
+      "name": "airlines_icao",
+      "domain": "airlines",
+      "source_table": "airlines",
+      "source_column": "icao",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "ICAO 코드",
+      "synonyms": [
+        "icao",
+        "icao 코드",
+        "icao 번호",
+        "icao 식별자",
+        "icao 식별",
+        "icao 코드 식별",
+        "icao 번호 식별"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "KAL": [
+          "KAL"
+        ],
+        "DL": [
+          "DL"
+        ]
+      }
+    },
+    {
+      "name": "airlines_callsign",
+      "domain": "airlines",
+      "source_table": "airlines",
+      "source_column": "callsign",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "콜사이그널",
+      "synonyms": [
+        "call sign",
+        "호출명",
+        "호출 이름",
+        "항공기 호출명",
+        "호출 신호",
+        "호출 신호명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한항공": [
+          "대한항공"
+        ],
+        "아시아항공": [
+          "아시아항공"
+        ]
+      }
+    },
+    {
+      "name": "airlines_country",
+      "domain": "airlines",
+      "source_table": "airlines",
+      "source_column": "country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "국가",
+      "synonyms": [
+        "country",
+        "국가",
+        "항공사 국가",
+        "국가 코드",
+        "국가명",
+        "국가 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "대한민국"
+        ],
+        "미국": [
+          "미국"
+        ]
+      }
+    },
+    {
+      "name": "airlines_active",
+      "domain": "airlines",
+      "source_table": "airlines",
+      "source_column": "active",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.2,
+      "primary_label": "활동 상태",
+      "synonyms": [
+        "활동 여부",
+        "운영 상태",
+        "활성 여부",
+        "비행사 활동 여부",
+        "비행사 운영 상태",
+        "활성 여는지",
+        "활성 여부 정보",
+        "비행사 활동 여부 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Y": [
+          "Y",
+          "예",
+          "활성"
+        ],
+        "N": [
+          "N",
+          "아니오",
+          "비활성"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "routes_airlines_fk0",
+      "domain": "routes",
+      "range": "airlines",
+      "source_fk": [
+        "routes.alid",
+        "airlines.alid"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "routes_airports_fk1",
+      "domain": "routes",
+      "range": "airports",
+      "source_fk": [
+        "routes.src_apid",
+        "airports.apid"
+      ],
+      "weight": 1.0,
+      "primary_label": "출발지",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "routes_airports_fk2",
+      "domain": "routes",
+      "range": "airports",
+      "source_fk": [
+        "routes.dst_apid",
+        "airports.apid"
+      ],
+      "weight": 1.0,
+      "primary_label": "도착지",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

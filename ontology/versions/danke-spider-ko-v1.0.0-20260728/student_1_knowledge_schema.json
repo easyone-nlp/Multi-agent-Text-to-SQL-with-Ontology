@@ -1,0 +1,223 @@
+{
+  "db_id": "student_1",
+  "classes": [
+    {
+      "name": "list",
+      "source_table": "list",
+      "ranking": 3.0,
+      "primary_label": "이름 목록",
+      "synonyms": [
+        "목록",
+        "리스트",
+        "학생 목록",
+        "학생 정보",
+        "학생 데이터",
+        "학생 목록 테이블"
+      ]
+    },
+    {
+      "name": "teachers",
+      "source_table": "teachers",
+      "ranking": 3.5,
+      "primary_label": "교사",
+      "synonyms": [
+        "교사 목록",
+        "교수 정보",
+        "교사 데이터",
+        "교사 테이블",
+        "교수 목록",
+        "교사 정보 목록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "list_LastName",
+      "domain": "list",
+      "source_table": "list",
+      "source_column": "LastName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "성명",
+        "성자",
+        "이름",
+        "성부",
+        "성자명",
+        "성 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김"
+        ],
+        "박": [
+          "박"
+        ]
+      }
+    },
+    {
+      "name": "list_FirstName",
+      "domain": "list",
+      "source_table": "list",
+      "source_column": "FirstName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "성명",
+        "이름자",
+        "이름부",
+        "이름 이름",
+        "이름 부분"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "민지": [
+          "민지"
+        ],
+        "지현": [
+          "지현"
+        ]
+      }
+    },
+    {
+      "name": "list_Grade",
+      "domain": "list",
+      "source_table": "list",
+      "source_column": "Grade",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "학년",
+      "synonyms": [
+        "성적",
+        "점수",
+        "등급",
+        "성적 정보",
+        "학년도",
+        "성적 데이터",
+        "점수 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "list_Classroom",
+      "domain": "list",
+      "source_table": "list",
+      "source_column": "Classroom",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "클래스룸",
+      "synonyms": [
+        "수업실",
+        "클래스룸",
+        "수업실 번호",
+        "실번호",
+        "클래스룸 번호",
+        "수업실 코드",
+        "실"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "101": [
+          "101"
+        ],
+        "205": [
+          "205"
+        ]
+      }
+    },
+    {
+      "name": "teachers_LastName",
+      "domain": "teachers",
+      "source_table": "teachers",
+      "source_column": "LastName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "성명",
+      "synonyms": [
+        "성",
+        "이름",
+        "성명",
+        "성자",
+        "성부",
+        "성칭",
+        "성자명",
+        "성부명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김"
+        ],
+        "박": [
+          "박"
+        ]
+      }
+    },
+    {
+      "name": "teachers_FirstName",
+      "domain": "teachers",
+      "source_table": "teachers",
+      "source_column": "FirstName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "성명",
+        "이름자",
+        "이름부",
+        "이름칭",
+        "이름자명",
+        "이름부명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "지은": [
+          "지은"
+        ],
+        "민수": [
+          "민수"
+        ]
+      }
+    },
+    {
+      "name": "teachers_Classroom",
+      "domain": "teachers",
+      "source_table": "teachers",
+      "source_column": "Classroom",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "클래스룸",
+      "synonyms": [
+        "교실",
+        "실내",
+        "교실번호",
+        "실내번호",
+        "실내코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": []
+}

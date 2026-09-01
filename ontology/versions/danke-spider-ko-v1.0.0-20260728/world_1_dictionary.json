@@ -1,0 +1,1292 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "도시",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도시 정보",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도시 목록",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도시 데이터",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도시 목표",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "sqlite sequence",
+      "target_class": "sqlite_sequence",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시퀀스",
+      "target_class": "sqlite_sequence",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "자동 증가",
+      "target_class": "sqlite_sequence",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시퀀스 테이블",
+      "target_class": "sqlite_sequence",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "자동 번호",
+      "target_class": "sqlite_sequence",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시퀀스 관리",
+      "target_class": "sqlite_sequence",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 정보",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 목록",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 데이터",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 목표",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 언어",
+      "target_class": "countrylanguage",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가별 언어 데이터",
+      "target_class": "countrylanguage",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "언어 사용 국가",
+      "target_class": "countrylanguage",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 언어 목록",
+      "target_class": "countrylanguage",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "언어별 국가 정보",
+      "target_class": "countrylanguage",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 언어 통계",
+      "target_class": "countrylanguage",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "city",
+      "target_property": "city_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city ID",
+      "target_class": "city",
+      "target_property": "city_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city number",
+      "target_class": "city",
+      "target_property": "city_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city code",
+      "target_class": "city",
+      "target_property": "city_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city identifier",
+      "target_class": "city",
+      "target_property": "city_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city key",
+      "target_class": "city",
+      "target_property": "city_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "city",
+      "target_property": "city_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "country code",
+      "target_class": "city",
+      "target_property": "city_CountryCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드",
+      "target_class": "city",
+      "target_property": "city_CountryCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가코드",
+      "target_class": "city",
+      "target_property": "city_CountryCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드 정보",
+      "target_class": "city",
+      "target_property": "city_CountryCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드 식별자",
+      "target_class": "city",
+      "target_property": "city_CountryCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드 값",
+      "target_class": "city",
+      "target_property": "city_CountryCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드 표시",
+      "target_class": "city",
+      "target_property": "city_CountryCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드 식별",
+      "target_class": "city",
+      "target_property": "city_CountryCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "district",
+      "target_class": "city",
+      "target_property": "city_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역",
+      "target_class": "city",
+      "target_property": "city_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행정구역",
+      "target_class": "city",
+      "target_property": "city_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "city",
+      "target_property": "city_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구",
+      "target_class": "city",
+      "target_property": "city_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역명",
+      "target_class": "city",
+      "target_property": "city_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "population",
+      "target_class": "city",
+      "target_property": "city_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구수",
+      "target_class": "city",
+      "target_property": "city_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구",
+      "target_class": "city",
+      "target_property": "city_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구량",
+      "target_class": "city",
+      "target_property": "city_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 통계",
+      "target_class": "city",
+      "target_property": "city_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 데이터",
+      "target_class": "city",
+      "target_property": "city_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 수",
+      "target_class": "city",
+      "target_property": "city_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대상",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대상명",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구분명",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "seq",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_seq",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시퀀스",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_seq",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_seq",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순번",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_seq",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호값",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_seq",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시퀀스 번호",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_seq",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "code",
+      "target_class": "country",
+      "target_property": "country_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드",
+      "target_class": "country",
+      "target_property": "country_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코드",
+      "target_class": "country",
+      "target_property": "country_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드 식별자",
+      "target_class": "country",
+      "target_property": "country_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코드 값",
+      "target_class": "country",
+      "target_property": "country_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "country",
+      "target_property": "country_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 이름",
+      "target_class": "country",
+      "target_property": "country_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "country",
+      "target_property": "country_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공식 이름",
+      "target_class": "country",
+      "target_property": "country_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 명칭",
+      "target_class": "country",
+      "target_property": "country_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 표기",
+      "target_class": "country",
+      "target_property": "country_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "continent",
+      "target_class": "country",
+      "target_property": "country_Continent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대륙",
+      "target_class": "country",
+      "target_property": "country_Continent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "country",
+      "target_property": "country_Continent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대륙 이름",
+      "target_class": "country",
+      "target_property": "country_Continent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 대륙",
+      "target_class": "country",
+      "target_property": "country_Continent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지리적 대륙",
+      "target_class": "country",
+      "target_property": "country_Continent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "region",
+      "target_class": "country",
+      "target_property": "country_Region",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "country",
+      "target_property": "country_Region",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역명",
+      "target_class": "country",
+      "target_property": "country_Region",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역코드",
+      "target_class": "country",
+      "target_property": "country_Region",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지방",
+      "target_class": "country",
+      "target_property": "country_Region",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역정보",
+      "target_class": "country",
+      "target_property": "country_Region",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "surface area",
+      "target_class": "country",
+      "target_property": "country_SurfaceArea",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "면적",
+      "target_class": "country",
+      "target_property": "country_SurfaceArea",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "면적값",
+      "target_class": "country",
+      "target_property": "country_SurfaceArea",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지형면적",
+      "target_class": "country",
+      "target_property": "country_SurfaceArea",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국토면적",
+      "target_class": "country",
+      "target_property": "country_SurfaceArea",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영토면적",
+      "target_class": "country",
+      "target_property": "country_SurfaceArea",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "indepdent year",
+      "target_class": "country",
+      "target_property": "country_IndepYear",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "독립년",
+      "target_class": "country",
+      "target_property": "country_IndepYear",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "독립년도",
+      "target_class": "country",
+      "target_property": "country_IndepYear",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해방년",
+      "target_class": "country",
+      "target_property": "country_IndepYear",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "독립시기",
+      "target_class": "country",
+      "target_property": "country_IndepYear",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해방년도",
+      "target_class": "country",
+      "target_property": "country_IndepYear",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "population",
+      "target_class": "country",
+      "target_property": "country_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구수",
+      "target_class": "country",
+      "target_property": "country_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구",
+      "target_class": "country",
+      "target_property": "country_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구량",
+      "target_class": "country",
+      "target_property": "country_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구규모",
+      "target_class": "country",
+      "target_property": "country_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구자원",
+      "target_class": "country",
+      "target_property": "country_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "life expectancy",
+      "target_class": "country",
+      "target_property": "country_LifeExpectancy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균수명",
+      "target_class": "country",
+      "target_property": "country_LifeExpectancy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수명",
+      "target_class": "country",
+      "target_property": "country_LifeExpectancy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생명기",
+      "target_class": "country",
+      "target_property": "country_LifeExpectancy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균생명기",
+      "target_class": "country",
+      "target_property": "country_LifeExpectancy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수명지수",
+      "target_class": "country",
+      "target_property": "country_LifeExpectancy",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gnp",
+      "target_class": "country",
+      "target_property": "country_GNP",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국내총생산",
+      "target_class": "country",
+      "target_property": "country_GNP",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "GNP",
+      "target_class": "country",
+      "target_property": "country_GNP",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경제성장률",
+      "target_class": "country",
+      "target_property": "country_GNP",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경제규모",
+      "target_class": "country",
+      "target_property": "country_GNP",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국내총생산량",
+      "target_class": "country",
+      "target_property": "country_GNP",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gnp old",
+      "target_class": "country",
+      "target_property": "country_GNPOld",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "GDP",
+      "target_class": "country",
+      "target_property": "country_GNPOld",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "GNP",
+      "target_class": "country",
+      "target_property": "country_GNPOld",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가경제",
+      "target_class": "country",
+      "target_property": "country_GNPOld",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경제지표",
+      "target_class": "country",
+      "target_property": "country_GNPOld",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가총생산",
+      "target_class": "country",
+      "target_property": "country_GNPOld",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "local name",
+      "target_class": "country",
+      "target_property": "country_LocalName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "country",
+      "target_property": "country_LocalName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가공식이름",
+      "target_class": "country",
+      "target_property": "country_LocalName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국어이름",
+      "target_class": "country",
+      "target_property": "country_LocalName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명칭",
+      "target_class": "country",
+      "target_property": "country_LocalName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "government form",
+      "target_class": "country",
+      "target_property": "country_GovernmentForm",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정부구조",
+      "target_class": "country",
+      "target_property": "country_GovernmentForm",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정부형태",
+      "target_class": "country",
+      "target_property": "country_GovernmentForm",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정치체제",
+      "target_class": "country",
+      "target_property": "country_GovernmentForm",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정부형식",
+      "target_class": "country",
+      "target_property": "country_GovernmentForm",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정부구성",
+      "target_class": "country",
+      "target_property": "country_GovernmentForm",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head of state",
+      "target_class": "country",
+      "target_property": "country_HeadOfState",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국장",
+      "target_class": "country",
+      "target_property": "country_HeadOfState",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표",
+      "target_class": "country",
+      "target_property": "country_HeadOfState",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수장",
+      "target_class": "country",
+      "target_property": "country_HeadOfState",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대통령",
+      "target_class": "country",
+      "target_property": "country_HeadOfState",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정상",
+      "target_class": "country",
+      "target_property": "country_HeadOfState",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대리",
+      "target_class": "country",
+      "target_property": "country_HeadOfState",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "capital",
+      "target_class": "country",
+      "target_property": "country_Capital",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "country",
+      "target_property": "country_Capital",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도",
+      "target_class": "country",
+      "target_property": "country_Capital",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수도",
+      "target_class": "country",
+      "target_property": "country_Capital",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행정 중심지",
+      "target_class": "country",
+      "target_property": "country_Capital",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정치 중심지",
+      "target_class": "country",
+      "target_property": "country_Capital",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "code2",
+      "target_class": "country",
+      "target_property": "country_Code2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드",
+      "target_class": "country",
+      "target_property": "country_Code2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드2",
+      "target_class": "country",
+      "target_property": "country_Code2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ISO 코드",
+      "target_class": "country",
+      "target_property": "country_Code2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 식별자",
+      "target_class": "country",
+      "target_property": "country_Code2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드 정보",
+      "target_class": "country",
+      "target_property": "country_Code2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_CountryCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 식별 코드",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_CountryCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드 값",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_CountryCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드 정보",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_CountryCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드 식별자",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_CountryCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Language",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 이름",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Language",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 코드",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Language",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 정보",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Language",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 종류",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Language",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공식 여부",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_IsOfficial",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공식 여부 여부",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_IsOfficial",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공식 여부 정보",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_IsOfficial",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공식 여부 코드",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_IsOfficial",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공식 여부 지정",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_IsOfficial",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "백분율",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비율",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분율",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "율",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비율값",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "백분율 비율",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분율 비율",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "율 값",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Percentage",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "seq",
+      "target_class": "sqlite_sequence",
+      "target_property": "sqlite_sequence_name",
+      "value": "seq"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국어",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Language",
+      "value": "한국어"
+    },
+    {
+      "entry_type": "value",
+      "key": "korean",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Language",
+      "value": "한국어"
+    },
+    {
+      "entry_type": "value",
+      "key": "영어",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Language",
+      "value": "영어"
+    },
+    {
+      "entry_type": "value",
+      "key": "english",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Language",
+      "value": "영어"
+    },
+    {
+      "entry_type": "value",
+      "key": "프랑스어",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Language",
+      "value": "프랑스어"
+    },
+    {
+      "entry_type": "value",
+      "key": "french",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_Language",
+      "value": "프랑스어"
+    },
+    {
+      "entry_type": "value",
+      "key": "예",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_IsOfficial",
+      "value": "예"
+    },
+    {
+      "entry_type": "value",
+      "key": "yes",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_IsOfficial",
+      "value": "예"
+    },
+    {
+      "entry_type": "value",
+      "key": "아니오",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_IsOfficial",
+      "value": "아니오"
+    },
+    {
+      "entry_type": "value",
+      "key": "no",
+      "target_class": "countrylanguage",
+      "target_property": "countrylanguage_IsOfficial",
+      "value": "아니오"
+    }
+  ]
+}

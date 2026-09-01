@@ -1,0 +1,94 @@
+{
+  "class_table": {
+    "basketball_match": "basketball_match",
+    "university": "university"
+  },
+  "property_column": {
+    "basketball_match_Team_ID": [
+      "basketball_match",
+      "Team_ID"
+    ],
+    "basketball_match_School_ID": [
+      "basketball_match",
+      "School_ID"
+    ],
+    "basketball_match_Team_Name": [
+      "basketball_match",
+      "Team_Name"
+    ],
+    "basketball_match_ACC_Regular_Season": [
+      "basketball_match",
+      "ACC_Regular_Season"
+    ],
+    "basketball_match_ACC_Percent": [
+      "basketball_match",
+      "ACC_Percent"
+    ],
+    "basketball_match_ACC_Home": [
+      "basketball_match",
+      "ACC_Home"
+    ],
+    "basketball_match_ACC_Road": [
+      "basketball_match",
+      "ACC_Road"
+    ],
+    "basketball_match_All_Games": [
+      "basketball_match",
+      "All_Games"
+    ],
+    "basketball_match_All_Games_Percent": [
+      "basketball_match",
+      "All_Games_Percent"
+    ],
+    "basketball_match_All_Home": [
+      "basketball_match",
+      "All_Home"
+    ],
+    "basketball_match_All_Road": [
+      "basketball_match",
+      "All_Road"
+    ],
+    "basketball_match_All_Neutral": [
+      "basketball_match",
+      "All_Neutral"
+    ],
+    "university_School_ID": [
+      "university",
+      "School_ID"
+    ],
+    "university_School": [
+      "university",
+      "School"
+    ],
+    "university_Location": [
+      "university",
+      "Location"
+    ],
+    "university_Founded": [
+      "university",
+      "Founded"
+    ],
+    "university_Affiliation": [
+      "university",
+      "Affiliation"
+    ],
+    "university_Enrollment": [
+      "university",
+      "Enrollment"
+    ],
+    "university_Nickname": [
+      "university",
+      "Nickname"
+    ],
+    "university_Primary_conference": [
+      "university",
+      "Primary_conference"
+    ]
+  },
+  "object_property_fk": {
+    "basketball_match_university_fk0": [
+      "basketball_match.School_ID",
+      "university.School_ID"
+    ]
+  }
+}

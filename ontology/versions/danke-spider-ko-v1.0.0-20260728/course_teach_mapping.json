@@ -1,0 +1,59 @@
+{
+  "class_table": {
+    "course": "course",
+    "teacher": "teacher",
+    "course_arrange": "course_arrange"
+  },
+  "property_column": {
+    "course_Course_ID": [
+      "course",
+      "Course_ID"
+    ],
+    "course_Staring_Date": [
+      "course",
+      "Staring_Date"
+    ],
+    "course_Course": [
+      "course",
+      "Course"
+    ],
+    "teacher_Teacher_ID": [
+      "teacher",
+      "Teacher_ID"
+    ],
+    "teacher_Name": [
+      "teacher",
+      "Name"
+    ],
+    "teacher_Age": [
+      "teacher",
+      "Age"
+    ],
+    "teacher_Hometown": [
+      "teacher",
+      "Hometown"
+    ],
+    "course_arrange_Course_ID": [
+      "course_arrange",
+      "Course_ID"
+    ],
+    "course_arrange_Teacher_ID": [
+      "course_arrange",
+      "Teacher_ID"
+    ],
+    "course_arrange_Grade": [
+      "course_arrange",
+      "Grade"
+    ]
+  },
+  "object_property_fk": {
+    "course_arrange_teacher_fk0": [
+      "course_arrange.Teacher_ID",
+      "teacher.Teacher_ID"
+    ],
+    "course_arrange_course_fk1": [
+      "course_arrange.Course_ID",
+      "course.Course_ID"
+    ]
+  }
+}

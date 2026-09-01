@@ -1,0 +1,67 @@
+{
+  "class_table": {
+    "member": "member",
+    "performance": "performance",
+    "member_attendance": "member_attendance"
+  },
+  "property_column": {
+    "member_Member_ID": [
+      "member",
+      "Member_ID"
+    ],
+    "member_Name": [
+      "member",
+      "Name"
+    ],
+    "member_Nationality": [
+      "member",
+      "Nationality"
+    ],
+    "member_Role": [
+      "member",
+      "Role"
+    ],
+    "performance_Performance_ID": [
+      "performance",
+      "Performance_ID"
+    ],
+    "performance_Date": [
+      "performance",
+      "Date"
+    ],
+    "performance_Host": [
+      "performance",
+      "Host"
+    ],
+    "performance_Location": [
+      "performance",
+      "Location"
+    ],
+    "performance_Attendance": [
+      "performance",
+      "Attendance"
+    ],
+    "member_attendance_Member_ID": [
+      "member_attendance",
+      "Member_ID"
+    ],
+    "member_attendance_Performance_ID": [
+      "member_attendance",
+      "Performance_ID"
+    ],
+    "member_attendance_Num_of_Pieces": [
+      "member_attendance",
+      "Num_of_Pieces"
+    ]
+  },
+  "object_property_fk": {
+    "member_attendance_performance_fk0": [
+      "member_attendance.Performance_ID",
+      "performance.Performance_ID"
+    ],
+    "member_attendance_member_fk1": [
+      "member_attendance.Member_ID",
+      "member.Member_ID"
+    ]
+  }
+}

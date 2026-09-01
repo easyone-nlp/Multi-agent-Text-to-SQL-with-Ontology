@@ -1,0 +1,75 @@
+{
+  "schema_linking": {
+    "provider": "openai_compatible",
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "base_url": "http://localhost:8000/v1",
+    "api_key_env": "OPENAI_API_KEY",
+    "temperature": 0.0,
+    "timeout_seconds": 60,
+    "json_retries": 1,
+    "schema_linker_mode": "danke_embedding_hybrid",
+    "danke": {
+      "knowledge_schema_dir": "ontology/versions/danke-spider-ko-v1.0.0-20260728",
+      "semantic_table_budget": 3,
+      "semantic_column_budget": 8,
+      "bridge_table_budget": 2,
+      "fuzzy_cutoff": 0.72,
+      "max_ngram": 3,
+      "use_synonyms": true,
+      "use_steiner": true,
+      "generic_property_table_gate": true,
+      "generic_property_keys": [
+        "id",
+        "identifier",
+        "name",
+        "아이디",
+        "식별자",
+        "이름"
+      ]
+    },
+    "hybrid": {
+      "mode": "evidence_tier_no_score_addition",
+      "table_tiers": [
+        "danke_strong",
+        "danke_embedding_agreement",
+        "embedding_fill",
+        "embedding_no_danke_fallback"
+      ],
+      "column_tiers": [
+        "danke_strong",
+        "danke_top3_anchor",
+        "danke_embedding_agreement",
+        "embedding_fill",
+        "danke_weak_fill"
+      ],
+      "columns_selected_after_final_tables": true,
+      "bridges_outside_semantic_budget": true,
+      "join_keys_outside_semantic_budget": true
+    },
+    "embedding": {
+      "provider": "openai_compatible",
+      "model": "Qwen/Qwen3-Embedding-0.6B",
+      "base_url": "http://localhost:8001/v1",
+      "api_key_env": "OPENAI_API_KEY",
+      "timeout_seconds": 60,
+      "top_k_tables": 6,
+      "top_k_columns": 24,
+      "strict_top_k": false
+    },
+    "value_linker": {
+      "max_candidates": 4,
+      "max_domain_values": 20,
+      "max_rescue_queries": 4
+    }
+  },
+  "sql_generation": {
+    "provider": "openai_compatible",
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "base_url": "http://localhost:8000/v1",
+    "api_key_env": "OPENAI_API_KEY",
+    "temperature": 0.0,
+    "timeout_seconds": 60,
+    "max_repairs": 2,
+    "preview_rows": 5
+  }
+}

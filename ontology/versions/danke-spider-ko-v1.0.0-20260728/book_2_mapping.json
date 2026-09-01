@@ -1,0 +1,50 @@
+{
+  "class_table": {
+    "publication": "publication",
+    "book": "book"
+  },
+  "property_column": {
+    "publication_Publication_ID": [
+      "publication",
+      "Publication_ID"
+    ],
+    "publication_Book_ID": [
+      "publication",
+      "Book_ID"
+    ],
+    "publication_Publisher": [
+      "publication",
+      "Publisher"
+    ],
+    "publication_Publication_Date": [
+      "publication",
+      "Publication_Date"
+    ],
+    "publication_Price": [
+      "publication",
+      "Price"
+    ],
+    "book_Book_ID": [
+      "book",
+      "Book_ID"
+    ],
+    "book_Title": [
+      "book",
+      "Title"
+    ],
+    "book_Issues": [
+      "book",
+      "Issues"
+    ],
+    "book_Writer": [
+      "book",
+      "Writer"
+    ]
+  },
+  "object_property_fk": {
+    "publication_book_fk0": [
+      "publication.Book_ID",
+      "book.Book_ID"
+    ]
+  }
+}

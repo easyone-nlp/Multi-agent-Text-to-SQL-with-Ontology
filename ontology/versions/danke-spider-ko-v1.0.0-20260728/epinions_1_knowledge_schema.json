@@ -1,0 +1,396 @@
+{
+  "db_id": "epinions_1",
+  "classes": [
+    {
+      "name": "item",
+      "source_table": "item",
+      "ranking": 3.0,
+      "primary_label": "물건",
+      "synonyms": [
+        "상품",
+        "제품",
+        "물품",
+        "아이템",
+        "상품 정보"
+      ]
+    },
+    {
+      "name": "review",
+      "source_table": "review",
+      "ranking": 3.5,
+      "primary_label": "리뷰",
+      "synonyms": [
+        "리뷰",
+        "평점",
+        "후기",
+        "평가",
+        "리뷰 정보"
+      ]
+    },
+    {
+      "name": "useracct",
+      "source_table": "useracct",
+      "ranking": 3.0,
+      "primary_label": "사용자 계정",
+      "synonyms": [
+        "계정",
+        "사용자 정보",
+        "회원",
+        "사용자 계정",
+        "회원 정보"
+      ]
+    },
+    {
+      "name": "trust",
+      "source_table": "trust",
+      "ranking": 3.0,
+      "primary_label": "신뢰 관계",
+      "synonyms": [
+        "신뢰",
+        "신뢰도",
+        "신뢰 관계",
+        "신뢰 정보",
+        "신뢰 지표",
+        "신뢰 데이터",
+        "신뢰 척도",
+        "신뢰 평가"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "item_i_id",
+      "domain": "item",
+      "source_table": "item",
+      "source_column": "i_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "물건 ID",
+      "synonyms": [
+        "i_id",
+        "상품 ID",
+        "아이디",
+        "제품 번호",
+        "아이템 ID",
+        "식별 번호",
+        "아이템 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "item_title",
+      "domain": "item",
+      "source_table": "item",
+      "source_column": "title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "제목",
+      "synonyms": [
+        "title",
+        "제목",
+        "이름",
+        "제품 이름",
+        "제목 정보",
+        "제품 제목",
+        "아이템 제목"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "노트북": [
+          "노트북"
+        ],
+        "스마트폰": [
+          "스마트폰"
+        ],
+        "책": [
+          "책"
+        ]
+      }
+    },
+    {
+      "name": "review_a_id",
+      "domain": "review",
+      "source_table": "review",
+      "source_column": "a_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "a id",
+      "synonyms": [
+        "a_id",
+        "리뷰 ID",
+        "리뷰 번호",
+        "리뷰 식별자",
+        "리뷰 코드",
+        "a"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "review_u_id",
+      "domain": "review",
+      "source_table": "review",
+      "source_column": "u_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "user id",
+      "synonyms": [
+        "u_id",
+        "사용자 ID",
+        "사용자 번호",
+        "사용자 식별자",
+        "사용자 코드",
+        "u"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "review_i_id",
+      "domain": "review",
+      "source_table": "review",
+      "source_column": "i_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "item id",
+      "synonyms": [
+        "i_id",
+        "상품 ID",
+        "상품 번호",
+        "상품 식별자",
+        "상품 코드",
+        "i"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "review_rating",
+      "domain": "review",
+      "source_table": "review",
+      "source_column": "rating",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "평가 점수",
+      "synonyms": [
+        "평점",
+        "평가",
+        "评分",
+        "점수",
+        "평점 정보",
+        "리뷰 평가",
+        "평가 점수",
+        "리뷰 평가 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "review_rank",
+      "domain": "review",
+      "source_table": "review",
+      "source_column": "rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "등급",
+      "synonyms": [
+        "순위",
+        "등수",
+        "등급",
+        "위치",
+        "랭킹",
+        "리뷰 순위",
+        "등수 정보",
+        "리뷰 등수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "useracct_u_id",
+      "domain": "useracct",
+      "source_table": "useracct",
+      "source_column": "u_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "사용자 ID",
+      "synonyms": [
+        "u_id",
+        "사용자 ID",
+        "유저 ID",
+        "사용자 고유 번호",
+        "사용자 식별자",
+        "ID",
+        "유저 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "useracct_name",
+      "domain": "useracct",
+      "source_table": "useracct",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "이름",
+        "사용자 이름",
+        "유저 이름",
+        "사용자 별명",
+        "이름 정보",
+        "사용자명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김철수": [
+          "김철수"
+        ],
+        "이영희": [
+          "이영희"
+        ]
+      }
+    },
+    {
+      "name": "trust_source_u_id",
+      "domain": "trust",
+      "source_table": "trust",
+      "source_column": "source_u_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "출처 사용자 ID",
+      "synonyms": [
+        "source_u_id",
+        "신뢰 주는 사용자 ID",
+        "신뢰 원인 사용자",
+        "신뢰 출처 ID",
+        "신뢰 제공자 ID",
+        "신뢰 시작자 ID",
+        "신뢰 기준 사용자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "trust_target_u_id",
+      "domain": "trust",
+      "source_table": "trust",
+      "source_column": "target_u_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "목표 사용자 ID",
+      "synonyms": [
+        "target_u_id",
+        "신뢰 받는 사용자 ID",
+        "신뢰 대상 사용자",
+        "신뢰 수신자 ID",
+        "신뢰 대상 ID",
+        "신뢰 대상자",
+        "신뢰 수신자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "trust_trust",
+      "domain": "trust",
+      "source_table": "trust",
+      "source_column": "trust",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "신뢰 수치",
+      "synonyms": [
+        "trust",
+        "신뢰 수준",
+        "신뢰 값",
+        "신뢰 정도",
+        "신뢰 점수",
+        "신뢰 지수",
+        "신뢰 계수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "review_item_fk0",
+      "domain": "review",
+      "range": "item",
+      "source_fk": [
+        "review.i_id",
+        "item.i_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "리뷰한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "review_useracct_fk1",
+      "domain": "review",
+      "range": "useracct",
+      "source_fk": [
+        "review.u_id",
+        "useracct.u_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "작성한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "trust_useracct_fk2",
+      "domain": "trust",
+      "range": "useracct",
+      "source_fk": [
+        "trust.target_u_id",
+        "useracct.u_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "신뢰한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "trust_useracct_fk3",
+      "domain": "trust",
+      "range": "useracct",
+      "source_fk": [
+        "trust.source_u_id",
+        "useracct.u_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "신뢰한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

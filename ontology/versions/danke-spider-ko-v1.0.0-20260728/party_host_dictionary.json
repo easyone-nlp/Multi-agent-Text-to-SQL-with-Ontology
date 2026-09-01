@@ -1,0 +1,711 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "정당",
+      "target_class": "party",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "파티",
+      "target_class": "party",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이벤트",
+      "target_class": "party",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "모임",
+      "target_class": "party",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "행사",
+      "target_class": "party",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "축제",
+      "target_class": "party",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "호스트",
+      "target_class": "host",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주최자",
+      "target_class": "host",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주최",
+      "target_class": "host",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주관자",
+      "target_class": "host",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "장소",
+      "target_class": "host",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "party host",
+      "target_class": "party_host",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연관",
+      "target_class": "party_host",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연계",
+      "target_class": "party_host",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연결",
+      "target_class": "party_host",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관계",
+      "target_class": "party_host",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연합",
+      "target_class": "party_host",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 ID",
+      "target_class": "party",
+      "target_property": "party_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Party_ID",
+      "target_class": "party",
+      "target_property": "party_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파티 ID",
+      "target_class": "party",
+      "target_property": "party_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "party",
+      "target_property": "party_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 번호",
+      "target_class": "party",
+      "target_property": "party_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파티 식별자",
+      "target_class": "party",
+      "target_property": "party_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "party",
+      "target_property": "party_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 주제",
+      "target_class": "party",
+      "target_property": "party_Party_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파티 주제",
+      "target_class": "party",
+      "target_property": "party_Party_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주제",
+      "target_class": "party",
+      "target_property": "party_Party_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 주제",
+      "target_class": "party",
+      "target_property": "party_Party_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파티 테마",
+      "target_class": "party",
+      "target_property": "party_Party_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "테마",
+      "target_class": "party",
+      "target_property": "party_Party_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파티 주제 정보",
+      "target_class": "party",
+      "target_property": "party_Party_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주제 정보",
+      "target_class": "party",
+      "target_property": "party_Party_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 테마",
+      "target_class": "party",
+      "target_property": "party_Party_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "party",
+      "target_property": "party_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "party",
+      "target_property": "party_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 장소",
+      "target_class": "party",
+      "target_property": "party_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파티 장소",
+      "target_class": "party",
+      "target_property": "party_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "party",
+      "target_property": "party_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 위치",
+      "target_class": "party",
+      "target_property": "party_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파티 위치",
+      "target_class": "party",
+      "target_property": "party_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소 정보",
+      "target_class": "party",
+      "target_property": "party_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "첫 번째 연도",
+      "target_class": "party",
+      "target_property": "party_First_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "첫 연도",
+      "target_class": "party",
+      "target_property": "party_First_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "초기 개최 연도",
+      "target_class": "party",
+      "target_property": "party_First_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "처음 개최 연도",
+      "target_class": "party",
+      "target_property": "party_First_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "첫째 연도",
+      "target_class": "party",
+      "target_property": "party_First_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "처음 연도",
+      "target_class": "party",
+      "target_property": "party_First_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "초기 연도",
+      "target_class": "party",
+      "target_property": "party_First_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막 연도",
+      "target_class": "party",
+      "target_property": "party_Last_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 개최 연도",
+      "target_class": "party",
+      "target_property": "party_Last_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 개최 연도",
+      "target_class": "party",
+      "target_property": "party_Last_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최후 연도",
+      "target_class": "party",
+      "target_property": "party_Last_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마지막으로 개최된 연도",
+      "target_class": "party",
+      "target_property": "party_Last_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최종 연도",
+      "target_class": "party",
+      "target_property": "party_Last_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최근 연도",
+      "target_class": "party",
+      "target_property": "party_Last_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호스트 수",
+      "target_class": "party",
+      "target_property": "party_Number_of_hosts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최자 수",
+      "target_class": "party",
+      "target_property": "party_Number_of_hosts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최자 개수",
+      "target_class": "party",
+      "target_property": "party_Number_of_hosts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 주최자 수",
+      "target_class": "party",
+      "target_property": "party_Number_of_hosts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최자 수량",
+      "target_class": "party",
+      "target_property": "party_Number_of_hosts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최자 갯수",
+      "target_class": "party",
+      "target_property": "party_Number_of_hosts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최자 총 수",
+      "target_class": "party",
+      "target_property": "party_Number_of_hosts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호스트 ID",
+      "target_class": "host",
+      "target_property": "host_Host_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Host_ID",
+      "target_class": "host",
+      "target_property": "host_Host_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호스트 고유 번호",
+      "target_class": "host",
+      "target_property": "host_Host_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별자",
+      "target_class": "host",
+      "target_property": "host_Host_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "host",
+      "target_property": "host_Host_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "host",
+      "target_property": "host_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Name",
+      "target_class": "host",
+      "target_property": "host_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호스트 이름",
+      "target_class": "host",
+      "target_property": "host_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "host",
+      "target_property": "host_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호스트",
+      "target_class": "host",
+      "target_property": "host_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적",
+      "target_class": "host",
+      "target_property": "host_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Nationality",
+      "target_class": "host",
+      "target_property": "host_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호스트 국적",
+      "target_class": "host",
+      "target_property": "host_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나라",
+      "target_class": "host",
+      "target_property": "host_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출신국",
+      "target_class": "host",
+      "target_property": "host_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "host",
+      "target_property": "host_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "host",
+      "target_property": "host_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연齢",
+      "target_class": "host",
+      "target_property": "host_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 정보",
+      "target_class": "host",
+      "target_property": "host_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 정보",
+      "target_class": "host",
+      "target_property": "host_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 데이터",
+      "target_class": "host",
+      "target_property": "host_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 데이터",
+      "target_class": "host",
+      "target_property": "host_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 기록",
+      "target_class": "host",
+      "target_property": "host_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "party id",
+      "target_class": "party_host",
+      "target_property": "party_host_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "host id",
+      "target_class": "party_host",
+      "target_property": "party_host_Host_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "is main in charge",
+      "target_class": "party_host",
+      "target_property": "party_host_Is_Main_in_Charge",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "사회주의",
+      "target_class": "party",
+      "target_property": "party_Party_Theme",
+      "value": "사회주의"
+    },
+    {
+      "entry_type": "value",
+      "key": "자유주의",
+      "target_class": "party",
+      "target_property": "party_Party_Theme",
+      "value": "자유주의"
+    },
+    {
+      "entry_type": "value",
+      "key": "보수",
+      "target_class": "party",
+      "target_property": "party_Party_Theme",
+      "value": "보수"
+    },
+    {
+      "entry_type": "value",
+      "key": "1990",
+      "target_class": "party",
+      "target_property": "party_First_year",
+      "value": "1990"
+    },
+    {
+      "entry_type": "value",
+      "key": "2000",
+      "target_class": "party",
+      "target_property": "party_First_year",
+      "value": "2000"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020",
+      "target_class": "party",
+      "target_property": "party_Last_year",
+      "value": "2020"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023",
+      "target_class": "party",
+      "target_property": "party_Last_year",
+      "value": "2023"
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "host",
+      "target_property": "host_Name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "박지현",
+      "target_class": "host",
+      "target_property": "host_Name",
+      "value": "박지현"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국인",
+      "target_class": "host",
+      "target_property": "host_Nationality",
+      "value": "한국인"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국인",
+      "target_class": "host",
+      "target_property": "host_Nationality",
+      "value": "미국인"
+    },
+    {
+      "entry_type": "value",
+      "key": "예",
+      "target_class": "party_host",
+      "target_property": "party_host_Is_Main_in_Charge",
+      "value": "예"
+    },
+    {
+      "entry_type": "value",
+      "key": "아니오",
+      "target_class": "party_host",
+      "target_property": "party_host_Is_Main_in_Charge",
+      "value": "아니오"
+    }
+  ]
+}

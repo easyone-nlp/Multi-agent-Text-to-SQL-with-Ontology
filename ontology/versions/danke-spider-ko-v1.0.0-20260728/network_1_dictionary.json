@@ -1,0 +1,396 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "고등학생",
+      "target_class": "Highschooler",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고등부 학생",
+      "target_class": "Highschooler",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고등학교생",
+      "target_class": "Highschooler",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고등학생 인물",
+      "target_class": "Highschooler",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고등학생 정보",
+      "target_class": "Highschooler",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "친구",
+      "target_class": "Friend",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "친구 관계",
+      "target_class": "Friend",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "친구 정보",
+      "target_class": "Friend",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "친구 데이터",
+      "target_class": "Friend",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "친구 연결",
+      "target_class": "Friend",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "좋아요",
+      "target_class": "Likes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "좋아함",
+      "target_class": "Likes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "좋아하는 관계",
+      "target_class": "Likes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "좋아하는 데이터",
+      "target_class": "Likes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "좋아하는 목록",
+      "target_class": "Likes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "좋아하는 연결",
+      "target_class": "Likes",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 고유 번호",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번 번호",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번 코드",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번 식별자",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학년",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학년수",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학년 등급",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학년도",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학년 정보",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학년 번호",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학년 코드",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "Friend",
+      "target_property": "Friend_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 번호",
+      "target_class": "Friend",
+      "target_property": "Friend_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "Friend",
+      "target_property": "Friend_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 코드",
+      "target_class": "Friend",
+      "target_property": "Friend_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번 번호",
+      "target_class": "Friend",
+      "target_property": "Friend_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 식별자",
+      "target_class": "Friend",
+      "target_property": "Friend_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "친구 ID",
+      "target_class": "Friend",
+      "target_property": "Friend_friend_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "친구 번호",
+      "target_class": "Friend",
+      "target_property": "Friend_friend_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "친구 코드",
+      "target_class": "Friend",
+      "target_property": "Friend_friend_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "친구 식별자",
+      "target_class": "Friend",
+      "target_property": "Friend_friend_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "친구 고유 번호",
+      "target_class": "Friend",
+      "target_property": "Friend_friend_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "Likes",
+      "target_property": "Likes_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 고유번호",
+      "target_class": "Likes",
+      "target_property": "Likes_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 번호",
+      "target_class": "Likes",
+      "target_property": "Likes_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "Likes",
+      "target_property": "Likes_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 식별자",
+      "target_class": "Likes",
+      "target_property": "Likes_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 인덱스",
+      "target_class": "Likes",
+      "target_property": "Likes_student_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좋아요한 ID",
+      "target_class": "Likes",
+      "target_property": "Likes_liked_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좋아요한 항목 ID",
+      "target_class": "Likes",
+      "target_property": "Likes_liked_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좋아요 대상 ID",
+      "target_class": "Likes",
+      "target_property": "Likes_liked_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좋아요 항목 번호",
+      "target_class": "Likes",
+      "target_property": "Likes_liked_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좋아요 대상 코드",
+      "target_class": "Likes",
+      "target_property": "Likes_liked_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좋아요 식별자",
+      "target_class": "Likes",
+      "target_property": "Likes_liked_id",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "박지현",
+      "target_class": "Highschooler",
+      "target_property": "Highschooler_name",
+      "value": "박지현"
+    }
+  ]
+}

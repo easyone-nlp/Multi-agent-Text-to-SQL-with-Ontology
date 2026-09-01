@@ -1,0 +1,468 @@
+{
+  "db_id": "cinema",
+  "classes": [
+    {
+      "name": "film",
+      "source_table": "film",
+      "ranking": 3.5,
+      "primary_label": "영화",
+      "synonyms": [
+        "영화",
+        "영화제목",
+        "영화명",
+        "영화작품",
+        "영화정보",
+        "영화제작물"
+      ]
+    },
+    {
+      "name": "cinema",
+      "source_table": "cinema",
+      "ranking": 3.0,
+      "primary_label": "영화관",
+      "synonyms": [
+        "영화관",
+        "영화관 정보",
+        "영화관 위치",
+        "영화관 데이터",
+        "영화관 위치 정보",
+        "영화관 위치 데이터"
+      ]
+    },
+    {
+      "name": "schedule",
+      "source_table": "schedule",
+      "ranking": 3.0,
+      "primary_label": "상영 스케줄",
+      "synonyms": [
+        "상영 일정",
+        "영화 상영표",
+        "영화 시간표",
+        "영화 스케줄",
+        "영화 상영 일정 정보",
+        "영화 시간표 정보"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "film_Film_ID",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "Film_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "영화 ID",
+      "synonyms": [
+        "영화 ID",
+        "영화 고유 번호",
+        "영화 식별자",
+        "Film_ID",
+        "영화 번호",
+        "영화 고유 ID",
+        "영화 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_Rank_in_series",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "Rank_in_series",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시리즈 순위",
+      "synonyms": [
+        "시리즈 순위",
+        "시리즈 랭크",
+        "시리즈 위치",
+        "시리즈 순번",
+        "Rank_in_series",
+        "시리즈 내 순위"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_Number_in_season",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "Number_in_season",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시즌 번호",
+      "synonyms": [
+        "시즌 번호",
+        "시즌 순번",
+        "시즌 내 번호",
+        "Number_in_season",
+        "시즌 순위",
+        "시즌 내 위치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_Title",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "Title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "제목",
+      "synonyms": [
+        "제목",
+        "영화 제목",
+        "영화 이름",
+        "타이틀",
+        "제목 정보",
+        "영화 제목 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "스파이더맨": [
+          "스파이더맨"
+        ],
+        "아이언맨": [
+          "아이언맨"
+        ]
+      }
+    },
+    {
+      "name": "film_Directed_by",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "Directed_by",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "감독",
+      "synonyms": [
+        "연출자",
+        "연출",
+        "연출자 이름",
+        "감독",
+        "감독 이름",
+        "감독자",
+        "연출자 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "존 워커": [
+          "존 워커"
+        ],
+        "이정현": [
+          "이정현"
+        ]
+      }
+    },
+    {
+      "name": "film_Original_air_date",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "Original_air_date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "원본 방영일",
+      "synonyms": [
+        "방영일",
+        "최초 방영일",
+        "원래 방영일",
+        "방영 날짜",
+        "원래 방영 날짜",
+        "방영 일자",
+        "방영일 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020-05-01": [
+          "2020년 5월 1일"
+        ]
+      }
+    },
+    {
+      "name": "film_Production_code",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "Production_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "제작 코드",
+      "synonyms": [
+        "제작 코드",
+        "제작 번호",
+        "생산 코드",
+        "생산 번호",
+        "Production code",
+        "제작 정보",
+        "제작 식별자",
+        "생산 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cinema_Cinema_ID",
+      "domain": "cinema",
+      "source_table": "cinema",
+      "source_column": "Cinema_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "cinema id",
+      "synonyms": [
+        "Cinema_ID",
+        "영화관 ID",
+        "영화관 식별번호",
+        "영화관 고유번호",
+        "영화관 번호",
+        "영화관 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cinema_Name",
+      "domain": "cinema",
+      "source_table": "cinema",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "Name",
+        "영화관 이름",
+        "영화관명",
+        "영화관 대표 이름",
+        "영화관 표지 이름",
+        "영화관 표지"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cinema_Openning_year",
+      "domain": "cinema",
+      "source_table": "cinema",
+      "source_column": "Openning_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "openning year",
+      "synonyms": [
+        "Openning_year",
+        "개관 연도",
+        "영화관 개관 연도",
+        "영화관 연도",
+        "영화관 개업 연도",
+        "영화관 개업년도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cinema_Capacity",
+      "domain": "cinema",
+      "source_table": "cinema",
+      "source_column": "Capacity",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "capacity",
+      "synonyms": [
+        "용량",
+        "관객 수",
+        "영화관 용량",
+        "관객용량",
+        "Capacity",
+        "관객 수용량"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cinema_Location",
+      "domain": "cinema",
+      "source_table": "cinema",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "location",
+      "synonyms": [
+        "위치",
+        "장소",
+        "위치 정보",
+        "영화관 위치",
+        "Location",
+        "영화관 위치 정보",
+        "장소 위치"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "schedule_Cinema_ID",
+      "domain": "schedule",
+      "source_table": "schedule",
+      "source_column": "Cinema_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "영화관 ID",
+      "synonyms": [
+        "Cinema_ID",
+        "영화관 ID",
+        "영화관 식별자",
+        "영화관 코드",
+        "영화관 번호",
+        "영화관 고유 번호",
+        "영화관 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "schedule_Film_ID",
+      "domain": "schedule",
+      "source_table": "schedule",
+      "source_column": "Film_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "영화 ID",
+      "synonyms": [
+        "Film_ID",
+        "영화 ID",
+        "영화 식별자",
+        "영화 코드",
+        "영화 번호",
+        "영화 고유 번호",
+        "영화 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "schedule_Date",
+      "domain": "schedule",
+      "source_table": "schedule",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "일자",
+      "synonyms": [
+        "Date",
+        "일자",
+        "날짜",
+        "상영일",
+        "영화 상영일",
+        "일자 정보",
+        "일자 데이터",
+        "상영 날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-01": [
+          "2023년 10월 1일"
+        ]
+      }
+    },
+    {
+      "name": "schedule_Show_times_per_day",
+      "domain": "schedule",
+      "source_table": "schedule",
+      "source_column": "Show_times_per_day",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "하루 상영 횟수",
+      "synonyms": [
+        "하루 당 상영 횟수",
+        "하루에 몇 번 상영",
+        "상영 횟수",
+        "Show_times_per_day",
+        "하루 당 상영 시간",
+        "상영 빈도",
+        "일일 상영 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "schedule_Price",
+      "domain": "schedule",
+      "source_table": "schedule",
+      "source_column": "Price",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "가격",
+      "synonyms": [
+        "가격",
+        "상영 가격",
+        "요금",
+        "Price",
+        "상영 비용",
+        "티켓 가격",
+        "상영 요금"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "schedule_cinema_fk0",
+      "domain": "schedule",
+      "range": "cinema",
+      "source_fk": [
+        "schedule.Cinema_ID",
+        "cinema.Cinema_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "schedule_film_fk1",
+      "domain": "schedule",
+      "range": "film",
+      "source_fk": [
+        "schedule.Film_ID",
+        "film.Film_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,921 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "후보자",
+      "target_class": "candidate",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인물",
+      "target_class": "candidate",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "후보",
+      "target_class": "candidate",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인사",
+      "target_class": "candidate",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인물정보",
+      "target_class": "candidate",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "후보자 정보",
+      "target_class": "candidate",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인사 정보",
+      "target_class": "candidate",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "후보자 목록",
+      "target_class": "candidate",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "people",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인물",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인사",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인원",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인사 목록",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인원 목록",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인물 정보",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인사 정보",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인원 정보",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보자 ID",
+      "target_class": "candidate",
+      "target_property": "candidate_Candidate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보자 번호",
+      "target_class": "candidate",
+      "target_property": "candidate_Candidate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보자 고유 ID",
+      "target_class": "candidate",
+      "target_property": "candidate_Candidate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보자 식별자",
+      "target_class": "candidate",
+      "target_property": "candidate_Candidate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보자 코드",
+      "target_class": "candidate",
+      "target_property": "candidate_Candidate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Candidate_ID",
+      "target_class": "candidate",
+      "target_property": "candidate_Candidate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보자 고유 번호",
+      "target_class": "candidate",
+      "target_property": "candidate_Candidate_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인물 ID",
+      "target_class": "candidate",
+      "target_property": "candidate_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 ID",
+      "target_class": "candidate",
+      "target_property": "candidate_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사람 ID",
+      "target_class": "candidate",
+      "target_property": "candidate_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 고유 ID",
+      "target_class": "candidate",
+      "target_property": "candidate_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 식별자",
+      "target_class": "candidate",
+      "target_property": "candidate_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "People_ID",
+      "target_class": "candidate",
+      "target_property": "candidate_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 고유 번호",
+      "target_class": "candidate",
+      "target_property": "candidate_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 코드",
+      "target_class": "candidate",
+      "target_property": "candidate_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설문 출처",
+      "target_class": "candidate",
+      "target_property": "candidate_Poll_Source",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "조사 제공자",
+      "target_class": "candidate",
+      "target_property": "candidate_Poll_Source",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설문 소스",
+      "target_class": "candidate",
+      "target_property": "candidate_Poll_Source",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "조사 출처",
+      "target_class": "candidate",
+      "target_property": "candidate_Poll_Source",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Poll_Source",
+      "target_class": "candidate",
+      "target_property": "candidate_Poll_Source",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설문 원본",
+      "target_class": "candidate",
+      "target_property": "candidate_Poll_Source",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "조사 정보",
+      "target_class": "candidate",
+      "target_property": "candidate_Poll_Source",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "candidate",
+      "target_property": "candidate_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "조사일",
+      "target_class": "candidate",
+      "target_property": "candidate_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "candidate",
+      "target_property": "candidate_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "조사일자",
+      "target_class": "candidate",
+      "target_property": "candidate_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일",
+      "target_class": "candidate",
+      "target_property": "candidate_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날",
+      "target_class": "candidate",
+      "target_property": "candidate_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "조사 날짜",
+      "target_class": "candidate",
+      "target_property": "candidate_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Date",
+      "target_class": "candidate",
+      "target_property": "candidate_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지지율",
+      "target_class": "candidate",
+      "target_property": "candidate_Support_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지지 비율",
+      "target_class": "candidate",
+      "target_property": "candidate_Support_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지지률",
+      "target_class": "candidate",
+      "target_property": "candidate_Support_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지지",
+      "target_class": "candidate",
+      "target_property": "candidate_Support_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Support_rate",
+      "target_class": "candidate",
+      "target_property": "candidate_Support_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고려율",
+      "target_class": "candidate",
+      "target_property": "candidate_Consider_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고려 비율",
+      "target_class": "candidate",
+      "target_property": "candidate_Consider_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고려률",
+      "target_class": "candidate",
+      "target_property": "candidate_Consider_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고려",
+      "target_class": "candidate",
+      "target_property": "candidate_Consider_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Consider_rate",
+      "target_class": "candidate",
+      "target_property": "candidate_Consider_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반대율",
+      "target_class": "candidate",
+      "target_property": "candidate_Oppose_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반대 비율",
+      "target_class": "candidate",
+      "target_property": "candidate_Oppose_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반대 의견 비율",
+      "target_class": "candidate",
+      "target_property": "candidate_Oppose_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반대 비율 수치",
+      "target_class": "candidate",
+      "target_property": "candidate_Oppose_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반대 비율 데이터",
+      "target_class": "candidate",
+      "target_property": "candidate_Oppose_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반대 비율 정보",
+      "target_class": "candidate",
+      "target_property": "candidate_Oppose_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "반대 비율 지표",
+      "target_class": "candidate",
+      "target_property": "candidate_Oppose_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Oppose_rate",
+      "target_class": "candidate",
+      "target_property": "candidate_Oppose_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불확실율",
+      "target_class": "candidate",
+      "target_property": "candidate_Unsure_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불확실 비율",
+      "target_class": "candidate",
+      "target_property": "candidate_Unsure_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불확실성 비율",
+      "target_class": "candidate",
+      "target_property": "candidate_Unsure_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불확실한 비율",
+      "target_class": "candidate",
+      "target_property": "candidate_Unsure_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Unsure_rate",
+      "target_class": "candidate",
+      "target_property": "candidate_Unsure_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불확실성 수치",
+      "target_class": "candidate",
+      "target_property": "candidate_Unsure_rate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "people id",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "People_ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사람 ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 번호",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 고유 번호",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사람 고유 번호",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "sex",
+      "target_class": "people",
+      "target_property": "people_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Sex",
+      "target_class": "people",
+      "target_property": "people_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별",
+      "target_class": "people",
+      "target_property": "people_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "people",
+      "target_property": "people_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 정보",
+      "target_class": "people",
+      "target_property": "people_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 데이터",
+      "target_class": "people",
+      "target_property": "people_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 코드",
+      "target_class": "people",
+      "target_property": "people_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Name",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 데이터",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명 정보",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date of birth",
+      "target_class": "people",
+      "target_property": "people_Date_of_Birth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생일",
+      "target_class": "people",
+      "target_property": "people_Date_of_Birth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "태어난 날",
+      "target_class": "people",
+      "target_property": "people_Date_of_Birth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생일",
+      "target_class": "people",
+      "target_property": "people_Date_of_Birth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생 날짜",
+      "target_class": "people",
+      "target_property": "people_Date_of_Birth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년월일",
+      "target_class": "people",
+      "target_property": "people_Date_of_Birth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "people",
+      "target_property": "people_Date_of_Birth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생일자",
+      "target_class": "people",
+      "target_property": "people_Date_of_Birth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생일 정보",
+      "target_class": "people",
+      "target_property": "people_Date_of_Birth",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "height",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신장",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 길이",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신장 정보",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 데이터",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 수치",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 높이",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신장 길이",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "weight",
+      "target_class": "people",
+      "target_property": "people_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체중",
+      "target_class": "people",
+      "target_property": "people_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "몸무게",
+      "target_class": "people",
+      "target_property": "people_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "무게",
+      "target_class": "people",
+      "target_property": "people_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체중 정보",
+      "target_class": "people",
+      "target_property": "people_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "몸무게 데이터",
+      "target_class": "people",
+      "target_property": "people_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "무게 수치",
+      "target_class": "people",
+      "target_property": "people_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체중 측정",
+      "target_class": "people",
+      "target_property": "people_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체중 기록",
+      "target_class": "people",
+      "target_property": "people_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "국민의힘",
+      "target_class": "candidate",
+      "target_property": "candidate_Poll_Source",
+      "value": "국민의힘"
+    },
+    {
+      "entry_type": "value",
+      "key": "국민의힘 설문",
+      "target_class": "candidate",
+      "target_property": "candidate_Poll_Source",
+      "value": "국민의힘"
+    },
+    {
+      "entry_type": "value",
+      "key": "더불어민주당",
+      "target_class": "candidate",
+      "target_property": "candidate_Poll_Source",
+      "value": "더불어민주당"
+    },
+    {
+      "entry_type": "value",
+      "key": "민주당 설문",
+      "target_class": "candidate",
+      "target_property": "candidate_Poll_Source",
+      "value": "더불어민주당"
+    },
+    {
+      "entry_type": "value",
+      "key": "자유한국당",
+      "target_class": "candidate",
+      "target_property": "candidate_Poll_Source",
+      "value": "자유한국당"
+    },
+    {
+      "entry_type": "value",
+      "key": "자유한국당 설문",
+      "target_class": "candidate",
+      "target_property": "candidate_Poll_Source",
+      "value": "자유한국당"
+    },
+    {
+      "entry_type": "value",
+      "key": "2024-05-01",
+      "target_class": "candidate",
+      "target_property": "candidate_Date",
+      "value": "2024-05-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2024년 5월 1일",
+      "target_class": "candidate",
+      "target_property": "candidate_Date",
+      "value": "2024-05-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "5월 1일",
+      "target_class": "candidate",
+      "target_property": "candidate_Date",
+      "value": "2024-05-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2024-06-15",
+      "target_class": "candidate",
+      "target_property": "candidate_Date",
+      "value": "2024-06-15"
+    },
+    {
+      "entry_type": "value",
+      "key": "2024년 6월 15일",
+      "target_class": "candidate",
+      "target_property": "candidate_Date",
+      "value": "2024-06-15"
+    },
+    {
+      "entry_type": "value",
+      "key": "6월 15일",
+      "target_class": "candidate",
+      "target_property": "candidate_Date",
+      "value": "2024-06-15"
+    }
+  ]
+}

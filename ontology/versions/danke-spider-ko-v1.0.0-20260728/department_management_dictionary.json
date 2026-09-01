@@ -1,0 +1,872 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "부서",
+      "target_class": "department",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "팀",
+      "target_class": "department",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사업부",
+      "target_class": "department",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "그룹",
+      "target_class": "department",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "단위",
+      "target_class": "department",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "머리 id",
+      "target_class": "head",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "책임자",
+      "target_class": "head",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관리자",
+      "target_class": "head",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대표",
+      "target_class": "head",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이사",
+      "target_class": "head",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주임",
+      "target_class": "head",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관리부서",
+      "target_class": "management",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관리",
+      "target_class": "management",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "운영",
+      "target_class": "management",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "조직",
+      "target_class": "management",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "제어",
+      "target_class": "management",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지휘",
+      "target_class": "management",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 ID",
+      "target_class": "department",
+      "target_property": "department_Department_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사서기 번호",
+      "target_class": "department",
+      "target_property": "department_Department_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 코드",
+      "target_class": "department",
+      "target_property": "department_Department_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별자",
+      "target_class": "department",
+      "target_property": "department_Department_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Department_ID",
+      "target_class": "department",
+      "target_property": "department_Department_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 고유 번호",
+      "target_class": "department",
+      "target_property": "department_Department_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 식별자",
+      "target_class": "department",
+      "target_property": "department_Department_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "department",
+      "target_property": "department_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서명",
+      "target_class": "department",
+      "target_property": "department_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명칭",
+      "target_class": "department",
+      "target_property": "department_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회사 부서",
+      "target_class": "department",
+      "target_property": "department_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 이름",
+      "target_class": "department",
+      "target_property": "department_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Name",
+      "target_class": "department",
+      "target_property": "department_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 대표 이름",
+      "target_class": "department",
+      "target_property": "department_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "창립",
+      "target_class": "department",
+      "target_property": "department_Creation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설립일",
+      "target_class": "department",
+      "target_property": "department_Creation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "창립일",
+      "target_class": "department",
+      "target_property": "department_Creation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설립 날짜",
+      "target_class": "department",
+      "target_property": "department_Creation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Creation",
+      "target_class": "department",
+      "target_property": "department_Creation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 창립일",
+      "target_class": "department",
+      "target_property": "department_Creation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설립 일자",
+      "target_class": "department",
+      "target_property": "department_Creation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 생성일",
+      "target_class": "department",
+      "target_property": "department_Creation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "department",
+      "target_property": "department_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "department",
+      "target_property": "department_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭킹",
+      "target_class": "department",
+      "target_property": "department_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수",
+      "target_class": "department",
+      "target_property": "department_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Ranking",
+      "target_class": "department",
+      "target_property": "department_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 정보",
+      "target_class": "department",
+      "target_property": "department_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 값",
+      "target_class": "department",
+      "target_property": "department_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 순위",
+      "target_class": "department",
+      "target_property": "department_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "조달 비용(조)",
+      "target_class": "department",
+      "target_property": "department_Budget_in_Billions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예산",
+      "target_class": "department",
+      "target_property": "department_Budget_in_Billions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "십억 예산",
+      "target_class": "department",
+      "target_property": "department_Budget_in_Billions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예산 금액",
+      "target_class": "department",
+      "target_property": "department_Budget_in_Billions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "십억 단위 예산",
+      "target_class": "department",
+      "target_property": "department_Budget_in_Billions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예산액",
+      "target_class": "department",
+      "target_property": "department_Budget_in_Billions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Budget_in_Billions",
+      "target_class": "department",
+      "target_property": "department_Budget_in_Billions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예산 수치",
+      "target_class": "department",
+      "target_property": "department_Budget_in_Billions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "십억 예산 금액",
+      "target_class": "department",
+      "target_property": "department_Budget_in_Billions",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 수",
+      "target_class": "department",
+      "target_property": "department_Num_Employees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 개수",
+      "target_class": "department",
+      "target_property": "department_Num_Employees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 수치",
+      "target_class": "department",
+      "target_property": "department_Num_Employees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인원 수",
+      "target_class": "department",
+      "target_property": "department_Num_Employees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Num_Employees",
+      "target_class": "department",
+      "target_property": "department_Num_Employees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 수량",
+      "target_class": "department",
+      "target_property": "department_Num_Employees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 인원",
+      "target_class": "department",
+      "target_property": "department_Num_Employees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "머리 id",
+      "target_class": "head",
+      "target_property": "head_head_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head_ID",
+      "target_class": "head",
+      "target_property": "head_head_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head identifier",
+      "target_class": "head",
+      "target_property": "head_head_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head code",
+      "target_class": "head",
+      "target_property": "head_head_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head number",
+      "target_class": "head",
+      "target_property": "head_head_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head unique id",
+      "target_class": "head",
+      "target_property": "head_head_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head key",
+      "target_class": "head",
+      "target_property": "head_head_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "head",
+      "target_property": "head_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "head",
+      "target_property": "head_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head name",
+      "target_class": "head",
+      "target_property": "head_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head title",
+      "target_class": "head",
+      "target_property": "head_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head identifier name",
+      "target_class": "head",
+      "target_property": "head_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head full name",
+      "target_class": "head",
+      "target_property": "head_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head label",
+      "target_class": "head",
+      "target_property": "head_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생 지방",
+      "target_class": "head",
+      "target_property": "head_born_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "born_state",
+      "target_class": "head",
+      "target_property": "head_born_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "birth state",
+      "target_class": "head",
+      "target_property": "head_born_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "birth place",
+      "target_class": "head",
+      "target_property": "head_born_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "origin",
+      "target_class": "head",
+      "target_property": "head_born_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "place of birth",
+      "target_class": "head",
+      "target_property": "head_born_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "born location",
+      "target_class": "head",
+      "target_property": "head_born_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "born area",
+      "target_class": "head",
+      "target_property": "head_born_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head birth state",
+      "target_class": "head",
+      "target_property": "head_born_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "head",
+      "target_property": "head_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "head",
+      "target_property": "head_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년월일 기반 연령",
+      "target_class": "head",
+      "target_property": "head_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연대",
+      "target_class": "head",
+      "target_property": "head_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 정보",
+      "target_class": "head",
+      "target_property": "head_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 데이터",
+      "target_class": "head",
+      "target_property": "head_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 값",
+      "target_class": "head",
+      "target_property": "head_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 정보",
+      "target_class": "head",
+      "target_property": "head_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부서 ID",
+      "target_class": "management",
+      "target_property": "management_department_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "department_ID",
+      "target_class": "management",
+      "target_property": "management_department_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "department number",
+      "target_class": "management",
+      "target_property": "management_department_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dept id",
+      "target_class": "management",
+      "target_property": "management_department_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "department code",
+      "target_class": "management",
+      "target_property": "management_department_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dept number",
+      "target_class": "management",
+      "target_property": "management_department_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "department identifier",
+      "target_class": "management",
+      "target_property": "management_department_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장관 ID",
+      "target_class": "management",
+      "target_property": "management_head_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head_ID",
+      "target_class": "management",
+      "target_property": "management_head_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head number",
+      "target_class": "management",
+      "target_property": "management_head_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "manager id",
+      "target_class": "management",
+      "target_property": "management_head_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head code",
+      "target_class": "management",
+      "target_property": "management_head_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "manager number",
+      "target_class": "management",
+      "target_property": "management_head_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "head identifier",
+      "target_class": "management",
+      "target_property": "management_head_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "임시 대행",
+      "target_class": "management",
+      "target_property": "management_temporary_acting",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "temporary_acting",
+      "target_class": "management",
+      "target_property": "management_temporary_acting",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "temporary manager",
+      "target_class": "management",
+      "target_property": "management_temporary_acting",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "acting head",
+      "target_class": "management",
+      "target_property": "management_temporary_acting",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "temporary head",
+      "target_class": "management",
+      "target_property": "management_temporary_acting",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "acting manager",
+      "target_class": "management",
+      "target_property": "management_temporary_acting",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "temporary manager info",
+      "target_class": "management",
+      "target_property": "management_temporary_acting",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "경영부",
+      "target_class": "department",
+      "target_property": "department_Name",
+      "value": "경영부"
+    },
+    {
+      "entry_type": "value",
+      "key": "기술부",
+      "target_class": "department",
+      "target_property": "department_Name",
+      "value": "기술부"
+    },
+    {
+      "entry_type": "value",
+      "key": "2010년",
+      "target_class": "department",
+      "target_property": "department_Creation",
+      "value": "2010년"
+    },
+    {
+      "entry_type": "value",
+      "key": "김철수",
+      "target_class": "head",
+      "target_property": "head_name",
+      "value": "김철수"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "head",
+      "target_property": "head_born_state",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "예",
+      "target_class": "management",
+      "target_property": "management_temporary_acting",
+      "value": "예"
+    },
+    {
+      "entry_type": "value",
+      "key": "yes",
+      "target_class": "management",
+      "target_property": "management_temporary_acting",
+      "value": "예"
+    },
+    {
+      "entry_type": "value",
+      "key": "아니오",
+      "target_class": "management",
+      "target_property": "management_temporary_acting",
+      "value": "아니오"
+    },
+    {
+      "entry_type": "value",
+      "key": "no",
+      "target_class": "management",
+      "target_property": "management_temporary_acting",
+      "value": "아니오"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "class_table": {
+    "Addresses": "Addresses",
+    "Staff": "Staff",
+    "Vehicles": "Vehicles",
+    "Customers": "Customers",
+    "Customer_Payments": "Customer_Payments",
+    "Lessons": "Lessons"
+  },
+  "property_column": {
+    "Addresses_address_id": [
+      "Addresses",
+      "address_id"
+    ],
+    "Addresses_line_1_number_building": [
+      "Addresses",
+      "line_1_number_building"
+    ],
+    "Addresses_city": [
+      "Addresses",
+      "city"
+    ],
+    "Addresses_zip_postcode": [
+      "Addresses",
+      "zip_postcode"
+    ],
+    "Addresses_state_province_county": [
+      "Addresses",
+      "state_province_county"
+    ],
+    "Addresses_country": [
+      "Addresses",
+      "country"
+    ],
+    "Staff_staff_id": [
+      "Staff",
+      "staff_id"
+    ],
+    "Staff_staff_address_id": [
+      "Staff",
+      "staff_address_id"
+    ],
+    "Staff_nickname": [
+      "Staff",
+      "nickname"
+    ],
+    "Staff_first_name": [
+      "Staff",
+      "first_name"
+    ],
+    "Staff_middle_name": [
+      "Staff",
+      "middle_name"
+    ],
+    "Staff_last_name": [
+      "Staff",
+      "last_name"
+    ],
+    "Staff_date_of_birth": [
+      "Staff",
+      "date_of_birth"
+    ],
+    "Staff_date_joined_staff": [
+      "Staff",
+      "date_joined_staff"
+    ],
+    "Staff_date_left_staff": [
+      "Staff",
+      "date_left_staff"
+    ],
+    "Vehicles_vehicle_id": [
+      "Vehicles",
+      "vehicle_id"
+    ],
+    "Vehicles_vehicle_details": [
+      "Vehicles",
+      "vehicle_details"
+    ],
+    "Customers_customer_id": [
+      "Customers",
+      "customer_id"
+    ],
+    "Customers_customer_address_id": [
+      "Customers",
+      "customer_address_id"
+    ],
+    "Customers_customer_status_code": [
+      "Customers",
+      "customer_status_code"
+    ],
+    "Customers_date_became_customer": [
+      "Customers",
+      "date_became_customer"
+    ],
+    "Customers_date_of_birth": [
+      "Customers",
+      "date_of_birth"
+    ],
+    "Customers_first_name": [
+      "Customers",
+      "first_name"
+    ],
+    "Customers_last_name": [
+      "Customers",
+      "last_name"
+    ],
+    "Customers_amount_outstanding": [
+      "Customers",
+      "amount_outstanding"
+    ],
+    "Customers_email_address": [
+      "Customers",
+      "email_address"
+    ],
+    "Customers_phone_number": [
+      "Customers",
+      "phone_number"
+    ],
+    "Customers_cell_mobile_phone_number": [
+      "Customers",
+      "cell_mobile_phone_number"
+    ],
+    "Customer_Payments_customer_id": [
+      "Customer_Payments",
+      "customer_id"
+    ],
+    "Customer_Payments_datetime_payment": [
+      "Customer_Payments",
+      "datetime_payment"
+    ],
+    "Customer_Payments_payment_method_code": [
+      "Customer_Payments",
+      "payment_method_code"
+    ],
+    "Customer_Payments_amount_payment": [
+      "Customer_Payments",
+      "amount_payment"
+    ],
+    "Lessons_lesson_id": [
+      "Lessons",
+      "lesson_id"
+    ],
+    "Lessons_customer_id": [
+      "Lessons",
+      "customer_id"
+    ],
+    "Lessons_lesson_status_code": [
+      "Lessons",
+      "lesson_status_code"
+    ],
+    "Lessons_staff_id": [
+      "Lessons",
+      "staff_id"
+    ],
+    "Lessons_vehicle_id": [
+      "Lessons",
+      "vehicle_id"
+    ],
+    "Lessons_lesson_date": [
+      "Lessons",
+      "lesson_date"
+    ],
+    "Lessons_lesson_time": [
+      "Lessons",
+      "lesson_time"
+    ],
+    "Lessons_price": [
+      "Lessons",
+      "price"
+    ]
+  },
+  "object_property_fk": {
+    "Staff_Addresses_fk0": [
+      "Staff.staff_address_id",
+      "Addresses.address_id"
+    ],
+    "Customers_Addresses_fk1": [
+      "Customers.customer_address_id",
+      "Addresses.address_id"
+    ],
+    "Customer_Payments_Customers_fk2": [
+      "Customer_Payments.customer_id",
+      "Customers.customer_id"
+    ],
+    "Lessons_Customers_fk3": [
+      "Lessons.customer_id",
+      "Customers.customer_id"
+    ],
+    "Lessons_Staff_fk4": [
+      "Lessons.staff_id",
+      "Staff.staff_id"
+    ],
+    "Lessons_Vehicles_fk5": [
+      "Lessons.vehicle_id",
+      "Vehicles.vehicle_id"
+    ]
+  }
+}

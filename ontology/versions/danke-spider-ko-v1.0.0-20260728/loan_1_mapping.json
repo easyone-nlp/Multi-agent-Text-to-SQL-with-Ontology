@@ -1,0 +1,91 @@
+{
+  "class_table": {
+    "bank": "bank",
+    "customer": "customer",
+    "loan": "loan"
+  },
+  "property_column": {
+    "bank_branch_ID": [
+      "bank",
+      "branch_ID"
+    ],
+    "bank_bname": [
+      "bank",
+      "bname"
+    ],
+    "bank_no_of_customers": [
+      "bank",
+      "no_of_customers"
+    ],
+    "bank_city": [
+      "bank",
+      "city"
+    ],
+    "bank_state": [
+      "bank",
+      "state"
+    ],
+    "customer_cust_ID": [
+      "customer",
+      "cust_ID"
+    ],
+    "customer_cust_name": [
+      "customer",
+      "cust_name"
+    ],
+    "customer_acc_type": [
+      "customer",
+      "acc_type"
+    ],
+    "customer_acc_bal": [
+      "customer",
+      "acc_bal"
+    ],
+    "customer_no_of_loans": [
+      "customer",
+      "no_of_loans"
+    ],
+    "customer_credit_score": [
+      "customer",
+      "credit_score"
+    ],
+    "customer_branch_ID": [
+      "customer",
+      "branch_ID"
+    ],
+    "customer_state": [
+      "customer",
+      "state"
+    ],
+    "loan_loan_ID": [
+      "loan",
+      "loan_ID"
+    ],
+    "loan_loan_type": [
+      "loan",
+      "loan_type"
+    ],
+    "loan_cust_ID": [
+      "loan",
+      "cust_ID"
+    ],
+    "loan_branch_ID": [
+      "loan",
+      "branch_ID"
+    ],
+    "loan_amount": [
+      "loan",
+      "amount"
+    ]
+  },
+  "object_property_fk": {
+    "customer_bank_fk0": [
+      "customer.branch_ID",
+      "bank.branch_ID"
+    ],
+    "loan_bank_fk1": [
+      "loan.branch_ID",
+      "bank.branch_ID"
+    ]
+  }
+}

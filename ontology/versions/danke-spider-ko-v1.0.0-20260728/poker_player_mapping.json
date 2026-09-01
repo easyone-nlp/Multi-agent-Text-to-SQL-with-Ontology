@@ -1,0 +1,58 @@
+{
+  "class_table": {
+    "poker_player": "poker_player",
+    "people": "people"
+  },
+  "property_column": {
+    "poker_player_Poker_Player_ID": [
+      "poker_player",
+      "Poker_Player_ID"
+    ],
+    "poker_player_People_ID": [
+      "poker_player",
+      "People_ID"
+    ],
+    "poker_player_Final_Table_Made": [
+      "poker_player",
+      "Final_Table_Made"
+    ],
+    "poker_player_Best_Finish": [
+      "poker_player",
+      "Best_Finish"
+    ],
+    "poker_player_Money_Rank": [
+      "poker_player",
+      "Money_Rank"
+    ],
+    "poker_player_Earnings": [
+      "poker_player",
+      "Earnings"
+    ],
+    "people_People_ID": [
+      "people",
+      "People_ID"
+    ],
+    "people_Nationality": [
+      "people",
+      "Nationality"
+    ],
+    "people_Name": [
+      "people",
+      "Name"
+    ],
+    "people_Birth_Date": [
+      "people",
+      "Birth_Date"
+    ],
+    "people_Height": [
+      "people",
+      "Height"
+    ]
+  },
+  "object_property_fk": {
+    "poker_player_people_fk0": [
+      "poker_player.People_ID",
+      "people.People_ID"
+    ]
+  }
+}

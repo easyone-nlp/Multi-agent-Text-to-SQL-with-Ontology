@@ -1,0 +1,1121 @@
+{
+  "db_id": "bike_1",
+  "classes": [
+    {
+      "name": "station",
+      "source_table": "station",
+      "ranking": 3.5,
+      "primary_label": "역 정보",
+      "synonyms": [
+        "충전소",
+        "대여소",
+        "자전거소",
+        "스테이션",
+        "정류소"
+      ]
+    },
+    {
+      "name": "status",
+      "source_table": "status",
+      "ranking": 3.0,
+      "primary_label": "상태",
+      "synonyms": [
+        "상태",
+        "운영상황",
+        "현재상태",
+        "운영정보",
+        "상태정보"
+      ]
+    },
+    {
+      "name": "trip",
+      "source_table": "trip",
+      "ranking": 3.5,
+      "primary_label": "여행 기록",
+      "synonyms": [
+        "이동기록",
+        "여행기록",
+        "이용기록",
+        "이동내역",
+        "이용내역"
+      ]
+    },
+    {
+      "name": "weather",
+      "source_table": "weather",
+      "ranking": 3.5,
+      "primary_label": "날씨",
+      "synonyms": []
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "station_id",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "역 번호",
+      "synonyms": [
+        "id",
+        "스테이션 ID",
+        "스테이션 고유 번호",
+        "아이디",
+        "스테이션 식별자",
+        "스테이션 번호",
+        "스테이션 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_name",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "역 이름",
+      "synonyms": [
+        "이름",
+        "측정소 이름",
+        "명",
+        "측정소명",
+        "station name",
+        "name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_lat",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "lat",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "위도",
+      "synonyms": [
+        "위도",
+        "위도 값",
+        "latitude",
+        "위도 좌표",
+        "위도 수치",
+        "위도 정보",
+        "纬度"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_long",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "long",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "경도",
+      "synonyms": [
+        "경도",
+        "longitude",
+        "위도 좌표",
+        "long",
+        "경도 좌표"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_dock_count",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "dock_count",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "도킹 수",
+      "synonyms": [
+        "콘도 수",
+        "dock 수",
+        "dock count",
+        "차량 수",
+        "보유 콘도 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_city",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "도시",
+      "synonyms": [
+        "도시",
+        "도시명",
+        "도시 이름",
+        "city",
+        "위치 도시"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_installation_date",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "installation_date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "설치 일자",
+      "synonyms": [
+        "설치일",
+        "설치일자",
+        "설치 날짜",
+        "설치일자 정보",
+        "설치 날"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "status_station_id",
+      "domain": "status",
+      "source_table": "status",
+      "source_column": "station_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "정류장 ID",
+      "synonyms": [
+        "station_id",
+        "역 번호",
+        "역 ID",
+        "역 식별자",
+        "역 코드",
+        "station code",
+        "역 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "status_bikes_available",
+      "domain": "status",
+      "source_table": "status",
+      "source_column": "bikes_available",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "자전거 수",
+      "synonyms": [
+        "bikes_available",
+        "자전거 수",
+        "사용 가능한 자전거",
+        "자전거 수량",
+        "자전거 가용 수",
+        "사용 가능한 자전거 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "status_docks_available",
+      "domain": "status",
+      "source_table": "status",
+      "source_column": "docks_available",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "정류장 수",
+      "synonyms": [
+        "docks_available",
+        "휴지통 수",
+        "사용 가능한 휴지통",
+        "휴지통 수량",
+        "휴지통 가용 수",
+        "사용 가능한 휴지통 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "status_time",
+      "domain": "status",
+      "source_table": "status",
+      "source_column": "time",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "시간",
+      "synonyms": [
+        "시간",
+        "시각",
+        "시간 정보",
+        "시간戳",
+        "기록 시간",
+        "시간 기준",
+        "시간 데이터",
+        "시간 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "10:30": [
+          "10시30분",
+          "10:30"
+        ]
+      }
+    },
+    {
+      "name": "trip_id",
+      "domain": "trip",
+      "source_table": "trip",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "id",
+        "trip_id",
+        "trip identifier",
+        "trip number",
+        "trip code",
+        "trip sequence",
+        "trip unique id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "trip_duration",
+      "domain": "trip",
+      "source_table": "trip",
+      "source_column": "duration",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "소요 시간",
+      "synonyms": [
+        "duration",
+        "trip duration",
+        "ride time",
+        "trip time",
+        "trip length",
+        "ride duration",
+        "trip length in minutes"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "trip_start_date",
+      "domain": "trip",
+      "source_table": "trip",
+      "source_column": "start_date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "출발 일자",
+      "synonyms": [
+        "start_date",
+        "trip start date",
+        "start day",
+        "trip start day",
+        "start datetime",
+        "trip start time"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-01": [
+          "2023년 1월 1일",
+          "2023-01-01"
+        ]
+      }
+    },
+    {
+      "name": "trip_start_station_name",
+      "domain": "trip",
+      "source_table": "trip",
+      "source_column": "start_station_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "출발 스테이션 이름",
+      "synonyms": [
+        "출발 스테이션 이름",
+        "출발지 스테이션",
+        "출발 스테이션",
+        "스테이션 이름",
+        "출발 스테이션명",
+        "출발지 스테이션 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울역": [
+          "서울역",
+          "Seoul Station"
+        ]
+      }
+    },
+    {
+      "name": "trip_start_station_id",
+      "domain": "trip",
+      "source_table": "trip",
+      "source_column": "start_station_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "출발 스테이션 ID",
+      "synonyms": [
+        "출발 스테이션 ID",
+        "출발지 스테이션 ID",
+        "스테이션 ID",
+        "출발 스테이션 번호",
+        "스테이션 고유 번호",
+        "출발 스테이션 코드",
+        "스테이션 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "trip_end_date",
+      "domain": "trip",
+      "source_table": "trip",
+      "source_column": "end_date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "도착 일자",
+      "synonyms": [
+        "종료 날짜",
+        "종료일자",
+        "종료일",
+        "여행 종료일",
+        "마감 날짜",
+        "일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-02": [
+          "2023년 1월 2일",
+          "2023-01-02"
+        ]
+      }
+    },
+    {
+      "name": "trip_end_station_name",
+      "domain": "trip",
+      "source_table": "trip",
+      "source_column": "end_station_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "도착 스테이션 이름",
+      "synonyms": [
+        "종료 스테이션 이름",
+        "도착 스테이션 이름",
+        "도착 장소",
+        "종료 지점 이름",
+        "도착 스테이션",
+        "스테이션 이름",
+        "도착 장소 이름",
+        "종료 위치"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "경복궁역": [
+          "경복궁역",
+          "Gyeongbokgung Station"
+        ]
+      }
+    },
+    {
+      "name": "trip_end_station_id",
+      "domain": "trip",
+      "source_table": "trip",
+      "source_column": "end_station_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "도착 스테이션 ID",
+      "synonyms": [
+        "종료 스테이션 ID",
+        "도착 스테이션 ID",
+        "도착 지점 ID",
+        "종료 위치 ID",
+        "스테이션 ID",
+        "도착 장소 ID",
+        "종료 식별자",
+        "스테이션 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "trip_bike_id",
+      "domain": "trip",
+      "source_table": "trip",
+      "source_column": "bike_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "자전거 ID",
+      "synonyms": [
+        "자전거 ID",
+        "자전거 식별자",
+        "사용 자전거",
+        "자전거 번호",
+        "자전거 코드",
+        "자전거 식별",
+        "사용한 자전거"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "trip_subscription_type",
+      "domain": "trip",
+      "source_table": "trip",
+      "source_column": "subscription_type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "구독 유형",
+      "synonyms": [
+        "구독 유형",
+        "구독 종류",
+        "회원 유형",
+        "구독 타입",
+        "제한 유형",
+        "회원 계층",
+        "구독 구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "일회용": [
+          "일회용",
+          "one-time"
+        ],
+        "월정기": [
+          "월정기",
+          "monthly"
+        ]
+      }
+    },
+    {
+      "name": "trip_zip_code",
+      "domain": "trip",
+      "source_table": "trip",
+      "source_column": "zip_code",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "우편번호",
+      "synonyms": [
+        "우편번호",
+        "지역 코드",
+        "지번",
+        "ZIP 코드",
+        "우편번호 정보",
+        "지역 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "10000": [
+          "10000",
+          "10000번지"
+        ]
+      }
+    },
+    {
+      "name": "weather_date",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "날짜",
+      "synonyms": [
+        "날짜",
+        "날씨 기록일",
+        "날씨 날짜",
+        "날씨 일자",
+        "날씨 기준일",
+        "날씨 일자 정보",
+        "날씨 기록일자",
+        "날씨 날짜 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-01": [
+          "2023년 10월 1일",
+          "10월 1일"
+        ]
+      }
+    },
+    {
+      "name": "weather_max_temperature_f",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "max_temperature_f",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "최대 기온(화씨)",
+      "synonyms": [
+        "최고 기온",
+        "최대 기온",
+        "화씨 최고 온도",
+        "최대 온도(화씨)",
+        "화씨 최고 기온",
+        "일일 최고 온도(화씨)",
+        "화씨 최대 온도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_mean_temperature_f",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "mean_temperature_f",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "평균 기온(화씨)",
+      "synonyms": [
+        "평균 기온",
+        "일일 평균 온도",
+        "화씨 평균 온도",
+        "일일 평균 기온(화씨)",
+        "평균 온도(화씨)",
+        "화씨 평균 기온"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_min_temperature_f",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "min_temperature_f",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "최소 기온(화씨)",
+      "synonyms": [
+        "최저 기온",
+        "최저 온도",
+        "기온 최저",
+        "온도 최저",
+        "min temperature f",
+        "min_temp_f"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_max_dew_point_f",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "max_dew_point_f",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최대 절대 습도(화씨)",
+      "synonyms": [
+        "최대 음습도",
+        "최대 점도",
+        "음습도 최대",
+        "점도 최대",
+        "max dew point f"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_mean_dew_point_f",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "mean_dew_point_f",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "평균 절대 습도(화씨)",
+      "synonyms": [
+        "평균 음습도",
+        "평균 점도",
+        "점도 평균",
+        "음습도 평균",
+        "mean dew point f"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_min_dew_point_f",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "min_dew_point_f",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최소 절대 습도(화씨)",
+      "synonyms": [
+        "최저 절대 습도",
+        "최저 절대 습도 체온",
+        "최저 절대 습도 f",
+        "최저 절대 습도 체온 f",
+        "최저 절대 습도 f 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_max_humidity",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "max_humidity",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최대 습도",
+      "synonyms": [
+        "최고 습도",
+        "최고 절대 습도",
+        "최고 절대 습도 체온",
+        "최고 절대 습도 f",
+        "최고 절대 습도 체온 f",
+        "최고 절대 습도 f 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_mean_humidity",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "mean_humidity",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "평균 습도",
+      "synonyms": [
+        "평균 습도",
+        "평균 절대 습도",
+        "평균 절대 습도 체온",
+        "평균 절대 습도 f",
+        "평균 절대 습도 체온 f",
+        "평균 절대 습도 f 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_min_humidity",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "min_humidity",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최소 습도",
+      "synonyms": [
+        "최소 습도",
+        "습도 최소",
+        "습도 최소값",
+        "min_humidity",
+        "최소 습도 값",
+        "습도 최소 수치",
+        "습도 최저"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_max_sea_level_pressure_inches",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "max_sea_level_pressure_inches",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최대 해수면 기압(인치)",
+      "synonyms": [
+        "최대 해수면 압력",
+        "해수면 압력 최대",
+        "해수면 압력 최대값",
+        "max_sea_level_pressure_inches",
+        "해수면 압력 최대 수치",
+        "해수면 압력 최고",
+        "해수면 압력 최대치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_mean_sea_level_pressure_inches",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "mean_sea_level_pressure_inches",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "평균 해수면 기압(인치)",
+      "synonyms": [
+        "해수면 압력 평균",
+        "평균 해수면 압력",
+        "해수면 압력 평균값",
+        "mean_sea_level_pressure_inches",
+        "해수면 압력 평균 수치",
+        "해수면 압력 평균치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_min_sea_level_pressure_inches",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "min_sea_level_pressure_inches",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최소 해수면 기압(인치)",
+      "synonyms": [
+        "최저 해수면 기압",
+        "최저 기압",
+        "해수면 기압 최저",
+        "기압 최저",
+        "sea level pressure min",
+        "min sea level pressure",
+        "min pressure",
+        "sea level pressure min inches"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_max_visibility_miles",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "max_visibility_miles",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최대 시야 거리(마일)",
+      "synonyms": [
+        "최대 시야",
+        "시야 최대",
+        "시야 거리 최대",
+        "시야 최대 거리",
+        "max visibility",
+        "max visibility miles",
+        "시야 최대 미터",
+        "시야 최대 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_mean_visibility_miles",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "mean_visibility_miles",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "평균 시야 거리(마일)",
+      "synonyms": [
+        "평균 시야",
+        "시야 평균",
+        "시야 거리 평균",
+        "시야 평균 거리",
+        "mean visibility",
+        "mean visibility miles",
+        "시야 평균 미터",
+        "시야 평균 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_min_visibility_miles",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "min_visibility_miles",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최소 시야 거리(마일)",
+      "synonyms": [
+        "최저 시야거리",
+        "최소 시야거리",
+        "시야거리 최저",
+        "시야거리 최소",
+        "시야거리 최저값",
+        "시야거리 최소값",
+        "min visibility",
+        "min visibility miles"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_max_wind_Speed_mph",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "max_wind_Speed_mph",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최대 바람 속도(마일/시간)",
+      "synonyms": [
+        "최고 바람 속도",
+        "최대 바람 속도",
+        "바람 속도 최고",
+        "바람 속도 최대",
+        "바람 속도 최고값",
+        "바람 속도 최대값",
+        "max wind speed",
+        "max wind speed mph"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_mean_wind_speed_mph",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "mean_wind_speed_mph",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "평균 바람 속도(마일/시간)",
+      "synonyms": [
+        "평균 바람 속도",
+        "바람 속도 평균",
+        "바람 속도 평균값",
+        "평균 바람 속도 값",
+        "mean wind speed",
+        "mean wind speed mph"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_max_gust_speed_mph",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "max_gust_speed_mph",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최대 바람 폭풍 속도(마일/시간)",
+      "synonyms": [
+        "최대 바람 속도",
+        "최대 바람 속도 mph",
+        "바람 속도 최대",
+        "바람 속도 최대 mph",
+        "max_gust_speed_mph",
+        "max gust speed"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_precipitation_inches",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "precipitation_inches",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "강수량(인치)",
+      "synonyms": [
+        "강수량",
+        "강수량 인치",
+        "강수량 inches",
+        "precipitation",
+        "precipitation inches",
+        "비 인치",
+        "비 강도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_cloud_cover",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "cloud_cover",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "구름 덮임",
+      "synonyms": [
+        "구름 덮음",
+        "구름 비율",
+        "구름 덮은 비율",
+        "cloud cover",
+        "cloud cover 수치",
+        "구름 덮은 비율 수치",
+        "cloud"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_events",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "events",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이벤트",
+      "synonyms": [
+        "이벤트",
+        "날씨 이벤트",
+        "사고",
+        "현상",
+        "이슈",
+        "이벤트 기록",
+        "날씨 사건",
+        "기상 현상"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "비": [
+          "비",
+          "비가 온다"
+        ],
+        "눈": [
+          "눈",
+          "눈이 온다"
+        ],
+        "태풍": [
+          "태풍",
+          "폭풍"
+        ]
+      }
+    },
+    {
+      "name": "weather_wind_dir_degrees",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "wind_dir_degrees",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "바람 방향(도)",
+      "synonyms": [
+        "풍향",
+        "풍 방향",
+        "풍도",
+        "풍의 방향",
+        "풍 방향도gree",
+        "풍향 도gree"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weather_zip_code",
+      "domain": "weather",
+      "source_table": "weather",
+      "source_column": "zip_code",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "우편번호",
+      "synonyms": [
+        "우편번호",
+        "지역 코드",
+        "ZIP 코드",
+        "지역 번호",
+        "ZIP"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "12345": [
+          "12345",
+          "12345번 우편번호"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "status_station_fk0",
+      "domain": "status",
+      "range": "station",
+      "source_fk": [
+        "status.station_id",
+        "station.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

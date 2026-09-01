@@ -1,0 +1,577 @@
+{
+  "db_id": "station_weather",
+  "classes": [
+    {
+      "name": "train",
+      "source_table": "train",
+      "ranking": 3.0,
+      "primary_label": "열차",
+      "synonyms": [
+        "열차",
+        "철도차량",
+        "열차 운행",
+        "철도 기차",
+        "열차 정보"
+      ]
+    },
+    {
+      "name": "station",
+      "source_table": "station",
+      "ranking": 3.0,
+      "primary_label": "역 정보",
+      "synonyms": [
+        "역",
+        "역 정보",
+        "철도역",
+        "역 데이터",
+        "역 위치"
+      ]
+    },
+    {
+      "name": "route",
+      "source_table": "route",
+      "ranking": 3.0,
+      "primary_label": "경로",
+      "synonyms": [
+        "경로",
+        "tuyến",
+        "철도 경로",
+        "운행 경로",
+        "경로 정보"
+      ]
+    },
+    {
+      "name": "weekly_weather",
+      "source_table": "weekly_weather",
+      "ranking": 3.5,
+      "primary_label": "주간 날씨",
+      "synonyms": []
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "train_id",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "ID",
+      "synonyms": [
+        "id",
+        "열차 고유 번호",
+        "열차 식별자",
+        "열차 번호",
+        "열차 ID",
+        "고유 식별자",
+        "열차 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "train_train_number",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "train_number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 4.0,
+      "primary_label": "열차 번호",
+      "synonyms": [
+        "train_number",
+        "열차 등록 번호",
+        "열차 번호",
+        "열차 등록 ID",
+        "열차 등록 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "101": [
+          "101"
+        ],
+        "205": [
+          "205"
+        ]
+      }
+    },
+    {
+      "name": "train_name",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "열차 이름",
+        "열차명",
+        "열차 명칭",
+        "열차 고유 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울역": [
+          "서울역"
+        ],
+        "부산역": [
+          "부산역"
+        ]
+      }
+    },
+    {
+      "name": "train_origin",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "origin",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "출발역",
+      "synonyms": [
+        "출발지",
+        "출발지역",
+        "출발지점",
+        "출발지 정보",
+        "출발지명",
+        "origin"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "인천": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "train_destination",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "destination",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "도착역",
+      "synonyms": [
+        "도착지",
+        "도착지역",
+        "도착지점",
+        "도착지 정보",
+        "도착지명",
+        "destination"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "부산": [
+          "부산"
+        ],
+        "대구": [
+          "대구"
+        ]
+      }
+    },
+    {
+      "name": "train_time",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "time",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "출발 시간",
+      "synonyms": [
+        "출발 시간",
+        "출발시각",
+        "시간",
+        "출발 시간 정보",
+        "time",
+        "시각"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "08:30": [
+          "08:30",
+          "8시30분"
+        ]
+      }
+    },
+    {
+      "name": "train_interval",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "interval",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "간격",
+      "synonyms": [
+        "운행 간격",
+        "운행 주기",
+        "간격",
+        "interval",
+        "시간 간격",
+        "열차 간격"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_id",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "역 번호",
+      "synonyms": [
+        "id",
+        "측정소 번호",
+        "측정소 식별자",
+        "측정소 고유 번호",
+        "측정소 코드",
+        "측정소 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_network_name",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "network_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "네트워크 이름",
+      "synonyms": [
+        "network_name",
+        "네트워크 이름",
+        "측정소 네트워크",
+        "측정소 네트워크명",
+        "측정소 네트워크 이름",
+        "측정소 네트워크 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울 지하철": [
+          "서울 지하철",
+          "서울지하철"
+        ],
+        "경기 지하철": [
+          "경기 지하철",
+          "경기지하철"
+        ]
+      }
+    },
+    {
+      "name": "station_services",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "services",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "운영 서비스",
+      "synonyms": [
+        "services",
+        "서비스",
+        "측정소 서비스",
+        "측정소 제공 서비스",
+        "측정소 서비스 목록",
+        "측정소 서비스 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "지하철": [
+          "지하철"
+        ],
+        "버스": [
+          "버스"
+        ]
+      }
+    },
+    {
+      "name": "station_local_authority",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "local_authority",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "지방 자치단체",
+      "synonyms": [
+        "지방청",
+        "지방정부",
+        "지자체",
+        "지방청사",
+        "지방관리기관",
+        "지방청역",
+        "지방청소대리"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울특별시": [
+          "서울특별시",
+          "서울시"
+        ],
+        "경기도": [
+          "경기도",
+          "경기"
+        ]
+      }
+    },
+    {
+      "name": "route_train_id",
+      "domain": "route",
+      "source_table": "route",
+      "source_column": "train_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "열차 ID",
+      "synonyms": [
+        "열차 ID",
+        "열차 번호",
+        "train id",
+        "열차 식별자",
+        "트레인 ID",
+        "열차 코드",
+        "train_no"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "route_station_id",
+      "domain": "route",
+      "source_table": "route",
+      "source_column": "station_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "역 ID",
+      "synonyms": [
+        "역 ID",
+        "역 번호",
+        "station id",
+        "역 식별자",
+        "역 코드",
+        "station_no",
+        "역 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weekly_weather_station_id",
+      "domain": "weekly_weather",
+      "source_table": "weekly_weather",
+      "source_column": "station_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기지 ID",
+      "synonyms": [
+        "station_id",
+        "측정소 ID",
+        "측정소 번호",
+        "측정소 식별자",
+        "측정소 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weekly_weather_day_of_week",
+      "domain": "weekly_weather",
+      "source_table": "weekly_weather",
+      "source_column": "day_of_week",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "요일",
+      "synonyms": [
+        "day_of_week",
+        "요일",
+        "요일 정보",
+        "주요일",
+        "요일명",
+        "요일 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "월요일": [
+          "월"
+        ],
+        "화요일": [
+          "화"
+        ],
+        "수요일": [
+          "수"
+        ],
+        "목요일": [
+          "목"
+        ],
+        "금요일": [
+          "금"
+        ],
+        "토요일": [
+          "토"
+        ],
+        "일요일": [
+          "일"
+        ]
+      }
+    },
+    {
+      "name": "weekly_weather_high_temperature",
+      "domain": "weekly_weather",
+      "source_table": "weekly_weather",
+      "source_column": "high_temperature",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최고 기온",
+      "synonyms": [
+        "high_temperature",
+        "최고 기온",
+        "최대 기온",
+        "기온 최고",
+        "최고 온도",
+        "기온 최대"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weekly_weather_low_temperature",
+      "domain": "weekly_weather",
+      "source_table": "weekly_weather",
+      "source_column": "low_temperature",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최저 기온",
+      "synonyms": [
+        "저기온",
+        "저온",
+        "낮 최저 기온",
+        "최저 기온",
+        "low temperature",
+        "low_temp",
+        "저온값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weekly_weather_precipitation",
+      "domain": "weekly_weather",
+      "source_table": "weekly_weather",
+      "source_column": "precipitation",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "강수량",
+      "synonyms": [
+        "강수량",
+        "비",
+        "비량",
+        "강수",
+        "precipitation",
+        "강수량값",
+        "비량 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "weekly_weather_wind_speed_mph",
+      "domain": "weekly_weather",
+      "source_table": "weekly_weather",
+      "source_column": "wind_speed_mph",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "바람 속도 (mph)",
+      "synonyms": [
+        "풍속",
+        "풍속 mph",
+        "풍속값",
+        "mph 풍속",
+        "wind speed",
+        "풍속 정보",
+        "풍속 측정"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "route_station_fk0",
+      "domain": "route",
+      "range": "station",
+      "source_fk": [
+        "route.station_id",
+        "station.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "route_train_fk1",
+      "domain": "route",
+      "range": "train",
+      "source_fk": [
+        "route.train_id",
+        "train.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "weekly_weather_station_fk2",
+      "domain": "weekly_weather",
+      "range": "station",
+      "source_fk": [
+        "weekly_weather.station_id",
+        "station.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

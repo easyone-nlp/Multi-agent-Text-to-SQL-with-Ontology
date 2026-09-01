@@ -1,0 +1,730 @@
+{
+  "db_id": "products_gen_characteristics",
+  "classes": [
+    {
+      "name": "Ref_Characteristic_Types",
+      "source_table": "Ref_Characteristic_Types",
+      "ranking": 3.0,
+      "primary_label": "참조 특성 유형",
+      "synonyms": [
+        "특성 종류",
+        "특성 타입",
+        "특성 구분",
+        "특성 카테고리",
+        "특성 분류"
+      ]
+    },
+    {
+      "name": "Ref_Colors",
+      "source_table": "Ref_Colors",
+      "ranking": 1.0,
+      "primary_label": "참조 색상",
+      "synonyms": [
+        "색상 정보",
+        "색상 목록",
+        "색상 데이터",
+        "색상 종류",
+        "색상 코드"
+      ]
+    },
+    {
+      "name": "Ref_Product_Categories",
+      "source_table": "Ref_Product_Categories",
+      "ranking": 3.0,
+      "primary_label": "참조 제품 카테고리",
+      "synonyms": [
+        "제품 분류",
+        "제품 카테고리",
+        "제품 그룹",
+        "제품 분류 목록",
+        "제품 타입"
+      ]
+    },
+    {
+      "name": "Characteristics",
+      "source_table": "Characteristics",
+      "ranking": 3.5,
+      "primary_label": "특성",
+      "synonyms": [
+        "특성",
+        "속성",
+        "특징",
+        "정보",
+        "데이터",
+        "설명",
+        "구성 요소",
+        "특성 정보"
+      ]
+    },
+    {
+      "name": "Products",
+      "source_table": "Products",
+      "ranking": 3.5,
+      "primary_label": "상품",
+      "synonyms": []
+    },
+    {
+      "name": "Product_Characteristics",
+      "source_table": "Product_Characteristics",
+      "ranking": 3.0,
+      "primary_label": "product characteristics",
+      "synonyms": [
+        "제품 속성",
+        "제품 특성",
+        "제품 정보",
+        "제품 요소",
+        "제품 특징",
+        "제품 데이터",
+        "제품 특성 데이터",
+        "제품 속성 정보"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Ref_Characteristic_Types_characteristic_type_code",
+      "domain": "Ref_Characteristic_Types",
+      "source_table": "Ref_Characteristic_Types",
+      "source_column": "characteristic_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "특성 유형 코드",
+      "synonyms": [
+        "특성 유형 코드",
+        "유형 코드",
+        "CT 코드",
+        "특성 코드",
+        "유형 식별자",
+        "특성 유형 식별 코드",
+        "코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "특성 유형 코드": [
+          "특성 유형 코드"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Characteristic_Types_characteristic_type_description",
+      "domain": "Ref_Characteristic_Types",
+      "source_table": "Ref_Characteristic_Types",
+      "source_column": "characteristic_type_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "특성 유형 설명",
+      "synonyms": [
+        "특성 유형 설명",
+        "특성 유형 설명 정보",
+        "특성 유형 설명내용",
+        "특성 유형 설명문",
+        "특성 유형 설명항목",
+        "특성 유형 설명 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Ref_Colors_color_code",
+      "domain": "Ref_Colors",
+      "source_table": "Ref_Colors",
+      "source_column": "color_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "색 코드",
+      "synonyms": [
+        "색상 코드",
+        "색코드",
+        "색상 코드 정보",
+        "색상코드 값",
+        "색상 코드 식별자",
+        "색상 코드 정보값",
+        "색상 코드 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Ref_Colors_color_description",
+      "domain": "Ref_Colors",
+      "source_table": "Ref_Colors",
+      "source_column": "color_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "색 설명",
+      "synonyms": [
+        "색상 설명",
+        "색상 이름",
+        "색상 설명 정보",
+        "색상 설명값",
+        "색상 설명 정보값",
+        "색상 설명 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "빨간색": [
+          "빨간"
+        ],
+        "파란색": [
+          "파란"
+        ],
+        "초록색": [
+          "초록"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Product_Categories_product_category_code",
+      "domain": "Ref_Product_Categories",
+      "source_table": "Ref_Product_Categories",
+      "source_column": "product_category_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "제품 카테고리 코드",
+      "synonyms": [
+        "제품 카테고리 코드",
+        "카테고리 코드",
+        "제품 코드",
+        "상품 코드",
+        "PC 코드",
+        "product_category_code",
+        "PC"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Ref_Product_Categories_product_category_description",
+      "domain": "Ref_Product_Categories",
+      "source_table": "Ref_Product_Categories",
+      "source_column": "product_category_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "제품 카테고리 설명",
+      "synonyms": [
+        "제품 카테고리 설명",
+        "카테고리 설명",
+        "제품 설명",
+        "상품 설명",
+        "제품 카테고리 이름",
+        "product_category_description",
+        "카테고리 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "전자제품": [
+          "전자제품",
+          "전자기기"
+        ],
+        "식품": [
+          "식품",
+          "식재료"
+        ],
+        "의약품": [
+          "의약품",
+          "약품"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Product_Categories_unit_of_measure",
+      "domain": "Ref_Product_Categories",
+      "source_table": "Ref_Product_Categories",
+      "source_column": "unit_of_measure",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "단위 측정",
+      "synonyms": [
+        "측정 단위",
+        "단위",
+        "측정법",
+        "제품 단위",
+        "제품 측정 단위",
+        "unit_of_measure",
+        "단위 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "개": [
+          "개"
+        ],
+        "kg": [
+          "kg",
+          "킬로그램"
+        ],
+        "ml": [
+          "ml",
+          "밀리리터"
+        ]
+      }
+    },
+    {
+      "name": "Characteristics_characteristic_id",
+      "domain": "Characteristics",
+      "source_table": "Characteristics",
+      "source_column": "characteristic_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "특성 id",
+      "synonyms": [
+        "특성 ID",
+        "특성 식별자",
+        "characteristic_id",
+        "특성 번호",
+        "특성 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Characteristics_characteristic_type_code",
+      "domain": "Characteristics",
+      "source_table": "Characteristics",
+      "source_column": "characteristic_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "특성 유형 코드",
+      "synonyms": [
+        "특성 유형 코드",
+        "characteristic_type_code",
+        "특성 종류 코드",
+        "특성 타입 코드",
+        "특성 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "TYPE_01": [
+          "기본 특성",
+          "기본 정보"
+        ],
+        "TYPE_02": [
+          "기타 특성",
+          "추가 정보"
+        ]
+      }
+    },
+    {
+      "name": "Characteristics_characteristic_data_type",
+      "domain": "Characteristics",
+      "source_table": "Characteristics",
+      "source_column": "characteristic_data_type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "특성 데이터 타입",
+      "synonyms": [
+        "특성 데이터 형식",
+        "characteristic_data_type",
+        "특성 형식",
+        "특성 데이터 타입",
+        "특성 데이터 종류"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "TEXT": [
+          "문자열",
+          "텍스트"
+        ],
+        "NUMBER": [
+          "숫자",
+          "수치"
+        ]
+      }
+    },
+    {
+      "name": "Characteristics_characteristic_name",
+      "domain": "Characteristics",
+      "source_table": "Characteristics",
+      "source_column": "characteristic_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "특성 이름",
+      "synonyms": [
+        "특성명",
+        "특성 이름",
+        "characteristic name",
+        "특성명 정보",
+        "특성 이름 정보",
+        "상품 특성명",
+        "상품 특성 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Characteristics_other_characteristic_details",
+      "domain": "Characteristics",
+      "source_table": "Characteristics",
+      "source_column": "other_characteristic_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "다른 특성 세부 정보",
+      "synonyms": [
+        "기타 특성 정보",
+        "기타 특성 세부 사항",
+        "기타 특성 설명",
+        "other characteristic details",
+        "기타 특성 데이터",
+        "기타 특성 설명 정보",
+        "상품 기타 특성",
+        "기타 특성 정보 내용"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_id",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "상품 ID",
+      "synonyms": [
+        "product_id",
+        "상품 번호",
+        "제품 ID",
+        "상품 식별 번호",
+        "제품 고유 번호",
+        "상품 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_color_code",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "color_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "색상 코드",
+      "synonyms": [
+        "color_code",
+        "색상 코드",
+        "색상",
+        "색상 코드 정보",
+        "색상 코드 값",
+        "색상 코드 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "RED": [
+          "빨간색",
+          "빨간"
+        ],
+        "BLUE": [
+          "파란색",
+          "파란"
+        ],
+        "GREEN": [
+          "초록색",
+          "초록"
+        ]
+      }
+    },
+    {
+      "name": "Products_product_category_code",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_category_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "상품 카테고리 코드",
+      "synonyms": [
+        "product_category_code",
+        "카테고리 코드",
+        "상품 분류 코드",
+        "상품 카테고리",
+        "상품 분류",
+        "상품 카테고리 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "ELECTRONICS": [
+          "전자제품"
+        ],
+        "CLOTHING": [
+          "의류"
+        ],
+        "HOME": [
+          "가전제품",
+          "가정용품"
+        ]
+      }
+    },
+    {
+      "name": "Products_product_name",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "상품 이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_typical_buying_price",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "typical_buying_price",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "보통 구매 가격",
+      "synonyms": [
+        "일반 구매 가격",
+        "구매 가격",
+        "구매 가격 정보",
+        "보통 구매 가격",
+        "구매 가격 데이터",
+        "상품 구매 가격",
+        "보통 구매 비용",
+        "구매 비용"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_typical_selling_price",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "typical_selling_price",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "보통 판매 가격",
+      "synonyms": [
+        "일반 판매 가격",
+        "판매 가격",
+        "판매 가격 정보",
+        "보통 판매 가격",
+        "판매 가격 데이터",
+        "상품 판매 가격",
+        "보통 판매 비용",
+        "판매 비용"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_description",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "상품 설명",
+      "synonyms": [
+        "제품 설명",
+        "상품 설명",
+        "제품 소개",
+        "상품 정보",
+        "제품 요약",
+        "제품 개요",
+        "제품 설명 내용"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_other_product_details",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "other_product_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.2,
+      "primary_label": "다른 상품 세부 정보",
+      "synonyms": [
+        "기타 상품 세부 사항",
+        "기타 상품 정보",
+        "기타 상품 설명",
+        "기타 상품 정보 내용",
+        "기타 상품 세부 정보",
+        "기타 상품 요약",
+        "기타 상품 개요"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Product_Characteristics_product_id",
+      "domain": "Product_Characteristics",
+      "source_table": "Product_Characteristics",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "product id",
+      "synonyms": [
+        "제품 ID",
+        "제품 번호",
+        "제품 식별자",
+        "제품 코드",
+        "product_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Product_Characteristics_characteristic_id",
+      "domain": "Product_Characteristics",
+      "source_table": "Product_Characteristics",
+      "source_column": "characteristic_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "characteristic id",
+      "synonyms": [
+        "특성 ID",
+        "특성 번호",
+        "특성 식별자",
+        "특성 코드",
+        "characteristic_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Product_Characteristics_product_characteristic_value",
+      "domain": "Product_Characteristics",
+      "source_table": "Product_Characteristics",
+      "source_column": "product_characteristic_value",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "product characteristic value",
+      "synonyms": [
+        "제품 특성 값",
+        "제품 특성 정보",
+        "특성 값",
+        "제품 특성",
+        "product_characteristic_value"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "색상": [
+          "색상",
+          "색"
+        ],
+        "크기": [
+          "크기",
+          "사이즈"
+        ],
+        "무게": [
+          "무게",
+          "중량"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Characteristics_Ref_Characteristic_Types_fk0",
+      "domain": "Characteristics",
+      "range": "Ref_Characteristic_Types",
+      "source_fk": [
+        "Characteristics.characteristic_type_code",
+        "Ref_Characteristic_Types.characteristic_type_code"
+      ],
+      "weight": 1.0,
+      "primary_label": "유형 참조",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Products_Ref_Colors_fk1",
+      "domain": "Products",
+      "range": "Ref_Colors",
+      "source_fk": [
+        "Products.color_code",
+        "Ref_Colors.color_code"
+      ],
+      "weight": 1.0,
+      "primary_label": "색상 참조",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Products_Ref_Product_Categories_fk2",
+      "domain": "Products",
+      "range": "Ref_Product_Categories",
+      "source_fk": [
+        "Products.product_category_code",
+        "Ref_Product_Categories.product_category_code"
+      ],
+      "weight": 1.0,
+      "primary_label": "카테고리 참조",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Product_Characteristics_Products_fk3",
+      "domain": "Product_Characteristics",
+      "range": "Products",
+      "source_fk": [
+        "Product_Characteristics.product_id",
+        "Products.product_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "제품 참조",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Product_Characteristics_Characteristics_fk4",
+      "domain": "Product_Characteristics",
+      "range": "Characteristics",
+      "source_fk": [
+        "Product_Characteristics.characteristic_id",
+        "Characteristics.characteristic_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "특성 참조",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

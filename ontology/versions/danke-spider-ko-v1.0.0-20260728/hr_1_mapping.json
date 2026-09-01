@@ -1,0 +1,183 @@
+{
+  "class_table": {
+    "regions": "regions",
+    "countries": "countries",
+    "departments": "departments",
+    "jobs": "jobs",
+    "employees": "employees",
+    "job_history": "job_history",
+    "locations": "locations"
+  },
+  "property_column": {
+    "regions_REGION_ID": [
+      "regions",
+      "REGION_ID"
+    ],
+    "regions_REGION_NAME": [
+      "regions",
+      "REGION_NAME"
+    ],
+    "countries_COUNTRY_ID": [
+      "countries",
+      "COUNTRY_ID"
+    ],
+    "countries_COUNTRY_NAME": [
+      "countries",
+      "COUNTRY_NAME"
+    ],
+    "countries_REGION_ID": [
+      "countries",
+      "REGION_ID"
+    ],
+    "departments_DEPARTMENT_ID": [
+      "departments",
+      "DEPARTMENT_ID"
+    ],
+    "departments_DEPARTMENT_NAME": [
+      "departments",
+      "DEPARTMENT_NAME"
+    ],
+    "departments_MANAGER_ID": [
+      "departments",
+      "MANAGER_ID"
+    ],
+    "departments_LOCATION_ID": [
+      "departments",
+      "LOCATION_ID"
+    ],
+    "jobs_JOB_ID": [
+      "jobs",
+      "JOB_ID"
+    ],
+    "jobs_JOB_TITLE": [
+      "jobs",
+      "JOB_TITLE"
+    ],
+    "jobs_MIN_SALARY": [
+      "jobs",
+      "MIN_SALARY"
+    ],
+    "jobs_MAX_SALARY": [
+      "jobs",
+      "MAX_SALARY"
+    ],
+    "employees_EMPLOYEE_ID": [
+      "employees",
+      "EMPLOYEE_ID"
+    ],
+    "employees_FIRST_NAME": [
+      "employees",
+      "FIRST_NAME"
+    ],
+    "employees_LAST_NAME": [
+      "employees",
+      "LAST_NAME"
+    ],
+    "employees_EMAIL": [
+      "employees",
+      "EMAIL"
+    ],
+    "employees_PHONE_NUMBER": [
+      "employees",
+      "PHONE_NUMBER"
+    ],
+    "employees_HIRE_DATE": [
+      "employees",
+      "HIRE_DATE"
+    ],
+    "employees_JOB_ID": [
+      "employees",
+      "JOB_ID"
+    ],
+    "employees_SALARY": [
+      "employees",
+      "SALARY"
+    ],
+    "employees_COMMISSION_PCT": [
+      "employees",
+      "COMMISSION_PCT"
+    ],
+    "employees_MANAGER_ID": [
+      "employees",
+      "MANAGER_ID"
+    ],
+    "employees_DEPARTMENT_ID": [
+      "employees",
+      "DEPARTMENT_ID"
+    ],
+    "job_history_EMPLOYEE_ID": [
+      "job_history",
+      "EMPLOYEE_ID"
+    ],
+    "job_history_START_DATE": [
+      "job_history",
+      "START_DATE"
+    ],
+    "job_history_END_DATE": [
+      "job_history",
+      "END_DATE"
+    ],
+    "job_history_JOB_ID": [
+      "job_history",
+      "JOB_ID"
+    ],
+    "job_history_DEPARTMENT_ID": [
+      "job_history",
+      "DEPARTMENT_ID"
+    ],
+    "locations_LOCATION_ID": [
+      "locations",
+      "LOCATION_ID"
+    ],
+    "locations_STREET_ADDRESS": [
+      "locations",
+      "STREET_ADDRESS"
+    ],
+    "locations_POSTAL_CODE": [
+      "locations",
+      "POSTAL_CODE"
+    ],
+    "locations_CITY": [
+      "locations",
+      "CITY"
+    ],
+    "locations_STATE_PROVINCE": [
+      "locations",
+      "STATE_PROVINCE"
+    ],
+    "locations_COUNTRY_ID": [
+      "locations",
+      "COUNTRY_ID"
+    ]
+  },
+  "object_property_fk": {
+    "countries_regions_fk0": [
+      "countries.REGION_ID",
+      "regions.REGION_ID"
+    ],
+    "employees_jobs_fk1": [
+      "employees.JOB_ID",
+      "jobs.JOB_ID"
+    ],
+    "employees_departments_fk2": [
+      "employees.DEPARTMENT_ID",
+      "departments.DEPARTMENT_ID"
+    ],
+    "job_history_jobs_fk3": [
+      "job_history.JOB_ID",
+      "jobs.JOB_ID"
+    ],
+    "job_history_departments_fk4": [
+      "job_history.DEPARTMENT_ID",
+      "departments.DEPARTMENT_ID"
+    ],
+    "job_history_employees_fk5": [
+      "job_history.EMPLOYEE_ID",
+      "employees.EMPLOYEE_ID"
+    ],
+    "locations_countries_fk6": [
+      "locations.COUNTRY_ID",
+      "countries.COUNTRY_ID"
+    ]
+  }
+}

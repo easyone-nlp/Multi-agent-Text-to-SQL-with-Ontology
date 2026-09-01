@@ -1,0 +1,669 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "미술관",
+      "target_class": "museum",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "박물관",
+      "target_class": "museum",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "박물관 정보",
+      "target_class": "museum",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전시소",
+      "target_class": "museum",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "역사박물관",
+      "target_class": "museum",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "박물관 데이터",
+      "target_class": "museum",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전시 공간",
+      "target_class": "museum",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "문화 기관",
+      "target_class": "museum",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객",
+      "target_class": "visitor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관람객",
+      "target_class": "visitor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방문객",
+      "target_class": "visitor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방문자",
+      "target_class": "visitor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관람자",
+      "target_class": "visitor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이용객",
+      "target_class": "visitor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방문 기록",
+      "target_class": "visit",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방문",
+      "target_class": "visit",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관람",
+      "target_class": "visit",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방문기록",
+      "target_class": "visit",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관람기록",
+      "target_class": "visit",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방문내역",
+      "target_class": "visit",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관람내역",
+      "target_class": "visit",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방문로그",
+      "target_class": "visit",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관람로그",
+      "target_class": "visit",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "미술관 id",
+      "target_class": "museum",
+      "target_property": "museum_Museum_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "museum",
+      "target_property": "museum_Museum_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "museum",
+      "target_property": "museum_Museum_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코드",
+      "target_class": "museum",
+      "target_property": "museum_Museum_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "museum",
+      "target_property": "museum_Museum_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별자",
+      "target_class": "museum",
+      "target_property": "museum_Museum_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "museum",
+      "target_property": "museum_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "museum",
+      "target_property": "museum_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명칭",
+      "target_class": "museum",
+      "target_property": "museum_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소명",
+      "target_class": "museum",
+      "target_property": "museum_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호칭",
+      "target_class": "museum",
+      "target_property": "museum_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "num of staff",
+      "target_class": "museum",
+      "target_property": "museum_Num_of_Staff",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 수",
+      "target_class": "museum",
+      "target_property": "museum_Num_of_Staff",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인원 수",
+      "target_class": "museum",
+      "target_property": "museum_Num_of_Staff",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 수량",
+      "target_class": "museum",
+      "target_property": "museum_Num_of_Staff",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인력 수",
+      "target_class": "museum",
+      "target_property": "museum_Num_of_Staff",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 수치",
+      "target_class": "museum",
+      "target_property": "museum_Num_of_Staff",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "open year",
+      "target_class": "museum",
+      "target_property": "museum_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개관 연도",
+      "target_class": "museum",
+      "target_property": "museum_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 시작 연도",
+      "target_class": "museum",
+      "target_property": "museum_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개장 연도",
+      "target_class": "museum",
+      "target_property": "museum_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설립 연도",
+      "target_class": "museum",
+      "target_property": "museum_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 연도",
+      "target_class": "museum",
+      "target_property": "museum_Open_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer id",
+      "target_class": "visitor",
+      "target_property": "visitor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 번호",
+      "target_class": "visitor",
+      "target_property": "visitor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방문자 ID",
+      "target_class": "visitor",
+      "target_property": "visitor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "visitor",
+      "target_property": "visitor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "visitor",
+      "target_property": "visitor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방문자 고유 ID",
+      "target_class": "visitor",
+      "target_property": "visitor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 코드",
+      "target_class": "visitor",
+      "target_property": "visitor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "visitor",
+      "target_property": "visitor_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "level of membership",
+      "target_class": "visitor",
+      "target_property": "visitor_Level_of_membership",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멤버십 등급",
+      "target_class": "visitor",
+      "target_property": "visitor_Level_of_membership",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "visitor",
+      "target_property": "visitor_Level_of_membership",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 정보",
+      "target_class": "visitor",
+      "target_property": "visitor_Level_of_membership",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멤버십 수준",
+      "target_class": "visitor",
+      "target_property": "visitor_Level_of_membership",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 코드",
+      "target_class": "visitor",
+      "target_property": "visitor_Level_of_membership",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 지정",
+      "target_class": "visitor",
+      "target_property": "visitor_Level_of_membership",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 구분",
+      "target_class": "visitor",
+      "target_property": "visitor_Level_of_membership",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멤버십 분류",
+      "target_class": "visitor",
+      "target_property": "visitor_Level_of_membership",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "age",
+      "target_class": "visitor",
+      "target_property": "visitor_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "visitor",
+      "target_property": "visitor_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "visitor",
+      "target_property": "visitor_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년월일",
+      "target_class": "visitor",
+      "target_property": "visitor_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생년도",
+      "target_class": "visitor",
+      "target_property": "visitor_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령대",
+      "target_class": "visitor",
+      "target_property": "visitor_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이대",
+      "target_class": "visitor",
+      "target_property": "visitor_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년",
+      "target_class": "visitor",
+      "target_property": "visitor_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "museum id",
+      "target_class": "visit",
+      "target_property": "visit_Museum_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "박물관 번호",
+      "target_class": "visit",
+      "target_property": "visit_Museum_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "박물관 코드",
+      "target_class": "visit",
+      "target_property": "visit_Museum_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "박물관 식별자",
+      "target_class": "visit",
+      "target_property": "visit_Museum_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "박물관 ID",
+      "target_class": "visit",
+      "target_property": "visit_Museum_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer id",
+      "target_class": "visit",
+      "target_property": "visit_visitor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 번호",
+      "target_class": "visit",
+      "target_property": "visit_visitor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 코드",
+      "target_class": "visit",
+      "target_property": "visit_visitor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방문자 번호",
+      "target_class": "visit",
+      "target_property": "visit_visitor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "visit",
+      "target_property": "visit_visitor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방문자 ID",
+      "target_class": "visit",
+      "target_property": "visit_visitor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "num of ticket",
+      "target_class": "visit",
+      "target_property": "visit_Num_of_Ticket",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "티켓 수량",
+      "target_class": "visit",
+      "target_property": "visit_Num_of_Ticket",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "티켓 개수",
+      "target_class": "visit",
+      "target_property": "visit_Num_of_Ticket",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "티켓 수",
+      "target_class": "visit",
+      "target_property": "visit_Num_of_Ticket",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "total spent",
+      "target_class": "visit",
+      "target_property": "visit_Total_spent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 지출",
+      "target_class": "visit",
+      "target_property": "visit_Total_spent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 소비",
+      "target_class": "visit",
+      "target_property": "visit_Total_spent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 비용",
+      "target_class": "visit",
+      "target_property": "visit_Total_spent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 지출 금액",
+      "target_class": "visit",
+      "target_property": "visit_Total_spent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 소비 금액",
+      "target_class": "visit",
+      "target_property": "visit_Total_spent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 비용 금액",
+      "target_class": "visit",
+      "target_property": "visit_Total_spent",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 미술관",
+      "target_class": "museum",
+      "target_property": "museum_Name",
+      "value": "서울 미술관"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산 미술관",
+      "target_class": "museum",
+      "target_property": "museum_Name",
+      "value": "부산 미술관"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "class_table": {
+    "mountain": "mountain",
+    "climber": "climber"
+  },
+  "property_column": {
+    "mountain_Mountain_ID": [
+      "mountain",
+      "Mountain_ID"
+    ],
+    "mountain_Name": [
+      "mountain",
+      "Name"
+    ],
+    "mountain_Height": [
+      "mountain",
+      "Height"
+    ],
+    "mountain_Prominence": [
+      "mountain",
+      "Prominence"
+    ],
+    "mountain_Range": [
+      "mountain",
+      "Range"
+    ],
+    "mountain_Country": [
+      "mountain",
+      "Country"
+    ],
+    "climber_Climber_ID": [
+      "climber",
+      "Climber_ID"
+    ],
+    "climber_Name": [
+      "climber",
+      "Name"
+    ],
+    "climber_Country": [
+      "climber",
+      "Country"
+    ],
+    "climber_Time": [
+      "climber",
+      "Time"
+    ],
+    "climber_Points": [
+      "climber",
+      "Points"
+    ],
+    "climber_Mountain_ID": [
+      "climber",
+      "Mountain_ID"
+    ]
+  },
+  "object_property_fk": {
+    "climber_mountain_fk0": [
+      "climber.Mountain_ID",
+      "mountain.Mountain_ID"
+    ]
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "db_id": "match_season",
+  "classes": [
+    {
+      "name": "country",
+      "source_table": "country",
+      "ranking": 3.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "나라",
+        "국",
+        "국가명",
+        "국가코드"
+      ]
+    },
+    {
+      "name": "team",
+      "source_table": "team",
+      "ranking": 1.0,
+      "primary_label": "팀",
+      "synonyms": [
+        "팀",
+        "구단",
+        "클럽",
+        "팀명",
+        "팀코드"
+      ]
+    },
+    {
+      "name": "match_season",
+      "source_table": "match_season",
+      "ranking": 3.5,
+      "primary_label": "매치 시즌",
+      "synonyms": [
+        "시즌",
+        "시즌 정보",
+        "경기 시즌",
+        "시즌별 경기",
+        "시즌 데이터",
+        "시즌별 경기 정보"
+      ]
+    },
+    {
+      "name": "player",
+      "source_table": "player",
+      "ranking": 3.5,
+      "primary_label": "플레이어",
+      "synonyms": [
+        "선수",
+        "경기 참여자",
+        "선수 정보",
+        "플레이어 데이터",
+        "경기 인원",
+        "선수 목록",
+        "경기 참가자",
+        "선수 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "country_Country_id",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Country_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "country id",
+      "synonyms": [
+        "국가 ID",
+        "국가 고유 번호",
+        "국가 코드",
+        "국가 식별자",
+        "국가 번호",
+        "Country_id",
+        "국가 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_Country_name",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Country_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "country name",
+      "synonyms": [
+        "국가 이름",
+        "국가명",
+        "국가 공식 이름",
+        "국가명칭",
+        "Country_name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_Capital",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Capital",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "capital",
+      "synonyms": [
+        "수도",
+        "국가 수도",
+        "수도 이름",
+        "국가 수도명",
+        "Capital"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_Official_native_language",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Official_native_language",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "official native language",
+      "synonyms": [
+        "공식 원산어",
+        "공식 언어",
+        "국가 언어",
+        "원산어",
+        "언어",
+        "공식적인 원산어",
+        "국가 공식 언어"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_Team_id",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "Team_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "team id",
+      "synonyms": [
+        "팀 아이디",
+        "팀 ID",
+        "팀 번호",
+        "팀 식별자",
+        "Team_id",
+        "팀 고유 번호",
+        "팀 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "team_Name",
+      "domain": "team",
+      "source_table": "team",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "팀 이름",
+        "이름",
+        "팀 명",
+        "팀 타이틀",
+        "Team_name",
+        "팀 대표 이름",
+        "팀 소속 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_season_Season",
+      "domain": "match_season",
+      "source_table": "match_season",
+      "source_column": "Season",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "season",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_season_Player",
+      "domain": "match_season",
+      "source_table": "match_season",
+      "source_column": "Player",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "player",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_season_Position",
+      "domain": "match_season",
+      "source_table": "match_season",
+      "source_column": "Position",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "position",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_season_Country",
+      "domain": "match_season",
+      "source_table": "match_season",
+      "source_column": "Country",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "country",
+      "synonyms": [
+        "국가",
+        "국가코드",
+        "국가_id",
+        "국가번호",
+        "국가정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_season_Team",
+      "domain": "match_season",
+      "source_table": "match_season",
+      "source_column": "Team",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "team",
+      "synonyms": [
+        "팀",
+        "팀코드",
+        "팀_id",
+        "팀번호",
+        "팀정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_season_Draft_Pick_Number",
+      "domain": "match_season",
+      "source_table": "match_season",
+      "source_column": "Draft_Pick_Number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "draft pick number",
+      "synonyms": [
+        "드래프트 번호",
+        "드래프트 선택 번호",
+        "드래프트 순번",
+        "드래프트 수",
+        "드래프트 순서",
+        "드래프트 선택"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_season_Draft_Class",
+      "domain": "match_season",
+      "source_table": "match_season",
+      "source_column": "Draft_Class",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "draft class",
+      "synonyms": [
+        "드래프트 클래스",
+        "드래프트 분류",
+        "드래프트 시즌 분류",
+        "드래프트 층",
+        "드래프트 카테고리",
+        "드래프트 등급",
+        "드래프트 클래스 정보",
+        "드래프트 분류 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_season_College",
+      "domain": "match_season",
+      "source_table": "match_season",
+      "source_column": "College",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "college",
+      "synonyms": [
+        "대학",
+        "대학 이름",
+        "대학명",
+        "대학 정보",
+        "대학 이름 정보",
+        "대학 이름 기록",
+        "대학 정보 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Player_ID",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Player_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "player id",
+      "synonyms": [
+        "플레이어 ID",
+        "플레이어 번호",
+        "플레이어 고유 ID",
+        "ID",
+        "플레이어 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Player",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Player",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "player",
+      "synonyms": [
+        "플레이어 이름",
+        "플레이어",
+        "선수 이름",
+        "선수",
+        "플레이어명",
+        "선수명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Years_Played",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Years_Played",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "years played",
+      "synonyms": [
+        "참여 년도",
+        "경기 연도",
+        "경기 년수",
+        "경기 연도 정보",
+        "경기 연도 기록",
+        "경기 연도 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Total_WL",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Total_WL",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "total wl",
+      "synonyms": [
+        "총 승패",
+        "전체 승패",
+        "총 WL",
+        "전체 경기 WL",
+        "승패 기록",
+        "Total WL",
+        "전체 WL"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Singles_WL",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Singles_WL",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "singles wl",
+      "synonyms": [
+        "개인 경기 WL",
+        "싱글스 WL",
+        "개인 승패",
+        "싱글스 승패",
+        "Singles WL",
+        "개인 경기 WL 기록",
+        "싱글스 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Doubles_WL",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Doubles_WL",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "doubles wl",
+      "synonyms": [
+        "대규모 경기 WL",
+        "더블스 WL",
+        "대규모 승패",
+        "더블스 승패",
+        "Doubles WL",
+        "팀 경기 WL",
+        "더블스 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Team",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Team",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "team",
+      "synonyms": [
+        "팀",
+        "팀 번호",
+        "소속 팀",
+        "팀_id",
+        "팀 정보",
+        "팀 식별자",
+        "팀 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "match_season_team_fk0",
+      "domain": "match_season",
+      "range": "team",
+      "source_fk": [
+        "match_season.Team",
+        "team.Team_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "match_season_country_fk1",
+      "domain": "match_season",
+      "range": "country",
+      "source_fk": [
+        "match_season.Country",
+        "country.Country_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "player_team_fk2",
+      "domain": "player",
+      "range": "team",
+      "source_fk": [
+        "player.Team",
+        "team.Team_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

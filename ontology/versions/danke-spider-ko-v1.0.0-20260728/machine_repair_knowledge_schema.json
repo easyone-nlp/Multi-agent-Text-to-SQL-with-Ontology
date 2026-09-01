@@ -1,0 +1,534 @@
+{
+  "db_id": "machine_repair",
+  "classes": [
+    {
+      "name": "repair",
+      "source_table": "repair",
+      "ranking": 1.0,
+      "primary_label": "수리",
+      "synonyms": [
+        "수리 기록",
+        "수리 정보",
+        "수리 데이터",
+        "수리 내역",
+        "수리 기록 테이블"
+      ]
+    },
+    {
+      "name": "machine",
+      "source_table": "machine",
+      "ranking": 3.5,
+      "primary_label": "기계",
+      "synonyms": []
+    },
+    {
+      "name": "technician",
+      "source_table": "technician",
+      "ranking": 3.0,
+      "primary_label": "기술자",
+      "synonyms": [
+        "수리 기술자",
+        "기계 기술자",
+        "수리 전문가",
+        "기술자",
+        "수리 담당자"
+      ]
+    },
+    {
+      "name": "repair_assignment",
+      "source_table": "repair_assignment",
+      "ranking": 3.0,
+      "primary_label": "수리 배정",
+      "synonyms": []
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "repair_repair_ID",
+      "domain": "repair",
+      "source_table": "repair",
+      "source_column": "repair_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "수리 ID",
+      "synonyms": [
+        "수리 ID",
+        "수리 번호",
+        "수리 고유 ID",
+        "수리 식별자",
+        "수리 코드",
+        "수리 고유 번호",
+        "수리 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "repair_name",
+      "domain": "repair",
+      "source_table": "repair",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "제목",
+        "수리 이름",
+        "수리 제목",
+        "수리 명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "수리 서비스": [
+          "수리 서비스"
+        ]
+      }
+    },
+    {
+      "name": "repair_Launch_Date",
+      "domain": "repair",
+      "source_table": "repair",
+      "source_column": "Launch_Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "출시 일자",
+      "synonyms": [
+        "시작 날짜",
+        "수리 시작일",
+        "수리 시작 날짜",
+        "수리 날짜",
+        "수리 일자",
+        "수리 시작 일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-15": [
+          "2023년 1월 15일"
+        ]
+      }
+    },
+    {
+      "name": "repair_Notes",
+      "domain": "repair",
+      "source_table": "repair",
+      "source_column": "Notes",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "비고",
+      "synonyms": [
+        "비고",
+        "추가 설명",
+        "비고 항목",
+        "설명",
+        "비고 내용",
+        "추가 정보",
+        "비고 필드",
+        "설명 항목"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "machine_Machine_ID",
+      "domain": "machine",
+      "source_table": "machine",
+      "source_column": "Machine_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "기계 ID",
+      "synonyms": [
+        "Machine_ID",
+        "기계 ID",
+        "기계 번호",
+        "식별 번호",
+        "기계 식별자",
+        "기계 고유 번호",
+        "ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "machine_Making_Year",
+      "domain": "machine",
+      "source_table": "machine",
+      "source_column": "Making_Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "제작 연도",
+      "synonyms": [
+        "Making_Year",
+        "제작 연도",
+        "제조 연도",
+        "연도",
+        "제작년도",
+        "기계 연도",
+        "생산 연도"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": [
+          "2020년"
+        ]
+      }
+    },
+    {
+      "name": "machine_Class",
+      "domain": "machine",
+      "source_table": "machine",
+      "source_column": "Class",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "클래스",
+      "synonyms": [
+        "Class",
+        "분류",
+        "기계 분류",
+        "분류 정보",
+        "클래스",
+        "기계 유형",
+        "분류 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "A": [
+          "A 클래스"
+        ],
+        "B": [
+          "B 클래스"
+        ]
+      }
+    },
+    {
+      "name": "machine_Team",
+      "domain": "machine",
+      "source_table": "machine",
+      "source_column": "Team",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "팀",
+      "synonyms": [
+        "팀",
+        "팀명",
+        "팀 이름",
+        "팀명칭",
+        "팀 정보",
+        "team",
+        "team name",
+        "team name in korean"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "팀1": [
+          "1팀"
+        ],
+        "팀2": [
+          "2팀"
+        ]
+      }
+    },
+    {
+      "name": "machine_Machine_series",
+      "domain": "machine",
+      "source_table": "machine",
+      "source_column": "Machine_series",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "기계 시리즈",
+      "synonyms": [
+        "시리즈",
+        "시리즈명",
+        "시리즈 이름",
+        "시리즈 정보",
+        "machine series",
+        "machine series name",
+        "machine series in korean",
+        "machine series info"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "X1": [
+          "X1 시리즈"
+        ],
+        "Y2": [
+          "Y2 시리즈"
+        ]
+      }
+    },
+    {
+      "name": "machine_value_points",
+      "domain": "machine",
+      "source_table": "machine",
+      "source_column": "value_points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "값 포인트",
+      "synonyms": [
+        "가치 점수",
+        "가치점",
+        "점수",
+        "value points",
+        "value points in korean",
+        "value score",
+        "value point"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "machine_quality_rank",
+      "domain": "machine",
+      "source_table": "machine",
+      "source_column": "quality_rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.2,
+      "primary_label": "품질 등급",
+      "synonyms": [
+        "품질 등급",
+        "품질 순위",
+        "품질 점수",
+        "품질 등수",
+        "quality rank",
+        "품질 평가"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "최고 등급"
+        ],
+        "5": [
+          "최저 등급"
+        ]
+      }
+    },
+    {
+      "name": "technician_technician_id",
+      "domain": "technician",
+      "source_table": "technician",
+      "source_column": "technician_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "기술자 ID",
+      "synonyms": [
+        "technician_id",
+        "技師ID",
+        "技師 고유번호",
+        "技師 번호",
+        "技師 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "technician_Name",
+      "domain": "technician",
+      "source_table": "technician",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "Name",
+        "이름",
+        "技師 이름",
+        "技師명",
+        "명",
+        "성명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김철수": [
+          "김철수",
+          "이영희"
+        ]
+      }
+    },
+    {
+      "name": "technician_Team",
+      "domain": "technician",
+      "source_table": "technician",
+      "source_column": "Team",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "팀",
+      "synonyms": [
+        "Team",
+        "팀",
+        "팀명",
+        "그룹",
+        "팀 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "기계팀": [
+          "기계팀",
+          "전기팀"
+        ]
+      }
+    },
+    {
+      "name": "technician_Starting_Year",
+      "domain": "technician",
+      "source_table": "technician",
+      "source_column": "Starting_Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "출근 연도",
+      "synonyms": [
+        "시작 연도",
+        "입사 연도",
+        "근무 시작년도",
+        "시작년도",
+        "입사년도",
+        "Starting_Year",
+        "근무 시작 연도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "technician_Age",
+      "domain": "technician",
+      "source_table": "technician",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "나이",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "repair_assignment_technician_id",
+      "domain": "repair_assignment",
+      "source_table": "repair_assignment",
+      "source_column": "technician_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기술자 ID",
+      "synonyms": [
+        "기술자 ID",
+        "기술자 식별자",
+        "수리 기술자 ID",
+        "기술자 번호",
+        "수리 기술자",
+        "기술자 코드",
+        "수리 담당자 ID",
+        "기술자 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "repair_assignment_repair_ID",
+      "domain": "repair_assignment",
+      "source_table": "repair_assignment",
+      "source_column": "repair_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "수리 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "repair_assignment_Machine_ID",
+      "domain": "repair_assignment",
+      "source_table": "repair_assignment",
+      "source_column": "Machine_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기계 ID",
+      "synonyms": [
+        "Machine_ID",
+        "기계 번호",
+        "기계 식별자",
+        "기계 ID",
+        "기계 고유 번호",
+        "기계 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "repair_assignment_machine_fk0",
+      "domain": "repair_assignment",
+      "range": "machine",
+      "source_fk": [
+        "repair_assignment.Machine_ID",
+        "machine.Machine_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "repair_assignment_repair_fk1",
+      "domain": "repair_assignment",
+      "range": "repair",
+      "source_fk": [
+        "repair_assignment.repair_ID",
+        "repair.repair_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "repair_assignment_technician_fk2",
+      "domain": "repair_assignment",
+      "range": "technician",
+      "source_fk": [
+        "repair_assignment.technician_id",
+        "technician.technician_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

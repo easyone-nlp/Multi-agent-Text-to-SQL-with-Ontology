@@ -1,0 +1,108 @@
+{
+  "class_table": {
+    "country": "country",
+    "team": "team",
+    "match_season": "match_season",
+    "player": "player"
+  },
+  "property_column": {
+    "country_Country_id": [
+      "country",
+      "Country_id"
+    ],
+    "country_Country_name": [
+      "country",
+      "Country_name"
+    ],
+    "country_Capital": [
+      "country",
+      "Capital"
+    ],
+    "country_Official_native_language": [
+      "country",
+      "Official_native_language"
+    ],
+    "team_Team_id": [
+      "team",
+      "Team_id"
+    ],
+    "team_Name": [
+      "team",
+      "Name"
+    ],
+    "match_season_Season": [
+      "match_season",
+      "Season"
+    ],
+    "match_season_Player": [
+      "match_season",
+      "Player"
+    ],
+    "match_season_Position": [
+      "match_season",
+      "Position"
+    ],
+    "match_season_Country": [
+      "match_season",
+      "Country"
+    ],
+    "match_season_Team": [
+      "match_season",
+      "Team"
+    ],
+    "match_season_Draft_Pick_Number": [
+      "match_season",
+      "Draft_Pick_Number"
+    ],
+    "match_season_Draft_Class": [
+      "match_season",
+      "Draft_Class"
+    ],
+    "match_season_College": [
+      "match_season",
+      "College"
+    ],
+    "player_Player_ID": [
+      "player",
+      "Player_ID"
+    ],
+    "player_Player": [
+      "player",
+      "Player"
+    ],
+    "player_Years_Played": [
+      "player",
+      "Years_Played"
+    ],
+    "player_Total_WL": [
+      "player",
+      "Total_WL"
+    ],
+    "player_Singles_WL": [
+      "player",
+      "Singles_WL"
+    ],
+    "player_Doubles_WL": [
+      "player",
+      "Doubles_WL"
+    ],
+    "player_Team": [
+      "player",
+      "Team"
+    ]
+  },
+  "object_property_fk": {
+    "match_season_team_fk0": [
+      "match_season.Team",
+      "team.Team_id"
+    ],
+    "match_season_country_fk1": [
+      "match_season.Country",
+      "country.Country_id"
+    ],
+    "player_team_fk2": [
+      "player.Team",
+      "team.Team_id"
+    ]
+  }
+}

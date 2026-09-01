@@ -1,0 +1,634 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "영화",
+      "target_class": "Movie",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화제목",
+      "target_class": "Movie",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화정보",
+      "target_class": "Movie",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화목록",
+      "target_class": "Movie",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화데이터",
+      "target_class": "Movie",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화내용",
+      "target_class": "Movie",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "리뷰어",
+      "target_class": "Reviewer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "리뷰작성자",
+      "target_class": "Reviewer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "평점작성자",
+      "target_class": "Reviewer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화평가자",
+      "target_class": "Reviewer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "평점제공자",
+      "target_class": "Reviewer",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "평가",
+      "target_class": "Rating",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "평점",
+      "target_class": "Rating",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "리뷰 평점",
+      "target_class": "Rating",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 평점",
+      "target_class": "Rating",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "평점 정보",
+      "target_class": "Rating",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "리뷰 평가",
+      "target_class": "Rating",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영화 평가",
+      "target_class": "Rating",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 id",
+      "target_class": "Movie",
+      "target_property": "Movie_mID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mID",
+      "target_class": "Movie",
+      "target_property": "Movie_mID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 ID",
+      "target_class": "Movie",
+      "target_property": "Movie_mID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별 번호",
+      "target_class": "Movie",
+      "target_property": "Movie_mID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mID 번호",
+      "target_class": "Movie",
+      "target_property": "Movie_mID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 고유 번호",
+      "target_class": "Movie",
+      "target_property": "Movie_mID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 코드",
+      "target_class": "Movie",
+      "target_property": "Movie_mID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "Movie",
+      "target_property": "Movie_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "title",
+      "target_class": "Movie",
+      "target_property": "Movie_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 제목",
+      "target_class": "Movie",
+      "target_property": "Movie_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 이름",
+      "target_class": "Movie",
+      "target_property": "Movie_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 타이틀",
+      "target_class": "Movie",
+      "target_property": "Movie_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화명",
+      "target_class": "Movie",
+      "target_property": "Movie_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "Movie",
+      "target_property": "Movie_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "year",
+      "target_class": "Movie",
+      "target_property": "Movie_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도",
+      "target_class": "Movie",
+      "target_property": "Movie_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 연도",
+      "target_class": "Movie",
+      "target_property": "Movie_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작 연도",
+      "target_class": "Movie",
+      "target_property": "Movie_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 발매 연도",
+      "target_class": "Movie",
+      "target_property": "Movie_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 년도",
+      "target_class": "Movie",
+      "target_property": "Movie_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 연대",
+      "target_class": "Movie",
+      "target_property": "Movie_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독",
+      "target_class": "Movie",
+      "target_property": "Movie_director",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독 이름",
+      "target_class": "Movie",
+      "target_property": "Movie_director",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독자",
+      "target_class": "Movie",
+      "target_property": "Movie_director",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독자 이름",
+      "target_class": "Movie",
+      "target_property": "Movie_director",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독명",
+      "target_class": "Movie",
+      "target_property": "Movie_director",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 id",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_rID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "rID",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_rID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 ID",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_rID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 식별번호",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_rID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 번호",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_rID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 고유번호",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_rID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 식별자",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_rID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 아이디",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_rID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 이름",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 대표 이름",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 소유자 이름",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 주인 이름",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 표시 이름",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 id",
+      "target_class": "Rating",
+      "target_property": "Rating_rID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "rID",
+      "target_class": "Rating",
+      "target_property": "Rating_rID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 ID",
+      "target_class": "Rating",
+      "target_property": "Rating_rID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 번호",
+      "target_class": "Rating",
+      "target_property": "Rating_rID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 식별자",
+      "target_class": "Rating",
+      "target_property": "Rating_rID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰어 코드",
+      "target_class": "Rating",
+      "target_property": "Rating_rID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 id",
+      "target_class": "Rating",
+      "target_property": "Rating_mID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mID",
+      "target_class": "Rating",
+      "target_property": "Rating_mID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 ID",
+      "target_class": "Rating",
+      "target_property": "Rating_mID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 번호",
+      "target_class": "Rating",
+      "target_property": "Rating_mID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 식별자",
+      "target_class": "Rating",
+      "target_property": "Rating_mID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "영화 코드",
+      "target_class": "Rating",
+      "target_property": "Rating_mID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 별점",
+      "target_class": "Rating",
+      "target_property": "Rating_stars",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stars",
+      "target_class": "Rating",
+      "target_property": "Rating_stars",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "별점",
+      "target_class": "Rating",
+      "target_property": "Rating_stars",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점",
+      "target_class": "Rating",
+      "target_property": "Rating_stars",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "별 수",
+      "target_class": "Rating",
+      "target_property": "Rating_stars",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 수",
+      "target_class": "Rating",
+      "target_property": "Rating_stars",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "별 점수",
+      "target_class": "Rating",
+      "target_property": "Rating_stars",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 일시",
+      "target_class": "Rating",
+      "target_property": "Rating_ratingDate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 날짜",
+      "target_class": "Rating",
+      "target_property": "Rating_ratingDate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 날짜",
+      "target_class": "Rating",
+      "target_property": "Rating_ratingDate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 일자",
+      "target_class": "Rating",
+      "target_property": "Rating_ratingDate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 기록일",
+      "target_class": "Rating",
+      "target_property": "Rating_ratingDate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 일자",
+      "target_class": "Rating",
+      "target_property": "Rating_ratingDate",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "아이언맨",
+      "target_class": "Movie",
+      "target_property": "Movie_title",
+      "value": "아이언맨"
+    },
+    {
+      "entry_type": "value",
+      "key": "스파이더맨",
+      "target_class": "Movie",
+      "target_property": "Movie_title",
+      "value": "스파이더맨"
+    },
+    {
+      "entry_type": "value",
+      "key": "조지 루카스",
+      "target_class": "Movie",
+      "target_property": "Movie_director",
+      "value": "조지 루카스"
+    },
+    {
+      "entry_type": "value",
+      "key": "스티븐 스필버그",
+      "target_class": "Movie",
+      "target_property": "Movie_director",
+      "value": "스티븐 스필버그"
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "박지현",
+      "target_class": "Reviewer",
+      "target_property": "Reviewer_name",
+      "value": "박지현"
+    }
+  ]
+}

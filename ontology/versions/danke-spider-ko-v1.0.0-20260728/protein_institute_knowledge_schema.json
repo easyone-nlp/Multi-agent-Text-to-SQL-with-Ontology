@@ -1,0 +1,562 @@
+{
+  "db_id": "protein_institute",
+  "classes": [
+    {
+      "name": "building",
+      "source_table": "building",
+      "ranking": 3.0,
+      "primary_label": "건물",
+      "synonyms": [
+        "건물",
+        "연구소 구조",
+        "건물 정보",
+        "연구 시설",
+        "공장",
+        "건물 데이터",
+        "연구소 물리 구조",
+        "설비"
+      ]
+    },
+    {
+      "name": "Institution",
+      "source_table": "Institution",
+      "ranking": 3.5,
+      "primary_label": "기관",
+      "synonyms": [
+        "기관",
+        "연구소",
+        "조직",
+        "연구 기관",
+        "기관 정보",
+        "연구소 조직",
+        "기관 데이터",
+        "조직 구조"
+      ]
+    },
+    {
+      "name": "protein",
+      "source_table": "protein",
+      "ranking": 3.5,
+      "primary_label": "단백질",
+      "synonyms": [
+        "단백질",
+        "단백질 데이터",
+        "단백질 정보",
+        "단백질 연구",
+        "단백질 기록",
+        "단백질 데이터베이스",
+        "단백질 정보 저장",
+        "단백질 연구소 데이터"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "building_building_id",
+      "domain": "building",
+      "source_table": "building",
+      "source_column": "building_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.5,
+      "primary_label": "건물 ID",
+      "synonyms": [
+        "건물 ID",
+        "건물 식별자",
+        "building_id",
+        "건물 번호",
+        "건물 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "building_Name",
+      "domain": "building",
+      "source_table": "building",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "건물 이름",
+        "Name",
+        "건물 제목",
+        "건물 대표 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울타워": [
+          "서울타워"
+        ],
+        "김포공항 타워": [
+          "김포공항 타워"
+        ]
+      }
+    },
+    {
+      "name": "building_Street_address",
+      "domain": "building",
+      "source_table": "building",
+      "source_column": "Street_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "street address",
+      "synonyms": [
+        "주소",
+        "거리 주소",
+        "Street_address",
+        "건물 주소",
+        "건물 위치"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "building_Years_as_tallest",
+      "domain": "building",
+      "source_table": "building",
+      "source_column": "Years_as_tallest",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "years as tallest",
+      "synonyms": [
+        "years as tallest",
+        "tallest years",
+        "tallest year",
+        "tallest duration",
+        "tallest period",
+        "tallest years info",
+        "tallest duration info"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "building_Height_feet",
+      "domain": "building",
+      "source_table": "building",
+      "source_column": "Height_feet",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "height feet",
+      "synonyms": [
+        "height feet",
+        "feet height",
+        "building height feet",
+        "height in feet",
+        "feet measurement",
+        "feet height value"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "building_Floors",
+      "domain": "building",
+      "source_table": "building",
+      "source_column": "Floors",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "floors",
+      "synonyms": [
+        "floors",
+        "floor count",
+        "building floors",
+        "total floors",
+        "floor number",
+        "floor count info"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Institution_Institution_id",
+      "domain": "Institution",
+      "source_table": "Institution",
+      "source_column": "Institution_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기관 ID",
+      "synonyms": [
+        "Institution_id",
+        "기관 ID",
+        "기관 식별자",
+        "기관 고유 번호",
+        "기관 아이디",
+        "ID",
+        "기관 인스턴스 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Institution_Institution",
+      "domain": "Institution",
+      "source_table": "Institution",
+      "source_column": "Institution",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "기관",
+      "synonyms": [
+        "Institution",
+        "기관명",
+        "기관 이름",
+        "기관",
+        "기관명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Institution_Location",
+      "domain": "Institution",
+      "source_table": "Institution",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "위치",
+      "synonyms": [
+        "Location",
+        "위치",
+        "장소",
+        "위치 정보",
+        "지점",
+        "위치명",
+        "기관 위치"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Institution_Founded",
+      "domain": "Institution",
+      "source_table": "Institution",
+      "source_column": "Founded",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "설립 연도",
+      "synonyms": [
+        "founded",
+        "설립년도",
+        "설립일",
+        "설립년대",
+        "설립시기",
+        "창립년도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Institution_Type",
+      "domain": "Institution",
+      "source_table": "Institution",
+      "source_column": "Type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "유형",
+      "synonyms": [
+        "type",
+        "종류",
+        "형태",
+        "분류",
+        "타입",
+        "종타입",
+        "학교형태",
+        "학교종류"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대학": [
+          "대학교"
+        ],
+        "고등학교": [
+          "고교"
+        ],
+        "중학교": [
+          "중학교"
+        ]
+      }
+    },
+    {
+      "name": "Institution_Enrollment",
+      "domain": "Institution",
+      "source_table": "Institution",
+      "source_column": "Enrollment",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "수강생 수",
+      "synonyms": [
+        "enrollment",
+        "재정수준",
+        "재정지원",
+        "재정상태",
+        "재정적정",
+        "재정수치",
+        "재정정도",
+        "재정평가"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Institution_Team",
+      "domain": "Institution",
+      "source_table": "Institution",
+      "source_column": "Team",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "팀",
+      "synonyms": [
+        "팀",
+        "팀 이름",
+        "팀명",
+        "팀 소속",
+        "Team",
+        "소속 팀",
+        "팀 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Institution_Primary_Conference",
+      "domain": "Institution",
+      "source_table": "Institution",
+      "source_column": "Primary_Conference",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "주요 컨퍼런스",
+      "synonyms": [
+        "주요 컨퍼런스",
+        "주 컨퍼런스",
+        "컨퍼런스",
+        "컨퍼런스 이름",
+        "Primary Conference",
+        "주 소속 컨퍼런스",
+        "컨퍼런스 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Institution_building_id",
+      "domain": "Institution",
+      "source_table": "Institution",
+      "source_column": "building_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "건물 ID",
+      "synonyms": [
+        "건물 ID",
+        "building_id",
+        "건물 식별자",
+        "건물 번호",
+        "building",
+        "소속 건물",
+        "건물 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "protein_common_name",
+      "domain": "protein",
+      "source_table": "protein",
+      "source_column": "common_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "공통 이름",
+      "synonyms": [
+        "common_name",
+        "일반명",
+        "일반적인 이름",
+        "명명",
+        "단백질 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "protein_protein_name",
+      "domain": "protein",
+      "source_table": "protein",
+      "source_column": "protein_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.9,
+      "primary_label": "단백질 이름",
+      "synonyms": [
+        "protein_name",
+        "단백질 이름",
+        "공식 이름",
+        "이름",
+        "단백질 공식명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "protein_divergence_from_human_lineage",
+      "domain": "protein",
+      "source_table": "protein",
+      "source_column": "divergence_from_human_lineage",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.2,
+      "primary_label": "인간 후보에서의 분화 정도",
+      "synonyms": [
+        "divergence_from_human_lineage",
+        "인간 유전체 발현 차이",
+        "인간과의 차이",
+        "유전체 차이",
+        "유전체 발현 차이"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "protein_accession_number",
+      "domain": "protein",
+      "source_table": "protein",
+      "source_column": "accession_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "접근 번호",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "protein_sequence_length",
+      "domain": "protein",
+      "source_table": "protein",
+      "source_column": "sequence_length",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "서열 길이",
+      "synonyms": [
+        "서열 길이",
+        "단백질 길이",
+        "서열 길이 수치",
+        "서열 길이 값",
+        "단백질 길이 수치",
+        "서열 길이 정보",
+        "서열 길이 데이터",
+        "서열 길이 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "protein_sequence_identity_to_human_protein",
+      "domain": "protein",
+      "source_table": "protein",
+      "source_column": "sequence_identity_to_human_protein",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.3,
+      "primary_label": "인간 단백질과의 서열 일치도",
+      "synonyms": [
+        "서열 일치도",
+        "인간 단백질과의 일치도",
+        "서열 일치도 정보",
+        "서열 일치도 값",
+        "인간 단백질 일치도",
+        "서열 일치도 데이터",
+        "서열 일치도 문자열",
+        "서열 일치도 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "protein_Institution_id",
+      "domain": "protein",
+      "source_table": "protein",
+      "source_column": "Institution_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기관 ID",
+      "synonyms": [
+        "Institution_id",
+        "institute id",
+        "institute identifier",
+        "institution code",
+        "institution reference",
+        "institution number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Institution_building_fk0",
+      "domain": "Institution",
+      "range": "building",
+      "source_fk": [
+        "Institution.building_id",
+        "building.building_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속 건물",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "protein_Institution_fk1",
+      "domain": "protein",
+      "range": "Institution",
+      "source_fk": [
+        "protein.Institution_id",
+        "Institution.Institution_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속 기관",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

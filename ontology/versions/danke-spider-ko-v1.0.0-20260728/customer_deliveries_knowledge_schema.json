@@ -1,0 +1,1522 @@
+{
+  "db_id": "customer_deliveries",
+  "classes": [
+    {
+      "name": "Products",
+      "source_table": "Products",
+      "ranking": 3.5,
+      "primary_label": "products",
+      "synonyms": [
+        "제품",
+        "상품",
+        "물품",
+        "품목",
+        "상품목록"
+      ]
+    },
+    {
+      "name": "Addresses",
+      "source_table": "Addresses",
+      "ranking": 3.5,
+      "primary_label": "주소",
+      "synonyms": [
+        "주소",
+        "배송지",
+        "주소정보",
+        "주소록",
+        "지址"
+      ]
+    },
+    {
+      "name": "Customers",
+      "source_table": "Customers",
+      "ranking": 3.5,
+      "primary_label": "고객",
+      "synonyms": [
+        "고객",
+        "사용자",
+        "고객정보",
+        "고객명단",
+        "고객목록"
+      ]
+    },
+    {
+      "name": "Regular_Orders",
+      "source_table": "Regular_Orders",
+      "ranking": 3.0,
+      "primary_label": "정기 주문",
+      "synonyms": [
+        "정기 주문",
+        "정기 주문 목록",
+        "정기 주문 내역",
+        "재정기 주문",
+        "기본 주문",
+        "재주문 주문"
+      ]
+    },
+    {
+      "name": "Regular_Order_Products",
+      "source_table": "Regular_Order_Products",
+      "ranking": 1.0,
+      "primary_label": "정기 주문 제품",
+      "synonyms": [
+        "정기 주문 상품",
+        "정기 주문 항목",
+        "정기 주문 제품 목록",
+        "기본 주문 상품",
+        "재주문 상품",
+        "정기 주문 라인 아이템"
+      ]
+    },
+    {
+      "name": "Actual_Orders",
+      "source_table": "Actual_Orders",
+      "ranking": 3.0,
+      "primary_label": "실제 주문",
+      "synonyms": [
+        "실제 주문",
+        "실제 주문 목록",
+        "처리된 주문",
+        "확정 주문",
+        "실제 주문 내역",
+        "확인 주문",
+        "실제 주문 데이터"
+      ]
+    },
+    {
+      "name": "Actual_Order_Products",
+      "source_table": "Actual_Order_Products",
+      "ranking": 3.0,
+      "primary_label": "실제 주문 제품",
+      "synonyms": [
+        "Order items",
+        "Order products",
+        "Order details",
+        "Order line items",
+        "Order product list",
+        "Order product entries"
+      ]
+    },
+    {
+      "name": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "ranking": 3.0,
+      "primary_label": "고객 주소",
+      "synonyms": [
+        "Customer locations",
+        "Customer address list",
+        "Customer address details",
+        "Customer address entries",
+        "Customer address records",
+        "Customer address information"
+      ]
+    },
+    {
+      "name": "Delivery_Routes",
+      "source_table": "Delivery_Routes",
+      "ranking": 3.0,
+      "primary_label": "배달 경로",
+      "synonyms": [
+        "Delivery path",
+        "Delivery route details",
+        "Delivery route information",
+        "Delivery route list",
+        "Delivery route entries",
+        "Delivery route records"
+      ]
+    },
+    {
+      "name": "Delivery_Route_Locations",
+      "source_table": "Delivery_Route_Locations",
+      "ranking": 3.0,
+      "primary_label": "배달 경로 위치",
+      "synonyms": [
+        "배송 경로 위치",
+        "배송 경로 지점",
+        "배송 경로 좌표",
+        "배송 경로 위치 정보",
+        "배송 경로 위치 데이터"
+      ]
+    },
+    {
+      "name": "Trucks",
+      "source_table": "Trucks",
+      "ranking": 3.0,
+      "primary_label": "트럭",
+      "synonyms": [
+        "배송 차량",
+        "차량 정보",
+        "배송 차량 목록",
+        "차량 데이터",
+        "배송 차량 등록"
+      ]
+    },
+    {
+      "name": "Employees",
+      "source_table": "Employees",
+      "ranking": 3.0,
+      "primary_label": "사원",
+      "synonyms": [
+        "배송 직원",
+        "직원 정보",
+        "배송 인력",
+        "직원 목록",
+        "배송 인력 정보"
+      ]
+    },
+    {
+      "name": "Order_Deliveries",
+      "source_table": "Order_Deliveries",
+      "ranking": 3.5,
+      "primary_label": "order deliveries",
+      "synonyms": []
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Products_product_id",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "product id",
+      "synonyms": [
+        "제품 ID",
+        "제품 번호",
+        "상품 ID",
+        "제품 식별자",
+        "product_id",
+        "상품 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_name",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "product name",
+      "synonyms": [
+        "제품 이름",
+        "상품 이름",
+        "제품명",
+        "product_name",
+        "제품 타이틀"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_price",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_price",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "product price",
+      "synonyms": [
+        "제품 가격",
+        "상품 가격",
+        "가격",
+        "product_price",
+        "제품 요금",
+        "제품 비용"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_description",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "product description",
+      "synonyms": [
+        "제품 설명",
+        "상품 설명",
+        "상품 설명문",
+        "제품 소개",
+        "상품 설명내용",
+        "제품 소개문",
+        "상품 설명자료",
+        "제품 설명 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_address_id",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "주소 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_address_details",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "address_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "주소 상세 정보",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_city",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "시",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_zip_postcode",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "zip_postcode",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "우편번호",
+      "synonyms": [
+        "우편번호",
+        "우편번호 정보",
+        "ZIP 코드",
+        "지역 우편번호",
+        "배송 우편번호",
+        "zip_postcode"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_state_province_county",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "state_province_county",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "주/도/군",
+      "synonyms": [
+        "주",
+        "프로빈스",
+        "구",
+        "주/프로빈스/구",
+        "주 및 프로빈스",
+        "주 또는 구",
+        "지역 구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_country",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "국가명",
+        "국가 정보",
+        "국가 코드",
+        "국가 이름",
+        "국가별"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_id",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고유번호",
+        "고객번호",
+        "고객ID",
+        "고객 식별자",
+        "ID",
+        "고객아이디",
+        "고객코드",
+        "고유아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_payment_method",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "payment_method",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "결제 방법",
+      "synonyms": [
+        "결제수단",
+        "결제방법",
+        "지불방법",
+        "지급방법",
+        "결제방식",
+        "결제타입",
+        "결제구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "신용카드": [
+          "신용카드",
+          "카드 결제"
+        ],
+        "현금": [
+          "현금",
+          "현금 결제"
+        ],
+        "계좌이체": [
+          "계좌이체",
+          "이체 결제"
+        ]
+      }
+    },
+    {
+      "name": "Customers_customer_name",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "고객 이름",
+      "synonyms": [
+        "고객이름",
+        "이름",
+        "고객명",
+        "고객별명",
+        "고객칭",
+        "고객명칭",
+        "고객소유자",
+        "고객주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_phone",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "고객 전화번호",
+      "synonyms": [
+        "고객 연락처",
+        "전화번호",
+        "연락처",
+        "전화",
+        "고객 전화번호",
+        "customer_phone",
+        "전화 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_email",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_email",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.8,
+      "primary_label": "고객 이메일",
+      "synonyms": [
+        "고객 이메일",
+        "이메일 주소",
+        "이메일",
+        "customer_email",
+        "이메일 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_date_became_customer",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "date_became_customer",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "고객 가입일",
+      "synonyms": [
+        "가입일자",
+        "회원 가입일",
+        "가입 날짜",
+        "고객 가입일",
+        "customer_date_became_customer",
+        "날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Regular_Orders_regular_order_id",
+      "domain": "Regular_Orders",
+      "source_table": "Regular_Orders",
+      "source_column": "regular_order_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "정기 주문 ID",
+      "synonyms": [
+        "정기 주문 ID",
+        "정기 주문 번호",
+        "RO_ID",
+        "정기 주문 식별자",
+        "regular_order_id",
+        "RO"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Regular_Orders_distributer_id",
+      "domain": "Regular_Orders",
+      "source_table": "Regular_Orders",
+      "source_column": "distributer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "유통업체 ID",
+      "synonyms": [
+        "배송업체 ID",
+        "배송사 번호",
+        "Distributor_ID",
+        "배송업체 식별자",
+        "distributer_id",
+        "Distributor"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Regular_Order_Products_regular_order_id",
+      "domain": "Regular_Order_Products",
+      "source_table": "Regular_Order_Products",
+      "source_column": "regular_order_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "정기 주문 ID",
+      "synonyms": [
+        "정기 주문 ID",
+        "정기 주문 번호",
+        "정기 주문 식별자",
+        "정기 주문 코드",
+        "정기 주문 고유 번호",
+        "regular_order_id",
+        "정기 주문키"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Regular_Order_Products_product_id",
+      "domain": "Regular_Order_Products",
+      "source_table": "Regular_Order_Products",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "제품 ID",
+      "synonyms": [
+        "제품 ID",
+        "제품 번호",
+        "제품 식별자",
+        "제품 코드",
+        "제품 고유 번호",
+        "product_id",
+        "제품키"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Actual_Orders_actual_order_id",
+      "domain": "Actual_Orders",
+      "source_table": "Actual_Orders",
+      "source_column": "actual_order_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "실제 주문 ID",
+      "synonyms": [
+        "실제 주문 ID",
+        "실제 주문 번호",
+        "실제 주문 식별자",
+        "실제 주문 코드",
+        "actual_order_id",
+        "실제 주문 식별 번호",
+        "실제 주문 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Actual_Orders_order_status_code",
+      "domain": "Actual_Orders",
+      "source_table": "Actual_Orders",
+      "source_column": "order_status_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "주문 상태 코드",
+      "synonyms": [
+        "주문 상태 코드",
+        "상태 코드",
+        "주문 상태",
+        "상태",
+        "코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대기": [
+          "대기"
+        ],
+        "배송 중": [
+          "배송 중"
+        ],
+        "완료": [
+          "완료"
+        ]
+      }
+    },
+    {
+      "name": "Actual_Orders_regular_order_id",
+      "domain": "Actual_Orders",
+      "source_table": "Actual_Orders",
+      "source_column": "regular_order_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "정기 주문 ID",
+      "synonyms": [
+        "정기 주문 ID",
+        "정기 주문 번호",
+        "정기 주문 식별자",
+        "주문 ID",
+        "정기 주문 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Actual_Orders_actual_order_date",
+      "domain": "Actual_Orders",
+      "source_table": "Actual_Orders",
+      "source_column": "actual_order_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "실제 주문 일시",
+      "synonyms": [
+        "실제 주문일",
+        "실제 주문 날짜",
+        "주문 날짜",
+        "실제 주문 일자",
+        "주문 일자",
+        "actual_order_date"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Actual_Order_Products_actual_order_id",
+      "domain": "Actual_Order_Products",
+      "source_table": "Actual_Order_Products",
+      "source_column": "actual_order_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "실제 주문 ID",
+      "synonyms": [
+        "실제 주문 아이디",
+        "주문 ID",
+        "실제 주문 번호",
+        "주문 번호",
+        "actual_order_id",
+        "주문 식별자",
+        "주문키"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Actual_Order_Products_product_id",
+      "domain": "Actual_Order_Products",
+      "source_table": "Actual_Order_Products",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "제품 ID",
+      "synonyms": [
+        "제품 ID",
+        "제품 번호",
+        "제품 식별자",
+        "제품키",
+        "product_id",
+        "제품 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Addresses_customer_id",
+      "domain": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 id",
+      "synonyms": [
+        "고객 ID",
+        "고객 번호",
+        "고객 식별자",
+        "고객코드",
+        "customer id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Addresses_address_id",
+      "domain": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주소 id",
+      "synonyms": [
+        "주소 ID",
+        "주소 번호",
+        "주소 식별자",
+        "주소코드",
+        "address id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Addresses_date_from",
+      "domain": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "source_column": "date_from",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "기한 시작일",
+      "synonyms": [
+        "시작일",
+        "유효 시작일",
+        "시작 날짜",
+        "이용 시작일",
+        "이용 시작일자",
+        "date from"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-01": [
+          "2023년 1월 1일"
+        ]
+      }
+    },
+    {
+      "name": "Customer_Addresses_address_type",
+      "domain": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "source_column": "address_type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "주소 유형",
+      "synonyms": [
+        "주소 유형",
+        "주소 종류",
+        "주소 타입",
+        "주소 구분",
+        "주소 카테고리",
+        "주소 구분자",
+        "주소 유형 정보",
+        "주소 종류 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "주소": [
+          "주소"
+        ],
+        "이메일": [
+          "이메일"
+        ]
+      }
+    },
+    {
+      "name": "Customer_Addresses_date_to",
+      "domain": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "source_column": "date_to",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "기한 종료일",
+      "synonyms": [
+        "종료일",
+        "종료 날짜",
+        "종료 시간",
+        "종료 일자",
+        "일정 종료",
+        "일정 마감일",
+        "일정 마감 시간",
+        "일정 종료일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-12-31": [
+          "2023년 12월 31일"
+        ]
+      }
+    },
+    {
+      "name": "Delivery_Routes_route_id",
+      "domain": "Delivery_Routes",
+      "source_table": "Delivery_Routes",
+      "source_column": "route_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "경로 ID",
+      "synonyms": [
+        "도로 식별자",
+        "배송 경로 ID",
+        "도로 번호",
+        "route_id",
+        "배송 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Delivery_Routes_route_name",
+      "domain": "Delivery_Routes",
+      "source_table": "Delivery_Routes",
+      "source_column": "route_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "경로 이름",
+      "synonyms": [
+        "도로 이름",
+        "배송 경로명",
+        "도로 제목",
+        "route_name",
+        "배송 경로 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "주문 배달 경로": [
+          "주문 배달 경로",
+          "배달 경로"
+        ]
+      }
+    },
+    {
+      "name": "Delivery_Routes_other_route_details",
+      "domain": "Delivery_Routes",
+      "source_table": "Delivery_Routes",
+      "source_column": "other_route_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "다른 경로 정보",
+      "synonyms": [
+        "추가 도로 정보",
+        "도로 상세 정보",
+        "도로 설명",
+        "other_route_details",
+        "도로 세부 사항",
+        "도로 추가 설명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Delivery_Route_Locations_location_code",
+      "domain": "Delivery_Route_Locations",
+      "source_table": "Delivery_Route_Locations",
+      "source_column": "location_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "위치 코드",
+      "synonyms": [
+        "위치 코드",
+        "위치 코드 정보",
+        "지점 코드",
+        "위치 식별자",
+        "location_code",
+        "코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Delivery_Route_Locations_route_id",
+      "domain": "Delivery_Route_Locations",
+      "source_table": "Delivery_Route_Locations",
+      "source_column": "route_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "경로 ID",
+      "synonyms": [
+        "배송 경로 ID",
+        "경로 ID",
+        "배송 라인 번호",
+        "route_id",
+        "경로 식별자",
+        "배송 경로 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Delivery_Route_Locations_location_address_id",
+      "domain": "Delivery_Route_Locations",
+      "source_table": "Delivery_Route_Locations",
+      "source_column": "location_address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "위치 주소 ID",
+      "synonyms": [
+        "주소 ID",
+        "위치 주소 ID",
+        "주소 식별자",
+        "location_address_id",
+        "주소 코드",
+        "주소 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Delivery_Route_Locations_location_name",
+      "domain": "Delivery_Route_Locations",
+      "source_table": "Delivery_Route_Locations",
+      "source_column": "location_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "위치 이름",
+      "synonyms": [
+        "배송지 이름",
+        "지점 이름",
+        "배송 위치 이름",
+        "지점명",
+        "배송지명",
+        "장소 이름",
+        "위치 이름",
+        "location name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Trucks_truck_id",
+      "domain": "Trucks",
+      "source_table": "Trucks",
+      "source_column": "truck_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "트럭 ID",
+      "synonyms": [
+        "트럭 ID",
+        "트럭 식별 번호",
+        "트럭 고유 번호",
+        "트럭 번호",
+        "truck_id",
+        "트럭 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Trucks_truck_licence_number",
+      "domain": "Trucks",
+      "source_table": "Trucks",
+      "source_column": "truck_licence_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "트럭 운행 번호",
+      "synonyms": [
+        "트럭 면허 번호",
+        "트럭 운전 면허",
+        "트럭 차량 번호",
+        "트럭 번호",
+        "truck_licence_number",
+        "운전 면허 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "12345678": [
+          "12345678",
+          "12345678번"
+        ]
+      }
+    },
+    {
+      "name": "Trucks_truck_details",
+      "domain": "Trucks",
+      "source_table": "Trucks",
+      "source_column": "truck_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "트럭 상세 정보",
+      "synonyms": [
+        "트럭 정보",
+        "트럭 상태",
+        "트럭 기타 정보",
+        "트럭 상세 정보",
+        "트럭 세부 사항",
+        "트럭 설명",
+        "트럭 기타 설명",
+        "트럭 세부 설명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employees_employee_id",
+      "domain": "Employees",
+      "source_table": "Employees",
+      "source_column": "employee_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "사원 ID",
+      "synonyms": [
+        "직원 ID",
+        "직원 고유 번호",
+        "사원 번호",
+        "사원 ID",
+        "직원 식별자",
+        "사원 고유 ID",
+        "employee_id",
+        "직원 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employees_employee_address_id",
+      "domain": "Employees",
+      "source_table": "Employees",
+      "source_column": "employee_address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "사원 주소 ID",
+      "synonyms": [
+        "직원 주소 ID",
+        "주소 참조 ID",
+        "주소 외부 키",
+        "직원 주소 번호",
+        "사원 주소 ID",
+        "사원 주소 외부키",
+        "employee_address_id",
+        "주소 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employees_employee_name",
+      "domain": "Employees",
+      "source_table": "Employees",
+      "source_column": "employee_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "사원 이름",
+      "synonyms": [
+        "직원 이름",
+        "사원 이름",
+        "직원 별명",
+        "직원명",
+        "사원명",
+        "employee_name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김철수": [
+          "김철수"
+        ],
+        "이영희": [
+          "이영희"
+        ]
+      }
+    },
+    {
+      "name": "Employees_employee_phone",
+      "domain": "Employees",
+      "source_table": "Employees",
+      "source_column": "employee_phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "사원 전화번호",
+      "synonyms": [
+        "직원 전화번호",
+        "직원 연락처",
+        "전화번호",
+        "연락처",
+        "직원의 전화",
+        "직원 번호",
+        "전화",
+        "연락 방법"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "02-1234-5678": [
+          "02-1234-5678",
+          "0212345678"
+        ]
+      }
+    },
+    {
+      "name": "Order_Deliveries_location_code",
+      "domain": "Order_Deliveries",
+      "source_table": "Order_Deliveries",
+      "source_column": "location_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "location code",
+      "synonyms": [
+        "지점 코드",
+        "위치 코드",
+        "지점 위치 코드",
+        "장소 코드",
+        "위치 식별자",
+        "location_code"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울시"
+        ],
+        "부산": [
+          "부산시"
+        ]
+      }
+    },
+    {
+      "name": "Order_Deliveries_actual_order_id",
+      "domain": "Order_Deliveries",
+      "source_table": "Order_Deliveries",
+      "source_column": "actual_order_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "actual order id",
+      "synonyms": [
+        "실제 주문 ID",
+        "주문 번호",
+        "실제 주문 식별자",
+        "주문 식별 번호",
+        "actual_order_id",
+        "주문 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Order_Deliveries_delivery_status_code",
+      "domain": "Order_Deliveries",
+      "source_table": "Order_Deliveries",
+      "source_column": "delivery_status_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "delivery status code",
+      "synonyms": [
+        "배송 상태 코드",
+        "배송 상태 식별자",
+        "배송 상태",
+        "배송 코드",
+        "delivery_status_code"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "DELIVERED": [
+          "배송 완료"
+        ],
+        "DELAYED": [
+          "지연"
+        ],
+        "CANCELLED": [
+          "취소"
+        ]
+      }
+    },
+    {
+      "name": "Order_Deliveries_driver_employee_id",
+      "domain": "Order_Deliveries",
+      "source_table": "Order_Deliveries",
+      "source_column": "driver_employee_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "driver employee id",
+      "synonyms": [
+        "driver_employee_id",
+        "운전자 사원 ID",
+        "운송원 사원 번호",
+        "운전사 ID",
+        "직원 ID",
+        "운전자 사원번호",
+        "운송원 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Order_Deliveries_truck_id",
+      "domain": "Order_Deliveries",
+      "source_table": "Order_Deliveries",
+      "source_column": "truck_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "truck id",
+      "synonyms": [
+        "truck_id",
+        "트럭 ID",
+        "차량 번호",
+        "트럭 고유번호",
+        "차량 ID",
+        "트럭 사번",
+        "차량 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Order_Deliveries_delivery_date",
+      "domain": "Order_Deliveries",
+      "source_table": "Order_Deliveries",
+      "source_column": "delivery_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "delivery date",
+      "synonyms": [
+        "delivery_date",
+        "배송일시",
+        "배송 날짜",
+        "배송 시간",
+        "배송 일자",
+        "배송 시각",
+        "배송 일시 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Regular_Orders_Customers_fk0",
+      "domain": "Regular_Orders",
+      "range": "Customers",
+      "source_fk": [
+        "Regular_Orders.distributer_id",
+        "Customers.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "판매처",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Regular_Order_Products_Regular_Orders_fk1",
+      "domain": "Regular_Order_Products",
+      "range": "Regular_Orders",
+      "source_fk": [
+        "Regular_Order_Products.regular_order_id",
+        "Regular_Orders.regular_order_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Regular_Order_Products_Products_fk2",
+      "domain": "Regular_Order_Products",
+      "range": "Products",
+      "source_fk": [
+        "Regular_Order_Products.product_id",
+        "Products.product_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Actual_Orders_Regular_Orders_fk3",
+      "domain": "Actual_Orders",
+      "range": "Regular_Orders",
+      "source_fk": [
+        "Actual_Orders.regular_order_id",
+        "Regular_Orders.regular_order_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "참조",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Actual_Order_Products_Actual_Orders_fk4",
+      "domain": "Actual_Order_Products",
+      "range": "Actual_Orders",
+      "source_fk": [
+        "Actual_Order_Products.actual_order_id",
+        "Actual_Orders.actual_order_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Actual_Order_Products_Products_fk5",
+      "domain": "Actual_Order_Products",
+      "range": "Products",
+      "source_fk": [
+        "Actual_Order_Products.product_id",
+        "Products.product_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customer_Addresses_Addresses_fk6",
+      "domain": "Customer_Addresses",
+      "range": "Addresses",
+      "source_fk": [
+        "Customer_Addresses.address_id",
+        "Addresses.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소유",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customer_Addresses_Customers_fk7",
+      "domain": "Customer_Addresses",
+      "range": "Customers",
+      "source_fk": [
+        "Customer_Addresses.customer_id",
+        "Customers.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소유",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Delivery_Route_Locations_Delivery_Routes_fk8",
+      "domain": "Delivery_Route_Locations",
+      "range": "Delivery_Routes",
+      "source_fk": [
+        "Delivery_Route_Locations.route_id",
+        "Delivery_Routes.route_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Delivery_Route_Locations_Addresses_fk9",
+      "domain": "Delivery_Route_Locations",
+      "range": "Addresses",
+      "source_fk": [
+        "Delivery_Route_Locations.location_address_id",
+        "Addresses.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Employees_Addresses_fk10",
+      "domain": "Employees",
+      "range": "Addresses",
+      "source_fk": [
+        "Employees.employee_address_id",
+        "Addresses.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Order_Deliveries_Employees_fk11",
+      "domain": "Order_Deliveries",
+      "range": "Employees",
+      "source_fk": [
+        "Order_Deliveries.driver_employee_id",
+        "Employees.employee_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "운전자",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Order_Deliveries_Delivery_Route_Locations_fk12",
+      "domain": "Order_Deliveries",
+      "range": "Delivery_Route_Locations",
+      "source_fk": [
+        "Order_Deliveries.location_code",
+        "Delivery_Route_Locations.location_code"
+      ],
+      "weight": 1.0,
+      "primary_label": "대응",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Order_Deliveries_Actual_Orders_fk13",
+      "domain": "Order_Deliveries",
+      "range": "Actual_Orders",
+      "source_fk": [
+        "Order_Deliveries.actual_order_id",
+        "Actual_Orders.actual_order_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "참조",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Order_Deliveries_Trucks_fk14",
+      "domain": "Order_Deliveries",
+      "range": "Trucks",
+      "source_fk": [
+        "Order_Deliveries.truck_id",
+        "Trucks.truck_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "운송",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "class_table": {
+    "classroom": "classroom",
+    "department": "department",
+    "course": "course",
+    "instructor": "instructor",
+    "section": "section",
+    "teaches": "teaches",
+    "student": "student",
+    "takes": "takes",
+    "advisor": "advisor",
+    "time_slot": "time_slot",
+    "prereq": "prereq"
+  },
+  "property_column": {
+    "classroom_building": [
+      "classroom",
+      "building"
+    ],
+    "classroom_room_number": [
+      "classroom",
+      "room_number"
+    ],
+    "classroom_capacity": [
+      "classroom",
+      "capacity"
+    ],
+    "department_dept_name": [
+      "department",
+      "dept_name"
+    ],
+    "department_building": [
+      "department",
+      "building"
+    ],
+    "department_budget": [
+      "department",
+      "budget"
+    ],
+    "course_course_id": [
+      "course",
+      "course_id"
+    ],
+    "course_title": [
+      "course",
+      "title"
+    ],
+    "course_dept_name": [
+      "course",
+      "dept_name"
+    ],
+    "course_credits": [
+      "course",
+      "credits"
+    ],
+    "instructor_ID": [
+      "instructor",
+      "ID"
+    ],
+    "instructor_name": [
+      "instructor",
+      "name"
+    ],
+    "instructor_dept_name": [
+      "instructor",
+      "dept_name"
+    ],
+    "instructor_salary": [
+      "instructor",
+      "salary"
+    ],
+    "section_course_id": [
+      "section",
+      "course_id"
+    ],
+    "section_sec_id": [
+      "section",
+      "sec_id"
+    ],
+    "section_semester": [
+      "section",
+      "semester"
+    ],
+    "section_year": [
+      "section",
+      "year"
+    ],
+    "section_building": [
+      "section",
+      "building"
+    ],
+    "section_room_number": [
+      "section",
+      "room_number"
+    ],
+    "section_time_slot_id": [
+      "section",
+      "time_slot_id"
+    ],
+    "teaches_ID": [
+      "teaches",
+      "ID"
+    ],
+    "teaches_course_id": [
+      "teaches",
+      "course_id"
+    ],
+    "teaches_sec_id": [
+      "teaches",
+      "sec_id"
+    ],
+    "teaches_semester": [
+      "teaches",
+      "semester"
+    ],
+    "teaches_year": [
+      "teaches",
+      "year"
+    ],
+    "student_ID": [
+      "student",
+      "ID"
+    ],
+    "student_name": [
+      "student",
+      "name"
+    ],
+    "student_dept_name": [
+      "student",
+      "dept_name"
+    ],
+    "student_tot_cred": [
+      "student",
+      "tot_cred"
+    ],
+    "takes_ID": [
+      "takes",
+      "ID"
+    ],
+    "takes_course_id": [
+      "takes",
+      "course_id"
+    ],
+    "takes_sec_id": [
+      "takes",
+      "sec_id"
+    ],
+    "takes_semester": [
+      "takes",
+      "semester"
+    ],
+    "takes_year": [
+      "takes",
+      "year"
+    ],
+    "takes_grade": [
+      "takes",
+      "grade"
+    ],
+    "advisor_s_ID": [
+      "advisor",
+      "s_ID"
+    ],
+    "advisor_i_ID": [
+      "advisor",
+      "i_ID"
+    ],
+    "time_slot_time_slot_id": [
+      "time_slot",
+      "time_slot_id"
+    ],
+    "time_slot_day": [
+      "time_slot",
+      "day"
+    ],
+    "time_slot_start_hr": [
+      "time_slot",
+      "start_hr"
+    ],
+    "time_slot_start_min": [
+      "time_slot",
+      "start_min"
+    ],
+    "time_slot_end_hr": [
+      "time_slot",
+      "end_hr"
+    ],
+    "time_slot_end_min": [
+      "time_slot",
+      "end_min"
+    ],
+    "prereq_course_id": [
+      "prereq",
+      "course_id"
+    ],
+    "prereq_prereq_id": [
+      "prereq",
+      "prereq_id"
+    ]
+  },
+  "object_property_fk": {
+    "course_department_fk0": [
+      "course.dept_name",
+      "department.dept_name"
+    ],
+    "instructor_department_fk1": [
+      "instructor.dept_name",
+      "department.dept_name"
+    ],
+    "section_classroom_fk2": [
+      "section.building",
+      "classroom.building"
+    ],
+    "section_classroom_fk3": [
+      "section.room_number",
+      "classroom.room_number"
+    ],
+    "section_course_fk4": [
+      "section.course_id",
+      "course.course_id"
+    ],
+    "teaches_instructor_fk5": [
+      "teaches.ID",
+      "instructor.ID"
+    ],
+    "teaches_section_fk6": [
+      "teaches.course_id",
+      "section.course_id"
+    ],
+    "teaches_section_fk7": [
+      "teaches.sec_id",
+      "section.sec_id"
+    ],
+    "teaches_section_fk8": [
+      "teaches.semester",
+      "section.semester"
+    ],
+    "teaches_section_fk9": [
+      "teaches.year",
+      "section.year"
+    ],
+    "student_department_fk10": [
+      "student.dept_name",
+      "department.dept_name"
+    ],
+    "takes_student_fk11": [
+      "takes.ID",
+      "student.ID"
+    ],
+    "takes_section_fk12": [
+      "takes.course_id",
+      "section.course_id"
+    ],
+    "takes_section_fk13": [
+      "takes.sec_id",
+      "section.sec_id"
+    ],
+    "takes_section_fk14": [
+      "takes.semester",
+      "section.semester"
+    ],
+    "takes_section_fk15": [
+      "takes.year",
+      "section.year"
+    ],
+    "advisor_student_fk16": [
+      "advisor.s_ID",
+      "student.ID"
+    ],
+    "advisor_instructor_fk17": [
+      "advisor.i_ID",
+      "instructor.ID"
+    ],
+    "prereq_course_fk18": [
+      "prereq.prereq_id",
+      "course.course_id"
+    ],
+    "prereq_course_fk19": [
+      "prereq.course_id",
+      "course.course_id"
+    ]
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "db_id": "local_govt_in_alabama",
+  "classes": [
+    {
+      "name": "Services",
+      "source_table": "Services",
+      "ranking": 3.0,
+      "primary_label": "서비스",
+      "synonyms": [
+        "지사 서비스",
+        "지사 제공 서비스",
+        "지사 운영 서비스",
+        "지사 서비스 목록",
+        "지사 서비스 정보"
+      ]
+    },
+    {
+      "name": "Participants",
+      "source_table": "Participants",
+      "ranking": 3.5,
+      "primary_label": "참가자",
+      "synonyms": [
+        "참여자 정보",
+        "지사 참여자",
+        "참여자 목록",
+        "지사 관련 인물",
+        "참여자 데이터"
+      ]
+    },
+    {
+      "name": "Events",
+      "source_table": "Events",
+      "ranking": 3.5,
+      "primary_label": "이벤트",
+      "synonyms": [
+        "행사 정보",
+        "지사 이벤트",
+        "행사 목록",
+        "지사 행사",
+        "이벤트 데이터"
+      ]
+    },
+    {
+      "name": "Participants_in_Events",
+      "source_table": "Participants_in_Events",
+      "ranking": 3.0,
+      "primary_label": "참가자와 이벤트의 관계",
+      "synonyms": [
+        "참석자",
+        "참여자",
+        "참가자",
+        "이벤트 참가자",
+        "참여 인원",
+        "참석 인원",
+        "이벤트 참석자",
+        "참여자 목록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Services_Service_ID",
+      "domain": "Services",
+      "source_table": "Services",
+      "source_column": "Service_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "서비스 ID",
+      "synonyms": [
+        "서비스 ID",
+        "서비스 고유 번호",
+        "서비스 식별자",
+        "서비스 번호",
+        "Service_ID",
+        "서비스 고유 ID",
+        "서비스 식별 번호",
+        "ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Services_Service_Type_Code",
+      "domain": "Services",
+      "source_table": "Services",
+      "source_column": "Service_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "서비스 유형 코드",
+      "synonyms": [
+        "서비스 유형 코드",
+        "서비스 코드",
+        "서비스 종류 코드",
+        "서비스 유형",
+        "Service_Type_Code",
+        "유형 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "예약": [
+          "예약"
+        ],
+        "상담": [
+          "상담"
+        ],
+        "배달": [
+          "배달"
+        ]
+      }
+    },
+    {
+      "name": "Participants_Participant_ID",
+      "domain": "Participants",
+      "source_table": "Participants",
+      "source_column": "Participant_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "참가자 ID",
+      "synonyms": [
+        "참여자 ID",
+        "참여자 고유 번호",
+        "ID",
+        "참여자 식별자",
+        "Participant_ID",
+        "참여자 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Participants_Participant_Type_Code",
+      "domain": "Participants",
+      "source_table": "Participants",
+      "source_column": "Participant_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "참가자 유형 코드",
+      "synonyms": [
+        "참여자 유형 코드",
+        "참여자 코드",
+        "유형 코드",
+        "Participant_Type_Code",
+        "참여자 유형",
+        "코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "학생": [
+          "학생"
+        ],
+        "교수": [
+          "교수"
+        ],
+        "연구원": [
+          "연구원"
+        ]
+      }
+    },
+    {
+      "name": "Participants_Participant_Details",
+      "domain": "Participants",
+      "source_table": "Participants",
+      "source_column": "Participant_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "참가자 상세 정보",
+      "synonyms": [
+        "참여자 세부 정보",
+        "참여자 설명",
+        "Participant_Details",
+        "상세 정보",
+        "참여자 설명문",
+        "상세내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Events_Event_ID",
+      "domain": "Events",
+      "source_table": "Events",
+      "source_column": "Event_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이벤트 ID",
+      "synonyms": [
+        "이벤트 ID",
+        "이벤트 고유번호",
+        "이벤트 식별자",
+        "이벤트 번호",
+        "Event_ID",
+        "이벤트 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Events_Service_ID",
+      "domain": "Events",
+      "source_table": "Events",
+      "source_column": "Service_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "서비스 ID",
+      "synonyms": [
+        "서비스 ID",
+        "서비스 고유번호",
+        "서비스 식별자",
+        "서비스 번호",
+        "Service_ID",
+        "서비스 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Events_Event_Details",
+      "domain": "Events",
+      "source_table": "Events",
+      "source_column": "Event_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "이벤트 세부 정보",
+      "synonyms": [
+        "이벤트 상세내용",
+        "이벤트 설명",
+        "이벤트 세부 정보",
+        "이벤트 내용",
+        "Event_Details",
+        "이벤트 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "축제": [
+          "축제",
+          "행사"
+        ],
+        "강연": [
+          "강연",
+          "강의"
+        ],
+        "행사": [
+          "행사",
+          "이벤트"
+        ]
+      }
+    },
+    {
+      "name": "Participants_in_Events_Event_ID",
+      "domain": "Participants_in_Events",
+      "source_table": "Participants_in_Events",
+      "source_column": "Event_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "이벤트 ID",
+      "synonyms": [
+        "이벤트 ID",
+        "이벤트 번호",
+        "이벤트 식별자",
+        "이벤트 코드",
+        "이벤트 고유값",
+        "Event_ID",
+        "이벤트 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Participants_in_Events_Participant_ID",
+      "domain": "Participants_in_Events",
+      "source_table": "Participants_in_Events",
+      "source_column": "Participant_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "참가자 ID",
+      "synonyms": [
+        "참가자 ID",
+        "참가자 번호",
+        "참가자 식별자",
+        "참가자 코드",
+        "참가자 고유값",
+        "Participant_ID",
+        "참가자 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Events_Services_fk0",
+      "domain": "Events",
+      "range": "Services",
+      "source_fk": [
+        "Events.Service_ID",
+        "Services.Service_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "서비스 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Participants_in_Events_Events_fk1",
+      "domain": "Participants_in_Events",
+      "range": "Events",
+      "source_fk": [
+        "Participants_in_Events.Event_ID",
+        "Events.Event_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "이벤트 참가",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Participants_in_Events_Participants_fk2",
+      "domain": "Participants_in_Events",
+      "range": "Participants",
+      "source_fk": [
+        "Participants_in_Events.Participant_ID",
+        "Participants.Participant_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가자 소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

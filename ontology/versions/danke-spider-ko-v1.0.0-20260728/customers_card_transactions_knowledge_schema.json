@@ -1,0 +1,725 @@
+{
+  "db_id": "customers_card_transactions",
+  "classes": [
+    {
+      "name": "Accounts",
+      "source_table": "Accounts",
+      "ranking": 3.0,
+      "primary_label": "계좌",
+      "synonyms": [
+        "계좌",
+        "계정",
+        "은행 계좌",
+        "계좌 정보",
+        "은행 계정"
+      ]
+    },
+    {
+      "name": "Customers",
+      "source_table": "Customers",
+      "ranking": 3.5,
+      "primary_label": "고객",
+      "synonyms": [
+        "고객",
+        "고객 정보",
+        "사용자",
+        "고객 데이터",
+        "고객 목록"
+      ]
+    },
+    {
+      "name": "Customers_Cards",
+      "source_table": "Customers_Cards",
+      "ranking": 3.5,
+      "primary_label": "고객 카드",
+      "synonyms": [
+        "카드",
+        "카드 정보",
+        "결제 카드",
+        "카드 데이터",
+        "고객 카드"
+      ]
+    },
+    {
+      "name": "Financial_Transactions",
+      "source_table": "Financial_Transactions",
+      "ranking": 3.5,
+      "primary_label": "금융 거래",
+      "synonyms": [
+        "금융 거래",
+        "결제 내역",
+        "카드 거래",
+        "수입/지출 내역",
+        "은행 거래",
+        "지출 내역",
+        "입금/출금 내역",
+        "결제 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Accounts_account_id",
+      "domain": "Accounts",
+      "source_table": "Accounts",
+      "source_column": "account_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "계좌 ID",
+      "synonyms": [
+        "계좌 ID",
+        "계좌 번호",
+        "계좌 식별자",
+        "계좌 고유 번호",
+        "계좌 식별 번호",
+        "계좌 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Accounts_customer_id",
+      "domain": "Accounts",
+      "source_table": "Accounts",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 번호",
+        "고객 ID",
+        "고유 고객 번호",
+        "고객 식별자",
+        "고객 코드",
+        "고객 식별 번호",
+        "고객 ID 번호",
+        "고객 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Accounts_account_name",
+      "domain": "Accounts",
+      "source_table": "Accounts",
+      "source_column": "account_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "계좌 이름",
+      "synonyms": [
+        "계좌명",
+        "계좌 이름",
+        "계좌명칭",
+        "계좌 제목",
+        "계좌 이름 정보",
+        "계좌명세",
+        "계좌 표시 이름",
+        "계좌 제목 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "예금": [
+          "예금"
+        ],
+        "적금": [
+          "적금"
+        ]
+      }
+    },
+    {
+      "name": "Accounts_other_account_details",
+      "domain": "Accounts",
+      "source_table": "Accounts",
+      "source_column": "other_account_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "기타 계좌 정보",
+      "synonyms": [
+        "기타 계좌 정보",
+        "추가 계좌 설명",
+        "기타 계좌 세부 사항",
+        "기타 설명",
+        "기타 정보",
+        "기타 세부 사항",
+        "기타 설명 정보",
+        "기타 계좌 설명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_id",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고유ID",
+        "고객ID",
+        "고객 식별 번호",
+        "ID",
+        "고객 고유 번호",
+        "customer_id",
+        "고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_first_name",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "고객 이름",
+      "synonyms": [
+        "이름",
+        "성",
+        "customer_first_name",
+        "주 이름",
+        "성명",
+        "이름 정보",
+        "성명 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수",
+          "민수"
+        ]
+      }
+    },
+    {
+      "name": "Customers_customer_last_name",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "고객 성",
+      "synonyms": [
+        "이름",
+        "customer_last_name",
+        "후 이름",
+        "성",
+        "성명",
+        "성명 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "박": [
+          "박",
+          "박씨"
+        ]
+      }
+    },
+    {
+      "name": "Customers_customer_address",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "고객 주소",
+      "synonyms": [
+        "주소",
+        "고객 주소",
+        "거주지",
+        "주소 정보",
+        "주소 필드",
+        "customer_address",
+        "고객 주소 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_phone",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "고객 전화번호",
+      "synonyms": [
+        "전화번호",
+        "고객 전화",
+        "전화",
+        "연락처",
+        "전화 정보",
+        "customer_phone",
+        "고객 전화번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_email",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_email",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "고객 이메일",
+      "synonyms": [
+        "이메일",
+        "고객 이메일",
+        "이메일 주소",
+        "이메일 정보",
+        "customer_email",
+        "고객 이메일 주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_other_customer_details",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "other_customer_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "다른 고객 정보",
+      "synonyms": [
+        "기타 고객 정보",
+        "추가 고객 세부사항",
+        "기타 고객 데이터",
+        "기타 고객 정보 내용",
+        "기타 고객 세부 정보",
+        "기타 고객 정보 항목",
+        "기타 고객 정보 설명"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_Cards_card_id",
+      "domain": "Customers_Cards",
+      "source_table": "Customers_Cards",
+      "source_column": "card_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "카드 ID",
+      "synonyms": [
+        "card_id",
+        "카드 ID",
+        "카드 식별 번호",
+        "카드 고유 번호",
+        "카드 번호",
+        "카드 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_Cards_customer_id",
+      "domain": "Customers_Cards",
+      "source_table": "Customers_Cards",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "customer_id",
+        "고객 ID",
+        "고객 식별 번호",
+        "고객 고유 번호",
+        "고객 번호",
+        "고객 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_Cards_card_type_code",
+      "domain": "Customers_Cards",
+      "source_table": "Customers_Cards",
+      "source_column": "card_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "카드 유형 코드",
+      "synonyms": [
+        "card_type_code",
+        "카드 유형 코드",
+        "카드 종류 코드",
+        "카드 타입 코드",
+        "카드 코드",
+        "카드 유형"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "VISA": [
+          "비자",
+          "VISA"
+        ],
+        "MASTER": [
+          "마스터",
+          "MASTER"
+        ],
+        "AMERICAN_EXPRESS": [
+          "애메리칸 익스프레스",
+          "AMERICAN_EXPRESS"
+        ]
+      }
+    },
+    {
+      "name": "Customers_Cards_card_number",
+      "domain": "Customers_Cards",
+      "source_table": "Customers_Cards",
+      "source_column": "card_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "카드 번호",
+      "synonyms": [
+        "카드 번호",
+        "카드 넘버",
+        "카드 번호 정보",
+        "카드번호 데이터",
+        "card number",
+        "card number data",
+        "card number info"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_Cards_date_valid_from",
+      "domain": "Customers_Cards",
+      "source_table": "Customers_Cards",
+      "source_column": "date_valid_from",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "유효 시작일",
+      "synonyms": [
+        "유효 시작일",
+        "유효 시작 날짜",
+        "유효 시작 시간",
+        "유효 시작일자",
+        "카드 유효 시작일",
+        "valid from date",
+        "valid from time",
+        "valid from date time"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_Cards_date_valid_to",
+      "domain": "Customers_Cards",
+      "source_table": "Customers_Cards",
+      "source_column": "date_valid_to",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "유효 종료일",
+      "synonyms": [
+        "유효 종료일",
+        "유효 종료 날짜",
+        "유효 종료 시간",
+        "유효 종료일자",
+        "카드 유효 종료일",
+        "valid to date",
+        "valid to time",
+        "valid to date time"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_Cards_other_card_details",
+      "domain": "Customers_Cards",
+      "source_table": "Customers_Cards",
+      "source_column": "other_card_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "다른 카드 정보",
+      "synonyms": [
+        "기타 카드 정보",
+        "추가 카드 세부 사항",
+        "기타 세부 정보",
+        "기타 설명",
+        "기타 정보",
+        "기타 카드 설명",
+        "기타 세부 내용",
+        "기타 정보 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Financial_Transactions_transaction_id",
+      "domain": "Financial_Transactions",
+      "source_table": "Financial_Transactions",
+      "source_column": "transaction_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "거래 ID",
+      "synonyms": [
+        "거래 번호",
+        "트랜잭션 ID",
+        "거래 고유 번호",
+        "트랜잭션 번호",
+        "ID",
+        "transaction_id",
+        "거래 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Financial_Transactions_previous_transaction_id",
+      "domain": "Financial_Transactions",
+      "source_table": "Financial_Transactions",
+      "source_column": "previous_transaction_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "이전 거래 ID",
+      "synonyms": [
+        "이전 거래 번호",
+        "이전 트랜잭션 ID",
+        "이전 트랜잭션 번호",
+        "이전 ID",
+        "previous_transaction_id",
+        "이전 거래 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Financial_Transactions_account_id",
+      "domain": "Financial_Transactions",
+      "source_table": "Financial_Transactions",
+      "source_column": "account_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "계좌 ID",
+      "synonyms": [
+        "계좌 번호",
+        "계좌 ID",
+        "계좌 식별자",
+        "계좌 고유 번호",
+        "account_id",
+        "계좌 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Financial_Transactions_card_id",
+      "domain": "Financial_Transactions",
+      "source_table": "Financial_Transactions",
+      "source_column": "card_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "카드 ID",
+      "synonyms": [
+        "card_id",
+        "카드 아이디",
+        "카드 번호",
+        "카드 식별자",
+        "카드 고유번호",
+        "카드 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Financial_Transactions_transaction_type",
+      "domain": "Financial_Transactions",
+      "source_table": "Financial_Transactions",
+      "source_column": "transaction_type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "거래 유형",
+      "synonyms": [
+        "transaction_type",
+        "트랜잭션 유형",
+        "거래 유형",
+        "트랜잭션 종류",
+        "거래 종류",
+        "트랜잭션 타입"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "입금": [
+          "입금",
+          "입금 거래"
+        ],
+        "출금": [
+          "출금",
+          "출금 거래"
+        ],
+        "이체": [
+          "이체",
+          "이체 거래"
+        ],
+        "결제": [
+          "결제",
+          "결제 거래"
+        ]
+      }
+    },
+    {
+      "name": "Financial_Transactions_transaction_date",
+      "domain": "Financial_Transactions",
+      "source_table": "Financial_Transactions",
+      "source_column": "transaction_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 3.0,
+      "primary_label": "거래 일시",
+      "synonyms": [
+        "transaction_date",
+        "트랜잭션 날짜",
+        "거래 날짜",
+        "트랜잭션 시간",
+        "거래 시간",
+        "날짜 시간",
+        "날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Financial_Transactions_transaction_amount",
+      "domain": "Financial_Transactions",
+      "source_table": "Financial_Transactions",
+      "source_column": "transaction_amount",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "거래 금액",
+      "synonyms": [
+        "거래 금액",
+        "결제 금액",
+        "수량",
+        "가격",
+        "금액",
+        "transaction amount"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Financial_Transactions_transaction_comment",
+      "domain": "Financial_Transactions",
+      "source_table": "Financial_Transactions",
+      "source_column": "transaction_comment",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "거래 비고",
+      "synonyms": [
+        "거래 메모",
+        "설명",
+        "비고",
+        "추가 설명",
+        "메모",
+        "transaction comment",
+        "거래 설명"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Financial_Transactions_other_transaction_details",
+      "domain": "Financial_Transactions",
+      "source_table": "Financial_Transactions",
+      "source_column": "other_transaction_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "다른 거래 세부 사항",
+      "synonyms": [
+        "추가 정보",
+        "기타 세부 사항",
+        "기타 정보",
+        "기타 설명",
+        "기타 세부내용",
+        "other transaction details"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Financial_Transactions_Accounts_fk0",
+      "domain": "Financial_Transactions",
+      "range": "Accounts",
+      "source_fk": [
+        "Financial_Transactions.account_id",
+        "Accounts.account_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Financial_Transactions_Customers_Cards_fk1",
+      "domain": "Financial_Transactions",
+      "range": "Customers_Cards",
+      "source_fk": [
+        "Financial_Transactions.card_id",
+        "Customers_Cards.card_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,803 @@
+{
+  "db_id": "product_catalog",
+  "classes": [
+    {
+      "name": "Attribute_Definitions",
+      "source_table": "Attribute_Definitions",
+      "ranking": 3.0,
+      "primary_label": "attribute definitions",
+      "synonyms": [
+        "속성 정의",
+        "속성 정보",
+        "속성 설정",
+        "속성 구조",
+        "속성 매개변수"
+      ]
+    },
+    {
+      "name": "Catalogs",
+      "source_table": "Catalogs",
+      "ranking": 3.5,
+      "primary_label": "카탈로그",
+      "synonyms": [
+        "카탈로그",
+        "카탈로그 정보",
+        "카탈로그 목록",
+        "카탈로그 데이터",
+        "카탈로그 목표"
+      ]
+    },
+    {
+      "name": "Catalog_Structure",
+      "source_table": "Catalog_Structure",
+      "ranking": 3.0,
+      "primary_label": "카탈로그 구조",
+      "synonyms": [
+        "구조 정의",
+        "구조 정보",
+        "구조 설정",
+        "구조 매개변수",
+        "구조 데이터"
+      ]
+    },
+    {
+      "name": "Catalog_Contents",
+      "source_table": "Catalog_Contents",
+      "ranking": 3.5,
+      "primary_label": "catalog contents",
+      "synonyms": [
+        "제품 콘텐츠",
+        "제품 정보",
+        "제품 데이터",
+        "제품 내용",
+        "제품 목록"
+      ]
+    },
+    {
+      "name": "Catalog_Contents_Additional_Attributes",
+      "source_table": "Catalog_Contents_Additional_Attributes",
+      "ranking": 3.0,
+      "primary_label": "카탈로그 콘텐츠 추가 속성",
+      "synonyms": [
+        "제품 추가 속성",
+        "제품 확장 속성",
+        "제품 추가 정보",
+        "제품 특성",
+        "제품 확장 데이터"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Attribute_Definitions_attribute_id",
+      "domain": "Attribute_Definitions",
+      "source_table": "Attribute_Definitions",
+      "source_column": "attribute_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "attribute id",
+      "synonyms": [
+        "속성 ID",
+        "속성 식별자",
+        "속성 번호",
+        "속성 코드",
+        "속성 식별번호",
+        "속성 고유값",
+        "속성 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Attribute_Definitions_attribute_name",
+      "domain": "Attribute_Definitions",
+      "source_table": "Attribute_Definitions",
+      "source_column": "attribute_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "attribute name",
+      "synonyms": [
+        "속성 이름",
+        "속성 제목",
+        "속성 명칭",
+        "속성 타이틀",
+        "속성 표시명",
+        "속성 라벨",
+        "속성 표시"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "고객 정보": [
+          "고객 정보"
+        ],
+        "상품 정보": [
+          "상품 정보"
+        ]
+      }
+    },
+    {
+      "name": "Attribute_Definitions_attribute_data_type",
+      "domain": "Attribute_Definitions",
+      "source_table": "Attribute_Definitions",
+      "source_column": "attribute_data_type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "attribute data type",
+      "synonyms": [
+        "속성 데이터 타입",
+        "속성 형식",
+        "속성 데이터 종류",
+        "속성 데이터 유형",
+        "속성 데이터 구분",
+        "속성 타입"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "VARCHAR": [
+          "VARCHAR"
+        ],
+        "INTEGER": [
+          "INTEGER"
+        ],
+        "DATE": [
+          "DATE"
+        ]
+      }
+    },
+    {
+      "name": "Catalogs_catalog_id",
+      "domain": "Catalogs",
+      "source_table": "Catalogs",
+      "source_column": "catalog_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "카탈로그 ID",
+      "synonyms": [
+        "카탈로그 ID",
+        "카탈로그 고유 번호",
+        "catalog_id",
+        "ID",
+        "고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalogs_catalog_name",
+      "domain": "Catalogs",
+      "source_table": "Catalogs",
+      "source_column": "catalog_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "카탈로그 이름",
+      "synonyms": [
+        "카탈로그 이름",
+        "제목",
+        "카탈로그명",
+        "catalog_name",
+        "이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalogs_catalog_publisher",
+      "domain": "Catalogs",
+      "source_table": "Catalogs",
+      "source_column": "catalog_publisher",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "카탈로그 출판사",
+      "synonyms": [
+        "카탈로그 발행자",
+        "출판사",
+        "출판자",
+        "catalog_publisher",
+        "발행자",
+        "출판"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalogs_date_of_publication",
+      "domain": "Catalogs",
+      "source_table": "Catalogs",
+      "source_column": "date_of_publication",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "출판일",
+      "synonyms": [
+        "발행일",
+        "출판일",
+        "발행 날짜",
+        "출판 날짜",
+        "공개일",
+        "일자",
+        "날짜"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalogs_date_of_latest_revision",
+      "domain": "Catalogs",
+      "source_table": "Catalogs",
+      "source_column": "date_of_latest_revision",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최근 수정일",
+      "synonyms": [
+        "최근 수정일",
+        "마지막 수정 날짜",
+        "수정일",
+        "최신 수정일",
+        "일자",
+        "날짜",
+        "최근 변경일"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Structure_catalog_level_number",
+      "domain": "Catalog_Structure",
+      "source_table": "Catalog_Structure",
+      "source_column": "catalog_level_number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "카탈로그 레벨 번호",
+      "synonyms": [
+        "레벨번호",
+        "카탈로그레벨번호",
+        "레벨",
+        "수준번호",
+        "수준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Structure_catalog_id",
+      "domain": "Catalog_Structure",
+      "source_table": "Catalog_Structure",
+      "source_column": "catalog_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "카탈로그 ID",
+      "synonyms": [
+        "카탈로그ID",
+        "카탈로그번호",
+        "ID",
+        "카탈로그",
+        "카탈로그 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Structure_catalog_level_name",
+      "domain": "Catalog_Structure",
+      "source_table": "Catalog_Structure",
+      "source_column": "catalog_level_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "카탈로그 레벨 이름",
+      "synonyms": [
+        "레벨이름",
+        "카탈로그레벨이름",
+        "수준 이름",
+        "레벨명",
+        "수준명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "기본": [
+          "기본"
+        ],
+        "1단계": [
+          "1단계"
+        ],
+        "2단계": [
+          "2단계"
+        ]
+      }
+    },
+    {
+      "name": "Catalog_Contents_catalog_entry_id",
+      "domain": "Catalog_Contents",
+      "source_table": "Catalog_Contents",
+      "source_column": "catalog_entry_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "catalog entry id",
+      "synonyms": [
+        "카탈로그 항목 ID",
+        "엔트리 ID",
+        "카탈로그 엔트리 ID",
+        "제품 ID",
+        "항목 식별자",
+        "엔트리 번호",
+        "카탈로그 번호",
+        "고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Contents_catalog_level_number",
+      "domain": "Catalog_Contents",
+      "source_table": "Catalog_Contents",
+      "source_column": "catalog_level_number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "catalog level number",
+      "synonyms": [
+        "카탈로그 레벨",
+        "레벨 번호",
+        "구조 레벨",
+        "카탈로그 수준",
+        "구조 수준",
+        "카탈로그 레벨 번호",
+        "수준 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Contents_parent_entry_id",
+      "domain": "Catalog_Contents",
+      "source_table": "Catalog_Contents",
+      "source_column": "parent_entry_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "parent entry id",
+      "synonyms": [
+        "부모 엔트리 ID",
+        "상위 항목 ID",
+        "부모 항목 번호",
+        "상위 엔트리 ID",
+        "상위 항목 식별자",
+        "부모 번호",
+        "상위 엔트리 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Contents_previous_entry_id",
+      "domain": "Catalog_Contents",
+      "source_table": "Catalog_Contents",
+      "source_column": "previous_entry_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "previous entry id",
+      "synonyms": [
+        "이전 항목 ID",
+        "이전 엔트리 ID",
+        "이전 엔트리",
+        "이전 번호",
+        "이전 엔트리 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Contents_next_entry_id",
+      "domain": "Catalog_Contents",
+      "source_table": "Catalog_Contents",
+      "source_column": "next_entry_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "next entry id",
+      "synonyms": [
+        "다음 항목 ID",
+        "다음 엔트리 ID",
+        "다음 엔트리",
+        "다음 번호",
+        "다음 엔트리 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Contents_catalog_entry_name",
+      "domain": "Catalog_Contents",
+      "source_table": "Catalog_Contents",
+      "source_column": "catalog_entry_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "catalog entry name",
+      "synonyms": [
+        "카탈로그 항목 이름",
+        "항목 이름",
+        "엔트리 이름",
+        "카탈로그 이름",
+        "엔트리명",
+        "항목명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "노트북": [
+          "노트북",
+          "laptop"
+        ],
+        "모니터": [
+          "모니터",
+          "monitor"
+        ]
+      }
+    },
+    {
+      "name": "Catalog_Contents_product_stock_number",
+      "domain": "Catalog_Contents",
+      "source_table": "Catalog_Contents",
+      "source_column": "product_stock_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "product stock number",
+      "synonyms": [
+        "제품 재고 번호",
+        "재고 코드",
+        "제품 스톡 번호",
+        "재고 번호",
+        "제품 재고 코드",
+        "재고 식별자",
+        "제품 스톡 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Contents_price_in_dollars",
+      "domain": "Catalog_Contents",
+      "source_table": "Catalog_Contents",
+      "source_column": "price_in_dollars",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "price in dollars",
+      "synonyms": [
+        "달러 가격",
+        "USD 가격",
+        "달러 기준 가격",
+        "제품 달러 가격",
+        "USD",
+        "제품 달러 가격 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Contents_price_in_euros",
+      "domain": "Catalog_Contents",
+      "source_table": "Catalog_Contents",
+      "source_column": "price_in_euros",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "price in euros",
+      "synonyms": [
+        "유로 가격",
+        "EUR 가격",
+        "유로 기준 가격",
+        "제품 유로 가격",
+        "EUR",
+        "제품 유로 가격 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Contents_price_in_pounds",
+      "domain": "Catalog_Contents",
+      "source_table": "Catalog_Contents",
+      "source_column": "price_in_pounds",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "price in pounds",
+      "synonyms": [
+        "영국 파운드 가격",
+        "파운드 가격",
+        "price_in_pounds",
+        "GBP 가격",
+        "영국 통화 가격",
+        "product price in pounds",
+        "price in british pounds"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Contents_capacity",
+      "domain": "Catalog_Contents",
+      "source_table": "Catalog_Contents",
+      "source_column": "capacity",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "capacity",
+      "synonyms": [
+        "용량",
+        "용량 정보",
+        "capacity",
+        "용량값",
+        "용량 데이터",
+        "용량 기준",
+        "용량 측정"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "512GB": [
+          "512GB",
+          "512기가바이트"
+        ],
+        "1TB": [
+          "1TB",
+          "1테라바이트"
+        ]
+      }
+    },
+    {
+      "name": "Catalog_Contents_length",
+      "domain": "Catalog_Contents",
+      "source_table": "Catalog_Contents",
+      "source_column": "length",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "length",
+      "synonyms": [
+        "길이",
+        "길이 정보",
+        "length",
+        "길이 데이터",
+        "길이 측정",
+        "제품 길이",
+        "길이 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Contents_height",
+      "domain": "Catalog_Contents",
+      "source_table": "Catalog_Contents",
+      "source_column": "height",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "height",
+      "synonyms": [
+        "height",
+        "height dimension",
+        "height measure",
+        "height value",
+        "height unit",
+        "height size",
+        "height metric",
+        "height measurement"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Contents_width",
+      "domain": "Catalog_Contents",
+      "source_table": "Catalog_Contents",
+      "source_column": "width",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "width",
+      "synonyms": [
+        "width",
+        "width dimension",
+        "width measure",
+        "width value",
+        "width unit",
+        "width size",
+        "width metric",
+        "width measurement"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Contents_Additional_Attributes_catalog_entry_id",
+      "domain": "Catalog_Contents_Additional_Attributes",
+      "source_table": "Catalog_Contents_Additional_Attributes",
+      "source_column": "catalog_entry_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "카탈로그 엔트리 ID",
+      "synonyms": [
+        "catalog_entry_id",
+        "카탈로그 항목 ID",
+        "항목 식별자",
+        "제품 ID",
+        "엔트리 ID",
+        "카탈로그 엔트리 ID",
+        "제품 엔트리 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Contents_Additional_Attributes_catalog_level_number",
+      "domain": "Catalog_Contents_Additional_Attributes",
+      "source_table": "Catalog_Contents_Additional_Attributes",
+      "source_column": "catalog_level_number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "카탈로그 레벨 번호",
+      "synonyms": [
+        "catalog_level_number",
+        "카탈로그 레벨 번호",
+        "레벨 번호",
+        "구조 레벨",
+        "카탈로그 수준",
+        "구조 수준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Contents_Additional_Attributes_attribute_id",
+      "domain": "Catalog_Contents_Additional_Attributes",
+      "source_table": "Catalog_Contents_Additional_Attributes",
+      "source_column": "attribute_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "속성 ID",
+      "synonyms": [
+        "attribute_id",
+        "속성 ID",
+        "속성 식별자",
+        "속성 번호",
+        "추가 속성 ID",
+        "속성 코드",
+        "속성 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Catalog_Contents_Additional_Attributes_attribute_value",
+      "domain": "Catalog_Contents_Additional_Attributes",
+      "source_table": "Catalog_Contents_Additional_Attributes",
+      "source_column": "attribute_value",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "속성 값",
+      "synonyms": [
+        "속성 값",
+        "속성 데이터",
+        "추가 정보 값",
+        "속성 내용",
+        "속성 값 정보",
+        "속성 데이터 값",
+        "추가 속성 값",
+        "속성 내용 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "빨간색": [
+          "빨간"
+        ],
+        "파란색": [
+          "파랑"
+        ],
+        "검정색": [
+          "검정"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Catalog_Structure_Catalogs_fk0",
+      "domain": "Catalog_Structure",
+      "range": "Catalogs",
+      "source_fk": [
+        "Catalog_Structure.catalog_id",
+        "Catalogs.catalog_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Catalog_Contents_Catalog_Structure_fk1",
+      "domain": "Catalog_Contents",
+      "range": "Catalog_Structure",
+      "source_fk": [
+        "Catalog_Contents.catalog_level_number",
+        "Catalog_Structure.catalog_level_number"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Catalog_Contents_Additional_Attributes_Catalog_Structure_fk2",
+      "domain": "Catalog_Contents_Additional_Attributes",
+      "range": "Catalog_Structure",
+      "source_fk": [
+        "Catalog_Contents_Additional_Attributes.catalog_level_number",
+        "Catalog_Structure.catalog_level_number"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Catalog_Contents_Additional_Attributes_Catalog_Contents_fk3",
+      "domain": "Catalog_Contents_Additional_Attributes",
+      "range": "Catalog_Contents",
+      "source_fk": [
+        "Catalog_Contents_Additional_Attributes.catalog_entry_id",
+        "Catalog_Contents.catalog_entry_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "연결",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

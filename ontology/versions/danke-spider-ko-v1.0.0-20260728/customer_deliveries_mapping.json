@@ -1,0 +1,285 @@
+{
+  "class_table": {
+    "Products": "Products",
+    "Addresses": "Addresses",
+    "Customers": "Customers",
+    "Regular_Orders": "Regular_Orders",
+    "Regular_Order_Products": "Regular_Order_Products",
+    "Actual_Orders": "Actual_Orders",
+    "Actual_Order_Products": "Actual_Order_Products",
+    "Customer_Addresses": "Customer_Addresses",
+    "Delivery_Routes": "Delivery_Routes",
+    "Delivery_Route_Locations": "Delivery_Route_Locations",
+    "Trucks": "Trucks",
+    "Employees": "Employees",
+    "Order_Deliveries": "Order_Deliveries"
+  },
+  "property_column": {
+    "Products_product_id": [
+      "Products",
+      "product_id"
+    ],
+    "Products_product_name": [
+      "Products",
+      "product_name"
+    ],
+    "Products_product_price": [
+      "Products",
+      "product_price"
+    ],
+    "Products_product_description": [
+      "Products",
+      "product_description"
+    ],
+    "Addresses_address_id": [
+      "Addresses",
+      "address_id"
+    ],
+    "Addresses_address_details": [
+      "Addresses",
+      "address_details"
+    ],
+    "Addresses_city": [
+      "Addresses",
+      "city"
+    ],
+    "Addresses_zip_postcode": [
+      "Addresses",
+      "zip_postcode"
+    ],
+    "Addresses_state_province_county": [
+      "Addresses",
+      "state_province_county"
+    ],
+    "Addresses_country": [
+      "Addresses",
+      "country"
+    ],
+    "Customers_customer_id": [
+      "Customers",
+      "customer_id"
+    ],
+    "Customers_payment_method": [
+      "Customers",
+      "payment_method"
+    ],
+    "Customers_customer_name": [
+      "Customers",
+      "customer_name"
+    ],
+    "Customers_customer_phone": [
+      "Customers",
+      "customer_phone"
+    ],
+    "Customers_customer_email": [
+      "Customers",
+      "customer_email"
+    ],
+    "Customers_date_became_customer": [
+      "Customers",
+      "date_became_customer"
+    ],
+    "Regular_Orders_regular_order_id": [
+      "Regular_Orders",
+      "regular_order_id"
+    ],
+    "Regular_Orders_distributer_id": [
+      "Regular_Orders",
+      "distributer_id"
+    ],
+    "Regular_Order_Products_regular_order_id": [
+      "Regular_Order_Products",
+      "regular_order_id"
+    ],
+    "Regular_Order_Products_product_id": [
+      "Regular_Order_Products",
+      "product_id"
+    ],
+    "Actual_Orders_actual_order_id": [
+      "Actual_Orders",
+      "actual_order_id"
+    ],
+    "Actual_Orders_order_status_code": [
+      "Actual_Orders",
+      "order_status_code"
+    ],
+    "Actual_Orders_regular_order_id": [
+      "Actual_Orders",
+      "regular_order_id"
+    ],
+    "Actual_Orders_actual_order_date": [
+      "Actual_Orders",
+      "actual_order_date"
+    ],
+    "Actual_Order_Products_actual_order_id": [
+      "Actual_Order_Products",
+      "actual_order_id"
+    ],
+    "Actual_Order_Products_product_id": [
+      "Actual_Order_Products",
+      "product_id"
+    ],
+    "Customer_Addresses_customer_id": [
+      "Customer_Addresses",
+      "customer_id"
+    ],
+    "Customer_Addresses_address_id": [
+      "Customer_Addresses",
+      "address_id"
+    ],
+    "Customer_Addresses_date_from": [
+      "Customer_Addresses",
+      "date_from"
+    ],
+    "Customer_Addresses_address_type": [
+      "Customer_Addresses",
+      "address_type"
+    ],
+    "Customer_Addresses_date_to": [
+      "Customer_Addresses",
+      "date_to"
+    ],
+    "Delivery_Routes_route_id": [
+      "Delivery_Routes",
+      "route_id"
+    ],
+    "Delivery_Routes_route_name": [
+      "Delivery_Routes",
+      "route_name"
+    ],
+    "Delivery_Routes_other_route_details": [
+      "Delivery_Routes",
+      "other_route_details"
+    ],
+    "Delivery_Route_Locations_location_code": [
+      "Delivery_Route_Locations",
+      "location_code"
+    ],
+    "Delivery_Route_Locations_route_id": [
+      "Delivery_Route_Locations",
+      "route_id"
+    ],
+    "Delivery_Route_Locations_location_address_id": [
+      "Delivery_Route_Locations",
+      "location_address_id"
+    ],
+    "Delivery_Route_Locations_location_name": [
+      "Delivery_Route_Locations",
+      "location_name"
+    ],
+    "Trucks_truck_id": [
+      "Trucks",
+      "truck_id"
+    ],
+    "Trucks_truck_licence_number": [
+      "Trucks",
+      "truck_licence_number"
+    ],
+    "Trucks_truck_details": [
+      "Trucks",
+      "truck_details"
+    ],
+    "Employees_employee_id": [
+      "Employees",
+      "employee_id"
+    ],
+    "Employees_employee_address_id": [
+      "Employees",
+      "employee_address_id"
+    ],
+    "Employees_employee_name": [
+      "Employees",
+      "employee_name"
+    ],
+    "Employees_employee_phone": [
+      "Employees",
+      "employee_phone"
+    ],
+    "Order_Deliveries_location_code": [
+      "Order_Deliveries",
+      "location_code"
+    ],
+    "Order_Deliveries_actual_order_id": [
+      "Order_Deliveries",
+      "actual_order_id"
+    ],
+    "Order_Deliveries_delivery_status_code": [
+      "Order_Deliveries",
+      "delivery_status_code"
+    ],
+    "Order_Deliveries_driver_employee_id": [
+      "Order_Deliveries",
+      "driver_employee_id"
+    ],
+    "Order_Deliveries_truck_id": [
+      "Order_Deliveries",
+      "truck_id"
+    ],
+    "Order_Deliveries_delivery_date": [
+      "Order_Deliveries",
+      "delivery_date"
+    ]
+  },
+  "object_property_fk": {
+    "Regular_Orders_Customers_fk0": [
+      "Regular_Orders.distributer_id",
+      "Customers.customer_id"
+    ],
+    "Regular_Order_Products_Regular_Orders_fk1": [
+      "Regular_Order_Products.regular_order_id",
+      "Regular_Orders.regular_order_id"
+    ],
+    "Regular_Order_Products_Products_fk2": [
+      "Regular_Order_Products.product_id",
+      "Products.product_id"
+    ],
+    "Actual_Orders_Regular_Orders_fk3": [
+      "Actual_Orders.regular_order_id",
+      "Regular_Orders.regular_order_id"
+    ],
+    "Actual_Order_Products_Actual_Orders_fk4": [
+      "Actual_Order_Products.actual_order_id",
+      "Actual_Orders.actual_order_id"
+    ],
+    "Actual_Order_Products_Products_fk5": [
+      "Actual_Order_Products.product_id",
+      "Products.product_id"
+    ],
+    "Customer_Addresses_Addresses_fk6": [
+      "Customer_Addresses.address_id",
+      "Addresses.address_id"
+    ],
+    "Customer_Addresses_Customers_fk7": [
+      "Customer_Addresses.customer_id",
+      "Customers.customer_id"
+    ],
+    "Delivery_Route_Locations_Delivery_Routes_fk8": [
+      "Delivery_Route_Locations.route_id",
+      "Delivery_Routes.route_id"
+    ],
+    "Delivery_Route_Locations_Addresses_fk9": [
+      "Delivery_Route_Locations.location_address_id",
+      "Addresses.address_id"
+    ],
+    "Employees_Addresses_fk10": [
+      "Employees.employee_address_id",
+      "Addresses.address_id"
+    ],
+    "Order_Deliveries_Employees_fk11": [
+      "Order_Deliveries.driver_employee_id",
+      "Employees.employee_id"
+    ],
+    "Order_Deliveries_Delivery_Route_Locations_fk12": [
+      "Order_Deliveries.location_code",
+      "Delivery_Route_Locations.location_code"
+    ],
+    "Order_Deliveries_Actual_Orders_fk13": [
+      "Order_Deliveries.actual_order_id",
+      "Actual_Orders.actual_order_id"
+    ],
+    "Order_Deliveries_Trucks_fk14": [
+      "Order_Deliveries.truck_id",
+      "Trucks.truck_id"
+    ]
+  }
+}

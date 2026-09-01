@@ -1,0 +1,281 @@
+{
+  "db_id": "voter_1",
+  "classes": [
+    {
+      "name": "AREA_CODE_STATE",
+      "source_table": "AREA_CODE_STATE",
+      "ranking": 1.0,
+      "primary_label": "area code state",
+      "synonyms": [
+        "지역코드",
+        "주코드",
+        "지역번호",
+        "주별 코드",
+        "지역정보"
+      ]
+    },
+    {
+      "name": "CONTESTANTS",
+      "source_table": "CONTESTANTS",
+      "ranking": 3.0,
+      "primary_label": "참가자",
+      "synonyms": [
+        "후보자",
+        "경쟁자",
+        "후보",
+        "후보자 정보",
+        "경쟁자 정보"
+      ]
+    },
+    {
+      "name": "VOTES",
+      "source_table": "VOTES",
+      "ranking": 3.5,
+      "primary_label": "투표",
+      "synonyms": [
+        "투표",
+        "투표자",
+        "투표 데이터",
+        "투표 정보",
+        "투표 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "AREA_CODE_STATE_area_code",
+      "domain": "AREA_CODE_STATE",
+      "source_table": "AREA_CODE_STATE",
+      "source_column": "area_code",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "area code",
+      "synonyms": [
+        "지역 코드",
+        "구역 코드",
+        "지역번호",
+        "구역번호",
+        "지역코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "AREA_CODE_STATE_state",
+      "domain": "AREA_CODE_STATE",
+      "source_table": "AREA_CODE_STATE",
+      "source_column": "state",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "state",
+      "synonyms": [
+        "주",
+        "주 이름",
+        "주명",
+        "주소재지",
+        "주지"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "CONTESTANTS_contestant_number",
+      "domain": "CONTESTANTS",
+      "source_table": "CONTESTANTS",
+      "source_column": "contestant_number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "참가자 번호",
+      "synonyms": [
+        "참가자 ID",
+        "경쟁자 번호",
+        "번호",
+        "참가자 코드",
+        "경쟁자 식별자",
+        "번호 정보",
+        "참가자 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "CONTESTANTS_contestant_name",
+      "domain": "CONTESTANTS",
+      "source_table": "CONTESTANTS",
+      "source_column": "contestant_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "참가자 이름",
+      "synonyms": [
+        "경쟁자 이름",
+        "참가자 이름",
+        "대상자 이름",
+        "경쟁자명",
+        "참가자명",
+        "대상자",
+        "경쟁자",
+        "참가자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "이지은": [
+          "이지은"
+        ]
+      }
+    },
+    {
+      "name": "VOTES_vote_id",
+      "domain": "VOTES",
+      "source_table": "VOTES",
+      "source_column": "vote_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "투표 ID",
+      "synonyms": [
+        "투표 번호",
+        "투표 코드",
+        "투표 식별자",
+        "투표 고유번호",
+        "투표 ID",
+        "투표 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "VOTES_phone_number",
+      "domain": "VOTES",
+      "source_table": "VOTES",
+      "source_column": "phone_number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "전화번호",
+      "synonyms": [
+        "전화번호",
+        "전화번호 정보",
+        "전화번호 항목",
+        "전화번호 데이터",
+        "전화번호 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "VOTES_state",
+      "domain": "VOTES",
+      "source_table": "VOTES",
+      "source_column": "state",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "상태",
+      "synonyms": [
+        "상태",
+        "상태 정보",
+        "상태 코드",
+        "상태 항목",
+        "상태 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승리": [
+          "승리",
+          "이긴 상태"
+        ],
+        "패배": [
+          "패배",
+          "진영 상태"
+        ]
+      }
+    },
+    {
+      "name": "VOTES_contestant_number",
+      "domain": "VOTES",
+      "source_table": "VOTES",
+      "source_column": "contestant_number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "참가자 번호",
+      "synonyms": [
+        "참가자 ID",
+        "경쟁자 번호",
+        "후보자 번호",
+        "인물 번호",
+        "번호",
+        "후보 번호",
+        "경쟁자 ID",
+        "참가자 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "VOTES_created",
+      "domain": "VOTES",
+      "source_table": "VOTES",
+      "source_column": "created",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "생성 시간",
+      "synonyms": [
+        "생성 시각",
+        "생성 일시",
+        "생성 시간戳",
+        "생성 시간 정보",
+        "생성 시간 기록",
+        "생성 시간 데이터",
+        "생성 시간 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "VOTES_CONTESTANTS_fk0",
+      "domain": "VOTES",
+      "range": "CONTESTANTS",
+      "source_fk": [
+        "VOTES.contestant_number",
+        "CONTESTANTS.contestant_number"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가자 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "VOTES_AREA_CODE_STATE_fk1",
+      "domain": "VOTES",
+      "range": "AREA_CODE_STATE",
+      "source_fk": [
+        "VOTES.state",
+        "AREA_CODE_STATE.state"
+      ],
+      "weight": 1.0,
+      "primary_label": "주소 소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

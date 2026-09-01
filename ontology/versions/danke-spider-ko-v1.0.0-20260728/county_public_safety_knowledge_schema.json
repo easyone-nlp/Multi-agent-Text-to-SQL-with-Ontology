@@ -1,0 +1,430 @@
+{
+  "db_id": "county_public_safety",
+  "classes": [
+    {
+      "name": "county_public_safety",
+      "source_table": "county_public_safety",
+      "ranking": 3.5,
+      "primary_label": "county public safety",
+      "synonyms": [
+        "군산 안전",
+        "군산 보안",
+        "군산 안전관리",
+        "군산 안전정보",
+        "군산 안전데이터",
+        "군산 안전시스템",
+        "군산 안전관리 시스템"
+      ]
+    },
+    {
+      "name": "city",
+      "source_table": "city",
+      "ranking": 3.5,
+      "primary_label": "시",
+      "synonyms": [
+        "도시",
+        "도",
+        "도시 정보",
+        "도시 데이터",
+        "도시 기관",
+        "도시 관리",
+        "도시 통계",
+        "도시 기반시설"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "county_public_safety_County_ID",
+      "domain": "county_public_safety",
+      "source_table": "county_public_safety",
+      "source_column": "County_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "county id",
+      "synonyms": [
+        "County_ID",
+        "county identifier",
+        "county number",
+        "county code",
+        "county serial number",
+        "county key"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "county_public_safety_Name",
+      "domain": "county_public_safety",
+      "source_table": "county_public_safety",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "name",
+      "synonyms": [
+        "Name",
+        "county name",
+        "county title",
+        "county designation",
+        "county identifier",
+        "county label"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "county_public_safety_Population",
+      "domain": "county_public_safety",
+      "source_table": "county_public_safety",
+      "source_column": "Population",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "population",
+      "synonyms": [
+        "Population",
+        "county population",
+        "county residents",
+        "county people",
+        "county populace",
+        "county total people",
+        "county count"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "county_public_safety_Police_officers",
+      "domain": "county_public_safety",
+      "source_table": "county_public_safety",
+      "source_column": "Police_officers",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.8,
+      "primary_label": "police officers",
+      "synonyms": [
+        "경찰관 수",
+        "경찰 인력 수",
+        "경찰 인원",
+        "경찰 수",
+        "경찰 인력"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "county_public_safety_Residents_per_officer",
+      "domain": "county_public_safety",
+      "source_table": "county_public_safety",
+      "source_column": "Residents_per_officer",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.2,
+      "primary_label": "residents per officer",
+      "synonyms": [
+        "주민당 경찰관 수",
+        "주민당 경찰 인원",
+        "1인당 관리 주민 수",
+        "주민당 경찰 인력",
+        "경찰당 주민 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "county_public_safety_Case_burden",
+      "domain": "county_public_safety",
+      "source_table": "county_public_safety",
+      "source_column": "Case_burden",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "case burden",
+      "synonyms": [
+        "사건 부담",
+        "사건 부담량",
+        "경찰 사건 부담",
+        "사건 처리 부담",
+        "경찰 사건 부담량"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "county_public_safety_Crime_rate",
+      "domain": "county_public_safety",
+      "source_table": "county_public_safety",
+      "source_column": "Crime_rate",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.3,
+      "primary_label": "crime rate",
+      "synonyms": [
+        "범죄율",
+        "범죄률",
+        "범죄 비율",
+        "범죄율 정보",
+        "범죄률 데이터",
+        "crime rate"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "county_public_safety_Police_force",
+      "domain": "county_public_safety",
+      "source_table": "county_public_safety",
+      "source_column": "Police_force",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.7,
+      "primary_label": "police force",
+      "synonyms": [
+        "경찰 조직",
+        "경찰 체계",
+        "경찰 부대",
+        "경찰 구조",
+        "경찰 팀",
+        "police force"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "county_public_safety_Location",
+      "domain": "county_public_safety",
+      "source_table": "county_public_safety",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "location",
+      "synonyms": [
+        "위치",
+        "지역 위치",
+        "위치 정보",
+        "지역 위치 데이터",
+        "위치 데이터",
+        "location",
+        "지역"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_City_ID",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "City_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "시 ID",
+      "synonyms": [
+        "도시 ID",
+        "도시 식별 번호",
+        "도시 고유 번호",
+        "City_ID",
+        "도시 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_County_ID",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "County_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "군 ID",
+      "synonyms": [
+        "카운티 ID",
+        "카운티 식별 번호",
+        "카운티 고유 번호",
+        "County_ID",
+        "도시 카운티 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_Name",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "이름",
+      "synonyms": [
+        "도시 이름",
+        "도시명",
+        "이름",
+        "City_Name",
+        "도시 공식 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_White",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "White",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "백인",
+      "synonyms": [
+        "백인",
+        "백색인구",
+        "백인 인구",
+        "백인 비율",
+        "흰인",
+        "흰인구",
+        "백인 인구 비율"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_Black",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Black",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "흑인",
+      "synonyms": [
+        "흑인",
+        "흑색인구",
+        "흑인 인구",
+        "흑인 비율",
+        "검은인",
+        "검은인구",
+        "흑인 인구 비율"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_Amerindian",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Amerindian",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "아메리카인",
+      "synonyms": [
+        "아메리카인",
+        "아메리카인구",
+        "아메리카인 인구",
+        "아메리카인 비율",
+        "원주민",
+        "원주인구",
+        "원주인 인구 비율"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_Asian",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Asian",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "아시아인",
+      "synonyms": [
+        "아시아인",
+        "아시아계",
+        "아시아인 인구",
+        "아시아인 수",
+        "ASIAN",
+        "아시아"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_Multiracial",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Multiracial",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "다문화",
+      "synonyms": [
+        "다문화",
+        "다인종",
+        "다국적",
+        "다문화 인구",
+        "다인종 인구",
+        "Multiracial"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_Hispanic",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Hispanic",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "히스패닉",
+      "synonyms": [
+        "히스패닉",
+        "라틴계",
+        "라틴인",
+        "히스패닉 인구",
+        "Hispanic",
+        "라틴"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "city_county_public_safety_fk0",
+      "domain": "city",
+      "range": "county_public_safety",
+      "source_fk": [
+        "city.County_ID",
+        "county_public_safety.County_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

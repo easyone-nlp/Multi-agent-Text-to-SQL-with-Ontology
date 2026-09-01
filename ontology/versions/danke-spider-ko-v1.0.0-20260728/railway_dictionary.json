@@ -1,0 +1,1355 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "철도",
+      "target_class": "railway",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "철도 데이터",
+      "target_class": "railway",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "철도 정보",
+      "target_class": "railway",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "철도 테이블",
+      "target_class": "railway",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "철도 기반 데이터",
+      "target_class": "railway",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "철도 관련 정보",
+      "target_class": "railway",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차 데이터",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차 정보",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차 테이블",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차 기반 데이터",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차 관련 정보",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차 정보 저장",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관리자",
+      "target_class": "manager",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관리자 데이터",
+      "target_class": "manager",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관리자 정보",
+      "target_class": "manager",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관리자 테이블",
+      "target_class": "manager",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관리자 기반 데이터",
+      "target_class": "manager",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관리자 관련 정보",
+      "target_class": "manager",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관리자 정보 저장",
+      "target_class": "manager",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "철도 관리",
+      "target_class": "railway_manage",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도 ID",
+      "target_class": "railway",
+      "target_property": "railway_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Railway_ID",
+      "target_class": "railway",
+      "target_property": "railway_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도 고유 번호",
+      "target_class": "railway",
+      "target_property": "railway_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도 식별 번호",
+      "target_class": "railway",
+      "target_property": "railway_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도 번호",
+      "target_class": "railway",
+      "target_property": "railway_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도",
+      "target_class": "railway",
+      "target_property": "railway_Railway",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Railway",
+      "target_class": "railway",
+      "target_property": "railway_Railway",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도 이름",
+      "target_class": "railway",
+      "target_property": "railway_Railway",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도 명칭",
+      "target_class": "railway",
+      "target_property": "railway_Railway",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도 대표명",
+      "target_class": "railway",
+      "target_property": "railway_Railway",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건설사",
+      "target_class": "railway",
+      "target_property": "railway_Builder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Builder",
+      "target_class": "railway",
+      "target_property": "railway_Builder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건설자",
+      "target_class": "railway",
+      "target_property": "railway_Builder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건설 업체",
+      "target_class": "railway",
+      "target_property": "railway_Builder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도 건설자",
+      "target_class": "railway",
+      "target_property": "railway_Builder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건설 회사",
+      "target_class": "railway",
+      "target_property": "railway_Builder",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건설 연도",
+      "target_class": "railway",
+      "target_property": "railway_Built",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건설년도",
+      "target_class": "railway",
+      "target_property": "railway_Built",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "완공년도",
+      "target_class": "railway",
+      "target_property": "railway_Built",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구축년도",
+      "target_class": "railway",
+      "target_property": "railway_Built",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "완료년도",
+      "target_class": "railway",
+      "target_property": "railway_Built",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건설시기",
+      "target_class": "railway",
+      "target_property": "railway_Built",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구축시기",
+      "target_class": "railway",
+      "target_property": "railway_Built",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "built",
+      "target_class": "railway",
+      "target_property": "railway_Built",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "built_year",
+      "target_class": "railway",
+      "target_property": "railway_Built",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "바퀴 수",
+      "target_class": "railway",
+      "target_property": "railway_Wheels",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "바퀴수",
+      "target_class": "railway",
+      "target_property": "railway_Wheels",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "바퀴구조",
+      "target_class": "railway",
+      "target_property": "railway_Wheels",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전동구동",
+      "target_class": "railway",
+      "target_property": "railway_Wheels",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "동력구조",
+      "target_class": "railway",
+      "target_property": "railway_Wheels",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "wheels",
+      "target_class": "railway",
+      "target_property": "railway_Wheels",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "wheel_count",
+      "target_class": "railway",
+      "target_property": "railway_Wheels",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "railway",
+      "target_property": "railway_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설치지",
+      "target_class": "railway",
+      "target_property": "railway_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설치위치",
+      "target_class": "railway",
+      "target_property": "railway_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치정보",
+      "target_class": "railway",
+      "target_property": "railway_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "railway",
+      "target_property": "railway_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점",
+      "target_class": "railway",
+      "target_property": "railway_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "location",
+      "target_class": "railway",
+      "target_property": "railway_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "물체 번호",
+      "target_class": "railway",
+      "target_property": "railway_ObjectNumber",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "물품 번호",
+      "target_class": "railway",
+      "target_property": "railway_ObjectNumber",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대상 번호",
+      "target_class": "railway",
+      "target_property": "railway_ObjectNumber",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "물리적 번호",
+      "target_class": "railway",
+      "target_property": "railway_ObjectNumber",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기계 번호",
+      "target_class": "railway",
+      "target_property": "railway_ObjectNumber",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ObjectNumber",
+      "target_class": "railway",
+      "target_property": "railway_ObjectNumber",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "물품 코드",
+      "target_class": "railway",
+      "target_property": "railway_ObjectNumber",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 ID",
+      "target_class": "train",
+      "target_property": "train_Train_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Train_ID",
+      "target_class": "train",
+      "target_property": "train_Train_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 번호",
+      "target_class": "train",
+      "target_property": "train_Train_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 식별 번호",
+      "target_class": "train",
+      "target_property": "train_Train_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 고유 번호",
+      "target_class": "train",
+      "target_property": "train_Train_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 고유 ID",
+      "target_class": "train",
+      "target_property": "train_Train_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 번호",
+      "target_class": "train",
+      "target_property": "train_Train_Num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Train_Num",
+      "target_class": "train",
+      "target_property": "train_Train_Num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 등록 번호",
+      "target_class": "train",
+      "target_property": "train_Train_Num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 수",
+      "target_class": "train",
+      "target_property": "train_Train_Num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 코드",
+      "target_class": "train",
+      "target_property": "train_Train_Num",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Name",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 이름",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 표기",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차명",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 표시",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발지",
+      "target_class": "train",
+      "target_property": "train_From",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발역",
+      "target_class": "train",
+      "target_property": "train_From",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "from",
+      "target_class": "train",
+      "target_property": "train_From",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발지역",
+      "target_class": "train",
+      "target_property": "train_From",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발역명",
+      "target_class": "train",
+      "target_property": "train_From",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착지",
+      "target_class": "train",
+      "target_property": "train_Arrival",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착역",
+      "target_class": "train",
+      "target_property": "train_Arrival",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "arrival",
+      "target_class": "train",
+      "target_property": "train_Arrival",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착지역",
+      "target_class": "train",
+      "target_property": "train_Arrival",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착역명",
+      "target_class": "train",
+      "target_property": "train_Arrival",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도 회사 ID",
+      "target_class": "train",
+      "target_property": "train_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도ID",
+      "target_class": "train",
+      "target_property": "train_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도망ID",
+      "target_class": "train",
+      "target_property": "train_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "railway id",
+      "target_class": "train",
+      "target_property": "train_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도코드",
+      "target_class": "train",
+      "target_property": "train_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도망코드",
+      "target_class": "train",
+      "target_property": "train_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관리자 ID",
+      "target_class": "manager",
+      "target_property": "manager_Manager_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관리자 고유 번호",
+      "target_class": "manager",
+      "target_property": "manager_Manager_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관리자 번호",
+      "target_class": "manager",
+      "target_property": "manager_Manager_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Manager_ID",
+      "target_class": "manager",
+      "target_property": "manager_Manager_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관리자 식별자",
+      "target_class": "manager",
+      "target_property": "manager_Manager_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관리자 고유 ID",
+      "target_class": "manager",
+      "target_property": "manager_Manager_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "manager",
+      "target_property": "manager_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "manager",
+      "target_property": "manager_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소속 국가",
+      "target_class": "manager",
+      "target_property": "manager_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드",
+      "target_class": "manager",
+      "target_property": "manager_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "manager",
+      "target_property": "manager_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 정보",
+      "target_class": "manager",
+      "target_property": "manager_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가별",
+      "target_class": "manager",
+      "target_property": "manager_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "근무 연도 시작",
+      "target_class": "manager",
+      "target_property": "manager_Working_year_starts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "근무 시작 연도",
+      "target_class": "manager",
+      "target_property": "manager_Working_year_starts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작업 연도 시작",
+      "target_class": "manager",
+      "target_property": "manager_Working_year_starts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "근무 시작년도",
+      "target_class": "manager",
+      "target_property": "manager_Working_year_starts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업무 시작 연도",
+      "target_class": "manager",
+      "target_property": "manager_Working_year_starts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작업 시작 연도",
+      "target_class": "manager",
+      "target_property": "manager_Working_year_starts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도 시작",
+      "target_class": "manager",
+      "target_property": "manager_Working_year_starts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작업 시작년도",
+      "target_class": "manager",
+      "target_property": "manager_Working_year_starts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "manager",
+      "target_property": "manager_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "manager",
+      "target_property": "manager_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연수",
+      "target_class": "manager",
+      "target_property": "manager_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 정보",
+      "target_class": "manager",
+      "target_property": "manager_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 정보",
+      "target_class": "manager",
+      "target_property": "manager_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 데이터",
+      "target_class": "manager",
+      "target_property": "manager_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 데이터",
+      "target_class": "manager",
+      "target_property": "manager_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 기준",
+      "target_class": "manager",
+      "target_property": "manager_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "manager",
+      "target_property": "manager_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직급",
+      "target_class": "manager",
+      "target_property": "manager_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직책",
+      "target_class": "manager",
+      "target_property": "manager_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직위",
+      "target_class": "manager",
+      "target_property": "manager_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 정보",
+      "target_class": "manager",
+      "target_property": "manager_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직급 정보",
+      "target_class": "manager",
+      "target_property": "manager_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직책 정보",
+      "target_class": "manager",
+      "target_property": "manager_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직위 정보",
+      "target_class": "manager",
+      "target_property": "manager_Level",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도 id",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Railway_ID",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도 ID",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도 식별 번호",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "철도 고유 번호",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "railway number",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "railway identifier",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_Railway_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관리자 id",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_Manager_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Manager_ID",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_Manager_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관리자 ID",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_Manager_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관리자 식별 번호",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_Manager_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관리자 고유 번호",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_Manager_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "manager number",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_Manager_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "manager identifier",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_Manager_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "from year",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_From_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "From_Year",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_From_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 연도",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_From_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 시작 연도",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_From_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 시작년도",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_From_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작년도",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_From_Year",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 지하철",
+      "target_class": "railway",
+      "target_property": "railway_Railway",
+      "value": "서울 지하철"
+    },
+    {
+      "entry_type": "value",
+      "key": "경부선",
+      "target_class": "railway",
+      "target_property": "railway_Railway",
+      "value": "경부선"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국철도공사",
+      "target_class": "railway",
+      "target_property": "railway_Builder",
+      "value": "한국철도공사"
+    },
+    {
+      "entry_type": "value",
+      "key": "1970년",
+      "target_class": "railway",
+      "target_property": "railway_Built",
+      "value": "1970년"
+    },
+    {
+      "entry_type": "value",
+      "key": "1970",
+      "target_class": "railway",
+      "target_property": "railway_Built",
+      "value": "1970년"
+    },
+    {
+      "entry_type": "value",
+      "key": "2000년",
+      "target_class": "railway",
+      "target_property": "railway_Built",
+      "value": "2000년"
+    },
+    {
+      "entry_type": "value",
+      "key": "2000",
+      "target_class": "railway",
+      "target_property": "railway_Built",
+      "value": "2000년"
+    },
+    {
+      "entry_type": "value",
+      "key": "4개",
+      "target_class": "railway",
+      "target_property": "railway_Wheels",
+      "value": "4개"
+    },
+    {
+      "entry_type": "value",
+      "key": "4",
+      "target_class": "railway",
+      "target_property": "railway_Wheels",
+      "value": "4개"
+    },
+    {
+      "entry_type": "value",
+      "key": "6개",
+      "target_class": "railway",
+      "target_property": "railway_Wheels",
+      "value": "6개"
+    },
+    {
+      "entry_type": "value",
+      "key": "6",
+      "target_class": "railway",
+      "target_property": "railway_Wheels",
+      "value": "6개"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "railway",
+      "target_property": "railway_Location",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "railway",
+      "target_property": "railway_Location",
+      "value": "부산"
+    },
+    {
+      "entry_type": "value",
+      "key": "12345",
+      "target_class": "railway",
+      "target_property": "railway_ObjectNumber",
+      "value": "12345"
+    },
+    {
+      "entry_type": "value",
+      "key": "101",
+      "target_class": "train",
+      "target_property": "train_Train_Num",
+      "value": "101"
+    },
+    {
+      "entry_type": "value",
+      "key": "202",
+      "target_class": "train",
+      "target_property": "train_Train_Num",
+      "value": "202"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울역",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": "서울역"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산역",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": "부산역"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "train",
+      "target_property": "train_From",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천",
+      "target_class": "train",
+      "target_property": "train_From",
+      "value": "인천"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "train",
+      "target_property": "train_Arrival",
+      "value": "부산"
+    },
+    {
+      "entry_type": "value",
+      "key": "대구",
+      "target_class": "train",
+      "target_property": "train_Arrival",
+      "value": "대구"
+    },
+    {
+      "entry_type": "value",
+      "key": "김철수",
+      "target_class": "manager",
+      "target_property": "manager_Name",
+      "value": "김철수"
+    },
+    {
+      "entry_type": "value",
+      "key": "이영희",
+      "target_class": "manager",
+      "target_property": "manager_Name",
+      "value": "김철수"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국",
+      "target_class": "manager",
+      "target_property": "manager_Country",
+      "value": "한국"
+    },
+    {
+      "entry_type": "value",
+      "key": "대한민국",
+      "target_class": "manager",
+      "target_property": "manager_Country",
+      "value": "한국"
+    },
+    {
+      "entry_type": "value",
+      "key": "2010년",
+      "target_class": "manager",
+      "target_property": "manager_Working_year_starts",
+      "value": "2010년"
+    },
+    {
+      "entry_type": "value",
+      "key": "2010",
+      "target_class": "manager",
+      "target_property": "manager_Working_year_starts",
+      "value": "2010년"
+    },
+    {
+      "entry_type": "value",
+      "key": "1급",
+      "target_class": "manager",
+      "target_property": "manager_Level",
+      "value": "1급"
+    },
+    {
+      "entry_type": "value",
+      "key": "고급",
+      "target_class": "manager",
+      "target_property": "manager_Level",
+      "value": "1급"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_From_Year",
+      "value": "2020"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020년",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_From_Year",
+      "value": "2020"
+    },
+    {
+      "entry_type": "value",
+      "key": "2021",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_From_Year",
+      "value": "2021"
+    },
+    {
+      "entry_type": "value",
+      "key": "2021년",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_From_Year",
+      "value": "2021"
+    },
+    {
+      "entry_type": "value",
+      "key": "2022",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_From_Year",
+      "value": "2022"
+    },
+    {
+      "entry_type": "value",
+      "key": "2022년",
+      "target_class": "railway_manage",
+      "target_property": "railway_manage_From_Year",
+      "value": "2022"
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "db_id": "climbing",
+  "classes": [
+    {
+      "name": "mountain",
+      "source_table": "mountain",
+      "ranking": 3.0,
+      "primary_label": "산",
+      "synonyms": [
+        "산",
+        "정상",
+        "높은 곳",
+        "산봉우리",
+        "산정"
+      ]
+    },
+    {
+      "name": "climber",
+      "source_table": "climber",
+      "ranking": 1.0,
+      "primary_label": "climber",
+      "synonyms": [
+        "등산객",
+        "등산자",
+        "산악인",
+        "산악자",
+        "등산인"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "mountain_Mountain_ID",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "Mountain_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "산 id",
+      "synonyms": [
+        "산 ID",
+        "산 고유 번호",
+        "산 번호",
+        "Mountain ID",
+        "산 식별자",
+        "산 코드",
+        "산 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mountain_Name",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "산 이름",
+        "산명",
+        "산 공식 이름",
+        "산 제목",
+        "산 명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "백두산": [
+          "백두산"
+        ],
+        "정가산": [
+          "정가산"
+        ]
+      }
+    },
+    {
+      "name": "mountain_Height",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "Height",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "높이",
+      "synonyms": [
+        "산 높이",
+        "산 높이 정보",
+        "산 높이 데이터",
+        "산 높이 수치",
+        "산 높이 값",
+        "산 높이 측정",
+        "산 높이 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mountain_Prominence",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "Prominence",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "주목도",
+      "synonyms": [
+        "포민런스",
+        "높이 차이",
+        "주요 높이",
+        "포민",
+        "높이 차이 값",
+        "주요 지점 높이",
+        "높이 차이 수치",
+        "포민런스 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mountain_Range",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "Range",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "산맥",
+      "synonyms": [
+        "산맥",
+        "지형 구역",
+        "산맥 이름",
+        "산 그룹",
+        "산 구역",
+        "산맥명",
+        "산 그룹 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국산맥": [
+          "한국산맥"
+        ],
+        "아시아산맥": [
+          "아시아산맥"
+        ]
+      }
+    },
+    {
+      "name": "mountain_Country",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "나라",
+        "산 위치 국가",
+        "산이 속한 국가",
+        "국가 이름",
+        "산 위치 국가명",
+        "산이 속한 나라",
+        "나라 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "대한민국"
+        ],
+        "중국": [
+          "중국"
+        ]
+      }
+    },
+    {
+      "name": "climber_Climber_ID",
+      "domain": "climber",
+      "source_table": "climber",
+      "source_column": "Climber_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "climber id",
+      "synonyms": [
+        "Climber_ID",
+        "등반자 ID",
+        "등반자 고유번호",
+        "등반자 식별자",
+        "등반자 번호",
+        "등반자 식별코드",
+        "등반자 고유ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "climber_Name",
+      "domain": "climber",
+      "source_table": "climber",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "Name",
+        "등반자 이름",
+        "등반자명",
+        "등반자 별명",
+        "등반자 고유명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "climber_Country",
+      "domain": "climber",
+      "source_table": "climber",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "country",
+      "synonyms": [
+        "Country",
+        "등반자 국가",
+        "등반자 출신국",
+        "등반자 국가명",
+        "등반자 소속국"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "climber_Time",
+      "domain": "climber",
+      "source_table": "climber",
+      "source_column": "Time",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "time",
+      "synonyms": [
+        "시간",
+        "시간 정보",
+        "업적 시간",
+        "업적 기록",
+        "시간 기록",
+        "업적 시간 정보",
+        "시간 데이터",
+        "시간 기록 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "climber_Points",
+      "domain": "climber",
+      "source_table": "climber",
+      "source_column": "Points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "points",
+      "synonyms": [
+        "점수",
+        "점수 정보",
+        "업적 점수",
+        "점수 기록",
+        "업적 점수 정보",
+        "점수 데이터",
+        "점수 기록 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "climber_Mountain_ID",
+      "domain": "climber",
+      "source_table": "climber",
+      "source_column": "Mountain_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "mountain id",
+      "synonyms": [
+        "산 id",
+        "산 번호",
+        "산 식별자",
+        "산 코드",
+        "산 식별번호",
+        "산 번호 정보",
+        "산 코드 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "climber_mountain_fk0",
+      "domain": "climber",
+      "range": "mountain",
+      "source_fk": [
+        "climber.Mountain_ID",
+        "mountain.Mountain_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "등반한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "class_table": {
+    "architect": "architect",
+    "bridge": "bridge",
+    "mill": "mill"
+  },
+  "property_column": {
+    "architect_id": [
+      "architect",
+      "id"
+    ],
+    "architect_name": [
+      "architect",
+      "name"
+    ],
+    "architect_nationality": [
+      "architect",
+      "nationality"
+    ],
+    "architect_gender": [
+      "architect",
+      "gender"
+    ],
+    "bridge_architect_id": [
+      "bridge",
+      "architect_id"
+    ],
+    "bridge_id": [
+      "bridge",
+      "id"
+    ],
+    "bridge_name": [
+      "bridge",
+      "name"
+    ],
+    "bridge_location": [
+      "bridge",
+      "location"
+    ],
+    "bridge_length_meters": [
+      "bridge",
+      "length_meters"
+    ],
+    "bridge_length_feet": [
+      "bridge",
+      "length_feet"
+    ],
+    "mill_architect_id": [
+      "mill",
+      "architect_id"
+    ],
+    "mill_id": [
+      "mill",
+      "id"
+    ],
+    "mill_location": [
+      "mill",
+      "location"
+    ],
+    "mill_name": [
+      "mill",
+      "name"
+    ],
+    "mill_type": [
+      "mill",
+      "type"
+    ],
+    "mill_built_year": [
+      "mill",
+      "built_year"
+    ],
+    "mill_notes": [
+      "mill",
+      "notes"
+    ]
+  },
+  "object_property_fk": {
+    "bridge_architect_fk0": [
+      "bridge.architect_id",
+      "architect.id"
+    ],
+    "mill_architect_fk1": [
+      "mill.architect_id",
+      "architect.id"
+    ]
+  }
+}

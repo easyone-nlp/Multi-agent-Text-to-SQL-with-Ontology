@@ -1,0 +1,116 @@
+{
+  "class_table": {
+    "genre": "genre",
+    "artist": "artist",
+    "files": "files",
+    "song": "song"
+  },
+  "property_column": {
+    "genre_g_name": [
+      "genre",
+      "g_name"
+    ],
+    "genre_rating": [
+      "genre",
+      "rating"
+    ],
+    "genre_most_popular_in": [
+      "genre",
+      "most_popular_in"
+    ],
+    "artist_artist_name": [
+      "artist",
+      "artist_name"
+    ],
+    "artist_country": [
+      "artist",
+      "country"
+    ],
+    "artist_gender": [
+      "artist",
+      "gender"
+    ],
+    "artist_preferred_genre": [
+      "artist",
+      "preferred_genre"
+    ],
+    "files_f_id": [
+      "files",
+      "f_id"
+    ],
+    "files_artist_name": [
+      "files",
+      "artist_name"
+    ],
+    "files_file_size": [
+      "files",
+      "file_size"
+    ],
+    "files_duration": [
+      "files",
+      "duration"
+    ],
+    "files_formats": [
+      "files",
+      "formats"
+    ],
+    "song_song_name": [
+      "song",
+      "song_name"
+    ],
+    "song_artist_name": [
+      "song",
+      "artist_name"
+    ],
+    "song_country": [
+      "song",
+      "country"
+    ],
+    "song_f_id": [
+      "song",
+      "f_id"
+    ],
+    "song_genre_is": [
+      "song",
+      "genre_is"
+    ],
+    "song_rating": [
+      "song",
+      "rating"
+    ],
+    "song_languages": [
+      "song",
+      "languages"
+    ],
+    "song_releasedate": [
+      "song",
+      "releasedate"
+    ],
+    "song_resolution": [
+      "song",
+      "resolution"
+    ]
+  },
+  "object_property_fk": {
+    "artist_genre_fk0": [
+      "artist.preferred_genre",
+      "genre.g_name"
+    ],
+    "files_artist_fk1": [
+      "files.artist_name",
+      "artist.artist_name"
+    ],
+    "song_genre_fk2": [
+      "song.genre_is",
+      "genre.g_name"
+    ],
+    "song_files_fk3": [
+      "song.f_id",
+      "files.f_id"
+    ],
+    "song_artist_fk4": [
+      "song.artist_name",
+      "artist.artist_name"
+    ]
+  }
+}

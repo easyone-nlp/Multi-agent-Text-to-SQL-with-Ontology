@@ -1,0 +1,200 @@
+{
+  "class_table": {
+    "station": "station",
+    "status": "status",
+    "trip": "trip",
+    "weather": "weather"
+  },
+  "property_column": {
+    "station_id": [
+      "station",
+      "id"
+    ],
+    "station_name": [
+      "station",
+      "name"
+    ],
+    "station_lat": [
+      "station",
+      "lat"
+    ],
+    "station_long": [
+      "station",
+      "long"
+    ],
+    "station_dock_count": [
+      "station",
+      "dock_count"
+    ],
+    "station_city": [
+      "station",
+      "city"
+    ],
+    "station_installation_date": [
+      "station",
+      "installation_date"
+    ],
+    "status_station_id": [
+      "status",
+      "station_id"
+    ],
+    "status_bikes_available": [
+      "status",
+      "bikes_available"
+    ],
+    "status_docks_available": [
+      "status",
+      "docks_available"
+    ],
+    "status_time": [
+      "status",
+      "time"
+    ],
+    "trip_id": [
+      "trip",
+      "id"
+    ],
+    "trip_duration": [
+      "trip",
+      "duration"
+    ],
+    "trip_start_date": [
+      "trip",
+      "start_date"
+    ],
+    "trip_start_station_name": [
+      "trip",
+      "start_station_name"
+    ],
+    "trip_start_station_id": [
+      "trip",
+      "start_station_id"
+    ],
+    "trip_end_date": [
+      "trip",
+      "end_date"
+    ],
+    "trip_end_station_name": [
+      "trip",
+      "end_station_name"
+    ],
+    "trip_end_station_id": [
+      "trip",
+      "end_station_id"
+    ],
+    "trip_bike_id": [
+      "trip",
+      "bike_id"
+    ],
+    "trip_subscription_type": [
+      "trip",
+      "subscription_type"
+    ],
+    "trip_zip_code": [
+      "trip",
+      "zip_code"
+    ],
+    "weather_date": [
+      "weather",
+      "date"
+    ],
+    "weather_max_temperature_f": [
+      "weather",
+      "max_temperature_f"
+    ],
+    "weather_mean_temperature_f": [
+      "weather",
+      "mean_temperature_f"
+    ],
+    "weather_min_temperature_f": [
+      "weather",
+      "min_temperature_f"
+    ],
+    "weather_max_dew_point_f": [
+      "weather",
+      "max_dew_point_f"
+    ],
+    "weather_mean_dew_point_f": [
+      "weather",
+      "mean_dew_point_f"
+    ],
+    "weather_min_dew_point_f": [
+      "weather",
+      "min_dew_point_f"
+    ],
+    "weather_max_humidity": [
+      "weather",
+      "max_humidity"
+    ],
+    "weather_mean_humidity": [
+      "weather",
+      "mean_humidity"
+    ],
+    "weather_min_humidity": [
+      "weather",
+      "min_humidity"
+    ],
+    "weather_max_sea_level_pressure_inches": [
+      "weather",
+      "max_sea_level_pressure_inches"
+    ],
+    "weather_mean_sea_level_pressure_inches": [
+      "weather",
+      "mean_sea_level_pressure_inches"
+    ],
+    "weather_min_sea_level_pressure_inches": [
+      "weather",
+      "min_sea_level_pressure_inches"
+    ],
+    "weather_max_visibility_miles": [
+      "weather",
+      "max_visibility_miles"
+    ],
+    "weather_mean_visibility_miles": [
+      "weather",
+      "mean_visibility_miles"
+    ],
+    "weather_min_visibility_miles": [
+      "weather",
+      "min_visibility_miles"
+    ],
+    "weather_max_wind_Speed_mph": [
+      "weather",
+      "max_wind_Speed_mph"
+    ],
+    "weather_mean_wind_speed_mph": [
+      "weather",
+      "mean_wind_speed_mph"
+    ],
+    "weather_max_gust_speed_mph": [
+      "weather",
+      "max_gust_speed_mph"
+    ],
+    "weather_precipitation_inches": [
+      "weather",
+      "precipitation_inches"
+    ],
+    "weather_cloud_cover": [
+      "weather",
+      "cloud_cover"
+    ],
+    "weather_events": [
+      "weather",
+      "events"
+    ],
+    "weather_wind_dir_degrees": [
+      "weather",
+      "wind_dir_degrees"
+    ],
+    "weather_zip_code": [
+      "weather",
+      "zip_code"
+    ]
+  },
+  "object_property_fk": {
+    "status_station_fk0": [
+      "status.station_id",
+      "station.id"
+    ]
+  }
+}

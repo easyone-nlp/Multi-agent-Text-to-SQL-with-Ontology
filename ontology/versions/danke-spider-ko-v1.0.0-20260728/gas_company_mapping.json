@@ -1,0 +1,91 @@
+{
+  "class_table": {
+    "company": "company",
+    "gas_station": "gas_station",
+    "station_company": "station_company"
+  },
+  "property_column": {
+    "company_Company_ID": [
+      "company",
+      "Company_ID"
+    ],
+    "company_Rank": [
+      "company",
+      "Rank"
+    ],
+    "company_Company": [
+      "company",
+      "Company"
+    ],
+    "company_Headquarters": [
+      "company",
+      "Headquarters"
+    ],
+    "company_Main_Industry": [
+      "company",
+      "Main_Industry"
+    ],
+    "company_Sales_billion": [
+      "company",
+      "Sales_billion"
+    ],
+    "company_Profits_billion": [
+      "company",
+      "Profits_billion"
+    ],
+    "company_Assets_billion": [
+      "company",
+      "Assets_billion"
+    ],
+    "company_Market_Value": [
+      "company",
+      "Market_Value"
+    ],
+    "gas_station_Station_ID": [
+      "gas_station",
+      "Station_ID"
+    ],
+    "gas_station_Open_Year": [
+      "gas_station",
+      "Open_Year"
+    ],
+    "gas_station_Location": [
+      "gas_station",
+      "Location"
+    ],
+    "gas_station_Manager_Name": [
+      "gas_station",
+      "Manager_Name"
+    ],
+    "gas_station_Vice_Manager_Name": [
+      "gas_station",
+      "Vice_Manager_Name"
+    ],
+    "gas_station_Representative_Name": [
+      "gas_station",
+      "Representative_Name"
+    ],
+    "station_company_Station_ID": [
+      "station_company",
+      "Station_ID"
+    ],
+    "station_company_Company_ID": [
+      "station_company",
+      "Company_ID"
+    ],
+    "station_company_Rank_of_the_Year": [
+      "station_company",
+      "Rank_of_the_Year"
+    ]
+  },
+  "object_property_fk": {
+    "station_company_company_fk0": [
+      "station_company.Company_ID",
+      "company.Company_ID"
+    ],
+    "station_company_gas_station_fk1": [
+      "station_company.Station_ID",
+      "gas_station.Station_ID"
+    ]
+  }
+}

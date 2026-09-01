@@ -1,0 +1,597 @@
+{
+  "db_id": "phone_1",
+  "classes": [
+    {
+      "name": "chip_model",
+      "source_table": "chip_model",
+      "ranking": 3.5,
+      "primary_label": "chip model",
+      "synonyms": [
+        "칩 모델",
+        "프로세서 모델",
+        "칩 유형",
+        "칩 사양",
+        "칩 정보"
+      ]
+    },
+    {
+      "name": "screen_mode",
+      "source_table": "screen_mode",
+      "ranking": 3.5,
+      "primary_label": "screen mode",
+      "synonyms": [
+        "화면 모드",
+        "디스플레이 설정",
+        "화면 방식",
+        "화면 옵션",
+        "화면 상태"
+      ]
+    },
+    {
+      "name": "phone",
+      "source_table": "phone",
+      "ranking": 3.5,
+      "primary_label": "전화기",
+      "synonyms": [
+        "휴대폰",
+        "전화기",
+        "모바일 기기",
+        "휴대용 전화",
+        "휴대폰 모델"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "chip_model_Model_name",
+      "domain": "chip_model",
+      "source_table": "chip_model",
+      "source_column": "Model_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "모델 이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "A1": [
+          "A1"
+        ],
+        "A2": [
+          "A2"
+        ]
+      }
+    },
+    {
+      "name": "chip_model_Launch_year",
+      "domain": "chip_model",
+      "source_table": "chip_model",
+      "source_column": "Launch_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.2,
+      "primary_label": "출시 연도",
+      "synonyms": [
+        "출시 연도",
+        "발매 연도",
+        "개시 연도",
+        "출시년도",
+        "발매년도",
+        "개시년도",
+        "년도",
+        "Launch_year"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "chip_model_RAM_MiB",
+      "domain": "chip_model",
+      "source_table": "chip_model",
+      "source_column": "RAM_MiB",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "RAM MiB",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "chip_model_ROM_MiB",
+      "domain": "chip_model",
+      "source_table": "chip_model",
+      "source_column": "ROM_MiB",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "ROM MiB",
+      "synonyms": [
+        "ROM_MiB",
+        "ROM",
+        "ROM size",
+        "read-only memory",
+        "memory size",
+        "storage capacity"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "chip_model_Slots",
+      "domain": "chip_model",
+      "source_table": "chip_model",
+      "source_column": "Slots",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "슬롯",
+      "synonyms": [
+        "Slots",
+        "slot types",
+        "slot",
+        "slot information",
+        "slot details",
+        "slot type",
+        "slot configuration"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "microSD": [
+          "microSD",
+          "micro-SD"
+        ],
+        "USB": [
+          "USB"
+        ]
+      }
+    },
+    {
+      "name": "chip_model_WiFi",
+      "domain": "chip_model",
+      "source_table": "chip_model",
+      "source_column": "WiFi",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "Wi-Fi",
+      "synonyms": [
+        "WiFi",
+        "wifi capabilities",
+        "wifi support",
+        "wifi features",
+        "wifi function",
+        "wifi specifications"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "802.11ac": [
+          "802.11ac"
+        ],
+        "802.11n": [
+          "802.11n"
+        ]
+      }
+    },
+    {
+      "name": "chip_model_Bluetooth",
+      "domain": "chip_model",
+      "source_table": "chip_model",
+      "source_column": "Bluetooth",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "블루투스",
+      "synonyms": [
+        "블루투스",
+        "블루투스 기능",
+        "BT",
+        "블루투스 지원",
+        "블루투스 사양"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "5.0": [
+          "5.0"
+        ],
+        "4.2": [
+          "4.2"
+        ]
+      }
+    },
+    {
+      "name": "screen_mode_Graphics_mode",
+      "domain": "screen_mode",
+      "source_table": "screen_mode",
+      "source_column": "Graphics_mode",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 4.0,
+      "primary_label": "graphics mode",
+      "synonyms": [
+        "Graphics_mode",
+        "그래픽 모드",
+        "화면 그래픽 모드",
+        "그래픽 모드 코드",
+        "화면 그래픽 코드",
+        "그래픽 설정"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "80": [
+          "80"
+        ],
+        "160": [
+          "160"
+        ]
+      }
+    },
+    {
+      "name": "screen_mode_Char_cells",
+      "domain": "screen_mode",
+      "source_table": "screen_mode",
+      "source_column": "Char_cells",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "char cells",
+      "synonyms": [
+        "Char_cells",
+        "문자 셀",
+        "화면 문자 셀",
+        "문자 셀 정보",
+        "화면 문자 정보",
+        "문자 세포"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "screen_mode_Pixels",
+      "domain": "screen_mode",
+      "source_table": "screen_mode",
+      "source_column": "Pixels",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "pixels",
+      "synonyms": [
+        "Pixels",
+        "픽셀",
+        "화면 픽셀",
+        "픽셀 정보",
+        "화면 픽셀 데이터",
+        "화면 해상도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "screen_mode_Hardware_colours",
+      "domain": "screen_mode",
+      "source_table": "screen_mode",
+      "source_column": "Hardware_colours",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "hardware colours",
+      "synonyms": [
+        "하드웨어 색상 수",
+        "하드웨어 색상",
+        "색상 수",
+        "하드웨어 색상 정보",
+        "색상 지원 수",
+        "Hardware_colours",
+        "색상 지원"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "screen_mode_used_kb",
+      "domain": "screen_mode",
+      "source_table": "screen_mode",
+      "source_column": "used_kb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "used kb",
+      "synonyms": [
+        "사용 메모리",
+        "사용 메모리 크기",
+        "메모리 사용량",
+        "사용 KB",
+        "used_kb",
+        "메모리 크기",
+        "사용 KB 크기"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "screen_mode_map",
+      "domain": "screen_mode",
+      "source_table": "screen_mode",
+      "source_column": "map",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "map",
+      "synonyms": [
+        "맵",
+        "맵 정보",
+        "맵 데이터",
+        "map",
+        "맵 내용",
+        "맵 저장",
+        "맵 정보 저장"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "screen_mode_Type",
+      "domain": "screen_mode",
+      "source_table": "screen_mode",
+      "source_column": "Type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "type",
+      "synonyms": [
+        "타입",
+        "모드 종류",
+        "스크린 타입",
+        "형태",
+        "종류",
+        "Type",
+        "모드 타입",
+        "스크린 모드 타입"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "text": [
+          "text"
+        ],
+        "graphics": [
+          "graphics"
+        ]
+      }
+    },
+    {
+      "name": "phone_Company_name",
+      "domain": "phone",
+      "source_table": "phone",
+      "source_column": "Company_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.2,
+      "primary_label": "회사 이름",
+      "synonyms": [
+        "회사명",
+        "제조사",
+        "사람",
+        "기업명",
+        "회사 이름",
+        "Company_name",
+        "회사"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "삼성": [
+          "삼성"
+        ],
+        "애플": [
+          "애플"
+        ]
+      }
+    },
+    {
+      "name": "phone_Hardware_Model_name",
+      "domain": "phone",
+      "source_table": "phone",
+      "source_column": "Hardware_Model_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "하드웨어 모델 이름",
+      "synonyms": [
+        "하드웨어 모델 이름",
+        "모델명",
+        "하드웨어 모델",
+        "Hardware_Model_name",
+        "모델",
+        "모델 이름",
+        "제품 모델"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "S20": [
+          "S20"
+        ],
+        "S21": [
+          "S21"
+        ]
+      }
+    },
+    {
+      "name": "phone_Accreditation_type",
+      "domain": "phone",
+      "source_table": "phone",
+      "source_column": "Accreditation_type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "인증 유형",
+      "synonyms": [
+        "인증 유형",
+        "인증 종류",
+        "인증 타입",
+        "Accreditation_type",
+        "인증"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "국가 인증": [
+          "국가 인증"
+        ],
+        "산업 인증": [
+          "산업 인증"
+        ]
+      }
+    },
+    {
+      "name": "phone_Accreditation_level",
+      "domain": "phone",
+      "source_table": "phone",
+      "source_column": "Accreditation_level",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "인증 등급",
+      "synonyms": [
+        "인증 등급",
+        "인증레벨",
+        "등급",
+        "인증 수준",
+        "Accreditation_level",
+        "인증 등급 정보",
+        "등급 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "고급": [
+          "고급"
+        ],
+        "중급": [
+          "중급"
+        ]
+      }
+    },
+    {
+      "name": "phone_Date",
+      "domain": "phone",
+      "source_table": "phone",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "일자",
+      "synonyms": [
+        "일자",
+        "날짜",
+        "등록일",
+        "인증일",
+        "Date",
+        "날짜 정보",
+        "등록 일자",
+        "인증 일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-05-10": [
+          "2023-05-10"
+        ]
+      }
+    },
+    {
+      "name": "phone_chip_model",
+      "domain": "phone",
+      "source_table": "phone",
+      "source_column": "chip_model",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.3,
+      "primary_label": "칩 모델",
+      "synonyms": [
+        "칩 모델",
+        "프로세서 모델",
+        "칩 모델명",
+        "chip_model",
+        "모델명",
+        "칩 모델 정보",
+        "프로세서 모델 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "phone_screen_mode",
+      "domain": "phone",
+      "source_table": "phone",
+      "source_column": "screen_mode",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.1,
+      "primary_label": "스크린 모드",
+      "synonyms": [
+        "화면 모드",
+        "화면 설정",
+        "스크린 모드",
+        "화면 기능",
+        "화면 운영 모드",
+        "스크린 운영 모드",
+        "화면 작업 모드",
+        "화면 구성"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "FHD": [
+          "FHD"
+        ],
+        "QHD": [
+          "QHD"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "phone_chip_model_fk0",
+      "domain": "phone",
+      "range": "chip_model",
+      "source_fk": [
+        "phone.chip_model",
+        "chip_model.Model_name"
+      ],
+      "weight": 1.0,
+      "primary_label": "칩 모델 사용",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "phone_screen_mode_fk1",
+      "domain": "phone",
+      "range": "screen_mode",
+      "source_fk": [
+        "phone.screen_mode",
+        "screen_mode.Graphics_mode"
+      ],
+      "weight": 1.0,
+      "primary_label": "스크린 모드 사용",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

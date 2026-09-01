@@ -1,0 +1,802 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "가수",
+      "target_class": "artist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예술가",
+      "target_class": "artist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "작가",
+      "target_class": "artist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "미술가",
+      "target_class": "artist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "작품 제작자",
+      "target_class": "artist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예술인",
+      "target_class": "artist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전시",
+      "target_class": "exhibition",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전시회",
+      "target_class": "exhibition",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전시 행사",
+      "target_class": "exhibition",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전시 기획",
+      "target_class": "exhibition",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전시 프로그램",
+      "target_class": "exhibition",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전시 운영",
+      "target_class": "exhibition",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "exhibition record",
+      "target_class": "exhibition_record",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전시 기록",
+      "target_class": "exhibition_record",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전시 기록서",
+      "target_class": "exhibition_record",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전시 기록 데이터",
+      "target_class": "exhibition_record",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전시 기록 정보",
+      "target_class": "exhibition_record",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전시 기록 사항",
+      "target_class": "exhibition_record",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전시 기록 내역",
+      "target_class": "exhibition_record",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "artist id",
+      "target_class": "artist",
+      "target_property": "artist_Artist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아티스트 ID",
+      "target_class": "artist",
+      "target_property": "artist_Artist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아티스트 고유 ID",
+      "target_class": "artist",
+      "target_property": "artist_Artist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예술가 ID",
+      "target_class": "artist",
+      "target_property": "artist_Artist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아티스트 번호",
+      "target_class": "artist",
+      "target_property": "artist_Artist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Artist_ID",
+      "target_class": "artist",
+      "target_property": "artist_Artist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아티스트 식별자",
+      "target_class": "artist",
+      "target_property": "artist_Artist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예술가 식별 번호",
+      "target_class": "artist",
+      "target_property": "artist_Artist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아티스트 고유 식별자",
+      "target_class": "artist",
+      "target_property": "artist_Artist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "artist",
+      "target_property": "artist_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "country",
+      "target_class": "artist",
+      "target_property": "artist_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "artist",
+      "target_property": "artist_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나라",
+      "target_class": "artist",
+      "target_property": "artist_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적",
+      "target_class": "artist",
+      "target_property": "artist_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 정보",
+      "target_class": "artist",
+      "target_property": "artist_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "artist",
+      "target_property": "artist_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드",
+      "target_class": "artist",
+      "target_property": "artist_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가별",
+      "target_class": "artist",
+      "target_property": "artist_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "year join",
+      "target_class": "artist",
+      "target_property": "artist_Year_Join",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "artist",
+      "target_property": "artist_Year_Join",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입장 연도",
+      "target_class": "artist",
+      "target_property": "artist_Year_Join",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활동 시작년도",
+      "target_class": "artist",
+      "target_property": "artist_Year_Join",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도 정보",
+      "target_class": "artist",
+      "target_property": "artist_Year_Join",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입력 연도",
+      "target_class": "artist",
+      "target_property": "artist_Year_Join",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가수 활동 연도",
+      "target_class": "artist",
+      "target_property": "artist_Year_Join",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 정보",
+      "target_class": "artist",
+      "target_property": "artist_Year_Join",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 데이터",
+      "target_class": "artist",
+      "target_property": "artist_Year_Join",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "age",
+      "target_class": "artist",
+      "target_property": "artist_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "artist",
+      "target_property": "artist_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "artist",
+      "target_property": "artist_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 정보",
+      "target_class": "artist",
+      "target_property": "artist_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 데이터",
+      "target_class": "artist",
+      "target_property": "artist_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 수치",
+      "target_class": "artist",
+      "target_property": "artist_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 정보",
+      "target_class": "artist",
+      "target_property": "artist_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 값",
+      "target_class": "artist",
+      "target_property": "artist_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 수치",
+      "target_class": "artist",
+      "target_property": "artist_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 id",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Exhibition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 ID",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Exhibition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 식별 번호",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Exhibition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 번호",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Exhibition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 고유 ID",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Exhibition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 식별자",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Exhibition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Exhibition_ID",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Exhibition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 연도",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 년도",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Year",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주제",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 주제",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "테마",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 테마",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주제명",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Theme",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예술가 id",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Artist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Artist_ID",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Artist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예술가 ID",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Artist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가 ID",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Artist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예술가 식별자",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Artist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Artist",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Artist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "티켓 가격",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Ticket_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Ticket_Price",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Ticket_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입장료",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Ticket_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "티켓 요금",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Ticket_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Ticket_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "티켓 비용",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Ticket_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요금",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Ticket_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "exhibition id",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Exhibition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 ID",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Exhibition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 번호",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Exhibition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 식별자",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Exhibition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 고유 번호",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Exhibition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 식별번호",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Exhibition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 일자",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전시 날짜",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일정",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 정보",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "attendance",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참석 인원",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인원 수",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참석자 수",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인원",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참석 인원 수",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참석자",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "2020",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Year",
+      "value": "2020"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020년",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Year",
+      "value": "2020"
+    },
+    {
+      "entry_type": "value",
+      "key": "현대미술",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Theme",
+      "value": "현대미술"
+    },
+    {
+      "entry_type": "value",
+      "key": "전통예술",
+      "target_class": "exhibition",
+      "target_property": "exhibition_Theme",
+      "value": "전통예술"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-10-01",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Date",
+      "value": "2023-10-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 10월 1일",
+      "target_class": "exhibition_record",
+      "target_property": "exhibition_record_Date",
+      "value": "2023-10-01"
+    }
+  ]
+}

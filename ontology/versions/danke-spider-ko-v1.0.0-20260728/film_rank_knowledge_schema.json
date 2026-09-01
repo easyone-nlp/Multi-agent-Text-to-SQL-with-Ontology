@@ -1,0 +1,391 @@
+{
+  "db_id": "film_rank",
+  "classes": [
+    {
+      "name": "film",
+      "source_table": "film",
+      "ranking": 3.5,
+      "primary_label": "영화",
+      "synonyms": [
+        "영화",
+        "영화제목",
+        "영화정보",
+        "영화목록",
+        "영화데이터"
+      ]
+    },
+    {
+      "name": "market",
+      "source_table": "market",
+      "ranking": 3.0,
+      "primary_label": "시장",
+      "synonyms": [
+        "시장",
+        "시장데이터",
+        "시장정보",
+        "시장분석",
+        "시장조사"
+      ]
+    },
+    {
+      "name": "film_market_estimation",
+      "source_table": "film_market_estimation",
+      "ranking": 3.5,
+      "primary_label": "영화 시장 예측",
+      "synonyms": [
+        "영화시장추정",
+        "영화시장예측",
+        "영화시장분석",
+        "영화시장추정데이터",
+        "영화시장평가"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "film_Film_ID",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "Film_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "영화 ID",
+      "synonyms": [
+        "영화 ID",
+        "영화 고유 번호",
+        "영화 식별자",
+        "Film_ID",
+        "영화 번호",
+        "영화 코드",
+        "영화 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_Title",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "Title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "제목",
+      "synonyms": [
+        "영화 제목",
+        "제목",
+        "영화 이름",
+        "Title",
+        "영화 타이틀",
+        "영화 명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아이언맨": [
+          "아이언맨"
+        ],
+        "타이타닉": [
+          "타이타닉"
+        ]
+      }
+    },
+    {
+      "name": "film_Studio",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "Studio",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "스튜디오",
+      "synonyms": [
+        "스튜디오",
+        "제작사",
+        "스튜디오 이름",
+        "영화 제작 스튜디오",
+        "Studio",
+        "제작 회사"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "위메프": [
+          "위메프"
+        ],
+        "삼성영화": [
+          "삼성영화"
+        ]
+      }
+    },
+    {
+      "name": "film_Director",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "Director",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.2,
+      "primary_label": "감독",
+      "synonyms": [
+        "감독",
+        "감독명",
+        "감독자",
+        "감독 이름",
+        "감독자 이름",
+        "director",
+        "감독 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "조지 루카스": [
+          "조지 루카스"
+        ],
+        "스티븐 스필버그": [
+          "스티븐 스필버그"
+        ]
+      }
+    },
+    {
+      "name": "film_Gross_in_dollar",
+      "domain": "film",
+      "source_table": "film",
+      "source_column": "Gross_in_dollar",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "골드 달러",
+      "synonyms": [
+        "총 수익",
+        "수익",
+        "수익액",
+        "영화 수익",
+        "총 수익액",
+        "gross",
+        "수익 달러",
+        "수익 금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "market_Market_ID",
+      "domain": "market",
+      "source_table": "market",
+      "source_column": "Market_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시장 ID",
+      "synonyms": [
+        "시장 ID",
+        "시장 고유 번호",
+        "시장 식별자",
+        "시장 번호",
+        "Market_ID",
+        "시장 식별번호",
+        "시장 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "market_Country",
+      "domain": "market",
+      "source_table": "market",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "국가명",
+        "국가 이름",
+        "Country",
+        "국가 코드",
+        "국가 정보",
+        "국가명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "대한민국"
+        ],
+        "미국": [
+          "미국"
+        ]
+      }
+    },
+    {
+      "name": "market_Number_cities",
+      "domain": "market",
+      "source_table": "market",
+      "source_column": "Number_cities",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "도시 수",
+      "synonyms": [
+        "도시 수",
+        "도시 개수",
+        "도시 수량",
+        "Number_cities",
+        "도시 수 정보",
+        "도시 개수 데이터",
+        "도시 수 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_market_estimation_Estimation_ID",
+      "domain": "film_market_estimation",
+      "source_table": "film_market_estimation",
+      "source_column": "Estimation_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "예측 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_market_estimation_Low_Estimate",
+      "domain": "film_market_estimation",
+      "source_table": "film_market_estimation",
+      "source_column": "Low_Estimate",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "하한 예측",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_market_estimation_High_Estimate",
+      "domain": "film_market_estimation",
+      "source_table": "film_market_estimation",
+      "source_column": "High_Estimate",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "상한 예측",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_market_estimation_Film_ID",
+      "domain": "film_market_estimation",
+      "source_table": "film_market_estimation",
+      "source_column": "Film_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "영화 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_market_estimation_Type",
+      "domain": "film_market_estimation",
+      "source_table": "film_market_estimation",
+      "source_column": "Type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "유형",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "국내": [
+          "국내 시장",
+          "국내"
+        ],
+        "해외": [
+          "해외 시장",
+          "해외"
+        ]
+      }
+    },
+    {
+      "name": "film_market_estimation_Market_ID",
+      "domain": "film_market_estimation",
+      "source_table": "film_market_estimation",
+      "source_column": "Market_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시장 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "film_market_estimation_Year",
+      "domain": "film_market_estimation",
+      "source_table": "film_market_estimation",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "년도",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "2023": [
+          "2023년"
+        ],
+        "2024": [
+          "2024년"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "film_market_estimation_market_fk0",
+      "domain": "film_market_estimation",
+      "range": "market",
+      "source_fk": [
+        "film_market_estimation.Market_ID",
+        "market.Market_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "시장 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "film_market_estimation_film_fk1",
+      "domain": "film_market_estimation",
+      "range": "film",
+      "source_fk": [
+        "film_market_estimation.Film_ID",
+        "film.Film_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "영화 연결",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

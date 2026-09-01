@@ -1,0 +1,71 @@
+{
+  "class_table": {
+    "party": "party",
+    "host": "host",
+    "party_host": "party_host"
+  },
+  "property_column": {
+    "party_Party_ID": [
+      "party",
+      "Party_ID"
+    ],
+    "party_Party_Theme": [
+      "party",
+      "Party_Theme"
+    ],
+    "party_Location": [
+      "party",
+      "Location"
+    ],
+    "party_First_year": [
+      "party",
+      "First_year"
+    ],
+    "party_Last_year": [
+      "party",
+      "Last_year"
+    ],
+    "party_Number_of_hosts": [
+      "party",
+      "Number_of_hosts"
+    ],
+    "host_Host_ID": [
+      "host",
+      "Host_ID"
+    ],
+    "host_Name": [
+      "host",
+      "Name"
+    ],
+    "host_Nationality": [
+      "host",
+      "Nationality"
+    ],
+    "host_Age": [
+      "host",
+      "Age"
+    ],
+    "party_host_Party_ID": [
+      "party_host",
+      "Party_ID"
+    ],
+    "party_host_Host_ID": [
+      "party_host",
+      "Host_ID"
+    ],
+    "party_host_Is_Main_in_Charge": [
+      "party_host",
+      "Is_Main_in_Charge"
+    ]
+  },
+  "object_property_fk": {
+    "party_host_party_fk0": [
+      "party_host.Party_ID",
+      "party.Party_ID"
+    ],
+    "party_host_host_fk1": [
+      "party_host.Host_ID",
+      "host.Host_ID"
+    ]
+  }
+}

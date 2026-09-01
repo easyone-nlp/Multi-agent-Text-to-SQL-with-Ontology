@@ -1,0 +1,391 @@
+{
+  "db_id": "news_report",
+  "classes": [
+    {
+      "name": "event",
+      "source_table": "event",
+      "ranking": 3.5,
+      "primary_label": "이벤트",
+      "synonyms": [
+        "이벤트",
+        "사건",
+        "행사",
+        "이슈",
+        "사고"
+      ]
+    },
+    {
+      "name": "journalist",
+      "source_table": "journalist",
+      "ranking": 3.0,
+      "primary_label": "기자",
+      "synonyms": [
+        "기자",
+        "보도자",
+        "뉴스 기자",
+        "뉴스인",
+        "보도인"
+      ]
+    },
+    {
+      "name": "news_report",
+      "source_table": "news_report",
+      "ranking": 3.5,
+      "primary_label": "뉴스 보고서",
+      "synonyms": [
+        "보고서",
+        "뉴스 보고서",
+        "뉴스 기사",
+        "뉴스 문서",
+        "뉴스 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "event_Event_ID",
+      "domain": "event",
+      "source_table": "event",
+      "source_column": "Event_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이벤트 ID",
+      "synonyms": [
+        "이벤트 ID",
+        "이벤트 고유번호",
+        "Event_ID",
+        "이벤트 번호",
+        "이벤트 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "event_Date",
+      "domain": "event",
+      "source_table": "event",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "일자",
+      "synonyms": [
+        "날짜",
+        "일자",
+        "일정",
+        "이벤트 날짜",
+        "Date",
+        "일자 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-05": [
+          "2023년 10월 5일"
+        ]
+      }
+    },
+    {
+      "name": "event_Venue",
+      "domain": "event",
+      "source_table": "event",
+      "source_column": "Venue",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "장소",
+      "synonyms": [
+        "장소",
+        "장소명",
+        "Venue",
+        "이벤트 장소",
+        "위치"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 강남구": [
+          "강남구",
+          "서울 강남"
+        ]
+      }
+    },
+    {
+      "name": "event_Name",
+      "domain": "event",
+      "source_table": "event",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "이벤트 이름",
+        "이벤트 제목",
+        "이벤트명",
+        "이벤트 타이틀"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "국가대회": [
+          "국가대회",
+          "국가 행사"
+        ]
+      }
+    },
+    {
+      "name": "event_Event_Attendance",
+      "domain": "event",
+      "source_table": "event",
+      "source_column": "Event_Attendance",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "이벤트 참가자 수",
+      "synonyms": [
+        "참석 인원",
+        "이벤트 참석자 수",
+        "이벤트 인원",
+        "참석자 수",
+        "이벤트 인원 수",
+        "이벤트 참석 인원",
+        "인원 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "journalist_journalist_ID",
+      "domain": "journalist",
+      "source_table": "journalist",
+      "source_column": "journalist_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "기자 ID",
+      "synonyms": [
+        "기자 ID",
+        "기자 번호",
+        "기자 식별자",
+        "journalist_ID",
+        "기자 고유 번호",
+        "ID",
+        "번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "journalist_Name",
+      "domain": "journalist",
+      "source_table": "journalist",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "기자 이름",
+        "명",
+        "기자명",
+        "name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "박지현": [
+          "박지현"
+        ]
+      }
+    },
+    {
+      "name": "journalist_Nationality",
+      "domain": "journalist",
+      "source_table": "journalist",
+      "source_column": "Nationality",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "국적",
+      "synonyms": [
+        "국적",
+        "국적 정보",
+        "나라",
+        "국적 명",
+        "Nationality",
+        "기자 국적"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국": [
+          "한국"
+        ],
+        "미국": [
+          "미국"
+        ]
+      }
+    },
+    {
+      "name": "journalist_Age",
+      "domain": "journalist",
+      "source_table": "journalist",
+      "source_column": "Age",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "나이",
+      "synonyms": [
+        "연령",
+        "나이",
+        "연대",
+        "생년",
+        "나이 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "30": [
+          "30"
+        ],
+        "28": [
+          "28"
+        ]
+      }
+    },
+    {
+      "name": "journalist_Years_working",
+      "domain": "journalist",
+      "source_table": "journalist",
+      "source_column": "Years_working",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "년수",
+      "synonyms": [
+        "년수",
+        "경력",
+        "활동 년수",
+        "경력 년수",
+        "직업 경력",
+        "년간 활동"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "news_report_journalist_ID",
+      "domain": "news_report",
+      "source_table": "news_report",
+      "source_column": "journalist_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "기자 ID",
+      "synonyms": [
+        "기자 ID",
+        "기자 식별 번호",
+        "기자 번호",
+        "기자 ID 값",
+        "기자 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "news_report_Event_ID",
+      "domain": "news_report",
+      "source_table": "news_report",
+      "source_column": "Event_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "이벤트 ID",
+      "synonyms": [
+        "사건 ID",
+        "사건 식별 번호",
+        "이벤트 ID",
+        "이벤트 식별 번호",
+        "사건 번호",
+        "이벤트 번호",
+        "이벤트 ID 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "news_report_Work_Type",
+      "domain": "news_report",
+      "source_table": "news_report",
+      "source_column": "Work_Type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "작업 유형",
+      "synonyms": [
+        "작업 유형",
+        "보도 유형",
+        "작업 종류",
+        "보도 종류",
+        "작업 타입",
+        "보도 작업 유형",
+        "작업 유형 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "기사 작성": [
+          "기사",
+          "기자 보고서"
+        ],
+        "인터뷰": [
+          "인터뷰 진행"
+        ],
+        "기자 출석": [
+          "출석"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "news_report_event_fk0",
+      "domain": "news_report",
+      "range": "event",
+      "source_fk": [
+        "news_report.Event_ID",
+        "event.Event_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "발생한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "news_report_journalist_fk1",
+      "domain": "news_report",
+      "range": "journalist",
+      "source_fk": [
+        "news_report.journalist_ID",
+        "journalist.journalist_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "기자인",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,956 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "전투",
+      "target_class": "battle",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전쟁",
+      "target_class": "battle",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전투전",
+      "target_class": "battle",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전투기",
+      "target_class": "battle",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전투장",
+      "target_class": "battle",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선박",
+      "target_class": "ship",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선",
+      "target_class": "ship",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선함",
+      "target_class": "ship",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선수",
+      "target_class": "ship",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "선단",
+      "target_class": "ship",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사망 사건",
+      "target_class": "death",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사망",
+      "target_class": "death",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "죽음",
+      "target_class": "death",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사망자",
+      "target_class": "death",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사망자수",
+      "target_class": "death",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사망률",
+      "target_class": "death",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "battle",
+      "target_property": "battle_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "battle",
+      "target_property": "battle_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "battle",
+      "target_property": "battle_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코드",
+      "target_class": "battle",
+      "target_property": "battle_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "battle",
+      "target_property": "battle_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별자",
+      "target_class": "battle",
+      "target_property": "battle_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지정번호",
+      "target_class": "battle",
+      "target_property": "battle_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일련번호",
+      "target_class": "battle",
+      "target_property": "battle_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전투 이름",
+      "target_class": "battle",
+      "target_property": "battle_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전투명",
+      "target_class": "battle",
+      "target_property": "battle_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전투 제목",
+      "target_class": "battle",
+      "target_property": "battle_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전투 대상",
+      "target_class": "battle",
+      "target_property": "battle_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전투 대상명",
+      "target_class": "battle",
+      "target_property": "battle_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "battle",
+      "target_property": "battle_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "battle",
+      "target_property": "battle_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일",
+      "target_class": "battle",
+      "target_property": "battle_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날",
+      "target_class": "battle",
+      "target_property": "battle_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜 정보",
+      "target_class": "battle",
+      "target_property": "battle_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 정보",
+      "target_class": "battle",
+      "target_property": "battle_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불가리아 지휘관",
+      "target_class": "battle",
+      "target_property": "battle_bulgarian_commander",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불가리아 지휘자",
+      "target_class": "battle",
+      "target_property": "battle_bulgarian_commander",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불가리아 장군",
+      "target_class": "battle",
+      "target_property": "battle_bulgarian_commander",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불가리아 군사 지휘관",
+      "target_class": "battle",
+      "target_property": "battle_bulgarian_commander",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불가리아 군대 지휘자",
+      "target_class": "battle",
+      "target_property": "battle_bulgarian_commander",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라틴 지휘관",
+      "target_class": "battle",
+      "target_property": "battle_latin_commander",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라틴 지휘자",
+      "target_class": "battle",
+      "target_property": "battle_latin_commander",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라틴 장군",
+      "target_class": "battle",
+      "target_property": "battle_latin_commander",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라틴 군사 지휘관",
+      "target_class": "battle",
+      "target_property": "battle_latin_commander",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라틴 군대 지휘자",
+      "target_class": "battle",
+      "target_property": "battle_latin_commander",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과",
+      "target_class": "battle",
+      "target_property": "battle_result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전투 결과",
+      "target_class": "battle",
+      "target_property": "battle_result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전투 결과 정보",
+      "target_class": "battle",
+      "target_property": "battle_result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전투 결과 사항",
+      "target_class": "battle",
+      "target_property": "battle_result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전투 결과 요약",
+      "target_class": "battle",
+      "target_property": "battle_result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전투 손실",
+      "target_class": "ship",
+      "target_property": "ship_lost_in_battle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전투 손해",
+      "target_class": "ship",
+      "target_property": "ship_lost_in_battle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전투 손실 수",
+      "target_class": "ship",
+      "target_property": "ship_lost_in_battle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전투 손실 건수",
+      "target_class": "ship",
+      "target_property": "ship_lost_in_battle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전투 손실 개수",
+      "target_class": "ship",
+      "target_property": "ship_lost_in_battle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "ship",
+      "target_property": "ship_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 번호",
+      "target_class": "ship",
+      "target_property": "ship_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별자",
+      "target_class": "ship",
+      "target_property": "ship_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 ID",
+      "target_class": "ship",
+      "target_property": "ship_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "ship",
+      "target_property": "ship_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "ship",
+      "target_property": "ship_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록 이름",
+      "target_class": "ship",
+      "target_property": "ship_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선박명",
+      "target_class": "ship",
+      "target_property": "ship_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선박 이름",
+      "target_class": "ship",
+      "target_property": "ship_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "ship",
+      "target_property": "ship_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "톤수",
+      "target_class": "ship",
+      "target_property": "ship_tonnage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "톤수량",
+      "target_class": "ship",
+      "target_property": "ship_tonnage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총톤수",
+      "target_class": "ship",
+      "target_property": "ship_tonnage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "톤수 정보",
+      "target_class": "ship",
+      "target_property": "ship_tonnage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "톤수 기준",
+      "target_class": "ship",
+      "target_property": "ship_tonnage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "톤수 데이터",
+      "target_class": "ship",
+      "target_property": "ship_tonnage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "톤수 지표",
+      "target_class": "ship",
+      "target_property": "ship_tonnage",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선박 유형",
+      "target_class": "ship",
+      "target_property": "ship_ship_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선박 종류",
+      "target_class": "ship",
+      "target_property": "ship_ship_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선박 카테고리",
+      "target_class": "ship",
+      "target_property": "ship_ship_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선박 타입",
+      "target_class": "ship",
+      "target_property": "ship_ship_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선박 구분",
+      "target_class": "ship",
+      "target_property": "ship_ship_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "ship",
+      "target_property": "ship_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "ship",
+      "target_property": "ship_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좌표",
+      "target_class": "ship",
+      "target_property": "ship_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 지정",
+      "target_class": "ship",
+      "target_property": "ship_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 데이터",
+      "target_class": "ship",
+      "target_property": "ship_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선박의 처분 상태",
+      "target_class": "ship",
+      "target_property": "ship_disposition_of_ship",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "처분 상태",
+      "target_class": "ship",
+      "target_property": "ship_disposition_of_ship",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "현황",
+      "target_class": "ship",
+      "target_property": "ship_disposition_of_ship",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태",
+      "target_class": "ship",
+      "target_property": "ship_disposition_of_ship",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상황",
+      "target_class": "ship",
+      "target_property": "ship_disposition_of_ship",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "처분 상황",
+      "target_class": "ship",
+      "target_property": "ship_disposition_of_ship",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "처분 현황",
+      "target_class": "ship",
+      "target_property": "ship_disposition_of_ship",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사고 발생 선박 ID",
+      "target_class": "death",
+      "target_property": "death_caused_by_ship_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발생 선박 ID",
+      "target_class": "death",
+      "target_property": "death_caused_by_ship_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사고 선박 번호",
+      "target_class": "death",
+      "target_property": "death_caused_by_ship_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선박 식별자",
+      "target_class": "death",
+      "target_property": "death_caused_by_ship_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선박 고유 번호",
+      "target_class": "death",
+      "target_property": "death_caused_by_ship_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사고 관련 선박 ID",
+      "target_class": "death",
+      "target_property": "death_caused_by_ship_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사망 사건 ID",
+      "target_class": "death",
+      "target_property": "death_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사망 사건 번호",
+      "target_class": "death",
+      "target_property": "death_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사망 사고 ID",
+      "target_class": "death",
+      "target_property": "death_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사망 사건 고유 번호",
+      "target_class": "death",
+      "target_property": "death_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사망 사건 식별자",
+      "target_class": "death",
+      "target_property": "death_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사망 사고 번호",
+      "target_class": "death",
+      "target_property": "death_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비고",
+      "target_class": "death",
+      "target_property": "death_note",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "추가 설명",
+      "target_class": "death",
+      "target_property": "death_note",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비고 항목",
+      "target_class": "death",
+      "target_property": "death_note",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "추가 정보",
+      "target_class": "death",
+      "target_property": "death_note",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비고 내용",
+      "target_class": "death",
+      "target_property": "death_note",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사망자 수",
+      "target_class": "death",
+      "target_property": "death_killed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해자 수",
+      "target_class": "death",
+      "target_property": "death_injured",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해 수",
+      "target_class": "death",
+      "target_property": "death_injured",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해 인원",
+      "target_class": "death",
+      "target_property": "death_injured",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해자 수량",
+      "target_class": "death",
+      "target_property": "death_injured",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해자 수치",
+      "target_class": "death",
+      "target_property": "death_injured",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해 인원 수",
+      "target_class": "death",
+      "target_property": "death_injured",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "전투명",
+      "target_class": "battle",
+      "target_property": "battle_name",
+      "value": "전투명"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-01-01",
+      "target_class": "battle",
+      "target_property": "battle_date",
+      "value": "2023-01-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 1월 1일",
+      "target_class": "battle",
+      "target_property": "battle_date",
+      "value": "2023-01-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "이순신",
+      "target_class": "battle",
+      "target_property": "battle_bulgarian_commander",
+      "value": "이순신"
+    },
+    {
+      "entry_type": "value",
+      "key": "이순신 대장",
+      "target_class": "battle",
+      "target_property": "battle_bulgarian_commander",
+      "value": "이순신"
+    },
+    {
+      "entry_type": "value",
+      "key": "조선왕",
+      "target_class": "battle",
+      "target_property": "battle_latin_commander",
+      "value": "조선왕"
+    },
+    {
+      "entry_type": "value",
+      "key": "조선 왕",
+      "target_class": "battle",
+      "target_property": "battle_latin_commander",
+      "value": "조선왕"
+    },
+    {
+      "entry_type": "value",
+      "key": "승리",
+      "target_class": "battle",
+      "target_property": "battle_result",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "패배",
+      "target_class": "battle",
+      "target_property": "battle_result",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "아이언 하이브리드",
+      "target_class": "ship",
+      "target_property": "ship_name",
+      "value": "아이언 하이브리드"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 해양선박",
+      "target_class": "ship",
+      "target_property": "ship_name",
+      "value": "서울 해양선박"
+    },
+    {
+      "entry_type": "value",
+      "key": "운송선",
+      "target_class": "ship",
+      "target_property": "ship_ship_type",
+      "value": "운송선"
+    },
+    {
+      "entry_type": "value",
+      "key": "운송용 선박",
+      "target_class": "ship",
+      "target_property": "ship_ship_type",
+      "value": "운송선"
+    },
+    {
+      "entry_type": "value",
+      "key": "전투선",
+      "target_class": "ship",
+      "target_property": "ship_ship_type",
+      "value": "전투선"
+    },
+    {
+      "entry_type": "value",
+      "key": "전투용 선박",
+      "target_class": "ship",
+      "target_property": "ship_ship_type",
+      "value": "전투선"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "ship",
+      "target_property": "ship_location",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "ship",
+      "target_property": "ship_location",
+      "value": "부산"
+    },
+    {
+      "entry_type": "value",
+      "key": "폐기",
+      "target_class": "ship",
+      "target_property": "ship_disposition_of_ship",
+      "value": "폐기"
+    },
+    {
+      "entry_type": "value",
+      "key": "보유",
+      "target_class": "ship",
+      "target_property": "ship_disposition_of_ship",
+      "value": "보유"
+    },
+    {
+      "entry_type": "value",
+      "key": "이전",
+      "target_class": "ship",
+      "target_property": "ship_disposition_of_ship",
+      "value": "이전"
+    },
+    {
+      "entry_type": "value",
+      "key": "사고 상세 설명",
+      "target_class": "death",
+      "target_property": "death_note",
+      "value": "사고 상세 설명"
+    },
+    {
+      "entry_type": "value",
+      "key": "상세 설명",
+      "target_class": "death",
+      "target_property": "death_note",
+      "value": "사고 상세 설명"
+    },
+    {
+      "entry_type": "value",
+      "key": "사고 설명",
+      "target_class": "death",
+      "target_property": "death_note",
+      "value": "사고 상세 설명"
+    }
+  ]
+}

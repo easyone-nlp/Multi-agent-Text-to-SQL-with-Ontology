@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "version": "danke-spider-ko-v1.0.0-20260728",
+  "status": "frozen",
+  "created_at": "2026-07-28T00:00:00+09:00",
+  "source_at_freeze": "ontology/output/spider_ko",
+  "synonym_bundle": "v1.0.0",
+  "description": "Full Spider-Ko DANKE knowledge-schema, RDB mapping, and dictionary artifact snapshot immediately before hybrid retriever development.",
+  "verification": "Run sha256sum -c checksums.sha256 from this directory.",
+  "mutation_policy": "Do not edit this directory. Create a new ontology version for rebuilt or synonym-modified artifacts."
+}

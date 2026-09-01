@@ -1,0 +1,587 @@
+{
+  "db_id": "store_product",
+  "classes": [
+    {
+      "name": "product",
+      "source_table": "product",
+      "ranking": 3.5,
+      "primary_label": "제품",
+      "synonyms": [
+        "상품",
+        "제품",
+        "물건",
+        "품목",
+        "상품코드",
+        "상품명"
+      ]
+    },
+    {
+      "name": "store",
+      "source_table": "store",
+      "ranking": 3.5,
+      "primary_label": "매장",
+      "synonyms": [
+        "매장",
+        "점포",
+        "매장정보",
+        "매장코드",
+        "매장명",
+        "매장 위치"
+      ]
+    },
+    {
+      "name": "district",
+      "source_table": "district",
+      "ranking": 3.0,
+      "primary_label": "구역",
+      "synonyms": [
+        "구역",
+        "지역",
+        "구역정보",
+        "구역코드",
+        "구역명",
+        "지역정보"
+      ]
+    },
+    {
+      "name": "store_product",
+      "source_table": "store_product",
+      "ranking": 3.0,
+      "primary_label": "store product",
+      "synonyms": [
+        "store item",
+        "product in store",
+        "retail product",
+        "shop product",
+        "store inventory",
+        "in-store item"
+      ]
+    },
+    {
+      "name": "store_district",
+      "source_table": "store_district",
+      "ranking": 3.0,
+      "primary_label": "store district",
+      "synonyms": [
+        "store area",
+        "retail district",
+        "shop area",
+        "location district",
+        "in-store area",
+        "store region"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "product_product_id",
+      "domain": "product",
+      "source_table": "product",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "제품 ID",
+      "synonyms": [
+        "제품 ID",
+        "제품 번호",
+        "제품 식별자",
+        "product_id",
+        "제품 고유 번호",
+        "식별 번호",
+        "제품 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "product_product",
+      "domain": "product",
+      "source_table": "product",
+      "source_column": "product",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "제품 이름",
+      "synonyms": [
+        "제품명",
+        "제품 이름",
+        "제품",
+        "product",
+        "제품 제목",
+        "제품명칭",
+        "제품 정보",
+        "제품 타이틀"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "product_dimensions",
+      "domain": "product",
+      "source_table": "product",
+      "source_column": "dimensions",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "크기",
+      "synonyms": [
+        "크기",
+        "규격",
+        "크기 정보",
+        "제품 크기",
+        "dimensions",
+        "제품 규격",
+        "크기 데이터",
+        "제품 크기 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "product_dpi",
+      "domain": "product",
+      "source_table": "product",
+      "source_column": "dpi",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "DPI",
+      "synonyms": [
+        "dpi",
+        "해상도",
+        "해상도 수치",
+        "Dots Per Inch",
+        "화질 세부 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "product_pages_per_minute_color",
+      "domain": "product",
+      "source_table": "product",
+      "source_column": "pages_per_minute_color",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "색상 페이지당 분 출력 속도",
+      "synonyms": [
+        "pages per minute color",
+        "색 인쇄 속도",
+        "색 페이지 처리 속도",
+        "분당 색 페이지 수",
+        "색 인쇄 효율",
+        "색 출력 속도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "product_max_page_size",
+      "domain": "product",
+      "source_table": "product",
+      "source_column": "max_page_size",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최대 페이지 크기",
+      "synonyms": [
+        "max page size",
+        "최대 페이지 크기",
+        "가장 큰 페이지 크기",
+        "최대 페이지 사이즈",
+        "최대 페이지 규격",
+        "페이지 크기 제한"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "product_interface",
+      "domain": "product",
+      "source_table": "product",
+      "source_column": "interface",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "인터페이스",
+      "synonyms": [
+        "인터페이스",
+        "인터페이스 유형",
+        "인터페이스 정보",
+        "인터페이스 종류",
+        "인터페이스 형식",
+        "인터페이스 기술",
+        "인터페이스 데이터",
+        "인터페이스 특성"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "store_Store_ID",
+      "domain": "store",
+      "source_table": "store",
+      "source_column": "Store_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "매장 ID",
+      "synonyms": [
+        "매장 ID",
+        "Store_ID",
+        "매장 식별 번호",
+        "스토어 ID",
+        "스토어 식별자",
+        "스토어 번호",
+        "스토어 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "store_Store_Name",
+      "domain": "store",
+      "source_table": "store",
+      "source_column": "Store_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "매장 이름",
+      "synonyms": [
+        "매장 이름",
+        "Store_Name",
+        "스토어 이름",
+        "매장명",
+        "스토어 명",
+        "매장 대표 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 강남구 매장": [
+          "서울 강남 매장",
+          "강남 매장"
+        ],
+        "부산시 해운대 매장": [
+          "부산 해운대 매장",
+          "해운대 매장"
+        ]
+      }
+    },
+    {
+      "name": "store_Type",
+      "domain": "store",
+      "source_table": "store",
+      "source_column": "Type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "type",
+      "synonyms": [
+        "매장 유형",
+        "Store_Type",
+        "스토어 유형",
+        "매장 종류",
+        "스토어 종류",
+        "스토어 타입",
+        "매장 카테고리"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "store_Area_size",
+      "domain": "store",
+      "source_table": "store",
+      "source_column": "Area_size",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "area size",
+      "synonyms": [
+        "면적",
+        "규모",
+        "공간 크기",
+        "면적 크기",
+        "실적 면적",
+        "가맹점 면적",
+        "Area_size"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "store_Number_of_product_category",
+      "domain": "store",
+      "source_table": "store",
+      "source_column": "Number_of_product_category",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "number of product category",
+      "synonyms": [
+        "제품 카테고리 수",
+        "카테고리 개수",
+        "제품 분류 수",
+        "제품 카테고리 개수",
+        "Number_of_product_category",
+        "제품 종류 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "store_Ranking",
+      "domain": "store",
+      "source_table": "store",
+      "source_column": "Ranking",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "ranking",
+      "synonyms": [
+        "순위",
+        "등수",
+        "랭킹",
+        "Ranking",
+        "가맹점 순위",
+        "성능 순위",
+        "등급"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "district_District_ID",
+      "domain": "district",
+      "source_table": "district",
+      "source_column": "District_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "구역 ID",
+      "synonyms": [
+        "District_ID",
+        "구역 번호",
+        "District No",
+        "구역 식별자",
+        "District Identifier",
+        "구역 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "district_District_name",
+      "domain": "district",
+      "source_table": "district",
+      "source_column": "District_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "구역 이름",
+      "synonyms": [
+        "구역명",
+        "지역 이름",
+        "District_name",
+        "지역명",
+        "구역"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서구": [
+          "서구"
+        ],
+        "동구": [
+          "동구"
+        ]
+      }
+    },
+    {
+      "name": "district_Headquartered_City",
+      "domain": "district",
+      "source_table": "district",
+      "source_column": "Headquartered_City",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "주재시",
+      "synonyms": [
+        "본부 도시",
+        "도시 이름",
+        "Headquartered_City",
+        "도시",
+        "본부 도시명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "인천": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "district_City_Population",
+      "domain": "district",
+      "source_table": "district",
+      "source_column": "City_Population",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시 인구",
+      "synonyms": [
+        "도시 인구",
+        "도시 거주 인구",
+        "도시 인구 수",
+        "도시 인구량",
+        "도시 인구 정보",
+        "도시 인구 수치",
+        "도시 인구 데이터",
+        "인구 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "district_City_Area",
+      "domain": "district",
+      "source_table": "district",
+      "source_column": "City_Area",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시 면적",
+      "synonyms": [
+        "도시 면적",
+        "도시 넓이",
+        "도시 площадь",
+        "도시 면적 수치",
+        "도시 면적 정보",
+        "도시 면적 데이터",
+        "면적 수",
+        "면적"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "store_product_Store_ID",
+      "domain": "store_product",
+      "source_table": "store_product",
+      "source_column": "Store_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "store id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "store_product_Product_ID",
+      "domain": "store_product",
+      "source_table": "store_product",
+      "source_column": "Product_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "product id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "store_district_Store_ID",
+      "domain": "store_district",
+      "source_table": "store_district",
+      "source_column": "Store_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "store id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "store_district_District_ID",
+      "domain": "store_district",
+      "source_table": "store_district",
+      "source_column": "District_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "district id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "store_product_store_fk0",
+      "domain": "store_product",
+      "range": "store",
+      "source_fk": [
+        "store_product.Store_ID",
+        "store.Store_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "store_district_district_fk1",
+      "domain": "store_district",
+      "range": "district",
+      "source_fk": [
+        "store_district.District_ID",
+        "district.District_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "store_district_store_fk2",
+      "domain": "store_district",
+      "range": "store",
+      "source_fk": [
+        "store_district.Store_ID",
+        "store.Store_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

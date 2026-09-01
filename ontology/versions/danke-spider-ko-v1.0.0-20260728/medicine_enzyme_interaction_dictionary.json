@@ -1,0 +1,900 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "약물",
+      "target_class": "medicine",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "약",
+      "target_class": "medicine",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "의약품",
+      "target_class": "medicine",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "약제",
+      "target_class": "medicine",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "약품",
+      "target_class": "medicine",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "효소",
+      "target_class": "enzyme",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "효소 물질",
+      "target_class": "enzyme",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "효소 분자",
+      "target_class": "enzyme",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "효소 성분",
+      "target_class": "enzyme",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "효소 관련 물질",
+      "target_class": "enzyme",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "의약물 효소 상호작용",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "의약품 효소 상호작용",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "약물 효소 관계",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "약물 효소 상호작용",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "약물 효소 연관성",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "약물 효소 작용",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "medicine",
+      "target_property": "medicine_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "medicine",
+      "target_property": "medicine_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별번호",
+      "target_class": "medicine",
+      "target_property": "medicine_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품ID",
+      "target_class": "medicine",
+      "target_property": "medicine_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약품ID",
+      "target_class": "medicine",
+      "target_property": "medicine_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별자",
+      "target_class": "medicine",
+      "target_property": "medicine_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약 이름",
+      "target_class": "medicine",
+      "target_property": "medicine_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "medicine",
+      "target_property": "medicine_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품명",
+      "target_class": "medicine",
+      "target_property": "medicine_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약품명",
+      "target_class": "medicine",
+      "target_property": "medicine_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "medicine",
+      "target_property": "medicine_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품이름",
+      "target_class": "medicine",
+      "target_property": "medicine_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약품이름",
+      "target_class": "medicine",
+      "target_property": "medicine_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거래명",
+      "target_class": "medicine",
+      "target_property": "medicine_Trade_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Trade_Name",
+      "target_class": "medicine",
+      "target_property": "medicine_Trade_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품명",
+      "target_class": "medicine",
+      "target_property": "medicine_Trade_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상업명",
+      "target_class": "medicine",
+      "target_property": "medicine_Trade_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "판매이름",
+      "target_class": "medicine",
+      "target_property": "medicine_Trade_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상업적이름",
+      "target_class": "medicine",
+      "target_property": "medicine_Trade_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "fda 승인 여부",
+      "target_class": "medicine",
+      "target_property": "medicine_FDA_approved",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "FDA 승인 여부",
+      "target_class": "medicine",
+      "target_property": "medicine_FDA_approved",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "FDA 승인 상태",
+      "target_class": "medicine",
+      "target_property": "medicine_FDA_approved",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "FDA 승인 여부 정보",
+      "target_class": "medicine",
+      "target_property": "medicine_FDA_approved",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "FDA 승인 여부 확인",
+      "target_class": "medicine",
+      "target_property": "medicine_FDA_approved",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "FDA 승인 여부 표시",
+      "target_class": "medicine",
+      "target_property": "medicine_FDA_approved",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "FDA 승인 여부 데이터",
+      "target_class": "medicine",
+      "target_property": "medicine_FDA_approved",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "FDA 승인 여부 확인 정보",
+      "target_class": "medicine",
+      "target_property": "medicine_FDA_approved",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "FDA 승인 여부 기록",
+      "target_class": "medicine",
+      "target_property": "medicine_FDA_approved",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "enzyme",
+      "target_property": "enzyme_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "enzyme",
+      "target_property": "enzyme_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소 ID",
+      "target_class": "enzyme",
+      "target_property": "enzyme_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "enzyme",
+      "target_property": "enzyme_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소 식별자",
+      "target_class": "enzyme",
+      "target_property": "enzyme_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "enzyme",
+      "target_property": "enzyme_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소 이름",
+      "target_class": "enzyme",
+      "target_property": "enzyme_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소 코드",
+      "target_class": "enzyme",
+      "target_property": "enzyme_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소명",
+      "target_class": "enzyme",
+      "target_property": "enzyme_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소 표기",
+      "target_class": "enzyme",
+      "target_property": "enzyme_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "location",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소 위치",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소 위치 데이터",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 표기",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품명",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 정보",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품명칭",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 유형",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 관련 정보",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 이름",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 코드",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Product",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "chromosome",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Chromosome",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "염색체",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Chromosome",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "염색체 정보",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Chromosome",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "염색체 위치",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Chromosome",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "염색체 번호",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Chromosome",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "염색체 위치 정보",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Chromosome",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "염색체 번호 정보",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Chromosome",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "염색체 위치 데이터",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Chromosome",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "omim",
+      "target_class": "enzyme",
+      "target_property": "enzyme_OMIM",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "OMIM 번호",
+      "target_class": "enzyme",
+      "target_property": "enzyme_OMIM",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "OMIM 코드",
+      "target_class": "enzyme",
+      "target_property": "enzyme_OMIM",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "OMIM 식별자",
+      "target_class": "enzyme",
+      "target_property": "enzyme_OMIM",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "OMIM 번호 정보",
+      "target_class": "enzyme",
+      "target_property": "enzyme_OMIM",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "OMIM 식별",
+      "target_class": "enzyme",
+      "target_property": "enzyme_OMIM",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "OMIM 코드 정보",
+      "target_class": "enzyme",
+      "target_property": "enzyme_OMIM",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "OMIM 식별자 정보",
+      "target_class": "enzyme",
+      "target_property": "enzyme_OMIM",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "porphyria",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Porphyria",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포르피리아",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Porphyria",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포르피리아 질환",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Porphyria",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포르피리아 관련 질환",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Porphyria",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포르피리아 이름",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Porphyria",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "porphyria 이름",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Porphyria",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "porphyria 관련 정보",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Porphyria",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포르피리아 관련 증상",
+      "target_class": "enzyme",
+      "target_property": "enzyme_Porphyria",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소 id",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_enzyme_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소 ID",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_enzyme_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소 식별 번호",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_enzyme_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소 고유 번호",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_enzyme_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소 ID 값",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_enzyme_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소 식별자",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_enzyme_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소 번호",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_enzyme_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "효소 고유 ID",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_enzyme_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약물 id",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_medicine_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약품 ID",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_medicine_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약품 식별 번호",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_medicine_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약품 고유 번호",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_medicine_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약품 ID 값",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_medicine_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약품 식별자",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_medicine_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약품 번호",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_medicine_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "의약품 고유 ID",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_medicine_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상호작용 유형",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_interaction_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상호작용 종류",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_interaction_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상호작용 타입",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_interaction_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상호작용 구분",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_interaction_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상호작용 카테고리",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_interaction_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상호작용 구분자",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_interaction_type",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "아스피린",
+      "target_class": "medicine",
+      "target_property": "medicine_name",
+      "value": "아스피린"
+    },
+    {
+      "entry_type": "value",
+      "key": "아이보틴",
+      "target_class": "medicine",
+      "target_property": "medicine_name",
+      "value": "아이보틴"
+    },
+    {
+      "entry_type": "value",
+      "key": "아스피린",
+      "target_class": "medicine",
+      "target_property": "medicine_Trade_Name",
+      "value": "아스피린"
+    },
+    {
+      "entry_type": "value",
+      "key": "아이보틴",
+      "target_class": "medicine",
+      "target_property": "medicine_Trade_Name",
+      "value": "아이보틴"
+    },
+    {
+      "entry_type": "value",
+      "key": "승인됨",
+      "target_class": "medicine",
+      "target_property": "medicine_FDA_approved",
+      "value": "승인됨"
+    },
+    {
+      "entry_type": "value",
+      "key": "승인되지 않음",
+      "target_class": "medicine",
+      "target_property": "medicine_FDA_approved",
+      "value": "승인되지 않음"
+    },
+    {
+      "entry_type": "value",
+      "key": "아스파라긴산 탈수소효소",
+      "target_class": "enzyme",
+      "target_property": "enzyme_name",
+      "value": "아스파라긴산 탈수소효소"
+    },
+    {
+      "entry_type": "value",
+      "key": "Asparaginase",
+      "target_class": "enzyme",
+      "target_property": "enzyme_name",
+      "value": "아스파라긴산 탈수소효소"
+    },
+    {
+      "entry_type": "value",
+      "key": "리파제",
+      "target_class": "enzyme",
+      "target_property": "enzyme_name",
+      "value": "리파제"
+    },
+    {
+      "entry_type": "value",
+      "key": "lipase",
+      "target_class": "enzyme",
+      "target_property": "enzyme_name",
+      "value": "리파제"
+    },
+    {
+      "entry_type": "value",
+      "key": "강화",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_interaction_type",
+      "value": "강화"
+    },
+    {
+      "entry_type": "value",
+      "key": "억제",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_interaction_type",
+      "value": "억제"
+    },
+    {
+      "entry_type": "value",
+      "key": "무관",
+      "target_class": "medicine_enzyme_interaction",
+      "target_property": "medicine_enzyme_interaction_interaction_type",
+      "value": "무관"
+    }
+  ]
+}

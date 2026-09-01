@@ -1,0 +1,264 @@
+{
+  "db_id": "singer",
+  "classes": [
+    {
+      "name": "singer",
+      "source_table": "singer",
+      "ranking": 1.0,
+      "primary_label": "singer",
+      "synonyms": [
+        "가수",
+        "음악인",
+        "아티스트",
+        "보이스",
+        "음악가"
+      ]
+    },
+    {
+      "name": "song",
+      "source_table": "song",
+      "ranking": 3.5,
+      "primary_label": "노래",
+      "synonyms": [
+        "노래",
+        "곡",
+        "음악",
+        "음악곡",
+        "곡명",
+        "음악작품"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "singer_Singer_ID",
+      "domain": "singer",
+      "source_table": "singer",
+      "source_column": "Singer_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "singer id",
+      "synonyms": [
+        "singer id",
+        "singer number",
+        "singer code",
+        "singer identifier",
+        "singer key"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "singer_Name",
+      "domain": "singer",
+      "source_table": "singer",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "소속艺人",
+        "아티스트",
+        "가수"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "singer_Birth_Year",
+      "domain": "singer",
+      "source_table": "singer",
+      "source_column": "Birth_Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "birth year",
+      "synonyms": [
+        "생년",
+        "태어난 해",
+        "출생년도",
+        "출생년"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "singer_Net_Worth_Millions",
+      "domain": "singer",
+      "source_table": "singer",
+      "source_column": "Net_Worth_Millions",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "net worth millions",
+      "synonyms": [
+        "순자산",
+        "자산",
+        "소유자 자산",
+        "자산 가치",
+        "재산",
+        "자산 수준",
+        "소유 자산",
+        "재산 가치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "singer_Citizenship",
+      "domain": "singer",
+      "source_table": "singer",
+      "source_column": "Citizenship",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "citizenship",
+      "synonyms": [
+        "국적",
+        "출신국",
+        "국적 국가",
+        "국적 정보",
+        "국적 소유",
+        "국적 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "song_Song_ID",
+      "domain": "song",
+      "source_table": "song",
+      "source_column": "Song_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "노래 ID",
+      "synonyms": [
+        "곡 번호",
+        "곡 ID",
+        "곡 식별자",
+        "곡 코드",
+        "곡 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "song_Title",
+      "domain": "song",
+      "source_table": "song",
+      "source_column": "Title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "제목",
+      "synonyms": [
+        "제목",
+        "곡 제목",
+        "노래 이름",
+        "곡 이름",
+        "제목 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "가요": [
+          "가요",
+          "음악"
+        ],
+        "사랑해": [
+          "사랑해",
+          "사랑"
+        ]
+      }
+    },
+    {
+      "name": "song_Singer_ID",
+      "domain": "song",
+      "source_table": "song",
+      "source_column": "Singer_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "가수 ID",
+      "synonyms": [
+        "가수 번호",
+        "가수 ID",
+        "가수 식별자",
+        "가수 코드",
+        "가수 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "song_Sales",
+      "domain": "song",
+      "source_table": "song",
+      "source_column": "Sales",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "판매량",
+      "synonyms": [
+        "판매 수량",
+        "판매량",
+        "판매 수치",
+        "판매 기록",
+        "판매량 데이터",
+        "판매량 정보",
+        "판매량 통계"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "song_Highest_Position",
+      "domain": "song",
+      "source_table": "song",
+      "source_column": "Highest_Position",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "최고 순위",
+      "synonyms": [
+        "최고 순위",
+        "최고 위치",
+        "최고 순위 기록",
+        "순위 최고",
+        "순위 기록",
+        "최고 순위 데이터",
+        "순위 최고 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "song_singer_fk0",
+      "domain": "song",
+      "range": "singer",
+      "source_fk": [
+        "song.Singer_ID",
+        "singer.Singer_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

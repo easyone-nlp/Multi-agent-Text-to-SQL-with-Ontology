@@ -1,0 +1,87 @@
+{
+  "class_table": {
+    "film": "film",
+    "cinema": "cinema",
+    "schedule": "schedule"
+  },
+  "property_column": {
+    "film_Film_ID": [
+      "film",
+      "Film_ID"
+    ],
+    "film_Rank_in_series": [
+      "film",
+      "Rank_in_series"
+    ],
+    "film_Number_in_season": [
+      "film",
+      "Number_in_season"
+    ],
+    "film_Title": [
+      "film",
+      "Title"
+    ],
+    "film_Directed_by": [
+      "film",
+      "Directed_by"
+    ],
+    "film_Original_air_date": [
+      "film",
+      "Original_air_date"
+    ],
+    "film_Production_code": [
+      "film",
+      "Production_code"
+    ],
+    "cinema_Cinema_ID": [
+      "cinema",
+      "Cinema_ID"
+    ],
+    "cinema_Name": [
+      "cinema",
+      "Name"
+    ],
+    "cinema_Openning_year": [
+      "cinema",
+      "Openning_year"
+    ],
+    "cinema_Capacity": [
+      "cinema",
+      "Capacity"
+    ],
+    "cinema_Location": [
+      "cinema",
+      "Location"
+    ],
+    "schedule_Cinema_ID": [
+      "schedule",
+      "Cinema_ID"
+    ],
+    "schedule_Film_ID": [
+      "schedule",
+      "Film_ID"
+    ],
+    "schedule_Date": [
+      "schedule",
+      "Date"
+    ],
+    "schedule_Show_times_per_day": [
+      "schedule",
+      "Show_times_per_day"
+    ],
+    "schedule_Price": [
+      "schedule",
+      "Price"
+    ]
+  },
+  "object_property_fk": {
+    "schedule_cinema_fk0": [
+      "schedule.Cinema_ID",
+      "cinema.Cinema_ID"
+    ],
+    "schedule_film_fk1": [
+      "schedule.Film_ID",
+      "film.Film_ID"
+    ]
+  }
+}

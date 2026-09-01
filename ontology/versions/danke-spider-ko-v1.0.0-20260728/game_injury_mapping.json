@@ -1,0 +1,99 @@
+{
+  "class_table": {
+    "stadium": "stadium",
+    "game": "game",
+    "injury_accident": "injury_accident"
+  },
+  "property_column": {
+    "stadium_id": [
+      "stadium",
+      "id"
+    ],
+    "stadium_name": [
+      "stadium",
+      "name"
+    ],
+    "stadium_Home_Games": [
+      "stadium",
+      "Home_Games"
+    ],
+    "stadium_Average_Attendance": [
+      "stadium",
+      "Average_Attendance"
+    ],
+    "stadium_Total_Attendance": [
+      "stadium",
+      "Total_Attendance"
+    ],
+    "stadium_Capacity_Percentage": [
+      "stadium",
+      "Capacity_Percentage"
+    ],
+    "game_stadium_id": [
+      "game",
+      "stadium_id"
+    ],
+    "game_id": [
+      "game",
+      "id"
+    ],
+    "game_Season": [
+      "game",
+      "Season"
+    ],
+    "game_Date": [
+      "game",
+      "Date"
+    ],
+    "game_Home_team": [
+      "game",
+      "Home_team"
+    ],
+    "game_Away_team": [
+      "game",
+      "Away_team"
+    ],
+    "game_Score": [
+      "game",
+      "Score"
+    ],
+    "game_Competition": [
+      "game",
+      "Competition"
+    ],
+    "injury_accident_game_id": [
+      "injury_accident",
+      "game_id"
+    ],
+    "injury_accident_id": [
+      "injury_accident",
+      "id"
+    ],
+    "injury_accident_Player": [
+      "injury_accident",
+      "Player"
+    ],
+    "injury_accident_Injury": [
+      "injury_accident",
+      "Injury"
+    ],
+    "injury_accident_Number_of_matches": [
+      "injury_accident",
+      "Number_of_matches"
+    ],
+    "injury_accident_Source": [
+      "injury_accident",
+      "Source"
+    ]
+  },
+  "object_property_fk": {
+    "game_stadium_fk0": [
+      "game.stadium_id",
+      "stadium.id"
+    ],
+    "injury_accident_game_fk1": [
+      "injury_accident.game_id",
+      "game.id"
+    ]
+  }
+}

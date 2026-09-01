@@ -1,0 +1,1243 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "열차",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "철도차량",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차 운행",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "철도 기차",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차 정보",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "역 정보",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "역",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "철도역",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "역 데이터",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "역 위치",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경로",
+      "target_class": "route",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "tuyến",
+      "target_class": "route",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "철도 경로",
+      "target_class": "route",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "운행 경로",
+      "target_class": "route",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경로 정보",
+      "target_class": "route",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주간 날씨",
+      "target_class": "weekly_weather",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "train",
+      "target_property": "train_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "train",
+      "target_property": "train_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 고유 번호",
+      "target_class": "train",
+      "target_property": "train_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 식별자",
+      "target_class": "train",
+      "target_property": "train_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 번호",
+      "target_class": "train",
+      "target_property": "train_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 ID",
+      "target_class": "train",
+      "target_property": "train_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 식별자",
+      "target_class": "train",
+      "target_property": "train_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 고유 ID",
+      "target_class": "train",
+      "target_property": "train_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 번호",
+      "target_class": "train",
+      "target_property": "train_train_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "train_number",
+      "target_class": "train",
+      "target_property": "train_train_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 등록 번호",
+      "target_class": "train",
+      "target_property": "train_train_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 등록 ID",
+      "target_class": "train",
+      "target_property": "train_train_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 등록 식별자",
+      "target_class": "train",
+      "target_property": "train_train_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "train",
+      "target_property": "train_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "train",
+      "target_property": "train_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 이름",
+      "target_class": "train",
+      "target_property": "train_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차명",
+      "target_class": "train",
+      "target_property": "train_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 명칭",
+      "target_class": "train",
+      "target_property": "train_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 고유 이름",
+      "target_class": "train",
+      "target_property": "train_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발역",
+      "target_class": "train",
+      "target_property": "train_origin",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발지",
+      "target_class": "train",
+      "target_property": "train_origin",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발지역",
+      "target_class": "train",
+      "target_property": "train_origin",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발지점",
+      "target_class": "train",
+      "target_property": "train_origin",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발지 정보",
+      "target_class": "train",
+      "target_property": "train_origin",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발지명",
+      "target_class": "train",
+      "target_property": "train_origin",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "origin",
+      "target_class": "train",
+      "target_property": "train_origin",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착역",
+      "target_class": "train",
+      "target_property": "train_destination",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착지",
+      "target_class": "train",
+      "target_property": "train_destination",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착지역",
+      "target_class": "train",
+      "target_property": "train_destination",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착지점",
+      "target_class": "train",
+      "target_property": "train_destination",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착지 정보",
+      "target_class": "train",
+      "target_property": "train_destination",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착지명",
+      "target_class": "train",
+      "target_property": "train_destination",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "destination",
+      "target_class": "train",
+      "target_property": "train_destination",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발 시간",
+      "target_class": "train",
+      "target_property": "train_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발시각",
+      "target_class": "train",
+      "target_property": "train_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간",
+      "target_class": "train",
+      "target_property": "train_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발 시간 정보",
+      "target_class": "train",
+      "target_property": "train_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "time",
+      "target_class": "train",
+      "target_property": "train_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시각",
+      "target_class": "train",
+      "target_property": "train_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "간격",
+      "target_class": "train",
+      "target_property": "train_interval",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운행 간격",
+      "target_class": "train",
+      "target_property": "train_interval",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운행 주기",
+      "target_class": "train",
+      "target_property": "train_interval",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "interval",
+      "target_class": "train",
+      "target_property": "train_interval",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 간격",
+      "target_class": "train",
+      "target_property": "train_interval",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 간격",
+      "target_class": "train",
+      "target_property": "train_interval",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 번호",
+      "target_class": "station",
+      "target_property": "station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "station",
+      "target_property": "station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 번호",
+      "target_class": "station",
+      "target_property": "station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 식별자",
+      "target_class": "station",
+      "target_property": "station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 고유 번호",
+      "target_class": "station",
+      "target_property": "station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 코드",
+      "target_class": "station",
+      "target_property": "station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 식별번호",
+      "target_class": "station",
+      "target_property": "station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "네트워크 이름",
+      "target_class": "station",
+      "target_property": "station_network_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "network_name",
+      "target_class": "station",
+      "target_property": "station_network_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 네트워크",
+      "target_class": "station",
+      "target_property": "station_network_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 네트워크명",
+      "target_class": "station",
+      "target_property": "station_network_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 네트워크 이름",
+      "target_class": "station",
+      "target_property": "station_network_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 네트워크 코드",
+      "target_class": "station",
+      "target_property": "station_network_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 서비스",
+      "target_class": "station",
+      "target_property": "station_services",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "services",
+      "target_class": "station",
+      "target_property": "station_services",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스",
+      "target_class": "station",
+      "target_property": "station_services",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 서비스",
+      "target_class": "station",
+      "target_property": "station_services",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 제공 서비스",
+      "target_class": "station",
+      "target_property": "station_services",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 서비스 목록",
+      "target_class": "station",
+      "target_property": "station_services",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 서비스 정보",
+      "target_class": "station",
+      "target_property": "station_services",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지방 자치단체",
+      "target_class": "station",
+      "target_property": "station_local_authority",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지방청",
+      "target_class": "station",
+      "target_property": "station_local_authority",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지방정부",
+      "target_class": "station",
+      "target_property": "station_local_authority",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지자체",
+      "target_class": "station",
+      "target_property": "station_local_authority",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지방청사",
+      "target_class": "station",
+      "target_property": "station_local_authority",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지방관리기관",
+      "target_class": "station",
+      "target_property": "station_local_authority",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지방청역",
+      "target_class": "station",
+      "target_property": "station_local_authority",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지방청소대리",
+      "target_class": "station",
+      "target_property": "station_local_authority",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 ID",
+      "target_class": "route",
+      "target_property": "route_train_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 번호",
+      "target_class": "route",
+      "target_property": "route_train_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "train id",
+      "target_class": "route",
+      "target_property": "route_train_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 식별자",
+      "target_class": "route",
+      "target_property": "route_train_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트레인 ID",
+      "target_class": "route",
+      "target_property": "route_train_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 코드",
+      "target_class": "route",
+      "target_property": "route_train_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "train_no",
+      "target_class": "route",
+      "target_property": "route_train_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 ID",
+      "target_class": "route",
+      "target_property": "route_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 번호",
+      "target_class": "route",
+      "target_property": "route_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "station id",
+      "target_class": "route",
+      "target_property": "route_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 식별자",
+      "target_class": "route",
+      "target_property": "route_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 코드",
+      "target_class": "route",
+      "target_property": "route_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "station_no",
+      "target_class": "route",
+      "target_property": "route_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 식별번호",
+      "target_class": "route",
+      "target_property": "route_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기지 ID",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "station_id",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 ID",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 번호",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 식별자",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 코드",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요일",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "day_of_week",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요일 정보",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주요일",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요일명",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요일 데이터",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 기온",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_high_temperature",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "high_temperature",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_high_temperature",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 기온",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_high_temperature",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기온 최고",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_high_temperature",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 온도",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_high_temperature",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기온 최대",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_high_temperature",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최저 기온",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_low_temperature",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저기온",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_low_temperature",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저온",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_low_temperature",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "낮 최저 기온",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_low_temperature",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "low temperature",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_low_temperature",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "low_temp",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_low_temperature",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저온값",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_low_temperature",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강수량",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_precipitation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_precipitation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비량",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_precipitation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강수",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_precipitation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "precipitation",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_precipitation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강수량값",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_precipitation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비량 기록",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_precipitation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "바람 속도 (mph)",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_wind_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "풍속",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_wind_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "풍속 mph",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_wind_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "풍속값",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_wind_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mph 풍속",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_wind_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "wind speed",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_wind_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "풍속 정보",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_wind_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "풍속 측정",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_wind_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "101",
+      "target_class": "train",
+      "target_property": "train_train_number",
+      "value": "101"
+    },
+    {
+      "entry_type": "value",
+      "key": "205",
+      "target_class": "train",
+      "target_property": "train_train_number",
+      "value": "205"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울역",
+      "target_class": "train",
+      "target_property": "train_name",
+      "value": "서울역"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산역",
+      "target_class": "train",
+      "target_property": "train_name",
+      "value": "부산역"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "train",
+      "target_property": "train_origin",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천",
+      "target_class": "train",
+      "target_property": "train_origin",
+      "value": "인천"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "train",
+      "target_property": "train_destination",
+      "value": "부산"
+    },
+    {
+      "entry_type": "value",
+      "key": "대구",
+      "target_class": "train",
+      "target_property": "train_destination",
+      "value": "대구"
+    },
+    {
+      "entry_type": "value",
+      "key": "08:30",
+      "target_class": "train",
+      "target_property": "train_time",
+      "value": "08:30"
+    },
+    {
+      "entry_type": "value",
+      "key": "8시30분",
+      "target_class": "train",
+      "target_property": "train_time",
+      "value": "08:30"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 지하철",
+      "target_class": "station",
+      "target_property": "station_network_name",
+      "value": "서울 지하철"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울지하철",
+      "target_class": "station",
+      "target_property": "station_network_name",
+      "value": "서울 지하철"
+    },
+    {
+      "entry_type": "value",
+      "key": "경기 지하철",
+      "target_class": "station",
+      "target_property": "station_network_name",
+      "value": "경기 지하철"
+    },
+    {
+      "entry_type": "value",
+      "key": "경기지하철",
+      "target_class": "station",
+      "target_property": "station_network_name",
+      "value": "경기 지하철"
+    },
+    {
+      "entry_type": "value",
+      "key": "지하철",
+      "target_class": "station",
+      "target_property": "station_services",
+      "value": "지하철"
+    },
+    {
+      "entry_type": "value",
+      "key": "버스",
+      "target_class": "station",
+      "target_property": "station_services",
+      "value": "버스"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울특별시",
+      "target_class": "station",
+      "target_property": "station_local_authority",
+      "value": "서울특별시"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시",
+      "target_class": "station",
+      "target_property": "station_local_authority",
+      "value": "서울특별시"
+    },
+    {
+      "entry_type": "value",
+      "key": "경기도",
+      "target_class": "station",
+      "target_property": "station_local_authority",
+      "value": "경기도"
+    },
+    {
+      "entry_type": "value",
+      "key": "경기",
+      "target_class": "station",
+      "target_property": "station_local_authority",
+      "value": "경기도"
+    },
+    {
+      "entry_type": "value",
+      "key": "월요일",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": "월요일"
+    },
+    {
+      "entry_type": "value",
+      "key": "월",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": "월요일"
+    },
+    {
+      "entry_type": "value",
+      "key": "화요일",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": "화요일"
+    },
+    {
+      "entry_type": "value",
+      "key": "화",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": "화요일"
+    },
+    {
+      "entry_type": "value",
+      "key": "수요일",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": "수요일"
+    },
+    {
+      "entry_type": "value",
+      "key": "수",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": "수요일"
+    },
+    {
+      "entry_type": "value",
+      "key": "목요일",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": "목요일"
+    },
+    {
+      "entry_type": "value",
+      "key": "목",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": "목요일"
+    },
+    {
+      "entry_type": "value",
+      "key": "금요일",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": "금요일"
+    },
+    {
+      "entry_type": "value",
+      "key": "금",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": "금요일"
+    },
+    {
+      "entry_type": "value",
+      "key": "토요일",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": "토요일"
+    },
+    {
+      "entry_type": "value",
+      "key": "토",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": "토요일"
+    },
+    {
+      "entry_type": "value",
+      "key": "일요일",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": "일요일"
+    },
+    {
+      "entry_type": "value",
+      "key": "일",
+      "target_class": "weekly_weather",
+      "target_property": "weekly_weather_day_of_week",
+      "value": "일요일"
+    }
+  ]
+}

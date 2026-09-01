@@ -1,0 +1,649 @@
+{
+  "db_id": "music_2",
+  "classes": [
+    {
+      "name": "Songs",
+      "source_table": "Songs",
+      "ranking": 3.0,
+      "primary_label": "노래들",
+      "synonyms": []
+    },
+    {
+      "name": "Albums",
+      "source_table": "Albums",
+      "ranking": 3.0,
+      "primary_label": "앨범",
+      "synonyms": [
+        "앨범",
+        "음반",
+        "음악 앨범",
+        "음반 목록",
+        "음악 작품"
+      ]
+    },
+    {
+      "name": "Band",
+      "source_table": "Band",
+      "ranking": 1.0,
+      "primary_label": "band",
+      "synonyms": [
+        "밴드",
+        "음악 그룹",
+        "음악 팀",
+        "음악 단체",
+        "음악 클럽"
+      ]
+    },
+    {
+      "name": "Instruments",
+      "source_table": "Instruments",
+      "ranking": 3.0,
+      "primary_label": "instruments",
+      "synonyms": [
+        "악기",
+        "악기 목록",
+        "악기 정보",
+        "악기 데이터"
+      ]
+    },
+    {
+      "name": "Performance",
+      "source_table": "Performance",
+      "ranking": 3.5,
+      "primary_label": "성과",
+      "synonyms": [
+        "연주회",
+        "공연",
+        "연주",
+        "공연 정보",
+        "연주 기록"
+      ]
+    },
+    {
+      "name": "Tracklists",
+      "source_table": "Tracklists",
+      "ranking": 3.5,
+      "primary_label": "트랙 리스트",
+      "synonyms": [
+        "트랙 리스트",
+        "트랙 목록",
+        "곡 목록",
+        "트랙 순서",
+        "트랙 목록 정보"
+      ]
+    },
+    {
+      "name": "Vocals",
+      "source_table": "Vocals",
+      "ranking": 3.0,
+      "primary_label": "vocals",
+      "synonyms": []
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Songs_SongId",
+      "domain": "Songs",
+      "source_table": "Songs",
+      "source_column": "SongId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "song id",
+      "synonyms": [
+        "SONG_ID",
+        "SONG",
+        "SONG_IDENTIFIER",
+        "TRACK_ID",
+        "TRACK",
+        "TRACK_IDENTIFIER",
+        "SONG_NUMBER"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Songs_Title",
+      "domain": "Songs",
+      "source_table": "Songs",
+      "source_column": "Title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "title",
+      "synonyms": [
+        "TITLE",
+        "SONG_NAME",
+        "TRACK_NAME",
+        "SONG_TITLE",
+        "TRACK_TITLE"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Albums_AId",
+      "domain": "Albums",
+      "source_table": "Albums",
+      "source_column": "AId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "aid",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Albums_Title",
+      "domain": "Albums",
+      "source_table": "Albums",
+      "source_column": "Title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "title",
+      "synonyms": [
+        "제목",
+        "앨범명",
+        "앨범 이름",
+        "음반 제목",
+        "음반 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Albums_Year",
+      "domain": "Albums",
+      "source_table": "Albums",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "년도",
+        "발매 연도",
+        "연도",
+        "앨범 연도",
+        "발매년도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Albums_Label",
+      "domain": "Albums",
+      "source_table": "Albums",
+      "source_column": "Label",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "label",
+      "synonyms": [
+        "레이블",
+        "출판사",
+        "라이브러리",
+        "레이블명",
+        "레이블 정보",
+        "출판자",
+        "음악 라이브러리",
+        "레이블명 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Albums_Type",
+      "domain": "Albums",
+      "source_table": "Albums",
+      "source_column": "Type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "type",
+      "synonyms": [
+        "타입",
+        "음악 유형",
+        "앨범 종류",
+        "형태",
+        "음악 앨범 유형",
+        "타입 정보",
+        "앨범 카테고리",
+        "음악 타입"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Band_Id",
+      "domain": "Band",
+      "source_table": "Band",
+      "source_column": "Id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "아이디",
+        "ID",
+        "아이디 번호",
+        "고유 번호",
+        "ID 값",
+        "아이디 코드",
+        "ID 식별자",
+        "고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Band_Firstname",
+      "domain": "Band",
+      "source_table": "Band",
+      "source_column": "Firstname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "first name",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Band_Lastname",
+      "domain": "Band",
+      "source_table": "Band",
+      "source_column": "Lastname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "last name",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Instruments_SongId",
+      "domain": "Instruments",
+      "source_table": "Instruments",
+      "source_column": "SongId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "song id",
+      "synonyms": [
+        "곡 ID",
+        "노래 ID",
+        "곡 번호",
+        "SONG_ID",
+        "곡 식별자",
+        "곡 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Instruments_BandmateId",
+      "domain": "Instruments",
+      "source_table": "Instruments",
+      "source_column": "BandmateId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "bandmate id",
+      "synonyms": [
+        "연주자 ID",
+        "연주단 ID",
+        "BANDMATE_ID",
+        "BANDMATE",
+        "연주자 식별자",
+        "연주자 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Instruments_Instrument",
+      "domain": "Instruments",
+      "source_table": "Instruments",
+      "source_column": "Instrument",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "instrument",
+      "synonyms": [
+        "악기",
+        "악기 이름",
+        "악기 종류",
+        "악기명",
+        "INSTRUMENT",
+        "악기 타입",
+        "INSTRUMENT_NAME"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Performance_SongId",
+      "domain": "Performance",
+      "source_table": "Performance",
+      "source_column": "SongId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "song id",
+      "synonyms": [
+        "곡 ID",
+        "곡 식별 번호",
+        "곡 번호",
+        "SONG_ID",
+        "곡 아이디",
+        "곡 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Performance_Bandmate",
+      "domain": "Performance",
+      "source_table": "Performance",
+      "source_column": "Bandmate",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "bandmate",
+      "synonyms": [
+        "밴드원 ID",
+        "밴드원 번호",
+        "밴드원 식별자",
+        "BANDMATE_ID",
+        "밴드원 아이디",
+        "밴드원"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Performance_StagePosition",
+      "domain": "Performance",
+      "source_table": "Performance",
+      "source_column": "StagePosition",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "stage position",
+      "synonyms": [
+        "무대 위치",
+        "무대 순서",
+        "무대 위치 정보",
+        "스테이지 위치",
+        "스테이지 순서"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Tracklists_AlbumId",
+      "domain": "Tracklists",
+      "source_table": "Tracklists",
+      "source_column": "AlbumId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "앨범 id",
+      "synonyms": [
+        "앨범 ID",
+        "앨범 번호",
+        "음악 앨범 식별자",
+        "AId",
+        "앨범 식별 번호",
+        "앨범 코드",
+        "AlbumId"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Tracklists_Position",
+      "domain": "Tracklists",
+      "source_table": "Tracklists",
+      "source_column": "Position",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "위치",
+      "synonyms": [
+        "순서",
+        "위치",
+        "순번",
+        "구성 순서",
+        "순위",
+        "위치 번호",
+        "Position",
+        "순서 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "첫 번째",
+          "1위"
+        ],
+        "2": [
+          "두 번째",
+          "2위"
+        ]
+      }
+    },
+    {
+      "name": "Tracklists_SongId",
+      "domain": "Tracklists",
+      "source_table": "Tracklists",
+      "source_column": "SongId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "노래 id",
+      "synonyms": [
+        "곡 ID",
+        "곡 번호",
+        "곡 식별자",
+        "곡 코드",
+        "SongId",
+        "곡 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Vocals_SongId",
+      "domain": "Vocals",
+      "source_table": "Vocals",
+      "source_column": "SongId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "song id",
+      "synonyms": [
+        "SONG_ID",
+        "SONG",
+        "SONG_NUMBER",
+        "SONG_IDENTIFIER",
+        "SONG_KEY",
+        "SONG_REF"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Vocals_Bandmate",
+      "domain": "Vocals",
+      "source_table": "Vocals",
+      "source_column": "Bandmate",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "bandmate",
+      "synonyms": [
+        "BAND_MEMBER",
+        "BAND_MATE",
+        "BAND_ID",
+        "BAND_MEMBER_ID",
+        "BAND_MATE_ID",
+        "BAND_MEMBER_REF",
+        "BAND_MATE_REF"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Vocals_Type",
+      "domain": "Vocals",
+      "source_table": "Vocals",
+      "source_column": "Type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "type",
+      "synonyms": [
+        "VOICE_TYPE",
+        "SINGING_TYPE",
+        "VOICE_CATEGORY",
+        "SING_TYPE",
+        "SINGING_STYLE",
+        "VOICE_KIND"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Instruments_Band_fk0",
+      "domain": "Instruments",
+      "range": "Band",
+      "source_fk": [
+        "Instruments.BandmateId",
+        "Band.Id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Instruments_Songs_fk1",
+      "domain": "Instruments",
+      "range": "Songs",
+      "source_fk": [
+        "Instruments.SongId",
+        "Songs.SongId"
+      ],
+      "weight": 1.0,
+      "primary_label": "악기 사용",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Performance_Band_fk2",
+      "domain": "Performance",
+      "range": "Band",
+      "source_fk": [
+        "Performance.Bandmate",
+        "Band.Id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Performance_Songs_fk3",
+      "domain": "Performance",
+      "range": "Songs",
+      "source_fk": [
+        "Performance.SongId",
+        "Songs.SongId"
+      ],
+      "weight": 1.0,
+      "primary_label": "연주",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Tracklists_Albums_fk4",
+      "domain": "Tracklists",
+      "range": "Albums",
+      "source_fk": [
+        "Tracklists.AlbumId",
+        "Albums.AId"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Tracklists_Songs_fk5",
+      "domain": "Tracklists",
+      "range": "Songs",
+      "source_fk": [
+        "Tracklists.SongId",
+        "Songs.SongId"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Vocals_Band_fk6",
+      "domain": "Vocals",
+      "range": "Band",
+      "source_fk": [
+        "Vocals.Bandmate",
+        "Band.Id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Vocals_Songs_fk7",
+      "domain": "Vocals",
+      "range": "Songs",
+      "source_fk": [
+        "Vocals.SongId",
+        "Songs.SongId"
+      ],
+      "weight": 1.0,
+      "primary_label": "보컬",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

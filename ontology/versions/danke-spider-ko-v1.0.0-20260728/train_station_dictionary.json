@@ -1,0 +1,837 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "역",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "승강장",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "역 정보",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "철도역",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "역 데이터",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "철도차량",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차 정보",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차 데이터",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "철도열차",
+      "target_class": "train",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "기차역",
+      "target_class": "train_station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차 승강장",
+      "target_class": "train_station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차-역 연동",
+      "target_class": "train_station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차와 승강장",
+      "target_class": "train_station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차 승강장 정보",
+      "target_class": "train_station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "열차-역 관계",
+      "target_class": "train_station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 ID",
+      "target_class": "station",
+      "target_property": "station_Station_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역번호",
+      "target_class": "station",
+      "target_property": "station_Station_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 식별자",
+      "target_class": "station",
+      "target_property": "station_Station_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션 ID",
+      "target_class": "station",
+      "target_property": "station_Station_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션 번호",
+      "target_class": "station",
+      "target_property": "station_Station_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 고유 번호",
+      "target_class": "station",
+      "target_property": "station_Station_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "station",
+      "target_property": "station_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역명",
+      "target_class": "station",
+      "target_property": "station_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션 이름",
+      "target_class": "station",
+      "target_property": "station_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 이름",
+      "target_class": "station",
+      "target_property": "station_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션명",
+      "target_class": "station",
+      "target_property": "station_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역의 이름",
+      "target_class": "station",
+      "target_property": "station_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 입출입 인원",
+      "target_class": "station",
+      "target_property": "station_Annual_entry_exit",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 입출입 수",
+      "target_class": "station",
+      "target_property": "station_Annual_entry_exit",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 이동 인원",
+      "target_class": "station",
+      "target_property": "station_Annual_entry_exit",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 입출입",
+      "target_class": "station",
+      "target_property": "station_Annual_entry_exit",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 이동 수",
+      "target_class": "station",
+      "target_property": "station_Annual_entry_exit",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 인원 수",
+      "target_class": "station",
+      "target_property": "station_Annual_entry_exit",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 입출입 인원 수",
+      "target_class": "station",
+      "target_property": "station_Annual_entry_exit",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 이동 인원 수",
+      "target_class": "station",
+      "target_property": "station_Annual_entry_exit",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 교환 인원",
+      "target_class": "station",
+      "target_property": "station_Annual_interchanges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 교환 수치",
+      "target_class": "station",
+      "target_property": "station_Annual_interchanges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 교통량 교환",
+      "target_class": "station",
+      "target_property": "station_Annual_interchanges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 교환 통계",
+      "target_class": "station",
+      "target_property": "station_Annual_interchanges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 교환 횟수",
+      "target_class": "station",
+      "target_property": "station_Annual_interchanges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교환 수치",
+      "target_class": "station",
+      "target_property": "station_Annual_interchanges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 교환 데이터",
+      "target_class": "station",
+      "target_property": "station_Annual_interchanges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 교환 기준",
+      "target_class": "station",
+      "target_property": "station_Annual_interchanges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 교환 통계치",
+      "target_class": "station",
+      "target_property": "station_Annual_interchanges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 승하차 인원",
+      "target_class": "station",
+      "target_property": "station_Total_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 총 탑승 인원",
+      "target_class": "station",
+      "target_property": "station_Total_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 탑승 인원",
+      "target_class": "station",
+      "target_property": "station_Total_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 인원 수",
+      "target_class": "station",
+      "target_property": "station_Total_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 탑승 수치",
+      "target_class": "station",
+      "target_property": "station_Total_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 탑승 통계",
+      "target_class": "station",
+      "target_property": "station_Total_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 탑승 기준",
+      "target_class": "station",
+      "target_property": "station_Total_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연간 인원 통계",
+      "target_class": "station",
+      "target_property": "station_Total_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "station",
+      "target_property": "station_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "station",
+      "target_property": "station_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 데이터",
+      "target_class": "station",
+      "target_property": "station_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지하철역 위치",
+      "target_class": "station",
+      "target_property": "station_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지하철역 위치 정보",
+      "target_class": "station",
+      "target_property": "station_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 지정",
+      "target_class": "station",
+      "target_property": "station_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 기준",
+      "target_class": "station",
+      "target_property": "station_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주요 서비스",
+      "target_class": "station",
+      "target_property": "station_Main_Services",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 유형",
+      "target_class": "station",
+      "target_property": "station_Main_Services",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주요 기능",
+      "target_class": "station",
+      "target_property": "station_Main_Services",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 내용",
+      "target_class": "station",
+      "target_property": "station_Main_Services",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주요 제공 서비스",
+      "target_class": "station",
+      "target_property": "station_Main_Services",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 종류",
+      "target_class": "station",
+      "target_property": "station_Main_Services",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주요 서비스 정보",
+      "target_class": "station",
+      "target_property": "station_Main_Services",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 타입",
+      "target_class": "station",
+      "target_property": "station_Main_Services",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플랫폼 수",
+      "target_class": "station",
+      "target_property": "station_Number_of_Platforms",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플랫폼 개수",
+      "target_class": "station",
+      "target_property": "station_Number_of_Platforms",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플랫폼 수량",
+      "target_class": "station",
+      "target_property": "station_Number_of_Platforms",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 플랫폼 수",
+      "target_class": "station",
+      "target_property": "station_Number_of_Platforms",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플랫폼 수치",
+      "target_class": "station",
+      "target_property": "station_Number_of_Platforms",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 ID",
+      "target_class": "train",
+      "target_property": "train_Train_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 번호",
+      "target_class": "train",
+      "target_property": "train_Train_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트레인 ID",
+      "target_class": "train",
+      "target_property": "train_Train_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트레인 번호",
+      "target_class": "train",
+      "target_property": "train_Train_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 식별자",
+      "target_class": "train",
+      "target_property": "train_Train_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트레인 식별자",
+      "target_class": "train",
+      "target_property": "train_Train_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 고유 번호",
+      "target_class": "train",
+      "target_property": "train_Train_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "타이틀",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 이름",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 타이틀",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트레인 이름",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트레인 타이틀",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 명",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간",
+      "target_class": "train",
+      "target_property": "train_Time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운행 시간",
+      "target_class": "train",
+      "target_property": "train_Time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발 시간",
+      "target_class": "train",
+      "target_property": "train_Time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트레인 시간",
+      "target_class": "train",
+      "target_property": "train_Time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트레인 운행 시간",
+      "target_class": "train",
+      "target_property": "train_Time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트레인 출발 시간",
+      "target_class": "train",
+      "target_property": "train_Time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 정보",
+      "target_class": "train",
+      "target_property": "train_Time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스",
+      "target_class": "train",
+      "target_property": "train_Service",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운행 서비스",
+      "target_class": "train",
+      "target_property": "train_Service",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "열차 서비스",
+      "target_class": "train",
+      "target_property": "train_Service",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 유형",
+      "target_class": "train",
+      "target_property": "train_Service",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운행 서비스 유형",
+      "target_class": "train",
+      "target_property": "train_Service",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 정보",
+      "target_class": "train",
+      "target_property": "train_Service",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운행 서비스 내용",
+      "target_class": "train",
+      "target_property": "train_Service",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 코드",
+      "target_class": "train",
+      "target_property": "train_Service",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기차 id",
+      "target_class": "train_station",
+      "target_property": "train_station_Train_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 id",
+      "target_class": "train_station",
+      "target_property": "train_station_Station_ID",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "KTX",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": "KTX"
+    },
+    {
+      "entry_type": "value",
+      "key": "경전철",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": "KTX"
+    },
+    {
+      "entry_type": "value",
+      "key": "SRT",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": "SRT"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울-부산",
+      "target_class": "train",
+      "target_property": "train_Name",
+      "value": "SRT"
+    },
+    {
+      "entry_type": "value",
+      "key": "08:00",
+      "target_class": "train",
+      "target_property": "train_Time",
+      "value": "08:00"
+    },
+    {
+      "entry_type": "value",
+      "key": "08시",
+      "target_class": "train",
+      "target_property": "train_Time",
+      "value": "08:00"
+    },
+    {
+      "entry_type": "value",
+      "key": "오전8시",
+      "target_class": "train",
+      "target_property": "train_Time",
+      "value": "08:00"
+    },
+    {
+      "entry_type": "value",
+      "key": "18:30",
+      "target_class": "train",
+      "target_property": "train_Time",
+      "value": "18:30"
+    },
+    {
+      "entry_type": "value",
+      "key": "18시30분",
+      "target_class": "train",
+      "target_property": "train_Time",
+      "value": "18:30"
+    },
+    {
+      "entry_type": "value",
+      "key": "오후6시30분",
+      "target_class": "train",
+      "target_property": "train_Time",
+      "value": "18:30"
+    },
+    {
+      "entry_type": "value",
+      "key": "일반",
+      "target_class": "train",
+      "target_property": "train_Service",
+      "value": "일반"
+    },
+    {
+      "entry_type": "value",
+      "key": "일반 서비스",
+      "target_class": "train",
+      "target_property": "train_Service",
+      "value": "일반"
+    },
+    {
+      "entry_type": "value",
+      "key": "특급",
+      "target_class": "train",
+      "target_property": "train_Service",
+      "value": "특급"
+    },
+    {
+      "entry_type": "value",
+      "key": "특급 서비스",
+      "target_class": "train",
+      "target_property": "train_Service",
+      "value": "특급"
+    },
+    {
+      "entry_type": "value",
+      "key": "고속",
+      "target_class": "train",
+      "target_property": "train_Service",
+      "value": "특급"
+    }
+  ]
+}

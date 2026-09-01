@@ -1,0 +1,408 @@
+{
+  "db_id": "wedding",
+  "classes": [
+    {
+      "name": "people",
+      "source_table": "people",
+      "ranking": 1.0,
+      "primary_label": "people",
+      "synonyms": [
+        "인물",
+        "참여자",
+        "개인",
+        "이름",
+        "인원"
+      ]
+    },
+    {
+      "name": "church",
+      "source_table": "church",
+      "ranking": 3.0,
+      "primary_label": "교회",
+      "synonyms": [
+        "교회",
+        "성당",
+        "예배소",
+        "교회 정보",
+        "종교 기관"
+      ]
+    },
+    {
+      "name": "wedding",
+      "source_table": "wedding",
+      "ranking": 3.0,
+      "primary_label": "결혼 정보",
+      "synonyms": [
+        "결혼식",
+        "결혼",
+        "혼인",
+        "결혼식 정보",
+        "혼인식"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "people_People_ID",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "People_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "people id",
+      "synonyms": [
+        "People_ID",
+        "인물 ID",
+        "개인 번호",
+        "식별 번호",
+        "ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Name",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "Name",
+        "이름",
+        "성명",
+        "인물 이름",
+        "개인 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Country",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "country",
+      "synonyms": [
+        "Country",
+        "국가",
+        "국적",
+        "나라",
+        "국가 정보",
+        "국적 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Is_Male",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Is_Male",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "is male",
+      "synonyms": [
+        "성별",
+        "남녀",
+        "성별 여부",
+        "성별 정보",
+        "성별 상태",
+        "남자 여자",
+        "성별 구분",
+        "성별 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Age",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "연령",
+        "나이",
+        "연세",
+        "나이 정보",
+        "연령 데이터",
+        "나이 구분",
+        "연령 상태",
+        "나이 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "church_Church_ID",
+      "domain": "church",
+      "source_table": "church",
+      "source_column": "Church_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "교회 ID",
+      "synonyms": [
+        "교회 ID",
+        "교회 식별 번호",
+        "교회 고유 번호",
+        "교회 코드",
+        "Church ID",
+        "교회 번호",
+        "교회 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "church_Name",
+      "domain": "church",
+      "source_table": "church",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "교회 이름",
+        "교회명",
+        "교회 공식 이름",
+        "교회 제목",
+        "교회 표지",
+        "교회 라벨"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국성당": [
+          "한국성당",
+          "성당"
+        ]
+      }
+    },
+    {
+      "name": "church_Organized_by",
+      "domain": "church",
+      "source_table": "church",
+      "source_column": "Organized_by",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "운영자",
+      "synonyms": [
+        "운영 주체",
+        "운영자",
+        "운영 단체",
+        "운영 주도자",
+        "운영 기관",
+        "운영자 이름",
+        "운영 주체 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국교회협회": [
+          "한국교회협회",
+          "협회"
+        ]
+      }
+    },
+    {
+      "name": "church_Open_Date",
+      "domain": "church",
+      "source_table": "church",
+      "source_column": "Open_Date",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "개관일",
+      "synonyms": [
+        "개관일",
+        "개관 날짜",
+        "운영 시작일",
+        "개설일",
+        "운영 시작 날짜",
+        "개관일자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "church_Continuation_of",
+      "domain": "church",
+      "source_table": "church",
+      "source_column": "Continuation_of",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "계속된 교회",
+      "synonyms": [
+        "계승 교회",
+        "이전 교회",
+        "계승 대상",
+        "이어진 교회",
+        "계승 이름",
+        "이어짐 교회",
+        "계승 대상 교회",
+        "이어진 교회 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울성당": [
+          "서울성당",
+          "서울성당"
+        ]
+      }
+    },
+    {
+      "name": "wedding_Church_ID",
+      "domain": "wedding",
+      "source_table": "wedding",
+      "source_column": "Church_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "교회 ID",
+      "synonyms": [
+        "교회 ID",
+        "교회 식별자",
+        "교회 번호",
+        "교회 코드",
+        "교회 고유 ID",
+        "교회 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "wedding_Male_ID",
+      "domain": "wedding",
+      "source_table": "wedding",
+      "source_column": "Male_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "남성 ID",
+      "synonyms": [
+        "남자 ID",
+        "남성 ID",
+        "남자 식별자",
+        "남성 식별 번호",
+        "남자 고유 ID",
+        "남성 고유 ID",
+        "남자 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "wedding_Female_ID",
+      "domain": "wedding",
+      "source_table": "wedding",
+      "source_column": "Female_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "여성 ID",
+      "synonyms": [
+        "여자 ID",
+        "여성 ID",
+        "여자 식별자",
+        "여성 식별 번호",
+        "여자 고유 ID",
+        "여성 고유 ID",
+        "여성 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "wedding_Year",
+      "domain": "wedding",
+      "source_table": "wedding",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "결혼년도",
+        "년도 정보",
+        "년도 데이터",
+        "결혼식 연도",
+        "연도 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": [
+          "2020년"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "wedding_people_fk0",
+      "domain": "wedding",
+      "range": "people",
+      "source_fk": [
+        "wedding.Female_ID",
+        "people.People_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "결혼한 여성",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "wedding_people_fk1",
+      "domain": "wedding",
+      "range": "people",
+      "source_fk": [
+        "wedding.Male_ID",
+        "people.People_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "결혼한 남성",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "wedding_church_fk2",
+      "domain": "wedding",
+      "range": "church",
+      "source_fk": [
+        "wedding.Church_ID",
+        "church.Church_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "결혼 장소",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

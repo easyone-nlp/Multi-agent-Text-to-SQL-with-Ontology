@@ -1,0 +1,336 @@
+{
+  "db_id": "soccer_2",
+  "classes": [
+    {
+      "name": "College",
+      "source_table": "College",
+      "ranking": 3.0,
+      "primary_label": "대학",
+      "synonyms": [
+        "대학",
+        "고등학교",
+        "학교",
+        "학원"
+      ]
+    },
+    {
+      "name": "Player",
+      "source_table": "Player",
+      "ranking": 3.0,
+      "primary_label": "플레이어",
+      "synonyms": [
+        "선수",
+        "축구인",
+        "플레이어",
+        "경기참가자"
+      ]
+    },
+    {
+      "name": "Tryout",
+      "source_table": "Tryout",
+      "ranking": 3.0,
+      "primary_label": "tryout",
+      "synonyms": [
+        "시범 경기",
+        "훈련",
+        "선발 시험",
+        "트라이아웃",
+        "선발 훈련"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "College_cName",
+      "domain": "College",
+      "source_table": "College",
+      "source_column": "cName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "대학 이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "한국대학교": [
+          "한국대",
+          "한국대학교"
+        ],
+        "서울대학교": [
+          "서울대"
+        ]
+      }
+    },
+    {
+      "name": "College_state",
+      "domain": "College",
+      "source_table": "College",
+      "source_column": "state",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "주",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울시"
+        ],
+        "경기": [
+          "경기도"
+        ]
+      }
+    },
+    {
+      "name": "College_enr",
+      "domain": "College",
+      "source_table": "College",
+      "source_column": "enr",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "입학생 수",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_pID",
+      "domain": "Player",
+      "source_table": "Player",
+      "source_column": "pID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "플레이어 id",
+      "synonyms": [
+        "pID",
+        "플레이어 ID",
+        "플레이어 번호",
+        "플레이어 고유 번호",
+        "pID 값",
+        "플레이어 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Player_pName",
+      "domain": "Player",
+      "source_table": "Player",
+      "source_column": "pName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "플레이어 이름",
+      "synonyms": [
+        "pName",
+        "플레이어 이름",
+        "선수 이름",
+        "선수명",
+        "pName 값",
+        "플레이어 대표 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "이지훈": [
+          "이지훈"
+        ]
+      }
+    },
+    {
+      "name": "Player_yCard",
+      "domain": "Player",
+      "source_table": "Player",
+      "source_column": "yCard",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "예카드",
+      "synonyms": [
+        "yCard",
+        "노란카드",
+        "yellow card 기록",
+        "yCard 값",
+        "노란카드 기록",
+        "플레이어 노란카드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "예": [
+          "예",
+          "yes"
+        ],
+        "아니오": [
+          "아니오",
+          "no"
+        ]
+      }
+    },
+    {
+      "name": "Player_HS",
+      "domain": "Player",
+      "source_table": "Player",
+      "source_column": "HS",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "트레이닝 시간",
+      "synonyms": [
+        "훈련 시간",
+        "수업 시간",
+        "훈련 소요 시간",
+        "HS",
+        "훈련 시간 수",
+        "훈련 시수",
+        "수업 소요 시간"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Tryout_pID",
+      "domain": "Tryout",
+      "source_table": "Tryout",
+      "source_column": "pID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "플레이어 id",
+      "synonyms": [
+        "pID",
+        "선수 ID",
+        "선수 식별자",
+        "플레이어 ID",
+        "플레이어 식별자",
+        "선수 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Tryout_cName",
+      "domain": "Tryout",
+      "source_table": "Tryout",
+      "source_column": "cName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "대학 이름",
+      "synonyms": [
+        "cName",
+        "대학 이름",
+        "대학명",
+        "대학",
+        "college name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국대학교": [
+          "한국대",
+          "한국대"
+        ],
+        "서울대학교": [
+          "서울대"
+        ]
+      }
+    },
+    {
+      "name": "Tryout_pPos",
+      "domain": "Tryout",
+      "source_table": "Tryout",
+      "source_column": "pPos",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "플레이어 포지션",
+      "synonyms": [
+        "pPos",
+        "선수 위치",
+        "선수 역할",
+        "플레이어 위치",
+        "위치"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "수비수": [
+          "수비"
+        ],
+        "공격수": [
+          "공격"
+        ]
+      }
+    },
+    {
+      "name": "Tryout_decision",
+      "domain": "Tryout",
+      "source_table": "Tryout",
+      "source_column": "decision",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "결정",
+      "synonyms": [
+        "결과",
+        "결정",
+        "판정",
+        "결과 정보",
+        "결정 사항",
+        "판정 결과",
+        "결과 내용",
+        "결정 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승인": [
+          "승인"
+        ],
+        "거부": [
+          "거부"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Tryout_College_fk0",
+      "domain": "Tryout",
+      "range": "College",
+      "source_fk": [
+        "Tryout.cName",
+        "College.cName"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Tryout_Player_fk1",
+      "domain": "Tryout",
+      "range": "Player",
+      "source_fk": [
+        "Tryout.pID",
+        "Player.pID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

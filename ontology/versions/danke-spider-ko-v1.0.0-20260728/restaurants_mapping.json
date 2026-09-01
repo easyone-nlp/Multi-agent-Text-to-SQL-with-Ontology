@@ -1,0 +1,67 @@
+{
+  "class_table": {
+    "GEOGRAPHIC": "GEOGRAPHIC",
+    "RESTAURANT": "RESTAURANT",
+    "LOCATION": "LOCATION"
+  },
+  "property_column": {
+    "GEOGRAPHIC_CITY_NAME": [
+      "GEOGRAPHIC",
+      "CITY_NAME"
+    ],
+    "GEOGRAPHIC_COUNTY": [
+      "GEOGRAPHIC",
+      "COUNTY"
+    ],
+    "GEOGRAPHIC_REGION": [
+      "GEOGRAPHIC",
+      "REGION"
+    ],
+    "RESTAURANT_ID": [
+      "RESTAURANT",
+      "ID"
+    ],
+    "RESTAURANT_NAME": [
+      "RESTAURANT",
+      "NAME"
+    ],
+    "RESTAURANT_FOOD_TYPE": [
+      "RESTAURANT",
+      "FOOD_TYPE"
+    ],
+    "RESTAURANT_CITY_NAME": [
+      "RESTAURANT",
+      "CITY_NAME"
+    ],
+    "RESTAURANT_RATING": [
+      "RESTAURANT",
+      "RATING"
+    ],
+    "LOCATION_RESTAURANT_ID": [
+      "LOCATION",
+      "RESTAURANT_ID"
+    ],
+    "LOCATION_HOUSE_NUMBER": [
+      "LOCATION",
+      "HOUSE_NUMBER"
+    ],
+    "LOCATION_STREET_NAME": [
+      "LOCATION",
+      "STREET_NAME"
+    ],
+    "LOCATION_CITY_NAME": [
+      "LOCATION",
+      "CITY_NAME"
+    ]
+  },
+  "object_property_fk": {
+    "RESTAURANT_GEOGRAPHIC_fk0": [
+      "RESTAURANT.CITY_NAME",
+      "GEOGRAPHIC.CITY_NAME"
+    ],
+    "LOCATION_GEOGRAPHIC_fk1": [
+      "LOCATION.CITY_NAME",
+      "GEOGRAPHIC.CITY_NAME"
+    ]
+  }
+}

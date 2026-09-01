@@ -1,0 +1,124 @@
+{
+  "class_table": {
+    "city": "city",
+    "sqlite_sequence": "sqlite_sequence",
+    "country": "country",
+    "countrylanguage": "countrylanguage"
+  },
+  "property_column": {
+    "city_ID": [
+      "city",
+      "ID"
+    ],
+    "city_Name": [
+      "city",
+      "Name"
+    ],
+    "city_CountryCode": [
+      "city",
+      "CountryCode"
+    ],
+    "city_District": [
+      "city",
+      "District"
+    ],
+    "city_Population": [
+      "city",
+      "Population"
+    ],
+    "sqlite_sequence_name": [
+      "sqlite_sequence",
+      "name"
+    ],
+    "sqlite_sequence_seq": [
+      "sqlite_sequence",
+      "seq"
+    ],
+    "country_Code": [
+      "country",
+      "Code"
+    ],
+    "country_Name": [
+      "country",
+      "Name"
+    ],
+    "country_Continent": [
+      "country",
+      "Continent"
+    ],
+    "country_Region": [
+      "country",
+      "Region"
+    ],
+    "country_SurfaceArea": [
+      "country",
+      "SurfaceArea"
+    ],
+    "country_IndepYear": [
+      "country",
+      "IndepYear"
+    ],
+    "country_Population": [
+      "country",
+      "Population"
+    ],
+    "country_LifeExpectancy": [
+      "country",
+      "LifeExpectancy"
+    ],
+    "country_GNP": [
+      "country",
+      "GNP"
+    ],
+    "country_GNPOld": [
+      "country",
+      "GNPOld"
+    ],
+    "country_LocalName": [
+      "country",
+      "LocalName"
+    ],
+    "country_GovernmentForm": [
+      "country",
+      "GovernmentForm"
+    ],
+    "country_HeadOfState": [
+      "country",
+      "HeadOfState"
+    ],
+    "country_Capital": [
+      "country",
+      "Capital"
+    ],
+    "country_Code2": [
+      "country",
+      "Code2"
+    ],
+    "countrylanguage_CountryCode": [
+      "countrylanguage",
+      "CountryCode"
+    ],
+    "countrylanguage_Language": [
+      "countrylanguage",
+      "Language"
+    ],
+    "countrylanguage_IsOfficial": [
+      "countrylanguage",
+      "IsOfficial"
+    ],
+    "countrylanguage_Percentage": [
+      "countrylanguage",
+      "Percentage"
+    ]
+  },
+  "object_property_fk": {
+    "city_country_fk0": [
+      "city.CountryCode",
+      "country.Code"
+    ],
+    "countrylanguage_country_fk1": [
+      "countrylanguage.CountryCode",
+      "country.Code"
+    ]
+  }
+}

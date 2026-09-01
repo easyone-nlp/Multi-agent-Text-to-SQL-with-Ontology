@@ -1,0 +1,1824 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "staff",
+      "target_class": "Staff",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "직원",
+      "target_class": "Staff",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "직무",
+      "target_class": "Staff",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "근로자",
+      "target_class": "Staff",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사원",
+      "target_class": "Staff",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "직책",
+      "target_class": "Staff",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객자",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이용자",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객층",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상품",
+      "target_class": "Products",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "제품",
+      "target_class": "Products",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "물품",
+      "target_class": "Products",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "제조품",
+      "target_class": "Products",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "제품명",
+      "target_class": "Products",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "불만 제기",
+      "target_class": "Complaints",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "staff id",
+      "target_class": "Staff",
+      "target_property": "Staff_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 ID",
+      "target_class": "Staff",
+      "target_property": "Staff_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 번호",
+      "target_class": "Staff",
+      "target_property": "Staff_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 식별자",
+      "target_class": "Staff",
+      "target_property": "Staff_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 고유 ID",
+      "target_class": "Staff",
+      "target_property": "Staff_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "staff_id",
+      "target_class": "Staff",
+      "target_property": "Staff_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 코드",
+      "target_class": "Staff",
+      "target_property": "Staff_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gender",
+      "target_class": "Staff",
+      "target_property": "Staff_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별",
+      "target_class": "Staff",
+      "target_property": "Staff_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Staff",
+      "target_property": "Staff_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 정보",
+      "target_class": "Staff",
+      "target_property": "Staff_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 코드",
+      "target_class": "Staff",
+      "target_property": "Staff_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 구분",
+      "target_class": "Staff",
+      "target_property": "Staff_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 데이터",
+      "target_class": "Staff",
+      "target_property": "Staff_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "first name",
+      "target_class": "Staff",
+      "target_property": "Staff_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Staff",
+      "target_property": "Staff_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "Staff",
+      "target_property": "Staff_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명 첫 글자",
+      "target_class": "Staff",
+      "target_property": "Staff_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "Staff",
+      "target_property": "Staff_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "first_name",
+      "target_class": "Staff",
+      "target_property": "Staff_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 데이터",
+      "target_class": "Staff",
+      "target_property": "Staff_first_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last name",
+      "target_class": "Staff",
+      "target_property": "Staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Staff",
+      "target_property": "Staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Staff",
+      "target_property": "Staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "Staff",
+      "target_property": "Staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성자",
+      "target_class": "Staff",
+      "target_property": "Staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성부",
+      "target_class": "Staff",
+      "target_property": "Staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성자명",
+      "target_class": "Staff",
+      "target_property": "Staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 이름",
+      "target_class": "Staff",
+      "target_property": "Staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성부분",
+      "target_class": "Staff",
+      "target_property": "Staff_last_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "email address",
+      "target_class": "Staff",
+      "target_property": "Staff_email_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "phone number",
+      "target_class": "Staff",
+      "target_property": "Staff_phone_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 번호",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 코드",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_id",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 고객 ID",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 유형 코드",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 코드",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 구분 코드",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 타입 코드",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 구분",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_type_code",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 유형",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 라인 1",
+      "target_class": "Customers",
+      "target_property": "Customers_address_line_1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 줄 1",
+      "target_class": "Customers",
+      "target_property": "Customers_address_line_1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 첫 번째 줄",
+      "target_class": "Customers",
+      "target_property": "Customers_address_line_1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소1",
+      "target_class": "Customers",
+      "target_property": "Customers_address_line_1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "address_line_1",
+      "target_class": "Customers",
+      "target_property": "Customers_address_line_1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 첫째 줄",
+      "target_class": "Customers",
+      "target_property": "Customers_address_line_1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 라인 2",
+      "target_class": "Customers",
+      "target_property": "Customers_address_line_2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 두 번째 줄",
+      "target_class": "Customers",
+      "target_property": "Customers_address_line_2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소_2번",
+      "target_class": "Customers",
+      "target_property": "Customers_address_line_2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소_2라인",
+      "target_class": "Customers",
+      "target_property": "Customers_address_line_2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소_두번째",
+      "target_class": "Customers",
+      "target_property": "Customers_address_line_2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시도",
+      "target_class": "Customers",
+      "target_property": "Customers_town_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "Customers",
+      "target_property": "Customers_town_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마을",
+      "target_class": "Customers",
+      "target_property": "Customers_town_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명",
+      "target_class": "Customers",
+      "target_property": "Customers_town_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시_이름",
+      "target_class": "Customers",
+      "target_property": "Customers_town_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마을명",
+      "target_class": "Customers",
+      "target_property": "Customers_town_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시_마을",
+      "target_class": "Customers",
+      "target_property": "Customers_town_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주지",
+      "target_class": "Customers",
+      "target_property": "Customers_town_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주",
+      "target_class": "Customers",
+      "target_property": "Customers_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소_주",
+      "target_class": "Customers",
+      "target_property": "Customers_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소_주역",
+      "target_class": "Customers",
+      "target_property": "Customers_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주_이름",
+      "target_class": "Customers",
+      "target_property": "Customers_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주_코드",
+      "target_class": "Customers",
+      "target_property": "Customers_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주_지역",
+      "target_class": "Customers",
+      "target_property": "Customers_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주_주소",
+      "target_class": "Customers",
+      "target_property": "Customers_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 주소",
+      "target_class": "Customers",
+      "target_property": "Customers_email_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일",
+      "target_class": "Customers",
+      "target_property": "Customers_email_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전자우편 주소",
+      "target_class": "Customers",
+      "target_property": "Customers_email_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "메일 주소",
+      "target_class": "Customers",
+      "target_property": "Customers_email_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 주소 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_email_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 주소를 입력한 값",
+      "target_class": "Customers",
+      "target_property": "Customers_email_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 이메일",
+      "target_class": "Customers",
+      "target_property": "Customers_email_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호",
+      "target_class": "Customers",
+      "target_property": "Customers_phone_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연락처",
+      "target_class": "Customers",
+      "target_property": "Customers_phone_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_phone_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호 필드",
+      "target_class": "Customers",
+      "target_property": "Customers_phone_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "phone number",
+      "target_class": "Customers",
+      "target_property": "Customers_phone_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호 데이터",
+      "target_class": "Customers",
+      "target_property": "Customers_phone_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연락처 번호",
+      "target_class": "Customers",
+      "target_property": "Customers_phone_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 ID",
+      "target_class": "Products",
+      "target_property": "Products_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 ID",
+      "target_class": "Products",
+      "target_property": "Products_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 번호",
+      "target_class": "Products",
+      "target_property": "Products_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 고유번호",
+      "target_class": "Products",
+      "target_property": "Products_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 식별자",
+      "target_class": "Products",
+      "target_property": "Products_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product_id",
+      "target_class": "Products",
+      "target_property": "Products_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 코드",
+      "target_class": "Products",
+      "target_property": "Products_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부모 상품 ID",
+      "target_class": "Products",
+      "target_property": "Products_parent_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부모 제품 ID",
+      "target_class": "Products",
+      "target_property": "Products_parent_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "부모 제품 번호",
+      "target_class": "Products",
+      "target_property": "Products_parent_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 그룹 ID",
+      "target_class": "Products",
+      "target_property": "Products_parent_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 계층 번호",
+      "target_class": "Products",
+      "target_property": "Products_parent_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "parent_product_id",
+      "target_class": "Products",
+      "target_property": "Products_parent_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 계층 코드",
+      "target_class": "Products",
+      "target_property": "Products_parent_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 카테고리 코드",
+      "target_class": "Products",
+      "target_property": "Products_product_category_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 카테고리 코드",
+      "target_class": "Products",
+      "target_property": "Products_product_category_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 분류 코드",
+      "target_class": "Products",
+      "target_property": "Products_product_category_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 카테고리",
+      "target_class": "Products",
+      "target_property": "Products_product_category_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 분류",
+      "target_class": "Products",
+      "target_property": "Products_product_category_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product_category_code",
+      "target_class": "Products",
+      "target_property": "Products_product_category_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 코드",
+      "target_class": "Products",
+      "target_property": "Products_product_category_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 처음 판매일",
+      "target_class": "Products",
+      "target_property": "Products_date_product_first_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 출시일",
+      "target_class": "Products",
+      "target_property": "Products_date_product_first_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 처음 출시 날짜",
+      "target_class": "Products",
+      "target_property": "Products_date_product_first_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 출시일자",
+      "target_class": "Products",
+      "target_property": "Products_date_product_first_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 처음 판매 일자",
+      "target_class": "Products",
+      "target_property": "Products_date_product_first_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 발매일",
+      "target_class": "Products",
+      "target_property": "Products_date_product_first_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 처음 제공 날짜",
+      "target_class": "Products",
+      "target_property": "Products_date_product_first_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 첫 출시일",
+      "target_class": "Products",
+      "target_property": "Products_date_product_first_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 중단일",
+      "target_class": "Products",
+      "target_property": "Products_date_product_discontinued",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 중단일",
+      "target_class": "Products",
+      "target_property": "Products_date_product_discontinued",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 종료일",
+      "target_class": "Products",
+      "target_property": "Products_date_product_discontinued",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 중지 날짜",
+      "target_class": "Products",
+      "target_property": "Products_date_product_discontinued",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 판매 종료일",
+      "target_class": "Products",
+      "target_property": "Products_date_product_discontinued",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 중단 일자",
+      "target_class": "Products",
+      "target_property": "Products_date_product_discontinued",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 철회일",
+      "target_class": "Products",
+      "target_property": "Products_date_product_discontinued",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 판매 중단일",
+      "target_class": "Products",
+      "target_property": "Products_date_product_discontinued",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 종료 일자",
+      "target_class": "Products",
+      "target_property": "Products_date_product_discontinued",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 이름",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 이름",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품명",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 타이틀",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 제목",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품명칭",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 대표 이름",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 표기 이름",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 이름 기재",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 설명",
+      "target_class": "Products",
+      "target_property": "Products_product_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 설명",
+      "target_class": "Products",
+      "target_property": "Products_product_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 소개",
+      "target_class": "Products",
+      "target_property": "Products_product_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 설명문",
+      "target_class": "Products",
+      "target_property": "Products_product_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 정보",
+      "target_class": "Products",
+      "target_property": "Products_product_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 설명내용",
+      "target_class": "Products",
+      "target_property": "Products_product_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 요약",
+      "target_class": "Products",
+      "target_property": "Products_product_description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 가격",
+      "target_class": "Products",
+      "target_property": "Products_product_price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격",
+      "target_class": "Products",
+      "target_property": "Products_product_price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 가격",
+      "target_class": "Products",
+      "target_property": "Products_product_price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격 정보",
+      "target_class": "Products",
+      "target_property": "Products_product_price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 비용",
+      "target_class": "Products",
+      "target_property": "Products_product_price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 요금",
+      "target_class": "Products",
+      "target_property": "Products_product_price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격 수치",
+      "target_class": "Products",
+      "target_property": "Products_product_price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 가격값",
+      "target_class": "Products",
+      "target_property": "Products_product_price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 번호",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "complaint_id",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 사항 ID",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 식별자",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 번호",
+      "target_class": "Complaints",
+      "target_property": "Complaints_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 ID",
+      "target_class": "Complaints",
+      "target_property": "Complaints_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product_id",
+      "target_class": "Complaints",
+      "target_property": "Complaints_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 식별자",
+      "target_class": "Complaints",
+      "target_property": "Complaints_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 고유 번호",
+      "target_class": "Complaints",
+      "target_property": "Complaints_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 번호",
+      "target_class": "Complaints",
+      "target_property": "Complaints_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "Complaints",
+      "target_property": "Complaints_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_id",
+      "target_class": "Complaints",
+      "target_property": "Complaints_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "Complaints",
+      "target_property": "Complaints_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 고유 번호",
+      "target_class": "Complaints",
+      "target_property": "Complaints_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 결과 코드",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_outcome_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 처리 결과 코드",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_outcome_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 처리 코드",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_outcome_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 처리 상태",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_outcome_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 코드",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_outcome_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "처리 결과",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_outcome_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 결과",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_outcome_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_outcome_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 상태 코드",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 상태",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 현황 코드",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "현황 코드",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 코드",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 현황",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 유형 코드",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 종류 코드",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 유형",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 분류 코드",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유형 코드",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 분류",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 카테고리",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류 코드",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 제기일",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_raised",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 날짜",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_raised",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제기일",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_raised",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 날짜 시간",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_raised",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 불만 날짜",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_raised",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 제기 시각",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_raised",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제기 날짜",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_raised",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 날자",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_raised",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 종료일",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_closed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 처리일",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_closed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "처리 날짜",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_closed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "닫힌 날짜",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_closed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 닫힌 날짜",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_closed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "처리 시각",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_closed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 닫은 날짜",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_closed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "닫는 날짜",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_closed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "불만 처리 일시",
+      "target_class": "Complaints",
+      "target_property": "Complaints_date_complaint_closed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 번호",
+      "target_class": "Complaints",
+      "target_property": "Complaints_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 ID",
+      "target_class": "Complaints",
+      "target_property": "Complaints_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "처리자 ID",
+      "target_class": "Complaints",
+      "target_property": "Complaints_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 식별번호",
+      "target_class": "Complaints",
+      "target_property": "Complaints_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "처리자 번호",
+      "target_class": "Complaints",
+      "target_property": "Complaints_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 코드",
+      "target_class": "Complaints",
+      "target_property": "Complaints_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 식별자",
+      "target_class": "Complaints",
+      "target_property": "Complaints_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "처리자 식별번호",
+      "target_class": "Complaints",
+      "target_property": "Complaints_staff_id",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "B2B",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_type_code",
+      "value": "B2B"
+    },
+    {
+      "entry_type": "value",
+      "key": "B2B 고객",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_type_code",
+      "value": "B2B"
+    },
+    {
+      "entry_type": "value",
+      "key": "기업 고객",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_type_code",
+      "value": "B2B"
+    },
+    {
+      "entry_type": "value",
+      "key": "B2C",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_type_code",
+      "value": "B2C"
+    },
+    {
+      "entry_type": "value",
+      "key": "B2C 고객",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_type_code",
+      "value": "B2C"
+    },
+    {
+      "entry_type": "value",
+      "key": "개인 고객",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_type_code",
+      "value": "B2C"
+    },
+    {
+      "entry_type": "value",
+      "key": "ELECTRONICS",
+      "target_class": "Products",
+      "target_property": "Products_product_category_code",
+      "value": "ELECTRONICS"
+    },
+    {
+      "entry_type": "value",
+      "key": "전자제품",
+      "target_class": "Products",
+      "target_property": "Products_product_category_code",
+      "value": "ELECTRONICS"
+    },
+    {
+      "entry_type": "value",
+      "key": "CLOTHING",
+      "target_class": "Products",
+      "target_property": "Products_product_category_code",
+      "value": "CLOTHING"
+    },
+    {
+      "entry_type": "value",
+      "key": "의류",
+      "target_class": "Products",
+      "target_property": "Products_product_category_code",
+      "value": "CLOTHING"
+    },
+    {
+      "entry_type": "value",
+      "key": "FOOD",
+      "target_class": "Products",
+      "target_property": "Products_product_category_code",
+      "value": "FOOD"
+    },
+    {
+      "entry_type": "value",
+      "key": "식품",
+      "target_class": "Products",
+      "target_property": "Products_product_category_code",
+      "value": "FOOD"
+    },
+    {
+      "entry_type": "value",
+      "key": "S",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_outcome_code",
+      "value": "S"
+    },
+    {
+      "entry_type": "value",
+      "key": "성공",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_outcome_code",
+      "value": "S"
+    },
+    {
+      "entry_type": "value",
+      "key": "성공 처리",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_outcome_code",
+      "value": "S"
+    },
+    {
+      "entry_type": "value",
+      "key": "F",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_outcome_code",
+      "value": "F"
+    },
+    {
+      "entry_type": "value",
+      "key": "실패",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_outcome_code",
+      "value": "F"
+    },
+    {
+      "entry_type": "value",
+      "key": "처리 실패",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_outcome_code",
+      "value": "F"
+    },
+    {
+      "entry_type": "value",
+      "key": "O",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": "O"
+    },
+    {
+      "entry_type": "value",
+      "key": "개시",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": "O"
+    },
+    {
+      "entry_type": "value",
+      "key": "진행 중",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": "O"
+    },
+    {
+      "entry_type": "value",
+      "key": "C",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": "C"
+    },
+    {
+      "entry_type": "value",
+      "key": "종료",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": "C"
+    },
+    {
+      "entry_type": "value",
+      "key": "완료",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": "C"
+    },
+    {
+      "entry_type": "value",
+      "key": "P",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": "P"
+    },
+    {
+      "entry_type": "value",
+      "key": "대기",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": "P"
+    },
+    {
+      "entry_type": "value",
+      "key": "대기 중",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_status_code",
+      "value": "P"
+    },
+    {
+      "entry_type": "value",
+      "key": "T1",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_type_code",
+      "value": "T1"
+    },
+    {
+      "entry_type": "value",
+      "key": "제품 문제",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_type_code",
+      "value": "T1"
+    },
+    {
+      "entry_type": "value",
+      "key": "T2",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_type_code",
+      "value": "T2"
+    },
+    {
+      "entry_type": "value",
+      "key": "서비스 문제",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_type_code",
+      "value": "T2"
+    },
+    {
+      "entry_type": "value",
+      "key": "T3",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_type_code",
+      "value": "T3"
+    },
+    {
+      "entry_type": "value",
+      "key": "배송 문제",
+      "target_class": "Complaints",
+      "target_property": "Complaints_complaint_type_code",
+      "value": "T3"
+    }
+  ]
+}

@@ -1,0 +1,1005 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "사원",
+      "target_class": "employee",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "직원",
+      "target_class": "employee",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인력",
+      "target_class": "employee",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "근로자",
+      "target_class": "employee",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "직원정보",
+      "target_class": "employee",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인력자원",
+      "target_class": "employee",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "채용대상",
+      "target_class": "employee",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상점",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "매장",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "점포",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "매장정보",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "매장관리",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상업장소",
+      "target_class": "shop",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "채용 정보",
+      "target_class": "hiring",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "채용",
+      "target_class": "hiring",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "채용정보",
+      "target_class": "hiring",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "채용공고",
+      "target_class": "hiring",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "채용절차",
+      "target_class": "hiring",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "채용내역",
+      "target_class": "hiring",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "채용관리",
+      "target_class": "hiring",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "채용데이터",
+      "target_class": "hiring",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "채용기록",
+      "target_class": "hiring",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "평가",
+      "target_class": "evaluation",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "평가 결과",
+      "target_class": "evaluation",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "평가 정보",
+      "target_class": "evaluation",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "평가 데이터",
+      "target_class": "evaluation",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "평가 기준",
+      "target_class": "evaluation",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "평가 내용",
+      "target_class": "evaluation",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "평가 성과",
+      "target_class": "evaluation",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "employee id",
+      "target_class": "employee",
+      "target_property": "employee_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사원 번호",
+      "target_class": "employee",
+      "target_property": "employee_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 ID",
+      "target_class": "employee",
+      "target_property": "employee_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 고유 ID",
+      "target_class": "employee",
+      "target_property": "employee_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 코드",
+      "target_class": "employee",
+      "target_property": "employee_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 식별자",
+      "target_class": "employee",
+      "target_property": "employee_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "employee",
+      "target_property": "employee_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "employee",
+      "target_property": "employee_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사원 이름",
+      "target_class": "employee",
+      "target_property": "employee_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 이름",
+      "target_class": "employee",
+      "target_property": "employee_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "employee",
+      "target_property": "employee_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 정보",
+      "target_class": "employee",
+      "target_property": "employee_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "age",
+      "target_class": "employee",
+      "target_property": "employee_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "employee",
+      "target_property": "employee_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 나이",
+      "target_class": "employee",
+      "target_property": "employee_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사원 나이",
+      "target_class": "employee",
+      "target_property": "employee_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 연령",
+      "target_class": "employee",
+      "target_property": "employee_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "employee",
+      "target_property": "employee_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city",
+      "target_class": "employee",
+      "target_property": "employee_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "employee",
+      "target_property": "employee_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명",
+      "target_class": "employee",
+      "target_property": "employee_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 정보",
+      "target_class": "employee",
+      "target_property": "employee_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 이름",
+      "target_class": "employee",
+      "target_property": "employee_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드",
+      "target_class": "employee",
+      "target_property": "employee_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 ID",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 고유 번호",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 식별자",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 코드",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 번호",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 식별 번호",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 고유 ID",
+      "target_class": "shop",
+      "target_property": "shop_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "shop",
+      "target_property": "shop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 이름",
+      "target_class": "shop",
+      "target_property": "shop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 명칭",
+      "target_class": "shop",
+      "target_property": "shop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 제목",
+      "target_class": "shop",
+      "target_property": "shop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 표시 이름",
+      "target_class": "shop",
+      "target_property": "shop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 표기 이름",
+      "target_class": "shop",
+      "target_property": "shop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 표기명",
+      "target_class": "shop",
+      "target_property": "shop_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 위치",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 위치 정보",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 위치 데이터",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 위치 지정",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 위치 표기",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구",
+      "target_class": "shop",
+      "target_property": "shop_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역",
+      "target_class": "shop",
+      "target_property": "shop_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "shop",
+      "target_property": "shop_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역명",
+      "target_class": "shop",
+      "target_property": "shop_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지구",
+      "target_class": "shop",
+      "target_property": "shop_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 수",
+      "target_class": "shop",
+      "target_property": "shop_Number_products",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 수량",
+      "target_class": "shop",
+      "target_property": "shop_Number_products",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 개수",
+      "target_class": "shop",
+      "target_property": "shop_Number_products",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 갯수",
+      "target_class": "shop",
+      "target_property": "shop_Number_products",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매니저 이름",
+      "target_class": "shop",
+      "target_property": "shop_Manager_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매니저",
+      "target_class": "shop",
+      "target_property": "shop_Manager_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 책임자",
+      "target_class": "shop",
+      "target_property": "shop_Manager_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매니저명",
+      "target_class": "shop",
+      "target_property": "shop_Manager_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관리자",
+      "target_class": "shop",
+      "target_property": "shop_Manager_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "shop id",
+      "target_class": "hiring",
+      "target_property": "hiring_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 코드",
+      "target_class": "hiring",
+      "target_property": "hiring_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 식별자",
+      "target_class": "hiring",
+      "target_property": "hiring_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 번호",
+      "target_class": "hiring",
+      "target_property": "hiring_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 고유 ID",
+      "target_class": "hiring",
+      "target_property": "hiring_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 식별번호",
+      "target_class": "hiring",
+      "target_property": "hiring_Shop_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "employee id",
+      "target_class": "hiring",
+      "target_property": "hiring_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 코드",
+      "target_class": "hiring",
+      "target_property": "hiring_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 식별자",
+      "target_class": "hiring",
+      "target_property": "hiring_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 번호",
+      "target_class": "hiring",
+      "target_property": "hiring_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 고유 ID",
+      "target_class": "hiring",
+      "target_property": "hiring_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 식별번호",
+      "target_class": "hiring",
+      "target_property": "hiring_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "start from",
+      "target_class": "hiring",
+      "target_property": "hiring_Start_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계약 시작일",
+      "target_class": "hiring",
+      "target_property": "hiring_Start_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작일자",
+      "target_class": "hiring",
+      "target_property": "hiring_Start_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계약 시작 시간",
+      "target_class": "hiring",
+      "target_property": "hiring_Start_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 날짜",
+      "target_class": "hiring",
+      "target_property": "hiring_Start_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계약 시작일자",
+      "target_class": "hiring",
+      "target_property": "hiring_Start_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "is full time",
+      "target_class": "hiring",
+      "target_property": "hiring_Is_full_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 ID",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 번호",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 코드",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 식별자",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 고유번호",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 인덱스",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 식별번호",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 코드번호",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Employee_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수여 연도",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Year_awarded",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수여년도",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Year_awarded",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발급년도",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Year_awarded",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가년도",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Year_awarded",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지급년도",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Year_awarded",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발행년도",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Year_awarded",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수여년",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Year_awarded",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보너스",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Bonus",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시 중구 상점",
+      "target_class": "shop",
+      "target_property": "shop_Name",
+      "value": "서울시 중구 상점"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 중구 상점",
+      "target_class": "shop",
+      "target_property": "shop_Name",
+      "value": "서울시 중구 상점"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 상점",
+      "target_class": "shop",
+      "target_property": "shop_Name",
+      "value": "서울시 중구 상점"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시 강남구",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "강남구",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 강남구",
+      "target_class": "shop",
+      "target_property": "shop_Location",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "중구",
+      "target_class": "shop",
+      "target_property": "shop_District",
+      "value": "중구"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 중구",
+      "target_class": "shop",
+      "target_property": "shop_District",
+      "value": "중구"
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "shop",
+      "target_property": "shop_Manager_name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "민수",
+      "target_class": "shop",
+      "target_property": "shop_Manager_name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020-01-01",
+      "target_class": "hiring",
+      "target_property": "hiring_Start_from",
+      "value": "2020-01-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020년 1월 1일",
+      "target_class": "hiring",
+      "target_property": "hiring_Start_from",
+      "value": "2020-01-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "Y",
+      "target_class": "hiring",
+      "target_property": "hiring_Is_full_time",
+      "value": "Y"
+    },
+    {
+      "entry_type": "value",
+      "key": "예",
+      "target_class": "hiring",
+      "target_property": "hiring_Is_full_time",
+      "value": "Y"
+    },
+    {
+      "entry_type": "value",
+      "key": "Yes",
+      "target_class": "hiring",
+      "target_property": "hiring_Is_full_time",
+      "value": "Y"
+    },
+    {
+      "entry_type": "value",
+      "key": "N",
+      "target_class": "hiring",
+      "target_property": "hiring_Is_full_time",
+      "value": "N"
+    },
+    {
+      "entry_type": "value",
+      "key": "아니오",
+      "target_class": "hiring",
+      "target_property": "hiring_Is_full_time",
+      "value": "N"
+    },
+    {
+      "entry_type": "value",
+      "key": "No",
+      "target_class": "hiring",
+      "target_property": "hiring_Is_full_time",
+      "value": "N"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Year_awarded",
+      "value": "2023"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년",
+      "target_class": "evaluation",
+      "target_property": "evaluation_Year_awarded",
+      "value": "2023"
+    }
+  ]
+}

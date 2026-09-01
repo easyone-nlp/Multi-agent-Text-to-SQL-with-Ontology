@@ -1,0 +1,72 @@
+{
+  "class_table": {
+    "Inst": "Inst",
+    "Authors": "Authors",
+    "Papers": "Papers",
+    "Authorship": "Authorship"
+  },
+  "property_column": {
+    "Inst_instID": [
+      "Inst",
+      "instID"
+    ],
+    "Inst_name": [
+      "Inst",
+      "name"
+    ],
+    "Inst_country": [
+      "Inst",
+      "country"
+    ],
+    "Authors_authID": [
+      "Authors",
+      "authID"
+    ],
+    "Authors_lname": [
+      "Authors",
+      "lname"
+    ],
+    "Authors_fname": [
+      "Authors",
+      "fname"
+    ],
+    "Papers_paperID": [
+      "Papers",
+      "paperID"
+    ],
+    "Papers_title": [
+      "Papers",
+      "title"
+    ],
+    "Authorship_authID": [
+      "Authorship",
+      "authID"
+    ],
+    "Authorship_instID": [
+      "Authorship",
+      "instID"
+    ],
+    "Authorship_paperID": [
+      "Authorship",
+      "paperID"
+    ],
+    "Authorship_authOrder": [
+      "Authorship",
+      "authOrder"
+    ]
+  },
+  "object_property_fk": {
+    "Authorship_Papers_fk0": [
+      "Authorship.paperID",
+      "Papers.paperID"
+    ],
+    "Authorship_Inst_fk1": [
+      "Authorship.instID",
+      "Inst.instID"
+    ],
+    "Authorship_Authors_fk2": [
+      "Authorship.authID",
+      "Authors.authID"
+    ]
+  }
+}

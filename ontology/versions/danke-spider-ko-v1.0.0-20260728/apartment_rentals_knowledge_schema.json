@@ -1,0 +1,893 @@
+{
+  "db_id": "apartment_rentals",
+  "classes": [
+    {
+      "name": "Apartment_Buildings",
+      "source_table": "Apartment_Buildings",
+      "ranking": 3.5,
+      "primary_label": "아파트 건물",
+      "synonyms": [
+        "아파트 건물",
+        "아파트 복합건물",
+        "아파트 주거건물",
+        "아파트 복합단지",
+        "아파트 주거단지"
+      ]
+    },
+    {
+      "name": "Apartments",
+      "source_table": "Apartments",
+      "ranking": 3.5,
+      "primary_label": "아파트",
+      "synonyms": [
+        "아파트",
+        "아파트 단위",
+        "아파트 정보",
+        "아파트 단지",
+        "아파트 주거단지"
+      ]
+    },
+    {
+      "name": "Apartment_Facilities",
+      "source_table": "Apartment_Facilities",
+      "ranking": 3.0,
+      "primary_label": "아파트 시설",
+      "synonyms": [
+        "아파트 시설",
+        "아파트 장비",
+        "아파트 기능",
+        "아파트 시설물",
+        "아파트 장비 정보"
+      ]
+    },
+    {
+      "name": "Guests",
+      "source_table": "Guests",
+      "ranking": 1.0,
+      "primary_label": "guests",
+      "synonyms": [
+        "고객",
+        "방문객",
+        "투숙객",
+        "방문자",
+        "숙주"
+      ]
+    },
+    {
+      "name": "Apartment_Bookings",
+      "source_table": "Apartment_Bookings",
+      "ranking": 3.5,
+      "primary_label": "아파트 예약",
+      "synonyms": [
+        "예약",
+        "예약정보",
+        "숙박예약",
+        "예약내역",
+        "예약서"
+      ]
+    },
+    {
+      "name": "View_Unit_Status",
+      "source_table": "View_Unit_Status",
+      "ranking": 3.0,
+      "primary_label": "view unit status",
+      "synonyms": [
+        "단위 상태",
+        "방 상태",
+        "아파트 상태",
+        "실황",
+        "현황"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Apartment_Buildings_building_id",
+      "domain": "Apartment_Buildings",
+      "source_table": "Apartment_Buildings",
+      "source_column": "building_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "건물 ID",
+      "synonyms": [
+        "건물 ID",
+        "건물 고유 번호",
+        "건물 식별자",
+        "building_id",
+        "건물 번호",
+        "건물 고유 ID",
+        "아파트 건물 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartment_Buildings_building_short_name",
+      "domain": "Apartment_Buildings",
+      "source_table": "Apartment_Buildings",
+      "source_column": "building_short_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "건물 짧은 이름",
+      "synonyms": [
+        "건물 약명",
+        "건물 줄임말",
+        "건물 약칭",
+        "building_short_name",
+        "건물 이름(단축)",
+        "건물 줄이름",
+        "단축 건물 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartment_Buildings_building_full_name",
+      "domain": "Apartment_Buildings",
+      "source_table": "Apartment_Buildings",
+      "source_column": "building_full_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "건물 전체 이름",
+      "synonyms": [
+        "건물 이름",
+        "건물 전체 이름",
+        "건물 완전 이름",
+        "building_full_name",
+        "건물 명칭",
+        "건물 đầy đủ 이름",
+        "아파트 건물 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartment_Buildings_building_description",
+      "domain": "Apartment_Buildings",
+      "source_table": "Apartment_Buildings",
+      "source_column": "building_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "건물 설명",
+      "synonyms": [
+        "건물 설명",
+        "설명",
+        "building description",
+        "설명 정보",
+        "건물 설명 정보",
+        "상세 설명",
+        "설명 사항"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartment_Buildings_building_address",
+      "domain": "Apartment_Buildings",
+      "source_table": "Apartment_Buildings",
+      "source_column": "building_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "건물 주소",
+      "synonyms": [
+        "건물 주소",
+        "주소",
+        "building address",
+        "위치",
+        "주소 정보",
+        "건물 위치",
+        "주소 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartment_Buildings_building_manager",
+      "domain": "Apartment_Buildings",
+      "source_table": "Apartment_Buildings",
+      "source_column": "building_manager",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "건물 관리자",
+      "synonyms": [
+        "건물 관리자",
+        "관리자",
+        "building manager",
+        "이름",
+        "관리자 이름",
+        "건물 책임자",
+        "관리자 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartment_Buildings_building_phone",
+      "domain": "Apartment_Buildings",
+      "source_table": "Apartment_Buildings",
+      "source_column": "building_phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "건물 전화번호",
+      "synonyms": [
+        "건물 전화번호",
+        "연락처",
+        "전화번호",
+        "건물 전화",
+        "연락처 정보",
+        "전화",
+        "건물 연락처"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartments_apt_id",
+      "domain": "Apartments",
+      "source_table": "Apartments",
+      "source_column": "apt_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아파트 ID",
+      "synonyms": [
+        "아파트 ID",
+        "아파트 고유 번호",
+        "아파트 번호",
+        "apt_id",
+        "아파트 식별자",
+        "아파트 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartments_building_id",
+      "domain": "Apartments",
+      "source_table": "Apartments",
+      "source_column": "building_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "건물 ID",
+      "synonyms": [
+        "건물 ID",
+        "건물 고유 번호",
+        "건물 번호",
+        "building_id",
+        "건물 식별자",
+        "건물 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartments_apt_type_code",
+      "domain": "Apartments",
+      "source_table": "Apartments",
+      "source_column": "apt_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "아파트 유형 코드",
+      "synonyms": [
+        "아파트 유형 코드",
+        "아파트 타입 코드",
+        "apt_type_code",
+        "아파트 유형",
+        "아파트 코드 유형",
+        "아파트 분류 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "1층",
+          "1층 아파트"
+        ],
+        "2": [
+          "2층",
+          "2층 아파트"
+        ],
+        "3": [
+          "3층",
+          "3층 아파트"
+        ]
+      }
+    },
+    {
+      "name": "Apartments_apt_number",
+      "domain": "Apartments",
+      "source_table": "Apartments",
+      "source_column": "apt_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "아파트 번호",
+      "synonyms": [
+        "아파트 번호",
+        "단지 번호",
+        "apt_number",
+        "아파트 수호",
+        "아파트 번호 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartments_bathroom_count",
+      "domain": "Apartments",
+      "source_table": "Apartments",
+      "source_column": "bathroom_count",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "욕실 수",
+      "synonyms": [
+        "욕실 수",
+        "욕실 개수",
+        "bathroom_count",
+        "욕실 수량",
+        "욕실 개수 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartments_bedroom_count",
+      "domain": "Apartments",
+      "source_table": "Apartments",
+      "source_column": "bedroom_count",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "침실 수",
+      "synonyms": [
+        "침실 수",
+        "침실 개수",
+        "bedroom_count",
+        "침실 수량",
+        "침실 개수 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartments_room_count",
+      "domain": "Apartments",
+      "source_table": "Apartments",
+      "source_column": "room_count",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "방 수",
+      "synonyms": [
+        "방 수",
+        "방 개수",
+        "실 수",
+        "실 개수",
+        "방 정보",
+        "room count",
+        "방"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "1실",
+          "1방"
+        ],
+        "2": [
+          "2실",
+          "2방"
+        ],
+        "3": [
+          "3실",
+          "3방"
+        ]
+      }
+    },
+    {
+      "name": "Apartment_Facilities_apt_id",
+      "domain": "Apartment_Facilities",
+      "source_table": "Apartment_Facilities",
+      "source_column": "apt_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "아파트 id",
+      "synonyms": [
+        "apt_id",
+        "아파트 ID",
+        "아파트 번호",
+        "아파트 식별자",
+        "아파트 코드",
+        "아파트 고유번호",
+        "아파트 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartment_Facilities_facility_code",
+      "domain": "Apartment_Facilities",
+      "source_table": "Apartment_Facilities",
+      "source_column": "facility_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "시설 코드",
+      "synonyms": [
+        "facility_code",
+        "시설 코드",
+        "시설 번호",
+        "시설 식별자",
+        "시설 고유번호",
+        "시설 식별"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "WIFI": [
+          "wifi",
+          "Wi-Fi"
+        ],
+        "POOL": [
+          "풀",
+          "pool"
+        ],
+        "GYM": [
+          "건물",
+          "헬스장",
+          "gym"
+        ]
+      }
+    },
+    {
+      "name": "Guests_guest_id",
+      "domain": "Guests",
+      "source_table": "Guests",
+      "source_column": "guest_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "guest id",
+      "synonyms": [
+        "guest_id",
+        "고유ID",
+        "예약자 ID",
+        "방 임대자 ID",
+        "고유번호",
+        "예약자 고유 번호",
+        "임대자 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Guests_gender_code",
+      "domain": "Guests",
+      "source_table": "Guests",
+      "source_column": "gender_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "gender code",
+      "synonyms": [
+        "gender_code",
+        "성별 코드",
+        "성별 정보",
+        "성별",
+        "성별 코드 정보",
+        "성별 코드값",
+        "성별 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Guests_guest_first_name",
+      "domain": "Guests",
+      "source_table": "Guests",
+      "source_column": "guest_first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "guest first name",
+      "synonyms": [
+        "guest_first_name",
+        "이름",
+        "예약자 이름",
+        "임대자 이름",
+        "이름 정보",
+        "예약자 이름 정보",
+        "임대자 이름 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Guests_guest_last_name",
+      "domain": "Guests",
+      "source_table": "Guests",
+      "source_column": "guest_last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "guest last name",
+      "synonyms": [
+        "성",
+        "이름",
+        "성명",
+        "성별 코드",
+        "성 정보",
+        "성 이름",
+        "성명 정보",
+        "성 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Guests_date_of_birth",
+      "domain": "Guests",
+      "source_table": "Guests",
+      "source_column": "date_of_birth",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "date of birth",
+      "synonyms": [
+        "생년월일",
+        "출생일",
+        "태어난 날",
+        "생일",
+        "출생일자",
+        "생년월일 정보",
+        "출생일 데이터",
+        "생일 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartment_Bookings_apt_booking_id",
+      "domain": "Apartment_Bookings",
+      "source_table": "Apartment_Bookings",
+      "source_column": "apt_booking_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아파트 예약 ID",
+      "synonyms": [
+        "예약 번호",
+        "예약 ID",
+        "예약 코드",
+        "예약 고유번호",
+        "apt_booking_id",
+        "예약 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartment_Bookings_apt_id",
+      "domain": "Apartment_Bookings",
+      "source_table": "Apartment_Bookings",
+      "source_column": "apt_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아파트 ID",
+      "synonyms": [
+        "아파트 번호",
+        "아파트 ID",
+        "아파트 고유번호",
+        "아파트 코드",
+        "apt_id",
+        "아파트 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartment_Bookings_guest_id",
+      "domain": "Apartment_Bookings",
+      "source_table": "Apartment_Bookings",
+      "source_column": "guest_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 번호",
+        "고객 ID",
+        "고객 고유번호",
+        "고객 코드",
+        "guest_id",
+        "고객 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartment_Bookings_booking_status_code",
+      "domain": "Apartment_Bookings",
+      "source_table": "Apartment_Bookings",
+      "source_column": "booking_status_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "예약 상태 코드",
+      "synonyms": [
+        "예약 상태 코드",
+        "예약 상태",
+        "예약 코드",
+        "예약 상태 정보",
+        "예약 코드 값",
+        "예약 현황 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "예약 완료": [
+          "완료",
+          "예약 성공"
+        ],
+        "예약 취소": [
+          "취소",
+          "예약 거절"
+        ],
+        "예약 대기": [
+          "대기",
+          "확인 중"
+        ]
+      }
+    },
+    {
+      "name": "Apartment_Bookings_booking_start_date",
+      "domain": "Apartment_Bookings",
+      "source_table": "Apartment_Bookings",
+      "source_column": "booking_start_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "예약 시작일",
+      "synonyms": [
+        "예약 시작 날짜",
+        "예약 시작 시간",
+        "예약 시작 일시",
+        "예약 시작 일자",
+        "예약 시작 날짜 시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Apartment_Bookings_booking_end_date",
+      "domain": "Apartment_Bookings",
+      "source_table": "Apartment_Bookings",
+      "source_column": "booking_end_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "예약 종료일",
+      "synonyms": [
+        "예약 종료 날짜",
+        "예약 종료 시간",
+        "예약 종료 일시",
+        "예약 종료 일자",
+        "예약 종료 날짜 시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "View_Unit_Status_apt_id",
+      "domain": "View_Unit_Status",
+      "source_table": "View_Unit_Status",
+      "source_column": "apt_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "apartment id",
+      "synonyms": [
+        "apt_id",
+        "아파트 ID",
+        "아파트 번호",
+        "아파트 식별자",
+        "아파트 코드",
+        "아파트 고유 번호",
+        "아파트 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "View_Unit_Status_apt_booking_id",
+      "domain": "View_Unit_Status",
+      "source_table": "View_Unit_Status",
+      "source_column": "apt_booking_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "apartment booking id",
+      "synonyms": [
+        "apt_booking_id",
+        "예약 ID",
+        "아파트 예약 번호",
+        "예약 코드",
+        "아파트 예약 식별자",
+        "예약 고유 번호",
+        "예약 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "View_Unit_Status_status_date",
+      "domain": "View_Unit_Status",
+      "source_table": "View_Unit_Status",
+      "source_column": "status_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 4.0,
+      "primary_label": "status date",
+      "synonyms": [
+        "status_date",
+        "상태 날짜",
+        "상태 일자",
+        "상태 기록일",
+        "상태 변경일",
+        "상태 기준일",
+        "상태 기록 날짜",
+        "상태 일자 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "View_Unit_Status_available_yn",
+      "domain": "View_Unit_Status",
+      "source_table": "View_Unit_Status",
+      "source_column": "available_yn",
+      "range_types": [
+        "others"
+      ],
+      "ranking": 3.0,
+      "primary_label": "available yes or no",
+      "synonyms": [
+        "사용 가능 여부",
+        "사용 가능 여부 확인",
+        "예약 가능 여부",
+        "예약 가능 여부 확인",
+        "사용 가능 여부 코드",
+        "예약 상태",
+        "예약 가능 여부 코드",
+        "사용 가능 여부 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "yes": [
+          "예"
+        ],
+        "no": [
+          "아니오"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Apartments_Apartment_Buildings_fk0",
+      "domain": "Apartments",
+      "range": "Apartment_Buildings",
+      "source_fk": [
+        "Apartments.building_id",
+        "Apartment_Buildings.building_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Apartment_Facilities_Apartments_fk1",
+      "domain": "Apartment_Facilities",
+      "range": "Apartments",
+      "source_fk": [
+        "Apartment_Facilities.apt_id",
+        "Apartments.apt_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "장비 갖추고 있음",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Apartment_Bookings_Guests_fk2",
+      "domain": "Apartment_Bookings",
+      "range": "Guests",
+      "source_fk": [
+        "Apartment_Bookings.guest_id",
+        "Guests.guest_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "예약한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Apartment_Bookings_Apartments_fk3",
+      "domain": "Apartment_Bookings",
+      "range": "Apartments",
+      "source_fk": [
+        "Apartment_Bookings.apt_id",
+        "Apartments.apt_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "예약함",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "View_Unit_Status_Apartment_Bookings_fk4",
+      "domain": "View_Unit_Status",
+      "range": "Apartment_Bookings",
+      "source_fk": [
+        "View_Unit_Status.apt_booking_id",
+        "Apartment_Bookings.apt_booking_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "상태 확인",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "View_Unit_Status_Apartments_fk5",
+      "domain": "View_Unit_Status",
+      "range": "Apartments",
+      "source_fk": [
+        "View_Unit_Status.apt_id",
+        "Apartments.apt_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "상태 확인",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

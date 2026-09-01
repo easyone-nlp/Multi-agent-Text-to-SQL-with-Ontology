@@ -1,0 +1,433 @@
+{
+  "db_id": "gas_company",
+  "classes": [
+    {
+      "name": "company",
+      "source_table": "company",
+      "ranking": 3.5,
+      "primary_label": "회사",
+      "synonyms": [
+        "회사",
+        "기업",
+        "기관",
+        "사업체",
+        "주식회사",
+        "협회",
+        "단체",
+        "기업체"
+      ]
+    },
+    {
+      "name": "gas_station",
+      "source_table": "gas_station",
+      "ranking": 3.5,
+      "primary_label": "가스 스테이션",
+      "synonyms": [
+        "가스 스테이션",
+        "가스 주유소",
+        "가스 판매소",
+        "가스 편의점",
+        "가스 주차장",
+        "가스 센터",
+        "가스 헤드"
+      ]
+    },
+    {
+      "name": "station_company",
+      "source_table": "station_company",
+      "ranking": 3.5,
+      "primary_label": "station company",
+      "synonyms": [
+        "스테이션 회사",
+        "가스 스테이션 회사",
+        "가스 주유소 회사",
+        "가스 편의점 회사",
+        "가스 센터 회사",
+        "가스 주차장 회사",
+        "가스 헤드 회사",
+        "스테이션 기업"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "company_Company_ID",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Company_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "회사 ID",
+      "synonyms": [
+        "회사 ID",
+        "기업 번호",
+        "회사 식별자",
+        "기업 ID",
+        "회사 고유 번호",
+        "회사 코드",
+        "식별 번호",
+        "ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "company_Rank",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "등급",
+      "synonyms": [
+        "순위",
+        "등수",
+        "등급",
+        "랭크",
+        "회사 순위",
+        "경영 순위",
+        "등수 정보",
+        "등급 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "company_Company",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Company",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "회사",
+      "synonyms": [
+        "회사 이름",
+        "기업 이름",
+        "회사명",
+        "회사 이름 정보",
+        "기업명",
+        "회사명 정보",
+        "회사 이름 데이터",
+        "기업 이름 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "삼성전자": [
+          "삼성전자"
+        ],
+        "현대자동차": [
+          "현대자동차"
+        ]
+      }
+    },
+    {
+      "name": "company_Headquarters",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Headquarters",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "본사",
+      "synonyms": [
+        "본사",
+        "본사 위치",
+        "사무실",
+        "주소",
+        "주재지"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "부산": [
+          "부산"
+        ]
+      }
+    },
+    {
+      "name": "company_Main_Industry",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Main_Industry",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "주요 산업",
+      "synonyms": [
+        "주요 산업",
+        "산업 분야",
+        "주업종",
+        "업종",
+        "산업"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "전자": [
+          "전자"
+        ],
+        "자동차": [
+          "자동차"
+        ]
+      }
+    },
+    {
+      "name": "company_Sales_billion",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Sales_billion",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "판매액(조)",
+      "synonyms": [
+        "매출",
+        "매출액",
+        "매출 금액",
+        "매출액 수치",
+        "매출 기준",
+        "매출 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "company_Profits_billion",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Profits_billion",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "이익(조)",
+      "synonyms": [
+        "수익",
+        "이익",
+        "이익 금액",
+        "수익 billion",
+        "이익 billion",
+        "수익액",
+        "이익액",
+        "수익 금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "company_Assets_billion",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Assets_billion",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "자산(조)",
+      "synonyms": [
+        "자산",
+        "자산 금액",
+        "자산 billion",
+        "자산액",
+        "자산총액",
+        "자산 가치",
+        "자산총량"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "company_Market_Value",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Market_Value",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "시장 가치",
+      "synonyms": [
+        "시장 가치",
+        "주가 가치",
+        "주가",
+        "주가총액",
+        "주가총량",
+        "시장가"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "gas_station_Station_ID",
+      "domain": "gas_station",
+      "source_table": "gas_station",
+      "source_column": "Station_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "정류소 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "gas_station_Open_Year",
+      "domain": "gas_station",
+      "source_table": "gas_station",
+      "source_column": "Open_Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "개업 연도",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "gas_station_Location",
+      "domain": "gas_station",
+      "source_table": "gas_station",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "위치",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "gas_station_Manager_Name",
+      "domain": "gas_station",
+      "source_table": "gas_station",
+      "source_column": "Manager_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "매니저 이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "gas_station_Vice_Manager_Name",
+      "domain": "gas_station",
+      "source_table": "gas_station",
+      "source_column": "Vice_Manager_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "부매니저 이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "gas_station_Representative_Name",
+      "domain": "gas_station",
+      "source_table": "gas_station",
+      "source_column": "Representative_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "대표 이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_company_Station_ID",
+      "domain": "station_company",
+      "source_table": "station_company",
+      "source_column": "Station_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "station id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_company_Company_ID",
+      "domain": "station_company",
+      "source_table": "station_company",
+      "source_column": "Company_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "company id",
+      "synonyms": [
+        "회사 ID",
+        "기업 ID",
+        "회사 코드",
+        "회사 식별자",
+        "기업 식별 번호",
+        "회사 고유 번호",
+        "Company ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_company_Rank_of_the_Year",
+      "domain": "station_company",
+      "source_table": "station_company",
+      "source_column": "Rank_of_the_Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "rank of the year",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "station_company_company_fk0",
+      "domain": "station_company",
+      "range": "company",
+      "source_fk": [
+        "station_company.Company_ID",
+        "company.Company_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "station_company_gas_station_fk1",
+      "domain": "station_company",
+      "range": "gas_station",
+      "source_fk": [
+        "station_company.Station_ID",
+        "gas_station.Station_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

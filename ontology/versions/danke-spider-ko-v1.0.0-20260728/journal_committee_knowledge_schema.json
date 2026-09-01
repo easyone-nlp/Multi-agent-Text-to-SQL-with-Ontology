@@ -1,0 +1,314 @@
+{
+  "db_id": "journal_committee",
+  "classes": [
+    {
+      "name": "journal",
+      "source_table": "journal",
+      "ranking": 3.0,
+      "primary_label": "저널",
+      "synonyms": [
+        "저널",
+        "저널 정보",
+        "학술지",
+        "논문지",
+        "학술 저널"
+      ]
+    },
+    {
+      "name": "editor",
+      "source_table": "editor",
+      "ranking": 3.0,
+      "primary_label": "편집자",
+      "synonyms": [
+        "편집자",
+        "편집원",
+        "논문 편집자",
+        "학술 편집자",
+        "편집"
+      ]
+    },
+    {
+      "name": "journal_committee",
+      "source_table": "journal_committee",
+      "ranking": 3.5,
+      "primary_label": "저널 위원회",
+      "synonyms": [
+        "편집위원회",
+        "저널 편집위원회",
+        "편집자 집단",
+        "학술 편집위원회",
+        "저널 집행위원회"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "journal_Journal_ID",
+      "domain": "journal",
+      "source_table": "journal",
+      "source_column": "Journal_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "저널 ID",
+      "synonyms": [
+        "저널 ID",
+        "제보 번호",
+        "일기 ID",
+        "저널 식별자",
+        "제보 식별자",
+        "Journal_ID",
+        "일기 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "journal_Date",
+      "domain": "journal",
+      "source_table": "journal",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "일자",
+      "synonyms": [
+        "날짜",
+        "일자",
+        "일기 날짜",
+        "일기 일자",
+        "일기 생성일",
+        "Date",
+        "일기 날짜 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-01": [
+          "2023년 10월 1일"
+        ]
+      }
+    },
+    {
+      "name": "journal_Theme",
+      "domain": "journal",
+      "source_table": "journal",
+      "source_column": "Theme",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "주제",
+      "synonyms": [
+        "주제",
+        "내용 키워드",
+        "일기 주제",
+        "일기 테마",
+        "테마",
+        "Theme",
+        "일기 주제 키워드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "기술": [
+          "기술"
+        ],
+        "교육": [
+          "교육"
+        ]
+      }
+    },
+    {
+      "name": "journal_Sales",
+      "domain": "journal",
+      "source_table": "journal",
+      "source_column": "Sales",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "판매량",
+      "synonyms": [
+        "판매액",
+        "매출",
+        "매출액",
+        "판매수익",
+        "수익",
+        "Sales",
+        "매출 금액",
+        "판매 수익액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "editor_Editor_ID",
+      "domain": "editor",
+      "source_table": "editor",
+      "source_column": "Editor_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "editor id",
+      "synonyms": [
+        "기사 편집자 ID",
+        "편집자 식별 번호",
+        "편집자 ID",
+        "편집자 고유 번호",
+        "편집자 코드",
+        "편집자 식별자",
+        "편집자 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "editor_Name",
+      "domain": "editor",
+      "source_table": "editor",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "편집자 이름",
+        "기사 편집자 이름",
+        "이름",
+        "편집자",
+        "기사 편집자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "editor_Age",
+      "domain": "editor",
+      "source_table": "editor",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "연령",
+        "나이",
+        "기사 편집자 연령",
+        "편집자 나이",
+        "기사 편집자 나이",
+        "나이 정보",
+        "연령 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "journal_committee_Editor_ID",
+      "domain": "journal_committee",
+      "source_table": "journal_committee",
+      "source_column": "Editor_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "편집자 ID",
+      "synonyms": [
+        "편집자 ID",
+        "편집자 번호",
+        "편집자 식별자",
+        "Editor_ID",
+        "편집자 고유 ID",
+        "편집자 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "journal_committee_Journal_ID",
+      "domain": "journal_committee",
+      "source_table": "journal_committee",
+      "source_column": "Journal_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "저널 ID",
+      "synonyms": [
+        "저널 ID",
+        "저널 번호",
+        "저널 식별자",
+        "Journal_ID",
+        "저널 고유 ID",
+        "저널 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "journal_committee_Work_Type",
+      "domain": "journal_committee",
+      "source_table": "journal_committee",
+      "source_column": "Work_Type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "작업 유형",
+      "synonyms": [
+        "작업 유형",
+        "작업 종류",
+        "작업 타입",
+        "Work_Type",
+        "작업 구분",
+        "작업 카테고리"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "연구 논문": [
+          "연구 논문"
+        ],
+        "기고 논문": [
+          "기고 논문"
+        ],
+        "서론": [
+          "서론"
+        ],
+        "기타": [
+          "기타"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "journal_committee_journal_fk0",
+      "domain": "journal_committee",
+      "range": "journal",
+      "source_fk": [
+        "journal_committee.Journal_ID",
+        "journal.Journal_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "journal_committee_editor_fk1",
+      "domain": "journal_committee",
+      "range": "editor",
+      "source_fk": [
+        "journal_committee.Editor_ID",
+        "editor.Editor_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "class_table": {
+    "artist": "artist",
+    "volume": "volume",
+    "music_festival": "music_festival"
+  },
+  "property_column": {
+    "artist_Artist_ID": [
+      "artist",
+      "Artist_ID"
+    ],
+    "artist_Artist": [
+      "artist",
+      "Artist"
+    ],
+    "artist_Age": [
+      "artist",
+      "Age"
+    ],
+    "artist_Famous_Title": [
+      "artist",
+      "Famous_Title"
+    ],
+    "artist_Famous_Release_date": [
+      "artist",
+      "Famous_Release_date"
+    ],
+    "volume_Volume_ID": [
+      "volume",
+      "Volume_ID"
+    ],
+    "volume_Volume_Issue": [
+      "volume",
+      "Volume_Issue"
+    ],
+    "volume_Issue_Date": [
+      "volume",
+      "Issue_Date"
+    ],
+    "volume_Weeks_on_Top": [
+      "volume",
+      "Weeks_on_Top"
+    ],
+    "volume_Song": [
+      "volume",
+      "Song"
+    ],
+    "volume_Artist_ID": [
+      "volume",
+      "Artist_ID"
+    ],
+    "music_festival_ID": [
+      "music_festival",
+      "ID"
+    ],
+    "music_festival_Music_Festival": [
+      "music_festival",
+      "Music_Festival"
+    ],
+    "music_festival_Date_of_ceremony": [
+      "music_festival",
+      "Date_of_ceremony"
+    ],
+    "music_festival_Category": [
+      "music_festival",
+      "Category"
+    ],
+    "music_festival_Volume": [
+      "music_festival",
+      "Volume"
+    ],
+    "music_festival_Result": [
+      "music_festival",
+      "Result"
+    ]
+  },
+  "object_property_fk": {
+    "volume_artist_fk0": [
+      "volume.Artist_ID",
+      "artist.Artist_ID"
+    ],
+    "music_festival_volume_fk1": [
+      "music_festival.Volume",
+      "volume.Volume_ID"
+    ]
+  }
+}

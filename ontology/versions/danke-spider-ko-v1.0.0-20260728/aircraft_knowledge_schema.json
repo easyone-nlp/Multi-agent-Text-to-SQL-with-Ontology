@@ -1,0 +1,733 @@
+{
+  "db_id": "aircraft",
+  "classes": [
+    {
+      "name": "pilot",
+      "source_table": "pilot",
+      "ranking": 3.0,
+      "primary_label": "비행사",
+      "synonyms": [
+        "비행사",
+        "비행요원",
+        "비행자",
+        "비행인력"
+      ]
+    },
+    {
+      "name": "aircraft",
+      "source_table": "aircraft",
+      "ranking": 1.0,
+      "primary_label": "aircraft",
+      "synonyms": [
+        "비행기",
+        "비행기 정보",
+        "비행기 데이터",
+        "비행기 목록",
+        "비행기 정보 테이블"
+      ]
+    },
+    {
+      "name": "match",
+      "source_table": "match",
+      "ranking": 3.0,
+      "primary_label": "경기",
+      "synonyms": [
+        "매칭",
+        "비행사-비행기 매칭",
+        "비행 매칭",
+        "비행 대결",
+        "비행 매칭 정보"
+      ]
+    },
+    {
+      "name": "airport",
+      "source_table": "airport",
+      "ranking": 3.5,
+      "primary_label": "공항",
+      "synonyms": [
+        "공항",
+        "항공기 관련 공항",
+        "비행장",
+        "항공기 기지",
+        "항공기 관련 시설"
+      ]
+    },
+    {
+      "name": "airport_aircraft",
+      "source_table": "airport_aircraft",
+      "ranking": 3.5,
+      "primary_label": "공항 항공기",
+      "synonyms": [
+        "공항-비행기 관계",
+        "비행기와 공항의 연관",
+        "항공기 공항 연결",
+        "비행기 관련 공항 정보",
+        "공항-비행기 링크"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "pilot_Pilot_Id",
+      "domain": "pilot",
+      "source_table": "pilot",
+      "source_column": "Pilot_Id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "pilot id",
+      "synonyms": [
+        "비행사 ID",
+        "비행사 번호",
+        "비행사 식별자",
+        "Pilot_Id",
+        "비행사 고유번호",
+        "비행사 인덱스",
+        "비행사 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pilot_Name",
+      "domain": "pilot",
+      "source_table": "pilot",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "비행사 이름",
+        "비행사명",
+        "Pilot_Id",
+        "비행사 고유번호",
+        "비행사 인덱스",
+        "비행사 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pilot_Age",
+      "domain": "pilot",
+      "source_table": "pilot",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "연령",
+        "나이",
+        "비행사 나이",
+        "연령 정보",
+        "나이 정보",
+        "Pilot_Id",
+        "비행사 고유번호",
+        "비행사 인덱스"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "aircraft_Aircraft_ID",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "Aircraft_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "aircraft id",
+      "synonyms": [
+        "비행기 ID",
+        "비행기 식별 번호",
+        "Aircraft_ID",
+        "비행기 고유 번호",
+        "식별 번호",
+        "기号"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "aircraft_Aircraft",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "Aircraft",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "aircraft",
+      "synonyms": [
+        "비행기 이름",
+        "비행기 모델",
+        "Aircraft",
+        "비행기",
+        "기종"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "aircraft_Description",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "Description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "description",
+      "synonyms": [
+        "설명",
+        "비행기 설명",
+        "Description",
+        "기본 정보",
+        "설명 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "aircraft_Max_Gross_Weight",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "Max_Gross_Weight",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "max gross weight",
+      "synonyms": [
+        "최대 무게",
+        "최대 무게 설명",
+        "최대 무게 정보",
+        "최대 무게 데이터",
+        "Max_Gross_Weight",
+        "최대 무게 값",
+        "최대 무게 기준",
+        "최대 무게 설명문"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "aircraft_Total_disk_area",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "Total_disk_area",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "total disk area",
+      "synonyms": [
+        "디스크 면적",
+        "디스크 면적 설명",
+        "디스크 면적 정보",
+        "디스크 면적 데이터",
+        "Total_disk_area",
+        "디스크 면적 값",
+        "디스크 면적 기준",
+        "디스크 면적 설명문"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "aircraft_Max_disk_Loading",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "Max_disk_Loading",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "max disk loading",
+      "synonyms": [
+        "최대 디스크 로딩",
+        "최대 디스크 로딩 설명",
+        "최대 디스크 로딩 정보",
+        "최대 디스크 로딩 데이터",
+        "Max_disk_Loading",
+        "최대 디스크 로딩 값",
+        "최대 디스크 로딩 기준",
+        "최대 디스크 로딩 설명문"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_Round",
+      "domain": "match",
+      "source_table": "match",
+      "source_column": "Round",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "round",
+      "synonyms": [
+        "라운드",
+        "라운드 번호",
+        "경기 번호",
+        "라운드 수",
+        "R",
+        "라운드 정보",
+        "Rd",
+        "라운드 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_Location",
+      "domain": "match",
+      "source_table": "match",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "location",
+      "synonyms": [
+        "장소",
+        "위치",
+        "지점",
+        "장소명",
+        "위치 정보",
+        "지역",
+        "장소 이름",
+        "위치 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_Country",
+      "domain": "match",
+      "source_table": "match",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "country",
+      "synonyms": [
+        "국가",
+        "나라",
+        "국가명",
+        "국가 정보",
+        "지역 국가",
+        "국가 이름",
+        "국가 코드",
+        "나라 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_Date",
+      "domain": "match",
+      "source_table": "match",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "date",
+      "synonyms": [
+        "날짜",
+        "경기일자",
+        "일자",
+        "일",
+        "경기 날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_Fastest_Qualifying",
+      "domain": "match",
+      "source_table": "match",
+      "source_column": "Fastest_Qualifying",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "fastest qualifying",
+      "synonyms": [
+        "최고 성적",
+        "最快的 Qualifying",
+        "最快的 퀄리파이잉",
+        "최고 퀄리파이잉",
+        "최고 시간",
+        "最快的 시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_Winning_Pilot",
+      "domain": "match",
+      "source_table": "match",
+      "source_column": "Winning_Pilot",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "winning pilot",
+      "synonyms": [
+        "승리자",
+        "조종사",
+        "승리 조종사",
+        "최우수 조종사",
+        "우승자",
+        "조종사 이름"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_Winning_Aircraft",
+      "domain": "match",
+      "source_table": "match",
+      "source_column": "Winning_Aircraft",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "winning aircraft",
+      "synonyms": [
+        "승리 항공기",
+        "최우수 항공기",
+        "우승 항공기",
+        "최고 항공기",
+        "항공기 이름",
+        "우승 항공기 이름",
+        "승리 항공기 이름",
+        "최우수 항공기 이름"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airport_Airport_ID",
+      "domain": "airport",
+      "source_table": "airport",
+      "source_column": "Airport_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "공항 ID",
+      "synonyms": [
+        "항공기 ID",
+        "기지 ID",
+        "항공기 식별 번호",
+        "기지 식별자",
+        "기지 번호",
+        "Airport_ID",
+        "항공기 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airport_Airport_Name",
+      "domain": "airport",
+      "source_table": "airport",
+      "source_column": "Airport_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "공항 이름",
+      "synonyms": [
+        "공항 이름",
+        "항공기 소속 공항",
+        "기지 이름",
+        "항공기 기지",
+        "공항명",
+        "Airport_Name",
+        "기지명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airport_Total_Passengers",
+      "domain": "airport",
+      "source_table": "airport",
+      "source_column": "Total_Passengers",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "총 탑승자 수",
+      "synonyms": [
+        "총 탑승자 수",
+        "총 승객 수",
+        "탑승 인원",
+        "승객 수",
+        "Total_Passengers",
+        "총 승객"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airport_Change_2007",
+      "domain": "airport",
+      "source_table": "airport",
+      "source_column": "%_Change_2007",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "% 변화 2007",
+      "synonyms": [
+        "% change 2007",
+        "2007년 변화율",
+        "변화율 2007",
+        "%_변화율_2007",
+        "2007년도 변화율",
+        "년도 2007 변화율"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airport_International_Passengers",
+      "domain": "airport",
+      "source_table": "airport",
+      "source_column": "International_Passengers",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "국제 탑승자 수",
+      "synonyms": [
+        "국제 관광객 수",
+        "국제 승객 수",
+        "국제 항공 승객",
+        "국제 여행객",
+        "국제 여행자 수",
+        "국제 승객",
+        "국제 항공편 승객"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airport_Domestic_Passengers",
+      "domain": "airport",
+      "source_table": "airport",
+      "source_column": "Domestic_Passengers",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "국내 탑승자 수",
+      "synonyms": [
+        "국내 관광객 수",
+        "국내 승객 수",
+        "국내 항공 승객",
+        "국내 여행객",
+        "국내 여행자 수",
+        "국내 승객",
+        "국내 항공편 승객"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airport_Transit_Passengers",
+      "domain": "airport",
+      "source_table": "airport",
+      "source_column": "Transit_Passengers",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "이동 탑승자 수",
+      "synonyms": [
+        "transit passengers",
+        "transit passenger count",
+        "transit passengers number",
+        "transit passenger volume",
+        "transit passenger traffic",
+        "transit passenger flow",
+        "transit passenger movement"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airport_Aircraft_Movements",
+      "domain": "airport",
+      "source_table": "airport",
+      "source_column": "Aircraft_Movements",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "비행기 이동 수",
+      "synonyms": [
+        "aircraft movements",
+        "aircraft movement count",
+        "aircraft movement number",
+        "aircraft movement volume",
+        "aircraft movement traffic",
+        "aircraft movement flow"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airport_Freight_Metric_Tonnes",
+      "domain": "airport",
+      "source_table": "airport",
+      "source_column": "Freight_Metric_Tonnes",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "화물 메트릭 톤",
+      "synonyms": [
+        "freight metric tonnes",
+        "freight tonne count",
+        "freight tonne number",
+        "freight tonne volume",
+        "freight tonne traffic",
+        "freight tonne flow",
+        "freight tonne measurement"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airport_aircraft_ID",
+      "domain": "airport_aircraft",
+      "source_table": "airport_aircraft",
+      "source_column": "ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "ID",
+        "아이디",
+        "식별번호",
+        "번호",
+        "아이디값",
+        "식별자",
+        "고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airport_aircraft_Airport_ID",
+      "domain": "airport_aircraft",
+      "source_table": "airport_aircraft",
+      "source_column": "Airport_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "airport id",
+      "synonyms": [
+        "Airport_ID",
+        "공항아이디",
+        "공항ID",
+        "공항 식별자",
+        "공항번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "airport_aircraft_Aircraft_ID",
+      "domain": "airport_aircraft",
+      "source_table": "airport_aircraft",
+      "source_column": "Aircraft_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "aircraft id",
+      "synonyms": [
+        "Aircraft_ID",
+        "항공기아이디",
+        "항공기ID",
+        "항공기 식별자",
+        "항공기번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "match_pilot_fk0",
+      "domain": "match",
+      "range": "pilot",
+      "source_fk": [
+        "match.Winning_Pilot",
+        "pilot.Pilot_Id"
+      ],
+      "weight": 1.0,
+      "primary_label": "승리한 조종사",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "match_aircraft_fk1",
+      "domain": "match",
+      "range": "aircraft",
+      "source_fk": [
+        "match.Winning_Aircraft",
+        "aircraft.Aircraft_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "승리한 항공기",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "airport_aircraft_aircraft_fk2",
+      "domain": "airport_aircraft",
+      "range": "aircraft",
+      "source_fk": [
+        "airport_aircraft.Aircraft_ID",
+        "aircraft.Aircraft_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속 항공기",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "airport_aircraft_airport_fk3",
+      "domain": "airport_aircraft",
+      "range": "airport",
+      "source_fk": [
+        "airport_aircraft.Airport_ID",
+        "airport.Airport_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속 공항",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

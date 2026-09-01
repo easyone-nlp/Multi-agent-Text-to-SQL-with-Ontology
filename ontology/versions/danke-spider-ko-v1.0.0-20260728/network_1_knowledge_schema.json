@@ -1,0 +1,243 @@
+{
+  "db_id": "network_1",
+  "classes": [
+    {
+      "name": "Highschooler",
+      "source_table": "Highschooler",
+      "ranking": 3.5,
+      "primary_label": "고등학생",
+      "synonyms": [
+        "고등학생",
+        "고등부 학생",
+        "고등학교생",
+        "고등학생 인물",
+        "고등학생 정보"
+      ]
+    },
+    {
+      "name": "Friend",
+      "source_table": "Friend",
+      "ranking": 1.0,
+      "primary_label": "친구",
+      "synonyms": [
+        "친구",
+        "친구 관계",
+        "친구 정보",
+        "친구 데이터",
+        "친구 연결"
+      ]
+    },
+    {
+      "name": "Likes",
+      "source_table": "Likes",
+      "ranking": 3.0,
+      "primary_label": "좋아요",
+      "synonyms": [
+        "좋아함",
+        "좋아하는 관계",
+        "좋아하는 데이터",
+        "좋아하는 목록",
+        "좋아하는 연결"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Highschooler_ID",
+      "domain": "Highschooler",
+      "source_table": "Highschooler",
+      "source_column": "ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "학번",
+        "학생 고유 번호",
+        "학번 번호",
+        "학생 ID",
+        "학번 코드",
+        "학번 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Highschooler_name",
+      "domain": "Highschooler",
+      "source_table": "Highschooler",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "박지현": [
+          "박지현"
+        ]
+      }
+    },
+    {
+      "name": "Highschooler_grade",
+      "domain": "Highschooler",
+      "source_table": "Highschooler",
+      "source_column": "grade",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "학년",
+      "synonyms": [
+        "학년수",
+        "학년 등급",
+        "학년도",
+        "학년 정보",
+        "학년 번호",
+        "학년 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Friend_student_id",
+      "domain": "Friend",
+      "source_table": "Friend",
+      "source_column": "student_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 번호",
+        "학번",
+        "학생 코드",
+        "학번 번호",
+        "학생 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Friend_friend_id",
+      "domain": "Friend",
+      "source_table": "Friend",
+      "source_column": "friend_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "친구 ID",
+      "synonyms": [
+        "친구 번호",
+        "친구 코드",
+        "친구 식별자",
+        "친구 고유 번호",
+        "친구 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Likes_student_id",
+      "domain": "Likes",
+      "source_table": "Likes",
+      "source_column": "student_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 고유번호",
+        "학생 번호",
+        "학번",
+        "학생 식별자",
+        "학생 인덱스"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Likes_liked_id",
+      "domain": "Likes",
+      "source_table": "Likes",
+      "source_column": "liked_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "좋아요한 ID",
+      "synonyms": [
+        "좋아요한 항목 ID",
+        "좋아요 대상 ID",
+        "좋아요 항목 번호",
+        "좋아요 대상 코드",
+        "좋아요 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Friend_Highschooler_fk0",
+      "domain": "Friend",
+      "range": "Highschooler",
+      "source_fk": [
+        "Friend.friend_id",
+        "Highschooler.ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "친구로 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Friend_Highschooler_fk1",
+      "domain": "Friend",
+      "range": "Highschooler",
+      "source_fk": [
+        "Friend.student_id",
+        "Highschooler.ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "친구로 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Likes_Highschooler_fk2",
+      "domain": "Likes",
+      "range": "Highschooler",
+      "source_fk": [
+        "Likes.student_id",
+        "Highschooler.ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "좋아하는 사람으로 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Likes_Highschooler_fk3",
+      "domain": "Likes",
+      "range": "Highschooler",
+      "source_fk": [
+        "Likes.liked_id",
+        "Highschooler.ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "좋아하는 사람으로 연결",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

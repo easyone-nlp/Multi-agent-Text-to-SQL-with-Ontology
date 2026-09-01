@@ -1,0 +1,141 @@
+{
+  "class_table": {
+    "pilot": "pilot",
+    "aircraft": "aircraft",
+    "match": "match",
+    "airport": "airport",
+    "airport_aircraft": "airport_aircraft"
+  },
+  "property_column": {
+    "pilot_Pilot_Id": [
+      "pilot",
+      "Pilot_Id"
+    ],
+    "pilot_Name": [
+      "pilot",
+      "Name"
+    ],
+    "pilot_Age": [
+      "pilot",
+      "Age"
+    ],
+    "aircraft_Aircraft_ID": [
+      "aircraft",
+      "Aircraft_ID"
+    ],
+    "aircraft_Aircraft": [
+      "aircraft",
+      "Aircraft"
+    ],
+    "aircraft_Description": [
+      "aircraft",
+      "Description"
+    ],
+    "aircraft_Max_Gross_Weight": [
+      "aircraft",
+      "Max_Gross_Weight"
+    ],
+    "aircraft_Total_disk_area": [
+      "aircraft",
+      "Total_disk_area"
+    ],
+    "aircraft_Max_disk_Loading": [
+      "aircraft",
+      "Max_disk_Loading"
+    ],
+    "match_Round": [
+      "match",
+      "Round"
+    ],
+    "match_Location": [
+      "match",
+      "Location"
+    ],
+    "match_Country": [
+      "match",
+      "Country"
+    ],
+    "match_Date": [
+      "match",
+      "Date"
+    ],
+    "match_Fastest_Qualifying": [
+      "match",
+      "Fastest_Qualifying"
+    ],
+    "match_Winning_Pilot": [
+      "match",
+      "Winning_Pilot"
+    ],
+    "match_Winning_Aircraft": [
+      "match",
+      "Winning_Aircraft"
+    ],
+    "airport_Airport_ID": [
+      "airport",
+      "Airport_ID"
+    ],
+    "airport_Airport_Name": [
+      "airport",
+      "Airport_Name"
+    ],
+    "airport_Total_Passengers": [
+      "airport",
+      "Total_Passengers"
+    ],
+    "airport_Change_2007": [
+      "airport",
+      "%_Change_2007"
+    ],
+    "airport_International_Passengers": [
+      "airport",
+      "International_Passengers"
+    ],
+    "airport_Domestic_Passengers": [
+      "airport",
+      "Domestic_Passengers"
+    ],
+    "airport_Transit_Passengers": [
+      "airport",
+      "Transit_Passengers"
+    ],
+    "airport_Aircraft_Movements": [
+      "airport",
+      "Aircraft_Movements"
+    ],
+    "airport_Freight_Metric_Tonnes": [
+      "airport",
+      "Freight_Metric_Tonnes"
+    ],
+    "airport_aircraft_ID": [
+      "airport_aircraft",
+      "ID"
+    ],
+    "airport_aircraft_Airport_ID": [
+      "airport_aircraft",
+      "Airport_ID"
+    ],
+    "airport_aircraft_Aircraft_ID": [
+      "airport_aircraft",
+      "Aircraft_ID"
+    ]
+  },
+  "object_property_fk": {
+    "match_pilot_fk0": [
+      "match.Winning_Pilot",
+      "pilot.Pilot_Id"
+    ],
+    "match_aircraft_fk1": [
+      "match.Winning_Aircraft",
+      "aircraft.Aircraft_ID"
+    ],
+    "airport_aircraft_aircraft_fk2": [
+      "airport_aircraft.Aircraft_ID",
+      "aircraft.Aircraft_ID"
+    ],
+    "airport_aircraft_airport_fk3": [
+      "airport_aircraft.Airport_ID",
+      "airport.Airport_ID"
+    ]
+  }
+}

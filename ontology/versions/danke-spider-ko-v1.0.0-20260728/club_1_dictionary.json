@@ -1,0 +1,949 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "학생",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학자",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 정보",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 목록",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "학생 데이터",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "클럽",
+      "target_class": "Club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "단체",
+      "target_class": "Club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "모임",
+      "target_class": "Club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "클럽 정보",
+      "target_class": "Club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "클럽 목록",
+      "target_class": "Club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "멤버 of 클럽",
+      "target_class": "Member_of_club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "클럽원",
+      "target_class": "Member_of_club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "멤버",
+      "target_class": "Member_of_club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참여",
+      "target_class": "Member_of_club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "가입",
+      "target_class": "Member_of_club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "멤버십",
+      "target_class": "Member_of_club",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 고유 번호",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "StuID",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 식별자",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번 번호",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 고유 ID",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가족 성",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 이름",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성자",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 부분",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "LName",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 정보",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가족 이름",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 부분",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Fname",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 정보",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 열",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 컬럼",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 값",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 정보",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 컬럼",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 값",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 정보",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 코드",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 컬럼",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 값",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상담사",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Advisor",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "조언자",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토 번호",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토ID",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "조언자 ID",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토 식별자",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시 코드",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city_code",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주 도시 코드",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드 정보",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시코드 값",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주 도시",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 ID",
+      "target_class": "Club",
+      "target_property": "Club_ClubID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 번호",
+      "target_class": "Club",
+      "target_property": "Club_ClubID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 식별자",
+      "target_class": "Club",
+      "target_property": "Club_ClubID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 코드",
+      "target_class": "Club",
+      "target_property": "Club_ClubID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 고유번호",
+      "target_class": "Club",
+      "target_property": "Club_ClubID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 아이디",
+      "target_class": "Club",
+      "target_property": "Club_ClubID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 식별번호",
+      "target_class": "Club",
+      "target_property": "Club_ClubID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 이름",
+      "target_class": "Club",
+      "target_property": "Club_ClubName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 타이틀",
+      "target_class": "Club",
+      "target_property": "Club_ClubName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 명칭",
+      "target_class": "Club",
+      "target_property": "Club_ClubName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 제목",
+      "target_class": "Club",
+      "target_property": "Club_ClubName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 브랜드",
+      "target_class": "Club",
+      "target_property": "Club_ClubName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 대표명",
+      "target_class": "Club",
+      "target_property": "Club_ClubName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 설명",
+      "target_class": "Club",
+      "target_property": "Club_ClubDesc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 소개",
+      "target_class": "Club",
+      "target_property": "Club_ClubDesc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 정보",
+      "target_class": "Club",
+      "target_property": "Club_ClubDesc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 요약",
+      "target_class": "Club",
+      "target_property": "Club_ClubDesc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 설명문",
+      "target_class": "Club",
+      "target_property": "Club_ClubDesc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 간단 설명",
+      "target_class": "Club",
+      "target_property": "Club_ClubDesc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 개요",
+      "target_class": "Club",
+      "target_property": "Club_ClubDesc",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 위치",
+      "target_class": "Club",
+      "target_property": "Club_ClubLocation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "Club",
+      "target_property": "Club_ClubLocation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소",
+      "target_class": "Club",
+      "target_property": "Club_ClubLocation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설치 위치",
+      "target_class": "Club",
+      "target_property": "Club_ClubLocation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "Club",
+      "target_property": "Club_ClubLocation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 주소",
+      "target_class": "Club",
+      "target_property": "Club_ClubLocation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설치 위치 정보",
+      "target_class": "Club",
+      "target_property": "Club_ClubLocation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 위치 정보",
+      "target_class": "Club",
+      "target_property": "Club_ClubLocation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 id",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "StuID",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 식별 번호",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 고유 번호",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 id",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_ClubID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ClubID",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_ClubID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 ID",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_ClubID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 고유 번호",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_ClubID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 식별 번호",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_ClubID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 번호",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_ClubID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클럽 고유 ID",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_ClubID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직위",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Position",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역할",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직책",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직역",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_Position",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "김",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": "김"
+    },
+    {
+      "entry_type": "value",
+      "key": "이",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": "김"
+    },
+    {
+      "entry_type": "value",
+      "key": "박",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": "김"
+    },
+    {
+      "entry_type": "value",
+      "key": "민수",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": "민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "지현",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": "민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "서연",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": "민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "남자",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": "남자"
+    },
+    {
+      "entry_type": "value",
+      "key": "여자",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": "남자"
+    },
+    {
+      "entry_type": "value",
+      "key": "01",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": "01"
+    },
+    {
+      "entry_type": "value",
+      "key": "02",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": "01"
+    },
+    {
+      "entry_type": "value",
+      "key": "03",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": "01"
+    },
+    {
+      "entry_type": "value",
+      "key": "삼성클럽",
+      "target_class": "Club",
+      "target_property": "Club_ClubName",
+      "value": "삼성클럽"
+    },
+    {
+      "entry_type": "value",
+      "key": "현대클럽",
+      "target_class": "Club",
+      "target_property": "Club_ClubName",
+      "value": "현대클럽"
+    },
+    {
+      "entry_type": "value",
+      "key": "회장",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_Position",
+      "value": "회장"
+    },
+    {
+      "entry_type": "value",
+      "key": "부회장",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_Position",
+      "value": "부회장"
+    },
+    {
+      "entry_type": "value",
+      "key": "부서장",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_Position",
+      "value": "부서장"
+    },
+    {
+      "entry_type": "value",
+      "key": "원장",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_Position",
+      "value": "원장"
+    },
+    {
+      "entry_type": "value",
+      "key": "일반 멤버",
+      "target_class": "Member_of_club",
+      "target_property": "Member_of_club_Position",
+      "value": "일반 멤버"
+    }
+  ]
+}

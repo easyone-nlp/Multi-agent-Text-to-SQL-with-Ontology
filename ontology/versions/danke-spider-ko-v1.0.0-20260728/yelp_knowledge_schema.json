@@ -1,0 +1,1067 @@
+{
+  "db_id": "yelp",
+  "classes": [
+    {
+      "name": "business",
+      "source_table": "business",
+      "ranking": 3.5,
+      "primary_label": "사업자",
+      "synonyms": [
+        "사업자",
+        "업체",
+        "상점",
+        "사업체",
+        "서비스 제공자"
+      ]
+    },
+    {
+      "name": "category",
+      "source_table": "category",
+      "ranking": 3.0,
+      "primary_label": "카테고리",
+      "synonyms": [
+        "업종",
+        "분류",
+        "업종 코드",
+        "업종별 분류",
+        "업종 카테고리"
+      ]
+    },
+    {
+      "name": "user",
+      "source_table": "user",
+      "ranking": 3.0,
+      "primary_label": "사용자",
+      "synonyms": [
+        "사용자",
+        "고객",
+        "사용자 정보",
+        "회원",
+        "사용자 데이터"
+      ]
+    },
+    {
+      "name": "checkin",
+      "source_table": "checkin",
+      "ranking": 3.0,
+      "primary_label": "체크인",
+      "synonyms": [
+        "예약 정보",
+        "예약 기록",
+        "예약 내역",
+        "예약 데이터"
+      ]
+    },
+    {
+      "name": "neighbourhood",
+      "source_table": "neighbourhood",
+      "ranking": 1.0,
+      "primary_label": "이웃 이름",
+      "synonyms": [
+        "지역 정보",
+        "지역 데이터",
+        "지역",
+        "지역명"
+      ]
+    },
+    {
+      "name": "review",
+      "source_table": "review",
+      "ranking": 3.5,
+      "primary_label": "리뷰",
+      "synonyms": [
+        "리뷰 정보",
+        "리뷰 데이터",
+        "리뷰",
+        "리뷰 기록",
+        "리뷰 내용"
+      ]
+    },
+    {
+      "name": "tip",
+      "source_table": "tip",
+      "ranking": 1.0,
+      "primary_label": "tip id",
+      "synonyms": [
+        "팁",
+        "추천",
+        "정보",
+        "노트",
+        "참고",
+        "고려사항",
+        "추천 사항",
+        "정보 제공"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "business_bid",
+      "domain": "business",
+      "source_table": "business",
+      "source_column": "bid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "사업자 ID",
+      "synonyms": [
+        "bid",
+        "business_id",
+        "식별번호",
+        "아이디",
+        "번호",
+        "고유번호",
+        "식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "business_business_id",
+      "domain": "business",
+      "source_table": "business",
+      "source_column": "business_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.4,
+      "primary_label": "사업 id",
+      "synonyms": [
+        "business_id",
+        "사업자 ID",
+        "사업자 식별번호",
+        "사업자 코드",
+        "아이디",
+        "식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "business_name",
+      "domain": "business",
+      "source_table": "business",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "사업자 이름",
+        "이름",
+        "사업자명",
+        "사업자칭호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "business_full_address",
+      "domain": "business",
+      "source_table": "business",
+      "source_column": "full_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.2,
+      "primary_label": "전체 주소",
+      "synonyms": [
+        "full address",
+        "전체 주소",
+        "주소",
+        "사업장 주소",
+        "전체 주소 정보",
+        "주소 정보",
+        "사업장 주소 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "business_city",
+      "domain": "business",
+      "source_table": "business",
+      "source_column": "city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "시",
+      "synonyms": [
+        "city",
+        "도시",
+        "도시 이름",
+        "도시명",
+        "도시 정보",
+        "도시 이름 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "business_latitude",
+      "domain": "business",
+      "source_table": "business",
+      "source_column": "latitude",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "위도",
+      "synonyms": [
+        "latitude",
+        "위도",
+        "위도 좌표",
+        "위도 정보",
+        "위도 값",
+        "좌표 위도",
+        "위도 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "business_longitude",
+      "domain": "business",
+      "source_table": "business",
+      "source_column": "longitude",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "경도",
+      "synonyms": [
+        "경도",
+        "經度",
+        "longitude",
+        "위치 경도",
+        "좌표 경도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "business_review_count",
+      "domain": "business",
+      "source_table": "business",
+      "source_column": "review_count",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.8,
+      "primary_label": "리뷰 수",
+      "synonyms": [
+        "리뷰 수",
+        "후기 수",
+        "review count",
+        "리뷰 개수",
+        "후기 개수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "business_is_open",
+      "domain": "business",
+      "source_table": "business",
+      "source_column": "is_open",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.2,
+      "primary_label": "오픈 여부",
+      "synonyms": [
+        "운영 중",
+        "เปิด cửa",
+        "is open",
+        "운영 여부",
+        "비즈니스 상태",
+        "개점 여부"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "오픈",
+          "열려 있음"
+        ],
+        "0": [
+          "닫힘",
+          "닫혀 있음"
+        ]
+      }
+    },
+    {
+      "name": "business_rating",
+      "domain": "business",
+      "source_table": "business",
+      "source_column": "rating",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "평점",
+      "synonyms": [
+        "평점",
+        "평점 수치",
+        "평가 점수",
+        "점수",
+        "평점 정보",
+        "평가",
+        "점수 값",
+        "평점 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "business_state",
+      "domain": "business",
+      "source_table": "business",
+      "source_column": "state",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "주",
+      "synonyms": [
+        "주",
+        "주소 주",
+        "주 이름",
+        "주 코드",
+        "주 정보",
+        "주소 주 단위",
+        "주 이름 정보",
+        "주 코드 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "category_id",
+      "domain": "category",
+      "source_table": "category",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "id",
+        "카테고리 ID",
+        "아이디",
+        "식별번호",
+        "번호",
+        "카테고리 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "category_business_id",
+      "domain": "category",
+      "source_table": "category",
+      "source_column": "business_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "사업자 ID",
+      "synonyms": [
+        "business id",
+        "사업체 ID",
+        "사업체 번호",
+        "사업자 ID",
+        "사업체 식별자",
+        "사업자 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "category_category_name",
+      "domain": "category",
+      "source_table": "category",
+      "source_column": "category_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "카테고리 이름",
+      "synonyms": [
+        "category name",
+        "카테고리 이름",
+        "분류명",
+        "카테고리",
+        "분류",
+        "분류 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "식당": [
+          "식당",
+          "음식점"
+        ],
+        "카페": [
+          "카페",
+          "커피숍"
+        ],
+        "스포츠": [
+          "스포츠",
+          "스포츠장"
+        ]
+      }
+    },
+    {
+      "name": "user_uid",
+      "domain": "user",
+      "source_table": "user",
+      "source_column": "uid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "사용자 고유 번호",
+      "synonyms": [
+        "uid",
+        "사용자 ID",
+        "사용자 고유 번호",
+        "고유 ID",
+        "사용자 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "user_user_id",
+      "domain": "user",
+      "source_table": "user",
+      "source_column": "user_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "사용자 id",
+      "synonyms": [
+        "user_id",
+        "사용자 ID",
+        "사용자 식별자",
+        "사용자 고유 번호",
+        "유저 ID",
+        "사용자 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "user123": [
+          "user123",
+          "usr123"
+        ]
+      }
+    },
+    {
+      "name": "user_name",
+      "domain": "user",
+      "source_table": "user",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "사용자 이름",
+        "이름",
+        "사용자 별명",
+        "사용자 대표 이름",
+        "이름 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수",
+          "민수"
+        ]
+      }
+    },
+    {
+      "name": "checkin_cid",
+      "domain": "checkin",
+      "source_table": "checkin",
+      "source_column": "cid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "체크인 ID",
+      "synonyms": [
+        "cid",
+        "체크인 ID",
+        "기록 번호",
+        "식별 번호",
+        "체크인 고유값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "checkin_business_id",
+      "domain": "checkin",
+      "source_table": "checkin",
+      "source_column": "business_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "사업자 ID",
+      "synonyms": [
+        "business id",
+        "사업체 ID",
+        "사업자 번호",
+        "사업체 식별자",
+        "사업체 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "12345": [
+          "12345"
+        ]
+      }
+    },
+    {
+      "name": "checkin_count",
+      "domain": "checkin",
+      "source_table": "checkin",
+      "source_column": "count",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "수량",
+      "synonyms": [
+        "count",
+        "체크인 횟수",
+        "총 수",
+        "횟수",
+        "카운트",
+        "체크인 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "checkin_day",
+      "domain": "checkin",
+      "source_table": "checkin",
+      "source_column": "day",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "날짜",
+      "synonyms": [
+        "일",
+        "날짜",
+        "일자",
+        "날",
+        "일기",
+        "날짜 정보",
+        "일자 정보",
+        "일자 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-01": [
+          "2023-10-01",
+          "10월 1일"
+        ]
+      }
+    },
+    {
+      "name": "neighbourhood_id",
+      "domain": "neighbourhood",
+      "source_table": "neighbourhood",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "아이디",
+      "synonyms": [
+        "id",
+        "구역 번호",
+        "아이디",
+        "구역 고유 번호",
+        "식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "neighbourhood_business_id",
+      "domain": "neighbourhood",
+      "source_table": "neighbourhood",
+      "source_column": "business_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "사업자 ID",
+      "synonyms": [
+        "business id",
+        "사업소 번호",
+        "사업소 아이디",
+        "사업소 고유 번호",
+        "사업소 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "neighbourhood_neighbourhood_name",
+      "domain": "neighbourhood",
+      "source_table": "neighbourhood",
+      "source_column": "neighbourhood_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이웃 이름",
+      "synonyms": [
+        "neighbourhood name",
+        "구역 이름",
+        "지역 이름",
+        "구역명",
+        "지역"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "review_rid",
+      "domain": "review",
+      "source_table": "review",
+      "source_column": "rid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "리뷰 ID",
+      "synonyms": [
+        "rid",
+        "리뷰 아이디",
+        "리뷰 번호",
+        "리뷰 식별자",
+        "리뷰 고유 번호",
+        "리뷰 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "review_business_id",
+      "domain": "review",
+      "source_table": "review",
+      "source_column": "business_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "사업자 ID",
+      "synonyms": [
+        "business_id",
+        "업체 ID",
+        "사업체 ID",
+        "사업자 ID",
+        "업체 식별자",
+        "업체 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "review_user_id",
+      "domain": "review",
+      "source_table": "review",
+      "source_column": "user_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "사용자 ID",
+      "synonyms": [
+        "user_id",
+        "사용자 ID",
+        "유저 ID",
+        "사용자 식별자",
+        "유저 번호",
+        "사용자 고유 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "review_rating",
+      "domain": "review",
+      "source_table": "review",
+      "source_column": "rating",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "평점",
+      "synonyms": [
+        "평점",
+        "评分",
+        "점수",
+        "평가",
+        "리뷰 평점",
+        "평점 정보",
+        "평가 점수",
+        "리뷰 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "review_text",
+      "domain": "review",
+      "source_table": "review",
+      "source_column": "text",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "리뷰 텍스트",
+      "synonyms": [
+        "내용",
+        "텍스트",
+        "리뷰 텍스트",
+        "리뷰 내용",
+        "문자",
+        "리뷰 본문",
+        "리뷰 텍스트 내용",
+        "리뷰 글"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "review_year",
+      "domain": "review",
+      "source_table": "review",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "작성 연도",
+        "리뷰 연도",
+        "년도 정보",
+        "년도 데이터",
+        "연도 기준",
+        "년도 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": []
+      }
+    },
+    {
+      "name": "review_month",
+      "domain": "review",
+      "source_table": "review",
+      "source_column": "month",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "월",
+      "synonyms": [
+        "월",
+        "월 정보",
+        "월 데이터",
+        "월 기준",
+        "월별",
+        "월자료",
+        "월 기록",
+        "월 입력"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1월": [
+          "1월"
+        ],
+        "12월": [
+          "12월"
+        ]
+      }
+    },
+    {
+      "name": "tip_tip_id",
+      "domain": "tip",
+      "source_table": "tip",
+      "source_column": "tip_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "tip id",
+      "synonyms": [
+        "tip_id",
+        "tip 번호",
+        "리뷰 ID",
+        "tip 식별자",
+        "리뷰 고유번호",
+        "tip 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tip_business_id",
+      "domain": "tip",
+      "source_table": "tip",
+      "source_column": "business_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "business id",
+      "synonyms": [
+        "business_id",
+        "사업자 ID",
+        "식당 ID",
+        "사업자 식별자",
+        "business 식별자",
+        "business 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tip_text",
+      "domain": "tip",
+      "source_table": "tip",
+      "source_column": "text",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "text",
+      "synonyms": [
+        "text",
+        "리뷰 내용",
+        "텍스트",
+        "리뷰 메시지",
+        "리뷰 텍스트",
+        "내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "맛있는 추천": [
+          "맛있는 추천",
+          "좋은 추천"
+        ],
+        "가격이 비싸요": [
+          "가격이 비싸요",
+          "비싸요"
+        ]
+      }
+    },
+    {
+      "name": "tip_user_id",
+      "domain": "tip",
+      "source_table": "tip",
+      "source_column": "user_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "user id",
+      "synonyms": [
+        "사용자 ID",
+        "사용자 고유 번호",
+        "사용자 식별자",
+        "유저 ID",
+        "유저 고유 번호",
+        "사용자 코드",
+        "user_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tip_likes",
+      "domain": "tip",
+      "source_table": "tip",
+      "source_column": "likes",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "likes",
+      "synonyms": [
+        "좋아요 수",
+        "좋아요",
+        "좋아요 개수",
+        "좋아요 카운트",
+        "좋아요 갯수",
+        "likes"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tip_year",
+      "domain": "tip",
+      "source_table": "tip",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "년도",
+        "생성 년도",
+        "년도 정보",
+        "년도 데이터",
+        "year"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tip_month",
+      "domain": "tip",
+      "source_table": "tip",
+      "source_column": "month",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "month",
+      "synonyms": [
+        "월",
+        "월별",
+        "월 정보",
+        "월 데이터",
+        "월 기준",
+        "월별 데이터",
+        "월 기록",
+        "월별 입력"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1월": [
+          "1월",
+          "jan"
+        ],
+        "6월": [
+          "6월",
+          "jun"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "category_business_fk0",
+      "domain": "category",
+      "range": "business",
+      "source_fk": [
+        "category.business_id",
+        "business.business_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "checkin_business_fk1",
+      "domain": "checkin",
+      "range": "business",
+      "source_fk": [
+        "checkin.business_id",
+        "business.business_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "참여",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "neighbourhood_business_fk2",
+      "domain": "neighbourhood",
+      "range": "business",
+      "source_fk": [
+        "neighbourhood.business_id",
+        "business.business_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "review_user_fk3",
+      "domain": "review",
+      "range": "user",
+      "source_fk": [
+        "review.user_id",
+        "user.user_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "작성한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "review_business_fk4",
+      "domain": "review",
+      "range": "business",
+      "source_fk": [
+        "review.business_id",
+        "business.business_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "평가한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "tip_user_fk5",
+      "domain": "tip",
+      "range": "user",
+      "source_fk": [
+        "tip.user_id",
+        "user.user_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "작성한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "tip_business_fk6",
+      "domain": "tip",
+      "range": "business",
+      "source_fk": [
+        "tip.business_id",
+        "business.business_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "추천한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

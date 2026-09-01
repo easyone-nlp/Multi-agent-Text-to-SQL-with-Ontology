@@ -1,0 +1,451 @@
+{
+  "db_id": "company_office",
+  "classes": [
+    {
+      "name": "buildings",
+      "source_table": "buildings",
+      "ranking": 3.0,
+      "primary_label": "건물",
+      "synonyms": [
+        "건물",
+        "건물 정보",
+        "회사 건물",
+        "구조물",
+        "건물 목록"
+      ]
+    },
+    {
+      "name": "Companies",
+      "source_table": "Companies",
+      "ranking": 3.5,
+      "primary_label": "회사",
+      "synonyms": [
+        "회사",
+        "기업",
+        "회사 목록",
+        "기업 정보",
+        "회사 데이터"
+      ]
+    },
+    {
+      "name": "Office_locations",
+      "source_table": "Office_locations",
+      "ranking": 3.0,
+      "primary_label": "office locations",
+      "synonyms": [
+        "사무실 위치",
+        "오피스 위치",
+        "지점 위치",
+        "사무실 정보",
+        "오피스 위치 목록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "buildings_id",
+      "domain": "buildings",
+      "source_table": "buildings",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "아이디",
+      "synonyms": [
+        "id",
+        "건물 번호",
+        "건물 식별자",
+        "건물 고유 번호",
+        "건물 아이디",
+        "건물 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "buildings_name",
+      "domain": "buildings",
+      "source_table": "buildings",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "건물 이름",
+        "건물 제목",
+        "건물명",
+        "건물 고유 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "buildings_City",
+      "domain": "buildings",
+      "source_table": "buildings",
+      "source_column": "City",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "city",
+      "synonyms": [
+        "City",
+        "도시",
+        "도시 이름",
+        "건물 위치 도시",
+        "건물 소재지 도시",
+        "도시명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "buildings_Height",
+      "domain": "buildings",
+      "source_table": "buildings",
+      "source_column": "Height",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "height",
+      "synonyms": [
+        "높이",
+        "건물 높이",
+        "높이 정보",
+        "건물 높이 데이터",
+        "Height",
+        "높이 수치",
+        "건물 높이 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "buildings_Stories",
+      "domain": "buildings",
+      "source_table": "buildings",
+      "source_column": "Stories",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "stories",
+      "synonyms": [
+        "층수",
+        "건물 층수",
+        "건물 층수 데이터",
+        "Stories",
+        "층 수치",
+        "건물 층수 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "buildings_Status",
+      "domain": "buildings",
+      "source_table": "buildings",
+      "source_column": "Status",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "status",
+      "synonyms": [
+        "상태",
+        "건물 상태",
+        "현황",
+        "건물 현황",
+        "Status",
+        "건물 상태 정보",
+        "건물 상태 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Companies_id",
+      "domain": "Companies",
+      "source_table": "Companies",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "회사 ID",
+      "synonyms": [
+        "id",
+        "회사 번호",
+        "고유 번호",
+        "아이디",
+        "식별 번호",
+        "회사 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Companies_name",
+      "domain": "Companies",
+      "source_table": "Companies",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "회사 이름",
+      "synonyms": [
+        "name",
+        "회사 이름",
+        "이름",
+        "회사명",
+        "회사 대표 이름",
+        "회사 표시 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Companies_Headquarters",
+      "domain": "Companies",
+      "source_table": "Companies",
+      "source_column": "Headquarters",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.2,
+      "primary_label": "본사",
+      "synonyms": [
+        "Headquarters",
+        "본사",
+        "본사 위치",
+        "본사 소재지",
+        "회사 본사",
+        "본사 주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Companies_Industry",
+      "domain": "Companies",
+      "source_table": "Companies",
+      "source_column": "Industry",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.7,
+      "primary_label": "업종",
+      "synonyms": [
+        "산업",
+        "업종",
+        "산업분류",
+        "산업类别",
+        "산업분야",
+        "업종분류",
+        "산업군"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Companies_Sales_billion",
+      "domain": "Companies",
+      "source_table": "Companies",
+      "source_column": "Sales_billion",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "매출 양",
+      "synonyms": [
+        "매출",
+        "매출액",
+        "매출금",
+        "매출규모",
+        "매출액(십억)",
+        "매출액(십억 단위)",
+        "매출액(십억원)",
+        "매출액(십억원 단위)"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Companies_Profits_billion",
+      "domain": "Companies",
+      "source_table": "Companies",
+      "source_column": "Profits_billion",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "이익 양",
+      "synonyms": [
+        "수익",
+        "수익액",
+        "이익",
+        "이익액",
+        "이익(십억)",
+        "이익(십억 단위)",
+        "이익액(십억원)",
+        "이익액(십억원 단위)"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Companies_Assets_billion",
+      "domain": "Companies",
+      "source_table": "Companies",
+      "source_column": "Assets_billion",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "자산 양",
+      "synonyms": [
+        "자산",
+        "자산 금액",
+        "자산 규모",
+        "자산 가치",
+        "자산 총량",
+        "자산 수준",
+        "자산 금액(십억)",
+        "자산 측면"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Companies_Market_Value_billion",
+      "domain": "Companies",
+      "source_table": "Companies",
+      "source_column": "Market_Value_billion",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "시장 가치",
+      "synonyms": [
+        "시장 가치",
+        "시장 가격",
+        "시장 가치(십억)",
+        "주식 가치",
+        "회사 가치",
+        "시장 평가",
+        "시장 평가액",
+        "시장 가격(십억)"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Office_locations_building_id",
+      "domain": "Office_locations",
+      "source_table": "Office_locations",
+      "source_column": "building_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "building id",
+      "synonyms": [
+        "건물 ID",
+        "건물 번호",
+        "건물 식별자",
+        "building id",
+        "건물 코드",
+        "건물 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Office_locations_company_id",
+      "domain": "Office_locations",
+      "source_table": "Office_locations",
+      "source_column": "company_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "company id",
+      "synonyms": [
+        "회사 ID",
+        "회사 번호",
+        "회사 식별자",
+        "company id",
+        "회사 코드",
+        "회사 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Office_locations_move_in_year",
+      "domain": "Office_locations",
+      "source_table": "Office_locations",
+      "source_column": "move_in_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "move in year",
+      "synonyms": [
+        "입주 연도",
+        "이전 연도",
+        "이전년도",
+        "입주년도",
+        "move in year",
+        "입주 시기"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": [
+          "2020년"
+        ],
+        "2021": [
+          "2021년"
+        ],
+        "2022": [
+          "2022년"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Office_locations_Companies_fk0",
+      "domain": "Office_locations",
+      "range": "Companies",
+      "source_fk": [
+        "Office_locations.company_id",
+        "Companies.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Office_locations_buildings_fk1",
+      "domain": "Office_locations",
+      "range": "buildings",
+      "source_fk": [
+        "Office_locations.building_id",
+        "buildings.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

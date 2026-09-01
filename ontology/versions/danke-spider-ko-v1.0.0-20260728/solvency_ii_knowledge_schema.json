@@ -1,0 +1,1025 @@
+{
+  "db_id": "solvency_ii",
+  "classes": [
+    {
+      "name": "Addresses",
+      "source_table": "Addresses",
+      "ranking": 1.0,
+      "primary_label": "주소",
+      "synonyms": [
+        "주소",
+        "주소록",
+        "주소 정보",
+        "주소 목록",
+        "주소 데이터",
+        "주소 기록"
+      ]
+    },
+    {
+      "name": "Locations",
+      "source_table": "Locations",
+      "ranking": 1.0,
+      "primary_label": "장소",
+      "synonyms": [
+        "위치",
+        "지리적 위치",
+        "위치 정보",
+        "위치 데이터",
+        "위치 목록",
+        "지리 정보"
+      ]
+    },
+    {
+      "name": "Products",
+      "source_table": "Products",
+      "ranking": 3.5,
+      "primary_label": "상품",
+      "synonyms": [
+        "제품",
+        "제품 목록",
+        "제품 데이터",
+        "제품 정보",
+        "제품 코드",
+        "제품 사양"
+      ]
+    },
+    {
+      "name": "Parties",
+      "source_table": "Parties",
+      "ranking": 3.0,
+      "primary_label": "정당",
+      "synonyms": [
+        "parties",
+        "party",
+        "참여자",
+        "관계자",
+        "측면"
+      ]
+    },
+    {
+      "name": "Assets",
+      "source_table": "Assets",
+      "ranking": 3.0,
+      "primary_label": "자산",
+      "synonyms": [
+        "assets",
+        "asset",
+        "자산",
+        "자산들",
+        "자산 정보"
+      ]
+    },
+    {
+      "name": "Channels",
+      "source_table": "Channels",
+      "ranking": 1.0,
+      "primary_label": "채널",
+      "synonyms": [
+        "channels",
+        "channel",
+        "채널",
+        "채널들",
+        "채널 정보"
+      ]
+    },
+    {
+      "name": "Finances",
+      "source_table": "Finances",
+      "ranking": 3.0,
+      "primary_label": "재무",
+      "synonyms": [
+        "재무",
+        "금융",
+        "재무데이터",
+        "재무정보",
+        "금융데이터",
+        "재무서류",
+        "금융서류",
+        "재무기록"
+      ]
+    },
+    {
+      "name": "Events",
+      "source_table": "Events",
+      "ranking": 3.5,
+      "primary_label": "이벤트",
+      "synonyms": [
+        "이벤트",
+        "행사",
+        "행사데이터",
+        "이벤트데이터",
+        "행사정보",
+        "이벤트기록",
+        "행사서류",
+        "행사내용"
+      ]
+    },
+    {
+      "name": "Products_in_Events",
+      "source_table": "Products_in_Events",
+      "ranking": 3.0,
+      "primary_label": "products in events",
+      "synonyms": [
+        "제품",
+        "상품",
+        "제품정보",
+        "상품데이터",
+        "제품목록",
+        "상품목록",
+        "제품연관",
+        "상품연관"
+      ]
+    },
+    {
+      "name": "Parties_in_Events",
+      "source_table": "Parties_in_Events",
+      "ranking": 3.0,
+      "primary_label": "참가자와 이벤트의 관계",
+      "synonyms": [
+        "이벤트 참여자",
+        "이벤트 관련 주체",
+        "이벤트 참여 업체",
+        "이벤트 관련 기관",
+        "이벤트 참여 기관",
+        "이벤트 관련 기업",
+        "이벤트 관련 업체"
+      ]
+    },
+    {
+      "name": "Agreements",
+      "source_table": "Agreements",
+      "ranking": 3.0,
+      "primary_label": "계약서",
+      "synonyms": [
+        "계약",
+        "협약",
+        "합의",
+        "합의서",
+        "계약서",
+        "협약서"
+      ]
+    },
+    {
+      "name": "Assets_in_Events",
+      "source_table": "Assets_in_Events",
+      "ranking": 3.0,
+      "primary_label": "assets in events",
+      "synonyms": [
+        "자산",
+        "자산 정보",
+        "사건 관련 자산",
+        "사고 자산",
+        "사건 자산",
+        "자산 관련 사건"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Addresses_Address_ID",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "Address_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "address id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_address_details",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "address_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주소 상세 정보",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 강남구 테헤란로 123": [
+          "서울 강남구 테헤란로 123",
+          "강남구 테헤란로"
+        ],
+        "인천시 남동구 동일로 456": [
+          "인천 남동구 동일로 456",
+          "남동구 동일로"
+        ]
+      }
+    },
+    {
+      "name": "Locations_Location_ID",
+      "domain": "Locations",
+      "source_table": "Locations",
+      "source_column": "Location_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "장소 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Locations_Other_Details",
+      "domain": "Locations",
+      "source_table": "Locations",
+      "source_column": "Other_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "다른 세부 정보",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "주소": [
+          "주소"
+        ],
+        "설명": [
+          "설명"
+        ],
+        "비고": [
+          "비고"
+        ]
+      }
+    },
+    {
+      "name": "Products_Product_ID",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "Product_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "상품 ID",
+      "synonyms": [
+        "제품 ID",
+        "제품 번호",
+        "제품 식별자",
+        "제품 고유 번호",
+        "제품 코드",
+        "PID",
+        "제품 인식 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_Product_Type_Code",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "Product_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "상품 유형 코드",
+      "synonyms": [
+        "제품 유형 코드",
+        "제품 종류 코드",
+        "제품 타입 코드",
+        "제품 구분 코드",
+        "제품 분류 코드",
+        "PTC",
+        "제품 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Electronics": [
+          "전자제품",
+          "전자기기"
+        ],
+        "Clothing": [
+          "의류",
+          "옷"
+        ],
+        "Food": [
+          "식품",
+          "음식"
+        ]
+      }
+    },
+    {
+      "name": "Products_Product_Name",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "Product_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "상품 이름",
+      "synonyms": [
+        "제품 이름",
+        "제품 제목",
+        "제품 명",
+        "제품 소명",
+        "제품 표시 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_Product_Price",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "Product_Price",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "상품 가격",
+      "synonyms": [
+        "제품 가격",
+        "가격",
+        "제품 가격 정보",
+        "가격 정보",
+        "Product_Price",
+        "가격 데이터",
+        "제품의 가격",
+        "가격 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Parties_Party_ID",
+      "domain": "Parties",
+      "source_table": "Parties",
+      "source_column": "Party_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "정당 ID",
+      "synonyms": [
+        "Party_ID",
+        "파티 ID",
+        "파티 식별자",
+        "ID",
+        "파티 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Parties_Party_Details",
+      "domain": "Parties",
+      "source_table": "Parties",
+      "source_column": "Party_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "정당 상세 정보",
+      "synonyms": [
+        "Party_Details",
+        "파티 세부정보",
+        "파티 설명",
+        "상세내용",
+        "정보",
+        "세부 사항"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "정당 소개": [
+          "정당 설명",
+          "정당 정보"
+        ],
+        "정당 정책": [
+          "정당 입장",
+          "정당 입장 내용"
+        ]
+      }
+    },
+    {
+      "name": "Assets_Asset_ID",
+      "domain": "Assets",
+      "source_table": "Assets",
+      "source_column": "Asset_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "자산 ID",
+      "synonyms": [
+        "자산 ID",
+        "자산 식별자",
+        "ASSET_ID",
+        "자산 번호",
+        "아이디",
+        "자산 고유 번호",
+        "ASSET"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assets_Other_Details",
+      "domain": "Assets",
+      "source_table": "Assets",
+      "source_column": "Other_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "기타 세부 사항",
+      "synonyms": [
+        "기타 정보",
+        "기타 세부 사항",
+        "기타 설명",
+        "추가 정보",
+        "Other Details",
+        "기타 설명 사항",
+        "기타 세부 정보",
+        "기타 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Channels_Channel_ID",
+      "domain": "Channels",
+      "source_table": "Channels",
+      "source_column": "Channel_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "채널 ID",
+      "synonyms": [
+        "채널 ID",
+        "채널 식별 번호",
+        "채널 번호",
+        "Channel_ID",
+        "채널 고유 번호",
+        "ID",
+        "채널 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Channels_Other_Details",
+      "domain": "Channels",
+      "source_table": "Channels",
+      "source_column": "Other_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "다른 세부 정보",
+      "synonyms": [
+        "기타 세부 사항",
+        "추가 정보",
+        "기타 설명",
+        "Other_Details",
+        "기타 내용",
+        "기타 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "기타 정보": [
+          "기타 세부 정보"
+        ],
+        "설명": [
+          "설명 정보"
+        ]
+      }
+    },
+    {
+      "name": "Finances_Finance_ID",
+      "domain": "Finances",
+      "source_table": "Finances",
+      "source_column": "Finance_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "재무 ID",
+      "synonyms": [
+        "Finance_ID",
+        "재무 ID",
+        "금융 ID",
+        "재무 식별자",
+        "금융 식별자",
+        "재무 코드",
+        "금융 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Finances_Other_Details",
+      "domain": "Finances",
+      "source_table": "Finances",
+      "source_column": "Other_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "기타 세부 사항",
+      "synonyms": [
+        "Other_Details",
+        "기타 세부 사항",
+        "추가 설명",
+        "기타 정보",
+        "기타 설명",
+        "기타 세부내용",
+        "기타 정보 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "수입 증가": [
+          "수입 증가"
+        ],
+        "지출 감소": [
+          "지출 감소"
+        ],
+        "이자율 조정": [
+          "이자율 조정"
+        ]
+      }
+    },
+    {
+      "name": "Events_Event_ID",
+      "domain": "Events",
+      "source_table": "Events",
+      "source_column": "Event_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이벤트 ID",
+      "synonyms": [
+        "이벤트 ID",
+        "이벤트 식별 번호",
+        "이벤트 고유 번호",
+        "이벤트 번호",
+        "Event_ID",
+        "이벤트 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Events_Address_ID",
+      "domain": "Events",
+      "source_table": "Events",
+      "source_column": "Address_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주소 ID",
+      "synonyms": [
+        "주소 ID",
+        "주소 식별 번호",
+        "주소 고유 번호",
+        "주소 번호",
+        "Address_ID",
+        "주소 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Events_Channel_ID",
+      "domain": "Events",
+      "source_table": "Events",
+      "source_column": "Channel_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "채널 ID",
+      "synonyms": [
+        "채널 ID",
+        "채널 식별 번호",
+        "채널 고유 번호",
+        "채널 번호",
+        "Channel_ID",
+        "채널 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Events_Event_Type_Code",
+      "domain": "Events",
+      "source_table": "Events",
+      "source_column": "Event_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이벤트 유형 코드",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "EVENT_TYPE_01": [
+          "EVENT_TYPE_01"
+        ],
+        "EVENT_TYPE_02": [
+          "EVENT_TYPE_02"
+        ]
+      }
+    },
+    {
+      "name": "Events_Finance_ID",
+      "domain": "Events",
+      "source_table": "Events",
+      "source_column": "Finance_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "재정 ID",
+      "synonyms": [
+        "재무 ID",
+        "금융 ID",
+        "재무 식별자",
+        "금융 식별자",
+        "Finance ID",
+        "금융 정보 ID",
+        "재무 관련 ID",
+        "금융 관련 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Events_Location_ID",
+      "domain": "Events",
+      "source_table": "Events",
+      "source_column": "Location_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "위치 ID",
+      "synonyms": [
+        "위치 ID",
+        "지역 ID",
+        "위치 식별자",
+        "지역 식별자",
+        "Location ID",
+        "위치 정보 ID",
+        "지역 관련 ID",
+        "위치 관련 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_in_Events_Product_in_Event_ID",
+      "domain": "Products_in_Events",
+      "source_table": "Products_in_Events",
+      "source_column": "Product_in_Event_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "product in event id",
+      "synonyms": [
+        "제품_이벤트_아이디",
+        "제품_이벤트_식별자",
+        "제품_이벤트_코드",
+        "제품_이벤트_번호",
+        "제품_이벤트_키",
+        "제품_이벤트_식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_in_Events_Event_ID",
+      "domain": "Products_in_Events",
+      "source_table": "Products_in_Events",
+      "source_column": "Event_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "event id",
+      "synonyms": [
+        "이벤트_아이디",
+        "이벤트_식별자",
+        "이벤트_코드",
+        "이벤트_번호",
+        "이벤트_키",
+        "이벤트_식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_in_Events_Product_ID",
+      "domain": "Products_in_Events",
+      "source_table": "Products_in_Events",
+      "source_column": "Product_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "product id",
+      "synonyms": [
+        "제품_아이디",
+        "제품_식별자",
+        "제품_코드",
+        "제품_번호",
+        "제품_키",
+        "제품_식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Parties_in_Events_Party_ID",
+      "domain": "Parties_in_Events",
+      "source_table": "Parties_in_Events",
+      "source_column": "Party_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "참가자 ID",
+      "synonyms": [
+        "Party_ID",
+        "참여 기관 ID",
+        "기관 식별 번호",
+        "Party No",
+        "참여자 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Parties_in_Events_Event_ID",
+      "domain": "Parties_in_Events",
+      "source_table": "Parties_in_Events",
+      "source_column": "Event_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이벤트 ID",
+      "synonyms": [
+        "Event_ID",
+        "이벤트 ID",
+        "이벤트 식별 번호",
+        "Event No",
+        "행사 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Parties_in_Events_Role_Code",
+      "domain": "Parties_in_Events",
+      "source_table": "Parties_in_Events",
+      "source_column": "Role_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "역할 코드",
+      "synonyms": [
+        "Role_Code",
+        "역할 코드",
+        "역할 식별 코드",
+        "Role No",
+        "참여 역할"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "주최자": [
+          "주최"
+        ],
+        "참가자": [
+          "참가"
+        ],
+        "관객": [
+          "관람"
+        ]
+      }
+    },
+    {
+      "name": "Agreements_Document_ID",
+      "domain": "Agreements",
+      "source_table": "Agreements",
+      "source_column": "Document_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "문서 ID",
+      "synonyms": [
+        "문서 ID",
+        "문서 번호",
+        "계약 문서 ID",
+        "문서 식별자",
+        "문서 코드",
+        "계약 문서 번호",
+        "문서 고유 번호",
+        "문서 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Agreements_Event_ID",
+      "domain": "Agreements",
+      "source_table": "Agreements",
+      "source_column": "Event_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이벤트 ID",
+      "synonyms": [
+        "이벤트 ID",
+        "이벤트 번호",
+        "계약 이벤트 ID",
+        "이벤트 식별자",
+        "이벤트 코드",
+        "계약 이벤트 번호",
+        "이벤트 고유 번호",
+        "이벤트 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assets_in_Events_Asset_ID",
+      "domain": "Assets_in_Events",
+      "source_table": "Assets_in_Events",
+      "source_column": "Asset_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "asset id",
+      "synonyms": [
+        "자산 ID",
+        "자산 식별 번호",
+        "자산 고유 번호",
+        "자산 코드",
+        "자산 식별자",
+        "자산 번호",
+        "자산 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assets_in_Events_Event_ID",
+      "domain": "Assets_in_Events",
+      "source_table": "Assets_in_Events",
+      "source_column": "Event_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "event id",
+      "synonyms": [
+        "이벤트 ID",
+        "이벤트 식별 번호",
+        "이벤트 고유 번호",
+        "이벤트 코드",
+        "이벤트 식별자",
+        "이벤트 번호",
+        "이벤트 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Events_Finances_fk0",
+      "domain": "Events",
+      "range": "Finances",
+      "source_fk": [
+        "Events.Finance_ID",
+        "Finances.Finance_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "재정 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Events_Addresses_fk1",
+      "domain": "Events",
+      "range": "Addresses",
+      "source_fk": [
+        "Events.Address_ID",
+        "Addresses.Address_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "주소 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Events_Locations_fk2",
+      "domain": "Events",
+      "range": "Locations",
+      "source_fk": [
+        "Events.Location_ID",
+        "Locations.Location_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "위치 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Products_in_Events_Products_fk3",
+      "domain": "Products_in_Events",
+      "range": "Products",
+      "source_fk": [
+        "Products_in_Events.Product_ID",
+        "Products.Product_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "제품 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Products_in_Events_Events_fk4",
+      "domain": "Products_in_Events",
+      "range": "Events",
+      "source_fk": [
+        "Products_in_Events.Event_ID",
+        "Events.Event_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "이벤트 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Parties_in_Events_Events_fk5",
+      "domain": "Parties_in_Events",
+      "range": "Events",
+      "source_fk": [
+        "Parties_in_Events.Event_ID",
+        "Events.Event_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "이벤트 참여",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Parties_in_Events_Parties_fk6",
+      "domain": "Parties_in_Events",
+      "range": "Parties",
+      "source_fk": [
+        "Parties_in_Events.Party_ID",
+        "Parties.Party_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참여자 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Agreements_Events_fk7",
+      "domain": "Agreements",
+      "range": "Events",
+      "source_fk": [
+        "Agreements.Event_ID",
+        "Events.Event_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "계약 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Assets_in_Events_Events_fk8",
+      "domain": "Assets_in_Events",
+      "range": "Events",
+      "source_fk": [
+        "Assets_in_Events.Event_ID",
+        "Events.Event_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "자산 연결",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

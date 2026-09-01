@@ -1,0 +1,106 @@
+{
+  "class_table": {
+    "Student": "Student",
+    "Voting_record": "Voting_record"
+  },
+  "property_column": {
+    "Student_StuID": [
+      "Student",
+      "StuID"
+    ],
+    "Student_LName": [
+      "Student",
+      "LName"
+    ],
+    "Student_Fname": [
+      "Student",
+      "Fname"
+    ],
+    "Student_Age": [
+      "Student",
+      "Age"
+    ],
+    "Student_Sex": [
+      "Student",
+      "Sex"
+    ],
+    "Student_Major": [
+      "Student",
+      "Major"
+    ],
+    "Student_Advisor": [
+      "Student",
+      "Advisor"
+    ],
+    "Student_city_code": [
+      "Student",
+      "city_code"
+    ],
+    "Voting_record_StuID": [
+      "Voting_record",
+      "StuID"
+    ],
+    "Voting_record_Registration_Date": [
+      "Voting_record",
+      "Registration_Date"
+    ],
+    "Voting_record_Election_Cycle": [
+      "Voting_record",
+      "Election_Cycle"
+    ],
+    "Voting_record_President_Vote": [
+      "Voting_record",
+      "President_Vote"
+    ],
+    "Voting_record_Vice_President_Vote": [
+      "Voting_record",
+      "Vice_President_Vote"
+    ],
+    "Voting_record_Secretary_Vote": [
+      "Voting_record",
+      "Secretary_Vote"
+    ],
+    "Voting_record_Treasurer_Vote": [
+      "Voting_record",
+      "Treasurer_Vote"
+    ],
+    "Voting_record_Class_President_Vote": [
+      "Voting_record",
+      "Class_President_Vote"
+    ],
+    "Voting_record_Class_Senator_Vote": [
+      "Voting_record",
+      "Class_Senator_Vote"
+    ]
+  },
+  "object_property_fk": {
+    "Voting_record_Student_fk0": [
+      "Voting_record.Class_Senator_Vote",
+      "Student.StuID"
+    ],
+    "Voting_record_Student_fk1": [
+      "Voting_record.Class_President_Vote",
+      "Student.StuID"
+    ],
+    "Voting_record_Student_fk2": [
+      "Voting_record.Treasurer_Vote",
+      "Student.StuID"
+    ],
+    "Voting_record_Student_fk3": [
+      "Voting_record.Secretary_Vote",
+      "Student.StuID"
+    ],
+    "Voting_record_Student_fk4": [
+      "Voting_record.Vice_President_Vote",
+      "Student.StuID"
+    ],
+    "Voting_record_Student_fk5": [
+      "Voting_record.President_Vote",
+      "Student.StuID"
+    ],
+    "Voting_record_Student_fk6": [
+      "Voting_record.StuID",
+      "Student.StuID"
+    ]
+  }
+}

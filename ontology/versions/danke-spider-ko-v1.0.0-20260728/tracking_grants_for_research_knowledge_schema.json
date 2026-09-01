@@ -1,0 +1,1337 @@
+{
+  "db_id": "tracking_grants_for_research",
+  "classes": [
+    {
+      "name": "Document_Types",
+      "source_table": "Document_Types",
+      "ranking": 3.0,
+      "primary_label": "문서 유형",
+      "synonyms": [
+        "문서 종류",
+        "문서 유형",
+        "문서 카테고리",
+        "문서 분류",
+        "문서 타입",
+        "문서 형식"
+      ]
+    },
+    {
+      "name": "Documents",
+      "source_table": "Documents",
+      "ranking": 3.5,
+      "primary_label": "문서",
+      "synonyms": [
+        "문서",
+        "문서 정보",
+        "문서 데이터",
+        "문서 기록",
+        "문서 내용",
+        "문서 파일"
+      ]
+    },
+    {
+      "name": "Grants",
+      "source_table": "Grants",
+      "ranking": 3.0,
+      "primary_label": "지급금",
+      "synonyms": [
+        "자금 지원",
+        "연구 자금",
+        "프로젝트 자금",
+        "지원금",
+        "재정 지원",
+        "연구 자금 지원"
+      ]
+    },
+    {
+      "name": "Organisation_Types",
+      "source_table": "Organisation_Types",
+      "ranking": 3.0,
+      "primary_label": "기관 유형",
+      "synonyms": [
+        "기관 분류",
+        "연구 기관 유형",
+        "기관 종류",
+        "연구 지원 기관",
+        "기관 카테고리",
+        "연구 기관 분류",
+        "기관 유형",
+        "연구 기관 타입"
+      ]
+    },
+    {
+      "name": "Organisations",
+      "source_table": "Organisations",
+      "ranking": 3.0,
+      "primary_label": "organisations",
+      "synonyms": [
+        "기관",
+        "연구소",
+        "기관명",
+        "연구 기관",
+        "연구 단체"
+      ]
+    },
+    {
+      "name": "Project_Outcomes",
+      "source_table": "Project_Outcomes",
+      "ranking": 3.0,
+      "primary_label": "project outcomes",
+      "synonyms": [
+        "프로젝트 결과",
+        "성과",
+        "연구 성과",
+        "프로젝트 성과",
+        "연구 결과"
+      ]
+    },
+    {
+      "name": "Project_Staff",
+      "source_table": "Project_Staff",
+      "ranking": 3.0,
+      "primary_label": "project staff",
+      "synonyms": [
+        "프로젝트 팀원",
+        "연구원",
+        "프로젝트 구성원",
+        "연구팀 구성원",
+        "프로젝트 관련 인력"
+      ]
+    },
+    {
+      "name": "Projects",
+      "source_table": "Projects",
+      "ranking": 3.5,
+      "primary_label": "프로젝트",
+      "synonyms": [
+        "연구 프로젝트",
+        "연구 사업",
+        "연구 활동",
+        "연구 계획",
+        "연구 프로젝트 정보"
+      ]
+    },
+    {
+      "name": "Research_Outcomes",
+      "source_table": "Research_Outcomes",
+      "ranking": 3.0,
+      "primary_label": "연구 결과",
+      "synonyms": [
+        "연구 결과",
+        "연구 성과",
+        "연구 성과물",
+        "연구 성과 정보",
+        "연구 결과물"
+      ]
+    },
+    {
+      "name": "Research_Staff",
+      "source_table": "Research_Staff",
+      "ranking": 3.5,
+      "primary_label": "연구 직원",
+      "synonyms": [
+        "연구 인력",
+        "연구원",
+        "연구직원",
+        "연구팀원",
+        "연구자",
+        "학자",
+        "학계인"
+      ]
+    },
+    {
+      "name": "Staff_Roles",
+      "source_table": "Staff_Roles",
+      "ranking": 1.0,
+      "primary_label": "staff roles",
+      "synonyms": [
+        "직원 역할",
+        "직책",
+        "역할",
+        "권한",
+        "직무",
+        "직무 역할",
+        "업무 역할"
+      ]
+    },
+    {
+      "name": "Tasks",
+      "source_table": "Tasks",
+      "ranking": 3.5,
+      "primary_label": "작업",
+      "synonyms": [
+        "작업",
+        "업무",
+        "과제",
+        "작업 목록",
+        "프로젝트 작업",
+        "업무 항목",
+        "과제 항목"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Document_Types_document_type_code",
+      "domain": "Document_Types",
+      "source_table": "Document_Types",
+      "source_column": "document_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "문서 유형 코드",
+      "synonyms": [
+        "문서 유형 코드",
+        "문서 코드",
+        "유형 코드",
+        "문서 유형 식별자",
+        "DT코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "A001": [
+          "A001"
+        ],
+        "B002": [
+          "B002"
+        ]
+      }
+    },
+    {
+      "name": "Document_Types_document_description",
+      "domain": "Document_Types",
+      "source_table": "Document_Types",
+      "source_column": "document_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "문서 설명",
+      "synonyms": [
+        "문서 설명",
+        "문서 설명 정보",
+        "문서 설명내용",
+        "문서 설명자료",
+        "문서 설명항목",
+        "문서 설명문"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_document_id",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "document_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "문서 ID",
+      "synonyms": [
+        "문서 ID",
+        "문서 고유 번호",
+        "문서 식별자",
+        "문서 번호",
+        "문서 고유 코드",
+        "문서 아이디",
+        "문서 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_document_type_code",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "document_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "문서 유형 코드",
+      "synonyms": [
+        "문서 유형 코드",
+        "문서 코드",
+        "문서 유형",
+        "문서 코드 정보",
+        "문서 타입 코드",
+        "문서 유형 식별자",
+        "문서 코드 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "APPROVAL": [
+          "승인",
+          "승인서"
+        ],
+        "REJECTION": [
+          "거부",
+          "거부서"
+        ],
+        "REQUEST": [
+          "요청",
+          "요청서"
+        ]
+      }
+    },
+    {
+      "name": "Documents_grant_id",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "grant_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "지원 번호",
+      "synonyms": [
+        "장학금 ID",
+        "장학금 고유 번호",
+        "장학금 식별자",
+        "장학금 번호",
+        "장학금 고유 코드",
+        "장학금 아이디",
+        "장학금 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_sent_date",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "sent_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "발송일",
+      "synonyms": [
+        "sent date",
+        "sent",
+        "date sent",
+        "sending date",
+        "document sending date",
+        "date of sending",
+        "sent datetime"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_response_received_date",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "response_received_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "응답 수신일",
+      "synonyms": [
+        "response received date",
+        "response date",
+        "date of response",
+        "response received",
+        "response datetime",
+        "received response date",
+        "response received datetime"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Documents_other_details",
+      "domain": "Documents",
+      "source_table": "Documents",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기타 세부 사항",
+      "synonyms": [
+        "other details",
+        "other info",
+        "additional details",
+        "notes",
+        "extra details",
+        "other information",
+        "additional comments",
+        "other remarks"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Grants_grant_id",
+      "domain": "Grants",
+      "source_table": "Grants",
+      "source_column": "grant_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "지급 번호",
+      "synonyms": [
+        "grant_id",
+        "프로젝트 ID",
+        "지원 번호",
+        "연구 지원 ID",
+        "гран트 ID",
+        "고유 번호",
+        "프로젝트 식별자",
+        "지원 프로젝트 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Grants_organisation_id",
+      "domain": "Grants",
+      "source_table": "Grants",
+      "source_column": "organisation_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기관 번호",
+      "synonyms": [
+        "organisation_id",
+        "기관 ID",
+        "기관 번호",
+        "기관 식별자",
+        "기관 코드",
+        "지원 기관 ID",
+        "기관 고유 번호",
+        "기관 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Grants_grant_amount",
+      "domain": "Grants",
+      "source_table": "Grants",
+      "source_column": "grant_amount",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "지급 금액",
+      "synonyms": [
+        "grant_amount",
+        "지원 금액",
+        "연구 지원 금액",
+        "프로젝트 금액",
+        "지원 비용",
+        "연구 지원 비용",
+        "금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Grants_grant_start_date",
+      "domain": "Grants",
+      "source_table": "Grants",
+      "source_column": "grant_start_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 3.0,
+      "primary_label": "지급 시작일",
+      "synonyms": [
+        "grant start date",
+        "start date of grant",
+        "grant beginning date",
+        "start of grant",
+        "grant start",
+        "grant starting date"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-01": [
+          "2023년 1월 1일"
+        ]
+      }
+    },
+    {
+      "name": "Grants_grant_end_date",
+      "domain": "Grants",
+      "source_table": "Grants",
+      "source_column": "grant_end_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 3.0,
+      "primary_label": "지급 종료일",
+      "synonyms": [
+        "grant end date",
+        "end date of grant",
+        "grant ending date",
+        "end of grant",
+        "grant end",
+        "grant closing date"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-12-31": [
+          "2023년 12월 31일"
+        ]
+      }
+    },
+    {
+      "name": "Grants_other_details",
+      "domain": "Grants",
+      "source_table": "Grants",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기타 세부 사항",
+      "synonyms": [
+        "other details",
+        "additional information",
+        "extra notes",
+        "other info",
+        "more details",
+        "other remarks",
+        "additional comments"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Organisation_Types_organisation_type",
+      "domain": "Organisation_Types",
+      "source_table": "Organisation_Types",
+      "source_column": "organisation_type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "기관 유형",
+      "synonyms": [
+        "기관 유형",
+        "조직 분류",
+        "기관 코드",
+        "유형 코드",
+        "기관 종류",
+        "분류 코드",
+        "유형",
+        "기관 유형 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "공공기관": [
+          "공공기관"
+        ],
+        "비영리기관": [
+          "비영리기관"
+        ],
+        "영리기관": [
+          "영리기관"
+        ]
+      }
+    },
+    {
+      "name": "Organisation_Types_organisation_type_description",
+      "domain": "Organisation_Types",
+      "source_table": "Organisation_Types",
+      "source_column": "organisation_type_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "기관 유형 설명",
+      "synonyms": [
+        "설명",
+        "설명 정보",
+        "유형 설명",
+        "기관 유형 설명",
+        "설명자료",
+        "유형 설명 정보",
+        "기관 설명",
+        "설명내용"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Organisations_organisation_id",
+      "domain": "Organisations",
+      "source_table": "Organisations",
+      "source_column": "organisation_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "organisation id",
+      "synonyms": [
+        "기관 ID",
+        "기관 식별 번호",
+        "기관 고유 번호",
+        "기관 코드",
+        "기관 번호",
+        "organisation id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Organisations_organisation_type",
+      "domain": "Organisations",
+      "source_table": "Organisations",
+      "source_column": "organisation_type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "organisation type",
+      "synonyms": [
+        "기관 유형",
+        "기관 종류",
+        "기관 타입",
+        "기관 구분",
+        "조직 유형",
+        "조직 종류",
+        "기관 카테고리",
+        "organisation_type"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "공공기관": [
+          "공공기관",
+          "공공 기관"
+        ],
+        "비영리단체": [
+          "비영리단체",
+          "비영리 단체"
+        ],
+        "기업": [
+          "기업",
+          "기업체"
+        ]
+      }
+    },
+    {
+      "name": "Organisations_organisation_details",
+      "domain": "Organisations",
+      "source_table": "Organisations",
+      "source_column": "organisation_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "organisation details",
+      "synonyms": [
+        "기관 설명",
+        "기관 정보",
+        "기관 소개",
+        "조직 소개",
+        "기관 세부 사항",
+        "조직 세부 정보",
+        "organisation_details"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Project_Outcomes_project_id",
+      "domain": "Project_Outcomes",
+      "source_table": "Project_Outcomes",
+      "source_column": "project_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "project id",
+      "synonyms": [
+        "프로젝트 ID",
+        "프로젝트 고유번호",
+        "프로젝트 식별자",
+        "프로젝트 번호",
+        "project id",
+        "프로젝트 코드",
+        "프로젝트 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Project_Outcomes_outcome_code",
+      "domain": "Project_Outcomes",
+      "source_table": "Project_Outcomes",
+      "source_column": "outcome_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "outcome code",
+      "synonyms": [
+        "결과 코드",
+        "구체적 결과 코드",
+        "결과 코드 정보",
+        "코드",
+        "결과 코드 항목",
+        "outcome_code",
+        "코드 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "A001": [
+          "A001"
+        ],
+        "B002": [
+          "B002"
+        ]
+      }
+    },
+    {
+      "name": "Project_Outcomes_outcome_details",
+      "domain": "Project_Outcomes",
+      "source_table": "Project_Outcomes",
+      "source_column": "outcome_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "outcome details",
+      "synonyms": [
+        "결과 설명",
+        "상세 결과 정보",
+        "결과 상세 내용",
+        "결과 설명 정보",
+        "outcome_details",
+        "상세 설명",
+        "결과 세부 사항"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Project_Staff_staff_id",
+      "domain": "Project_Staff",
+      "source_table": "Project_Staff",
+      "source_column": "staff_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "staff id",
+      "synonyms": [
+        "직원 ID",
+        "연구원 ID",
+        "직원 번호",
+        "연구원 번호",
+        "staff_id",
+        "직원 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Project_Staff_project_id",
+      "domain": "Project_Staff",
+      "source_table": "Project_Staff",
+      "source_column": "project_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "project id",
+      "synonyms": [
+        "프로젝트 ID",
+        "프로젝트 번호",
+        "프로젝트 식별자",
+        "project_id",
+        "프로젝트 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Project_Staff_role_code",
+      "domain": "Project_Staff",
+      "source_table": "Project_Staff",
+      "source_column": "role_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "role code",
+      "synonyms": [
+        "역할 코드",
+        "역할 번호",
+        "역할 식별자",
+        "role_code",
+        "역할 코드 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "MANAGER": [
+          "관리자"
+        ],
+        "ENGINEER": [
+          "엔지니어"
+        ],
+        "ASSISTANT": [
+          "보조자"
+        ]
+      }
+    },
+    {
+      "name": "Project_Staff_date_from",
+      "domain": "Project_Staff",
+      "source_table": "Project_Staff",
+      "source_column": "date_from",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "date from",
+      "synonyms": [
+        "시작일",
+        "입사일",
+        "참여 시작일",
+        "작성일",
+        "시작 날짜",
+        "일자",
+        "시작일자",
+        "date_from"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Project_Staff_date_to",
+      "domain": "Project_Staff",
+      "source_table": "Project_Staff",
+      "source_column": "date_to",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "date to",
+      "synonyms": [
+        "종료일",
+        "퇴사일",
+        "참여 종료일",
+        "종료 날짜",
+        "일자",
+        "종료일자",
+        "date_to"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Project_Staff_other_details",
+      "domain": "Project_Staff",
+      "source_table": "Project_Staff",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "other details",
+      "synonyms": [
+        "추가 정보",
+        "기타 내용",
+        "기타 설명",
+        "기타 세부 사항",
+        "기타 정보",
+        "other_details"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Projects_project_id",
+      "domain": "Projects",
+      "source_table": "Projects",
+      "source_column": "project_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "프로젝트 ID",
+      "synonyms": [
+        "프로젝트 ID",
+        "프로젝트 고유 번호",
+        "프로젝트 식별자",
+        "project_id",
+        "프로젝트 번호",
+        "프로젝트 코드",
+        "프로젝트 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Projects_organisation_id",
+      "domain": "Projects",
+      "source_table": "Projects",
+      "source_column": "organisation_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기관 ID",
+      "synonyms": [
+        "기관 ID",
+        "기관 고유 번호",
+        "기관 식별자",
+        "organisation_id",
+        "기관 코드",
+        "기관 고유 ID",
+        "소속 기관 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Projects_project_details",
+      "domain": "Projects",
+      "source_table": "Projects",
+      "source_column": "project_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "프로젝트 세부 정보",
+      "synonyms": [
+        "프로젝트 설명",
+        "프로젝트 상세 정보",
+        "프로젝트 내용",
+        "project_details",
+        "프로젝트 세부 사항",
+        "프로젝트 설명 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "웹 개발 프로젝트": [
+          "웹 개발 프로젝트",
+          "웹 개발"
+        ],
+        "모바일 앱 개발": [
+          "모바일 앱 개발",
+          "모바일 앱"
+        ]
+      }
+    },
+    {
+      "name": "Research_Outcomes_outcome_code",
+      "domain": "Research_Outcomes",
+      "source_table": "Research_Outcomes",
+      "source_column": "outcome_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "결과 코드",
+      "synonyms": [
+        "outcome_code",
+        "결과 코드",
+        "연구 결과 코드",
+        "결과 식별자",
+        "연구 코드",
+        "결과 코드 식별",
+        "연구 결과 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "R001": [
+          "R001",
+          "결과 코드 1"
+        ],
+        "R002": [
+          "R002",
+          "결과 코드 2"
+        ]
+      }
+    },
+    {
+      "name": "Research_Outcomes_outcome_description",
+      "domain": "Research_Outcomes",
+      "source_table": "Research_Outcomes",
+      "source_column": "outcome_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "결과 설명",
+      "synonyms": [
+        "outcome_description",
+        "결과 설명",
+        "연구 결과 설명",
+        "결과 설명 정보",
+        "연구 결과 요약",
+        "결과 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Research_Staff_staff_id",
+      "domain": "Research_Staff",
+      "source_table": "Research_Staff",
+      "source_column": "staff_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "직원 ID",
+      "synonyms": [
+        "staff_id",
+        "직원아이디",
+        "연구직원아이디",
+        "직원编号",
+        "직원ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Research_Staff_employer_organisation_id",
+      "domain": "Research_Staff",
+      "source_table": "Research_Staff",
+      "source_column": "employer_organisation_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "임직 기관 ID",
+      "synonyms": [
+        "employer_organisation_id",
+        "근무기관아이디",
+        "기관ID",
+        "근무기관编号",
+        "직원근무기관ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Research_Staff_staff_details",
+      "domain": "Research_Staff",
+      "source_table": "Research_Staff",
+      "source_column": "staff_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "직원 정보",
+      "synonyms": [
+        "staff_details",
+        "직원정보",
+        "직원세부사항",
+        "직원데이터",
+        "직원상세정보",
+        "직원상세내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "연구자": [
+          "연구자",
+          "연구직원"
+        ],
+        "교수": [
+          "교수",
+          "교수님"
+        ],
+        "연구원": [
+          "연구원",
+          "연구직"
+        ]
+      }
+    },
+    {
+      "name": "Staff_Roles_role_code",
+      "domain": "Staff_Roles",
+      "source_table": "Staff_Roles",
+      "source_column": "role_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "역할 코드",
+      "synonyms": [
+        "역할 코드",
+        "역할 코드 값",
+        "역할 식별자",
+        "역할 고유 번호",
+        "역할 코드 정보",
+        "역할 식별 코드",
+        "역할 코드 항목"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "MANAGER": [
+          "매니저"
+        ],
+        "EMPLOYEE": [
+          "직원"
+        ]
+      }
+    },
+    {
+      "name": "Staff_Roles_role_description",
+      "domain": "Staff_Roles",
+      "source_table": "Staff_Roles",
+      "source_column": "role_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "역할 설명",
+      "synonyms": [
+        "역할 설명",
+        "역할 설명 정보",
+        "역할 설명 내용",
+        "역할 설명 항목",
+        "역할 설명 문자열",
+        "역할 설명 데이터",
+        "역할 설명 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Tasks_task_id",
+      "domain": "Tasks",
+      "source_table": "Tasks",
+      "source_column": "task_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "작업 ID",
+      "synonyms": [
+        "task_id",
+        "작업 ID",
+        "작업 번호",
+        "task 번호",
+        "작업 식별자",
+        "ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Tasks_project_id",
+      "domain": "Tasks",
+      "source_table": "Tasks",
+      "source_column": "project_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "프로젝트 ID",
+      "synonyms": [
+        "project_id",
+        "프로젝트 ID",
+        "프로젝트 번호",
+        "프로젝트 식별자",
+        "pj_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Tasks_task_details",
+      "domain": "Tasks",
+      "source_table": "Tasks",
+      "source_column": "task_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "작업 세부 내용",
+      "synonyms": [
+        "task_details",
+        "작업 설명",
+        "작업 내용",
+        "작업 세부 사항",
+        "task 설명",
+        "세부 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Tasks_eg_Agree_Objectives",
+      "domain": "Tasks",
+      "source_table": "Tasks",
+      "source_column": "eg Agree Objectives",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "예: 목표 동의",
+      "synonyms": [
+        "eg agree objectives",
+        "example agreed objectives",
+        "agreed objectives example",
+        "task agreed objectives",
+        "objectives example",
+        "agreed objectives sample",
+        "task objectives example",
+        "sample agreed objectives"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "예: 목표 동의": []
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Documents_Grants_fk0",
+      "domain": "Documents",
+      "range": "Grants",
+      "source_fk": [
+        "Documents.grant_id",
+        "Grants.grant_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "부여받은",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Documents_Document_Types_fk1",
+      "domain": "Documents",
+      "range": "Document_Types",
+      "source_fk": [
+        "Documents.document_type_code",
+        "Document_Types.document_type_code"
+      ],
+      "weight": 1.0,
+      "primary_label": "문서 유형",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Grants_Organisations_fk2",
+      "domain": "Grants",
+      "range": "Organisations",
+      "source_fk": [
+        "Grants.organisation_id",
+        "Organisations.organisation_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Organisations_Organisation_Types_fk3",
+      "domain": "Organisations",
+      "range": "Organisation_Types",
+      "source_fk": [
+        "Organisations.organisation_type",
+        "Organisation_Types.organisation_type"
+      ],
+      "weight": 1.0,
+      "primary_label": "유형",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Project_Outcomes_Research_Outcomes_fk4",
+      "domain": "Project_Outcomes",
+      "range": "Research_Outcomes",
+      "source_fk": [
+        "Project_Outcomes.outcome_code",
+        "Research_Outcomes.outcome_code"
+      ],
+      "weight": 1.0,
+      "primary_label": "결과 코드",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Project_Outcomes_Projects_fk5",
+      "domain": "Project_Outcomes",
+      "range": "Projects",
+      "source_fk": [
+        "Project_Outcomes.project_id",
+        "Projects.project_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "프로젝트 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Project_Staff_Staff_Roles_fk6",
+      "domain": "Project_Staff",
+      "range": "Staff_Roles",
+      "source_fk": [
+        "Project_Staff.role_code",
+        "Staff_Roles.role_code"
+      ],
+      "weight": 1.0,
+      "primary_label": "역할",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Project_Staff_Projects_fk7",
+      "domain": "Project_Staff",
+      "range": "Projects",
+      "source_fk": [
+        "Project_Staff.project_id",
+        "Projects.project_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "프로젝트 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Projects_Organisations_fk8",
+      "domain": "Projects",
+      "range": "Organisations",
+      "source_fk": [
+        "Projects.organisation_id",
+        "Organisations.organisation_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Research_Staff_Organisations_fk9",
+      "domain": "Research_Staff",
+      "range": "Organisations",
+      "source_fk": [
+        "Research_Staff.employer_organisation_id",
+        "Organisations.organisation_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "근무 기관",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Tasks_Projects_fk10",
+      "domain": "Tasks",
+      "range": "Projects",
+      "source_fk": [
+        "Tasks.project_id",
+        "Projects.project_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "작업 연결",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

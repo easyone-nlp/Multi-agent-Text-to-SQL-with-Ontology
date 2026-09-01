@@ -1,0 +1,369 @@
+{
+  "db_id": "decoration_competition",
+  "classes": [
+    {
+      "name": "college",
+      "source_table": "college",
+      "ranking": 3.0,
+      "primary_label": "대학",
+      "synonyms": [
+        "대학",
+        "대학원",
+        "학교",
+        "학부",
+        "교육기관"
+      ]
+    },
+    {
+      "name": "member",
+      "source_table": "member",
+      "ranking": 3.0,
+      "primary_label": "회원",
+      "synonyms": [
+        "회원",
+        "사용자",
+        "고객",
+        "이용자",
+        "인사"
+      ]
+    },
+    {
+      "name": "round",
+      "source_table": "round",
+      "ranking": 3.5,
+      "primary_label": "라운드",
+      "synonyms": [
+        "라운드",
+        "단계",
+        "라운드 정보",
+        "경기 단계",
+        "대회 단계"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "college_College_ID",
+      "domain": "college",
+      "source_table": "college",
+      "source_column": "College_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "대학 ID",
+      "synonyms": [
+        "college_id",
+        "college identifier",
+        "college number",
+        "college code",
+        "college key",
+        "college id number",
+        "college unique id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "college_Name",
+      "domain": "college",
+      "source_table": "college",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "college name",
+        "college title",
+        "college designation",
+        "college identifier"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국대학교": [
+          "한국대",
+          "한국대"
+        ],
+        "서울대학교": [
+          "서울대"
+        ]
+      }
+    },
+    {
+      "name": "college_Leader_Name",
+      "domain": "college",
+      "source_table": "college",
+      "source_column": "Leader_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "이사람 이름",
+      "synonyms": [
+        "leader name",
+        "leader",
+        "college leader",
+        "college chief",
+        "college head",
+        "college leader name",
+        "college chief name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김영희": [
+          "김영희"
+        ]
+      }
+    },
+    {
+      "name": "college_College_Location",
+      "domain": "college",
+      "source_table": "college",
+      "source_column": "College_Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "대학 위치",
+      "synonyms": [
+        "college location",
+        "대학 위치",
+        "학교 위치",
+        "대학 위치 정보",
+        "학교 위치 정보",
+        "대학 위치 데이터",
+        "학교 위치 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시": [
+          "서울"
+        ],
+        "인천시": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "member_Member_ID",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Member_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "회원 ID",
+      "synonyms": [
+        "회원 ID",
+        "회원 번호",
+        "ID",
+        "구분자",
+        "회원 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "member_Name",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "성명",
+        "회원 이름",
+        "닉네임",
+        "성"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "박지현": [
+          "박지현"
+        ]
+      }
+    },
+    {
+      "name": "member_Country",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "국적",
+        "나라",
+        "국적 정보",
+        "국가명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "대한민국"
+        ],
+        "미국": [
+          "미국"
+        ]
+      }
+    },
+    {
+      "name": "member_College_ID",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "College_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "대학 ID",
+      "synonyms": [
+        "대학 ID",
+        "대학 번호",
+        "대학 코드",
+        "학교 ID",
+        "학교 코드",
+        "대학 식별자",
+        "학교 식별 번호",
+        "college id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "round_Round_ID",
+      "domain": "round",
+      "source_table": "round",
+      "source_column": "Round_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "라운드 ID",
+      "synonyms": [
+        "라운드 ID",
+        "라운드 번호",
+        "라운드 식별자",
+        "라운드 고유 번호",
+        "R_ID",
+        "라운드 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "round_Member_ID",
+      "domain": "round",
+      "source_table": "round",
+      "source_column": "Member_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "멤버 ID",
+      "synonyms": [
+        "회원 ID",
+        "회원 번호",
+        "회원 식별자",
+        "회원 고유 번호",
+        "M_ID",
+        "회원 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "round_Decoration_Theme",
+      "domain": "round",
+      "source_table": "round",
+      "source_column": "Decoration_Theme",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "데코 테마",
+      "synonyms": [
+        "데코 주제",
+        "장식 주제",
+        "데코레이션 주제",
+        "장식 테마",
+        "디자인 주제",
+        "테마"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "파란색 테마": [
+          "파란색"
+        ],
+        "빨간색 테마": [
+          "빨간색"
+        ]
+      }
+    },
+    {
+      "name": "round_Rank_in_Round",
+      "domain": "round",
+      "source_table": "round",
+      "source_column": "Rank_in_Round",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "라운드 순위",
+      "synonyms": [
+        "라운드 순위",
+        "순위",
+        "Rank",
+        "라운드 랭크",
+        "Rank_in_Round",
+        "순위 정보",
+        "경연 순위",
+        "라운드 내 순위"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "member_college_fk0",
+      "domain": "member",
+      "range": "college",
+      "source_fk": [
+        "member.College_ID",
+        "college.College_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "round_member_fk1",
+      "domain": "round",
+      "range": "member",
+      "source_fk": [
+        "round.Member_ID",
+        "member.Member_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

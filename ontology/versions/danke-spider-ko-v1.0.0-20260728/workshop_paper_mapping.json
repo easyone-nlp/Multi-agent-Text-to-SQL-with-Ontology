@@ -1,0 +1,63 @@
+{
+  "class_table": {
+    "workshop": "workshop",
+    "submission": "submission",
+    "Acceptance": "Acceptance"
+  },
+  "property_column": {
+    "workshop_Workshop_ID": [
+      "workshop",
+      "Workshop_ID"
+    ],
+    "workshop_Date": [
+      "workshop",
+      "Date"
+    ],
+    "workshop_Venue": [
+      "workshop",
+      "Venue"
+    ],
+    "workshop_Name": [
+      "workshop",
+      "Name"
+    ],
+    "submission_Submission_ID": [
+      "submission",
+      "Submission_ID"
+    ],
+    "submission_Scores": [
+      "submission",
+      "Scores"
+    ],
+    "submission_Author": [
+      "submission",
+      "Author"
+    ],
+    "submission_College": [
+      "submission",
+      "College"
+    ],
+    "Acceptance_Submission_ID": [
+      "Acceptance",
+      "Submission_ID"
+    ],
+    "Acceptance_Workshop_ID": [
+      "Acceptance",
+      "Workshop_ID"
+    ],
+    "Acceptance_Result": [
+      "Acceptance",
+      "Result"
+    ]
+  },
+  "object_property_fk": {
+    "Acceptance_workshop_fk0": [
+      "Acceptance.Workshop_ID",
+      "workshop.Workshop_ID"
+    ],
+    "Acceptance_submission_fk1": [
+      "Acceptance.Submission_ID",
+      "submission.Submission_ID"
+    ]
+  }
+}

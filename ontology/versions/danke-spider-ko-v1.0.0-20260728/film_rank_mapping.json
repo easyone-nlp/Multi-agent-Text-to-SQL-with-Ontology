@@ -1,0 +1,79 @@
+{
+  "class_table": {
+    "film": "film",
+    "market": "market",
+    "film_market_estimation": "film_market_estimation"
+  },
+  "property_column": {
+    "film_Film_ID": [
+      "film",
+      "Film_ID"
+    ],
+    "film_Title": [
+      "film",
+      "Title"
+    ],
+    "film_Studio": [
+      "film",
+      "Studio"
+    ],
+    "film_Director": [
+      "film",
+      "Director"
+    ],
+    "film_Gross_in_dollar": [
+      "film",
+      "Gross_in_dollar"
+    ],
+    "market_Market_ID": [
+      "market",
+      "Market_ID"
+    ],
+    "market_Country": [
+      "market",
+      "Country"
+    ],
+    "market_Number_cities": [
+      "market",
+      "Number_cities"
+    ],
+    "film_market_estimation_Estimation_ID": [
+      "film_market_estimation",
+      "Estimation_ID"
+    ],
+    "film_market_estimation_Low_Estimate": [
+      "film_market_estimation",
+      "Low_Estimate"
+    ],
+    "film_market_estimation_High_Estimate": [
+      "film_market_estimation",
+      "High_Estimate"
+    ],
+    "film_market_estimation_Film_ID": [
+      "film_market_estimation",
+      "Film_ID"
+    ],
+    "film_market_estimation_Type": [
+      "film_market_estimation",
+      "Type"
+    ],
+    "film_market_estimation_Market_ID": [
+      "film_market_estimation",
+      "Market_ID"
+    ],
+    "film_market_estimation_Year": [
+      "film_market_estimation",
+      "Year"
+    ]
+  },
+  "object_property_fk": {
+    "film_market_estimation_market_fk0": [
+      "film_market_estimation.Market_ID",
+      "market.Market_ID"
+    ],
+    "film_market_estimation_film_fk1": [
+      "film_market_estimation.Film_ID",
+      "film.Film_ID"
+    ]
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "db_id": "ship_mission",
+  "classes": [
+    {
+      "name": "mission",
+      "source_table": "mission",
+      "ranking": 1.0,
+      "primary_label": "mission",
+      "synonyms": [
+        "임무",
+        "작업",
+        "태스크",
+        "작업 내용",
+        "배치",
+        "일정",
+        "책임",
+        "작업 목록"
+      ]
+    },
+    {
+      "name": "ship",
+      "source_table": "ship",
+      "ranking": 3.5,
+      "primary_label": "선박",
+      "synonyms": [
+        "선박",
+        "선",
+        "보트",
+        "선정",
+        "선체",
+        "선박 정보",
+        "선박 데이터",
+        "선박 목록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "mission_Mission_ID",
+      "domain": "mission",
+      "source_table": "mission",
+      "source_column": "Mission_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "mission id",
+      "synonyms": [
+        "미션 ID",
+        "임무 번호",
+        "미션 고유 ID",
+        "미션 번호",
+        "Mission_ID",
+        "임무 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mission_Ship_ID",
+      "domain": "mission",
+      "source_table": "mission",
+      "source_column": "Ship_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "ship id",
+      "synonyms": [
+        "선박 ID",
+        "선박 번호",
+        "선박 고유 ID",
+        "Ship_ID",
+        "선박 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mission_Code",
+      "domain": "mission",
+      "source_table": "mission",
+      "source_column": "Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "code",
+      "synonyms": [
+        "코드",
+        "임무 코드",
+        "미션 코드",
+        "Code",
+        "임무 고유 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mission_Launched_Year",
+      "domain": "mission",
+      "source_table": "mission",
+      "source_column": "Launched_Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "launched year",
+      "synonyms": [
+        "출항 연도",
+        "건조 연도",
+        "출발 연도",
+        "연도",
+        "launched year",
+        "발주 연도",
+        "제작 연도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mission_Location",
+      "domain": "mission",
+      "source_table": "mission",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "location",
+      "synonyms": [
+        "위치",
+        "지점",
+        "운영 장소",
+        "장소",
+        "location",
+        "위치 정보",
+        "운영 위치"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mission_Speed_knots",
+      "domain": "mission",
+      "source_table": "mission",
+      "source_column": "Speed_knots",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "speed knots",
+      "synonyms": [
+        "속도",
+        "노트 속도",
+        "속도 정보",
+        "속도 데이터",
+        "speed knots",
+        "이동 속도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mission_Fate",
+      "domain": "mission",
+      "source_table": "mission",
+      "source_column": "Fate",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "fate",
+      "synonyms": [
+        "결과",
+        "결말",
+        "사건",
+        "운명",
+        "결과 상태",
+        "사건 상태",
+        "운명 상태",
+        "결과 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "ship_Ship_ID",
+      "domain": "ship",
+      "source_table": "ship",
+      "source_column": "Ship_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "선박 ID",
+      "synonyms": [
+        "선박 ID",
+        "선박 번호",
+        "선박 식별자",
+        "선박 고유 번호",
+        "Ship_ID",
+        "선박 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "ship_Name",
+      "domain": "ship",
+      "source_table": "ship",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [
+        "선박 이름",
+        "선박명",
+        "이름",
+        "선박 대표 이름",
+        "Name",
+        "선박명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아이언 하이브리드": [
+          "아이언 하이브리드"
+        ],
+        "서울 마린": [
+          "서울 마린"
+        ]
+      }
+    },
+    {
+      "name": "ship_Type",
+      "domain": "ship",
+      "source_table": "ship",
+      "source_column": "Type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "형태",
+      "synonyms": [
+        "선박 유형",
+        "종류",
+        "선박 타입",
+        "Type",
+        "선박 구분",
+        "선박 종류"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "운반선": [
+          "운반선"
+        ],
+        "운송선": [
+          "운송선"
+        ]
+      }
+    },
+    {
+      "name": "ship_Nationality",
+      "domain": "ship",
+      "source_table": "ship",
+      "source_column": "Nationality",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "국적",
+      "synonyms": [
+        "국적",
+        "국가",
+        "소속국",
+        "국적 정보",
+        "국가별 소속",
+        "국적 코드",
+        "국가 코드",
+        "국적명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국": [
+          "한국"
+        ],
+        "미국": [
+          "미국"
+        ]
+      }
+    },
+    {
+      "name": "ship_Tonnage",
+      "domain": "ship",
+      "source_table": "ship",
+      "source_column": "Tonnage",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.2,
+      "primary_label": "톤수",
+      "synonyms": [
+        "수량",
+        "톤수",
+        "톤수 정보",
+        "톤수 데이터",
+        "톤수 값",
+        "톤수 기준",
+        "톤수 측정",
+        "톤수 측정값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "mission_ship_fk0",
+      "domain": "mission",
+      "range": "ship",
+      "source_fk": [
+        "mission.Ship_ID",
+        "ship.Ship_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

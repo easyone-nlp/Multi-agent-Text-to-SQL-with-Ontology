@@ -1,0 +1,66 @@
+{
+  "class_table": {
+    "gymnast": "gymnast",
+    "people": "people"
+  },
+  "property_column": {
+    "gymnast_Gymnast_ID": [
+      "gymnast",
+      "Gymnast_ID"
+    ],
+    "gymnast_Floor_Exercise_Points": [
+      "gymnast",
+      "Floor_Exercise_Points"
+    ],
+    "gymnast_Pommel_Horse_Points": [
+      "gymnast",
+      "Pommel_Horse_Points"
+    ],
+    "gymnast_Rings_Points": [
+      "gymnast",
+      "Rings_Points"
+    ],
+    "gymnast_Vault_Points": [
+      "gymnast",
+      "Vault_Points"
+    ],
+    "gymnast_Parallel_Bars_Points": [
+      "gymnast",
+      "Parallel_Bars_Points"
+    ],
+    "gymnast_Horizontal_Bar_Points": [
+      "gymnast",
+      "Horizontal_Bar_Points"
+    ],
+    "gymnast_Total_Points": [
+      "gymnast",
+      "Total_Points"
+    ],
+    "people_People_ID": [
+      "people",
+      "People_ID"
+    ],
+    "people_Name": [
+      "people",
+      "Name"
+    ],
+    "people_Age": [
+      "people",
+      "Age"
+    ],
+    "people_Height": [
+      "people",
+      "Height"
+    ],
+    "people_Hometown": [
+      "people",
+      "Hometown"
+    ]
+  },
+  "object_property_fk": {
+    "gymnast_people_fk0": [
+      "gymnast.Gymnast_ID",
+      "people.People_ID"
+    ]
+  }
+}

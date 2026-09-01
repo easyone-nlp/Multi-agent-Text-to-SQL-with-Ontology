@@ -1,0 +1,205 @@
+{
+  "class_table": {
+    "Addresses": "Addresses",
+    "People": "People",
+    "Students": "Students",
+    "Courses": "Courses",
+    "People_Addresses": "People_Addresses",
+    "Student_Course_Registrations": "Student_Course_Registrations",
+    "Student_Course_Attendance": "Student_Course_Attendance",
+    "Candidates": "Candidates",
+    "Candidate_Assessments": "Candidate_Assessments"
+  },
+  "property_column": {
+    "Addresses_address_id": [
+      "Addresses",
+      "address_id"
+    ],
+    "Addresses_line_1": [
+      "Addresses",
+      "line_1"
+    ],
+    "Addresses_line_2": [
+      "Addresses",
+      "line_2"
+    ],
+    "Addresses_city": [
+      "Addresses",
+      "city"
+    ],
+    "Addresses_zip_postcode": [
+      "Addresses",
+      "zip_postcode"
+    ],
+    "Addresses_state_province_county": [
+      "Addresses",
+      "state_province_county"
+    ],
+    "Addresses_country": [
+      "Addresses",
+      "country"
+    ],
+    "People_person_id": [
+      "People",
+      "person_id"
+    ],
+    "People_first_name": [
+      "People",
+      "first_name"
+    ],
+    "People_middle_name": [
+      "People",
+      "middle_name"
+    ],
+    "People_last_name": [
+      "People",
+      "last_name"
+    ],
+    "People_cell_mobile_number": [
+      "People",
+      "cell_mobile_number"
+    ],
+    "People_email_address": [
+      "People",
+      "email_address"
+    ],
+    "People_login_name": [
+      "People",
+      "login_name"
+    ],
+    "People_password": [
+      "People",
+      "password"
+    ],
+    "Students_student_id": [
+      "Students",
+      "student_id"
+    ],
+    "Students_student_details": [
+      "Students",
+      "student_details"
+    ],
+    "Courses_course_id": [
+      "Courses",
+      "course_id"
+    ],
+    "Courses_course_name": [
+      "Courses",
+      "course_name"
+    ],
+    "Courses_course_description": [
+      "Courses",
+      "course_description"
+    ],
+    "Courses_other_details": [
+      "Courses",
+      "other_details"
+    ],
+    "People_Addresses_person_address_id": [
+      "People_Addresses",
+      "person_address_id"
+    ],
+    "People_Addresses_person_id": [
+      "People_Addresses",
+      "person_id"
+    ],
+    "People_Addresses_address_id": [
+      "People_Addresses",
+      "address_id"
+    ],
+    "People_Addresses_date_from": [
+      "People_Addresses",
+      "date_from"
+    ],
+    "People_Addresses_date_to": [
+      "People_Addresses",
+      "date_to"
+    ],
+    "Student_Course_Registrations_student_id": [
+      "Student_Course_Registrations",
+      "student_id"
+    ],
+    "Student_Course_Registrations_course_id": [
+      "Student_Course_Registrations",
+      "course_id"
+    ],
+    "Student_Course_Registrations_registration_date": [
+      "Student_Course_Registrations",
+      "registration_date"
+    ],
+    "Student_Course_Attendance_student_id": [
+      "Student_Course_Attendance",
+      "student_id"
+    ],
+    "Student_Course_Attendance_course_id": [
+      "Student_Course_Attendance",
+      "course_id"
+    ],
+    "Student_Course_Attendance_date_of_attendance": [
+      "Student_Course_Attendance",
+      "date_of_attendance"
+    ],
+    "Candidates_candidate_id": [
+      "Candidates",
+      "candidate_id"
+    ],
+    "Candidates_candidate_details": [
+      "Candidates",
+      "candidate_details"
+    ],
+    "Candidate_Assessments_candidate_id": [
+      "Candidate_Assessments",
+      "candidate_id"
+    ],
+    "Candidate_Assessments_qualification": [
+      "Candidate_Assessments",
+      "qualification"
+    ],
+    "Candidate_Assessments_assessment_date": [
+      "Candidate_Assessments",
+      "assessment_date"
+    ],
+    "Candidate_Assessments_asessment_outcome_code": [
+      "Candidate_Assessments",
+      "asessment_outcome_code"
+    ]
+  },
+  "object_property_fk": {
+    "Students_People_fk0": [
+      "Students.student_id",
+      "People.person_id"
+    ],
+    "People_Addresses_Addresses_fk1": [
+      "People_Addresses.address_id",
+      "Addresses.address_id"
+    ],
+    "People_Addresses_People_fk2": [
+      "People_Addresses.person_id",
+      "People.person_id"
+    ],
+    "Student_Course_Registrations_Courses_fk3": [
+      "Student_Course_Registrations.course_id",
+      "Courses.course_id"
+    ],
+    "Student_Course_Registrations_Students_fk4": [
+      "Student_Course_Registrations.student_id",
+      "Students.student_id"
+    ],
+    "Student_Course_Attendance_Student_Course_Registrations_fk5": [
+      "Student_Course_Attendance.student_id",
+      "Student_Course_Registrations.student_id"
+    ],
+    "Student_Course_Attendance_Student_Course_Registrations_fk6": [
+      "Student_Course_Attendance.course_id",
+      "Student_Course_Registrations.course_id"
+    ],
+    "Candidates_People_fk7": [
+      "Candidates.candidate_id",
+      "People.person_id"
+    ],
+    "Candidate_Assessments_Candidates_fk8": [
+      "Candidate_Assessments.candidate_id",
+      "Candidates.candidate_id"
+    ]
+  }
+}

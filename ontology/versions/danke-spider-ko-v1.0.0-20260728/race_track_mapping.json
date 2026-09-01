@@ -1,0 +1,54 @@
+{
+  "class_table": {
+    "race": "race",
+    "track": "track"
+  },
+  "property_column": {
+    "race_Race_ID": [
+      "race",
+      "Race_ID"
+    ],
+    "race_Name": [
+      "race",
+      "Name"
+    ],
+    "race_Class": [
+      "race",
+      "Class"
+    ],
+    "race_Date": [
+      "race",
+      "Date"
+    ],
+    "race_Track_ID": [
+      "race",
+      "Track_ID"
+    ],
+    "track_Track_ID": [
+      "track",
+      "Track_ID"
+    ],
+    "track_Name": [
+      "track",
+      "Name"
+    ],
+    "track_Location": [
+      "track",
+      "Location"
+    ],
+    "track_Seating": [
+      "track",
+      "Seating"
+    ],
+    "track_Year_Opened": [
+      "track",
+      "Year_Opened"
+    ]
+  },
+  "object_property_fk": {
+    "race_track_fk0": [
+      "race.Track_ID",
+      "track.Track_ID"
+    ]
+  }
+}

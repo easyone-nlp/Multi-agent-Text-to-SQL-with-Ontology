@@ -1,0 +1,1249 @@
+{
+  "db_id": "customers_campaigns_ecommerce",
+  "classes": [
+    {
+      "name": "Premises",
+      "source_table": "Premises",
+      "ranking": 3.0,
+      "primary_label": "premises",
+      "synonyms": [
+        "지점",
+        "본사",
+        "창고",
+        "공장",
+        "설립지"
+      ]
+    },
+    {
+      "name": "Products",
+      "source_table": "Products",
+      "ranking": 3.0,
+      "primary_label": "products",
+      "synonyms": [
+        "제품",
+        "물품",
+        "품목",
+        "상품",
+        "제품목록"
+      ]
+    },
+    {
+      "name": "Customers",
+      "source_table": "Customers",
+      "ranking": 3.5,
+      "primary_label": "고객",
+      "synonyms": [
+        "고객",
+        "사용자",
+        "구매자",
+        "고객목록",
+        "사용자 목록",
+        "구매자 목록"
+      ]
+    },
+    {
+      "name": "Mailshot_Campaigns",
+      "source_table": "Mailshot_Campaigns",
+      "ranking": 3.5,
+      "primary_label": "mailshot campaigns",
+      "synonyms": [
+        "전자우편 캠페인",
+        "이메일 캠페인",
+        "마일샷 캠페인",
+        "이메일 마케팅",
+        "전자우편 캠페인 정보"
+      ]
+    },
+    {
+      "name": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "ranking": 3.5,
+      "primary_label": "고객 주소",
+      "synonyms": [
+        "고객 주소",
+        "주소 정보",
+        "고객 연락처",
+        "배송 주소",
+        "고객 정보"
+      ]
+    },
+    {
+      "name": "Customer_Orders",
+      "source_table": "Customer_Orders",
+      "ranking": 3.5,
+      "primary_label": "고객 주문",
+      "synonyms": [
+        "고객 주문",
+        "주문 정보",
+        "구매 내역",
+        "주문 데이터",
+        "고객 구매"
+      ]
+    },
+    {
+      "name": "Mailshot_Customers",
+      "source_table": "Mailshot_Customers",
+      "ranking": 3.0,
+      "primary_label": "mailshot customers",
+      "synonyms": [
+        "이메일 고객",
+        "이메일 마케팅 대상자",
+        "이메일 캠페인 참여자",
+        "이메일 마케팅 고객",
+        "이메일 대상 고객"
+      ]
+    },
+    {
+      "name": "Order_Items",
+      "source_table": "Order_Items",
+      "ranking": 3.0,
+      "primary_label": "order items",
+      "synonyms": [
+        "주문 상품",
+        "주문 항목",
+        "주문 물품",
+        "주문 내역 항목",
+        "주문 상품 목록",
+        "주문 상품 정보"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Premises_premise_id",
+      "domain": "Premises",
+      "source_table": "Premises",
+      "source_column": "premise_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "premise id",
+      "synonyms": [
+        "premise_id",
+        "시설 ID",
+        "전체 시설 ID",
+        "시설 고유 번호",
+        "시설 식별자",
+        "전체 시설 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Premises_premises_type",
+      "domain": "Premises",
+      "source_table": "Premises",
+      "source_column": "premises_type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "premises type",
+      "synonyms": [
+        "premises_type",
+        "시설 유형",
+        "전체 시설 유형",
+        "시설 종류",
+        "시설 유형 정보",
+        "전체 시설의 유형",
+        "시설 카테고리"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "주택": [
+          "주택",
+          "주거지"
+        ],
+        "업소": [
+          "업소",
+          "상가"
+        ],
+        "공공시설": [
+          "공공시설",
+          "공공장소"
+        ]
+      }
+    },
+    {
+      "name": "Premises_premise_details",
+      "domain": "Premises",
+      "source_table": "Premises",
+      "source_column": "premise_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "premise details",
+      "synonyms": [
+        "premise_details",
+        "시설 상세 정보",
+        "전체 시설 상세 내용",
+        "시설 설명",
+        "전체 시설 설명",
+        "시설 세부 사항",
+        "전체 시설 세부 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_id",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "product id",
+      "synonyms": [
+        "제품 ID",
+        "제품 번호",
+        "제품 식별자",
+        "제품 고유 번호",
+        "product_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_category",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_category",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "product category",
+      "synonyms": [
+        "제품 분류",
+        "카테고리",
+        "제품 유형",
+        "제품 분류 정보",
+        "product_category",
+        "제품 카테고리"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "전자제품": [
+          "전자제품",
+          "전자기기"
+        ],
+        "의료기기": [
+          "의료기기",
+          "의약품"
+        ],
+        "식품": [
+          "식품",
+          "음식"
+        ]
+      }
+    },
+    {
+      "name": "Products_product_name",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "product name",
+      "synonyms": [
+        "제품 이름",
+        "제품 제목",
+        "제품 명",
+        "제품 이름 정보",
+        "product_name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "스마트폰": [
+          "스마트폰",
+          "스마트폰 모델"
+        ],
+        "냉장고": [
+          "냉장고",
+          "냉장고 제품"
+        ],
+        "우유": [
+          "우유",
+          "유제품"
+        ]
+      }
+    },
+    {
+      "name": "Customers_customer_id",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고유번호",
+        "고객번호",
+        "고객ID",
+        "ID",
+        "고객아이디",
+        "고객 식별자",
+        "고유아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_payment_method",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "payment_method",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "결제 방법",
+      "synonyms": [
+        "결제 수단",
+        "결제 방법",
+        "결제 방식",
+        "지불 방법",
+        "지불 수단",
+        "지불 방식"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "신용카드": [
+          "신용카드",
+          "카드 결제"
+        ],
+        "계좌이체": [
+          "이체",
+          "계좌이체"
+        ],
+        "현금": [
+          "현금결제",
+          "현금"
+        ]
+      }
+    },
+    {
+      "name": "Customers_customer_name",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "고객 이름",
+      "synonyms": [
+        "고객 이름",
+        "고객명",
+        "이름",
+        "사용자 이름",
+        "클라이언트 이름",
+        "사용자명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_phone",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.8,
+      "primary_label": "고객 전화번호",
+      "synonyms": [
+        "고객 연락처",
+        "전화번호",
+        "연락처",
+        "customer_phone",
+        "전화 정보",
+        "연락 방법"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_email",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_email",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.2,
+      "primary_label": "고객 이메일",
+      "synonyms": [
+        "고객 이메일",
+        "이메일 주소",
+        "이메일",
+        "customer_email",
+        "이메일 정보",
+        "전자우편 주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_address",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.6,
+      "primary_label": "고객 주소",
+      "synonyms": [
+        "고객 주소",
+        "주소",
+        "주소 정보",
+        "customer_address",
+        "거주지",
+        "주소 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_login",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_login",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "고객 로그인 ID",
+      "synonyms": [
+        "로그인 아이디",
+        "계정 아이디",
+        "사용자 ID",
+        "로그인 정보",
+        "customer_login",
+        "로그인 계정",
+        "계정명",
+        "사용자 계정"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_password",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_password",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 비밀번호",
+      "synonyms": [
+        "비밀번호",
+        "패스워드",
+        "암호",
+        "비밀번호 정보",
+        "customer_password",
+        "비밀번호 값",
+        "암호화된 비밀번호",
+        "패스워드 입력"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Mailshot_Campaigns_mailshot_id",
+      "domain": "Mailshot_Campaigns",
+      "source_table": "Mailshot_Campaigns",
+      "source_column": "mailshot_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "mailshot id",
+      "synonyms": [
+        "mailshot_id",
+        "mailshot 아이디",
+        "마일샷 ID",
+        "mailshot 번호",
+        "mailshot 고유번호",
+        "mailshot 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Mailshot_Campaigns_product_category",
+      "domain": "Mailshot_Campaigns",
+      "source_table": "Mailshot_Campaigns",
+      "source_column": "product_category",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "product category",
+      "synonyms": [
+        "product_category",
+        "제품 카테고리",
+        "제품 분류",
+        "상품 카테고리",
+        "제품 유형"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "전자제품": [
+          "전자제품",
+          "전자기기"
+        ],
+        "의류": [
+          "의류",
+          "옷"
+        ],
+        "식품": [
+          "식품",
+          "음식"
+        ]
+      }
+    },
+    {
+      "name": "Mailshot_Campaigns_mailshot_name",
+      "domain": "Mailshot_Campaigns",
+      "source_table": "Mailshot_Campaigns",
+      "source_column": "mailshot_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "mailshot name",
+      "synonyms": [
+        "mailshot_name",
+        "mailshot 이름",
+        "마일샷 제목",
+        "마일샷 명칭",
+        "mailshot 제목",
+        "mailshot 라벨"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "새해 할인 캠페인": [
+          "새해 할인 캠페인",
+          "새해 할인"
+        ],
+        "여름 특가": [
+          "여름 특가",
+          "여름 세일"
+        ]
+      }
+    },
+    {
+      "name": "Mailshot_Campaigns_mailshot_start_date",
+      "domain": "Mailshot_Campaigns",
+      "source_table": "Mailshot_Campaigns",
+      "source_column": "mailshot_start_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "mailshot start date",
+      "synonyms": [
+        "mailshot start date",
+        "시작일자",
+        "시작 날짜",
+        "마일샷 시작일",
+        "시작 시간",
+        "마일샷 시작 시간",
+        "시작일"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Mailshot_Campaigns_mailshot_end_date",
+      "domain": "Mailshot_Campaigns",
+      "source_table": "Mailshot_Campaigns",
+      "source_column": "mailshot_end_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "mailshot end date",
+      "synonyms": [
+        "mailshot end date",
+        "종료일자",
+        "종료 날짜",
+        "마일샷 종료일",
+        "종료 시간",
+        "마일샷 종료 시간",
+        "종료일"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Addresses_customer_id",
+      "domain": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 ID",
+        "고객번호",
+        "고객코드",
+        "고객 식별자",
+        "customer id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Addresses_premise_id",
+      "domain": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "source_column": "premise_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "임대물 ID",
+      "synonyms": [
+        "시설 ID",
+        "시설번호",
+        "시설코드",
+        "주소 소속 시설",
+        "premise id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Addresses_date_address_from",
+      "domain": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "source_column": "date_address_from",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주소 유효 시작일",
+      "synonyms": [
+        "주소 시작일자",
+        "주소 유효 시작일",
+        "주소 시작일",
+        "주소 시작 날짜",
+        "date address from"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Addresses_address_type_code",
+      "domain": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "source_column": "address_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "주소 유형 코드",
+      "synonyms": [
+        "주소 유형 코드",
+        "주소 코드",
+        "주소 유형",
+        "주소 코드 정보",
+        "주소 타입 코드",
+        "address_type_code",
+        "주소 코드 필드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "주소": [
+          "주소",
+          "주소 유형"
+        ],
+        "이사": [
+          "이사",
+          "이전 주소"
+        ],
+        "임대": [
+          "임대",
+          "임대물 주소"
+        ]
+      }
+    },
+    {
+      "name": "Customer_Addresses_date_address_to",
+      "domain": "Customer_Addresses",
+      "source_table": "Customer_Addresses",
+      "source_column": "date_address_to",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주소 유효 종료일",
+      "synonyms": [
+        "주소 종료일",
+        "주소 유효 종료일",
+        "주소 마감일",
+        "주소 종료 날짜",
+        "address_to_date",
+        "주소 유효일",
+        "주소 마감일자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Orders_order_id",
+      "domain": "Customer_Orders",
+      "source_table": "Customer_Orders",
+      "source_column": "order_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주문 ID",
+      "synonyms": [
+        "주문 번호",
+        "주문 아이디",
+        "order id",
+        "주문 식별자",
+        "주문 고유 번호",
+        "주문 코드",
+        "주문 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Orders_customer_id",
+      "domain": "Customer_Orders",
+      "source_table": "Customer_Orders",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 ID",
+        "고객번호",
+        "고객코드",
+        "고객 식별자",
+        "customer id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Orders_order_status_code",
+      "domain": "Customer_Orders",
+      "source_table": "Customer_Orders",
+      "source_column": "order_status_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "주문 상태 코드",
+      "synonyms": [
+        "주문 상태 코드",
+        "주문 상태",
+        "주문 코드",
+        "주문 현황 코드",
+        "order status code",
+        "order status"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대기": [
+          "대기 중",
+          "대기"
+        ],
+        "배송 중": [
+          "배송 중",
+          "진행 중"
+        ],
+        "배송 완료": [
+          "배송 완료",
+          "완료"
+        ],
+        "취소": [
+          "취소됨",
+          "취소"
+        ]
+      }
+    },
+    {
+      "name": "Customer_Orders_shipping_method_code",
+      "domain": "Customer_Orders",
+      "source_table": "Customer_Orders",
+      "source_column": "shipping_method_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "배송 방법 코드",
+      "synonyms": [
+        "배송방법코드",
+        "배송코드",
+        "shipping_method_code",
+        "배송방법",
+        "배송유형코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "택배": [
+          "택배",
+          "배송"
+        ],
+        "자체 배송": [
+          "자체 배송",
+          "직접 배송"
+        ],
+        "소포": [
+          "소포 배송",
+          "소포"
+        ]
+      }
+    },
+    {
+      "name": "Customer_Orders_order_placed_datetime",
+      "domain": "Customer_Orders",
+      "source_table": "Customer_Orders",
+      "source_column": "order_placed_datetime",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "주문 생성 시각",
+      "synonyms": [
+        "주문일시",
+        "주문날짜",
+        "주문시간",
+        "order_placed_datetime",
+        "주문일자",
+        "주문시각",
+        "주문일"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Orders_order_delivered_datetime",
+      "domain": "Customer_Orders",
+      "source_table": "Customer_Orders",
+      "source_column": "order_delivered_datetime",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "주문 배송 시각",
+      "synonyms": [
+        "배송일시",
+        "배송날짜",
+        "배송시간",
+        "order_delivered_datetime",
+        "배송일자",
+        "배송시각",
+        "배송일"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Orders_order_shipping_charges",
+      "domain": "Customer_Orders",
+      "source_table": "Customer_Orders",
+      "source_column": "order_shipping_charges",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "주문 배송비",
+      "synonyms": [
+        "배송비",
+        "배송비 정보",
+        "배송 비용",
+        "배송비 금액",
+        "배송비 항목",
+        "shipping charges",
+        "order_shipping_charges",
+        "배송비 내역"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Mailshot_Customers_mailshot_id",
+      "domain": "Mailshot_Customers",
+      "source_table": "Mailshot_Customers",
+      "source_column": "mailshot_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "mailshot id",
+      "synonyms": [
+        "mailshot_id",
+        "mailshot 번호",
+        "이메일 캠페인 ID",
+        "mailshot 식별자",
+        "mailshot 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Mailshot_Customers_customer_id",
+      "domain": "Mailshot_Customers",
+      "source_table": "Mailshot_Customers",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "customer id",
+      "synonyms": [
+        "customer_id",
+        "고객 번호",
+        "고객 ID",
+        "고객 식별자",
+        "고객 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Mailshot_Customers_outcome_code",
+      "domain": "Mailshot_Customers",
+      "source_table": "Mailshot_Customers",
+      "source_column": "outcome_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "outcome code",
+      "synonyms": [
+        "outcome_code",
+        "결과 코드",
+        "이메일 결과 코드",
+        "mailshot 결과 코드",
+        "outcome 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "success": [
+          "성공"
+        ],
+        "failed": [
+          "실패"
+        ],
+        "pending": [
+          "대기"
+        ]
+      }
+    },
+    {
+      "name": "Mailshot_Customers_mailshot_customer_date",
+      "domain": "Mailshot_Customers",
+      "source_table": "Mailshot_Customers",
+      "source_column": "mailshot_customer_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "mailshot customer date",
+      "synonyms": [
+        "mailshot customer date",
+        "이메일 발송일시",
+        "이메일 날짜",
+        "mailshot 날짜",
+        "이메일 발송일",
+        "mailshot 일시",
+        "고객 이메일 날짜",
+        "mailshot 날짜 시간"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Order_Items_item_id",
+      "domain": "Order_Items",
+      "source_table": "Order_Items",
+      "source_column": "item_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "item id",
+      "synonyms": [
+        "아이템 ID",
+        "물품 식별 번호",
+        "아이템 번호",
+        "item_id",
+        "물품 고유 ID",
+        "아이템 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Order_Items_order_item_status_code",
+      "domain": "Order_Items",
+      "source_table": "Order_Items",
+      "source_column": "order_item_status_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "order item status code",
+      "synonyms": [
+        "상품 상태 코드",
+        "주문 상태 코드",
+        "상품 상태",
+        "item_status_code",
+        "상태 코드",
+        "상품 상태 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "DELIVERED": [
+          "DELIVERED",
+          "배송 완료"
+        ],
+        "PENDING": [
+          "PENDING",
+          "대기 중"
+        ],
+        "CANCELLED": [
+          "CANCELLED",
+          "취소"
+        ]
+      }
+    },
+    {
+      "name": "Order_Items_order_id",
+      "domain": "Order_Items",
+      "source_table": "Order_Items",
+      "source_column": "order_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "order id",
+      "synonyms": [
+        "주문 ID",
+        "주문 번호",
+        "주문 식별자",
+        "order_id",
+        "주문 고유 ID",
+        "주문 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Order_Items_product_id",
+      "domain": "Order_Items",
+      "source_table": "Order_Items",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "product id",
+      "synonyms": [
+        "상품 ID",
+        "상품 번호",
+        "제품 ID",
+        "제품 번호",
+        "product_id",
+        "상품 코드",
+        "제품 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Order_Items_item_status_code",
+      "domain": "Order_Items",
+      "source_table": "Order_Items",
+      "source_column": "item_status_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "item status code",
+      "synonyms": [
+        "항목 상태 코드",
+        "상품 상태 코드",
+        "상품 상태",
+        "item_status_code",
+        "상태 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "READY": [
+          "READY",
+          "준비 완료"
+        ],
+        "SHIPPED": [
+          "SHIPPED",
+          "배송 중"
+        ],
+        "DELIVERED": [
+          "DELIVERED",
+          "배송 완료"
+        ]
+      }
+    },
+    {
+      "name": "Order_Items_item_delivered_datetime",
+      "domain": "Order_Items",
+      "source_table": "Order_Items",
+      "source_column": "item_delivered_datetime",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "item delivered datetime",
+      "synonyms": [
+        "배송 시간",
+        "배송 날짜",
+        "배송 일시",
+        "항목 배송 일시",
+        "item_delivered_datetime"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Order_Items_item_order_quantity",
+      "domain": "Order_Items",
+      "source_table": "Order_Items",
+      "source_column": "item_order_quantity",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "item order quantity",
+      "synonyms": [
+        "주문 수량",
+        "수량",
+        "item_order_quantity",
+        "주문량",
+        "수량 정보",
+        "주문한 개수",
+        "수량 입력",
+        "item_quantity"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Customer_Addresses_Customers_fk0",
+      "domain": "Customer_Addresses",
+      "range": "Customers",
+      "source_fk": [
+        "Customer_Addresses.customer_id",
+        "Customers.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customer_Addresses_Premises_fk1",
+      "domain": "Customer_Addresses",
+      "range": "Premises",
+      "source_fk": [
+        "Customer_Addresses.premise_id",
+        "Premises.premise_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customer_Orders_Customers_fk2",
+      "domain": "Customer_Orders",
+      "range": "Customers",
+      "source_fk": [
+        "Customer_Orders.customer_id",
+        "Customers.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "주문한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Mailshot_Customers_Mailshot_Campaigns_fk3",
+      "domain": "Mailshot_Customers",
+      "range": "Mailshot_Campaigns",
+      "source_fk": [
+        "Mailshot_Customers.mailshot_id",
+        "Mailshot_Campaigns.mailshot_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "참여",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Mailshot_Customers_Customers_fk4",
+      "domain": "Mailshot_Customers",
+      "range": "Customers",
+      "source_fk": [
+        "Mailshot_Customers.customer_id",
+        "Customers.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "참여",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Order_Items_Customer_Orders_fk5",
+      "domain": "Order_Items",
+      "range": "Customer_Orders",
+      "source_fk": [
+        "Order_Items.order_id",
+        "Customer_Orders.order_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Order_Items_Products_fk6",
+      "domain": "Order_Items",
+      "range": "Products",
+      "source_fk": [
+        "Order_Items.product_id",
+        "Products.product_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Local data files and generated artifacts
+# Do not upload raw dataset or large model artifacts to GitHub.
+data/
+*.zip
+*.tar
+*.gz
+*.parquet
+
+# Python / editor caches
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+
+# OS files
+.DS_Store
+
+# Large outputs
+schema_augmentation/*.json
+schema_augmentation/*.jsonl
+schema_augmentation/*.xlsx
+ontology/output/
+experiment_freezes/

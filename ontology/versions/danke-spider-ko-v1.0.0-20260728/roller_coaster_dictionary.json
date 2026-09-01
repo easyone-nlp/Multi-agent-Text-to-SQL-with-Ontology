@@ -1,0 +1,809 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "롤러코스터",
+      "target_class": "roller_coaster",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "롤러코스터 정보",
+      "target_class": "roller_coaster",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "롤러코스터 데이터",
+      "target_class": "roller_coaster",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "롤러코스터 기록",
+      "target_class": "roller_coaster",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "롤러코스터 사양",
+      "target_class": "roller_coaster",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "롤러코스터 세부사항",
+      "target_class": "roller_coaster",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 데이터",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 정보",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 목록",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 세부사항",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "국가 기록",
+      "target_class": "country",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "롤러코스터 ID",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Roller_Coaster_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "롤러코스터 고유번호",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Roller_Coaster_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "롤러코스터 번호",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Roller_Coaster_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Roller_Coaster_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별번호",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Roller_Coaster_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유아이디",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Roller_Coaster_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "롤러코스터명",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명칭",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품명",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "롤러코스터 이름",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "타이틀",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파크",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Park",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파크 이름",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Park",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Park",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파크명",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Park",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공원",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Park",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공원 이름",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Park",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 ID",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Country_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "country id",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Country_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Country_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 식별자",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Country_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 번호",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Country_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 아이디",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Country_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "길이",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Length",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "length",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Length",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "길이 값",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Length",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "길이 수치",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Length",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "길이 측정",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Length",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "길이 정보",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Length",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "길이 데이터",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Length",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "높이",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "height",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "높이 값",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "높이 수치",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "높이 측정",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "높이 정보",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "높이 데이터",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "속도",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Speed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "속도 정보",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Speed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "속도 데이터",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Speed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "속도 속도",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Speed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "속도 관련 정보",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Speed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "속도 내용",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Speed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "속도 기록",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Speed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "오픈 일자",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개장일",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개장 날짜",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개장일자",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개장일자 정보",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개장일자 데이터",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개장일자 관련 정보",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개장일자 내용",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개장일자 기록",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 정보",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 데이터",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 관련 정보",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 내용",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 기록",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 현황",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 상태",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "country id",
+      "target_class": "country",
+      "target_property": "country_Country_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 ID",
+      "target_class": "country",
+      "target_property": "country_Country_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 번호",
+      "target_class": "country",
+      "target_property": "country_Country_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드",
+      "target_class": "country",
+      "target_property": "country_Country_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 식별자",
+      "target_class": "country",
+      "target_property": "country_Country_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 고유번호",
+      "target_class": "country",
+      "target_property": "country_Country_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Country_ID",
+      "target_class": "country",
+      "target_property": "country_Country_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "country",
+      "target_property": "country_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "country",
+      "target_property": "country_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 이름",
+      "target_class": "country",
+      "target_property": "country_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "country",
+      "target_property": "country_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "country",
+      "target_property": "country_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Name",
+      "target_class": "country",
+      "target_property": "country_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "population",
+      "target_class": "country",
+      "target_property": "country_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구",
+      "target_class": "country",
+      "target_property": "country_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구수",
+      "target_class": "country",
+      "target_property": "country_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구량",
+      "target_class": "country",
+      "target_property": "country_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구수량",
+      "target_class": "country",
+      "target_property": "country_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Population",
+      "target_class": "country",
+      "target_property": "country_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "area",
+      "target_class": "country",
+      "target_property": "country_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "면적",
+      "target_class": "country",
+      "target_property": "country_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가면적",
+      "target_class": "country",
+      "target_property": "country_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역면적",
+      "target_class": "country",
+      "target_property": "country_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "면적정보",
+      "target_class": "country",
+      "target_property": "country_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "면적데이터",
+      "target_class": "country",
+      "target_property": "country_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Area",
+      "target_class": "country",
+      "target_property": "country_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가의 면적",
+      "target_class": "country",
+      "target_property": "country_Area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "languages",
+      "target_class": "country",
+      "target_property": "country_Languages",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어",
+      "target_class": "country",
+      "target_property": "country_Languages",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가언어",
+      "target_class": "country",
+      "target_property": "country_Languages",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어정보",
+      "target_class": "country",
+      "target_property": "country_Languages",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어데이터",
+      "target_class": "country",
+      "target_property": "country_Languages",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Languages",
+      "target_class": "country",
+      "target_property": "country_Languages",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가의 언어",
+      "target_class": "country",
+      "target_property": "country_Languages",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어 종류",
+      "target_class": "country",
+      "target_property": "country_Languages",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "운영 중",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Status",
+      "value": "운영 중"
+    },
+    {
+      "entry_type": "value",
+      "key": "운영중",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Status",
+      "value": "운영 중"
+    },
+    {
+      "entry_type": "value",
+      "key": "정지",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Status",
+      "value": "정지"
+    },
+    {
+      "entry_type": "value",
+      "key": "휴원",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Status",
+      "value": "정지"
+    },
+    {
+      "entry_type": "value",
+      "key": "계획 중",
+      "target_class": "roller_coaster",
+      "target_property": "roller_coaster_Status",
+      "value": "계획 중"
+    }
+  ]
+}

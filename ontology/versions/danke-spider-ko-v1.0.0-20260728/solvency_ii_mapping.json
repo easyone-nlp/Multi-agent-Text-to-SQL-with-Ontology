@@ -1,0 +1,184 @@
+{
+  "class_table": {
+    "Addresses": "Addresses",
+    "Locations": "Locations",
+    "Products": "Products",
+    "Parties": "Parties",
+    "Assets": "Assets",
+    "Channels": "Channels",
+    "Finances": "Finances",
+    "Events": "Events",
+    "Products_in_Events": "Products_in_Events",
+    "Parties_in_Events": "Parties_in_Events",
+    "Agreements": "Agreements",
+    "Assets_in_Events": "Assets_in_Events"
+  },
+  "property_column": {
+    "Addresses_Address_ID": [
+      "Addresses",
+      "Address_ID"
+    ],
+    "Addresses_address_details": [
+      "Addresses",
+      "address_details"
+    ],
+    "Locations_Location_ID": [
+      "Locations",
+      "Location_ID"
+    ],
+    "Locations_Other_Details": [
+      "Locations",
+      "Other_Details"
+    ],
+    "Products_Product_ID": [
+      "Products",
+      "Product_ID"
+    ],
+    "Products_Product_Type_Code": [
+      "Products",
+      "Product_Type_Code"
+    ],
+    "Products_Product_Name": [
+      "Products",
+      "Product_Name"
+    ],
+    "Products_Product_Price": [
+      "Products",
+      "Product_Price"
+    ],
+    "Parties_Party_ID": [
+      "Parties",
+      "Party_ID"
+    ],
+    "Parties_Party_Details": [
+      "Parties",
+      "Party_Details"
+    ],
+    "Assets_Asset_ID": [
+      "Assets",
+      "Asset_ID"
+    ],
+    "Assets_Other_Details": [
+      "Assets",
+      "Other_Details"
+    ],
+    "Channels_Channel_ID": [
+      "Channels",
+      "Channel_ID"
+    ],
+    "Channels_Other_Details": [
+      "Channels",
+      "Other_Details"
+    ],
+    "Finances_Finance_ID": [
+      "Finances",
+      "Finance_ID"
+    ],
+    "Finances_Other_Details": [
+      "Finances",
+      "Other_Details"
+    ],
+    "Events_Event_ID": [
+      "Events",
+      "Event_ID"
+    ],
+    "Events_Address_ID": [
+      "Events",
+      "Address_ID"
+    ],
+    "Events_Channel_ID": [
+      "Events",
+      "Channel_ID"
+    ],
+    "Events_Event_Type_Code": [
+      "Events",
+      "Event_Type_Code"
+    ],
+    "Events_Finance_ID": [
+      "Events",
+      "Finance_ID"
+    ],
+    "Events_Location_ID": [
+      "Events",
+      "Location_ID"
+    ],
+    "Products_in_Events_Product_in_Event_ID": [
+      "Products_in_Events",
+      "Product_in_Event_ID"
+    ],
+    "Products_in_Events_Event_ID": [
+      "Products_in_Events",
+      "Event_ID"
+    ],
+    "Products_in_Events_Product_ID": [
+      "Products_in_Events",
+      "Product_ID"
+    ],
+    "Parties_in_Events_Party_ID": [
+      "Parties_in_Events",
+      "Party_ID"
+    ],
+    "Parties_in_Events_Event_ID": [
+      "Parties_in_Events",
+      "Event_ID"
+    ],
+    "Parties_in_Events_Role_Code": [
+      "Parties_in_Events",
+      "Role_Code"
+    ],
+    "Agreements_Document_ID": [
+      "Agreements",
+      "Document_ID"
+    ],
+    "Agreements_Event_ID": [
+      "Agreements",
+      "Event_ID"
+    ],
+    "Assets_in_Events_Asset_ID": [
+      "Assets_in_Events",
+      "Asset_ID"
+    ],
+    "Assets_in_Events_Event_ID": [
+      "Assets_in_Events",
+      "Event_ID"
+    ]
+  },
+  "object_property_fk": {
+    "Events_Finances_fk0": [
+      "Events.Finance_ID",
+      "Finances.Finance_ID"
+    ],
+    "Events_Addresses_fk1": [
+      "Events.Address_ID",
+      "Addresses.Address_ID"
+    ],
+    "Events_Locations_fk2": [
+      "Events.Location_ID",
+      "Locations.Location_ID"
+    ],
+    "Products_in_Events_Products_fk3": [
+      "Products_in_Events.Product_ID",
+      "Products.Product_ID"
+    ],
+    "Products_in_Events_Events_fk4": [
+      "Products_in_Events.Event_ID",
+      "Events.Event_ID"
+    ],
+    "Parties_in_Events_Events_fk5": [
+      "Parties_in_Events.Event_ID",
+      "Events.Event_ID"
+    ],
+    "Parties_in_Events_Parties_fk6": [
+      "Parties_in_Events.Party_ID",
+      "Parties.Party_ID"
+    ],
+    "Agreements_Events_fk7": [
+      "Agreements.Event_ID",
+      "Events.Event_ID"
+    ],
+    "Assets_in_Events_Events_fk8": [
+      "Assets_in_Events.Event_ID",
+      "Events.Event_ID"
+    ]
+  }
+}

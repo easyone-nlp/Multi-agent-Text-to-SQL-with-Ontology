@@ -1,0 +1,62 @@
+{
+  "class_table": {
+    "captain": "captain",
+    "Ship": "Ship"
+  },
+  "property_column": {
+    "captain_Captain_ID": [
+      "captain",
+      "Captain_ID"
+    ],
+    "captain_Name": [
+      "captain",
+      "Name"
+    ],
+    "captain_Ship_ID": [
+      "captain",
+      "Ship_ID"
+    ],
+    "captain_age": [
+      "captain",
+      "age"
+    ],
+    "captain_Class": [
+      "captain",
+      "Class"
+    ],
+    "captain_Rank": [
+      "captain",
+      "Rank"
+    ],
+    "Ship_Ship_ID": [
+      "Ship",
+      "Ship_ID"
+    ],
+    "Ship_Name": [
+      "Ship",
+      "Name"
+    ],
+    "Ship_Type": [
+      "Ship",
+      "Type"
+    ],
+    "Ship_Built_Year": [
+      "Ship",
+      "Built_Year"
+    ],
+    "Ship_Class": [
+      "Ship",
+      "Class"
+    ],
+    "Ship_Flag": [
+      "Ship",
+      "Flag"
+    ]
+  },
+  "object_property_fk": {
+    "captain_Ship_fk0": [
+      "captain.Ship_ID",
+      "Ship.Ship_ID"
+    ]
+  }
+}

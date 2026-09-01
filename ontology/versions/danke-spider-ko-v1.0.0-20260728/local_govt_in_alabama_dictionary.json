@@ -1,0 +1,746 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "서비스",
+      "target_class": "Services",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지사 서비스",
+      "target_class": "Services",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지사 제공 서비스",
+      "target_class": "Services",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지사 운영 서비스",
+      "target_class": "Services",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지사 서비스 목록",
+      "target_class": "Services",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지사 서비스 정보",
+      "target_class": "Services",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참가자",
+      "target_class": "Participants",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참여자 정보",
+      "target_class": "Participants",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지사 참여자",
+      "target_class": "Participants",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참여자 목록",
+      "target_class": "Participants",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지사 관련 인물",
+      "target_class": "Participants",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참여자 데이터",
+      "target_class": "Participants",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이벤트",
+      "target_class": "Events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "행사 정보",
+      "target_class": "Events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지사 이벤트",
+      "target_class": "Events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "행사 목록",
+      "target_class": "Events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지사 행사",
+      "target_class": "Events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이벤트 데이터",
+      "target_class": "Events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참가자와 이벤트의 관계",
+      "target_class": "Participants_in_Events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참석자",
+      "target_class": "Participants_in_Events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참여자",
+      "target_class": "Participants_in_Events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참가자",
+      "target_class": "Participants_in_Events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이벤트 참가자",
+      "target_class": "Participants_in_Events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참여 인원",
+      "target_class": "Participants_in_Events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참석 인원",
+      "target_class": "Participants_in_Events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이벤트 참석자",
+      "target_class": "Participants_in_Events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참여자 목록",
+      "target_class": "Participants_in_Events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 ID",
+      "target_class": "Services",
+      "target_property": "Services_Service_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 고유 번호",
+      "target_class": "Services",
+      "target_property": "Services_Service_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 식별자",
+      "target_class": "Services",
+      "target_property": "Services_Service_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 번호",
+      "target_class": "Services",
+      "target_property": "Services_Service_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Service_ID",
+      "target_class": "Services",
+      "target_property": "Services_Service_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 고유 ID",
+      "target_class": "Services",
+      "target_property": "Services_Service_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 식별 번호",
+      "target_class": "Services",
+      "target_property": "Services_Service_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "Services",
+      "target_property": "Services_Service_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 유형 코드",
+      "target_class": "Services",
+      "target_property": "Services_Service_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 코드",
+      "target_class": "Services",
+      "target_property": "Services_Service_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 종류 코드",
+      "target_class": "Services",
+      "target_property": "Services_Service_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 유형",
+      "target_class": "Services",
+      "target_property": "Services_Service_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Service_Type_Code",
+      "target_class": "Services",
+      "target_property": "Services_Service_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유형 코드",
+      "target_class": "Services",
+      "target_property": "Services_Service_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 ID",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참여자 ID",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참여자 고유 번호",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참여자 식별자",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Participant_ID",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참여자 번호",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 유형 코드",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참여자 유형 코드",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참여자 코드",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유형 코드",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Participant_Type_Code",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참여자 유형",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코드",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 상세 정보",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참여자 세부 정보",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참여자 설명",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Participant_Details",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상세 정보",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참여자 설명문",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상세내용",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 ID",
+      "target_class": "Events",
+      "target_property": "Events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 고유번호",
+      "target_class": "Events",
+      "target_property": "Events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 식별자",
+      "target_class": "Events",
+      "target_property": "Events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 번호",
+      "target_class": "Events",
+      "target_property": "Events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Event_ID",
+      "target_class": "Events",
+      "target_property": "Events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 코드",
+      "target_class": "Events",
+      "target_property": "Events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 ID",
+      "target_class": "Events",
+      "target_property": "Events_Service_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 고유번호",
+      "target_class": "Events",
+      "target_property": "Events_Service_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 식별자",
+      "target_class": "Events",
+      "target_property": "Events_Service_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 번호",
+      "target_class": "Events",
+      "target_property": "Events_Service_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Service_ID",
+      "target_class": "Events",
+      "target_property": "Events_Service_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "서비스 코드",
+      "target_class": "Events",
+      "target_property": "Events_Service_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 세부 정보",
+      "target_class": "Events",
+      "target_property": "Events_Event_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 상세내용",
+      "target_class": "Events",
+      "target_property": "Events_Event_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 설명",
+      "target_class": "Events",
+      "target_property": "Events_Event_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 내용",
+      "target_class": "Events",
+      "target_property": "Events_Event_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Event_Details",
+      "target_class": "Events",
+      "target_property": "Events_Event_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 정보",
+      "target_class": "Events",
+      "target_property": "Events_Event_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 ID",
+      "target_class": "Participants_in_Events",
+      "target_property": "Participants_in_Events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 번호",
+      "target_class": "Participants_in_Events",
+      "target_property": "Participants_in_Events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 식별자",
+      "target_class": "Participants_in_Events",
+      "target_property": "Participants_in_Events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 코드",
+      "target_class": "Participants_in_Events",
+      "target_property": "Participants_in_Events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 고유값",
+      "target_class": "Participants_in_Events",
+      "target_property": "Participants_in_Events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Event_ID",
+      "target_class": "Participants_in_Events",
+      "target_property": "Participants_in_Events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 식별",
+      "target_class": "Participants_in_Events",
+      "target_property": "Participants_in_Events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 ID",
+      "target_class": "Participants_in_Events",
+      "target_property": "Participants_in_Events_Participant_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 번호",
+      "target_class": "Participants_in_Events",
+      "target_property": "Participants_in_Events_Participant_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 식별자",
+      "target_class": "Participants_in_Events",
+      "target_property": "Participants_in_Events_Participant_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 코드",
+      "target_class": "Participants_in_Events",
+      "target_property": "Participants_in_Events_Participant_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 고유값",
+      "target_class": "Participants_in_Events",
+      "target_property": "Participants_in_Events_Participant_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Participant_ID",
+      "target_class": "Participants_in_Events",
+      "target_property": "Participants_in_Events_Participant_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 식별",
+      "target_class": "Participants_in_Events",
+      "target_property": "Participants_in_Events_Participant_ID",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "예약",
+      "target_class": "Services",
+      "target_property": "Services_Service_Type_Code",
+      "value": "예약"
+    },
+    {
+      "entry_type": "value",
+      "key": "상담",
+      "target_class": "Services",
+      "target_property": "Services_Service_Type_Code",
+      "value": "상담"
+    },
+    {
+      "entry_type": "value",
+      "key": "배달",
+      "target_class": "Services",
+      "target_property": "Services_Service_Type_Code",
+      "value": "배달"
+    },
+    {
+      "entry_type": "value",
+      "key": "학생",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Type_Code",
+      "value": "학생"
+    },
+    {
+      "entry_type": "value",
+      "key": "교수",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Type_Code",
+      "value": "교수"
+    },
+    {
+      "entry_type": "value",
+      "key": "연구원",
+      "target_class": "Participants",
+      "target_property": "Participants_Participant_Type_Code",
+      "value": "연구원"
+    },
+    {
+      "entry_type": "value",
+      "key": "축제",
+      "target_class": "Events",
+      "target_property": "Events_Event_Details",
+      "value": "축제"
+    },
+    {
+      "entry_type": "value",
+      "key": "행사",
+      "target_class": "Events",
+      "target_property": "Events_Event_Details",
+      "value": "축제"
+    },
+    {
+      "entry_type": "value",
+      "key": "강연",
+      "target_class": "Events",
+      "target_property": "Events_Event_Details",
+      "value": "강연"
+    },
+    {
+      "entry_type": "value",
+      "key": "강의",
+      "target_class": "Events",
+      "target_property": "Events_Event_Details",
+      "value": "강연"
+    },
+    {
+      "entry_type": "value",
+      "key": "행사",
+      "target_class": "Events",
+      "target_property": "Events_Event_Details",
+      "value": "행사"
+    },
+    {
+      "entry_type": "value",
+      "key": "이벤트",
+      "target_class": "Events",
+      "target_property": "Events_Event_Details",
+      "value": "행사"
+    }
+  ]
+}

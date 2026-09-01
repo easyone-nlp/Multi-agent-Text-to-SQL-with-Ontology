@@ -1,0 +1,1097 @@
+{
+  "db_id": "student_assessment",
+  "classes": [
+    {
+      "name": "Addresses",
+      "source_table": "Addresses",
+      "ranking": 3.0,
+      "primary_label": "주소",
+      "synonyms": [
+        "address",
+        "location",
+        "residence",
+        "postal address",
+        "home address"
+      ]
+    },
+    {
+      "name": "People",
+      "source_table": "People",
+      "ranking": 3.5,
+      "primary_label": "사람",
+      "synonyms": [
+        "person",
+        "individual",
+        "user",
+        "resident",
+        "individuals"
+      ]
+    },
+    {
+      "name": "Students",
+      "source_table": "Students",
+      "ranking": 3.0,
+      "primary_label": "학생",
+      "synonyms": [
+        "student",
+        "scholar",
+        "pupil",
+        "learners",
+        "academic"
+      ]
+    },
+    {
+      "name": "Courses",
+      "source_table": "Courses",
+      "ranking": 3.0,
+      "primary_label": "강좌",
+      "synonyms": [
+        "course",
+        "subject",
+        "class",
+        "classroom",
+        "course code",
+        "subject code",
+        "class name",
+        "subject name"
+      ]
+    },
+    {
+      "name": "People_Addresses",
+      "source_table": "People_Addresses",
+      "ranking": 3.5,
+      "primary_label": "사람 주소",
+      "synonyms": [
+        "address",
+        "residence",
+        "location",
+        "home address",
+        "postal address",
+        "contact address",
+        "residence address",
+        "mailing address"
+      ]
+    },
+    {
+      "name": "Student_Course_Registrations",
+      "source_table": "Student_Course_Registrations",
+      "ranking": 3.0,
+      "primary_label": "학생 수강 등록",
+      "synonyms": [
+        "enrollment",
+        "registration",
+        "course sign-up",
+        "student enrollment",
+        "course registration",
+        "student course sign-up",
+        "enrolled course",
+        "registered course"
+      ]
+    },
+    {
+      "name": "Student_Course_Attendance",
+      "source_table": "Student_Course_Attendance",
+      "ranking": 3.0,
+      "primary_label": "학생 수강 출석 기록",
+      "synonyms": [
+        "학생 수업 출석 기록",
+        "출석 로그",
+        "수업 출석",
+        "학생 수업 참여",
+        "출석 추적",
+        "클래스 출석",
+        "출석 데이터"
+      ]
+    },
+    {
+      "name": "Candidates",
+      "source_table": "Candidates",
+      "ranking": 3.5,
+      "primary_label": "후보자",
+      "synonyms": [
+        "지원자",
+        "지원자 목록",
+        "후보자 목록",
+        "지원자 데이터",
+        "후보자 기록",
+        "지원자 정보",
+        "후보자 세부 정보",
+        "지원자 데이터베이스"
+      ]
+    },
+    {
+      "name": "Candidate_Assessments",
+      "source_table": "Candidate_Assessments",
+      "ranking": 3.5,
+      "primary_label": "후보자 평가",
+      "synonyms": [
+        "후보자 평가 결과",
+        "평가 데이터",
+        "후보자 평가",
+        "평가 기록",
+        "후보자 테스트 결과",
+        "평가 로그",
+        "후보자 성과",
+        "평가 정보"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Addresses_address_id",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주소 id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_line_1",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "line_1",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "1번 줄 주소",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 강남구 테헤란로 123": [
+          "서울시 강남구 테헤란로 123",
+          "강남구 테헤란로 123"
+        ]
+      }
+    },
+    {
+      "name": "Addresses_line_2",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "line_2",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "2번 줄 주소",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "101호": [
+          "101호",
+          "101"
+        ]
+      }
+    },
+    {
+      "name": "Addresses_city",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "시",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울",
+          "서울시"
+        ]
+      }
+    },
+    {
+      "name": "Addresses_zip_postcode",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "zip_postcode",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "우편번호",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "06135": [
+          "06135",
+          "06135-0000"
+        ]
+      }
+    },
+    {
+      "name": "Addresses_state_province_county",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "state_province_county",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "주/도/군",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "강원도": [
+          "강원도",
+          "강원"
+        ]
+      }
+    },
+    {
+      "name": "Addresses_country",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "국가",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "대한민국",
+          "Korea"
+        ]
+      }
+    },
+    {
+      "name": "People_person_id",
+      "domain": "People",
+      "source_table": "People",
+      "source_column": "person_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "사람 ID",
+      "synonyms": [
+        "person_id",
+        "개인 ID",
+        "사용자 ID",
+        "인물 식별 번호",
+        "사용자 식별자",
+        "고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "People_first_name",
+      "domain": "People",
+      "source_table": "People",
+      "source_column": "first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "성명",
+      "synonyms": [
+        "first_name",
+        "이름",
+        "성명",
+        "첫 이름",
+        "성"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "People_middle_name",
+      "domain": "People",
+      "source_table": "People",
+      "source_column": "middle_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.2,
+      "primary_label": "중간 이름",
+      "synonyms": [
+        "middle_name",
+        "중간 이름",
+        "이름",
+        "중간 성명",
+        "성명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "People_last_name",
+      "domain": "People",
+      "source_table": "People",
+      "source_column": "last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "นามสกุล",
+        "성명",
+        "성자",
+        "성 정보",
+        "성 부분",
+        "성 이름",
+        "성 부분 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "People_cell_mobile_number",
+      "domain": "People",
+      "source_table": "People",
+      "source_column": "cell_mobile_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.7,
+      "primary_label": "모바일 번호",
+      "synonyms": [
+        "휴대폰 번호",
+        "모바일 번호",
+        "휴대폰 수",
+        "휴대폰 번호 정보",
+        "휴대폰 수치",
+        "휴대폰 번호 데이터",
+        "모바일 번호 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "People_email_address",
+      "domain": "People",
+      "source_table": "People",
+      "source_column": "email_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.9,
+      "primary_label": "이메일 주소",
+      "synonyms": [
+        "이메일 주소",
+        "이메일",
+        "이메일 주소 정보",
+        "이메일 주소 데이터",
+        "이메일 주소 입력",
+        "이메일 주소 정보 제공",
+        "이메일 주소 항목",
+        "이메일 주소 입력 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "People_login_name",
+      "domain": "People",
+      "source_table": "People",
+      "source_column": "login_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.1,
+      "primary_label": "로그인 이름",
+      "synonyms": [
+        "로그인 이름",
+        "아이디",
+        "로그인아이디",
+        "사용자아이디",
+        "login name",
+        "ID",
+        "계정 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "People_password",
+      "domain": "People",
+      "source_table": "People",
+      "source_column": "password",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.5,
+      "primary_label": "비밀번호",
+      "synonyms": [
+        "비밀번호",
+        "암호",
+        "패스워드",
+        "암호화된 비밀번호",
+        "비밀번호 값",
+        "password",
+        "암호화된 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_student_id",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "student_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 ID",
+        "학생 고유 번호",
+        "학번",
+        "학생 식별자",
+        "student_id",
+        "학생 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_student_details",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "student_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "학생 상세 정보",
+      "synonyms": [
+        "학생 정보",
+        "학생 세부 사항",
+        "학생 데이터",
+        "학생 정보 내용",
+        "student_details",
+        "학생 세부 정보",
+        "학생 추가 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "학생 정보": [
+          "학생 정보"
+        ]
+      }
+    },
+    {
+      "name": "Courses_course_id",
+      "domain": "Courses",
+      "source_table": "Courses",
+      "source_column": "course_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "강좌 ID",
+      "synonyms": [
+        "강좌 ID",
+        "강좌 식별자",
+        "course_id",
+        "학과 코드",
+        "강좌 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Courses_course_name",
+      "domain": "Courses",
+      "source_table": "Courses",
+      "source_column": "course_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "강좌 이름",
+      "synonyms": [
+        "강좌 이름",
+        "과정명",
+        "course_name",
+        "강좌 제목",
+        "과정 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "데이터베이스 기초": [
+          "데이터베이스 기초",
+          "DB 기초"
+        ],
+        "웹 개발 실무": [
+          "웹 개발 실무",
+          "웹 개발"
+        ]
+      }
+    },
+    {
+      "name": "Courses_course_description",
+      "domain": "Courses",
+      "source_table": "Courses",
+      "source_column": "course_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "강좌 설명",
+      "synonyms": [
+        "강좌 설명",
+        "course_description",
+        "과정 요약",
+        "강좌 요약",
+        "과정 소개"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "이론과 실습을 병행한 강좌입니다.": [
+          "이론과 실습을 병행한 강좌입니다.",
+          "이론+실습 강좌"
+        ]
+      }
+    },
+    {
+      "name": "Courses_other_details",
+      "domain": "Courses",
+      "source_table": "Courses",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "기타 정보",
+      "synonyms": [
+        "기타 정보",
+        "추가 설명",
+        "기타 세부 사항",
+        "기타 설명",
+        "기타 정보 내용",
+        "기타 세부 내용",
+        "기타 설명 사항",
+        "기타 정보 항목"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "강의는 온라인으로 진행됩니다.": [
+          "온라인 강의",
+          "온라인 진행"
+        ]
+      }
+    },
+    {
+      "name": "People_Addresses_person_address_id",
+      "domain": "People_Addresses",
+      "source_table": "People_Addresses",
+      "source_column": "person_address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "사람 주소 id",
+      "synonyms": [
+        "person address id",
+        "주소 고유 번호",
+        "사람 주소 ID",
+        "주소 식별자",
+        "주소 고유 ID",
+        "사람 주소 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "People_Addresses_person_id",
+      "domain": "People_Addresses",
+      "source_table": "People_Addresses",
+      "source_column": "person_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "사람 id",
+      "synonyms": [
+        "person id",
+        "개인 ID",
+        "사람 고유 번호",
+        "사람 식별자",
+        "개인 식별자",
+        "사람 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "People_Addresses_address_id",
+      "domain": "People_Addresses",
+      "source_table": "People_Addresses",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "주소 id",
+      "synonyms": [
+        "address id",
+        "주소 ID",
+        "주소 고유 번호",
+        "주소 식별자",
+        "주소 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "People_Addresses_date_from",
+      "domain": "People_Addresses",
+      "source_table": "People_Addresses",
+      "source_column": "date_from",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "기간 시작",
+      "synonyms": [
+        "시작일자",
+        "시작일",
+        "등록일자",
+        "시작일시",
+        "date_from"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "People_Addresses_date_to",
+      "domain": "People_Addresses",
+      "source_table": "People_Addresses",
+      "source_column": "date_to",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "기간 종료",
+      "synonyms": [
+        "종료일자",
+        "종료일",
+        "해지일자",
+        "종료일시",
+        "date_to"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Course_Registrations_student_id",
+      "domain": "Student_Course_Registrations",
+      "source_table": "Student_Course_Registrations",
+      "source_column": "student_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 ID",
+        "학번",
+        "학생 식별자",
+        "학생 번호",
+        "student id",
+        "학생 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Course_Registrations_course_id",
+      "domain": "Student_Course_Registrations",
+      "source_table": "Student_Course_Registrations",
+      "source_column": "course_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "강좌 ID",
+      "synonyms": [
+        "course_id",
+        "course",
+        "class",
+        "subject",
+        "course number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Course_Registrations_registration_date",
+      "domain": "Student_Course_Registrations",
+      "source_table": "Student_Course_Registrations",
+      "source_column": "registration_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "등록 일시",
+      "synonyms": [
+        "등록일",
+        "등록 날짜",
+        "등록일자",
+        "수업 등록일",
+        "등록일시",
+        "수업 등록 날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-05 09:30:00": [
+          "2023년 10월 5일 09시 30분"
+        ]
+      }
+    },
+    {
+      "name": "Student_Course_Attendance_student_id",
+      "domain": "Student_Course_Attendance",
+      "source_table": "Student_Course_Attendance",
+      "source_column": "student_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "student_id",
+        "학번",
+        "학생 고유 ID",
+        "학번 정보",
+        "학생 식별자",
+        "학생 ID",
+        "학번 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Course_Attendance_course_id",
+      "domain": "Student_Course_Attendance",
+      "source_table": "Student_Course_Attendance",
+      "source_column": "course_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "수업 ID",
+      "synonyms": [
+        "course_id",
+        "과정 번호",
+        "과정 고유 ID",
+        "과정 식별자",
+        "과정 ID",
+        "과정 번호 정보",
+        "과정 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Course_Attendance_date_of_attendance",
+      "domain": "Student_Course_Attendance",
+      "source_table": "Student_Course_Attendance",
+      "source_column": "date_of_attendance",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "출석 일시",
+      "synonyms": [
+        "date_of_attendance",
+        "참석 일자",
+        "출석 날짜",
+        "출석일",
+        "날짜",
+        "출석 일자 정보",
+        "출석일자",
+        "참석 일"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-05 09:00:00": [
+          "2023년 10월 5일 9시"
+        ]
+      }
+    },
+    {
+      "name": "Candidates_candidate_id",
+      "domain": "Candidates",
+      "source_table": "Candidates",
+      "source_column": "candidate_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "후보자 ID",
+      "synonyms": [
+        "후보자 ID",
+        "후보자 고유번호",
+        "후보자 식별자",
+        "후보자 번호",
+        "후보자 식별번호",
+        "후보자 고유 ID",
+        "후보자 인덱스"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Candidates_candidate_details",
+      "domain": "Candidates",
+      "source_table": "Candidates",
+      "source_column": "candidate_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "후보자 상세 정보",
+      "synonyms": [
+        "후보자 정보",
+        "후보자 상세내용",
+        "후보자 데이터",
+        "후보자 세부 사항",
+        "후보자 상세 정보",
+        "후보자 정보 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "후보자 소개": [
+          "후보자 소개"
+        ],
+        "후보자 정보": [
+          "후보자 정보"
+        ]
+      }
+    },
+    {
+      "name": "Candidate_Assessments_candidate_id",
+      "domain": "Candidate_Assessments",
+      "source_table": "Candidate_Assessments",
+      "source_column": "candidate_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "후보자 ID",
+      "synonyms": [
+        "응시자 ID",
+        "후보자 ID",
+        "지원자 ID",
+        "학번",
+        "학생 ID",
+        "후보자 식별자",
+        "후보자 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Candidate_Assessments_qualification",
+      "domain": "Candidate_Assessments",
+      "source_table": "Candidate_Assessments",
+      "source_column": "qualification",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "자격",
+      "synonyms": [
+        "자격",
+        "자격 정보",
+        "자격 요건",
+        "자격 조건",
+        "자격 내용",
+        "자격 기준",
+        "자격 사항"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Candidate_Assessments_assessment_date",
+      "domain": "Candidate_Assessments",
+      "source_table": "Candidate_Assessments",
+      "source_column": "assessment_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "평가 일시",
+      "synonyms": [
+        "평가 날짜",
+        "평가 일시",
+        "평가 일자",
+        "평가 시간",
+        "평가 일정",
+        "평가 일자 시간",
+        "평가 날짜 시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Candidate_Assessments_asessment_outcome_code",
+      "domain": "Candidate_Assessments",
+      "source_table": "Candidate_Assessments",
+      "source_column": "asessment_outcome_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "평가 결과 코드",
+      "synonyms": [
+        "평가 결과 코드",
+        "평가 코드",
+        "결과 코드",
+        "asessment_outcome_code",
+        "평가 코드 정보",
+        "결과 코드 값",
+        "평가 상태 코드",
+        "결과 코드 항목"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "PASS": [
+          "승인",
+          "통과"
+        ],
+        "FAIL": [
+          "불통과",
+          "실패"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Students_People_fk0",
+      "domain": "Students",
+      "range": "People",
+      "source_fk": [
+        "Students.student_id",
+        "People.person_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "People_Addresses_Addresses_fk1",
+      "domain": "People_Addresses",
+      "range": "Addresses",
+      "source_fk": [
+        "People_Addresses.address_id",
+        "Addresses.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "People_Addresses_People_fk2",
+      "domain": "People_Addresses",
+      "range": "People",
+      "source_fk": [
+        "People_Addresses.person_id",
+        "People.person_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Student_Course_Registrations_Courses_fk3",
+      "domain": "Student_Course_Registrations",
+      "range": "Courses",
+      "source_fk": [
+        "Student_Course_Registrations.course_id",
+        "Courses.course_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "등록한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Student_Course_Registrations_Students_fk4",
+      "domain": "Student_Course_Registrations",
+      "range": "Students",
+      "source_fk": [
+        "Student_Course_Registrations.student_id",
+        "Students.student_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "등록한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Student_Course_Attendance_Student_Course_Registrations_fk5",
+      "domain": "Student_Course_Attendance",
+      "range": "Student_Course_Registrations",
+      "source_fk": [
+        "Student_Course_Attendance.student_id",
+        "Student_Course_Registrations.student_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "출석한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Student_Course_Attendance_Student_Course_Registrations_fk6",
+      "domain": "Student_Course_Attendance",
+      "range": "Student_Course_Registrations",
+      "source_fk": [
+        "Student_Course_Attendance.course_id",
+        "Student_Course_Registrations.course_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "출석한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Candidates_People_fk7",
+      "domain": "Candidates",
+      "range": "People",
+      "source_fk": [
+        "Candidates.candidate_id",
+        "People.person_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Candidate_Assessments_Candidates_fk8",
+      "domain": "Candidate_Assessments",
+      "range": "Candidates",
+      "source_fk": [
+        "Candidate_Assessments.candidate_id",
+        "Candidates.candidate_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "평가한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

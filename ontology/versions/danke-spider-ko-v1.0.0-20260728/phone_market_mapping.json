@@ -1,0 +1,71 @@
+{
+  "class_table": {
+    "phone": "phone",
+    "market": "market",
+    "phone_market": "phone_market"
+  },
+  "property_column": {
+    "phone_Name": [
+      "phone",
+      "Name"
+    ],
+    "phone_Phone_ID": [
+      "phone",
+      "Phone_ID"
+    ],
+    "phone_Memory_in_G": [
+      "phone",
+      "Memory_in_G"
+    ],
+    "phone_Carrier": [
+      "phone",
+      "Carrier"
+    ],
+    "phone_Price": [
+      "phone",
+      "Price"
+    ],
+    "market_Market_ID": [
+      "market",
+      "Market_ID"
+    ],
+    "market_District": [
+      "market",
+      "District"
+    ],
+    "market_Num_of_employees": [
+      "market",
+      "Num_of_employees"
+    ],
+    "market_Num_of_shops": [
+      "market",
+      "Num_of_shops"
+    ],
+    "market_Ranking": [
+      "market",
+      "Ranking"
+    ],
+    "phone_market_Market_ID": [
+      "phone_market",
+      "Market_ID"
+    ],
+    "phone_market_Phone_ID": [
+      "phone_market",
+      "Phone_ID"
+    ],
+    "phone_market_Num_of_stock": [
+      "phone_market",
+      "Num_of_stock"
+    ]
+  },
+  "object_property_fk": {
+    "phone_market_phone_fk0": [
+      "phone_market.Phone_ID",
+      "phone.Phone_ID"
+    ],
+    "phone_market_market_fk1": [
+      "phone_market.Market_ID",
+      "market.Market_ID"
+    ]
+  }
+}

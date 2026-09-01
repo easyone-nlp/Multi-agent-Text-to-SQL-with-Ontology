@@ -1,0 +1,116 @@
+{
+  "class_table": {
+    "conductor": "conductor",
+    "orchestra": "orchestra",
+    "performance": "performance",
+    "show": "show"
+  },
+  "property_column": {
+    "conductor_Conductor_ID": [
+      "conductor",
+      "Conductor_ID"
+    ],
+    "conductor_Name": [
+      "conductor",
+      "Name"
+    ],
+    "conductor_Age": [
+      "conductor",
+      "Age"
+    ],
+    "conductor_Nationality": [
+      "conductor",
+      "Nationality"
+    ],
+    "conductor_Year_of_Work": [
+      "conductor",
+      "Year_of_Work"
+    ],
+    "orchestra_Orchestra_ID": [
+      "orchestra",
+      "Orchestra_ID"
+    ],
+    "orchestra_Orchestra": [
+      "orchestra",
+      "Orchestra"
+    ],
+    "orchestra_Conductor_ID": [
+      "orchestra",
+      "Conductor_ID"
+    ],
+    "orchestra_Record_Company": [
+      "orchestra",
+      "Record_Company"
+    ],
+    "orchestra_Year_of_Founded": [
+      "orchestra",
+      "Year_of_Founded"
+    ],
+    "orchestra_Major_Record_Format": [
+      "orchestra",
+      "Major_Record_Format"
+    ],
+    "performance_Performance_ID": [
+      "performance",
+      "Performance_ID"
+    ],
+    "performance_Orchestra_ID": [
+      "performance",
+      "Orchestra_ID"
+    ],
+    "performance_Type": [
+      "performance",
+      "Type"
+    ],
+    "performance_Date": [
+      "performance",
+      "Date"
+    ],
+    "performance_Official_ratings__millions": [
+      "performance",
+      "Official_ratings_(millions)"
+    ],
+    "performance_Weekly_rank": [
+      "performance",
+      "Weekly_rank"
+    ],
+    "performance_Share": [
+      "performance",
+      "Share"
+    ],
+    "show_Show_ID": [
+      "show",
+      "Show_ID"
+    ],
+    "show_Performance_ID": [
+      "show",
+      "Performance_ID"
+    ],
+    "show_If_first_show": [
+      "show",
+      "If_first_show"
+    ],
+    "show_Result": [
+      "show",
+      "Result"
+    ],
+    "show_Attendance": [
+      "show",
+      "Attendance"
+    ]
+  },
+  "object_property_fk": {
+    "orchestra_conductor_fk0": [
+      "orchestra.Conductor_ID",
+      "conductor.Conductor_ID"
+    ],
+    "performance_orchestra_fk1": [
+      "performance.Orchestra_ID",
+      "orchestra.Orchestra_ID"
+    ],
+    "show_performance_fk2": [
+      "show.Performance_ID",
+      "performance.Performance_ID"
+    ]
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "db_id": "concert_singer",
+  "classes": [
+    {
+      "name": "stadium",
+      "source_table": "stadium",
+      "ranking": 3.5,
+      "primary_label": "스테이디움",
+      "synonyms": [
+        "콘서트하우스",
+        "아레나",
+        "행사장",
+        "스포츠구장",
+        "이벤트장"
+      ]
+    },
+    {
+      "name": "singer",
+      "source_table": "singer",
+      "ranking": 1.0,
+      "primary_label": "singer",
+      "synonyms": [
+        "아티스트",
+        "연주자",
+        "보이스",
+        "음악가",
+        "엔터테이너"
+      ]
+    },
+    {
+      "name": "concert",
+      "source_table": "concert",
+      "ranking": 3.5,
+      "primary_label": "콘서트",
+      "synonyms": [
+        "공연",
+        "연주",
+        "이벤트",
+        "공연회",
+        "연기"
+      ]
+    },
+    {
+      "name": "singer_in_concert",
+      "source_table": "singer_in_concert",
+      "ranking": 1.0,
+      "primary_label": "singer in concert",
+      "synonyms": [
+        "공연 연주자",
+        "연주자 공연",
+        "연주자 참여",
+        "공연 인물",
+        "연주자 정보",
+        "연주자 관련자",
+        "공연 연출자",
+        "연주자 참여자"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "stadium_Stadium_ID",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "Stadium_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "스테이디움 ID",
+      "synonyms": [
+        "스테이디움 ID",
+        "스테이디움 번호",
+        "스테이디움 코드",
+        "스테이디움 식별자",
+        "스테이디움 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stadium_Location",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "위치",
+      "synonyms": [
+        "위치",
+        "위치정보",
+        "위치지",
+        "위치좌표",
+        "위치데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "인천": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "stadium_Name",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "이름정보",
+        "이름데이터",
+        "이름상세",
+        "이름지"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울주경기장": [
+          "서울주경기장"
+        ],
+        "부산경기장": [
+          "부산경기장"
+        ]
+      }
+    },
+    {
+      "name": "stadium_Capacity",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "Capacity",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "용량",
+      "synonyms": [
+        "용량",
+        "인원 수용량",
+        "최대 인원",
+        "수용 인원",
+        "용량 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stadium_Highest",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "Highest",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "최고",
+      "synonyms": [
+        "최고 수치",
+        "최대 수치",
+        "기록 최고",
+        "최고 기록",
+        "최대 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stadium_Lowest",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "Lowest",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "최저",
+      "synonyms": [
+        "최저 수치",
+        "최소 수치",
+        "기록 최저",
+        "최저 기록",
+        "최소 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stadium_Average",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "Average",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "평균",
+      "synonyms": [
+        "평균",
+        "평균값",
+        "평균 수치",
+        "평균 데이터",
+        "평균 정보",
+        "평균 지표",
+        "평균 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "singer_Singer_ID",
+      "domain": "singer",
+      "source_table": "singer",
+      "source_column": "Singer_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "singer id",
+      "synonyms": [
+        "아이디",
+        "번호",
+        "코드",
+        "인덱스",
+        "키"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "singer_Name",
+      "domain": "singer",
+      "source_table": "singer",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "소명",
+        "본명",
+        "성명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "singer_Country",
+      "domain": "singer",
+      "source_table": "singer",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "country",
+      "synonyms": [
+        "국가",
+        "국",
+        "나라",
+        "출신국가",
+        "국적"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "singer_Song_Name",
+      "domain": "singer",
+      "source_table": "singer",
+      "source_column": "Song_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "song name",
+      "synonyms": [
+        "곡명",
+        "노래 제목",
+        "음악 제목",
+        "곡 이름",
+        "음악 작품 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "singer_Song_release_year",
+      "domain": "singer",
+      "source_table": "singer",
+      "source_column": "Song_release_year",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "song release year",
+      "synonyms": [
+        "발매 연도",
+        "곡 발매년도",
+        "음악 발매년",
+        "노래 발매년",
+        "곡 출시년도"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "singer_Age",
+      "domain": "singer",
+      "source_table": "singer",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "나이",
+        "연령",
+        "생년",
+        "출생년도",
+        "연령 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "singer_Is_male",
+      "domain": "singer",
+      "source_table": "singer",
+      "source_column": "Is_male",
+      "range_types": [
+        "others"
+      ],
+      "ranking": 1.0,
+      "primary_label": "is male",
+      "synonyms": [
+        "성별 여부",
+        "남성 여부",
+        "성별 구분",
+        "남성 여자 구분",
+        "성별 판단",
+        "남성 여자 구분자",
+        "성별 여부 판단",
+        "남성 여자 구분 기준"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "concert_concert_ID",
+      "domain": "concert",
+      "source_table": "concert",
+      "source_column": "concert_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "콘서트 ID",
+      "synonyms": [
+        "콘서트 ID",
+        "콘서트 번호",
+        "콘서트 코드",
+        "콘서트 식별자",
+        "콘서트 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "concert_concert_Name",
+      "domain": "concert",
+      "source_table": "concert",
+      "source_column": "concert_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "콘서트 이름",
+      "synonyms": [
+        "콘서트 제목",
+        "공연명",
+        "콘서트 이름",
+        "공연 제목",
+        "콘서트 타이틀"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "K-pop 콘서트": [
+          "k-pop 콘서트",
+          "kpop 콘서트"
+        ],
+        "국악 콘서트": [
+          "국악 콘서트",
+          "국악"
+        ]
+      }
+    },
+    {
+      "name": "concert_Theme",
+      "domain": "concert",
+      "source_table": "concert",
+      "source_column": "Theme",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "주제",
+      "synonyms": [
+        "콘서트 주제",
+        "주제",
+        "공연 주제",
+        "콘서트 테마",
+        "테마",
+        "공연 테마"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "가요": [
+          "가요",
+          "가요 음악"
+        ],
+        "클래식": [
+          "클래식",
+          "클래식 음악"
+        ]
+      }
+    },
+    {
+      "name": "concert_Stadium_ID",
+      "domain": "concert",
+      "source_table": "concert",
+      "source_column": "Stadium_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "스테이디움 ID",
+      "synonyms": [
+        "스테이디움 코드",
+        "공연장 번호",
+        "공연장 ID",
+        "스테이디움 번호",
+        "공연장 코드",
+        "스테이디움 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "concert_Year",
+      "domain": "concert",
+      "source_table": "concert",
+      "source_column": "Year",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "연",
+        "연도 정보",
+        "년도 코드",
+        "공연 연도",
+        "연도 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023": [
+          "2023년"
+        ],
+        "2024": [
+          "2024년"
+        ]
+      }
+    },
+    {
+      "name": "singer_in_concert_concert_ID",
+      "domain": "singer_in_concert",
+      "source_table": "singer_in_concert",
+      "source_column": "concert_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "concert id",
+      "synonyms": [
+        "콘서트 번호",
+        "콘서트 코드",
+        "이벤트 ID",
+        "콘서트 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "singer_in_concert_Singer_ID",
+      "domain": "singer_in_concert",
+      "source_table": "singer_in_concert",
+      "source_column": "Singer_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "singer id",
+      "synonyms": [
+        "가수 ID",
+        "가수 코드",
+        "아티스트 식별자",
+        "가수 식별자",
+        "아티스트 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "concert_stadium_fk0",
+      "domain": "concert",
+      "range": "stadium",
+      "source_fk": [
+        "concert.Stadium_ID",
+        "stadium.Stadium_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "주요한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "singer_in_concert_singer_fk1",
+      "domain": "singer_in_concert",
+      "range": "singer",
+      "source_fk": [
+        "singer_in_concert.Singer_ID",
+        "singer.Singer_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "singer_in_concert_concert_fk2",
+      "domain": "singer_in_concert",
+      "range": "concert",
+      "source_fk": [
+        "singer_in_concert.concert_ID",
+        "concert.concert_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

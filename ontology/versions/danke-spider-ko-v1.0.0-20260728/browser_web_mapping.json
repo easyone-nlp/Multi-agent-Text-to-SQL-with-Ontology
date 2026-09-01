@@ -1,0 +1,63 @@
+{
+  "class_table": {
+    "Web_client_accelerator": "Web_client_accelerator",
+    "browser": "browser",
+    "accelerator_compatible_browser": "accelerator_compatible_browser"
+  },
+  "property_column": {
+    "Web_client_accelerator_id": [
+      "Web_client_accelerator",
+      "id"
+    ],
+    "Web_client_accelerator_name": [
+      "Web_client_accelerator",
+      "name"
+    ],
+    "Web_client_accelerator_Operating_system": [
+      "Web_client_accelerator",
+      "Operating_system"
+    ],
+    "Web_client_accelerator_Client": [
+      "Web_client_accelerator",
+      "Client"
+    ],
+    "Web_client_accelerator_Connection": [
+      "Web_client_accelerator",
+      "Connection"
+    ],
+    "browser_id": [
+      "browser",
+      "id"
+    ],
+    "browser_name": [
+      "browser",
+      "name"
+    ],
+    "browser_market_share": [
+      "browser",
+      "market_share"
+    ],
+    "accelerator_compatible_browser_accelerator_id": [
+      "accelerator_compatible_browser",
+      "accelerator_id"
+    ],
+    "accelerator_compatible_browser_browser_id": [
+      "accelerator_compatible_browser",
+      "browser_id"
+    ],
+    "accelerator_compatible_browser_compatible_since_year": [
+      "accelerator_compatible_browser",
+      "compatible_since_year"
+    ]
+  },
+  "object_property_fk": {
+    "accelerator_compatible_browser_browser_fk0": [
+      "accelerator_compatible_browser.browser_id",
+      "browser.id"
+    ],
+    "accelerator_compatible_browser_Web_client_accelerator_fk1": [
+      "accelerator_compatible_browser.accelerator_id",
+      "Web_client_accelerator.id"
+    ]
+  }
+}

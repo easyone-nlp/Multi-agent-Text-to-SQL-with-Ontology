@@ -1,0 +1,743 @@
+{
+  "db_id": "company_1",
+  "classes": [
+    {
+      "name": "works_on",
+      "source_table": "works_on",
+      "ranking": 1.0,
+      "primary_label": "works on",
+      "synonyms": [
+        "works on",
+        "employs",
+        "assigns",
+        "assigns work",
+        "job assignment",
+        "work allocation"
+      ]
+    },
+    {
+      "name": "employee",
+      "source_table": "employee",
+      "ranking": 3.5,
+      "primary_label": "사원",
+      "synonyms": [
+        "employee",
+        "staff",
+        "worker",
+        "personnel",
+        "staff member",
+        "employee record"
+      ]
+    },
+    {
+      "name": "department",
+      "source_table": "department",
+      "ranking": 3.0,
+      "primary_label": "부서 이름",
+      "synonyms": [
+        "department",
+        "division",
+        "section",
+        "org unit",
+        "dept",
+        "branch"
+      ]
+    },
+    {
+      "name": "project",
+      "source_table": "project",
+      "ranking": 1.0,
+      "primary_label": "의존 이름",
+      "synonyms": [
+        "프로젝트",
+        "프로젝트명",
+        "작업",
+        "계획",
+        "프로젝트 일정",
+        "프로젝트 목표",
+        "프로젝트 팀"
+      ]
+    },
+    {
+      "name": "dependent",
+      "source_table": "dependent",
+      "ranking": 1.0,
+      "primary_label": "의존자",
+      "synonyms": [
+        "직원",
+        "직원명",
+        "사원",
+        "근로자",
+        "직속자",
+        "종속자",
+        "인력"
+      ]
+    },
+    {
+      "name": "dept_locations",
+      "source_table": "dept_locations",
+      "ranking": 1.0,
+      "primary_label": "부서 위치",
+      "synonyms": [
+        "부서 위치",
+        "부서 위치 정보",
+        "부서 위치 데이터",
+        "부서 위치 기록",
+        "부서 위치 지도",
+        "부서 위치 명소",
+        "부서 위치 기준"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "works_on_Essn",
+      "domain": "works_on",
+      "source_table": "works_on",
+      "source_column": "Essn",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "사용자 ssn",
+      "synonyms": [
+        "직원 사회보장번호",
+        "사원 번호",
+        "SSN",
+        "직원 식별 번호",
+        "ESSN",
+        "사원 ID",
+        "직원 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "works_on_Pno",
+      "domain": "works_on",
+      "source_table": "works_on",
+      "source_column": "Pno",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "프로젝트 번호",
+      "synonyms": [
+        "프로젝트 번호",
+        "프로젝트 식별 번호",
+        "PNO",
+        "프로젝트 ID",
+        "프로젝트 고유번호",
+        "프로젝트 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "works_on_Hours",
+      "domain": "works_on",
+      "source_table": "works_on",
+      "source_column": "Hours",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시간",
+      "synonyms": [
+        "소요 시간",
+        "작업 시간",
+        "시간",
+        "근무 시간",
+        "작업 소요 시간",
+        "시간 수",
+        "시간 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employee_Fname",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "Fname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수",
+          "민수"
+        ]
+      }
+    },
+    {
+      "name": "employee_Minit",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "Minit",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "초성",
+      "synonyms": [
+        "중간 성자리",
+        "성 중간 문자",
+        "중간 성",
+        "성의 중간",
+        "Minit"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employee_Lname",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "Lname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "이름",
+        "성명",
+        "성자",
+        "성세",
+        "성분",
+        "성자명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김",
+          "김씨"
+        ]
+      }
+    },
+    {
+      "name": "employee_Ssn",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "Ssn",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "주민등록번호",
+      "synonyms": [
+        "Ssn",
+        "소셜수지",
+        "주민번호",
+        "주민등록번호",
+        "개인식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employee_Bdate",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "Bdate",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "생년월일",
+      "synonyms": [
+        "Bdate",
+        "생일",
+        "생년월일",
+        "태어난날",
+        "출생일",
+        "출생년월일"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1990-05-15": [
+          "1990년 5월 15일",
+          "1990-05-15"
+        ]
+      }
+    },
+    {
+      "name": "employee_Address",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "Address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "주소",
+      "synonyms": [
+        "Address",
+        "주소",
+        "거주지",
+        "이름이 있는 곳",
+        "주소지",
+        "거주처"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 강남구 테헤란로 123": [
+          "서울 강남구 테헤란로 123",
+          "강남구 테헤란로 123"
+        ]
+      }
+    },
+    {
+      "name": "employee_Sex",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "Sex",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성별",
+      "synonyms": [
+        "성별",
+        "성",
+        "성별 정보",
+        "성별 데이터",
+        "성별 코드",
+        "성별 구분",
+        "성별 항목",
+        "성별 필드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남성": [
+          "남성",
+          "남자"
+        ],
+        "여성": [
+          "여성",
+          "여자"
+        ]
+      }
+    },
+    {
+      "name": "employee_Salary",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "Salary",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "월급",
+      "synonyms": [
+        "급여",
+        "보너스",
+        "급여 금액",
+        "급여 정보",
+        "급여액",
+        "급여 수준",
+        "급여 금액 정보",
+        "급여 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employee_Super_ssn",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "Super_ssn",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "상위 사원 주민등록번호",
+      "synonyms": [
+        "상사 사원 번호",
+        "상사 번호",
+        "상사 ssn",
+        "상사 id",
+        "상사 ssn 정보",
+        "상사 식별자",
+        "상사 번호 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employee_Dno",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "Dno",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "부서 번호",
+      "synonyms": [
+        "Dno",
+        "부서 번호",
+        "직원 부서 번호",
+        "D 번호",
+        "부서 코드",
+        "직원 소속 부서 번호",
+        "Dno 값",
+        "소속 부서 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "10": [
+          "10번 부서",
+          "부서 10"
+        ]
+      }
+    },
+    {
+      "name": "department_Dname",
+      "domain": "department",
+      "source_table": "department",
+      "source_column": "Dname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "부서 이름",
+      "synonyms": [
+        "Dname",
+        "부서 이름",
+        "이름",
+        "사티",
+        "부서명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "department_Dnumber",
+      "domain": "department",
+      "source_table": "department",
+      "source_column": "Dnumber",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "부서 번호",
+      "synonyms": [
+        "Dnumber",
+        "부서 번호",
+        "번호",
+        "부서 ID",
+        "부서 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "department_Mgr_ssn",
+      "domain": "department",
+      "source_table": "department",
+      "source_column": "Mgr_ssn",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "관리자 ssn",
+      "synonyms": [
+        "Mgr_ssn",
+        "관리자 소셜서번",
+        "관리자 SSN",
+        "관리자 번호",
+        "관리자 소셜"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "department_Mgr_start_date",
+      "domain": "department",
+      "source_table": "department",
+      "source_column": "Mgr_start_date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "관리자 시작 일자",
+      "synonyms": [
+        "매니저 입사일",
+        "매니저 시작일",
+        "매니저 시작 날짜",
+        "매니저 시작일자",
+        "매니저 도입일",
+        "매니저 가입일",
+        "매니저 입사 일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "project_Pname",
+      "domain": "project",
+      "source_table": "project",
+      "source_column": "Pname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "의존 이름",
+      "synonyms": [
+        "프로젝트 이름",
+        "이름",
+        "프로젝트명",
+        "Pname",
+        "dependent name",
+        "명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "project_Pnumber",
+      "domain": "project",
+      "source_table": "project",
+      "source_column": "Pnumber",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "의존 번호",
+      "synonyms": [
+        "프로젝트 번호",
+        "번호",
+        "Pnumber",
+        "dependent number",
+        "아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "project_Plocation",
+      "domain": "project",
+      "source_table": "project",
+      "source_column": "Plocation",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "의존 위치",
+      "synonyms": [
+        "프로젝트 위치",
+        "위치",
+        "Plocation",
+        "dependent location",
+        "장소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "project_Dnum",
+      "domain": "project",
+      "source_table": "project",
+      "source_column": "Dnum",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "부서 번호",
+      "synonyms": [
+        "Dnum",
+        "부서 번호",
+        "Dnum 번호",
+        "부서코드",
+        "Dnum 값",
+        "부서 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "dependent_Essn",
+      "domain": "dependent",
+      "source_table": "dependent",
+      "source_column": "Essn",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "직원 ssn",
+      "synonyms": [
+        "Essn",
+        "직원 사회보장번호",
+        "사용자 ID",
+        "직원 고유 식별자",
+        "사용자 고유번호",
+        "사용자 식별자",
+        "직원 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "dependent_Dependent_name",
+      "domain": "dependent",
+      "source_table": "dependent",
+      "source_column": "Dependent_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "의존자 이름",
+      "synonyms": [
+        "Dependent_name",
+        "종속자 이름",
+        "이름",
+        "종속자",
+        "이름 정보",
+        "사용자 이름",
+        "종속자 이름 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ]
+      }
+    },
+    {
+      "name": "dependent_Sex",
+      "domain": "dependent",
+      "source_table": "dependent",
+      "source_column": "Sex",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "성별",
+      "synonyms": [
+        "Sex",
+        "성별",
+        "성",
+        "성별 정보",
+        "성별 코드",
+        "성별 데이터",
+        "성별 구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남자": [
+          "남자",
+          "남"
+        ],
+        "여자": [
+          "여자",
+          "여"
+        ]
+      }
+    },
+    {
+      "name": "dependent_Bdate",
+      "domain": "dependent",
+      "source_table": "dependent",
+      "source_column": "Bdate",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "출생일",
+      "synonyms": [
+        "생일",
+        "출생일",
+        "Bdate",
+        "출생일자",
+        "생일정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1990-05-15": [
+          "1990-05-15"
+        ]
+      }
+    },
+    {
+      "name": "dependent_Relationship",
+      "domain": "dependent",
+      "source_table": "dependent",
+      "source_column": "Relationship",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "relationship",
+      "synonyms": [
+        "관계",
+        "연관관계",
+        "관계정보",
+        "관계상태",
+        "Relationship",
+        "연관"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "dept_locations_Dnumber",
+      "domain": "dept_locations",
+      "source_table": "dept_locations",
+      "source_column": "Dnumber",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "부서 번호",
+      "synonyms": [
+        "Dnumber",
+        "부서 번호",
+        "D 번호",
+        "department number",
+        "D_num",
+        "부서 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "dept_locations_Dlocation",
+      "domain": "dept_locations",
+      "source_table": "dept_locations",
+      "source_column": "Dlocation",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "부서 위치",
+      "synonyms": [
+        "Dlocation",
+        "부서 위치",
+        "D 위치",
+        "department location",
+        "D_loc",
+        "부서 위치 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "부산": [
+          "부산"
+        ],
+        "대구": [
+          "대구"
+        ]
+      }
+    }
+  ],
+  "object_properties": []
+}

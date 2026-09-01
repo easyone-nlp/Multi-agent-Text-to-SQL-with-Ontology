@@ -1,0 +1,67 @@
+{
+  "class_table": {
+    "museum": "museum",
+    "visitor": "visitor",
+    "visit": "visit"
+  },
+  "property_column": {
+    "museum_Museum_ID": [
+      "museum",
+      "Museum_ID"
+    ],
+    "museum_Name": [
+      "museum",
+      "Name"
+    ],
+    "museum_Num_of_Staff": [
+      "museum",
+      "Num_of_Staff"
+    ],
+    "museum_Open_Year": [
+      "museum",
+      "Open_Year"
+    ],
+    "visitor_ID": [
+      "visitor",
+      "ID"
+    ],
+    "visitor_Name": [
+      "visitor",
+      "Name"
+    ],
+    "visitor_Level_of_membership": [
+      "visitor",
+      "Level_of_membership"
+    ],
+    "visitor_Age": [
+      "visitor",
+      "Age"
+    ],
+    "visit_Museum_ID": [
+      "visit",
+      "Museum_ID"
+    ],
+    "visit_visitor_ID": [
+      "visit",
+      "visitor_ID"
+    ],
+    "visit_Num_of_Ticket": [
+      "visit",
+      "Num_of_Ticket"
+    ],
+    "visit_Total_spent": [
+      "visit",
+      "Total_spent"
+    ]
+  },
+  "object_property_fk": {
+    "visit_visitor_fk0": [
+      "visit.visitor_ID",
+      "visitor.ID"
+    ],
+    "visit_museum_fk1": [
+      "visit.Museum_ID",
+      "museum.Museum_ID"
+    ]
+  }
+}

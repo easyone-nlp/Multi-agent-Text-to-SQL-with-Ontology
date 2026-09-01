@@ -1,0 +1,227 @@
+{
+  "class_table": {
+    "Discount_Coupons": "Discount_Coupons",
+    "Customers": "Customers",
+    "Bookings": "Bookings",
+    "Products_for_Hire": "Products_for_Hire",
+    "Payments": "Payments",
+    "Products_Booked": "Products_Booked",
+    "View_Product_Availability": "View_Product_Availability"
+  },
+  "property_column": {
+    "Discount_Coupons_coupon_id": [
+      "Discount_Coupons",
+      "coupon_id"
+    ],
+    "Discount_Coupons_date_issued": [
+      "Discount_Coupons",
+      "date_issued"
+    ],
+    "Discount_Coupons_coupon_amount": [
+      "Discount_Coupons",
+      "coupon_amount"
+    ],
+    "Customers_customer_id": [
+      "Customers",
+      "customer_id"
+    ],
+    "Customers_coupon_id": [
+      "Customers",
+      "coupon_id"
+    ],
+    "Customers_good_or_bad_customer": [
+      "Customers",
+      "good_or_bad_customer"
+    ],
+    "Customers_first_name": [
+      "Customers",
+      "first_name"
+    ],
+    "Customers_last_name": [
+      "Customers",
+      "last_name"
+    ],
+    "Customers_gender_mf": [
+      "Customers",
+      "gender_mf"
+    ],
+    "Customers_date_became_customer": [
+      "Customers",
+      "date_became_customer"
+    ],
+    "Customers_date_last_hire": [
+      "Customers",
+      "date_last_hire"
+    ],
+    "Bookings_booking_id": [
+      "Bookings",
+      "booking_id"
+    ],
+    "Bookings_customer_id": [
+      "Bookings",
+      "customer_id"
+    ],
+    "Bookings_booking_status_code": [
+      "Bookings",
+      "booking_status_code"
+    ],
+    "Bookings_returned_damaged_yn": [
+      "Bookings",
+      "returned_damaged_yn"
+    ],
+    "Bookings_booking_start_date": [
+      "Bookings",
+      "booking_start_date"
+    ],
+    "Bookings_booking_end_date": [
+      "Bookings",
+      "booking_end_date"
+    ],
+    "Bookings_count_hired": [
+      "Bookings",
+      "count_hired"
+    ],
+    "Bookings_amount_payable": [
+      "Bookings",
+      "amount_payable"
+    ],
+    "Bookings_amount_of_discount": [
+      "Bookings",
+      "amount_of_discount"
+    ],
+    "Bookings_amount_outstanding": [
+      "Bookings",
+      "amount_outstanding"
+    ],
+    "Bookings_amount_of_refund": [
+      "Bookings",
+      "amount_of_refund"
+    ],
+    "Products_for_Hire_product_id": [
+      "Products_for_Hire",
+      "product_id"
+    ],
+    "Products_for_Hire_product_type_code": [
+      "Products_for_Hire",
+      "product_type_code"
+    ],
+    "Products_for_Hire_daily_hire_cost": [
+      "Products_for_Hire",
+      "daily_hire_cost"
+    ],
+    "Products_for_Hire_product_name": [
+      "Products_for_Hire",
+      "product_name"
+    ],
+    "Products_for_Hire_product_description": [
+      "Products_for_Hire",
+      "product_description"
+    ],
+    "Payments_payment_id": [
+      "Payments",
+      "payment_id"
+    ],
+    "Payments_booking_id": [
+      "Payments",
+      "booking_id"
+    ],
+    "Payments_customer_id": [
+      "Payments",
+      "customer_id"
+    ],
+    "Payments_payment_type_code": [
+      "Payments",
+      "payment_type_code"
+    ],
+    "Payments_amount_paid_in_full_yn": [
+      "Payments",
+      "amount_paid_in_full_yn"
+    ],
+    "Payments_payment_date": [
+      "Payments",
+      "payment_date"
+    ],
+    "Payments_amount_due": [
+      "Payments",
+      "amount_due"
+    ],
+    "Payments_amount_paid": [
+      "Payments",
+      "amount_paid"
+    ],
+    "Products_Booked_booking_id": [
+      "Products_Booked",
+      "booking_id"
+    ],
+    "Products_Booked_product_id": [
+      "Products_Booked",
+      "product_id"
+    ],
+    "Products_Booked_returned_yn": [
+      "Products_Booked",
+      "returned_yn"
+    ],
+    "Products_Booked_returned_late_yn": [
+      "Products_Booked",
+      "returned_late_yn"
+    ],
+    "Products_Booked_booked_count": [
+      "Products_Booked",
+      "booked_count"
+    ],
+    "Products_Booked_booked_amount": [
+      "Products_Booked",
+      "booked_amount"
+    ],
+    "View_Product_Availability_product_id": [
+      "View_Product_Availability",
+      "product_id"
+    ],
+    "View_Product_Availability_booking_id": [
+      "View_Product_Availability",
+      "booking_id"
+    ],
+    "View_Product_Availability_status_date": [
+      "View_Product_Availability",
+      "status_date"
+    ],
+    "View_Product_Availability_available_yn": [
+      "View_Product_Availability",
+      "available_yn"
+    ]
+  },
+  "object_property_fk": {
+    "Customers_Discount_Coupons_fk0": [
+      "Customers.coupon_id",
+      "Discount_Coupons.coupon_id"
+    ],
+    "Bookings_Customers_fk1": [
+      "Bookings.customer_id",
+      "Customers.customer_id"
+    ],
+    "Payments_Customers_fk2": [
+      "Payments.customer_id",
+      "Customers.customer_id"
+    ],
+    "Payments_Bookings_fk3": [
+      "Payments.booking_id",
+      "Bookings.booking_id"
+    ],
+    "Products_Booked_Products_for_Hire_fk4": [
+      "Products_Booked.product_id",
+      "Products_for_Hire.product_id"
+    ],
+    "Products_Booked_Bookings_fk5": [
+      "Products_Booked.booking_id",
+      "Bookings.booking_id"
+    ],
+    "View_Product_Availability_Products_for_Hire_fk6": [
+      "View_Product_Availability.product_id",
+      "Products_for_Hire.product_id"
+    ],
+    "View_Product_Availability_Bookings_fk7": [
+      "View_Product_Availability.booking_id",
+      "Bookings.booking_id"
+    ]
+  }
+}

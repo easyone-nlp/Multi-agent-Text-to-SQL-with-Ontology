@@ -1,0 +1,319 @@
+{
+  "db_id": "workshop_paper",
+  "classes": [
+    {
+      "name": "workshop",
+      "source_table": "workshop",
+      "ranking": 3.5,
+      "primary_label": "워크숍",
+      "synonyms": [
+        "워크숍",
+        "세미나",
+        "학술행사",
+        "세션",
+        "컨퍼런스"
+      ]
+    },
+    {
+      "name": "submission",
+      "source_table": "submission",
+      "ranking": 3.5,
+      "primary_label": "제출서",
+      "synonyms": [
+        "제출물",
+        "논문",
+        "제출",
+        "작품",
+        "제출내용"
+      ]
+    },
+    {
+      "name": "Acceptance",
+      "source_table": "Acceptance",
+      "ranking": 3.0,
+      "primary_label": "acceptance",
+      "synonyms": [
+        "수락",
+        "승인",
+        "접수",
+        "승인상태",
+        "결정"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "workshop_Workshop_ID",
+      "domain": "workshop",
+      "source_table": "workshop",
+      "source_column": "Workshop_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "워크숍 ID",
+      "synonyms": [
+        "워크숍 ID",
+        "워크숍 번호",
+        "워크숍 식별자",
+        "Workshop_ID",
+        "워크숍 고유 번호",
+        "워크숍 코드",
+        "워크숍 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "workshop_Date",
+      "domain": "workshop",
+      "source_table": "workshop",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "일자",
+      "synonyms": [
+        "일자",
+        "날짜",
+        "일정",
+        "일자 정보",
+        "날짜 정보",
+        "일정 날짜",
+        "일자별",
+        "일정일"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2024-05-10": [
+          "2024년 5월 10일"
+        ]
+      }
+    },
+    {
+      "name": "workshop_Venue",
+      "domain": "workshop",
+      "source_table": "workshop",
+      "source_column": "Venue",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "장소",
+      "synonyms": [
+        "장소",
+        "공간",
+        "현장",
+        "장소 정보",
+        "위치",
+        "사건 장소",
+        "행사 장소",
+        "장소명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 강남구": [
+          "강남구",
+          "서울 강남"
+        ]
+      }
+    },
+    {
+      "name": "workshop_Name",
+      "domain": "workshop",
+      "source_table": "workshop",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "워크숍명",
+        "제목",
+        "워크숍 이름",
+        "명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "AI 워크숍": [
+          "AI 워크숍",
+          "인공지능 워크숍"
+        ]
+      }
+    },
+    {
+      "name": "submission_Submission_ID",
+      "domain": "submission",
+      "source_table": "submission",
+      "source_column": "Submission_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "제출서 ID",
+      "synonyms": [
+        "제출 번호",
+        "제출 ID",
+        "제출물 ID",
+        "제출 식별자",
+        "제출물 식별 번호",
+        "Submission_ID",
+        "제출 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "submission_Scores",
+      "domain": "submission",
+      "source_table": "submission",
+      "source_column": "Scores",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "점수",
+      "synonyms": [
+        "점수",
+        "성적",
+        "평가 점수",
+        "점수 정보",
+        "Scores",
+        "제출 점수",
+        "제출 성적"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "submission_Author",
+      "domain": "submission",
+      "source_table": "submission",
+      "source_column": "Author",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "저자",
+      "synonyms": [
+        "작성자",
+        "저자",
+        "작가",
+        "작성자 이름",
+        "Author",
+        "저자 이름",
+        "작성자 정보",
+        "저자명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "이지은": [
+          "이지은"
+        ]
+      }
+    },
+    {
+      "name": "submission_College",
+      "domain": "submission",
+      "source_table": "submission",
+      "source_column": "College",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "대학",
+      "synonyms": [
+        "대학",
+        "대학명",
+        "학부",
+        "학부대학",
+        "대학 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국대학교": [
+          "한국대학교"
+        ],
+        "서울대학교": [
+          "서울대학교"
+        ]
+      }
+    },
+    {
+      "name": "Acceptance_Submission_ID",
+      "domain": "Acceptance",
+      "source_table": "Acceptance",
+      "source_column": "Submission_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "submission id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Acceptance_Workshop_ID",
+      "domain": "Acceptance",
+      "source_table": "Acceptance",
+      "source_column": "Workshop_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "workshop id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Acceptance_Result",
+      "domain": "Acceptance",
+      "source_table": "Acceptance",
+      "source_column": "Result",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "result",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Acceptance_workshop_fk0",
+      "domain": "Acceptance",
+      "range": "workshop",
+      "source_fk": [
+        "Acceptance.Workshop_ID",
+        "workshop.Workshop_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Acceptance_submission_fk1",
+      "domain": "Acceptance",
+      "range": "submission",
+      "source_fk": [
+        "Acceptance.Submission_ID",
+        "submission.Submission_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "제출한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

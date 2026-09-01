@@ -1,0 +1,58 @@
+{
+  "class_table": {
+    "body_builder": "body_builder",
+    "people": "people"
+  },
+  "property_column": {
+    "body_builder_Body_Builder_ID": [
+      "body_builder",
+      "Body_Builder_ID"
+    ],
+    "body_builder_People_ID": [
+      "body_builder",
+      "People_ID"
+    ],
+    "body_builder_Snatch": [
+      "body_builder",
+      "Snatch"
+    ],
+    "body_builder_Clean_Jerk": [
+      "body_builder",
+      "Clean_Jerk"
+    ],
+    "body_builder_Total": [
+      "body_builder",
+      "Total"
+    ],
+    "people_People_ID": [
+      "people",
+      "People_ID"
+    ],
+    "people_Name": [
+      "people",
+      "Name"
+    ],
+    "people_Height": [
+      "people",
+      "Height"
+    ],
+    "people_Weight": [
+      "people",
+      "Weight"
+    ],
+    "people_Birth_Date": [
+      "people",
+      "Birth_Date"
+    ],
+    "people_Birth_Place": [
+      "people",
+      "Birth_Place"
+    ]
+  },
+  "object_property_fk": {
+    "body_builder_people_fk0": [
+      "body_builder.People_ID",
+      "people.People_ID"
+    ]
+  }
+}

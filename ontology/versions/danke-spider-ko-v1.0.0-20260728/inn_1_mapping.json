@@ -1,0 +1,78 @@
+{
+  "class_table": {
+    "Rooms": "Rooms",
+    "Reservations": "Reservations"
+  },
+  "property_column": {
+    "Rooms_RoomId": [
+      "Rooms",
+      "RoomId"
+    ],
+    "Rooms_roomName": [
+      "Rooms",
+      "roomName"
+    ],
+    "Rooms_beds": [
+      "Rooms",
+      "beds"
+    ],
+    "Rooms_bedType": [
+      "Rooms",
+      "bedType"
+    ],
+    "Rooms_maxOccupancy": [
+      "Rooms",
+      "maxOccupancy"
+    ],
+    "Rooms_basePrice": [
+      "Rooms",
+      "basePrice"
+    ],
+    "Rooms_decor": [
+      "Rooms",
+      "decor"
+    ],
+    "Reservations_Code": [
+      "Reservations",
+      "Code"
+    ],
+    "Reservations_Room": [
+      "Reservations",
+      "Room"
+    ],
+    "Reservations_CheckIn": [
+      "Reservations",
+      "CheckIn"
+    ],
+    "Reservations_CheckOut": [
+      "Reservations",
+      "CheckOut"
+    ],
+    "Reservations_Rate": [
+      "Reservations",
+      "Rate"
+    ],
+    "Reservations_LastName": [
+      "Reservations",
+      "LastName"
+    ],
+    "Reservations_FirstName": [
+      "Reservations",
+      "FirstName"
+    ],
+    "Reservations_Adults": [
+      "Reservations",
+      "Adults"
+    ],
+    "Reservations_Kids": [
+      "Reservations",
+      "Kids"
+    ]
+  },
+  "object_property_fk": {
+    "Reservations_Rooms_fk0": [
+      "Reservations.Room",
+      "Rooms.RoomId"
+    ]
+  }
+}

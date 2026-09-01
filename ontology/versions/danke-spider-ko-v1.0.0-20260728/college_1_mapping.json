@@ -1,0 +1,223 @@
+{
+  "class_table": {
+    "CLASS": "CLASS",
+    "COURSE": "COURSE",
+    "DEPARTMENT": "DEPARTMENT",
+    "EMPLOYEE": "EMPLOYEE",
+    "ENROLL": "ENROLL",
+    "PROFESSOR": "PROFESSOR",
+    "STUDENT": "STUDENT"
+  },
+  "property_column": {
+    "CLASS_CLASS_CODE": [
+      "CLASS",
+      "CLASS_CODE"
+    ],
+    "CLASS_CRS_CODE": [
+      "CLASS",
+      "CRS_CODE"
+    ],
+    "CLASS_CLASS_SECTION": [
+      "CLASS",
+      "CLASS_SECTION"
+    ],
+    "CLASS_CLASS_TIME": [
+      "CLASS",
+      "CLASS_TIME"
+    ],
+    "CLASS_CLASS_ROOM": [
+      "CLASS",
+      "CLASS_ROOM"
+    ],
+    "CLASS_PROF_NUM": [
+      "CLASS",
+      "PROF_NUM"
+    ],
+    "COURSE_CRS_CODE": [
+      "COURSE",
+      "CRS_CODE"
+    ],
+    "COURSE_DEPT_CODE": [
+      "COURSE",
+      "DEPT_CODE"
+    ],
+    "COURSE_CRS_DESCRIPTION": [
+      "COURSE",
+      "CRS_DESCRIPTION"
+    ],
+    "COURSE_CRS_CREDIT": [
+      "COURSE",
+      "CRS_CREDIT"
+    ],
+    "DEPARTMENT_DEPT_CODE": [
+      "DEPARTMENT",
+      "DEPT_CODE"
+    ],
+    "DEPARTMENT_DEPT_NAME": [
+      "DEPARTMENT",
+      "DEPT_NAME"
+    ],
+    "DEPARTMENT_SCHOOL_CODE": [
+      "DEPARTMENT",
+      "SCHOOL_CODE"
+    ],
+    "DEPARTMENT_EMP_NUM": [
+      "DEPARTMENT",
+      "EMP_NUM"
+    ],
+    "DEPARTMENT_DEPT_ADDRESS": [
+      "DEPARTMENT",
+      "DEPT_ADDRESS"
+    ],
+    "DEPARTMENT_DEPT_EXTENSION": [
+      "DEPARTMENT",
+      "DEPT_EXTENSION"
+    ],
+    "EMPLOYEE_EMP_NUM": [
+      "EMPLOYEE",
+      "EMP_NUM"
+    ],
+    "EMPLOYEE_EMP_LNAME": [
+      "EMPLOYEE",
+      "EMP_LNAME"
+    ],
+    "EMPLOYEE_EMP_FNAME": [
+      "EMPLOYEE",
+      "EMP_FNAME"
+    ],
+    "EMPLOYEE_EMP_INITIAL": [
+      "EMPLOYEE",
+      "EMP_INITIAL"
+    ],
+    "EMPLOYEE_EMP_JOBCODE": [
+      "EMPLOYEE",
+      "EMP_JOBCODE"
+    ],
+    "EMPLOYEE_EMP_HIREDATE": [
+      "EMPLOYEE",
+      "EMP_HIREDATE"
+    ],
+    "EMPLOYEE_EMP_DOB": [
+      "EMPLOYEE",
+      "EMP_DOB"
+    ],
+    "ENROLL_CLASS_CODE": [
+      "ENROLL",
+      "CLASS_CODE"
+    ],
+    "ENROLL_STU_NUM": [
+      "ENROLL",
+      "STU_NUM"
+    ],
+    "ENROLL_ENROLL_GRADE": [
+      "ENROLL",
+      "ENROLL_GRADE"
+    ],
+    "PROFESSOR_EMP_NUM": [
+      "PROFESSOR",
+      "EMP_NUM"
+    ],
+    "PROFESSOR_DEPT_CODE": [
+      "PROFESSOR",
+      "DEPT_CODE"
+    ],
+    "PROFESSOR_PROF_OFFICE": [
+      "PROFESSOR",
+      "PROF_OFFICE"
+    ],
+    "PROFESSOR_PROF_EXTENSION": [
+      "PROFESSOR",
+      "PROF_EXTENSION"
+    ],
+    "PROFESSOR_PROF_HIGH_DEGREE": [
+      "PROFESSOR",
+      "PROF_HIGH_DEGREE"
+    ],
+    "STUDENT_STU_NUM": [
+      "STUDENT",
+      "STU_NUM"
+    ],
+    "STUDENT_STU_LNAME": [
+      "STUDENT",
+      "STU_LNAME"
+    ],
+    "STUDENT_STU_FNAME": [
+      "STUDENT",
+      "STU_FNAME"
+    ],
+    "STUDENT_STU_INIT": [
+      "STUDENT",
+      "STU_INIT"
+    ],
+    "STUDENT_STU_DOB": [
+      "STUDENT",
+      "STU_DOB"
+    ],
+    "STUDENT_STU_HRS": [
+      "STUDENT",
+      "STU_HRS"
+    ],
+    "STUDENT_STU_CLASS": [
+      "STUDENT",
+      "STU_CLASS"
+    ],
+    "STUDENT_STU_GPA": [
+      "STUDENT",
+      "STU_GPA"
+    ],
+    "STUDENT_STU_TRANSFER": [
+      "STUDENT",
+      "STU_TRANSFER"
+    ],
+    "STUDENT_DEPT_CODE": [
+      "STUDENT",
+      "DEPT_CODE"
+    ],
+    "STUDENT_STU_PHONE": [
+      "STUDENT",
+      "STU_PHONE"
+    ],
+    "STUDENT_PROF_NUM": [
+      "STUDENT",
+      "PROF_NUM"
+    ]
+  },
+  "object_property_fk": {
+    "CLASS_EMPLOYEE_fk0": [
+      "CLASS.PROF_NUM",
+      "EMPLOYEE.EMP_NUM"
+    ],
+    "CLASS_COURSE_fk1": [
+      "CLASS.CRS_CODE",
+      "COURSE.CRS_CODE"
+    ],
+    "COURSE_DEPARTMENT_fk2": [
+      "COURSE.DEPT_CODE",
+      "DEPARTMENT.DEPT_CODE"
+    ],
+    "DEPARTMENT_EMPLOYEE_fk3": [
+      "DEPARTMENT.EMP_NUM",
+      "EMPLOYEE.EMP_NUM"
+    ],
+    "ENROLL_STUDENT_fk4": [
+      "ENROLL.STU_NUM",
+      "STUDENT.STU_NUM"
+    ],
+    "ENROLL_CLASS_fk5": [
+      "ENROLL.CLASS_CODE",
+      "CLASS.CLASS_CODE"
+    ],
+    "PROFESSOR_DEPARTMENT_fk6": [
+      "PROFESSOR.DEPT_CODE",
+      "DEPARTMENT.DEPT_CODE"
+    ],
+    "PROFESSOR_EMPLOYEE_fk7": [
+      "PROFESSOR.EMP_NUM",
+      "EMPLOYEE.EMP_NUM"
+    ],
+    "STUDENT_DEPARTMENT_fk8": [
+      "STUDENT.DEPT_CODE",
+      "DEPARTMENT.DEPT_CODE"
+    ]
+  }
+}

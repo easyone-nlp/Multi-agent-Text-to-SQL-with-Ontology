@@ -1,0 +1,1544 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "고객들",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 정보",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "보험 고객",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이름별 고객",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 목록",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "보험 가입자",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 정책",
+      "target_class": "Customer_Policies",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "계약 정보",
+      "target_class": "Customer_Policies",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "보험 계약",
+      "target_class": "Customer_Policies",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 계약",
+      "target_class": "Customer_Policies",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "계약 목록",
+      "target_class": "Customer_Policies",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "계약자 정보",
+      "target_class": "Customer_Policies",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "claims",
+      "target_class": "Claims",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "청구 내역",
+      "target_class": "Claims",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "보험 청구",
+      "target_class": "Claims",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "청구서",
+      "target_class": "Claims",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "청구 정보",
+      "target_class": "Claims",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "보험 신고",
+      "target_class": "Claims",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "설정지",
+      "target_class": "Settlements",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "정산",
+      "target_class": "Settlements",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "결제",
+      "target_class": "Settlements",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지급",
+      "target_class": "Settlements",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "환급",
+      "target_class": "Settlements",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "청구",
+      "target_class": "Settlements",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "결제",
+      "target_class": "Payments",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지급",
+      "target_class": "Payments",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "환급",
+      "target_class": "Payments",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "청구",
+      "target_class": "Payments",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "청구서",
+      "target_class": "Payments",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer id",
+      "target_class": "Customers",
+      "target_property": "Customers_Customer_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "Customers",
+      "target_property": "Customers_Customer_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 번호",
+      "target_class": "Customers",
+      "target_property": "Customers_Customer_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "Customers",
+      "target_property": "Customers_Customer_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "Customers",
+      "target_property": "Customers_Customer_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 ID",
+      "target_class": "Customers",
+      "target_property": "Customers_Customer_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 코드",
+      "target_class": "Customers",
+      "target_property": "Customers_Customer_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별",
+      "target_class": "Customers",
+      "target_property": "Customers_Customer_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer details",
+      "target_class": "Customers",
+      "target_property": "Customers_Customer_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_Customer_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 세부 사항",
+      "target_class": "Customers",
+      "target_property": "Customers_Customer_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 정보 내용",
+      "target_class": "Customers",
+      "target_property": "Customers_Customer_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 데이터",
+      "target_class": "Customers",
+      "target_property": "Customers_Customer_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 정보 설명",
+      "target_class": "Customers",
+      "target_property": "Customers_Customer_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 정보 세부",
+      "target_class": "Customers",
+      "target_property": "Customers_Customer_Details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정책 ID",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보험 계약 번호",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Policy ID",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보험 계약 식별자",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정책 식별 번호",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Policy No",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계약 번호",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Customer_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 번호",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Customer_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Customer ID",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Customer_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 고객 식별자",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Customer_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별 번호",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Customer_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Client ID",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Customer_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 코드",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Customer_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정책 유형 코드",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보상 유형 코드",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Policy Type Code",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유형 코드",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Policy Type",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보상 유형",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Policy Category Code",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_Type_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 일자",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Start_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작일",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Start_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 날짜",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Start_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계약 시작일",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Start_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작일자",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Start_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계약 시작 날짜",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Start_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료 일자",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_End_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료일",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_End_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료 날짜",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_End_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계약 종료일",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_End_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료일자",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_End_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계약 종료 날짜",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_End_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계약 종료일자",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_End_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim id",
+      "target_class": "Claims",
+      "target_property": "Claims_Claim_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim_id",
+      "target_class": "Claims",
+      "target_property": "Claims_Claim_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim number",
+      "target_class": "Claims",
+      "target_property": "Claims_Claim_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim identifier",
+      "target_class": "Claims",
+      "target_property": "Claims_Claim_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim no",
+      "target_class": "Claims",
+      "target_property": "Claims_Claim_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim id number",
+      "target_class": "Claims",
+      "target_property": "Claims_Claim_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "policy id",
+      "target_class": "Claims",
+      "target_property": "Claims_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "policy_id",
+      "target_class": "Claims",
+      "target_property": "Claims_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "policy number",
+      "target_class": "Claims",
+      "target_property": "Claims_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "policy identifier",
+      "target_class": "Claims",
+      "target_property": "Claims_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "policy no",
+      "target_class": "Claims",
+      "target_property": "Claims_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "policy id number",
+      "target_class": "Claims",
+      "target_property": "Claims_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date claim made",
+      "target_class": "Claims",
+      "target_property": "Claims_Date_Claim_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim date",
+      "target_class": "Claims",
+      "target_property": "Claims_Date_Claim_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date of claim",
+      "target_class": "Claims",
+      "target_property": "Claims_Date_Claim_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim date made",
+      "target_class": "Claims",
+      "target_property": "Claims_Date_Claim_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim date time",
+      "target_class": "Claims",
+      "target_property": "Claims_Date_Claim_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim made date",
+      "target_class": "Claims",
+      "target_property": "Claims_Date_Claim_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date claim settled",
+      "target_class": "Claims",
+      "target_property": "Claims_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사고 처리 일자",
+      "target_class": "Claims",
+      "target_property": "Claims_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "처리 일시",
+      "target_class": "Claims",
+      "target_property": "Claims_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사고 해결 일자",
+      "target_class": "Claims",
+      "target_property": "Claims_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 날짜",
+      "target_class": "Claims",
+      "target_property": "Claims_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 일시",
+      "target_class": "Claims",
+      "target_property": "Claims_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "처리 일자",
+      "target_class": "Claims",
+      "target_property": "Claims_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사고 해결 일시",
+      "target_class": "Claims",
+      "target_property": "Claims_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "amount claimed",
+      "target_class": "Claims",
+      "target_property": "Claims_Amount_Claimed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사고 금액",
+      "target_class": "Claims",
+      "target_property": "Claims_Amount_Claimed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "손해 금액",
+      "target_class": "Claims",
+      "target_property": "Claims_Amount_Claimed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요청 금액",
+      "target_class": "Claims",
+      "target_property": "Claims_Amount_Claimed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사고 요청 금액",
+      "target_class": "Claims",
+      "target_property": "Claims_Amount_Claimed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "손해 요청 금액",
+      "target_class": "Claims",
+      "target_property": "Claims_Amount_Claimed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사고 대상 금액",
+      "target_class": "Claims",
+      "target_property": "Claims_Amount_Claimed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요청 손해 금액",
+      "target_class": "Claims",
+      "target_property": "Claims_Amount_Claimed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "amount settled",
+      "target_class": "Claims",
+      "target_property": "Claims_Amount_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실결제 금액",
+      "target_class": "Claims",
+      "target_property": "Claims_Amount_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 금액",
+      "target_class": "Claims",
+      "target_property": "Claims_Amount_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실제 지급 금액",
+      "target_class": "Claims",
+      "target_property": "Claims_Amount_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지급 금액",
+      "target_class": "Claims",
+      "target_property": "Claims_Amount_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실제 손해 금액",
+      "target_class": "Claims",
+      "target_property": "Claims_Amount_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설정지 ID",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Settlement_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "settlement id",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Settlement_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "settlement number",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Settlement_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "settlement identifier",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Settlement_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "settlement code",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Settlement_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "settlement unique id",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Settlement_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "settlement key",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Settlement_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim id",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Claim_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim number",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Claim_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim identifier",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Claim_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim code",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Claim_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim unique id",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Claim_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim key",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Claim_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim 제기일",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Date_Claim_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date claim made",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Date_Claim_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim made date",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Date_Claim_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date of claim",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Date_Claim_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim date",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Date_Claim_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim submission date",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Date_Claim_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim date made",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Date_Claim_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "claim 해결일",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보상 날짜",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지급일",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사고 해결일",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지급 날짜",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사고 해결 일자",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보상 일자",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Settlement_Date",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Date_Claim_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "청구 금액",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Amount_Claimed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "요청 금액",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Amount_Claimed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보상 대상 금액",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Amount_Claimed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보상 요청 금액",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Amount_Claimed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Amount_Claimed",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Amount_Claimed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 금액",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Amount_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지급 금액",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Amount_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실제 지급 금액",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Amount_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보상 금액",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Amount_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지급된 금액",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Amount_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Settlement_Amount",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Amount_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "실제 보상 금액",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Amount_Settled",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 보험 정책 ID",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Customer_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 보험 번호",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Customer_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 계약 번호",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Customer_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 보험 ID",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Customer_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 정책 번호",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Customer_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정책 번호",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Customer_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 정책 ID",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Customer_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 계약 ID",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Customer_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보험 계약 ID",
+      "target_class": "Settlements",
+      "target_property": "Settlements_Customer_Policy_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 ID",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 번호",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "PAYMENT_ID",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 고유 ID",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "PAYMENT_NO",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 식별자",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "PAYMENT_SEQ",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 내역 ID",
+      "target_class": "Payments",
+      "target_property": "Payments_Settlement_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "세트라멘트 ID",
+      "target_class": "Payments",
+      "target_property": "Payments_Settlement_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SETTLEMENT_ID",
+      "target_class": "Payments",
+      "target_property": "Payments_Settlement_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "세트라멘트 번호",
+      "target_class": "Payments",
+      "target_property": "Payments_Settlement_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SETTLEMENT_NO",
+      "target_class": "Payments",
+      "target_property": "Payments_Settlement_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 세트 ID",
+      "target_class": "Payments",
+      "target_property": "Payments_Settlement_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SETTLEMENT_SEQ",
+      "target_class": "Payments",
+      "target_property": "Payments_Settlement_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 방법 코드",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "PAYMENT_METHOD_CODE",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 수단 코드",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 방식 코드",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "PAYMENT_METHOD",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 수단",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 방식",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 일시",
+      "target_class": "Payments",
+      "target_property": "Payments_Date_Payment_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제일시",
+      "target_class": "Payments",
+      "target_property": "Payments_Date_Payment_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 날짜",
+      "target_class": "Payments",
+      "target_property": "Payments_Date_Payment_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "Payments",
+      "target_property": "Payments_Date_Payment_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜 시간",
+      "target_class": "Payments",
+      "target_property": "Payments_Date_Payment_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 일자",
+      "target_class": "Payments",
+      "target_property": "Payments_Date_Payment_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 시간",
+      "target_class": "Payments",
+      "target_property": "Payments_Date_Payment_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜_결제",
+      "target_class": "Payments",
+      "target_property": "Payments_Date_Payment_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제일",
+      "target_class": "Payments",
+      "target_property": "Payments_Date_Payment_Made",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 금액",
+      "target_class": "Payments",
+      "target_property": "Payments_Amount_Payment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "금액",
+      "target_class": "Payments",
+      "target_property": "Payments_Amount_Payment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 금액 수치",
+      "target_class": "Payments",
+      "target_property": "Payments_Amount_Payment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 금액 값",
+      "target_class": "Payments",
+      "target_property": "Payments_Amount_Payment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "금액_결제",
+      "target_class": "Payments",
+      "target_property": "Payments_Amount_Payment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 금액 정보",
+      "target_class": "Payments",
+      "target_property": "Payments_Amount_Payment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 금액 수치형",
+      "target_class": "Payments",
+      "target_property": "Payments_Amount_Payment",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 금액 데이터",
+      "target_class": "Payments",
+      "target_property": "Payments_Amount_Payment",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "기본 보험",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_Type_Code",
+      "value": "기본 보험"
+    },
+    {
+      "entry_type": "value",
+      "key": "기본",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_Type_Code",
+      "value": "기본 보험"
+    },
+    {
+      "entry_type": "value",
+      "key": "건강 보험",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_Type_Code",
+      "value": "건강 보험"
+    },
+    {
+      "entry_type": "value",
+      "key": "건강",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_Type_Code",
+      "value": "건강 보험"
+    },
+    {
+      "entry_type": "value",
+      "key": "자동차 보험",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_Type_Code",
+      "value": "자동차 보험"
+    },
+    {
+      "entry_type": "value",
+      "key": "자동차",
+      "target_class": "Customer_Policies",
+      "target_property": "Customer_Policies_Policy_Type_Code",
+      "value": "자동차 보험"
+    },
+    {
+      "entry_type": "value",
+      "key": "CARD",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": "CARD"
+    },
+    {
+      "entry_type": "value",
+      "key": "카드",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": "CARD"
+    },
+    {
+      "entry_type": "value",
+      "key": "신용카드",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": "CARD"
+    },
+    {
+      "entry_type": "value",
+      "key": "CASH",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": "CASH"
+    },
+    {
+      "entry_type": "value",
+      "key": "현금",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": "CASH"
+    },
+    {
+      "entry_type": "value",
+      "key": "현금결제",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": "CASH"
+    },
+    {
+      "entry_type": "value",
+      "key": "TRANSFER",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": "TRANSFER"
+    },
+    {
+      "entry_type": "value",
+      "key": "이체",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": "TRANSFER"
+    },
+    {
+      "entry_type": "value",
+      "key": "이체결제",
+      "target_class": "Payments",
+      "target_property": "Payments_Payment_Method_Code",
+      "value": "TRANSFER"
+    }
+  ]
+}

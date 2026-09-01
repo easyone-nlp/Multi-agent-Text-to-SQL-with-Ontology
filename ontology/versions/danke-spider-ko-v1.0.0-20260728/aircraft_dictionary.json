@@ -1,0 +1,1691 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "비행사",
+      "target_class": "pilot",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행요원",
+      "target_class": "pilot",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행자",
+      "target_class": "pilot",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행인력",
+      "target_class": "pilot",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "aircraft",
+      "target_class": "aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행기",
+      "target_class": "aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행기 정보",
+      "target_class": "aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행기 데이터",
+      "target_class": "aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행기 목록",
+      "target_class": "aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행기 정보 테이블",
+      "target_class": "aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기",
+      "target_class": "match",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "매칭",
+      "target_class": "match",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행사-비행기 매칭",
+      "target_class": "match",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행 매칭",
+      "target_class": "match",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행 대결",
+      "target_class": "match",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행 매칭 정보",
+      "target_class": "match",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "공항",
+      "target_class": "airport",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공기 관련 공항",
+      "target_class": "airport",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행장",
+      "target_class": "airport",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공기 기지",
+      "target_class": "airport",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공기 관련 시설",
+      "target_class": "airport",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "공항 항공기",
+      "target_class": "airport_aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "공항-비행기 관계",
+      "target_class": "airport_aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행기와 공항의 연관",
+      "target_class": "airport_aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공기 공항 연결",
+      "target_class": "airport_aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행기 관련 공항 정보",
+      "target_class": "airport_aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "공항-비행기 링크",
+      "target_class": "airport_aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pilot id",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행사 ID",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행사 번호",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행사 식별자",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Pilot_Id",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행사 고유번호",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행사 인덱스",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행사 코드",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "pilot",
+      "target_property": "pilot_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "pilot",
+      "target_property": "pilot_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행사 이름",
+      "target_class": "pilot",
+      "target_property": "pilot_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행사명",
+      "target_class": "pilot",
+      "target_property": "pilot_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Pilot_Id",
+      "target_class": "pilot",
+      "target_property": "pilot_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행사 고유번호",
+      "target_class": "pilot",
+      "target_property": "pilot_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행사 인덱스",
+      "target_class": "pilot",
+      "target_property": "pilot_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행사 코드",
+      "target_class": "pilot",
+      "target_property": "pilot_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "age",
+      "target_class": "pilot",
+      "target_property": "pilot_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "pilot",
+      "target_property": "pilot_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "pilot",
+      "target_property": "pilot_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행사 나이",
+      "target_class": "pilot",
+      "target_property": "pilot_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 정보",
+      "target_class": "pilot",
+      "target_property": "pilot_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 정보",
+      "target_class": "pilot",
+      "target_property": "pilot_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Pilot_Id",
+      "target_class": "pilot",
+      "target_property": "pilot_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행사 고유번호",
+      "target_class": "pilot",
+      "target_property": "pilot_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행사 인덱스",
+      "target_class": "pilot",
+      "target_property": "pilot_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "aircraft id",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행기 ID",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행기 식별 번호",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Aircraft_ID",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행기 고유 번호",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기号",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "aircraft",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행기 이름",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행기 모델",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Aircraft",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행기",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기종",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "description",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설명",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행기 설명",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Description",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기본 정보",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설명 정보",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Description",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "max gross weight",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_Gross_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 무게",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_Gross_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 무게 설명",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_Gross_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 무게 정보",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_Gross_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 무게 데이터",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_Gross_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Max_Gross_Weight",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_Gross_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 무게 값",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_Gross_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 무게 기준",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_Gross_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 무게 설명문",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_Gross_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "total disk area",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Total_disk_area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "디스크 면적",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Total_disk_area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "디스크 면적 설명",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Total_disk_area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "디스크 면적 정보",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Total_disk_area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "디스크 면적 데이터",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Total_disk_area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Total_disk_area",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Total_disk_area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "디스크 면적 값",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Total_disk_area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "디스크 면적 기준",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Total_disk_area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "디스크 면적 설명문",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Total_disk_area",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "max disk loading",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_disk_Loading",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 디스크 로딩",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_disk_Loading",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 디스크 로딩 설명",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_disk_Loading",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 디스크 로딩 정보",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_disk_Loading",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 디스크 로딩 데이터",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_disk_Loading",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Max_disk_Loading",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_disk_Loading",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 디스크 로딩 값",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_disk_Loading",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 디스크 로딩 기준",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_disk_Loading",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 디스크 로딩 설명문",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Max_disk_Loading",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "round",
+      "target_class": "match",
+      "target_property": "match_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드",
+      "target_class": "match",
+      "target_property": "match_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 번호",
+      "target_class": "match",
+      "target_property": "match_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 번호",
+      "target_class": "match",
+      "target_property": "match_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 수",
+      "target_class": "match",
+      "target_property": "match_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "R",
+      "target_class": "match",
+      "target_property": "match_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 정보",
+      "target_class": "match",
+      "target_property": "match_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Rd",
+      "target_class": "match",
+      "target_property": "match_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라운드 코드",
+      "target_class": "match",
+      "target_property": "match_Round",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "location",
+      "target_class": "match",
+      "target_property": "match_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "match",
+      "target_property": "match_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "match",
+      "target_property": "match_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점",
+      "target_class": "match",
+      "target_property": "match_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소명",
+      "target_class": "match",
+      "target_property": "match_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "match",
+      "target_property": "match_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "match",
+      "target_property": "match_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소 이름",
+      "target_class": "match",
+      "target_property": "match_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 이름",
+      "target_class": "match",
+      "target_property": "match_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "country",
+      "target_class": "match",
+      "target_property": "match_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "match",
+      "target_property": "match_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나라",
+      "target_class": "match",
+      "target_property": "match_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "match",
+      "target_property": "match_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 정보",
+      "target_class": "match",
+      "target_property": "match_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 국가",
+      "target_class": "match",
+      "target_property": "match_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 이름",
+      "target_class": "match",
+      "target_property": "match_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드",
+      "target_class": "match",
+      "target_property": "match_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나라 이름",
+      "target_class": "match",
+      "target_property": "match_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date",
+      "target_class": "match",
+      "target_property": "match_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "match",
+      "target_property": "match_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기일자",
+      "target_class": "match",
+      "target_property": "match_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "match",
+      "target_property": "match_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일",
+      "target_class": "match",
+      "target_property": "match_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 날짜",
+      "target_class": "match",
+      "target_property": "match_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "fastest qualifying",
+      "target_class": "match",
+      "target_property": "match_Fastest_Qualifying",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 성적",
+      "target_class": "match",
+      "target_property": "match_Fastest_Qualifying",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "最快的 Qualifying",
+      "target_class": "match",
+      "target_property": "match_Fastest_Qualifying",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "最快的 퀄리파이잉",
+      "target_class": "match",
+      "target_property": "match_Fastest_Qualifying",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 퀄리파이잉",
+      "target_class": "match",
+      "target_property": "match_Fastest_Qualifying",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 시간",
+      "target_class": "match",
+      "target_property": "match_Fastest_Qualifying",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "最快的 시간",
+      "target_class": "match",
+      "target_property": "match_Fastest_Qualifying",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "winning pilot",
+      "target_class": "match",
+      "target_property": "match_Winning_Pilot",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승리자",
+      "target_class": "match",
+      "target_property": "match_Winning_Pilot",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "조종사",
+      "target_class": "match",
+      "target_property": "match_Winning_Pilot",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승리 조종사",
+      "target_class": "match",
+      "target_property": "match_Winning_Pilot",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최우수 조종사",
+      "target_class": "match",
+      "target_property": "match_Winning_Pilot",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우승자",
+      "target_class": "match",
+      "target_property": "match_Winning_Pilot",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "조종사 이름",
+      "target_class": "match",
+      "target_property": "match_Winning_Pilot",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "winning aircraft",
+      "target_class": "match",
+      "target_property": "match_Winning_Aircraft",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승리 항공기",
+      "target_class": "match",
+      "target_property": "match_Winning_Aircraft",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최우수 항공기",
+      "target_class": "match",
+      "target_property": "match_Winning_Aircraft",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우승 항공기",
+      "target_class": "match",
+      "target_property": "match_Winning_Aircraft",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 항공기",
+      "target_class": "match",
+      "target_property": "match_Winning_Aircraft",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공기 이름",
+      "target_class": "match",
+      "target_property": "match_Winning_Aircraft",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우승 항공기 이름",
+      "target_class": "match",
+      "target_property": "match_Winning_Aircraft",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승리 항공기 이름",
+      "target_class": "match",
+      "target_property": "match_Winning_Aircraft",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최우수 항공기 이름",
+      "target_class": "match",
+      "target_property": "match_Winning_Aircraft",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항 ID",
+      "target_class": "airport",
+      "target_property": "airport_Airport_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공기 ID",
+      "target_class": "airport",
+      "target_property": "airport_Airport_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기지 ID",
+      "target_class": "airport",
+      "target_property": "airport_Airport_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공기 식별 번호",
+      "target_class": "airport",
+      "target_property": "airport_Airport_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기지 식별자",
+      "target_class": "airport",
+      "target_property": "airport_Airport_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기지 번호",
+      "target_class": "airport",
+      "target_property": "airport_Airport_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Airport_ID",
+      "target_class": "airport",
+      "target_property": "airport_Airport_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공기 번호",
+      "target_class": "airport",
+      "target_property": "airport_Airport_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항 이름",
+      "target_class": "airport",
+      "target_property": "airport_Airport_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공기 소속 공항",
+      "target_class": "airport",
+      "target_property": "airport_Airport_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기지 이름",
+      "target_class": "airport",
+      "target_property": "airport_Airport_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공기 기지",
+      "target_class": "airport",
+      "target_property": "airport_Airport_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항명",
+      "target_class": "airport",
+      "target_property": "airport_Airport_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Airport_Name",
+      "target_class": "airport",
+      "target_property": "airport_Airport_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기지명",
+      "target_class": "airport",
+      "target_property": "airport_Airport_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 탑승자 수",
+      "target_class": "airport",
+      "target_property": "airport_Total_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 승객 수",
+      "target_class": "airport",
+      "target_property": "airport_Total_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "탑승 인원",
+      "target_class": "airport",
+      "target_property": "airport_Total_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "승객 수",
+      "target_class": "airport",
+      "target_property": "airport_Total_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Total_Passengers",
+      "target_class": "airport",
+      "target_property": "airport_Total_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 승객",
+      "target_class": "airport",
+      "target_property": "airport_Total_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "% 변화 2007",
+      "target_class": "airport",
+      "target_property": "airport_Change_2007",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "% change 2007",
+      "target_class": "airport",
+      "target_property": "airport_Change_2007",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "2007년 변화율",
+      "target_class": "airport",
+      "target_property": "airport_Change_2007",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "변화율 2007",
+      "target_class": "airport",
+      "target_property": "airport_Change_2007",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "%_변화율_2007",
+      "target_class": "airport",
+      "target_property": "airport_Change_2007",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "2007년도 변화율",
+      "target_class": "airport",
+      "target_property": "airport_Change_2007",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 2007 변화율",
+      "target_class": "airport",
+      "target_property": "airport_Change_2007",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국제 탑승자 수",
+      "target_class": "airport",
+      "target_property": "airport_International_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국제 관광객 수",
+      "target_class": "airport",
+      "target_property": "airport_International_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국제 승객 수",
+      "target_class": "airport",
+      "target_property": "airport_International_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국제 항공 승객",
+      "target_class": "airport",
+      "target_property": "airport_International_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국제 여행객",
+      "target_class": "airport",
+      "target_property": "airport_International_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국제 여행자 수",
+      "target_class": "airport",
+      "target_property": "airport_International_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국제 승객",
+      "target_class": "airport",
+      "target_property": "airport_International_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국제 항공편 승객",
+      "target_class": "airport",
+      "target_property": "airport_International_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국내 탑승자 수",
+      "target_class": "airport",
+      "target_property": "airport_Domestic_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국내 관광객 수",
+      "target_class": "airport",
+      "target_property": "airport_Domestic_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국내 승객 수",
+      "target_class": "airport",
+      "target_property": "airport_Domestic_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국내 항공 승객",
+      "target_class": "airport",
+      "target_property": "airport_Domestic_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국내 여행객",
+      "target_class": "airport",
+      "target_property": "airport_Domestic_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국내 여행자 수",
+      "target_class": "airport",
+      "target_property": "airport_Domestic_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국내 승객",
+      "target_class": "airport",
+      "target_property": "airport_Domestic_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국내 항공편 승객",
+      "target_class": "airport",
+      "target_property": "airport_Domestic_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이동 탑승자 수",
+      "target_class": "airport",
+      "target_property": "airport_Transit_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "transit passengers",
+      "target_class": "airport",
+      "target_property": "airport_Transit_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "transit passenger count",
+      "target_class": "airport",
+      "target_property": "airport_Transit_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "transit passengers number",
+      "target_class": "airport",
+      "target_property": "airport_Transit_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "transit passenger volume",
+      "target_class": "airport",
+      "target_property": "airport_Transit_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "transit passenger traffic",
+      "target_class": "airport",
+      "target_property": "airport_Transit_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "transit passenger flow",
+      "target_class": "airport",
+      "target_property": "airport_Transit_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "transit passenger movement",
+      "target_class": "airport",
+      "target_property": "airport_Transit_Passengers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행기 이동 수",
+      "target_class": "airport",
+      "target_property": "airport_Aircraft_Movements",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "aircraft movements",
+      "target_class": "airport",
+      "target_property": "airport_Aircraft_Movements",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "aircraft movement count",
+      "target_class": "airport",
+      "target_property": "airport_Aircraft_Movements",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "aircraft movement number",
+      "target_class": "airport",
+      "target_property": "airport_Aircraft_Movements",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "aircraft movement volume",
+      "target_class": "airport",
+      "target_property": "airport_Aircraft_Movements",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "aircraft movement traffic",
+      "target_class": "airport",
+      "target_property": "airport_Aircraft_Movements",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "aircraft movement flow",
+      "target_class": "airport",
+      "target_property": "airport_Aircraft_Movements",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "화물 메트릭 톤",
+      "target_class": "airport",
+      "target_property": "airport_Freight_Metric_Tonnes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "freight metric tonnes",
+      "target_class": "airport",
+      "target_property": "airport_Freight_Metric_Tonnes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "freight tonne count",
+      "target_class": "airport",
+      "target_property": "airport_Freight_Metric_Tonnes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "freight tonne number",
+      "target_class": "airport",
+      "target_property": "airport_Freight_Metric_Tonnes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "freight tonne volume",
+      "target_class": "airport",
+      "target_property": "airport_Freight_Metric_Tonnes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "freight tonne traffic",
+      "target_class": "airport",
+      "target_property": "airport_Freight_Metric_Tonnes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "freight tonne flow",
+      "target_class": "airport",
+      "target_property": "airport_Freight_Metric_Tonnes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "freight tonne measurement",
+      "target_class": "airport",
+      "target_property": "airport_Freight_Metric_Tonnes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별번호",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디값",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별자",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "airport id",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_Airport_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Airport_ID",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_Airport_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항아이디",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_Airport_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항ID",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_Airport_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항 식별자",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_Airport_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항번호",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_Airport_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "aircraft id",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Aircraft_ID",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공기아이디",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공기ID",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공기 식별자",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공기번호",
+      "target_class": "airport_aircraft",
+      "target_property": "airport_aircraft_Aircraft_ID",
+      "value": null
+    }
+  ]
+}

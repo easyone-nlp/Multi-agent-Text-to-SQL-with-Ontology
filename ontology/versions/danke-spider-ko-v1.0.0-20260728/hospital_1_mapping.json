@@ -1,0 +1,395 @@
+{
+  "class_table": {
+    "Physician": "Physician",
+    "Department": "Department",
+    "Affiliated_With": "Affiliated_With",
+    "Procedures": "Procedures",
+    "Trained_In": "Trained_In",
+    "Patient": "Patient",
+    "Nurse": "Nurse",
+    "Appointment": "Appointment",
+    "Medication": "Medication",
+    "Prescribes": "Prescribes",
+    "Block": "Block",
+    "Room": "Room",
+    "On_Call": "On_Call",
+    "Stay": "Stay",
+    "Undergoes": "Undergoes"
+  },
+  "property_column": {
+    "Physician_EmployeeID": [
+      "Physician",
+      "EmployeeID"
+    ],
+    "Physician_Name": [
+      "Physician",
+      "Name"
+    ],
+    "Physician_Position": [
+      "Physician",
+      "Position"
+    ],
+    "Physician_SSN": [
+      "Physician",
+      "SSN"
+    ],
+    "Department_DepartmentID": [
+      "Department",
+      "DepartmentID"
+    ],
+    "Department_Name": [
+      "Department",
+      "Name"
+    ],
+    "Department_Head": [
+      "Department",
+      "Head"
+    ],
+    "Affiliated_With_Physician": [
+      "Affiliated_With",
+      "Physician"
+    ],
+    "Affiliated_With_Department": [
+      "Affiliated_With",
+      "Department"
+    ],
+    "Affiliated_With_PrimaryAffiliation": [
+      "Affiliated_With",
+      "PrimaryAffiliation"
+    ],
+    "Procedures_Code": [
+      "Procedures",
+      "Code"
+    ],
+    "Procedures_Name": [
+      "Procedures",
+      "Name"
+    ],
+    "Procedures_Cost": [
+      "Procedures",
+      "Cost"
+    ],
+    "Trained_In_Physician": [
+      "Trained_In",
+      "Physician"
+    ],
+    "Trained_In_Treatment": [
+      "Trained_In",
+      "Treatment"
+    ],
+    "Trained_In_CertificationDate": [
+      "Trained_In",
+      "CertificationDate"
+    ],
+    "Trained_In_CertificationExpires": [
+      "Trained_In",
+      "CertificationExpires"
+    ],
+    "Patient_SSN": [
+      "Patient",
+      "SSN"
+    ],
+    "Patient_Name": [
+      "Patient",
+      "Name"
+    ],
+    "Patient_Address": [
+      "Patient",
+      "Address"
+    ],
+    "Patient_Phone": [
+      "Patient",
+      "Phone"
+    ],
+    "Patient_InsuranceID": [
+      "Patient",
+      "InsuranceID"
+    ],
+    "Patient_PCP": [
+      "Patient",
+      "PCP"
+    ],
+    "Nurse_EmployeeID": [
+      "Nurse",
+      "EmployeeID"
+    ],
+    "Nurse_Name": [
+      "Nurse",
+      "Name"
+    ],
+    "Nurse_Position": [
+      "Nurse",
+      "Position"
+    ],
+    "Nurse_Registered": [
+      "Nurse",
+      "Registered"
+    ],
+    "Nurse_SSN": [
+      "Nurse",
+      "SSN"
+    ],
+    "Appointment_AppointmentID": [
+      "Appointment",
+      "AppointmentID"
+    ],
+    "Appointment_Patient": [
+      "Appointment",
+      "Patient"
+    ],
+    "Appointment_PrepNurse": [
+      "Appointment",
+      "PrepNurse"
+    ],
+    "Appointment_Physician": [
+      "Appointment",
+      "Physician"
+    ],
+    "Appointment_Start": [
+      "Appointment",
+      "Start"
+    ],
+    "Appointment_End": [
+      "Appointment",
+      "End"
+    ],
+    "Appointment_ExaminationRoom": [
+      "Appointment",
+      "ExaminationRoom"
+    ],
+    "Medication_Code": [
+      "Medication",
+      "Code"
+    ],
+    "Medication_Name": [
+      "Medication",
+      "Name"
+    ],
+    "Medication_Brand": [
+      "Medication",
+      "Brand"
+    ],
+    "Medication_Description": [
+      "Medication",
+      "Description"
+    ],
+    "Prescribes_Physician": [
+      "Prescribes",
+      "Physician"
+    ],
+    "Prescribes_Patient": [
+      "Prescribes",
+      "Patient"
+    ],
+    "Prescribes_Medication": [
+      "Prescribes",
+      "Medication"
+    ],
+    "Prescribes_Date": [
+      "Prescribes",
+      "Date"
+    ],
+    "Prescribes_Appointment": [
+      "Prescribes",
+      "Appointment"
+    ],
+    "Prescribes_Dose": [
+      "Prescribes",
+      "Dose"
+    ],
+    "Block_BlockFloor": [
+      "Block",
+      "BlockFloor"
+    ],
+    "Block_BlockCode": [
+      "Block",
+      "BlockCode"
+    ],
+    "Room_RoomNumber": [
+      "Room",
+      "RoomNumber"
+    ],
+    "Room_RoomType": [
+      "Room",
+      "RoomType"
+    ],
+    "Room_BlockFloor": [
+      "Room",
+      "BlockFloor"
+    ],
+    "Room_BlockCode": [
+      "Room",
+      "BlockCode"
+    ],
+    "Room_Unavailable": [
+      "Room",
+      "Unavailable"
+    ],
+    "On_Call_Nurse": [
+      "On_Call",
+      "Nurse"
+    ],
+    "On_Call_BlockFloor": [
+      "On_Call",
+      "BlockFloor"
+    ],
+    "On_Call_BlockCode": [
+      "On_Call",
+      "BlockCode"
+    ],
+    "On_Call_OnCallStart": [
+      "On_Call",
+      "OnCallStart"
+    ],
+    "On_Call_OnCallEnd": [
+      "On_Call",
+      "OnCallEnd"
+    ],
+    "Stay_StayID": [
+      "Stay",
+      "StayID"
+    ],
+    "Stay_Patient": [
+      "Stay",
+      "Patient"
+    ],
+    "Stay_Room": [
+      "Stay",
+      "Room"
+    ],
+    "Stay_StayStart": [
+      "Stay",
+      "StayStart"
+    ],
+    "Stay_StayEnd": [
+      "Stay",
+      "StayEnd"
+    ],
+    "Undergoes_Patient": [
+      "Undergoes",
+      "Patient"
+    ],
+    "Undergoes_Procedures": [
+      "Undergoes",
+      "Procedures"
+    ],
+    "Undergoes_Stay": [
+      "Undergoes",
+      "Stay"
+    ],
+    "Undergoes_DateUndergoes": [
+      "Undergoes",
+      "DateUndergoes"
+    ],
+    "Undergoes_Physician": [
+      "Undergoes",
+      "Physician"
+    ],
+    "Undergoes_AssistingNurse": [
+      "Undergoes",
+      "AssistingNurse"
+    ]
+  },
+  "object_property_fk": {
+    "Department_Physician_fk0": [
+      "Department.Head",
+      "Physician.EmployeeID"
+    ],
+    "Affiliated_With_Department_fk1": [
+      "Affiliated_With.Department",
+      "Department.DepartmentID"
+    ],
+    "Affiliated_With_Physician_fk2": [
+      "Affiliated_With.Physician",
+      "Physician.EmployeeID"
+    ],
+    "Trained_In_Procedures_fk3": [
+      "Trained_In.Treatment",
+      "Procedures.Code"
+    ],
+    "Trained_In_Physician_fk4": [
+      "Trained_In.Physician",
+      "Physician.EmployeeID"
+    ],
+    "Patient_Physician_fk5": [
+      "Patient.PCP",
+      "Physician.EmployeeID"
+    ],
+    "Appointment_Physician_fk6": [
+      "Appointment.Physician",
+      "Physician.EmployeeID"
+    ],
+    "Appointment_Nurse_fk7": [
+      "Appointment.PrepNurse",
+      "Nurse.EmployeeID"
+    ],
+    "Appointment_Patient_fk8": [
+      "Appointment.Patient",
+      "Patient.SSN"
+    ],
+    "Prescribes_Appointment_fk9": [
+      "Prescribes.Appointment",
+      "Appointment.AppointmentID"
+    ],
+    "Prescribes_Medication_fk10": [
+      "Prescribes.Medication",
+      "Medication.Code"
+    ],
+    "Prescribes_Patient_fk11": [
+      "Prescribes.Patient",
+      "Patient.SSN"
+    ],
+    "Prescribes_Physician_fk12": [
+      "Prescribes.Physician",
+      "Physician.EmployeeID"
+    ],
+    "Room_Block_fk13": [
+      "Room.BlockFloor",
+      "Block.BlockFloor"
+    ],
+    "Room_Block_fk14": [
+      "Room.BlockCode",
+      "Block.BlockCode"
+    ],
+    "On_Call_Block_fk15": [
+      "On_Call.BlockFloor",
+      "Block.BlockFloor"
+    ],
+    "On_Call_Block_fk16": [
+      "On_Call.BlockCode",
+      "Block.BlockCode"
+    ],
+    "On_Call_Nurse_fk17": [
+      "On_Call.Nurse",
+      "Nurse.EmployeeID"
+    ],
+    "Stay_Room_fk18": [
+      "Stay.Room",
+      "Room.RoomNumber"
+    ],
+    "Stay_Patient_fk19": [
+      "Stay.Patient",
+      "Patient.SSN"
+    ],
+    "Undergoes_Nurse_fk20": [
+      "Undergoes.AssistingNurse",
+      "Nurse.EmployeeID"
+    ],
+    "Undergoes_Physician_fk21": [
+      "Undergoes.Physician",
+      "Physician.EmployeeID"
+    ],
+    "Undergoes_Stay_fk22": [
+      "Undergoes.Stay",
+      "Stay.StayID"
+    ],
+    "Undergoes_Procedures_fk23": [
+      "Undergoes.Procedures",
+      "Procedures.Code"
+    ],
+    "Undergoes_Patient_fk24": [
+      "Undergoes.Patient",
+      "Patient.SSN"
+    ]
+  }
+}

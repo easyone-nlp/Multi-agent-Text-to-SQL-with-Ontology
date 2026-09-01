@@ -1,0 +1,333 @@
+{
+  "db_id": "manufacturer",
+  "classes": [
+    {
+      "name": "manufacturer",
+      "source_table": "manufacturer",
+      "ranking": 3.0,
+      "primary_label": "제조업체",
+      "synonyms": [
+        "제조사",
+        "제조사 정보",
+        "제조사 데이터",
+        "제조사 목록",
+        "제조사 테이블"
+      ]
+    },
+    {
+      "name": "furniture",
+      "source_table": "furniture",
+      "ranking": 3.0,
+      "primary_label": "가구",
+      "synonyms": [
+        "가구",
+        "가구 데이터",
+        "가구 정보",
+        "가구 목록",
+        "가구 테이블"
+      ]
+    },
+    {
+      "name": "furniture_manufacte",
+      "source_table": "furniture_manufacte",
+      "ranking": 3.0,
+      "primary_label": "가구 제조업체",
+      "synonyms": [
+        "가구 제조사",
+        "가구 제조사 정보",
+        "가구 제조사 데이터",
+        "가구 제조사 목록",
+        "가구 제조사 테이블"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "manufacturer_Manufacturer_ID",
+      "domain": "manufacturer",
+      "source_table": "manufacturer",
+      "source_column": "Manufacturer_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "manufacturer id",
+      "synonyms": [
+        "제조사 ID",
+        "제조사 번호",
+        "제조사 식별자",
+        "제조사 고유 번호",
+        "Manufacturer_ID",
+        "제조사 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manufacturer_Open_Year",
+      "domain": "manufacturer",
+      "source_table": "manufacturer",
+      "source_column": "Open_Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "open year",
+      "synonyms": [
+        "설립 연도",
+        "개업 연도",
+        "설립년도",
+        "개업년도",
+        "Open_Year",
+        "제조사 설립년도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manufacturer_Name",
+      "domain": "manufacturer",
+      "source_table": "manufacturer",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "제조사 이름",
+        "회사 이름",
+        "이름",
+        "Name",
+        "제조사 명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manufacturer_Num_of_Factories",
+      "domain": "manufacturer",
+      "source_table": "manufacturer",
+      "source_column": "Num_of_Factories",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "num of factories",
+      "synonyms": [
+        "공장 수",
+        "제조사 공장 수",
+        "공장 개수",
+        "공장 수량",
+        "제조사 공장 개수",
+        "Num_of_Factories"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "manufacturer_Num_of_Shops",
+      "domain": "manufacturer",
+      "source_table": "manufacturer",
+      "source_column": "Num_of_Shops",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "num of shops",
+      "synonyms": [
+        "판매점 수",
+        "제조사 판매점 수",
+        "판매점 개수",
+        "판매점 수량",
+        "제조사 판매점 개수",
+        "Num_of_Shops"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "furniture_Furniture_ID",
+      "domain": "furniture",
+      "source_table": "furniture",
+      "source_column": "Furniture_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "가구 id",
+      "synonyms": [
+        "가구 ID",
+        "제품 번호",
+        "Furniture_ID",
+        "식별 번호",
+        "제품 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "furniture_Name",
+      "domain": "furniture",
+      "source_table": "furniture",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "제조사 이름",
+        "제품명",
+        "가구 이름",
+        "제품 이름",
+        "Name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "테이블": [
+          "테이블",
+          "table"
+        ],
+        "소파": [
+          "소파",
+          "sofa"
+        ]
+      }
+    },
+    {
+      "name": "furniture_Num_of_Component",
+      "domain": "furniture",
+      "source_table": "furniture",
+      "source_column": "Num_of_Component",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "부품 수",
+      "synonyms": [
+        "구성 요소 수",
+        "부품 수",
+        "Num_of_Component",
+        "가구 부품 수",
+        "제품 구성 수",
+        "부품 개수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "furniture_Market_Rate",
+      "domain": "furniture",
+      "source_table": "furniture",
+      "source_column": "Market_Rate",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "시장 가격",
+      "synonyms": [
+        "시장 가격",
+        "가격",
+        "시장률",
+        "시장 가격 정보",
+        "가구 시장 가격",
+        "가격 정보",
+        "시장률 정보",
+        "가구 시장 가격 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "furniture_manufacte_Manufacturer_ID",
+      "domain": "furniture_manufacte",
+      "source_table": "furniture_manufacte",
+      "source_column": "Manufacturer_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "제조업체 ID",
+      "synonyms": [
+        "제조사 ID",
+        "제조사 식별 번호",
+        "제조사 고유 번호",
+        "Manufacturer_ID",
+        "제조사 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "furniture_manufacte_Furniture_ID",
+      "domain": "furniture_manufacte",
+      "source_table": "furniture_manufacte",
+      "source_column": "Furniture_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "가구 ID",
+      "synonyms": [
+        "가구 ID",
+        "가구 식별 번호",
+        "가구 고유 번호",
+        "Furniture_ID",
+        "가구 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "furniture_manufacte_Price_in_Dollar",
+      "domain": "furniture_manufacte",
+      "source_table": "furniture_manufacte",
+      "source_column": "Price_in_Dollar",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "달러 가격",
+      "synonyms": [
+        "가격",
+        "미국 달러 가격",
+        "USD 가격",
+        "가구 가격",
+        "Price_in_Dollar",
+        "가구 비용"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "furniture_manufacte_furniture_fk0",
+      "domain": "furniture_manufacte",
+      "range": "furniture",
+      "source_fk": [
+        "furniture_manufacte.Furniture_ID",
+        "furniture.Furniture_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "제품 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "furniture_manufacte_manufacturer_fk1",
+      "domain": "furniture_manufacte",
+      "range": "manufacturer",
+      "source_fk": [
+        "furniture_manufacte.Manufacturer_ID",
+        "manufacturer.Manufacturer_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "제조사 소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

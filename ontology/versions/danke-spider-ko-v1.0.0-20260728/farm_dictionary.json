@@ -1,0 +1,1397 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "시",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도시",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도시정보",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도시데이터",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도시명",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도시목록",
+      "target_class": "city",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "농장",
+      "target_class": "farm",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "농장정보",
+      "target_class": "farm",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "농장데이터",
+      "target_class": "farm",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "농장명",
+      "target_class": "farm",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "농장목록",
+      "target_class": "farm",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "농장 경기",
+      "target_class": "farm_competition",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "농장경쟁",
+      "target_class": "farm_competition",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "농장경쟁정보",
+      "target_class": "farm_competition",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "농장경쟁데이터",
+      "target_class": "farm_competition",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "농장경쟁명",
+      "target_class": "farm_competition",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "농장경쟁목록",
+      "target_class": "farm_competition",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경기 기록",
+      "target_class": "competition_record",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시 ID",
+      "target_class": "city",
+      "target_property": "city_City_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 ID",
+      "target_class": "city",
+      "target_property": "city_City_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 고유 번호",
+      "target_class": "city",
+      "target_property": "city_City_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 식별자",
+      "target_class": "city",
+      "target_property": "city_City_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드",
+      "target_class": "city",
+      "target_property": "city_City_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "City_ID",
+      "target_class": "city",
+      "target_property": "city_City_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 번호",
+      "target_class": "city",
+      "target_property": "city_City_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공식 이름",
+      "target_class": "city",
+      "target_property": "city_Official_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 이름",
+      "target_class": "city",
+      "target_property": "city_Official_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 공식 명칭",
+      "target_class": "city",
+      "target_property": "city_Official_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Official_Name",
+      "target_class": "city",
+      "target_property": "city_Official_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 명칭",
+      "target_class": "city",
+      "target_property": "city_Official_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공식 도시 이름",
+      "target_class": "city",
+      "target_property": "city_Official_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태",
+      "target_class": "city",
+      "target_property": "city_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 상태",
+      "target_class": "city",
+      "target_property": "city_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "현황",
+      "target_class": "city",
+      "target_property": "city_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Status",
+      "target_class": "city",
+      "target_property": "city_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 현황",
+      "target_class": "city",
+      "target_property": "city_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 상태 정보",
+      "target_class": "city",
+      "target_property": "city_Status",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "면적 km 2",
+      "target_class": "city",
+      "target_property": "city_Area_km_2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "면적",
+      "target_class": "city",
+      "target_property": "city_Area_km_2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평방킬로미터",
+      "target_class": "city",
+      "target_property": "city_Area_km_2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역면적",
+      "target_class": "city",
+      "target_property": "city_Area_km_2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시면적",
+      "target_class": "city",
+      "target_property": "city_Area_km_2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "면적(평방킬로미터)",
+      "target_class": "city",
+      "target_property": "city_Area_km_2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "면적 데이터",
+      "target_class": "city",
+      "target_property": "city_Area_km_2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "면적 정보",
+      "target_class": "city",
+      "target_property": "city_Area_km_2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구",
+      "target_class": "city",
+      "target_property": "city_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구수",
+      "target_class": "city",
+      "target_property": "city_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주자 수",
+      "target_class": "city",
+      "target_property": "city_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구량",
+      "target_class": "city",
+      "target_property": "city_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 정보",
+      "target_class": "city",
+      "target_property": "city_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 인구",
+      "target_class": "city",
+      "target_property": "city_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 데이터",
+      "target_class": "city",
+      "target_property": "city_Population",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 조사 순위",
+      "target_class": "city",
+      "target_property": "city_Census_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 순위",
+      "target_class": "city",
+      "target_property": "city_Census_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 조사 결과",
+      "target_class": "city",
+      "target_property": "city_Census_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "city",
+      "target_property": "city_Census_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 순위 정보",
+      "target_class": "city",
+      "target_property": "city_Census_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인구 조사 순위 데이터",
+      "target_class": "city",
+      "target_property": "city_Census_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 정보",
+      "target_class": "city",
+      "target_property": "city_Census_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "농장 ID",
+      "target_class": "farm",
+      "target_property": "farm_Farm_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "농장 고유 ID",
+      "target_class": "farm",
+      "target_property": "farm_Farm_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Farm ID",
+      "target_class": "farm",
+      "target_property": "farm_Farm_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "농장 식별 번호",
+      "target_class": "farm",
+      "target_property": "farm_Farm_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "농장 코드",
+      "target_class": "farm",
+      "target_property": "farm_Farm_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "farm",
+      "target_property": "farm_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도",
+      "target_class": "farm",
+      "target_property": "farm_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Farm 연도",
+      "target_class": "farm",
+      "target_property": "farm_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 정보",
+      "target_class": "farm",
+      "target_property": "farm_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "year",
+      "target_class": "farm",
+      "target_property": "farm_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기록 연도",
+      "target_class": "farm",
+      "target_property": "farm_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 말 수",
+      "target_class": "farm",
+      "target_property": "farm_Total_Horses",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "말 총 수",
+      "target_class": "farm",
+      "target_property": "farm_Total_Horses",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "말 수",
+      "target_class": "farm",
+      "target_property": "farm_Total_Horses",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Total Horses",
+      "target_class": "farm",
+      "target_property": "farm_Total_Horses",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "말의 총 수",
+      "target_class": "farm",
+      "target_property": "farm_Total_Horses",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "말 총량",
+      "target_class": "farm",
+      "target_property": "farm_Total_Horses",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "근무 말 수",
+      "target_class": "farm",
+      "target_property": "farm_Working_Horses",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작업 말",
+      "target_class": "farm",
+      "target_property": "farm_Working_Horses",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작업용 말",
+      "target_class": "farm",
+      "target_property": "farm_Working_Horses",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "말",
+      "target_class": "farm",
+      "target_property": "farm_Working_Horses",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "working horses",
+      "target_class": "farm",
+      "target_property": "farm_Working_Horses",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작업 말 수",
+      "target_class": "farm",
+      "target_property": "farm_Working_Horses",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 소 수",
+      "target_class": "farm",
+      "target_property": "farm_Total_Cattle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소",
+      "target_class": "farm",
+      "target_property": "farm_Total_Cattle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소와 бы소",
+      "target_class": "farm",
+      "target_property": "farm_Total_Cattle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소와 бы소 수",
+      "target_class": "farm",
+      "target_property": "farm_Total_Cattle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 소",
+      "target_class": "farm",
+      "target_property": "farm_Total_Cattle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 소와 бы소",
+      "target_class": "farm",
+      "target_property": "farm_Total_Cattle",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소",
+      "target_class": "farm",
+      "target_property": "farm_Oxen",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "목축 소",
+      "target_class": "farm",
+      "target_property": "farm_Oxen",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "목축용 소",
+      "target_class": "farm",
+      "target_property": "farm_Oxen",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "목축 소 수",
+      "target_class": "farm",
+      "target_property": "farm_Oxen",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Oxen",
+      "target_class": "farm",
+      "target_property": "farm_Oxen",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소",
+      "target_class": "farm",
+      "target_property": "farm_Bulls",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소년",
+      "target_class": "farm",
+      "target_property": "farm_Bulls",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "청년 남성",
+      "target_class": "farm",
+      "target_property": "farm_Bulls",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "남성 청년",
+      "target_class": "farm",
+      "target_property": "farm_Bulls",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "남자 청년",
+      "target_class": "farm",
+      "target_property": "farm_Bulls",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소년들",
+      "target_class": "farm",
+      "target_property": "farm_Bulls",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Bulls",
+      "target_class": "farm",
+      "target_property": "farm_Bulls",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소",
+      "target_class": "farm",
+      "target_property": "farm_Cows",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "여성",
+      "target_class": "farm",
+      "target_property": "farm_Cows",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우유 생산자",
+      "target_class": "farm",
+      "target_property": "farm_Cows",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "여성 농부",
+      "target_class": "farm",
+      "target_property": "farm_Cows",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "여성 청년",
+      "target_class": "farm",
+      "target_property": "farm_Cows",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Cows",
+      "target_class": "farm",
+      "target_property": "farm_Cows",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "돼지 수",
+      "target_class": "farm",
+      "target_property": "farm_Pigs",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "돼지",
+      "target_class": "farm",
+      "target_property": "farm_Pigs",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "육류 생산자",
+      "target_class": "farm",
+      "target_property": "farm_Pigs",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "육류 동물",
+      "target_class": "farm",
+      "target_property": "farm_Pigs",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "돼지들",
+      "target_class": "farm",
+      "target_property": "farm_Pigs",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Pigs",
+      "target_class": "farm",
+      "target_property": "farm_Pigs",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "양과 가축 수",
+      "target_class": "farm",
+      "target_property": "farm_Sheep_and_Goats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "양과 가축",
+      "target_class": "farm",
+      "target_property": "farm_Sheep_and_Goats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "양과 goats",
+      "target_class": "farm",
+      "target_property": "farm_Sheep_and_Goats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "양과",
+      "target_class": "farm",
+      "target_property": "farm_Sheep_and_Goats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가축",
+      "target_class": "farm",
+      "target_property": "farm_Sheep_and_Goats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "양과 goats 수",
+      "target_class": "farm",
+      "target_property": "farm_Sheep_and_Goats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "양과 가축 수량",
+      "target_class": "farm",
+      "target_property": "farm_Sheep_and_Goats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "양과 goats 수량",
+      "target_class": "farm",
+      "target_property": "farm_Sheep_and_Goats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 ID",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Competition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 번호",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Competition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 식별자",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Competition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Competition_ID",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Competition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 고유 ID",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Competition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 연도",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Competition_Year",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 개최 연도",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주제",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "내용",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 주제",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "테마",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Competition_Theme",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 테마",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Theme",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최 도시 ID",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Host_city_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Host_city_ID",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Host_city_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호스트 도시 ID",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Host_city_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 ID",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Host_city_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개최 도시 식별자",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Host_city_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호스트 도시 번호",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Host_city_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 식별자",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Host_city_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최자",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Hosts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Hosts",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Hosts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호스트",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Hosts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최 도시",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Hosts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호스트 이름",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Hosts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최자 이름",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Hosts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개최 주최자",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Hosts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호스트 목록",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Hosts",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 id",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Competition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 ID",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Competition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 번호",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Competition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 식별자",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Competition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Competition_ID",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Competition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 코드",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Competition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 고유 번호",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Competition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 식별",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Competition_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "농장 id",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Farm_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "농장 ID",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Farm_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "농장 번호",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Farm_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "농장 식별자",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Farm_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Farm_ID",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Farm_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "농장 코드",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Farm_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "농장 고유 번호",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Farm_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "농장 식별",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Farm_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Rank",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 순위",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 정보",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 등수",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 정보",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "활성",
+      "target_class": "city",
+      "target_property": "city_Status",
+      "value": "활성"
+    },
+    {
+      "entry_type": "value",
+      "key": "비활성",
+      "target_class": "city",
+      "target_property": "city_Status",
+      "value": "비활성"
+    },
+    {
+      "entry_type": "value",
+      "key": "1위",
+      "target_class": "city",
+      "target_property": "city_Census_Ranking",
+      "value": "1위"
+    },
+    {
+      "entry_type": "value",
+      "key": "2위",
+      "target_class": "city",
+      "target_property": "city_Census_Ranking",
+      "value": "2위"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020",
+      "target_class": "farm",
+      "target_property": "farm_Year",
+      "value": "2020"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020년",
+      "target_class": "farm",
+      "target_property": "farm_Year",
+      "value": "2020"
+    },
+    {
+      "entry_type": "value",
+      "key": "2021",
+      "target_class": "farm",
+      "target_property": "farm_Year",
+      "value": "2021"
+    },
+    {
+      "entry_type": "value",
+      "key": "2021년",
+      "target_class": "farm",
+      "target_property": "farm_Year",
+      "value": "2021"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Year",
+      "value": "2023"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Year",
+      "value": "2023"
+    },
+    {
+      "entry_type": "value",
+      "key": "농업 혁신",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Theme",
+      "value": "농업 혁신"
+    },
+    {
+      "entry_type": "value",
+      "key": "농업 혁신 주제",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Theme",
+      "value": "농업 혁신"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Hosts",
+      "value": "서울시"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Hosts",
+      "value": "서울시"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산시",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Hosts",
+      "value": "부산시"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "farm_competition",
+      "target_property": "farm_competition_Hosts",
+      "value": "부산시"
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "첫 번째",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "1등",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "두 번째",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2등",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "3",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "세 번째",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "3등",
+      "target_class": "competition_record",
+      "target_property": "competition_record_Rank",
+      "value": "3"
+    }
+  ]
+}

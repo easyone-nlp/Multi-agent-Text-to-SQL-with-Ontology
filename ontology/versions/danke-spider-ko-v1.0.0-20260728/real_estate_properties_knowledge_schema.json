@@ -1,0 +1,957 @@
+{
+  "db_id": "real_estate_properties",
+  "classes": [
+    {
+      "name": "Ref_Feature_Types",
+      "source_table": "Ref_Feature_Types",
+      "ranking": 3.0,
+      "primary_label": "참조 기능 유형",
+      "synonyms": [
+        "참조 특성 종류",
+        "특성 코드 목록",
+        "특성 유형 목록",
+        "참조 특성 정보"
+      ]
+    },
+    {
+      "name": "Ref_Property_Types",
+      "source_table": "Ref_Property_Types",
+      "ranking": 3.0,
+      "primary_label": "참조 속성 유형",
+      "synonyms": [
+        "참조 부동산 유형",
+        "부동산 코드 목록",
+        "부동산 유형 목록",
+        "참조 부동산 정보",
+        "부동산 종류 목록"
+      ]
+    },
+    {
+      "name": "Other_Available_Features",
+      "source_table": "Other_Available_Features",
+      "ranking": 3.0,
+      "primary_label": "다른 가능 기능",
+      "synonyms": [
+        "기타 특성 정보",
+        "추가 특성 목록",
+        "기타 제공 특성",
+        "기타 특성 데이터",
+        "기타 특성 목록"
+      ]
+    },
+    {
+      "name": "Properties",
+      "source_table": "Properties",
+      "ranking": 3.5,
+      "primary_label": "properties",
+      "synonyms": [
+        "자산",
+        "재산",
+        "건물",
+        "임대물",
+        "부동산 자산",
+        "재산 정보"
+      ]
+    },
+    {
+      "name": "Other_Property_Features",
+      "source_table": "Other_Property_Features",
+      "ranking": 3.5,
+      "primary_label": "기타 부동산 특성",
+      "synonyms": [
+        "추가 정보",
+        "기타 특징",
+        "부가 정보",
+        "기타 자산 특성",
+        "추가 특징",
+        "기타 재산 정보"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Ref_Feature_Types_feature_type_code",
+      "domain": "Ref_Feature_Types",
+      "source_table": "Ref_Feature_Types",
+      "source_column": "feature_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "기능 유형 코드",
+      "synonyms": [
+        "코드",
+        "코드값",
+        "구분코드",
+        "코드번호",
+        "코드항목"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Ref_Feature_Types_feature_type_name",
+      "domain": "Ref_Feature_Types",
+      "source_table": "Ref_Feature_Types",
+      "source_column": "feature_type_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "기능 유형 이름",
+      "synonyms": [
+        "이름",
+        "명칭",
+        "구분명",
+        "항목명",
+        "이름값",
+        "명칭값"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "기능": [
+          "기능"
+        ],
+        "특성": [
+          "특성"
+        ],
+        "타입": [
+          "타입"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Property_Types_property_type_code",
+      "domain": "Ref_Property_Types",
+      "source_table": "Ref_Property_Types",
+      "source_column": "property_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "속성 유형 코드",
+      "synonyms": [
+        "코드",
+        "코드값",
+        "코드번호",
+        "코드 식별자",
+        "코드 정보",
+        "코드 항목",
+        "코드 항목코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "APT": [
+          "APT",
+          "아파트"
+        ],
+        "HOUSE": [
+          "HOUSE",
+          "주택"
+        ],
+        "OFFICE": [
+          "OFFICE",
+          "오피스"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Property_Types_property_type_description",
+      "domain": "Ref_Property_Types",
+      "source_table": "Ref_Property_Types",
+      "source_column": "property_type_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "속성 유형 설명",
+      "synonyms": [
+        "설명",
+        "설명문",
+        "설명 정보",
+        "설명 내용",
+        "설명 항목",
+        "설명 데이터",
+        "설명 텍스트"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Other_Available_Features_feature_id",
+      "domain": "Other_Available_Features",
+      "source_table": "Other_Available_Features",
+      "source_column": "feature_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기능 ID",
+      "synonyms": [
+        "기능 번호",
+        "특징 ID",
+        "기능 코드",
+        "특징 식별자",
+        "기능 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Other_Available_Features_feature_type_code",
+      "domain": "Other_Available_Features",
+      "source_table": "Other_Available_Features",
+      "source_column": "feature_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "기능 유형 코드",
+      "synonyms": [
+        "기능 코드",
+        "특징 코드",
+        "기능 구분자",
+        "특징 식별자",
+        "기능 분류 코드",
+        "특징 구분자",
+        "기능 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "TYPE1": [
+          "TYPE1"
+        ],
+        "TYPE2": [
+          "TYPE2"
+        ]
+      }
+    },
+    {
+      "name": "Other_Available_Features_feature_name",
+      "domain": "Other_Available_Features",
+      "source_table": "Other_Available_Features",
+      "source_column": "feature_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "기능 이름",
+      "synonyms": [
+        "기능명",
+        "특징 이름",
+        "추가 기능 이름",
+        "특징명",
+        "기능 타이틀",
+        "기능 제목"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "자동 로그인": [
+          "자동 로그인"
+        ],
+        "멀티디바이스 지원": [
+          "멀티디바이스 지원"
+        ]
+      }
+    },
+    {
+      "name": "Other_Available_Features_feature_description",
+      "domain": "Other_Available_Features",
+      "source_table": "Other_Available_Features",
+      "source_column": "feature_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "기능 설명",
+      "synonyms": [
+        "기능 설명",
+        "기능 요약",
+        "기능 설명서",
+        "기능 정보",
+        "기능 요약 설명",
+        "기능 설명 내용",
+        "기능 요약 정보",
+        "기능 설명 요약"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "사용자 편의를 위해 제공됩니다.": [
+          "사용자 편의를 위해 제공됩니다."
+        ]
+      }
+    },
+    {
+      "name": "Properties_property_id",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "property_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "property id",
+      "synonyms": [
+        "아이디",
+        "코드",
+        "번호",
+        "식별자",
+        "지정번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_property_type_code",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "property_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "property type code",
+      "synonyms": [
+        "유형 코드",
+        "종류 코드",
+        "타입 코드",
+        "코드 유형",
+        "분류 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "APT": [
+          "아파트",
+          "아파트 단지"
+        ],
+        "FLD": [
+          "공장",
+          "공장 부지"
+        ],
+        "HSE": [
+          "주택",
+          "민간 주택"
+        ],
+        "OTH": [
+          "기타",
+          "기타 부동산"
+        ],
+        "SHP": [
+          "상가",
+          "상가 부지"
+        ]
+      }
+    },
+    {
+      "name": "Properties_date_on_market",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "date_on_market",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.2,
+      "primary_label": "date on market",
+      "synonyms": [
+        "등록일",
+        "등록 날짜",
+        "시작일",
+        "등록일자",
+        "등록 일자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_date_sold",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "date_sold",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.2,
+      "primary_label": "date sold",
+      "synonyms": [
+        "판매일",
+        "판매일자",
+        "판매일짜리",
+        "판매일자 정보",
+        "판매일자 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_property_name",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "property_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "property name",
+      "synonyms": [
+        "건물명",
+        "아파트명",
+        "주거용지",
+        "지적용지",
+        "건물명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_property_address",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "property_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.8,
+      "primary_label": "property address",
+      "synonyms": [
+        "주소",
+        "위치",
+        "주소지",
+        "주소 정보",
+        "주소 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_room_count",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "room_count",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "room count",
+      "synonyms": [
+        "방 수",
+        "객실 수",
+        "실 수",
+        "침실 수",
+        "방 개수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_vendor_requested_price",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "vendor_requested_price",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "vendor requested price",
+      "synonyms": [
+        "제안가",
+        "청구가격",
+        "제안가격",
+        "판매자 가격",
+        "제안된 가격",
+        "청구액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_buyer_offered_price",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "buyer_offered_price",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "buyer offered price",
+      "synonyms": [
+        "사용자 제안 가격",
+        "구매자 제안 가격",
+        "사용자 제안 금액",
+        "구매자 제안 금액",
+        "제안 가격",
+        "제안 금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_agreed_selling_price",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "agreed_selling_price",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "agreed selling price",
+      "synonyms": [
+        "매매 가격",
+        "계약 가격",
+        "판매 가격",
+        "매매 합의액",
+        "판매 계약가격",
+        "매매 약정 가격",
+        "계약된 판매 가격"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_apt_feature_1",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "apt_feature_1",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "apt feature 1",
+      "synonyms": [
+        "apt feature 1",
+        "apartment feature 1",
+        "apt attribute 1",
+        "apartment characteristic 1",
+        "apt property 1"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_apt_feature_2",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "apt_feature_2",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "apt feature 2",
+      "synonyms": [
+        "apt feature 2",
+        "apartment feature 2",
+        "apt attribute 2",
+        "apartment characteristic 2",
+        "apt property 2"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_apt_feature_3",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "apt_feature_3",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "apt feature 3",
+      "synonyms": [
+        "아파트 특성 3",
+        "apt 특성 3",
+        "아파트 세 번째 특성",
+        "apt 세 번째 특성",
+        "아파트 특성 요소 3"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_fld_feature_1",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "fld_feature_1",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "fld feature 1",
+      "synonyms": [
+        "필드 특성 1",
+        "feature 필드 1",
+        "첫 번째 필드 특성",
+        "필드 속성 1",
+        "필드 특징 1"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_fld_feature_2",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "fld_feature_2",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "fld feature 2",
+      "synonyms": [
+        "필드 특성 2",
+        "feature 필드 2",
+        "두 번째 필드 특성",
+        "필드 속성 2",
+        "필드 특징 2"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_fld_feature_3",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "fld_feature_3",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "fld feature 3",
+      "synonyms": [
+        "특징 3",
+        "특성 3",
+        "특징 항목 3",
+        "특성 항목 3",
+        "기능 3"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_hse_feature_1",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "hse_feature_1",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "hse feature 1",
+      "synonyms": [
+        "주택 특징 1",
+        "집 특징 1",
+        "건물 특성 1",
+        "특징 1",
+        "특성 1"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_hse_feature_2",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "hse_feature_2",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "hse feature 2",
+      "synonyms": [
+        "주택 특징 2",
+        "집 특징 2",
+        "건물 특성 2",
+        "특징 2",
+        "특성 2"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_hse_feature_3",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "hse_feature_3",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "hse feature 3",
+      "synonyms": [
+        "주택 특징 3",
+        "건물 특성 3",
+        "세부 특징 3",
+        "주거 특성 3",
+        "건물 특징 3"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_oth_feature_1",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "oth_feature_1",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "oth feature 1",
+      "synonyms": [
+        "기타 특징 1",
+        "추가 특성 1",
+        "기타 정보 1",
+        "기타 특징 1번",
+        "기타 건물 특징 1"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_oth_feature_2",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "oth_feature_2",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "oth feature 2",
+      "synonyms": [
+        "기타 특징 2",
+        "추가 특성 2",
+        "기타 정보 2",
+        "기타 특징 2번",
+        "기타 건물 특징 2"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_oth_feature_3",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "oth_feature_3",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "oth feature 3",
+      "synonyms": [
+        "기타 특징 3",
+        "기타 정보 3",
+        "추가 특징 3",
+        "다른 특성 3",
+        "기타 요소 3"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_shp_feature_1",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "shp_feature_1",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "shp feature 1",
+      "synonyms": [
+        "형상 특징 1",
+        "형상 정보 1",
+        "구조 특징 1",
+        "형태 정보 1",
+        "형상 요소 1"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_shp_feature_2",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "shp_feature_2",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "shp feature 2",
+      "synonyms": [
+        "형상 특징 2",
+        "형상 정보 2",
+        "구조 특징 2",
+        "형태 정보 2",
+        "형상 요소 2"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_shp_feature_3",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "shp_feature_3",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "shp feature 3",
+      "synonyms": [
+        "특징 3",
+        "특성 정보",
+        "주택 특성",
+        "특징 세부사항",
+        "주거 특성"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Properties_other_property_details",
+      "domain": "Properties",
+      "source_table": "Properties",
+      "source_column": "other_property_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.9,
+      "primary_label": "other property details",
+      "synonyms": [
+        "기타 정보",
+        "추가 세부 사항",
+        "기타 주택 정보",
+        "추가 설명",
+        "기타 세부 사항"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Other_Property_Features_property_id",
+      "domain": "Other_Property_Features",
+      "source_table": "Other_Property_Features",
+      "source_column": "property_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "부동산 아이디",
+      "synonyms": [
+        "아이디",
+        "식별자",
+        "고유번호",
+        "아이디 값",
+        "식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Other_Property_Features_feature_id",
+      "domain": "Other_Property_Features",
+      "source_table": "Other_Property_Features",
+      "source_column": "feature_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "특성 아이디",
+      "synonyms": [
+        "특성 ID",
+        "특성 식별자",
+        "특성 고유번호",
+        "특성 아이디",
+        "특성 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Other_Property_Features_property_feature_description",
+      "domain": "Other_Property_Features",
+      "source_table": "Other_Property_Features",
+      "source_column": "property_feature_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "부동산 특성 설명",
+      "synonyms": [
+        "설명",
+        "특성 설명",
+        "설명 정보",
+        "특성 설명문",
+        "설명 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "주방": [
+          "주방",
+          "kitchen"
+        ],
+        "화장실": [
+          "화장실",
+          "bathroom"
+        ],
+        "주차장": [
+          "주차장",
+          "parking"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Other_Available_Features_Ref_Feature_Types_fk0",
+      "domain": "Other_Available_Features",
+      "range": "Ref_Feature_Types",
+      "source_fk": [
+        "Other_Available_Features.feature_type_code",
+        "Ref_Feature_Types.feature_type_code"
+      ],
+      "weight": 1.0,
+      "primary_label": "특징 유형 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Properties_Ref_Property_Types_fk1",
+      "domain": "Properties",
+      "range": "Ref_Property_Types",
+      "source_fk": [
+        "Properties.property_type_code",
+        "Ref_Property_Types.property_type_code"
+      ],
+      "weight": 1.0,
+      "primary_label": "재산 유형 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Other_Property_Features_Properties_fk2",
+      "domain": "Other_Property_Features",
+      "range": "Properties",
+      "source_fk": [
+        "Other_Property_Features.property_id",
+        "Properties.property_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "재산 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Other_Property_Features_Other_Available_Features_fk3",
+      "domain": "Other_Property_Features",
+      "range": "Other_Available_Features",
+      "source_fk": [
+        "Other_Property_Features.feature_id",
+        "Other_Available_Features.feature_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "특징 연결",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

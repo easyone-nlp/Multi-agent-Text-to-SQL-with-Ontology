@@ -1,0 +1,55 @@
+{
+  "class_table": {
+    "AREA_CODE_STATE": "AREA_CODE_STATE",
+    "CONTESTANTS": "CONTESTANTS",
+    "VOTES": "VOTES"
+  },
+  "property_column": {
+    "AREA_CODE_STATE_area_code": [
+      "AREA_CODE_STATE",
+      "area_code"
+    ],
+    "AREA_CODE_STATE_state": [
+      "AREA_CODE_STATE",
+      "state"
+    ],
+    "CONTESTANTS_contestant_number": [
+      "CONTESTANTS",
+      "contestant_number"
+    ],
+    "CONTESTANTS_contestant_name": [
+      "CONTESTANTS",
+      "contestant_name"
+    ],
+    "VOTES_vote_id": [
+      "VOTES",
+      "vote_id"
+    ],
+    "VOTES_phone_number": [
+      "VOTES",
+      "phone_number"
+    ],
+    "VOTES_state": [
+      "VOTES",
+      "state"
+    ],
+    "VOTES_contestant_number": [
+      "VOTES",
+      "contestant_number"
+    ],
+    "VOTES_created": [
+      "VOTES",
+      "created"
+    ]
+  },
+  "object_property_fk": {
+    "VOTES_CONTESTANTS_fk0": [
+      "VOTES.contestant_number",
+      "CONTESTANTS.contestant_number"
+    ],
+    "VOTES_AREA_CODE_STATE_fk1": [
+      "VOTES.state",
+      "AREA_CODE_STATE.state"
+    ]
+  }
+}

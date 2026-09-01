@@ -1,0 +1,414 @@
+{
+  "db_id": "medicine_enzyme_interaction",
+  "classes": [
+    {
+      "name": "medicine",
+      "source_table": "medicine",
+      "ranking": 3.0,
+      "primary_label": "약물",
+      "synonyms": [
+        "약",
+        "의약품",
+        "약물",
+        "약제",
+        "약품"
+      ]
+    },
+    {
+      "name": "enzyme",
+      "source_table": "enzyme",
+      "ranking": 3.0,
+      "primary_label": "효소",
+      "synonyms": [
+        "효소",
+        "효소 물질",
+        "효소 분자",
+        "효소 성분",
+        "효소 관련 물질"
+      ]
+    },
+    {
+      "name": "medicine_enzyme_interaction",
+      "source_table": "medicine_enzyme_interaction",
+      "ranking": 3.0,
+      "primary_label": "의약물 효소 상호작용",
+      "synonyms": [
+        "의약품 효소 상호작용",
+        "약물 효소 관계",
+        "약물 효소 상호작용",
+        "약물 효소 연관성",
+        "약물 효소 작용"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "medicine_id",
+      "domain": "medicine",
+      "source_table": "medicine",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "id",
+        "식별번호",
+        "제품ID",
+        "의약품ID",
+        "아이디",
+        "식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "medicine_name",
+      "domain": "medicine",
+      "source_table": "medicine",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "약 이름",
+      "synonyms": [
+        "name",
+        "제품명",
+        "의약품명",
+        "이름",
+        "제품이름",
+        "의약품이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아스피린": [
+          "아스피린"
+        ],
+        "아이보틴": [
+          "아이보틴"
+        ]
+      }
+    },
+    {
+      "name": "medicine_Trade_Name",
+      "domain": "medicine",
+      "source_table": "medicine",
+      "source_column": "Trade_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "거래명",
+      "synonyms": [
+        "Trade_Name",
+        "상품명",
+        "상업명",
+        "판매이름",
+        "상업적이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아스피린": [
+          "아스피린"
+        ],
+        "아이보틴": [
+          "아이보틴"
+        ]
+      }
+    },
+    {
+      "name": "medicine_FDA_approved",
+      "domain": "medicine",
+      "source_table": "medicine",
+      "source_column": "FDA_approved",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "fda 승인 여부",
+      "synonyms": [
+        "FDA 승인 여부",
+        "FDA 승인 상태",
+        "FDA 승인 여부 정보",
+        "FDA 승인 여부 확인",
+        "FDA 승인 여부 표시",
+        "FDA 승인 여부 데이터",
+        "FDA 승인 여부 확인 정보",
+        "FDA 승인 여부 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승인됨": [
+          "승인됨"
+        ],
+        "승인되지 않음": [
+          "승인되지 않음"
+        ]
+      }
+    },
+    {
+      "name": "enzyme_id",
+      "domain": "enzyme",
+      "source_table": "enzyme",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "아이디",
+        "고유번호",
+        "효소 ID",
+        "ID",
+        "효소 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "enzyme_name",
+      "domain": "enzyme",
+      "source_table": "enzyme",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "효소 이름",
+        "효소 코드",
+        "효소명",
+        "효소 표기"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아스파라긴산 탈수소효소": [
+          "아스파라긴산 탈수소효소",
+          "Asparaginase"
+        ],
+        "리파제": [
+          "리파제",
+          "lipase"
+        ]
+      }
+    },
+    {
+      "name": "enzyme_Location",
+      "domain": "enzyme",
+      "source_table": "enzyme",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "location",
+      "synonyms": [
+        "위치",
+        "효소 위치",
+        "위치 정보",
+        "효소 위치 데이터",
+        "위치 표기"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "enzyme_Product",
+      "domain": "enzyme",
+      "source_table": "enzyme",
+      "source_column": "Product",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "product",
+      "synonyms": [
+        "제품",
+        "제품명",
+        "제품 정보",
+        "제품명칭",
+        "제품 유형",
+        "제품 관련 정보",
+        "제품 이름",
+        "제품 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "enzyme_Chromosome",
+      "domain": "enzyme",
+      "source_table": "enzyme",
+      "source_column": "Chromosome",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "chromosome",
+      "synonyms": [
+        "염색체",
+        "염색체 정보",
+        "염색체 위치",
+        "염색체 번호",
+        "염색체 위치 정보",
+        "염색체 번호 정보",
+        "염색체 위치 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "enzyme_OMIM",
+      "domain": "enzyme",
+      "source_table": "enzyme",
+      "source_column": "OMIM",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "omim",
+      "synonyms": [
+        "OMIM 번호",
+        "OMIM 코드",
+        "OMIM 식별자",
+        "OMIM 번호 정보",
+        "OMIM 식별",
+        "OMIM 코드 정보",
+        "OMIM 식별자 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "enzyme_Porphyria",
+      "domain": "enzyme",
+      "source_table": "enzyme",
+      "source_column": "Porphyria",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "porphyria",
+      "synonyms": [
+        "포르피리아",
+        "포르피리아 질환",
+        "포르피리아 관련 질환",
+        "포르피리아 이름",
+        "porphyria",
+        "porphyria 이름",
+        "porphyria 관련 정보",
+        "포르피리아 관련 증상"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "medicine_enzyme_interaction_enzyme_id",
+      "domain": "medicine_enzyme_interaction",
+      "source_table": "medicine_enzyme_interaction",
+      "source_column": "enzyme_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "효소 id",
+      "synonyms": [
+        "효소 ID",
+        "효소 식별 번호",
+        "효소 고유 번호",
+        "효소 ID 값",
+        "효소 식별자",
+        "효소 번호",
+        "효소 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "medicine_enzyme_interaction_medicine_id",
+      "domain": "medicine_enzyme_interaction",
+      "source_table": "medicine_enzyme_interaction",
+      "source_column": "medicine_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "의약물 id",
+      "synonyms": [
+        "의약품 ID",
+        "의약품 식별 번호",
+        "의약품 고유 번호",
+        "의약품 ID 값",
+        "의약품 식별자",
+        "의약품 번호",
+        "의약품 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "medicine_enzyme_interaction_interaction_type",
+      "domain": "medicine_enzyme_interaction",
+      "source_table": "medicine_enzyme_interaction",
+      "source_column": "interaction_type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "상호작용 유형",
+      "synonyms": [
+        "상호작용 유형",
+        "상호작용 종류",
+        "상호작용 타입",
+        "상호작용 구분",
+        "상호작용 카테고리",
+        "상호작용 구분자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "강화": [
+          "강화"
+        ],
+        "억제": [
+          "억제"
+        ],
+        "무관": [
+          "무관"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "medicine_enzyme_interaction_medicine_fk0",
+      "domain": "medicine_enzyme_interaction",
+      "range": "medicine",
+      "source_fk": [
+        "medicine_enzyme_interaction.medicine_id",
+        "medicine.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "의약품과 효소의 상호작용",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "medicine_enzyme_interaction_enzyme_fk1",
+      "domain": "medicine_enzyme_interaction",
+      "range": "enzyme",
+      "source_fk": [
+        "medicine_enzyme_interaction.enzyme_id",
+        "enzyme.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "의약품과 효소의 상호작용",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

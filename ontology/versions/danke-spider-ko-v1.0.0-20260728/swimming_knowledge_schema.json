@@ -1,0 +1,629 @@
+{
+  "db_id": "swimming",
+  "classes": [
+    {
+      "name": "swimmer",
+      "source_table": "swimmer",
+      "ranking": 3.5,
+      "primary_label": "수영선수",
+      "synonyms": [
+        "수영자",
+        "수영 선수",
+        "수영인",
+        "스wimmer"
+      ]
+    },
+    {
+      "name": "stadium",
+      "source_table": "stadium",
+      "ranking": 3.5,
+      "primary_label": "스테이디움",
+      "synonyms": [
+        "수영 경기장",
+        "스파이드",
+        "경기장",
+        "수영장"
+      ]
+    },
+    {
+      "name": "event",
+      "source_table": "event",
+      "ranking": 3.5,
+      "primary_label": "이벤트",
+      "synonyms": [
+        "수영 경기",
+        "경기",
+        "종목",
+        "스파이드"
+      ]
+    },
+    {
+      "name": "record",
+      "source_table": "record",
+      "ranking": 3.0,
+      "primary_label": "기록",
+      "synonyms": [
+        "기록",
+        "수영 기록",
+        "수영 경기 기록",
+        "수영 성적",
+        "수영 결과",
+        "수영 데이터"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "swimmer_ID",
+      "domain": "swimmer",
+      "source_table": "swimmer",
+      "source_column": "ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "ID",
+        "아이디",
+        "아이디 번호",
+        "식별번호",
+        "스위머 ID",
+        "스위머 고유 번호",
+        "ID 값",
+        "고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "swimmer_name",
+      "domain": "swimmer",
+      "source_table": "swimmer",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수",
+          "민수"
+        ],
+        "박지민": [
+          "박지민",
+          "지민"
+        ]
+      }
+    },
+    {
+      "name": "swimmer_Nationality",
+      "domain": "swimmer",
+      "source_table": "swimmer",
+      "source_column": "Nationality",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "nationality",
+      "synonyms": [
+        "국적",
+        "나라",
+        "국가",
+        "국적 정보",
+        "국적별",
+        "국적 코드",
+        "국적명",
+        "국적 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "swimmer_meter_100",
+      "domain": "swimmer",
+      "source_table": "swimmer",
+      "source_column": "meter_100",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "100미터",
+      "synonyms": [
+        "100m 자유형",
+        "100미터 자유형",
+        "100m",
+        "자유형 100m",
+        "100미터 결과"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "swimmer_meter_200",
+      "domain": "swimmer",
+      "source_table": "swimmer",
+      "source_column": "meter_200",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "200미터",
+      "synonyms": [
+        "200m 자유형",
+        "200미터 자유형",
+        "200m",
+        "자유형 200m",
+        "200미터 결과"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "swimmer_meter_300",
+      "domain": "swimmer",
+      "source_table": "swimmer",
+      "source_column": "meter_300",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "300미터",
+      "synonyms": [
+        "300m 자유형",
+        "300미터 자유형",
+        "300m",
+        "자유형 300m",
+        "300미터 결과"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "swimmer_meter_400",
+      "domain": "swimmer",
+      "source_table": "swimmer",
+      "source_column": "meter_400",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "400미터",
+      "synonyms": [
+        "400미터 자유형",
+        "400m 자유형",
+        "400m 자유형 결과",
+        "400m 경기 결과",
+        "400m 자유형 성적",
+        "400m 자유형 성적 결과",
+        "400m 자유형 경기 결과"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "swimmer_meter_500",
+      "domain": "swimmer",
+      "source_table": "swimmer",
+      "source_column": "meter_500",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "500미터",
+      "synonyms": [
+        "500미터 자유형",
+        "500m 자유형",
+        "500m 자유형 결과",
+        "500m 경기 결과",
+        "500m 자유형 성적",
+        "500m 자유형 성적 결과",
+        "500m 자유형 경기 결과"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "swimmer_meter_600",
+      "domain": "swimmer",
+      "source_table": "swimmer",
+      "source_column": "meter_600",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "600미터",
+      "synonyms": [
+        "600미터 자유형",
+        "600m 자유형",
+        "600m 자유형 결과",
+        "600m 경기 결과",
+        "600m 자유형 성적",
+        "600m 자유형 성적 결과",
+        "600m 자유형 경기 결과"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "swimmer_meter_700",
+      "domain": "swimmer",
+      "source_table": "swimmer",
+      "source_column": "meter_700",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "700미터",
+      "synonyms": [
+        "700미터",
+        "700m",
+        "자유형 700m",
+        "700m 자유형",
+        "700m 결과"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "swimmer_Time",
+      "domain": "swimmer",
+      "source_table": "swimmer",
+      "source_column": "Time",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "time",
+      "synonyms": [
+        "시간",
+        "기록 시간",
+        "경기 시간",
+        "시간 기록",
+        "시간 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stadium_ID",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "ID",
+        "아이디",
+        "스테이디움 ID",
+        "스테이디움 번호",
+        "식별번호",
+        "번호",
+        "스테이디움 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stadium_name",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "스테이드 이름",
+        "스테이드명",
+        "명칭",
+        "칭호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울구장": [
+          "서울구장"
+        ],
+        "부산구장": [
+          "부산구장"
+        ]
+      }
+    },
+    {
+      "name": "stadium_Capacity",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "Capacity",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "capacity",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stadium_City",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "City",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "city",
+      "synonyms": [
+        "도시",
+        "도시명",
+        "도시 이름",
+        "도시 정보",
+        "도시명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stadium_Country",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "country",
+      "synonyms": [
+        "국가",
+        "국가명",
+        "국가 정보",
+        "국가 코드",
+        "국가명칭",
+        "국가 이름",
+        "국가 코드 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stadium_Opening_year",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "Opening_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "opening year",
+      "synonyms": [
+        "개장년도",
+        "연도",
+        "개장 연도",
+        "연식",
+        "설립년도",
+        "운영 시작 연도",
+        "스테이드 개장 연도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "event_ID",
+      "domain": "event",
+      "source_table": "event",
+      "source_column": "ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "ID",
+        "이벤트 ID",
+        "아이디",
+        "이벤트 고유 번호",
+        "식별자",
+        "고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "event_Name",
+      "domain": "event",
+      "source_table": "event",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "Name",
+        "이름",
+        "이벤트 이름",
+        "이벤트 제목",
+        "제목",
+        "이벤트 명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "event_Stadium_ID",
+      "domain": "event",
+      "source_table": "event",
+      "source_column": "Stadium_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "stadium id",
+      "synonyms": [
+        "Stadium_ID",
+        "스태디움 ID",
+        "스태디움 고유 번호",
+        "스태디움 식별자",
+        "스태디움 아이디",
+        "스태디움 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "event_Year",
+      "domain": "event",
+      "source_table": "event",
+      "source_column": "Year",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "연도",
+        "년도",
+        "개최 연도",
+        "경기 연도",
+        "년도 정보",
+        "년도 데이터",
+        "년도 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "record_ID",
+      "domain": "record",
+      "source_table": "record",
+      "source_column": "ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "ID",
+        "기록번호",
+        "기록ID",
+        "수영기록ID",
+        "기록아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "record_Result",
+      "domain": "record",
+      "source_table": "record",
+      "source_column": "Result",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "result",
+      "synonyms": [
+        "Result",
+        "결과",
+        "기록결과",
+        "수영결과",
+        "기록내용",
+        "결과값"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "record_Swimmer_ID",
+      "domain": "record",
+      "source_table": "record",
+      "source_column": "Swimmer_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "swimmer id",
+      "synonyms": [
+        "Swimmer_ID",
+        "수영자ID",
+        "수영자아이디",
+        "스wimmerID",
+        "수영자번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "record_Event_ID",
+      "domain": "record",
+      "source_table": "record",
+      "source_column": "Event_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "event id",
+      "synonyms": [
+        "이벤트 ID",
+        "경기 ID",
+        "이벤트 코드",
+        "경기 번호",
+        "이벤트 식별자",
+        "Event_ID",
+        "이벤트 번호",
+        "경기 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "event_stadium_fk0",
+      "domain": "event",
+      "range": "stadium",
+      "source_fk": [
+        "event.Stadium_ID",
+        "stadium.ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "주요한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "record_swimmer_fk1",
+      "domain": "record",
+      "range": "swimmer",
+      "source_fk": [
+        "record.Swimmer_ID",
+        "swimmer.ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "record_event_fk2",
+      "domain": "record",
+      "range": "event",
+      "source_fk": [
+        "record.Event_ID",
+        "event.ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참여한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

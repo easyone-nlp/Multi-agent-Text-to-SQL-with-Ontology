@@ -1,0 +1,1690 @@
+{
+  "db_id": "behavior_monitoring",
+  "classes": [
+    {
+      "name": "Ref_Address_Types",
+      "source_table": "Ref_Address_Types",
+      "ranking": 1.0,
+      "primary_label": "참조 주소 유형",
+      "synonyms": [
+        "주소 참고 정보",
+        "주소 유형 참고자료",
+        "주소 분류 정보",
+        "주소 타입 참고자료",
+        "주소 유형 참조 데이터"
+      ]
+    },
+    {
+      "name": "Ref_Detention_Type",
+      "source_table": "Ref_Detention_Type",
+      "ranking": 1.0,
+      "primary_label": "참조 감금 유형",
+      "synonyms": [
+        "감금 참고 정보",
+        "감금 유형 참고자료",
+        "감금 분류 정보",
+        "감금 타입 참고자료",
+        "감금 유형 참조 데이터"
+      ]
+    },
+    {
+      "name": "Ref_Incident_Type",
+      "source_table": "Ref_Incident_Type",
+      "ranking": 3.0,
+      "primary_label": "참조 사건 유형",
+      "synonyms": [
+        "사건 참고 정보",
+        "사건 유형 참고자료",
+        "사건 분류 정보",
+        "사건 타입 참고자료",
+        "사건 유형 참조 데이터"
+      ]
+    },
+    {
+      "name": "Addresses",
+      "source_table": "Addresses",
+      "ranking": 3.5,
+      "primary_label": "주소",
+      "synonyms": [
+        "주소록",
+        "주소 목록",
+        "주소 정보",
+        "주소 데이터",
+        "주소 기록",
+        "주소 정보 저장소"
+      ]
+    },
+    {
+      "name": "Students",
+      "source_table": "Students",
+      "ranking": 3.5,
+      "primary_label": "학생",
+      "synonyms": [
+        "학생 목록",
+        "학생 데이터",
+        "학생 정보",
+        "학생 기록",
+        "학생 정보 저장소",
+        "학생 정보 기록"
+      ]
+    },
+    {
+      "name": "Teachers",
+      "source_table": "Teachers",
+      "ranking": 3.5,
+      "primary_label": "교사",
+      "synonyms": [
+        "교사 목록",
+        "교사 데이터",
+        "교사 정보",
+        "교사 기록",
+        "교사 정보 저장소",
+        "교사 정보 기록"
+      ]
+    },
+    {
+      "name": "Assessment_Notes",
+      "source_table": "Assessment_Notes",
+      "ranking": 3.5,
+      "primary_label": "평가 노트",
+      "synonyms": [
+        "평가 기록",
+        "평가 메모",
+        "평가 일지",
+        "평가 녹음",
+        "평가 기록서",
+        "평가 일기",
+        "평가 문서"
+      ]
+    },
+    {
+      "name": "Behavior_Incident",
+      "source_table": "Behavior_Incident",
+      "ranking": 3.5,
+      "primary_label": "행동 사건",
+      "synonyms": [
+        "행동 사건",
+        "행동 문제",
+        "행동 사고",
+        "행동 일지",
+        "행동 기록",
+        "행동 문제 기록",
+        "행동 사건 기록",
+        "행동 문제 일지"
+      ]
+    },
+    {
+      "name": "Detention",
+      "source_table": "Detention",
+      "ranking": 3.5,
+      "primary_label": "감금",
+      "synonyms": [
+        "징계 기록",
+        "감금 기록",
+        "징계 일지",
+        "감금 일지",
+        "징계 문서",
+        "감금 문서",
+        "징계 기록서",
+        "감금 기록서"
+      ]
+    },
+    {
+      "name": "Student_Addresses",
+      "source_table": "Student_Addresses",
+      "ranking": 1.0,
+      "primary_label": "학생 주소",
+      "synonyms": [
+        "학생 주소",
+        "학생 주소 정보",
+        "학생 거주 정보",
+        "학생 주소록",
+        "학생 주소 기록"
+      ]
+    },
+    {
+      "name": "Students_in_Detention",
+      "source_table": "Students_in_Detention",
+      "ranking": 3.0,
+      "primary_label": "학생 징계 기록",
+      "synonyms": [
+        "입소 중 학생",
+        "입소자",
+        "입소 중인 학생 정보",
+        "입소 학생",
+        "입소 중 학생 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Ref_Address_Types_address_type_code",
+      "domain": "Ref_Address_Types",
+      "source_table": "Ref_Address_Types",
+      "source_column": "address_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주소 유형 코드",
+      "synonyms": [
+        "주소 유형 코드",
+        "주소 코드",
+        "주소타입코드",
+        "코드",
+        "코드값"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "주소 유형 코드": [
+          "주소 유형 코드"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Address_Types_address_type_description",
+      "domain": "Ref_Address_Types",
+      "source_table": "Ref_Address_Types",
+      "source_column": "address_type_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주소 유형 설명",
+      "synonyms": [
+        "주소 유형 설명",
+        "주소 설명",
+        "주소타입설명",
+        "설명",
+        "설명정보",
+        "설명내용"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Ref_Detention_Type_detention_type_code",
+      "domain": "Ref_Detention_Type",
+      "source_table": "Ref_Detention_Type",
+      "source_column": "detention_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "감금 유형 코드",
+      "synonyms": [
+        "수감 유형 코드",
+        "수감 코드",
+        "DETENTION_TYPE_CODE",
+        "수감 타입 코드",
+        "수감 코드 값",
+        "수감 유형 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "A01": [
+          "A01"
+        ],
+        "A02": [
+          "A02"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Detention_Type_detention_type_description",
+      "domain": "Ref_Detention_Type",
+      "source_table": "Ref_Detention_Type",
+      "source_column": "detention_type_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "감금 유형 설명",
+      "synonyms": [
+        "수감 유형 설명",
+        "수감 유형 설명 정보",
+        "DETENTION_TYPE_DESCRIPTION",
+        "수감 타입 설명",
+        "수감 유형 설명문"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Ref_Incident_Type_incident_type_code",
+      "domain": "Ref_Incident_Type",
+      "source_table": "Ref_Incident_Type",
+      "source_column": "incident_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "사건 유형 코드",
+      "synonyms": [
+        "사고 유형 코드",
+        "사고 코드",
+        "유형 코드",
+        "incident_type_code",
+        "코드",
+        "유형 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "101": [
+          "101"
+        ],
+        "102": [
+          "102"
+        ],
+        "103": [
+          "103"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Incident_Type_incident_type_description",
+      "domain": "Ref_Incident_Type",
+      "source_table": "Ref_Incident_Type",
+      "source_column": "incident_type_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "사건 유형 설명",
+      "synonyms": [
+        "사고 유형 설명",
+        "사고 설명",
+        "유형 설명",
+        "incident_type_description",
+        "설명",
+        "유형 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_address_id",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "주소 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_line_1",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "line_1",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "1번 주소 라인",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_line_2",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "line_2",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "2번 주소 라인",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_line_3",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "line_3",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "3번 주소 라인",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_city",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "시",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_zip_postcode",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "zip_postcode",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "우편번호",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_state_province_county",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "state_province_county",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "주/도/군",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_country",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "국가",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_other_address_details",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "other_address_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "다른 주소 세부 정보",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_student_id",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "student_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 ID",
+        "학번",
+        "학생 고유 ID",
+        "학번 번호",
+        "student_id",
+        "학생 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_address_id",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "주소 ID",
+      "synonyms": [
+        "주소 ID",
+        "주소 번호",
+        "주소 고유 ID",
+        "address_id",
+        "주소 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_first_name",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성명",
+      "synonyms": [
+        "성명",
+        "이름",
+        "첫 이름",
+        "first_name",
+        "학생 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수",
+          "김민수"
+        ]
+      }
+    },
+    {
+      "name": "Students_middle_name",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "middle_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "중간 이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "지은": [
+          "지은",
+          "지은"
+        ]
+      }
+    },
+    {
+      "name": "Students_last_name",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김",
+          "김"
+        ]
+      }
+    },
+    {
+      "name": "Students_cell_mobile_number",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "cell_mobile_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "모바일 번호",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "010-1234-5678": [
+          "010-1234-5678",
+          "01012345678"
+        ]
+      }
+    },
+    {
+      "name": "Students_email_address",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "email_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이메일 주소",
+      "synonyms": [
+        "이메일 주소",
+        "이메일",
+        "전자우편 주소",
+        "email",
+        "메일 주소",
+        "전자우편"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "student@university.ac.kr": [
+          "student@university.ac.kr",
+          "student@university.ac.kr"
+        ]
+      }
+    },
+    {
+      "name": "Students_date_first_rental",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "date_first_rental",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "첫 입학일",
+      "synonyms": [
+        "첫 대여 날짜",
+        "첫 대여일",
+        "첫 대여 일자",
+        "대여 시작일",
+        "대여 시작 날짜"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_date_left_university",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "date_left_university",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "대학 퇴학일",
+      "synonyms": [
+        "대학 떠난 날짜",
+        "대학 떠난 일자",
+        "대학 이탈일",
+        "대학 이탈 날짜",
+        "대학 이탈 일자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_other_student_details",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "other_student_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "학생 기타 정보",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "학업 중단": [
+          "학업 중단",
+          "학업 중단"
+        ]
+      }
+    },
+    {
+      "name": "Teachers_teacher_id",
+      "domain": "Teachers",
+      "source_table": "Teachers",
+      "source_column": "teacher_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "교사 ID",
+      "synonyms": [
+        "강사 ID",
+        "강사 고유 번호",
+        "강사 번호",
+        "teacher_id",
+        "강사 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Teachers_address_id",
+      "domain": "Teachers",
+      "source_table": "Teachers",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "주소 ID",
+      "synonyms": [
+        "주소 ID",
+        "주소 고유 번호",
+        "주소 번호",
+        "address_id",
+        "주소 참조 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Teachers_first_name",
+      "domain": "Teachers",
+      "source_table": "Teachers",
+      "source_column": "first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성명 앞글자",
+      "synonyms": [
+        "이름",
+        "성명",
+        "first_name",
+        "강사 이름",
+        "성"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Teachers_middle_name",
+      "domain": "Teachers",
+      "source_table": "Teachers",
+      "source_column": "middle_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성명 중간글자",
+      "synonyms": [
+        "중간 이름",
+        "성명 중간",
+        "이름 중간",
+        "middle name",
+        "중간 이름 정보",
+        "성명의 중간 부분",
+        "이름의 중간"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Teachers_last_name",
+      "domain": "Teachers",
+      "source_table": "Teachers",
+      "source_column": "last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성명 뒷글자",
+      "synonyms": [
+        "성",
+        "성명 마지막",
+        "이름 마지막",
+        "last name",
+        "성 정보",
+        "성명의 마지막 부분",
+        "이름의 마지막"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Teachers_gender",
+      "domain": "Teachers",
+      "source_table": "Teachers",
+      "source_column": "gender",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성별",
+      "synonyms": [
+        "성별",
+        "성별 정보",
+        "성별 데이터",
+        "gender",
+        "남녀",
+        "성별 구분",
+        "성별 지정"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남성": [
+          "남자"
+        ],
+        "여성": [
+          "여자"
+        ]
+      }
+    },
+    {
+      "name": "Teachers_cell_mobile_number",
+      "domain": "Teachers",
+      "source_table": "Teachers",
+      "source_column": "cell_mobile_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "모바일 번호",
+      "synonyms": [
+        "휴대폰 번호",
+        "모바일 번호",
+        "전화번호",
+        "휴대전화 번호",
+        "cell number",
+        "cell mobile number",
+        "contact number"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Teachers_email_address",
+      "domain": "Teachers",
+      "source_table": "Teachers",
+      "source_column": "email_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이메일 주소",
+      "synonyms": [
+        "이메일 주소",
+        "이메일",
+        "메일 주소",
+        "전자우편 주소",
+        "email",
+        "메일"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Teachers_other_details",
+      "domain": "Teachers",
+      "source_table": "Teachers",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "기타 정보",
+      "synonyms": [
+        "기타 정보",
+        "추가 정보",
+        "기타 세부 사항",
+        "기타 설명",
+        "기타 데이터",
+        "other details",
+        "기타 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assessment_Notes_notes_id",
+      "domain": "Assessment_Notes",
+      "source_table": "Assessment_Notes",
+      "source_column": "notes_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "노트 ID",
+      "synonyms": [
+        "노트 ID",
+        "노트 식별 번호",
+        "노트 고유 번호",
+        "notes_id",
+        "노트 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assessment_Notes_student_id",
+      "domain": "Assessment_Notes",
+      "source_table": "Assessment_Notes",
+      "source_column": "student_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 ID",
+        "학생 식별 번호",
+        "학생 고유 번호",
+        "student_id",
+        "학생 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assessment_Notes_teacher_id",
+      "domain": "Assessment_Notes",
+      "source_table": "Assessment_Notes",
+      "source_column": "teacher_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "교사 ID",
+      "synonyms": [
+        "교사 ID",
+        "교사 식별 번호",
+        "교사 고유 번호",
+        "teacher_id",
+        "교사 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assessment_Notes_date_of_notes",
+      "domain": "Assessment_Notes",
+      "source_table": "Assessment_Notes",
+      "source_column": "date_of_notes",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 3.0,
+      "primary_label": "노트 작성일",
+      "synonyms": [
+        "날짜",
+        "기록일",
+        "작성일시",
+        "날짜_기록",
+        "날짜_시간",
+        "기록일시",
+        "날짜_시간_기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assessment_Notes_text_of_notes",
+      "domain": "Assessment_Notes",
+      "source_table": "Assessment_Notes",
+      "source_column": "text_of_notes",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "노트 텍스트",
+      "synonyms": [
+        "내용",
+        "기록내용",
+        "텍스트",
+        "텍스트_기록",
+        "문자",
+        "문자_기록",
+        "텍스트_내용",
+        "문자_내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assessment_Notes_other_details",
+      "domain": "Assessment_Notes",
+      "source_table": "Assessment_Notes",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "기타 세부 사항",
+      "synonyms": [
+        "추가정보",
+        "기타사항",
+        "기타_정보",
+        "기타_상세내용",
+        "기타_상세",
+        "기타_내용",
+        "기타_자세한정보",
+        "기타_자세한"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Behavior_Incident_incident_id",
+      "domain": "Behavior_Incident",
+      "source_table": "Behavior_Incident",
+      "source_column": "incident_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "사건 ID",
+      "synonyms": [
+        "사건 번호",
+        "사건 ID",
+        "행동 사건 ID",
+        "사건 고유 번호",
+        "incident id",
+        "사건 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Behavior_Incident_incident_type_code",
+      "domain": "Behavior_Incident",
+      "source_table": "Behavior_Incident",
+      "source_column": "incident_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "사건 유형 코드",
+      "synonyms": [
+        "사건 유형 코드",
+        "사건 종류 코드",
+        "사건 유형",
+        "사건 코드",
+        "incident type code",
+        "사건 유형 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "폭력": [
+          "폭력 사건",
+          "폭력 행위"
+        ],
+        "비방": [
+          "비방 행위",
+          "비방 사건"
+        ],
+        "불법 행위": [
+          "불법 사건",
+          "법적 위반"
+        ]
+      }
+    },
+    {
+      "name": "Behavior_Incident_student_id",
+      "domain": "Behavior_Incident",
+      "source_table": "Behavior_Incident",
+      "source_column": "student_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 ID",
+        "학생 식별자",
+        "학생 번호",
+        "학생 고유 번호",
+        "student id",
+        "관여 학생 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Behavior_Incident_date_incident_start",
+      "domain": "Behavior_Incident",
+      "source_table": "Behavior_Incident",
+      "source_column": "date_incident_start",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "사건 시작 시간",
+      "synonyms": [
+        "사건 시작일",
+        "사건 시작 시간",
+        "행동 사건 시작일",
+        "사건 시작 날짜",
+        "행동 사건 시작 시간",
+        "일시 시작",
+        "시작 일시"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Behavior_Incident_date_incident_end",
+      "domain": "Behavior_Incident",
+      "source_table": "Behavior_Incident",
+      "source_column": "date_incident_end",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "사건 종료 시간",
+      "synonyms": [
+        "사건 종료일",
+        "사건 종료 시간",
+        "행동 사건 종료일",
+        "사건 종료 날짜",
+        "행동 사건 종료 시간",
+        "일시 종료",
+        "종료 일시"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Behavior_Incident_incident_summary",
+      "domain": "Behavior_Incident",
+      "source_table": "Behavior_Incident",
+      "source_column": "incident_summary",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "사건 요약",
+      "synonyms": [
+        "사건 요약",
+        "사건 간략 설명",
+        "행동 사건 요약",
+        "사건 요약 내용",
+        "행동 사건 설명",
+        "사건 요약 정보",
+        "간략한 사건 설명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Behavior_Incident_recommendations",
+      "domain": "Behavior_Incident",
+      "source_table": "Behavior_Incident",
+      "source_column": "recommendations",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "제안 사항",
+      "synonyms": [
+        "추천 사항",
+        "제안",
+        "조치",
+        "추천내용",
+        "추천",
+        "제안내용",
+        "행동 조치"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Behavior_Incident_other_details",
+      "domain": "Behavior_Incident",
+      "source_table": "Behavior_Incident",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "기타 세부 사항",
+      "synonyms": [
+        "기타 정보",
+        "기타 세부 사항",
+        "추가 설명",
+        "기타 내용",
+        "기타 상세 정보",
+        "기타 설명",
+        "기타 세부"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Detention_detention_id",
+      "domain": "Detention",
+      "source_table": "Detention",
+      "source_column": "detention_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "감금 ID",
+      "synonyms": [
+        "detention_id",
+        "징계아이디",
+        "징계기록ID",
+        "학생징계ID",
+        "징계식별번호",
+        "징계기록아이디",
+        "징계고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Detention_detention_type_code",
+      "domain": "Detention",
+      "source_table": "Detention",
+      "source_column": "detention_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "감금 유형 코드",
+      "synonyms": [
+        "detention_type_code",
+        "징계유형코드",
+        "징계종류코드",
+        "징계타입코드",
+        "징계분류코드",
+        "징계코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "A": [
+          "A유형"
+        ],
+        "B": [
+          "B유형"
+        ]
+      }
+    },
+    {
+      "name": "Detention_teacher_id",
+      "domain": "Detention",
+      "source_table": "Detention",
+      "source_column": "teacher_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "교사 ID",
+      "synonyms": [
+        "teacher_id",
+        "교사아이디",
+        "교사ID",
+        "징계교사ID",
+        "교사식별번호",
+        "징계교사아이디",
+        "교사고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Detention_datetime_detention_start",
+      "domain": "Detention",
+      "source_table": "Detention",
+      "source_column": "datetime_detention_start",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "감금 시작 시간",
+      "synonyms": [
+        "감독 시작 시간",
+        "감독 시작일시",
+        "시작 시간",
+        "시작일시",
+        "감독 시작 날짜",
+        "시작 날짜",
+        "datetime detention start",
+        "datetime detention start time"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Detention_datetime_detention_end",
+      "domain": "Detention",
+      "source_table": "Detention",
+      "source_column": "datetime_detention_end",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "감금 종료 시간",
+      "synonyms": [
+        "감독 종료 시간",
+        "감독 종료일시",
+        "종료 시간",
+        "종료일시",
+        "감독 종료 날짜",
+        "종료 날짜",
+        "datetime detention end",
+        "datetime detention end time"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Detention_detention_summary",
+      "domain": "Detention",
+      "source_table": "Detention",
+      "source_column": "detention_summary",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "감금 요약",
+      "synonyms": [
+        "감독 요약",
+        "감독 요약 내용",
+        "감독 요약 정보",
+        "요약",
+        "요약 내용",
+        "감독 설명",
+        "detention summary"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Detention_other_details",
+      "domain": "Detention",
+      "source_table": "Detention",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기타 세부 사항",
+      "synonyms": [
+        "기타 사항",
+        "추가 설명",
+        "기타 정보",
+        "기타 내용",
+        "기타 설명",
+        "기타 세부 사항",
+        "기타 설명 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Addresses_student_id",
+      "domain": "Student_Addresses",
+      "source_table": "Student_Addresses",
+      "source_column": "student_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "student id",
+        "학생 ID",
+        "학생 번호",
+        "학번",
+        "학생 고유번호",
+        "학생 식별자",
+        "학생 코드",
+        "학번 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Addresses_address_id",
+      "domain": "Student_Addresses",
+      "source_table": "Student_Addresses",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "주소 ID",
+      "synonyms": [
+        "주소 ID",
+        "주소 식별자",
+        "주소 번호",
+        "address id",
+        "주소 고유번호",
+        "주소 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Addresses_date_address_from",
+      "domain": "Student_Addresses",
+      "source_table": "Student_Addresses",
+      "source_column": "date_address_from",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주소 시작일",
+      "synonyms": [
+        "이사 날짜",
+        "주소 시작일",
+        "주소 시작 날짜",
+        "이사일",
+        "주소 시작일자",
+        "date address from"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-01": [
+          "2023년 1월 1일"
+        ]
+      }
+    },
+    {
+      "name": "Student_Addresses_date_address_to",
+      "domain": "Student_Addresses",
+      "source_table": "Student_Addresses",
+      "source_column": "date_address_to",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주소 종료일",
+      "synonyms": [
+        "date address to",
+        "address end date",
+        "address termination date",
+        "end date of address",
+        "address close date"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-12-31": [
+          "2023년 12월 31일"
+        ]
+      }
+    },
+    {
+      "name": "Student_Addresses_monthly_rental",
+      "domain": "Student_Addresses",
+      "source_table": "Student_Addresses",
+      "source_column": "monthly_rental",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "월세",
+      "synonyms": [
+        "monthly rental",
+        "rental fee",
+        "monthly rent",
+        "rent amount",
+        "monthly payment",
+        "rental cost"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Addresses_other_details",
+      "domain": "Student_Addresses",
+      "source_table": "Student_Addresses",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기타 정보",
+      "synonyms": [
+        "other details",
+        "additional info",
+        "other information",
+        "extra details",
+        "other notes",
+        "additional comments"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "전세": [
+          "전세"
+        ],
+        "월세": [
+          "월세"
+        ]
+      }
+    },
+    {
+      "name": "Students_in_Detention_student_id",
+      "domain": "Students_in_Detention",
+      "source_table": "Students_in_Detention",
+      "source_column": "student_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "student_id",
+        "학생 ID",
+        "학생 식별번호",
+        "학생 고유번호",
+        "학번",
+        "학생번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_in_Detention_detention_id",
+      "domain": "Students_in_Detention",
+      "source_table": "Students_in_Detention",
+      "source_column": "detention_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "징계 사항 ID",
+      "synonyms": [
+        "detention_id",
+        "입소 기록 ID",
+        "입소 번호",
+        "입소 식별번호",
+        "입소 고유번호",
+        "입소 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_in_Detention_incident_id",
+      "domain": "Students_in_Detention",
+      "source_table": "Students_in_Detention",
+      "source_column": "incident_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "사건 ID",
+      "synonyms": [
+        "incident_id",
+        "사례 ID",
+        "위반 사례 번호",
+        "위반 기록",
+        "행동 사례",
+        "행동 위반 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Students_Addresses_fk0",
+      "domain": "Students",
+      "range": "Addresses",
+      "source_fk": [
+        "Students.address_id",
+        "Addresses.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Teachers_Addresses_fk1",
+      "domain": "Teachers",
+      "range": "Addresses",
+      "source_fk": [
+        "Teachers.address_id",
+        "Addresses.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Assessment_Notes_Teachers_fk2",
+      "domain": "Assessment_Notes",
+      "range": "Teachers",
+      "source_fk": [
+        "Assessment_Notes.teacher_id",
+        "Teachers.teacher_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Assessment_Notes_Students_fk3",
+      "domain": "Assessment_Notes",
+      "range": "Students",
+      "source_fk": [
+        "Assessment_Notes.student_id",
+        "Students.student_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Behavior_Incident_Students_fk4",
+      "domain": "Behavior_Incident",
+      "range": "Students",
+      "source_fk": [
+        "Behavior_Incident.student_id",
+        "Students.student_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Behavior_Incident_Ref_Incident_Type_fk5",
+      "domain": "Behavior_Incident",
+      "range": "Ref_Incident_Type",
+      "source_fk": [
+        "Behavior_Incident.incident_type_code",
+        "Ref_Incident_Type.incident_type_code"
+      ],
+      "weight": 1.5,
+      "primary_label": "대응",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Detention_Teachers_fk6",
+      "domain": "Detention",
+      "range": "Teachers",
+      "source_fk": [
+        "Detention.teacher_id",
+        "Teachers.teacher_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Detention_Ref_Detention_Type_fk7",
+      "domain": "Detention",
+      "range": "Ref_Detention_Type",
+      "source_fk": [
+        "Detention.detention_type_code",
+        "Ref_Detention_Type.detention_type_code"
+      ],
+      "weight": 1.5,
+      "primary_label": "대응",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Student_Addresses_Students_fk8",
+      "domain": "Student_Addresses",
+      "range": "Students",
+      "source_fk": [
+        "Student_Addresses.student_id",
+        "Students.student_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Student_Addresses_Addresses_fk9",
+      "domain": "Student_Addresses",
+      "range": "Addresses",
+      "source_fk": [
+        "Student_Addresses.address_id",
+        "Addresses.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Students_in_Detention_Students_fk10",
+      "domain": "Students_in_Detention",
+      "range": "Students",
+      "source_fk": [
+        "Students_in_Detention.student_id",
+        "Students.student_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Students_in_Detention_Detention_fk11",
+      "domain": "Students_in_Detention",
+      "range": "Detention",
+      "source_fk": [
+        "Students_in_Detention.detention_id",
+        "Detention.detention_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Students_in_Detention_Behavior_Incident_fk12",
+      "domain": "Students_in_Detention",
+      "range": "Behavior_Incident",
+      "source_fk": [
+        "Students_in_Detention.incident_id",
+        "Behavior_Incident.incident_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

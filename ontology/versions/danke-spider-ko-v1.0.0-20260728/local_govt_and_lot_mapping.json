@@ -1,0 +1,271 @@
+{
+  "class_table": {
+    "Customers": "Customers",
+    "Properties": "Properties",
+    "Residents": "Residents",
+    "Organizations": "Organizations",
+    "Services": "Services",
+    "Residents_Services": "Residents_Services",
+    "Things": "Things",
+    "Customer_Events": "Customer_Events",
+    "Customer_Event_Notes": "Customer_Event_Notes",
+    "Timed_Status_of_Things": "Timed_Status_of_Things",
+    "Timed_Locations_of_Things": "Timed_Locations_of_Things"
+  },
+  "property_column": {
+    "Customers_customer_id": [
+      "Customers",
+      "customer_id"
+    ],
+    "Customers_customer_details": [
+      "Customers",
+      "customer_details"
+    ],
+    "Properties_property_id": [
+      "Properties",
+      "property_id"
+    ],
+    "Properties_property_type_code": [
+      "Properties",
+      "property_type_code"
+    ],
+    "Properties_property_address": [
+      "Properties",
+      "property_address"
+    ],
+    "Properties_other_details": [
+      "Properties",
+      "other_details"
+    ],
+    "Residents_resident_id": [
+      "Residents",
+      "resident_id"
+    ],
+    "Residents_property_id": [
+      "Residents",
+      "property_id"
+    ],
+    "Residents_date_moved_in": [
+      "Residents",
+      "date_moved_in"
+    ],
+    "Residents_date_moved_out": [
+      "Residents",
+      "date_moved_out"
+    ],
+    "Residents_other_details": [
+      "Residents",
+      "other_details"
+    ],
+    "Organizations_organization_id": [
+      "Organizations",
+      "organization_id"
+    ],
+    "Organizations_parent_organization_id": [
+      "Organizations",
+      "parent_organization_id"
+    ],
+    "Organizations_organization_details": [
+      "Organizations",
+      "organization_details"
+    ],
+    "Services_service_id": [
+      "Services",
+      "service_id"
+    ],
+    "Services_organization_id": [
+      "Services",
+      "organization_id"
+    ],
+    "Services_service_type_code": [
+      "Services",
+      "service_type_code"
+    ],
+    "Services_service_details": [
+      "Services",
+      "service_details"
+    ],
+    "Residents_Services_resident_id": [
+      "Residents_Services",
+      "resident_id"
+    ],
+    "Residents_Services_service_id": [
+      "Residents_Services",
+      "service_id"
+    ],
+    "Residents_Services_date_moved_in": [
+      "Residents_Services",
+      "date_moved_in"
+    ],
+    "Residents_Services_property_id": [
+      "Residents_Services",
+      "property_id"
+    ],
+    "Residents_Services_date_requested": [
+      "Residents_Services",
+      "date_requested"
+    ],
+    "Residents_Services_date_provided": [
+      "Residents_Services",
+      "date_provided"
+    ],
+    "Residents_Services_other_details": [
+      "Residents_Services",
+      "other_details"
+    ],
+    "Things_thing_id": [
+      "Things",
+      "thing_id"
+    ],
+    "Things_organization_id": [
+      "Things",
+      "organization_id"
+    ],
+    "Things_Type_of_Thing_Code": [
+      "Things",
+      "Type_of_Thing_Code"
+    ],
+    "Things_service_type_code": [
+      "Things",
+      "service_type_code"
+    ],
+    "Things_service_details": [
+      "Things",
+      "service_details"
+    ],
+    "Customer_Events_Customer_Event_ID": [
+      "Customer_Events",
+      "Customer_Event_ID"
+    ],
+    "Customer_Events_customer_id": [
+      "Customer_Events",
+      "customer_id"
+    ],
+    "Customer_Events_date_moved_in": [
+      "Customer_Events",
+      "date_moved_in"
+    ],
+    "Customer_Events_property_id": [
+      "Customer_Events",
+      "property_id"
+    ],
+    "Customer_Events_resident_id": [
+      "Customer_Events",
+      "resident_id"
+    ],
+    "Customer_Events_thing_id": [
+      "Customer_Events",
+      "thing_id"
+    ],
+    "Customer_Event_Notes_Customer_Event_Note_ID": [
+      "Customer_Event_Notes",
+      "Customer_Event_Note_ID"
+    ],
+    "Customer_Event_Notes_Customer_Event_ID": [
+      "Customer_Event_Notes",
+      "Customer_Event_ID"
+    ],
+    "Customer_Event_Notes_service_type_code": [
+      "Customer_Event_Notes",
+      "service_type_code"
+    ],
+    "Customer_Event_Notes_resident_id": [
+      "Customer_Event_Notes",
+      "resident_id"
+    ],
+    "Customer_Event_Notes_property_id": [
+      "Customer_Event_Notes",
+      "property_id"
+    ],
+    "Customer_Event_Notes_date_moved_in": [
+      "Customer_Event_Notes",
+      "date_moved_in"
+    ],
+    "Timed_Status_of_Things_thing_id": [
+      "Timed_Status_of_Things",
+      "thing_id"
+    ],
+    "Timed_Status_of_Things_Date_and_Date": [
+      "Timed_Status_of_Things",
+      "Date_and_Date"
+    ],
+    "Timed_Status_of_Things_Status_of_Thing_Code": [
+      "Timed_Status_of_Things",
+      "Status_of_Thing_Code"
+    ],
+    "Timed_Locations_of_Things_thing_id": [
+      "Timed_Locations_of_Things",
+      "thing_id"
+    ],
+    "Timed_Locations_of_Things_Date_and_Time": [
+      "Timed_Locations_of_Things",
+      "Date_and_Time"
+    ],
+    "Timed_Locations_of_Things_Location_Code": [
+      "Timed_Locations_of_Things",
+      "Location_Code"
+    ]
+  },
+  "object_property_fk": {
+    "Residents_Properties_fk0": [
+      "Residents.property_id",
+      "Properties.property_id"
+    ],
+    "Services_Organizations_fk1": [
+      "Services.organization_id",
+      "Organizations.organization_id"
+    ],
+    "Residents_Services_Residents_fk2": [
+      "Residents_Services.resident_id",
+      "Residents.resident_id"
+    ],
+    "Residents_Services_Residents_fk3": [
+      "Residents_Services.property_id",
+      "Residents.property_id"
+    ],
+    "Residents_Services_Residents_fk4": [
+      "Residents_Services.date_moved_in",
+      "Residents.date_moved_in"
+    ],
+    "Residents_Services_Services_fk5": [
+      "Residents_Services.service_id",
+      "Services.service_id"
+    ],
+    "Things_Organizations_fk6": [
+      "Things.organization_id",
+      "Organizations.organization_id"
+    ],
+    "Customer_Events_Residents_fk7": [
+      "Customer_Events.resident_id",
+      "Residents.resident_id"
+    ],
+    "Customer_Events_Residents_fk8": [
+      "Customer_Events.property_id",
+      "Residents.property_id"
+    ],
+    "Customer_Events_Residents_fk9": [
+      "Customer_Events.date_moved_in",
+      "Residents.date_moved_in"
+    ],
+    "Customer_Events_Customers_fk10": [
+      "Customer_Events.customer_id",
+      "Customers.customer_id"
+    ],
+    "Customer_Events_Things_fk11": [
+      "Customer_Events.thing_id",
+      "Things.thing_id"
+    ],
+    "Customer_Event_Notes_Customer_Events_fk12": [
+      "Customer_Event_Notes.Customer_Event_ID",
+      "Customer_Events.Customer_Event_ID"
+    ],
+    "Timed_Status_of_Things_Things_fk13": [
+      "Timed_Status_of_Things.thing_id",
+      "Things.thing_id"
+    ],
+    "Timed_Locations_of_Things_Things_fk14": [
+      "Timed_Locations_of_Things.thing_id",
+      "Things.thing_id"
+    ]
+  }
+}

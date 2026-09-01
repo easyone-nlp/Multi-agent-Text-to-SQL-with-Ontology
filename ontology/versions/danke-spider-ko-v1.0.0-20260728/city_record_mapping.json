@@ -1,0 +1,132 @@
+{
+  "class_table": {
+    "city": "city",
+    "match": "match",
+    "temperature": "temperature",
+    "hosting_city": "hosting_city"
+  },
+  "property_column": {
+    "city_City_ID": [
+      "city",
+      "City_ID"
+    ],
+    "city_City": [
+      "city",
+      "City"
+    ],
+    "city_Hanzi": [
+      "city",
+      "Hanzi"
+    ],
+    "city_Hanyu_Pinyin": [
+      "city",
+      "Hanyu_Pinyin"
+    ],
+    "city_Regional_Population": [
+      "city",
+      "Regional_Population"
+    ],
+    "city_GDP": [
+      "city",
+      "GDP"
+    ],
+    "match_Match_ID": [
+      "match",
+      "Match_ID"
+    ],
+    "match_Date": [
+      "match",
+      "Date"
+    ],
+    "match_Venue": [
+      "match",
+      "Venue"
+    ],
+    "match_Score": [
+      "match",
+      "Score"
+    ],
+    "match_Result": [
+      "match",
+      "Result"
+    ],
+    "match_Competition": [
+      "match",
+      "Competition"
+    ],
+    "temperature_City_ID": [
+      "temperature",
+      "City_ID"
+    ],
+    "temperature_Jan": [
+      "temperature",
+      "Jan"
+    ],
+    "temperature_Feb": [
+      "temperature",
+      "Feb"
+    ],
+    "temperature_Mar": [
+      "temperature",
+      "Mar"
+    ],
+    "temperature_Apr": [
+      "temperature",
+      "Apr"
+    ],
+    "temperature_Jun": [
+      "temperature",
+      "Jun"
+    ],
+    "temperature_Jul": [
+      "temperature",
+      "Jul"
+    ],
+    "temperature_Aug": [
+      "temperature",
+      "Aug"
+    ],
+    "temperature_Sep": [
+      "temperature",
+      "Sep"
+    ],
+    "temperature_Oct": [
+      "temperature",
+      "Oct"
+    ],
+    "temperature_Nov": [
+      "temperature",
+      "Nov"
+    ],
+    "temperature_Dec": [
+      "temperature",
+      "Dec"
+    ],
+    "hosting_city_Year": [
+      "hosting_city",
+      "Year"
+    ],
+    "hosting_city_Match_ID": [
+      "hosting_city",
+      "Match_ID"
+    ],
+    "hosting_city_Host_City": [
+      "hosting_city",
+      "Host_City"
+    ]
+  },
+  "object_property_fk": {
+    "temperature_city_fk0": [
+      "temperature.City_ID",
+      "city.City_ID"
+    ],
+    "hosting_city_match_fk1": [
+      "hosting_city.Match_ID",
+      "match.Match_ID"
+    ],
+    "hosting_city_city_fk2": [
+      "hosting_city.Host_City",
+      "city.City_ID"
+    ]
+  }
+}

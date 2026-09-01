@@ -1,0 +1,379 @@
+{
+  "class_table": {
+    "Player_Attributes": "Player_Attributes",
+    "sqlite_sequence": "sqlite_sequence",
+    "Player": "Player",
+    "League": "League",
+    "Country": "Country",
+    "Team": "Team",
+    "Team_Attributes": "Team_Attributes"
+  },
+  "property_column": {
+    "Player_Attributes_id": [
+      "Player_Attributes",
+      "id"
+    ],
+    "Player_Attributes_player_fifa_api_id": [
+      "Player_Attributes",
+      "player_fifa_api_id"
+    ],
+    "Player_Attributes_player_api_id": [
+      "Player_Attributes",
+      "player_api_id"
+    ],
+    "Player_Attributes_date": [
+      "Player_Attributes",
+      "date"
+    ],
+    "Player_Attributes_overall_rating": [
+      "Player_Attributes",
+      "overall_rating"
+    ],
+    "Player_Attributes_potential": [
+      "Player_Attributes",
+      "potential"
+    ],
+    "Player_Attributes_preferred_foot": [
+      "Player_Attributes",
+      "preferred_foot"
+    ],
+    "Player_Attributes_attacking_work_rate": [
+      "Player_Attributes",
+      "attacking_work_rate"
+    ],
+    "Player_Attributes_defensive_work_rate": [
+      "Player_Attributes",
+      "defensive_work_rate"
+    ],
+    "Player_Attributes_crossing": [
+      "Player_Attributes",
+      "crossing"
+    ],
+    "Player_Attributes_finishing": [
+      "Player_Attributes",
+      "finishing"
+    ],
+    "Player_Attributes_heading_accuracy": [
+      "Player_Attributes",
+      "heading_accuracy"
+    ],
+    "Player_Attributes_short_passing": [
+      "Player_Attributes",
+      "short_passing"
+    ],
+    "Player_Attributes_volleys": [
+      "Player_Attributes",
+      "volleys"
+    ],
+    "Player_Attributes_dribbling": [
+      "Player_Attributes",
+      "dribbling"
+    ],
+    "Player_Attributes_curve": [
+      "Player_Attributes",
+      "curve"
+    ],
+    "Player_Attributes_free_kick_accuracy": [
+      "Player_Attributes",
+      "free_kick_accuracy"
+    ],
+    "Player_Attributes_long_passing": [
+      "Player_Attributes",
+      "long_passing"
+    ],
+    "Player_Attributes_ball_control": [
+      "Player_Attributes",
+      "ball_control"
+    ],
+    "Player_Attributes_acceleration": [
+      "Player_Attributes",
+      "acceleration"
+    ],
+    "Player_Attributes_sprint_speed": [
+      "Player_Attributes",
+      "sprint_speed"
+    ],
+    "Player_Attributes_agility": [
+      "Player_Attributes",
+      "agility"
+    ],
+    "Player_Attributes_reactions": [
+      "Player_Attributes",
+      "reactions"
+    ],
+    "Player_Attributes_balance": [
+      "Player_Attributes",
+      "balance"
+    ],
+    "Player_Attributes_shot_power": [
+      "Player_Attributes",
+      "shot_power"
+    ],
+    "Player_Attributes_jumping": [
+      "Player_Attributes",
+      "jumping"
+    ],
+    "Player_Attributes_stamina": [
+      "Player_Attributes",
+      "stamina"
+    ],
+    "Player_Attributes_strength": [
+      "Player_Attributes",
+      "strength"
+    ],
+    "Player_Attributes_long_shots": [
+      "Player_Attributes",
+      "long_shots"
+    ],
+    "Player_Attributes_aggression": [
+      "Player_Attributes",
+      "aggression"
+    ],
+    "Player_Attributes_interceptions": [
+      "Player_Attributes",
+      "interceptions"
+    ],
+    "Player_Attributes_positioning": [
+      "Player_Attributes",
+      "positioning"
+    ],
+    "Player_Attributes_vision": [
+      "Player_Attributes",
+      "vision"
+    ],
+    "Player_Attributes_penalties": [
+      "Player_Attributes",
+      "penalties"
+    ],
+    "Player_Attributes_marking": [
+      "Player_Attributes",
+      "marking"
+    ],
+    "Player_Attributes_standing_tackle": [
+      "Player_Attributes",
+      "standing_tackle"
+    ],
+    "Player_Attributes_sliding_tackle": [
+      "Player_Attributes",
+      "sliding_tackle"
+    ],
+    "Player_Attributes_gk_diving": [
+      "Player_Attributes",
+      "gk_diving"
+    ],
+    "Player_Attributes_gk_handling": [
+      "Player_Attributes",
+      "gk_handling"
+    ],
+    "Player_Attributes_gk_kicking": [
+      "Player_Attributes",
+      "gk_kicking"
+    ],
+    "Player_Attributes_gk_positioning": [
+      "Player_Attributes",
+      "gk_positioning"
+    ],
+    "Player_Attributes_gk_reflexes": [
+      "Player_Attributes",
+      "gk_reflexes"
+    ],
+    "sqlite_sequence_name": [
+      "sqlite_sequence",
+      "name"
+    ],
+    "sqlite_sequence_seq": [
+      "sqlite_sequence",
+      "seq"
+    ],
+    "Player_id": [
+      "Player",
+      "id"
+    ],
+    "Player_player_api_id": [
+      "Player",
+      "player_api_id"
+    ],
+    "Player_player_name": [
+      "Player",
+      "player_name"
+    ],
+    "Player_player_fifa_api_id": [
+      "Player",
+      "player_fifa_api_id"
+    ],
+    "Player_birthday": [
+      "Player",
+      "birthday"
+    ],
+    "Player_height": [
+      "Player",
+      "height"
+    ],
+    "Player_weight": [
+      "Player",
+      "weight"
+    ],
+    "League_id": [
+      "League",
+      "id"
+    ],
+    "League_country_id": [
+      "League",
+      "country_id"
+    ],
+    "League_name": [
+      "League",
+      "name"
+    ],
+    "Country_id": [
+      "Country",
+      "id"
+    ],
+    "Country_name": [
+      "Country",
+      "name"
+    ],
+    "Team_id": [
+      "Team",
+      "id"
+    ],
+    "Team_team_api_id": [
+      "Team",
+      "team_api_id"
+    ],
+    "Team_team_fifa_api_id": [
+      "Team",
+      "team_fifa_api_id"
+    ],
+    "Team_team_long_name": [
+      "Team",
+      "team_long_name"
+    ],
+    "Team_team_short_name": [
+      "Team",
+      "team_short_name"
+    ],
+    "Team_Attributes_id": [
+      "Team_Attributes",
+      "id"
+    ],
+    "Team_Attributes_team_fifa_api_id": [
+      "Team_Attributes",
+      "team_fifa_api_id"
+    ],
+    "Team_Attributes_team_api_id": [
+      "Team_Attributes",
+      "team_api_id"
+    ],
+    "Team_Attributes_date": [
+      "Team_Attributes",
+      "date"
+    ],
+    "Team_Attributes_buildUpPlaySpeed": [
+      "Team_Attributes",
+      "buildUpPlaySpeed"
+    ],
+    "Team_Attributes_buildUpPlaySpeedClass": [
+      "Team_Attributes",
+      "buildUpPlaySpeedClass"
+    ],
+    "Team_Attributes_buildUpPlayDribbling": [
+      "Team_Attributes",
+      "buildUpPlayDribbling"
+    ],
+    "Team_Attributes_buildUpPlayDribblingClass": [
+      "Team_Attributes",
+      "buildUpPlayDribblingClass"
+    ],
+    "Team_Attributes_buildUpPlayPassing": [
+      "Team_Attributes",
+      "buildUpPlayPassing"
+    ],
+    "Team_Attributes_buildUpPlayPassingClass": [
+      "Team_Attributes",
+      "buildUpPlayPassingClass"
+    ],
+    "Team_Attributes_buildUpPlayPositioningClass": [
+      "Team_Attributes",
+      "buildUpPlayPositioningClass"
+    ],
+    "Team_Attributes_chanceCreationPassing": [
+      "Team_Attributes",
+      "chanceCreationPassing"
+    ],
+    "Team_Attributes_chanceCreationPassingClass": [
+      "Team_Attributes",
+      "chanceCreationPassingClass"
+    ],
+    "Team_Attributes_chanceCreationCrossing": [
+      "Team_Attributes",
+      "chanceCreationCrossing"
+    ],
+    "Team_Attributes_chanceCreationCrossingClass": [
+      "Team_Attributes",
+      "chanceCreationCrossingClass"
+    ],
+    "Team_Attributes_chanceCreationShooting": [
+      "Team_Attributes",
+      "chanceCreationShooting"
+    ],
+    "Team_Attributes_chanceCreationShootingClass": [
+      "Team_Attributes",
+      "chanceCreationShootingClass"
+    ],
+    "Team_Attributes_chanceCreationPositioningClass": [
+      "Team_Attributes",
+      "chanceCreationPositioningClass"
+    ],
+    "Team_Attributes_defencePressure": [
+      "Team_Attributes",
+      "defencePressure"
+    ],
+    "Team_Attributes_defencePressureClass": [
+      "Team_Attributes",
+      "defencePressureClass"
+    ],
+    "Team_Attributes_defenceAggression": [
+      "Team_Attributes",
+      "defenceAggression"
+    ],
+    "Team_Attributes_defenceAggressionClass": [
+      "Team_Attributes",
+      "defenceAggressionClass"
+    ],
+    "Team_Attributes_defenceTeamWidth": [
+      "Team_Attributes",
+      "defenceTeamWidth"
+    ],
+    "Team_Attributes_defenceTeamWidthClass": [
+      "Team_Attributes",
+      "defenceTeamWidthClass"
+    ],
+    "Team_Attributes_defenceDefenderLineClass": [
+      "Team_Attributes",
+      "defenceDefenderLineClass"
+    ]
+  },
+  "object_property_fk": {
+    "Player_Attributes_Player_fk0": [
+      "Player_Attributes.player_api_id",
+      "Player.player_api_id"
+    ],
+    "Player_Attributes_Player_fk1": [
+      "Player_Attributes.player_fifa_api_id",
+      "Player.player_fifa_api_id"
+    ],
+    "League_Country_fk2": [
+      "League.country_id",
+      "Country.id"
+    ],
+    "Team_Attributes_Team_fk3": [
+      "Team_Attributes.team_api_id",
+      "Team.team_api_id"
+    ],
+    "Team_Attributes_Team_fk4": [
+      "Team_Attributes.team_fifa_api_id",
+      "Team.team_fifa_api_id"
+    ]
+  }
+}

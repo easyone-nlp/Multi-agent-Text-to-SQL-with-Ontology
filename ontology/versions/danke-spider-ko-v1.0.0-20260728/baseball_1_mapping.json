@@ -1,0 +1,1518 @@
+{
+  "class_table": {
+    "all_star": "all_star",
+    "appearances": "appearances",
+    "manager_award": "manager_award",
+    "player_award": "player_award",
+    "manager_award_vote": "manager_award_vote",
+    "player_award_vote": "player_award_vote",
+    "batting": "batting",
+    "batting_postseason": "batting_postseason",
+    "player_college": "player_college",
+    "fielding": "fielding",
+    "fielding_outfield": "fielding_outfield",
+    "fielding_postseason": "fielding_postseason",
+    "hall_of_fame": "hall_of_fame",
+    "home_game": "home_game",
+    "manager": "manager",
+    "manager_half": "manager_half",
+    "player": "player",
+    "park": "park",
+    "pitching": "pitching",
+    "pitching_postseason": "pitching_postseason",
+    "salary": "salary",
+    "college": "college",
+    "postseason": "postseason",
+    "team": "team",
+    "team_franchise": "team_franchise",
+    "team_half": "team_half"
+  },
+  "property_column": {
+    "all_star_player_id": [
+      "all_star",
+      "player_id"
+    ],
+    "all_star_year": [
+      "all_star",
+      "year"
+    ],
+    "all_star_game_num": [
+      "all_star",
+      "game_num"
+    ],
+    "all_star_game_id": [
+      "all_star",
+      "game_id"
+    ],
+    "all_star_team_id": [
+      "all_star",
+      "team_id"
+    ],
+    "all_star_league_id": [
+      "all_star",
+      "league_id"
+    ],
+    "all_star_gp": [
+      "all_star",
+      "gp"
+    ],
+    "all_star_starting_pos": [
+      "all_star",
+      "starting_pos"
+    ],
+    "appearances_year": [
+      "appearances",
+      "year"
+    ],
+    "appearances_team_id": [
+      "appearances",
+      "team_id"
+    ],
+    "appearances_league_id": [
+      "appearances",
+      "league_id"
+    ],
+    "appearances_player_id": [
+      "appearances",
+      "player_id"
+    ],
+    "appearances_g_all": [
+      "appearances",
+      "g_all"
+    ],
+    "appearances_gs": [
+      "appearances",
+      "gs"
+    ],
+    "appearances_g_batting": [
+      "appearances",
+      "g_batting"
+    ],
+    "appearances_g_defense": [
+      "appearances",
+      "g_defense"
+    ],
+    "appearances_g_p": [
+      "appearances",
+      "g_p"
+    ],
+    "appearances_g_c": [
+      "appearances",
+      "g_c"
+    ],
+    "appearances_g_1b": [
+      "appearances",
+      "g_1b"
+    ],
+    "appearances_g_2b": [
+      "appearances",
+      "g_2b"
+    ],
+    "appearances_g_3b": [
+      "appearances",
+      "g_3b"
+    ],
+    "appearances_g_ss": [
+      "appearances",
+      "g_ss"
+    ],
+    "appearances_g_lf": [
+      "appearances",
+      "g_lf"
+    ],
+    "appearances_g_cf": [
+      "appearances",
+      "g_cf"
+    ],
+    "appearances_g_rf": [
+      "appearances",
+      "g_rf"
+    ],
+    "appearances_g_of": [
+      "appearances",
+      "g_of"
+    ],
+    "appearances_g_dh": [
+      "appearances",
+      "g_dh"
+    ],
+    "appearances_g_ph": [
+      "appearances",
+      "g_ph"
+    ],
+    "appearances_g_pr": [
+      "appearances",
+      "g_pr"
+    ],
+    "manager_award_player_id": [
+      "manager_award",
+      "player_id"
+    ],
+    "manager_award_award_id": [
+      "manager_award",
+      "award_id"
+    ],
+    "manager_award_year": [
+      "manager_award",
+      "year"
+    ],
+    "manager_award_league_id": [
+      "manager_award",
+      "league_id"
+    ],
+    "manager_award_tie": [
+      "manager_award",
+      "tie"
+    ],
+    "manager_award_notes": [
+      "manager_award",
+      "notes"
+    ],
+    "player_award_player_id": [
+      "player_award",
+      "player_id"
+    ],
+    "player_award_award_id": [
+      "player_award",
+      "award_id"
+    ],
+    "player_award_year": [
+      "player_award",
+      "year"
+    ],
+    "player_award_league_id": [
+      "player_award",
+      "league_id"
+    ],
+    "player_award_tie": [
+      "player_award",
+      "tie"
+    ],
+    "player_award_notes": [
+      "player_award",
+      "notes"
+    ],
+    "manager_award_vote_award_id": [
+      "manager_award_vote",
+      "award_id"
+    ],
+    "manager_award_vote_year": [
+      "manager_award_vote",
+      "year"
+    ],
+    "manager_award_vote_league_id": [
+      "manager_award_vote",
+      "league_id"
+    ],
+    "manager_award_vote_player_id": [
+      "manager_award_vote",
+      "player_id"
+    ],
+    "manager_award_vote_points_won": [
+      "manager_award_vote",
+      "points_won"
+    ],
+    "manager_award_vote_points_max": [
+      "manager_award_vote",
+      "points_max"
+    ],
+    "manager_award_vote_votes_first": [
+      "manager_award_vote",
+      "votes_first"
+    ],
+    "player_award_vote_award_id": [
+      "player_award_vote",
+      "award_id"
+    ],
+    "player_award_vote_year": [
+      "player_award_vote",
+      "year"
+    ],
+    "player_award_vote_league_id": [
+      "player_award_vote",
+      "league_id"
+    ],
+    "player_award_vote_player_id": [
+      "player_award_vote",
+      "player_id"
+    ],
+    "player_award_vote_points_won": [
+      "player_award_vote",
+      "points_won"
+    ],
+    "player_award_vote_points_max": [
+      "player_award_vote",
+      "points_max"
+    ],
+    "player_award_vote_votes_first": [
+      "player_award_vote",
+      "votes_first"
+    ],
+    "batting_player_id": [
+      "batting",
+      "player_id"
+    ],
+    "batting_year": [
+      "batting",
+      "year"
+    ],
+    "batting_stint": [
+      "batting",
+      "stint"
+    ],
+    "batting_team_id": [
+      "batting",
+      "team_id"
+    ],
+    "batting_league_id": [
+      "batting",
+      "league_id"
+    ],
+    "batting_g": [
+      "batting",
+      "g"
+    ],
+    "batting_ab": [
+      "batting",
+      "ab"
+    ],
+    "batting_r": [
+      "batting",
+      "r"
+    ],
+    "batting_h": [
+      "batting",
+      "h"
+    ],
+    "batting_double": [
+      "batting",
+      "double"
+    ],
+    "batting_triple": [
+      "batting",
+      "triple"
+    ],
+    "batting_hr": [
+      "batting",
+      "hr"
+    ],
+    "batting_rbi": [
+      "batting",
+      "rbi"
+    ],
+    "batting_sb": [
+      "batting",
+      "sb"
+    ],
+    "batting_cs": [
+      "batting",
+      "cs"
+    ],
+    "batting_bb": [
+      "batting",
+      "bb"
+    ],
+    "batting_so": [
+      "batting",
+      "so"
+    ],
+    "batting_ibb": [
+      "batting",
+      "ibb"
+    ],
+    "batting_hbp": [
+      "batting",
+      "hbp"
+    ],
+    "batting_sh": [
+      "batting",
+      "sh"
+    ],
+    "batting_sf": [
+      "batting",
+      "sf"
+    ],
+    "batting_g_idp": [
+      "batting",
+      "g_idp"
+    ],
+    "batting_postseason_year": [
+      "batting_postseason",
+      "year"
+    ],
+    "batting_postseason_round": [
+      "batting_postseason",
+      "round"
+    ],
+    "batting_postseason_player_id": [
+      "batting_postseason",
+      "player_id"
+    ],
+    "batting_postseason_team_id": [
+      "batting_postseason",
+      "team_id"
+    ],
+    "batting_postseason_league_id": [
+      "batting_postseason",
+      "league_id"
+    ],
+    "batting_postseason_g": [
+      "batting_postseason",
+      "g"
+    ],
+    "batting_postseason_ab": [
+      "batting_postseason",
+      "ab"
+    ],
+    "batting_postseason_r": [
+      "batting_postseason",
+      "r"
+    ],
+    "batting_postseason_h": [
+      "batting_postseason",
+      "h"
+    ],
+    "batting_postseason_double": [
+      "batting_postseason",
+      "double"
+    ],
+    "batting_postseason_triple": [
+      "batting_postseason",
+      "triple"
+    ],
+    "batting_postseason_hr": [
+      "batting_postseason",
+      "hr"
+    ],
+    "batting_postseason_rbi": [
+      "batting_postseason",
+      "rbi"
+    ],
+    "batting_postseason_sb": [
+      "batting_postseason",
+      "sb"
+    ],
+    "batting_postseason_cs": [
+      "batting_postseason",
+      "cs"
+    ],
+    "batting_postseason_bb": [
+      "batting_postseason",
+      "bb"
+    ],
+    "batting_postseason_so": [
+      "batting_postseason",
+      "so"
+    ],
+    "batting_postseason_ibb": [
+      "batting_postseason",
+      "ibb"
+    ],
+    "batting_postseason_hbp": [
+      "batting_postseason",
+      "hbp"
+    ],
+    "batting_postseason_sh": [
+      "batting_postseason",
+      "sh"
+    ],
+    "batting_postseason_sf": [
+      "batting_postseason",
+      "sf"
+    ],
+    "batting_postseason_g_idp": [
+      "batting_postseason",
+      "g_idp"
+    ],
+    "player_college_player_id": [
+      "player_college",
+      "player_id"
+    ],
+    "player_college_college_id": [
+      "player_college",
+      "college_id"
+    ],
+    "player_college_year": [
+      "player_college",
+      "year"
+    ],
+    "fielding_player_id": [
+      "fielding",
+      "player_id"
+    ],
+    "fielding_year": [
+      "fielding",
+      "year"
+    ],
+    "fielding_stint": [
+      "fielding",
+      "stint"
+    ],
+    "fielding_team_id": [
+      "fielding",
+      "team_id"
+    ],
+    "fielding_league_id": [
+      "fielding",
+      "league_id"
+    ],
+    "fielding_pos": [
+      "fielding",
+      "pos"
+    ],
+    "fielding_g": [
+      "fielding",
+      "g"
+    ],
+    "fielding_gs": [
+      "fielding",
+      "gs"
+    ],
+    "fielding_inn_outs": [
+      "fielding",
+      "inn_outs"
+    ],
+    "fielding_po": [
+      "fielding",
+      "po"
+    ],
+    "fielding_a": [
+      "fielding",
+      "a"
+    ],
+    "fielding_e": [
+      "fielding",
+      "e"
+    ],
+    "fielding_dp": [
+      "fielding",
+      "dp"
+    ],
+    "fielding_pb": [
+      "fielding",
+      "pb"
+    ],
+    "fielding_wp": [
+      "fielding",
+      "wp"
+    ],
+    "fielding_sb": [
+      "fielding",
+      "sb"
+    ],
+    "fielding_cs": [
+      "fielding",
+      "cs"
+    ],
+    "fielding_zr": [
+      "fielding",
+      "zr"
+    ],
+    "fielding_outfield_player_id": [
+      "fielding_outfield",
+      "player_id"
+    ],
+    "fielding_outfield_year": [
+      "fielding_outfield",
+      "year"
+    ],
+    "fielding_outfield_stint": [
+      "fielding_outfield",
+      "stint"
+    ],
+    "fielding_outfield_glf": [
+      "fielding_outfield",
+      "glf"
+    ],
+    "fielding_outfield_gcf": [
+      "fielding_outfield",
+      "gcf"
+    ],
+    "fielding_outfield_grf": [
+      "fielding_outfield",
+      "grf"
+    ],
+    "fielding_postseason_player_id": [
+      "fielding_postseason",
+      "player_id"
+    ],
+    "fielding_postseason_year": [
+      "fielding_postseason",
+      "year"
+    ],
+    "fielding_postseason_team_id": [
+      "fielding_postseason",
+      "team_id"
+    ],
+    "fielding_postseason_league_id": [
+      "fielding_postseason",
+      "league_id"
+    ],
+    "fielding_postseason_round": [
+      "fielding_postseason",
+      "round"
+    ],
+    "fielding_postseason_pos": [
+      "fielding_postseason",
+      "pos"
+    ],
+    "fielding_postseason_g": [
+      "fielding_postseason",
+      "g"
+    ],
+    "fielding_postseason_gs": [
+      "fielding_postseason",
+      "gs"
+    ],
+    "fielding_postseason_inn_outs": [
+      "fielding_postseason",
+      "inn_outs"
+    ],
+    "fielding_postseason_po": [
+      "fielding_postseason",
+      "po"
+    ],
+    "fielding_postseason_a": [
+      "fielding_postseason",
+      "a"
+    ],
+    "fielding_postseason_e": [
+      "fielding_postseason",
+      "e"
+    ],
+    "fielding_postseason_dp": [
+      "fielding_postseason",
+      "dp"
+    ],
+    "fielding_postseason_tp": [
+      "fielding_postseason",
+      "tp"
+    ],
+    "fielding_postseason_pb": [
+      "fielding_postseason",
+      "pb"
+    ],
+    "fielding_postseason_sb": [
+      "fielding_postseason",
+      "sb"
+    ],
+    "fielding_postseason_cs": [
+      "fielding_postseason",
+      "cs"
+    ],
+    "hall_of_fame_player_id": [
+      "hall_of_fame",
+      "player_id"
+    ],
+    "hall_of_fame_yearid": [
+      "hall_of_fame",
+      "yearid"
+    ],
+    "hall_of_fame_votedby": [
+      "hall_of_fame",
+      "votedby"
+    ],
+    "hall_of_fame_ballots": [
+      "hall_of_fame",
+      "ballots"
+    ],
+    "hall_of_fame_needed": [
+      "hall_of_fame",
+      "needed"
+    ],
+    "hall_of_fame_votes": [
+      "hall_of_fame",
+      "votes"
+    ],
+    "hall_of_fame_inducted": [
+      "hall_of_fame",
+      "inducted"
+    ],
+    "hall_of_fame_category": [
+      "hall_of_fame",
+      "category"
+    ],
+    "hall_of_fame_needed_note": [
+      "hall_of_fame",
+      "needed_note"
+    ],
+    "home_game_year": [
+      "home_game",
+      "year"
+    ],
+    "home_game_league_id": [
+      "home_game",
+      "league_id"
+    ],
+    "home_game_team_id": [
+      "home_game",
+      "team_id"
+    ],
+    "home_game_park_id": [
+      "home_game",
+      "park_id"
+    ],
+    "home_game_span_first": [
+      "home_game",
+      "span_first"
+    ],
+    "home_game_span_last": [
+      "home_game",
+      "span_last"
+    ],
+    "home_game_games": [
+      "home_game",
+      "games"
+    ],
+    "home_game_openings": [
+      "home_game",
+      "openings"
+    ],
+    "home_game_attendance": [
+      "home_game",
+      "attendance"
+    ],
+    "manager_player_id": [
+      "manager",
+      "player_id"
+    ],
+    "manager_year": [
+      "manager",
+      "year"
+    ],
+    "manager_team_id": [
+      "manager",
+      "team_id"
+    ],
+    "manager_league_id": [
+      "manager",
+      "league_id"
+    ],
+    "manager_inseason": [
+      "manager",
+      "inseason"
+    ],
+    "manager_g": [
+      "manager",
+      "g"
+    ],
+    "manager_w": [
+      "manager",
+      "w"
+    ],
+    "manager_l": [
+      "manager",
+      "l"
+    ],
+    "manager_rank": [
+      "manager",
+      "rank"
+    ],
+    "manager_plyr_mgr": [
+      "manager",
+      "plyr_mgr"
+    ],
+    "manager_half_player_id": [
+      "manager_half",
+      "player_id"
+    ],
+    "manager_half_year": [
+      "manager_half",
+      "year"
+    ],
+    "manager_half_team_id": [
+      "manager_half",
+      "team_id"
+    ],
+    "manager_half_league_id": [
+      "manager_half",
+      "league_id"
+    ],
+    "manager_half_inseason": [
+      "manager_half",
+      "inseason"
+    ],
+    "manager_half_half": [
+      "manager_half",
+      "half"
+    ],
+    "manager_half_g": [
+      "manager_half",
+      "g"
+    ],
+    "manager_half_w": [
+      "manager_half",
+      "w"
+    ],
+    "manager_half_l": [
+      "manager_half",
+      "l"
+    ],
+    "manager_half_rank": [
+      "manager_half",
+      "rank"
+    ],
+    "player_player_id": [
+      "player",
+      "player_id"
+    ],
+    "player_birth_year": [
+      "player",
+      "birth_year"
+    ],
+    "player_birth_month": [
+      "player",
+      "birth_month"
+    ],
+    "player_birth_day": [
+      "player",
+      "birth_day"
+    ],
+    "player_birth_country": [
+      "player",
+      "birth_country"
+    ],
+    "player_birth_state": [
+      "player",
+      "birth_state"
+    ],
+    "player_birth_city": [
+      "player",
+      "birth_city"
+    ],
+    "player_death_year": [
+      "player",
+      "death_year"
+    ],
+    "player_death_month": [
+      "player",
+      "death_month"
+    ],
+    "player_death_day": [
+      "player",
+      "death_day"
+    ],
+    "player_death_country": [
+      "player",
+      "death_country"
+    ],
+    "player_death_state": [
+      "player",
+      "death_state"
+    ],
+    "player_death_city": [
+      "player",
+      "death_city"
+    ],
+    "player_name_first": [
+      "player",
+      "name_first"
+    ],
+    "player_name_last": [
+      "player",
+      "name_last"
+    ],
+    "player_name_given": [
+      "player",
+      "name_given"
+    ],
+    "player_weight": [
+      "player",
+      "weight"
+    ],
+    "player_height": [
+      "player",
+      "height"
+    ],
+    "player_bats": [
+      "player",
+      "bats"
+    ],
+    "player_throws": [
+      "player",
+      "throws"
+    ],
+    "player_debut": [
+      "player",
+      "debut"
+    ],
+    "player_final_game": [
+      "player",
+      "final_game"
+    ],
+    "player_retro_id": [
+      "player",
+      "retro_id"
+    ],
+    "player_bbref_id": [
+      "player",
+      "bbref_id"
+    ],
+    "park_park_id": [
+      "park",
+      "park_id"
+    ],
+    "park_park_name": [
+      "park",
+      "park_name"
+    ],
+    "park_park_alias": [
+      "park",
+      "park_alias"
+    ],
+    "park_city": [
+      "park",
+      "city"
+    ],
+    "park_state": [
+      "park",
+      "state"
+    ],
+    "park_country": [
+      "park",
+      "country"
+    ],
+    "pitching_player_id": [
+      "pitching",
+      "player_id"
+    ],
+    "pitching_year": [
+      "pitching",
+      "year"
+    ],
+    "pitching_stint": [
+      "pitching",
+      "stint"
+    ],
+    "pitching_team_id": [
+      "pitching",
+      "team_id"
+    ],
+    "pitching_league_id": [
+      "pitching",
+      "league_id"
+    ],
+    "pitching_w": [
+      "pitching",
+      "w"
+    ],
+    "pitching_l": [
+      "pitching",
+      "l"
+    ],
+    "pitching_g": [
+      "pitching",
+      "g"
+    ],
+    "pitching_gs": [
+      "pitching",
+      "gs"
+    ],
+    "pitching_cg": [
+      "pitching",
+      "cg"
+    ],
+    "pitching_sho": [
+      "pitching",
+      "sho"
+    ],
+    "pitching_sv": [
+      "pitching",
+      "sv"
+    ],
+    "pitching_ipouts": [
+      "pitching",
+      "ipouts"
+    ],
+    "pitching_h": [
+      "pitching",
+      "h"
+    ],
+    "pitching_er": [
+      "pitching",
+      "er"
+    ],
+    "pitching_hr": [
+      "pitching",
+      "hr"
+    ],
+    "pitching_bb": [
+      "pitching",
+      "bb"
+    ],
+    "pitching_so": [
+      "pitching",
+      "so"
+    ],
+    "pitching_baopp": [
+      "pitching",
+      "baopp"
+    ],
+    "pitching_era": [
+      "pitching",
+      "era"
+    ],
+    "pitching_ibb": [
+      "pitching",
+      "ibb"
+    ],
+    "pitching_wp": [
+      "pitching",
+      "wp"
+    ],
+    "pitching_hbp": [
+      "pitching",
+      "hbp"
+    ],
+    "pitching_bk": [
+      "pitching",
+      "bk"
+    ],
+    "pitching_bfp": [
+      "pitching",
+      "bfp"
+    ],
+    "pitching_gf": [
+      "pitching",
+      "gf"
+    ],
+    "pitching_r": [
+      "pitching",
+      "r"
+    ],
+    "pitching_sh": [
+      "pitching",
+      "sh"
+    ],
+    "pitching_sf": [
+      "pitching",
+      "sf"
+    ],
+    "pitching_g_idp": [
+      "pitching",
+      "g_idp"
+    ],
+    "pitching_postseason_player_id": [
+      "pitching_postseason",
+      "player_id"
+    ],
+    "pitching_postseason_year": [
+      "pitching_postseason",
+      "year"
+    ],
+    "pitching_postseason_round": [
+      "pitching_postseason",
+      "round"
+    ],
+    "pitching_postseason_team_id": [
+      "pitching_postseason",
+      "team_id"
+    ],
+    "pitching_postseason_league_id": [
+      "pitching_postseason",
+      "league_id"
+    ],
+    "pitching_postseason_w": [
+      "pitching_postseason",
+      "w"
+    ],
+    "pitching_postseason_l": [
+      "pitching_postseason",
+      "l"
+    ],
+    "pitching_postseason_g": [
+      "pitching_postseason",
+      "g"
+    ],
+    "pitching_postseason_gs": [
+      "pitching_postseason",
+      "gs"
+    ],
+    "pitching_postseason_cg": [
+      "pitching_postseason",
+      "cg"
+    ],
+    "pitching_postseason_sho": [
+      "pitching_postseason",
+      "sho"
+    ],
+    "pitching_postseason_sv": [
+      "pitching_postseason",
+      "sv"
+    ],
+    "pitching_postseason_ipouts": [
+      "pitching_postseason",
+      "ipouts"
+    ],
+    "pitching_postseason_h": [
+      "pitching_postseason",
+      "h"
+    ],
+    "pitching_postseason_er": [
+      "pitching_postseason",
+      "er"
+    ],
+    "pitching_postseason_hr": [
+      "pitching_postseason",
+      "hr"
+    ],
+    "pitching_postseason_bb": [
+      "pitching_postseason",
+      "bb"
+    ],
+    "pitching_postseason_so": [
+      "pitching_postseason",
+      "so"
+    ],
+    "pitching_postseason_baopp": [
+      "pitching_postseason",
+      "baopp"
+    ],
+    "pitching_postseason_era": [
+      "pitching_postseason",
+      "era"
+    ],
+    "pitching_postseason_ibb": [
+      "pitching_postseason",
+      "ibb"
+    ],
+    "pitching_postseason_wp": [
+      "pitching_postseason",
+      "wp"
+    ],
+    "pitching_postseason_hbp": [
+      "pitching_postseason",
+      "hbp"
+    ],
+    "pitching_postseason_bk": [
+      "pitching_postseason",
+      "bk"
+    ],
+    "pitching_postseason_bfp": [
+      "pitching_postseason",
+      "bfp"
+    ],
+    "pitching_postseason_gf": [
+      "pitching_postseason",
+      "gf"
+    ],
+    "pitching_postseason_r": [
+      "pitching_postseason",
+      "r"
+    ],
+    "pitching_postseason_sh": [
+      "pitching_postseason",
+      "sh"
+    ],
+    "pitching_postseason_sf": [
+      "pitching_postseason",
+      "sf"
+    ],
+    "pitching_postseason_g_idp": [
+      "pitching_postseason",
+      "g_idp"
+    ],
+    "salary_year": [
+      "salary",
+      "year"
+    ],
+    "salary_team_id": [
+      "salary",
+      "team_id"
+    ],
+    "salary_league_id": [
+      "salary",
+      "league_id"
+    ],
+    "salary_player_id": [
+      "salary",
+      "player_id"
+    ],
+    "salary_salary": [
+      "salary",
+      "salary"
+    ],
+    "college_college_id": [
+      "college",
+      "college_id"
+    ],
+    "college_name_full": [
+      "college",
+      "name_full"
+    ],
+    "college_city": [
+      "college",
+      "city"
+    ],
+    "college_state": [
+      "college",
+      "state"
+    ],
+    "college_country": [
+      "college",
+      "country"
+    ],
+    "postseason_year": [
+      "postseason",
+      "year"
+    ],
+    "postseason_round": [
+      "postseason",
+      "round"
+    ],
+    "postseason_team_id_winner": [
+      "postseason",
+      "team_id_winner"
+    ],
+    "postseason_league_id_winner": [
+      "postseason",
+      "league_id_winner"
+    ],
+    "postseason_team_id_loser": [
+      "postseason",
+      "team_id_loser"
+    ],
+    "postseason_league_id_loser": [
+      "postseason",
+      "league_id_loser"
+    ],
+    "postseason_wins": [
+      "postseason",
+      "wins"
+    ],
+    "postseason_losses": [
+      "postseason",
+      "losses"
+    ],
+    "postseason_ties": [
+      "postseason",
+      "ties"
+    ],
+    "team_year": [
+      "team",
+      "year"
+    ],
+    "team_league_id": [
+      "team",
+      "league_id"
+    ],
+    "team_team_id": [
+      "team",
+      "team_id"
+    ],
+    "team_franchise_id": [
+      "team",
+      "franchise_id"
+    ],
+    "team_div_id": [
+      "team",
+      "div_id"
+    ],
+    "team_rank": [
+      "team",
+      "rank"
+    ],
+    "team_g": [
+      "team",
+      "g"
+    ],
+    "team_ghome": [
+      "team",
+      "ghome"
+    ],
+    "team_w": [
+      "team",
+      "w"
+    ],
+    "team_l": [
+      "team",
+      "l"
+    ],
+    "team_div_win": [
+      "team",
+      "div_win"
+    ],
+    "team_wc_win": [
+      "team",
+      "wc_win"
+    ],
+    "team_lg_win": [
+      "team",
+      "lg_win"
+    ],
+    "team_ws_win": [
+      "team",
+      "ws_win"
+    ],
+    "team_r": [
+      "team",
+      "r"
+    ],
+    "team_ab": [
+      "team",
+      "ab"
+    ],
+    "team_h": [
+      "team",
+      "h"
+    ],
+    "team_double": [
+      "team",
+      "double"
+    ],
+    "team_triple": [
+      "team",
+      "triple"
+    ],
+    "team_hr": [
+      "team",
+      "hr"
+    ],
+    "team_bb": [
+      "team",
+      "bb"
+    ],
+    "team_so": [
+      "team",
+      "so"
+    ],
+    "team_sb": [
+      "team",
+      "sb"
+    ],
+    "team_cs": [
+      "team",
+      "cs"
+    ],
+    "team_hbp": [
+      "team",
+      "hbp"
+    ],
+    "team_sf": [
+      "team",
+      "sf"
+    ],
+    "team_ra": [
+      "team",
+      "ra"
+    ],
+    "team_er": [
+      "team",
+      "er"
+    ],
+    "team_era": [
+      "team",
+      "era"
+    ],
+    "team_cg": [
+      "team",
+      "cg"
+    ],
+    "team_sho": [
+      "team",
+      "sho"
+    ],
+    "team_sv": [
+      "team",
+      "sv"
+    ],
+    "team_ipouts": [
+      "team",
+      "ipouts"
+    ],
+    "team_ha": [
+      "team",
+      "ha"
+    ],
+    "team_hra": [
+      "team",
+      "hra"
+    ],
+    "team_bba": [
+      "team",
+      "bba"
+    ],
+    "team_soa": [
+      "team",
+      "soa"
+    ],
+    "team_e": [
+      "team",
+      "e"
+    ],
+    "team_dp": [
+      "team",
+      "dp"
+    ],
+    "team_fp": [
+      "team",
+      "fp"
+    ],
+    "team_name": [
+      "team",
+      "name"
+    ],
+    "team_park": [
+      "team",
+      "park"
+    ],
+    "team_attendance": [
+      "team",
+      "attendance"
+    ],
+    "team_bpf": [
+      "team",
+      "bpf"
+    ],
+    "team_ppf": [
+      "team",
+      "ppf"
+    ],
+    "team_team_id_br": [
+      "team",
+      "team_id_br"
+    ],
+    "team_team_id_lahman45": [
+      "team",
+      "team_id_lahman45"
+    ],
+    "team_team_id_retro": [
+      "team",
+      "team_id_retro"
+    ],
+    "team_franchise_franchise_id": [
+      "team_franchise",
+      "franchise_id"
+    ],
+    "team_franchise_franchise_name": [
+      "team_franchise",
+      "franchise_name"
+    ],
+    "team_franchise_active": [
+      "team_franchise",
+      "active"
+    ],
+    "team_franchise_na_assoc": [
+      "team_franchise",
+      "na_assoc"
+    ],
+    "team_half_year": [
+      "team_half",
+      "year"
+    ],
+    "team_half_league_id": [
+      "team_half",
+      "league_id"
+    ],
+    "team_half_team_id": [
+      "team_half",
+      "team_id"
+    ],
+    "team_half_half": [
+      "team_half",
+      "half"
+    ],
+    "team_half_div_id": [
+      "team_half",
+      "div_id"
+    ],
+    "team_half_div_win": [
+      "team_half",
+      "div_win"
+    ],
+    "team_half_rank": [
+      "team_half",
+      "rank"
+    ],
+    "team_half_g": [
+      "team_half",
+      "g"
+    ],
+    "team_half_w": [
+      "team_half",
+      "w"
+    ],
+    "team_half_l": [
+      "team_half",
+      "l"
+    ]
+  },
+  "object_property_fk": {
+    "all_star_player_fk0": [
+      "all_star.player_id",
+      "player.player_id"
+    ],
+    "appearances_player_fk1": [
+      "appearances.player_id",
+      "player.player_id"
+    ],
+    "appearances_team_fk2": [
+      "appearances.team_id",
+      "team.team_id"
+    ],
+    "manager_award_player_fk3": [
+      "manager_award.player_id",
+      "player.player_id"
+    ],
+    "player_award_player_fk4": [
+      "player_award.player_id",
+      "player.player_id"
+    ],
+    "player_award_vote_player_fk5": [
+      "player_award_vote.player_id",
+      "player.player_id"
+    ],
+    "batting_player_fk6": [
+      "batting.player_id",
+      "player.player_id"
+    ],
+    "batting_postseason_team_fk7": [
+      "batting_postseason.team_id",
+      "team.team_id"
+    ],
+    "batting_postseason_player_fk8": [
+      "batting_postseason.player_id",
+      "player.player_id"
+    ],
+    "player_college_college_fk9": [
+      "player_college.college_id",
+      "college.college_id"
+    ],
+    "player_college_player_fk10": [
+      "player_college.player_id",
+      "player.player_id"
+    ],
+    "fielding_player_fk11": [
+      "fielding.player_id",
+      "player.player_id"
+    ],
+    "fielding_outfield_player_fk12": [
+      "fielding_outfield.player_id",
+      "player.player_id"
+    ],
+    "fielding_postseason_player_fk13": [
+      "fielding_postseason.player_id",
+      "player.player_id"
+    ],
+    "hall_of_fame_player_fk14": [
+      "hall_of_fame.player_id",
+      "player.player_id"
+    ],
+    "home_game_park_fk15": [
+      "home_game.park_id",
+      "park.park_id"
+    ],
+    "home_game_team_fk16": [
+      "home_game.team_id",
+      "team.team_id"
+    ],
+    "manager_team_fk17": [
+      "manager.team_id",
+      "team.team_id"
+    ],
+    "manager_half_team_fk18": [
+      "manager_half.team_id",
+      "team.team_id"
+    ]
+  }
+}

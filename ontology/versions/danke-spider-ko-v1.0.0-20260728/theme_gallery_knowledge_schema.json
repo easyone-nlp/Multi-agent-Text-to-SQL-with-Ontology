@@ -1,0 +1,363 @@
+{
+  "db_id": "theme_gallery",
+  "classes": [
+    {
+      "name": "artist",
+      "source_table": "artist",
+      "ranking": 3.0,
+      "primary_label": "가수",
+      "synonyms": [
+        "예술가",
+        "작가",
+        "미술가",
+        "작품 제작자",
+        "예술인"
+      ]
+    },
+    {
+      "name": "exhibition",
+      "source_table": "exhibition",
+      "ranking": 3.0,
+      "primary_label": "전시",
+      "synonyms": [
+        "전시",
+        "전시회",
+        "전시 행사",
+        "전시 기획",
+        "전시 프로그램",
+        "전시 운영"
+      ]
+    },
+    {
+      "name": "exhibition_record",
+      "source_table": "exhibition_record",
+      "ranking": 3.0,
+      "primary_label": "exhibition record",
+      "synonyms": [
+        "전시 기록",
+        "전시 기록서",
+        "전시 기록 데이터",
+        "전시 기록 정보",
+        "전시 기록 사항",
+        "전시 기록 내역"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "artist_Artist_ID",
+      "domain": "artist",
+      "source_table": "artist",
+      "source_column": "Artist_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "artist id",
+      "synonyms": [
+        "아티스트 ID",
+        "아티스트 고유 ID",
+        "예술가 ID",
+        "아티스트 번호",
+        "Artist_ID",
+        "아티스트 식별자",
+        "예술가 식별 번호",
+        "아티스트 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "artist_Name",
+      "domain": "artist",
+      "source_table": "artist",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "artist_Country",
+      "domain": "artist",
+      "source_table": "artist",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "country",
+      "synonyms": [
+        "국가",
+        "나라",
+        "국적",
+        "국가 정보",
+        "국가명",
+        "국가 코드",
+        "국가별"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "artist_Year_Join",
+      "domain": "artist",
+      "source_table": "artist",
+      "source_column": "Year_Join",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year join",
+      "synonyms": [
+        "년도",
+        "입장 연도",
+        "활동 시작년도",
+        "연도 정보",
+        "입력 연도",
+        "가수 활동 연도",
+        "년도 정보",
+        "년도 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "artist_Age",
+      "domain": "artist",
+      "source_table": "artist",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "연령",
+        "나이",
+        "연령 정보",
+        "나이 데이터",
+        "연령 수치",
+        "나이 정보",
+        "연령 값",
+        "나이 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "exhibition_Exhibition_ID",
+      "domain": "exhibition",
+      "source_table": "exhibition",
+      "source_column": "Exhibition_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "전시 id",
+      "synonyms": [
+        "전시 ID",
+        "전시 식별 번호",
+        "전시 번호",
+        "전시 고유 ID",
+        "전시 식별자",
+        "Exhibition_ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "exhibition_Year",
+      "domain": "exhibition",
+      "source_table": "exhibition",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년",
+      "synonyms": [
+        "연도",
+        "전시 연도",
+        "년도",
+        "전시 년도",
+        "Year"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": [
+          "2020년"
+        ]
+      }
+    },
+    {
+      "name": "exhibition_Theme",
+      "domain": "exhibition",
+      "source_table": "exhibition",
+      "source_column": "Theme",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "주제",
+      "synonyms": [
+        "주제",
+        "전시 주제",
+        "테마",
+        "전시 테마",
+        "주제명",
+        "Theme"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "현대미술": [
+          "현대미술"
+        ],
+        "전통예술": [
+          "전통예술"
+        ]
+      }
+    },
+    {
+      "name": "exhibition_Artist_ID",
+      "domain": "exhibition",
+      "source_table": "exhibition",
+      "source_column": "Artist_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "예술가 id",
+      "synonyms": [
+        "Artist_ID",
+        "예술가 ID",
+        "작가 ID",
+        "예술가 식별자",
+        "Artist"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "exhibition_Ticket_Price",
+      "domain": "exhibition",
+      "source_table": "exhibition",
+      "source_column": "Ticket_Price",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "티켓 가격",
+      "synonyms": [
+        "Ticket_Price",
+        "티켓 가격",
+        "입장료",
+        "티켓 요금",
+        "가격",
+        "티켓 비용",
+        "요금"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "exhibition_record_Exhibition_ID",
+      "domain": "exhibition_record",
+      "source_table": "exhibition_record",
+      "source_column": "Exhibition_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "exhibition id",
+      "synonyms": [
+        "전시 ID",
+        "전시 번호",
+        "전시 식별자",
+        "전시 고유 번호",
+        "전시 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "exhibition_record_Date",
+      "domain": "exhibition_record",
+      "source_table": "exhibition_record",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "date",
+      "synonyms": [
+        "날짜",
+        "일자",
+        "전시 일자",
+        "전시 날짜",
+        "일",
+        "일정",
+        "일자 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-01": [
+          "2023년 10월 1일"
+        ]
+      }
+    },
+    {
+      "name": "exhibition_record_Attendance",
+      "domain": "exhibition_record",
+      "source_table": "exhibition_record",
+      "source_column": "Attendance",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "attendance",
+      "synonyms": [
+        "참석 인원",
+        "인원 수",
+        "참석자 수",
+        "인원",
+        "참석 인원 수",
+        "참석자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "exhibition_artist_fk0",
+      "domain": "exhibition",
+      "range": "artist",
+      "source_fk": [
+        "exhibition.Artist_ID",
+        "artist.Artist_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "exhibition_record_exhibition_fk1",
+      "domain": "exhibition_record",
+      "range": "exhibition",
+      "source_fk": [
+        "exhibition_record.Exhibition_ID",
+        "exhibition.Exhibition_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참여",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

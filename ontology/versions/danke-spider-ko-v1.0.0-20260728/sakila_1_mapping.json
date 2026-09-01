@@ -1,0 +1,464 @@
+{
+  "class_table": {
+    "actor": "actor",
+    "address": "address",
+    "category": "category",
+    "city": "city",
+    "country": "country",
+    "customer": "customer",
+    "film": "film",
+    "film_actor": "film_actor",
+    "film_category": "film_category",
+    "film_text": "film_text",
+    "inventory": "inventory",
+    "language": "language",
+    "payment": "payment",
+    "rental": "rental",
+    "staff": "staff",
+    "store": "store"
+  },
+  "property_column": {
+    "actor_actor_id": [
+      "actor",
+      "actor_id"
+    ],
+    "actor_first_name": [
+      "actor",
+      "first_name"
+    ],
+    "actor_last_name": [
+      "actor",
+      "last_name"
+    ],
+    "actor_last_update": [
+      "actor",
+      "last_update"
+    ],
+    "address_address_id": [
+      "address",
+      "address_id"
+    ],
+    "address_address": [
+      "address",
+      "address"
+    ],
+    "address_address2": [
+      "address",
+      "address2"
+    ],
+    "address_district": [
+      "address",
+      "district"
+    ],
+    "address_city_id": [
+      "address",
+      "city_id"
+    ],
+    "address_postal_code": [
+      "address",
+      "postal_code"
+    ],
+    "address_phone": [
+      "address",
+      "phone"
+    ],
+    "address_last_update": [
+      "address",
+      "last_update"
+    ],
+    "category_category_id": [
+      "category",
+      "category_id"
+    ],
+    "category_name": [
+      "category",
+      "name"
+    ],
+    "category_last_update": [
+      "category",
+      "last_update"
+    ],
+    "city_city_id": [
+      "city",
+      "city_id"
+    ],
+    "city_city": [
+      "city",
+      "city"
+    ],
+    "city_country_id": [
+      "city",
+      "country_id"
+    ],
+    "city_last_update": [
+      "city",
+      "last_update"
+    ],
+    "country_country_id": [
+      "country",
+      "country_id"
+    ],
+    "country_country": [
+      "country",
+      "country"
+    ],
+    "country_last_update": [
+      "country",
+      "last_update"
+    ],
+    "customer_customer_id": [
+      "customer",
+      "customer_id"
+    ],
+    "customer_store_id": [
+      "customer",
+      "store_id"
+    ],
+    "customer_first_name": [
+      "customer",
+      "first_name"
+    ],
+    "customer_last_name": [
+      "customer",
+      "last_name"
+    ],
+    "customer_email": [
+      "customer",
+      "email"
+    ],
+    "customer_address_id": [
+      "customer",
+      "address_id"
+    ],
+    "customer_active": [
+      "customer",
+      "active"
+    ],
+    "customer_create_date": [
+      "customer",
+      "create_date"
+    ],
+    "customer_last_update": [
+      "customer",
+      "last_update"
+    ],
+    "film_film_id": [
+      "film",
+      "film_id"
+    ],
+    "film_title": [
+      "film",
+      "title"
+    ],
+    "film_description": [
+      "film",
+      "description"
+    ],
+    "film_release_year": [
+      "film",
+      "release_year"
+    ],
+    "film_language_id": [
+      "film",
+      "language_id"
+    ],
+    "film_original_language_id": [
+      "film",
+      "original_language_id"
+    ],
+    "film_rental_duration": [
+      "film",
+      "rental_duration"
+    ],
+    "film_rental_rate": [
+      "film",
+      "rental_rate"
+    ],
+    "film_length": [
+      "film",
+      "length"
+    ],
+    "film_replacement_cost": [
+      "film",
+      "replacement_cost"
+    ],
+    "film_rating": [
+      "film",
+      "rating"
+    ],
+    "film_special_features": [
+      "film",
+      "special_features"
+    ],
+    "film_last_update": [
+      "film",
+      "last_update"
+    ],
+    "film_actor_actor_id": [
+      "film_actor",
+      "actor_id"
+    ],
+    "film_actor_film_id": [
+      "film_actor",
+      "film_id"
+    ],
+    "film_actor_last_update": [
+      "film_actor",
+      "last_update"
+    ],
+    "film_category_film_id": [
+      "film_category",
+      "film_id"
+    ],
+    "film_category_category_id": [
+      "film_category",
+      "category_id"
+    ],
+    "film_category_last_update": [
+      "film_category",
+      "last_update"
+    ],
+    "film_text_film_id": [
+      "film_text",
+      "film_id"
+    ],
+    "film_text_title": [
+      "film_text",
+      "title"
+    ],
+    "film_text_description": [
+      "film_text",
+      "description"
+    ],
+    "inventory_inventory_id": [
+      "inventory",
+      "inventory_id"
+    ],
+    "inventory_film_id": [
+      "inventory",
+      "film_id"
+    ],
+    "inventory_store_id": [
+      "inventory",
+      "store_id"
+    ],
+    "inventory_last_update": [
+      "inventory",
+      "last_update"
+    ],
+    "language_language_id": [
+      "language",
+      "language_id"
+    ],
+    "language_name": [
+      "language",
+      "name"
+    ],
+    "language_last_update": [
+      "language",
+      "last_update"
+    ],
+    "payment_payment_id": [
+      "payment",
+      "payment_id"
+    ],
+    "payment_customer_id": [
+      "payment",
+      "customer_id"
+    ],
+    "payment_staff_id": [
+      "payment",
+      "staff_id"
+    ],
+    "payment_rental_id": [
+      "payment",
+      "rental_id"
+    ],
+    "payment_amount": [
+      "payment",
+      "amount"
+    ],
+    "payment_payment_date": [
+      "payment",
+      "payment_date"
+    ],
+    "payment_last_update": [
+      "payment",
+      "last_update"
+    ],
+    "rental_rental_id": [
+      "rental",
+      "rental_id"
+    ],
+    "rental_rental_date": [
+      "rental",
+      "rental_date"
+    ],
+    "rental_inventory_id": [
+      "rental",
+      "inventory_id"
+    ],
+    "rental_customer_id": [
+      "rental",
+      "customer_id"
+    ],
+    "rental_return_date": [
+      "rental",
+      "return_date"
+    ],
+    "rental_staff_id": [
+      "rental",
+      "staff_id"
+    ],
+    "rental_last_update": [
+      "rental",
+      "last_update"
+    ],
+    "staff_staff_id": [
+      "staff",
+      "staff_id"
+    ],
+    "staff_first_name": [
+      "staff",
+      "first_name"
+    ],
+    "staff_last_name": [
+      "staff",
+      "last_name"
+    ],
+    "staff_address_id": [
+      "staff",
+      "address_id"
+    ],
+    "staff_picture": [
+      "staff",
+      "picture"
+    ],
+    "staff_email": [
+      "staff",
+      "email"
+    ],
+    "staff_store_id": [
+      "staff",
+      "store_id"
+    ],
+    "staff_active": [
+      "staff",
+      "active"
+    ],
+    "staff_username": [
+      "staff",
+      "username"
+    ],
+    "staff_password": [
+      "staff",
+      "password"
+    ],
+    "staff_last_update": [
+      "staff",
+      "last_update"
+    ],
+    "store_store_id": [
+      "store",
+      "store_id"
+    ],
+    "store_manager_staff_id": [
+      "store",
+      "manager_staff_id"
+    ],
+    "store_address_id": [
+      "store",
+      "address_id"
+    ],
+    "store_last_update": [
+      "store",
+      "last_update"
+    ]
+  },
+  "object_property_fk": {
+    "address_city_fk0": [
+      "address.city_id",
+      "city.city_id"
+    ],
+    "city_country_fk1": [
+      "city.country_id",
+      "country.country_id"
+    ],
+    "customer_store_fk2": [
+      "customer.store_id",
+      "store.store_id"
+    ],
+    "customer_address_fk3": [
+      "customer.address_id",
+      "address.address_id"
+    ],
+    "film_language_fk4": [
+      "film.original_language_id",
+      "language.language_id"
+    ],
+    "film_language_fk5": [
+      "film.language_id",
+      "language.language_id"
+    ],
+    "film_actor_film_fk6": [
+      "film_actor.film_id",
+      "film.film_id"
+    ],
+    "film_actor_actor_fk7": [
+      "film_actor.actor_id",
+      "actor.actor_id"
+    ],
+    "film_category_category_fk8": [
+      "film_category.category_id",
+      "category.category_id"
+    ],
+    "film_category_film_fk9": [
+      "film_category.film_id",
+      "film.film_id"
+    ],
+    "inventory_film_fk10": [
+      "inventory.film_id",
+      "film.film_id"
+    ],
+    "inventory_store_fk11": [
+      "inventory.store_id",
+      "store.store_id"
+    ],
+    "payment_staff_fk12": [
+      "payment.staff_id",
+      "staff.staff_id"
+    ],
+    "payment_customer_fk13": [
+      "payment.customer_id",
+      "customer.customer_id"
+    ],
+    "payment_rental_fk14": [
+      "payment.rental_id",
+      "rental.rental_id"
+    ],
+    "rental_customer_fk15": [
+      "rental.customer_id",
+      "customer.customer_id"
+    ],
+    "rental_inventory_fk16": [
+      "rental.inventory_id",
+      "inventory.inventory_id"
+    ],
+    "rental_staff_fk17": [
+      "rental.staff_id",
+      "staff.staff_id"
+    ],
+    "staff_address_fk18": [
+      "staff.address_id",
+      "address.address_id"
+    ],
+    "store_address_fk19": [
+      "store.address_id",
+      "address.address_id"
+    ],
+    "store_staff_fk20": [
+      "store.manager_staff_id",
+      "staff.staff_id"
+    ]
+  }
+}

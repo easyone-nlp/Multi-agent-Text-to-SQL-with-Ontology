@@ -1,0 +1,92 @@
+{
+  "class_table": {
+    "employee": "employee",
+    "shop": "shop",
+    "hiring": "hiring",
+    "evaluation": "evaluation"
+  },
+  "property_column": {
+    "employee_Employee_ID": [
+      "employee",
+      "Employee_ID"
+    ],
+    "employee_Name": [
+      "employee",
+      "Name"
+    ],
+    "employee_Age": [
+      "employee",
+      "Age"
+    ],
+    "employee_City": [
+      "employee",
+      "City"
+    ],
+    "shop_Shop_ID": [
+      "shop",
+      "Shop_ID"
+    ],
+    "shop_Name": [
+      "shop",
+      "Name"
+    ],
+    "shop_Location": [
+      "shop",
+      "Location"
+    ],
+    "shop_District": [
+      "shop",
+      "District"
+    ],
+    "shop_Number_products": [
+      "shop",
+      "Number_products"
+    ],
+    "shop_Manager_name": [
+      "shop",
+      "Manager_name"
+    ],
+    "hiring_Shop_ID": [
+      "hiring",
+      "Shop_ID"
+    ],
+    "hiring_Employee_ID": [
+      "hiring",
+      "Employee_ID"
+    ],
+    "hiring_Start_from": [
+      "hiring",
+      "Start_from"
+    ],
+    "hiring_Is_full_time": [
+      "hiring",
+      "Is_full_time"
+    ],
+    "evaluation_Employee_ID": [
+      "evaluation",
+      "Employee_ID"
+    ],
+    "evaluation_Year_awarded": [
+      "evaluation",
+      "Year_awarded"
+    ],
+    "evaluation_Bonus": [
+      "evaluation",
+      "Bonus"
+    ]
+  },
+  "object_property_fk": {
+    "hiring_employee_fk0": [
+      "hiring.Employee_ID",
+      "employee.Employee_ID"
+    ],
+    "hiring_shop_fk1": [
+      "hiring.Shop_ID",
+      "shop.Shop_ID"
+    ],
+    "evaluation_employee_fk2": [
+      "evaluation.Employee_ID",
+      "employee.Employee_ID"
+    ]
+  }
+}

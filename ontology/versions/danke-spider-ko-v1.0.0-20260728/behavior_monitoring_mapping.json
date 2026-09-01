@@ -1,0 +1,327 @@
+{
+  "class_table": {
+    "Ref_Address_Types": "Ref_Address_Types",
+    "Ref_Detention_Type": "Ref_Detention_Type",
+    "Ref_Incident_Type": "Ref_Incident_Type",
+    "Addresses": "Addresses",
+    "Students": "Students",
+    "Teachers": "Teachers",
+    "Assessment_Notes": "Assessment_Notes",
+    "Behavior_Incident": "Behavior_Incident",
+    "Detention": "Detention",
+    "Student_Addresses": "Student_Addresses",
+    "Students_in_Detention": "Students_in_Detention"
+  },
+  "property_column": {
+    "Ref_Address_Types_address_type_code": [
+      "Ref_Address_Types",
+      "address_type_code"
+    ],
+    "Ref_Address_Types_address_type_description": [
+      "Ref_Address_Types",
+      "address_type_description"
+    ],
+    "Ref_Detention_Type_detention_type_code": [
+      "Ref_Detention_Type",
+      "detention_type_code"
+    ],
+    "Ref_Detention_Type_detention_type_description": [
+      "Ref_Detention_Type",
+      "detention_type_description"
+    ],
+    "Ref_Incident_Type_incident_type_code": [
+      "Ref_Incident_Type",
+      "incident_type_code"
+    ],
+    "Ref_Incident_Type_incident_type_description": [
+      "Ref_Incident_Type",
+      "incident_type_description"
+    ],
+    "Addresses_address_id": [
+      "Addresses",
+      "address_id"
+    ],
+    "Addresses_line_1": [
+      "Addresses",
+      "line_1"
+    ],
+    "Addresses_line_2": [
+      "Addresses",
+      "line_2"
+    ],
+    "Addresses_line_3": [
+      "Addresses",
+      "line_3"
+    ],
+    "Addresses_city": [
+      "Addresses",
+      "city"
+    ],
+    "Addresses_zip_postcode": [
+      "Addresses",
+      "zip_postcode"
+    ],
+    "Addresses_state_province_county": [
+      "Addresses",
+      "state_province_county"
+    ],
+    "Addresses_country": [
+      "Addresses",
+      "country"
+    ],
+    "Addresses_other_address_details": [
+      "Addresses",
+      "other_address_details"
+    ],
+    "Students_student_id": [
+      "Students",
+      "student_id"
+    ],
+    "Students_address_id": [
+      "Students",
+      "address_id"
+    ],
+    "Students_first_name": [
+      "Students",
+      "first_name"
+    ],
+    "Students_middle_name": [
+      "Students",
+      "middle_name"
+    ],
+    "Students_last_name": [
+      "Students",
+      "last_name"
+    ],
+    "Students_cell_mobile_number": [
+      "Students",
+      "cell_mobile_number"
+    ],
+    "Students_email_address": [
+      "Students",
+      "email_address"
+    ],
+    "Students_date_first_rental": [
+      "Students",
+      "date_first_rental"
+    ],
+    "Students_date_left_university": [
+      "Students",
+      "date_left_university"
+    ],
+    "Students_other_student_details": [
+      "Students",
+      "other_student_details"
+    ],
+    "Teachers_teacher_id": [
+      "Teachers",
+      "teacher_id"
+    ],
+    "Teachers_address_id": [
+      "Teachers",
+      "address_id"
+    ],
+    "Teachers_first_name": [
+      "Teachers",
+      "first_name"
+    ],
+    "Teachers_middle_name": [
+      "Teachers",
+      "middle_name"
+    ],
+    "Teachers_last_name": [
+      "Teachers",
+      "last_name"
+    ],
+    "Teachers_gender": [
+      "Teachers",
+      "gender"
+    ],
+    "Teachers_cell_mobile_number": [
+      "Teachers",
+      "cell_mobile_number"
+    ],
+    "Teachers_email_address": [
+      "Teachers",
+      "email_address"
+    ],
+    "Teachers_other_details": [
+      "Teachers",
+      "other_details"
+    ],
+    "Assessment_Notes_notes_id": [
+      "Assessment_Notes",
+      "notes_id"
+    ],
+    "Assessment_Notes_student_id": [
+      "Assessment_Notes",
+      "student_id"
+    ],
+    "Assessment_Notes_teacher_id": [
+      "Assessment_Notes",
+      "teacher_id"
+    ],
+    "Assessment_Notes_date_of_notes": [
+      "Assessment_Notes",
+      "date_of_notes"
+    ],
+    "Assessment_Notes_text_of_notes": [
+      "Assessment_Notes",
+      "text_of_notes"
+    ],
+    "Assessment_Notes_other_details": [
+      "Assessment_Notes",
+      "other_details"
+    ],
+    "Behavior_Incident_incident_id": [
+      "Behavior_Incident",
+      "incident_id"
+    ],
+    "Behavior_Incident_incident_type_code": [
+      "Behavior_Incident",
+      "incident_type_code"
+    ],
+    "Behavior_Incident_student_id": [
+      "Behavior_Incident",
+      "student_id"
+    ],
+    "Behavior_Incident_date_incident_start": [
+      "Behavior_Incident",
+      "date_incident_start"
+    ],
+    "Behavior_Incident_date_incident_end": [
+      "Behavior_Incident",
+      "date_incident_end"
+    ],
+    "Behavior_Incident_incident_summary": [
+      "Behavior_Incident",
+      "incident_summary"
+    ],
+    "Behavior_Incident_recommendations": [
+      "Behavior_Incident",
+      "recommendations"
+    ],
+    "Behavior_Incident_other_details": [
+      "Behavior_Incident",
+      "other_details"
+    ],
+    "Detention_detention_id": [
+      "Detention",
+      "detention_id"
+    ],
+    "Detention_detention_type_code": [
+      "Detention",
+      "detention_type_code"
+    ],
+    "Detention_teacher_id": [
+      "Detention",
+      "teacher_id"
+    ],
+    "Detention_datetime_detention_start": [
+      "Detention",
+      "datetime_detention_start"
+    ],
+    "Detention_datetime_detention_end": [
+      "Detention",
+      "datetime_detention_end"
+    ],
+    "Detention_detention_summary": [
+      "Detention",
+      "detention_summary"
+    ],
+    "Detention_other_details": [
+      "Detention",
+      "other_details"
+    ],
+    "Student_Addresses_student_id": [
+      "Student_Addresses",
+      "student_id"
+    ],
+    "Student_Addresses_address_id": [
+      "Student_Addresses",
+      "address_id"
+    ],
+    "Student_Addresses_date_address_from": [
+      "Student_Addresses",
+      "date_address_from"
+    ],
+    "Student_Addresses_date_address_to": [
+      "Student_Addresses",
+      "date_address_to"
+    ],
+    "Student_Addresses_monthly_rental": [
+      "Student_Addresses",
+      "monthly_rental"
+    ],
+    "Student_Addresses_other_details": [
+      "Student_Addresses",
+      "other_details"
+    ],
+    "Students_in_Detention_student_id": [
+      "Students_in_Detention",
+      "student_id"
+    ],
+    "Students_in_Detention_detention_id": [
+      "Students_in_Detention",
+      "detention_id"
+    ],
+    "Students_in_Detention_incident_id": [
+      "Students_in_Detention",
+      "incident_id"
+    ]
+  },
+  "object_property_fk": {
+    "Students_Addresses_fk0": [
+      "Students.address_id",
+      "Addresses.address_id"
+    ],
+    "Teachers_Addresses_fk1": [
+      "Teachers.address_id",
+      "Addresses.address_id"
+    ],
+    "Assessment_Notes_Teachers_fk2": [
+      "Assessment_Notes.teacher_id",
+      "Teachers.teacher_id"
+    ],
+    "Assessment_Notes_Students_fk3": [
+      "Assessment_Notes.student_id",
+      "Students.student_id"
+    ],
+    "Behavior_Incident_Students_fk4": [
+      "Behavior_Incident.student_id",
+      "Students.student_id"
+    ],
+    "Behavior_Incident_Ref_Incident_Type_fk5": [
+      "Behavior_Incident.incident_type_code",
+      "Ref_Incident_Type.incident_type_code"
+    ],
+    "Detention_Teachers_fk6": [
+      "Detention.teacher_id",
+      "Teachers.teacher_id"
+    ],
+    "Detention_Ref_Detention_Type_fk7": [
+      "Detention.detention_type_code",
+      "Ref_Detention_Type.detention_type_code"
+    ],
+    "Student_Addresses_Students_fk8": [
+      "Student_Addresses.student_id",
+      "Students.student_id"
+    ],
+    "Student_Addresses_Addresses_fk9": [
+      "Student_Addresses.address_id",
+      "Addresses.address_id"
+    ],
+    "Students_in_Detention_Students_fk10": [
+      "Students_in_Detention.student_id",
+      "Students.student_id"
+    ],
+    "Students_in_Detention_Detention_fk11": [
+      "Students_in_Detention.detention_id",
+      "Detention.detention_id"
+    ],
+    "Students_in_Detention_Behavior_Incident_fk12": [
+      "Students_in_Detention.incident_id",
+      "Behavior_Incident.incident_id"
+    ]
+  }
+}

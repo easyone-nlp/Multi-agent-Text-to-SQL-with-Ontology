@@ -1,0 +1,95 @@
+{
+  "class_table": {
+    "aircraft": "aircraft",
+    "pilot": "pilot",
+    "pilot_record": "pilot_record"
+  },
+  "property_column": {
+    "aircraft_Aircraft_ID": [
+      "aircraft",
+      "Aircraft_ID"
+    ],
+    "aircraft_Order_Year": [
+      "aircraft",
+      "Order_Year"
+    ],
+    "aircraft_Manufacturer": [
+      "aircraft",
+      "Manufacturer"
+    ],
+    "aircraft_Model": [
+      "aircraft",
+      "Model"
+    ],
+    "aircraft_Fleet_Series": [
+      "aircraft",
+      "Fleet_Series"
+    ],
+    "aircraft_Powertrain": [
+      "aircraft",
+      "Powertrain"
+    ],
+    "aircraft_Fuel_Propulsion": [
+      "aircraft",
+      "Fuel_Propulsion"
+    ],
+    "pilot_Pilot_ID": [
+      "pilot",
+      "Pilot_ID"
+    ],
+    "pilot_Pilot_name": [
+      "pilot",
+      "Pilot_name"
+    ],
+    "pilot_Rank": [
+      "pilot",
+      "Rank"
+    ],
+    "pilot_Age": [
+      "pilot",
+      "Age"
+    ],
+    "pilot_Nationality": [
+      "pilot",
+      "Nationality"
+    ],
+    "pilot_Position": [
+      "pilot",
+      "Position"
+    ],
+    "pilot_Join_Year": [
+      "pilot",
+      "Join_Year"
+    ],
+    "pilot_Team": [
+      "pilot",
+      "Team"
+    ],
+    "pilot_record_Record_ID": [
+      "pilot_record",
+      "Record_ID"
+    ],
+    "pilot_record_Pilot_ID": [
+      "pilot_record",
+      "Pilot_ID"
+    ],
+    "pilot_record_Aircraft_ID": [
+      "pilot_record",
+      "Aircraft_ID"
+    ],
+    "pilot_record_Date": [
+      "pilot_record",
+      "Date"
+    ]
+  },
+  "object_property_fk": {
+    "pilot_record_aircraft_fk0": [
+      "pilot_record.Aircraft_ID",
+      "aircraft.Aircraft_ID"
+    ],
+    "pilot_record_pilot_fk1": [
+      "pilot_record.Pilot_ID",
+      "pilot.Pilot_ID"
+    ]
+  }
+}

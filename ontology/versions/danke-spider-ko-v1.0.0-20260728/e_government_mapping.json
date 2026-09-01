@@ -1,0 +1,254 @@
+{
+  "class_table": {
+    "Addresses": "Addresses",
+    "Services": "Services",
+    "Forms": "Forms",
+    "Individuals": "Individuals",
+    "Organizations": "Organizations",
+    "Parties": "Parties",
+    "Organization_Contact_Individuals": "Organization_Contact_Individuals",
+    "Party_Addresses": "Party_Addresses",
+    "Party_Forms": "Party_Forms",
+    "Party_Services": "Party_Services"
+  },
+  "property_column": {
+    "Addresses_address_id": [
+      "Addresses",
+      "address_id"
+    ],
+    "Addresses_line_1_number_building": [
+      "Addresses",
+      "line_1_number_building"
+    ],
+    "Addresses_town_city": [
+      "Addresses",
+      "town_city"
+    ],
+    "Addresses_zip_postcode": [
+      "Addresses",
+      "zip_postcode"
+    ],
+    "Addresses_state_province_county": [
+      "Addresses",
+      "state_province_county"
+    ],
+    "Addresses_country": [
+      "Addresses",
+      "country"
+    ],
+    "Services_service_id": [
+      "Services",
+      "service_id"
+    ],
+    "Services_service_type_code": [
+      "Services",
+      "service_type_code"
+    ],
+    "Services_service_name": [
+      "Services",
+      "service_name"
+    ],
+    "Services_service_descriptio": [
+      "Services",
+      "service_descriptio"
+    ],
+    "Forms_form_id": [
+      "Forms",
+      "form_id"
+    ],
+    "Forms_form_type_code": [
+      "Forms",
+      "form_type_code"
+    ],
+    "Forms_service_id": [
+      "Forms",
+      "service_id"
+    ],
+    "Forms_form_number": [
+      "Forms",
+      "form_number"
+    ],
+    "Forms_form_name": [
+      "Forms",
+      "form_name"
+    ],
+    "Forms_form_description": [
+      "Forms",
+      "form_description"
+    ],
+    "Individuals_individual_id": [
+      "Individuals",
+      "individual_id"
+    ],
+    "Individuals_individual_first_name": [
+      "Individuals",
+      "individual_first_name"
+    ],
+    "Individuals_individual_middle_name": [
+      "Individuals",
+      "individual_middle_name"
+    ],
+    "Individuals_inidividual_phone": [
+      "Individuals",
+      "inidividual_phone"
+    ],
+    "Individuals_individual_email": [
+      "Individuals",
+      "individual_email"
+    ],
+    "Individuals_individual_address": [
+      "Individuals",
+      "individual_address"
+    ],
+    "Individuals_individual_last_name": [
+      "Individuals",
+      "individual_last_name"
+    ],
+    "Organizations_organization_id": [
+      "Organizations",
+      "organization_id"
+    ],
+    "Organizations_date_formed": [
+      "Organizations",
+      "date_formed"
+    ],
+    "Organizations_organization_name": [
+      "Organizations",
+      "organization_name"
+    ],
+    "Organizations_uk_vat_number": [
+      "Organizations",
+      "uk_vat_number"
+    ],
+    "Parties_party_id": [
+      "Parties",
+      "party_id"
+    ],
+    "Parties_payment_method_code": [
+      "Parties",
+      "payment_method_code"
+    ],
+    "Parties_party_phone": [
+      "Parties",
+      "party_phone"
+    ],
+    "Parties_party_email": [
+      "Parties",
+      "party_email"
+    ],
+    "Organization_Contact_Individuals_individual_id": [
+      "Organization_Contact_Individuals",
+      "individual_id"
+    ],
+    "Organization_Contact_Individuals_organization_id": [
+      "Organization_Contact_Individuals",
+      "organization_id"
+    ],
+    "Organization_Contact_Individuals_date_contact_from": [
+      "Organization_Contact_Individuals",
+      "date_contact_from"
+    ],
+    "Organization_Contact_Individuals_date_contact_to": [
+      "Organization_Contact_Individuals",
+      "date_contact_to"
+    ],
+    "Party_Addresses_party_id": [
+      "Party_Addresses",
+      "party_id"
+    ],
+    "Party_Addresses_address_id": [
+      "Party_Addresses",
+      "address_id"
+    ],
+    "Party_Addresses_date_address_from": [
+      "Party_Addresses",
+      "date_address_from"
+    ],
+    "Party_Addresses_address_type_code": [
+      "Party_Addresses",
+      "address_type_code"
+    ],
+    "Party_Addresses_date_address_to": [
+      "Party_Addresses",
+      "date_address_to"
+    ],
+    "Party_Forms_party_id": [
+      "Party_Forms",
+      "party_id"
+    ],
+    "Party_Forms_form_id": [
+      "Party_Forms",
+      "form_id"
+    ],
+    "Party_Forms_date_completion_started": [
+      "Party_Forms",
+      "date_completion_started"
+    ],
+    "Party_Forms_form_status_code": [
+      "Party_Forms",
+      "form_status_code"
+    ],
+    "Party_Forms_date_fully_completed": [
+      "Party_Forms",
+      "date_fully_completed"
+    ],
+    "Party_Services_booking_id": [
+      "Party_Services",
+      "booking_id"
+    ],
+    "Party_Services_customer_id": [
+      "Party_Services",
+      "customer_id"
+    ],
+    "Party_Services_service_id": [
+      "Party_Services",
+      "service_id"
+    ],
+    "Party_Services_service_datetime": [
+      "Party_Services",
+      "service_datetime"
+    ],
+    "Party_Services_booking_made_date": [
+      "Party_Services",
+      "booking_made_date"
+    ]
+  },
+  "object_property_fk": {
+    "Forms_Services_fk0": [
+      "Forms.service_id",
+      "Services.service_id"
+    ],
+    "Organization_Contact_Individuals_Individuals_fk1": [
+      "Organization_Contact_Individuals.individual_id",
+      "Individuals.individual_id"
+    ],
+    "Organization_Contact_Individuals_Organizations_fk2": [
+      "Organization_Contact_Individuals.organization_id",
+      "Organizations.organization_id"
+    ],
+    "Party_Addresses_Parties_fk3": [
+      "Party_Addresses.party_id",
+      "Parties.party_id"
+    ],
+    "Party_Addresses_Addresses_fk4": [
+      "Party_Addresses.address_id",
+      "Addresses.address_id"
+    ],
+    "Party_Forms_Forms_fk5": [
+      "Party_Forms.form_id",
+      "Forms.form_id"
+    ],
+    "Party_Forms_Parties_fk6": [
+      "Party_Forms.party_id",
+      "Parties.party_id"
+    ],
+    "Party_Services_Parties_fk7": [
+      "Party_Services.customer_id",
+      "Parties.party_id"
+    ],
+    "Party_Services_Services_fk8": [
+      "Party_Services.service_id",
+      "Services.service_id"
+    ]
+  }
+}

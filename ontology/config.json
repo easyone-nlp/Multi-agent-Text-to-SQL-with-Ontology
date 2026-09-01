@@ -1,0 +1,11 @@
+{
+  "provider": "openai_compatible",
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "base_url": "http://localhost:8003/v1",
+  "api_key_env": "OPENAI_API_KEY",
+  "temperature": 0.0,
+  "timeout_seconds": 120,
+  "json_retries": 1,
+  "max_domain_values": 20,
+  "fuzzy_cutoff": 0.72
+}

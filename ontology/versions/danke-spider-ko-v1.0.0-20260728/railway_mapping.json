@@ -1,0 +1,112 @@
+{
+  "class_table": {
+    "railway": "railway",
+    "train": "train",
+    "manager": "manager",
+    "railway_manage": "railway_manage"
+  },
+  "property_column": {
+    "railway_Railway_ID": [
+      "railway",
+      "Railway_ID"
+    ],
+    "railway_Railway": [
+      "railway",
+      "Railway"
+    ],
+    "railway_Builder": [
+      "railway",
+      "Builder"
+    ],
+    "railway_Built": [
+      "railway",
+      "Built"
+    ],
+    "railway_Wheels": [
+      "railway",
+      "Wheels"
+    ],
+    "railway_Location": [
+      "railway",
+      "Location"
+    ],
+    "railway_ObjectNumber": [
+      "railway",
+      "ObjectNumber"
+    ],
+    "train_Train_ID": [
+      "train",
+      "Train_ID"
+    ],
+    "train_Train_Num": [
+      "train",
+      "Train_Num"
+    ],
+    "train_Name": [
+      "train",
+      "Name"
+    ],
+    "train_From": [
+      "train",
+      "From"
+    ],
+    "train_Arrival": [
+      "train",
+      "Arrival"
+    ],
+    "train_Railway_ID": [
+      "train",
+      "Railway_ID"
+    ],
+    "manager_Manager_ID": [
+      "manager",
+      "Manager_ID"
+    ],
+    "manager_Name": [
+      "manager",
+      "Name"
+    ],
+    "manager_Country": [
+      "manager",
+      "Country"
+    ],
+    "manager_Working_year_starts": [
+      "manager",
+      "Working_year_starts"
+    ],
+    "manager_Age": [
+      "manager",
+      "Age"
+    ],
+    "manager_Level": [
+      "manager",
+      "Level"
+    ],
+    "railway_manage_Railway_ID": [
+      "railway_manage",
+      "Railway_ID"
+    ],
+    "railway_manage_Manager_ID": [
+      "railway_manage",
+      "Manager_ID"
+    ],
+    "railway_manage_From_Year": [
+      "railway_manage",
+      "From_Year"
+    ]
+  },
+  "object_property_fk": {
+    "train_railway_fk0": [
+      "train.Railway_ID",
+      "railway.Railway_ID"
+    ],
+    "railway_manage_railway_fk1": [
+      "railway_manage.Railway_ID",
+      "railway.Railway_ID"
+    ],
+    "railway_manage_manager_fk2": [
+      "railway_manage.Manager_ID",
+      "manager.Manager_ID"
+    ]
+  }
+}

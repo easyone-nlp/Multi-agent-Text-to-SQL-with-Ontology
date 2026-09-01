@@ -1,0 +1,62 @@
+{
+  "class_table": {
+    "election": "election",
+    "representative": "representative"
+  },
+  "property_column": {
+    "election_Election_ID": [
+      "election",
+      "Election_ID"
+    ],
+    "election_Representative_ID": [
+      "election",
+      "Representative_ID"
+    ],
+    "election_Date": [
+      "election",
+      "Date"
+    ],
+    "election_Votes": [
+      "election",
+      "Votes"
+    ],
+    "election_Vote_Percent": [
+      "election",
+      "Vote_Percent"
+    ],
+    "election_Seats": [
+      "election",
+      "Seats"
+    ],
+    "election_Place": [
+      "election",
+      "Place"
+    ],
+    "representative_Representative_ID": [
+      "representative",
+      "Representative_ID"
+    ],
+    "representative_Name": [
+      "representative",
+      "Name"
+    ],
+    "representative_State": [
+      "representative",
+      "State"
+    ],
+    "representative_Party": [
+      "representative",
+      "Party"
+    ],
+    "representative_Lifespan": [
+      "representative",
+      "Lifespan"
+    ]
+  },
+  "object_property_fk": {
+    "election_representative_fk0": [
+      "election.Representative_ID",
+      "representative.Representative_ID"
+    ]
+  }
+}

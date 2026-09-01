@@ -1,0 +1,816 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "뮤지컬",
+      "target_class": "musical",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음악극",
+      "target_class": "musical",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연극",
+      "target_class": "musical",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연출",
+      "target_class": "musical",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "공연",
+      "target_class": "musical",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "공연물",
+      "target_class": "musical",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "actor",
+      "target_class": "actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "배우",
+      "target_class": "actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연기자",
+      "target_class": "actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연출가",
+      "target_class": "actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연출자",
+      "target_class": "actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "공연자",
+      "target_class": "actor",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "뮤지컬 ID",
+      "target_class": "musical",
+      "target_property": "musical_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Musical_ID",
+      "target_class": "musical",
+      "target_property": "musical_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 ID",
+      "target_class": "musical",
+      "target_property": "musical_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 고유 번호",
+      "target_class": "musical",
+      "target_property": "musical_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 식별자",
+      "target_class": "musical",
+      "target_property": "musical_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 번호",
+      "target_class": "musical",
+      "target_property": "musical_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 아이디",
+      "target_class": "musical",
+      "target_property": "musical_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 식별",
+      "target_class": "musical",
+      "target_property": "musical_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "musical",
+      "target_property": "musical_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Name",
+      "target_class": "musical",
+      "target_property": "musical_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 이름",
+      "target_class": "musical",
+      "target_property": "musical_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 제목",
+      "target_class": "musical",
+      "target_property": "musical_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극명",
+      "target_class": "musical",
+      "target_property": "musical_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극",
+      "target_class": "musical",
+      "target_property": "musical_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "musical",
+      "target_property": "musical_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Year",
+      "target_class": "musical",
+      "target_property": "musical_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 연도",
+      "target_class": "musical",
+      "target_property": "musical_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 년도",
+      "target_class": "musical",
+      "target_property": "musical_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 연출 년도",
+      "target_class": "musical",
+      "target_property": "musical_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 개막 년도",
+      "target_class": "musical",
+      "target_property": "musical_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 개봉 년도",
+      "target_class": "musical",
+      "target_property": "musical_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상",
+      "target_class": "musical",
+      "target_property": "musical_Award",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품",
+      "target_class": "musical",
+      "target_property": "musical_Award",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수상 작품",
+      "target_class": "musical",
+      "target_property": "musical_Award",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상 수상",
+      "target_class": "musical",
+      "target_property": "musical_Award",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품명",
+      "target_class": "musical",
+      "target_property": "musical_Award",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 이름",
+      "target_class": "musical",
+      "target_property": "musical_Award",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류",
+      "target_class": "musical",
+      "target_property": "musical_Category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카테고리",
+      "target_class": "musical",
+      "target_property": "musical_Category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상 분류",
+      "target_class": "musical",
+      "target_property": "musical_Category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상 범주",
+      "target_class": "musical",
+      "target_property": "musical_Category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분야",
+      "target_class": "musical",
+      "target_property": "musical_Category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류구분",
+      "target_class": "musical",
+      "target_property": "musical_Category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카테고리명",
+      "target_class": "musical",
+      "target_property": "musical_Category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상 분류명",
+      "target_class": "musical",
+      "target_property": "musical_Category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보자",
+      "target_class": "musical",
+      "target_property": "musical_Nominee",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보작",
+      "target_class": "musical",
+      "target_property": "musical_Nominee",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보 작품",
+      "target_class": "musical",
+      "target_property": "musical_Nominee",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보 이름",
+      "target_class": "musical",
+      "target_property": "musical_Nominee",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보",
+      "target_class": "musical",
+      "target_property": "musical_Nominee",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작품 이름",
+      "target_class": "musical",
+      "target_property": "musical_Nominee",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보작명",
+      "target_class": "musical",
+      "target_property": "musical_Nominee",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보작 이름",
+      "target_class": "musical",
+      "target_property": "musical_Nominee",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보작 제목",
+      "target_class": "musical",
+      "target_property": "musical_Nominee",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과",
+      "target_class": "musical",
+      "target_property": "musical_Result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상상 결과",
+      "target_class": "musical",
+      "target_property": "musical_Result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수상 결과",
+      "target_class": "musical",
+      "target_property": "musical_Result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상황",
+      "target_class": "musical",
+      "target_property": "musical_Result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 정보",
+      "target_class": "musical",
+      "target_property": "musical_Result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 내용",
+      "target_class": "musical",
+      "target_property": "musical_Result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 데이터",
+      "target_class": "musical",
+      "target_property": "musical_Result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상황 결과",
+      "target_class": "musical",
+      "target_property": "musical_Result",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "actor id",
+      "target_class": "actor",
+      "target_property": "actor_Actor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기자 ID",
+      "target_class": "actor",
+      "target_property": "actor_Actor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기자 고유 번호",
+      "target_class": "actor",
+      "target_property": "actor_Actor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기자 식별자",
+      "target_class": "actor",
+      "target_property": "actor_Actor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기자 번호",
+      "target_class": "actor",
+      "target_property": "actor_Actor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기자 아이디",
+      "target_class": "actor",
+      "target_property": "actor_Actor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Actor_ID",
+      "target_class": "actor",
+      "target_property": "actor_Actor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기자 고유 ID",
+      "target_class": "actor",
+      "target_property": "actor_Actor_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "actor",
+      "target_property": "actor_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "actor",
+      "target_property": "actor_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기자 이름",
+      "target_class": "actor",
+      "target_property": "actor_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기자",
+      "target_class": "actor",
+      "target_property": "actor_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기자명",
+      "target_class": "actor",
+      "target_property": "actor_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Name",
+      "target_class": "actor",
+      "target_property": "actor_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "musical id",
+      "target_class": "actor",
+      "target_property": "actor_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "극 ID",
+      "target_class": "actor",
+      "target_property": "actor_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "극 고유 번호",
+      "target_class": "actor",
+      "target_property": "actor_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "극 식별자",
+      "target_class": "actor",
+      "target_property": "actor_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "극 번호",
+      "target_class": "actor",
+      "target_property": "actor_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "극 아이디",
+      "target_class": "actor",
+      "target_property": "actor_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Musical_ID",
+      "target_class": "actor",
+      "target_property": "actor_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "극 고유 ID",
+      "target_class": "actor",
+      "target_property": "actor_Musical_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "character",
+      "target_class": "actor",
+      "target_property": "actor_Character",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역할",
+      "target_class": "actor",
+      "target_property": "actor_Character",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "캐릭터",
+      "target_class": "actor",
+      "target_property": "actor_Character",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기 인물",
+      "target_class": "actor",
+      "target_property": "actor_Character",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 인물",
+      "target_class": "actor",
+      "target_property": "actor_Character",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역할 이름",
+      "target_class": "actor",
+      "target_property": "actor_Character",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기자 역할",
+      "target_class": "actor",
+      "target_property": "actor_Character",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 캐릭터",
+      "target_class": "actor",
+      "target_property": "actor_Character",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기한 인물",
+      "target_class": "actor",
+      "target_property": "actor_Character",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "duration",
+      "target_class": "actor",
+      "target_property": "actor_Duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기 시간",
+      "target_class": "actor",
+      "target_property": "actor_Duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기 기간",
+      "target_class": "actor",
+      "target_property": "actor_Duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 연기 시간",
+      "target_class": "actor",
+      "target_property": "actor_Duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기 소요 시간",
+      "target_class": "actor",
+      "target_property": "actor_Duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 연기 기간",
+      "target_class": "actor",
+      "target_property": "actor_Duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기 소요 기간",
+      "target_class": "actor",
+      "target_property": "actor_Duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연극 연기 시간 길이",
+      "target_class": "actor",
+      "target_property": "actor_Duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "age",
+      "target_class": "actor",
+      "target_property": "actor_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "actor",
+      "target_property": "actor_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "actor",
+      "target_property": "actor_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기자 나이",
+      "target_class": "actor",
+      "target_property": "actor_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기자의 연령",
+      "target_class": "actor",
+      "target_property": "actor_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연기자 연령",
+      "target_class": "actor",
+      "target_property": "actor_age",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "오디션",
+      "target_class": "musical",
+      "target_property": "musical_Award",
+      "value": "오디션"
+    },
+    {
+      "entry_type": "value",
+      "key": "골든 글로브",
+      "target_class": "musical",
+      "target_property": "musical_Award",
+      "value": "골든 글로브"
+    },
+    {
+      "entry_type": "value",
+      "key": "영화",
+      "target_class": "musical",
+      "target_property": "musical_Category",
+      "value": "영화"
+    },
+    {
+      "entry_type": "value",
+      "key": "드라마",
+      "target_class": "musical",
+      "target_property": "musical_Category",
+      "value": "드라마"
+    },
+    {
+      "entry_type": "value",
+      "key": "승리",
+      "target_class": "musical",
+      "target_property": "musical_Result",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "패배",
+      "target_class": "musical",
+      "target_property": "musical_Result",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "무승부",
+      "target_class": "musical",
+      "target_property": "musical_Result",
+      "value": "무승부"
+    }
+  ]
+}

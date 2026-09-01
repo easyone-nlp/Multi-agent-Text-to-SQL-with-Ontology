@@ -1,0 +1,295 @@
+{
+  "db_id": "gymnast",
+  "classes": [
+    {
+      "name": "gymnast",
+      "source_table": "gymnast",
+      "ranking": 3.5,
+      "primary_label": "기타 운동 선수",
+      "synonyms": [
+        "체조 선수",
+        "체조자",
+        "체조인",
+        "체조 운동자",
+        "체조 훈련생"
+      ]
+    },
+    {
+      "name": "people",
+      "source_table": "people",
+      "ranking": 3.0,
+      "primary_label": "사람",
+      "synonyms": [
+        "인구",
+        "인구 통계",
+        "개인",
+        "인원",
+        "인구 데이터"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "gymnast_Gymnast_ID",
+      "domain": "gymnast",
+      "source_table": "gymnast",
+      "source_column": "Gymnast_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기타 운동 선수 ID",
+      "synonyms": [
+        "gymnast id",
+        "gymnast identifier",
+        "gymnast number",
+        "gymnast code",
+        "gymnast unique id",
+        "gymnast id number",
+        "gymnast key"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "gymnast_Floor_Exercise_Points",
+      "domain": "gymnast",
+      "source_table": "gymnast",
+      "source_column": "Floor_Exercise_Points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "플로어 운동 점수",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "gymnast_Pommel_Horse_Points",
+      "domain": "gymnast",
+      "source_table": "gymnast",
+      "source_column": "Pommel_Horse_Points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "포멜 헤이스 점수",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "gymnast_Rings_Points",
+      "domain": "gymnast",
+      "source_table": "gymnast",
+      "source_column": "Rings_Points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "링스 점수",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "gymnast_Vault_Points",
+      "domain": "gymnast",
+      "source_table": "gymnast",
+      "source_column": "Vault_Points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "버트 점수",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "gymnast_Parallel_Bars_Points",
+      "domain": "gymnast",
+      "source_table": "gymnast",
+      "source_column": "Parallel_Bars_Points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "평행 바 점수",
+      "synonyms": [
+        "가로 줄바지 점수",
+        "가로 줄바지 운동 점수",
+        "parallel bars 점수",
+        "parallel bars points",
+        "가로 줄바지 성적",
+        "parallel bars 성적",
+        "가로 줄바지 총점",
+        "parallel bars 총점"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "gymnast_Horizontal_Bar_Points",
+      "domain": "gymnast",
+      "source_table": "gymnast",
+      "source_column": "Horizontal_Bar_Points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "수평 바 점수",
+      "synonyms": [
+        "가로바 점수",
+        "가로바 성적",
+        "가로바 결과",
+        "가로바 총점",
+        "가로바 평점"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "gymnast_Total_Points",
+      "domain": "gymnast",
+      "source_table": "gymnast",
+      "source_column": "Total_Points",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "총 점수",
+      "synonyms": [
+        "총 점수",
+        "전체 점수",
+        "총 성적",
+        "총 평점",
+        "총 결과",
+        "총 총점",
+        "전체 성적"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_People_ID",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "People_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "people id",
+      "synonyms": [
+        "People_ID",
+        "인원 ID",
+        "사용자 ID",
+        "개인 번호",
+        "ID",
+        "인덱스"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Name",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "Name",
+        "이름",
+        "성명",
+        "사용자 이름",
+        "개인명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Age",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "Age",
+        "연령",
+        "나이",
+        "연세",
+        "생년월일"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Height",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Height",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "height",
+      "synonyms": [
+        "신장",
+        "키",
+        "키 수치",
+        "신장 정보",
+        "키 데이터",
+        "Height"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Hometown",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Hometown",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "hometown",
+      "synonyms": [
+        "출신지",
+        "현지",
+        "등록지",
+        "출산지",
+        "지역",
+        "Hometown",
+        "출신 지역"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "gymnast_people_fk0",
+      "domain": "gymnast",
+      "range": "people",
+      "source_fk": [
+        "gymnast.Gymnast_ID",
+        "people.People_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "db_id": "movie_1",
+  "classes": [
+    {
+      "name": "Movie",
+      "source_table": "Movie",
+      "ranking": 3.0,
+      "primary_label": "영화",
+      "synonyms": [
+        "영화",
+        "영화제목",
+        "영화정보",
+        "영화목록",
+        "영화데이터",
+        "영화내용"
+      ]
+    },
+    {
+      "name": "Reviewer",
+      "source_table": "Reviewer",
+      "ranking": 3.0,
+      "primary_label": "리뷰어",
+      "synonyms": [
+        "리뷰어",
+        "리뷰작성자",
+        "평점작성자",
+        "영화평가자",
+        "평점제공자"
+      ]
+    },
+    {
+      "name": "Rating",
+      "source_table": "Rating",
+      "ranking": 3.0,
+      "primary_label": "평가",
+      "synonyms": [
+        "평점",
+        "리뷰 평점",
+        "영화 평점",
+        "평점 정보",
+        "리뷰 평가",
+        "영화 평가"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Movie_mID",
+      "domain": "Movie",
+      "source_table": "Movie",
+      "source_column": "mID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "영화 id",
+      "synonyms": [
+        "mID",
+        "영화 ID",
+        "영화 식별 번호",
+        "mID 번호",
+        "영화 고유 번호",
+        "영화 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Movie_title",
+      "domain": "Movie",
+      "source_table": "Movie",
+      "source_column": "title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "제목",
+      "synonyms": [
+        "title",
+        "영화 제목",
+        "제목",
+        "영화 이름",
+        "영화 타이틀",
+        "영화명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아이언맨": [
+          "아이언맨"
+        ],
+        "스파이더맨": [
+          "스파이더맨"
+        ]
+      }
+    },
+    {
+      "name": "Movie_year",
+      "domain": "Movie",
+      "source_table": "Movie",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "year",
+        "연도",
+        "영화 연도",
+        "제작 연도",
+        "영화 발매 연도",
+        "영화 년도",
+        "영화 연대"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Movie_director",
+      "domain": "Movie",
+      "source_table": "Movie",
+      "source_column": "director",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "감독",
+      "synonyms": [
+        "감독",
+        "감독 이름",
+        "감독자",
+        "감독자 이름",
+        "감독명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "조지 루카스": [
+          "조지 루카스"
+        ],
+        "스티븐 스필버그": [
+          "스티븐 스필버그"
+        ]
+      }
+    },
+    {
+      "name": "Reviewer_rID",
+      "domain": "Reviewer",
+      "source_table": "Reviewer",
+      "source_column": "rID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "리뷰어 id",
+      "synonyms": [
+        "rID",
+        "리뷰어 ID",
+        "리뷰어 식별번호",
+        "리뷰어 번호",
+        "리뷰어 고유번호",
+        "리뷰어 식별자",
+        "리뷰어 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Reviewer_name",
+      "domain": "Reviewer",
+      "source_table": "Reviewer",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "리뷰어 이름",
+        "이름",
+        "리뷰어 대표 이름",
+        "리뷰어 소유자 이름",
+        "리뷰어 주인 이름",
+        "리뷰어 표시 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "박지현": [
+          "박지현"
+        ]
+      }
+    },
+    {
+      "name": "Rating_rID",
+      "domain": "Rating",
+      "source_table": "Rating",
+      "source_column": "rID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "리뷰어 id",
+      "synonyms": [
+        "rID",
+        "리뷰어 ID",
+        "리뷰어 번호",
+        "리뷰어 식별자",
+        "리뷰어 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Rating_mID",
+      "domain": "Rating",
+      "source_table": "Rating",
+      "source_column": "mID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "영화 id",
+      "synonyms": [
+        "mID",
+        "영화 ID",
+        "영화 번호",
+        "영화 식별자",
+        "영화 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Rating_stars",
+      "domain": "Rating",
+      "source_table": "Rating",
+      "source_column": "stars",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 4.0,
+      "primary_label": "평가 별점",
+      "synonyms": [
+        "stars",
+        "별점",
+        "평점",
+        "별 수",
+        "평점 수",
+        "별 점수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Rating_ratingDate",
+      "domain": "Rating",
+      "source_table": "Rating",
+      "source_column": "ratingDate",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "평가 일시",
+      "synonyms": [
+        "평가 날짜",
+        "평점 날짜",
+        "평가 일자",
+        "평가 일시",
+        "평점 기록일",
+        "평점 일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Rating_Reviewer_fk0",
+      "domain": "Rating",
+      "range": "Reviewer",
+      "source_fk": [
+        "Rating.rID",
+        "Reviewer.rID"
+      ],
+      "weight": 1.0,
+      "primary_label": "평가한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Rating_Movie_fk1",
+      "domain": "Rating",
+      "range": "Movie",
+      "source_fk": [
+        "Rating.mID",
+        "Movie.mID"
+      ],
+      "weight": 1.0,
+      "primary_label": "평가한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

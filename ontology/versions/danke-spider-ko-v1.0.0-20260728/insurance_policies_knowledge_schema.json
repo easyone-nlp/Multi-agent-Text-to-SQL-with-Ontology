@@ -1,0 +1,687 @@
+{
+  "db_id": "insurance_policies",
+  "classes": [
+    {
+      "name": "Customers",
+      "source_table": "Customers",
+      "ranking": 3.0,
+      "primary_label": "고객들",
+      "synonyms": [
+        "고객 정보",
+        "보험 고객",
+        "이름별 고객",
+        "고객 목록",
+        "보험 가입자"
+      ]
+    },
+    {
+      "name": "Customer_Policies",
+      "source_table": "Customer_Policies",
+      "ranking": 3.5,
+      "primary_label": "고객 정책",
+      "synonyms": [
+        "계약 정보",
+        "보험 계약",
+        "고객 계약",
+        "계약 목록",
+        "계약자 정보"
+      ]
+    },
+    {
+      "name": "Claims",
+      "source_table": "Claims",
+      "ranking": 3.5,
+      "primary_label": "claims",
+      "synonyms": [
+        "청구 내역",
+        "보험 청구",
+        "청구서",
+        "청구 정보",
+        "보험 신고"
+      ]
+    },
+    {
+      "name": "Settlements",
+      "source_table": "Settlements",
+      "ranking": 3.5,
+      "primary_label": "설정지",
+      "synonyms": [
+        "정산",
+        "결제",
+        "지급",
+        "환급",
+        "청구"
+      ]
+    },
+    {
+      "name": "Payments",
+      "source_table": "Payments",
+      "ranking": 3.5,
+      "primary_label": "결제",
+      "synonyms": [
+        "결제",
+        "지급",
+        "환급",
+        "청구",
+        "청구서"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Customers_Customer_ID",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "Customer_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "customer id",
+      "synonyms": [
+        "고유번호",
+        "고객 번호",
+        "고객 ID",
+        "고객 식별자",
+        "고유 ID",
+        "고객 코드",
+        "고객 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_Customer_Details",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "Customer_Details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "customer details",
+      "synonyms": [
+        "고객 정보",
+        "고객 세부 사항",
+        "고객 정보 내용",
+        "고객 데이터",
+        "고객 정보 설명",
+        "고객 정보 세부"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Policies_Policy_ID",
+      "domain": "Customer_Policies",
+      "source_table": "Customer_Policies",
+      "source_column": "Policy_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "정책 ID",
+      "synonyms": [
+        "정책 ID",
+        "보험 계약 번호",
+        "Policy ID",
+        "보험 계약 식별자",
+        "정책 식별 번호",
+        "Policy No",
+        "계약 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Policies_Customer_ID",
+      "domain": "Customer_Policies",
+      "source_table": "Customer_Policies",
+      "source_column": "Customer_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 ID",
+        "고객 번호",
+        "Customer ID",
+        "고유 고객 식별자",
+        "고객 식별 번호",
+        "Client ID",
+        "고객 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Policies_Policy_Type_Code",
+      "domain": "Customer_Policies",
+      "source_table": "Customer_Policies",
+      "source_column": "Policy_Type_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "정책 유형 코드",
+      "synonyms": [
+        "정책 유형 코드",
+        "보상 유형 코드",
+        "Policy Type Code",
+        "유형 코드",
+        "Policy Type",
+        "보상 유형",
+        "Policy Category Code"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "기본 보험": [
+          "기본",
+          "기본 보험"
+        ],
+        "건강 보험": [
+          "건강",
+          "건강 보험"
+        ],
+        "자동차 보험": [
+          "자동차",
+          "자동차 보험"
+        ]
+      }
+    },
+    {
+      "name": "Customer_Policies_Start_Date",
+      "domain": "Customer_Policies",
+      "source_table": "Customer_Policies",
+      "source_column": "Start_Date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "시작 일자",
+      "synonyms": [
+        "시작일",
+        "시작 날짜",
+        "계약 시작일",
+        "시작일자",
+        "계약 시작 날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Policies_End_Date",
+      "domain": "Customer_Policies",
+      "source_table": "Customer_Policies",
+      "source_column": "End_Date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "종료 일자",
+      "synonyms": [
+        "종료일",
+        "종료 날짜",
+        "계약 종료일",
+        "종료일자",
+        "계약 종료 날짜",
+        "계약 종료일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Claim_ID",
+      "domain": "Claims",
+      "source_table": "Claims",
+      "source_column": "Claim_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "claim id",
+      "synonyms": [
+        "claim_id",
+        "claim number",
+        "claim identifier",
+        "claim no",
+        "claim id number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Policy_ID",
+      "domain": "Claims",
+      "source_table": "Claims",
+      "source_column": "Policy_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "policy id",
+      "synonyms": [
+        "policy_id",
+        "policy number",
+        "policy identifier",
+        "policy no",
+        "policy id number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Date_Claim_Made",
+      "domain": "Claims",
+      "source_table": "Claims",
+      "source_column": "Date_Claim_Made",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "date claim made",
+      "synonyms": [
+        "date claim made",
+        "claim date",
+        "date of claim",
+        "claim date made",
+        "claim date time",
+        "claim made date"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Date_Claim_Settled",
+      "domain": "Claims",
+      "source_table": "Claims",
+      "source_column": "Date_Claim_Settled",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "date claim settled",
+      "synonyms": [
+        "사고 처리 일자",
+        "처리 일시",
+        "사고 해결 일자",
+        "결제 날짜",
+        "결제 일시",
+        "처리 일자",
+        "사고 해결 일시"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Amount_Claimed",
+      "domain": "Claims",
+      "source_table": "Claims",
+      "source_column": "Amount_Claimed",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "amount claimed",
+      "synonyms": [
+        "사고 금액",
+        "손해 금액",
+        "요청 금액",
+        "사고 요청 금액",
+        "손해 요청 금액",
+        "사고 대상 금액",
+        "요청 손해 금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Amount_Settled",
+      "domain": "Claims",
+      "source_table": "Claims",
+      "source_column": "Amount_Settled",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "amount settled",
+      "synonyms": [
+        "실결제 금액",
+        "결제 금액",
+        "실제 지급 금액",
+        "지급 금액",
+        "실제 손해 금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Settlements_Settlement_ID",
+      "domain": "Settlements",
+      "source_table": "Settlements",
+      "source_column": "Settlement_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "설정지 ID",
+      "synonyms": [
+        "settlement id",
+        "settlement number",
+        "settlement identifier",
+        "settlement code",
+        "settlement unique id",
+        "settlement key"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Settlements_Claim_ID",
+      "domain": "Settlements",
+      "source_table": "Settlements",
+      "source_column": "Claim_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "claim id",
+      "synonyms": [
+        "claim id",
+        "claim number",
+        "claim identifier",
+        "claim code",
+        "claim unique id",
+        "claim key"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Settlements_Date_Claim_Made",
+      "domain": "Settlements",
+      "source_table": "Settlements",
+      "source_column": "Date_Claim_Made",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "claim 제기일",
+      "synonyms": [
+        "date claim made",
+        "claim made date",
+        "date of claim",
+        "claim date",
+        "claim submission date",
+        "claim date made"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Settlements_Date_Claim_Settled",
+      "domain": "Settlements",
+      "source_table": "Settlements",
+      "source_column": "Date_Claim_Settled",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "claim 해결일",
+      "synonyms": [
+        "보상 날짜",
+        "지급일",
+        "사고 해결일",
+        "지급 날짜",
+        "사고 해결 일자",
+        "보상 일자",
+        "Settlement_Date"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Settlements_Amount_Claimed",
+      "domain": "Settlements",
+      "source_table": "Settlements",
+      "source_column": "Amount_Claimed",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "청구 금액",
+      "synonyms": [
+        "요청 금액",
+        "보상 대상 금액",
+        "청구 금액",
+        "보상 요청 금액",
+        "Amount_Claimed"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Settlements_Amount_Settled",
+      "domain": "Settlements",
+      "source_table": "Settlements",
+      "source_column": "Amount_Settled",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "결제 금액",
+      "synonyms": [
+        "지급 금액",
+        "실제 지급 금액",
+        "보상 금액",
+        "지급된 금액",
+        "Settlement_Amount",
+        "실제 보상 금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Settlements_Customer_Policy_ID",
+      "domain": "Settlements",
+      "source_table": "Settlements",
+      "source_column": "Customer_Policy_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 보험 정책 ID",
+      "synonyms": [
+        "고객 보험 번호",
+        "고객 계약 번호",
+        "고객 보험 ID",
+        "고객 정책 번호",
+        "정책 번호",
+        "고객 정책 ID",
+        "고객 계약 ID",
+        "보험 계약 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Payments_Payment_ID",
+      "domain": "Payments",
+      "source_table": "Payments",
+      "source_column": "Payment_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "결제 ID",
+      "synonyms": [
+        "결제 ID",
+        "결제 번호",
+        "PAYMENT_ID",
+        "결제 고유 ID",
+        "PAYMENT_NO",
+        "결제 식별자",
+        "PAYMENT_SEQ"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Payments_Settlement_ID",
+      "domain": "Payments",
+      "source_table": "Payments",
+      "source_column": "Settlement_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "결제 내역 ID",
+      "synonyms": [
+        "세트라멘트 ID",
+        "SETTLEMENT_ID",
+        "세트라멘트 번호",
+        "SETTLEMENT_NO",
+        "결제 세트 ID",
+        "SETTLEMENT_SEQ"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Payments_Payment_Method_Code",
+      "domain": "Payments",
+      "source_table": "Payments",
+      "source_column": "Payment_Method_Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "결제 방법 코드",
+      "synonyms": [
+        "결제 방법 코드",
+        "PAYMENT_METHOD_CODE",
+        "결제 수단 코드",
+        "결제 방식 코드",
+        "PAYMENT_METHOD",
+        "결제 수단",
+        "결제 방식"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "CARD": [
+          "카드",
+          "신용카드"
+        ],
+        "CASH": [
+          "현금",
+          "현금결제"
+        ],
+        "TRANSFER": [
+          "이체",
+          "이체결제"
+        ]
+      }
+    },
+    {
+      "name": "Payments_Date_Payment_Made",
+      "domain": "Payments",
+      "source_table": "Payments",
+      "source_column": "Date_Payment_Made",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "결제 일시",
+      "synonyms": [
+        "결제일시",
+        "결제 날짜",
+        "날짜",
+        "날짜 시간",
+        "결제 일자",
+        "결제 시간",
+        "날짜_결제",
+        "결제일"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Payments_Amount_Payment",
+      "domain": "Payments",
+      "source_table": "Payments",
+      "source_column": "Amount_Payment",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "결제 금액",
+      "synonyms": [
+        "결제 금액",
+        "금액",
+        "결제 금액 수치",
+        "결제 금액 값",
+        "금액_결제",
+        "결제 금액 정보",
+        "결제 금액 수치형",
+        "결제 금액 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Customer_Policies_Customers_fk0",
+      "domain": "Customer_Policies",
+      "range": "Customers",
+      "source_fk": [
+        "Customer_Policies.Customer_ID",
+        "Customers.Customer_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Claims_Customer_Policies_fk1",
+      "domain": "Claims",
+      "range": "Customer_Policies",
+      "source_fk": [
+        "Claims.Policy_ID",
+        "Customer_Policies.Policy_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Settlements_Claims_fk2",
+      "domain": "Settlements",
+      "range": "Claims",
+      "source_fk": [
+        "Settlements.Claim_ID",
+        "Claims.Claim_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "대응",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Payments_Settlements_fk3",
+      "domain": "Payments",
+      "range": "Settlements",
+      "source_fk": [
+        "Payments.Settlement_ID",
+        "Settlements.Settlement_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "결제",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "class_table": {
+    "shop": "shop",
+    "member": "member",
+    "happy_hour": "happy_hour",
+    "happy_hour_member": "happy_hour_member"
+  },
+  "property_column": {
+    "shop_Shop_ID": [
+      "shop",
+      "Shop_ID"
+    ],
+    "shop_Address": [
+      "shop",
+      "Address"
+    ],
+    "shop_Num_of_staff": [
+      "shop",
+      "Num_of_staff"
+    ],
+    "shop_Score": [
+      "shop",
+      "Score"
+    ],
+    "shop_Open_Year": [
+      "shop",
+      "Open_Year"
+    ],
+    "member_Member_ID": [
+      "member",
+      "Member_ID"
+    ],
+    "member_Name": [
+      "member",
+      "Name"
+    ],
+    "member_Membership_card": [
+      "member",
+      "Membership_card"
+    ],
+    "member_Age": [
+      "member",
+      "Age"
+    ],
+    "member_Time_of_purchase": [
+      "member",
+      "Time_of_purchase"
+    ],
+    "member_Level_of_membership": [
+      "member",
+      "Level_of_membership"
+    ],
+    "member_Address": [
+      "member",
+      "Address"
+    ],
+    "happy_hour_HH_ID": [
+      "happy_hour",
+      "HH_ID"
+    ],
+    "happy_hour_Shop_ID": [
+      "happy_hour",
+      "Shop_ID"
+    ],
+    "happy_hour_Month": [
+      "happy_hour",
+      "Month"
+    ],
+    "happy_hour_Num_of_shaff_in_charge": [
+      "happy_hour",
+      "Num_of_shaff_in_charge"
+    ],
+    "happy_hour_member_HH_ID": [
+      "happy_hour_member",
+      "HH_ID"
+    ],
+    "happy_hour_member_Member_ID": [
+      "happy_hour_member",
+      "Member_ID"
+    ],
+    "happy_hour_member_Total_amount": [
+      "happy_hour_member",
+      "Total_amount"
+    ]
+  },
+  "object_property_fk": {
+    "happy_hour_shop_fk0": [
+      "happy_hour.Shop_ID",
+      "shop.Shop_ID"
+    ],
+    "happy_hour_member_member_fk1": [
+      "happy_hour_member.Member_ID",
+      "member.Member_ID"
+    ]
+  }
+}

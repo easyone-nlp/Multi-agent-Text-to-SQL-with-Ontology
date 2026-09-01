@@ -1,0 +1,269 @@
+{
+  "db_id": "poker_player",
+  "classes": [
+    {
+      "name": "poker_player",
+      "source_table": "poker_player",
+      "ranking": 3.5,
+      "primary_label": "poker player",
+      "synonyms": [
+        "포커 참가자",
+        "포커 게임 플레이어",
+        "포커 인물",
+        "포커 사용자",
+        "포커 플레이어"
+      ]
+    },
+    {
+      "name": "people",
+      "source_table": "people",
+      "ranking": 3.0,
+      "primary_label": "사람",
+      "synonyms": [
+        "인물",
+        "사람",
+        "인원",
+        "개인",
+        "참가자"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "poker_player_Poker_Player_ID",
+      "domain": "poker_player",
+      "source_table": "poker_player",
+      "source_column": "Poker_Player_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "poker player id",
+      "synonyms": [
+        "플레이어 ID",
+        "유저 식별자",
+        "게임 플레이어 코드",
+        "사용자 고유 번호",
+        "게임 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "poker_player_People_ID",
+      "domain": "poker_player",
+      "source_table": "poker_player",
+      "source_column": "People_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "people id",
+      "synonyms": [
+        "사용자 ID",
+        "인물 식별자",
+        "사람 고유 번호",
+        "사용자 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "poker_player_Final_Table_Made",
+      "domain": "poker_player",
+      "source_table": "poker_player",
+      "source_column": "Final_Table_Made",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "final table made",
+      "synonyms": [
+        "최종 테이블 완성",
+        "최종 테이블 생성",
+        "최종 테이블 완료",
+        "최종 테이블 완성 여부",
+        "최종 테이블 생성 여부"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "poker_player_Best_Finish",
+      "domain": "poker_player",
+      "source_table": "poker_player",
+      "source_column": "Best_Finish",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "best finish",
+      "synonyms": [
+        "최고 성적",
+        "최상위 순위",
+        "최고 순위",
+        "상위 성적",
+        "최고 결과"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "poker_player_Money_Rank",
+      "domain": "poker_player",
+      "source_table": "poker_player",
+      "source_column": "Money_Rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "money rank",
+      "synonyms": [
+        "돈 순위",
+        "자금 순위",
+        "재정 순위",
+        "금액 순위",
+        "자금 위치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "poker_player_Earnings",
+      "domain": "poker_player",
+      "source_table": "poker_player",
+      "source_column": "Earnings",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "earnings",
+      "synonyms": [
+        "수익률",
+        "소득",
+        "이익",
+        "수입",
+        "소득 수준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_People_ID",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "People_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "people id",
+      "synonyms": [
+        "ID",
+        "아이디",
+        "사용자 식별 번호",
+        "사용자 고유 번호",
+        "사용자 식별 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Nationality",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Nationality",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "nationality",
+      "synonyms": [
+        "국적",
+        "나라",
+        "국적 정보",
+        "국적 데이터",
+        "국적 코드",
+        "국적 세부 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Name",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "사용자 이름",
+        "이름 정보",
+        "사용자 이름 데이터",
+        "이름 세부 정보",
+        "사용자 이름 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Birth_Date",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Birth_Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "birth date",
+      "synonyms": [
+        "생일",
+        "출생일자",
+        "태어난 날",
+        "생일 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Height",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Height",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "height",
+      "synonyms": [
+        "신장",
+        "키",
+        "키 정보",
+        "신장 길이",
+        "키 높이",
+        "신장 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "poker_player_people_fk0",
+      "domain": "poker_player",
+      "range": "people",
+      "source_fk": [
+        "poker_player.People_ID",
+        "people.People_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

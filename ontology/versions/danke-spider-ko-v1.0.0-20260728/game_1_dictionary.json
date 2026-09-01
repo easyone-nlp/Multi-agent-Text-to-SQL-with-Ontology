@@ -1,0 +1,1341 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "학생",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "플레이어",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "게임 사용자",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "게임 플레이어",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "게임 인용자",
+      "target_class": "Student",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "video games",
+      "target_class": "Video_Games",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "게임 제목",
+      "target_class": "Video_Games",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "게임 정보",
+      "target_class": "Video_Games",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "게임 목록",
+      "target_class": "Video_Games",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "게임 이름",
+      "target_class": "Video_Games",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "게임 데이터",
+      "target_class": "Video_Games",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "플레이 게임",
+      "target_class": "Plays_Games",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "게임 플레이",
+      "target_class": "Plays_Games",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "게임 참여",
+      "target_class": "Plays_Games",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "게임 연관",
+      "target_class": "Plays_Games",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "게임 조인",
+      "target_class": "Plays_Games",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "게임 연관관계",
+      "target_class": "Plays_Games",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 정보",
+      "target_class": "SportsInfo",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 데이터",
+      "target_class": "SportsInfo",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 관련 데이터",
+      "target_class": "SportsInfo",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 정보 테이블",
+      "target_class": "SportsInfo",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 데이터베이스",
+      "target_class": "SportsInfo",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 정보 저장소",
+      "target_class": "SportsInfo",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스포츠 관련 정보 테이블",
+      "target_class": "SportsInfo",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 고유 ID",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "StuID",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 식별 번호",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 고유 번호",
+      "target_class": "Student",
+      "target_property": "Student_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성자",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "LName",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 성",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 정보",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 이름",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Fname",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 이름",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 정보",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 열",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 열",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 컬럼",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 컬럼",
+      "target_class": "Student",
+      "target_property": "Student_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 정보",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 열",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 열",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 컬럼",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성 컬럼",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 코드",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 정보",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 데이터",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 코드 열",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 열",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 컬럼",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전공 코드 컬럼",
+      "target_class": "Student",
+      "target_property": "Student_Major",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상담사",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Advisor",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "조언자",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토 ID",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토 학생 ID",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토자",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멘토자 ID",
+      "target_class": "Student",
+      "target_property": "Student_Advisor",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시 코드",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city_code",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주 도시 코드",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 코드 정보",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주 도시",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "game id",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GameID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 ID",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GameID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 번호",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GameID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 식별자",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GameID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "GameID",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GameID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 고유 번호",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GameID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 식별 번호",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GameID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GameID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "game name",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 이름",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품명",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "GName",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 제목",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 이름",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "game type",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 유형",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "타입",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "GType",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 카테고리",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 종류",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GType",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 번호",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스튜dent ID",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "StuID",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 식별자",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번 정보",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 ID",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_GameID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 번호",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_GameID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 식별자",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_GameID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Video_Games ID",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_GameID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "GameID",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_GameID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 코드",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_GameID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 식별",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_GameID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이 시간",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 시간",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Hours_Played",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 소요 시간",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레이 시간 정보",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 플레이 시간",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 ID",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "StuID",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 고유 번호",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학번",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학생 식별자",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_StuID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스포츠 이름",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_SportName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SportName",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_SportName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운동 종목",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_SportName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스포츠 타이틀",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_SportName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운동명",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_SportName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주간 시간",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_HoursPerWeek",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "HoursPerWeek",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_HoursPerWeek",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주당 시간",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_HoursPerWeek",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주간 활동 시간",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_HoursPerWeek",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 수",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_HoursPerWeek",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주당 소요 시간",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_HoursPerWeek",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 수",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_GamesPlayed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 수",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_GamesPlayed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 횟수",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_GamesPlayed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스포츠 경기 수",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_GamesPlayed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 Played",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_GamesPlayed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 Played",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_GamesPlayed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "게임 수량",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_GamesPlayed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 Played 수",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_GamesPlayed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장학금 수혜 여부",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_OnScholarship",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학자금 수혜 여부",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_OnScholarship",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학자금 여부",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_OnScholarship",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학자금 상태",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_OnScholarship",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학자금 여니",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_OnScholarship",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학자금 상황",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_OnScholarship",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학자금 유무",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_OnScholarship",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학자금 여부 확인",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_OnScholarship",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "학자금 상태 확인",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_OnScholarship",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "김",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": "김"
+    },
+    {
+      "entry_type": "value",
+      "key": "이",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": "김"
+    },
+    {
+      "entry_type": "value",
+      "key": "박",
+      "target_class": "Student",
+      "target_property": "Student_LName",
+      "value": "김"
+    },
+    {
+      "entry_type": "value",
+      "key": "민수",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": "민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "지현",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": "민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "서연",
+      "target_class": "Student",
+      "target_property": "Student_Fname",
+      "value": "민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "남자",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": "남자"
+    },
+    {
+      "entry_type": "value",
+      "key": "여자",
+      "target_class": "Student",
+      "target_property": "Student_Sex",
+      "value": "남자"
+    },
+    {
+      "entry_type": "value",
+      "key": "01",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": "01"
+    },
+    {
+      "entry_type": "value",
+      "key": "02",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": "01"
+    },
+    {
+      "entry_type": "value",
+      "key": "03",
+      "target_class": "Student",
+      "target_property": "Student_city_code",
+      "value": "01"
+    },
+    {
+      "entry_type": "value",
+      "key": "배틀그라운드",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GName",
+      "value": "배틀그라운드"
+    },
+    {
+      "entry_type": "value",
+      "key": "피파",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GName",
+      "value": "피파"
+    },
+    {
+      "entry_type": "value",
+      "key": "액션",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GType",
+      "value": "액션"
+    },
+    {
+      "entry_type": "value",
+      "key": "롤플레잉",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GType",
+      "value": "롤플레잉"
+    },
+    {
+      "entry_type": "value",
+      "key": "스포츠",
+      "target_class": "Video_Games",
+      "target_property": "Video_Games_GType",
+      "value": "스포츠"
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "1시간",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "하루",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2시간",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "두 시간",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "3",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "3시간",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "세 시간",
+      "target_class": "Plays_Games",
+      "target_property": "Plays_Games_Hours_Played",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "축구",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_SportName",
+      "value": "축구"
+    },
+    {
+      "entry_type": "value",
+      "key": "농구",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_SportName",
+      "value": "농구"
+    },
+    {
+      "entry_type": "value",
+      "key": "배구",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_SportName",
+      "value": "배구"
+    },
+    {
+      "entry_type": "value",
+      "key": "수영",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_SportName",
+      "value": "수영"
+    },
+    {
+      "entry_type": "value",
+      "key": "예",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_OnScholarship",
+      "value": "예"
+    },
+    {
+      "entry_type": "value",
+      "key": "Yes",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_OnScholarship",
+      "value": "예"
+    },
+    {
+      "entry_type": "value",
+      "key": "아니오",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_OnScholarship",
+      "value": "아니오"
+    },
+    {
+      "entry_type": "value",
+      "key": "No",
+      "target_class": "SportsInfo",
+      "target_property": "SportsInfo_OnScholarship",
+      "value": "아니오"
+    }
+  ]
+}

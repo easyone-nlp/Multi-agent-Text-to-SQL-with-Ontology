@@ -1,0 +1,949 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "프로그램",
+      "target_class": "program",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "프로그램 정보",
+      "target_class": "program",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영상 콘텐츠",
+      "target_class": "program",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "컨텐츠",
+      "target_class": "program",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "영상",
+      "target_class": "program",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "채널",
+      "target_class": "channel",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "채널 정보",
+      "target_class": "channel",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방송 채널",
+      "target_class": "channel",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전송 경로",
+      "target_class": "channel",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "채널 번호",
+      "target_class": "channel",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방송 정보",
+      "target_class": "broadcast",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방송",
+      "target_class": "broadcast",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "라이브 스트리밍",
+      "target_class": "broadcast",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전송",
+      "target_class": "broadcast",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전파",
+      "target_class": "broadcast",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "broadcast share",
+      "target_class": "broadcast_share",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방송 공유",
+      "target_class": "broadcast_share",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방송 분배",
+      "target_class": "broadcast_share",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방송 공유 데이터",
+      "target_class": "broadcast_share",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방송 공유 정보",
+      "target_class": "broadcast_share",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방송 공유 기록",
+      "target_class": "broadcast_share",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "방송 공유 통계",
+      "target_class": "broadcast_share",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로그램 ID",
+      "target_class": "program",
+      "target_property": "program_Program_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Program_ID",
+      "target_class": "program",
+      "target_property": "program_Program_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로그램 고유 번호",
+      "target_class": "program",
+      "target_property": "program_Program_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "program",
+      "target_property": "program_Program_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로그램 식별자",
+      "target_class": "program",
+      "target_property": "program_Program_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "program",
+      "target_property": "program_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Name",
+      "target_class": "program",
+      "target_property": "program_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로그램 이름",
+      "target_class": "program",
+      "target_property": "program_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "program",
+      "target_property": "program_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목명",
+      "target_class": "program",
+      "target_property": "program_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로그램 제목",
+      "target_class": "program",
+      "target_property": "program_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출처",
+      "target_class": "program",
+      "target_property": "program_Origin",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Origin",
+      "target_class": "program",
+      "target_property": "program_Origin",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발지",
+      "target_class": "program",
+      "target_property": "program_Origin",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원점",
+      "target_class": "program",
+      "target_property": "program_Origin",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소스",
+      "target_class": "program",
+      "target_property": "program_Origin",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로그램 출처",
+      "target_class": "program",
+      "target_property": "program_Origin",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 일자",
+      "target_class": "program",
+      "target_property": "program_Launch",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "launch",
+      "target_class": "program",
+      "target_property": "program_Launch",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출시년도",
+      "target_class": "program",
+      "target_property": "program_Launch",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발매년도",
+      "target_class": "program",
+      "target_property": "program_Launch",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출시일",
+      "target_class": "program",
+      "target_property": "program_Launch",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발매일",
+      "target_class": "program",
+      "target_property": "program_Launch",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도",
+      "target_class": "program",
+      "target_property": "program_Launch",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작년도",
+      "target_class": "program",
+      "target_property": "program_Launch",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소유자",
+      "target_class": "program",
+      "target_property": "program_Owner",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "owner",
+      "target_class": "program",
+      "target_property": "program_Owner",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소유자명",
+      "target_class": "program",
+      "target_property": "program_Owner",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주인",
+      "target_class": "program",
+      "target_property": "program_Owner",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자",
+      "target_class": "program",
+      "target_property": "program_Owner",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작자",
+      "target_class": "program",
+      "target_property": "program_Owner",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영자",
+      "target_class": "program",
+      "target_property": "program_Owner",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 ID",
+      "target_class": "channel",
+      "target_property": "channel_Channel_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 번호",
+      "target_class": "channel",
+      "target_property": "channel_Channel_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 식별자",
+      "target_class": "channel",
+      "target_property": "channel_Channel_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 고유번호",
+      "target_class": "channel",
+      "target_property": "channel_Channel_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "channel",
+      "target_property": "channel_Channel_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 아이디",
+      "target_class": "channel",
+      "target_property": "channel_Channel_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 식별",
+      "target_class": "channel",
+      "target_property": "channel_Channel_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "channel",
+      "target_property": "channel_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널명",
+      "target_class": "channel",
+      "target_property": "channel_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 이름",
+      "target_class": "channel",
+      "target_property": "channel_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널",
+      "target_class": "channel",
+      "target_property": "channel_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널명칭",
+      "target_class": "channel",
+      "target_property": "channel_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 제목",
+      "target_class": "channel",
+      "target_property": "channel_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소유자",
+      "target_class": "channel",
+      "target_property": "channel_Owner",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주인",
+      "target_class": "channel",
+      "target_property": "channel_Owner",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소유자 이름",
+      "target_class": "channel",
+      "target_property": "channel_Owner",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 소유자",
+      "target_class": "channel",
+      "target_property": "channel_Owner",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소유자명",
+      "target_class": "channel",
+      "target_property": "channel_Owner",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 주인",
+      "target_class": "channel",
+      "target_property": "channel_Owner",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공유 비율",
+      "target_class": "channel",
+      "target_property": "channel_Share_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공유 비중",
+      "target_class": "channel",
+      "target_property": "channel_Share_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공유 비율 수치",
+      "target_class": "channel",
+      "target_property": "channel_Share_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공유 비율 정보",
+      "target_class": "channel",
+      "target_property": "channel_Share_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공유 비율 데이터",
+      "target_class": "channel",
+      "target_property": "channel_Share_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공유 비율 값",
+      "target_class": "channel",
+      "target_property": "channel_Share_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공유 비율 측정",
+      "target_class": "channel",
+      "target_property": "channel_Share_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공유 비율 계산",
+      "target_class": "channel",
+      "target_property": "channel_Share_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 비율",
+      "target_class": "channel",
+      "target_property": "channel_Rating_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 비중",
+      "target_class": "channel",
+      "target_property": "channel_Rating_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 비율 수치",
+      "target_class": "channel",
+      "target_property": "channel_Rating_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 비율 정보",
+      "target_class": "channel",
+      "target_property": "channel_Rating_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 비율 데이터",
+      "target_class": "channel",
+      "target_property": "channel_Rating_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 비율 값",
+      "target_class": "channel",
+      "target_property": "channel_Rating_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 비율 측정",
+      "target_class": "channel",
+      "target_property": "channel_Rating_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 비율 계산",
+      "target_class": "channel",
+      "target_property": "channel_Rating_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 ID",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Channel_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 식별 번호",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Channel_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 번호",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Channel_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 고유 ID",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Channel_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 코드",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Channel_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 식별자",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Channel_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Channel_ID",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Channel_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로그램 ID",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Program_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로그램 식별 번호",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Program_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로그램 번호",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Program_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로그램 고유 ID",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Program_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로그램 코드",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Program_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로그램 식별자",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Program_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Program_ID",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Program_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간대",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Time_of_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Time_of_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방송 시간",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Time_of_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간대 정보",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Time_of_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간대별",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Time_of_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간대 지정",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Time_of_day",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "channel id",
+      "target_class": "broadcast_share",
+      "target_property": "broadcast_share_Channel_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "program id",
+      "target_class": "broadcast_share",
+      "target_property": "broadcast_share_Program_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date",
+      "target_class": "broadcast_share",
+      "target_property": "broadcast_share_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "share in percent",
+      "target_class": "broadcast_share",
+      "target_property": "broadcast_share_Share_in_percent",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "KBS1",
+      "target_class": "program",
+      "target_property": "program_Name",
+      "value": "KBS1"
+    },
+    {
+      "entry_type": "value",
+      "key": "KBS 1",
+      "target_class": "program",
+      "target_property": "program_Name",
+      "value": "KBS1"
+    },
+    {
+      "entry_type": "value",
+      "key": "MBC",
+      "target_class": "program",
+      "target_property": "program_Name",
+      "value": "MBC"
+    },
+    {
+      "entry_type": "value",
+      "key": "MBC 방송",
+      "target_class": "program",
+      "target_property": "program_Name",
+      "value": "MBC"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국",
+      "target_class": "program",
+      "target_property": "program_Origin",
+      "value": "한국"
+    },
+    {
+      "entry_type": "value",
+      "key": "Korea",
+      "target_class": "program",
+      "target_property": "program_Origin",
+      "value": "한국"
+    },
+    {
+      "entry_type": "value",
+      "key": "외국",
+      "target_class": "program",
+      "target_property": "program_Origin",
+      "value": "외국"
+    },
+    {
+      "entry_type": "value",
+      "key": "국제",
+      "target_class": "program",
+      "target_property": "program_Origin",
+      "value": "외국"
+    },
+    {
+      "entry_type": "value",
+      "key": "KBS",
+      "target_class": "program",
+      "target_property": "program_Owner",
+      "value": "KBS"
+    },
+    {
+      "entry_type": "value",
+      "key": "Korean Broadcasting System",
+      "target_class": "program",
+      "target_property": "program_Owner",
+      "value": "KBS"
+    },
+    {
+      "entry_type": "value",
+      "key": "MBC",
+      "target_class": "program",
+      "target_property": "program_Owner",
+      "value": "MBC"
+    },
+    {
+      "entry_type": "value",
+      "key": "Munhwa Broadcasting Corporation",
+      "target_class": "program",
+      "target_property": "program_Owner",
+      "value": "MBC"
+    },
+    {
+      "entry_type": "value",
+      "key": "KBS",
+      "target_class": "channel",
+      "target_property": "channel_Name",
+      "value": "KBS"
+    },
+    {
+      "entry_type": "value",
+      "key": "kbs",
+      "target_class": "channel",
+      "target_property": "channel_Name",
+      "value": "KBS"
+    },
+    {
+      "entry_type": "value",
+      "key": "MBC",
+      "target_class": "channel",
+      "target_property": "channel_Name",
+      "value": "MBC"
+    },
+    {
+      "entry_type": "value",
+      "key": "mbc",
+      "target_class": "channel",
+      "target_property": "channel_Name",
+      "value": "MBC"
+    },
+    {
+      "entry_type": "value",
+      "key": "김철수",
+      "target_class": "channel",
+      "target_property": "channel_Owner",
+      "value": "김철수"
+    },
+    {
+      "entry_type": "value",
+      "key": "오전",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Time_of_day",
+      "value": "오전"
+    },
+    {
+      "entry_type": "value",
+      "key": "오후",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Time_of_day",
+      "value": "오후"
+    },
+    {
+      "entry_type": "value",
+      "key": "저녁",
+      "target_class": "broadcast",
+      "target_property": "broadcast_Time_of_day",
+      "value": "저녁"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-10-01",
+      "target_class": "broadcast_share",
+      "target_property": "broadcast_share_Date",
+      "value": "2023-10-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 10월 1일",
+      "target_class": "broadcast_share",
+      "target_property": "broadcast_share_Date",
+      "value": "2023-10-01"
+    }
+  ]
+}

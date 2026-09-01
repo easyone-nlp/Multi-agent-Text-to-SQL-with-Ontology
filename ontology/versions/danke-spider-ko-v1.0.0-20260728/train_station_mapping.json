@@ -1,0 +1,75 @@
+{
+  "class_table": {
+    "station": "station",
+    "train": "train",
+    "train_station": "train_station"
+  },
+  "property_column": {
+    "station_Station_ID": [
+      "station",
+      "Station_ID"
+    ],
+    "station_Name": [
+      "station",
+      "Name"
+    ],
+    "station_Annual_entry_exit": [
+      "station",
+      "Annual_entry_exit"
+    ],
+    "station_Annual_interchanges": [
+      "station",
+      "Annual_interchanges"
+    ],
+    "station_Total_Passengers": [
+      "station",
+      "Total_Passengers"
+    ],
+    "station_Location": [
+      "station",
+      "Location"
+    ],
+    "station_Main_Services": [
+      "station",
+      "Main_Services"
+    ],
+    "station_Number_of_Platforms": [
+      "station",
+      "Number_of_Platforms"
+    ],
+    "train_Train_ID": [
+      "train",
+      "Train_ID"
+    ],
+    "train_Name": [
+      "train",
+      "Name"
+    ],
+    "train_Time": [
+      "train",
+      "Time"
+    ],
+    "train_Service": [
+      "train",
+      "Service"
+    ],
+    "train_station_Train_ID": [
+      "train_station",
+      "Train_ID"
+    ],
+    "train_station_Station_ID": [
+      "train_station",
+      "Station_ID"
+    ]
+  },
+  "object_property_fk": {
+    "train_station_station_fk0": [
+      "train_station.Station_ID",
+      "station.Station_ID"
+    ],
+    "train_station_train_fk1": [
+      "train_station.Train_ID",
+      "train.Train_ID"
+    ]
+  }
+}

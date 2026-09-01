@@ -1,0 +1,162 @@
+{
+  "class_table": {
+    "Apartment_Buildings": "Apartment_Buildings",
+    "Apartments": "Apartments",
+    "Apartment_Facilities": "Apartment_Facilities",
+    "Guests": "Guests",
+    "Apartment_Bookings": "Apartment_Bookings",
+    "View_Unit_Status": "View_Unit_Status"
+  },
+  "property_column": {
+    "Apartment_Buildings_building_id": [
+      "Apartment_Buildings",
+      "building_id"
+    ],
+    "Apartment_Buildings_building_short_name": [
+      "Apartment_Buildings",
+      "building_short_name"
+    ],
+    "Apartment_Buildings_building_full_name": [
+      "Apartment_Buildings",
+      "building_full_name"
+    ],
+    "Apartment_Buildings_building_description": [
+      "Apartment_Buildings",
+      "building_description"
+    ],
+    "Apartment_Buildings_building_address": [
+      "Apartment_Buildings",
+      "building_address"
+    ],
+    "Apartment_Buildings_building_manager": [
+      "Apartment_Buildings",
+      "building_manager"
+    ],
+    "Apartment_Buildings_building_phone": [
+      "Apartment_Buildings",
+      "building_phone"
+    ],
+    "Apartments_apt_id": [
+      "Apartments",
+      "apt_id"
+    ],
+    "Apartments_building_id": [
+      "Apartments",
+      "building_id"
+    ],
+    "Apartments_apt_type_code": [
+      "Apartments",
+      "apt_type_code"
+    ],
+    "Apartments_apt_number": [
+      "Apartments",
+      "apt_number"
+    ],
+    "Apartments_bathroom_count": [
+      "Apartments",
+      "bathroom_count"
+    ],
+    "Apartments_bedroom_count": [
+      "Apartments",
+      "bedroom_count"
+    ],
+    "Apartments_room_count": [
+      "Apartments",
+      "room_count"
+    ],
+    "Apartment_Facilities_apt_id": [
+      "Apartment_Facilities",
+      "apt_id"
+    ],
+    "Apartment_Facilities_facility_code": [
+      "Apartment_Facilities",
+      "facility_code"
+    ],
+    "Guests_guest_id": [
+      "Guests",
+      "guest_id"
+    ],
+    "Guests_gender_code": [
+      "Guests",
+      "gender_code"
+    ],
+    "Guests_guest_first_name": [
+      "Guests",
+      "guest_first_name"
+    ],
+    "Guests_guest_last_name": [
+      "Guests",
+      "guest_last_name"
+    ],
+    "Guests_date_of_birth": [
+      "Guests",
+      "date_of_birth"
+    ],
+    "Apartment_Bookings_apt_booking_id": [
+      "Apartment_Bookings",
+      "apt_booking_id"
+    ],
+    "Apartment_Bookings_apt_id": [
+      "Apartment_Bookings",
+      "apt_id"
+    ],
+    "Apartment_Bookings_guest_id": [
+      "Apartment_Bookings",
+      "guest_id"
+    ],
+    "Apartment_Bookings_booking_status_code": [
+      "Apartment_Bookings",
+      "booking_status_code"
+    ],
+    "Apartment_Bookings_booking_start_date": [
+      "Apartment_Bookings",
+      "booking_start_date"
+    ],
+    "Apartment_Bookings_booking_end_date": [
+      "Apartment_Bookings",
+      "booking_end_date"
+    ],
+    "View_Unit_Status_apt_id": [
+      "View_Unit_Status",
+      "apt_id"
+    ],
+    "View_Unit_Status_apt_booking_id": [
+      "View_Unit_Status",
+      "apt_booking_id"
+    ],
+    "View_Unit_Status_status_date": [
+      "View_Unit_Status",
+      "status_date"
+    ],
+    "View_Unit_Status_available_yn": [
+      "View_Unit_Status",
+      "available_yn"
+    ]
+  },
+  "object_property_fk": {
+    "Apartments_Apartment_Buildings_fk0": [
+      "Apartments.building_id",
+      "Apartment_Buildings.building_id"
+    ],
+    "Apartment_Facilities_Apartments_fk1": [
+      "Apartment_Facilities.apt_id",
+      "Apartments.apt_id"
+    ],
+    "Apartment_Bookings_Guests_fk2": [
+      "Apartment_Bookings.guest_id",
+      "Guests.guest_id"
+    ],
+    "Apartment_Bookings_Apartments_fk3": [
+      "Apartment_Bookings.apt_id",
+      "Apartments.apt_id"
+    ],
+    "View_Unit_Status_Apartment_Bookings_fk4": [
+      "View_Unit_Status.apt_booking_id",
+      "Apartment_Bookings.apt_booking_id"
+    ],
+    "View_Unit_Status_Apartments_fk5": [
+      "View_Unit_Status.apt_id",
+      "Apartments.apt_id"
+    ]
+  }
+}

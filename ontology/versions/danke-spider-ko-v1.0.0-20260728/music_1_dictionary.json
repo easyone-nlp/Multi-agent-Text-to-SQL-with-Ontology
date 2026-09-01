@@ -1,0 +1,1453 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "장르",
+      "target_class": "genre",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음악 장르",
+      "target_class": "genre",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음악 분류",
+      "target_class": "genre",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음악 유형",
+      "target_class": "genre",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음악 카테고리",
+      "target_class": "genre",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "가수",
+      "target_class": "artist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "아티스트",
+      "target_class": "artist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음악인",
+      "target_class": "artist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연주자",
+      "target_class": "artist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연출가",
+      "target_class": "artist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연가",
+      "target_class": "artist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "파일",
+      "target_class": "files",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음악 파일",
+      "target_class": "files",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음악 데이터",
+      "target_class": "files",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음악 자료",
+      "target_class": "files",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "노래",
+      "target_class": "song",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장르 이름",
+      "target_class": "genre",
+      "target_property": "genre_g_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "g_name",
+      "target_class": "genre",
+      "target_property": "genre_g_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음악 장르",
+      "target_class": "genre",
+      "target_property": "genre_g_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장르명",
+      "target_class": "genre",
+      "target_property": "genre_g_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음악 유형",
+      "target_class": "genre",
+      "target_property": "genre_g_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장르",
+      "target_class": "genre",
+      "target_property": "genre_g_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가",
+      "target_class": "genre",
+      "target_property": "genre_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점",
+      "target_class": "genre",
+      "target_property": "genre_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "genre",
+      "target_property": "genre_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가점",
+      "target_class": "genre",
+      "target_property": "genre_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 점수",
+      "target_class": "genre",
+      "target_property": "genre_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "genre",
+      "target_property": "genre_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가장 인기 있는 지역",
+      "target_class": "genre",
+      "target_property": "genre_most_popular_in",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인기 있는 곳",
+      "target_class": "genre",
+      "target_property": "genre_most_popular_in",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인기 지역",
+      "target_class": "genre",
+      "target_property": "genre_most_popular_in",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인기 국가",
+      "target_class": "genre",
+      "target_property": "genre_most_popular_in",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가장 인기 있는 곳",
+      "target_class": "genre",
+      "target_property": "genre_most_popular_in",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인기 있는 지역",
+      "target_class": "genre",
+      "target_property": "genre_most_popular_in",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가수 이름",
+      "target_class": "artist",
+      "target_property": "artist_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아티스트 이름",
+      "target_class": "artist",
+      "target_property": "artist_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음악가 이름",
+      "target_class": "artist",
+      "target_property": "artist_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아티스트",
+      "target_class": "artist",
+      "target_property": "artist_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가수",
+      "target_class": "artist",
+      "target_property": "artist_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "artist",
+      "target_property": "artist_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적",
+      "target_class": "artist",
+      "target_property": "artist_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나라",
+      "target_class": "artist",
+      "target_property": "artist_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "artist",
+      "target_property": "artist_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적 정보",
+      "target_class": "artist",
+      "target_property": "artist_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 정보",
+      "target_class": "artist",
+      "target_property": "artist_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별",
+      "target_class": "artist",
+      "target_property": "artist_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성",
+      "target_class": "artist",
+      "target_property": "artist_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 정보",
+      "target_class": "artist",
+      "target_property": "artist_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 데이터",
+      "target_class": "artist",
+      "target_property": "artist_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 구분",
+      "target_class": "artist",
+      "target_property": "artist_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 코드",
+      "target_class": "artist",
+      "target_property": "artist_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "선호 장르",
+      "target_class": "artist",
+      "target_property": "artist_preferred_genre",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좋아하는 장르",
+      "target_class": "artist",
+      "target_property": "artist_preferred_genre",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이ศ의 장르",
+      "target_class": "artist",
+      "target_property": "artist_preferred_genre",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주장르",
+      "target_class": "artist",
+      "target_property": "artist_preferred_genre",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음악 장르",
+      "target_class": "artist",
+      "target_property": "artist_preferred_genre",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좋아하는 음악 장르",
+      "target_class": "artist",
+      "target_property": "artist_preferred_genre",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이용 장르",
+      "target_class": "artist",
+      "target_property": "artist_preferred_genre",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SONG ID",
+      "target_class": "files",
+      "target_property": "files_f_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "f_id",
+      "target_class": "files",
+      "target_property": "files_f_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 ID",
+      "target_class": "files",
+      "target_property": "files_f_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파일 ID",
+      "target_class": "files",
+      "target_property": "files_f_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 식별자",
+      "target_class": "files",
+      "target_property": "files_f_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사ong ID",
+      "target_class": "files",
+      "target_property": "files_f_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "file identifier",
+      "target_class": "files",
+      "target_property": "files_f_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아티스트 이름",
+      "target_class": "files",
+      "target_property": "files_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "artist_name",
+      "target_class": "files",
+      "target_property": "files_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가수 이름",
+      "target_class": "files",
+      "target_property": "files_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "예술가",
+      "target_class": "files",
+      "target_property": "files_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가수",
+      "target_class": "files",
+      "target_property": "files_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아티스트",
+      "target_class": "files",
+      "target_property": "files_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파일 크기",
+      "target_class": "files",
+      "target_property": "files_file_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "file_size",
+      "target_class": "files",
+      "target_property": "files_file_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "용량",
+      "target_class": "files",
+      "target_property": "files_file_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "크기",
+      "target_class": "files",
+      "target_property": "files_file_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파일 용량",
+      "target_class": "files",
+      "target_property": "files_file_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파일 크기 정보",
+      "target_class": "files",
+      "target_property": "files_file_size",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소요 시간",
+      "target_class": "files",
+      "target_property": "files_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장시간",
+      "target_class": "files",
+      "target_property": "files_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소요시간",
+      "target_class": "files",
+      "target_property": "files_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음악 길이",
+      "target_class": "files",
+      "target_property": "files_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "files",
+      "target_property": "files_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장시간 소요",
+      "target_class": "files",
+      "target_property": "files_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소요 시간 정보",
+      "target_class": "files",
+      "target_property": "files_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음악 소요 시간",
+      "target_class": "files",
+      "target_property": "files_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포맷",
+      "target_class": "files",
+      "target_property": "files_formats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "형식",
+      "target_class": "files",
+      "target_property": "files_formats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파일 형식",
+      "target_class": "files",
+      "target_property": "files_formats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음악 형식",
+      "target_class": "files",
+      "target_property": "files_formats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "형식 정보",
+      "target_class": "files",
+      "target_property": "files_formats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파일 형식 정보",
+      "target_class": "files",
+      "target_property": "files_formats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음악 파일 형식",
+      "target_class": "files",
+      "target_property": "files_formats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "형식 종류",
+      "target_class": "files",
+      "target_property": "files_formats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파일 형식 목록",
+      "target_class": "files",
+      "target_property": "files_formats",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "노래 이름",
+      "target_class": "song",
+      "target_property": "song_song_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 제목",
+      "target_class": "song",
+      "target_property": "song_song_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가사 이름",
+      "target_class": "song",
+      "target_property": "song_song_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡명",
+      "target_class": "song",
+      "target_property": "song_song_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "노래 제목",
+      "target_class": "song",
+      "target_property": "song_song_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 이름",
+      "target_class": "song",
+      "target_property": "song_song_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "song",
+      "target_property": "song_song_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아티스트 이름",
+      "target_class": "song",
+      "target_property": "song_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가수 이름",
+      "target_class": "song",
+      "target_property": "song_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아티스트",
+      "target_class": "song",
+      "target_property": "song_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가수",
+      "target_class": "song",
+      "target_property": "song_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "뮤지션",
+      "target_class": "song",
+      "target_property": "song_artist_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "song",
+      "target_property": "song_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발행국",
+      "target_class": "song",
+      "target_property": "song_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원산지",
+      "target_class": "song",
+      "target_property": "song_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나라",
+      "target_class": "song",
+      "target_property": "song_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가정보",
+      "target_class": "song",
+      "target_property": "song_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "song",
+      "target_property": "song_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가코드",
+      "target_class": "song",
+      "target_property": "song_country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "노래 ID",
+      "target_class": "song",
+      "target_property": "song_f_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "f_id",
+      "target_class": "song",
+      "target_property": "song_f_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 ID",
+      "target_class": "song",
+      "target_property": "song_f_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파일 ID",
+      "target_class": "song",
+      "target_property": "song_f_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 식별 번호",
+      "target_class": "song",
+      "target_property": "song_f_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 고유 번호",
+      "target_class": "song",
+      "target_property": "song_f_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "f_id 값",
+      "target_class": "song",
+      "target_property": "song_f_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 파일 ID",
+      "target_class": "song",
+      "target_property": "song_f_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장르는",
+      "target_class": "song",
+      "target_property": "song_genre_is",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "genre_is",
+      "target_class": "song",
+      "target_property": "song_genre_is",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장르",
+      "target_class": "song",
+      "target_property": "song_genre_is",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장르 정보",
+      "target_class": "song",
+      "target_property": "song_genre_is",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장르 이름",
+      "target_class": "song",
+      "target_property": "song_genre_is",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장르 종류",
+      "target_class": "song",
+      "target_property": "song_genre_is",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "g_name",
+      "target_class": "song",
+      "target_property": "song_genre_is",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점",
+      "target_class": "song",
+      "target_property": "song_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "rating",
+      "target_class": "song",
+      "target_property": "song_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 정보",
+      "target_class": "song",
+      "target_property": "song_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 수치",
+      "target_class": "song",
+      "target_property": "song_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 평점",
+      "target_class": "song",
+      "target_property": "song_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 점수",
+      "target_class": "song",
+      "target_property": "song_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 값",
+      "target_class": "song",
+      "target_property": "song_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어",
+      "target_class": "song",
+      "target_property": "song_languages",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어정보",
+      "target_class": "song",
+      "target_property": "song_languages",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어들",
+      "target_class": "song",
+      "target_property": "song_languages",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어내용",
+      "target_class": "song",
+      "target_property": "song_languages",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어구성",
+      "target_class": "song",
+      "target_property": "song_languages",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어자료",
+      "target_class": "song",
+      "target_property": "song_languages",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어종류",
+      "target_class": "song",
+      "target_property": "song_languages",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어데이터",
+      "target_class": "song",
+      "target_property": "song_languages",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발매일",
+      "target_class": "song",
+      "target_property": "song_releasedate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출시일",
+      "target_class": "song",
+      "target_property": "song_releasedate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발매일자",
+      "target_class": "song",
+      "target_property": "song_releasedate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출시일자",
+      "target_class": "song",
+      "target_property": "song_releasedate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발매날짜",
+      "target_class": "song",
+      "target_property": "song_releasedate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출시날짜",
+      "target_class": "song",
+      "target_property": "song_releasedate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "song",
+      "target_property": "song_releasedate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해상도",
+      "target_class": "song",
+      "target_property": "song_resolution",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해상도정보",
+      "target_class": "song",
+      "target_property": "song_resolution",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해상도값",
+      "target_class": "song",
+      "target_property": "song_resolution",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해상도데이터",
+      "target_class": "song",
+      "target_property": "song_resolution",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해상도내용",
+      "target_class": "song",
+      "target_property": "song_resolution",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해상도구분",
+      "target_class": "song",
+      "target_property": "song_resolution",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해상도속도",
+      "target_class": "song",
+      "target_property": "song_resolution",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해상도설정",
+      "target_class": "song",
+      "target_property": "song_resolution",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "액션",
+      "target_class": "genre",
+      "target_property": "genre_g_name",
+      "value": "액션"
+    },
+    {
+      "entry_type": "value",
+      "key": "로맨스",
+      "target_class": "genre",
+      "target_property": "genre_g_name",
+      "value": "로맨스"
+    },
+    {
+      "entry_type": "value",
+      "key": "드라마",
+      "target_class": "genre",
+      "target_property": "genre_g_name",
+      "value": "드라마"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "genre",
+      "target_property": "genre_most_popular_in",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "genre",
+      "target_property": "genre_most_popular_in",
+      "value": "부산"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천",
+      "target_class": "genre",
+      "target_property": "genre_most_popular_in",
+      "value": "인천"
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "artist",
+      "target_property": "artist_artist_name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "이지은",
+      "target_class": "artist",
+      "target_property": "artist_artist_name",
+      "value": "이지은"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국",
+      "target_class": "artist",
+      "target_property": "artist_country",
+      "value": "한국"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국",
+      "target_class": "artist",
+      "target_property": "artist_country",
+      "value": "미국"
+    },
+    {
+      "entry_type": "value",
+      "key": "남성",
+      "target_class": "artist",
+      "target_property": "artist_gender",
+      "value": "남성"
+    },
+    {
+      "entry_type": "value",
+      "key": "여성",
+      "target_class": "artist",
+      "target_property": "artist_gender",
+      "value": "여성"
+    },
+    {
+      "entry_type": "value",
+      "key": "팝",
+      "target_class": "artist",
+      "target_property": "artist_preferred_genre",
+      "value": "팝"
+    },
+    {
+      "entry_type": "value",
+      "key": "록",
+      "target_class": "artist",
+      "target_property": "artist_preferred_genre",
+      "value": "록"
+    },
+    {
+      "entry_type": "value",
+      "key": "재즈",
+      "target_class": "artist",
+      "target_property": "artist_preferred_genre",
+      "value": "재즈"
+    },
+    {
+      "entry_type": "value",
+      "key": "방탄소년단",
+      "target_class": "files",
+      "target_property": "files_artist_name",
+      "value": "방탄소년단"
+    },
+    {
+      "entry_type": "value",
+      "key": "BTS",
+      "target_class": "files",
+      "target_property": "files_artist_name",
+      "value": "방탄소년단"
+    },
+    {
+      "entry_type": "value",
+      "key": "아이유",
+      "target_class": "files",
+      "target_property": "files_artist_name",
+      "value": "아이유"
+    },
+    {
+      "entry_type": "value",
+      "key": "IU",
+      "target_class": "files",
+      "target_property": "files_artist_name",
+      "value": "아이유"
+    },
+    {
+      "entry_type": "value",
+      "key": "10MB",
+      "target_class": "files",
+      "target_property": "files_file_size",
+      "value": "10MB"
+    },
+    {
+      "entry_type": "value",
+      "key": "10메가바이트",
+      "target_class": "files",
+      "target_property": "files_file_size",
+      "value": "10MB"
+    },
+    {
+      "entry_type": "value",
+      "key": "500KB",
+      "target_class": "files",
+      "target_property": "files_file_size",
+      "value": "500KB"
+    },
+    {
+      "entry_type": "value",
+      "key": "500킬로바이트",
+      "target_class": "files",
+      "target_property": "files_file_size",
+      "value": "500KB"
+    },
+    {
+      "entry_type": "value",
+      "key": "MP3",
+      "target_class": "files",
+      "target_property": "files_formats",
+      "value": "MP3"
+    },
+    {
+      "entry_type": "value",
+      "key": "mp3",
+      "target_class": "files",
+      "target_property": "files_formats",
+      "value": "MP3"
+    },
+    {
+      "entry_type": "value",
+      "key": "WAV",
+      "target_class": "files",
+      "target_property": "files_formats",
+      "value": "WAV"
+    },
+    {
+      "entry_type": "value",
+      "key": "wav",
+      "target_class": "files",
+      "target_property": "files_formats",
+      "value": "WAV"
+    },
+    {
+      "entry_type": "value",
+      "key": "가사",
+      "target_class": "song",
+      "target_property": "song_song_name",
+      "value": "가사"
+    },
+    {
+      "entry_type": "value",
+      "key": "노래 가사",
+      "target_class": "song",
+      "target_property": "song_song_name",
+      "value": "가사"
+    },
+    {
+      "entry_type": "value",
+      "key": "사랑의 노래",
+      "target_class": "song",
+      "target_property": "song_song_name",
+      "value": "사랑의 노래"
+    },
+    {
+      "entry_type": "value",
+      "key": "사랑 노래",
+      "target_class": "song",
+      "target_property": "song_song_name",
+      "value": "사랑의 노래"
+    },
+    {
+      "entry_type": "value",
+      "key": "방탄소년단",
+      "target_class": "song",
+      "target_property": "song_artist_name",
+      "value": "방탄소년단"
+    },
+    {
+      "entry_type": "value",
+      "key": "BTS",
+      "target_class": "song",
+      "target_property": "song_artist_name",
+      "value": "방탄소년단"
+    },
+    {
+      "entry_type": "value",
+      "key": "아이유",
+      "target_class": "song",
+      "target_property": "song_artist_name",
+      "value": "아이유"
+    },
+    {
+      "entry_type": "value",
+      "key": "IU",
+      "target_class": "song",
+      "target_property": "song_artist_name",
+      "value": "아이유"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국",
+      "target_class": "song",
+      "target_property": "song_country",
+      "value": "한국"
+    },
+    {
+      "entry_type": "value",
+      "key": "Korea",
+      "target_class": "song",
+      "target_property": "song_country",
+      "value": "한국"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국",
+      "target_class": "song",
+      "target_property": "song_country",
+      "value": "미국"
+    },
+    {
+      "entry_type": "value",
+      "key": "USA",
+      "target_class": "song",
+      "target_property": "song_country",
+      "value": "미국"
+    },
+    {
+      "entry_type": "value",
+      "key": "팝",
+      "target_class": "song",
+      "target_property": "song_genre_is",
+      "value": "팝"
+    },
+    {
+      "entry_type": "value",
+      "key": "pop",
+      "target_class": "song",
+      "target_property": "song_genre_is",
+      "value": "팝"
+    },
+    {
+      "entry_type": "value",
+      "key": "록",
+      "target_class": "song",
+      "target_property": "song_genre_is",
+      "value": "록"
+    },
+    {
+      "entry_type": "value",
+      "key": "rock",
+      "target_class": "song",
+      "target_property": "song_genre_is",
+      "value": "록"
+    },
+    {
+      "entry_type": "value",
+      "key": "재즈",
+      "target_class": "song",
+      "target_property": "song_genre_is",
+      "value": "재즈"
+    },
+    {
+      "entry_type": "value",
+      "key": "jazz",
+      "target_class": "song",
+      "target_property": "song_genre_is",
+      "value": "재즈"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국어",
+      "target_class": "song",
+      "target_property": "song_languages",
+      "value": "한국어"
+    },
+    {
+      "entry_type": "value",
+      "key": "Korean",
+      "target_class": "song",
+      "target_property": "song_languages",
+      "value": "한국어"
+    },
+    {
+      "entry_type": "value",
+      "key": "영어",
+      "target_class": "song",
+      "target_property": "song_languages",
+      "value": "영어"
+    },
+    {
+      "entry_type": "value",
+      "key": "English",
+      "target_class": "song",
+      "target_property": "song_languages",
+      "value": "영어"
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "db_id": "entertainment_awards",
+  "classes": [
+    {
+      "name": "festival_detail",
+      "source_table": "festival_detail",
+      "ranking": 3.5,
+      "primary_label": "축제 세부 정보",
+      "synonyms": [
+        "행사 정보",
+        "축제 세부 사항",
+        "이벤트 데이터",
+        "행사 세부 내용",
+        "문화 행사 정보"
+      ]
+    },
+    {
+      "name": "artwork",
+      "source_table": "artwork",
+      "ranking": 3.0,
+      "primary_label": "예술 작품",
+      "synonyms": [
+        "예술 작품",
+        "창작물",
+        "미술 작품",
+        "예술 작품 정보",
+        "창작물 데이터"
+      ]
+    },
+    {
+      "name": "nomination",
+      "source_table": "nomination",
+      "ranking": 3.5,
+      "primary_label": "출품 정보",
+      "synonyms": [
+        "후보자 정보",
+        "추천 기록",
+        "후보 선정",
+        "수상 후보",
+        "후보자 데이터"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "festival_detail_Festival_ID",
+      "domain": "festival_detail",
+      "source_table": "festival_detail",
+      "source_column": "Festival_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "축제 ID",
+      "synonyms": [
+        "Festival_ID",
+        "이벤트 ID",
+        "축제 ID",
+        "축제 식별 번호",
+        "축제 고유 번호",
+        "이벤트 식별자",
+        "축제 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "festival_detail_Festival_Name",
+      "domain": "festival_detail",
+      "source_table": "festival_detail",
+      "source_column": "Festival_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "축제 이름",
+      "synonyms": [
+        "행사 이름",
+        "축제 이름",
+        "축제명",
+        "이벤트 이름",
+        "행사 제목",
+        "축제 제목",
+        "Festival Name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국 전통 축제": [
+          "한국 전통 축제",
+          "전통 축제"
+        ],
+        "국제 축제": [
+          "국제 축제",
+          "국제 행사"
+        ]
+      }
+    },
+    {
+      "name": "festival_detail_Chair_Name",
+      "domain": "festival_detail",
+      "source_table": "festival_detail",
+      "source_column": "Chair_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "주최 기관 이름",
+      "synonyms": [
+        "주최자 이름",
+        "주재자 이름",
+        "chair name",
+        "주최자",
+        "주재자",
+        "주최자명",
+        "chair"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시": [
+          "서울시",
+          "서울"
+        ],
+        "한국문화재단": [
+          "한국문화재단",
+          "문화재단"
+        ]
+      }
+    },
+    {
+      "name": "festival_detail_Location",
+      "domain": "festival_detail",
+      "source_table": "festival_detail",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "장소",
+      "synonyms": [
+        "장소",
+        "위치",
+        "행사 장소",
+        "장소 정보",
+        "위치 정보",
+        "장소명",
+        "행사 위치",
+        "장소 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 강남구": [
+          "강남구",
+          "서울 강남구"
+        ],
+        "부산시 해운대구": [
+          "해운대구",
+          "부산 해운대구"
+        ]
+      }
+    },
+    {
+      "name": "festival_detail_Year",
+      "domain": "festival_detail",
+      "source_table": "festival_detail",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "년도",
+      "synonyms": [
+        "연도",
+        "년도",
+        "행사 연도",
+        "년도 정보",
+        "행사년도",
+        "년도 코드",
+        "년도 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "festival_detail_Num_of_Audience",
+      "domain": "festival_detail",
+      "source_table": "festival_detail",
+      "source_column": "Num_of_Audience",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "참가 인원 수",
+      "synonyms": [
+        "관객 수",
+        "인원 수",
+        "참석자 수",
+        "관객 인원",
+        "관객 수 정보",
+        "인원 수 정보",
+        "관객 수 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "artwork_Artwork_ID",
+      "domain": "artwork",
+      "source_table": "artwork",
+      "source_column": "Artwork_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "예술 작품 ID",
+      "synonyms": [
+        "Artwork_ID",
+        "작품 ID",
+        "전시물 ID",
+        "작품 식별자",
+        "아트워크 ID",
+        "아트워크 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "artwork_Type",
+      "domain": "artwork",
+      "source_table": "artwork",
+      "source_column": "Type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "유형",
+      "synonyms": [
+        "Type",
+        "분류",
+        "종류",
+        "전시물 유형",
+        "아트워크 유형",
+        "분류구분",
+        "타입"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "그림": [
+          "그림",
+          "painting"
+        ],
+        "조각": [
+          "조각",
+          "sculpture"
+        ],
+        "사진": [
+          "사진",
+          "photo"
+        ]
+      }
+    },
+    {
+      "name": "artwork_Name",
+      "domain": "artwork",
+      "source_table": "artwork",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [
+        "Name",
+        "제목",
+        "이름",
+        "작품명",
+        "아트워크 이름",
+        "제작명",
+        "작품 제목"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "nomination_Artwork_ID",
+      "domain": "nomination",
+      "source_table": "nomination",
+      "source_column": "Artwork_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "작품 ID",
+      "synonyms": [
+        "Artwork_ID",
+        "작품 ID",
+        "아트워크 ID",
+        "작품 식별자",
+        "아트워크 식별자",
+        "작품 번호",
+        "아트워크 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "nomination_Festival_ID",
+      "domain": "nomination",
+      "source_table": "nomination",
+      "source_column": "Festival_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "축제 ID",
+      "synonyms": [
+        "Festival_ID",
+        "행사 ID",
+        "페스티벌 ID",
+        "행사 식별자",
+        "페스티벌 식별자",
+        "행사 번호",
+        "페스티벌 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "nomination_Result",
+      "domain": "nomination",
+      "source_table": "nomination",
+      "source_column": "Result",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "결과",
+      "synonyms": [
+        "Result",
+        "결과",
+        "상황",
+        "결과 정보",
+        "상태",
+        "결과 데이터",
+        "결과 문자열",
+        "상황 문자열"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승리": [
+          "승리"
+        ],
+        "패배": [
+          "패배"
+        ],
+        "무승부": [
+          "무승부"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "nomination_festival_detail_fk0",
+      "domain": "nomination",
+      "range": "festival_detail",
+      "source_fk": [
+        "nomination.Festival_ID",
+        "festival_detail.Festival_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "nomination_artwork_fk1",
+      "domain": "nomination",
+      "range": "artwork",
+      "source_fk": [
+        "nomination.Artwork_ID",
+        "artwork.Artwork_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "제출한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

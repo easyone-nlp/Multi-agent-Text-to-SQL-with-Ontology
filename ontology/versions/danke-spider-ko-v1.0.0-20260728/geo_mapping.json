@@ -1,0 +1,155 @@
+{
+  "class_table": {
+    "state": "state",
+    "city": "city",
+    "border_info": "border_info",
+    "highlow": "highlow",
+    "lake": "lake",
+    "mountain": "mountain",
+    "river": "river"
+  },
+  "property_column": {
+    "state_state_name": [
+      "state",
+      "state_name"
+    ],
+    "state_population": [
+      "state",
+      "population"
+    ],
+    "state_area": [
+      "state",
+      "area"
+    ],
+    "state_country_name": [
+      "state",
+      "country_name"
+    ],
+    "state_capital": [
+      "state",
+      "capital"
+    ],
+    "state_density": [
+      "state",
+      "density"
+    ],
+    "city_city_name": [
+      "city",
+      "city_name"
+    ],
+    "city_population": [
+      "city",
+      "population"
+    ],
+    "city_country_name": [
+      "city",
+      "country_name"
+    ],
+    "city_state_name": [
+      "city",
+      "state_name"
+    ],
+    "border_info_state_name": [
+      "border_info",
+      "state_name"
+    ],
+    "border_info_border": [
+      "border_info",
+      "border"
+    ],
+    "highlow_state_name": [
+      "highlow",
+      "state_name"
+    ],
+    "highlow_highest_elevation": [
+      "highlow",
+      "highest_elevation"
+    ],
+    "highlow_lowest_point": [
+      "highlow",
+      "lowest_point"
+    ],
+    "highlow_highest_point": [
+      "highlow",
+      "highest_point"
+    ],
+    "highlow_lowest_elevation": [
+      "highlow",
+      "lowest_elevation"
+    ],
+    "lake_lake_name": [
+      "lake",
+      "lake_name"
+    ],
+    "lake_area": [
+      "lake",
+      "area"
+    ],
+    "lake_country_name": [
+      "lake",
+      "country_name"
+    ],
+    "lake_state_name": [
+      "lake",
+      "state_name"
+    ],
+    "mountain_mountain_name": [
+      "mountain",
+      "mountain_name"
+    ],
+    "mountain_mountain_altitude": [
+      "mountain",
+      "mountain_altitude"
+    ],
+    "mountain_country_name": [
+      "mountain",
+      "country_name"
+    ],
+    "mountain_state_name": [
+      "mountain",
+      "state_name"
+    ],
+    "river_river_name": [
+      "river",
+      "river_name"
+    ],
+    "river_length": [
+      "river",
+      "length"
+    ],
+    "river_country_name": [
+      "river",
+      "country_name"
+    ],
+    "river_traverse": [
+      "river",
+      "traverse"
+    ]
+  },
+  "object_property_fk": {
+    "city_state_fk0": [
+      "city.state_name",
+      "state.state_name"
+    ],
+    "border_info_state_fk1": [
+      "border_info.border",
+      "state.state_name"
+    ],
+    "border_info_state_fk2": [
+      "border_info.state_name",
+      "state.state_name"
+    ],
+    "highlow_state_fk3": [
+      "highlow.state_name",
+      "state.state_name"
+    ],
+    "mountain_state_fk4": [
+      "mountain.state_name",
+      "state.state_name"
+    ],
+    "river_state_fk5": [
+      "river.traverse",
+      "state.state_name"
+    ]
+  }
+}

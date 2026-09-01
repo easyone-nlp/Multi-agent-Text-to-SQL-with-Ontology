@@ -1,0 +1,858 @@
+{
+  "db_id": "geo",
+  "classes": [
+    {
+      "name": "state",
+      "source_table": "state",
+      "ranking": 3.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "지역",
+        "행정구역",
+        "주",
+        "시도",
+        "현"
+      ]
+    },
+    {
+      "name": "city",
+      "source_table": "city",
+      "ranking": 3.0,
+      "primary_label": "도시",
+      "synonyms": [
+        "도시",
+        "도",
+        "도시명",
+        "도시 정보"
+      ]
+    },
+    {
+      "name": "border_info",
+      "source_table": "border_info",
+      "ranking": 3.0,
+      "primary_label": "경계 정보",
+      "synonyms": [
+        "경계 정보",
+        "국경 정보",
+        "경계 데이터",
+        "지역 경계",
+        "경계 상세 정보"
+      ]
+    },
+    {
+      "name": "highlow",
+      "source_table": "highlow",
+      "ranking": 3.5,
+      "primary_label": "주요 지리 정보",
+      "synonyms": [
+        "고도 차이",
+        "높이 차이",
+        "고도 차이 데이터",
+        "높이 차이 정보",
+        "지형 차이",
+        "고도 차이 기록"
+      ]
+    },
+    {
+      "name": "lake",
+      "source_table": "lake",
+      "ranking": 1.0,
+      "primary_label": "호수 이름",
+      "synonyms": [
+        "호수",
+        "호수 정보",
+        "호수 데이터",
+        "지형 호수",
+        "물속 호수",
+        "호수 위치"
+      ]
+    },
+    {
+      "name": "mountain",
+      "source_table": "mountain",
+      "ranking": 3.0,
+      "primary_label": "산 이름",
+      "synonyms": [
+        "산",
+        "산 정보",
+        "산 데이터",
+        "지형 산",
+        "산 정상",
+        "산 위치"
+      ]
+    },
+    {
+      "name": "river",
+      "source_table": "river",
+      "ranking": 3.0,
+      "primary_label": "강 이름",
+      "synonyms": [
+        "강",
+        "하천",
+        "강물"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "state_state_name",
+      "domain": "state",
+      "source_table": "state",
+      "source_column": "state_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "국가 이름",
+      "synonyms": [
+        "주 이름",
+        "주",
+        "상태 이름",
+        "지역 이름",
+        "state_name",
+        "주명",
+        "지역"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "대한민국"
+        ],
+        "미국": [
+          "미국"
+        ]
+      }
+    },
+    {
+      "name": "state_population",
+      "domain": "state",
+      "source_table": "state",
+      "source_column": "population",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "인구 수",
+      "synonyms": [
+        "인구",
+        "인구수",
+        "population",
+        "인구량",
+        "주 인구",
+        "지역 인구"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "state_area",
+      "domain": "state",
+      "source_table": "state",
+      "source_column": "area",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "면적",
+      "synonyms": [
+        "면적",
+        "면적 수",
+        "면적 값",
+        "area",
+        "지역 면적",
+        "주 면적"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "state_country_name",
+      "domain": "state",
+      "source_table": "state",
+      "source_column": "country_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "국가 이름",
+      "synonyms": [
+        "country_name",
+        "국가명",
+        "나라 이름",
+        "국가",
+        "국가명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "대한민국"
+        ],
+        "미국": [
+          "미국"
+        ]
+      }
+    },
+    {
+      "name": "state_capital",
+      "domain": "state",
+      "source_table": "state",
+      "source_column": "capital",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "수도",
+      "synonyms": [
+        "수도",
+        "국가 수도",
+        "수도 도시",
+        "수도 이름",
+        "수도 정보",
+        "capital",
+        "도시",
+        "국가 수도 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "워싱턴": [
+          "워싱턴"
+        ]
+      }
+    },
+    {
+      "name": "state_density",
+      "domain": "state",
+      "source_table": "state",
+      "source_column": "density",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "인구 밀도",
+      "synonyms": [
+        "인구 밀도",
+        "밀도",
+        "인구 밀도 수치",
+        "인구 밀도 정보",
+        "밀도 수치",
+        "density",
+        "인구 밀도 값",
+        "밀도 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_city_name",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "city_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "도시 이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_population",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "population",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "인구 수",
+      "synonyms": [
+        "인구수",
+        "인구",
+        "인구량",
+        "인구수 데이터",
+        "인구 수치",
+        "인구 정보",
+        "인구 현황"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_country_name",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "country_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "국가 이름",
+      "synonyms": [
+        "국가명",
+        "국가",
+        "국가 이름",
+        "국가 이름 데이터",
+        "국가 정보",
+        "국가명 데이터",
+        "국가 이름 표기",
+        "국가 이름 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_state_name",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "state_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "주 이름",
+      "synonyms": [
+        "state name",
+        "주 이름",
+        "지역 이름",
+        "국가 주",
+        "주"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "border_info_state_name",
+      "domain": "border_info",
+      "source_table": "border_info",
+      "source_column": "state_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "주 이름",
+      "synonyms": [
+        "state_name",
+        "지역명",
+        "주 이름",
+        "주",
+        "주명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울특별시"
+        ],
+        "경기": [
+          "경기도"
+        ]
+      }
+    },
+    {
+      "name": "border_info_border",
+      "domain": "border_info",
+      "source_table": "border_info",
+      "source_column": "border",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "경계",
+      "synonyms": [
+        "border",
+        "국경",
+        "국경 정보",
+        "경계",
+        "경계 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국-중국 경계": [
+          "한국과 중국의 경계"
+        ],
+        "한국-러시아 경계": [
+          "한국과 러시아의 경계"
+        ]
+      }
+    },
+    {
+      "name": "highlow_state_name",
+      "domain": "highlow",
+      "source_table": "highlow",
+      "source_column": "state_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "주요 지리 정보",
+      "synonyms": [
+        "주 이름",
+        "주",
+        "주명",
+        "지방 이름",
+        "지방",
+        "상태 이름",
+        "state_name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "부산": [
+          "부산"
+        ],
+        "대구": [
+          "대구"
+        ]
+      }
+    },
+    {
+      "name": "highlow_highest_elevation",
+      "domain": "highlow",
+      "source_table": "highlow",
+      "source_column": "highest_elevation",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최고 고도",
+      "synonyms": [
+        "가장 높은 고도",
+        "최고 고도",
+        "높은 지점",
+        "가장 높은 위치",
+        "최고 고도 정보",
+        "highest elevation",
+        "high elevation",
+        "highest point"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "highlow_lowest_point",
+      "domain": "highlow",
+      "source_table": "highlow",
+      "source_column": "lowest_point",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "가장 낮은 지점",
+      "synonyms": [
+        "가장 낮은 지점",
+        "최저 지점",
+        "낮은 위치",
+        "가장 낮은 고도",
+        "최저 고도",
+        "lowest point",
+        "low point",
+        "lowest elevation"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "highlow_highest_point",
+      "domain": "highlow",
+      "source_table": "highlow",
+      "source_column": "highest_point",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "가장 높은 지점",
+      "synonyms": [
+        "highest_point",
+        "가장 높은 지점",
+        "최고 지점",
+        "높은 지점",
+        "높은 위치",
+        "최고 위치",
+        "상단 지점",
+        "높은 위치 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "highlow_lowest_elevation",
+      "domain": "highlow",
+      "source_table": "highlow",
+      "source_column": "lowest_elevation",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "가장 낮은 고도",
+      "synonyms": [
+        "lowest_elevation",
+        "가장 낮은 고도",
+        "최저 고도",
+        "낮은 고도",
+        "저점 고도",
+        "최저 지점",
+        "낮은 위치",
+        "저지점 고도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "lake_lake_name",
+      "domain": "lake",
+      "source_table": "lake",
+      "source_column": "lake_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "호수 이름",
+      "synonyms": [
+        "호 이름",
+        "호명",
+        "호",
+        "물체 이름",
+        "물체명",
+        "물체"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "호수 이름": [
+          "호수 이름"
+        ]
+      }
+    },
+    {
+      "name": "lake_area",
+      "domain": "lake",
+      "source_table": "lake",
+      "source_column": "area",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "면적",
+      "synonyms": [
+        "면적",
+        "수면 면적",
+        "호수 크기",
+        "지역 면적",
+        "면적 데이터",
+        "수면 크기",
+        "호수 면적",
+        "면적 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "lake_country_name",
+      "domain": "lake",
+      "source_table": "lake",
+      "source_column": "country_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "국가 이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "대한민국"
+        ]
+      }
+    },
+    {
+      "name": "lake_state_name",
+      "domain": "lake",
+      "source_table": "lake",
+      "source_column": "state_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주 이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "서울특별시": [
+          "서울특별시"
+        ]
+      }
+    },
+    {
+      "name": "mountain_mountain_name",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "mountain_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "산 이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mountain_mountain_altitude",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "mountain_altitude",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "산 고도",
+      "synonyms": [
+        "산 높이",
+        "산의 높이",
+        "높이",
+        "산 높이 데이터",
+        "산 높이 수치",
+        "산 높이 정보",
+        "산 높이 값",
+        "산 높이 측정"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mountain_country_name",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "country_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "국가 이름",
+      "synonyms": [
+        "국가 이름",
+        "국가",
+        "산 위치 국가",
+        "산이 있는 국가",
+        "국가명",
+        "산 위치 국가 이름",
+        "국가 이름 정보",
+        "국가명 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mountain_state_name",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "state_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "주 이름",
+      "synonyms": [
+        "주 이름",
+        "지역 이름",
+        "국가 주",
+        "주",
+        "지역"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "river_river_name",
+      "domain": "river",
+      "source_table": "river",
+      "source_column": "river_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "강 이름",
+      "synonyms": [
+        "강 이름",
+        "하천 이름",
+        "강명",
+        "하천명",
+        "강의 이름",
+        "강"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한강": [
+          "한강"
+        ],
+        "용산강": [
+          "용산강"
+        ]
+      }
+    },
+    {
+      "name": "river_length",
+      "domain": "river",
+      "source_table": "river",
+      "source_column": "length",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "길이",
+      "synonyms": [
+        "길이",
+        "수량",
+        "길이 정보",
+        "길이 데이터",
+        "길이 값",
+        "길이 수치",
+        "길이 측정",
+        "강의 길이"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "river_country_name",
+      "domain": "river",
+      "source_table": "river",
+      "source_column": "country_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "국가 이름",
+      "synonyms": [
+        "국가 이름",
+        "국가",
+        "국가명",
+        "국가 이름 정보",
+        "국가 이름 데이터",
+        "국가명 정보",
+        "국가명 데이터",
+        "국가 이름 표기"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "대한민국"
+        ]
+      }
+    },
+    {
+      "name": "river_traverse",
+      "domain": "river",
+      "source_table": "river",
+      "source_column": "traverse",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "통과 지역",
+      "synonyms": [
+        "traverse",
+        "지나치는 국가",
+        "통과 국가",
+        "지나는 나라",
+        "국가 이름",
+        "지나치는 지역",
+        "통과 지역",
+        "국가명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국": [
+          "한국"
+        ],
+        "중국": [
+          "중국"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "city_state_fk0",
+      "domain": "city",
+      "range": "state",
+      "source_fk": [
+        "city.state_name",
+        "state.state_name"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "border_info_state_fk1",
+      "domain": "border_info",
+      "range": "state",
+      "source_fk": [
+        "border_info.border",
+        "state.state_name"
+      ],
+      "weight": 1.0,
+      "primary_label": "경계 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "border_info_state_fk2",
+      "domain": "border_info",
+      "range": "state",
+      "source_fk": [
+        "border_info.state_name",
+        "state.state_name"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "highlow_state_fk3",
+      "domain": "highlow",
+      "range": "state",
+      "source_fk": [
+        "highlow.state_name",
+        "state.state_name"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "mountain_state_fk4",
+      "domain": "mountain",
+      "range": "state",
+      "source_fk": [
+        "mountain.state_name",
+        "state.state_name"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "river_state_fk5",
+      "domain": "river",
+      "range": "state",
+      "source_fk": [
+        "river.traverse",
+        "state.state_name"
+      ],
+      "weight": 1.0,
+      "primary_label": "통과",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,813 @@
+{
+  "db_id": "tracking_orders",
+  "classes": [
+    {
+      "name": "Customers",
+      "source_table": "Customers",
+      "ranking": 3.0,
+      "primary_label": "고객",
+      "synonyms": [
+        "고객",
+        "고객 정보",
+        "고객 목록",
+        "고객 데이터",
+        "고객 기록",
+        "고객 정보 저장"
+      ]
+    },
+    {
+      "name": "Invoices",
+      "source_table": "Invoices",
+      "ranking": 3.0,
+      "primary_label": "invoices",
+      "synonyms": [
+        "청구서",
+        "청구서 정보",
+        "청구서 목록",
+        "청구서 데이터",
+        "청구서 기록",
+        "청구서 관리"
+      ]
+    },
+    {
+      "name": "Orders",
+      "source_table": "Orders",
+      "ranking": 3.0,
+      "primary_label": "주문",
+      "synonyms": [
+        "주문",
+        "주문 정보",
+        "주문 목록",
+        "주문 데이터",
+        "주문 기록",
+        "주문 관리"
+      ]
+    },
+    {
+      "name": "Products",
+      "source_table": "Products",
+      "ranking": 3.0,
+      "primary_label": "products",
+      "synonyms": [
+        "제품",
+        "상품",
+        "물품",
+        "품목",
+        "제품 목록"
+      ]
+    },
+    {
+      "name": "Order_Items",
+      "source_table": "Order_Items",
+      "ranking": 3.5,
+      "primary_label": "주문 항목",
+      "synonyms": [
+        "주문 상품",
+        "주문 항목",
+        "구매 목록",
+        "주문 내역",
+        "상품 목록"
+      ]
+    },
+    {
+      "name": "Shipments",
+      "source_table": "Shipments",
+      "ranking": 3.0,
+      "primary_label": "배송 내역",
+      "synonyms": [
+        "배송",
+        "배송 정보",
+        "배송 내역",
+        "배송 목록",
+        "배송 기록"
+      ]
+    },
+    {
+      "name": "Shipment_Items",
+      "source_table": "Shipment_Items",
+      "ranking": 1.0,
+      "primary_label": "배송 아이템",
+      "synonyms": [
+        "배송물품",
+        "발송물품",
+        "운송상품",
+        "택배상품",
+        "배송항목",
+        "발송항목",
+        "운송물품",
+        "택배물품"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Customers_customer_id",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고유번호",
+        "고객번호",
+        "고객ID",
+        "고객 식별자",
+        "고객코드",
+        "고객아이디",
+        "ID",
+        "customer_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_name",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "고객 이름",
+      "synonyms": [
+        "이름",
+        "고객명",
+        "고객 이름",
+        "사용자 이름",
+        "customer_name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김철수": [
+          "김철수"
+        ],
+        "이영희": [
+          "이영희"
+        ]
+      }
+    },
+    {
+      "name": "Customers_customer_details",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "customer details",
+      "synonyms": [
+        "상세정보",
+        "고객 정보",
+        "상세 사항",
+        "고객 세부 사항",
+        "상세 설명",
+        "customer_details"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Invoices_invoice_number",
+      "domain": "Invoices",
+      "source_table": "Invoices",
+      "source_column": "invoice_number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "invoice number",
+      "synonyms": [
+        "청구서 번호",
+        "영수증 번호",
+        "청구서 아이디",
+        "영수증 아이디",
+        "청구서 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Invoices_invoice_date",
+      "domain": "Invoices",
+      "source_table": "Invoices",
+      "source_column": "invoice_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 3.0,
+      "primary_label": "invoice date",
+      "synonyms": [
+        "invoice date",
+        "invoice issuance date",
+        "invoice day",
+        "invoice date issued",
+        "invoice date of issue",
+        "invoice date created"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-01": [
+          "2023년 10월 1일"
+        ]
+      }
+    },
+    {
+      "name": "Invoices_invoice_details",
+      "domain": "Invoices",
+      "source_table": "Invoices",
+      "source_column": "invoice_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "invoice details",
+      "synonyms": [
+        "invoice details",
+        "invoice content",
+        "invoice description",
+        "invoice information",
+        "invoice description text",
+        "invoice content text",
+        "invoice details text"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서비스 제공": [
+          "서비스 제공",
+          "제품 구매"
+        ]
+      }
+    },
+    {
+      "name": "Orders_order_id",
+      "domain": "Orders",
+      "source_table": "Orders",
+      "source_column": "order_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주문 ID",
+      "synonyms": [
+        "주문 번호",
+        "주문 ID",
+        "order_id",
+        "주문 식별자",
+        "주문 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Orders_customer_id",
+      "domain": "Orders",
+      "source_table": "Orders",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 번호",
+        "고객 ID",
+        "customer_id",
+        "고객 식별자",
+        "고객 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Orders_order_status",
+      "domain": "Orders",
+      "source_table": "Orders",
+      "source_column": "order_status",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "주문 상태",
+      "synonyms": [
+        "주문 상태",
+        "주문 현황",
+        "주문 상태 정보",
+        "order_status",
+        "주문 상태 코드",
+        "주문 진행 상황",
+        "주문 상태 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "배송 중": [
+          "배송 중"
+        ],
+        "완료": [
+          "완료"
+        ],
+        "취소": [
+          "취소"
+        ]
+      }
+    },
+    {
+      "name": "Orders_date_order_placed",
+      "domain": "Orders",
+      "source_table": "Orders",
+      "source_column": "date_order_placed",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "주문 날짜",
+      "synonyms": [
+        "주문 날짜",
+        "주문 시각",
+        "배송일자",
+        "주문일자",
+        "주문시간",
+        "주문일시",
+        "배송일",
+        "날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Orders_order_details",
+      "domain": "Orders",
+      "source_table": "Orders",
+      "source_column": "order_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주문 세부 정보",
+      "synonyms": [
+        "주문 정보",
+        "주문 설명",
+        "주문 내역",
+        "주문 내용",
+        "주문 요약",
+        "주문 세부사항"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_id",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "product id",
+      "synonyms": [
+        "제품 ID",
+        "제품 번호",
+        "product_id",
+        "제품 식별자",
+        "제품 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_product_name",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "product name",
+      "synonyms": [
+        "제품 이름",
+        "제품 제목",
+        "제품명",
+        "product_name",
+        "제품 타이틀",
+        "제품명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "노트북": [
+          "노트북"
+        ],
+        "모니터": [
+          "모니터"
+        ],
+        "키보드": [
+          "키보드"
+        ]
+      }
+    },
+    {
+      "name": "Products_product_details",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "product_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "product details",
+      "synonyms": [
+        "제품 상세 정보",
+        "제품 설명",
+        "제품 세부 사항",
+        "product_details",
+        "제품 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Order_Items_order_item_id",
+      "domain": "Order_Items",
+      "source_table": "Order_Items",
+      "source_column": "order_item_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주문 항목 ID",
+      "synonyms": [
+        "주문 상품 ID",
+        "오더 아이템 ID",
+        "order_item_id",
+        "상품 주문 ID",
+        "오더 아이템 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Order_Items_product_id",
+      "domain": "Order_Items",
+      "source_table": "Order_Items",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "상품 ID",
+      "synonyms": [
+        "상품 ID",
+        "제품 번호",
+        "product_id",
+        "상품 식별자",
+        "제품 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Order_Items_order_id",
+      "domain": "Order_Items",
+      "source_table": "Order_Items",
+      "source_column": "order_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주문 ID",
+      "synonyms": [
+        "주문 ID",
+        "오더 번호",
+        "order_id",
+        "주문 식별자",
+        "주문 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Order_Items_order_item_status",
+      "domain": "Order_Items",
+      "source_table": "Order_Items",
+      "source_column": "order_item_status",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "주문 항목 상태",
+      "synonyms": [
+        "주문 상태",
+        "상품 상태",
+        "상태",
+        "order_item_status",
+        "상태 정보",
+        "상품 상태 정보",
+        "주문 상품 상태"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "배송 중": [
+          "배송 중",
+          "delivery in progress"
+        ],
+        "배송 완료": [
+          "배송 완료",
+          "delivered"
+        ],
+        "취소": [
+          "취소",
+          "canceled"
+        ],
+        "대기 중": [
+          "대기 중",
+          "pending"
+        ]
+      }
+    },
+    {
+      "name": "Order_Items_order_item_details",
+      "domain": "Order_Items",
+      "source_table": "Order_Items",
+      "source_column": "order_item_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "주문 항목 세부 정보",
+      "synonyms": [
+        "상품 설명",
+        "상세 정보",
+        "추가 설명",
+        "order_item_details",
+        "상품 설명 정보",
+        "주문 상품 설명",
+        "상품 세부 사항"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Shipments_shipment_id",
+      "domain": "Shipments",
+      "source_table": "Shipments",
+      "source_column": "shipment_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "배송 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Shipments_order_id",
+      "domain": "Shipments",
+      "source_table": "Shipments",
+      "source_column": "order_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주문 ID",
+      "synonyms": [
+        "order_id",
+        "주문 번호",
+        "주문 식별자",
+        "주문 ID",
+        "주문 인식 번호",
+        "주문 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Shipments_invoice_number",
+      "domain": "Shipments",
+      "source_table": "Shipments",
+      "source_column": "invoice_number",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "송장 번호",
+      "synonyms": [
+        "invoice_number",
+        "청구서 번호",
+        "청구서 식별자",
+        "청구서 ID",
+        "청구서 인식 번호",
+        "청구서 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Shipments_shipment_tracking_number",
+      "domain": "Shipments",
+      "source_table": "Shipments",
+      "source_column": "shipment_tracking_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "배송 추적 번호",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "ABC123456": [
+          "ABC123456",
+          "TRK-ABC123456"
+        ]
+      }
+    },
+    {
+      "name": "Shipments_shipment_date",
+      "domain": "Shipments",
+      "source_table": "Shipments",
+      "source_column": "shipment_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "배송 일시",
+      "synonyms": [
+        "배송일자",
+        "배송일",
+        "배송시간",
+        "배송일시",
+        "배송일자 시간",
+        "shipment_date",
+        "배송일자 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Shipments_other_shipment_details",
+      "domain": "Shipments",
+      "source_table": "Shipments",
+      "source_column": "other_shipment_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "다른 배송 세부 사항",
+      "synonyms": [
+        "기타 배송 정보",
+        "배송 기타 정보",
+        "기타 배송 세부 사항",
+        "배송 기타 설명",
+        "기타 배송 내용",
+        "other_shipment_details"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "배송 지연": [
+          "지연",
+          "지연 배송"
+        ]
+      }
+    },
+    {
+      "name": "Shipment_Items_shipment_id",
+      "domain": "Shipment_Items",
+      "source_table": "Shipment_Items",
+      "source_column": "shipment_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "배송 id",
+      "synonyms": [
+        "배송물 ID",
+        "배송 아이디",
+        "shipment id",
+        "배송 번호",
+        "배송물 식별자",
+        "shipment 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Shipment_Items_order_item_id",
+      "domain": "Shipment_Items",
+      "source_table": "Shipment_Items",
+      "source_column": "order_item_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주문 아이템 id",
+      "synonyms": [
+        "주문 상품 ID",
+        "주문 아이템 ID",
+        "order item id",
+        "주문 상품 번호",
+        "주문 아이템 식별자",
+        "order 아이템 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Orders_Customers_fk0",
+      "domain": "Orders",
+      "range": "Customers",
+      "source_fk": [
+        "Orders.customer_id",
+        "Customers.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "주문한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Order_Items_Products_fk1",
+      "domain": "Order_Items",
+      "range": "Products",
+      "source_fk": [
+        "Order_Items.product_id",
+        "Products.product_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Order_Items_Orders_fk2",
+      "domain": "Order_Items",
+      "range": "Orders",
+      "source_fk": [
+        "Order_Items.order_id",
+        "Orders.order_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "속한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Shipments_Invoices_fk3",
+      "domain": "Shipments",
+      "range": "Invoices",
+      "source_fk": [
+        "Shipments.invoice_number",
+        "Invoices.invoice_number"
+      ],
+      "weight": 1.0,
+      "primary_label": "대응한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Shipments_Orders_fk4",
+      "domain": "Shipments",
+      "range": "Orders",
+      "source_fk": [
+        "Shipments.order_id",
+        "Orders.order_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Shipment_Items_Shipments_fk5",
+      "domain": "Shipment_Items",
+      "range": "Shipments",
+      "source_fk": [
+        "Shipment_Items.shipment_id",
+        "Shipments.shipment_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Shipment_Items_Order_Items_fk6",
+      "domain": "Shipment_Items",
+      "range": "Order_Items",
+      "source_fk": [
+        "Shipment_Items.order_item_id",
+        "Order_Items.order_item_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "속한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

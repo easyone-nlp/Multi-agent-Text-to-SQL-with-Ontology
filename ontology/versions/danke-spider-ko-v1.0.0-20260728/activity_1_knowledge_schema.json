@@ -1,0 +1,689 @@
+{
+  "db_id": "activity_1",
+  "classes": [
+    {
+      "name": "Activity",
+      "source_table": "Activity",
+      "ranking": 1.0,
+      "primary_label": "활동",
+      "synonyms": [
+        "활동",
+        "이벤트",
+        "행사",
+        "프로젝트",
+        "작업"
+      ]
+    },
+    {
+      "name": "Participates_in",
+      "source_table": "Participates_in",
+      "ranking": 1.0,
+      "primary_label": "참여한다",
+      "synonyms": [
+        "참여",
+        "참여관계",
+        "참여자",
+        "조인",
+        "참여연관"
+      ]
+    },
+    {
+      "name": "Faculty_Participates_in",
+      "source_table": "Faculty_Participates_in",
+      "ranking": 3.0,
+      "primary_label": "교수가 참여하는 활동",
+      "synonyms": [
+        "교수 참여",
+        "교직원 참여",
+        "교수 조인",
+        "교직원 참여관계",
+        "교수 참여연관"
+      ]
+    },
+    {
+      "name": "Student",
+      "source_table": "Student",
+      "ranking": 3.5,
+      "primary_label": "학생",
+      "synonyms": [
+        "학생",
+        "학생 정보",
+        "학생 데이터",
+        "학생 목록",
+        "학생 기록",
+        "학생 정보 저장소"
+      ]
+    },
+    {
+      "name": "Faculty",
+      "source_table": "Faculty",
+      "ranking": 3.5,
+      "primary_label": "교수",
+      "synonyms": [
+        "교직원",
+        "교수",
+        "교원",
+        "교직원 데이터",
+        "교원 정보",
+        "교직원 목록",
+        "교원 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Activity_actid",
+      "domain": "Activity",
+      "source_table": "Activity",
+      "source_column": "actid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "활동 ID",
+      "synonyms": [
+        "actid",
+        "활동 ID",
+        "활동 식별자",
+        "활동 고유 번호",
+        "actid 번호",
+        "활동 아이디",
+        "활동 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Activity_activity_name",
+      "domain": "Activity",
+      "source_table": "Activity",
+      "source_column": "activity_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "활동 이름",
+      "synonyms": [
+        "activity_name",
+        "활동 이름",
+        "활동 제목",
+        "활동명",
+        "활동 이름 입력",
+        "actid 이름",
+        "활동 제목 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "운동": [
+          "운동"
+        ],
+        "학습": [
+          "학습"
+        ],
+        "체험": [
+          "체험"
+        ]
+      }
+    },
+    {
+      "name": "Participates_in_stuid",
+      "domain": "Participates_in",
+      "source_table": "Participates_in",
+      "source_column": "stuid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "stuid",
+        "학생 ID",
+        "학번",
+        "학생 식별자",
+        "학번 정보",
+        "학생 고유 번호",
+        "학생 구분자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Participates_in_actid",
+      "domain": "Participates_in",
+      "source_table": "Participates_in",
+      "source_column": "actid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "활동 ID",
+      "synonyms": [
+        "actid",
+        "활동 ID",
+        "활동 구분자",
+        "활동 식별자",
+        "활동 고유 번호",
+        "활동 정보",
+        "활동 구분"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Faculty_Participates_in_FacID",
+      "domain": "Faculty_Participates_in",
+      "source_table": "Faculty_Participates_in",
+      "source_column": "FacID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "교수 ID",
+      "synonyms": [
+        "FacID",
+        "강사 ID",
+        "강사 번호",
+        "강사 식별자",
+        "강사 고유 번호",
+        "강사 코드",
+        "Faculty ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Faculty_Participates_in_actid",
+      "domain": "Faculty_Participates_in",
+      "source_table": "Faculty_Participates_in",
+      "source_column": "actid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "활동 ID",
+      "synonyms": [
+        "actid",
+        "활동 ID",
+        "활동 번호",
+        "활동 식별자",
+        "활동 고유 번호",
+        "활동 코드",
+        "Activity ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_StuID",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "StuID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "StuID",
+        "학번",
+        "학생 ID",
+        "학번 번호",
+        "학생 식별자",
+        "학번 코드",
+        "학생 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_LName",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "LName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "LName",
+        "성",
+        "이름",
+        "성씨",
+        "성명",
+        "성 정보",
+        "성 부분"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김",
+          "이",
+          "박"
+        ]
+      }
+    },
+    {
+      "name": "Student_Fname",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Fname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "Fname",
+        "이름",
+        "성명",
+        "이름 정보",
+        "이름 부분",
+        "전명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "민수": [
+          "민수",
+          "지현",
+          "서연"
+        ]
+      }
+    },
+    {
+      "name": "Student_Age",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "나이",
+      "synonyms": [
+        "나이",
+        "연령",
+        "생년월일",
+        "연대",
+        "연령 정보",
+        "나이 정보",
+        "생년",
+        "연도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Sex",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Sex",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성별",
+      "synonyms": [
+        "성별",
+        "성",
+        "성별 정보",
+        "성별 데이터",
+        "성별 코드",
+        "성별 구분",
+        "성별 항목",
+        "성별 지정"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남자": [
+          "남자",
+          "여자"
+        ]
+      }
+    },
+    {
+      "name": "Student_Major",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Major",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "전공",
+      "synonyms": [
+        "전공",
+        "전공 코드",
+        "전공 정보",
+        "전공 항목",
+        "전공 코드 정보",
+        "전공 구분",
+        "전공 코드 데이터",
+        "전공 코드 지정"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Advisor",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Advisor",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "상담사",
+      "synonyms": [
+        "Advisor",
+        "조언자",
+        "멘토",
+        "멘토 ID",
+        "멘토학생ID",
+        "멘토학생",
+        "멘토자",
+        "멘토자 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_city_code",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "city_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "시 코드",
+      "synonyms": [
+        "city_code",
+        "도시코드",
+        "도시코드값",
+        "도시코드정보",
+        "도시코드번호",
+        "도시코드아이디"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "01": [
+          "01",
+          "02",
+          "03"
+        ]
+      }
+    },
+    {
+      "name": "Faculty_FacID",
+      "domain": "Faculty",
+      "source_table": "Faculty",
+      "source_column": "FacID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "교수 ID",
+      "synonyms": [
+        "FacID",
+        "교직원 ID",
+        "교원 식별 번호",
+        "교직원 고유 번호",
+        "교원 고유 식별자",
+        "교직원 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Faculty_Lname",
+      "domain": "Faculty",
+      "source_table": "Faculty",
+      "source_column": "Lname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "성명(마지막 이름)",
+      "synonyms": [
+        "Lname",
+        "성",
+        "이름",
+        "성명",
+        "성자",
+        "성 이름",
+        "성 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김"
+        ],
+        "박": [
+          "박"
+        ]
+      }
+    },
+    {
+      "name": "Faculty_Fname",
+      "domain": "Faculty",
+      "source_table": "Faculty",
+      "source_column": "Fname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "성명(첫 번째 이름)",
+      "synonyms": [
+        "Fname",
+        "이름",
+        "성명",
+        "이름 정보",
+        "이름 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "민수": [
+          "민수"
+        ],
+        "지현": [
+          "지현"
+        ]
+      }
+    },
+    {
+      "name": "Faculty_Rank",
+      "domain": "Faculty",
+      "source_table": "Faculty",
+      "source_column": "Rank",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "직위",
+      "synonyms": [
+        "직책",
+        "직급",
+        "직책 정보",
+        "등급",
+        "직책명",
+        "직급 정보",
+        "직책명칭",
+        "직책 유형"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "교수": [
+          "교수"
+        ],
+        "주임교수": [
+          "주임교수"
+        ],
+        "연구교수": [
+          "연구교수"
+        ]
+      }
+    },
+    {
+      "name": "Faculty_Sex",
+      "domain": "Faculty",
+      "source_table": "Faculty",
+      "source_column": "Sex",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성별",
+      "synonyms": [
+        "성별",
+        "성",
+        "성별 정보",
+        "성별 데이터",
+        "성별 유형",
+        "성별 코드",
+        "성별 구분",
+        "성별 기준"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남성": [
+          "남성"
+        ],
+        "여성": [
+          "여성"
+        ]
+      }
+    },
+    {
+      "name": "Faculty_Phone",
+      "domain": "Faculty",
+      "source_table": "Faculty",
+      "source_column": "Phone",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "전화번호",
+      "synonyms": [
+        "연락처",
+        "전화번호",
+        "전화",
+        "연락처 정보",
+        "전화번호 정보",
+        "연락처 데이터",
+        "전화 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Faculty_Room",
+      "domain": "Faculty",
+      "source_table": "Faculty",
+      "source_column": "Room",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "실",
+      "synonyms": [
+        "실내",
+        "방번호",
+        "오피스실",
+        "방",
+        "실"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "301": [
+          "301"
+        ],
+        "405": [
+          "405"
+        ]
+      }
+    },
+    {
+      "name": "Faculty_Building",
+      "domain": "Faculty",
+      "source_table": "Faculty",
+      "source_column": "Building",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "건물",
+      "synonyms": [
+        "건물",
+        "อาคาร",
+        "빌딩",
+        "건물명",
+        "오피스빌딩",
+        "건물 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "A동": [
+          "A동"
+        ],
+        "B동": [
+          "B동"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Participates_in_Activity_fk0",
+      "domain": "Participates_in",
+      "range": "Activity",
+      "source_fk": [
+        "Participates_in.actid",
+        "Activity.actid"
+      ],
+      "weight": 1.0,
+      "primary_label": "참여함",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Participates_in_Student_fk1",
+      "domain": "Participates_in",
+      "range": "Student",
+      "source_fk": [
+        "Participates_in.stuid",
+        "Student.StuID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참여함",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Faculty_Participates_in_Activity_fk2",
+      "domain": "Faculty_Participates_in",
+      "range": "Activity",
+      "source_fk": [
+        "Faculty_Participates_in.actid",
+        "Activity.actid"
+      ],
+      "weight": 1.0,
+      "primary_label": "참여함",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Faculty_Participates_in_Faculty_fk3",
+      "domain": "Faculty_Participates_in",
+      "range": "Faculty",
+      "source_fk": [
+        "Faculty_Participates_in.FacID",
+        "Faculty.FacID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참여함",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

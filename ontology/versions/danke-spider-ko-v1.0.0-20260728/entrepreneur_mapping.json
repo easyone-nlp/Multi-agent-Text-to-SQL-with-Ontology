@@ -1,0 +1,54 @@
+{
+  "class_table": {
+    "entrepreneur": "entrepreneur",
+    "people": "people"
+  },
+  "property_column": {
+    "entrepreneur_Entrepreneur_ID": [
+      "entrepreneur",
+      "Entrepreneur_ID"
+    ],
+    "entrepreneur_People_ID": [
+      "entrepreneur",
+      "People_ID"
+    ],
+    "entrepreneur_Company": [
+      "entrepreneur",
+      "Company"
+    ],
+    "entrepreneur_Money_Requested": [
+      "entrepreneur",
+      "Money_Requested"
+    ],
+    "entrepreneur_Investor": [
+      "entrepreneur",
+      "Investor"
+    ],
+    "people_People_ID": [
+      "people",
+      "People_ID"
+    ],
+    "people_Name": [
+      "people",
+      "Name"
+    ],
+    "people_Height": [
+      "people",
+      "Height"
+    ],
+    "people_Weight": [
+      "people",
+      "Weight"
+    ],
+    "people_Date_of_Birth": [
+      "people",
+      "Date_of_Birth"
+    ]
+  },
+  "object_property_fk": {
+    "entrepreneur_people_fk0": [
+      "entrepreneur.People_ID",
+      "people.People_ID"
+    ]
+  }
+}

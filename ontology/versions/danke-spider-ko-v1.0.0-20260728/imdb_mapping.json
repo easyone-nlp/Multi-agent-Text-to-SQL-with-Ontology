@@ -1,0 +1,332 @@
+{
+  "class_table": {
+    "actor": "actor",
+    "copyright": "copyright",
+    "cast": "cast",
+    "genre": "genre",
+    "classification": "classification",
+    "company": "company",
+    "director": "director",
+    "producer": "producer",
+    "directed_by": "directed_by",
+    "keyword": "keyword",
+    "made_by": "made_by",
+    "movie": "movie",
+    "tags": "tags",
+    "tv_series": "tv_series",
+    "writer": "writer",
+    "written_by": "written_by"
+  },
+  "property_column": {
+    "actor_aid": [
+      "actor",
+      "aid"
+    ],
+    "actor_gender": [
+      "actor",
+      "gender"
+    ],
+    "actor_name": [
+      "actor",
+      "name"
+    ],
+    "actor_nationality": [
+      "actor",
+      "nationality"
+    ],
+    "actor_birth_city": [
+      "actor",
+      "birth_city"
+    ],
+    "actor_birth_year": [
+      "actor",
+      "birth_year"
+    ],
+    "copyright_id": [
+      "copyright",
+      "id"
+    ],
+    "copyright_msid": [
+      "copyright",
+      "msid"
+    ],
+    "copyright_cid": [
+      "copyright",
+      "cid"
+    ],
+    "cast_id": [
+      "cast",
+      "id"
+    ],
+    "cast_msid": [
+      "cast",
+      "msid"
+    ],
+    "cast_aid": [
+      "cast",
+      "aid"
+    ],
+    "cast_role": [
+      "cast",
+      "role"
+    ],
+    "genre_gid": [
+      "genre",
+      "gid"
+    ],
+    "genre_genre": [
+      "genre",
+      "genre"
+    ],
+    "classification_id": [
+      "classification",
+      "id"
+    ],
+    "classification_msid": [
+      "classification",
+      "msid"
+    ],
+    "classification_gid": [
+      "classification",
+      "gid"
+    ],
+    "company_id": [
+      "company",
+      "id"
+    ],
+    "company_name": [
+      "company",
+      "name"
+    ],
+    "company_country_code": [
+      "company",
+      "country_code"
+    ],
+    "director_did": [
+      "director",
+      "did"
+    ],
+    "director_gender": [
+      "director",
+      "gender"
+    ],
+    "director_name": [
+      "director",
+      "name"
+    ],
+    "director_nationality": [
+      "director",
+      "nationality"
+    ],
+    "director_birth_city": [
+      "director",
+      "birth_city"
+    ],
+    "director_birth_year": [
+      "director",
+      "birth_year"
+    ],
+    "producer_pid": [
+      "producer",
+      "pid"
+    ],
+    "producer_gender": [
+      "producer",
+      "gender"
+    ],
+    "producer_name": [
+      "producer",
+      "name"
+    ],
+    "producer_nationality": [
+      "producer",
+      "nationality"
+    ],
+    "producer_birth_city": [
+      "producer",
+      "birth_city"
+    ],
+    "producer_birth_year": [
+      "producer",
+      "birth_year"
+    ],
+    "directed_by_id": [
+      "directed_by",
+      "id"
+    ],
+    "directed_by_msid": [
+      "directed_by",
+      "msid"
+    ],
+    "directed_by_did": [
+      "directed_by",
+      "did"
+    ],
+    "keyword_id": [
+      "keyword",
+      "id"
+    ],
+    "keyword_keyword": [
+      "keyword",
+      "keyword"
+    ],
+    "made_by_id": [
+      "made_by",
+      "id"
+    ],
+    "made_by_msid": [
+      "made_by",
+      "msid"
+    ],
+    "made_by_pid": [
+      "made_by",
+      "pid"
+    ],
+    "movie_mid": [
+      "movie",
+      "mid"
+    ],
+    "movie_title": [
+      "movie",
+      "title"
+    ],
+    "movie_release_year": [
+      "movie",
+      "release_year"
+    ],
+    "movie_title_aka": [
+      "movie",
+      "title_aka"
+    ],
+    "movie_budget": [
+      "movie",
+      "budget"
+    ],
+    "tags_id": [
+      "tags",
+      "id"
+    ],
+    "tags_msid": [
+      "tags",
+      "msid"
+    ],
+    "tags_kid": [
+      "tags",
+      "kid"
+    ],
+    "tv_series_sid": [
+      "tv_series",
+      "sid"
+    ],
+    "tv_series_title": [
+      "tv_series",
+      "title"
+    ],
+    "tv_series_release_year": [
+      "tv_series",
+      "release_year"
+    ],
+    "tv_series_num_of_seasons": [
+      "tv_series",
+      "num_of_seasons"
+    ],
+    "tv_series_num_of_episodes": [
+      "tv_series",
+      "num_of_episodes"
+    ],
+    "tv_series_title_aka": [
+      "tv_series",
+      "title_aka"
+    ],
+    "tv_series_budget": [
+      "tv_series",
+      "budget"
+    ],
+    "writer_wid": [
+      "writer",
+      "wid"
+    ],
+    "writer_gender": [
+      "writer",
+      "gender"
+    ],
+    "writer_name": [
+      "writer",
+      "name"
+    ],
+    "writer_nationality": [
+      "writer",
+      "nationality"
+    ],
+    "writer_num_of_episodes": [
+      "writer",
+      "num_of_episodes"
+    ],
+    "writer_birth_city": [
+      "writer",
+      "birth_city"
+    ],
+    "writer_birth_year": [
+      "writer",
+      "birth_year"
+    ],
+    "written_by_id": [
+      "written_by",
+      "id"
+    ],
+    "written_by_msid": [
+      "written_by",
+      "msid"
+    ],
+    "written_by_wid": [
+      "written_by",
+      "wid"
+    ]
+  },
+  "object_property_fk": {
+    "cast_copyright_fk0": [
+      "cast.msid",
+      "copyright.msid"
+    ],
+    "cast_actor_fk1": [
+      "cast.aid",
+      "actor.aid"
+    ],
+    "classification_copyright_fk2": [
+      "classification.msid",
+      "copyright.msid"
+    ],
+    "classification_genre_fk3": [
+      "classification.gid",
+      "genre.gid"
+    ],
+    "directed_by_director_fk4": [
+      "directed_by.did",
+      "director.did"
+    ],
+    "directed_by_copyright_fk5": [
+      "directed_by.msid",
+      "copyright.msid"
+    ],
+    "made_by_producer_fk6": [
+      "made_by.pid",
+      "producer.pid"
+    ],
+    "made_by_copyright_fk7": [
+      "made_by.msid",
+      "copyright.msid"
+    ],
+    "tags_copyright_fk8": [
+      "tags.msid",
+      "copyright.msid"
+    ],
+    "written_by_writer_fk9": [
+      "written_by.wid",
+      "writer.wid"
+    ],
+    "written_by_copyright_fk10": [
+      "written_by.msid",
+      "copyright.msid"
+    ]
+  }
+}

@@ -1,0 +1,1005 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "건축가",
+      "target_class": "architect",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "설계자",
+      "target_class": "architect",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "설계인",
+      "target_class": "architect",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구조 설계자",
+      "target_class": "architect",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "건축 엔지니어",
+      "target_class": "architect",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "브리지",
+      "target_class": "bridge",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "교량",
+      "target_class": "bridge",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도로 구조물",
+      "target_class": "bridge",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "교량 구조물",
+      "target_class": "bridge",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "교량 설계",
+      "target_class": "bridge",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도로 시설",
+      "target_class": "bridge",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "밀",
+      "target_class": "mill",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "밀가루 가공 시설",
+      "target_class": "mill",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "밀 가공 시설",
+      "target_class": "mill",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "밀 공장",
+      "target_class": "mill",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "밀 시설",
+      "target_class": "mill",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "architect",
+      "target_property": "architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아키텍트 ID",
+      "target_class": "architect",
+      "target_property": "architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "architect",
+      "target_property": "architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아키텍트 고유 번호",
+      "target_class": "architect",
+      "target_property": "architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디 값",
+      "target_class": "architect",
+      "target_property": "architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아키텍트 식별자",
+      "target_class": "architect",
+      "target_property": "architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID 값",
+      "target_class": "architect",
+      "target_property": "architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "architect",
+      "target_property": "architect_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명",
+      "target_class": "architect",
+      "target_property": "architect_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소유자",
+      "target_class": "architect",
+      "target_property": "architect_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주인",
+      "target_class": "architect",
+      "target_property": "architect_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주인공",
+      "target_class": "architect",
+      "target_property": "architect_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "nationality",
+      "target_class": "architect",
+      "target_property": "architect_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적",
+      "target_class": "architect",
+      "target_property": "architect_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나라",
+      "target_class": "architect",
+      "target_property": "architect_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적 정보",
+      "target_class": "architect",
+      "target_property": "architect_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적별",
+      "target_class": "architect",
+      "target_property": "architect_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적 데이터",
+      "target_class": "architect",
+      "target_property": "architect_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적명",
+      "target_class": "architect",
+      "target_property": "architect_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적 항목",
+      "target_class": "architect",
+      "target_property": "architect_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적 코드",
+      "target_class": "architect",
+      "target_property": "architect_nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "gender",
+      "target_class": "architect",
+      "target_property": "architect_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별",
+      "target_class": "architect",
+      "target_property": "architect_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 정보",
+      "target_class": "architect",
+      "target_property": "architect_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 데이터",
+      "target_class": "architect",
+      "target_property": "architect_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 기록",
+      "target_class": "architect",
+      "target_property": "architect_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 항목",
+      "target_class": "architect",
+      "target_property": "architect_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 코드",
+      "target_class": "architect",
+      "target_property": "architect_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 값",
+      "target_class": "architect",
+      "target_property": "architect_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건축가 id",
+      "target_class": "bridge",
+      "target_property": "bridge_architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "architect_id",
+      "target_class": "bridge",
+      "target_property": "bridge_architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설계자 ID",
+      "target_class": "bridge",
+      "target_property": "bridge_architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설계자 식별자",
+      "target_class": "bridge",
+      "target_property": "bridge_architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "建筑师ID",
+      "target_class": "bridge",
+      "target_property": "bridge_architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "建筑师编号",
+      "target_class": "bridge",
+      "target_property": "bridge_architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "bridge",
+      "target_property": "bridge_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "bridge",
+      "target_property": "bridge_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브리지 ID",
+      "target_class": "bridge",
+      "target_property": "bridge_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브리지 식별자",
+      "target_class": "bridge",
+      "target_property": "bridge_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역구 ID",
+      "target_class": "bridge",
+      "target_property": "bridge_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구분자 ID",
+      "target_class": "bridge",
+      "target_property": "bridge_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "bridge",
+      "target_property": "bridge_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "bridge",
+      "target_property": "bridge_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "브리지 이름",
+      "target_class": "bridge",
+      "target_property": "bridge_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물명",
+      "target_class": "bridge",
+      "target_property": "bridge_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역명",
+      "target_class": "bridge",
+      "target_property": "bridge_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명칭",
+      "target_class": "bridge",
+      "target_property": "bridge_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "bridge",
+      "target_property": "bridge_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "bridge",
+      "target_property": "bridge_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점",
+      "target_class": "bridge",
+      "target_property": "bridge_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "bridge",
+      "target_property": "bridge_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치명",
+      "target_class": "bridge",
+      "target_property": "bridge_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "bridge",
+      "target_property": "bridge_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 데이터",
+      "target_class": "bridge",
+      "target_property": "bridge_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "길이 미터",
+      "target_class": "bridge",
+      "target_property": "bridge_length_meters",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "길이(미터)",
+      "target_class": "bridge",
+      "target_property": "bridge_length_meters",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "미터 길이",
+      "target_class": "bridge",
+      "target_property": "bridge_length_meters",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "길이(미터 단위)",
+      "target_class": "bridge",
+      "target_property": "bridge_length_meters",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "미터 기준 길이",
+      "target_class": "bridge",
+      "target_property": "bridge_length_meters",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "미터로 표현된 길이",
+      "target_class": "bridge",
+      "target_property": "bridge_length_meters",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "미터 기준",
+      "target_class": "bridge",
+      "target_property": "bridge_length_meters",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "길이 피트",
+      "target_class": "bridge",
+      "target_property": "bridge_length_feet",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피트 길이",
+      "target_class": "bridge",
+      "target_property": "bridge_length_feet",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피트로 표현된 길이",
+      "target_class": "bridge",
+      "target_property": "bridge_length_feet",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피트 기준 길이",
+      "target_class": "bridge",
+      "target_property": "bridge_length_feet",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피트 기준",
+      "target_class": "bridge",
+      "target_property": "bridge_length_feet",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피트 단위 길이",
+      "target_class": "bridge",
+      "target_property": "bridge_length_feet",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피트로 표현",
+      "target_class": "bridge",
+      "target_property": "bridge_length_feet",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피트로 기준",
+      "target_class": "bridge",
+      "target_property": "bridge_length_feet",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건축가 id",
+      "target_class": "mill",
+      "target_property": "mill_architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "architect_id",
+      "target_class": "mill",
+      "target_property": "mill_architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설계자 ID",
+      "target_class": "mill",
+      "target_property": "mill_architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설계자 식별자",
+      "target_class": "mill",
+      "target_property": "mill_architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "建筑师ID",
+      "target_class": "mill",
+      "target_property": "mill_architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "建筑师编号",
+      "target_class": "mill",
+      "target_property": "mill_architect_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "mill",
+      "target_property": "mill_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 ID",
+      "target_class": "mill",
+      "target_property": "mill_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 식별자",
+      "target_class": "mill",
+      "target_property": "mill_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "물건 번호",
+      "target_class": "mill",
+      "target_property": "mill_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "mill",
+      "target_property": "mill_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "mill",
+      "target_property": "mill_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "location",
+      "target_class": "mill",
+      "target_property": "mill_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "mill",
+      "target_property": "mill_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "mill",
+      "target_property": "mill_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지점",
+      "target_class": "mill",
+      "target_property": "mill_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치명",
+      "target_class": "mill",
+      "target_property": "mill_location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "mill",
+      "target_property": "mill_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물 이름",
+      "target_class": "mill",
+      "target_property": "mill_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명칭",
+      "target_class": "mill",
+      "target_property": "mill_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소명",
+      "target_class": "mill",
+      "target_property": "mill_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "mill",
+      "target_property": "mill_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명",
+      "target_class": "mill",
+      "target_property": "mill_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건물명",
+      "target_class": "mill",
+      "target_property": "mill_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유형",
+      "target_class": "mill",
+      "target_property": "mill_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종류",
+      "target_class": "mill",
+      "target_property": "mill_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "타입",
+      "target_class": "mill",
+      "target_property": "mill_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "형태",
+      "target_class": "mill",
+      "target_property": "mill_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류",
+      "target_class": "mill",
+      "target_property": "mill_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "형식",
+      "target_class": "mill",
+      "target_property": "mill_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구분",
+      "target_class": "mill",
+      "target_property": "mill_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건축년도",
+      "target_class": "mill",
+      "target_property": "mill_built_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공사년도",
+      "target_class": "mill",
+      "target_property": "mill_built_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구축년도",
+      "target_class": "mill",
+      "target_property": "mill_built_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "건립년도",
+      "target_class": "mill",
+      "target_property": "mill_built_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구성년도",
+      "target_class": "mill",
+      "target_property": "mill_built_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도",
+      "target_class": "mill",
+      "target_property": "mill_built_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "mill",
+      "target_property": "mill_built_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비고",
+      "target_class": "mill",
+      "target_property": "mill_notes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설명",
+      "target_class": "mill",
+      "target_property": "mill_notes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "추가 정보",
+      "target_class": "mill",
+      "target_property": "mill_notes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기념비 설명",
+      "target_class": "mill",
+      "target_property": "mill_notes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비고 내용",
+      "target_class": "mill",
+      "target_property": "mill_notes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설명 사항",
+      "target_class": "mill",
+      "target_property": "mill_notes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "추가 설명",
+      "target_class": "mill",
+      "target_property": "mill_notes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기타 정보",
+      "target_class": "mill",
+      "target_property": "mill_notes",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "김철수",
+      "target_class": "architect",
+      "target_property": "architect_name",
+      "value": "김철수"
+    },
+    {
+      "entry_type": "value",
+      "key": "이영미",
+      "target_class": "architect",
+      "target_property": "architect_name",
+      "value": "이영미"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울대교",
+      "target_class": "bridge",
+      "target_property": "bridge_name",
+      "value": "서울대교"
+    },
+    {
+      "entry_type": "value",
+      "key": "경복대교",
+      "target_class": "bridge",
+      "target_property": "bridge_name",
+      "value": "경복대교"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시",
+      "target_class": "bridge",
+      "target_property": "bridge_location",
+      "value": "서울시"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산시",
+      "target_class": "bridge",
+      "target_property": "bridge_location",
+      "value": "부산시"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "mill",
+      "target_property": "mill_location",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "mill",
+      "target_property": "mill_location",
+      "value": "부산"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울밀",
+      "target_class": "mill",
+      "target_property": "mill_name",
+      "value": "서울밀"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산밀",
+      "target_class": "mill",
+      "target_property": "mill_name",
+      "value": "부산밀"
+    },
+    {
+      "entry_type": "value",
+      "key": "고대밀",
+      "target_class": "mill",
+      "target_property": "mill_type",
+      "value": "고대밀"
+    },
+    {
+      "entry_type": "value",
+      "key": "현대밀",
+      "target_class": "mill",
+      "target_property": "mill_type",
+      "value": "현대밀"
+    }
+  ]
+}

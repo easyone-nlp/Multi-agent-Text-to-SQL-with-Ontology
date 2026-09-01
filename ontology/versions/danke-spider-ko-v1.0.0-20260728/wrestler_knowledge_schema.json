@@ -1,0 +1,317 @@
+{
+  "db_id": "wrestler",
+  "classes": [
+    {
+      "name": "wrestler",
+      "source_table": "wrestler",
+      "ranking": 3.0,
+      "primary_label": "워스터러",
+      "synonyms": [
+        "워스터러",
+        "격투선수",
+        "무술가",
+        "격투인",
+        "스포츠인",
+        "체육인"
+      ]
+    },
+    {
+      "name": "Elimination",
+      "source_table": "Elimination",
+      "ranking": 3.5,
+      "primary_label": "제거",
+      "synonyms": [
+        "탈락",
+        "탈락자",
+        "탈락 경기",
+        "탈락자 목록",
+        "탈락자 정보",
+        "탈락자 기록",
+        "탈락자 리스트",
+        "탈락자 데이터"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "wrestler_Wrestler_ID",
+      "domain": "wrestler",
+      "source_table": "wrestler",
+      "source_column": "Wrestler_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "워스터러 id",
+      "synonyms": [
+        "워스터 ID",
+        "워스터 번호",
+        "Wrestler_ID",
+        "워스터 식별자",
+        "Wrestler No",
+        "워스터 고유번호",
+        "Wrestler 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "wrestler_Name",
+      "domain": "wrestler",
+      "source_table": "wrestler",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "성명",
+        "대표 이름",
+        "대상 이름",
+        "명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김철수": [
+          "김철수",
+          "철수"
+        ]
+      }
+    },
+    {
+      "name": "wrestler_Reign",
+      "domain": "wrestler",
+      "source_table": "wrestler",
+      "source_column": "Reign",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "리건",
+      "synonyms": [
+        "지배 기간",
+        "재임 기간",
+        "재임",
+        "지배",
+        "reign"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1년": [
+          "1년",
+          "일년"
+        ]
+      }
+    },
+    {
+      "name": "wrestler_Days_held",
+      "domain": "wrestler",
+      "source_table": "wrestler",
+      "source_column": "Days_held",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "일수 유지",
+      "synonyms": [
+        "일수",
+        "경기 기간",
+        "일수 보유",
+        "일수 유지",
+        "일수 보유 기간",
+        "일수 유지 기간",
+        "일수 기간"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "365": [
+          "365",
+          "365일"
+        ]
+      }
+    },
+    {
+      "name": "wrestler_Location",
+      "domain": "wrestler",
+      "source_table": "wrestler",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "위치",
+      "synonyms": [
+        "지역",
+        "본부지",
+        "활동 지역",
+        "위치",
+        "지역 정보",
+        "활동 베이스",
+        "위치 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울",
+          "서울시"
+        ]
+      }
+    },
+    {
+      "name": "wrestler_Event",
+      "domain": "wrestler",
+      "source_table": "wrestler",
+      "source_column": "Event",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이벤트",
+      "synonyms": [
+        "이벤트",
+        "경기",
+        "워머스 이벤트",
+        "이벤트 이름",
+        "경기 이름",
+        "이벤트명",
+        "워머스 경기"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "무대": [
+          "무대",
+          "경기"
+        ]
+      }
+    },
+    {
+      "name": "Elimination_Elimination_ID",
+      "domain": "Elimination",
+      "source_table": "Elimination",
+      "source_column": "Elimination_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "제거 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Elimination_Wrestler_ID",
+      "domain": "Elimination",
+      "source_table": "Elimination",
+      "source_column": "Wrestler_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "워스터러 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Elimination_Team",
+      "domain": "Elimination",
+      "source_table": "Elimination",
+      "source_column": "Team",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "팀",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "팀 A": [
+          "팀A"
+        ],
+        "팀 B": [
+          "팀B"
+        ]
+      }
+    },
+    {
+      "name": "Elimination_Eliminated_By",
+      "domain": "Elimination",
+      "source_table": "Elimination",
+      "source_column": "Eliminated_By",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "제거된 사람",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "김철수": [
+          "김철수"
+        ],
+        "이영희": [
+          "이영희"
+        ]
+      }
+    },
+    {
+      "name": "Elimination_Elimination_Move",
+      "domain": "Elimination",
+      "source_table": "Elimination",
+      "source_column": "Elimination_Move",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "제거 동작",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "스핀 블러스트": [
+          "스핀 블러스트"
+        ],
+        "스윙 히트": [
+          "스윙 히트"
+        ]
+      }
+    },
+    {
+      "name": "Elimination_Time",
+      "domain": "Elimination",
+      "source_table": "Elimination",
+      "source_column": "Time",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "시간",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "00:15": [
+          "15초"
+        ],
+        "01:30": [
+          "1분 30초"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Elimination_wrestler_fk0",
+      "domain": "Elimination",
+      "range": "wrestler",
+      "source_fk": [
+        "Elimination.Wrestler_ID",
+        "wrestler.Wrestler_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "제거한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

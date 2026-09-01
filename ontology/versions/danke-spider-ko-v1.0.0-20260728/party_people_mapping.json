@@ -1,0 +1,108 @@
+{
+  "class_table": {
+    "region": "region",
+    "party": "party",
+    "member": "member",
+    "party_events": "party_events"
+  },
+  "property_column": {
+    "region_Region_ID": [
+      "region",
+      "Region_ID"
+    ],
+    "region_Region_name": [
+      "region",
+      "Region_name"
+    ],
+    "region_Date": [
+      "region",
+      "Date"
+    ],
+    "region_Label": [
+      "region",
+      "Label"
+    ],
+    "region_Format": [
+      "region",
+      "Format"
+    ],
+    "region_Catalogue": [
+      "region",
+      "Catalogue"
+    ],
+    "party_Party_ID": [
+      "party",
+      "Party_ID"
+    ],
+    "party_Minister": [
+      "party",
+      "Minister"
+    ],
+    "party_Took_office": [
+      "party",
+      "Took_office"
+    ],
+    "party_Left_office": [
+      "party",
+      "Left_office"
+    ],
+    "party_Region_ID": [
+      "party",
+      "Region_ID"
+    ],
+    "party_Party_name": [
+      "party",
+      "Party_name"
+    ],
+    "member_Member_ID": [
+      "member",
+      "Member_ID"
+    ],
+    "member_Member_Name": [
+      "member",
+      "Member_Name"
+    ],
+    "member_Party_ID": [
+      "member",
+      "Party_ID"
+    ],
+    "member_In_office": [
+      "member",
+      "In_office"
+    ],
+    "party_events_Event_ID": [
+      "party_events",
+      "Event_ID"
+    ],
+    "party_events_Event_Name": [
+      "party_events",
+      "Event_Name"
+    ],
+    "party_events_Party_ID": [
+      "party_events",
+      "Party_ID"
+    ],
+    "party_events_Member_in_charge_ID": [
+      "party_events",
+      "Member_in_charge_ID"
+    ]
+  },
+  "object_property_fk": {
+    "party_region_fk0": [
+      "party.Region_ID",
+      "region.Region_ID"
+    ],
+    "member_party_fk1": [
+      "member.Party_ID",
+      "party.Party_ID"
+    ],
+    "party_events_member_fk2": [
+      "party_events.Member_in_charge_ID",
+      "member.Member_ID"
+    ],
+    "party_events_party_fk3": [
+      "party_events.Party_ID",
+      "party.Party_ID"
+    ]
+  }
+}

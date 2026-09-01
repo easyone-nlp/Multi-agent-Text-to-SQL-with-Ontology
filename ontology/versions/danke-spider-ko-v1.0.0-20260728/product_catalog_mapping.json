@@ -1,0 +1,145 @@
+{
+  "class_table": {
+    "Attribute_Definitions": "Attribute_Definitions",
+    "Catalogs": "Catalogs",
+    "Catalog_Structure": "Catalog_Structure",
+    "Catalog_Contents": "Catalog_Contents",
+    "Catalog_Contents_Additional_Attributes": "Catalog_Contents_Additional_Attributes"
+  },
+  "property_column": {
+    "Attribute_Definitions_attribute_id": [
+      "Attribute_Definitions",
+      "attribute_id"
+    ],
+    "Attribute_Definitions_attribute_name": [
+      "Attribute_Definitions",
+      "attribute_name"
+    ],
+    "Attribute_Definitions_attribute_data_type": [
+      "Attribute_Definitions",
+      "attribute_data_type"
+    ],
+    "Catalogs_catalog_id": [
+      "Catalogs",
+      "catalog_id"
+    ],
+    "Catalogs_catalog_name": [
+      "Catalogs",
+      "catalog_name"
+    ],
+    "Catalogs_catalog_publisher": [
+      "Catalogs",
+      "catalog_publisher"
+    ],
+    "Catalogs_date_of_publication": [
+      "Catalogs",
+      "date_of_publication"
+    ],
+    "Catalogs_date_of_latest_revision": [
+      "Catalogs",
+      "date_of_latest_revision"
+    ],
+    "Catalog_Structure_catalog_level_number": [
+      "Catalog_Structure",
+      "catalog_level_number"
+    ],
+    "Catalog_Structure_catalog_id": [
+      "Catalog_Structure",
+      "catalog_id"
+    ],
+    "Catalog_Structure_catalog_level_name": [
+      "Catalog_Structure",
+      "catalog_level_name"
+    ],
+    "Catalog_Contents_catalog_entry_id": [
+      "Catalog_Contents",
+      "catalog_entry_id"
+    ],
+    "Catalog_Contents_catalog_level_number": [
+      "Catalog_Contents",
+      "catalog_level_number"
+    ],
+    "Catalog_Contents_parent_entry_id": [
+      "Catalog_Contents",
+      "parent_entry_id"
+    ],
+    "Catalog_Contents_previous_entry_id": [
+      "Catalog_Contents",
+      "previous_entry_id"
+    ],
+    "Catalog_Contents_next_entry_id": [
+      "Catalog_Contents",
+      "next_entry_id"
+    ],
+    "Catalog_Contents_catalog_entry_name": [
+      "Catalog_Contents",
+      "catalog_entry_name"
+    ],
+    "Catalog_Contents_product_stock_number": [
+      "Catalog_Contents",
+      "product_stock_number"
+    ],
+    "Catalog_Contents_price_in_dollars": [
+      "Catalog_Contents",
+      "price_in_dollars"
+    ],
+    "Catalog_Contents_price_in_euros": [
+      "Catalog_Contents",
+      "price_in_euros"
+    ],
+    "Catalog_Contents_price_in_pounds": [
+      "Catalog_Contents",
+      "price_in_pounds"
+    ],
+    "Catalog_Contents_capacity": [
+      "Catalog_Contents",
+      "capacity"
+    ],
+    "Catalog_Contents_length": [
+      "Catalog_Contents",
+      "length"
+    ],
+    "Catalog_Contents_height": [
+      "Catalog_Contents",
+      "height"
+    ],
+    "Catalog_Contents_width": [
+      "Catalog_Contents",
+      "width"
+    ],
+    "Catalog_Contents_Additional_Attributes_catalog_entry_id": [
+      "Catalog_Contents_Additional_Attributes",
+      "catalog_entry_id"
+    ],
+    "Catalog_Contents_Additional_Attributes_catalog_level_number": [
+      "Catalog_Contents_Additional_Attributes",
+      "catalog_level_number"
+    ],
+    "Catalog_Contents_Additional_Attributes_attribute_id": [
+      "Catalog_Contents_Additional_Attributes",
+      "attribute_id"
+    ],
+    "Catalog_Contents_Additional_Attributes_attribute_value": [
+      "Catalog_Contents_Additional_Attributes",
+      "attribute_value"
+    ]
+  },
+  "object_property_fk": {
+    "Catalog_Structure_Catalogs_fk0": [
+      "Catalog_Structure.catalog_id",
+      "Catalogs.catalog_id"
+    ],
+    "Catalog_Contents_Catalog_Structure_fk1": [
+      "Catalog_Contents.catalog_level_number",
+      "Catalog_Structure.catalog_level_number"
+    ],
+    "Catalog_Contents_Additional_Attributes_Catalog_Structure_fk2": [
+      "Catalog_Contents_Additional_Attributes.catalog_level_number",
+      "Catalog_Structure.catalog_level_number"
+    ],
+    "Catalog_Contents_Additional_Attributes_Catalog_Contents_fk3": [
+      "Catalog_Contents_Additional_Attributes.catalog_entry_id",
+      "Catalog_Contents.catalog_entry_id"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "class_table": {
+    "Person": "Person",
+    "PersonFriend": "PersonFriend"
+  },
+  "property_column": {
+    "Person_name": [
+      "Person",
+      "name"
+    ],
+    "Person_age": [
+      "Person",
+      "age"
+    ],
+    "Person_city": [
+      "Person",
+      "city"
+    ],
+    "Person_gender": [
+      "Person",
+      "gender"
+    ],
+    "Person_job": [
+      "Person",
+      "job"
+    ],
+    "PersonFriend_name": [
+      "PersonFriend",
+      "name"
+    ],
+    "PersonFriend_friend": [
+      "PersonFriend",
+      "friend"
+    ],
+    "PersonFriend_year": [
+      "PersonFriend",
+      "year"
+    ]
+  },
+  "object_property_fk": {
+    "PersonFriend_Person_fk0": [
+      "PersonFriend.friend",
+      "Person.name"
+    ],
+    "PersonFriend_Person_fk1": [
+      "PersonFriend.name",
+      "Person.name"
+    ]
+  }
+}

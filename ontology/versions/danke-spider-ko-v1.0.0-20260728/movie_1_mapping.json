@@ -1,0 +1,59 @@
+{
+  "class_table": {
+    "Movie": "Movie",
+    "Reviewer": "Reviewer",
+    "Rating": "Rating"
+  },
+  "property_column": {
+    "Movie_mID": [
+      "Movie",
+      "mID"
+    ],
+    "Movie_title": [
+      "Movie",
+      "title"
+    ],
+    "Movie_year": [
+      "Movie",
+      "year"
+    ],
+    "Movie_director": [
+      "Movie",
+      "director"
+    ],
+    "Reviewer_rID": [
+      "Reviewer",
+      "rID"
+    ],
+    "Reviewer_name": [
+      "Reviewer",
+      "name"
+    ],
+    "Rating_rID": [
+      "Rating",
+      "rID"
+    ],
+    "Rating_mID": [
+      "Rating",
+      "mID"
+    ],
+    "Rating_stars": [
+      "Rating",
+      "stars"
+    ],
+    "Rating_ratingDate": [
+      "Rating",
+      "ratingDate"
+    ]
+  },
+  "object_property_fk": {
+    "Rating_Reviewer_fk0": [
+      "Rating.rID",
+      "Reviewer.rID"
+    ],
+    "Rating_Movie_fk1": [
+      "Rating.mID",
+      "Movie.mID"
+    ]
+  }
+}

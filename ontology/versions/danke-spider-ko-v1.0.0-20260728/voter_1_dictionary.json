@@ -1,0 +1,585 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "area code state",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지역코드",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주코드",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지역번호",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주별 코드",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지역정보",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참가자",
+      "target_class": "CONTESTANTS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "후보자",
+      "target_class": "CONTESTANTS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경쟁자",
+      "target_class": "CONTESTANTS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "후보",
+      "target_class": "CONTESTANTS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "후보자 정보",
+      "target_class": "CONTESTANTS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경쟁자 정보",
+      "target_class": "CONTESTANTS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "투표",
+      "target_class": "VOTES",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "투표자",
+      "target_class": "VOTES",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "투표 데이터",
+      "target_class": "VOTES",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "투표 정보",
+      "target_class": "VOTES",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "투표 기록",
+      "target_class": "VOTES",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "area code",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": "AREA_CODE_STATE_area_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 코드",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": "AREA_CODE_STATE_area_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역 코드",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": "AREA_CODE_STATE_area_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역번호",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": "AREA_CODE_STATE_area_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역번호",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": "AREA_CODE_STATE_area_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역코드",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": "AREA_CODE_STATE_area_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "state",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": "AREA_CODE_STATE_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": "AREA_CODE_STATE_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주 이름",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": "AREA_CODE_STATE_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주명",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": "AREA_CODE_STATE_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소재지",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": "AREA_CODE_STATE_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주지",
+      "target_class": "AREA_CODE_STATE",
+      "target_property": "AREA_CODE_STATE_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 번호",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 ID",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경쟁자 번호",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 코드",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경쟁자 식별자",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호 정보",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 고유 번호",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 이름",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경쟁자 이름",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대상자 이름",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경쟁자명",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자명",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대상자",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경쟁자",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표 ID",
+      "target_class": "VOTES",
+      "target_property": "VOTES_vote_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표 번호",
+      "target_class": "VOTES",
+      "target_property": "VOTES_vote_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표 코드",
+      "target_class": "VOTES",
+      "target_property": "VOTES_vote_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표 식별자",
+      "target_class": "VOTES",
+      "target_property": "VOTES_vote_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표 고유번호",
+      "target_class": "VOTES",
+      "target_property": "VOTES_vote_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "투표 고유 번호",
+      "target_class": "VOTES",
+      "target_property": "VOTES_vote_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호",
+      "target_class": "VOTES",
+      "target_property": "VOTES_phone_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호 정보",
+      "target_class": "VOTES",
+      "target_property": "VOTES_phone_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호 항목",
+      "target_class": "VOTES",
+      "target_property": "VOTES_phone_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호 데이터",
+      "target_class": "VOTES",
+      "target_property": "VOTES_phone_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호 번호",
+      "target_class": "VOTES",
+      "target_property": "VOTES_phone_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태",
+      "target_class": "VOTES",
+      "target_property": "VOTES_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 정보",
+      "target_class": "VOTES",
+      "target_property": "VOTES_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 코드",
+      "target_class": "VOTES",
+      "target_property": "VOTES_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 항목",
+      "target_class": "VOTES",
+      "target_property": "VOTES_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 데이터",
+      "target_class": "VOTES",
+      "target_property": "VOTES_state",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 번호",
+      "target_class": "VOTES",
+      "target_property": "VOTES_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가자 ID",
+      "target_class": "VOTES",
+      "target_property": "VOTES_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경쟁자 번호",
+      "target_class": "VOTES",
+      "target_property": "VOTES_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보자 번호",
+      "target_class": "VOTES",
+      "target_property": "VOTES_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인물 번호",
+      "target_class": "VOTES",
+      "target_property": "VOTES_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "VOTES",
+      "target_property": "VOTES_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "후보 번호",
+      "target_class": "VOTES",
+      "target_property": "VOTES_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경쟁자 ID",
+      "target_class": "VOTES",
+      "target_property": "VOTES_contestant_number",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성 시간",
+      "target_class": "VOTES",
+      "target_property": "VOTES_created",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성 시각",
+      "target_class": "VOTES",
+      "target_property": "VOTES_created",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성 일시",
+      "target_class": "VOTES",
+      "target_property": "VOTES_created",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성 시간戳",
+      "target_class": "VOTES",
+      "target_property": "VOTES_created",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성 시간 정보",
+      "target_class": "VOTES",
+      "target_property": "VOTES_created",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성 시간 기록",
+      "target_class": "VOTES",
+      "target_property": "VOTES_created",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성 시간 데이터",
+      "target_class": "VOTES",
+      "target_property": "VOTES_created",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성 시간 값",
+      "target_class": "VOTES",
+      "target_property": "VOTES_created",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "이지은",
+      "target_class": "CONTESTANTS",
+      "target_property": "CONTESTANTS_contestant_name",
+      "value": "이지은"
+    },
+    {
+      "entry_type": "value",
+      "key": "승리",
+      "target_class": "VOTES",
+      "target_property": "VOTES_state",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "이긴 상태",
+      "target_class": "VOTES",
+      "target_property": "VOTES_state",
+      "value": "승리"
+    },
+    {
+      "entry_type": "value",
+      "key": "패배",
+      "target_class": "VOTES",
+      "target_property": "VOTES_state",
+      "value": "패배"
+    },
+    {
+      "entry_type": "value",
+      "key": "진영 상태",
+      "target_class": "VOTES",
+      "target_property": "VOTES_state",
+      "value": "패배"
+    }
+  ]
+}

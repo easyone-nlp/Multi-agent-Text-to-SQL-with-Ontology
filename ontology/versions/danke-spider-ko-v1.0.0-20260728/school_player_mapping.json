@@ -1,0 +1,128 @@
+{
+  "class_table": {
+    "school": "school",
+    "school_details": "school_details",
+    "school_performance": "school_performance",
+    "player": "player"
+  },
+  "property_column": {
+    "school_School_ID": [
+      "school",
+      "School_ID"
+    ],
+    "school_School": [
+      "school",
+      "School"
+    ],
+    "school_Location": [
+      "school",
+      "Location"
+    ],
+    "school_Enrollment": [
+      "school",
+      "Enrollment"
+    ],
+    "school_Founded": [
+      "school",
+      "Founded"
+    ],
+    "school_Denomination": [
+      "school",
+      "Denomination"
+    ],
+    "school_Boys_or_Girls": [
+      "school",
+      "Boys_or_Girls"
+    ],
+    "school_Day_or_Boarding": [
+      "school",
+      "Day_or_Boarding"
+    ],
+    "school_Year_Entered_Competition": [
+      "school",
+      "Year_Entered_Competition"
+    ],
+    "school_School_Colors": [
+      "school",
+      "School_Colors"
+    ],
+    "school_details_School_ID": [
+      "school_details",
+      "School_ID"
+    ],
+    "school_details_Nickname": [
+      "school_details",
+      "Nickname"
+    ],
+    "school_details_Colors": [
+      "school_details",
+      "Colors"
+    ],
+    "school_details_League": [
+      "school_details",
+      "League"
+    ],
+    "school_details_Class": [
+      "school_details",
+      "Class"
+    ],
+    "school_details_Division": [
+      "school_details",
+      "Division"
+    ],
+    "school_performance_School_Id": [
+      "school_performance",
+      "School_Id"
+    ],
+    "school_performance_School_Year": [
+      "school_performance",
+      "School_Year"
+    ],
+    "school_performance_Class_A": [
+      "school_performance",
+      "Class_A"
+    ],
+    "school_performance_Class_AA": [
+      "school_performance",
+      "Class_AA"
+    ],
+    "player_Player_ID": [
+      "player",
+      "Player_ID"
+    ],
+    "player_Player": [
+      "player",
+      "Player"
+    ],
+    "player_Team": [
+      "player",
+      "Team"
+    ],
+    "player_Age": [
+      "player",
+      "Age"
+    ],
+    "player_Position": [
+      "player",
+      "Position"
+    ],
+    "player_School_ID": [
+      "player",
+      "School_ID"
+    ]
+  },
+  "object_property_fk": {
+    "school_details_school_fk0": [
+      "school_details.School_ID",
+      "school.School_ID"
+    ],
+    "school_performance_school_fk1": [
+      "school_performance.School_Id",
+      "school.School_ID"
+    ],
+    "player_school_fk2": [
+      "player.School_ID",
+      "school.School_ID"
+    ]
+  }
+}

@@ -1,0 +1,1272 @@
+{
+  "db_id": "products_for_hire",
+  "classes": [
+    {
+      "name": "Discount_Coupons",
+      "source_table": "Discount_Coupons",
+      "ranking": 3.0,
+      "primary_label": "할인 쿠폰",
+      "synonyms": [
+        "할인쿠폰",
+        "할인코드",
+        "할인권",
+        "할인서적",
+        "할인쿠폰정보"
+      ]
+    },
+    {
+      "name": "Customers",
+      "source_table": "Customers",
+      "ranking": 3.5,
+      "primary_label": "고객",
+      "synonyms": [
+        "고객",
+        "고객정보",
+        "사용자",
+        "고객데이터",
+        "고객리스트"
+      ]
+    },
+    {
+      "name": "Bookings",
+      "source_table": "Bookings",
+      "ranking": 3.5,
+      "primary_label": "예약",
+      "synonyms": [
+        "예약",
+        "예약정보",
+        "예약내역",
+        "예약데이터",
+        "예약기록"
+      ]
+    },
+    {
+      "name": "Products_for_Hire",
+      "source_table": "Products_for_Hire",
+      "ranking": 3.5,
+      "primary_label": "products for hire",
+      "synonyms": [
+        "대여제품",
+        "대여물품",
+        "대여상품",
+        "대여제품 목록",
+        "대여제품 정보",
+        "대여제품 데이터",
+        "대여제품 목록 관리",
+        "대여제품 정보 저장"
+      ]
+    },
+    {
+      "name": "Payments",
+      "source_table": "Payments",
+      "ranking": 3.5,
+      "primary_label": "결제",
+      "synonyms": [
+        "결제",
+        "결제내역",
+        "결제정보",
+        "결제데이터",
+        "결제기록",
+        "결제내역 관리",
+        "결제정보 저장",
+        "결제기록 관리"
+      ]
+    },
+    {
+      "name": "Products_Booked",
+      "source_table": "Products_Booked",
+      "ranking": 3.5,
+      "primary_label": "products booked",
+      "synonyms": [
+        "예약제품",
+        "예약물품",
+        "예약상품",
+        "예약제품 목록",
+        "예약제품 정보",
+        "예약제품 데이터",
+        "예약제품 목록 관리",
+        "예약제품 정보 저장"
+      ]
+    },
+    {
+      "name": "View_Product_Availability",
+      "source_table": "View_Product_Availability",
+      "ranking": 3.5,
+      "primary_label": "view product availability",
+      "synonyms": [
+        "제품 재고 상태",
+        "제품 가용성 확인",
+        "재고 정보",
+        "제품 재고 상황",
+        "제품 가용성 상태",
+        "재고 현황"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Discount_Coupons_coupon_id",
+      "domain": "Discount_Coupons",
+      "source_table": "Discount_Coupons",
+      "source_column": "coupon_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "쿠폰 ID",
+      "synonyms": [
+        "쿠폰 ID",
+        "할인 쿠폰 ID",
+        "쿠폰 번호",
+        "쿠폰 고유 번호",
+        "쿠폰 식별자",
+        "쿠폰 아이디",
+        "coupon_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Discount_Coupons_date_issued",
+      "domain": "Discount_Coupons",
+      "source_table": "Discount_Coupons",
+      "source_column": "date_issued",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "발급일",
+      "synonyms": [
+        "발급일",
+        "쿠폰 발급일",
+        "발급 날짜",
+        "쿠폰 날짜",
+        "쿠폰 발급일자",
+        "일자",
+        "날짜",
+        "date_issued"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-01": [
+          "2023년 10월 1일"
+        ]
+      }
+    },
+    {
+      "name": "Discount_Coupons_coupon_amount",
+      "domain": "Discount_Coupons",
+      "source_table": "Discount_Coupons",
+      "source_column": "coupon_amount",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "쿠폰 금액",
+      "synonyms": [
+        "할인 금액",
+        "쿠폰 금액",
+        "할인액",
+        "쿠폰 할인 금액",
+        "coupon_amount"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_customer_id",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 ID",
+        "고유 고객 번호",
+        "고객 번호",
+        "고객 식별자",
+        "고객 코드",
+        "customer_id",
+        "고객 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_coupon_id",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "coupon_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "쿠폰 ID",
+      "synonyms": [
+        "쿠폰 ID",
+        "할인 쿠폰 번호",
+        "쿠폰 코드",
+        "할인 쿠폰 식별자",
+        "coupon_id",
+        "쿠폰 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_good_or_bad_customer",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "good_or_bad_customer",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "좋은 고객 또는 나쁜 고객",
+      "synonyms": [
+        "고객 평가",
+        "고객 분류",
+        "고객 신뢰도",
+        "고객 타입",
+        "고객 평가 분류",
+        "고객 상태",
+        "good_or_bad_customer",
+        "고객 구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "좋은 고객": [
+          "좋은 고객",
+          "good customer"
+        ],
+        "나쁜 고객": [
+          "나쁜 고객",
+          "bad customer"
+        ]
+      }
+    },
+    {
+      "name": "Customers_first_name",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "성별",
+        "성별 정보",
+        "성별 코드",
+        "성별 데이터",
+        "성별 구분",
+        "성별 구분자",
+        "성별 기준"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_last_name",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성",
+      "synonyms": [
+        "성별",
+        "성별 정보",
+        "성별 코드",
+        "성별 데이터",
+        "성별 구분",
+        "성별 구분자",
+        "성별 기준"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_gender_mf",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "gender_mf",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "성별",
+      "synonyms": [
+        "성별",
+        "성별 정보",
+        "성별 코드",
+        "성별 데이터",
+        "성별 구분",
+        "성별 구분자",
+        "성별 기준"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남성": [
+          "남성",
+          "male"
+        ],
+        "여성": [
+          "여성",
+          "female"
+        ]
+      }
+    },
+    {
+      "name": "Customers_date_became_customer",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "date_became_customer",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "고객이 되는 날짜",
+      "synonyms": [
+        "고객 등록일",
+        "회원 가입일",
+        "date became customer",
+        "등록 일자",
+        "회원 등록 날짜"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_date_last_hire",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "date_last_hire",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "최근 고용 날짜",
+      "synonyms": [
+        "마지막 채용일",
+        "최근 채용일",
+        "date last hire",
+        "마지막 채용 날짜",
+        "최종 채용 일자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Bookings_booking_id",
+      "domain": "Bookings",
+      "source_table": "Bookings",
+      "source_column": "booking_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "예약 ID",
+      "synonyms": [
+        "예약 ID",
+        "예약번호",
+        "book_id",
+        "bookings_id",
+        "예약 고유 번호",
+        "예약 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Bookings_customer_id",
+      "domain": "Bookings",
+      "source_table": "Bookings",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 ID",
+        "고객 번호",
+        "고객 식별자",
+        "고객 코드",
+        "고객_아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Bookings_booking_status_code",
+      "domain": "Bookings",
+      "source_table": "Bookings",
+      "source_column": "booking_status_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "예약 상태 코드",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "예약 완료": [
+          "완료",
+          "예약 성공"
+        ],
+        "예약 취소": [
+          "취소",
+          "예약 거절"
+        ],
+        "예약 대기": [
+          "대기",
+          "대기 중"
+        ]
+      }
+    },
+    {
+      "name": "Bookings_returned_damaged_yn",
+      "domain": "Bookings",
+      "source_table": "Bookings",
+      "source_column": "returned_damaged_yn",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "반환된 손상 여부",
+      "synonyms": [
+        "반환 손상 여부",
+        "손상 여부",
+        "반환 손상 여부 코드",
+        "손상 여부 코드",
+        "반환 손상 여부 표시",
+        "손상 여부 표시",
+        "반환 손상 여부 정보",
+        "손상 여부 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Y": [
+          "예",
+          "네"
+        ],
+        "N": [
+          "아니요",
+          "아니오",
+          "아님"
+        ]
+      }
+    },
+    {
+      "name": "Bookings_booking_start_date",
+      "domain": "Bookings",
+      "source_table": "Bookings",
+      "source_column": "booking_start_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "예약 시작일",
+      "synonyms": [
+        "대여 시작일",
+        "대여 시작 시간",
+        "계약 시작일",
+        "계약 시작 시간",
+        "대여 시작 날짜",
+        "대여 시작 시각",
+        "계약 시작 날짜 시간",
+        "대여 시작 일시"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Bookings_booking_end_date",
+      "domain": "Bookings",
+      "source_table": "Bookings",
+      "source_column": "booking_end_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "예약 종료일",
+      "synonyms": [
+        "대여 종료일",
+        "대여 종료 시간",
+        "계약 종료일",
+        "계약 종료 시간",
+        "대여 종료 날짜",
+        "대여 종료 시각",
+        "계약 종료 날짜 시간",
+        "대여 종료 일시"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Bookings_count_hired",
+      "domain": "Bookings",
+      "source_table": "Bookings",
+      "source_column": "count_hired",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "대여 수량",
+      "synonyms": [
+        "이용 수",
+        "대여 수",
+        "대여량",
+        "사용 수",
+        "대여 개수",
+        "count_hired",
+        "이용 개수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Bookings_amount_payable",
+      "domain": "Bookings",
+      "source_table": "Bookings",
+      "source_column": "amount_payable",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "결제 금액",
+      "synonyms": [
+        "결제 금액",
+        "가격",
+        "금액",
+        "지불 금액",
+        "가격 정보",
+        "amount_payable",
+        "총 금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Bookings_amount_of_discount",
+      "domain": "Bookings",
+      "source_table": "Bookings",
+      "source_column": "amount_of_discount",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "할인 금액",
+      "synonyms": [
+        "할인 금액",
+        "할인",
+        "할인액",
+        "감면 금액",
+        "할인 요금",
+        "amount_of_discount"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Bookings_amount_outstanding",
+      "domain": "Bookings",
+      "source_table": "Bookings",
+      "source_column": "amount_outstanding",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.9,
+      "primary_label": "미이행 금액",
+      "synonyms": [
+        "지불되지 않은 금액",
+        "미지불 금액",
+        "미지급 금액",
+        "지불 대기 금액",
+        "출금 대기 금액",
+        "예약 미지불 금액",
+        "amount outstanding"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Bookings_amount_of_refund",
+      "domain": "Bookings",
+      "source_table": "Bookings",
+      "source_column": "amount_of_refund",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.7,
+      "primary_label": "환급 금액",
+      "synonyms": [
+        "환불 금액",
+        "환불액",
+        "환불 대상 금액",
+        "환불 가능 금액",
+        "예약 환불 금액",
+        "amount of refund"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_for_Hire_product_id",
+      "domain": "Products_for_Hire",
+      "source_table": "Products_for_Hire",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "product id",
+      "synonyms": [
+        "제품 ID",
+        "제품 고유 번호",
+        "제품 식별자",
+        "product_id",
+        "제품 번호",
+        "식별 번호",
+        "제품 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_for_Hire_product_type_code",
+      "domain": "Products_for_Hire",
+      "source_table": "Products_for_Hire",
+      "source_column": "product_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "product type code",
+      "synonyms": [
+        "제품 유형 코드",
+        "제품 코드",
+        "제품 유형",
+        "product_type_code",
+        "유형 코드",
+        "제품 구분 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "CAR": [
+          "자동차",
+          "차"
+        ],
+        "BICYCLE": [
+          "자전거",
+          "자전거"
+        ],
+        "MOTORCYCLE": [
+          "모터사이클",
+          "모터사이클"
+        ]
+      }
+    },
+    {
+      "name": "Products_for_Hire_daily_hire_cost",
+      "domain": "Products_for_Hire",
+      "source_table": "Products_for_Hire",
+      "source_column": "daily_hire_cost",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "daily hire cost",
+      "synonyms": [
+        "일일 대여 비용",
+        "일일 비용",
+        "대여 비용",
+        "daily_hire_cost",
+        "일일 요금",
+        "대여 요금",
+        "비용"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_for_Hire_product_name",
+      "domain": "Products_for_Hire",
+      "source_table": "Products_for_Hire",
+      "source_column": "product_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "product name",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_for_Hire_product_description",
+      "domain": "Products_for_Hire",
+      "source_table": "Products_for_Hire",
+      "source_column": "product_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "product description",
+      "synonyms": [
+        "제품 설명",
+        "상품 설명",
+        "제품 소개",
+        "상품 설명 정보",
+        "제품 설명 내용",
+        "제품 정보 설명",
+        "제품 설명 텍스트"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Payments_payment_id",
+      "domain": "Payments",
+      "source_table": "Payments",
+      "source_column": "payment_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "결제 ID",
+      "synonyms": [
+        "결제 번호",
+        "결제 아이디",
+        "결제 고유 ID",
+        "PAYMENT_ID",
+        "결제 ID",
+        "결제 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Payments_booking_id",
+      "domain": "Payments",
+      "source_table": "Payments",
+      "source_column": "booking_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "예약 ID",
+      "synonyms": [
+        "예약 번호",
+        "예약 아이디",
+        "예약 고유 ID",
+        "BOOKING_ID",
+        "예약 ID",
+        "예약 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Payments_customer_id",
+      "domain": "Payments",
+      "source_table": "Payments",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 번호",
+        "고객 아이디",
+        "고객 고유 ID",
+        "CUSTOMER_ID",
+        "고객 ID",
+        "고객 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Payments_payment_type_code",
+      "domain": "Payments",
+      "source_table": "Payments",
+      "source_column": "payment_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "결제 유형 코드",
+      "synonyms": [
+        "결제유형코드",
+        "결제타입코드",
+        "지급형태코드",
+        "지급타입코드",
+        "결제코드",
+        "지급코드",
+        "payment_type_code",
+        "결제유형"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "CASH": [
+          "현금",
+          "카드",
+          "이체"
+        ],
+        "CARD": [
+          "카드",
+          "신용카드"
+        ],
+        "TRANSFER": [
+          "이체",
+          "계좌이체"
+        ]
+      }
+    },
+    {
+      "name": "Payments_amount_paid_in_full_yn",
+      "domain": "Payments",
+      "source_table": "Payments",
+      "source_column": "amount_paid_in_full_yn",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "전액 지불 여부",
+      "synonyms": [
+        "전액지급여부",
+        "전액지급여부코드",
+        "지급완료여부",
+        "지급완료여부코드",
+        "amount_paid_in_full_yn",
+        "전액지급"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Y": [
+          "예",
+          "전액 지불"
+        ],
+        "N": [
+          "아니오",
+          "부분 지불"
+        ]
+      }
+    },
+    {
+      "name": "Payments_payment_date",
+      "domain": "Payments",
+      "source_table": "Payments",
+      "source_column": "payment_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "결제 일시",
+      "synonyms": [
+        "결제일자",
+        "지급일시",
+        "지급일자",
+        "지급시간",
+        "결제일",
+        "지급일",
+        "payment_date",
+        "결제일시"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Payments_amount_due",
+      "domain": "Payments",
+      "source_table": "Payments",
+      "source_column": "amount_due",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "결제 대기 금액",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Payments_amount_paid",
+      "domain": "Payments",
+      "source_table": "Payments",
+      "source_column": "amount_paid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "결제 금액",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_Booked_booking_id",
+      "domain": "Products_Booked",
+      "source_table": "Products_Booked",
+      "source_column": "booking_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "booking id",
+      "synonyms": [
+        "예약 ID",
+        "예약 번호",
+        "예약 시퀀스",
+        "예약 코드",
+        "예약 식별자",
+        "예약키"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_Booked_product_id",
+      "domain": "Products_Booked",
+      "source_table": "Products_Booked",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "product id",
+      "synonyms": [
+        "product_id",
+        "상품 번호",
+        "상품 ID",
+        "제품 번호",
+        "제품 ID",
+        "상품 코드",
+        "상품 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_Booked_returned_yn",
+      "domain": "Products_Booked",
+      "source_table": "Products_Booked",
+      "source_column": "returned_yn",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "returned yes or no",
+      "synonyms": [
+        "반납 여부",
+        "반납 상태",
+        "반납 유무",
+        "반납 여부 확인",
+        "반납 여부 표시",
+        "반납 여부 정보",
+        "반납 여부 데이터",
+        "반납 여부 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Y": [
+          "예",
+          "yes"
+        ],
+        "N": [
+          "아니오",
+          "no"
+        ]
+      }
+    },
+    {
+      "name": "Products_Booked_returned_late_yn",
+      "domain": "Products_Booked",
+      "source_table": "Products_Booked",
+      "source_column": "returned_late_yn",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.8,
+      "primary_label": "returned late yes or no",
+      "synonyms": [
+        "지연 반납 여부",
+        "지연 여부",
+        "지연 여부 확인",
+        "지연 여부 표시",
+        "지연 여부 정보",
+        "지연 여부 체크",
+        "반납 지연 여부",
+        "반납 지연 여부 확인"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Y": [
+          "예",
+          "yes"
+        ],
+        "N": [
+          "아니오",
+          "no"
+        ]
+      }
+    },
+    {
+      "name": "Products_Booked_booked_count",
+      "domain": "Products_Booked",
+      "source_table": "Products_Booked",
+      "source_column": "booked_count",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "booked count",
+      "synonyms": [
+        "예약 수량",
+        "예약 개수",
+        "예약 수",
+        "예약량",
+        "예약 수량 정보",
+        "예약 수량 확인",
+        "예약 수량 표시"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_Booked_booked_amount",
+      "domain": "Products_Booked",
+      "source_table": "Products_Booked",
+      "source_column": "booked_amount",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "booked amount",
+      "synonyms": [
+        "예약 금액",
+        "예약 비용",
+        "예약 금액 정보",
+        "예약 금액 확인",
+        "예약 금액 표시",
+        "예약 비용 확인",
+        "예약 금액 계산"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "View_Product_Availability_product_id",
+      "domain": "View_Product_Availability",
+      "source_table": "View_Product_Availability",
+      "source_column": "product_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "product id",
+      "synonyms": [
+        "제품 ID",
+        "제품 번호",
+        "제품 식별자",
+        "제품 코드",
+        "product_id",
+        "제품 고유 번호",
+        "제품 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "View_Product_Availability_booking_id",
+      "domain": "View_Product_Availability",
+      "source_table": "View_Product_Availability",
+      "source_column": "booking_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "booking id",
+      "synonyms": [
+        "예약 ID",
+        "예약 번호",
+        "예약 식별자",
+        "예약 코드",
+        "booking_id",
+        "예약 고유 번호",
+        "예약 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "View_Product_Availability_status_date",
+      "domain": "View_Product_Availability",
+      "source_table": "View_Product_Availability",
+      "source_column": "status_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 4.0,
+      "primary_label": "status date",
+      "synonyms": [
+        "상태 일자",
+        "상태 날짜",
+        "상태 시간",
+        "상태 기록일",
+        "status_date",
+        "상태 기록 날짜",
+        "상태 일시"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "View_Product_Availability_available_yn",
+      "domain": "View_Product_Availability",
+      "source_table": "View_Product_Availability",
+      "source_column": "available_yn",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "available yes or no",
+      "synonyms": [
+        "사용 가능 여부",
+        "대여 가능 여부",
+        "사용 가능 여부 정보",
+        "대여 가능 여부 확인",
+        "사용 가능 여부 코드",
+        "대여 가능 여부 표시",
+        "사용 가능 여부 상태",
+        "대여 가능 여부 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Y": [
+          "yes",
+          "available"
+        ],
+        "N": [
+          "no",
+          "not available"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Customers_Discount_Coupons_fk0",
+      "domain": "Customers",
+      "range": "Discount_Coupons",
+      "source_fk": [
+        "Customers.coupon_id",
+        "Discount_Coupons.coupon_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "쿠폰을 사용",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Bookings_Customers_fk1",
+      "domain": "Bookings",
+      "range": "Customers",
+      "source_fk": [
+        "Bookings.customer_id",
+        "Customers.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "예약한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Payments_Customers_fk2",
+      "domain": "Payments",
+      "range": "Customers",
+      "source_fk": [
+        "Payments.customer_id",
+        "Customers.customer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "결제한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Payments_Bookings_fk3",
+      "domain": "Payments",
+      "range": "Bookings",
+      "source_fk": [
+        "Payments.booking_id",
+        "Bookings.booking_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "결제한 예약",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Products_Booked_Products_for_Hire_fk4",
+      "domain": "Products_Booked",
+      "range": "Products_for_Hire",
+      "source_fk": [
+        "Products_Booked.product_id",
+        "Products_for_Hire.product_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "대여한 제품",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Products_Booked_Bookings_fk5",
+      "domain": "Products_Booked",
+      "range": "Bookings",
+      "source_fk": [
+        "Products_Booked.booking_id",
+        "Bookings.booking_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "대여한 예약",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "View_Product_Availability_Products_for_Hire_fk6",
+      "domain": "View_Product_Availability",
+      "range": "Products_for_Hire",
+      "source_fk": [
+        "View_Product_Availability.product_id",
+        "Products_for_Hire.product_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "제품 가용성 확인",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "View_Product_Availability_Bookings_fk7",
+      "domain": "View_Product_Availability",
+      "range": "Bookings",
+      "source_fk": [
+        "View_Product_Availability.booking_id",
+        "Bookings.booking_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "가용성 확인 예약",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

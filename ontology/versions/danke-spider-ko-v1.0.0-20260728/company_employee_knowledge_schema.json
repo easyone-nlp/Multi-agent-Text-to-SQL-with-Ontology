@@ -1,0 +1,440 @@
+{
+  "db_id": "company_employee",
+  "classes": [
+    {
+      "name": "people",
+      "source_table": "people",
+      "ranking": 3.0,
+      "primary_label": "사람",
+      "synonyms": [
+        "사원",
+        "직원",
+        "근로자",
+        "직책",
+        "인력"
+      ]
+    },
+    {
+      "name": "company",
+      "source_table": "company",
+      "ranking": 3.5,
+      "primary_label": "회사",
+      "synonyms": [
+        "회사",
+        "기업",
+        "법인",
+        "기관",
+        "사업체"
+      ]
+    },
+    {
+      "name": "employment",
+      "source_table": "employment",
+      "ranking": 3.0,
+      "primary_label": "임용 정보",
+      "synonyms": [
+        "고용",
+        "근로계약",
+        "직무",
+        "임금",
+        "근로자 정보"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "people_People_ID",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "People_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "사람 ID",
+      "synonyms": [
+        "People_ID",
+        "사원 ID",
+        "사원 번호",
+        "고유 ID",
+        "사번",
+        "사원 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Age",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "나이",
+      "synonyms": [
+        "Age",
+        "연령",
+        "나이",
+        "생년월일 기반 연령",
+        "연령 정보",
+        "나이 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Name",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "Name",
+        "이름",
+        "사원 이름",
+        "성명",
+        "이름 정보",
+        "사원 성명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "이지은": [
+          "이지은"
+        ]
+      }
+    },
+    {
+      "name": "people_Nationality",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Nationality",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "국적",
+      "synonyms": [
+        "국적",
+        "국가",
+        "나라",
+        "국적 정보",
+        "국적별",
+        "국적 데이터",
+        "국적 코드",
+        "국적명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국인": [
+          "한국인"
+        ],
+        "미국인": [
+          "미국인"
+        ]
+      }
+    },
+    {
+      "name": "people_Graduation_College",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Graduation_College",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "졸업 대학",
+      "synonyms": [
+        "졸업 대학",
+        "대학명",
+        "학력 대학",
+        "졸업 학교",
+        "학력 정보",
+        "학력 대학명",
+        "학력 학교"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울대학교": [
+          "서울대학교"
+        ],
+        "한국과학기술원": [
+          "한국과학기술원"
+        ]
+      }
+    },
+    {
+      "name": "company_Company_ID",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Company_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "회사 ID",
+      "synonyms": [
+        "회사 ID",
+        "기업 ID",
+        "회사 고유 ID",
+        "회사 식별 번호",
+        "Company ID",
+        "기업 식별자",
+        "회사 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "company_Name",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [
+        "회사 이름",
+        "이름",
+        "명",
+        "회사명",
+        "회사 이름 정보",
+        "회사 이름 데이터",
+        "회사 이름 필드",
+        "회사명 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "company_Headquarters",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Headquarters",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "본사",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "company_Industry",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Industry",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "산업",
+      "synonyms": [
+        "산업",
+        "산업분류",
+        "업종",
+        "업종분류",
+        "산업类别",
+        "산업분야",
+        "업종코드",
+        "산업군"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "company_Sales_in_Billion",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Sales_in_Billion",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "매출(조)",
+      "synonyms": [
+        "매출",
+        "매출액",
+        "백억 매출",
+        "매출 금액",
+        "매출액(백억)",
+        "매출량",
+        "수익",
+        "수익액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "company_Profits_in_Billion",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Profits_in_Billion",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "이익(조)",
+      "synonyms": [
+        "이익",
+        "이익액",
+        "백억 이익",
+        "이익 금액",
+        "이익액(백억)",
+        "이윤",
+        "수익성",
+        "이익량"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "company_Assets_in_Billion",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Assets_in_Billion",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "자산(조)",
+      "synonyms": [
+        "자산",
+        "자산 규모",
+        "자산 금액",
+        "자산 가치",
+        "자산 수준",
+        "Assets_in_Billion",
+        "자산 정보",
+        "자본"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "company_Market_Value_in_Billion",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "Market_Value_in_Billion",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "시장가치(조)",
+      "synonyms": [
+        "시장 가치",
+        "주가 가치",
+        "시장 평가",
+        "주식 가치",
+        "시장 규모",
+        "Market_Value_in_Billion",
+        "시장 정보",
+        "주가"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employment_Company_ID",
+      "domain": "employment",
+      "source_table": "employment",
+      "source_column": "Company_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "회사 ID",
+      "synonyms": [
+        "회사 ID",
+        "기업 ID",
+        "회사 코드",
+        "사고 ID",
+        "회사 식별자",
+        "Company_ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employment_People_ID",
+      "domain": "employment",
+      "source_table": "employment",
+      "source_column": "People_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "사람 ID",
+      "synonyms": [
+        "인사 ID",
+        "직원 ID",
+        "사람 ID",
+        "개인 코드",
+        "People_ID",
+        "사용자 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employment_Year_working",
+      "domain": "employment",
+      "source_table": "employment",
+      "source_column": "Year_working",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "근무 연수",
+      "synonyms": [
+        "근무 연도",
+        "직원 근무년도",
+        "회사 근무년도",
+        "년도",
+        "working year",
+        "Year_working"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "employment_people_fk0",
+      "domain": "employment",
+      "range": "people",
+      "source_fk": [
+        "employment.People_ID",
+        "people.People_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "employment_company_fk1",
+      "domain": "employment",
+      "range": "company",
+      "source_fk": [
+        "employment.Company_ID",
+        "company.Company_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "db_id": "tvshow",
+  "classes": [
+    {
+      "name": "TV_Channel",
+      "source_table": "TV_Channel",
+      "ranking": 3.5,
+      "primary_label": "tv channel",
+      "synonyms": [
+        "TV 채널",
+        "채널",
+        "TV 채널 목록",
+        "채널 목록",
+        "TV 채널 정보"
+      ]
+    },
+    {
+      "name": "TV_series",
+      "source_table": "TV_series",
+      "ranking": 3.5,
+      "primary_label": "tv series",
+      "synonyms": [
+        "TV 시리즈",
+        "시리즈",
+        "TV 프로그램",
+        "드라마",
+        "TV 시리즈 목록"
+      ]
+    },
+    {
+      "name": "Cartoon",
+      "source_table": "Cartoon",
+      "ranking": 1.0,
+      "primary_label": "cartoon",
+      "synonyms": [
+        "애니메이션",
+        "애니",
+        "애니메이션 콘텐츠",
+        "애니메이션 프로그램",
+        "애니메이션 목록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "TV_Channel_id",
+      "domain": "TV_Channel",
+      "source_table": "TV_Channel",
+      "source_column": "id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.1,
+      "primary_label": "아이디",
+      "synonyms": [
+        "아이디",
+        "아이디 번호",
+        "채널 ID",
+        "채널 식별자",
+        "채널 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "TV_Channel_series_name",
+      "domain": "TV_Channel",
+      "source_table": "TV_Channel",
+      "source_column": "series_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "시리즈 이름",
+      "synonyms": [
+        "시리즈명",
+        "시리즈 제목",
+        "프로그램 이름",
+        "시리즈 타이틀",
+        "프로그램 제목"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "TV_Channel_Country",
+      "domain": "TV_Channel",
+      "source_table": "TV_Channel",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "국",
+        "국가명",
+        "국가 코드",
+        "국가 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "TV_Channel_Language",
+      "domain": "TV_Channel",
+      "source_table": "TV_Channel",
+      "source_column": "Language",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "언어",
+      "synonyms": [
+        "언어",
+        "언어코드",
+        "언어설정",
+        "언어정보",
+        "언어구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "TV_Channel_Content",
+      "domain": "TV_Channel",
+      "source_table": "TV_Channel",
+      "source_column": "Content",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.8,
+      "primary_label": "콘텐츠",
+      "synonyms": [
+        "콘텐츠",
+        "콘텐츠정보",
+        "콘텐츠내용",
+        "콘텐츠설명",
+        "콘텐츠유형"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "TV_Channel_Pixel_aspect_ratio_PAR",
+      "domain": "TV_Channel",
+      "source_table": "TV_Channel",
+      "source_column": "Pixel_aspect_ratio_PAR",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "픽셀 측면 비율 par",
+      "synonyms": [
+        "픽셀 비율",
+        "PAR",
+        "측면비율",
+        "비율",
+        "측면비율 PAR",
+        "PAR 정보",
+        "비율 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "TV_Channel_Hight_definition_TV",
+      "domain": "TV_Channel",
+      "source_table": "TV_Channel",
+      "source_column": "Hight_definition_TV",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "고해상도 tv",
+      "synonyms": [
+        "고해상도 채널",
+        "HD 채널",
+        "고화질 TV",
+        "4K 채널",
+        "높은 해상도 TV"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "TV_Channel_Pay_per_view_PPV",
+      "domain": "TV_Channel",
+      "source_table": "TV_Channel",
+      "source_column": "Pay_per_view_PPV",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "결제 방식 ppv",
+      "synonyms": [
+        "PPV 방식",
+        "결제 기반 채널",
+        "구독 제외 방식",
+        "Pay-per-view",
+        "PPV 서비스",
+        "결제형 채널"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "TV_Channel_Package_Option",
+      "domain": "TV_Channel",
+      "source_table": "TV_Channel",
+      "source_column": "Package_Option",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.2,
+      "primary_label": "패키지 옵션",
+      "synonyms": [
+        "패키지 선택 옵션",
+        "추가 옵션",
+        "패키지 구성 요소",
+        "옵션 설정",
+        "패키지 구성",
+        "패키지 추가 옵션"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "TV_series_id",
+      "domain": "TV_series",
+      "source_table": "TV_series",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "아이디",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "TV_series_Episode",
+      "domain": "TV_series",
+      "source_table": "TV_series",
+      "source_column": "Episode",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "에피소드",
+      "synonyms": [
+        "에피소드",
+        "화",
+        "회",
+        "회차",
+        "장",
+        "시리즈 에피소드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "첫 에피소드",
+          "1회"
+        ],
+        "2": [
+          "두 번째 에피소드",
+          "2회"
+        ]
+      }
+    },
+    {
+      "name": "TV_series_Air_Date",
+      "domain": "TV_series",
+      "source_table": "TV_series",
+      "source_column": "Air_Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "어디 날짜",
+      "synonyms": [
+        "방영일",
+        "공개일",
+        "시작일",
+        "첫 방영일",
+        "시리즈 시작일",
+        "방송일",
+        "시청일"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-01": [
+          "2023년 10월 1일",
+          "10월 1일"
+        ]
+      }
+    },
+    {
+      "name": "TV_series_Rating",
+      "domain": "TV_series",
+      "source_table": "TV_series",
+      "source_column": "Rating",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "리뷰",
+      "synonyms": [
+        "평점",
+        "점수",
+        "평가",
+        "평가점",
+        "평가값",
+        "평가자 점수",
+        "평가정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "9.5": [
+          "9.5점",
+          "9.5"
+        ]
+      }
+    },
+    {
+      "name": "TV_series_Share",
+      "domain": "TV_series",
+      "source_table": "TV_series",
+      "source_column": "Share",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "공유율",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "TV_series_18_49_Rating_Share",
+      "domain": "TV_series",
+      "source_table": "TV_series",
+      "source_column": "18_49_Rating_Share",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "18~49세 리뷰 공유율",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "25.3": [
+          "25.3%",
+          "25.3"
+        ]
+      }
+    },
+    {
+      "name": "TV_series_Viewers_m",
+      "domain": "TV_series",
+      "source_table": "TV_series",
+      "source_column": "Viewers_m",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "관객 수",
+      "synonyms": [
+        "관객 수",
+        "시청자 수",
+        "청중 수",
+        "관객 수량",
+        "시청 인원",
+        "청취자 수"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "100만": [
+          "100만 명",
+          "100만"
+        ]
+      }
+    },
+    {
+      "name": "TV_series_Weekly_Rank",
+      "domain": "TV_series",
+      "source_table": "TV_series",
+      "source_column": "Weekly_Rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "주간 순위",
+      "synonyms": [
+        "주간 순위",
+        "주간 인기 순위",
+        "주간 시청 순위",
+        "주간 랭크",
+        "주간 순위 수치",
+        "주간 인기 랭크",
+        "주간 평점 순위"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "TV_series_Channel",
+      "domain": "TV_series",
+      "source_table": "TV_series",
+      "source_column": "Channel",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "채널",
+      "synonyms": [
+        "채널명",
+        "채널 정보",
+        "채널 코드",
+        "채널 식별",
+        "채널 이름",
+        "채널 코드명",
+        "채널 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "SBS": [
+          "SBS 채널",
+          "SBS"
+        ],
+        "MBC": [
+          "MBC 채널",
+          "MBC"
+        ]
+      }
+    },
+    {
+      "name": "Cartoon_id",
+      "domain": "Cartoon",
+      "source_table": "Cartoon",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "아이디",
+        "번호",
+        "코드",
+        "키",
+        "인덱스"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Cartoon_Title",
+      "domain": "Cartoon",
+      "source_table": "Cartoon",
+      "source_column": "Title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "title",
+      "synonyms": [
+        "제목",
+        "이름",
+        "타이틀",
+        "명칭",
+        "대사"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Cartoon_Directed_by",
+      "domain": "Cartoon",
+      "source_table": "Cartoon",
+      "source_column": "Directed_by",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "directed by",
+      "synonyms": [
+        "감독",
+        "제작자",
+        "감독 이름",
+        "작가",
+        "감독명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Cartoon_Written_by",
+      "domain": "Cartoon",
+      "source_table": "Cartoon",
+      "source_column": "Written_by",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "written by",
+      "synonyms": [
+        "작가",
+        "제작자",
+        "작성자",
+        "기획자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Cartoon_Original_air_date",
+      "domain": "Cartoon",
+      "source_table": "Cartoon",
+      "source_column": "Original_air_date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "original air date",
+      "synonyms": [
+        "최초 방송일",
+        "첫 방송일",
+        "원래 방송일",
+        "시작 방송일"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Cartoon_Production_code",
+      "domain": "Cartoon",
+      "source_table": "Cartoon",
+      "source_column": "Production_code",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "production code",
+      "synonyms": [
+        "제작 번호",
+        "제작 코드",
+        "제작 식별자",
+        "제작 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Cartoon_Channel",
+      "domain": "Cartoon",
+      "source_table": "Cartoon",
+      "source_column": "Channel",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "channel",
+      "synonyms": [
+        "채널",
+        "방송 채널",
+        "프로모션 채널",
+        "애니 채널",
+        "TV 채널",
+        "채널명"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "TV_series_TV_Channel_fk0",
+      "domain": "TV_series",
+      "range": "TV_Channel",
+      "source_fk": [
+        "TV_series.Channel",
+        "TV_Channel.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Cartoon_TV_Channel_fk1",
+      "domain": "Cartoon",
+      "range": "TV_Channel",
+      "source_fk": [
+        "Cartoon.Channel",
+        "TV_Channel.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

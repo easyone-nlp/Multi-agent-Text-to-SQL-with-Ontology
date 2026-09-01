@@ -1,0 +1,650 @@
+{
+  "db_id": "farm",
+  "classes": [
+    {
+      "name": "city",
+      "source_table": "city",
+      "ranking": 3.5,
+      "primary_label": "시",
+      "synonyms": [
+        "도시",
+        "도시정보",
+        "도시데이터",
+        "도시명",
+        "도시목록"
+      ]
+    },
+    {
+      "name": "farm",
+      "source_table": "farm",
+      "ranking": 3.5,
+      "primary_label": "농장",
+      "synonyms": [
+        "농장",
+        "농장정보",
+        "농장데이터",
+        "농장명",
+        "농장목록"
+      ]
+    },
+    {
+      "name": "farm_competition",
+      "source_table": "farm_competition",
+      "ranking": 3.5,
+      "primary_label": "농장 경기",
+      "synonyms": [
+        "농장경쟁",
+        "농장경쟁정보",
+        "농장경쟁데이터",
+        "농장경쟁명",
+        "농장경쟁목록"
+      ]
+    },
+    {
+      "name": "competition_record",
+      "source_table": "competition_record",
+      "ranking": 3.5,
+      "primary_label": "경기 기록",
+      "synonyms": []
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "city_City_ID",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "City_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시 ID",
+      "synonyms": [
+        "도시 ID",
+        "도시 고유 번호",
+        "도시 식별자",
+        "도시 코드",
+        "City_ID",
+        "도시 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_Official_Name",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Official_Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "공식 이름",
+      "synonyms": [
+        "공식 이름",
+        "도시 이름",
+        "도시 공식 명칭",
+        "Official_Name",
+        "도시 명칭",
+        "공식 도시 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_Status",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Status",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "상태",
+      "synonyms": [
+        "상태",
+        "도시 상태",
+        "현황",
+        "Status",
+        "도시 현황",
+        "도시 상태 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "활성": [
+          "활성"
+        ],
+        "비활성": [
+          "비활성"
+        ]
+      }
+    },
+    {
+      "name": "city_Area_km_2",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Area_km_2",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "면적 km 2",
+      "synonyms": [
+        "면적",
+        "평방킬로미터",
+        "지역면적",
+        "도시면적",
+        "면적(평방킬로미터)",
+        "면적 데이터",
+        "면적 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_Population",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Population",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "인구",
+      "synonyms": [
+        "인구수",
+        "인구",
+        "거주자 수",
+        "인구량",
+        "인구 정보",
+        "도시 인구",
+        "인구 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_Census_Ranking",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Census_Ranking",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "인구 조사 순위",
+      "synonyms": [
+        "인구 순위",
+        "인구 조사 순위",
+        "인구 조사 결과",
+        "순위",
+        "인구 순위 정보",
+        "인구 조사 순위 데이터",
+        "순위 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1위": [
+          "1위"
+        ],
+        "2위": [
+          "2위"
+        ]
+      }
+    },
+    {
+      "name": "farm_Farm_ID",
+      "domain": "farm",
+      "source_table": "farm",
+      "source_column": "Farm_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "농장 ID",
+      "synonyms": [
+        "농장 ID",
+        "농장 고유 ID",
+        "Farm ID",
+        "농장 식별 번호",
+        "농장 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "farm_Year",
+      "domain": "farm",
+      "source_table": "farm",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 4.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "연도",
+        "년도",
+        "Farm 연도",
+        "년도 정보",
+        "year",
+        "기록 연도"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": [
+          "2020년"
+        ],
+        "2021": [
+          "2021년"
+        ]
+      }
+    },
+    {
+      "name": "farm_Total_Horses",
+      "domain": "farm",
+      "source_table": "farm",
+      "source_column": "Total_Horses",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "전체 말 수",
+      "synonyms": [
+        "전체 말 수",
+        "말 총 수",
+        "말 수",
+        "Total Horses",
+        "말의 총 수",
+        "말 총량"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "farm_Working_Horses",
+      "domain": "farm",
+      "source_table": "farm",
+      "source_column": "Working_Horses",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "근무 말 수",
+      "synonyms": [
+        "작업 말",
+        "작업용 말",
+        "말",
+        "working horses",
+        "작업 말 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "farm_Total_Cattle",
+      "domain": "farm",
+      "source_table": "farm",
+      "source_column": "Total_Cattle",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "전체 소 수",
+      "synonyms": [
+        "소",
+        "소와 бы소",
+        "소와 бы소 수",
+        "총 소",
+        "총 소와 бы소"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "farm_Oxen",
+      "domain": "farm",
+      "source_table": "farm",
+      "source_column": "Oxen",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.2,
+      "primary_label": "소",
+      "synonyms": [
+        "목축 소",
+        "소",
+        "목축용 소",
+        "목축 소 수",
+        "Oxen"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "farm_Bulls",
+      "domain": "farm",
+      "source_table": "farm",
+      "source_column": "Bulls",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.2,
+      "primary_label": "소",
+      "synonyms": [
+        "소년",
+        "청년 남성",
+        "남성 청년",
+        "남자 청년",
+        "소년들",
+        "Bulls"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "farm_Cows",
+      "domain": "farm",
+      "source_table": "farm",
+      "source_column": "Cows",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.2,
+      "primary_label": "소",
+      "synonyms": [
+        "여성",
+        "우유 생산자",
+        "여성 농부",
+        "여성 청년",
+        "Cows"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "farm_Pigs",
+      "domain": "farm",
+      "source_table": "farm",
+      "source_column": "Pigs",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.3,
+      "primary_label": "돼지 수",
+      "synonyms": [
+        "돼지",
+        "육류 생산자",
+        "돼지 수",
+        "육류 동물",
+        "돼지들",
+        "Pigs"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "farm_Sheep_and_Goats",
+      "domain": "farm",
+      "source_table": "farm",
+      "source_column": "Sheep_and_Goats",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.4,
+      "primary_label": "양과 가축 수",
+      "synonyms": [
+        "양과 가축",
+        "양과 goats",
+        "양과 가축 수",
+        "양과",
+        "가축",
+        "양과 goats 수",
+        "양과 가축 수량",
+        "양과 goats 수량"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "farm_competition_Competition_ID",
+      "domain": "farm_competition",
+      "source_table": "farm_competition",
+      "source_column": "Competition_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "경기 ID",
+      "synonyms": [
+        "경기 ID",
+        "경기 번호",
+        "경기 식별자",
+        "Competition_ID",
+        "경기 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "farm_competition_Year",
+      "domain": "farm_competition",
+      "source_table": "farm_competition",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "년도",
+      "synonyms": [
+        "연도",
+        "년도",
+        "경기 연도",
+        "Competition_Year",
+        "경기 개최 연도"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023": [
+          "2023년"
+        ]
+      }
+    },
+    {
+      "name": "farm_competition_Theme",
+      "domain": "farm_competition",
+      "source_table": "farm_competition",
+      "source_column": "Theme",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "주제",
+      "synonyms": [
+        "주제",
+        "내용",
+        "경기 주제",
+        "테마",
+        "Competition_Theme",
+        "경기 테마"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "농업 혁신": [
+          "농업 혁신 주제"
+        ]
+      }
+    },
+    {
+      "name": "farm_competition_Host_city_ID",
+      "domain": "farm_competition",
+      "source_table": "farm_competition",
+      "source_column": "Host_city_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "주최 도시 ID",
+      "synonyms": [
+        "Host_city_ID",
+        "호스트 도시 ID",
+        "도시 ID",
+        "개최 도시 식별자",
+        "호스트 도시 번호",
+        "도시 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "farm_competition_Hosts",
+      "domain": "farm_competition",
+      "source_table": "farm_competition",
+      "source_column": "Hosts",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "주최자",
+      "synonyms": [
+        "Hosts",
+        "호스트",
+        "주최자",
+        "주최 도시",
+        "호스트 이름",
+        "주최자 이름",
+        "개최 주최자",
+        "호스트 목록"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시": [
+          "서울"
+        ],
+        "부산시": [
+          "부산"
+        ]
+      }
+    },
+    {
+      "name": "competition_record_Competition_ID",
+      "domain": "competition_record",
+      "source_table": "competition_record",
+      "source_column": "Competition_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "경기 id",
+      "synonyms": [
+        "경기 ID",
+        "경기 번호",
+        "경기 식별자",
+        "Competition_ID",
+        "경기 코드",
+        "경기 고유 번호",
+        "경기 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "competition_record_Farm_ID",
+      "domain": "competition_record",
+      "source_table": "competition_record",
+      "source_column": "Farm_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "농장 id",
+      "synonyms": [
+        "농장 ID",
+        "농장 번호",
+        "농장 식별자",
+        "Farm_ID",
+        "농장 코드",
+        "농장 고유 번호",
+        "농장 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "competition_record_Rank",
+      "domain": "competition_record",
+      "source_table": "competition_record",
+      "source_column": "Rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "순위",
+      "synonyms": [
+        "순위",
+        "등수",
+        "Rank",
+        "경기 순위",
+        "등수 정보",
+        "경기 등수",
+        "순위 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "첫 번째",
+          "1등"
+        ],
+        "2": [
+          "두 번째",
+          "2등"
+        ],
+        "3": [
+          "세 번째",
+          "3등"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "farm_competition_city_fk0",
+      "domain": "farm_competition",
+      "range": "city",
+      "source_fk": [
+        "farm_competition.Host_city_ID",
+        "city.City_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "주최 도시",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "competition_record_farm_fk1",
+      "domain": "competition_record",
+      "range": "farm",
+      "source_fk": [
+        "competition_record.Farm_ID",
+        "farm.Farm_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속 농장",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "competition_record_farm_competition_fk2",
+      "domain": "competition_record",
+      "range": "farm_competition",
+      "source_fk": [
+        "competition_record.Competition_ID",
+        "farm_competition.Competition_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가 경기",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

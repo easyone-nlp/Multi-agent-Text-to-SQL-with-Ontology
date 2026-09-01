@@ -1,0 +1,211 @@
+{
+  "db_id": "small_bank_1",
+  "classes": [
+    {
+      "name": "ACCOUNTS",
+      "source_table": "ACCOUNTS",
+      "ranking": 3.0,
+      "primary_label": "계좌",
+      "synonyms": [
+        "계좌",
+        "계좌정보",
+        "계좌목록",
+        "계좌데이터",
+        "계좌리스트"
+      ]
+    },
+    {
+      "name": "SAVINGS",
+      "source_table": "SAVINGS",
+      "ranking": 3.0,
+      "primary_label": "예금",
+      "synonyms": [
+        "저축계좌",
+        "저축계좌정보",
+        "저축계좌목록",
+        "저축계좌데이터",
+        "저축계좌리스트"
+      ]
+    },
+    {
+      "name": "CHECKING",
+      "source_table": "CHECKING",
+      "ranking": 1.0,
+      "primary_label": "checking",
+      "synonyms": [
+        "예금계좌",
+        "예금계좌정보",
+        "예금계좌목록",
+        "예금계좌데이터",
+        "예금계좌리스트"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "ACCOUNTS_custid",
+      "domain": "ACCOUNTS",
+      "source_table": "ACCOUNTS",
+      "source_column": "custid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고유번호",
+        "고객번호",
+        "고객ID",
+        "고객아이디",
+        "계좌 소유자 ID",
+        "custid",
+        "고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "ACCOUNTS_name",
+      "domain": "ACCOUNTS",
+      "source_table": "ACCOUNTS",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "고객이름",
+        "소유자 이름",
+        "계좌 소유자 이름",
+        "name",
+        "고객명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김철수": [
+          "김철수"
+        ],
+        "이영희": [
+          "이영희"
+        ]
+      }
+    },
+    {
+      "name": "SAVINGS_custid",
+      "domain": "SAVINGS",
+      "source_table": "SAVINGS",
+      "source_column": "custid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 ID",
+        "고유 고객 번호",
+        "고객 식별자",
+        "고객 코드",
+        "고객 번호",
+        "custid",
+        "고객 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "SAVINGS_balance",
+      "domain": "SAVINGS",
+      "source_table": "SAVINGS",
+      "source_column": "balance",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "잔액",
+      "synonyms": [
+        "잔액",
+        "저축 금액",
+        "계좌 잔액",
+        "잔고",
+        "고객 잔액",
+        "balance",
+        "저축 계좌 잔액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "CHECKING_custid",
+      "domain": "CHECKING",
+      "source_table": "CHECKING",
+      "source_column": "custid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 id",
+      "synonyms": [
+        "고객 ID",
+        "고객번호",
+        "계좌번호",
+        "고객 식별자",
+        "고객코드",
+        "custid"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "CHECKING_balance",
+      "domain": "CHECKING",
+      "source_table": "CHECKING",
+      "source_column": "balance",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "잔액",
+      "synonyms": [
+        "잔액",
+        "잔액 정보",
+        "현재 잔액",
+        "계좌 잔액",
+        "잔액 상태",
+        "balance",
+        "잔액량"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "SAVINGS_ACCOUNTS_fk0",
+      "domain": "SAVINGS",
+      "range": "ACCOUNTS",
+      "source_fk": [
+        "SAVINGS.custid",
+        "ACCOUNTS.custid"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "CHECKING_ACCOUNTS_fk1",
+      "domain": "CHECKING",
+      "range": "ACCOUNTS",
+      "source_fk": [
+        "CHECKING.custid",
+        "ACCOUNTS.custid"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

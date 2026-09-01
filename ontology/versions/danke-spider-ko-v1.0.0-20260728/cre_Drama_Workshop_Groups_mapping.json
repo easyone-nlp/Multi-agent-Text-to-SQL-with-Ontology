@@ -1,0 +1,522 @@
+{
+  "class_table": {
+    "Ref_Payment_Methods": "Ref_Payment_Methods",
+    "Ref_Service_Types": "Ref_Service_Types",
+    "Addresses": "Addresses",
+    "Products": "Products",
+    "Marketing_Regions": "Marketing_Regions",
+    "Clients": "Clients",
+    "Drama_Workshop_Groups": "Drama_Workshop_Groups",
+    "Performers": "Performers",
+    "Customers": "Customers",
+    "Stores": "Stores",
+    "Bookings": "Bookings",
+    "Performers_in_Bookings": "Performers_in_Bookings",
+    "Customer_Orders": "Customer_Orders",
+    "Order_Items": "Order_Items",
+    "Invoices": "Invoices",
+    "Services": "Services",
+    "Bookings_Services": "Bookings_Services",
+    "Invoice_Items": "Invoice_Items"
+  },
+  "property_column": {
+    "Ref_Payment_Methods_payment_method_code": [
+      "Ref_Payment_Methods",
+      "payment_method_code"
+    ],
+    "Ref_Payment_Methods_payment_method_description": [
+      "Ref_Payment_Methods",
+      "payment_method_description"
+    ],
+    "Ref_Service_Types_Service_Type_Code": [
+      "Ref_Service_Types",
+      "Service_Type_Code"
+    ],
+    "Ref_Service_Types_Parent_Service_Type_Code": [
+      "Ref_Service_Types",
+      "Parent_Service_Type_Code"
+    ],
+    "Ref_Service_Types_Service_Type_Description": [
+      "Ref_Service_Types",
+      "Service_Type_Description"
+    ],
+    "Addresses_Address_ID": [
+      "Addresses",
+      "Address_ID"
+    ],
+    "Addresses_Line_1": [
+      "Addresses",
+      "Line_1"
+    ],
+    "Addresses_Line_2": [
+      "Addresses",
+      "Line_2"
+    ],
+    "Addresses_City_Town": [
+      "Addresses",
+      "City_Town"
+    ],
+    "Addresses_State_County": [
+      "Addresses",
+      "State_County"
+    ],
+    "Addresses_Other_Details": [
+      "Addresses",
+      "Other_Details"
+    ],
+    "Products_Product_ID": [
+      "Products",
+      "Product_ID"
+    ],
+    "Products_Product_Name": [
+      "Products",
+      "Product_Name"
+    ],
+    "Products_Product_Price": [
+      "Products",
+      "Product_Price"
+    ],
+    "Products_Product_Description": [
+      "Products",
+      "Product_Description"
+    ],
+    "Products_Other_Product_Service_Details": [
+      "Products",
+      "Other_Product_Service_Details"
+    ],
+    "Marketing_Regions_Marketing_Region_Code": [
+      "Marketing_Regions",
+      "Marketing_Region_Code"
+    ],
+    "Marketing_Regions_Marketing_Region_Name": [
+      "Marketing_Regions",
+      "Marketing_Region_Name"
+    ],
+    "Marketing_Regions_Marketing_Region_Descriptrion": [
+      "Marketing_Regions",
+      "Marketing_Region_Descriptrion"
+    ],
+    "Marketing_Regions_Other_Details": [
+      "Marketing_Regions",
+      "Other_Details"
+    ],
+    "Clients_Client_ID": [
+      "Clients",
+      "Client_ID"
+    ],
+    "Clients_Address_ID": [
+      "Clients",
+      "Address_ID"
+    ],
+    "Clients_Customer_Email_Address": [
+      "Clients",
+      "Customer_Email_Address"
+    ],
+    "Clients_Customer_Name": [
+      "Clients",
+      "Customer_Name"
+    ],
+    "Clients_Customer_Phone": [
+      "Clients",
+      "Customer_Phone"
+    ],
+    "Clients_Other_Details": [
+      "Clients",
+      "Other_Details"
+    ],
+    "Drama_Workshop_Groups_Workshop_Group_ID": [
+      "Drama_Workshop_Groups",
+      "Workshop_Group_ID"
+    ],
+    "Drama_Workshop_Groups_Address_ID": [
+      "Drama_Workshop_Groups",
+      "Address_ID"
+    ],
+    "Drama_Workshop_Groups_Currency_Code": [
+      "Drama_Workshop_Groups",
+      "Currency_Code"
+    ],
+    "Drama_Workshop_Groups_Marketing_Region_Code": [
+      "Drama_Workshop_Groups",
+      "Marketing_Region_Code"
+    ],
+    "Drama_Workshop_Groups_Store_Name": [
+      "Drama_Workshop_Groups",
+      "Store_Name"
+    ],
+    "Drama_Workshop_Groups_Store_Phone": [
+      "Drama_Workshop_Groups",
+      "Store_Phone"
+    ],
+    "Drama_Workshop_Groups_Store_Email_Address": [
+      "Drama_Workshop_Groups",
+      "Store_Email_Address"
+    ],
+    "Drama_Workshop_Groups_Other_Details": [
+      "Drama_Workshop_Groups",
+      "Other_Details"
+    ],
+    "Performers_Performer_ID": [
+      "Performers",
+      "Performer_ID"
+    ],
+    "Performers_Address_ID": [
+      "Performers",
+      "Address_ID"
+    ],
+    "Performers_Customer_Name": [
+      "Performers",
+      "Customer_Name"
+    ],
+    "Performers_Customer_Phone": [
+      "Performers",
+      "Customer_Phone"
+    ],
+    "Performers_Customer_Email_Address": [
+      "Performers",
+      "Customer_Email_Address"
+    ],
+    "Performers_Other_Details": [
+      "Performers",
+      "Other_Details"
+    ],
+    "Customers_Customer_ID": [
+      "Customers",
+      "Customer_ID"
+    ],
+    "Customers_Address_ID": [
+      "Customers",
+      "Address_ID"
+    ],
+    "Customers_Customer_Name": [
+      "Customers",
+      "Customer_Name"
+    ],
+    "Customers_Customer_Phone": [
+      "Customers",
+      "Customer_Phone"
+    ],
+    "Customers_Customer_Email_Address": [
+      "Customers",
+      "Customer_Email_Address"
+    ],
+    "Customers_Other_Details": [
+      "Customers",
+      "Other_Details"
+    ],
+    "Stores_Store_ID": [
+      "Stores",
+      "Store_ID"
+    ],
+    "Stores_Address_ID": [
+      "Stores",
+      "Address_ID"
+    ],
+    "Stores_Marketing_Region_Code": [
+      "Stores",
+      "Marketing_Region_Code"
+    ],
+    "Stores_Store_Name": [
+      "Stores",
+      "Store_Name"
+    ],
+    "Stores_Store_Phone": [
+      "Stores",
+      "Store_Phone"
+    ],
+    "Stores_Store_Email_Address": [
+      "Stores",
+      "Store_Email_Address"
+    ],
+    "Stores_Other_Details": [
+      "Stores",
+      "Other_Details"
+    ],
+    "Bookings_Booking_ID": [
+      "Bookings",
+      "Booking_ID"
+    ],
+    "Bookings_Customer_ID": [
+      "Bookings",
+      "Customer_ID"
+    ],
+    "Bookings_Workshop_Group_ID": [
+      "Bookings",
+      "Workshop_Group_ID"
+    ],
+    "Bookings_Status_Code": [
+      "Bookings",
+      "Status_Code"
+    ],
+    "Bookings_Store_ID": [
+      "Bookings",
+      "Store_ID"
+    ],
+    "Bookings_Order_Date": [
+      "Bookings",
+      "Order_Date"
+    ],
+    "Bookings_Planned_Delivery_Date": [
+      "Bookings",
+      "Planned_Delivery_Date"
+    ],
+    "Bookings_Actual_Delivery_Date": [
+      "Bookings",
+      "Actual_Delivery_Date"
+    ],
+    "Bookings_Other_Order_Details": [
+      "Bookings",
+      "Other_Order_Details"
+    ],
+    "Performers_in_Bookings_Order_ID": [
+      "Performers_in_Bookings",
+      "Order_ID"
+    ],
+    "Performers_in_Bookings_Performer_ID": [
+      "Performers_in_Bookings",
+      "Performer_ID"
+    ],
+    "Customer_Orders_Order_ID": [
+      "Customer_Orders",
+      "Order_ID"
+    ],
+    "Customer_Orders_Customer_ID": [
+      "Customer_Orders",
+      "Customer_ID"
+    ],
+    "Customer_Orders_Store_ID": [
+      "Customer_Orders",
+      "Store_ID"
+    ],
+    "Customer_Orders_Order_Date": [
+      "Customer_Orders",
+      "Order_Date"
+    ],
+    "Customer_Orders_Planned_Delivery_Date": [
+      "Customer_Orders",
+      "Planned_Delivery_Date"
+    ],
+    "Customer_Orders_Actual_Delivery_Date": [
+      "Customer_Orders",
+      "Actual_Delivery_Date"
+    ],
+    "Customer_Orders_Other_Order_Details": [
+      "Customer_Orders",
+      "Other_Order_Details"
+    ],
+    "Order_Items_Order_Item_ID": [
+      "Order_Items",
+      "Order_Item_ID"
+    ],
+    "Order_Items_Order_ID": [
+      "Order_Items",
+      "Order_ID"
+    ],
+    "Order_Items_Product_ID": [
+      "Order_Items",
+      "Product_ID"
+    ],
+    "Order_Items_Order_Quantity": [
+      "Order_Items",
+      "Order_Quantity"
+    ],
+    "Order_Items_Other_Item_Details": [
+      "Order_Items",
+      "Other_Item_Details"
+    ],
+    "Invoices_Invoice_ID": [
+      "Invoices",
+      "Invoice_ID"
+    ],
+    "Invoices_Order_ID": [
+      "Invoices",
+      "Order_ID"
+    ],
+    "Invoices_payment_method_code": [
+      "Invoices",
+      "payment_method_code"
+    ],
+    "Invoices_Product_ID": [
+      "Invoices",
+      "Product_ID"
+    ],
+    "Invoices_Order_Quantity": [
+      "Invoices",
+      "Order_Quantity"
+    ],
+    "Invoices_Other_Item_Details": [
+      "Invoices",
+      "Other_Item_Details"
+    ],
+    "Invoices_Order_Item_ID": [
+      "Invoices",
+      "Order_Item_ID"
+    ],
+    "Services_Service_ID": [
+      "Services",
+      "Service_ID"
+    ],
+    "Services_Service_Type_Code": [
+      "Services",
+      "Service_Type_Code"
+    ],
+    "Services_Workshop_Group_ID": [
+      "Services",
+      "Workshop_Group_ID"
+    ],
+    "Services_Product_Description": [
+      "Services",
+      "Product_Description"
+    ],
+    "Services_Product_Name": [
+      "Services",
+      "Product_Name"
+    ],
+    "Services_Product_Price": [
+      "Services",
+      "Product_Price"
+    ],
+    "Services_Other_Product_Service_Details": [
+      "Services",
+      "Other_Product_Service_Details"
+    ],
+    "Bookings_Services_Order_ID": [
+      "Bookings_Services",
+      "Order_ID"
+    ],
+    "Bookings_Services_Product_ID": [
+      "Bookings_Services",
+      "Product_ID"
+    ],
+    "Invoice_Items_Invoice_Item_ID": [
+      "Invoice_Items",
+      "Invoice_Item_ID"
+    ],
+    "Invoice_Items_Invoice_ID": [
+      "Invoice_Items",
+      "Invoice_ID"
+    ],
+    "Invoice_Items_Order_ID": [
+      "Invoice_Items",
+      "Order_ID"
+    ],
+    "Invoice_Items_Order_Item_ID": [
+      "Invoice_Items",
+      "Order_Item_ID"
+    ],
+    "Invoice_Items_Product_ID": [
+      "Invoice_Items",
+      "Product_ID"
+    ],
+    "Invoice_Items_Order_Quantity": [
+      "Invoice_Items",
+      "Order_Quantity"
+    ],
+    "Invoice_Items_Other_Item_Details": [
+      "Invoice_Items",
+      "Other_Item_Details"
+    ]
+  },
+  "object_property_fk": {
+    "Clients_Addresses_fk0": [
+      "Clients.Address_ID",
+      "Addresses.Address_ID"
+    ],
+    "Drama_Workshop_Groups_Addresses_fk1": [
+      "Drama_Workshop_Groups.Address_ID",
+      "Addresses.Address_ID"
+    ],
+    "Performers_Addresses_fk2": [
+      "Performers.Address_ID",
+      "Addresses.Address_ID"
+    ],
+    "Customers_Addresses_fk3": [
+      "Customers.Address_ID",
+      "Addresses.Address_ID"
+    ],
+    "Stores_Marketing_Regions_fk4": [
+      "Stores.Marketing_Region_Code",
+      "Marketing_Regions.Marketing_Region_Code"
+    ],
+    "Stores_Addresses_fk5": [
+      "Stores.Address_ID",
+      "Addresses.Address_ID"
+    ],
+    "Bookings_Drama_Workshop_Groups_fk6": [
+      "Bookings.Workshop_Group_ID",
+      "Drama_Workshop_Groups.Workshop_Group_ID"
+    ],
+    "Bookings_Clients_fk7": [
+      "Bookings.Customer_ID",
+      "Clients.Client_ID"
+    ],
+    "Performers_in_Bookings_Bookings_fk8": [
+      "Performers_in_Bookings.Order_ID",
+      "Bookings.Booking_ID"
+    ],
+    "Performers_in_Bookings_Performers_fk9": [
+      "Performers_in_Bookings.Performer_ID",
+      "Performers.Performer_ID"
+    ],
+    "Customer_Orders_Stores_fk10": [
+      "Customer_Orders.Store_ID",
+      "Stores.Store_ID"
+    ],
+    "Customer_Orders_Customers_fk11": [
+      "Customer_Orders.Customer_ID",
+      "Customers.Customer_ID"
+    ],
+    "Order_Items_Products_fk12": [
+      "Order_Items.Product_ID",
+      "Products.Product_ID"
+    ],
+    "Order_Items_Customer_Orders_fk13": [
+      "Order_Items.Order_ID",
+      "Customer_Orders.Order_ID"
+    ],
+    "Invoices_Ref_Payment_Methods_fk14": [
+      "Invoices.payment_method_code",
+      "Ref_Payment_Methods.payment_method_code"
+    ],
+    "Invoices_Bookings_fk15": [
+      "Invoices.Order_ID",
+      "Bookings.Booking_ID"
+    ],
+    "Invoices_Customer_Orders_fk16": [
+      "Invoices.Order_ID",
+      "Customer_Orders.Order_ID"
+    ],
+    "Services_Ref_Service_Types_fk17": [
+      "Services.Service_Type_Code",
+      "Ref_Service_Types.Service_Type_Code"
+    ],
+    "Services_Drama_Workshop_Groups_fk18": [
+      "Services.Workshop_Group_ID",
+      "Drama_Workshop_Groups.Workshop_Group_ID"
+    ],
+    "Bookings_Services_Services_fk19": [
+      "Bookings_Services.Product_ID",
+      "Services.Service_ID"
+    ],
+    "Bookings_Services_Bookings_fk20": [
+      "Bookings_Services.Order_ID",
+      "Bookings.Booking_ID"
+    ],
+    "Invoice_Items_Bookings_Services_fk21": [
+      "Invoice_Items.Order_ID",
+      "Bookings_Services.Order_ID"
+    ],
+    "Invoice_Items_Bookings_Services_fk22": [
+      "Invoice_Items.Product_ID",
+      "Bookings_Services.Product_ID"
+    ],
+    "Invoice_Items_Invoices_fk23": [
+      "Invoice_Items.Invoice_ID",
+      "Invoices.Invoice_ID"
+    ],
+    "Invoice_Items_Order_Items_fk24": [
+      "Invoice_Items.Order_Item_ID",
+      "Order_Items.Order_Item_ID"
+    ]
+  }
+}

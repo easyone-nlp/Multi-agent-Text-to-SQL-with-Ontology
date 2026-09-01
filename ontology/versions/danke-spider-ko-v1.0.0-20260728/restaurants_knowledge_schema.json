@@ -1,0 +1,348 @@
+{
+  "db_id": "restaurants",
+  "classes": [
+    {
+      "name": "GEOGRAPHIC",
+      "source_table": "GEOGRAPHIC",
+      "ranking": 3.0,
+      "primary_label": "지리정보",
+      "synonyms": [
+        "지리 정보",
+        "위치 데이터",
+        "지리적 정보",
+        "지리",
+        "지리적 위치",
+        "위치 정보",
+        "지리적 데이터"
+      ]
+    },
+    {
+      "name": "RESTAURANT",
+      "source_table": "RESTAURANT",
+      "ranking": 3.5,
+      "primary_label": "식당",
+      "synonyms": [
+        "음식점",
+        "식당",
+        "식사 장소",
+        "식당 정보",
+        "음식점 데이터",
+        "식당 목록",
+        "음식점 정보"
+      ]
+    },
+    {
+      "name": "LOCATION",
+      "source_table": "LOCATION",
+      "ranking": 1.0,
+      "primary_label": "location",
+      "synonyms": [
+        "위치",
+        "위치 정보",
+        "지리적 위치",
+        "위치 데이터",
+        "지리",
+        "지리적 위치 정보"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "GEOGRAPHIC_CITY_NAME",
+      "domain": "GEOGRAPHIC",
+      "source_table": "GEOGRAPHIC",
+      "source_column": "CITY_NAME",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "시 이름",
+      "synonyms": [
+        "도시명",
+        "도시",
+        "도시 이름",
+        "시 이름",
+        "시"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "부산": [
+          "부산"
+        ],
+        "인천": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "GEOGRAPHIC_COUNTY",
+      "domain": "GEOGRAPHIC",
+      "source_table": "GEOGRAPHIC",
+      "source_column": "COUNTY",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "군구",
+      "synonyms": [
+        "구역",
+        "군",
+        "시군구",
+        "구",
+        "군구"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "강원도": [
+          "강원도"
+        ],
+        "경기도": [
+          "경기도"
+        ]
+      }
+    },
+    {
+      "name": "GEOGRAPHIC_REGION",
+      "domain": "GEOGRAPHIC",
+      "source_table": "GEOGRAPHIC",
+      "source_column": "REGION",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "지역",
+      "synonyms": [
+        "지역",
+        "지역구",
+        "지역명",
+        "구역",
+        "지방"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울권": [
+          "서울권"
+        ],
+        "경기권": [
+          "경기권"
+        ]
+      }
+    },
+    {
+      "name": "RESTAURANT_ID",
+      "domain": "RESTAURANT",
+      "source_table": "RESTAURANT",
+      "source_column": "ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "ID",
+        "식당 번호",
+        "식당 고유 번호",
+        "식당 식별 번호",
+        "식당 ID",
+        "식당 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "RESTAURANT_NAME",
+      "domain": "RESTAURANT",
+      "source_table": "RESTAURANT",
+      "source_column": "NAME",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "식당 이름",
+        "명칭",
+        "소유자 이름",
+        "사업자 이름",
+        "식당명",
+        "이름으로 불리는",
+        "식당의 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "RESTAURANT_FOOD_TYPE",
+      "domain": "RESTAURANT",
+      "source_table": "RESTAURANT",
+      "source_column": "FOOD_TYPE",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "food type",
+      "synonyms": [
+        "음식 종류",
+        "요리 종류",
+        "음식 타입",
+        "음식 유형",
+        "식사 유형",
+        "음식 카테고리",
+        "요리 타입"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "RESTAURANT_CITY_NAME",
+      "domain": "RESTAURANT",
+      "source_table": "RESTAURANT",
+      "source_column": "CITY_NAME",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "city name",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "RESTAURANT_RATING",
+      "domain": "RESTAURANT",
+      "source_table": "RESTAURANT",
+      "source_column": "RATING",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "rating",
+      "synonyms": [
+        "평점",
+        "평점 수치",
+        "리뷰 점수",
+        "평가",
+        "점수",
+        "평점 정보",
+        "리뷰 평점",
+        "评分"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "LOCATION_RESTAURANT_ID",
+      "domain": "LOCATION",
+      "source_table": "LOCATION",
+      "source_column": "RESTAURANT_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "restaurant id",
+      "synonyms": [
+        "RESTAURANT_ID",
+        "음식점 ID",
+        "식당 번호",
+        "사업자 ID",
+        "식당 고유번호",
+        "사업자 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "LOCATION_HOUSE_NUMBER",
+      "domain": "LOCATION",
+      "source_table": "LOCATION",
+      "source_column": "HOUSE_NUMBER",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "house number",
+      "synonyms": [
+        "HOUSE_NUMBER",
+        "건물 번호",
+        "주소 건물번호",
+        "아파트 번호",
+        "호수"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "LOCATION_STREET_NAME",
+      "domain": "LOCATION",
+      "source_table": "LOCATION",
+      "source_column": "STREET_NAME",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "street name",
+      "synonyms": [
+        "STREET_NAME",
+        "도로 이름",
+        "길 이름",
+        "주소 도로",
+        "거리 이름",
+        "주소 도로명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "LOCATION_CITY_NAME",
+      "domain": "LOCATION",
+      "source_table": "LOCATION",
+      "source_column": "CITY_NAME",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "city name",
+      "synonyms": [
+        "도시 이름",
+        "도시",
+        "도시명",
+        "시 이름",
+        "시"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "RESTAURANT_GEOGRAPHIC_fk0",
+      "domain": "RESTAURANT",
+      "range": "GEOGRAPHIC",
+      "source_fk": [
+        "RESTAURANT.CITY_NAME",
+        "GEOGRAPHIC.CITY_NAME"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "LOCATION_GEOGRAPHIC_fk1",
+      "domain": "LOCATION",
+      "range": "GEOGRAPHIC",
+      "source_fk": [
+        "LOCATION.CITY_NAME",
+        "GEOGRAPHIC.CITY_NAME"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

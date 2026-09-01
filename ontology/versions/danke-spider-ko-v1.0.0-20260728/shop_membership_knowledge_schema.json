@@ -1,0 +1,529 @@
+{
+  "db_id": "shop_membership",
+  "classes": [
+    {
+      "name": "member",
+      "source_table": "member",
+      "ranking": 3.5,
+      "primary_label": "회원",
+      "synonyms": [
+        "고객",
+        "회원",
+        "사용자",
+        "구매자",
+        "고객 정보"
+      ]
+    },
+    {
+      "name": "branch",
+      "source_table": "branch",
+      "ranking": 3.0,
+      "primary_label": "지점",
+      "synonyms": [
+        "매장",
+        "지점",
+        "본점",
+        "สาขา",
+        "점"
+      ]
+    },
+    {
+      "name": "membership_register_branch",
+      "source_table": "membership_register_branch",
+      "ranking": 3.0,
+      "primary_label": "멤버십 등록 지점",
+      "synonyms": [
+        "멤버십 등록",
+        "회원 등록",
+        "등록 정보",
+        "멤버십 등록 정보",
+        "회원 등록 기록"
+      ]
+    },
+    {
+      "name": "purchase",
+      "source_table": "purchase",
+      "ranking": 3.0,
+      "primary_label": "구매 기록",
+      "synonyms": []
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "member_Member_ID",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Member_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "회원 ID",
+      "synonyms": [
+        "회원 ID",
+        "회원 번호",
+        "ID",
+        "구분자",
+        "구분",
+        "구분자 ID",
+        "회원 구분자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "member_Card_Number",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Card_Number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "카드 번호",
+      "synonyms": [
+        "카드번호",
+        "카드 넘버",
+        "메모리카드 번호",
+        "결제 카드 번호",
+        "회원 카드 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1234-5678": [
+          "1234-5678"
+        ]
+      }
+    },
+    {
+      "name": "member_Name",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "member_Hometown",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Hometown",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "hometown",
+      "synonyms": [
+        "출신지",
+        "현지",
+        "원산지",
+        "이름이 있는 곳",
+        "출생지",
+        "지역",
+        "원래 곳",
+        "전역"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "member_Level",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Level",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "level",
+      "synonyms": [
+        "등급",
+        "레벨",
+        "등급 수준",
+        "등급 정보",
+        "레벨 등급",
+        "등급 상태",
+        "등급 차트",
+        "레벨 계층"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "branch_Branch_ID",
+      "domain": "branch",
+      "source_table": "branch",
+      "source_column": "Branch_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "지점 ID",
+      "synonyms": [
+        "브랜치 ID",
+        "브랜치 식별 번호",
+        "브랜치 고유 번호",
+        "ID",
+        "Branch_ID",
+        "브랜치 코드",
+        "브랜치 번호",
+        "식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "branch_Name",
+      "domain": "branch",
+      "source_table": "branch",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "브랜치 이름",
+        "명칭",
+        "지점 이름",
+        "지점명",
+        "명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울지점": [
+          "서울지점"
+        ],
+        "부산지점": [
+          "부산지점"
+        ]
+      }
+    },
+    {
+      "name": "branch_Open_year",
+      "domain": "branch",
+      "source_table": "branch",
+      "source_column": "Open_year",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "개업 연도",
+      "synonyms": [
+        "개설년도",
+        "운영 시작 연도",
+        "개점 연도",
+        "개업 연도",
+        "개장 연도",
+        "운영 시작년도",
+        "개설 연도",
+        "브랜치 개설년도"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2010": [
+          "2010"
+        ],
+        "2015": [
+          "2015"
+        ]
+      }
+    },
+    {
+      "name": "branch_Address_road",
+      "domain": "branch",
+      "source_table": "branch",
+      "source_column": "Address_road",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "주소 도로",
+      "synonyms": [
+        "도로 주소",
+        "주소로",
+        "도로 이름",
+        "Address_road",
+        "도로 주소 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 강남구 강남대로": [
+          "서울시 강남구 강남대로"
+        ]
+      }
+    },
+    {
+      "name": "branch_City",
+      "domain": "branch",
+      "source_table": "branch",
+      "source_column": "City",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "시",
+      "synonyms": [
+        "도시",
+        "도시 이름",
+        "도시명",
+        "도시 정보",
+        "City"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "부산": [
+          "부산"
+        ]
+      }
+    },
+    {
+      "name": "branch_membership_amount",
+      "domain": "branch",
+      "source_table": "branch",
+      "source_column": "membership_amount",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "회원 수",
+      "synonyms": [
+        "가입 금액",
+        "회원 비용",
+        "회원 요금",
+        "membership_amount",
+        "가입 비용",
+        "회원 수수료"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "membership_register_branch_Member_ID",
+      "domain": "membership_register_branch",
+      "source_table": "membership_register_branch",
+      "source_column": "Member_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "멤버 아이디",
+      "synonyms": [
+        "회원 ID",
+        "회원 번호",
+        "ID",
+        "회원 고유 번호",
+        "Member_ID",
+        "회원 식별자",
+        "회원 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "membership_register_branch_Branch_ID",
+      "domain": "membership_register_branch",
+      "source_table": "membership_register_branch",
+      "source_column": "Branch_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "지점 아이디",
+      "synonyms": [
+        "지점 ID",
+        "지점 번호",
+        "Branch_ID",
+        "지점 식별자",
+        "지점 코드",
+        "지점 고유 번호",
+        "지점 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "membership_register_branch_Register_Year",
+      "domain": "membership_register_branch",
+      "source_table": "membership_register_branch",
+      "source_column": "Register_Year",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "등록 연도",
+      "synonyms": [
+        "등록 연도",
+        "등록 년도",
+        "년도",
+        "Register_Year",
+        "등록 연도 정보",
+        "등록 년도 코드",
+        "등록 연도 식별"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023": [
+          "2023년"
+        ],
+        "2022": [
+          "2022년"
+        ]
+      }
+    },
+    {
+      "name": "purchase_Member_ID",
+      "domain": "purchase",
+      "source_table": "purchase",
+      "source_column": "Member_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "회원 ID",
+      "synonyms": [
+        "회원 ID",
+        "회원 번호",
+        "구매자 ID",
+        "Member_ID",
+        "회원 식별자",
+        "구매자 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "purchase_Branch_ID",
+      "domain": "purchase",
+      "source_table": "purchase",
+      "source_column": "Branch_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "지점 ID",
+      "synonyms": [
+        "브랜치 ID",
+        "매장 ID",
+        "매장 번호",
+        "Branch_ID",
+        "매장 식별자",
+        "브랜치 식별자",
+        "매장 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "purchase_Year",
+      "domain": "purchase",
+      "source_table": "purchase",
+      "source_column": "Year",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "구매 년도",
+        "년도 정보",
+        "Year",
+        "년도 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023": [
+          "2023년"
+        ],
+        "2022": [
+          "2022년"
+        ]
+      }
+    },
+    {
+      "name": "purchase_Total_pounds",
+      "domain": "purchase",
+      "source_table": "purchase",
+      "source_column": "Total_pounds",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "총 파운드",
+      "synonyms": [
+        "총 금액",
+        "구매 금액",
+        "총 비용",
+        "총 구매 금액",
+        "Total_pounds"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "membership_register_branch_branch_fk0",
+      "domain": "membership_register_branch",
+      "range": "branch",
+      "source_fk": [
+        "membership_register_branch.Branch_ID",
+        "branch.Branch_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "membership_register_branch_member_fk1",
+      "domain": "membership_register_branch",
+      "range": "member",
+      "source_fk": [
+        "membership_register_branch.Member_ID",
+        "member.Member_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "purchase_branch_fk2",
+      "domain": "purchase",
+      "range": "branch",
+      "source_fk": [
+        "purchase.Branch_ID",
+        "branch.Branch_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "주문한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "purchase_member_fk3",
+      "domain": "purchase",
+      "range": "member",
+      "source_fk": [
+        "purchase.Member_ID",
+        "member.Member_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "주문한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

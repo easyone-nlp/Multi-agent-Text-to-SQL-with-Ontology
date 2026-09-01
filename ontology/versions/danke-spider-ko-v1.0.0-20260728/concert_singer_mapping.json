@@ -1,0 +1,108 @@
+{
+  "class_table": {
+    "stadium": "stadium",
+    "singer": "singer",
+    "concert": "concert",
+    "singer_in_concert": "singer_in_concert"
+  },
+  "property_column": {
+    "stadium_Stadium_ID": [
+      "stadium",
+      "Stadium_ID"
+    ],
+    "stadium_Location": [
+      "stadium",
+      "Location"
+    ],
+    "stadium_Name": [
+      "stadium",
+      "Name"
+    ],
+    "stadium_Capacity": [
+      "stadium",
+      "Capacity"
+    ],
+    "stadium_Highest": [
+      "stadium",
+      "Highest"
+    ],
+    "stadium_Lowest": [
+      "stadium",
+      "Lowest"
+    ],
+    "stadium_Average": [
+      "stadium",
+      "Average"
+    ],
+    "singer_Singer_ID": [
+      "singer",
+      "Singer_ID"
+    ],
+    "singer_Name": [
+      "singer",
+      "Name"
+    ],
+    "singer_Country": [
+      "singer",
+      "Country"
+    ],
+    "singer_Song_Name": [
+      "singer",
+      "Song_Name"
+    ],
+    "singer_Song_release_year": [
+      "singer",
+      "Song_release_year"
+    ],
+    "singer_Age": [
+      "singer",
+      "Age"
+    ],
+    "singer_Is_male": [
+      "singer",
+      "Is_male"
+    ],
+    "concert_concert_ID": [
+      "concert",
+      "concert_ID"
+    ],
+    "concert_concert_Name": [
+      "concert",
+      "concert_Name"
+    ],
+    "concert_Theme": [
+      "concert",
+      "Theme"
+    ],
+    "concert_Stadium_ID": [
+      "concert",
+      "Stadium_ID"
+    ],
+    "concert_Year": [
+      "concert",
+      "Year"
+    ],
+    "singer_in_concert_concert_ID": [
+      "singer_in_concert",
+      "concert_ID"
+    ],
+    "singer_in_concert_Singer_ID": [
+      "singer_in_concert",
+      "Singer_ID"
+    ]
+  },
+  "object_property_fk": {
+    "concert_stadium_fk0": [
+      "concert.Stadium_ID",
+      "stadium.Stadium_ID"
+    ],
+    "singer_in_concert_singer_fk1": [
+      "singer_in_concert.Singer_ID",
+      "singer.Singer_ID"
+    ],
+    "singer_in_concert_concert_fk2": [
+      "singer_in_concert.concert_ID",
+      "concert.concert_ID"
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "class_table": {
+    "chip_model": "chip_model",
+    "screen_mode": "screen_mode",
+    "phone": "phone"
+  },
+  "property_column": {
+    "chip_model_Model_name": [
+      "chip_model",
+      "Model_name"
+    ],
+    "chip_model_Launch_year": [
+      "chip_model",
+      "Launch_year"
+    ],
+    "chip_model_RAM_MiB": [
+      "chip_model",
+      "RAM_MiB"
+    ],
+    "chip_model_ROM_MiB": [
+      "chip_model",
+      "ROM_MiB"
+    ],
+    "chip_model_Slots": [
+      "chip_model",
+      "Slots"
+    ],
+    "chip_model_WiFi": [
+      "chip_model",
+      "WiFi"
+    ],
+    "chip_model_Bluetooth": [
+      "chip_model",
+      "Bluetooth"
+    ],
+    "screen_mode_Graphics_mode": [
+      "screen_mode",
+      "Graphics_mode"
+    ],
+    "screen_mode_Char_cells": [
+      "screen_mode",
+      "Char_cells"
+    ],
+    "screen_mode_Pixels": [
+      "screen_mode",
+      "Pixels"
+    ],
+    "screen_mode_Hardware_colours": [
+      "screen_mode",
+      "Hardware_colours"
+    ],
+    "screen_mode_used_kb": [
+      "screen_mode",
+      "used_kb"
+    ],
+    "screen_mode_map": [
+      "screen_mode",
+      "map"
+    ],
+    "screen_mode_Type": [
+      "screen_mode",
+      "Type"
+    ],
+    "phone_Company_name": [
+      "phone",
+      "Company_name"
+    ],
+    "phone_Hardware_Model_name": [
+      "phone",
+      "Hardware_Model_name"
+    ],
+    "phone_Accreditation_type": [
+      "phone",
+      "Accreditation_type"
+    ],
+    "phone_Accreditation_level": [
+      "phone",
+      "Accreditation_level"
+    ],
+    "phone_Date": [
+      "phone",
+      "Date"
+    ],
+    "phone_chip_model": [
+      "phone",
+      "chip_model"
+    ],
+    "phone_screen_mode": [
+      "phone",
+      "screen_mode"
+    ]
+  },
+  "object_property_fk": {
+    "phone_chip_model_fk0": [
+      "phone.chip_model",
+      "chip_model.Model_name"
+    ],
+    "phone_screen_mode_fk1": [
+      "phone.screen_mode",
+      "screen_mode.Graphics_mode"
+    ]
+  }
+}

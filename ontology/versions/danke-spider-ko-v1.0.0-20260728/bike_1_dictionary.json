@@ -1,0 +1,2622 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "역 정보",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "충전소",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대여소",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "자전거소",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스테이션",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "정류소",
+      "target_class": "station",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상태",
+      "target_class": "status",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "운영상황",
+      "target_class": "status",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "현재상태",
+      "target_class": "status",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "운영정보",
+      "target_class": "status",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상태정보",
+      "target_class": "status",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "여행 기록",
+      "target_class": "trip",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이동기록",
+      "target_class": "trip",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "여행기록",
+      "target_class": "trip",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이용기록",
+      "target_class": "trip",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이동내역",
+      "target_class": "trip",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이용내역",
+      "target_class": "trip",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "날씨",
+      "target_class": "weather",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 번호",
+      "target_class": "station",
+      "target_property": "station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "station",
+      "target_property": "station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션 ID",
+      "target_class": "station",
+      "target_property": "station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션 고유 번호",
+      "target_class": "station",
+      "target_property": "station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "station",
+      "target_property": "station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션 식별자",
+      "target_class": "station",
+      "target_property": "station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션 번호",
+      "target_class": "station",
+      "target_property": "station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션 코드",
+      "target_class": "station",
+      "target_property": "station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 이름",
+      "target_class": "station",
+      "target_property": "station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "station",
+      "target_property": "station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소 이름",
+      "target_class": "station",
+      "target_property": "station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명",
+      "target_class": "station",
+      "target_property": "station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측정소명",
+      "target_class": "station",
+      "target_property": "station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "station name",
+      "target_class": "station",
+      "target_property": "station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "station",
+      "target_property": "station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위도",
+      "target_class": "station",
+      "target_property": "station_lat",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위도 값",
+      "target_class": "station",
+      "target_property": "station_lat",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "latitude",
+      "target_class": "station",
+      "target_property": "station_lat",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위도 좌표",
+      "target_class": "station",
+      "target_property": "station_lat",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위도 수치",
+      "target_class": "station",
+      "target_property": "station_lat",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위도 정보",
+      "target_class": "station",
+      "target_property": "station_lat",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "纬度",
+      "target_class": "station",
+      "target_property": "station_lat",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경도",
+      "target_class": "station",
+      "target_property": "station_long",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "longitude",
+      "target_class": "station",
+      "target_property": "station_long",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위도 좌표",
+      "target_class": "station",
+      "target_property": "station_long",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "long",
+      "target_class": "station",
+      "target_property": "station_long",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경도 좌표",
+      "target_class": "station",
+      "target_property": "station_long",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도킹 수",
+      "target_class": "station",
+      "target_property": "station_dock_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "콘도 수",
+      "target_class": "station",
+      "target_property": "station_dock_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dock 수",
+      "target_class": "station",
+      "target_property": "station_dock_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "dock count",
+      "target_class": "station",
+      "target_property": "station_dock_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "차량 수",
+      "target_class": "station",
+      "target_property": "station_dock_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보유 콘도 수",
+      "target_class": "station",
+      "target_property": "station_dock_count",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "station",
+      "target_property": "station_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명",
+      "target_class": "station",
+      "target_property": "station_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 이름",
+      "target_class": "station",
+      "target_property": "station_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city",
+      "target_class": "station",
+      "target_property": "station_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 도시",
+      "target_class": "station",
+      "target_property": "station_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설치 일자",
+      "target_class": "station",
+      "target_property": "station_installation_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설치일",
+      "target_class": "station",
+      "target_property": "station_installation_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설치일자",
+      "target_class": "station",
+      "target_property": "station_installation_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설치 날짜",
+      "target_class": "station",
+      "target_property": "station_installation_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설치일자 정보",
+      "target_class": "station",
+      "target_property": "station_installation_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설치 날",
+      "target_class": "station",
+      "target_property": "station_installation_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정류장 ID",
+      "target_class": "status",
+      "target_property": "status_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "station_id",
+      "target_class": "status",
+      "target_property": "status_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 번호",
+      "target_class": "status",
+      "target_property": "status_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 ID",
+      "target_class": "status",
+      "target_property": "status_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 식별자",
+      "target_class": "status",
+      "target_property": "status_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 코드",
+      "target_class": "status",
+      "target_property": "status_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "station code",
+      "target_class": "status",
+      "target_property": "status_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역 고유 ID",
+      "target_class": "status",
+      "target_property": "status_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자전거 수",
+      "target_class": "status",
+      "target_property": "status_bikes_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "bikes_available",
+      "target_class": "status",
+      "target_property": "status_bikes_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용 가능한 자전거",
+      "target_class": "status",
+      "target_property": "status_bikes_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자전거 수량",
+      "target_class": "status",
+      "target_property": "status_bikes_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자전거 가용 수",
+      "target_class": "status",
+      "target_property": "status_bikes_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용 가능한 자전거 수",
+      "target_class": "status",
+      "target_property": "status_bikes_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정류장 수",
+      "target_class": "status",
+      "target_property": "status_docks_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "docks_available",
+      "target_class": "status",
+      "target_property": "status_docks_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "휴지통 수",
+      "target_class": "status",
+      "target_property": "status_docks_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용 가능한 휴지통",
+      "target_class": "status",
+      "target_property": "status_docks_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "휴지통 수량",
+      "target_class": "status",
+      "target_property": "status_docks_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "휴지통 가용 수",
+      "target_class": "status",
+      "target_property": "status_docks_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용 가능한 휴지통 수",
+      "target_class": "status",
+      "target_property": "status_docks_available",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간",
+      "target_class": "status",
+      "target_property": "status_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시각",
+      "target_class": "status",
+      "target_property": "status_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 정보",
+      "target_class": "status",
+      "target_property": "status_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간戳",
+      "target_class": "status",
+      "target_property": "status_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기록 시간",
+      "target_class": "status",
+      "target_property": "status_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 기준",
+      "target_class": "status",
+      "target_property": "status_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 데이터",
+      "target_class": "status",
+      "target_property": "status_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시간 값",
+      "target_class": "status",
+      "target_property": "status_time",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "trip",
+      "target_property": "trip_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "trip_id",
+      "target_class": "trip",
+      "target_property": "trip_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "trip identifier",
+      "target_class": "trip",
+      "target_property": "trip_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "trip number",
+      "target_class": "trip",
+      "target_property": "trip_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "trip code",
+      "target_class": "trip",
+      "target_property": "trip_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "trip sequence",
+      "target_class": "trip",
+      "target_property": "trip_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "trip unique id",
+      "target_class": "trip",
+      "target_property": "trip_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소요 시간",
+      "target_class": "trip",
+      "target_property": "trip_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "duration",
+      "target_class": "trip",
+      "target_property": "trip_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "trip duration",
+      "target_class": "trip",
+      "target_property": "trip_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ride time",
+      "target_class": "trip",
+      "target_property": "trip_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "trip time",
+      "target_class": "trip",
+      "target_property": "trip_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "trip length",
+      "target_class": "trip",
+      "target_property": "trip_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ride duration",
+      "target_class": "trip",
+      "target_property": "trip_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "trip length in minutes",
+      "target_class": "trip",
+      "target_property": "trip_duration",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발 일자",
+      "target_class": "trip",
+      "target_property": "trip_start_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "start_date",
+      "target_class": "trip",
+      "target_property": "trip_start_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "trip start date",
+      "target_class": "trip",
+      "target_property": "trip_start_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "start day",
+      "target_class": "trip",
+      "target_property": "trip_start_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "trip start day",
+      "target_class": "trip",
+      "target_property": "trip_start_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "start datetime",
+      "target_class": "trip",
+      "target_property": "trip_start_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "trip start time",
+      "target_class": "trip",
+      "target_property": "trip_start_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발 스테이션 이름",
+      "target_class": "trip",
+      "target_property": "trip_start_station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발지 스테이션",
+      "target_class": "trip",
+      "target_property": "trip_start_station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발 스테이션",
+      "target_class": "trip",
+      "target_property": "trip_start_station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션 이름",
+      "target_class": "trip",
+      "target_property": "trip_start_station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발 스테이션명",
+      "target_class": "trip",
+      "target_property": "trip_start_station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발지 스테이션 이름",
+      "target_class": "trip",
+      "target_property": "trip_start_station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발 스테이션 ID",
+      "target_class": "trip",
+      "target_property": "trip_start_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발지 스테이션 ID",
+      "target_class": "trip",
+      "target_property": "trip_start_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션 ID",
+      "target_class": "trip",
+      "target_property": "trip_start_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발 스테이션 번호",
+      "target_class": "trip",
+      "target_property": "trip_start_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션 고유 번호",
+      "target_class": "trip",
+      "target_property": "trip_start_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발 스테이션 코드",
+      "target_class": "trip",
+      "target_property": "trip_start_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션 식별자",
+      "target_class": "trip",
+      "target_property": "trip_start_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착 일자",
+      "target_class": "trip",
+      "target_property": "trip_end_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료 날짜",
+      "target_class": "trip",
+      "target_property": "trip_end_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료일자",
+      "target_class": "trip",
+      "target_property": "trip_end_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료일",
+      "target_class": "trip",
+      "target_property": "trip_end_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "여행 종료일",
+      "target_class": "trip",
+      "target_property": "trip_end_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마감 날짜",
+      "target_class": "trip",
+      "target_property": "trip_end_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "trip",
+      "target_property": "trip_end_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착 스테이션 이름",
+      "target_class": "trip",
+      "target_property": "trip_end_station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료 스테이션 이름",
+      "target_class": "trip",
+      "target_property": "trip_end_station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착 장소",
+      "target_class": "trip",
+      "target_property": "trip_end_station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료 지점 이름",
+      "target_class": "trip",
+      "target_property": "trip_end_station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착 스테이션",
+      "target_class": "trip",
+      "target_property": "trip_end_station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션 이름",
+      "target_class": "trip",
+      "target_property": "trip_end_station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착 장소 이름",
+      "target_class": "trip",
+      "target_property": "trip_end_station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료 위치",
+      "target_class": "trip",
+      "target_property": "trip_end_station_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착 스테이션 ID",
+      "target_class": "trip",
+      "target_property": "trip_end_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료 스테이션 ID",
+      "target_class": "trip",
+      "target_property": "trip_end_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착 지점 ID",
+      "target_class": "trip",
+      "target_property": "trip_end_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료 위치 ID",
+      "target_class": "trip",
+      "target_property": "trip_end_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션 ID",
+      "target_class": "trip",
+      "target_property": "trip_end_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착 장소 ID",
+      "target_class": "trip",
+      "target_property": "trip_end_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료 식별자",
+      "target_class": "trip",
+      "target_property": "trip_end_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이션 식별자",
+      "target_class": "trip",
+      "target_property": "trip_end_station_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자전거 ID",
+      "target_class": "trip",
+      "target_property": "trip_bike_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자전거 식별자",
+      "target_class": "trip",
+      "target_property": "trip_bike_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용 자전거",
+      "target_class": "trip",
+      "target_property": "trip_bike_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자전거 번호",
+      "target_class": "trip",
+      "target_property": "trip_bike_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자전거 코드",
+      "target_class": "trip",
+      "target_property": "trip_bike_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "자전거 식별",
+      "target_class": "trip",
+      "target_property": "trip_bike_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용한 자전거",
+      "target_class": "trip",
+      "target_property": "trip_bike_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구독 유형",
+      "target_class": "trip",
+      "target_property": "trip_subscription_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구독 종류",
+      "target_class": "trip",
+      "target_property": "trip_subscription_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 유형",
+      "target_class": "trip",
+      "target_property": "trip_subscription_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구독 타입",
+      "target_class": "trip",
+      "target_property": "trip_subscription_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제한 유형",
+      "target_class": "trip",
+      "target_property": "trip_subscription_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 계층",
+      "target_class": "trip",
+      "target_property": "trip_subscription_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구독 구분",
+      "target_class": "trip",
+      "target_property": "trip_subscription_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우편번호",
+      "target_class": "trip",
+      "target_property": "trip_zip_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 코드",
+      "target_class": "trip",
+      "target_property": "trip_zip_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지번",
+      "target_class": "trip",
+      "target_property": "trip_zip_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ZIP 코드",
+      "target_class": "trip",
+      "target_property": "trip_zip_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우편번호 정보",
+      "target_class": "trip",
+      "target_property": "trip_zip_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 번호",
+      "target_class": "trip",
+      "target_property": "trip_zip_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "weather",
+      "target_property": "weather_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날씨 기록일",
+      "target_class": "weather",
+      "target_property": "weather_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날씨 날짜",
+      "target_class": "weather",
+      "target_property": "weather_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날씨 일자",
+      "target_class": "weather",
+      "target_property": "weather_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날씨 기준일",
+      "target_class": "weather",
+      "target_property": "weather_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날씨 일자 정보",
+      "target_class": "weather",
+      "target_property": "weather_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날씨 기록일자",
+      "target_class": "weather",
+      "target_property": "weather_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날씨 날짜 정보",
+      "target_class": "weather",
+      "target_property": "weather_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 기온(화씨)",
+      "target_class": "weather",
+      "target_property": "weather_max_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 기온",
+      "target_class": "weather",
+      "target_property": "weather_max_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 기온",
+      "target_class": "weather",
+      "target_property": "weather_max_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "화씨 최고 온도",
+      "target_class": "weather",
+      "target_property": "weather_max_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 온도(화씨)",
+      "target_class": "weather",
+      "target_property": "weather_max_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "화씨 최고 기온",
+      "target_class": "weather",
+      "target_property": "weather_max_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일일 최고 온도(화씨)",
+      "target_class": "weather",
+      "target_property": "weather_max_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "화씨 최대 온도",
+      "target_class": "weather",
+      "target_property": "weather_max_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 기온(화씨)",
+      "target_class": "weather",
+      "target_property": "weather_mean_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 기온",
+      "target_class": "weather",
+      "target_property": "weather_mean_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일일 평균 온도",
+      "target_class": "weather",
+      "target_property": "weather_mean_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "화씨 평균 온도",
+      "target_class": "weather",
+      "target_property": "weather_mean_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일일 평균 기온(화씨)",
+      "target_class": "weather",
+      "target_property": "weather_mean_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 온도(화씨)",
+      "target_class": "weather",
+      "target_property": "weather_mean_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "화씨 평균 기온",
+      "target_class": "weather",
+      "target_property": "weather_mean_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최소 기온(화씨)",
+      "target_class": "weather",
+      "target_property": "weather_min_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최저 기온",
+      "target_class": "weather",
+      "target_property": "weather_min_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최저 온도",
+      "target_class": "weather",
+      "target_property": "weather_min_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기온 최저",
+      "target_class": "weather",
+      "target_property": "weather_min_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "온도 최저",
+      "target_class": "weather",
+      "target_property": "weather_min_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "min temperature f",
+      "target_class": "weather",
+      "target_property": "weather_min_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "min_temp_f",
+      "target_class": "weather",
+      "target_property": "weather_min_temperature_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 절대 습도(화씨)",
+      "target_class": "weather",
+      "target_property": "weather_max_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 음습도",
+      "target_class": "weather",
+      "target_property": "weather_max_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 점도",
+      "target_class": "weather",
+      "target_property": "weather_max_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음습도 최대",
+      "target_class": "weather",
+      "target_property": "weather_max_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점도 최대",
+      "target_class": "weather",
+      "target_property": "weather_max_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "max dew point f",
+      "target_class": "weather",
+      "target_property": "weather_max_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 절대 습도(화씨)",
+      "target_class": "weather",
+      "target_property": "weather_mean_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 음습도",
+      "target_class": "weather",
+      "target_property": "weather_mean_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 점도",
+      "target_class": "weather",
+      "target_property": "weather_mean_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점도 평균",
+      "target_class": "weather",
+      "target_property": "weather_mean_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음습도 평균",
+      "target_class": "weather",
+      "target_property": "weather_mean_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mean dew point f",
+      "target_class": "weather",
+      "target_property": "weather_mean_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최소 절대 습도(화씨)",
+      "target_class": "weather",
+      "target_property": "weather_min_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최저 절대 습도",
+      "target_class": "weather",
+      "target_property": "weather_min_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최저 절대 습도 체온",
+      "target_class": "weather",
+      "target_property": "weather_min_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최저 절대 습도 f",
+      "target_class": "weather",
+      "target_property": "weather_min_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최저 절대 습도 체온 f",
+      "target_class": "weather",
+      "target_property": "weather_min_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최저 절대 습도 f 값",
+      "target_class": "weather",
+      "target_property": "weather_min_dew_point_f",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 습도",
+      "target_class": "weather",
+      "target_property": "weather_max_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 습도",
+      "target_class": "weather",
+      "target_property": "weather_max_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 절대 습도",
+      "target_class": "weather",
+      "target_property": "weather_max_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 절대 습도 체온",
+      "target_class": "weather",
+      "target_property": "weather_max_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 절대 습도 f",
+      "target_class": "weather",
+      "target_property": "weather_max_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 절대 습도 체온 f",
+      "target_class": "weather",
+      "target_property": "weather_max_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 절대 습도 f 값",
+      "target_class": "weather",
+      "target_property": "weather_max_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 습도",
+      "target_class": "weather",
+      "target_property": "weather_mean_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 절대 습도",
+      "target_class": "weather",
+      "target_property": "weather_mean_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 절대 습도 체온",
+      "target_class": "weather",
+      "target_property": "weather_mean_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 절대 습도 f",
+      "target_class": "weather",
+      "target_property": "weather_mean_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 절대 습도 체온 f",
+      "target_class": "weather",
+      "target_property": "weather_mean_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 절대 습도 f 값",
+      "target_class": "weather",
+      "target_property": "weather_mean_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최소 습도",
+      "target_class": "weather",
+      "target_property": "weather_min_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "습도 최소",
+      "target_class": "weather",
+      "target_property": "weather_min_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "습도 최소값",
+      "target_class": "weather",
+      "target_property": "weather_min_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "min_humidity",
+      "target_class": "weather",
+      "target_property": "weather_min_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최소 습도 값",
+      "target_class": "weather",
+      "target_property": "weather_min_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "습도 최소 수치",
+      "target_class": "weather",
+      "target_property": "weather_min_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "습도 최저",
+      "target_class": "weather",
+      "target_property": "weather_min_humidity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 해수면 기압(인치)",
+      "target_class": "weather",
+      "target_property": "weather_max_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 해수면 압력",
+      "target_class": "weather",
+      "target_property": "weather_max_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해수면 압력 최대",
+      "target_class": "weather",
+      "target_property": "weather_max_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해수면 압력 최대값",
+      "target_class": "weather",
+      "target_property": "weather_max_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "max_sea_level_pressure_inches",
+      "target_class": "weather",
+      "target_property": "weather_max_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해수면 압력 최대 수치",
+      "target_class": "weather",
+      "target_property": "weather_max_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해수면 압력 최고",
+      "target_class": "weather",
+      "target_property": "weather_max_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해수면 압력 최대치",
+      "target_class": "weather",
+      "target_property": "weather_max_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 해수면 기압(인치)",
+      "target_class": "weather",
+      "target_property": "weather_mean_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해수면 압력 평균",
+      "target_class": "weather",
+      "target_property": "weather_mean_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 해수면 압력",
+      "target_class": "weather",
+      "target_property": "weather_mean_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해수면 압력 평균값",
+      "target_class": "weather",
+      "target_property": "weather_mean_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mean_sea_level_pressure_inches",
+      "target_class": "weather",
+      "target_property": "weather_mean_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해수면 압력 평균 수치",
+      "target_class": "weather",
+      "target_property": "weather_mean_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해수면 압력 평균치",
+      "target_class": "weather",
+      "target_property": "weather_mean_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최소 해수면 기압(인치)",
+      "target_class": "weather",
+      "target_property": "weather_min_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최저 해수면 기압",
+      "target_class": "weather",
+      "target_property": "weather_min_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최저 기압",
+      "target_class": "weather",
+      "target_property": "weather_min_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해수면 기압 최저",
+      "target_class": "weather",
+      "target_property": "weather_min_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기압 최저",
+      "target_class": "weather",
+      "target_property": "weather_min_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "sea level pressure min",
+      "target_class": "weather",
+      "target_property": "weather_min_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "min sea level pressure",
+      "target_class": "weather",
+      "target_property": "weather_min_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "min pressure",
+      "target_class": "weather",
+      "target_property": "weather_min_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "sea level pressure min inches",
+      "target_class": "weather",
+      "target_property": "weather_min_sea_level_pressure_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 시야 거리(마일)",
+      "target_class": "weather",
+      "target_property": "weather_max_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 시야",
+      "target_class": "weather",
+      "target_property": "weather_max_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야 최대",
+      "target_class": "weather",
+      "target_property": "weather_max_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야 거리 최대",
+      "target_class": "weather",
+      "target_property": "weather_max_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야 최대 거리",
+      "target_class": "weather",
+      "target_property": "weather_max_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "max visibility",
+      "target_class": "weather",
+      "target_property": "weather_max_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "max visibility miles",
+      "target_class": "weather",
+      "target_property": "weather_max_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야 최대 미터",
+      "target_class": "weather",
+      "target_property": "weather_max_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야 최대 값",
+      "target_class": "weather",
+      "target_property": "weather_max_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 시야 거리(마일)",
+      "target_class": "weather",
+      "target_property": "weather_mean_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 시야",
+      "target_class": "weather",
+      "target_property": "weather_mean_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야 평균",
+      "target_class": "weather",
+      "target_property": "weather_mean_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야 거리 평균",
+      "target_class": "weather",
+      "target_property": "weather_mean_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야 평균 거리",
+      "target_class": "weather",
+      "target_property": "weather_mean_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mean visibility",
+      "target_class": "weather",
+      "target_property": "weather_mean_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mean visibility miles",
+      "target_class": "weather",
+      "target_property": "weather_mean_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야 평균 미터",
+      "target_class": "weather",
+      "target_property": "weather_mean_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야 평균 값",
+      "target_class": "weather",
+      "target_property": "weather_mean_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최소 시야 거리(마일)",
+      "target_class": "weather",
+      "target_property": "weather_min_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최저 시야거리",
+      "target_class": "weather",
+      "target_property": "weather_min_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최소 시야거리",
+      "target_class": "weather",
+      "target_property": "weather_min_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야거리 최저",
+      "target_class": "weather",
+      "target_property": "weather_min_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야거리 최소",
+      "target_class": "weather",
+      "target_property": "weather_min_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야거리 최저값",
+      "target_class": "weather",
+      "target_property": "weather_min_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시야거리 최소값",
+      "target_class": "weather",
+      "target_property": "weather_min_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "min visibility",
+      "target_class": "weather",
+      "target_property": "weather_min_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "min visibility miles",
+      "target_class": "weather",
+      "target_property": "weather_min_visibility_miles",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 바람 속도(마일/시간)",
+      "target_class": "weather",
+      "target_property": "weather_max_wind_Speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최고 바람 속도",
+      "target_class": "weather",
+      "target_property": "weather_max_wind_Speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 바람 속도",
+      "target_class": "weather",
+      "target_property": "weather_max_wind_Speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "바람 속도 최고",
+      "target_class": "weather",
+      "target_property": "weather_max_wind_Speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "바람 속도 최대",
+      "target_class": "weather",
+      "target_property": "weather_max_wind_Speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "바람 속도 최고값",
+      "target_class": "weather",
+      "target_property": "weather_max_wind_Speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "바람 속도 최대값",
+      "target_class": "weather",
+      "target_property": "weather_max_wind_Speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "max wind speed",
+      "target_class": "weather",
+      "target_property": "weather_max_wind_Speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "max wind speed mph",
+      "target_class": "weather",
+      "target_property": "weather_max_wind_Speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 바람 속도(마일/시간)",
+      "target_class": "weather",
+      "target_property": "weather_mean_wind_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 바람 속도",
+      "target_class": "weather",
+      "target_property": "weather_mean_wind_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "바람 속도 평균",
+      "target_class": "weather",
+      "target_property": "weather_mean_wind_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "바람 속도 평균값",
+      "target_class": "weather",
+      "target_property": "weather_mean_wind_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평균 바람 속도 값",
+      "target_class": "weather",
+      "target_property": "weather_mean_wind_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mean wind speed",
+      "target_class": "weather",
+      "target_property": "weather_mean_wind_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mean wind speed mph",
+      "target_class": "weather",
+      "target_property": "weather_mean_wind_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 바람 폭풍 속도(마일/시간)",
+      "target_class": "weather",
+      "target_property": "weather_max_gust_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 바람 속도",
+      "target_class": "weather",
+      "target_property": "weather_max_gust_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최대 바람 속도 mph",
+      "target_class": "weather",
+      "target_property": "weather_max_gust_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "바람 속도 최대",
+      "target_class": "weather",
+      "target_property": "weather_max_gust_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "바람 속도 최대 mph",
+      "target_class": "weather",
+      "target_property": "weather_max_gust_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "max_gust_speed_mph",
+      "target_class": "weather",
+      "target_property": "weather_max_gust_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "max gust speed",
+      "target_class": "weather",
+      "target_property": "weather_max_gust_speed_mph",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강수량(인치)",
+      "target_class": "weather",
+      "target_property": "weather_precipitation_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강수량",
+      "target_class": "weather",
+      "target_property": "weather_precipitation_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강수량 인치",
+      "target_class": "weather",
+      "target_property": "weather_precipitation_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강수량 inches",
+      "target_class": "weather",
+      "target_property": "weather_precipitation_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "precipitation",
+      "target_class": "weather",
+      "target_property": "weather_precipitation_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "precipitation inches",
+      "target_class": "weather",
+      "target_property": "weather_precipitation_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비 인치",
+      "target_class": "weather",
+      "target_property": "weather_precipitation_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비 강도",
+      "target_class": "weather",
+      "target_property": "weather_precipitation_inches",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구름 덮임",
+      "target_class": "weather",
+      "target_property": "weather_cloud_cover",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구름 덮음",
+      "target_class": "weather",
+      "target_property": "weather_cloud_cover",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구름 비율",
+      "target_class": "weather",
+      "target_property": "weather_cloud_cover",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구름 덮은 비율",
+      "target_class": "weather",
+      "target_property": "weather_cloud_cover",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "cloud cover",
+      "target_class": "weather",
+      "target_property": "weather_cloud_cover",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "cloud cover 수치",
+      "target_class": "weather",
+      "target_property": "weather_cloud_cover",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구름 덮은 비율 수치",
+      "target_class": "weather",
+      "target_property": "weather_cloud_cover",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "cloud",
+      "target_class": "weather",
+      "target_property": "weather_cloud_cover",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트",
+      "target_class": "weather",
+      "target_property": "weather_events",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날씨 이벤트",
+      "target_class": "weather",
+      "target_property": "weather_events",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사고",
+      "target_class": "weather",
+      "target_property": "weather_events",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "현상",
+      "target_class": "weather",
+      "target_property": "weather_events",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이슈",
+      "target_class": "weather",
+      "target_property": "weather_events",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 기록",
+      "target_class": "weather",
+      "target_property": "weather_events",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날씨 사건",
+      "target_class": "weather",
+      "target_property": "weather_events",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기상 현상",
+      "target_class": "weather",
+      "target_property": "weather_events",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "바람 방향(도)",
+      "target_class": "weather",
+      "target_property": "weather_wind_dir_degrees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "풍향",
+      "target_class": "weather",
+      "target_property": "weather_wind_dir_degrees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "풍 방향",
+      "target_class": "weather",
+      "target_property": "weather_wind_dir_degrees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "풍도",
+      "target_class": "weather",
+      "target_property": "weather_wind_dir_degrees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "풍의 방향",
+      "target_class": "weather",
+      "target_property": "weather_wind_dir_degrees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "풍 방향도gree",
+      "target_class": "weather",
+      "target_property": "weather_wind_dir_degrees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "풍향 도gree",
+      "target_class": "weather",
+      "target_property": "weather_wind_dir_degrees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "우편번호",
+      "target_class": "weather",
+      "target_property": "weather_zip_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 코드",
+      "target_class": "weather",
+      "target_property": "weather_zip_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ZIP 코드",
+      "target_class": "weather",
+      "target_property": "weather_zip_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 번호",
+      "target_class": "weather",
+      "target_property": "weather_zip_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ZIP",
+      "target_class": "weather",
+      "target_property": "weather_zip_code",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "10:30",
+      "target_class": "status",
+      "target_property": "status_time",
+      "value": "10:30"
+    },
+    {
+      "entry_type": "value",
+      "key": "10시30분",
+      "target_class": "status",
+      "target_property": "status_time",
+      "value": "10:30"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-01-01",
+      "target_class": "trip",
+      "target_property": "trip_start_date",
+      "value": "2023-01-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 1월 1일",
+      "target_class": "trip",
+      "target_property": "trip_start_date",
+      "value": "2023-01-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울역",
+      "target_class": "trip",
+      "target_property": "trip_start_station_name",
+      "value": "서울역"
+    },
+    {
+      "entry_type": "value",
+      "key": "Seoul Station",
+      "target_class": "trip",
+      "target_property": "trip_start_station_name",
+      "value": "서울역"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-01-02",
+      "target_class": "trip",
+      "target_property": "trip_end_date",
+      "value": "2023-01-02"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 1월 2일",
+      "target_class": "trip",
+      "target_property": "trip_end_date",
+      "value": "2023-01-02"
+    },
+    {
+      "entry_type": "value",
+      "key": "경복궁역",
+      "target_class": "trip",
+      "target_property": "trip_end_station_name",
+      "value": "경복궁역"
+    },
+    {
+      "entry_type": "value",
+      "key": "Gyeongbokgung Station",
+      "target_class": "trip",
+      "target_property": "trip_end_station_name",
+      "value": "경복궁역"
+    },
+    {
+      "entry_type": "value",
+      "key": "일회용",
+      "target_class": "trip",
+      "target_property": "trip_subscription_type",
+      "value": "일회용"
+    },
+    {
+      "entry_type": "value",
+      "key": "one-time",
+      "target_class": "trip",
+      "target_property": "trip_subscription_type",
+      "value": "일회용"
+    },
+    {
+      "entry_type": "value",
+      "key": "월정기",
+      "target_class": "trip",
+      "target_property": "trip_subscription_type",
+      "value": "월정기"
+    },
+    {
+      "entry_type": "value",
+      "key": "monthly",
+      "target_class": "trip",
+      "target_property": "trip_subscription_type",
+      "value": "월정기"
+    },
+    {
+      "entry_type": "value",
+      "key": "10000",
+      "target_class": "trip",
+      "target_property": "trip_zip_code",
+      "value": "10000"
+    },
+    {
+      "entry_type": "value",
+      "key": "10000번지",
+      "target_class": "trip",
+      "target_property": "trip_zip_code",
+      "value": "10000"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-10-01",
+      "target_class": "weather",
+      "target_property": "weather_date",
+      "value": "2023-10-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 10월 1일",
+      "target_class": "weather",
+      "target_property": "weather_date",
+      "value": "2023-10-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "10월 1일",
+      "target_class": "weather",
+      "target_property": "weather_date",
+      "value": "2023-10-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "비",
+      "target_class": "weather",
+      "target_property": "weather_events",
+      "value": "비"
+    },
+    {
+      "entry_type": "value",
+      "key": "비가 온다",
+      "target_class": "weather",
+      "target_property": "weather_events",
+      "value": "비"
+    },
+    {
+      "entry_type": "value",
+      "key": "눈",
+      "target_class": "weather",
+      "target_property": "weather_events",
+      "value": "눈"
+    },
+    {
+      "entry_type": "value",
+      "key": "눈이 온다",
+      "target_class": "weather",
+      "target_property": "weather_events",
+      "value": "눈"
+    },
+    {
+      "entry_type": "value",
+      "key": "태풍",
+      "target_class": "weather",
+      "target_property": "weather_events",
+      "value": "태풍"
+    },
+    {
+      "entry_type": "value",
+      "key": "폭풍",
+      "target_class": "weather",
+      "target_property": "weather_events",
+      "value": "태풍"
+    },
+    {
+      "entry_type": "value",
+      "key": "12345",
+      "target_class": "weather",
+      "target_property": "weather_zip_code",
+      "value": "12345"
+    },
+    {
+      "entry_type": "value",
+      "key": "12345번 우편번호",
+      "target_class": "weather",
+      "target_property": "weather_zip_code",
+      "value": "12345"
+    }
+  ]
+}

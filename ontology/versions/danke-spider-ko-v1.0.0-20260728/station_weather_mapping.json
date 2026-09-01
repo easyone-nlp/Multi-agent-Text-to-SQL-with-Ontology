@@ -1,0 +1,100 @@
+{
+  "class_table": {
+    "train": "train",
+    "station": "station",
+    "route": "route",
+    "weekly_weather": "weekly_weather"
+  },
+  "property_column": {
+    "train_id": [
+      "train",
+      "id"
+    ],
+    "train_train_number": [
+      "train",
+      "train_number"
+    ],
+    "train_name": [
+      "train",
+      "name"
+    ],
+    "train_origin": [
+      "train",
+      "origin"
+    ],
+    "train_destination": [
+      "train",
+      "destination"
+    ],
+    "train_time": [
+      "train",
+      "time"
+    ],
+    "train_interval": [
+      "train",
+      "interval"
+    ],
+    "station_id": [
+      "station",
+      "id"
+    ],
+    "station_network_name": [
+      "station",
+      "network_name"
+    ],
+    "station_services": [
+      "station",
+      "services"
+    ],
+    "station_local_authority": [
+      "station",
+      "local_authority"
+    ],
+    "route_train_id": [
+      "route",
+      "train_id"
+    ],
+    "route_station_id": [
+      "route",
+      "station_id"
+    ],
+    "weekly_weather_station_id": [
+      "weekly_weather",
+      "station_id"
+    ],
+    "weekly_weather_day_of_week": [
+      "weekly_weather",
+      "day_of_week"
+    ],
+    "weekly_weather_high_temperature": [
+      "weekly_weather",
+      "high_temperature"
+    ],
+    "weekly_weather_low_temperature": [
+      "weekly_weather",
+      "low_temperature"
+    ],
+    "weekly_weather_precipitation": [
+      "weekly_weather",
+      "precipitation"
+    ],
+    "weekly_weather_wind_speed_mph": [
+      "weekly_weather",
+      "wind_speed_mph"
+    ]
+  },
+  "object_property_fk": {
+    "route_station_fk0": [
+      "route.station_id",
+      "station.id"
+    ],
+    "route_train_fk1": [
+      "route.train_id",
+      "train.id"
+    ],
+    "weekly_weather_station_fk2": [
+      "weekly_weather.station_id",
+      "station.id"
+    ]
+  }
+}

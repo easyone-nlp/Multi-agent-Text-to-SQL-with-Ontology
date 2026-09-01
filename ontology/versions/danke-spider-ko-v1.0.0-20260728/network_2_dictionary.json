@@ -1,0 +1,270 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "person",
+      "target_class": "Person",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자",
+      "target_class": "Person",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사람",
+      "target_class": "Person",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "개인",
+      "target_class": "Person",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이름",
+      "target_class": "Person",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "아이디",
+      "target_class": "Person",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자 정보",
+      "target_class": "Person",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사람 친구",
+      "target_class": "PersonFriend",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "친구",
+      "target_class": "PersonFriend",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관계",
+      "target_class": "PersonFriend",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연락처",
+      "target_class": "PersonFriend",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사람 관계",
+      "target_class": "PersonFriend",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "친구 정보",
+      "target_class": "PersonFriend",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "관계 정보",
+      "target_class": "PersonFriend",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Person",
+      "target_property": "Person_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "Person",
+      "target_property": "Person_age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "Person",
+      "target_property": "Person_city",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별",
+      "target_class": "Person",
+      "target_property": "Person_gender",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직업",
+      "target_class": "Person",
+      "target_property": "Person_job",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "PersonFriend",
+      "target_property": "PersonFriend_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "친구 이름",
+      "target_class": "PersonFriend",
+      "target_property": "PersonFriend_friend",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "친구",
+      "target_class": "PersonFriend",
+      "target_property": "PersonFriend_friend",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "friend",
+      "target_class": "PersonFriend",
+      "target_property": "PersonFriend_friend",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "친구 정보",
+      "target_class": "PersonFriend",
+      "target_property": "PersonFriend_friend",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관계 친구",
+      "target_class": "PersonFriend",
+      "target_property": "PersonFriend_friend",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "PersonFriend",
+      "target_property": "PersonFriend_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도",
+      "target_class": "PersonFriend",
+      "target_property": "PersonFriend_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "year",
+      "target_class": "PersonFriend",
+      "target_property": "PersonFriend_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관계 연도",
+      "target_class": "PersonFriend",
+      "target_property": "PersonFriend_year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "형성 연도",
+      "target_class": "PersonFriend",
+      "target_property": "PersonFriend_year",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "Person",
+      "target_property": "Person_name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "이지은",
+      "target_class": "Person",
+      "target_property": "Person_name",
+      "value": "이지은"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "Person",
+      "target_property": "Person_city",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천",
+      "target_class": "Person",
+      "target_property": "Person_city",
+      "value": "인천"
+    },
+    {
+      "entry_type": "value",
+      "key": "남성",
+      "target_class": "Person",
+      "target_property": "Person_gender",
+      "value": "남성"
+    },
+    {
+      "entry_type": "value",
+      "key": "여성",
+      "target_class": "Person",
+      "target_property": "Person_gender",
+      "value": "여성"
+    },
+    {
+      "entry_type": "value",
+      "key": "학생",
+      "target_class": "Person",
+      "target_property": "Person_job",
+      "value": "학생"
+    },
+    {
+      "entry_type": "value",
+      "key": "회사원",
+      "target_class": "Person",
+      "target_property": "Person_job",
+      "value": "회사원"
+    }
+  ]
+}

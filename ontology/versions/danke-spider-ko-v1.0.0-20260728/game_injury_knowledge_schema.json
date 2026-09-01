@@ -1,0 +1,547 @@
+{
+  "db_id": "game_injury",
+  "classes": [
+    {
+      "name": "stadium",
+      "source_table": "stadium",
+      "ranking": 3.5,
+      "primary_label": "스테이디움",
+      "synonyms": [
+        "경기장",
+        "스포츠 시설",
+        "경기장 정보",
+        "경기장 데이터",
+        "경기장 위치",
+        "스포츠 시설 정보"
+      ]
+    },
+    {
+      "name": "game",
+      "source_table": "game",
+      "ranking": 3.5,
+      "primary_label": "경기",
+      "synonyms": []
+    },
+    {
+      "name": "injury_accident",
+      "source_table": "injury_accident",
+      "ranking": 3.5,
+      "primary_label": "injury accident",
+      "synonyms": []
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "stadium_id",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "아이디",
+      "synonyms": [
+        "id",
+        "스테이드 ID",
+        "스테이드 고유 번호",
+        "스테이드 식별자",
+        "스테이드 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stadium_name",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "스테이드 이름",
+        "스테이드명",
+        "스테이드 제목",
+        "스테이드 고유명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울 스타디움": [
+          "서울 스타디움"
+        ],
+        "부산 스타디움": [
+          "부산 스타디움"
+        ]
+      }
+    },
+    {
+      "name": "stadium_Home_Games",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "Home_Games",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "홈 게임 수",
+      "synonyms": [
+        "home games",
+        "홈 게임 수",
+        "홈 경기 수",
+        "홈 게임 개수",
+        "홈 경기 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stadium_Average_Attendance",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "Average_Attendance",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "평균 관중 수",
+      "synonyms": [
+        "평균 관객 수",
+        "평균 출석률",
+        "평균 인원 수",
+        "평균 관람 인원",
+        "평균 관객",
+        "평균 출석 수",
+        "평균 인원",
+        "평균 관객 수량"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stadium_Total_Attendance",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "Total_Attendance",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "전체 관중 수",
+      "synonyms": [
+        "총 관객 수",
+        "총 출석 수",
+        "총 관람 인원",
+        "총 관객 수량",
+        "총 인원 수",
+        "총 관객",
+        "총 관람 인원 수",
+        "총 출석 인원"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "stadium_Capacity_Percentage",
+      "domain": "stadium",
+      "source_table": "stadium",
+      "source_column": "Capacity_Percentage",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "용량 비율",
+      "synonyms": [
+        "용량 비율",
+        "용량 비분율",
+        "용량 비율 수치",
+        "용량 비분율 수치",
+        "용량 비율 값",
+        "용량 비분율 값",
+        "용량 비율 계산",
+        "용량 비분율 계산"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "game_stadium_id",
+      "domain": "game",
+      "source_table": "game",
+      "source_column": "stadium_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "스테이디움 ID",
+      "synonyms": [
+        "stadium_id",
+        "스타디움 ID",
+        "경기장 ID",
+        "스타디움 식별자",
+        "경기장 식별자",
+        "스타디움 번호",
+        "경기장 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "game_id",
+      "domain": "game",
+      "source_table": "game",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "ID",
+      "synonyms": [
+        "id",
+        "경기 ID",
+        "기록 ID",
+        "경기 식별자",
+        "기록 식별자",
+        "경기 번호",
+        "기록 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "game_Season",
+      "domain": "game",
+      "source_table": "game",
+      "source_column": "Season",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "시즌",
+      "synonyms": [
+        "Season",
+        "시즌",
+        "시즌 정보",
+        "경기 시즌",
+        "시즌 번호",
+        "경기 시즌 번호",
+        "시즌 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023": [
+          "2023년",
+          "2023"
+        ]
+      }
+    },
+    {
+      "name": "game_Date",
+      "domain": "game",
+      "source_table": "game",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "일자",
+      "synonyms": [
+        "날짜",
+        "경기일",
+        "일자",
+        "일",
+        "날",
+        "경기 날짜",
+        "일자 정보",
+        "Date"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-05-10": [
+          "2023년 5월 10일",
+          "2023-05-10"
+        ]
+      }
+    },
+    {
+      "name": "game_Home_team",
+      "domain": "game",
+      "source_table": "game",
+      "source_column": "Home_team",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "홈 팀",
+      "synonyms": [
+        "홈 팀",
+        "홈",
+        "홈 구단",
+        "홈팀 이름",
+        "Home_team"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "삼성": [
+          "삼성",
+          "삼성 라이온스"
+        ],
+        "현대": [
+          "현대",
+          "현대 자이언츠"
+        ]
+      }
+    },
+    {
+      "name": "game_Away_team",
+      "domain": "game",
+      "source_table": "game",
+      "source_column": "Away_team",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "어웨이 팀",
+      "synonyms": [
+        "어웨이 팀",
+        "어웨이",
+        "어웨이 팀 이름",
+        "어웨이 구단",
+        "Away_team"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "LG": [
+          "LG",
+          "LG 트윈스"
+        ],
+        "SK": [
+          "SK",
+          "SK 와이즈"
+        ]
+      }
+    },
+    {
+      "name": "game_Score",
+      "domain": "game",
+      "source_table": "game",
+      "source_column": "Score",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "스코어",
+      "synonyms": [
+        "스코어",
+        "결과",
+        "점수",
+        "스코어 정보",
+        "경기 결과",
+        "득점 정보",
+        "경기 점수",
+        "스코어 값"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "3-1": [
+          "3대1",
+          "3-1"
+        ],
+        "2-2": [
+          "2대2",
+          "2-2"
+        ]
+      }
+    },
+    {
+      "name": "game_Competition",
+      "domain": "game",
+      "source_table": "game",
+      "source_column": "Competition",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "경기 종류",
+      "synonyms": [
+        "대회",
+        "경기 대회",
+        "경기 이름",
+        "경기 대회 이름",
+        "경기 종류",
+        "경기 경기",
+        "경기 대회명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "KBO": [
+          "KBO 리그",
+          "KBO"
+        ],
+        "프리미어 리그": [
+          "프리미어 리그",
+          "프리미어"
+        ]
+      }
+    },
+    {
+      "name": "injury_accident_game_id",
+      "domain": "injury_accident",
+      "source_table": "injury_accident",
+      "source_column": "game_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "game id",
+      "synonyms": [
+        "game_id",
+        "game",
+        "game identifier",
+        "game number",
+        "game id number",
+        "game code"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "injury_accident_id",
+      "domain": "injury_accident",
+      "source_table": "injury_accident",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "id",
+      "synonyms": [
+        "id",
+        "identifier",
+        "item id",
+        "record id",
+        "item number",
+        "record number",
+        "item identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "injury_accident_Player",
+      "domain": "injury_accident",
+      "source_table": "injury_accident",
+      "source_column": "Player",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "player",
+      "synonyms": [
+        "player",
+        "athlete",
+        "sportsman",
+        "player name",
+        "player identifier",
+        "player code"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "injury_accident_Injury",
+      "domain": "injury_accident",
+      "source_table": "injury_accident",
+      "source_column": "Injury",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "injury",
+      "synonyms": [
+        "상해",
+        "상해 유형",
+        "상해 내용",
+        "상해 종류",
+        "상해 정보",
+        "injury"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "injury_accident_Number_of_matches",
+      "domain": "injury_accident",
+      "source_table": "injury_accident",
+      "source_column": "Number_of_matches",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "number of matches",
+      "synonyms": [
+        "경기 수",
+        "경기 개수",
+        "경기 횟수",
+        "경기 수량",
+        "경기 수치",
+        "number of matches"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "injury_accident_Source",
+      "domain": "injury_accident",
+      "source_table": "injury_accident",
+      "source_column": "Source",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "source",
+      "synonyms": [
+        "출처",
+        "원천",
+        "정보 출처",
+        "상해 정보 출처",
+        "소스",
+        "Source",
+        "소스 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "game_stadium_fk0",
+      "domain": "game",
+      "range": "stadium",
+      "source_fk": [
+        "game.stadium_id",
+        "stadium.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "주장한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "injury_accident_game_fk1",
+      "domain": "injury_accident",
+      "range": "game",
+      "source_fk": [
+        "injury_accident.game_id",
+        "game.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "발생한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

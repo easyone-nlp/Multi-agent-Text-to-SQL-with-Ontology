@@ -1,0 +1,1840 @@
+{
+  "db_id": "imdb",
+  "classes": [
+    {
+      "name": "actor",
+      "source_table": "actor",
+      "ranking": 1.0,
+      "primary_label": "actor",
+      "synonyms": []
+    },
+    {
+      "name": "copyright",
+      "source_table": "copyright",
+      "ranking": 3.5,
+      "primary_label": "저작권",
+      "synonyms": [
+        "저작권 정보",
+        "저작권 데이터",
+        "영화 저작권",
+        "저작권 등록",
+        "저작권 세부 정보"
+      ]
+    },
+    {
+      "name": "cast",
+      "source_table": "cast",
+      "ranking": 3.5,
+      "primary_label": "캐스트",
+      "synonyms": [
+        "배우 정보",
+        "출연자 데이터",
+        "배우 목록",
+        "영화 배우",
+        "배우 역할",
+        "출연자 정보"
+      ]
+    },
+    {
+      "name": "genre",
+      "source_table": "genre",
+      "ranking": 3.0,
+      "primary_label": "장르",
+      "synonyms": [
+        "장르",
+        "분류",
+        "카테고리",
+        "장르 태그",
+        "장르 정보"
+      ]
+    },
+    {
+      "name": "classification",
+      "source_table": "classification",
+      "ranking": 3.5,
+      "primary_label": "분류",
+      "synonyms": [
+        "분류",
+        "평점",
+        "등급",
+        "분류 정보",
+        "평가",
+        "등급 분류",
+        "분류 코드"
+      ]
+    },
+    {
+      "name": "company",
+      "source_table": "company",
+      "ranking": 3.0,
+      "primary_label": "회사",
+      "synonyms": [
+        "회사",
+        "제작사",
+        "기업",
+        "회사 정보",
+        "제작 회사",
+        "회사 데이터",
+        "기업 정보"
+      ]
+    },
+    {
+      "name": "director",
+      "source_table": "director",
+      "ranking": 1.0,
+      "primary_label": "director",
+      "synonyms": [
+        "감독",
+        "감독자",
+        "감독 정보",
+        "감독 목록",
+        "감독 데이터"
+      ]
+    },
+    {
+      "name": "producer",
+      "source_table": "producer",
+      "ranking": 1.0,
+      "primary_label": "producer",
+      "synonyms": [
+        "제작자",
+        "제작자 정보",
+        "제작자 목록",
+        "제작자 데이터",
+        "제작자 관련 정보"
+      ]
+    },
+    {
+      "name": "directed_by",
+      "source_table": "directed_by",
+      "ranking": 3.0,
+      "primary_label": "directed by",
+      "synonyms": [
+        "감독-영화 관계",
+        "영화 감독 연결",
+        "감독 연관",
+        "영화 감독 링크",
+        "감독-영화 매핑"
+      ]
+    },
+    {
+      "name": "keyword",
+      "source_table": "keyword",
+      "ranking": 1.0,
+      "primary_label": "키워드",
+      "synonyms": [
+        "키워드",
+        "태그",
+        "주제",
+        "분류",
+        "레이블"
+      ]
+    },
+    {
+      "name": "made_by",
+      "source_table": "made_by",
+      "ranking": 1.0,
+      "primary_label": "제작자",
+      "synonyms": [
+        "제작자",
+        "감독",
+        "제작사",
+        "연출가",
+        "제작진"
+      ]
+    },
+    {
+      "name": "movie",
+      "source_table": "movie",
+      "ranking": 3.5,
+      "primary_label": "영화",
+      "synonyms": [
+        "영화",
+        "영화정보",
+        "영화목록",
+        "영화데이터",
+        "영화제목"
+      ]
+    },
+    {
+      "name": "tags",
+      "source_table": "tags",
+      "ranking": 3.0,
+      "primary_label": "태그",
+      "synonyms": [
+        "레이블",
+        "태그",
+        "분류",
+        "키워드",
+        "레이블링"
+      ]
+    },
+    {
+      "name": "tv_series",
+      "source_table": "tv_series",
+      "ranking": 3.5,
+      "primary_label": "tv series",
+      "synonyms": [
+        "시리즈",
+        "TV 프로그램",
+        "드라마",
+        "시리즈 정보",
+        "TV 콘텐츠"
+      ]
+    },
+    {
+      "name": "writer",
+      "source_table": "writer",
+      "ranking": 3.5,
+      "primary_label": "작가",
+      "synonyms": [
+        "작가",
+        "감독",
+        "작성자",
+        "저자",
+        "작성자 정보"
+      ]
+    },
+    {
+      "name": "written_by",
+      "source_table": "written_by",
+      "ranking": 1.0,
+      "primary_label": "written by",
+      "synonyms": [
+        "스크립트 작가",
+        "작가",
+        "작성자",
+        "저자",
+        "기획자"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "actor_aid",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "aid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "aid",
+      "synonyms": [
+        "aid",
+        "배우 ID",
+        "아이디",
+        "배우 번호",
+        "고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "actor_gender",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "gender",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "gender",
+      "synonyms": [
+        "gender",
+        "성별",
+        "성",
+        "성별 정보",
+        "성별 코드",
+        "성별 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "actor_name",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "name",
+        "이름",
+        "배우 이름",
+        "배우",
+        "영화 배우 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "actor_nationality",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "nationality",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "nationality",
+      "synonyms": [
+        "국적",
+        "출신국가",
+        "국적 정보",
+        "국가",
+        "국적별",
+        "국적 코드",
+        "국적명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "actor_birth_city",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "birth_city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "birth city",
+      "synonyms": [
+        "태어난 도시",
+        "출생 도시",
+        "출생지",
+        "태어난 곳",
+        "도시",
+        "출생지 도시",
+        "출생 도시명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "actor_birth_year",
+      "domain": "actor",
+      "source_table": "actor",
+      "source_column": "birth_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "birth year",
+      "synonyms": [
+        "태어난 연도",
+        "출생 연도",
+        "출생년도",
+        "태어난 년도",
+        "년도",
+        "출생년도 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "copyright_id",
+      "domain": "copyright",
+      "source_table": "copyright",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "아이디",
+        "식별번호",
+        "고유번호",
+        "ID",
+        "아이디값",
+        "식별자",
+        "ID 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "copyright_msid",
+      "domain": "copyright",
+      "source_table": "copyright",
+      "source_column": "msid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "MSID",
+      "synonyms": [
+        "MSID",
+        "주요 식별 정보",
+        "MSID 값",
+        "주요 식별자",
+        "MSID 번호",
+        "MSID 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "copyright_cid",
+      "domain": "copyright",
+      "source_table": "copyright",
+      "source_column": "cid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "CID",
+      "synonyms": [
+        "CID",
+        "저작권 식별자",
+        "CID 값",
+        "저작권 고유 번호",
+        "CID 식별자",
+        "CID 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cast_id",
+      "domain": "cast",
+      "source_table": "cast",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "아이디",
+        "아이디 값",
+        "고유 번호",
+        "식별자",
+        "id",
+        "아이디 컬럼",
+        "캐스트 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cast_msid",
+      "domain": "cast",
+      "source_table": "cast",
+      "source_column": "msid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "MSID",
+      "synonyms": [
+        "msid",
+        "저작권 ID",
+        "msid 값",
+        "저작권 식별자",
+        "msid 컬럼",
+        "저작권 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cast_aid",
+      "domain": "cast",
+      "source_table": "cast",
+      "source_column": "aid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "AID",
+      "synonyms": [
+        "aid",
+        "배우 ID",
+        "aid 값",
+        "배우 식별자",
+        "aid 컬럼",
+        "배우 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cast_role",
+      "domain": "cast",
+      "source_table": "cast",
+      "source_column": "role",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "역할",
+      "synonyms": [
+        "역할",
+        "역할번호",
+        "역할코드",
+        "역할구분",
+        "역할번호 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1": [
+          "주연",
+          "주연배우"
+        ],
+        "2": [
+          "조연",
+          "조연배우"
+        ],
+        "3": [
+          "특별출연",
+          "특별출연배우"
+        ]
+      }
+    },
+    {
+      "name": "genre_gid",
+      "domain": "genre",
+      "source_table": "genre",
+      "source_column": "gid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "장르 ID",
+      "synonyms": [
+        "gid",
+        "장르 ID",
+        "장르 번호",
+        "장르 식별자",
+        "장르 코드",
+        "장르 고유번호",
+        "장르 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "genre_genre",
+      "domain": "genre",
+      "source_table": "genre",
+      "source_column": "genre",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "장르 이름",
+      "synonyms": [
+        "장르",
+        "장르명",
+        "장르 유형",
+        "장르 카테고리",
+        "장르 이름",
+        "장르 타입",
+        "장르 분류",
+        "장르 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "액션": [
+          "액션"
+        ],
+        "드라마": [
+          "드라마"
+        ],
+        "코미디": [
+          "코미디"
+        ],
+        "스포츠": [
+          "스포츠"
+        ],
+        "로맨스": [
+          "로맨스"
+        ]
+      }
+    },
+    {
+      "name": "classification_id",
+      "domain": "classification",
+      "source_table": "classification",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "분류 아이디",
+        "분류 코드",
+        "ID",
+        "분류 식별자",
+        "분류 고유 번호",
+        "분류 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "classification_msid",
+      "domain": "classification",
+      "source_table": "classification",
+      "source_column": "msid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "MSID",
+      "synonyms": [
+        "저작권 분류 코드",
+        "분류 관련 아이디",
+        "msid",
+        "분류 msid",
+        "분류 관련 식별자",
+        "분류 msid 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "classification_gid",
+      "domain": "classification",
+      "source_table": "classification",
+      "source_column": "gid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "GID",
+      "synonyms": [
+        "장르 분류 코드",
+        "분류 관련 장르 코드",
+        "gid",
+        "분류 장르 식별자",
+        "분류 관련 장르 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "company_id",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "회사 식별 번호",
+      "synonyms": [
+        "id",
+        "회사 번호",
+        "고유 식별자",
+        "아이디",
+        "식별 번호",
+        "사번",
+        "고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "company_name",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "회사 이름",
+      "synonyms": [
+        "name",
+        "회사 이름",
+        "이름",
+        "회사명",
+        "회사",
+        "명칭",
+        "소유자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "삼성전자": [
+          "삼성전자"
+        ],
+        "현대자동차": [
+          "현대자동차"
+        ]
+      }
+    },
+    {
+      "name": "company_country_code",
+      "domain": "company",
+      "source_table": "company",
+      "source_column": "country_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "country code",
+      "synonyms": [
+        "country code",
+        "국가 코드",
+        "국가",
+        "국가 코드 정보",
+        "국가 코드값",
+        "국가 코드 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "director_did",
+      "domain": "director",
+      "source_table": "director",
+      "source_column": "did",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "did",
+      "synonyms": [
+        "did",
+        "director id",
+        "director identifier",
+        "director number",
+        "director code",
+        "director unique id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "director_gender",
+      "domain": "director",
+      "source_table": "director",
+      "source_column": "gender",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "gender",
+      "synonyms": [
+        "gender",
+        "director gender",
+        "director's gender",
+        "director sex",
+        "director type"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "director_name",
+      "domain": "director",
+      "source_table": "director",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "name",
+        "director name",
+        "director's name",
+        "director title",
+        "director identifier"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "director_nationality",
+      "domain": "director",
+      "source_table": "director",
+      "source_column": "nationality",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "nationality",
+      "synonyms": [
+        "nationality",
+        "birth country",
+        "origin",
+        "country of birth",
+        "nationality of director",
+        "director's country",
+        "country",
+        "birth nation"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "director_birth_city",
+      "domain": "director",
+      "source_table": "director",
+      "source_column": "birth_city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "birth city",
+      "synonyms": [
+        "birth city",
+        "city of birth",
+        "place of birth",
+        "birth location",
+        "city",
+        "birth place",
+        "where born",
+        "birth city of director"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "director_birth_year",
+      "domain": "director",
+      "source_table": "director",
+      "source_column": "birth_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "birth year",
+      "synonyms": [
+        "birth year",
+        "year of birth",
+        "year",
+        "born year",
+        "year born",
+        "director's birth year",
+        "birth year of director"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "producer_pid",
+      "domain": "producer",
+      "source_table": "producer",
+      "source_column": "pid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "pid",
+      "synonyms": [
+        "pid",
+        "생산자 ID",
+        "생산자 번호",
+        "pid 번호",
+        "생산자 식별자",
+        "생산자 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "producer_gender",
+      "domain": "producer",
+      "source_table": "producer",
+      "source_column": "gender",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "gender",
+      "synonyms": [
+        "성별",
+        "성별 정보",
+        "성별 데이터",
+        "성별 기록",
+        "gender"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "producer_name",
+      "domain": "producer",
+      "source_table": "producer",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "생산자 이름",
+        "생산자 명",
+        "이름 정보",
+        "명",
+        "name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "producer_nationality",
+      "domain": "producer",
+      "source_table": "producer",
+      "source_column": "nationality",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "nationality",
+      "synonyms": [
+        "국적",
+        "출신국가",
+        "국가",
+        "국적 정보",
+        "국적별",
+        "국적 코드",
+        "국적 명시"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "producer_birth_city",
+      "domain": "producer",
+      "source_table": "producer",
+      "source_column": "birth_city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "birth city",
+      "synonyms": [
+        "태어난 도시",
+        "출신 도시",
+        "출산 도시",
+        "태어난 장소",
+        "출신 도시명",
+        "출생 도시",
+        "도시 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "producer_birth_year",
+      "domain": "producer",
+      "source_table": "producer",
+      "source_column": "birth_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "birth year",
+      "synonyms": [
+        "태어난 연도",
+        "출생 연도",
+        "출생년도",
+        "태어난 년도",
+        "년도 정보",
+        "출생년도 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "directed_by_id",
+      "domain": "directed_by",
+      "source_table": "directed_by",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "id",
+        "영화 아이디",
+        "작품 식별 번호",
+        "감독 고유 번호",
+        "주 감독 ID",
+        "영화 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "directed_by_msid",
+      "domain": "directed_by",
+      "source_table": "directed_by",
+      "source_column": "msid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "msid",
+      "synonyms": [
+        "msid",
+        "저작권 번호",
+        "영화 저작권 ID",
+        "작품 식별자",
+        "저작권 정보 참조",
+        "작품 저작권 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "directed_by_did",
+      "domain": "directed_by",
+      "source_table": "directed_by",
+      "source_column": "did",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "did",
+      "synonyms": [
+        "did",
+        "감독 ID",
+        "감독 고유 번호",
+        "감독 식별자",
+        "감독 정보 참조",
+        "감독 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "keyword_id",
+      "domain": "keyword",
+      "source_table": "keyword",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "아이디",
+      "synonyms": [
+        "아이디",
+        "키워드 ID",
+        "ID",
+        "식별자",
+        "고유 번호",
+        "번호",
+        "키워드 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "keyword_keyword",
+      "domain": "keyword",
+      "source_table": "keyword",
+      "source_column": "keyword",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "키워드",
+      "synonyms": [
+        "키워드",
+        "단어",
+        "주제",
+        "키워드 정보",
+        "영화 키워드",
+        "컨텐츠 키워드",
+        "키워드 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "기술": [
+          "기술",
+          "tech"
+        ],
+        "AI": [
+          "AI",
+          "인공지능"
+        ],
+        "스마트폰": [
+          "스마트폰",
+          "smartphone"
+        ]
+      }
+    },
+    {
+      "name": "made_by_id",
+      "domain": "made_by",
+      "source_table": "made_by",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "아이디",
+      "synonyms": [
+        "id",
+        "제작자 식별자",
+        "제작자 코드",
+        "제작자 번호",
+        "제작자 고유 번호",
+        "제작자 ID",
+        "제작자 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "made_by_msid",
+      "domain": "made_by",
+      "source_table": "made_by",
+      "source_column": "msid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "MSID",
+      "synonyms": [
+        "msid",
+        "저작권 식별자",
+        "저작권 코드",
+        "저작권 번호",
+        "저작권 고유 번호",
+        "저작권 ID",
+        "저작권 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "made_by_pid",
+      "domain": "made_by",
+      "source_table": "made_by",
+      "source_column": "pid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "PID",
+      "synonyms": [
+        "pid",
+        "제작자 테이블 식별자",
+        "제작자 테이블 코드",
+        "제작자 테이블 번호",
+        "제작자 테이블 고유 번호",
+        "제작자 테이블 ID",
+        "제작자 테이블 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "movie_mid",
+      "domain": "movie",
+      "source_table": "movie",
+      "source_column": "mid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "영화 식별 번호",
+      "synonyms": [
+        "mid",
+        "영화 ID",
+        "영화 식별 번호",
+        "영화 고유 번호",
+        "mid 번호",
+        "영화 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "movie_title",
+      "domain": "movie",
+      "source_table": "movie",
+      "source_column": "title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "제목",
+      "synonyms": [
+        "title",
+        "영화 제목",
+        "제목",
+        "영화 이름",
+        "영화 타이틀",
+        "영화 명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아이언맨": [
+          "아이언맨"
+        ],
+        "타이타닉": [
+          "타이타닉"
+        ]
+      }
+    },
+    {
+      "name": "movie_release_year",
+      "domain": "movie",
+      "source_table": "movie",
+      "source_column": "release_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.2,
+      "primary_label": "발매 연도",
+      "synonyms": [
+        "release year",
+        "개봉 연도",
+        "연도",
+        "영화 연도",
+        "영화 개봉년도",
+        "출시년도"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": [
+          "2020"
+        ],
+        "2019": [
+          "2019"
+        ]
+      }
+    },
+    {
+      "name": "movie_title_aka",
+      "domain": "movie",
+      "source_table": "movie",
+      "source_column": "title_aka",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.9,
+      "primary_label": "제목(별칭)",
+      "synonyms": [
+        "title_aka",
+        "다른 제목",
+        "대체 제목",
+        "기타 제목",
+        "별명",
+        "이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아이언맨: 엔드게임": [
+          "아이언맨: 엔드게임"
+        ]
+      }
+    },
+    {
+      "name": "movie_budget",
+      "domain": "movie",
+      "source_table": "movie",
+      "source_column": "budget",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.2,
+      "primary_label": "예산",
+      "synonyms": [
+        "budget",
+        "예산",
+        "제작 비용",
+        "예산 정보",
+        "비용",
+        "재정"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tags_id",
+      "domain": "tags",
+      "source_table": "tags",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "아이디",
+        "태그 ID",
+        "ID",
+        "태그 고유 번호",
+        "태그 번호",
+        "태그 식별자",
+        "태그 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tags_msid",
+      "domain": "tags",
+      "source_table": "tags",
+      "source_column": "msid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "MSID",
+      "synonyms": [
+        "msid",
+        "메타 ID",
+        "메타 데이터 ID",
+        "저작권 msid",
+        "msid 식별자",
+        "메타 식별자",
+        "저작권 메타 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tags_kid",
+      "domain": "tags",
+      "source_table": "tags",
+      "source_column": "kid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "KID",
+      "synonyms": [
+        "kid",
+        "계층 ID",
+        "계층 식별자",
+        "태그 계층 번호",
+        "태그 계층 식별자",
+        "계층 구조 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tv_series_sid",
+      "domain": "tv_series",
+      "source_table": "tv_series",
+      "source_column": "sid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "시리즈 ID",
+      "synonyms": [
+        "sid",
+        "series_id",
+        "series identifier",
+        "series number",
+        "tv series id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tv_series_title",
+      "domain": "tv_series",
+      "source_table": "tv_series",
+      "source_column": "title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "제목",
+      "synonyms": [
+        "title",
+        "series name",
+        "show name",
+        "tv show title",
+        "series title"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tv_series_release_year",
+      "domain": "tv_series",
+      "source_table": "tv_series",
+      "source_column": "release_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.2,
+      "primary_label": "발매 연도",
+      "synonyms": [
+        "release year",
+        "year released",
+        "year of release",
+        "series year",
+        "tv series year"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tv_series_num_of_seasons",
+      "domain": "tv_series",
+      "source_table": "tv_series",
+      "source_column": "num_of_seasons",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.1,
+      "primary_label": "시즌 수",
+      "synonyms": [
+        "계절 수",
+        "시리즈 계절 수",
+        "계절 개수",
+        "계절",
+        "시즌 수",
+        "num of seasons"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tv_series_num_of_episodes",
+      "domain": "tv_series",
+      "source_table": "tv_series",
+      "source_column": "num_of_episodes",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.4,
+      "primary_label": "화수",
+      "synonyms": [
+        "에피소드 수",
+        "시리즈 에피소드 수",
+        "에피소드 개수",
+        "에피소드",
+        "시즌 에피소드 수",
+        "num of episodes"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tv_series_title_aka",
+      "domain": "tv_series",
+      "source_table": "tv_series",
+      "source_column": "title_aka",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.9,
+      "primary_label": "제목 약칭",
+      "synonyms": [
+        "대체 제목",
+        "기타 제목",
+        "이름 다른 제목",
+        "title aka",
+        "별명",
+        "타이틀 약칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tv_series_budget",
+      "domain": "tv_series",
+      "source_table": "tv_series",
+      "source_column": "budget",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.7,
+      "primary_label": "예산",
+      "synonyms": [
+        "예산",
+        "제작 비용",
+        "예산 정보",
+        "드라마 예산",
+        "시리즈 예산",
+        "예산 데이터",
+        "예산 금액",
+        "제작 비용 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "writer_wid",
+      "domain": "writer",
+      "source_table": "writer",
+      "source_column": "wid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "wid",
+      "synonyms": [
+        "wid",
+        "작가 식별 번호",
+        "작가 고유 번호",
+        "작가 ID",
+        "작가 번호",
+        "작가 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "writer_gender",
+      "domain": "writer",
+      "source_table": "writer",
+      "source_column": "gender",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성별",
+      "synonyms": [
+        "gender",
+        "성별",
+        "작가 성별",
+        "성별 정보",
+        "작가의 성별",
+        "성별 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남성": [
+          "남자"
+        ],
+        "여성": [
+          "여자"
+        ]
+      }
+    },
+    {
+      "name": "writer_name",
+      "domain": "writer",
+      "source_table": "writer",
+      "source_column": "name",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 5.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "작가 이름",
+        "작가 이름 데이터",
+        "작가의 이름",
+        "작가 이름 정보",
+        "이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "writer_nationality",
+      "domain": "writer",
+      "source_table": "writer",
+      "source_column": "nationality",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "국적",
+      "synonyms": [
+        "국적",
+        "나라",
+        "국적 정보",
+        "국적 코드",
+        "nationality",
+        "나라 코드",
+        "국적 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "writer_num_of_episodes",
+      "domain": "writer",
+      "source_table": "writer",
+      "source_column": "num_of_episodes",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "에피소드 수",
+      "synonyms": [
+        "에피소드 수",
+        "연출 수",
+        "에피소드 개수",
+        "연출 수량",
+        "num of episodes",
+        "연출 회수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "writer_birth_city",
+      "domain": "writer",
+      "source_table": "writer",
+      "source_column": "birth_city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "출생 도시",
+      "synonyms": [
+        "출생 도시",
+        "태어난 도시",
+        "출산 도시",
+        "출생 도시 정보",
+        "birth city",
+        "출생 도시 코드",
+        "출산 도시 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "writer_birth_year",
+      "domain": "writer",
+      "source_table": "writer",
+      "source_column": "birth_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "출생 연도",
+      "synonyms": [
+        "출생년도",
+        "태어난 해",
+        "태어난년도",
+        "출생년대",
+        "출생 연",
+        "출생년도 수치",
+        "태어난 해수치"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "written_by_id",
+      "domain": "written_by",
+      "source_table": "written_by",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "아이디",
+      "synonyms": [
+        "아이디",
+        "작품 아이디",
+        "작가 작품 ID",
+        "작품 고유 번호",
+        "작품 식별 번호",
+        "ID",
+        "작품 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "written_by_msid",
+      "domain": "written_by",
+      "source_table": "written_by",
+      "source_column": "msid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "msid",
+      "synonyms": [
+        "msid",
+        "저작권 식별자",
+        "저작권 번호",
+        "저작권 정보 ID",
+        "저작권 식별 번호",
+        "작품 저작권 ID",
+        "저작권 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "written_by_wid",
+      "domain": "written_by",
+      "source_table": "written_by",
+      "source_column": "wid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "wid",
+      "synonyms": [
+        "wid",
+        "작가 ID",
+        "작가 고유 번호",
+        "작가 식별자",
+        "작가 고유 식별자",
+        "작가 번호",
+        "작가 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "cast_copyright_fk0",
+      "domain": "cast",
+      "range": "copyright",
+      "source_fk": [
+        "cast.msid",
+        "copyright.msid"
+      ],
+      "weight": 1.0,
+      "primary_label": "저작권 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "cast_actor_fk1",
+      "domain": "cast",
+      "range": "actor",
+      "source_fk": [
+        "cast.aid",
+        "actor.aid"
+      ],
+      "weight": 1.0,
+      "primary_label": "배우 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "classification_copyright_fk2",
+      "domain": "classification",
+      "range": "copyright",
+      "source_fk": [
+        "classification.msid",
+        "copyright.msid"
+      ],
+      "weight": 1.0,
+      "primary_label": "분류 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "classification_genre_fk3",
+      "domain": "classification",
+      "range": "genre",
+      "source_fk": [
+        "classification.gid",
+        "genre.gid"
+      ],
+      "weight": 1.0,
+      "primary_label": "장르 분류",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "directed_by_director_fk4",
+      "domain": "directed_by",
+      "range": "director",
+      "source_fk": [
+        "directed_by.did",
+        "director.did"
+      ],
+      "weight": 1.0,
+      "primary_label": "감독 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "directed_by_copyright_fk5",
+      "domain": "directed_by",
+      "range": "copyright",
+      "source_fk": [
+        "directed_by.msid",
+        "copyright.msid"
+      ],
+      "weight": 1.0,
+      "primary_label": "감독 저작권 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "made_by_producer_fk6",
+      "domain": "made_by",
+      "range": "producer",
+      "source_fk": [
+        "made_by.pid",
+        "producer.pid"
+      ],
+      "weight": 1.0,
+      "primary_label": "제작자 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "made_by_copyright_fk7",
+      "domain": "made_by",
+      "range": "copyright",
+      "source_fk": [
+        "made_by.msid",
+        "copyright.msid"
+      ],
+      "weight": 1.0,
+      "primary_label": "제작 저작권 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "tags_copyright_fk8",
+      "domain": "tags",
+      "range": "copyright",
+      "source_fk": [
+        "tags.msid",
+        "copyright.msid"
+      ],
+      "weight": 1.0,
+      "primary_label": "태그 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "written_by_writer_fk9",
+      "domain": "written_by",
+      "range": "writer",
+      "source_fk": [
+        "written_by.wid",
+        "writer.wid"
+      ],
+      "weight": 1.0,
+      "primary_label": "작가 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "written_by_copyright_fk10",
+      "domain": "written_by",
+      "range": "copyright",
+      "source_fk": [
+        "written_by.msid",
+        "copyright.msid"
+      ],
+      "weight": 1.0,
+      "primary_label": "작성 저작권 소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

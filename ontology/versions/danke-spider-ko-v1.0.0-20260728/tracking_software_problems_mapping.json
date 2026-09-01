@@ -1,0 +1,154 @@
+{
+  "class_table": {
+    "Problem_Category_Codes": "Problem_Category_Codes",
+    "Problem_Log": "Problem_Log",
+    "Problem_Status_Codes": "Problem_Status_Codes",
+    "Product": "Product",
+    "Staff": "Staff",
+    "Problems": "Problems"
+  },
+  "property_column": {
+    "Problem_Category_Codes_problem_category_code": [
+      "Problem_Category_Codes",
+      "problem_category_code"
+    ],
+    "Problem_Category_Codes_problem_category_description": [
+      "Problem_Category_Codes",
+      "problem_category_description"
+    ],
+    "Problem_Log_problem_log_id": [
+      "Problem_Log",
+      "problem_log_id"
+    ],
+    "Problem_Log_assigned_to_staff_id": [
+      "Problem_Log",
+      "assigned_to_staff_id"
+    ],
+    "Problem_Log_problem_id": [
+      "Problem_Log",
+      "problem_id"
+    ],
+    "Problem_Log_problem_category_code": [
+      "Problem_Log",
+      "problem_category_code"
+    ],
+    "Problem_Log_problem_status_code": [
+      "Problem_Log",
+      "problem_status_code"
+    ],
+    "Problem_Log_log_entry_date": [
+      "Problem_Log",
+      "log_entry_date"
+    ],
+    "Problem_Log_log_entry_description": [
+      "Problem_Log",
+      "log_entry_description"
+    ],
+    "Problem_Log_log_entry_fix": [
+      "Problem_Log",
+      "log_entry_fix"
+    ],
+    "Problem_Log_other_log_details": [
+      "Problem_Log",
+      "other_log_details"
+    ],
+    "Problem_Status_Codes_problem_status_code": [
+      "Problem_Status_Codes",
+      "problem_status_code"
+    ],
+    "Problem_Status_Codes_problem_status_description": [
+      "Problem_Status_Codes",
+      "problem_status_description"
+    ],
+    "Product_product_id": [
+      "Product",
+      "product_id"
+    ],
+    "Product_product_name": [
+      "Product",
+      "product_name"
+    ],
+    "Product_product_details": [
+      "Product",
+      "product_details"
+    ],
+    "Staff_staff_id": [
+      "Staff",
+      "staff_id"
+    ],
+    "Staff_staff_first_name": [
+      "Staff",
+      "staff_first_name"
+    ],
+    "Staff_staff_last_name": [
+      "Staff",
+      "staff_last_name"
+    ],
+    "Staff_other_staff_details": [
+      "Staff",
+      "other_staff_details"
+    ],
+    "Problems_problem_id": [
+      "Problems",
+      "problem_id"
+    ],
+    "Problems_product_id": [
+      "Problems",
+      "product_id"
+    ],
+    "Problems_closure_authorised_by_staff_id": [
+      "Problems",
+      "closure_authorised_by_staff_id"
+    ],
+    "Problems_reported_by_staff_id": [
+      "Problems",
+      "reported_by_staff_id"
+    ],
+    "Problems_date_problem_reported": [
+      "Problems",
+      "date_problem_reported"
+    ],
+    "Problems_date_problem_closed": [
+      "Problems",
+      "date_problem_closed"
+    ],
+    "Problems_problem_description": [
+      "Problems",
+      "problem_description"
+    ],
+    "Problems_other_problem_details": [
+      "Problems",
+      "other_problem_details"
+    ]
+  },
+  "object_property_fk": {
+    "Problem_Log_Problem_Status_Codes_fk0": [
+      "Problem_Log.problem_status_code",
+      "Problem_Status_Codes.problem_status_code"
+    ],
+    "Problem_Log_Problems_fk1": [
+      "Problem_Log.problem_id",
+      "Problems.problem_id"
+    ],
+    "Problem_Log_Staff_fk2": [
+      "Problem_Log.assigned_to_staff_id",
+      "Staff.staff_id"
+    ],
+    "Problem_Log_Problem_Category_Codes_fk3": [
+      "Problem_Log.problem_category_code",
+      "Problem_Category_Codes.problem_category_code"
+    ],
+    "Problems_Staff_fk4": [
+      "Problems.reported_by_staff_id",
+      "Staff.staff_id"
+    ],
+    "Problems_Product_fk5": [
+      "Problems.product_id",
+      "Product.product_id"
+    ],
+    "Problems_Staff_fk6": [
+      "Problems.closure_authorised_by_staff_id",
+      "Staff.staff_id"
+    ]
+  }
+}

@@ -1,0 +1,613 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "출판물",
+      "target_class": "publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "발간",
+      "target_class": "publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "출판",
+      "target_class": "publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도서 출판",
+      "target_class": "publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "출판 정보",
+      "target_class": "publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "출판 기록",
+      "target_class": "publication",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도서",
+      "target_class": "book",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "책",
+      "target_class": "book",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도서 정보",
+      "target_class": "book",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도서 데이터",
+      "target_class": "book",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도서 목록",
+      "target_class": "book",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "도서 기록",
+      "target_class": "book",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판물 ID",
+      "target_class": "publication",
+      "target_property": "publication_Publication_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Publication_ID",
+      "target_class": "publication",
+      "target_property": "publication_Publication_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판물 고유 번호",
+      "target_class": "publication",
+      "target_property": "publication_Publication_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공개 번호",
+      "target_class": "publication",
+      "target_property": "publication_Publication_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "판권 번호",
+      "target_class": "publication",
+      "target_property": "publication_Publication_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판물 식별자",
+      "target_class": "publication",
+      "target_property": "publication_Publication_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Publication 식별자",
+      "target_class": "publication",
+      "target_property": "publication_Publication_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서 ID",
+      "target_class": "publication",
+      "target_property": "publication_Book_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Book_ID",
+      "target_class": "publication",
+      "target_property": "publication_Book_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서 고유 번호",
+      "target_class": "publication",
+      "target_property": "publication_Book_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "책 식별자",
+      "target_class": "publication",
+      "target_property": "publication_Book_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Book 식별자",
+      "target_class": "publication",
+      "target_property": "publication_Book_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서 코드",
+      "target_class": "publication",
+      "target_property": "publication_Book_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판사",
+      "target_class": "publication",
+      "target_property": "publication_Publisher",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판업체",
+      "target_class": "publication",
+      "target_property": "publication_Publisher",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판자",
+      "target_class": "publication",
+      "target_property": "publication_Publisher",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판 회사",
+      "target_class": "publication",
+      "target_property": "publication_Publisher",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판 기관",
+      "target_class": "publication",
+      "target_property": "publication_Publisher",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판 조직",
+      "target_class": "publication",
+      "target_property": "publication_Publisher",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Book Publisher",
+      "target_class": "publication",
+      "target_property": "publication_Publisher",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판사 이름",
+      "target_class": "publication",
+      "target_property": "publication_Publisher",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판일자",
+      "target_class": "publication",
+      "target_property": "publication_Publication_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판일",
+      "target_class": "publication",
+      "target_property": "publication_Publication_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발행일",
+      "target_class": "publication",
+      "target_property": "publication_Publication_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판일자 정보",
+      "target_class": "publication",
+      "target_property": "publication_Publication_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Publication_Date",
+      "target_class": "publication",
+      "target_property": "publication_Publication_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발행일자",
+      "target_class": "publication",
+      "target_property": "publication_Publication_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격",
+      "target_class": "publication",
+      "target_property": "publication_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격 정보",
+      "target_class": "publication",
+      "target_property": "publication_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Price",
+      "target_class": "publication",
+      "target_property": "publication_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서 가격",
+      "target_class": "publication",
+      "target_property": "publication_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "판매 가격",
+      "target_class": "publication",
+      "target_property": "publication_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원가",
+      "target_class": "publication",
+      "target_property": "publication_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격 데이터",
+      "target_class": "publication",
+      "target_property": "publication_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서 ID",
+      "target_class": "book",
+      "target_property": "book_Book_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Book_ID",
+      "target_class": "book",
+      "target_property": "book_Book_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서ID",
+      "target_class": "book",
+      "target_property": "book_Book_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서번호",
+      "target_class": "book",
+      "target_property": "book_Book_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "책ID",
+      "target_class": "book",
+      "target_property": "book_Book_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "책번호",
+      "target_class": "book",
+      "target_property": "book_Book_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서 식별자",
+      "target_class": "book",
+      "target_property": "book_Book_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서코드",
+      "target_class": "book",
+      "target_property": "book_Book_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "book",
+      "target_property": "book_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Title",
+      "target_class": "book",
+      "target_property": "book_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "책제목",
+      "target_class": "book",
+      "target_property": "book_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서제목",
+      "target_class": "book",
+      "target_property": "book_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서명",
+      "target_class": "book",
+      "target_property": "book_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "책 이름",
+      "target_class": "book",
+      "target_property": "book_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서 이름",
+      "target_class": "book",
+      "target_property": "book_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발행 수",
+      "target_class": "book",
+      "target_property": "book_Issues",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Issues",
+      "target_class": "book",
+      "target_property": "book_Issues",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발행수",
+      "target_class": "book",
+      "target_property": "book_Issues",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서발행수",
+      "target_class": "book",
+      "target_property": "book_Issues",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서수량",
+      "target_class": "book",
+      "target_property": "book_Issues",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서발행횟수",
+      "target_class": "book",
+      "target_property": "book_Issues",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발행횟수",
+      "target_class": "book",
+      "target_property": "book_Issues",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도서수",
+      "target_class": "book",
+      "target_property": "book_Issues",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저자",
+      "target_class": "book",
+      "target_property": "book_Writer",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가",
+      "target_class": "book",
+      "target_property": "book_Writer",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자",
+      "target_class": "book",
+      "target_property": "book_Writer",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저자명",
+      "target_class": "book",
+      "target_property": "book_Writer",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "글쓴이",
+      "target_class": "book",
+      "target_property": "book_Writer",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가명",
+      "target_class": "book",
+      "target_property": "book_Writer",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자명",
+      "target_class": "book",
+      "target_property": "book_Writer",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저자 정보",
+      "target_class": "book",
+      "target_property": "book_Writer",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "한국출판사",
+      "target_class": "publication",
+      "target_property": "publication_Publisher",
+      "value": "한국출판사"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국출판사",
+      "target_class": "publication",
+      "target_property": "publication_Publisher",
+      "value": "미국출판사"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-05-10",
+      "target_class": "publication",
+      "target_property": "publication_Publication_Date",
+      "value": "2023-05-10"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 5월 10일",
+      "target_class": "publication",
+      "target_property": "publication_Publication_Date",
+      "value": "2023-05-10"
+    },
+    {
+      "entry_type": "value",
+      "key": "소설",
+      "target_class": "book",
+      "target_property": "book_Title",
+      "value": "소설"
+    },
+    {
+      "entry_type": "value",
+      "key": "소설책",
+      "target_class": "book",
+      "target_property": "book_Title",
+      "value": "소설"
+    },
+    {
+      "entry_type": "value",
+      "key": "비전",
+      "target_class": "book",
+      "target_property": "book_Title",
+      "value": "비전"
+    },
+    {
+      "entry_type": "value",
+      "key": "비전서",
+      "target_class": "book",
+      "target_property": "book_Title",
+      "value": "비전"
+    },
+    {
+      "entry_type": "value",
+      "key": "김영하",
+      "target_class": "book",
+      "target_property": "book_Writer",
+      "value": "김영하"
+    },
+    {
+      "entry_type": "value",
+      "key": "이문열",
+      "target_class": "book",
+      "target_property": "book_Writer",
+      "value": "이문열"
+    }
+  ]
+}

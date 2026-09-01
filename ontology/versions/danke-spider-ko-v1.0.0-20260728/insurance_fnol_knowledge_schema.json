@@ -1,0 +1,655 @@
+{
+  "db_id": "insurance_fnol",
+  "classes": [
+    {
+      "name": "Customers",
+      "source_table": "Customers",
+      "ranking": 3.0,
+      "primary_label": "고객들",
+      "synonyms": [
+        "고객",
+        "보험 고객",
+        "이용자",
+        "고객 정보"
+      ]
+    },
+    {
+      "name": "Services",
+      "source_table": "Services",
+      "ranking": 1.0,
+      "primary_label": "서비스",
+      "synonyms": [
+        "서비스",
+        "보험 서비스",
+        "제공 서비스",
+        "보험 제공 서비스",
+        "서비스 종류"
+      ]
+    },
+    {
+      "name": "Available_Policies",
+      "source_table": "Available_Policies",
+      "ranking": 3.0,
+      "primary_label": "가용 정책",
+      "synonyms": [
+        "보상 정책",
+        "보험 상품",
+        "사용 가능한 보험",
+        "보상 정책 목록",
+        "보험 상품 정보"
+      ]
+    },
+    {
+      "name": "Customers_Policies",
+      "source_table": "Customers_Policies",
+      "ranking": 3.0,
+      "primary_label": "고객 정책",
+      "synonyms": [
+        "고객 보험",
+        "고객 계약",
+        "보험 소유자",
+        "계약자 정보",
+        "보험 계약자"
+      ]
+    },
+    {
+      "name": "First_Notification_of_Loss",
+      "source_table": "First_Notification_of_Loss",
+      "ranking": 3.5,
+      "primary_label": "first notification of loss",
+      "synonyms": [
+        "손해 초기 신고",
+        "손해 신고",
+        "손해 발생 신고",
+        "초기 손해 보고",
+        "신고 정보"
+      ]
+    },
+    {
+      "name": "Claims",
+      "source_table": "Claims",
+      "ranking": 3.0,
+      "primary_label": "claims",
+      "synonyms": [
+        "보상 요청",
+        "손해 보상",
+        "보상 신청",
+        "손해 처리",
+        "보상 데이터"
+      ]
+    },
+    {
+      "name": "Settlements",
+      "source_table": "Settlements",
+      "ranking": 3.0,
+      "primary_label": "settlements",
+      "synonyms": []
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Customers_Customer_ID",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "Customer_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "customer id",
+      "synonyms": [
+        "고유번호",
+        "고객 번호",
+        "고객 ID",
+        "고객 식별자",
+        "고유 식별자",
+        "ID",
+        "고객 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_Customer_name",
+      "domain": "Customers",
+      "source_table": "Customers",
+      "source_column": "Customer_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "customer name",
+      "synonyms": [
+        "이름",
+        "고객 이름",
+        "고객명",
+        "사용자 이름",
+        "고객의 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Services_Service_ID",
+      "domain": "Services",
+      "source_table": "Services",
+      "source_column": "Service_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "서비스 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Services_Service_name",
+      "domain": "Services",
+      "source_table": "Services",
+      "source_column": "Service_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "서비스 이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "의료 서비스": [
+          "의료",
+          "의료서비스"
+        ],
+        "운전 서비스": [
+          "운전",
+          "운전서비스"
+        ],
+        "식음료 서비스": [
+          "식음료",
+          "식음료서비스"
+        ]
+      }
+    },
+    {
+      "name": "Available_Policies_Policy_ID",
+      "domain": "Available_Policies",
+      "source_table": "Available_Policies",
+      "source_column": "Policy_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "정책 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Available_Policies_policy_type_code",
+      "domain": "Available_Policies",
+      "source_table": "Available_Policies",
+      "source_column": "policy_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "정책 유형 코드",
+      "synonyms": [
+        "정책 유형 코드",
+        "보험 유형 코드",
+        "policy type code",
+        "ptype_code",
+        "유형 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "기본": [
+          "기본"
+        ],
+        "특별": [
+          "특별"
+        ]
+      }
+    },
+    {
+      "name": "Available_Policies_Customer_Phone",
+      "domain": "Available_Policies",
+      "source_table": "Available_Policies",
+      "source_column": "Customer_Phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "고객 전화번호",
+      "synonyms": [
+        "고객 전화",
+        "고객 번호",
+        "고객 전화번호",
+        "customer phone",
+        "customer number",
+        "전화"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_Policies_Customer_ID",
+      "domain": "Customers_Policies",
+      "source_table": "Customers_Policies",
+      "source_column": "Customer_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 ID",
+        "고객 번호",
+        "고유 고객 코드",
+        "고객 식별자",
+        "고객 코드",
+        "고유 고객 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_Policies_Policy_ID",
+      "domain": "Customers_Policies",
+      "source_table": "Customers_Policies",
+      "source_column": "Policy_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "정책 ID",
+      "synonyms": [
+        "정책 ID",
+        "정책 번호",
+        "고유 정책 코드",
+        "정책 식별자",
+        "정책 코드",
+        "고유 정책 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customers_Policies_Date_Opened",
+      "domain": "Customers_Policies",
+      "source_table": "Customers_Policies",
+      "source_column": "Date_Opened",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "개시일",
+      "synonyms": [
+        "개설일",
+        "시작일",
+        "보험 시작일",
+        "개설 날짜",
+        "시작 날짜",
+        "보험 개설일",
+        "날짜",
+        "개설 일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-15": [
+          "2023년 1월 15일"
+        ]
+      }
+    },
+    {
+      "name": "Customers_Policies_Date_Closed",
+      "domain": "Customers_Policies",
+      "source_table": "Customers_Policies",
+      "source_column": "Date_Closed",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "종료일",
+      "synonyms": [
+        "종료일",
+        "정책 종료일",
+        "보험 종료일",
+        "닫힌 날짜",
+        "종료 날짜",
+        "닫힌 일자",
+        "정책 닫힌 날짜",
+        "보험 닫힌 날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-12-31": [
+          "2023년 12월 31일"
+        ]
+      }
+    },
+    {
+      "name": "First_Notification_of_Loss_FNOL_ID",
+      "domain": "First_Notification_of_Loss",
+      "source_table": "First_Notification_of_Loss",
+      "source_column": "FNOL_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "fnol id",
+      "synonyms": [
+        "fnol_id",
+        "fnol 식별 번호",
+        "손해 신고 ID",
+        "fnol 고유 번호",
+        "신고 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "First_Notification_of_Loss_Customer_ID",
+      "domain": "First_Notification_of_Loss",
+      "source_table": "First_Notification_of_Loss",
+      "source_column": "Customer_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "customer id",
+      "synonyms": [
+        "customer_id",
+        "고객 ID",
+        "고유 고객 번호",
+        "고객 식별 번호",
+        "customer 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "First_Notification_of_Loss_Policy_ID",
+      "domain": "First_Notification_of_Loss",
+      "source_table": "First_Notification_of_Loss",
+      "source_column": "Policy_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "policy id",
+      "synonyms": [
+        "policy_id",
+        "보험 계약 ID",
+        "고유 보험 번호",
+        "보험 식별 번호",
+        "policy 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "First_Notification_of_Loss_Service_ID",
+      "domain": "First_Notification_of_Loss",
+      "source_table": "First_Notification_of_Loss",
+      "source_column": "Service_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "service id",
+      "synonyms": [
+        "서비스 ID",
+        "서비스 번호",
+        "서비스 식별자",
+        "서비스 코드",
+        "서비스 고유 번호",
+        "서비스 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Claim_ID",
+      "domain": "Claims",
+      "source_table": "Claims",
+      "source_column": "Claim_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "claim id",
+      "synonyms": [
+        "claim_id",
+        "claim number",
+        "claim identifier",
+        "claim code",
+        "claim key"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_FNOL_ID",
+      "domain": "Claims",
+      "source_table": "Claims",
+      "source_column": "FNOL_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "fnol id",
+      "synonyms": [
+        "fnol_id",
+        "fnol number",
+        "fnol identifier",
+        "fnol code",
+        "fnol key",
+        "fnol reference"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Claims_Effective_Date",
+      "domain": "Claims",
+      "source_table": "Claims",
+      "source_column": "Effective_Date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "effective date",
+      "synonyms": [
+        "effective_date",
+        "effective time",
+        "valid date",
+        "start date",
+        "effective datetime",
+        "effective timestamp"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Settlements_Settlement_ID",
+      "domain": "Settlements",
+      "source_table": "Settlements",
+      "source_column": "Settlement_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "settlement id",
+      "synonyms": [
+        "Settlement_ID",
+        "사고 해결 번호",
+        "고유 식별 번호",
+        "해결 식별자",
+        "사고 해결 ID",
+        "식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Settlements_Claim_ID",
+      "domain": "Settlements",
+      "source_table": "Settlements",
+      "source_column": "Claim_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "claim id",
+      "synonyms": [
+        "Claim_ID",
+        "청구서 번호",
+        "사고 보험 번호",
+        "보상 청구 ID",
+        "청구 식별자",
+        "사고 보험 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Settlements_Effective_Date",
+      "domain": "Settlements",
+      "source_table": "Settlements",
+      "source_column": "Effective_Date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "effective date",
+      "synonyms": [
+        "Effective_Date",
+        "사고 해결 날짜",
+        "적용 일자",
+        "사고 해결 일자",
+        "Effect Date",
+        "적용 날짜",
+        "사고 해결일"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Settlements_Settlement_Amount",
+      "domain": "Settlements",
+      "source_table": "Settlements",
+      "source_column": "Settlement_Amount",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "settlement amount",
+      "synonyms": [
+        "정산 금액",
+        "정산액",
+        "결제 금액",
+        "결제액",
+        "수정액",
+        "보상 금액",
+        "보상액",
+        "Settlement Amount"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Customers_Policies_Available_Policies_fk0",
+      "domain": "Customers_Policies",
+      "range": "Available_Policies",
+      "source_fk": [
+        "Customers_Policies.Policy_ID",
+        "Available_Policies.Policy_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customers_Policies_Customers_fk1",
+      "domain": "Customers_Policies",
+      "range": "Customers",
+      "source_fk": [
+        "Customers_Policies.Customer_ID",
+        "Customers.Customer_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "First_Notification_of_Loss_Customers_Policies_fk2",
+      "domain": "First_Notification_of_Loss",
+      "range": "Customers_Policies",
+      "source_fk": [
+        "First_Notification_of_Loss.Customer_ID",
+        "Customers_Policies.Customer_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "First_Notification_of_Loss_Customers_Policies_fk3",
+      "domain": "First_Notification_of_Loss",
+      "range": "Customers_Policies",
+      "source_fk": [
+        "First_Notification_of_Loss.Policy_ID",
+        "Customers_Policies.Policy_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "First_Notification_of_Loss_Services_fk4",
+      "domain": "First_Notification_of_Loss",
+      "range": "Services",
+      "source_fk": [
+        "First_Notification_of_Loss.Service_ID",
+        "Services.Service_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Claims_First_Notification_of_Loss_fk5",
+      "domain": "Claims",
+      "range": "First_Notification_of_Loss",
+      "source_fk": [
+        "Claims.FNOL_ID",
+        "First_Notification_of_Loss.FNOL_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "접수",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Settlements_Claims_fk6",
+      "domain": "Settlements",
+      "range": "Claims",
+      "source_fk": [
+        "Settlements.Claim_ID",
+        "Claims.Claim_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "결제",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

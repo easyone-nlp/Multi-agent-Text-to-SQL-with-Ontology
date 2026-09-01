@@ -1,0 +1,232 @@
+{
+  "class_table": {
+    "Document_Types": "Document_Types",
+    "Documents": "Documents",
+    "Grants": "Grants",
+    "Organisation_Types": "Organisation_Types",
+    "Organisations": "Organisations",
+    "Project_Outcomes": "Project_Outcomes",
+    "Project_Staff": "Project_Staff",
+    "Projects": "Projects",
+    "Research_Outcomes": "Research_Outcomes",
+    "Research_Staff": "Research_Staff",
+    "Staff_Roles": "Staff_Roles",
+    "Tasks": "Tasks"
+  },
+  "property_column": {
+    "Document_Types_document_type_code": [
+      "Document_Types",
+      "document_type_code"
+    ],
+    "Document_Types_document_description": [
+      "Document_Types",
+      "document_description"
+    ],
+    "Documents_document_id": [
+      "Documents",
+      "document_id"
+    ],
+    "Documents_document_type_code": [
+      "Documents",
+      "document_type_code"
+    ],
+    "Documents_grant_id": [
+      "Documents",
+      "grant_id"
+    ],
+    "Documents_sent_date": [
+      "Documents",
+      "sent_date"
+    ],
+    "Documents_response_received_date": [
+      "Documents",
+      "response_received_date"
+    ],
+    "Documents_other_details": [
+      "Documents",
+      "other_details"
+    ],
+    "Grants_grant_id": [
+      "Grants",
+      "grant_id"
+    ],
+    "Grants_organisation_id": [
+      "Grants",
+      "organisation_id"
+    ],
+    "Grants_grant_amount": [
+      "Grants",
+      "grant_amount"
+    ],
+    "Grants_grant_start_date": [
+      "Grants",
+      "grant_start_date"
+    ],
+    "Grants_grant_end_date": [
+      "Grants",
+      "grant_end_date"
+    ],
+    "Grants_other_details": [
+      "Grants",
+      "other_details"
+    ],
+    "Organisation_Types_organisation_type": [
+      "Organisation_Types",
+      "organisation_type"
+    ],
+    "Organisation_Types_organisation_type_description": [
+      "Organisation_Types",
+      "organisation_type_description"
+    ],
+    "Organisations_organisation_id": [
+      "Organisations",
+      "organisation_id"
+    ],
+    "Organisations_organisation_type": [
+      "Organisations",
+      "organisation_type"
+    ],
+    "Organisations_organisation_details": [
+      "Organisations",
+      "organisation_details"
+    ],
+    "Project_Outcomes_project_id": [
+      "Project_Outcomes",
+      "project_id"
+    ],
+    "Project_Outcomes_outcome_code": [
+      "Project_Outcomes",
+      "outcome_code"
+    ],
+    "Project_Outcomes_outcome_details": [
+      "Project_Outcomes",
+      "outcome_details"
+    ],
+    "Project_Staff_staff_id": [
+      "Project_Staff",
+      "staff_id"
+    ],
+    "Project_Staff_project_id": [
+      "Project_Staff",
+      "project_id"
+    ],
+    "Project_Staff_role_code": [
+      "Project_Staff",
+      "role_code"
+    ],
+    "Project_Staff_date_from": [
+      "Project_Staff",
+      "date_from"
+    ],
+    "Project_Staff_date_to": [
+      "Project_Staff",
+      "date_to"
+    ],
+    "Project_Staff_other_details": [
+      "Project_Staff",
+      "other_details"
+    ],
+    "Projects_project_id": [
+      "Projects",
+      "project_id"
+    ],
+    "Projects_organisation_id": [
+      "Projects",
+      "organisation_id"
+    ],
+    "Projects_project_details": [
+      "Projects",
+      "project_details"
+    ],
+    "Research_Outcomes_outcome_code": [
+      "Research_Outcomes",
+      "outcome_code"
+    ],
+    "Research_Outcomes_outcome_description": [
+      "Research_Outcomes",
+      "outcome_description"
+    ],
+    "Research_Staff_staff_id": [
+      "Research_Staff",
+      "staff_id"
+    ],
+    "Research_Staff_employer_organisation_id": [
+      "Research_Staff",
+      "employer_organisation_id"
+    ],
+    "Research_Staff_staff_details": [
+      "Research_Staff",
+      "staff_details"
+    ],
+    "Staff_Roles_role_code": [
+      "Staff_Roles",
+      "role_code"
+    ],
+    "Staff_Roles_role_description": [
+      "Staff_Roles",
+      "role_description"
+    ],
+    "Tasks_task_id": [
+      "Tasks",
+      "task_id"
+    ],
+    "Tasks_project_id": [
+      "Tasks",
+      "project_id"
+    ],
+    "Tasks_task_details": [
+      "Tasks",
+      "task_details"
+    ],
+    "Tasks_eg_Agree_Objectives": [
+      "Tasks",
+      "eg Agree Objectives"
+    ]
+  },
+  "object_property_fk": {
+    "Documents_Grants_fk0": [
+      "Documents.grant_id",
+      "Grants.grant_id"
+    ],
+    "Documents_Document_Types_fk1": [
+      "Documents.document_type_code",
+      "Document_Types.document_type_code"
+    ],
+    "Grants_Organisations_fk2": [
+      "Grants.organisation_id",
+      "Organisations.organisation_id"
+    ],
+    "Organisations_Organisation_Types_fk3": [
+      "Organisations.organisation_type",
+      "Organisation_Types.organisation_type"
+    ],
+    "Project_Outcomes_Research_Outcomes_fk4": [
+      "Project_Outcomes.outcome_code",
+      "Research_Outcomes.outcome_code"
+    ],
+    "Project_Outcomes_Projects_fk5": [
+      "Project_Outcomes.project_id",
+      "Projects.project_id"
+    ],
+    "Project_Staff_Staff_Roles_fk6": [
+      "Project_Staff.role_code",
+      "Staff_Roles.role_code"
+    ],
+    "Project_Staff_Projects_fk7": [
+      "Project_Staff.project_id",
+      "Projects.project_id"
+    ],
+    "Projects_Organisations_fk8": [
+      "Projects.organisation_id",
+      "Organisations.organisation_id"
+    ],
+    "Research_Staff_Organisations_fk9": [
+      "Research_Staff.employer_organisation_id",
+      "Organisations.organisation_id"
+    ],
+    "Tasks_Projects_fk10": [
+      "Tasks.project_id",
+      "Projects.project_id"
+    ]
+  }
+}

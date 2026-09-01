@@ -1,0 +1,328 @@
+{
+  "class_table": {
+    "artists": "artists",
+    "sqlite_sequence": "sqlite_sequence",
+    "albums": "albums",
+    "employees": "employees",
+    "customers": "customers",
+    "genres": "genres",
+    "invoices": "invoices",
+    "media_types": "media_types",
+    "tracks": "tracks",
+    "invoice_lines": "invoice_lines",
+    "playlists": "playlists",
+    "playlist_tracks": "playlist_tracks"
+  },
+  "property_column": {
+    "artists_id": [
+      "artists",
+      "id"
+    ],
+    "artists_name": [
+      "artists",
+      "name"
+    ],
+    "sqlite_sequence_name": [
+      "sqlite_sequence",
+      "name"
+    ],
+    "sqlite_sequence_seq": [
+      "sqlite_sequence",
+      "seq"
+    ],
+    "albums_id": [
+      "albums",
+      "id"
+    ],
+    "albums_title": [
+      "albums",
+      "title"
+    ],
+    "albums_artist_id": [
+      "albums",
+      "artist_id"
+    ],
+    "employees_id": [
+      "employees",
+      "id"
+    ],
+    "employees_last_name": [
+      "employees",
+      "last_name"
+    ],
+    "employees_first_name": [
+      "employees",
+      "first_name"
+    ],
+    "employees_title": [
+      "employees",
+      "title"
+    ],
+    "employees_reports_to": [
+      "employees",
+      "reports_to"
+    ],
+    "employees_birth_date": [
+      "employees",
+      "birth_date"
+    ],
+    "employees_hire_date": [
+      "employees",
+      "hire_date"
+    ],
+    "employees_address": [
+      "employees",
+      "address"
+    ],
+    "employees_city": [
+      "employees",
+      "city"
+    ],
+    "employees_state": [
+      "employees",
+      "state"
+    ],
+    "employees_country": [
+      "employees",
+      "country"
+    ],
+    "employees_postal_code": [
+      "employees",
+      "postal_code"
+    ],
+    "employees_phone": [
+      "employees",
+      "phone"
+    ],
+    "employees_fax": [
+      "employees",
+      "fax"
+    ],
+    "employees_email": [
+      "employees",
+      "email"
+    ],
+    "customers_id": [
+      "customers",
+      "id"
+    ],
+    "customers_first_name": [
+      "customers",
+      "first_name"
+    ],
+    "customers_last_name": [
+      "customers",
+      "last_name"
+    ],
+    "customers_company": [
+      "customers",
+      "company"
+    ],
+    "customers_address": [
+      "customers",
+      "address"
+    ],
+    "customers_city": [
+      "customers",
+      "city"
+    ],
+    "customers_state": [
+      "customers",
+      "state"
+    ],
+    "customers_country": [
+      "customers",
+      "country"
+    ],
+    "customers_postal_code": [
+      "customers",
+      "postal_code"
+    ],
+    "customers_phone": [
+      "customers",
+      "phone"
+    ],
+    "customers_fax": [
+      "customers",
+      "fax"
+    ],
+    "customers_email": [
+      "customers",
+      "email"
+    ],
+    "customers_support_rep_id": [
+      "customers",
+      "support_rep_id"
+    ],
+    "genres_id": [
+      "genres",
+      "id"
+    ],
+    "genres_name": [
+      "genres",
+      "name"
+    ],
+    "invoices_id": [
+      "invoices",
+      "id"
+    ],
+    "invoices_customer_id": [
+      "invoices",
+      "customer_id"
+    ],
+    "invoices_invoice_date": [
+      "invoices",
+      "invoice_date"
+    ],
+    "invoices_billing_address": [
+      "invoices",
+      "billing_address"
+    ],
+    "invoices_billing_city": [
+      "invoices",
+      "billing_city"
+    ],
+    "invoices_billing_state": [
+      "invoices",
+      "billing_state"
+    ],
+    "invoices_billing_country": [
+      "invoices",
+      "billing_country"
+    ],
+    "invoices_billing_postal_code": [
+      "invoices",
+      "billing_postal_code"
+    ],
+    "invoices_total": [
+      "invoices",
+      "total"
+    ],
+    "media_types_id": [
+      "media_types",
+      "id"
+    ],
+    "media_types_name": [
+      "media_types",
+      "name"
+    ],
+    "tracks_id": [
+      "tracks",
+      "id"
+    ],
+    "tracks_name": [
+      "tracks",
+      "name"
+    ],
+    "tracks_album_id": [
+      "tracks",
+      "album_id"
+    ],
+    "tracks_media_type_id": [
+      "tracks",
+      "media_type_id"
+    ],
+    "tracks_genre_id": [
+      "tracks",
+      "genre_id"
+    ],
+    "tracks_composer": [
+      "tracks",
+      "composer"
+    ],
+    "tracks_milliseconds": [
+      "tracks",
+      "milliseconds"
+    ],
+    "tracks_bytes": [
+      "tracks",
+      "bytes"
+    ],
+    "tracks_unit_price": [
+      "tracks",
+      "unit_price"
+    ],
+    "invoice_lines_id": [
+      "invoice_lines",
+      "id"
+    ],
+    "invoice_lines_invoice_id": [
+      "invoice_lines",
+      "invoice_id"
+    ],
+    "invoice_lines_track_id": [
+      "invoice_lines",
+      "track_id"
+    ],
+    "invoice_lines_unit_price": [
+      "invoice_lines",
+      "unit_price"
+    ],
+    "invoice_lines_quantity": [
+      "invoice_lines",
+      "quantity"
+    ],
+    "playlists_id": [
+      "playlists",
+      "id"
+    ],
+    "playlists_name": [
+      "playlists",
+      "name"
+    ],
+    "playlist_tracks_playlist_id": [
+      "playlist_tracks",
+      "playlist_id"
+    ],
+    "playlist_tracks_track_id": [
+      "playlist_tracks",
+      "track_id"
+    ]
+  },
+  "object_property_fk": {
+    "albums_artists_fk0": [
+      "albums.artist_id",
+      "artists.id"
+    ],
+    "employees_employees_fk1": [
+      "employees.reports_to",
+      "employees.id"
+    ],
+    "customers_employees_fk2": [
+      "customers.support_rep_id",
+      "employees.id"
+    ],
+    "invoices_customers_fk3": [
+      "invoices.customer_id",
+      "customers.id"
+    ],
+    "tracks_media_types_fk4": [
+      "tracks.media_type_id",
+      "media_types.id"
+    ],
+    "tracks_genres_fk5": [
+      "tracks.genre_id",
+      "genres.id"
+    ],
+    "tracks_albums_fk6": [
+      "tracks.album_id",
+      "albums.id"
+    ],
+    "invoice_lines_tracks_fk7": [
+      "invoice_lines.track_id",
+      "tracks.id"
+    ],
+    "invoice_lines_invoices_fk8": [
+      "invoice_lines.invoice_id",
+      "invoices.id"
+    ],
+    "playlist_tracks_tracks_fk9": [
+      "playlist_tracks.track_id",
+      "tracks.id"
+    ],
+    "playlist_tracks_playlists_fk10": [
+      "playlist_tracks.playlist_id",
+      "playlists.id"
+    ]
+  }
+}

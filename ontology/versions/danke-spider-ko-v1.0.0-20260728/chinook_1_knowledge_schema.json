@@ -1,0 +1,1723 @@
+{
+  "db_id": "chinook_1",
+  "classes": [
+    {
+      "name": "Album",
+      "source_table": "Album",
+      "ranking": 3.0,
+      "primary_label": "앨범",
+      "synonyms": [
+        "음반",
+        "앨범",
+        "음악 작품",
+        "음반 정보",
+        "음악 앨범 데이터",
+        "음악 앨범 목록"
+      ]
+    },
+    {
+      "name": "Artist",
+      "source_table": "Artist",
+      "ranking": 3.0,
+      "primary_label": "가수",
+      "synonyms": [
+        "아티스트",
+        "음악가",
+        "가수",
+        "음악 인물",
+        "음악 작가",
+        "음악 연주자"
+      ]
+    },
+    {
+      "name": "Customer",
+      "source_table": "Customer",
+      "ranking": 3.5,
+      "primary_label": "고객",
+      "synonyms": [
+        "고객",
+        "사용자",
+        "구매자",
+        "고객 데이터",
+        "고객 목록",
+        "사용자 정보"
+      ]
+    },
+    {
+      "name": "Employee",
+      "source_table": "Employee",
+      "ranking": 3.5,
+      "primary_label": "사원",
+      "synonyms": [
+        "사원",
+        "직원",
+        "직책",
+        "직원 정보",
+        "사원 목록",
+        "직원 데이터",
+        "직원 목록"
+      ]
+    },
+    {
+      "name": "Genre",
+      "source_table": "Genre",
+      "ranking": 1.0,
+      "primary_label": "장르",
+      "synonyms": [
+        "장르",
+        "음악 장르",
+        "음악 유형",
+        "음악 카테고리",
+        "음악 분류",
+        "장르 정보",
+        "음악 태그"
+      ]
+    },
+    {
+      "name": "Invoice",
+      "source_table": "Invoice",
+      "ranking": 3.0,
+      "primary_label": "invoice",
+      "synonyms": [
+        "청구서",
+        "청구 내역",
+        "청구 정보",
+        "청구서 목록",
+        "청구서 데이터",
+        "청구서 기록"
+      ]
+    },
+    {
+      "name": "InvoiceLine",
+      "source_table": "InvoiceLine",
+      "ranking": 3.0,
+      "primary_label": "invoice line",
+      "synonyms": [
+        "구매 내역",
+        "구매 행",
+        "구매 기록",
+        "구매 세부 정보",
+        "구매 항목"
+      ]
+    },
+    {
+      "name": "MediaType",
+      "source_table": "MediaType",
+      "ranking": 3.0,
+      "primary_label": "media type",
+      "synonyms": [
+        "음악 유형",
+        "콘텐츠 유형",
+        "음악 장르",
+        "음악 형식",
+        "음악 카테고리"
+      ]
+    },
+    {
+      "name": "Playlist",
+      "source_table": "Playlist",
+      "ranking": 3.0,
+      "primary_label": "플레이리스트",
+      "synonyms": [
+        "음악 목록",
+        "곡 목록",
+        "음악 컬렉션",
+        "곡 집합",
+        "음악 리스트"
+      ]
+    },
+    {
+      "name": "PlaylistTrack",
+      "source_table": "PlaylistTrack",
+      "ranking": 3.5,
+      "primary_label": "플레이리스트 트랙",
+      "synonyms": [
+        "playlist track",
+        "playlist item",
+        "track list",
+        "song list",
+        "music playlist",
+        "playlist entry",
+        "track association",
+        "track listing"
+      ]
+    },
+    {
+      "name": "Track",
+      "source_table": "Track",
+      "ranking": 3.5,
+      "primary_label": "트랙",
+      "synonyms": [
+        "track",
+        "song",
+        "music track",
+        "audio track",
+        "song track",
+        "track item",
+        "audio file",
+        "music piece"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Album_AlbumId",
+      "domain": "Album",
+      "source_table": "Album",
+      "source_column": "AlbumId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "album id",
+      "synonyms": [
+        "아ль바움 아이디",
+        "음반 고유 ID",
+        "앨범 아이디",
+        "아ль바움 ID",
+        "아ль바움 번호",
+        "음반 식별자",
+        "앨범 고유 번호",
+        "AlbumId"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Album_Title",
+      "domain": "Album",
+      "source_table": "Album",
+      "source_column": "Title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "title",
+      "synonyms": [
+        "제목",
+        "음반 이름",
+        "앨범 이름",
+        "음반 제목",
+        "제목 정보",
+        "앨범 제목",
+        "음반 타이틀",
+        "Title"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Album_ArtistId",
+      "domain": "Album",
+      "source_table": "Album",
+      "source_column": "ArtistId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "artist id",
+      "synonyms": [
+        "아티스트 아이디",
+        "아티스트 고유 ID",
+        "아티스트 번호",
+        "아티스트 식별자",
+        "ArtistId",
+        "아티스트 고유 번호",
+        "아티스트 ID",
+        "아티스트 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Artist_ArtistId",
+      "domain": "Artist",
+      "source_table": "Artist",
+      "source_column": "ArtistId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "artist id",
+      "synonyms": [
+        "ArtistId",
+        "아티스트 ID",
+        "아티스트 고유번호",
+        "아티스트 식별자",
+        "아티스트 번호",
+        "아이디",
+        "ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Artist_Name",
+      "domain": "Artist",
+      "source_table": "Artist",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "Name",
+        "이름",
+        "아티스트 이름",
+        "아티스트명",
+        "아티스트",
+        "가수 이름",
+        "가수명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_CustomerId",
+      "domain": "Customer",
+      "source_table": "Customer",
+      "source_column": "CustomerId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 ID",
+        "고유 고객 번호",
+        "고객 식별자",
+        "고객 번호",
+        "고객 코드",
+        "고객 식별",
+        "고객 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_FirstName",
+      "domain": "Customer",
+      "source_table": "Customer",
+      "source_column": "FirstName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_LastName",
+      "domain": "Customer",
+      "source_table": "Customer",
+      "source_column": "LastName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "이름",
+        "성명",
+        "성별",
+        "성 정보",
+        "성자",
+        "성 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Company",
+      "domain": "Customer",
+      "source_table": "Customer",
+      "source_column": "Company",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "회사",
+      "synonyms": [
+        "회사",
+        "회사명",
+        "기업",
+        "기업명",
+        "회사 이름",
+        "회사 정보",
+        "company",
+        "company name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Address",
+      "domain": "Customer",
+      "source_table": "Customer",
+      "source_column": "Address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "주소",
+      "synonyms": [
+        "주소",
+        "주소지",
+        "Address",
+        "주소 정보",
+        "주소지 정보",
+        "주소 입력",
+        "주소 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_City",
+      "domain": "Customer",
+      "source_table": "Customer",
+      "source_column": "City",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "시",
+      "synonyms": [
+        "도시",
+        "도시명",
+        "도시 정보",
+        "City",
+        "도시 이름",
+        "도시 기록",
+        "도시 입력"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_State",
+      "domain": "Customer",
+      "source_table": "Customer",
+      "source_column": "State",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "주",
+      "synonyms": [
+        "주",
+        "지역",
+        "주소 주",
+        "주 번호",
+        "주소 주 정보",
+        "주소 주 지역",
+        "주소 주 코드",
+        "주 번호 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Country",
+      "domain": "Customer",
+      "source_table": "Customer",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "나라",
+        "국가 정보",
+        "주소 국가",
+        "국가 코드",
+        "주소 국가 코드",
+        "국가명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_PostalCode",
+      "domain": "Customer",
+      "source_table": "Customer",
+      "source_column": "PostalCode",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "우편번호",
+      "synonyms": [
+        "우편번호",
+        "우편 번호 정보",
+        "주소 우편번호",
+        "우편 코드",
+        "주소 우편 코드",
+        "우편 번호 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Phone",
+      "domain": "Customer",
+      "source_table": "Customer",
+      "source_column": "Phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "전화번호",
+      "synonyms": [
+        "전화번호",
+        "연락처",
+        "전화",
+        "전화번호 정보",
+        "전화번호 항목",
+        "연락처 번호",
+        "전화 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Fax",
+      "domain": "Customer",
+      "source_table": "Customer",
+      "source_column": "Fax",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "팩스번호",
+      "synonyms": [
+        "Fax",
+        "전화번호",
+        "이메일",
+        "팩스",
+        "연락처",
+        "전화",
+        "팩스 번호",
+        "연락 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_Email",
+      "domain": "Customer",
+      "source_table": "Customer",
+      "source_column": "Email",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "이메일",
+      "synonyms": [
+        "Email",
+        "이메일",
+        "이메일 주소",
+        "메일",
+        "전자우편"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Customer_SupportRepId",
+      "domain": "Customer",
+      "source_table": "Customer",
+      "source_column": "SupportRepId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "지원 책임자 ID",
+      "synonyms": [
+        "SupportRepId",
+        "지원 담당자 ID",
+        "지원 담당자 번호",
+        "지원 관리자 ID",
+        "지원 직원 ID",
+        "지원 담당자 식별자",
+        "지원 담당자 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employee_EmployeeId",
+      "domain": "Employee",
+      "source_table": "Employee",
+      "source_column": "EmployeeId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "사원 ID",
+      "synonyms": [
+        "직원 ID",
+        "사원 번호",
+        "사원 ID",
+        "직원 고유 ID",
+        "사원 고유 번호",
+        "직원 고유 식별자",
+        "사원 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employee_LastName",
+      "domain": "Employee",
+      "source_table": "Employee",
+      "source_column": "LastName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "직원 성",
+        "이름의 끝자",
+        "성 이름",
+        "직원 성명",
+        "성 정보",
+        "직원 성 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employee_FirstName",
+      "domain": "Employee",
+      "source_table": "Employee",
+      "source_column": "FirstName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "직원 이름",
+        "이름 정보",
+        "직원 이름 정보",
+        "이름 데이터",
+        "직원 이름 데이터",
+        "이름 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employee_Title",
+      "domain": "Employee",
+      "source_table": "Employee",
+      "source_column": "Title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "직위",
+      "synonyms": [
+        "직책",
+        "직무",
+        "직무명",
+        "직위",
+        "직책명",
+        "직무 제목",
+        "직책 정보",
+        "직무명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employee_ReportsTo",
+      "domain": "Employee",
+      "source_table": "Employee",
+      "source_column": "ReportsTo",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "상사",
+      "synonyms": [
+        "상사",
+        "보고상사",
+        "상사 번호",
+        "보고 대상",
+        "상사 ID",
+        "보고 대상 ID",
+        "상사 고유 ID",
+        "보고 대상 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employee_BirthDate",
+      "domain": "Employee",
+      "source_table": "Employee",
+      "source_column": "BirthDate",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "생년월일",
+      "synonyms": [
+        "생일",
+        "출생일",
+        "출생 날짜",
+        "생일 날짜",
+        "출생일자",
+        "출생일시",
+        "생일 정보",
+        "출생일자 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employee_HireDate",
+      "domain": "Employee",
+      "source_table": "Employee",
+      "source_column": "HireDate",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "입사일",
+      "synonyms": [
+        "채용일",
+        "입사일",
+        "입사 날짜",
+        "HireDate",
+        "채용 날짜",
+        "입사 시간",
+        "고용일"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employee_Address",
+      "domain": "Employee",
+      "source_table": "Employee",
+      "source_column": "Address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "주소",
+      "synonyms": [
+        "주소",
+        "Address",
+        "주소 정보",
+        "주소지",
+        "주소 데이터",
+        "이름 없는 주소",
+        "주소 주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employee_City",
+      "domain": "Employee",
+      "source_table": "Employee",
+      "source_column": "City",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "시",
+      "synonyms": [
+        "도시",
+        "City",
+        "도시 이름",
+        "도시명",
+        "거주 도시",
+        "도시 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employee_State",
+      "domain": "Employee",
+      "source_table": "Employee",
+      "source_column": "State",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "주",
+      "synonyms": [
+        "state",
+        "province",
+        "region",
+        "states",
+        "area",
+        "state code",
+        "state abbreviation"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employee_Country",
+      "domain": "Employee",
+      "source_table": "Employee",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "country",
+        "nation",
+        "region",
+        "nationality",
+        "country code",
+        "country name",
+        "state"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employee_PostalCode",
+      "domain": "Employee",
+      "source_table": "Employee",
+      "source_column": "PostalCode",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "우편번호",
+      "synonyms": [
+        "postal code",
+        "zip code",
+        "post code",
+        "postal number",
+        "zip"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employee_Phone",
+      "domain": "Employee",
+      "source_table": "Employee",
+      "source_column": "Phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "전화번호",
+      "synonyms": [
+        "전화번호",
+        "전화",
+        "전화번호 정보",
+        "연락처",
+        "phone",
+        "전화번호 필드",
+        "연락처 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employee_Fax",
+      "domain": "Employee",
+      "source_table": "Employee",
+      "source_column": "Fax",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "팩스번호",
+      "synonyms": [
+        "fax",
+        "전화번호",
+        "팩스",
+        "직원 전화번호",
+        "팩스 번호",
+        "직원 연락처"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Employee_Email",
+      "domain": "Employee",
+      "source_table": "Employee",
+      "source_column": "Email",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이메일",
+      "synonyms": [
+        "email",
+        "이메일",
+        "이메일 주소",
+        "직원 이메일",
+        "전자우편",
+        "메일 주소",
+        "직원 연락처"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Genre_GenreId",
+      "domain": "Genre",
+      "source_table": "Genre",
+      "source_column": "GenreId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "장르 ID",
+      "synonyms": [
+        "장르 ID",
+        "장르 번호",
+        "장르 식별자",
+        "장르 고유 ID",
+        "GenreId",
+        "장르 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Genre_Name",
+      "domain": "Genre",
+      "source_table": "Genre",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "장르 이름",
+        "장르 제목",
+        "장르 타이틀",
+        "Name",
+        "장르명",
+        "장르 라벨"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "액션": [
+          "액션"
+        ],
+        "드라마": [
+          "드라마"
+        ],
+        "코미디": [
+          "코미디"
+        ],
+        "로맨스": [
+          "로맨스"
+        ]
+      }
+    },
+    {
+      "name": "Invoice_InvoiceId",
+      "domain": "Invoice",
+      "source_table": "Invoice",
+      "source_column": "InvoiceId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "invoice id",
+      "synonyms": [
+        "청구서 번호",
+        "청구서 ID",
+        "청구서 고유 번호",
+        "청구서 코드",
+        "청구서 식별자",
+        "invoice id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Invoice_CustomerId",
+      "domain": "Invoice",
+      "source_table": "Invoice",
+      "source_column": "CustomerId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "customer id",
+      "synonyms": [
+        "고객 번호",
+        "고객 ID",
+        "고객 코드",
+        "고객 식별자",
+        "고객 고유 번호",
+        "customer id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Invoice_InvoiceDate",
+      "domain": "Invoice",
+      "source_table": "Invoice",
+      "source_column": "InvoiceDate",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "invoice date",
+      "synonyms": [
+        "청구일자",
+        "청구일",
+        "청구 서류 날짜",
+        "청구 서류 일자",
+        "invoice date"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Invoice_BillingAddress",
+      "domain": "Invoice",
+      "source_table": "Invoice",
+      "source_column": "BillingAddress",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "billing address",
+      "synonyms": [
+        "배송 주소",
+        "청구 주소",
+        "배송지 주소",
+        "청구서 주소",
+        "배송지",
+        "주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Invoice_BillingCity",
+      "domain": "Invoice",
+      "source_table": "Invoice",
+      "source_column": "BillingCity",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "billing city",
+      "synonyms": [
+        "청구 도시",
+        "배송 도시",
+        "배송지 도시",
+        "청구서 도시",
+        "도시",
+        "도시명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Invoice_BillingState",
+      "domain": "Invoice",
+      "source_table": "Invoice",
+      "source_column": "BillingState",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "billing state",
+      "synonyms": [
+        "청구 주",
+        "배송 주",
+        "배송지 주",
+        "청구서 주",
+        "주",
+        "주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Invoice_BillingCountry",
+      "domain": "Invoice",
+      "source_table": "Invoice",
+      "source_column": "BillingCountry",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "billing country",
+      "synonyms": [
+        "배송 국가",
+        "결제 국가",
+        "발행 국가",
+        "국가",
+        "billing country",
+        "국가 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Invoice_BillingPostalCode",
+      "domain": "Invoice",
+      "source_table": "Invoice",
+      "source_column": "BillingPostalCode",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "billing postal code",
+      "synonyms": [
+        "우편번호",
+        "배송 번호",
+        "배송 코드",
+        "우편코드",
+        "billing postal code",
+        "우편번호 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Invoice_Total",
+      "domain": "Invoice",
+      "source_table": "Invoice",
+      "source_column": "Total",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "total",
+      "synonyms": [
+        "총액",
+        "총 금액",
+        "합계",
+        "총 금",
+        "총 금액 정보",
+        "total",
+        "금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "InvoiceLine_InvoiceLineId",
+      "domain": "InvoiceLine",
+      "source_table": "InvoiceLine",
+      "source_column": "InvoiceLineId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "invoice line id",
+      "synonyms": [
+        "InvoiceLineId",
+        "구매 내역 번호",
+        "일련번호",
+        "구매 항목 ID",
+        "인보이스 라인 ID",
+        "구매 라인 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "InvoiceLine_InvoiceId",
+      "domain": "InvoiceLine",
+      "source_table": "InvoiceLine",
+      "source_column": "InvoiceId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "invoice id",
+      "synonyms": [
+        "InvoiceId",
+        "주문 번호",
+        "구매 번호",
+        "인보이스 ID",
+        "주문 ID",
+        "구매 내역 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "InvoiceLine_TrackId",
+      "domain": "InvoiceLine",
+      "source_table": "InvoiceLine",
+      "source_column": "TrackId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "track id",
+      "synonyms": [
+        "TrackId",
+        "음악 항목 번호",
+        "트랙 번호",
+        "음악 ID",
+        "트랙 ID",
+        "음악 라인 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "InvoiceLine_UnitPrice",
+      "domain": "InvoiceLine",
+      "source_table": "InvoiceLine",
+      "source_column": "UnitPrice",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "unit price",
+      "synonyms": [
+        "단위 가격",
+        "가격",
+        "단가",
+        "단위 가격 정보",
+        "가격 정보",
+        "단위 가격 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "InvoiceLine_Quantity",
+      "domain": "InvoiceLine",
+      "source_table": "InvoiceLine",
+      "source_column": "Quantity",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "quantity",
+      "synonyms": [
+        "수량",
+        "개수",
+        "개",
+        "수량 정보",
+        "개수 정보",
+        "개수 값",
+        "수량 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "MediaType_MediaTypeId",
+      "domain": "MediaType",
+      "source_table": "MediaType",
+      "source_column": "MediaTypeId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "media type id",
+      "synonyms": [
+        "메디어 타입 ID",
+        "타입 ID",
+        "MediaTypeId",
+        "타입 식별자",
+        "메디어 식별자",
+        "타입 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "MediaType_Name",
+      "domain": "MediaType",
+      "source_table": "MediaType",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "명",
+        "MediaTypeId",
+        "타입 이름",
+        "메디어 이름",
+        "타입명",
+        "명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "영화": [
+          "영화"
+        ],
+        "드라마": [
+          "드라마"
+        ],
+        "음악": [
+          "음악"
+        ],
+        "사진": [
+          "사진"
+        ]
+      }
+    },
+    {
+      "name": "Playlist_PlaylistId",
+      "domain": "Playlist",
+      "source_table": "Playlist",
+      "source_column": "PlaylistId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "play list id",
+      "synonyms": [
+        "PlaylistId",
+        "플레이리스트 ID",
+        "플레이리스트 고유번호",
+        "플레이리스트 번호",
+        "플레이리스트 식별자",
+        "PL ID",
+        "플레이리스트 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Playlist_Name",
+      "domain": "Playlist",
+      "source_table": "Playlist",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "Name",
+        "플레이리스트 이름",
+        "플레이리스트 제목",
+        "PL 이름",
+        "플레이리스트 명",
+        "플레이리스트 타이틀"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "팝 음악": [
+          "팝"
+        ],
+        "클래식": [
+          "클래식"
+        ]
+      }
+    },
+    {
+      "name": "PlaylistTrack_PlaylistId",
+      "domain": "PlaylistTrack",
+      "source_table": "PlaylistTrack",
+      "source_column": "PlaylistId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "플레이리스트 ID",
+      "synonyms": [
+        "PlaylistId",
+        "플레이리스트 ID",
+        "플레이리스트 번호",
+        "PL ID",
+        "플레이리스트 식별자",
+        "PL 식별자",
+        "플레이리스트 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "PlaylistTrack_TrackId",
+      "domain": "PlaylistTrack",
+      "source_table": "PlaylistTrack",
+      "source_column": "TrackId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "트랙 ID",
+      "synonyms": [
+        "TrackId",
+        "트랙 ID",
+        "트랙 번호",
+        "트랙 코드",
+        "트랙 식별자",
+        "트랙 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Track_TrackId",
+      "domain": "Track",
+      "source_table": "Track",
+      "source_column": "TrackId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "트랙 ID",
+      "synonyms": [
+        "트랙 ID",
+        "트랙 번호",
+        "트랙 식별자",
+        "트랙 고유 번호",
+        "트랙 아이디",
+        "TrackId",
+        "트랙 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Track_Name",
+      "domain": "Track",
+      "source_table": "Track",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "이름",
+      "synonyms": [
+        "트랙 이름",
+        "제목",
+        "트랙 제목",
+        "트랙명",
+        "Name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Track_AlbumId",
+      "domain": "Track",
+      "source_table": "Track",
+      "source_column": "AlbumId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "앨범 ID",
+      "synonyms": [
+        "앨범 ID",
+        "앨범 번호",
+        "앨범 식별자",
+        "앨범 고유 번호",
+        "앨범 아이디",
+        "AlbumId",
+        "앨범 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Track_MediaTypeId",
+      "domain": "Track",
+      "source_table": "Track",
+      "source_column": "MediaTypeId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "미디어 타입 ID",
+      "synonyms": [
+        "MediaTypeId",
+        "Media Type",
+        "Media Type Identifier",
+        "Media Type Code",
+        "Media Type Number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Track_GenreId",
+      "domain": "Track",
+      "source_table": "Track",
+      "source_column": "GenreId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "장르 ID",
+      "synonyms": [
+        "GenreId",
+        "Genre",
+        "Genre Identifier",
+        "Genre Code",
+        "Genre Number",
+        "Genre Type"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Track_Composer",
+      "domain": "Track",
+      "source_table": "Track",
+      "source_column": "Composer",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "작곡가",
+      "synonyms": [
+        "Composer",
+        "Composer Name",
+        "Composer Info",
+        "Music Composer",
+        "Arranger",
+        "Musician",
+        "Music Composer Name",
+        "Composer Details"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Track_Milliseconds",
+      "domain": "Track",
+      "source_table": "Track",
+      "source_column": "Milliseconds",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "밀리초",
+      "synonyms": [
+        "밀리초",
+        "ms",
+        "밀리초 길이",
+        "길이",
+        "milliseconds",
+        "ms 값",
+        "트랙 길이"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Track_Bytes",
+      "domain": "Track",
+      "source_table": "Track",
+      "source_column": "Bytes",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "바이트",
+      "synonyms": [
+        "바이트",
+        "byte",
+        "파일 크기",
+        "크기",
+        "bytes",
+        "바이트 크기",
+        "트랙 크기"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Track_UnitPrice",
+      "domain": "Track",
+      "source_table": "Track",
+      "source_column": "UnitPrice",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "단가",
+      "synonyms": [
+        "가격",
+        "단위 가격",
+        "가격 정보",
+        "price",
+        "단가",
+        "unit price",
+        "트랙 가격"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Album_Artist_fk0",
+      "domain": "Album",
+      "range": "Artist",
+      "source_fk": [
+        "Album.ArtistId",
+        "Artist.ArtistId"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Customer_Employee_fk1",
+      "domain": "Customer",
+      "range": "Employee",
+      "source_fk": [
+        "Customer.SupportRepId",
+        "Employee.EmployeeId"
+      ],
+      "weight": 1.0,
+      "primary_label": "지원 담당",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Employee_Employee_fk2",
+      "domain": "Employee",
+      "range": "Employee",
+      "source_fk": [
+        "Employee.ReportsTo",
+        "Employee.EmployeeId"
+      ],
+      "weight": 1.0,
+      "primary_label": "상사",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Invoice_Customer_fk3",
+      "domain": "Invoice",
+      "range": "Customer",
+      "source_fk": [
+        "Invoice.CustomerId",
+        "Customer.CustomerId"
+      ],
+      "weight": 1.0,
+      "primary_label": "주문한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "InvoiceLine_Track_fk4",
+      "domain": "InvoiceLine",
+      "range": "Track",
+      "source_fk": [
+        "InvoiceLine.TrackId",
+        "Track.TrackId"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련 곡",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "InvoiceLine_Invoice_fk5",
+      "domain": "InvoiceLine",
+      "range": "Invoice",
+      "source_fk": [
+        "InvoiceLine.InvoiceId",
+        "Invoice.InvoiceId"
+      ],
+      "weight": 1.0,
+      "primary_label": "포괄한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "PlaylistTrack_Track_fk6",
+      "domain": "PlaylistTrack",
+      "range": "Track",
+      "source_fk": [
+        "PlaylistTrack.TrackId",
+        "Track.TrackId"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "PlaylistTrack_Playlist_fk7",
+      "domain": "PlaylistTrack",
+      "range": "Playlist",
+      "source_fk": [
+        "PlaylistTrack.PlaylistId",
+        "Playlist.PlaylistId"
+      ],
+      "weight": 1.0,
+      "primary_label": "포함한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Track_MediaType_fk8",
+      "domain": "Track",
+      "range": "MediaType",
+      "source_fk": [
+        "Track.MediaTypeId",
+        "MediaType.MediaTypeId"
+      ],
+      "weight": 1.0,
+      "primary_label": "매체 유형",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Track_Genre_fk9",
+      "domain": "Track",
+      "range": "Genre",
+      "source_fk": [
+        "Track.GenreId",
+        "Genre.GenreId"
+      ],
+      "weight": 1.0,
+      "primary_label": "장르",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Track_Album_fk10",
+      "domain": "Track",
+      "range": "Album",
+      "source_fk": [
+        "Track.AlbumId",
+        "Album.AlbumId"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속 앨범",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,781 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "전화기",
+      "target_class": "phone",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "휴대폰",
+      "target_class": "phone",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스마트폰",
+      "target_class": "phone",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "핸드폰",
+      "target_class": "phone",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "모바일",
+      "target_class": "phone",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시장",
+      "target_class": "market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경제",
+      "target_class": "market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "산업",
+      "target_class": "market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "거래",
+      "target_class": "market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "브랜드",
+      "target_class": "market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "폰 마켓",
+      "target_class": "phone_market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "휴대폰 시장",
+      "target_class": "phone_market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "스마트폰 시장",
+      "target_class": "phone_market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "제품 시장",
+      "target_class": "phone_market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "기기 시장",
+      "target_class": "phone_market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시장 연결",
+      "target_class": "phone_market",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "phone",
+      "target_property": "phone_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "phone",
+      "target_property": "phone_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품명",
+      "target_class": "phone",
+      "target_property": "phone_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화기 이름",
+      "target_class": "phone",
+      "target_property": "phone_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명",
+      "target_class": "phone",
+      "target_property": "phone_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 이름",
+      "target_class": "phone",
+      "target_property": "phone_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "phone id",
+      "target_class": "phone",
+      "target_property": "phone_Phone_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "phone",
+      "target_property": "phone_Phone_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화기 ID",
+      "target_class": "phone",
+      "target_property": "phone_Phone_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "phone",
+      "target_property": "phone_Phone_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기기 번호",
+      "target_class": "phone",
+      "target_property": "phone_Phone_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "phone",
+      "target_property": "phone_Phone_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "memory in g",
+      "target_class": "phone",
+      "target_property": "phone_Memory_in_G",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "메모리",
+      "target_class": "phone",
+      "target_property": "phone_Memory_in_G",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "용량",
+      "target_class": "phone",
+      "target_property": "phone_Memory_in_G",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기기 메모리",
+      "target_class": "phone",
+      "target_property": "phone_Memory_in_G",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보유 메모리",
+      "target_class": "phone",
+      "target_property": "phone_Memory_in_G",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기기 용량",
+      "target_class": "phone",
+      "target_property": "phone_Memory_in_G",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "carrier",
+      "target_class": "phone",
+      "target_property": "phone_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "통신사",
+      "target_class": "phone",
+      "target_property": "phone_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 통신사",
+      "target_class": "phone",
+      "target_property": "phone_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "运营商",
+      "target_class": "phone",
+      "target_property": "phone_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "통신 기업",
+      "target_class": "phone",
+      "target_property": "phone_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "통신 업체",
+      "target_class": "phone",
+      "target_property": "phone_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 기업",
+      "target_class": "phone",
+      "target_property": "phone_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "통신 회사",
+      "target_class": "phone",
+      "target_property": "phone_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "통신사 이름",
+      "target_class": "phone",
+      "target_property": "phone_Carrier",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "price",
+      "target_class": "phone",
+      "target_property": "phone_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격",
+      "target_class": "phone",
+      "target_property": "phone_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화기 가격",
+      "target_class": "phone",
+      "target_property": "phone_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격 정보",
+      "target_class": "phone",
+      "target_property": "phone_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격값",
+      "target_class": "phone",
+      "target_property": "phone_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격 수치",
+      "target_class": "phone",
+      "target_property": "phone_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화기 비용",
+      "target_class": "phone",
+      "target_property": "phone_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격 수준",
+      "target_class": "phone",
+      "target_property": "phone_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가격 데이터",
+      "target_class": "phone",
+      "target_property": "phone_Price",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "market id",
+      "target_class": "market",
+      "target_property": "market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 ID",
+      "target_class": "market",
+      "target_property": "market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 번호",
+      "target_class": "market",
+      "target_property": "market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 고유 번호",
+      "target_class": "market",
+      "target_property": "market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 식별자",
+      "target_class": "market",
+      "target_property": "market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Market_ID",
+      "target_class": "market",
+      "target_property": "market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 고유 ID",
+      "target_class": "market",
+      "target_property": "market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "district",
+      "target_class": "market",
+      "target_property": "market_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역",
+      "target_class": "market",
+      "target_property": "market_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "market",
+      "target_property": "market_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 위치",
+      "target_class": "market",
+      "target_property": "market_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구",
+      "target_class": "market",
+      "target_property": "market_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "District",
+      "target_class": "market",
+      "target_property": "market_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 지역",
+      "target_class": "market",
+      "target_property": "market_District",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "num of employees",
+      "target_class": "market",
+      "target_property": "market_Num_of_employees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 수",
+      "target_class": "market",
+      "target_property": "market_Num_of_employees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "근로자 수",
+      "target_class": "market",
+      "target_property": "market_Num_of_employees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 개수",
+      "target_class": "market",
+      "target_property": "market_Num_of_employees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 수량",
+      "target_class": "market",
+      "target_property": "market_Num_of_employees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Num_of_employees",
+      "target_class": "market",
+      "target_property": "market_Num_of_employees",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "num of shops",
+      "target_class": "market",
+      "target_property": "market_Num_of_shops",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 수",
+      "target_class": "market",
+      "target_property": "market_Num_of_shops",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 개수",
+      "target_class": "market",
+      "target_property": "market_Num_of_shops",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 수",
+      "target_class": "market",
+      "target_property": "market_Num_of_shops",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 개수",
+      "target_class": "market",
+      "target_property": "market_Num_of_shops",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상점 수량",
+      "target_class": "market",
+      "target_property": "market_Num_of_shops",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Num_of_shops",
+      "target_class": "market",
+      "target_property": "market_Num_of_shops",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "매장 수량",
+      "target_class": "market",
+      "target_property": "market_Num_of_shops",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ranking",
+      "target_class": "market",
+      "target_property": "market_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭킹",
+      "target_class": "market",
+      "target_property": "market_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "market",
+      "target_property": "market_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수",
+      "target_class": "market",
+      "target_property": "market_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "market",
+      "target_property": "market_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "market",
+      "target_property": "market_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위 정보",
+      "target_class": "market",
+      "target_property": "market_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경영 순위",
+      "target_class": "market",
+      "target_property": "market_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 순위",
+      "target_class": "market",
+      "target_property": "market_Ranking",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 ID",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 번호",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 식별자",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Market_ID",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 고유 번호",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 식별 번호",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시장 코드",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Market_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "폰 ID",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Phone_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화기 ID",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Phone_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화기 번호",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Phone_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화기 식별자",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Phone_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Phone_ID",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Phone_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화기 고유 번호",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Phone_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화기 식별 번호",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Phone_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화기 코드",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Phone_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "재고 수량",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Num_of_stock",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "남은 수량",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Num_of_stock",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "재고 개수",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Num_of_stock",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Num_of_stock",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Num_of_stock",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화기 수량",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Num_of_stock",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "재고",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Num_of_stock",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "남은 개수",
+      "target_class": "phone_market",
+      "target_property": "phone_market_Num_of_stock",
+      "value": null
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "class_table": {
+    "manufacturer": "manufacturer",
+    "furniture": "furniture",
+    "furniture_manufacte": "furniture_manufacte"
+  },
+  "property_column": {
+    "manufacturer_Manufacturer_ID": [
+      "manufacturer",
+      "Manufacturer_ID"
+    ],
+    "manufacturer_Open_Year": [
+      "manufacturer",
+      "Open_Year"
+    ],
+    "manufacturer_Name": [
+      "manufacturer",
+      "Name"
+    ],
+    "manufacturer_Num_of_Factories": [
+      "manufacturer",
+      "Num_of_Factories"
+    ],
+    "manufacturer_Num_of_Shops": [
+      "manufacturer",
+      "Num_of_Shops"
+    ],
+    "furniture_Furniture_ID": [
+      "furniture",
+      "Furniture_ID"
+    ],
+    "furniture_Name": [
+      "furniture",
+      "Name"
+    ],
+    "furniture_Num_of_Component": [
+      "furniture",
+      "Num_of_Component"
+    ],
+    "furniture_Market_Rate": [
+      "furniture",
+      "Market_Rate"
+    ],
+    "furniture_manufacte_Manufacturer_ID": [
+      "furniture_manufacte",
+      "Manufacturer_ID"
+    ],
+    "furniture_manufacte_Furniture_ID": [
+      "furniture_manufacte",
+      "Furniture_ID"
+    ],
+    "furniture_manufacte_Price_in_Dollar": [
+      "furniture_manufacte",
+      "Price_in_Dollar"
+    ]
+  },
+  "object_property_fk": {
+    "furniture_manufacte_furniture_fk0": [
+      "furniture_manufacte.Furniture_ID",
+      "furniture.Furniture_ID"
+    ],
+    "furniture_manufacte_manufacturer_fk1": [
+      "furniture_manufacte.Manufacturer_ID",
+      "manufacturer.Manufacturer_ID"
+    ]
+  }
+}

@@ -1,0 +1,837 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "물건",
+      "target_class": "item",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상품",
+      "target_class": "item",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "제품",
+      "target_class": "item",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "물품",
+      "target_class": "item",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "아이템",
+      "target_class": "item",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상품 정보",
+      "target_class": "item",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "리뷰",
+      "target_class": "review",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "평점",
+      "target_class": "review",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "후기",
+      "target_class": "review",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "평가",
+      "target_class": "review",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "리뷰 정보",
+      "target_class": "review",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자 계정",
+      "target_class": "useracct",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "계정",
+      "target_class": "useracct",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자 정보",
+      "target_class": "useracct",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "회원",
+      "target_class": "useracct",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "회원 정보",
+      "target_class": "useracct",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "신뢰 관계",
+      "target_class": "trust",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "신뢰",
+      "target_class": "trust",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "신뢰도",
+      "target_class": "trust",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "신뢰 정보",
+      "target_class": "trust",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "신뢰 지표",
+      "target_class": "trust",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "신뢰 데이터",
+      "target_class": "trust",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "신뢰 척도",
+      "target_class": "trust",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "신뢰 평가",
+      "target_class": "trust",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "물건 ID",
+      "target_class": "item",
+      "target_property": "item_i_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "i_id",
+      "target_class": "item",
+      "target_property": "item_i_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 ID",
+      "target_class": "item",
+      "target_property": "item_i_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "item",
+      "target_property": "item_i_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 번호",
+      "target_class": "item",
+      "target_property": "item_i_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이템 ID",
+      "target_class": "item",
+      "target_property": "item_i_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "item",
+      "target_property": "item_i_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이템 식별자",
+      "target_class": "item",
+      "target_property": "item_i_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "item",
+      "target_property": "item_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "title",
+      "target_class": "item",
+      "target_property": "item_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "item",
+      "target_property": "item_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 이름",
+      "target_class": "item",
+      "target_property": "item_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목 정보",
+      "target_class": "item",
+      "target_property": "item_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 제목",
+      "target_class": "item",
+      "target_property": "item_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이템 제목",
+      "target_class": "item",
+      "target_property": "item_title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "a id",
+      "target_class": "review",
+      "target_property": "review_a_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "a_id",
+      "target_class": "review",
+      "target_property": "review_a_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 ID",
+      "target_class": "review",
+      "target_property": "review_a_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 번호",
+      "target_class": "review",
+      "target_property": "review_a_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 식별자",
+      "target_class": "review",
+      "target_property": "review_a_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 코드",
+      "target_class": "review",
+      "target_property": "review_a_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "a",
+      "target_class": "review",
+      "target_property": "review_a_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "user id",
+      "target_class": "review",
+      "target_property": "review_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "u_id",
+      "target_class": "review",
+      "target_property": "review_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 ID",
+      "target_class": "review",
+      "target_property": "review_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 번호",
+      "target_class": "review",
+      "target_property": "review_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 식별자",
+      "target_class": "review",
+      "target_property": "review_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 코드",
+      "target_class": "review",
+      "target_property": "review_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "u",
+      "target_class": "review",
+      "target_property": "review_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "item id",
+      "target_class": "review",
+      "target_property": "review_i_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "i_id",
+      "target_class": "review",
+      "target_property": "review_i_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 ID",
+      "target_class": "review",
+      "target_property": "review_i_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 번호",
+      "target_class": "review",
+      "target_property": "review_i_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 식별자",
+      "target_class": "review",
+      "target_property": "review_i_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 코드",
+      "target_class": "review",
+      "target_property": "review_i_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "i",
+      "target_class": "review",
+      "target_property": "review_i_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가 점수",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "评分",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점 정보",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 평가",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 평가 점수",
+      "target_class": "review",
+      "target_property": "review_rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "review",
+      "target_property": "review_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "review",
+      "target_property": "review_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수",
+      "target_class": "review",
+      "target_property": "review_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "review",
+      "target_property": "review_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "랭킹",
+      "target_class": "review",
+      "target_property": "review_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 순위",
+      "target_class": "review",
+      "target_property": "review_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등수 정보",
+      "target_class": "review",
+      "target_property": "review_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰 등수",
+      "target_class": "review",
+      "target_property": "review_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 ID",
+      "target_class": "useracct",
+      "target_property": "useracct_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "u_id",
+      "target_class": "useracct",
+      "target_property": "useracct_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유저 ID",
+      "target_class": "useracct",
+      "target_property": "useracct_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 고유 번호",
+      "target_class": "useracct",
+      "target_property": "useracct_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 식별자",
+      "target_class": "useracct",
+      "target_property": "useracct_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "useracct",
+      "target_property": "useracct_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유저 아이디",
+      "target_class": "useracct",
+      "target_property": "useracct_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "useracct",
+      "target_property": "useracct_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "useracct",
+      "target_property": "useracct_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 이름",
+      "target_class": "useracct",
+      "target_property": "useracct_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유저 이름",
+      "target_class": "useracct",
+      "target_property": "useracct_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 별명",
+      "target_class": "useracct",
+      "target_property": "useracct_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "useracct",
+      "target_property": "useracct_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자명",
+      "target_class": "useracct",
+      "target_property": "useracct_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출처 사용자 ID",
+      "target_class": "trust",
+      "target_property": "trust_source_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "source_u_id",
+      "target_class": "trust",
+      "target_property": "trust_source_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 주는 사용자 ID",
+      "target_class": "trust",
+      "target_property": "trust_source_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 원인 사용자",
+      "target_class": "trust",
+      "target_property": "trust_source_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 출처 ID",
+      "target_class": "trust",
+      "target_property": "trust_source_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 제공자 ID",
+      "target_class": "trust",
+      "target_property": "trust_source_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 시작자 ID",
+      "target_class": "trust",
+      "target_property": "trust_source_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 기준 사용자",
+      "target_class": "trust",
+      "target_property": "trust_source_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "목표 사용자 ID",
+      "target_class": "trust",
+      "target_property": "trust_target_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "target_u_id",
+      "target_class": "trust",
+      "target_property": "trust_target_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 받는 사용자 ID",
+      "target_class": "trust",
+      "target_property": "trust_target_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 대상 사용자",
+      "target_class": "trust",
+      "target_property": "trust_target_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 수신자 ID",
+      "target_class": "trust",
+      "target_property": "trust_target_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 대상 ID",
+      "target_class": "trust",
+      "target_property": "trust_target_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 대상자",
+      "target_class": "trust",
+      "target_property": "trust_target_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 수신자",
+      "target_class": "trust",
+      "target_property": "trust_target_u_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 수치",
+      "target_class": "trust",
+      "target_property": "trust_trust",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "trust",
+      "target_class": "trust",
+      "target_property": "trust_trust",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 수준",
+      "target_class": "trust",
+      "target_property": "trust_trust",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 값",
+      "target_class": "trust",
+      "target_property": "trust_trust",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 정도",
+      "target_class": "trust",
+      "target_property": "trust_trust",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 점수",
+      "target_class": "trust",
+      "target_property": "trust_trust",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 지수",
+      "target_class": "trust",
+      "target_property": "trust_trust",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신뢰 계수",
+      "target_class": "trust",
+      "target_property": "trust_trust",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "노트북",
+      "target_class": "item",
+      "target_property": "item_title",
+      "value": "노트북"
+    },
+    {
+      "entry_type": "value",
+      "key": "스마트폰",
+      "target_class": "item",
+      "target_property": "item_title",
+      "value": "스마트폰"
+    },
+    {
+      "entry_type": "value",
+      "key": "책",
+      "target_class": "item",
+      "target_property": "item_title",
+      "value": "책"
+    },
+    {
+      "entry_type": "value",
+      "key": "김철수",
+      "target_class": "useracct",
+      "target_property": "useracct_name",
+      "value": "김철수"
+    },
+    {
+      "entry_type": "value",
+      "key": "이영희",
+      "target_class": "useracct",
+      "target_property": "useracct_name",
+      "value": "이영희"
+    }
+  ]
+}

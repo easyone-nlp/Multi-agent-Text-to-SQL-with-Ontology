@@ -1,0 +1,91 @@
+{
+  "class_table": {
+    "battle": "battle",
+    "ship": "ship",
+    "death": "death"
+  },
+  "property_column": {
+    "battle_id": [
+      "battle",
+      "id"
+    ],
+    "battle_name": [
+      "battle",
+      "name"
+    ],
+    "battle_date": [
+      "battle",
+      "date"
+    ],
+    "battle_bulgarian_commander": [
+      "battle",
+      "bulgarian_commander"
+    ],
+    "battle_latin_commander": [
+      "battle",
+      "latin_commander"
+    ],
+    "battle_result": [
+      "battle",
+      "result"
+    ],
+    "ship_lost_in_battle": [
+      "ship",
+      "lost_in_battle"
+    ],
+    "ship_id": [
+      "ship",
+      "id"
+    ],
+    "ship_name": [
+      "ship",
+      "name"
+    ],
+    "ship_tonnage": [
+      "ship",
+      "tonnage"
+    ],
+    "ship_ship_type": [
+      "ship",
+      "ship_type"
+    ],
+    "ship_location": [
+      "ship",
+      "location"
+    ],
+    "ship_disposition_of_ship": [
+      "ship",
+      "disposition_of_ship"
+    ],
+    "death_caused_by_ship_id": [
+      "death",
+      "caused_by_ship_id"
+    ],
+    "death_id": [
+      "death",
+      "id"
+    ],
+    "death_note": [
+      "death",
+      "note"
+    ],
+    "death_killed": [
+      "death",
+      "killed"
+    ],
+    "death_injured": [
+      "death",
+      "injured"
+    ]
+  },
+  "object_property_fk": {
+    "ship_battle_fk0": [
+      "ship.lost_in_battle",
+      "battle.id"
+    ],
+    "death_ship_fk1": [
+      "death.caused_by_ship_id",
+      "ship.id"
+    ]
+  }
+}

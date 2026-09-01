@@ -1,0 +1,376 @@
+{
+  "db_id": "party_host",
+  "classes": [
+    {
+      "name": "party",
+      "source_table": "party",
+      "ranking": 3.5,
+      "primary_label": "정당",
+      "synonyms": [
+        "파티",
+        "이벤트",
+        "모임",
+        "행사",
+        "축제"
+      ]
+    },
+    {
+      "name": "host",
+      "source_table": "host",
+      "ranking": 3.0,
+      "primary_label": "호스트",
+      "synonyms": [
+        "호스트",
+        "주최자",
+        "주최",
+        "주관자",
+        "장소"
+      ]
+    },
+    {
+      "name": "party_host",
+      "source_table": "party_host",
+      "ranking": 3.0,
+      "primary_label": "party host",
+      "synonyms": [
+        "연관",
+        "연계",
+        "연결",
+        "관계",
+        "연합"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "party_Party_ID",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Party_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "정당 ID",
+      "synonyms": [
+        "Party_ID",
+        "파티 ID",
+        "식별 번호",
+        "고유 번호",
+        "파티 식별자",
+        "ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "party_Party_Theme",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Party_Theme",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "정당 주제",
+      "synonyms": [
+        "파티 주제",
+        "주제",
+        "이벤트 주제",
+        "파티 테마",
+        "테마",
+        "파티 주제 정보",
+        "주제 정보",
+        "이벤트 테마"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "사회주의": [
+          "사회주의"
+        ],
+        "자유주의": [
+          "자유주의"
+        ],
+        "보수": [
+          "보수"
+        ]
+      }
+    },
+    {
+      "name": "party_Location",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "위치",
+      "synonyms": [
+        "장소",
+        "위치",
+        "이벤트 장소",
+        "파티 장소",
+        "위치 정보",
+        "이벤트 위치",
+        "파티 위치",
+        "장소 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "party_First_year",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "First_year",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "첫 번째 연도",
+      "synonyms": [
+        "첫 연도",
+        "첫 번째 연도",
+        "초기 개최 연도",
+        "처음 개최 연도",
+        "첫째 연도",
+        "처음 연도",
+        "초기 연도"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1990": [
+          "1990"
+        ],
+        "2000": [
+          "2000"
+        ]
+      }
+    },
+    {
+      "name": "party_Last_year",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Last_year",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "마지막 연도",
+      "synonyms": [
+        "마지막 연도",
+        "최종 개최 연도",
+        "최근 개최 연도",
+        "최후 연도",
+        "마지막으로 개최된 연도",
+        "최종 연도",
+        "최근 연도"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": [
+          "2020"
+        ],
+        "2023": [
+          "2023"
+        ]
+      }
+    },
+    {
+      "name": "party_Number_of_hosts",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Number_of_hosts",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "호스트 수",
+      "synonyms": [
+        "주최자 수",
+        "주최자 개수",
+        "총 주최자 수",
+        "주최자 수량",
+        "주최자 갯수",
+        "주최자 총 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "host_Host_ID",
+      "domain": "host",
+      "source_table": "host",
+      "source_column": "Host_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "호스트 ID",
+      "synonyms": [
+        "Host_ID",
+        "호스트 ID",
+        "호스트 고유 번호",
+        "식별자",
+        "ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "host_Name",
+      "domain": "host",
+      "source_table": "host",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "Name",
+        "이름",
+        "호스트 이름",
+        "성명",
+        "호스트"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "박지현": [
+          "박지현"
+        ]
+      }
+    },
+    {
+      "name": "host_Nationality",
+      "domain": "host",
+      "source_table": "host",
+      "source_column": "Nationality",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "국적",
+      "synonyms": [
+        "Nationality",
+        "국적",
+        "호스트 국적",
+        "나라",
+        "출신국"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국인": [
+          "한국인"
+        ],
+        "미국인": [
+          "미국인"
+        ]
+      }
+    },
+    {
+      "name": "host_Age",
+      "domain": "host",
+      "source_table": "host",
+      "source_column": "Age",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "나이",
+      "synonyms": [
+        "연령",
+        "나이",
+        "연齢",
+        "나이 정보",
+        "연령 정보",
+        "연령 데이터",
+        "나이 데이터",
+        "나이 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "party_host_Party_ID",
+      "domain": "party_host",
+      "source_table": "party_host",
+      "source_column": "Party_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "party id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "party_host_Host_ID",
+      "domain": "party_host",
+      "source_table": "party_host",
+      "source_column": "Host_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "host id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "party_host_Is_Main_in_Charge",
+      "domain": "party_host",
+      "source_table": "party_host",
+      "source_column": "Is_Main_in_Charge",
+      "range_types": [
+        "others"
+      ],
+      "ranking": 2.0,
+      "primary_label": "is main in charge",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "예": [
+          "예"
+        ],
+        "아니오": [
+          "아니오"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "party_host_party_fk0",
+      "domain": "party_host",
+      "range": "party",
+      "source_fk": [
+        "party_host.Party_ID",
+        "party.Party_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "주최 파티 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "party_host_host_fk1",
+      "domain": "party_host",
+      "range": "host",
+      "source_fk": [
+        "party_host.Host_ID",
+        "host.Host_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "주최 연결",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

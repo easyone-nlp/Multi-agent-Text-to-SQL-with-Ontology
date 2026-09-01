@@ -1,0 +1,1388 @@
+{
+  "db_id": "academic",
+  "classes": [
+    {
+      "name": "author",
+      "source_table": "author",
+      "ranking": 3.0,
+      "primary_label": "저자",
+      "synonyms": [
+        "저자",
+        "작가",
+        "논문 저자",
+        "연구자",
+        "작성자"
+      ]
+    },
+    {
+      "name": "conference",
+      "source_table": "conference",
+      "ranking": 3.0,
+      "primary_label": "세미나",
+      "synonyms": [
+        "컨퍼런스",
+        "학회",
+        "세미나",
+        "학술 행사",
+        "모임"
+      ]
+    },
+    {
+      "name": "domain",
+      "source_table": "domain",
+      "ranking": 1.0,
+      "primary_label": "도메인",
+      "synonyms": [
+        "분야",
+        "학문 분야",
+        "주제",
+        "학문 분야 코드",
+        "분야 코드"
+      ]
+    },
+    {
+      "name": "domain_author",
+      "source_table": "domain_author",
+      "ranking": 3.0,
+      "primary_label": "도메인 작성자",
+      "synonyms": [
+        "저자",
+        "저자 정보",
+        "저자 목록",
+        "저자 데이터",
+        "저자 관련 정보"
+      ]
+    },
+    {
+      "name": "domain_conference",
+      "source_table": "domain_conference",
+      "ranking": 3.0,
+      "primary_label": "domain conference",
+      "synonyms": [
+        "학회",
+        "학회 정보",
+        "학회 목록",
+        "학회 데이터",
+        "학회 관련 정보"
+      ]
+    },
+    {
+      "name": "journal",
+      "source_table": "journal",
+      "ranking": 3.0,
+      "primary_label": "저널",
+      "synonyms": [
+        "학술지",
+        "학술지 정보",
+        "학술지 목록",
+        "학술지 데이터",
+        "학술지 관련 정보"
+      ]
+    },
+    {
+      "name": "domain_journal",
+      "source_table": "domain_journal",
+      "ranking": 3.0,
+      "primary_label": "도메인 저널",
+      "synonyms": [
+        "학술 저널",
+        "분야별 저널",
+        "학술지",
+        "학술 저널 정보",
+        "분야별 학술지"
+      ]
+    },
+    {
+      "name": "keyword",
+      "source_table": "keyword",
+      "ranking": 3.0,
+      "primary_label": "키워드",
+      "synonyms": [
+        "학술 키워드",
+        "키워드",
+        "학문 용어",
+        "학술 용어",
+        "키워드 정보"
+      ]
+    },
+    {
+      "name": "domain_keyword",
+      "source_table": "domain_keyword",
+      "ranking": 3.5,
+      "primary_label": "도메인 키워드",
+      "synonyms": [
+        "분야 키워드",
+        "학문 키워드",
+        "분야별 키워드",
+        "키워드 분류",
+        "학술 키워드 분류"
+      ]
+    },
+    {
+      "name": "publication",
+      "source_table": "publication",
+      "ranking": 3.5,
+      "primary_label": "출판물",
+      "synonyms": [
+        "논문",
+        "출판물",
+        "학술작품",
+        "논문 발행물",
+        "학술 출판물",
+        "학술 저작물",
+        "학술 기사",
+        "학술 저널"
+      ]
+    },
+    {
+      "name": "domain_publication",
+      "source_table": "domain_publication",
+      "ranking": 3.0,
+      "primary_label": "domain publication",
+      "synonyms": [
+        "분야 논문",
+        "분야 출판물",
+        "분야 학술작품",
+        "분야 기사",
+        "분야 저널",
+        "분야 저작물",
+        "분야 발행물",
+        "분야 학술 저널"
+      ]
+    },
+    {
+      "name": "organization",
+      "source_table": "organization",
+      "ranking": 3.0,
+      "primary_label": "조직",
+      "synonyms": [
+        "기관",
+        "학술 기관",
+        "학술 조직",
+        "학술 단체",
+        "학술 기관 정보",
+        "학술 단위",
+        "학술 기관 목록",
+        "학술 조직 정보"
+      ]
+    },
+    {
+      "name": "publication_keyword",
+      "source_table": "publication_keyword",
+      "ranking": 3.0,
+      "primary_label": "출판 키워드",
+      "synonyms": [
+        "논문 키워드",
+        "학술 키워드",
+        "논문 관련 단어",
+        "키워드 목록",
+        "학술 용어"
+      ]
+    },
+    {
+      "name": "writes",
+      "source_table": "writes",
+      "ranking": 3.0,
+      "primary_label": "작성한다",
+      "synonyms": [
+        "저자 논문",
+        "작성 기록",
+        "저자 관련",
+        "작성자",
+        "저자 연결"
+      ]
+    },
+    {
+      "name": "cite",
+      "source_table": "cite",
+      "ranking": 3.0,
+      "primary_label": "인용 정보",
+      "synonyms": [
+        "인용 정보",
+        "참조 기록",
+        "인용 목록",
+        "참조 관계",
+        "인용 데이터"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "author_aid",
+      "domain": "author",
+      "source_table": "author",
+      "source_column": "aid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "저자 ID",
+      "synonyms": [
+        "aid",
+        "아이디",
+        "고유번호",
+        "아이디값",
+        "아이디 번호",
+        "아이디코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "author_homepage",
+      "domain": "author",
+      "source_table": "author",
+      "source_column": "homepage",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "홈페이지",
+      "synonyms": [
+        "homepage",
+        "홈페이지",
+        "웹사이트",
+        "홈페이지 주소",
+        "홈페이지 URL",
+        "웹사이트 주소",
+        "온라인 프로필"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "https://example.com": [
+          "https://example.com"
+        ]
+      }
+    },
+    {
+      "name": "author_name",
+      "domain": "author",
+      "source_table": "author",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "name",
+        "이름",
+        "저자 이름",
+        "성명",
+        "이름 정보",
+        "저자의 이름",
+        "이름 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "author_oid",
+      "domain": "author",
+      "source_table": "author",
+      "source_column": "oid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "oid",
+      "synonyms": [
+        "oid",
+        "학자 ID",
+        "학자 식별 번호",
+        "학자 고유 번호",
+        "학자 코드",
+        "학자 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "conference_cid",
+      "domain": "conference",
+      "source_table": "conference",
+      "source_column": "cid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "세미나 ID",
+      "synonyms": [
+        "cid",
+        "회의 ID",
+        "학술 회의 번호",
+        "논문 회의 코드",
+        "학술 행사 식별자",
+        "cid 번호",
+        "학술 행사 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "conference_homepage",
+      "domain": "conference",
+      "source_table": "conference",
+      "source_column": "homepage",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "홈페이지",
+      "synonyms": [
+        "homepage",
+        "웹사이트",
+        "홈페이지 주소",
+        "학술 회의 URL",
+        "논문 회의 주소",
+        "학술 행사 웹사이트"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "https://example.com": [
+          "https://example.com"
+        ]
+      }
+    },
+    {
+      "name": "conference_name",
+      "domain": "conference",
+      "source_table": "conference",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "name",
+        "회의 이름",
+        "학술 회의 제목",
+        "논문 회의 이름",
+        "학술 행사명",
+        "이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "domain_did",
+      "domain": "domain",
+      "source_table": "domain",
+      "source_column": "did",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "도메인 ID",
+      "synonyms": [
+        "did",
+        "도메인 ID",
+        "도메인 식별자",
+        "ID",
+        "도메인 번호",
+        "도메인 고유번호",
+        "도메인 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "domain_name",
+      "domain": "domain",
+      "source_table": "domain",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "도메인 이름",
+        "도메인명",
+        "도메인 이름 정보",
+        "도메인 제목",
+        "도메인 표시명",
+        "도메인 이름 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "예시 도메인": [
+          "예시"
+        ],
+        "주요 도메인": [
+          "주요"
+        ]
+      }
+    },
+    {
+      "name": "domain_author_aid",
+      "domain": "domain_author",
+      "source_table": "domain_author",
+      "source_column": "aid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "작성자 ID",
+      "synonyms": [
+        "aid",
+        "작가 ID",
+        "작가 식별자",
+        "작가 번호",
+        "작가 코드",
+        "작가 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "domain_author_did",
+      "domain": "domain_author",
+      "source_table": "domain_author",
+      "source_column": "did",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "도메인 ID",
+      "synonyms": [
+        "did",
+        "분야 ID",
+        "분야 식별자",
+        "분야 번호",
+        "분야 코드",
+        "분야 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "domain_conference_cid",
+      "domain": "domain_conference",
+      "source_table": "domain_conference",
+      "source_column": "cid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "회의 ID",
+      "synonyms": [
+        "cid",
+        "conference id",
+        "conference identifier",
+        "conference code",
+        "conference number",
+        "conference id number",
+        "conference code number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "domain_conference_did",
+      "domain": "domain_conference",
+      "source_table": "domain_conference",
+      "source_column": "did",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "도메인 ID",
+      "synonyms": [
+        "did",
+        "domain id",
+        "domain identifier",
+        "domain code",
+        "domain number",
+        "domain id number",
+        "domain code number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "journal_homepage",
+      "domain": "journal",
+      "source_table": "journal",
+      "source_column": "homepage",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "홈페이지",
+      "synonyms": [
+        "홈페이지",
+        "웹사이트",
+        "온라인 홈페이지",
+        "사이트 주소",
+        "홈페이지 주소",
+        "온라인 주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "journal_jid",
+      "domain": "journal",
+      "source_table": "journal",
+      "source_column": "jid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "학술지 ID",
+        "식별번호",
+        "고유번호",
+        "논문지 식별자",
+        "논문지 ID",
+        "논문지 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "journal_name",
+      "domain": "journal",
+      "source_table": "journal",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "학술지 이름",
+        "논문지 이름",
+        "제목",
+        "학술지 공식 이름",
+        "논문지 공식 이름",
+        "제목 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "domain_journal_did",
+      "domain": "domain_journal",
+      "source_table": "domain_journal",
+      "source_column": "did",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "도메인 ID",
+      "synonyms": [
+        "did",
+        "도메인 ID",
+        "도메인 식별자",
+        "도메인 번호",
+        "도메인 코드",
+        "도메인 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "domain_journal_jid",
+      "domain": "domain_journal",
+      "source_table": "domain_journal",
+      "source_column": "jid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "저널 ID",
+      "synonyms": [
+        "jid",
+        "저널 ID",
+        "저널 식별자",
+        "저널 번호",
+        "저널 코드",
+        "저널 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "keyword_keyword",
+      "domain": "keyword",
+      "source_table": "keyword",
+      "source_column": "keyword",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "키워드",
+      "synonyms": [
+        "키워드",
+        "단어",
+        "문자열",
+        "키워드 정보",
+        "검색어",
+        "어떤 단어",
+        "키워드 내용",
+        "문자열 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "기술": [
+          "기술"
+        ],
+        "소프트웨어": [
+          "소프트웨어"
+        ],
+        "인공지능": [
+          "인공지능"
+        ]
+      }
+    },
+    {
+      "name": "keyword_kid",
+      "domain": "keyword",
+      "source_table": "keyword",
+      "source_column": "kid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "키워드 ID",
+      "synonyms": [
+        "kid",
+        "아이디",
+        "키워드 ID",
+        "식별 번호",
+        "키워드 번호",
+        "키 ID",
+        "키워드 식별자",
+        "kid 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "domain_keyword_did",
+      "domain": "domain_keyword",
+      "source_table": "domain_keyword",
+      "source_column": "did",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "도메인 ID",
+      "synonyms": [
+        "did",
+        "도메인 ID",
+        "도메인 식별자",
+        "도메인 번호",
+        "도메인 코드",
+        "도메인키"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "domain_keyword_kid",
+      "domain": "domain_keyword",
+      "source_table": "domain_keyword",
+      "source_column": "kid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "키워드 ID",
+      "synonyms": [
+        "kid",
+        "키워드 ID",
+        "키워드 식별자",
+        "키워드 번호",
+        "키워드 코드",
+        "키워드키"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "publication_abstract",
+      "domain": "publication",
+      "source_table": "publication",
+      "source_column": "abstract",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "요약",
+      "synonyms": [
+        "요약",
+        "요약내용",
+        "abstract",
+        "요약문",
+        "요약 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "publication_cid",
+      "domain": "publication",
+      "source_table": "publication",
+      "source_column": "cid",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "참조 ID",
+      "synonyms": [
+        "cid",
+        "컨퍼런스 ID",
+        "컨퍼런스 식별자",
+        "cid 번호",
+        "컨퍼런스 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "publication_citation_num",
+      "domain": "publication",
+      "source_table": "publication",
+      "source_column": "citation_num",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "인용 번호",
+      "synonyms": [
+        "인용수",
+        "인용 횟수",
+        "인용수치",
+        "인용수량",
+        "인용수를 나타내는 수치",
+        "citation num"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "100": [
+          "100"
+        ]
+      }
+    },
+    {
+      "name": "publication_jid",
+      "domain": "publication",
+      "source_table": "publication",
+      "source_column": "jid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "지명 ID",
+      "synonyms": [
+        "jid",
+        "journal id",
+        "journal identifier",
+        "journal number",
+        "journal code",
+        "journal identifier number",
+        "journal id number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "publication_pid",
+      "domain": "publication",
+      "source_table": "publication",
+      "source_column": "pid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "출판물 ID",
+      "synonyms": [
+        "pid",
+        "paper id",
+        "paper identifier",
+        "paper number",
+        "paper code",
+        "paper identifier number",
+        "paper id number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "publication_reference_num",
+      "domain": "publication",
+      "source_table": "publication",
+      "source_column": "reference_num",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "참조 번호",
+      "synonyms": [
+        "reference num",
+        "reference number",
+        "reference count",
+        "reference quantity",
+        "reference value",
+        "reference identifier",
+        "reference index"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "50": [
+          "50"
+        ]
+      }
+    },
+    {
+      "name": "publication_title",
+      "domain": "publication",
+      "source_table": "publication",
+      "source_column": "title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "제목",
+      "synonyms": [
+        "제목",
+        "논문제목",
+        "논문 이름",
+        "제목 정보",
+        "제목 필드",
+        "논문 제목 정보",
+        "논문 제목 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "publication_year",
+      "domain": "publication",
+      "source_table": "publication",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "발행년도",
+        "연도 정보",
+        "논문 연도",
+        "논문 발행년도",
+        "연도 데이터",
+        "논문 연도 정보",
+        "발행년도 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": [
+          "2020"
+        ]
+      }
+    },
+    {
+      "name": "domain_publication_did",
+      "domain": "domain_publication",
+      "source_table": "domain_publication",
+      "source_column": "did",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "도메인 ID",
+      "synonyms": [
+        "did",
+        "도메인 ID",
+        "도메인 식별자",
+        "도메인 번호",
+        "도메인 코드",
+        "도메인 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "domain_publication_pid",
+      "domain": "domain_publication",
+      "source_table": "domain_publication",
+      "source_column": "pid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "출판 ID",
+      "synonyms": [
+        "pid",
+        "논문 ID",
+        "논문 식별자",
+        "논문 번호",
+        "논문 코드",
+        "논문 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "organization_continent",
+      "domain": "organization",
+      "source_table": "organization",
+      "source_column": "continent",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "대륙",
+      "synonyms": [
+        "대륙",
+        "지리적 지역",
+        "대륙 정보",
+        "지역",
+        "대륙명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아시아": [
+          "아시아"
+        ],
+        "유럽": [
+          "유럽"
+        ],
+        "아프리카": [
+          "아프리카"
+        ]
+      }
+    },
+    {
+      "name": "organization_homepage",
+      "domain": "organization",
+      "source_table": "organization",
+      "source_column": "homepage",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "홈페이지",
+      "synonyms": [
+        "웹사이트",
+        "홈페이지",
+        "공식 사이트",
+        "웹 주소",
+        "홈페이지 주소"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "organization_name",
+      "domain": "organization",
+      "source_table": "organization",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "기관명",
+        "공식 이름",
+        "기관 이름",
+        "명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "organization_oid",
+      "domain": "organization",
+      "source_table": "organization",
+      "source_column": "oid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "OID",
+      "synonyms": [
+        "oid",
+        "기관 번호",
+        "고유 식별자",
+        "기관 ID",
+        "기관 고유 번호",
+        "학술 기관 ID",
+        "식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "publication_keyword_pid",
+      "domain": "publication_keyword",
+      "source_table": "publication_keyword",
+      "source_column": "pid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "출판물 ID",
+      "synonyms": [
+        "pid",
+        "논문 ID",
+        "논문 번호",
+        "논문 식별자",
+        "학술 논문 ID",
+        "논문 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "publication_keyword_kid",
+      "domain": "publication_keyword",
+      "source_table": "publication_keyword",
+      "source_column": "kid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "키워드 ID",
+      "synonyms": [
+        "kid",
+        "키워드 ID",
+        "키워드 번호",
+        "키워드 식별자",
+        "키워드 식별 번호",
+        "키워드 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "writes_aid",
+      "domain": "writes",
+      "source_table": "writes",
+      "source_column": "aid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "작성자 ID",
+      "synonyms": [
+        "aid",
+        "작성자 ID",
+        "작성자 식별자",
+        "작성자 고유번호",
+        "작성자 번호",
+        "작성자 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "writes_pid",
+      "domain": "writes",
+      "source_table": "writes",
+      "source_column": "pid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "작성한 항목 ID",
+      "synonyms": [
+        "pid",
+        "출판물 ID",
+        "출판물 식별자",
+        "출판물 고유번호",
+        "출판물 번호",
+        "출판물 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cite_cited",
+      "domain": "cite",
+      "source_table": "cite",
+      "source_column": "cited",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "인용된 항목",
+      "synonyms": [
+        "cited",
+        "피인용된 논문",
+        "인용된 논문 번호",
+        "피인용 번호",
+        "인용 대상"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cite_citing",
+      "domain": "cite",
+      "source_table": "cite",
+      "source_column": "citing",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "인용한 항목",
+      "synonyms": [
+        "citing",
+        "인용한 논문",
+        "인용 소스",
+        "인용 논문 번호",
+        "인용 소스 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "domain_author_domain_fk0",
+      "domain": "domain_author",
+      "range": "domain",
+      "source_fk": [
+        "domain_author.did",
+        "domain.did"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "domain_author_author_fk1",
+      "domain": "domain_author",
+      "range": "author",
+      "source_fk": [
+        "domain_author.aid",
+        "author.aid"
+      ],
+      "weight": 1.0,
+      "primary_label": "작성한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "domain_conference_domain_fk2",
+      "domain": "domain_conference",
+      "range": "domain",
+      "source_fk": [
+        "domain_conference.did",
+        "domain.did"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "domain_conference_conference_fk3",
+      "domain": "domain_conference",
+      "range": "conference",
+      "source_fk": [
+        "domain_conference.cid",
+        "conference.cid"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "domain_journal_domain_fk4",
+      "domain": "domain_journal",
+      "range": "domain",
+      "source_fk": [
+        "domain_journal.did",
+        "domain.did"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "domain_journal_journal_fk5",
+      "domain": "domain_journal",
+      "range": "journal",
+      "source_fk": [
+        "domain_journal.jid",
+        "journal.jid"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "domain_keyword_domain_fk6",
+      "domain": "domain_keyword",
+      "range": "domain",
+      "source_fk": [
+        "domain_keyword.did",
+        "domain.did"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "domain_keyword_keyword_fk7",
+      "domain": "domain_keyword",
+      "range": "keyword",
+      "source_fk": [
+        "domain_keyword.kid",
+        "keyword.kid"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "publication_conference_fk8",
+      "domain": "publication",
+      "range": "conference",
+      "source_fk": [
+        "publication.cid",
+        "conference.cid"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "publication_journal_fk9",
+      "domain": "publication",
+      "range": "journal",
+      "source_fk": [
+        "publication.jid",
+        "journal.jid"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "domain_publication_domain_fk10",
+      "domain": "domain_publication",
+      "range": "domain",
+      "source_fk": [
+        "domain_publication.did",
+        "domain.did"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "domain_publication_publication_fk11",
+      "domain": "domain_publication",
+      "range": "publication",
+      "source_fk": [
+        "domain_publication.pid",
+        "publication.pid"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "publication_keyword_keyword_fk12",
+      "domain": "publication_keyword",
+      "range": "keyword",
+      "source_fk": [
+        "publication_keyword.kid",
+        "keyword.kid"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "publication_keyword_publication_fk13",
+      "domain": "publication_keyword",
+      "range": "publication",
+      "source_fk": [
+        "publication_keyword.pid",
+        "publication.pid"
+      ],
+      "weight": 1.0,
+      "primary_label": "관련",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "writes_author_fk14",
+      "domain": "writes",
+      "range": "author",
+      "source_fk": [
+        "writes.aid",
+        "author.aid"
+      ],
+      "weight": 1.0,
+      "primary_label": "작성한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "writes_publication_fk15",
+      "domain": "writes",
+      "range": "publication",
+      "source_fk": [
+        "writes.pid",
+        "publication.pid"
+      ],
+      "weight": 1.0,
+      "primary_label": "작성한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "cite_publication_fk16",
+      "domain": "cite",
+      "range": "publication",
+      "source_fk": [
+        "cite.citing",
+        "publication.pid"
+      ],
+      "weight": 1.0,
+      "primary_label": "인용한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "cite_publication_fk17",
+      "domain": "cite",
+      "range": "publication",
+      "source_fk": [
+        "cite.cited",
+        "publication.pid"
+      ],
+      "weight": 1.0,
+      "primary_label": "인용받은",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

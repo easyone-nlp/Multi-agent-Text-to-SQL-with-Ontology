@@ -1,0 +1,120 @@
+{
+  "class_table": {
+    "city": "city",
+    "farm": "farm",
+    "farm_competition": "farm_competition",
+    "competition_record": "competition_record"
+  },
+  "property_column": {
+    "city_City_ID": [
+      "city",
+      "City_ID"
+    ],
+    "city_Official_Name": [
+      "city",
+      "Official_Name"
+    ],
+    "city_Status": [
+      "city",
+      "Status"
+    ],
+    "city_Area_km_2": [
+      "city",
+      "Area_km_2"
+    ],
+    "city_Population": [
+      "city",
+      "Population"
+    ],
+    "city_Census_Ranking": [
+      "city",
+      "Census_Ranking"
+    ],
+    "farm_Farm_ID": [
+      "farm",
+      "Farm_ID"
+    ],
+    "farm_Year": [
+      "farm",
+      "Year"
+    ],
+    "farm_Total_Horses": [
+      "farm",
+      "Total_Horses"
+    ],
+    "farm_Working_Horses": [
+      "farm",
+      "Working_Horses"
+    ],
+    "farm_Total_Cattle": [
+      "farm",
+      "Total_Cattle"
+    ],
+    "farm_Oxen": [
+      "farm",
+      "Oxen"
+    ],
+    "farm_Bulls": [
+      "farm",
+      "Bulls"
+    ],
+    "farm_Cows": [
+      "farm",
+      "Cows"
+    ],
+    "farm_Pigs": [
+      "farm",
+      "Pigs"
+    ],
+    "farm_Sheep_and_Goats": [
+      "farm",
+      "Sheep_and_Goats"
+    ],
+    "farm_competition_Competition_ID": [
+      "farm_competition",
+      "Competition_ID"
+    ],
+    "farm_competition_Year": [
+      "farm_competition",
+      "Year"
+    ],
+    "farm_competition_Theme": [
+      "farm_competition",
+      "Theme"
+    ],
+    "farm_competition_Host_city_ID": [
+      "farm_competition",
+      "Host_city_ID"
+    ],
+    "farm_competition_Hosts": [
+      "farm_competition",
+      "Hosts"
+    ],
+    "competition_record_Competition_ID": [
+      "competition_record",
+      "Competition_ID"
+    ],
+    "competition_record_Farm_ID": [
+      "competition_record",
+      "Farm_ID"
+    ],
+    "competition_record_Rank": [
+      "competition_record",
+      "Rank"
+    ]
+  },
+  "object_property_fk": {
+    "farm_competition_city_fk0": [
+      "farm_competition.Host_city_ID",
+      "city.City_ID"
+    ],
+    "competition_record_farm_fk1": [
+      "competition_record.Farm_ID",
+      "farm.Farm_ID"
+    ],
+    "competition_record_farm_competition_fk2": [
+      "competition_record.Competition_ID",
+      "farm_competition.Competition_ID"
+    ]
+  }
+}

@@ -1,0 +1,788 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "범죄자",
+      "target_class": "perpetrator",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "범인",
+      "target_class": "perpetrator",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "악인",
+      "target_class": "perpetrator",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "살인자",
+      "target_class": "perpetrator",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "폭행자",
+      "target_class": "perpetrator",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "범죄인",
+      "target_class": "perpetrator",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사람",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인물",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인원",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "개인",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주체",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대상",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대상자",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "대상인",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "범죄자 ID",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Perpetrator_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "범죄자 번호",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Perpetrator_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "범죄자 식별자",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Perpetrator_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "범죄자 고유 번호",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Perpetrator_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "범죄자 코드",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Perpetrator_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Perpetrator_ID",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Perpetrator_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "범죄자 식별",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Perpetrator_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인물 ID",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인물 번호",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인물 식별자",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인물 고유 번호",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인물 코드",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "People_ID",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인물 식별",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 정보",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일시",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜 정보",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Date",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사건 날짜",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 정보",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 데이터",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 번호",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 값",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 코드",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 수치",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 데이터",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 이름",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치명",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소 이름",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소 데이터",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 정보",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 데이터",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 이름",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명 정보",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사망자 수",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Killed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "죽은 사람 수",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Killed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사망자",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Killed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사망 인원",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Killed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "죽은 수",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Killed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사망 인명",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Killed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사망 인원 수",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Killed",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해자 수",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Injured",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상처 입은 사람 수",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Injured",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해 인원",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Injured",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해자",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Injured",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해 인명",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Injured",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해 인원 수",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Injured",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상해 인명 수",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Injured",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "people id",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "People_ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인물 ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사람 번호",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인물 고유 번호",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Name",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사람 이름",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인물 이름",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "height",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Height",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신장",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키 높이",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "신장 높이",
+      "target_class": "people",
+      "target_property": "people_Height",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "weight",
+      "target_class": "people",
+      "target_property": "people_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체중",
+      "target_class": "people",
+      "target_property": "people_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "몸무게",
+      "target_class": "people",
+      "target_property": "people_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "무게",
+      "target_class": "people",
+      "target_property": "people_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "체중 정보",
+      "target_class": "people",
+      "target_property": "people_Weight",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "home town",
+      "target_class": "people",
+      "target_property": "people_Home_Town",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출신지",
+      "target_class": "people",
+      "target_property": "people_Home_Town",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주지",
+      "target_class": "people",
+      "target_property": "people_Home_Town",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원산지",
+      "target_class": "people",
+      "target_property": "people_Home_Town",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "홈타운",
+      "target_class": "people",
+      "target_property": "people_Home_Town",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "산업지",
+      "target_class": "people",
+      "target_property": "people_Home_Town",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-05-10",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Date",
+      "value": "2023-05-10"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 5월 10일",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Date",
+      "value": "2023-05-10"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Year",
+      "value": "2023"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Year",
+      "value": "2023"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Location",
+      "value": "서울시"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Location",
+      "value": "서울시"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산시",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Location",
+      "value": "부산시"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Location",
+      "value": "부산시"
+    },
+    {
+      "entry_type": "value",
+      "key": "대한민국",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Country",
+      "value": "대한민국"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Country",
+      "value": "대한민국"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Country",
+      "value": "미국"
+    },
+    {
+      "entry_type": "value",
+      "key": "USA",
+      "target_class": "perpetrator",
+      "target_property": "perpetrator_Country",
+      "value": "미국"
+    }
+  ]
+}

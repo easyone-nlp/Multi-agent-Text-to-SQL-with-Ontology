@@ -1,0 +1,494 @@
+{
+  "db_id": "battle_death",
+  "classes": [
+    {
+      "name": "battle",
+      "source_table": "battle",
+      "ranking": 3.0,
+      "primary_label": "전투",
+      "synonyms": [
+        "전투",
+        "전쟁",
+        "전투전",
+        "전투기",
+        "전투장"
+      ]
+    },
+    {
+      "name": "ship",
+      "source_table": "ship",
+      "ranking": 3.5,
+      "primary_label": "선박",
+      "synonyms": [
+        "선박",
+        "선",
+        "선함",
+        "선수",
+        "선단"
+      ]
+    },
+    {
+      "name": "death",
+      "source_table": "death",
+      "ranking": 3.0,
+      "primary_label": "사망 사건",
+      "synonyms": [
+        "사망",
+        "죽음",
+        "사망자",
+        "사망자수",
+        "사망률"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "battle_id",
+      "domain": "battle",
+      "source_table": "battle",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "ID",
+      "synonyms": [
+        "아이디",
+        "번호",
+        "코드",
+        "고유번호",
+        "식별자",
+        "지정번호",
+        "일련번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "battle_name",
+      "domain": "battle",
+      "source_table": "battle",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "전투 이름",
+      "synonyms": [
+        "전투명",
+        "전투 이름",
+        "전투 제목",
+        "전투 대상",
+        "전투 대상명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "전투명": [
+          "전투명"
+        ]
+      }
+    },
+    {
+      "name": "battle_date",
+      "domain": "battle",
+      "source_table": "battle",
+      "source_column": "date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "일자",
+      "synonyms": [
+        "일자",
+        "날짜",
+        "일",
+        "날",
+        "날짜 정보",
+        "일자 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-01": [
+          "2023년 1월 1일"
+        ]
+      }
+    },
+    {
+      "name": "battle_bulgarian_commander",
+      "domain": "battle",
+      "source_table": "battle",
+      "source_column": "bulgarian_commander",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "불가리아 지휘관",
+      "synonyms": [
+        "불가리아 지휘자",
+        "불가리아 장군",
+        "불가리아 군사 지휘관",
+        "불가리아 군대 지휘자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "이순신": [
+          "이순신",
+          "이순신 대장"
+        ]
+      }
+    },
+    {
+      "name": "battle_latin_commander",
+      "domain": "battle",
+      "source_table": "battle",
+      "source_column": "latin_commander",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "라틴 지휘관",
+      "synonyms": [
+        "라틴 지휘자",
+        "라틴 장군",
+        "라틴 군사 지휘관",
+        "라틴 군대 지휘자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "조선왕": [
+          "조선왕",
+          "조선 왕"
+        ]
+      }
+    },
+    {
+      "name": "battle_result",
+      "domain": "battle",
+      "source_table": "battle",
+      "source_column": "result",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "결과",
+      "synonyms": [
+        "결과",
+        "전투 결과",
+        "전투 결과 정보",
+        "전투 결과 사항",
+        "전투 결과 요약"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승리": [
+          "승리",
+          "패배"
+        ]
+      }
+    },
+    {
+      "name": "ship_lost_in_battle",
+      "domain": "ship",
+      "source_table": "ship",
+      "source_column": "lost_in_battle",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "전투 손실",
+      "synonyms": [
+        "전투 손실",
+        "전투 손해",
+        "전투 손실 수",
+        "전투 손실 건수",
+        "전투 손실 개수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "ship_id",
+      "domain": "ship",
+      "source_table": "ship",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "아이디",
+        "고유 번호",
+        "식별자",
+        "고유 ID",
+        "번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "ship_name",
+      "domain": "ship",
+      "source_table": "ship",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "등록 이름",
+        "선박명",
+        "선박 이름",
+        "이름 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "아이언 하이브리드": [
+          "아이언 하이브리드"
+        ],
+        "서울 해양선박": [
+          "서울 해양선박"
+        ]
+      }
+    },
+    {
+      "name": "ship_tonnage",
+      "domain": "ship",
+      "source_table": "ship",
+      "source_column": "tonnage",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "톤수",
+      "synonyms": [
+        "톤수",
+        "톤수량",
+        "총톤수",
+        "톤수 정보",
+        "톤수 기준",
+        "톤수 데이터",
+        "톤수 지표"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "ship_ship_type",
+      "domain": "ship",
+      "source_table": "ship",
+      "source_column": "ship_type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "선박 유형",
+      "synonyms": [
+        "선박 종류",
+        "선박 유형",
+        "선박 카테고리",
+        "선박 타입",
+        "선박 구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "운송선": [
+          "운송선",
+          "운송용 선박"
+        ],
+        "전투선": [
+          "전투선",
+          "전투용 선박"
+        ]
+      }
+    },
+    {
+      "name": "ship_location",
+      "domain": "ship",
+      "source_table": "ship",
+      "source_column": "location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "위치",
+      "synonyms": [
+        "위치",
+        "위치 정보",
+        "좌표",
+        "위치 지정",
+        "위치 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "부산": [
+          "부산"
+        ]
+      }
+    },
+    {
+      "name": "ship_disposition_of_ship",
+      "domain": "ship",
+      "source_table": "ship",
+      "source_column": "disposition_of_ship",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "선박의 처분 상태",
+      "synonyms": [
+        "처분 상태",
+        "현황",
+        "상태",
+        "상황",
+        "처분 상황",
+        "처분 현황"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "폐기": [
+          "폐기"
+        ],
+        "보유": [
+          "보유"
+        ],
+        "이전": [
+          "이전"
+        ]
+      }
+    },
+    {
+      "name": "death_caused_by_ship_id",
+      "domain": "death",
+      "source_table": "death",
+      "source_column": "caused_by_ship_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "사고 발생 선박 ID",
+      "synonyms": [
+        "발생 선박 ID",
+        "사고 선박 번호",
+        "선박 식별자",
+        "선박 고유 번호",
+        "사고 관련 선박 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "death_id",
+      "domain": "death",
+      "source_table": "death",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "사망 사건 ID",
+      "synonyms": [
+        "사망 사건 번호",
+        "사망 사고 ID",
+        "사망 사건 고유 번호",
+        "사망 사건 식별자",
+        "사망 사고 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "death_note",
+      "domain": "death",
+      "source_table": "death",
+      "source_column": "note",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "비고",
+      "synonyms": [
+        "비고",
+        "추가 설명",
+        "비고 항목",
+        "추가 정보",
+        "비고 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "사고 상세 설명": [
+          "상세 설명",
+          "사고 설명"
+        ]
+      }
+    },
+    {
+      "name": "death_killed",
+      "domain": "death",
+      "source_table": "death",
+      "source_column": "killed",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "사망자 수",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "death_injured",
+      "domain": "death",
+      "source_table": "death",
+      "source_column": "injured",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "상해자 수",
+      "synonyms": [
+        "상해자 수",
+        "상해 수",
+        "상해 인원",
+        "상해자 수량",
+        "상해자 수치",
+        "상해 인원 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "ship_battle_fk0",
+      "domain": "ship",
+      "range": "battle",
+      "source_fk": [
+        "ship.lost_in_battle",
+        "battle.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "전투에서 잃음",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "death_ship_fk1",
+      "domain": "death",
+      "range": "ship",
+      "source_fk": [
+        "death.caused_by_ship_id",
+        "ship.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "선박으로 인한 사망",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

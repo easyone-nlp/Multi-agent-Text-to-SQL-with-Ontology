@@ -1,0 +1,112 @@
+{
+  "class_table": {
+    "Customer_Master_Index": "Customer_Master_Index",
+    "CMI_Cross_References": "CMI_Cross_References",
+    "Council_Tax": "Council_Tax",
+    "Business_Rates": "Business_Rates",
+    "Benefits_Overpayments": "Benefits_Overpayments",
+    "Parking_Fines": "Parking_Fines",
+    "Rent_Arrears": "Rent_Arrears",
+    "Electoral_Register": "Electoral_Register"
+  },
+  "property_column": {
+    "Customer_Master_Index_master_customer_id": [
+      "Customer_Master_Index",
+      "master_customer_id"
+    ],
+    "Customer_Master_Index_cmi_details": [
+      "Customer_Master_Index",
+      "cmi_details"
+    ],
+    "CMI_Cross_References_cmi_cross_ref_id": [
+      "CMI_Cross_References",
+      "cmi_cross_ref_id"
+    ],
+    "CMI_Cross_References_master_customer_id": [
+      "CMI_Cross_References",
+      "master_customer_id"
+    ],
+    "CMI_Cross_References_source_system_code": [
+      "CMI_Cross_References",
+      "source_system_code"
+    ],
+    "Council_Tax_council_tax_id": [
+      "Council_Tax",
+      "council_tax_id"
+    ],
+    "Council_Tax_cmi_cross_ref_id": [
+      "Council_Tax",
+      "cmi_cross_ref_id"
+    ],
+    "Business_Rates_business_rates_id": [
+      "Business_Rates",
+      "business_rates_id"
+    ],
+    "Business_Rates_cmi_cross_ref_id": [
+      "Business_Rates",
+      "cmi_cross_ref_id"
+    ],
+    "Benefits_Overpayments_council_tax_id": [
+      "Benefits_Overpayments",
+      "council_tax_id"
+    ],
+    "Benefits_Overpayments_cmi_cross_ref_id": [
+      "Benefits_Overpayments",
+      "cmi_cross_ref_id"
+    ],
+    "Parking_Fines_council_tax_id": [
+      "Parking_Fines",
+      "council_tax_id"
+    ],
+    "Parking_Fines_cmi_cross_ref_id": [
+      "Parking_Fines",
+      "cmi_cross_ref_id"
+    ],
+    "Rent_Arrears_council_tax_id": [
+      "Rent_Arrears",
+      "council_tax_id"
+    ],
+    "Rent_Arrears_cmi_cross_ref_id": [
+      "Rent_Arrears",
+      "cmi_cross_ref_id"
+    ],
+    "Electoral_Register_electoral_register_id": [
+      "Electoral_Register",
+      "electoral_register_id"
+    ],
+    "Electoral_Register_cmi_cross_ref_id": [
+      "Electoral_Register",
+      "cmi_cross_ref_id"
+    ]
+  },
+  "object_property_fk": {
+    "CMI_Cross_References_Customer_Master_Index_fk0": [
+      "CMI_Cross_References.master_customer_id",
+      "Customer_Master_Index.master_customer_id"
+    ],
+    "Council_Tax_CMI_Cross_References_fk1": [
+      "Council_Tax.cmi_cross_ref_id",
+      "CMI_Cross_References.cmi_cross_ref_id"
+    ],
+    "Business_Rates_CMI_Cross_References_fk2": [
+      "Business_Rates.cmi_cross_ref_id",
+      "CMI_Cross_References.cmi_cross_ref_id"
+    ],
+    "Benefits_Overpayments_CMI_Cross_References_fk3": [
+      "Benefits_Overpayments.cmi_cross_ref_id",
+      "CMI_Cross_References.cmi_cross_ref_id"
+    ],
+    "Parking_Fines_CMI_Cross_References_fk4": [
+      "Parking_Fines.cmi_cross_ref_id",
+      "CMI_Cross_References.cmi_cross_ref_id"
+    ],
+    "Rent_Arrears_CMI_Cross_References_fk5": [
+      "Rent_Arrears.cmi_cross_ref_id",
+      "CMI_Cross_References.cmi_cross_ref_id"
+    ],
+    "Electoral_Register_CMI_Cross_References_fk6": [
+      "Electoral_Register.cmi_cross_ref_id",
+      "CMI_Cross_References.cmi_cross_ref_id"
+    ]
+  }
+}

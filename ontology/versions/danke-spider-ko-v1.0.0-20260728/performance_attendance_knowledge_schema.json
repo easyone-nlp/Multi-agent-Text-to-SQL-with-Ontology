@@ -1,0 +1,325 @@
+{
+  "db_id": "performance_attendance",
+  "classes": [
+    {
+      "name": "member",
+      "source_table": "member",
+      "ranking": 3.0,
+      "primary_label": "멤버",
+      "synonyms": [
+        "회원",
+        "사용자",
+        "이용자",
+        "회원 정보",
+        "사람"
+      ]
+    },
+    {
+      "name": "performance",
+      "source_table": "performance",
+      "ranking": 3.5,
+      "primary_label": "성과",
+      "synonyms": [
+        "연출",
+        "공연",
+        "성능 데이터",
+        "공연 정보",
+        "연기"
+      ]
+    },
+    {
+      "name": "member_attendance",
+      "source_table": "member_attendance",
+      "ranking": 3.0,
+      "primary_label": "member attendance",
+      "synonyms": [
+        "출석",
+        "출석 기록",
+        "출석 정보",
+        "출석 내역",
+        "출석 데이터"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "member_Member_ID",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Member_ID",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "멤버 ID",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "member_Name",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "박지민": [
+          "박지민"
+        ]
+      }
+    },
+    {
+      "name": "member_Nationality",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Nationality",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "국적",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "한국": [
+          "한국"
+        ],
+        "미국": [
+          "미국"
+        ]
+      }
+    },
+    {
+      "name": "member_Role",
+      "domain": "member",
+      "source_table": "member",
+      "source_column": "Role",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "역할",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "관리자": [
+          "관리자"
+        ],
+        "일반 사용자": [
+          "일반 사용자"
+        ]
+      }
+    },
+    {
+      "name": "performance_Performance_ID",
+      "domain": "performance",
+      "source_table": "performance",
+      "source_column": "Performance_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "성과 ID",
+      "synonyms": [
+        "Performance_ID",
+        "공연 ID",
+        "수행 ID",
+        "공연 번호",
+        "행사 ID",
+        "수행 식별자",
+        "행사 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "performance_Date",
+      "domain": "performance",
+      "source_table": "performance",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "일자",
+      "synonyms": [
+        "Date",
+        "날짜",
+        "일자",
+        "일정",
+        "일자 정보",
+        "공연 날짜",
+        "행사 날짜",
+        "일자 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-01": [
+          "2023년 10월 1일",
+          "10월 1일"
+        ]
+      }
+    },
+    {
+      "name": "performance_Host",
+      "domain": "performance",
+      "source_table": "performance",
+      "source_column": "Host",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "호스트",
+      "synonyms": [
+        "Host",
+        "주최자",
+        "주최 단체",
+        "주최",
+        "행사 주최자",
+        "행사 주최 단체",
+        "주최 기관"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ]
+      }
+    },
+    {
+      "name": "performance_Location",
+      "domain": "performance",
+      "source_table": "performance",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "장소",
+      "synonyms": [
+        "장소",
+        "위치",
+        "공연장",
+        "행사장",
+        "장소명",
+        "Location",
+        "장소 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 강남구": [
+          "강남구",
+          "서울 강남구"
+        ]
+      }
+    },
+    {
+      "name": "performance_Attendance",
+      "domain": "performance",
+      "source_table": "performance",
+      "source_column": "Attendance",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "참석 인원",
+      "synonyms": [
+        "참석자 수",
+        "인원수",
+        "출석자 수",
+        "인원",
+        "Attendance",
+        "출석 인원"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "member_attendance_Member_ID",
+      "domain": "member_attendance",
+      "source_table": "member_attendance",
+      "source_column": "Member_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "member id",
+      "synonyms": [
+        "회원 ID",
+        "회원 번호",
+        "사용자 ID",
+        "회원 식별자",
+        "회원 구분자",
+        "Member_ID",
+        "회원 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "member_attendance_Performance_ID",
+      "domain": "member_attendance",
+      "source_table": "member_attendance",
+      "source_column": "Performance_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "performance id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "member_attendance_Num_of_Pieces",
+      "domain": "member_attendance",
+      "source_table": "member_attendance",
+      "source_column": "Num_of_Pieces",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "num of pieces",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "member_attendance_performance_fk0",
+      "domain": "member_attendance",
+      "range": "performance",
+      "source_fk": [
+        "member_attendance.Performance_ID",
+        "performance.Performance_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참여한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "member_attendance_member_fk1",
+      "domain": "member_attendance",
+      "range": "member",
+      "source_fk": [
+        "member_attendance.Member_ID",
+        "member.Member_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "참가한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

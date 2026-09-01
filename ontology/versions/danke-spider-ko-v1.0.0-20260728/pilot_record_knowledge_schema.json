@@ -1,0 +1,478 @@
+{
+  "db_id": "pilot_record",
+  "classes": [
+    {
+      "name": "aircraft",
+      "source_table": "aircraft",
+      "ranking": 3.5,
+      "primary_label": "비행기",
+      "synonyms": [
+        "비행기",
+        "항공기",
+        "비행차량",
+        "비행기 정보",
+        "비행기 데이터"
+      ]
+    },
+    {
+      "name": "pilot",
+      "source_table": "pilot",
+      "ranking": 1.0,
+      "primary_label": "pilot",
+      "synonyms": [
+        "비행사",
+        "비행요원",
+        "비행자",
+        "비행 인력",
+        "비행자 정보"
+      ]
+    },
+    {
+      "name": "pilot_record",
+      "source_table": "pilot_record",
+      "ranking": 3.0,
+      "primary_label": "pilot record",
+      "synonyms": [
+        "비행기 기록",
+        "비행사 기록",
+        "항공기 운항 기록",
+        "비행사 운항 기록",
+        "비행 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "aircraft_Aircraft_ID",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "Aircraft_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "비행기 id",
+      "synonyms": [
+        "비행기 ID",
+        "비행기 고유번호",
+        "기차 ID",
+        "기차 고유번호",
+        "Aircraft_ID",
+        "기차 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "aircraft_Order_Year",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "Order_Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "주문 연도",
+      "synonyms": [
+        "주문 년도",
+        "구매년도",
+        "Aircraft_Year",
+        "비행기 주문년도",
+        "비행기 구매년도"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "aircraft_Manufacturer",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "Manufacturer",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "제조업체",
+      "synonyms": [
+        "제조사",
+        "제조사명",
+        "제작회사",
+        "제조사 이름",
+        "Aircraft_Manufacturer",
+        "비행기 제조사"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "boeing": [
+          "boeing",
+          "보잉"
+        ],
+        "airbus": [
+          "airbus",
+          "에어버스"
+        ]
+      }
+    },
+    {
+      "name": "aircraft_Model",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "Model",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "모델",
+      "synonyms": [
+        "모델",
+        "모델명",
+        "기종",
+        "모델 이름",
+        "기종명",
+        "모델 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "737": [
+          "737",
+          "세이브 세븐"
+        ],
+        "a320": [
+          "a320",
+          "에어버스 320"
+        ]
+      }
+    },
+    {
+      "name": "aircraft_Fleet_Series",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "Fleet_Series",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "플레트 시리즈",
+      "synonyms": [
+        "페리트 시리즈",
+        "시리즈",
+        "페리트 번호",
+        "시리즈 번호",
+        "페리트 시리즈명",
+        "시리즈 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "737-800": [
+          "737-800",
+          "세이브 세븐 800"
+        ]
+      }
+    },
+    {
+      "name": "aircraft_Powertrain",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "Powertrain",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "파워트레인",
+      "synonyms": [
+        "파워트레인",
+        "엔진 유형",
+        "동력 시스템",
+        "파워트레인 유형",
+        "동력 방식",
+        "파워트레인 정보",
+        "동력 시스템 유형"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "turbofan": [
+          "터보팬",
+          "터보팬 엔진"
+        ]
+      }
+    },
+    {
+      "name": "aircraft_Fuel_Propulsion",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "Fuel_Propulsion",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "연료 추진 방식",
+      "synonyms": [
+        "연료 연소 방식",
+        "연료 구동 방식",
+        "연료 타입",
+        "비행기 연료 구동 방식",
+        "연료 사용 방식",
+        "연료 구동 타입"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "jet fuel": [
+          "제트 연료",
+          "제트 연료 사용"
+        ]
+      }
+    },
+    {
+      "name": "pilot_Pilot_ID",
+      "domain": "pilot",
+      "source_table": "pilot",
+      "source_column": "Pilot_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "pilot id",
+      "synonyms": [
+        "Pilot_ID",
+        "피터 ID",
+        "피터 식별 번호",
+        "pilot 식별자",
+        "ID",
+        "pilot 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pilot_Pilot_name",
+      "domain": "pilot",
+      "source_table": "pilot",
+      "source_column": "Pilot_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "pilot name",
+      "synonyms": [
+        "Pilot_name",
+        "피터 이름",
+        "pilot 이름",
+        "이름",
+        "pilot"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pilot_Rank",
+      "domain": "pilot",
+      "source_table": "pilot",
+      "source_column": "Rank",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "rank",
+      "synonyms": [
+        "Rank",
+        "등급",
+        "피터 등급",
+        "등급 정보",
+        "rank 정보",
+        "pilot 등급"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pilot_Age",
+      "domain": "pilot",
+      "source_table": "pilot",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "연령",
+        "나이",
+        "연대",
+        "생년",
+        "나이 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pilot_Nationality",
+      "domain": "pilot",
+      "source_table": "pilot",
+      "source_column": "Nationality",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "nationality",
+      "synonyms": [
+        "국적",
+        "나라",
+        "국적 정보",
+        "소속국",
+        "국적별"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pilot_Position",
+      "domain": "pilot",
+      "source_table": "pilot",
+      "source_column": "Position",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "position",
+      "synonyms": [
+        "직책",
+        "직위",
+        "직역",
+        "직책 정보",
+        "역할"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pilot_Join_Year",
+      "domain": "pilot",
+      "source_table": "pilot",
+      "source_column": "Join_Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "join year",
+      "synonyms": [
+        "입단년도",
+        "입사년도",
+        "참가년도",
+        "결정년도",
+        "Join_Year"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pilot_Team",
+      "domain": "pilot",
+      "source_table": "pilot",
+      "source_column": "Team",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "team",
+      "synonyms": [
+        "팀",
+        "소속팀",
+        "팀명",
+        "팀 이름",
+        "팀명칭",
+        "Team",
+        "소속팀명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pilot_record_Record_ID",
+      "domain": "pilot_record",
+      "source_table": "pilot_record",
+      "source_column": "Record_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "record id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pilot_record_Pilot_ID",
+      "domain": "pilot_record",
+      "source_table": "pilot_record",
+      "source_column": "Pilot_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "pilot id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pilot_record_Aircraft_ID",
+      "domain": "pilot_record",
+      "source_table": "pilot_record",
+      "source_column": "Aircraft_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "aircraft id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "pilot_record_Date",
+      "domain": "pilot_record",
+      "source_table": "pilot_record",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "date",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-01-01": [
+          "2023년 1월 1일"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "pilot_record_aircraft_fk0",
+      "domain": "pilot_record",
+      "range": "aircraft",
+      "source_fk": [
+        "pilot_record.Aircraft_ID",
+        "aircraft.Aircraft_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "운항한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "pilot_record_pilot_fk1",
+      "domain": "pilot_record",
+      "range": "pilot",
+      "source_fk": [
+        "pilot_record.Pilot_ID",
+        "pilot.Pilot_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "운항한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

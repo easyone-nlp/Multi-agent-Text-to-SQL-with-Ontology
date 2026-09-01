@@ -1,0 +1,522 @@
+{
+  "db_id": "voter_2",
+  "classes": [
+    {
+      "name": "Student",
+      "source_table": "Student",
+      "ranking": 3.5,
+      "primary_label": "학생",
+      "synonyms": [
+        "학생 정보",
+        "학생 데이터",
+        "학생 목록",
+        "학생 기록",
+        "학생 정보 테이블",
+        "학생 정보 저장소"
+      ]
+    },
+    {
+      "name": "Voting_record",
+      "source_table": "Voting_record",
+      "ranking": 3.5,
+      "primary_label": "voting record",
+      "synonyms": [
+        "투표 기록",
+        "투표 데이터",
+        "투표 로그",
+        "투표 기록 테이블",
+        "투표 정보",
+        "투표 기록 저장소"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Student_StuID",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "StuID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 ID",
+        "학번",
+        "학번 번호",
+        "StuID",
+        "학생 고유 번호",
+        "학번 코드",
+        "학생 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_LName",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "LName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "성명",
+        "성 부분",
+        "LName",
+        "학생 성",
+        "성 정보",
+        "성 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김",
+          "이",
+          "박"
+        ]
+      }
+    },
+    {
+      "name": "Student_Fname",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Fname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "성명",
+        "이름 부분",
+        "Fname",
+        "학생 이름",
+        "이름 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "민수": [
+          "민수",
+          "지현",
+          "서연"
+        ]
+      }
+    },
+    {
+      "name": "Student_Age",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "나이",
+      "synonyms": [
+        "연령",
+        "나이",
+        "나이 정보",
+        "연령 데이터",
+        "나이 열",
+        "연령 컬럼",
+        "나이 값",
+        "연령 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Sex",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Sex",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성별",
+      "synonyms": [
+        "성별",
+        "성",
+        "성별 정보",
+        "성별 데이터",
+        "성별 열",
+        "성별 컬럼",
+        "성별 값",
+        "성별 기준"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남자": [
+          "남자",
+          "여자"
+        ]
+      }
+    },
+    {
+      "name": "Student_Major",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Major",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "전공",
+      "synonyms": [
+        "전공",
+        "전공 분야",
+        "전공 정보",
+        "전공 데이터",
+        "전공 열",
+        "전공 컬럼",
+        "전공 값",
+        "전공 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Advisor",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Advisor",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "상담사",
+      "synonyms": [
+        "교수",
+        "멘토",
+        "지도자",
+        "강사",
+        "멘토 번호",
+        "지도자 ID",
+        "Advisor",
+        "교수 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_city_code",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "city_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "시 코드",
+      "synonyms": [
+        "도시 코드",
+        "도시 코드 정보",
+        "도시 코드 값",
+        "city_code",
+        "거주 도시 코드",
+        "도시 코드 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "01": [
+          "01",
+          "02",
+          "03"
+        ]
+      }
+    },
+    {
+      "name": "Voting_record_StuID",
+      "domain": "Voting_record",
+      "source_table": "Voting_record",
+      "source_column": "StuID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "student id",
+      "synonyms": [
+        "학생 ID",
+        "학번",
+        "학생 식별 번호",
+        "StuID",
+        "학생 고유 번호",
+        "학번 정보",
+        "학생 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Voting_record_Registration_Date",
+      "domain": "Voting_record",
+      "source_table": "Voting_record",
+      "source_column": "Registration_Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "registration date",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-05-10": [
+          "2023년 5월 10일",
+          "2023-05-10"
+        ]
+      }
+    },
+    {
+      "name": "Voting_record_Election_Cycle",
+      "domain": "Voting_record",
+      "source_table": "Voting_record",
+      "source_column": "Election_Cycle",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "election cycle",
+      "synonyms": [
+        "선거 주기",
+        "선거 주기 정보",
+        "선거 주기 기록",
+        "선거 주기 데이터",
+        "선거 주기 번호",
+        "선거 주기 코드",
+        "선거 주기 명",
+        "선거 주기 표기"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023": [
+          "2023년",
+          "2023"
+        ],
+        "2024": [
+          "2024년",
+          "2024"
+        ]
+      }
+    },
+    {
+      "name": "Voting_record_President_Vote",
+      "domain": "Voting_record",
+      "source_table": "Voting_record",
+      "source_column": "President_Vote",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "president vote",
+      "synonyms": [
+        "대통령 투표",
+        "대선 투표",
+        "대통령 득표수",
+        "대선 득표",
+        "대통령 후보 득표"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Voting_record_Vice_President_Vote",
+      "domain": "Voting_record",
+      "source_table": "Voting_record",
+      "source_column": "Vice_President_Vote",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "vice president vote",
+      "synonyms": [
+        "부통령 투표",
+        "부대선 투표",
+        "부통령 득표수",
+        "부대선 득표",
+        "부통령 후보 득표"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Voting_record_Secretary_Vote",
+      "domain": "Voting_record",
+      "source_table": "Voting_record",
+      "source_column": "Secretary_Vote",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "secretary vote",
+      "synonyms": [
+        "비서 투표",
+        "비서 후보 투표",
+        "비서 득표수",
+        "비서 득표",
+        "비서 후보 득표"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Voting_record_Treasurer_Vote",
+      "domain": "Voting_record",
+      "source_table": "Voting_record",
+      "source_column": "Treasurer_Vote",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "treasurer vote",
+      "synonyms": [
+        "재정장 투표",
+        "재정장 드린 투표",
+        "재정장 투표 수",
+        "Treasurer_Vote",
+        "재정장 드린 투표 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Voting_record_Class_President_Vote",
+      "domain": "Voting_record",
+      "source_table": "Voting_record",
+      "source_column": "Class_President_Vote",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "class president vote",
+      "synonyms": [
+        "반장 투표",
+        "반장 드린 투표",
+        "반장 투표 수",
+        "Class_President_Vote",
+        "반장 드린 투표 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Voting_record_Class_Senator_Vote",
+      "domain": "Voting_record",
+      "source_table": "Voting_record",
+      "source_column": "Class_Senator_Vote",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "class senator vote",
+      "synonyms": [
+        "반대표 투표",
+        "반대표 드린 투표",
+        "반대표 투표 수",
+        "Class_Senator_Vote",
+        "반대표 드린 투표 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Voting_record_Student_fk0",
+      "domain": "Voting_record",
+      "range": "Student",
+      "source_fk": [
+        "Voting_record.Class_Senator_Vote",
+        "Student.StuID"
+      ],
+      "weight": 1.0,
+      "primary_label": "클래스 총장 투표",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Voting_record_Student_fk1",
+      "domain": "Voting_record",
+      "range": "Student",
+      "source_fk": [
+        "Voting_record.Class_President_Vote",
+        "Student.StuID"
+      ],
+      "weight": 1.0,
+      "primary_label": "클래스 대표 투표",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Voting_record_Student_fk2",
+      "domain": "Voting_record",
+      "range": "Student",
+      "source_fk": [
+        "Voting_record.Treasurer_Vote",
+        "Student.StuID"
+      ],
+      "weight": 1.0,
+      "primary_label": "재무 책임자 투표",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Voting_record_Student_fk3",
+      "domain": "Voting_record",
+      "range": "Student",
+      "source_fk": [
+        "Voting_record.Secretary_Vote",
+        "Student.StuID"
+      ],
+      "weight": 1.0,
+      "primary_label": "서기 투표",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Voting_record_Student_fk4",
+      "domain": "Voting_record",
+      "range": "Student",
+      "source_fk": [
+        "Voting_record.Vice_President_Vote",
+        "Student.StuID"
+      ],
+      "weight": 1.0,
+      "primary_label": "부대표 투표",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Voting_record_Student_fk5",
+      "domain": "Voting_record",
+      "range": "Student",
+      "source_fk": [
+        "Voting_record.President_Vote",
+        "Student.StuID"
+      ],
+      "weight": 1.0,
+      "primary_label": "대표 투표",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Voting_record_Student_fk6",
+      "domain": "Voting_record",
+      "range": "Student",
+      "source_fk": [
+        "Voting_record.StuID",
+        "Student.StuID"
+      ],
+      "weight": 1.0,
+      "primary_label": "학생 ID 투표",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

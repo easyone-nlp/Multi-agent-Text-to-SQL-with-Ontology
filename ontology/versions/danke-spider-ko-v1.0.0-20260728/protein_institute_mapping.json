@@ -1,0 +1,107 @@
+{
+  "class_table": {
+    "building": "building",
+    "Institution": "Institution",
+    "protein": "protein"
+  },
+  "property_column": {
+    "building_building_id": [
+      "building",
+      "building_id"
+    ],
+    "building_Name": [
+      "building",
+      "Name"
+    ],
+    "building_Street_address": [
+      "building",
+      "Street_address"
+    ],
+    "building_Years_as_tallest": [
+      "building",
+      "Years_as_tallest"
+    ],
+    "building_Height_feet": [
+      "building",
+      "Height_feet"
+    ],
+    "building_Floors": [
+      "building",
+      "Floors"
+    ],
+    "Institution_Institution_id": [
+      "Institution",
+      "Institution_id"
+    ],
+    "Institution_Institution": [
+      "Institution",
+      "Institution"
+    ],
+    "Institution_Location": [
+      "Institution",
+      "Location"
+    ],
+    "Institution_Founded": [
+      "Institution",
+      "Founded"
+    ],
+    "Institution_Type": [
+      "Institution",
+      "Type"
+    ],
+    "Institution_Enrollment": [
+      "Institution",
+      "Enrollment"
+    ],
+    "Institution_Team": [
+      "Institution",
+      "Team"
+    ],
+    "Institution_Primary_Conference": [
+      "Institution",
+      "Primary_Conference"
+    ],
+    "Institution_building_id": [
+      "Institution",
+      "building_id"
+    ],
+    "protein_common_name": [
+      "protein",
+      "common_name"
+    ],
+    "protein_protein_name": [
+      "protein",
+      "protein_name"
+    ],
+    "protein_divergence_from_human_lineage": [
+      "protein",
+      "divergence_from_human_lineage"
+    ],
+    "protein_accession_number": [
+      "protein",
+      "accession_number"
+    ],
+    "protein_sequence_length": [
+      "protein",
+      "sequence_length"
+    ],
+    "protein_sequence_identity_to_human_protein": [
+      "protein",
+      "sequence_identity_to_human_protein"
+    ],
+    "protein_Institution_id": [
+      "protein",
+      "Institution_id"
+    ]
+  },
+  "object_property_fk": {
+    "Institution_building_fk0": [
+      "Institution.building_id",
+      "building.building_id"
+    ],
+    "protein_Institution_fk1": [
+      "protein.Institution_id",
+      "Institution.Institution_id"
+    ]
+  }
+}

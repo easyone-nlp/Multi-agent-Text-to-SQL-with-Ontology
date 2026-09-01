@@ -1,0 +1,1389 @@
+{
+  "db_id": "e_government",
+  "classes": [
+    {
+      "name": "Addresses",
+      "source_table": "Addresses",
+      "ranking": 3.5,
+      "primary_label": "주소",
+      "synonyms": [
+        "주소",
+        "주소록",
+        "주소 정보",
+        "주소 목록",
+        "주소 데이터"
+      ]
+    },
+    {
+      "name": "Services",
+      "source_table": "Services",
+      "ranking": 3.5,
+      "primary_label": "서비스",
+      "synonyms": [
+        "서비스",
+        "서비스 목록",
+        "서비스 정보",
+        "서비스 데이터",
+        "서비스 등록"
+      ]
+    },
+    {
+      "name": "Forms",
+      "source_table": "Forms",
+      "ranking": 3.0,
+      "primary_label": "forms",
+      "synonyms": [
+        "폼",
+        "폼 데이터",
+        "폼 정보",
+        "폼 목록",
+        "폼 입력"
+      ]
+    },
+    {
+      "name": "Individuals",
+      "source_table": "Individuals",
+      "ranking": 1.0,
+      "primary_label": "individuals",
+      "synonyms": [
+        "개인",
+        "인물",
+        "개인정보",
+        "이름",
+        "주민등록번호"
+      ]
+    },
+    {
+      "name": "Organizations",
+      "source_table": "Organizations",
+      "ranking": 3.0,
+      "primary_label": "조직",
+      "synonyms": [
+        "기관",
+        "조직",
+        "회사",
+        "단체",
+        "기관정보"
+      ]
+    },
+    {
+      "name": "Parties",
+      "source_table": "Parties",
+      "ranking": 1.0,
+      "primary_label": "parties",
+      "synonyms": [
+        "정당",
+        "정파",
+        "정당정보",
+        "정당명",
+        "정당 관련"
+      ]
+    },
+    {
+      "name": "Organization_Contact_Individuals",
+      "source_table": "Organization_Contact_Individuals",
+      "ranking": 3.5,
+      "primary_label": "organization contact individuals",
+      "synonyms": []
+    },
+    {
+      "name": "Party_Addresses",
+      "source_table": "Party_Addresses",
+      "ranking": 3.5,
+      "primary_label": "party addresses",
+      "synonyms": [
+        "정당 주소",
+        "정당 위치",
+        "정당 주소 정보",
+        "정당 주소 목록",
+        "정당 주소 데이터",
+        "정당 주소 기록"
+      ]
+    },
+    {
+      "name": "Party_Forms",
+      "source_table": "Party_Forms",
+      "ranking": 3.0,
+      "primary_label": "party forms",
+      "synonyms": [
+        "정당 문서 형식",
+        "정당 문서 구조",
+        "정당 문서 형식 정의",
+        "정당 문서 형식 정보",
+        "정당 문서 형식 목록",
+        "정당 문서 형식 데이터"
+      ]
+    },
+    {
+      "name": "Party_Services",
+      "source_table": "Party_Services",
+      "ranking": 3.0,
+      "primary_label": "party services",
+      "synonyms": [
+        "정당 서비스",
+        "정당 온라인 서비스",
+        "정당 관련 서비스",
+        "정당 제공 서비스",
+        "정당 온라인 정보",
+        "정당 서비스 정보",
+        "정당 온라인 서비스 데이터",
+        "정당 서비스 목록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Addresses_address_id",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "주소 ID",
+      "synonyms": [
+        "address_id",
+        "주소 ID",
+        "주소 식별번호",
+        "주소 고유번호",
+        "주소 번호",
+        "주소 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_line_1_number_building",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "line_1_number_building",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "1번 라인 번호 건물",
+      "synonyms": [
+        "line_1_number_building",
+        "첫 번째 줄 번지",
+        "건물 번지",
+        "주소 첫 번째 줄",
+        "주소 번지"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_town_city",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "town_city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "마을 도시",
+      "synonyms": [
+        "town_city",
+        "도시",
+        "향/면/村里",
+        "시도",
+        "도시 이름",
+        "도시 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_zip_postcode",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "zip_postcode",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "우편번호",
+      "synonyms": [
+        "우편번호",
+        "우편코드",
+        "우편번호 정보",
+        "ZIP 코드",
+        "지수",
+        "zip_postcode"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_state_province_county",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "state_province_county",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "주/도/군",
+      "synonyms": [
+        "주",
+        "시도",
+        "구역",
+        "지역",
+        "주/시도/구역",
+        "주 및 시도",
+        "시도 및 구",
+        "state_province_county"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_country",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "나라",
+        "국가명",
+        "국가 정보",
+        "country",
+        "국가 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Services_service_id",
+      "domain": "Services",
+      "source_table": "Services",
+      "source_column": "service_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "서비스 ID",
+      "synonyms": [
+        "서비스 ID",
+        "서비스 고유 번호",
+        "service_id",
+        "서비스 번호",
+        "서비스 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Services_service_type_code",
+      "domain": "Services",
+      "source_table": "Services",
+      "source_column": "service_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "서비스 유형 코드",
+      "synonyms": [
+        "서비스 유형 코드",
+        "서비스 코드",
+        "service_type_code",
+        "서비스 구분 코드",
+        "서비스 유형"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "S001": [
+          "S001",
+          "서비스 유형 1"
+        ],
+        "S002": [
+          "S002",
+          "서비스 유형 2"
+        ]
+      }
+    },
+    {
+      "name": "Services_service_name",
+      "domain": "Services",
+      "source_table": "Services",
+      "source_column": "service_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "서비스 이름",
+      "synonyms": [
+        "서비스 이름",
+        "service_name",
+        "서비스 제목",
+        "서비스명",
+        "서비스 호스팅 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "의료 서비스": [
+          "의료 서비스",
+          "건강 서비스"
+        ],
+        "교육 서비스": [
+          "교육 서비스",
+          "학습 서비스"
+        ]
+      }
+    },
+    {
+      "name": "Services_service_descriptio",
+      "domain": "Services",
+      "source_table": "Services",
+      "source_column": "service_descriptio",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "서비스 설명",
+      "synonyms": [
+        "서비스 설명",
+        "서비스 설명 정보",
+        "서비스 요약",
+        "서비스 설명내용",
+        "서비스 설명문",
+        "서비스 소개",
+        "서비스 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Forms_form_id",
+      "domain": "Forms",
+      "source_table": "Forms",
+      "source_column": "form_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "form id",
+      "synonyms": [
+        "form_id",
+        "폼 ID",
+        "폼 고유 번호",
+        "폼 식별 번호",
+        "폼 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Forms_form_type_code",
+      "domain": "Forms",
+      "source_table": "Forms",
+      "source_column": "form_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "form type code",
+      "synonyms": [
+        "form_type_code",
+        "폼 유형 코드",
+        "폼 종류 코드",
+        "폼 코드",
+        "폼 유형"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "입원서": [
+          "입원서",
+          "입원서 코드"
+        ],
+        "출석서": [
+          "출석서",
+          "출석서 코드"
+        ],
+        "이전서": [
+          "이전서",
+          "이전서 코드"
+        ]
+      }
+    },
+    {
+      "name": "Forms_service_id",
+      "domain": "Forms",
+      "source_table": "Forms",
+      "source_column": "service_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "service id",
+      "synonyms": [
+        "service_id",
+        "서비스 ID",
+        "서비스 고유 번호",
+        "서비스 식별 번호",
+        "서비스 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Forms_form_number",
+      "domain": "Forms",
+      "source_table": "Forms",
+      "source_column": "form_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "form number",
+      "synonyms": [
+        "폼 번호",
+        "form 번호",
+        "폼 번호 정보",
+        "form 수호",
+        "폼 번호 코드",
+        "form 번호 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Forms_form_name",
+      "domain": "Forms",
+      "source_table": "Forms",
+      "source_column": "form_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "form name",
+      "synonyms": [
+        "폼 이름",
+        "form 이름",
+        "폼명",
+        "form명",
+        "폼의 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Forms_form_description",
+      "domain": "Forms",
+      "source_table": "Forms",
+      "source_column": "form_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "form description",
+      "synonyms": [
+        "폼 설명",
+        "form 설명",
+        "폼 설명 정보",
+        "form 설명 정보",
+        "폼에 대한 설명",
+        "form에 대한 설명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Individuals_individual_id",
+      "domain": "Individuals",
+      "source_table": "Individuals",
+      "source_column": "individual_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "individual id",
+      "synonyms": [
+        "개인 ID",
+        "개인 고유 번호",
+        "ID",
+        "개인 식별 번호",
+        "인디idual_id",
+        "개인 인덱스"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Individuals_individual_first_name",
+      "domain": "Individuals",
+      "source_table": "Individuals",
+      "source_column": "individual_first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "individual first name",
+      "synonyms": [
+        "성명 첫 이름",
+        "이름",
+        "개인 이름",
+        "개인 첫 이름",
+        "first name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Individuals_individual_middle_name",
+      "domain": "Individuals",
+      "source_table": "Individuals",
+      "source_column": "individual_middle_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "individual middle name",
+      "synonyms": [
+        "중간 이름",
+        "성명 중간 이름",
+        "middle name",
+        "개인 중간 이름",
+        "이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Individuals_inidividual_phone",
+      "domain": "Individuals",
+      "source_table": "Individuals",
+      "source_column": "inidividual_phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "inidividual phone",
+      "synonyms": [
+        "인디비idual_phone",
+        "전화번호",
+        "전화",
+        "전화번호 정보",
+        "인디비idual 전화",
+        "인디비idual 전화번호",
+        "전화번호 필드",
+        "전화 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Individuals_individual_email",
+      "domain": "Individuals",
+      "source_table": "Individuals",
+      "source_column": "individual_email",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "individual email",
+      "synonyms": [
+        "이메일",
+        "이메일 주소",
+        "이메일 정보",
+        "인디비idual 이메일",
+        "인디비idual 이메일 주소",
+        "이메일 필드",
+        "전자우편"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Individuals_individual_address",
+      "domain": "Individuals",
+      "source_table": "Individuals",
+      "source_column": "individual_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "individual address",
+      "synonyms": [
+        "주소",
+        "주소 정보",
+        "인디비idual 주소",
+        "인디비idual 주소 정보",
+        "주소 필드",
+        "거주지"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Individuals_individual_last_name",
+      "domain": "Individuals",
+      "source_table": "Individuals",
+      "source_column": "individual_last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "individual last name",
+      "synonyms": [
+        "성",
+        "개인 성",
+        "이름",
+        "개인의 성",
+        "성 이름",
+        "개인의 성명",
+        "성 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Organizations_organization_id",
+      "domain": "Organizations",
+      "source_table": "Organizations",
+      "source_column": "organization_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "조직 ID",
+      "synonyms": [
+        "조직 ID",
+        "조직 식별 번호",
+        "org_id",
+        "organization_id",
+        "조직 고유 번호",
+        "기관 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Organizations_date_formed",
+      "domain": "Organizations",
+      "source_table": "Organizations",
+      "source_column": "date_formed",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "설립일",
+      "synonyms": [
+        "설립일",
+        "설립 날짜",
+        "date_formed",
+        "organizational date",
+        "조직 설립일",
+        "기관 설립일",
+        "organize_date"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Organizations_organization_name",
+      "domain": "Organizations",
+      "source_table": "Organizations",
+      "source_column": "organization_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "조직 이름",
+      "synonyms": [
+        "조직 이름",
+        "기관 이름",
+        "organization_name",
+        "organizational name",
+        "조직명",
+        "기관명",
+        "ORG_NAME"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국정보기술협회": [
+          "한국정보기술협회"
+        ],
+        "국가과학기술원": [
+          "국가과학기술원"
+        ]
+      }
+    },
+    {
+      "name": "Organizations_uk_vat_number",
+      "domain": "Organizations",
+      "source_table": "Organizations",
+      "source_column": "uk_vat_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "UK VAT 번호",
+      "synonyms": [
+        "영국 VAT 번호",
+        "UK VAT 번호",
+        "VAT 번호",
+        "UK VAT",
+        "영국 부가세 번호",
+        "VAT",
+        "영국 VAT"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Parties_party_id",
+      "domain": "Parties",
+      "source_table": "Parties",
+      "source_column": "party_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "party id",
+      "synonyms": [
+        "party_id",
+        "party identifier",
+        "party number",
+        "organization id",
+        "organization number",
+        "party code",
+        "party identifier code"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Parties_payment_method_code",
+      "domain": "Parties",
+      "source_table": "Parties",
+      "source_column": "payment_method_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "payment method code",
+      "synonyms": [
+        "payment_method_code",
+        "payment code",
+        "payment method",
+        "payment type code",
+        "payment method identifier",
+        "payment method identifier code"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "CARD": [
+          "카드"
+        ],
+        "CASH": [
+          "현금"
+        ],
+        "ONLINE": [
+          "온라인"
+        ]
+      }
+    },
+    {
+      "name": "Parties_party_phone",
+      "domain": "Parties",
+      "source_table": "Parties",
+      "source_column": "party_phone",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "party phone",
+      "synonyms": [
+        "party_phone",
+        "party phone number",
+        "organization phone",
+        "organization contact number",
+        "party contact phone",
+        "party contact phone number"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Parties_party_email",
+      "domain": "Parties",
+      "source_table": "Parties",
+      "source_column": "party_email",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "party email",
+      "synonyms": [
+        "party_email",
+        "이메일",
+        "당사자 이메일",
+        "이메일 주소",
+        "메일 주소",
+        "당사자 메일"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Organization_Contact_Individuals_individual_id",
+      "domain": "Organization_Contact_Individuals",
+      "source_table": "Organization_Contact_Individuals",
+      "source_column": "individual_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "individual id",
+      "synonyms": [
+        "개인 ID",
+        "개인 번호",
+        "개인 식별자",
+        "ID",
+        "개인 고유 번호",
+        "individual_id",
+        "개인 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Organization_Contact_Individuals_organization_id",
+      "domain": "Organization_Contact_Individuals",
+      "source_table": "Organization_Contact_Individuals",
+      "source_column": "organization_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "organization id",
+      "synonyms": [
+        "조직 ID",
+        "조직 번호",
+        "조직 식별자",
+        "ID",
+        "조직 고유 번호",
+        "organization_id",
+        "조직 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Organization_Contact_Individuals_date_contact_from",
+      "domain": "Organization_Contact_Individuals",
+      "source_table": "Organization_Contact_Individuals",
+      "source_column": "date_contact_from",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "date contact from",
+      "synonyms": [
+        "연락 시작일",
+        "연락 시작 날짜",
+        "연락 시작일자",
+        "시작 날짜",
+        "date_contact_from"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Organization_Contact_Individuals_date_contact_to",
+      "domain": "Organization_Contact_Individuals",
+      "source_table": "Organization_Contact_Individuals",
+      "source_column": "date_contact_to",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "date contact to",
+      "synonyms": [
+        "연락 종료 일자",
+        "연락 종료 날짜",
+        "연락 마감일",
+        "연락 종료 시점",
+        "연락 종료일",
+        "연락 마감 일자",
+        "연락 종료 기준일",
+        "연락 종료 시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Party_Addresses_party_id",
+      "domain": "Party_Addresses",
+      "source_table": "Party_Addresses",
+      "source_column": "party_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "party id",
+      "synonyms": [
+        "party_id",
+        "정당 ID",
+        "정당 번호",
+        "정당 식별자",
+        "정당 코드",
+        "정당 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Party_Addresses_address_id",
+      "domain": "Party_Addresses",
+      "source_table": "Party_Addresses",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "address id",
+      "synonyms": [
+        "address_id",
+        "주소 ID",
+        "주소 번호",
+        "주소 식별자",
+        "주소 코드",
+        "주소 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Party_Addresses_date_address_from",
+      "domain": "Party_Addresses",
+      "source_table": "Party_Addresses",
+      "source_column": "date_address_from",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "date address from",
+      "synonyms": [
+        "date_address_from",
+        "주소 시작일",
+        "주소 유효 시작일",
+        "주소 시작 날짜",
+        "주소 시작 일자",
+        "주소 유효 시작 날짜"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Party_Addresses_address_type_code",
+      "domain": "Party_Addresses",
+      "source_table": "Party_Addresses",
+      "source_column": "address_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "address type code",
+      "synonyms": [
+        "주소 유형 코드",
+        "주소 코드",
+        "주소 타입 코드",
+        "주소 구분 코드",
+        "address_type_code"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "주소": [
+          "주소",
+          "주소 코드"
+        ],
+        "사무소": [
+          "사무소",
+          "사무소 주소"
+        ],
+        "거주": [
+          "거주",
+          "거주 주소"
+        ]
+      }
+    },
+    {
+      "name": "Party_Addresses_date_address_to",
+      "domain": "Party_Addresses",
+      "source_table": "Party_Addresses",
+      "source_column": "date_address_to",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.0,
+      "primary_label": "date address to",
+      "synonyms": [
+        "주소 종료일",
+        "주소 마감일",
+        "주소 종료 날짜",
+        "주소 마감 날짜",
+        "date_address_to"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Party_Forms_party_id",
+      "domain": "Party_Forms",
+      "source_table": "Party_Forms",
+      "source_column": "party_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "party id",
+      "synonyms": [
+        "party_id",
+        "정당 번호",
+        "정당 식별자",
+        "정당 코드",
+        "정당 ID",
+        "정당 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Party_Forms_form_id",
+      "domain": "Party_Forms",
+      "source_table": "Party_Forms",
+      "source_column": "form_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "form id",
+      "synonyms": [
+        "form_id",
+        "양식 번호",
+        "양식 식별자",
+        "양식 코드",
+        "양식 ID",
+        "양식 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Party_Forms_date_completion_started",
+      "domain": "Party_Forms",
+      "source_table": "Party_Forms",
+      "source_column": "date_completion_started",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "date completion started",
+      "synonyms": [
+        "date_completion_started",
+        "완료 시작일",
+        "작업 시작일",
+        "시작 날짜",
+        "작업 시작 날짜",
+        "시작일",
+        "작업 시작 일시"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Party_Forms_form_status_code",
+      "domain": "Party_Forms",
+      "source_table": "Party_Forms",
+      "source_column": "form_status_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "form status code",
+      "synonyms": [
+        "form status code",
+        "폼 상태 코드",
+        "완료 상태 코드",
+        "폼 상태",
+        "상태 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "completed": [
+          "완료"
+        ],
+        "pending": [
+          "대기"
+        ],
+        "failed": [
+          "실패"
+        ]
+      }
+    },
+    {
+      "name": "Party_Forms_date_fully_completed",
+      "domain": "Party_Forms",
+      "source_table": "Party_Forms",
+      "source_column": "date_fully_completed",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "date fully completed",
+      "synonyms": [
+        "date fully completed",
+        "완전 완료 날짜",
+        "폼 완료 날짜",
+        "완료 일자",
+        "완료 시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Party_Services_booking_id",
+      "domain": "Party_Services",
+      "source_table": "Party_Services",
+      "source_column": "booking_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "예약 ID",
+      "synonyms": [
+        "예약 번호",
+        "예약 ID",
+        "예약 아이디",
+        "예약 고유 번호",
+        "예약 식별자",
+        "예약 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Party_Services_customer_id",
+      "domain": "Party_Services",
+      "source_table": "Party_Services",
+      "source_column": "customer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "고객 ID",
+      "synonyms": [
+        "고객 번호",
+        "고객 ID",
+        "고객 아이디",
+        "고객 식별자",
+        "고객 코드",
+        "고객 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Party_Services_service_id",
+      "domain": "Party_Services",
+      "source_table": "Party_Services",
+      "source_column": "service_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "서비스 ID",
+      "synonyms": [
+        "서비스 번호",
+        "서비스 ID",
+        "서비스 아이디",
+        "서비스 식별자",
+        "서비스 코드",
+        "서비스 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Party_Services_service_datetime",
+      "domain": "Party_Services",
+      "source_table": "Party_Services",
+      "source_column": "service_datetime",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 3.0,
+      "primary_label": "서비스 시간",
+      "synonyms": [
+        "서비스 시간",
+        "예약 시간",
+        "서비스 일시",
+        "서비스 예약일시",
+        "서비스 날짜",
+        "예약 날짜",
+        "서비스 예약 시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "14:30": [
+          "14시30분",
+          "14:30"
+        ]
+      }
+    },
+    {
+      "name": "Party_Services_booking_made_date",
+      "domain": "Party_Services",
+      "source_table": "Party_Services",
+      "source_column": "booking_made_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.0,
+      "primary_label": "예약 생성 시간",
+      "synonyms": [
+        "예약 생성일시",
+        "예약 날짜",
+        "예약 생성 시간",
+        "예약 일시",
+        "예약 생성일",
+        "예약 날짜 시간",
+        "예약 생성 날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "10:15": [
+          "10시15분",
+          "10:15"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Forms_Services_fk0",
+      "domain": "Forms",
+      "range": "Services",
+      "source_fk": [
+        "Forms.service_id",
+        "Services.service_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "서비스 참조",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Organization_Contact_Individuals_Individuals_fk1",
+      "domain": "Organization_Contact_Individuals",
+      "range": "Individuals",
+      "source_fk": [
+        "Organization_Contact_Individuals.individual_id",
+        "Individuals.individual_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "개인 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Organization_Contact_Individuals_Organizations_fk2",
+      "domain": "Organization_Contact_Individuals",
+      "range": "Organizations",
+      "source_fk": [
+        "Organization_Contact_Individuals.organization_id",
+        "Organizations.organization_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "조직 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Party_Addresses_Parties_fk3",
+      "domain": "Party_Addresses",
+      "range": "Parties",
+      "source_fk": [
+        "Party_Addresses.party_id",
+        "Parties.party_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "주소 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Party_Addresses_Addresses_fk4",
+      "domain": "Party_Addresses",
+      "range": "Addresses",
+      "source_fk": [
+        "Party_Addresses.address_id",
+        "Addresses.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "주소 참조",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Party_Forms_Forms_fk5",
+      "domain": "Party_Forms",
+      "range": "Forms",
+      "source_fk": [
+        "Party_Forms.form_id",
+        "Forms.form_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "양식 참조",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Party_Forms_Parties_fk6",
+      "domain": "Party_Forms",
+      "range": "Parties",
+      "source_fk": [
+        "Party_Forms.party_id",
+        "Parties.party_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "양식 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Party_Services_Parties_fk7",
+      "domain": "Party_Services",
+      "range": "Parties",
+      "source_fk": [
+        "Party_Services.customer_id",
+        "Parties.party_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "서비스 이용",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Party_Services_Services_fk8",
+      "domain": "Party_Services",
+      "range": "Services",
+      "source_fk": [
+        "Party_Services.service_id",
+        "Services.service_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "서비스 참조",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

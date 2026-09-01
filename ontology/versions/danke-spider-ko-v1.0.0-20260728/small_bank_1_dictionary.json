@@ -1,0 +1,431 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "계좌",
+      "target_class": "ACCOUNTS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "계좌정보",
+      "target_class": "ACCOUNTS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "계좌목록",
+      "target_class": "ACCOUNTS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "계좌데이터",
+      "target_class": "ACCOUNTS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "계좌리스트",
+      "target_class": "ACCOUNTS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예금",
+      "target_class": "SAVINGS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저축계좌",
+      "target_class": "SAVINGS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저축계좌정보",
+      "target_class": "SAVINGS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저축계좌목록",
+      "target_class": "SAVINGS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저축계좌데이터",
+      "target_class": "SAVINGS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "저축계좌리스트",
+      "target_class": "SAVINGS",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "checking",
+      "target_class": "CHECKING",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예금계좌",
+      "target_class": "CHECKING",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예금계좌정보",
+      "target_class": "CHECKING",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예금계좌목록",
+      "target_class": "CHECKING",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예금계좌데이터",
+      "target_class": "CHECKING",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예금계좌리스트",
+      "target_class": "CHECKING",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객번호",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객ID",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객아이디",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 소유자 ID",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "custid",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 식별자",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객이름",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소유자 이름",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 소유자 이름",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객명",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "SAVINGS",
+      "target_property": "SAVINGS_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 고객 번호",
+      "target_class": "SAVINGS",
+      "target_property": "SAVINGS_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "SAVINGS",
+      "target_property": "SAVINGS_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 코드",
+      "target_class": "SAVINGS",
+      "target_property": "SAVINGS_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 번호",
+      "target_class": "SAVINGS",
+      "target_property": "SAVINGS_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "custid",
+      "target_class": "SAVINGS",
+      "target_property": "SAVINGS_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 고유 번호",
+      "target_class": "SAVINGS",
+      "target_property": "SAVINGS_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "잔액",
+      "target_class": "SAVINGS",
+      "target_property": "SAVINGS_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저축 금액",
+      "target_class": "SAVINGS",
+      "target_property": "SAVINGS_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 잔액",
+      "target_class": "SAVINGS",
+      "target_property": "SAVINGS_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "잔고",
+      "target_class": "SAVINGS",
+      "target_property": "SAVINGS_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 잔액",
+      "target_class": "SAVINGS",
+      "target_property": "SAVINGS_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "balance",
+      "target_class": "SAVINGS",
+      "target_property": "SAVINGS_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "저축 계좌 잔액",
+      "target_class": "SAVINGS",
+      "target_property": "SAVINGS_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 id",
+      "target_class": "CHECKING",
+      "target_property": "CHECKING_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "CHECKING",
+      "target_property": "CHECKING_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객번호",
+      "target_class": "CHECKING",
+      "target_property": "CHECKING_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌번호",
+      "target_class": "CHECKING",
+      "target_property": "CHECKING_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "CHECKING",
+      "target_property": "CHECKING_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객코드",
+      "target_class": "CHECKING",
+      "target_property": "CHECKING_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "custid",
+      "target_class": "CHECKING",
+      "target_property": "CHECKING_custid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "잔액",
+      "target_class": "CHECKING",
+      "target_property": "CHECKING_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "잔액 정보",
+      "target_class": "CHECKING",
+      "target_property": "CHECKING_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "현재 잔액",
+      "target_class": "CHECKING",
+      "target_property": "CHECKING_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계좌 잔액",
+      "target_class": "CHECKING",
+      "target_property": "CHECKING_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "잔액 상태",
+      "target_class": "CHECKING",
+      "target_property": "CHECKING_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "balance",
+      "target_class": "CHECKING",
+      "target_property": "CHECKING_balance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "잔액량",
+      "target_class": "CHECKING",
+      "target_property": "CHECKING_balance",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "김철수",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_name",
+      "value": "김철수"
+    },
+    {
+      "entry_type": "value",
+      "key": "이영희",
+      "target_class": "ACCOUNTS",
+      "target_property": "ACCOUNTS_name",
+      "value": "이영희"
+    }
+  ]
+}

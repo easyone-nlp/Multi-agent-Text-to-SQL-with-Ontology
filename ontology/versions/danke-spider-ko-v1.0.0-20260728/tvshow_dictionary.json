@@ -1,0 +1,1243 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "tv channel",
+      "target_class": "TV_Channel",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "TV 채널",
+      "target_class": "TV_Channel",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "채널",
+      "target_class": "TV_Channel",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "TV 채널 목록",
+      "target_class": "TV_Channel",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "채널 목록",
+      "target_class": "TV_Channel",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "TV 채널 정보",
+      "target_class": "TV_Channel",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "tv series",
+      "target_class": "TV_series",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "TV 시리즈",
+      "target_class": "TV_series",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "시리즈",
+      "target_class": "TV_series",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "TV 프로그램",
+      "target_class": "TV_series",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "드라마",
+      "target_class": "TV_series",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "TV 시리즈 목록",
+      "target_class": "TV_series",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "cartoon",
+      "target_class": "Cartoon",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "애니메이션",
+      "target_class": "Cartoon",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "애니",
+      "target_class": "Cartoon",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "애니메이션 콘텐츠",
+      "target_class": "Cartoon",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "애니메이션 프로그램",
+      "target_class": "Cartoon",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "애니메이션 목록",
+      "target_class": "Cartoon",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디 번호",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 ID",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 식별자",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 코드",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈 이름",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_series_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈명",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_series_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈 제목",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_series_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로그램 이름",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_series_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈 타이틀",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_series_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로그램 제목",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_series_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 정보",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Language",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어코드",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Language",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어설정",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Language",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어정보",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Language",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "언어구분",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Language",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "콘텐츠",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Content",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "콘텐츠정보",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Content",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "콘텐츠내용",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Content",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "콘텐츠설명",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Content",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "콘텐츠유형",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Content",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "픽셀 측면 비율 par",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Pixel_aspect_ratio_PAR",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "픽셀 비율",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Pixel_aspect_ratio_PAR",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "PAR",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Pixel_aspect_ratio_PAR",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측면비율",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Pixel_aspect_ratio_PAR",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비율",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Pixel_aspect_ratio_PAR",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "측면비율 PAR",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Pixel_aspect_ratio_PAR",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "PAR 정보",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Pixel_aspect_ratio_PAR",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비율 정보",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Pixel_aspect_ratio_PAR",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고해상도 tv",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Hight_definition_TV",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고해상도 채널",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Hight_definition_TV",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "HD 채널",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Hight_definition_TV",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고화질 TV",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Hight_definition_TV",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "4K 채널",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Hight_definition_TV",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "높은 해상도 TV",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Hight_definition_TV",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 방식 ppv",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Pay_per_view_PPV",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "PPV 방식",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Pay_per_view_PPV",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 기반 채널",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Pay_per_view_PPV",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구독 제외 방식",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Pay_per_view_PPV",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Pay-per-view",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Pay_per_view_PPV",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "PPV 서비스",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Pay_per_view_PPV",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제형 채널",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Pay_per_view_PPV",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패키지 옵션",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Package_Option",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패키지 선택 옵션",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Package_Option",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "추가 옵션",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Package_Option",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패키지 구성 요소",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Package_Option",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "옵션 설정",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Package_Option",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패키지 구성",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Package_Option",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패키지 추가 옵션",
+      "target_class": "TV_Channel",
+      "target_property": "TV_Channel_Package_Option",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "TV_series",
+      "target_property": "TV_series_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "에피소드",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Episode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "화",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Episode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Episode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회차",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Episode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Episode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈 에피소드",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Episode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "어디 날짜",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Air_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방영일",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Air_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공개일",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Air_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작일",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Air_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "첫 방영일",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Air_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈 시작일",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Air_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방송일",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Air_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시청일",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Air_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "리뷰",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평점",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가점",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가값",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가자 점수",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "평가정보",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Rating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공유율",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Share",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "18~49세 리뷰 공유율",
+      "target_class": "TV_series",
+      "target_property": "TV_series_18_49_Rating_Share",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관객 수",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Viewers_m",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시청자 수",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Viewers_m",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "청중 수",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Viewers_m",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "관객 수량",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Viewers_m",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시청 인원",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Viewers_m",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "청취자 수",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Viewers_m",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주간 순위",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Weekly_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주간 인기 순위",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Weekly_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주간 시청 순위",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Weekly_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주간 랭크",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Weekly_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주간 순위 수치",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Weekly_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주간 인기 랭크",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Weekly_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주간 평점 순위",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Weekly_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Channel",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널명",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Channel",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 정보",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Channel",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 코드",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Channel",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 식별",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Channel",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 이름",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Channel",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 코드명",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Channel",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널 식별자",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Channel",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "코드",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "키",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인덱스",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "title",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "타이틀",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명칭",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대사",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "directed by",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Directed_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Directed_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작자",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Directed_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독 이름",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Directed_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Directed_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "감독명",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Directed_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "written by",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Written_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작가",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Written_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작자",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Written_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성자",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Written_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기획자",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Written_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "original air date",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Original_air_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "최초 방송일",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Original_air_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "첫 방송일",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Original_air_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "원래 방송일",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Original_air_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 방송일",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Original_air_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "production code",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Production_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작 번호",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Production_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작 코드",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Production_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작 식별자",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Production_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작 ID",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Production_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "channel",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Channel",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Channel",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "방송 채널",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Channel",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "프로모션 채널",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Channel",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "애니 채널",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Channel",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "TV 채널",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Channel",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "채널명",
+      "target_class": "Cartoon",
+      "target_property": "Cartoon_Channel",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Episode",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "첫 에피소드",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Episode",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "1회",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Episode",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Episode",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "두 번째 에피소드",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Episode",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2회",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Episode",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-10-01",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Air_Date",
+      "value": "2023-10-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 10월 1일",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Air_Date",
+      "value": "2023-10-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "10월 1일",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Air_Date",
+      "value": "2023-10-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "9.5",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Rating",
+      "value": "9.5"
+    },
+    {
+      "entry_type": "value",
+      "key": "9.5점",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Rating",
+      "value": "9.5"
+    },
+    {
+      "entry_type": "value",
+      "key": "25.3",
+      "target_class": "TV_series",
+      "target_property": "TV_series_18_49_Rating_Share",
+      "value": "25.3"
+    },
+    {
+      "entry_type": "value",
+      "key": "25.3%",
+      "target_class": "TV_series",
+      "target_property": "TV_series_18_49_Rating_Share",
+      "value": "25.3"
+    },
+    {
+      "entry_type": "value",
+      "key": "100만",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Viewers_m",
+      "value": "100만"
+    },
+    {
+      "entry_type": "value",
+      "key": "100만 명",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Viewers_m",
+      "value": "100만"
+    },
+    {
+      "entry_type": "value",
+      "key": "SBS",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Channel",
+      "value": "SBS"
+    },
+    {
+      "entry_type": "value",
+      "key": "SBS 채널",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Channel",
+      "value": "SBS"
+    },
+    {
+      "entry_type": "value",
+      "key": "MBC",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Channel",
+      "value": "MBC"
+    },
+    {
+      "entry_type": "value",
+      "key": "MBC 채널",
+      "target_class": "TV_series",
+      "target_property": "TV_series_Channel",
+      "value": "MBC"
+    }
+  ]
+}

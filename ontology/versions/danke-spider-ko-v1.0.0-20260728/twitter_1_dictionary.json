@@ -1,0 +1,627 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "팔로우 관계",
+      "target_class": "follows",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "팔로우 목록",
+      "target_class": "follows",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "팔로우 연결",
+      "target_class": "follows",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "팔로우 관계 테이블",
+      "target_class": "follows",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "팔로우 연결 정보",
+      "target_class": "follows",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트윗",
+      "target_class": "tweets",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트윗 데이터",
+      "target_class": "tweets",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "게시물",
+      "target_class": "tweets",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "문자 메시지",
+      "target_class": "tweets",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "소셜 미디어 게시물",
+      "target_class": "tweets",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자 프로필",
+      "target_class": "user_profiles",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "프로필",
+      "target_class": "user_profiles",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자 정보",
+      "target_class": "user_profiles",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자 데이터",
+      "target_class": "user_profiles",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자 프로필 정보",
+      "target_class": "user_profiles",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 ID",
+      "target_class": "follows",
+      "target_property": "follows_f1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "f1",
+      "target_class": "follows",
+      "target_property": "follows_f1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팔로우 사용자 ID",
+      "target_class": "follows",
+      "target_property": "follows_f1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팔로우자 ID",
+      "target_class": "follows",
+      "target_property": "follows_f1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팔로우한 사용자",
+      "target_class": "follows",
+      "target_property": "follows_f1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팔로우 ID",
+      "target_class": "follows",
+      "target_property": "follows_f1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팔로우한 사람",
+      "target_class": "follows",
+      "target_property": "follows_f1",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팔로워 ID",
+      "target_class": "follows",
+      "target_property": "follows_f2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "f2",
+      "target_class": "follows",
+      "target_property": "follows_f2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팔로우 대상 ID",
+      "target_class": "follows",
+      "target_property": "follows_f2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팔로우 대상 사용자",
+      "target_class": "follows",
+      "target_property": "follows_f2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팔로우 대상",
+      "target_class": "follows",
+      "target_property": "follows_f2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팔로우 대상자 ID",
+      "target_class": "follows",
+      "target_property": "follows_f2",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "tweets",
+      "target_property": "tweets_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트윗 ID",
+      "target_class": "tweets",
+      "target_property": "tweets_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트윗 고유번호",
+      "target_class": "tweets",
+      "target_property": "tweets_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "tweets",
+      "target_property": "tweets_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트윗 번호",
+      "target_class": "tweets",
+      "target_property": "tweets_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 아이디",
+      "target_class": "tweets",
+      "target_property": "tweets_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 ID",
+      "target_class": "tweets",
+      "target_property": "tweets_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "유저 ID",
+      "target_class": "tweets",
+      "target_property": "tweets_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "UID",
+      "target_class": "tweets",
+      "target_property": "tweets_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 번호",
+      "target_class": "tweets",
+      "target_property": "tweets_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트윗 작성자 ID",
+      "target_class": "tweets",
+      "target_property": "tweets_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "내용",
+      "target_class": "tweets",
+      "target_property": "tweets_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트윗 텍스트",
+      "target_class": "tweets",
+      "target_property": "tweets_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트윗 내용",
+      "target_class": "tweets",
+      "target_property": "tweets_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "텍스트",
+      "target_class": "tweets",
+      "target_property": "tweets_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트윗 문장",
+      "target_class": "tweets",
+      "target_property": "tweets_text",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성 일시",
+      "target_class": "tweets",
+      "target_property": "tweets_createdate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성일시",
+      "target_class": "tweets",
+      "target_property": "tweets_createdate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성일자",
+      "target_class": "tweets",
+      "target_property": "tweets_createdate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성날짜",
+      "target_class": "tweets",
+      "target_property": "tweets_createdate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성날짜",
+      "target_class": "tweets",
+      "target_property": "tweets_createdate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "create date",
+      "target_class": "tweets",
+      "target_property": "tweets_createdate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성 시간",
+      "target_class": "tweets",
+      "target_property": "tweets_createdate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작성 시간",
+      "target_class": "tweets",
+      "target_property": "tweets_createdate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일시",
+      "target_class": "tweets",
+      "target_property": "tweets_createdate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 ID",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "uid",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 고유 번호",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 식별자",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 이름",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "닉네임",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자명",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 정보",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "email",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 주소",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전자우편 주소",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 정보",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 이메일",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파티션 ID",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_partitionid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "partitionid",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_partitionid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분할 아이디",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_partitionid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분할 구분자",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_partitionid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파티션 번호",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_partitionid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분할 코드",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_partitionid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분할 식별자",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_partitionid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팔로워 수",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_followers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "followers",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_followers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팔로우 수",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_followers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팔로우 카운트",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_followers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팔로우 기록",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_followers",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팔로우 개수",
+      "target_class": "user_profiles",
+      "target_property": "user_profiles_followers",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "안녕하세요",
+      "target_class": "tweets",
+      "target_property": "tweets_text",
+      "value": "안녕하세요"
+    },
+    {
+      "entry_type": "value",
+      "key": "안녕",
+      "target_class": "tweets",
+      "target_property": "tweets_text",
+      "value": "안녕하세요"
+    },
+    {
+      "entry_type": "value",
+      "key": "좋은 날씨입니다",
+      "target_class": "tweets",
+      "target_property": "tweets_text",
+      "value": "좋은 날씨입니다"
+    },
+    {
+      "entry_type": "value",
+      "key": "좋은 날씨",
+      "target_class": "tweets",
+      "target_property": "tweets_text",
+      "value": "좋은 날씨입니다"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-10-01 12:00:00",
+      "target_class": "tweets",
+      "target_property": "tweets_createdate",
+      "value": "2023-10-01 12:00:00"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 10월 1일",
+      "target_class": "tweets",
+      "target_property": "tweets_createdate",
+      "value": "2023-10-01 12:00:00"
+    }
+  ]
+}

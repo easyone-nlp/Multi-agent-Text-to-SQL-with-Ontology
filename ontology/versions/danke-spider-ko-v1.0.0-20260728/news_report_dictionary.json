@@ -1,0 +1,788 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "이벤트",
+      "target_class": "event",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사건",
+      "target_class": "event",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "행사",
+      "target_class": "event",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이슈",
+      "target_class": "event",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사고",
+      "target_class": "event",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "기자",
+      "target_class": "journalist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "보도자",
+      "target_class": "journalist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "뉴스 기자",
+      "target_class": "journalist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "뉴스인",
+      "target_class": "journalist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "보도인",
+      "target_class": "journalist",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "뉴스 보고서",
+      "target_class": "news_report",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "보고서",
+      "target_class": "news_report",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "뉴스 기사",
+      "target_class": "news_report",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "뉴스 문서",
+      "target_class": "news_report",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "뉴스 기록",
+      "target_class": "news_report",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 ID",
+      "target_class": "event",
+      "target_property": "event_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 고유번호",
+      "target_class": "event",
+      "target_property": "event_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Event_ID",
+      "target_class": "event",
+      "target_property": "event_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 번호",
+      "target_class": "event",
+      "target_property": "event_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 식별자",
+      "target_class": "event",
+      "target_property": "event_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "event",
+      "target_property": "event_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "event",
+      "target_property": "event_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일정",
+      "target_class": "event",
+      "target_property": "event_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 날짜",
+      "target_class": "event",
+      "target_property": "event_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Date",
+      "target_class": "event",
+      "target_property": "event_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 정보",
+      "target_class": "event",
+      "target_property": "event_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "event",
+      "target_property": "event_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소명",
+      "target_class": "event",
+      "target_property": "event_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Venue",
+      "target_class": "event",
+      "target_property": "event_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 장소",
+      "target_class": "event",
+      "target_property": "event_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "event",
+      "target_property": "event_Venue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "event",
+      "target_property": "event_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 이름",
+      "target_class": "event",
+      "target_property": "event_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 제목",
+      "target_class": "event",
+      "target_property": "event_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트명",
+      "target_class": "event",
+      "target_property": "event_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 타이틀",
+      "target_class": "event",
+      "target_property": "event_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 참가자 수",
+      "target_class": "event",
+      "target_property": "event_Event_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참석 인원",
+      "target_class": "event",
+      "target_property": "event_Event_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 참석자 수",
+      "target_class": "event",
+      "target_property": "event_Event_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 인원",
+      "target_class": "event",
+      "target_property": "event_Event_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참석자 수",
+      "target_class": "event",
+      "target_property": "event_Event_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 인원 수",
+      "target_class": "event",
+      "target_property": "event_Event_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 참석 인원",
+      "target_class": "event",
+      "target_property": "event_Event_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인원 수",
+      "target_class": "event",
+      "target_property": "event_Event_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기자 ID",
+      "target_class": "journalist",
+      "target_property": "journalist_journalist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기자 번호",
+      "target_class": "journalist",
+      "target_property": "journalist_journalist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기자 식별자",
+      "target_class": "journalist",
+      "target_property": "journalist_journalist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "journalist_ID",
+      "target_class": "journalist",
+      "target_property": "journalist_journalist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기자 고유 번호",
+      "target_class": "journalist",
+      "target_property": "journalist_journalist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "journalist",
+      "target_property": "journalist_journalist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "번호",
+      "target_class": "journalist",
+      "target_property": "journalist_journalist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "journalist",
+      "target_property": "journalist_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기자 이름",
+      "target_class": "journalist",
+      "target_property": "journalist_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명",
+      "target_class": "journalist",
+      "target_property": "journalist_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기자명",
+      "target_class": "journalist",
+      "target_property": "journalist_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "journalist",
+      "target_property": "journalist_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적",
+      "target_class": "journalist",
+      "target_property": "journalist_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적 정보",
+      "target_class": "journalist",
+      "target_property": "journalist_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나라",
+      "target_class": "journalist",
+      "target_property": "journalist_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적 명",
+      "target_class": "journalist",
+      "target_property": "journalist_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Nationality",
+      "target_class": "journalist",
+      "target_property": "journalist_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기자 국적",
+      "target_class": "journalist",
+      "target_property": "journalist_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "journalist",
+      "target_property": "journalist_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "journalist",
+      "target_property": "journalist_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연대",
+      "target_class": "journalist",
+      "target_property": "journalist_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년",
+      "target_class": "journalist",
+      "target_property": "journalist_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 정보",
+      "target_class": "journalist",
+      "target_property": "journalist_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년수",
+      "target_class": "journalist",
+      "target_property": "journalist_Years_working",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경력",
+      "target_class": "journalist",
+      "target_property": "journalist_Years_working",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "활동 년수",
+      "target_class": "journalist",
+      "target_property": "journalist_Years_working",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경력 년수",
+      "target_class": "journalist",
+      "target_property": "journalist_Years_working",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직업 경력",
+      "target_class": "journalist",
+      "target_property": "journalist_Years_working",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년간 활동",
+      "target_class": "journalist",
+      "target_property": "journalist_Years_working",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기자 ID",
+      "target_class": "news_report",
+      "target_property": "news_report_journalist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기자 식별 번호",
+      "target_class": "news_report",
+      "target_property": "news_report_journalist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기자 번호",
+      "target_class": "news_report",
+      "target_property": "news_report_journalist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기자 ID 값",
+      "target_class": "news_report",
+      "target_property": "news_report_journalist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기자 식별자",
+      "target_class": "news_report",
+      "target_property": "news_report_journalist_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 ID",
+      "target_class": "news_report",
+      "target_property": "news_report_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사건 ID",
+      "target_class": "news_report",
+      "target_property": "news_report_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사건 식별 번호",
+      "target_class": "news_report",
+      "target_property": "news_report_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 식별 번호",
+      "target_class": "news_report",
+      "target_property": "news_report_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사건 번호",
+      "target_class": "news_report",
+      "target_property": "news_report_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 번호",
+      "target_class": "news_report",
+      "target_property": "news_report_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 ID 값",
+      "target_class": "news_report",
+      "target_property": "news_report_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작업 유형",
+      "target_class": "news_report",
+      "target_property": "news_report_Work_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보도 유형",
+      "target_class": "news_report",
+      "target_property": "news_report_Work_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작업 종류",
+      "target_class": "news_report",
+      "target_property": "news_report_Work_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보도 종류",
+      "target_class": "news_report",
+      "target_property": "news_report_Work_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작업 타입",
+      "target_class": "news_report",
+      "target_property": "news_report_Work_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "보도 작업 유형",
+      "target_class": "news_report",
+      "target_property": "news_report_Work_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "작업 유형 정보",
+      "target_class": "news_report",
+      "target_property": "news_report_Work_Type",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-10-05",
+      "target_class": "event",
+      "target_property": "event_Date",
+      "value": "2023-10-05"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 10월 5일",
+      "target_class": "event",
+      "target_property": "event_Date",
+      "value": "2023-10-05"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시 강남구",
+      "target_class": "event",
+      "target_property": "event_Venue",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "강남구",
+      "target_class": "event",
+      "target_property": "event_Venue",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 강남",
+      "target_class": "event",
+      "target_property": "event_Venue",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "국가대회",
+      "target_class": "event",
+      "target_property": "event_Name",
+      "value": "국가대회"
+    },
+    {
+      "entry_type": "value",
+      "key": "국가 행사",
+      "target_class": "event",
+      "target_property": "event_Name",
+      "value": "국가대회"
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "journalist",
+      "target_property": "journalist_Name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "박지현",
+      "target_class": "journalist",
+      "target_property": "journalist_Name",
+      "value": "박지현"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국",
+      "target_class": "journalist",
+      "target_property": "journalist_Nationality",
+      "value": "한국"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국",
+      "target_class": "journalist",
+      "target_property": "journalist_Nationality",
+      "value": "미국"
+    },
+    {
+      "entry_type": "value",
+      "key": "30",
+      "target_class": "journalist",
+      "target_property": "journalist_Age",
+      "value": "30"
+    },
+    {
+      "entry_type": "value",
+      "key": "28",
+      "target_class": "journalist",
+      "target_property": "journalist_Age",
+      "value": "28"
+    },
+    {
+      "entry_type": "value",
+      "key": "기사 작성",
+      "target_class": "news_report",
+      "target_property": "news_report_Work_Type",
+      "value": "기사 작성"
+    },
+    {
+      "entry_type": "value",
+      "key": "기사",
+      "target_class": "news_report",
+      "target_property": "news_report_Work_Type",
+      "value": "기사 작성"
+    },
+    {
+      "entry_type": "value",
+      "key": "기자 보고서",
+      "target_class": "news_report",
+      "target_property": "news_report_Work_Type",
+      "value": "기사 작성"
+    },
+    {
+      "entry_type": "value",
+      "key": "인터뷰",
+      "target_class": "news_report",
+      "target_property": "news_report_Work_Type",
+      "value": "인터뷰"
+    },
+    {
+      "entry_type": "value",
+      "key": "인터뷰 진행",
+      "target_class": "news_report",
+      "target_property": "news_report_Work_Type",
+      "value": "인터뷰"
+    },
+    {
+      "entry_type": "value",
+      "key": "기자 출석",
+      "target_class": "news_report",
+      "target_property": "news_report_Work_Type",
+      "value": "기자 출석"
+    },
+    {
+      "entry_type": "value",
+      "key": "출석",
+      "target_class": "news_report",
+      "target_property": "news_report_Work_Type",
+      "value": "기자 출석"
+    }
+  ]
+}

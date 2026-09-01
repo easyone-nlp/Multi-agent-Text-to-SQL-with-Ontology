@@ -1,0 +1,353 @@
+{
+  "db_id": "perpetrator",
+  "classes": [
+    {
+      "name": "perpetrator",
+      "source_table": "perpetrator",
+      "ranking": 3.5,
+      "primary_label": "범죄자",
+      "synonyms": [
+        "범죄자",
+        "범인",
+        "악인",
+        "살인자",
+        "폭행자",
+        "범죄인"
+      ]
+    },
+    {
+      "name": "people",
+      "source_table": "people",
+      "ranking": 3.0,
+      "primary_label": "사람",
+      "synonyms": [
+        "인물",
+        "인원",
+        "사람",
+        "개인",
+        "주체",
+        "대상",
+        "대상자",
+        "대상인"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "perpetrator_Perpetrator_ID",
+      "domain": "perpetrator",
+      "source_table": "perpetrator",
+      "source_column": "Perpetrator_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "범죄자 ID",
+      "synonyms": [
+        "범죄자 ID",
+        "범죄자 번호",
+        "범죄자 식별자",
+        "범죄자 고유 번호",
+        "범죄자 코드",
+        "Perpetrator_ID",
+        "범죄자 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "perpetrator_People_ID",
+      "domain": "perpetrator",
+      "source_table": "perpetrator",
+      "source_column": "People_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "인물 ID",
+      "synonyms": [
+        "인물 ID",
+        "인물 번호",
+        "인물 식별자",
+        "인물 고유 번호",
+        "인물 코드",
+        "People_ID",
+        "인물 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "perpetrator_Date",
+      "domain": "perpetrator",
+      "source_table": "perpetrator",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "일자",
+      "synonyms": [
+        "일자",
+        "날짜",
+        "일자 정보",
+        "일시",
+        "날짜 정보",
+        "Date",
+        "사건 날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-05-10": [
+          "2023년 5월 10일",
+          "2023-05-10"
+        ]
+      }
+    },
+    {
+      "name": "perpetrator_Year",
+      "domain": "perpetrator",
+      "source_table": "perpetrator",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "년도 정보",
+        "년도 데이터",
+        "년도 번호",
+        "년도 값",
+        "년도 코드",
+        "년도 수치"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023": [
+          "2023년"
+        ]
+      }
+    },
+    {
+      "name": "perpetrator_Location",
+      "domain": "perpetrator",
+      "source_table": "perpetrator",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "위치",
+      "synonyms": [
+        "장소",
+        "위치",
+        "위치 정보",
+        "위치 데이터",
+        "위치 이름",
+        "위치명",
+        "장소 이름",
+        "장소 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시": [
+          "서울"
+        ],
+        "부산시": [
+          "부산"
+        ]
+      }
+    },
+    {
+      "name": "perpetrator_Country",
+      "domain": "perpetrator",
+      "source_table": "perpetrator",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "국가 정보",
+        "국가 데이터",
+        "국가 이름",
+        "국가명",
+        "국가 코드",
+        "국가명 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "대한민국": [
+          "한국"
+        ],
+        "미국": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "perpetrator_Killed",
+      "domain": "perpetrator",
+      "source_table": "perpetrator",
+      "source_column": "Killed",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "사망자 수",
+      "synonyms": [
+        "사망자 수",
+        "죽은 사람 수",
+        "사망자",
+        "사망 인원",
+        "죽은 수",
+        "사망 인명",
+        "사망 인원 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "perpetrator_Injured",
+      "domain": "perpetrator",
+      "source_table": "perpetrator",
+      "source_column": "Injured",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "상해자 수",
+      "synonyms": [
+        "상해자 수",
+        "상처 입은 사람 수",
+        "상해 인원",
+        "상해자",
+        "상해 인명",
+        "상해 인원 수",
+        "상해 인명 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_People_ID",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "People_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "people id",
+      "synonyms": [
+        "People_ID",
+        "인물 ID",
+        "사람 번호",
+        "ID",
+        "인물 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Name",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "Name",
+        "이름",
+        "사람 이름",
+        "성명",
+        "인물 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Height",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Height",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "height",
+      "synonyms": [
+        "Height",
+        "키",
+        "신장",
+        "키 높이",
+        "신장 높이"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Weight",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Weight",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "weight",
+      "synonyms": [
+        "체중",
+        "몸무게",
+        "무게",
+        "weight",
+        "체중 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Home_Town",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Home Town",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "home town",
+      "synonyms": [
+        "출신지",
+        "거주지",
+        "원산지",
+        "홈타운",
+        "home town",
+        "산업지"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "perpetrator_people_fk0",
+      "domain": "perpetrator",
+      "range": "people",
+      "source_fk": [
+        "perpetrator.People_ID",
+        "people.People_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "범행자",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

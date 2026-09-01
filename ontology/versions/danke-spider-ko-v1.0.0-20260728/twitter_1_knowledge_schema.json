@@ -1,0 +1,327 @@
+{
+  "db_id": "twitter_1",
+  "classes": [
+    {
+      "name": "follows",
+      "source_table": "follows",
+      "ranking": 3.0,
+      "primary_label": "팔로우 관계",
+      "synonyms": [
+        "팔로우 관계",
+        "팔로우 목록",
+        "팔로우 연결",
+        "팔로우 관계 테이블",
+        "팔로우 연결 정보"
+      ]
+    },
+    {
+      "name": "tweets",
+      "source_table": "tweets",
+      "ranking": 3.0,
+      "primary_label": "트윗",
+      "synonyms": [
+        "트윗",
+        "트윗 데이터",
+        "게시물",
+        "문자 메시지",
+        "소셜 미디어 게시물"
+      ]
+    },
+    {
+      "name": "user_profiles",
+      "source_table": "user_profiles",
+      "ranking": 3.5,
+      "primary_label": "사용자 프로필",
+      "synonyms": [
+        "프로필",
+        "사용자 정보",
+        "사용자 프로필",
+        "사용자 데이터",
+        "사용자 프로필 정보"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "follows_f1",
+      "domain": "follows",
+      "source_table": "follows",
+      "source_column": "f1",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 4.0,
+      "primary_label": "사용자 ID",
+      "synonyms": [
+        "f1",
+        "팔로우 사용자 ID",
+        "팔로우자 ID",
+        "팔로우한 사용자",
+        "팔로우 ID",
+        "팔로우한 사람"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "follows_f2",
+      "domain": "follows",
+      "source_table": "follows",
+      "source_column": "f2",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 4.0,
+      "primary_label": "팔로워 ID",
+      "synonyms": [
+        "f2",
+        "팔로우 대상 ID",
+        "팔로우 대상 사용자",
+        "팔로우 대상",
+        "팔로우 대상자 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tweets_id",
+      "domain": "tweets",
+      "source_table": "tweets",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "아이디",
+        "트윗 ID",
+        "트윗 고유번호",
+        "ID",
+        "트윗 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tweets_uid",
+      "domain": "tweets",
+      "source_table": "tweets",
+      "source_column": "uid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "사용자 아이디",
+      "synonyms": [
+        "사용자 ID",
+        "유저 ID",
+        "UID",
+        "사용자 번호",
+        "트윗 작성자 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "tweets_text",
+      "domain": "tweets",
+      "source_table": "tweets",
+      "source_column": "text",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "내용",
+      "synonyms": [
+        "내용",
+        "트윗 텍스트",
+        "트윗 내용",
+        "텍스트",
+        "트윗 문장"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "안녕하세요": [
+          "안녕"
+        ],
+        "좋은 날씨입니다": [
+          "좋은 날씨"
+        ]
+      }
+    },
+    {
+      "name": "tweets_createdate",
+      "domain": "tweets",
+      "source_table": "tweets",
+      "source_column": "createdate",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "생성 일시",
+      "synonyms": [
+        "생성일시",
+        "작성일자",
+        "생성날짜",
+        "작성날짜",
+        "create date",
+        "생성 시간",
+        "작성 시간",
+        "일시"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-01 12:00:00": [
+          "2023년 10월 1일"
+        ]
+      }
+    },
+    {
+      "name": "user_profiles_uid",
+      "domain": "user_profiles",
+      "source_table": "user_profiles",
+      "source_column": "uid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "사용자 ID",
+      "synonyms": [
+        "uid",
+        "사용자 ID",
+        "아이디",
+        "사용자 고유 번호",
+        "사용자 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "user_profiles_name",
+      "domain": "user_profiles",
+      "source_table": "user_profiles",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "이름",
+        "사용자 이름",
+        "닉네임",
+        "사용자명",
+        "이름 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "user_profiles_email",
+      "domain": "user_profiles",
+      "source_table": "user_profiles",
+      "source_column": "email",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이메일",
+      "synonyms": [
+        "email",
+        "이메일",
+        "이메일 주소",
+        "전자우편 주소",
+        "이메일 정보",
+        "사용자 이메일"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "user_profiles_partitionid",
+      "domain": "user_profiles",
+      "source_table": "user_profiles",
+      "source_column": "partitionid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "파티션 ID",
+      "synonyms": [
+        "partitionid",
+        "분할 아이디",
+        "파티션 ID",
+        "분할 구분자",
+        "파티션 번호",
+        "분할 코드",
+        "분할 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "user_profiles_followers",
+      "domain": "user_profiles",
+      "source_table": "user_profiles",
+      "source_column": "followers",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "팔로워 수",
+      "synonyms": [
+        "followers",
+        "팔로우 수",
+        "팔로워 수",
+        "팔로우 카운트",
+        "팔로우 기록",
+        "팔로우 개수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "follows_user_profiles_fk0",
+      "domain": "follows",
+      "range": "user_profiles",
+      "source_fk": [
+        "follows.f2",
+        "user_profiles.uid"
+      ],
+      "weight": 1.0,
+      "primary_label": "팔로우한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "follows_user_profiles_fk1",
+      "domain": "follows",
+      "range": "user_profiles",
+      "source_fk": [
+        "follows.f1",
+        "user_profiles.uid"
+      ],
+      "weight": 1.0,
+      "primary_label": "팔로우받은",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "tweets_user_profiles_fk2",
+      "domain": "tweets",
+      "range": "user_profiles",
+      "source_fk": [
+        "tweets.uid",
+        "user_profiles.uid"
+      ],
+      "weight": 1.0,
+      "primary_label": "작성한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

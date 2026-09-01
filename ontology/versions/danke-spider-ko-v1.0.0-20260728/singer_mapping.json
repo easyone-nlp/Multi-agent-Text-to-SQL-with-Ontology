@@ -1,0 +1,54 @@
+{
+  "class_table": {
+    "singer": "singer",
+    "song": "song"
+  },
+  "property_column": {
+    "singer_Singer_ID": [
+      "singer",
+      "Singer_ID"
+    ],
+    "singer_Name": [
+      "singer",
+      "Name"
+    ],
+    "singer_Birth_Year": [
+      "singer",
+      "Birth_Year"
+    ],
+    "singer_Net_Worth_Millions": [
+      "singer",
+      "Net_Worth_Millions"
+    ],
+    "singer_Citizenship": [
+      "singer",
+      "Citizenship"
+    ],
+    "song_Song_ID": [
+      "song",
+      "Song_ID"
+    ],
+    "song_Title": [
+      "song",
+      "Title"
+    ],
+    "song_Singer_ID": [
+      "song",
+      "Singer_ID"
+    ],
+    "song_Sales": [
+      "song",
+      "Sales"
+    ],
+    "song_Highest_Position": [
+      "song",
+      "Highest_Position"
+    ]
+  },
+  "object_property_fk": {
+    "song_singer_fk0": [
+      "song.Singer_ID",
+      "singer.Singer_ID"
+    ]
+  }
+}

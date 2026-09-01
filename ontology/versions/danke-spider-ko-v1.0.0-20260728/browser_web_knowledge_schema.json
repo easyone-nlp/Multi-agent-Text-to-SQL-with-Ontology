@@ -1,0 +1,348 @@
+{
+  "db_id": "browser_web",
+  "classes": [
+    {
+      "name": "Web_client_accelerator",
+      "source_table": "Web_client_accelerator",
+      "ranking": 3.5,
+      "primary_label": "웹 클라이언트 액셀러레이터",
+      "synonyms": [
+        "웹 클라이언트 가속기",
+        "웹 클라이언트 가속장치",
+        "웹 클라이언트 가속기 장치",
+        "웹 클라이언트 가속기 기기",
+        "웹 클라이언트 가속기 장비"
+      ]
+    },
+    {
+      "name": "browser",
+      "source_table": "browser",
+      "ranking": 3.0,
+      "primary_label": "브라우저",
+      "synonyms": [
+        "브라우저",
+        "브라우저 프로그램",
+        "브라우저 소프트웨어",
+        "브라우저 앱",
+        "브라우저 기기"
+      ]
+    },
+    {
+      "name": "accelerator_compatible_browser",
+      "source_table": "accelerator_compatible_browser",
+      "ranking": 3.0,
+      "primary_label": "가속화 가능 브라우저",
+      "synonyms": [
+        "가속기 호환 브라우저",
+        "가속기 호환 브라우저 프로그램",
+        "가속기 호환 브라우저 소프트웨어",
+        "가속기 호환 브라우저 앱",
+        "가속기 호환 브라우저 기기"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Web_client_accelerator_id",
+      "domain": "Web_client_accelerator",
+      "source_table": "Web_client_accelerator",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "id",
+        "아이디",
+        "식별번호",
+        "고유번호",
+        "번호",
+        "클라이언트 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Web_client_accelerator_name",
+      "domain": "Web_client_accelerator",
+      "source_table": "Web_client_accelerator",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "이름",
+        "클라이언트 이름",
+        "제품명",
+        "제조사 이름",
+        "제품 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "웹 클라이언트": [
+          "웹 클라이언트"
+        ]
+      }
+    },
+    {
+      "name": "Web_client_accelerator_Operating_system",
+      "domain": "Web_client_accelerator",
+      "source_table": "Web_client_accelerator",
+      "source_column": "Operating_system",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "운영 시스템",
+      "synonyms": [
+        "Operating_system",
+        "운영체계",
+        "OS",
+        "운영체계 지원",
+        "운영체계 이름",
+        "운영체계 유형"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Windows": [
+          "윈도우"
+        ],
+        "Linux": [
+          "리눅스"
+        ]
+      }
+    },
+    {
+      "name": "Web_client_accelerator_Client",
+      "domain": "Web_client_accelerator",
+      "source_table": "Web_client_accelerator",
+      "source_column": "Client",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "클라이언트",
+      "synonyms": [
+        "클라이언트",
+        "클라이언트 유형",
+        "사용자 클라이언트",
+        "클라이언트 구분",
+        "클라이언트 종류"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Chrome": [
+          "크롬"
+        ],
+        "Firefox": [
+          "파이어폭스"
+        ]
+      }
+    },
+    {
+      "name": "Web_client_accelerator_Connection",
+      "domain": "Web_client_accelerator",
+      "source_table": "Web_client_accelerator",
+      "source_column": "Connection",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "연결",
+      "synonyms": [
+        "연결 방식",
+        "연결 유형",
+        "연결 구분",
+        "연결 방법",
+        "연결 종류",
+        "연결 타입"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "TCP": [
+          "TCP"
+        ],
+        "UDP": [
+          "UDP"
+        ]
+      }
+    },
+    {
+      "name": "browser_id",
+      "domain": "browser",
+      "source_table": "browser",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "id",
+        "아이디",
+        "브라우저 ID",
+        "식별자",
+        "고유번호",
+        "브라우저 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "browser_name",
+      "domain": "browser",
+      "source_table": "browser",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "이름",
+        "브라우저 이름",
+        "제품명",
+        "브라우저 제목",
+        "브라우저 소명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Chrome": [
+          "크롬"
+        ],
+        "Firefox": [
+          "파이어폭스"
+        ],
+        "Safari": [
+          "사파리"
+        ]
+      }
+    },
+    {
+      "name": "browser_market_share",
+      "domain": "browser",
+      "source_table": "browser",
+      "source_column": "market_share",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "시장 점유율",
+      "synonyms": [
+        "market share",
+        "시장 점유율",
+        "브라우저 시장 점유율",
+        "시장 점유 비율",
+        "브라우저 점유율",
+        "시장 공유 비율"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "accelerator_compatible_browser_accelerator_id",
+      "domain": "accelerator_compatible_browser",
+      "source_table": "accelerator_compatible_browser",
+      "source_column": "accelerator_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "가속화 ID",
+      "synonyms": [
+        "accelerator_id",
+        "액셀러레이터 ID",
+        "액셀러레이터 식별자",
+        "액셀러레이터 고유번호",
+        "액셀러레이터 코드",
+        "액셀러레이터 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "accelerator_compatible_browser_browser_id",
+      "domain": "accelerator_compatible_browser",
+      "source_table": "accelerator_compatible_browser",
+      "source_column": "browser_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "브라우저 ID",
+      "synonyms": [
+        "browser_id",
+        "브라우저 ID",
+        "브라우저 식별자",
+        "브라우저 고유번호",
+        "브라우저 코드",
+        "브라우저 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "accelerator_compatible_browser_compatible_since_year",
+      "domain": "accelerator_compatible_browser",
+      "source_table": "accelerator_compatible_browser",
+      "source_column": "compatible_since_year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "가능한 연도",
+      "synonyms": [
+        "compatible_since_year",
+        "호환 연도",
+        "호환 시작 연도",
+        "호환 시작년도",
+        "호환 연도 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": [
+          "2020년"
+        ],
+        "2021": [
+          "2021년"
+        ],
+        "2022": [
+          "2022년"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "accelerator_compatible_browser_browser_fk0",
+      "domain": "accelerator_compatible_browser",
+      "range": "browser",
+      "source_fk": [
+        "accelerator_compatible_browser.browser_id",
+        "browser.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "accelerator_compatible_browser_Web_client_accelerator_fk1",
+      "domain": "accelerator_compatible_browser",
+      "range": "Web_client_accelerator",
+      "source_fk": [
+        "accelerator_compatible_browser.accelerator_id",
+        "Web_client_accelerator.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

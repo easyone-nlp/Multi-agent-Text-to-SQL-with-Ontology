@@ -1,0 +1,724 @@
+{
+  "db_id": "school_player",
+  "classes": [
+    {
+      "name": "school",
+      "source_table": "school",
+      "ranking": 3.5,
+      "primary_label": "학교",
+      "synonyms": [
+        "학교",
+        "교육기관",
+        "학원",
+        "학교 정보"
+      ]
+    },
+    {
+      "name": "school_details",
+      "source_table": "school_details",
+      "ranking": 3.5,
+      "primary_label": "학교 세부 정보",
+      "synonyms": [
+        "학교 정보",
+        "학교 세부사항",
+        "학교 데이터",
+        "학교 상세 정보"
+      ]
+    },
+    {
+      "name": "school_performance",
+      "source_table": "school_performance",
+      "ranking": 3.5,
+      "primary_label": "학교 성과",
+      "synonyms": [
+        "학업 성과",
+        "성적 데이터",
+        "학교 성과",
+        "학업 성적",
+        "성과 데이터"
+      ]
+    },
+    {
+      "name": "player",
+      "source_table": "player",
+      "ranking": 3.5,
+      "primary_label": "플레이어",
+      "synonyms": [
+        "선수",
+        "학생 선수",
+        "운동선수",
+        "스포츠 선수",
+        "경기 참여자",
+        "팀원",
+        "운동인",
+        "스포츠 참가자"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "school_School_ID",
+      "domain": "school",
+      "source_table": "school",
+      "source_column": "School_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학교 ID",
+      "synonyms": [
+        "학교 ID",
+        "학교 고유 번호",
+        "학교 식별자",
+        "school id",
+        "학교 코드",
+        "학교 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "school_School",
+      "domain": "school",
+      "source_table": "school",
+      "source_column": "School",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "학교",
+      "synonyms": [
+        "학교 이름",
+        "학교명",
+        "학교",
+        "school",
+        "school name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "school_Location",
+      "domain": "school",
+      "source_table": "school",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.2,
+      "primary_label": "위치",
+      "synonyms": [
+        "위치",
+        "지역",
+        "학교 위치",
+        "학교 위치지",
+        "location",
+        "위치 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "school_Enrollment",
+      "domain": "school",
+      "source_table": "school",
+      "source_column": "Enrollment",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.1,
+      "primary_label": "입학자 수",
+      "synonyms": [
+        "학생 수",
+        "입학 인원",
+        "등록 인원",
+        "학생 인원",
+        "등록자 수",
+        "학사 수",
+        "Enrollment",
+        "입학자 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "school_Founded",
+      "domain": "school",
+      "source_table": "school",
+      "source_column": "Founded",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "설립 연도",
+      "synonyms": [
+        "설립년도",
+        "설립 연도",
+        "창립년도",
+        "창립 연도",
+        "Founded",
+        "설립 연년"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "school_Denomination",
+      "domain": "school",
+      "source_table": "school",
+      "source_column": "Denomination",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "종교",
+      "synonyms": [
+        "종교",
+        "교육 체계",
+        "교단",
+        "종교 성향",
+        "Denomination",
+        "교단 성향",
+        "종교적 성향"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "기독교": [
+          "기독교"
+        ],
+        "불교": [
+          "불교"
+        ]
+      }
+    },
+    {
+      "name": "school_Boys_or_Girls",
+      "domain": "school",
+      "source_table": "school",
+      "source_column": "Boys_or_Girls",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "남녀",
+      "synonyms": [
+        "남녀",
+        "남녀구분",
+        "남녀 학교",
+        "남녀 여부",
+        "남녀 구분 정보",
+        "남녀 대상",
+        "남녀 여부 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남자": [
+          "남자"
+        ],
+        "여자": [
+          "여자"
+        ],
+        "남녀공학": [
+          "남녀공학"
+        ]
+      }
+    },
+    {
+      "name": "school_Day_or_Boarding",
+      "domain": "school",
+      "source_table": "school",
+      "source_column": "Day_or_Boarding",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.7,
+      "primary_label": "일교 또는 보딩",
+      "synonyms": [
+        "일교",
+        "일교 구분",
+        "일교 여부",
+        "일교 방식",
+        "일교 또는 보딩",
+        "보딩 여부",
+        "일교 또는 보딩 유형",
+        "일교/보딩"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "일교": [
+          "일교"
+        ],
+        "보딩": [
+          "보딩"
+        ]
+      }
+    },
+    {
+      "name": "school_Year_Entered_Competition",
+      "domain": "school",
+      "source_table": "school",
+      "source_column": "Year_Entered_Competition",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.3,
+      "primary_label": "경기 참가 연도",
+      "synonyms": [
+        "경기 시작 연도",
+        "경기 참여 시작 연도",
+        "경기 대회 시작 연도",
+        "경기 대회 연도",
+        "경기 참여 연도",
+        "경기 대회 시작년도",
+        "경기 대회 연도 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "school_School_Colors",
+      "domain": "school",
+      "source_table": "school",
+      "source_column": "School_Colors",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.6,
+      "primary_label": "학교 색상",
+      "synonyms": [
+        "학교 색상",
+        "색상",
+        "색",
+        "학교의 색상",
+        "색상 정보",
+        "학교 색",
+        "학교 색상 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "빨간색": [
+          "빨간색"
+        ],
+        "파란색": [
+          "파란색"
+        ],
+        "노란색": [
+          "노란색"
+        ]
+      }
+    },
+    {
+      "name": "school_details_School_ID",
+      "domain": "school_details",
+      "source_table": "school_details",
+      "source_column": "School_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학교 ID",
+      "synonyms": [
+        "학교 ID",
+        "학교 식별 번호",
+        "학교 코드",
+        "School ID",
+        "학교 고유 번호",
+        "학교 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "school_details_Nickname",
+      "domain": "school_details",
+      "source_table": "school_details",
+      "source_column": "Nickname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "별명",
+      "synonyms": [
+        "별명",
+        "학교 별명",
+        "학교 이름",
+        "학교 소속 이름",
+        "Nickname",
+        "학교 특징 이름",
+        "학교 별칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "스타일 학교": [
+          "스타일 학교"
+        ],
+        "고등학교": [
+          "고등학교"
+        ]
+      }
+    },
+    {
+      "name": "school_details_Colors",
+      "domain": "school_details",
+      "source_table": "school_details",
+      "source_column": "Colors",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "색상",
+      "synonyms": [
+        "색상",
+        "학교 색상",
+        "상징 색상",
+        "학교 상징 색",
+        "Colors",
+        "학교 색"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "빨간색, 파란색": [
+          "빨간색, 파란색"
+        ]
+      }
+    },
+    {
+      "name": "school_details_League",
+      "domain": "school_details",
+      "source_table": "school_details",
+      "source_column": "League",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "리그",
+      "synonyms": [
+        "리그",
+        "축구 리그",
+        "학교 리그",
+        "스포츠 리그",
+        "리그 정보",
+        "League",
+        "축구 리그 정보",
+        "리그명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "KSL": [
+          "KSL"
+        ]
+      }
+    },
+    {
+      "name": "school_details_Class",
+      "domain": "school_details",
+      "source_table": "school_details",
+      "source_column": "Class",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "클래스",
+      "synonyms": [
+        "학년",
+        "학년 정보",
+        "Class",
+        "학년대",
+        "학년 수",
+        "학년 구분",
+        "Class 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "A 클래스": [
+          "A 클래스"
+        ]
+      }
+    },
+    {
+      "name": "school_details_Division",
+      "domain": "school_details",
+      "source_table": "school_details",
+      "source_column": "Division",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "분류",
+      "synonyms": [
+        "부문",
+        "경기 부문",
+        "Division",
+        "경기 구분",
+        "분류",
+        "분할",
+        "Division 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1부": [
+          "1부"
+        ]
+      }
+    },
+    {
+      "name": "school_performance_School_Id",
+      "domain": "school_performance",
+      "source_table": "school_performance",
+      "source_column": "School_Id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학교 id",
+      "synonyms": [
+        "학교 ID",
+        "학교 고유 번호",
+        "학교 식별자",
+        "school id",
+        "학교 코드",
+        "학교 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "school_performance_School_Year",
+      "domain": "school_performance",
+      "source_table": "school_performance",
+      "source_column": "School_Year",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "학교 연도",
+      "synonyms": [
+        "학교 년도",
+        "학년도",
+        "학교 연도",
+        "school year",
+        "학년도 정보",
+        "학교 연도 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023": [
+          "2023년"
+        ]
+      }
+    },
+    {
+      "name": "school_performance_Class_A",
+      "domain": "school_performance",
+      "source_table": "school_performance",
+      "source_column": "Class_A",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "클래스 a",
+      "synonyms": [
+        "A 등급",
+        "A 클래스",
+        "A 성적",
+        "Class A",
+        "A 등급 정보",
+        "A 클래스 성적",
+        "A 성적 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "A반": [
+          "A반"
+        ]
+      }
+    },
+    {
+      "name": "school_performance_Class_AA",
+      "domain": "school_performance",
+      "source_table": "school_performance",
+      "source_column": "Class_AA",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "클래스 aa",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "AA반": [
+          "AA반"
+        ]
+      }
+    },
+    {
+      "name": "player_Player_ID",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Player_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "player id",
+      "synonyms": [
+        "플레이어 ID",
+        "플레이어 고유 번호",
+        "플레이어 식별자",
+        "Player_ID",
+        "플레이어 번호",
+        "플레이어 고유 ID",
+        "ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Player",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Player",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "player",
+      "synonyms": [
+        "플레이어 이름",
+        "플레이어",
+        "Player",
+        "선수 이름",
+        "선수",
+        "이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Team",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Team",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "team",
+      "synonyms": [
+        "팀",
+        "플레이어 팀",
+        "팀 이름",
+        "팀명",
+        "Team",
+        "선수 팀"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Age",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "연령",
+        "나이",
+        "생년월일",
+        "연대",
+        "생년",
+        "나이 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_Position",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "Position",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "position",
+      "synonyms": [
+        "역할",
+        "위치",
+        "분위기",
+        "구역",
+        "부위",
+        "직책",
+        "위치 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "player_School_ID",
+      "domain": "player",
+      "source_table": "player",
+      "source_column": "School_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "school id",
+      "synonyms": [
+        "학교 ID",
+        "학교 코드",
+        "학교 식별자",
+        "학교 번호",
+        "학교 코드 정보",
+        "school id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "school_details_school_fk0",
+      "domain": "school_details",
+      "range": "school",
+      "source_fk": [
+        "school_details.School_ID",
+        "school.School_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "school_performance_school_fk1",
+      "domain": "school_performance",
+      "range": "school",
+      "source_fk": [
+        "school_performance.School_Id",
+        "school.School_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "player_school_fk2",
+      "domain": "player",
+      "range": "school",
+      "source_fk": [
+        "player.School_ID",
+        "school.School_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

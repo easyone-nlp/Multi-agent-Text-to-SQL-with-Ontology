@@ -1,0 +1,390 @@
+{
+  "db_id": "pets_1",
+  "classes": [
+    {
+      "name": "Student",
+      "source_table": "Student",
+      "ranking": 3.5,
+      "primary_label": "학생",
+      "synonyms": [
+        "학생 정보",
+        "학생 데이터",
+        "학생 목록",
+        "학생 기록",
+        "학생 정보 테이블"
+      ]
+    },
+    {
+      "name": "Has_Pet",
+      "source_table": "Has_Pet",
+      "ranking": 1.0,
+      "primary_label": "has pet",
+      "synonyms": [
+        "학생-반려동물 관계",
+        "학생의 반려동물",
+        "반려동물 소유자",
+        "소유 관계",
+        "학생-동물 관계"
+      ]
+    },
+    {
+      "name": "Pets",
+      "source_table": "Pets",
+      "ranking": 3.5,
+      "primary_label": "애완동물",
+      "synonyms": [
+        "반려동물 정보",
+        "동물 데이터",
+        "반려동물 목록",
+        "동물 기록",
+        "반려동물 정보 테이블"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Student_StuID",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "StuID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 고유 번호",
+        "학번",
+        "학생 코드",
+        "학생 식별자",
+        "학번 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_LName",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "LName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "성명",
+        "성씨",
+        "성자",
+        "성함"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김",
+          "박",
+          "이"
+        ]
+      }
+    },
+    {
+      "name": "Student_Fname",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Fname",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "민수": [
+          "민수",
+          "지현",
+          "서연"
+        ]
+      }
+    },
+    {
+      "name": "Student_Age",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "나이",
+      "synonyms": [
+        "나이",
+        "생년월일",
+        "연령",
+        "출생년도",
+        "나이대",
+        "연령대",
+        "생년"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Sex",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Sex",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "성별",
+      "synonyms": [
+        "성별",
+        "성",
+        "성별 정보",
+        "성별 코드",
+        "성별 구분"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남자": [
+          "남자",
+          "여자"
+        ]
+      }
+    },
+    {
+      "name": "Student_Major",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Major",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "전공",
+      "synonyms": [
+        "전공",
+        "전공코드",
+        "전공번호",
+        "전공구분",
+        "전공코드값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Advisor",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "Advisor",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "상담사",
+      "synonyms": [
+        "상담자",
+        "멘토",
+        "멘토링 담당자",
+        "멘토링 책임자",
+        "멘토링 관리자",
+        "멘토링 지도자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_city_code",
+      "domain": "Student",
+      "source_table": "Student",
+      "source_column": "city_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "시 코드",
+      "synonyms": [
+        "시 코드",
+        "도시 코드",
+        "도시 식별자",
+        "시 코드 정보",
+        "도시 식별 번호",
+        "시 코드 값",
+        "도시 코드 데이터",
+        "시 코드 식별자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "01": [
+          "01",
+          "02",
+          "03"
+        ]
+      }
+    },
+    {
+      "name": "Has_Pet_StuID",
+      "domain": "Has_Pet",
+      "source_table": "Has_Pet",
+      "source_column": "StuID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 id",
+      "synonyms": [
+        "학생 고유 번호",
+        "학생 코드",
+        "학번",
+        "학생 식별자",
+        "학생 ID",
+        "학생 인덱스"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Has_Pet_PetID",
+      "domain": "Has_Pet",
+      "source_table": "Has_Pet",
+      "source_column": "PetID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "반려동물 id",
+      "synonyms": [
+        "반려동물 고유 번호",
+        "동물 코드",
+        "반려동물 식별자",
+        "동물 ID",
+        "반려동물 인덱스",
+        "동물 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Pets_PetID",
+      "domain": "Pets",
+      "source_table": "Pets",
+      "source_column": "PetID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "애완동물 ID",
+      "synonyms": [
+        "ID",
+        "아이디",
+        "고유번호",
+        "번호",
+        "식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Pets_PetType",
+      "domain": "Pets",
+      "source_table": "Pets",
+      "source_column": "PetType",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "애완동물 종류",
+      "synonyms": [
+        "종류",
+        "형태",
+        "분류",
+        "타입",
+        "종"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "강아지": [
+          "강아지"
+        ],
+        "고양이": [
+          "고양이"
+        ],
+        "새": [
+          "새"
+        ]
+      }
+    },
+    {
+      "name": "Pets_pet_age",
+      "domain": "Pets",
+      "source_table": "Pets",
+      "source_column": "pet_age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "애완동물 나이",
+      "synonyms": [
+        "나이",
+        "연령",
+        "연수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Pets_weight",
+      "domain": "Pets",
+      "source_table": "Pets",
+      "source_column": "weight",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "체중",
+      "synonyms": [
+        "몸무게",
+        "무게",
+        "체중량",
+        "몸의 무게",
+        "체중 정보",
+        "무게 데이터",
+        "체중 측정",
+        "몸무게 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Has_Pet_Student_fk0",
+      "domain": "Has_Pet",
+      "range": "Student",
+      "source_fk": [
+        "Has_Pet.StuID",
+        "Student.StuID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소유한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Has_Pet_Pets_fk1",
+      "domain": "Has_Pet",
+      "range": "Pets",
+      "source_fk": [
+        "Has_Pet.PetID",
+        "Pets.PetID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소유한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

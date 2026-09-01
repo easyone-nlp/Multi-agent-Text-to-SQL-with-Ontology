@@ -1,0 +1,767 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "항공사",
+      "target_class": "airlines",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공회사",
+      "target_class": "airlines",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공운송사",
+      "target_class": "airlines",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공선사",
+      "target_class": "airlines",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공운영사",
+      "target_class": "airlines",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "공항",
+      "target_class": "airports",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공터미널",
+      "target_class": "airports",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공여행지",
+      "target_class": "airports",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공기착장",
+      "target_class": "airports",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공공항",
+      "target_class": "airports",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공편",
+      "target_class": "flights",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행기",
+      "target_class": "flights",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공여행",
+      "target_class": "flights",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공권",
+      "target_class": "flights",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공노선",
+      "target_class": "flights",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공사 id",
+      "target_class": "airlines",
+      "target_property": "airlines_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 ID",
+      "target_class": "airlines",
+      "target_property": "airlines_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 ID",
+      "target_class": "airlines",
+      "target_property": "airlines_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "airlines",
+      "target_property": "airlines_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "UID",
+      "target_class": "airlines",
+      "target_property": "airlines_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "airlines",
+      "target_property": "airlines_uid",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공사 이름",
+      "target_class": "airlines",
+      "target_property": "airlines_Airline",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공사명",
+      "target_class": "airlines",
+      "target_property": "airlines_Airline",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공사",
+      "target_class": "airlines",
+      "target_property": "airlines_Airline",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사회사명",
+      "target_class": "airlines",
+      "target_property": "airlines_Airline",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공회사",
+      "target_class": "airlines",
+      "target_property": "airlines_Airline",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "airlines",
+      "target_property": "airlines_Airline",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약칭",
+      "target_class": "airlines",
+      "target_property": "airlines_Abbreviation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약자",
+      "target_class": "airlines",
+      "target_property": "airlines_Abbreviation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약칭명",
+      "target_class": "airlines",
+      "target_property": "airlines_Abbreviation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "약자명",
+      "target_class": "airlines",
+      "target_property": "airlines_Abbreviation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름 약자",
+      "target_class": "airlines",
+      "target_property": "airlines_Abbreviation",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "airlines",
+      "target_property": "airlines_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "airlines",
+      "target_property": "airlines_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가코드",
+      "target_class": "airlines",
+      "target_property": "airlines_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가정보",
+      "target_class": "airlines",
+      "target_property": "airlines_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명칭",
+      "target_class": "airlines",
+      "target_property": "airlines_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국",
+      "target_class": "airlines",
+      "target_property": "airlines_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "city",
+      "target_class": "airports",
+      "target_property": "airports_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "airports",
+      "target_property": "airports_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명",
+      "target_class": "airports",
+      "target_property": "airports_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 이름",
+      "target_class": "airports",
+      "target_property": "airports_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시명칭",
+      "target_class": "airports",
+      "target_property": "airports_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시 정보",
+      "target_class": "airports",
+      "target_property": "airports_City",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "airport code",
+      "target_class": "airports",
+      "target_property": "airports_AirportCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항 코드",
+      "target_class": "airports",
+      "target_property": "airports_AirportCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항 코드명",
+      "target_class": "airports",
+      "target_property": "airports_AirportCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항 식별자",
+      "target_class": "airports",
+      "target_property": "airports_AirportCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항 코드 정보",
+      "target_class": "airports",
+      "target_property": "airports_AirportCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항 코드명칭",
+      "target_class": "airports",
+      "target_property": "airports_AirportCode",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "airport name",
+      "target_class": "airports",
+      "target_property": "airports_AirportName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항 이름",
+      "target_class": "airports",
+      "target_property": "airports_AirportName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항명",
+      "target_class": "airports",
+      "target_property": "airports_AirportName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항명칭",
+      "target_class": "airports",
+      "target_property": "airports_AirportName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항 이름 정보",
+      "target_class": "airports",
+      "target_property": "airports_AirportName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공항명 정보",
+      "target_class": "airports",
+      "target_property": "airports_AirportName",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "country",
+      "target_class": "airports",
+      "target_property": "airports_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "airports",
+      "target_property": "airports_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국",
+      "target_class": "airports",
+      "target_property": "airports_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가명",
+      "target_class": "airports",
+      "target_property": "airports_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가코드",
+      "target_class": "airports",
+      "target_property": "airports_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가정보",
+      "target_class": "airports",
+      "target_property": "airports_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "country abbrev",
+      "target_class": "airports",
+      "target_property": "airports_CountryAbbrev",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가코드 약자",
+      "target_class": "airports",
+      "target_property": "airports_CountryAbbrev",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 약자",
+      "target_class": "airports",
+      "target_property": "airports_CountryAbbrev",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드 축약어",
+      "target_class": "airports",
+      "target_property": "airports_CountryAbbrev",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 약칭",
+      "target_class": "airports",
+      "target_property": "airports_CountryAbbrev",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 코드 줄임말",
+      "target_class": "airports",
+      "target_property": "airports_CountryAbbrev",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공사",
+      "target_class": "flights",
+      "target_property": "flights_Airline",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공사 코드",
+      "target_class": "flights",
+      "target_property": "flights_Airline",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공사 식별번호",
+      "target_class": "flights",
+      "target_property": "flights_Airline",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공사 번호",
+      "target_class": "flights",
+      "target_property": "flights_Airline",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공사 코드번호",
+      "target_class": "flights",
+      "target_property": "flights_Airline",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항공사 식별자",
+      "target_class": "flights",
+      "target_property": "flights_Airline",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행번호",
+      "target_class": "flights",
+      "target_property": "flights_FlightNo",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행 번호",
+      "target_class": "flights",
+      "target_property": "flights_FlightNo",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행 번호 코드",
+      "target_class": "flights",
+      "target_property": "flights_FlightNo",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행 번호 식별자",
+      "target_class": "flights",
+      "target_property": "flights_FlightNo",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행 번호 코드번호",
+      "target_class": "flights",
+      "target_property": "flights_FlightNo",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발공항",
+      "target_class": "flights",
+      "target_property": "flights_SourceAirport",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발 공항",
+      "target_class": "flights",
+      "target_property": "flights_SourceAirport",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발 항공기 목적지",
+      "target_class": "flights",
+      "target_property": "flights_SourceAirport",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발 항공기 기지",
+      "target_class": "flights",
+      "target_property": "flights_SourceAirport",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출발 항공기 위치",
+      "target_class": "flights",
+      "target_property": "flights_SourceAirport",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착공항",
+      "target_class": "flights",
+      "target_property": "flights_DestAirport",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착 공항",
+      "target_class": "flights",
+      "target_property": "flights_DestAirport",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착 항공기 목적지",
+      "target_class": "flights",
+      "target_property": "flights_DestAirport",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착 항공기 코드",
+      "target_class": "flights",
+      "target_property": "flights_DestAirport",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착 항공기 정보",
+      "target_class": "flights",
+      "target_property": "flights_DestAirport",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착 항공기 위치",
+      "target_class": "flights",
+      "target_property": "flights_DestAirport",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도착 항공기 코드 정보",
+      "target_class": "flights",
+      "target_property": "flights_DestAirport",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "아시아항공",
+      "target_class": "airlines",
+      "target_property": "airlines_Airline",
+      "value": "아시아항공"
+    },
+    {
+      "entry_type": "value",
+      "key": "대한항공",
+      "target_class": "airlines",
+      "target_property": "airlines_Airline",
+      "value": "대한항공"
+    },
+    {
+      "entry_type": "value",
+      "key": "ASIA",
+      "target_class": "airlines",
+      "target_property": "airlines_Abbreviation",
+      "value": "ASIA"
+    },
+    {
+      "entry_type": "value",
+      "key": "KE",
+      "target_class": "airlines",
+      "target_property": "airlines_Abbreviation",
+      "value": "KE"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국",
+      "target_class": "airlines",
+      "target_property": "airlines_Country",
+      "value": "한국"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국",
+      "target_class": "airlines",
+      "target_property": "airlines_Country",
+      "value": "미국"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울공항",
+      "target_class": "flights",
+      "target_property": "flights_SourceAirport",
+      "value": "서울공항"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "flights",
+      "target_property": "flights_SourceAirport",
+      "value": "서울공항"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천공항",
+      "target_class": "flights",
+      "target_property": "flights_SourceAirport",
+      "value": "서울공항"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산공항",
+      "target_class": "flights",
+      "target_property": "flights_SourceAirport",
+      "value": "부산공항"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "flights",
+      "target_property": "flights_SourceAirport",
+      "value": "부산공항"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산국제공항",
+      "target_class": "flights",
+      "target_property": "flights_SourceAirport",
+      "value": "부산공항"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울공항",
+      "target_class": "flights",
+      "target_property": "flights_DestAirport",
+      "value": "서울공항"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "flights",
+      "target_property": "flights_DestAirport",
+      "value": "서울공항"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천공항",
+      "target_class": "flights",
+      "target_property": "flights_DestAirport",
+      "value": "서울공항"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산공항",
+      "target_class": "flights",
+      "target_property": "flights_DestAirport",
+      "value": "부산공항"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "flights",
+      "target_property": "flights_DestAirport",
+      "value": "부산공항"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산국제공항",
+      "target_class": "flights",
+      "target_property": "flights_DestAirport",
+      "value": "부산공항"
+    }
+  ]
+}

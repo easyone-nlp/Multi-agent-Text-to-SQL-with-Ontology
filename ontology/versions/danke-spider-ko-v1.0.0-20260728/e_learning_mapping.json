@@ -1,0 +1,162 @@
+{
+  "class_table": {
+    "Course_Authors_and_Tutors": "Course_Authors_and_Tutors",
+    "Students": "Students",
+    "Subjects": "Subjects",
+    "Courses": "Courses",
+    "Student_Course_Enrolment": "Student_Course_Enrolment",
+    "Student_Tests_Taken": "Student_Tests_Taken"
+  },
+  "property_column": {
+    "Course_Authors_and_Tutors_author_id": [
+      "Course_Authors_and_Tutors",
+      "author_id"
+    ],
+    "Course_Authors_and_Tutors_author_tutor_ATB": [
+      "Course_Authors_and_Tutors",
+      "author_tutor_ATB"
+    ],
+    "Course_Authors_and_Tutors_login_name": [
+      "Course_Authors_and_Tutors",
+      "login_name"
+    ],
+    "Course_Authors_and_Tutors_password": [
+      "Course_Authors_and_Tutors",
+      "password"
+    ],
+    "Course_Authors_and_Tutors_personal_name": [
+      "Course_Authors_and_Tutors",
+      "personal_name"
+    ],
+    "Course_Authors_and_Tutors_middle_name": [
+      "Course_Authors_and_Tutors",
+      "middle_name"
+    ],
+    "Course_Authors_and_Tutors_family_name": [
+      "Course_Authors_and_Tutors",
+      "family_name"
+    ],
+    "Course_Authors_and_Tutors_gender_mf": [
+      "Course_Authors_and_Tutors",
+      "gender_mf"
+    ],
+    "Course_Authors_and_Tutors_address_line_1": [
+      "Course_Authors_and_Tutors",
+      "address_line_1"
+    ],
+    "Students_student_id": [
+      "Students",
+      "student_id"
+    ],
+    "Students_date_of_registration": [
+      "Students",
+      "date_of_registration"
+    ],
+    "Students_date_of_latest_logon": [
+      "Students",
+      "date_of_latest_logon"
+    ],
+    "Students_login_name": [
+      "Students",
+      "login_name"
+    ],
+    "Students_password": [
+      "Students",
+      "password"
+    ],
+    "Students_personal_name": [
+      "Students",
+      "personal_name"
+    ],
+    "Students_middle_name": [
+      "Students",
+      "middle_name"
+    ],
+    "Students_family_name": [
+      "Students",
+      "family_name"
+    ],
+    "Subjects_subject_id": [
+      "Subjects",
+      "subject_id"
+    ],
+    "Subjects_subject_name": [
+      "Subjects",
+      "subject_name"
+    ],
+    "Courses_course_id": [
+      "Courses",
+      "course_id"
+    ],
+    "Courses_author_id": [
+      "Courses",
+      "author_id"
+    ],
+    "Courses_subject_id": [
+      "Courses",
+      "subject_id"
+    ],
+    "Courses_course_name": [
+      "Courses",
+      "course_name"
+    ],
+    "Courses_course_description": [
+      "Courses",
+      "course_description"
+    ],
+    "Student_Course_Enrolment_registration_id": [
+      "Student_Course_Enrolment",
+      "registration_id"
+    ],
+    "Student_Course_Enrolment_student_id": [
+      "Student_Course_Enrolment",
+      "student_id"
+    ],
+    "Student_Course_Enrolment_course_id": [
+      "Student_Course_Enrolment",
+      "course_id"
+    ],
+    "Student_Course_Enrolment_date_of_enrolment": [
+      "Student_Course_Enrolment",
+      "date_of_enrolment"
+    ],
+    "Student_Course_Enrolment_date_of_completion": [
+      "Student_Course_Enrolment",
+      "date_of_completion"
+    ],
+    "Student_Tests_Taken_registration_id": [
+      "Student_Tests_Taken",
+      "registration_id"
+    ],
+    "Student_Tests_Taken_date_test_taken": [
+      "Student_Tests_Taken",
+      "date_test_taken"
+    ],
+    "Student_Tests_Taken_test_result": [
+      "Student_Tests_Taken",
+      "test_result"
+    ]
+  },
+  "object_property_fk": {
+    "Courses_Subjects_fk0": [
+      "Courses.subject_id",
+      "Subjects.subject_id"
+    ],
+    "Courses_Course_Authors_and_Tutors_fk1": [
+      "Courses.author_id",
+      "Course_Authors_and_Tutors.author_id"
+    ],
+    "Student_Course_Enrolment_Students_fk2": [
+      "Student_Course_Enrolment.student_id",
+      "Students.student_id"
+    ],
+    "Student_Course_Enrolment_Courses_fk3": [
+      "Student_Course_Enrolment.course_id",
+      "Courses.course_id"
+    ],
+    "Student_Tests_Taken_Student_Course_Enrolment_fk4": [
+      "Student_Tests_Taken.registration_id",
+      "Student_Course_Enrolment.registration_id"
+    ]
+  }
+}

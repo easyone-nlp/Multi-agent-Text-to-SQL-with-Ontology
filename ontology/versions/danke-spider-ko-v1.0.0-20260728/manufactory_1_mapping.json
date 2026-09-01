@@ -1,0 +1,50 @@
+{
+  "class_table": {
+    "Manufacturers": "Manufacturers",
+    "Products": "Products"
+  },
+  "property_column": {
+    "Manufacturers_Code": [
+      "Manufacturers",
+      "Code"
+    ],
+    "Manufacturers_Name": [
+      "Manufacturers",
+      "Name"
+    ],
+    "Manufacturers_Headquarter": [
+      "Manufacturers",
+      "Headquarter"
+    ],
+    "Manufacturers_Founder": [
+      "Manufacturers",
+      "Founder"
+    ],
+    "Manufacturers_Revenue": [
+      "Manufacturers",
+      "Revenue"
+    ],
+    "Products_Code": [
+      "Products",
+      "Code"
+    ],
+    "Products_Name": [
+      "Products",
+      "Name"
+    ],
+    "Products_Price": [
+      "Products",
+      "Price"
+    ],
+    "Products_Manufacturer": [
+      "Products",
+      "Manufacturer"
+    ]
+  },
+  "object_property_fk": {
+    "Products_Manufacturers_fk0": [
+      "Products.Manufacturer",
+      "Manufacturers.Code"
+    ]
+  }
+}

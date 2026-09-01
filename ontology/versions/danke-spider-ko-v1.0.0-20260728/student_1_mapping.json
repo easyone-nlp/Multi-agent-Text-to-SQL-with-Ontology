@@ -1,0 +1,37 @@
+{
+  "class_table": {
+    "list": "list",
+    "teachers": "teachers"
+  },
+  "property_column": {
+    "list_LastName": [
+      "list",
+      "LastName"
+    ],
+    "list_FirstName": [
+      "list",
+      "FirstName"
+    ],
+    "list_Grade": [
+      "list",
+      "Grade"
+    ],
+    "list_Classroom": [
+      "list",
+      "Classroom"
+    ],
+    "teachers_LastName": [
+      "teachers",
+      "LastName"
+    ],
+    "teachers_FirstName": [
+      "teachers",
+      "FirstName"
+    ],
+    "teachers_Classroom": [
+      "teachers",
+      "Classroom"
+    ]
+  },
+  "object_property_fk": {}
+}

@@ -1,0 +1,159 @@
+{
+  "class_table": {
+    "Customers": "Customers",
+    "Staff": "Staff",
+    "Policies": "Policies",
+    "Claim_Headers": "Claim_Headers",
+    "Claims_Documents": "Claims_Documents",
+    "Claims_Processing_Stages": "Claims_Processing_Stages",
+    "Claims_Processing": "Claims_Processing"
+  },
+  "property_column": {
+    "Customers_Customer_ID": [
+      "Customers",
+      "Customer_ID"
+    ],
+    "Customers_Customer_Details": [
+      "Customers",
+      "Customer_Details"
+    ],
+    "Staff_Staff_ID": [
+      "Staff",
+      "Staff_ID"
+    ],
+    "Staff_Staff_Details": [
+      "Staff",
+      "Staff_Details"
+    ],
+    "Policies_Policy_ID": [
+      "Policies",
+      "Policy_ID"
+    ],
+    "Policies_Customer_ID": [
+      "Policies",
+      "Customer_ID"
+    ],
+    "Policies_Policy_Type_Code": [
+      "Policies",
+      "Policy_Type_Code"
+    ],
+    "Policies_Start_Date": [
+      "Policies",
+      "Start_Date"
+    ],
+    "Policies_End_Date": [
+      "Policies",
+      "End_Date"
+    ],
+    "Claim_Headers_Claim_Header_ID": [
+      "Claim_Headers",
+      "Claim_Header_ID"
+    ],
+    "Claim_Headers_Claim_Status_Code": [
+      "Claim_Headers",
+      "Claim_Status_Code"
+    ],
+    "Claim_Headers_Claim_Type_Code": [
+      "Claim_Headers",
+      "Claim_Type_Code"
+    ],
+    "Claim_Headers_Policy_ID": [
+      "Claim_Headers",
+      "Policy_ID"
+    ],
+    "Claim_Headers_Date_of_Claim": [
+      "Claim_Headers",
+      "Date_of_Claim"
+    ],
+    "Claim_Headers_Date_of_Settlement": [
+      "Claim_Headers",
+      "Date_of_Settlement"
+    ],
+    "Claim_Headers_Amount_Claimed": [
+      "Claim_Headers",
+      "Amount_Claimed"
+    ],
+    "Claim_Headers_Amount_Piad": [
+      "Claim_Headers",
+      "Amount_Piad"
+    ],
+    "Claims_Documents_Claim_ID": [
+      "Claims_Documents",
+      "Claim_ID"
+    ],
+    "Claims_Documents_Document_Type_Code": [
+      "Claims_Documents",
+      "Document_Type_Code"
+    ],
+    "Claims_Documents_Created_by_Staff_ID": [
+      "Claims_Documents",
+      "Created_by_Staff_ID"
+    ],
+    "Claims_Documents_Created_Date": [
+      "Claims_Documents",
+      "Created_Date"
+    ],
+    "Claims_Processing_Stages_Claim_Stage_ID": [
+      "Claims_Processing_Stages",
+      "Claim_Stage_ID"
+    ],
+    "Claims_Processing_Stages_Next_Claim_Stage_ID": [
+      "Claims_Processing_Stages",
+      "Next_Claim_Stage_ID"
+    ],
+    "Claims_Processing_Stages_Claim_Status_Name": [
+      "Claims_Processing_Stages",
+      "Claim_Status_Name"
+    ],
+    "Claims_Processing_Stages_Claim_Status_Description": [
+      "Claims_Processing_Stages",
+      "Claim_Status_Description"
+    ],
+    "Claims_Processing_Claim_Processing_ID": [
+      "Claims_Processing",
+      "Claim_Processing_ID"
+    ],
+    "Claims_Processing_Claim_ID": [
+      "Claims_Processing",
+      "Claim_ID"
+    ],
+    "Claims_Processing_Claim_Outcome_Code": [
+      "Claims_Processing",
+      "Claim_Outcome_Code"
+    ],
+    "Claims_Processing_Claim_Stage_ID": [
+      "Claims_Processing",
+      "Claim_Stage_ID"
+    ],
+    "Claims_Processing_Staff_ID": [
+      "Claims_Processing",
+      "Staff_ID"
+    ]
+  },
+  "object_property_fk": {
+    "Policies_Customers_fk0": [
+      "Policies.Customer_ID",
+      "Customers.Customer_ID"
+    ],
+    "Claim_Headers_Policies_fk1": [
+      "Claim_Headers.Policy_ID",
+      "Policies.Policy_ID"
+    ],
+    "Claims_Documents_Staff_fk2": [
+      "Claims_Documents.Created_by_Staff_ID",
+      "Staff.Staff_ID"
+    ],
+    "Claims_Documents_Claim_Headers_fk3": [
+      "Claims_Documents.Claim_ID",
+      "Claim_Headers.Claim_Header_ID"
+    ],
+    "Claims_Processing_Staff_fk4": [
+      "Claims_Processing.Staff_ID",
+      "Staff.Staff_ID"
+    ],
+    "Claims_Processing_Claim_Headers_fk5": [
+      "Claims_Processing.Claim_ID",
+      "Claim_Headers.Claim_Header_ID"
+    ]
+  }
+}

@@ -1,0 +1,1880 @@
+{
+  "db_id": "assets_maintenance",
+  "classes": [
+    {
+      "name": "Third_Party_Companies",
+      "source_table": "Third_Party_Companies",
+      "ranking": 3.5,
+      "primary_label": "third party companies",
+      "synonyms": [
+        "제3자 기업",
+        "외부 기업",
+        "외부 회사",
+        "제3자 조직",
+        "외부 업체",
+        "외부 기관"
+      ]
+    },
+    {
+      "name": "Maintenance_Contracts",
+      "source_table": "Maintenance_Contracts",
+      "ranking": 3.5,
+      "primary_label": "유지보수 계약",
+      "synonyms": [
+        "유지보수 계약",
+        "유지보수 계약서",
+        "유지보수 협약",
+        "계약",
+        "계약서",
+        "협약"
+      ]
+    },
+    {
+      "name": "Parts",
+      "source_table": "Parts",
+      "ranking": 3.0,
+      "primary_label": "parts",
+      "synonyms": [
+        "부품",
+        "부품 정보",
+        "요소",
+        "요소품",
+        "부품 목록",
+        "요소 목록",
+        "부품 데이터"
+      ]
+    },
+    {
+      "name": "Skills",
+      "source_table": "Skills",
+      "ranking": 3.0,
+      "primary_label": "스킬",
+      "synonyms": [
+        "기술 능력",
+        "전문성",
+        "능력치",
+        "기술 지식",
+        "보유 기술"
+      ]
+    },
+    {
+      "name": "Staff",
+      "source_table": "Staff",
+      "ranking": 3.0,
+      "primary_label": "직원",
+      "synonyms": [
+        "직원",
+        "직장인",
+        "근로자",
+        "보수직원",
+        "직무 인력"
+      ]
+    },
+    {
+      "name": "Assets",
+      "source_table": "Assets",
+      "ranking": 3.5,
+      "primary_label": "자산",
+      "synonyms": [
+        "자산 목록",
+        "설비",
+        "자원",
+        "기기",
+        "유지보수 자산"
+      ]
+    },
+    {
+      "name": "Asset_Parts",
+      "source_table": "Asset_Parts",
+      "ranking": 1.0,
+      "primary_label": "asset parts",
+      "synonyms": [
+        "자산 부품",
+        "자산 부품 정보",
+        "자산 부품 목록",
+        "자산 부품 데이터"
+      ]
+    },
+    {
+      "name": "Maintenance_Engineers",
+      "source_table": "Maintenance_Engineers",
+      "ranking": 3.5,
+      "primary_label": "보수 엔지니어",
+      "synonyms": [
+        "유지보수 엔지니어",
+        "유지보수 기술자",
+        "유지보수 인력",
+        "유지보수 전문가"
+      ]
+    },
+    {
+      "name": "Engineer_Skills",
+      "source_table": "Engineer_Skills",
+      "ranking": 3.0,
+      "primary_label": "엔지니어 기술",
+      "synonyms": [
+        "엔지니어 기술",
+        "엔지니어 능력",
+        "엔지니어 기술력",
+        "엔지니어 전문성",
+        "엔지니어 기술 정보"
+      ]
+    },
+    {
+      "name": "Fault_Log",
+      "source_table": "Fault_Log",
+      "ranking": 3.5,
+      "primary_label": "불량 로그",
+      "synonyms": [
+        "고장 기록",
+        "결함 기록",
+        "오류 기록",
+        "사고 기록",
+        "고장 로그"
+      ]
+    },
+    {
+      "name": "Engineer_Visits",
+      "source_table": "Engineer_Visits",
+      "ranking": 3.5,
+      "primary_label": "엔지니어 방문",
+      "synonyms": [
+        "공학자 방문",
+        "공학자 방문 기록",
+        "유지보수 방문",
+        "기술자 방문",
+        "유지보수 방문 기록"
+      ]
+    },
+    {
+      "name": "Part_Faults",
+      "source_table": "Part_Faults",
+      "ranking": 3.0,
+      "primary_label": "부품 결함",
+      "synonyms": [
+        "부품 결함",
+        "부품 고장",
+        "부품 오류",
+        "부품 문제",
+        "부품 결함 기록"
+      ]
+    },
+    {
+      "name": "Fault_Log_Parts",
+      "source_table": "Fault_Log_Parts",
+      "ranking": 1.0,
+      "primary_label": "불량 로그 부품",
+      "synonyms": [
+        "Fault part log",
+        "Maintenance part log",
+        "Fault component log",
+        "Equipment part log",
+        "Failure part log"
+      ]
+    },
+    {
+      "name": "Skills_Required_To_Fix",
+      "source_table": "Skills_Required_To_Fix",
+      "ranking": 3.0,
+      "primary_label": "필요한 기술 목록",
+      "synonyms": [
+        "Fix skill log",
+        "Repair skill log",
+        "Maintenance skill log",
+        "Fix technique log",
+        "Repair skill list"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Third_Party_Companies_company_id",
+      "domain": "Third_Party_Companies",
+      "source_table": "Third_Party_Companies",
+      "source_column": "company_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "company id",
+      "synonyms": [
+        "company_id",
+        "company identifier",
+        "company number",
+        "company code",
+        "company key",
+        "company unique id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Third_Party_Companies_company_type",
+      "domain": "Third_Party_Companies",
+      "source_table": "Third_Party_Companies",
+      "source_column": "company_type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "company type",
+      "synonyms": [
+        "company_type",
+        "company category",
+        "company kind",
+        "company classification",
+        "company class",
+        "company type code",
+        "company nature"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "외주업체": [
+          "외주",
+          "외주 회사"
+        ],
+        "제3자": [
+          "제3자 회사"
+        ]
+      }
+    },
+    {
+      "name": "Third_Party_Companies_company_name",
+      "domain": "Third_Party_Companies",
+      "source_table": "Third_Party_Companies",
+      "source_column": "company_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "company name",
+      "synonyms": [
+        "company_name",
+        "company title",
+        "company designation",
+        "company identifier name",
+        "company full name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Third_Party_Companies_company_address",
+      "domain": "Third_Party_Companies",
+      "source_table": "Third_Party_Companies",
+      "source_column": "company_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "company address",
+      "synonyms": [
+        "회사 주소",
+        "주소",
+        "company address",
+        "사무소 위치",
+        "사업장 주소",
+        "주소 정보",
+        "회사 위치"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Third_Party_Companies_other_company_details",
+      "domain": "Third_Party_Companies",
+      "source_table": "Third_Party_Companies",
+      "source_column": "other_company_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "other company details",
+      "synonyms": [
+        "추가 정보",
+        "기타 정보",
+        "company details",
+        "기타 회사 정보",
+        "추가 설명",
+        "기타 세부 사항",
+        "기타 정보 기록"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Maintenance_Contracts_maintenance_contract_id",
+      "domain": "Maintenance_Contracts",
+      "source_table": "Maintenance_Contracts",
+      "source_column": "maintenance_contract_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "유지보수 계약 ID",
+      "synonyms": [
+        "유지보수 계약 번호",
+        "계약 번호",
+        "계약 ID",
+        "계약 식별자",
+        "계약 고유 번호",
+        "계약 코드",
+        "계약 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Maintenance_Contracts_maintenance_contract_company_id",
+      "domain": "Maintenance_Contracts",
+      "source_table": "Maintenance_Contracts",
+      "source_column": "maintenance_contract_company_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "유지보수 계약 회사 ID",
+      "synonyms": [
+        "유지보수 회사 ID",
+        "계약 회사 식별자",
+        "유지보수 계약 회사 코드",
+        "계약 기업 ID",
+        "유지보수 계약 기업 번호",
+        "유지보수 회사 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Maintenance_Contracts_contract_start_date",
+      "domain": "Maintenance_Contracts",
+      "source_table": "Maintenance_Contracts",
+      "source_column": "contract_start_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 3.0,
+      "primary_label": "계약 시작일",
+      "synonyms": [
+        "계약 시작일",
+        "계약 시작 시간",
+        "계약 시작 날짜",
+        "계약 시작일자",
+        "계약 시작 시간점",
+        "계약 시작 날짜 시간",
+        "계약 시작일자 시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Maintenance_Contracts_contract_end_date",
+      "domain": "Maintenance_Contracts",
+      "source_table": "Maintenance_Contracts",
+      "source_column": "contract_end_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 3.0,
+      "primary_label": "계약 종료일",
+      "synonyms": [
+        "계약 종료일",
+        "계약 마감일",
+        "계약 종료 시간",
+        "계약 종료 날짜",
+        "계약 마감 시간",
+        "계약 종료 일자",
+        "계약 종료 시각",
+        "계약 마감 날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Maintenance_Contracts_other_contract_details",
+      "domain": "Maintenance_Contracts",
+      "source_table": "Maintenance_Contracts",
+      "source_column": "other_contract_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "다른 계약 세부 사항",
+      "synonyms": [
+        "기타 계약 정보",
+        "추가 계약 내용",
+        "계약 기타 사항",
+        "계약 추가 설명",
+        "계약 기타 정보",
+        "계약 기타 내용",
+        "계약 추가 정보",
+        "계약 기타 설명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Parts_part_id",
+      "domain": "Parts",
+      "source_table": "Parts",
+      "source_column": "part_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "part id",
+      "synonyms": [
+        "part_id",
+        "부품 ID",
+        "part 번호",
+        "품번",
+        "부품 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Parts_part_name",
+      "domain": "Parts",
+      "source_table": "Parts",
+      "source_column": "part_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "part name",
+      "synonyms": [
+        "part_name",
+        "부품 이름",
+        "제품명",
+        "제목",
+        "부품 제목"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Parts_chargeable_yn",
+      "domain": "Parts",
+      "source_table": "Parts",
+      "source_column": "chargeable_yn",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "chargeable yn",
+      "synonyms": [
+        "chargeable_yn",
+        "청구 여부",
+        "청구 가능 여부",
+        "chargeable 여부",
+        "청구 표시"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Y": [
+          "예",
+          "예요"
+        ],
+        "N": [
+          "아니오",
+          "아니요"
+        ]
+      }
+    },
+    {
+      "name": "Parts_chargeable_amount",
+      "domain": "Parts",
+      "source_table": "Parts",
+      "source_column": "chargeable_amount",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "chargeable amount",
+      "synonyms": [
+        "청구 금액",
+        "금액",
+        "청구액",
+        "비용",
+        "요금",
+        "chargeable_amount",
+        "금액 정보",
+        "청구 금액 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Parts_other_part_details",
+      "domain": "Parts",
+      "source_table": "Parts",
+      "source_column": "other_part_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "other part details",
+      "synonyms": [
+        "추가 정보",
+        "기타 정보",
+        "기타 세부 사항",
+        "기타 설명",
+        "other_part_details",
+        "추가 설명",
+        "기타 부품 정보",
+        "기타 세부 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Skills_skill_id",
+      "domain": "Skills",
+      "source_table": "Skills",
+      "source_column": "skill_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "스킬 ID",
+      "synonyms": [
+        "skill_id",
+        "기술 ID",
+        "기술 식별 번호",
+        "기능 코드",
+        "기술 번호",
+        "기능 식별자",
+        "기술 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Skills_skill_code",
+      "domain": "Skills",
+      "source_table": "Skills",
+      "source_column": "skill_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "스킬 코드",
+      "synonyms": [
+        "skill_code",
+        "기술 코드",
+        "기능 코드",
+        "기술 식별 코드",
+        "기능 코드 정보",
+        "기술 고유 코드",
+        "기능 코드 번호"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "SK001": [
+          "SK001"
+        ],
+        "SK002": [
+          "SK002"
+        ]
+      }
+    },
+    {
+      "name": "Skills_skill_description",
+      "domain": "Skills",
+      "source_table": "Skills",
+      "source_column": "skill_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "스킬 설명",
+      "synonyms": [
+        "skill_description",
+        "기술 설명",
+        "기술 설명 정보",
+        "기술 상세 설명",
+        "기술 내용",
+        "기술 요약"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_staff_id",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "staff_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "직원 ID",
+      "synonyms": [
+        "직원 ID",
+        "직원 번호",
+        "직원 식별자",
+        "staff_id",
+        "직원 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Staff_staff_name",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "staff_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "직원 이름",
+      "synonyms": [
+        "직원 이름",
+        "직원명",
+        "사원 이름",
+        "staff_name",
+        "직원 소명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "박지현": [
+          "박지현"
+        ]
+      }
+    },
+    {
+      "name": "Staff_gender",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "gender",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "성별",
+      "synonyms": [
+        "성별",
+        "직원 성별",
+        "성별 정보",
+        "gender",
+        "직원 성별 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남성": [
+          "남성"
+        ],
+        "여성": [
+          "여성"
+        ]
+      }
+    },
+    {
+      "name": "Staff_other_staff_details",
+      "domain": "Staff",
+      "source_table": "Staff",
+      "source_column": "other_staff_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "다른 직원 정보",
+      "synonyms": [
+        "기타 직원 정보",
+        "추가 직원 세부 사항",
+        "기타 직원 데이터",
+        "직원 기타 정보",
+        "기타 직원 설명",
+        "직원 기타 세부 사항",
+        "기타 직원 정보 내용",
+        "직원 기타 정보 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assets_asset_id",
+      "domain": "Assets",
+      "source_table": "Assets",
+      "source_column": "asset_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "자산 ID",
+      "synonyms": [
+        "자산 ID",
+        "자산 식별자",
+        "ASSET_ID",
+        "자산 번호",
+        "자산 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assets_maintenance_contract_id",
+      "domain": "Assets",
+      "source_table": "Assets",
+      "source_column": "maintenance_contract_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "유지보수 계약 ID",
+      "synonyms": [
+        "유지보수 계약 ID",
+        "유지보수 계약 번호",
+        "MAINTENANCE_CONTRACT_ID",
+        "계약 번호",
+        "계약 ID",
+        "계약 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assets_supplier_company_id",
+      "domain": "Assets",
+      "source_table": "Assets",
+      "source_column": "supplier_company_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "공급업체 회사 ID",
+      "synonyms": [
+        "공급업체 회사 ID",
+        "공급업체 ID",
+        "SUPPLIER_COMPANY_ID",
+        "회사 번호",
+        "회사 ID",
+        "공급업체 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assets_asset_details",
+      "domain": "Assets",
+      "source_table": "Assets",
+      "source_column": "asset_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "자산 상세 정보",
+      "synonyms": [
+        "자산 정보",
+        "추가 정보",
+        "자산 설명",
+        "기타 정보",
+        "자산 세부 사항",
+        "자산 기타 정보",
+        "자산 기타 설명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assets_asset_make",
+      "domain": "Assets",
+      "source_table": "Assets",
+      "source_column": "asset_make",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "자산 제조사",
+      "synonyms": [
+        "제조사",
+        "생산사",
+        "제조사 정보",
+        "제조사명",
+        "자산 제조사",
+        "제조사 이름",
+        "자산 제조사 정보",
+        "제조사 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assets_asset_model",
+      "domain": "Assets",
+      "source_table": "Assets",
+      "source_column": "asset_model",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "자산 모델",
+      "synonyms": [
+        "모델",
+        "모델명",
+        "자산 모델",
+        "모델 정보",
+        "자산 모델명",
+        "모델 이름",
+        "자산 모델 정보",
+        "모델 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assets_asset_acquired_date",
+      "domain": "Assets",
+      "source_table": "Assets",
+      "source_column": "asset_acquired_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "자산 취득일",
+      "synonyms": [
+        "구매일자",
+        "구매날짜",
+        "자산 구매일",
+        "사용 시작일",
+        "자산 취득일",
+        "acquired_date",
+        "asset acquired date"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assets_asset_disposed_date",
+      "domain": "Assets",
+      "source_table": "Assets",
+      "source_column": "asset_disposed_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 1.5,
+      "primary_label": "자산 처분일",
+      "synonyms": [
+        "폐기일자",
+        "폐기날짜",
+        "자산 폐기일",
+        "사용 종료일",
+        "자산 처분일",
+        "disposed_date",
+        "asset disposed date"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Assets_other_asset_details",
+      "domain": "Assets",
+      "source_table": "Assets",
+      "source_column": "other_asset_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "다른 자산 정보",
+      "synonyms": [
+        "기타 정보",
+        "추가 설명",
+        "기타 세부 사항",
+        "기타 설명",
+        "other details",
+        "other_asset_details"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Asset_Parts_asset_id",
+      "domain": "Asset_Parts",
+      "source_table": "Asset_Parts",
+      "source_column": "asset_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "asset id",
+      "synonyms": [
+        "장비 ID",
+        "장비 식별자",
+        "장비 번호",
+        "장비 코드",
+        "ASSET_ID",
+        "ASSET",
+        "장비"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Asset_Parts_part_id",
+      "domain": "Asset_Parts",
+      "source_table": "Asset_Parts",
+      "source_column": "part_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "part id",
+      "synonyms": [
+        "부품 ID",
+        "부품 식별자",
+        "부품 번호",
+        "부품 코드",
+        "PART_ID",
+        "PART",
+        "부품"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Maintenance_Engineers_engineer_id",
+      "domain": "Maintenance_Engineers",
+      "source_table": "Maintenance_Engineers",
+      "source_column": "engineer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "엔지니어 ID",
+      "synonyms": [
+        "엔지니어 ID",
+        "기술자 ID",
+        "엔지니어 식별자",
+        "유지보수 기술자 ID",
+        "engineer_id",
+        "기술자 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Maintenance_Engineers_company_id",
+      "domain": "Maintenance_Engineers",
+      "source_table": "Maintenance_Engineers",
+      "source_column": "company_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "회사 ID",
+      "synonyms": [
+        "회사 ID",
+        "기업 ID",
+        "회사 식별자",
+        "company_id",
+        "회사 코드",
+        "유지보수 기술자 회사 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Maintenance_Engineers_first_name",
+      "domain": "Maintenance_Engineers",
+      "source_table": "Maintenance_Engineers",
+      "source_column": "first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "성명",
+        "first_name",
+        "성",
+        "이름 부분"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Maintenance_Engineers_last_name",
+      "domain": "Maintenance_Engineers",
+      "source_table": "Maintenance_Engineers",
+      "source_column": "last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "이름",
+        "성명",
+        "성자",
+        "성 정보",
+        "성별",
+        "성 이름",
+        "성자 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Maintenance_Engineers_other_details",
+      "domain": "Maintenance_Engineers",
+      "source_table": "Maintenance_Engineers",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "기타 정보",
+      "synonyms": [
+        "추가 정보",
+        "기타 정보",
+        "기타 세부 사항",
+        "기타 설명",
+        "기타 자료",
+        "기타 데이터",
+        "기타 세부 내용",
+        "기타 설명 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Engineer_Skills_engineer_id",
+      "domain": "Engineer_Skills",
+      "source_table": "Engineer_Skills",
+      "source_column": "engineer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "엔지니어 ID",
+      "synonyms": [
+        "엔지니어 ID",
+        "엔지니어 식별 번호",
+        "공정 엔지니어 ID",
+        "엔지니어 고유 번호",
+        "engineer_id",
+        "엔지니어 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Engineer_Skills_skill_id",
+      "domain": "Engineer_Skills",
+      "source_table": "Engineer_Skills",
+      "source_column": "skill_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기술 ID",
+      "synonyms": [
+        "기술 ID",
+        "기술 식별 번호",
+        "기술 고유 번호",
+        "skill_id",
+        "기술 고유 식별자",
+        "기술 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Fault_Log_fault_log_entry_id",
+      "domain": "Fault_Log",
+      "source_table": "Fault_Log",
+      "source_column": "fault_log_entry_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "불량 로그 엔트리 ID",
+      "synonyms": [
+        "고장 로그 번호",
+        "고장 로그 ID",
+        "고장 로그 엔트리 ID",
+        "고장 로그 고유 번호",
+        "고장 로그 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Fault_Log_asset_id",
+      "domain": "Fault_Log",
+      "source_table": "Fault_Log",
+      "source_column": "asset_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "자산 ID",
+      "synonyms": [
+        "자산 ID",
+        "자산 번호",
+        "자산 식별자",
+        "자산 고유 번호",
+        "자산 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Fault_Log_recorded_by_staff_id",
+      "domain": "Fault_Log",
+      "source_table": "Fault_Log",
+      "source_column": "recorded_by_staff_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "기록한 직원 ID",
+      "synonyms": [
+        "기록자 직원 ID",
+        "기록 직원 번호",
+        "직원 ID",
+        "직원 식별자",
+        "기록 직원 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Fault_Log_fault_log_entry_datetime",
+      "domain": "Fault_Log",
+      "source_table": "Fault_Log",
+      "source_column": "fault_log_entry_datetime",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 3.0,
+      "primary_label": "불량 로그 엔트리 시간",
+      "synonyms": [
+        "고장 보고 시간",
+        "고장 기록 시각",
+        "고장 발생 시간",
+        "고장 기록 날짜 시간",
+        "고장 로그 시간",
+        "고장 로그 기록 시각",
+        "고장 보고 날짜 시간"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Fault_Log_fault_description",
+      "domain": "Fault_Log",
+      "source_table": "Fault_Log",
+      "source_column": "fault_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "불량 설명",
+      "synonyms": [
+        "고장 설명",
+        "고장 현상",
+        "고장 요약",
+        "고장 내용",
+        "고장 요약 설명",
+        "고장 정보",
+        "고장 설명 사항",
+        "고장 요약 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Fault_Log_other_fault_details",
+      "domain": "Fault_Log",
+      "source_table": "Fault_Log",
+      "source_column": "other_fault_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "다른 불량 세부 사항",
+      "synonyms": [
+        "추가 고장 세부 사항",
+        "기타 고장 정보",
+        "기타 고장 설명",
+        "기타 고장 요약",
+        "기타 고장 내용",
+        "기타 고장 세부 설명",
+        "기타 고장 정보 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Engineer_Visits_engineer_visit_id",
+      "domain": "Engineer_Visits",
+      "source_table": "Engineer_Visits",
+      "source_column": "engineer_visit_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "엔지니어 방문 ID",
+      "synonyms": [
+        "엔지니어 방문 ID",
+        "방문 기록 ID",
+        "방문 번호",
+        "방문 식별자",
+        "방문 고유 ID",
+        "engineer_visit_id",
+        "방문 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Engineer_Visits_contact_staff_id",
+      "domain": "Engineer_Visits",
+      "source_table": "Engineer_Visits",
+      "source_column": "contact_staff_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "연락 담당 직원 ID",
+      "synonyms": [
+        "연락 직원 ID",
+        "직원 식별자",
+        "연락인 ID",
+        "직원 번호",
+        "contact_staff_id",
+        "연락 직원 고유 ID",
+        "연락 직원 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Engineer_Visits_engineer_id",
+      "domain": "Engineer_Visits",
+      "source_table": "Engineer_Visits",
+      "source_column": "engineer_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "엔지니어 ID",
+      "synonyms": [
+        "엔지니어 ID",
+        "엔지니어 식별자",
+        "엔지니어 번호",
+        "engineer_id",
+        "엔지니어 고유 ID",
+        "수행 엔지니어 ID",
+        "수행 엔지니어 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Engineer_Visits_fault_log_entry_id",
+      "domain": "Engineer_Visits",
+      "source_table": "Engineer_Visits",
+      "source_column": "fault_log_entry_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "불량 로그 항목 ID",
+      "synonyms": [
+        "fault_log_entry_id",
+        "고장 로그 번호",
+        "고장 기록 ID",
+        "고장 로그 아이디",
+        "고장 엔트리 ID",
+        "고장 로그 코드",
+        "고장 기록 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Engineer_Visits_fault_status",
+      "domain": "Engineer_Visits",
+      "source_table": "Engineer_Visits",
+      "source_column": "fault_status",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "불량 상태",
+      "synonyms": [
+        "fault_status",
+        "고장 상태",
+        "고장 현황",
+        "고장 상태 정보",
+        "고장 상태 코드",
+        "고장 상태명",
+        "고장 상태 문자열"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "정상": [
+          "정상",
+          "정상 상태"
+        ],
+        "처리 중": [
+          "처리 중",
+          "진행 중"
+        ],
+        "완료": [
+          "완료",
+          "종료"
+        ],
+        "대기": [
+          "대기",
+          "대기 중"
+        ]
+      }
+    },
+    {
+      "name": "Engineer_Visits_visit_start_datetime",
+      "domain": "Engineer_Visits",
+      "source_table": "Engineer_Visits",
+      "source_column": "visit_start_datetime",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "방문 시작 시간",
+      "synonyms": [
+        "visit_start_datetime",
+        "방문 시작 시간",
+        "방문 시작 시각",
+        "방문 시작 날짜 시간",
+        "방문 시작 DATETIME",
+        "방문 시작 일시",
+        "방문 시작 시간 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Engineer_Visits_visit_end_datetime",
+      "domain": "Engineer_Visits",
+      "source_table": "Engineer_Visits",
+      "source_column": "visit_end_datetime",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "방문 종료 시간",
+      "synonyms": [
+        "방문 종료 시간",
+        "방문 마감 시간",
+        "방문 끝 시간",
+        "방문 종료 시각",
+        "방문 마감 시각",
+        "방문 종료 날짜 시간",
+        "방문 마감 날짜 시간",
+        "방문 종료 날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Engineer_Visits_other_visit_details",
+      "domain": "Engineer_Visits",
+      "source_table": "Engineer_Visits",
+      "source_column": "other_visit_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "다른 방문 세부 사항",
+      "synonyms": [
+        "추가 설명",
+        "기타 방문 사항",
+        "기타 설명",
+        "방문 기타 정보",
+        "방문 추가 정보",
+        "기타 방문 내용",
+        "기타 설명 사항",
+        "방문 기타 사항"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Part_Faults_part_fault_id",
+      "domain": "Part_Faults",
+      "source_table": "Part_Faults",
+      "source_column": "part_fault_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "부품 결함 ID",
+      "synonyms": [
+        "part fault id",
+        "부품 고장 ID",
+        "고장 식별 번호",
+        "고장 번호",
+        "부품 고장 고유 번호",
+        "고장 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Part_Faults_part_id",
+      "domain": "Part_Faults",
+      "source_table": "Part_Faults",
+      "source_column": "part_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "부품 ID",
+      "synonyms": [
+        "part id",
+        "부품 ID",
+        "부품 고유 번호",
+        "부품 식별자",
+        "고장 부품 ID",
+        "부품 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Part_Faults_fault_short_name",
+      "domain": "Part_Faults",
+      "source_table": "Part_Faults",
+      "source_column": "fault_short_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "결함 짧은 이름",
+      "synonyms": [
+        "fault short name",
+        "고장 코드",
+        "고장 이름",
+        "고장 코드명",
+        "고장 간단 이름",
+        "고장 코드 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "전기 고장": [
+          "전기 고장",
+          "전기 결함"
+        ],
+        "기계 고장": [
+          "기계 고장",
+          "기계 결함"
+        ]
+      }
+    },
+    {
+      "name": "Part_Faults_fault_description",
+      "domain": "Part_Faults",
+      "source_table": "Part_Faults",
+      "source_column": "fault_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "결함 설명",
+      "synonyms": [
+        "고장 설명",
+        "문제 설명",
+        "부품 고장 설명",
+        "고장 상세 정보",
+        "문제 상세 내용",
+        "고장 설명 정보",
+        "부품 문제 설명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Part_Faults_other_fault_details",
+      "domain": "Part_Faults",
+      "source_table": "Part_Faults",
+      "source_column": "other_fault_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "다른 결함 세부 사항",
+      "synonyms": [
+        "추가 고장 정보",
+        "기타 고장 세부 사항",
+        "기타 문제 설명",
+        "기타 고장 정보",
+        "기타 문제 상세 내용",
+        "기타 고장 설명",
+        "기타 문제 설명 정보",
+        "기타 고장 세부 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Fault_Log_Parts_fault_log_entry_id",
+      "domain": "Fault_Log_Parts",
+      "source_table": "Fault_Log_Parts",
+      "source_column": "fault_log_entry_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "불량 로그 엔트리 ID",
+      "synonyms": [
+        "고장 로그 아이디",
+        "고장 사례 아이디",
+        "고장 로그 엔트리 ID",
+        "fault_log_entry_id",
+        "고장 로그 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Fault_Log_Parts_part_fault_id",
+      "domain": "Fault_Log_Parts",
+      "source_table": "Fault_Log_Parts",
+      "source_column": "part_fault_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "부품 불량 ID",
+      "synonyms": [
+        "부품 고장 아이디",
+        "부품 고장 번호",
+        "part_fault_id",
+        "부품 고장 식별자",
+        "고장 부품 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Fault_Log_Parts_fault_status",
+      "domain": "Fault_Log_Parts",
+      "source_table": "Fault_Log_Parts",
+      "source_column": "fault_status",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "불량 상태",
+      "synonyms": [
+        "고장 상태",
+        "부품 고장 상태",
+        "고장 현황",
+        "fault_status",
+        "고장 상태 정보",
+        "부품 고장 상태 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "정상": [
+          "정상"
+        ],
+        "불량": [
+          "불량"
+        ],
+        "경고": [
+          "경고"
+        ]
+      }
+    },
+    {
+      "name": "Skills_Required_To_Fix_part_fault_id",
+      "domain": "Skills_Required_To_Fix",
+      "source_table": "Skills_Required_To_Fix",
+      "source_column": "part_fault_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "부품 결함 ID",
+      "synonyms": [
+        "part_fault_id",
+        "부품 고장 ID",
+        "고장 부품 식별자",
+        "부품 고장 번호",
+        "고장 부품 ID",
+        "부품 고장 식별자",
+        "고장 부품 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Skills_Required_To_Fix_skill_id",
+      "domain": "Skills_Required_To_Fix",
+      "source_table": "Skills_Required_To_Fix",
+      "source_column": "skill_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기술 ID",
+      "synonyms": [
+        "skill_id",
+        "기술 ID",
+        "필요 기술 번호",
+        "기술 식별자",
+        "기술 번호",
+        "필요 기술 ID",
+        "기술 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Maintenance_Contracts_Third_Party_Companies_fk0",
+      "domain": "Maintenance_Contracts",
+      "range": "Third_Party_Companies",
+      "source_fk": [
+        "Maintenance_Contracts.maintenance_contract_company_id",
+        "Third_Party_Companies.company_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Assets_Third_Party_Companies_fk1",
+      "domain": "Assets",
+      "range": "Third_Party_Companies",
+      "source_fk": [
+        "Assets.supplier_company_id",
+        "Third_Party_Companies.company_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Assets_Maintenance_Contracts_fk2",
+      "domain": "Assets",
+      "range": "Maintenance_Contracts",
+      "source_fk": [
+        "Assets.maintenance_contract_id",
+        "Maintenance_Contracts.maintenance_contract_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "유지 계약 관계",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Asset_Parts_Assets_fk3",
+      "domain": "Asset_Parts",
+      "range": "Assets",
+      "source_fk": [
+        "Asset_Parts.asset_id",
+        "Assets.asset_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "부품 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Asset_Parts_Parts_fk4",
+      "domain": "Asset_Parts",
+      "range": "Parts",
+      "source_fk": [
+        "Asset_Parts.part_id",
+        "Parts.part_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "부품 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Maintenance_Engineers_Third_Party_Companies_fk5",
+      "domain": "Maintenance_Engineers",
+      "range": "Third_Party_Companies",
+      "source_fk": [
+        "Maintenance_Engineers.company_id",
+        "Third_Party_Companies.company_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Engineer_Skills_Skills_fk6",
+      "domain": "Engineer_Skills",
+      "range": "Skills",
+      "source_fk": [
+        "Engineer_Skills.skill_id",
+        "Skills.skill_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "기술 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Engineer_Skills_Maintenance_Engineers_fk7",
+      "domain": "Engineer_Skills",
+      "range": "Maintenance_Engineers",
+      "source_fk": [
+        "Engineer_Skills.engineer_id",
+        "Maintenance_Engineers.engineer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "기술 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Fault_Log_Staff_fk8",
+      "domain": "Fault_Log",
+      "range": "Staff",
+      "source_fk": [
+        "Fault_Log.recorded_by_staff_id",
+        "Staff.staff_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "기록자",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Fault_Log_Assets_fk9",
+      "domain": "Fault_Log",
+      "range": "Assets",
+      "source_fk": [
+        "Fault_Log.asset_id",
+        "Assets.asset_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "기록 대상",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Engineer_Visits_Staff_fk10",
+      "domain": "Engineer_Visits",
+      "range": "Staff",
+      "source_fk": [
+        "Engineer_Visits.contact_staff_id",
+        "Staff.staff_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "연락자",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Engineer_Visits_Maintenance_Engineers_fk11",
+      "domain": "Engineer_Visits",
+      "range": "Maintenance_Engineers",
+      "source_fk": [
+        "Engineer_Visits.engineer_id",
+        "Maintenance_Engineers.engineer_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "방문 엔지니어",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Engineer_Visits_Fault_Log_fk12",
+      "domain": "Engineer_Visits",
+      "range": "Fault_Log",
+      "source_fk": [
+        "Engineer_Visits.fault_log_entry_id",
+        "Fault_Log.fault_log_entry_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "방문 대상",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Part_Faults_Parts_fk13",
+      "domain": "Part_Faults",
+      "range": "Parts",
+      "source_fk": [
+        "Part_Faults.part_id",
+        "Parts.part_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "부품 결함",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Fault_Log_Parts_Fault_Log_fk14",
+      "domain": "Fault_Log_Parts",
+      "range": "Fault_Log",
+      "source_fk": [
+        "Fault_Log_Parts.fault_log_entry_id",
+        "Fault_Log.fault_log_entry_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "결함 기록",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Fault_Log_Parts_Part_Faults_fk15",
+      "domain": "Fault_Log_Parts",
+      "range": "Part_Faults",
+      "source_fk": [
+        "Fault_Log_Parts.part_fault_id",
+        "Part_Faults.part_fault_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "결함 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Skills_Required_To_Fix_Skills_fk16",
+      "domain": "Skills_Required_To_Fix",
+      "range": "Skills",
+      "source_fk": [
+        "Skills_Required_To_Fix.skill_id",
+        "Skills.skill_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "필요 기술",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Skills_Required_To_Fix_Part_Faults_fk17",
+      "domain": "Skills_Required_To_Fix",
+      "range": "Part_Faults",
+      "source_fk": [
+        "Skills_Required_To_Fix.part_fault_id",
+        "Part_Faults.part_fault_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "필요 기술 연결",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

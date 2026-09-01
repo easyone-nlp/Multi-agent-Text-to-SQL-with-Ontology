@@ -1,0 +1,641 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "course",
+      "target_class": "course",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의",
+      "target_class": "course",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수업",
+      "target_class": "course",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 과정",
+      "target_class": "course",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 내용",
+      "target_class": "course",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 일정",
+      "target_class": "course",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "교사",
+      "target_class": "teacher",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강사",
+      "target_class": "teacher",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "교수",
+      "target_class": "teacher",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강사 정보",
+      "target_class": "teacher",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강사 목록",
+      "target_class": "teacher",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강사 데이터",
+      "target_class": "teacher",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "course arrange",
+      "target_class": "course_arrange",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 일정",
+      "target_class": "course_arrange",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수업 일정",
+      "target_class": "course_arrange",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 배치",
+      "target_class": "course_arrange",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 일정 관리",
+      "target_class": "course_arrange",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "강의 일정 설정",
+      "target_class": "course_arrange",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "course id",
+      "target_class": "course",
+      "target_property": "course_Course_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강좌 코드",
+      "target_class": "course",
+      "target_property": "course_Course_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강좌 번호",
+      "target_class": "course",
+      "target_property": "course_Course_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강좌 식별자",
+      "target_class": "course",
+      "target_property": "course_Course_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강좌 고유 ID",
+      "target_class": "course",
+      "target_property": "course_Course_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "staring date",
+      "target_class": "course",
+      "target_property": "course_Staring_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 날짜",
+      "target_class": "course",
+      "target_property": "course_Staring_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작일",
+      "target_class": "course",
+      "target_property": "course_Staring_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강좌 시작일",
+      "target_class": "course",
+      "target_property": "course_Staring_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작일자",
+      "target_class": "course",
+      "target_property": "course_Staring_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "course",
+      "target_class": "course",
+      "target_property": "course_Course",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강좌 이름",
+      "target_class": "course",
+      "target_property": "course_Course",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강좌 제목",
+      "target_class": "course",
+      "target_property": "course_Course",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강좌명",
+      "target_class": "course",
+      "target_property": "course_Course",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강좌 타이틀",
+      "target_class": "course",
+      "target_property": "course_Course",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교사 ID",
+      "target_class": "teacher",
+      "target_property": "teacher_Teacher_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교사 고유 ID",
+      "target_class": "teacher",
+      "target_property": "teacher_Teacher_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교사 번호",
+      "target_class": "teacher",
+      "target_property": "teacher_Teacher_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교사 코드",
+      "target_class": "teacher",
+      "target_property": "teacher_Teacher_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교사 식별자",
+      "target_class": "teacher",
+      "target_property": "teacher_Teacher_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교사 고유번호",
+      "target_class": "teacher",
+      "target_property": "teacher_Teacher_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교사 식별번호",
+      "target_class": "teacher",
+      "target_property": "teacher_Teacher_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교사 고유 식별자",
+      "target_class": "teacher",
+      "target_property": "teacher_Teacher_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "teacher",
+      "target_property": "teacher_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "teacher",
+      "target_property": "teacher_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "teacher",
+      "target_property": "teacher_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이대",
+      "target_class": "teacher",
+      "target_property": "teacher_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년월일",
+      "target_class": "teacher",
+      "target_property": "teacher_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생년도",
+      "target_class": "teacher",
+      "target_property": "teacher_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령대",
+      "target_class": "teacher",
+      "target_property": "teacher_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 정보",
+      "target_class": "teacher",
+      "target_property": "teacher_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 정보",
+      "target_class": "teacher",
+      "target_property": "teacher_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년",
+      "target_class": "teacher",
+      "target_property": "teacher_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출신지",
+      "target_class": "teacher",
+      "target_property": "teacher_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "본적",
+      "target_class": "teacher",
+      "target_property": "teacher_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출생지",
+      "target_class": "teacher",
+      "target_property": "teacher_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등록지",
+      "target_class": "teacher",
+      "target_property": "teacher_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "도시",
+      "target_class": "teacher",
+      "target_property": "teacher_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "teacher",
+      "target_property": "teacher_Hometown",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "course id",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Course_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의 코드",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Course_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의 번호",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Course_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의 식별자",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Course_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의 ID",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Course_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의 고유번호",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Course_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "teacher id",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Teacher_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강사 코드",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Teacher_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강사 번호",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Teacher_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강사 식별자",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Teacher_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강사 ID",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Teacher_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강사 고유번호",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Teacher_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "grade",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 정보",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "강의 등급",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 코드",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 번호",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "teacher",
+      "target_property": "teacher_Name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "박지현",
+      "target_class": "teacher",
+      "target_property": "teacher_Name",
+      "value": "박지현"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "teacher",
+      "target_property": "teacher_Hometown",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천",
+      "target_class": "teacher",
+      "target_property": "teacher_Hometown",
+      "value": "인천"
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "1학년",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "1학기",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2학년",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2학기",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "3",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "3학년",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "3학기",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": "3"
+    },
+    {
+      "entry_type": "value",
+      "key": "4",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": "4"
+    },
+    {
+      "entry_type": "value",
+      "key": "4학년",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": "4"
+    },
+    {
+      "entry_type": "value",
+      "key": "4학기",
+      "target_class": "course_arrange",
+      "target_property": "course_arrange_Grade",
+      "value": "4"
+    }
+  ]
+}

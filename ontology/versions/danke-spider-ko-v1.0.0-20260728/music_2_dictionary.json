@@ -1,0 +1,1250 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "노래들",
+      "target_class": "Songs",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "앨범",
+      "target_class": "Albums",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음반",
+      "target_class": "Albums",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음악 앨범",
+      "target_class": "Albums",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음반 목록",
+      "target_class": "Albums",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음악 작품",
+      "target_class": "Albums",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "band",
+      "target_class": "Band",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "밴드",
+      "target_class": "Band",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음악 그룹",
+      "target_class": "Band",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음악 팀",
+      "target_class": "Band",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음악 단체",
+      "target_class": "Band",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "음악 클럽",
+      "target_class": "Band",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "instruments",
+      "target_class": "Instruments",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "악기",
+      "target_class": "Instruments",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "악기 목록",
+      "target_class": "Instruments",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "악기 정보",
+      "target_class": "Instruments",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "악기 데이터",
+      "target_class": "Instruments",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "성과",
+      "target_class": "Performance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연주회",
+      "target_class": "Performance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "공연",
+      "target_class": "Performance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연주",
+      "target_class": "Performance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "공연 정보",
+      "target_class": "Performance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연주 기록",
+      "target_class": "Performance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트랙 리스트",
+      "target_class": "Tracklists",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트랙 목록",
+      "target_class": "Tracklists",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "곡 목록",
+      "target_class": "Tracklists",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트랙 순서",
+      "target_class": "Tracklists",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트랙 목록 정보",
+      "target_class": "Tracklists",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "vocals",
+      "target_class": "Vocals",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "song id",
+      "target_class": "Songs",
+      "target_property": "Songs_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SONG_ID",
+      "target_class": "Songs",
+      "target_property": "Songs_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SONG",
+      "target_class": "Songs",
+      "target_property": "Songs_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SONG_IDENTIFIER",
+      "target_class": "Songs",
+      "target_property": "Songs_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "TRACK_ID",
+      "target_class": "Songs",
+      "target_property": "Songs_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "TRACK",
+      "target_class": "Songs",
+      "target_property": "Songs_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "TRACK_IDENTIFIER",
+      "target_class": "Songs",
+      "target_property": "Songs_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SONG_NUMBER",
+      "target_class": "Songs",
+      "target_property": "Songs_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "title",
+      "target_class": "Songs",
+      "target_property": "Songs_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "TITLE",
+      "target_class": "Songs",
+      "target_property": "Songs_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SONG_NAME",
+      "target_class": "Songs",
+      "target_property": "Songs_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "TRACK_NAME",
+      "target_class": "Songs",
+      "target_property": "Songs_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SONG_TITLE",
+      "target_class": "Songs",
+      "target_property": "Songs_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "TRACK_TITLE",
+      "target_class": "Songs",
+      "target_property": "Songs_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "aid",
+      "target_class": "Albums",
+      "target_property": "Albums_AId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "title",
+      "target_class": "Albums",
+      "target_property": "Albums_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "Albums",
+      "target_property": "Albums_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "앨범명",
+      "target_class": "Albums",
+      "target_property": "Albums_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "앨범 이름",
+      "target_class": "Albums",
+      "target_property": "Albums_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음반 제목",
+      "target_class": "Albums",
+      "target_property": "Albums_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음반 이름",
+      "target_class": "Albums",
+      "target_property": "Albums_Title",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "year",
+      "target_class": "Albums",
+      "target_property": "Albums_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "Albums",
+      "target_property": "Albums_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발매 연도",
+      "target_class": "Albums",
+      "target_property": "Albums_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도",
+      "target_class": "Albums",
+      "target_property": "Albums_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "앨범 연도",
+      "target_class": "Albums",
+      "target_property": "Albums_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "발매년도",
+      "target_class": "Albums",
+      "target_property": "Albums_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "label",
+      "target_class": "Albums",
+      "target_property": "Albums_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이블",
+      "target_class": "Albums",
+      "target_property": "Albums_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판사",
+      "target_class": "Albums",
+      "target_property": "Albums_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라이브러리",
+      "target_class": "Albums",
+      "target_property": "Albums_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이블명",
+      "target_class": "Albums",
+      "target_property": "Albums_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이블 정보",
+      "target_class": "Albums",
+      "target_property": "Albums_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출판자",
+      "target_class": "Albums",
+      "target_property": "Albums_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음악 라이브러리",
+      "target_class": "Albums",
+      "target_property": "Albums_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이블명 정보",
+      "target_class": "Albums",
+      "target_property": "Albums_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "type",
+      "target_class": "Albums",
+      "target_property": "Albums_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "타입",
+      "target_class": "Albums",
+      "target_property": "Albums_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음악 유형",
+      "target_class": "Albums",
+      "target_property": "Albums_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "앨범 종류",
+      "target_class": "Albums",
+      "target_property": "Albums_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "형태",
+      "target_class": "Albums",
+      "target_property": "Albums_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음악 앨범 유형",
+      "target_class": "Albums",
+      "target_property": "Albums_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "타입 정보",
+      "target_class": "Albums",
+      "target_property": "Albums_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "앨범 카테고리",
+      "target_class": "Albums",
+      "target_property": "Albums_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음악 타입",
+      "target_class": "Albums",
+      "target_property": "Albums_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "id",
+      "target_class": "Band",
+      "target_property": "Band_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디",
+      "target_class": "Band",
+      "target_property": "Band_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "Band",
+      "target_property": "Band_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디 번호",
+      "target_class": "Band",
+      "target_property": "Band_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 번호",
+      "target_class": "Band",
+      "target_property": "Band_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID 값",
+      "target_class": "Band",
+      "target_property": "Band_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이디 코드",
+      "target_class": "Band",
+      "target_property": "Band_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID 식별자",
+      "target_class": "Band",
+      "target_property": "Band_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유 식별자",
+      "target_class": "Band",
+      "target_property": "Band_Id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "first name",
+      "target_class": "Band",
+      "target_property": "Band_Firstname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "last name",
+      "target_class": "Band",
+      "target_property": "Band_Lastname",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "song id",
+      "target_class": "Instruments",
+      "target_property": "Instruments_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 ID",
+      "target_class": "Instruments",
+      "target_property": "Instruments_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "노래 ID",
+      "target_class": "Instruments",
+      "target_property": "Instruments_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 번호",
+      "target_class": "Instruments",
+      "target_property": "Instruments_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SONG_ID",
+      "target_class": "Instruments",
+      "target_property": "Instruments_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 식별자",
+      "target_class": "Instruments",
+      "target_property": "Instruments_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 고유 번호",
+      "target_class": "Instruments",
+      "target_property": "Instruments_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "bandmate id",
+      "target_class": "Instruments",
+      "target_property": "Instruments_BandmateId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연주자 ID",
+      "target_class": "Instruments",
+      "target_property": "Instruments_BandmateId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연주단 ID",
+      "target_class": "Instruments",
+      "target_property": "Instruments_BandmateId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "BANDMATE_ID",
+      "target_class": "Instruments",
+      "target_property": "Instruments_BandmateId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "BANDMATE",
+      "target_class": "Instruments",
+      "target_property": "Instruments_BandmateId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연주자 식별자",
+      "target_class": "Instruments",
+      "target_property": "Instruments_BandmateId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연주자 고유 번호",
+      "target_class": "Instruments",
+      "target_property": "Instruments_BandmateId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "instrument",
+      "target_class": "Instruments",
+      "target_property": "Instruments_Instrument",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "악기",
+      "target_class": "Instruments",
+      "target_property": "Instruments_Instrument",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "악기 이름",
+      "target_class": "Instruments",
+      "target_property": "Instruments_Instrument",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "악기 종류",
+      "target_class": "Instruments",
+      "target_property": "Instruments_Instrument",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "악기명",
+      "target_class": "Instruments",
+      "target_property": "Instruments_Instrument",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "INSTRUMENT",
+      "target_class": "Instruments",
+      "target_property": "Instruments_Instrument",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "악기 타입",
+      "target_class": "Instruments",
+      "target_property": "Instruments_Instrument",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "INSTRUMENT_NAME",
+      "target_class": "Instruments",
+      "target_property": "Instruments_Instrument",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "song id",
+      "target_class": "Performance",
+      "target_property": "Performance_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 ID",
+      "target_class": "Performance",
+      "target_property": "Performance_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 식별 번호",
+      "target_class": "Performance",
+      "target_property": "Performance_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 번호",
+      "target_class": "Performance",
+      "target_property": "Performance_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SONG_ID",
+      "target_class": "Performance",
+      "target_property": "Performance_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 아이디",
+      "target_class": "Performance",
+      "target_property": "Performance_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 식별자",
+      "target_class": "Performance",
+      "target_property": "Performance_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "bandmate",
+      "target_class": "Performance",
+      "target_property": "Performance_Bandmate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "밴드원 ID",
+      "target_class": "Performance",
+      "target_property": "Performance_Bandmate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "밴드원 번호",
+      "target_class": "Performance",
+      "target_property": "Performance_Bandmate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "밴드원 식별자",
+      "target_class": "Performance",
+      "target_property": "Performance_Bandmate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "BANDMATE_ID",
+      "target_class": "Performance",
+      "target_property": "Performance_Bandmate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "밴드원 아이디",
+      "target_class": "Performance",
+      "target_property": "Performance_Bandmate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "밴드원",
+      "target_class": "Performance",
+      "target_property": "Performance_Bandmate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "stage position",
+      "target_class": "Performance",
+      "target_property": "Performance_StagePosition",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "무대 위치",
+      "target_class": "Performance",
+      "target_property": "Performance_StagePosition",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "무대 순서",
+      "target_class": "Performance",
+      "target_property": "Performance_StagePosition",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "무대 위치 정보",
+      "target_class": "Performance",
+      "target_property": "Performance_StagePosition",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이지 위치",
+      "target_class": "Performance",
+      "target_property": "Performance_StagePosition",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "스테이지 순서",
+      "target_class": "Performance",
+      "target_property": "Performance_StagePosition",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "앨범 id",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_AlbumId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "앨범 ID",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_AlbumId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "앨범 번호",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_AlbumId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "음악 앨범 식별자",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_AlbumId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "AId",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_AlbumId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "앨범 식별 번호",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_AlbumId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "앨범 코드",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_AlbumId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "AlbumId",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_AlbumId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순서",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순번",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구성 순서",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순위",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 번호",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Position",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "순서 번호",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "노래 id",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 ID",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 번호",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 식별자",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 코드",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SongId",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "곡 식별 번호",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "song id",
+      "target_class": "Vocals",
+      "target_property": "Vocals_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SONG_ID",
+      "target_class": "Vocals",
+      "target_property": "Vocals_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SONG",
+      "target_class": "Vocals",
+      "target_property": "Vocals_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SONG_NUMBER",
+      "target_class": "Vocals",
+      "target_property": "Vocals_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SONG_IDENTIFIER",
+      "target_class": "Vocals",
+      "target_property": "Vocals_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SONG_KEY",
+      "target_class": "Vocals",
+      "target_property": "Vocals_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SONG_REF",
+      "target_class": "Vocals",
+      "target_property": "Vocals_SongId",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "bandmate",
+      "target_class": "Vocals",
+      "target_property": "Vocals_Bandmate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "BAND_MEMBER",
+      "target_class": "Vocals",
+      "target_property": "Vocals_Bandmate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "BAND_MATE",
+      "target_class": "Vocals",
+      "target_property": "Vocals_Bandmate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "BAND_ID",
+      "target_class": "Vocals",
+      "target_property": "Vocals_Bandmate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "BAND_MEMBER_ID",
+      "target_class": "Vocals",
+      "target_property": "Vocals_Bandmate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "BAND_MATE_ID",
+      "target_class": "Vocals",
+      "target_property": "Vocals_Bandmate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "BAND_MEMBER_REF",
+      "target_class": "Vocals",
+      "target_property": "Vocals_Bandmate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "BAND_MATE_REF",
+      "target_class": "Vocals",
+      "target_property": "Vocals_Bandmate",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "type",
+      "target_class": "Vocals",
+      "target_property": "Vocals_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "VOICE_TYPE",
+      "target_class": "Vocals",
+      "target_property": "Vocals_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SINGING_TYPE",
+      "target_class": "Vocals",
+      "target_property": "Vocals_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "VOICE_CATEGORY",
+      "target_class": "Vocals",
+      "target_property": "Vocals_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SING_TYPE",
+      "target_class": "Vocals",
+      "target_property": "Vocals_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "SINGING_STYLE",
+      "target_class": "Vocals",
+      "target_property": "Vocals_Type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "VOICE_KIND",
+      "target_class": "Vocals",
+      "target_property": "Vocals_Type",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_Position",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "첫 번째",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_Position",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "1위",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_Position",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "2",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_Position",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "두 번째",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_Position",
+      "value": "2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2위",
+      "target_class": "Tracklists",
+      "target_property": "Tracklists_Position",
+      "value": "2"
+    }
+  ]
+}

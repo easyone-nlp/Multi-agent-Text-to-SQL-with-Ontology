@@ -1,0 +1,150 @@
+{
+  "class_table": {
+    "venue": "venue",
+    "author": "author",
+    "dataset": "dataset",
+    "journal": "journal",
+    "keyphrase": "keyphrase",
+    "paper": "paper",
+    "cite": "cite",
+    "paperDataset": "paperDataset",
+    "paperKeyphrase": "paperKeyphrase",
+    "writes": "writes"
+  },
+  "property_column": {
+    "venue_venueId": [
+      "venue",
+      "venueId"
+    ],
+    "venue_venueName": [
+      "venue",
+      "venueName"
+    ],
+    "author_authorId": [
+      "author",
+      "authorId"
+    ],
+    "author_authorName": [
+      "author",
+      "authorName"
+    ],
+    "dataset_datasetId": [
+      "dataset",
+      "datasetId"
+    ],
+    "dataset_datasetName": [
+      "dataset",
+      "datasetName"
+    ],
+    "journal_journalId": [
+      "journal",
+      "journalId"
+    ],
+    "journal_journalName": [
+      "journal",
+      "journalName"
+    ],
+    "keyphrase_keyphraseId": [
+      "keyphrase",
+      "keyphraseId"
+    ],
+    "keyphrase_keyphraseName": [
+      "keyphrase",
+      "keyphraseName"
+    ],
+    "paper_paperId": [
+      "paper",
+      "paperId"
+    ],
+    "paper_title": [
+      "paper",
+      "title"
+    ],
+    "paper_venueId": [
+      "paper",
+      "venueId"
+    ],
+    "paper_year": [
+      "paper",
+      "year"
+    ],
+    "paper_numCiting": [
+      "paper",
+      "numCiting"
+    ],
+    "paper_numCitedBy": [
+      "paper",
+      "numCitedBy"
+    ],
+    "paper_journalId": [
+      "paper",
+      "journalId"
+    ],
+    "cite_citingPaperId": [
+      "cite",
+      "citingPaperId"
+    ],
+    "cite_citedPaperId": [
+      "cite",
+      "citedPaperId"
+    ],
+    "paperDataset_paperId": [
+      "paperDataset",
+      "paperId"
+    ],
+    "paperDataset_datasetId": [
+      "paperDataset",
+      "datasetId"
+    ],
+    "paperKeyphrase_paperId": [
+      "paperKeyphrase",
+      "paperId"
+    ],
+    "paperKeyphrase_keyphraseId": [
+      "paperKeyphrase",
+      "keyphraseId"
+    ],
+    "writes_paperId": [
+      "writes",
+      "paperId"
+    ],
+    "writes_authorId": [
+      "writes",
+      "authorId"
+    ]
+  },
+  "object_property_fk": {
+    "paper_venue_fk0": [
+      "paper.venueId",
+      "venue.venueId"
+    ],
+    "paper_journal_fk1": [
+      "paper.journalId",
+      "journal.journalId"
+    ],
+    "cite_paper_fk2": [
+      "cite.citingPaperId",
+      "paper.paperId"
+    ],
+    "cite_paper_fk3": [
+      "cite.citedPaperId",
+      "paper.paperId"
+    ],
+    "paperKeyphrase_keyphrase_fk4": [
+      "paperKeyphrase.keyphraseId",
+      "keyphrase.keyphraseId"
+    ],
+    "paperKeyphrase_paper_fk5": [
+      "paperKeyphrase.paperId",
+      "paper.paperId"
+    ],
+    "writes_author_fk6": [
+      "writes.authorId",
+      "author.authorId"
+    ],
+    "writes_paper_fk7": [
+      "writes.paperId",
+      "paper.paperId"
+    ]
+  }
+}

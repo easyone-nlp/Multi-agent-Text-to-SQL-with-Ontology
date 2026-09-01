@@ -1,0 +1,1257 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "지역",
+      "target_class": "region",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구역",
+      "target_class": "region",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "행정구역",
+      "target_class": "region",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지리적 지역",
+      "target_class": "region",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지역정보",
+      "target_class": "region",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "정당",
+      "target_class": "party",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "정파",
+      "target_class": "party",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "정당기구",
+      "target_class": "party",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "정당원",
+      "target_class": "party",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "정당 정보",
+      "target_class": "party",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "회원",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "정당원",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "원원",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "정당인",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "정당원 정보",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "party events",
+      "target_class": "party_events",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 ID",
+      "target_class": "region",
+      "target_property": "region_Region_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역 번호",
+      "target_class": "region",
+      "target_property": "region_Region_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 코드",
+      "target_class": "region",
+      "target_property": "region_Region_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Region_ID",
+      "target_class": "region",
+      "target_property": "region_Region_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역 식별자",
+      "target_class": "region",
+      "target_property": "region_Region_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 번호",
+      "target_class": "region",
+      "target_property": "region_Region_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 이름",
+      "target_class": "region",
+      "target_property": "region_Region_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역 이름",
+      "target_class": "region",
+      "target_property": "region_Region_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역명",
+      "target_class": "region",
+      "target_property": "region_Region_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Region_name",
+      "target_class": "region",
+      "target_property": "region_Region_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구역명",
+      "target_class": "region",
+      "target_property": "region_Region_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 표시",
+      "target_class": "region",
+      "target_property": "region_Region_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "region",
+      "target_property": "region_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "region",
+      "target_property": "region_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생성일",
+      "target_class": "region",
+      "target_property": "region_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Date",
+      "target_class": "region",
+      "target_property": "region_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "업데이트 일자",
+      "target_class": "region",
+      "target_property": "region_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 정보",
+      "target_class": "region",
+      "target_property": "region_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "라벨",
+      "target_class": "region",
+      "target_property": "region_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이블",
+      "target_class": "region",
+      "target_property": "region_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이블 정보",
+      "target_class": "region",
+      "target_property": "region_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이블명",
+      "target_class": "region",
+      "target_property": "region_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이블 데이터",
+      "target_class": "region",
+      "target_property": "region_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이블 내용",
+      "target_class": "region",
+      "target_property": "region_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이블 값",
+      "target_class": "region",
+      "target_property": "region_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "레이블 이름",
+      "target_class": "region",
+      "target_property": "region_Label",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "형식",
+      "target_class": "region",
+      "target_property": "region_Format",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "포맷",
+      "target_class": "region",
+      "target_property": "region_Format",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "형식 정보",
+      "target_class": "region",
+      "target_property": "region_Format",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "형식 데이터",
+      "target_class": "region",
+      "target_property": "region_Format",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "형식 내용",
+      "target_class": "region",
+      "target_property": "region_Format",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "형식 값",
+      "target_class": "region",
+      "target_property": "region_Format",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "형식 이름",
+      "target_class": "region",
+      "target_property": "region_Format",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "표준 형식",
+      "target_class": "region",
+      "target_property": "region_Format",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카탈로그",
+      "target_class": "region",
+      "target_property": "region_Catalogue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카탈로그 정보",
+      "target_class": "region",
+      "target_property": "region_Catalogue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카탈로그 데이터",
+      "target_class": "region",
+      "target_property": "region_Catalogue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카탈로그 내용",
+      "target_class": "region",
+      "target_property": "region_Catalogue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카탈로그 값",
+      "target_class": "region",
+      "target_property": "region_Catalogue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카탈로그 이름",
+      "target_class": "region",
+      "target_property": "region_Catalogue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카탈로그 목록",
+      "target_class": "region",
+      "target_property": "region_Catalogue",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 ID",
+      "target_class": "party",
+      "target_property": "party_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Party_ID",
+      "target_class": "party",
+      "target_property": "party_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 번호",
+      "target_class": "party",
+      "target_property": "party_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 식별자",
+      "target_class": "party",
+      "target_property": "party_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 고유 번호",
+      "target_class": "party",
+      "target_property": "party_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 코드",
+      "target_class": "party",
+      "target_property": "party_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국무위원",
+      "target_class": "party",
+      "target_property": "party_Minister",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Minister",
+      "target_class": "party",
+      "target_property": "party_Minister",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장관",
+      "target_class": "party",
+      "target_property": "party_Minister",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표",
+      "target_class": "party",
+      "target_property": "party_Minister",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "대표 인사",
+      "target_class": "party",
+      "target_property": "party_Minister",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 대표",
+      "target_class": "party",
+      "target_property": "party_Minister",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 주임",
+      "target_class": "party",
+      "target_property": "party_Minister",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "임명일",
+      "target_class": "party",
+      "target_property": "party_Took_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Took_office",
+      "target_class": "party",
+      "target_property": "party_Took_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "취임일",
+      "target_class": "party",
+      "target_property": "party_Took_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입성일",
+      "target_class": "party",
+      "target_property": "party_Took_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "취임 날짜",
+      "target_class": "party",
+      "target_property": "party_Took_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 입성일",
+      "target_class": "party",
+      "target_property": "party_Took_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 취임일",
+      "target_class": "party",
+      "target_property": "party_Took_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "퇴임일",
+      "target_class": "party",
+      "target_property": "party_Left_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해임일",
+      "target_class": "party",
+      "target_property": "party_Left_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "해임 날짜",
+      "target_class": "party",
+      "target_property": "party_Left_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이탈일",
+      "target_class": "party",
+      "target_property": "party_Left_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이탈 날짜",
+      "target_class": "party",
+      "target_property": "party_Left_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "퇴출일",
+      "target_class": "party",
+      "target_property": "party_Left_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "퇴출 날짜",
+      "target_class": "party",
+      "target_property": "party_Left_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 해임일",
+      "target_class": "party",
+      "target_property": "party_Left_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 이탈일",
+      "target_class": "party",
+      "target_property": "party_Left_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 ID",
+      "target_class": "party",
+      "target_property": "party_Region_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 번호",
+      "target_class": "party",
+      "target_property": "party_Region_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 코드",
+      "target_class": "party",
+      "target_property": "party_Region_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 식별자",
+      "target_class": "party",
+      "target_property": "party_Region_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 고유 번호",
+      "target_class": "party",
+      "target_property": "party_Region_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 인덱스",
+      "target_class": "party",
+      "target_property": "party_Region_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 식별번호",
+      "target_class": "party",
+      "target_property": "party_Region_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 이름",
+      "target_class": "party",
+      "target_property": "party_Party_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당명",
+      "target_class": "party",
+      "target_property": "party_Party_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당",
+      "target_class": "party",
+      "target_property": "party_Party_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당칭",
+      "target_class": "party",
+      "target_property": "party_Party_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당명칭",
+      "target_class": "party",
+      "target_property": "party_Party_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 ID",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 번호",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 식별 번호",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Member_ID",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 고유 번호",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 식별자",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 이름",
+      "target_class": "member",
+      "target_property": "member_Member_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "member",
+      "target_property": "member_Member_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원명",
+      "target_class": "member",
+      "target_property": "member_Member_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Member_Name",
+      "target_class": "member",
+      "target_property": "member_Member_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 대표 이름",
+      "target_class": "member",
+      "target_property": "member_Member_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 소명",
+      "target_class": "member",
+      "target_property": "member_Member_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 ID",
+      "target_class": "member",
+      "target_property": "member_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 식별자",
+      "target_class": "member",
+      "target_property": "member_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Party_ID",
+      "target_class": "member",
+      "target_property": "member_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소속 정당 ID",
+      "target_class": "member",
+      "target_property": "member_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 코드",
+      "target_class": "member",
+      "target_property": "member_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "정당 식별 번호",
+      "target_class": "member",
+      "target_property": "member_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 정당 ID",
+      "target_class": "member",
+      "target_property": "member_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "임명 상태",
+      "target_class": "member",
+      "target_property": "member_In_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입사 여부",
+      "target_class": "member",
+      "target_property": "member_In_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "현직 여부",
+      "target_class": "member",
+      "target_property": "member_In_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직무 여부",
+      "target_class": "member",
+      "target_property": "member_In_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직원 여부",
+      "target_class": "member",
+      "target_property": "member_In_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "현재 직무",
+      "target_class": "member",
+      "target_property": "member_In_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입사 상태",
+      "target_class": "member",
+      "target_property": "member_In_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직무 상태",
+      "target_class": "member",
+      "target_property": "member_In_office",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "event id",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 ID",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 번호",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 고유 번호",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 식별자",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Event_ID",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 코드",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "event name",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 이름",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사명",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 제목",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 이름",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Event_Name",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이벤트 타이틀",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "party id",
+      "target_class": "party_events",
+      "target_property": "party_events_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파티 ID",
+      "target_class": "party_events",
+      "target_property": "party_events_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 파티 번호",
+      "target_class": "party_events",
+      "target_property": "party_events_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파티 식별자",
+      "target_class": "party_events",
+      "target_property": "party_events_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Party_ID",
+      "target_class": "party_events",
+      "target_property": "party_events_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파티 코드",
+      "target_class": "party_events",
+      "target_property": "party_events_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 파티",
+      "target_class": "party_events",
+      "target_property": "party_events_Party_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "member in charge id",
+      "target_class": "party_events",
+      "target_property": "party_events_Member_in_charge_ID",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "서울",
+      "target_class": "region",
+      "target_property": "region_Region_name",
+      "value": "서울"
+    },
+    {
+      "entry_type": "value",
+      "key": "부산",
+      "target_class": "region",
+      "target_property": "region_Region_name",
+      "value": "부산"
+    },
+    {
+      "entry_type": "value",
+      "key": "인천",
+      "target_class": "region",
+      "target_property": "region_Region_name",
+      "value": "인천"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-01-01",
+      "target_class": "region",
+      "target_property": "region_Date",
+      "value": "2023-01-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 1월 1일",
+      "target_class": "region",
+      "target_property": "region_Date",
+      "value": "2023-01-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "주요",
+      "target_class": "region",
+      "target_property": "region_Label",
+      "value": "주요"
+    },
+    {
+      "entry_type": "value",
+      "key": "보조",
+      "target_class": "region",
+      "target_property": "region_Label",
+      "value": "보조"
+    },
+    {
+      "entry_type": "value",
+      "key": "PDF",
+      "target_class": "region",
+      "target_property": "region_Format",
+      "value": "PDF"
+    },
+    {
+      "entry_type": "value",
+      "key": "JPEG",
+      "target_class": "region",
+      "target_property": "region_Format",
+      "value": "JPEG"
+    },
+    {
+      "entry_type": "value",
+      "key": "A01",
+      "target_class": "region",
+      "target_property": "region_Catalogue",
+      "value": "A01"
+    },
+    {
+      "entry_type": "value",
+      "key": "B02",
+      "target_class": "region",
+      "target_property": "region_Catalogue",
+      "value": "B02"
+    },
+    {
+      "entry_type": "value",
+      "key": "국무총리",
+      "target_class": "party",
+      "target_property": "party_Minister",
+      "value": "국무총리"
+    },
+    {
+      "entry_type": "value",
+      "key": "총리",
+      "target_class": "party",
+      "target_property": "party_Minister",
+      "value": "국무총리"
+    },
+    {
+      "entry_type": "value",
+      "key": "외무장관",
+      "target_class": "party",
+      "target_property": "party_Minister",
+      "value": "외무장관"
+    },
+    {
+      "entry_type": "value",
+      "key": "외교장관",
+      "target_class": "party",
+      "target_property": "party_Minister",
+      "value": "외무장관"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020-05-01",
+      "target_class": "party",
+      "target_property": "party_Took_office",
+      "value": "2020-05-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020년 5월 1일",
+      "target_class": "party",
+      "target_property": "party_Took_office",
+      "value": "2020-05-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-12-31",
+      "target_class": "party",
+      "target_property": "party_Left_office",
+      "value": "2023-12-31"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 12월 31일",
+      "target_class": "party",
+      "target_property": "party_Left_office",
+      "value": "2023-12-31"
+    },
+    {
+      "entry_type": "value",
+      "key": "더불어민주당",
+      "target_class": "party",
+      "target_property": "party_Party_name",
+      "value": "더불어민주당"
+    },
+    {
+      "entry_type": "value",
+      "key": "민주당",
+      "target_class": "party",
+      "target_property": "party_Party_name",
+      "value": "더불어민주당"
+    },
+    {
+      "entry_type": "value",
+      "key": "국민의힘",
+      "target_class": "party",
+      "target_property": "party_Party_name",
+      "value": "국민의힘"
+    },
+    {
+      "entry_type": "value",
+      "key": "국민힘",
+      "target_class": "party",
+      "target_property": "party_Party_name",
+      "value": "국민의힘"
+    },
+    {
+      "entry_type": "value",
+      "key": "김철수",
+      "target_class": "member",
+      "target_property": "member_Member_Name",
+      "value": "김철수"
+    },
+    {
+      "entry_type": "value",
+      "key": "이영희",
+      "target_class": "member",
+      "target_property": "member_Member_Name",
+      "value": "이영희"
+    },
+    {
+      "entry_type": "value",
+      "key": "임명됨",
+      "target_class": "member",
+      "target_property": "member_In_office",
+      "value": "임명됨"
+    },
+    {
+      "entry_type": "value",
+      "key": "임명되지 않음",
+      "target_class": "member",
+      "target_property": "member_In_office",
+      "value": "임명되지 않음"
+    },
+    {
+      "entry_type": "value",
+      "key": "축제",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_Name",
+      "value": "축제"
+    },
+    {
+      "entry_type": "value",
+      "key": "행사",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_Name",
+      "value": "축제"
+    },
+    {
+      "entry_type": "value",
+      "key": "세미나",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_Name",
+      "value": "세미나"
+    },
+    {
+      "entry_type": "value",
+      "key": "세미나 행사",
+      "target_class": "party_events",
+      "target_property": "party_events_Event_Name",
+      "value": "세미나"
+    }
+  ]
+}

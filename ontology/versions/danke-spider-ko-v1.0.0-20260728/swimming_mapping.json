@@ -1,0 +1,124 @@
+{
+  "class_table": {
+    "swimmer": "swimmer",
+    "stadium": "stadium",
+    "event": "event",
+    "record": "record"
+  },
+  "property_column": {
+    "swimmer_ID": [
+      "swimmer",
+      "ID"
+    ],
+    "swimmer_name": [
+      "swimmer",
+      "name"
+    ],
+    "swimmer_Nationality": [
+      "swimmer",
+      "Nationality"
+    ],
+    "swimmer_meter_100": [
+      "swimmer",
+      "meter_100"
+    ],
+    "swimmer_meter_200": [
+      "swimmer",
+      "meter_200"
+    ],
+    "swimmer_meter_300": [
+      "swimmer",
+      "meter_300"
+    ],
+    "swimmer_meter_400": [
+      "swimmer",
+      "meter_400"
+    ],
+    "swimmer_meter_500": [
+      "swimmer",
+      "meter_500"
+    ],
+    "swimmer_meter_600": [
+      "swimmer",
+      "meter_600"
+    ],
+    "swimmer_meter_700": [
+      "swimmer",
+      "meter_700"
+    ],
+    "swimmer_Time": [
+      "swimmer",
+      "Time"
+    ],
+    "stadium_ID": [
+      "stadium",
+      "ID"
+    ],
+    "stadium_name": [
+      "stadium",
+      "name"
+    ],
+    "stadium_Capacity": [
+      "stadium",
+      "Capacity"
+    ],
+    "stadium_City": [
+      "stadium",
+      "City"
+    ],
+    "stadium_Country": [
+      "stadium",
+      "Country"
+    ],
+    "stadium_Opening_year": [
+      "stadium",
+      "Opening_year"
+    ],
+    "event_ID": [
+      "event",
+      "ID"
+    ],
+    "event_Name": [
+      "event",
+      "Name"
+    ],
+    "event_Stadium_ID": [
+      "event",
+      "Stadium_ID"
+    ],
+    "event_Year": [
+      "event",
+      "Year"
+    ],
+    "record_ID": [
+      "record",
+      "ID"
+    ],
+    "record_Result": [
+      "record",
+      "Result"
+    ],
+    "record_Swimmer_ID": [
+      "record",
+      "Swimmer_ID"
+    ],
+    "record_Event_ID": [
+      "record",
+      "Event_ID"
+    ]
+  },
+  "object_property_fk": {
+    "event_stadium_fk0": [
+      "event.Stadium_ID",
+      "stadium.ID"
+    ],
+    "record_swimmer_fk1": [
+      "record.Swimmer_ID",
+      "swimmer.ID"
+    ],
+    "record_event_fk2": [
+      "record.Event_ID",
+      "event.ID"
+    ]
+  }
+}

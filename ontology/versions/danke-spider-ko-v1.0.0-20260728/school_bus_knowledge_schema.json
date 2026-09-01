@@ -1,0 +1,382 @@
+{
+  "db_id": "school_bus",
+  "classes": [
+    {
+      "name": "driver",
+      "source_table": "driver",
+      "ranking": 3.0,
+      "primary_label": "운전자",
+      "synonyms": [
+        "운전사",
+        "운전자",
+        "운전원",
+        "운전 담당자"
+      ]
+    },
+    {
+      "name": "school",
+      "source_table": "school",
+      "ranking": 3.5,
+      "primary_label": "학교",
+      "synonyms": [
+        "학교",
+        "교육기관",
+        "학원",
+        "학교 기관"
+      ]
+    },
+    {
+      "name": "school_bus",
+      "source_table": "school_bus",
+      "ranking": 3.0,
+      "primary_label": "school bus",
+      "synonyms": [
+        "학교 버스",
+        "버스",
+        "버스 차량",
+        "학원 버스"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "driver_Driver_ID",
+      "domain": "driver",
+      "source_table": "driver",
+      "source_column": "Driver_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "driver id",
+      "synonyms": [
+        "운전자 ID",
+        "운전자 번호",
+        "운전자 식별자",
+        "운전자 고유 번호",
+        "Driver_ID",
+        "운전자 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "driver_Name",
+      "domain": "driver",
+      "source_table": "driver",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "운전자 이름",
+        "운전자 별명",
+        "운전자 성명",
+        "Driver_Name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "driver_Party",
+      "domain": "driver",
+      "source_table": "driver",
+      "source_column": "Party",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "party",
+      "synonyms": [
+        "당파",
+        "정치적 소속",
+        "운전자 당파",
+        "운전자 정치적 소속",
+        "Party",
+        "운전자 당"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "driver_Home_city",
+      "domain": "driver",
+      "source_table": "driver",
+      "source_column": "Home_city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "home city",
+      "synonyms": [
+        "홈시티",
+        "주거 도시",
+        "거주 도시",
+        "주소",
+        "거주지",
+        "도시",
+        "주거지"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "driver_Age",
+      "domain": "driver",
+      "source_table": "driver",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "연령",
+        "나이",
+        "연세",
+        "년대",
+        "생년",
+        "연齢"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "school_School_ID",
+      "domain": "school",
+      "source_table": "school",
+      "source_column": "School_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학교 ID",
+      "synonyms": [
+        "학교 ID",
+        "학교 식별 번호",
+        "학교 코드",
+        "학교 고유번호",
+        "School_ID",
+        "학교 아이디",
+        "학교 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "school_Grade",
+      "domain": "school",
+      "source_table": "school",
+      "source_column": "Grade",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "학년",
+      "synonyms": [
+        "학년",
+        "학급",
+        "학년 수준",
+        "Grade",
+        "학년 정보",
+        "학년 등급",
+        "학년대"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "초등": [
+          "초등학교"
+        ],
+        "중등": [
+          "중학교",
+          "고등학교"
+        ]
+      }
+    },
+    {
+      "name": "school_School",
+      "domain": "school",
+      "source_table": "school",
+      "source_column": "School",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "학교",
+      "synonyms": [
+        "학교 이름",
+        "학교 명칭",
+        "학교 대표 이름",
+        "School",
+        "학교 대표",
+        "학교명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시립고등학교": [
+          "서울시립고"
+        ],
+        "경기도립중학교": [
+          "경기도립중"
+        ]
+      }
+    },
+    {
+      "name": "school_Location",
+      "domain": "school",
+      "source_table": "school",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "위치",
+      "synonyms": [
+        "위치",
+        "장소",
+        "학교 위치",
+        "위치 정보",
+        "학교 위치 정보",
+        "장소 정보",
+        "위치 데이터",
+        "학교 위치 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시 강남구": [
+          "강남구",
+          "서울 강남"
+        ],
+        "인천시 미추홀구": [
+          "미추홀구",
+          "인천 미추홀"
+        ]
+      }
+    },
+    {
+      "name": "school_Type",
+      "domain": "school",
+      "source_table": "school",
+      "source_column": "Type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.8,
+      "primary_label": "유형",
+      "synonyms": [
+        "유형",
+        "종류",
+        "학교 종류",
+        "학교 유형",
+        "타입",
+        "학교 타입",
+        "학교 구분",
+        "학교 유형 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "공립": [
+          "공립학교"
+        ],
+        "민간": [
+          "민간학교",
+          " tư영학교"
+        ]
+      }
+    },
+    {
+      "name": "school_bus_School_ID",
+      "domain": "school_bus",
+      "source_table": "school_bus",
+      "source_column": "School_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "school id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "school_bus_Driver_ID",
+      "domain": "school_bus",
+      "source_table": "school_bus",
+      "source_column": "Driver_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "driver id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "school_bus_Years_Working",
+      "domain": "school_bus",
+      "source_table": "school_bus",
+      "source_column": "Years_Working",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "years working",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "school_bus_If_full_time",
+      "domain": "school_bus",
+      "source_table": "school_bus",
+      "source_column": "If_full_time",
+      "range_types": [
+        "others"
+      ],
+      "ranking": 2.0,
+      "primary_label": "if full time",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "yes": [
+          "예"
+        ],
+        "no": [
+          "아니오"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "school_bus_driver_fk0",
+      "domain": "school_bus",
+      "range": "driver",
+      "source_fk": [
+        "school_bus.Driver_ID",
+        "driver.Driver_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "운전한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "school_bus_school_fk1",
+      "domain": "school_bus",
+      "range": "school",
+      "source_fk": [
+        "school_bus.School_ID",
+        "school.School_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

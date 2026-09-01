@@ -1,0 +1,1110 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "수리",
+      "target_class": "repair",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수리 기록",
+      "target_class": "repair",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수리 정보",
+      "target_class": "repair",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수리 데이터",
+      "target_class": "repair",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수리 내역",
+      "target_class": "repair",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수리 기록 테이블",
+      "target_class": "repair",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "기계",
+      "target_class": "machine",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "기술자",
+      "target_class": "technician",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수리 기술자",
+      "target_class": "technician",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "기계 기술자",
+      "target_class": "technician",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수리 전문가",
+      "target_class": "technician",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수리 담당자",
+      "target_class": "technician",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "수리 배정",
+      "target_class": "repair_assignment",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 ID",
+      "target_class": "repair",
+      "target_property": "repair_repair_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 번호",
+      "target_class": "repair",
+      "target_property": "repair_repair_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 고유 ID",
+      "target_class": "repair",
+      "target_property": "repair_repair_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 식별자",
+      "target_class": "repair",
+      "target_property": "repair_repair_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 코드",
+      "target_class": "repair",
+      "target_property": "repair_repair_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 고유 번호",
+      "target_class": "repair",
+      "target_property": "repair_repair_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 식별",
+      "target_class": "repair",
+      "target_property": "repair_repair_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "repair",
+      "target_property": "repair_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "repair",
+      "target_property": "repair_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 이름",
+      "target_class": "repair",
+      "target_property": "repair_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 제목",
+      "target_class": "repair",
+      "target_property": "repair_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 명",
+      "target_class": "repair",
+      "target_property": "repair_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출시 일자",
+      "target_class": "repair",
+      "target_property": "repair_Launch_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 날짜",
+      "target_class": "repair",
+      "target_property": "repair_Launch_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 시작일",
+      "target_class": "repair",
+      "target_property": "repair_Launch_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 시작 날짜",
+      "target_class": "repair",
+      "target_property": "repair_Launch_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 날짜",
+      "target_class": "repair",
+      "target_property": "repair_Launch_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 일자",
+      "target_class": "repair",
+      "target_property": "repair_Launch_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 시작 일자",
+      "target_class": "repair",
+      "target_property": "repair_Launch_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비고",
+      "target_class": "repair",
+      "target_property": "repair_Notes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "추가 설명",
+      "target_class": "repair",
+      "target_property": "repair_Notes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비고 항목",
+      "target_class": "repair",
+      "target_property": "repair_Notes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설명",
+      "target_class": "repair",
+      "target_property": "repair_Notes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비고 내용",
+      "target_class": "repair",
+      "target_property": "repair_Notes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "추가 정보",
+      "target_class": "repair",
+      "target_property": "repair_Notes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비고 필드",
+      "target_class": "repair",
+      "target_property": "repair_Notes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "설명 항목",
+      "target_class": "repair",
+      "target_property": "repair_Notes",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기계 ID",
+      "target_class": "machine",
+      "target_property": "machine_Machine_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Machine_ID",
+      "target_class": "machine",
+      "target_property": "machine_Machine_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기계 번호",
+      "target_class": "machine",
+      "target_property": "machine_Machine_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "machine",
+      "target_property": "machine_Machine_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기계 식별자",
+      "target_class": "machine",
+      "target_property": "machine_Machine_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기계 고유 번호",
+      "target_class": "machine",
+      "target_property": "machine_Machine_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "machine",
+      "target_property": "machine_Machine_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작 연도",
+      "target_class": "machine",
+      "target_property": "machine_Making_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Making_Year",
+      "target_class": "machine",
+      "target_property": "machine_Making_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제조 연도",
+      "target_class": "machine",
+      "target_property": "machine_Making_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도",
+      "target_class": "machine",
+      "target_property": "machine_Making_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작년도",
+      "target_class": "machine",
+      "target_property": "machine_Making_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기계 연도",
+      "target_class": "machine",
+      "target_property": "machine_Making_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생산 연도",
+      "target_class": "machine",
+      "target_property": "machine_Making_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클래스",
+      "target_class": "machine",
+      "target_property": "machine_Class",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Class",
+      "target_class": "machine",
+      "target_property": "machine_Class",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류",
+      "target_class": "machine",
+      "target_property": "machine_Class",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기계 분류",
+      "target_class": "machine",
+      "target_property": "machine_Class",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류 정보",
+      "target_class": "machine",
+      "target_property": "machine_Class",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기계 유형",
+      "target_class": "machine",
+      "target_property": "machine_Class",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류 코드",
+      "target_class": "machine",
+      "target_property": "machine_Class",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀",
+      "target_class": "machine",
+      "target_property": "machine_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀명",
+      "target_class": "machine",
+      "target_property": "machine_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 이름",
+      "target_class": "machine",
+      "target_property": "machine_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀명칭",
+      "target_class": "machine",
+      "target_property": "machine_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 정보",
+      "target_class": "machine",
+      "target_property": "machine_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team",
+      "target_class": "machine",
+      "target_property": "machine_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team name",
+      "target_class": "machine",
+      "target_property": "machine_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team name in korean",
+      "target_class": "machine",
+      "target_property": "machine_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기계 시리즈",
+      "target_class": "machine",
+      "target_property": "machine_Machine_series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈",
+      "target_class": "machine",
+      "target_property": "machine_Machine_series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈명",
+      "target_class": "machine",
+      "target_property": "machine_Machine_series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈 이름",
+      "target_class": "machine",
+      "target_property": "machine_Machine_series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈 정보",
+      "target_class": "machine",
+      "target_property": "machine_Machine_series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "machine series",
+      "target_class": "machine",
+      "target_property": "machine_Machine_series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "machine series name",
+      "target_class": "machine",
+      "target_property": "machine_Machine_series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "machine series in korean",
+      "target_class": "machine",
+      "target_property": "machine_Machine_series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "machine series info",
+      "target_class": "machine",
+      "target_property": "machine_Machine_series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "값 포인트",
+      "target_class": "machine",
+      "target_property": "machine_value_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가치 점수",
+      "target_class": "machine",
+      "target_property": "machine_value_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "가치점",
+      "target_class": "machine",
+      "target_property": "machine_value_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "점수",
+      "target_class": "machine",
+      "target_property": "machine_value_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "value points",
+      "target_class": "machine",
+      "target_property": "machine_value_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "value points in korean",
+      "target_class": "machine",
+      "target_property": "machine_value_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "value score",
+      "target_class": "machine",
+      "target_property": "machine_value_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "value point",
+      "target_class": "machine",
+      "target_property": "machine_value_points",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "품질 등급",
+      "target_class": "machine",
+      "target_property": "machine_quality_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "품질 순위",
+      "target_class": "machine",
+      "target_property": "machine_quality_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "품질 점수",
+      "target_class": "machine",
+      "target_property": "machine_quality_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "품질 등수",
+      "target_class": "machine",
+      "target_property": "machine_quality_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "quality rank",
+      "target_class": "machine",
+      "target_property": "machine_quality_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "품질 평가",
+      "target_class": "machine",
+      "target_property": "machine_quality_rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기술자 ID",
+      "target_class": "technician",
+      "target_property": "technician_technician_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "technician_id",
+      "target_class": "technician",
+      "target_property": "technician_technician_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "技師ID",
+      "target_class": "technician",
+      "target_property": "technician_technician_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "技師 고유번호",
+      "target_class": "technician",
+      "target_property": "technician_technician_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "技師 번호",
+      "target_class": "technician",
+      "target_property": "technician_technician_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "技師 식별자",
+      "target_class": "technician",
+      "target_property": "technician_technician_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "technician",
+      "target_property": "technician_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Name",
+      "target_class": "technician",
+      "target_property": "technician_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "技師 이름",
+      "target_class": "technician",
+      "target_property": "technician_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "技師명",
+      "target_class": "technician",
+      "target_property": "technician_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "명",
+      "target_class": "technician",
+      "target_property": "technician_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "technician",
+      "target_property": "technician_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀",
+      "target_class": "technician",
+      "target_property": "technician_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Team",
+      "target_class": "technician",
+      "target_property": "technician_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀명",
+      "target_class": "technician",
+      "target_property": "technician_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "그룹",
+      "target_class": "technician",
+      "target_property": "technician_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 이름",
+      "target_class": "technician",
+      "target_property": "technician_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출근 연도",
+      "target_class": "technician",
+      "target_property": "technician_Starting_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 연도",
+      "target_class": "technician",
+      "target_property": "technician_Starting_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입사 연도",
+      "target_class": "technician",
+      "target_property": "technician_Starting_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "근무 시작년도",
+      "target_class": "technician",
+      "target_property": "technician_Starting_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작년도",
+      "target_class": "technician",
+      "target_property": "technician_Starting_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입사년도",
+      "target_class": "technician",
+      "target_property": "technician_Starting_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Starting_Year",
+      "target_class": "technician",
+      "target_property": "technician_Starting_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "근무 시작 연도",
+      "target_class": "technician",
+      "target_property": "technician_Starting_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "technician",
+      "target_property": "technician_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기술자 ID",
+      "target_class": "repair_assignment",
+      "target_property": "repair_assignment_technician_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기술자 식별자",
+      "target_class": "repair_assignment",
+      "target_property": "repair_assignment_technician_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 기술자 ID",
+      "target_class": "repair_assignment",
+      "target_property": "repair_assignment_technician_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기술자 번호",
+      "target_class": "repair_assignment",
+      "target_property": "repair_assignment_technician_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 기술자",
+      "target_class": "repair_assignment",
+      "target_property": "repair_assignment_technician_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기술자 코드",
+      "target_class": "repair_assignment",
+      "target_property": "repair_assignment_technician_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 담당자 ID",
+      "target_class": "repair_assignment",
+      "target_property": "repair_assignment_technician_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기술자 고유번호",
+      "target_class": "repair_assignment",
+      "target_property": "repair_assignment_technician_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수리 ID",
+      "target_class": "repair_assignment",
+      "target_property": "repair_assignment_repair_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기계 ID",
+      "target_class": "repair_assignment",
+      "target_property": "repair_assignment_Machine_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Machine_ID",
+      "target_class": "repair_assignment",
+      "target_property": "repair_assignment_Machine_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기계 번호",
+      "target_class": "repair_assignment",
+      "target_property": "repair_assignment_Machine_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기계 식별자",
+      "target_class": "repair_assignment",
+      "target_property": "repair_assignment_Machine_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기계 고유 번호",
+      "target_class": "repair_assignment",
+      "target_property": "repair_assignment_Machine_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기계 식별",
+      "target_class": "repair_assignment",
+      "target_property": "repair_assignment_Machine_ID",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "수리 서비스",
+      "target_class": "repair",
+      "target_property": "repair_name",
+      "value": "수리 서비스"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-01-15",
+      "target_class": "repair",
+      "target_property": "repair_Launch_Date",
+      "value": "2023-01-15"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 1월 15일",
+      "target_class": "repair",
+      "target_property": "repair_Launch_Date",
+      "value": "2023-01-15"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020",
+      "target_class": "machine",
+      "target_property": "machine_Making_Year",
+      "value": "2020"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020년",
+      "target_class": "machine",
+      "target_property": "machine_Making_Year",
+      "value": "2020"
+    },
+    {
+      "entry_type": "value",
+      "key": "A",
+      "target_class": "machine",
+      "target_property": "machine_Class",
+      "value": "A"
+    },
+    {
+      "entry_type": "value",
+      "key": "A 클래스",
+      "target_class": "machine",
+      "target_property": "machine_Class",
+      "value": "A"
+    },
+    {
+      "entry_type": "value",
+      "key": "B",
+      "target_class": "machine",
+      "target_property": "machine_Class",
+      "value": "B"
+    },
+    {
+      "entry_type": "value",
+      "key": "B 클래스",
+      "target_class": "machine",
+      "target_property": "machine_Class",
+      "value": "B"
+    },
+    {
+      "entry_type": "value",
+      "key": "팀1",
+      "target_class": "machine",
+      "target_property": "machine_Team",
+      "value": "팀1"
+    },
+    {
+      "entry_type": "value",
+      "key": "1팀",
+      "target_class": "machine",
+      "target_property": "machine_Team",
+      "value": "팀1"
+    },
+    {
+      "entry_type": "value",
+      "key": "팀2",
+      "target_class": "machine",
+      "target_property": "machine_Team",
+      "value": "팀2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2팀",
+      "target_class": "machine",
+      "target_property": "machine_Team",
+      "value": "팀2"
+    },
+    {
+      "entry_type": "value",
+      "key": "X1",
+      "target_class": "machine",
+      "target_property": "machine_Machine_series",
+      "value": "X1"
+    },
+    {
+      "entry_type": "value",
+      "key": "X1 시리즈",
+      "target_class": "machine",
+      "target_property": "machine_Machine_series",
+      "value": "X1"
+    },
+    {
+      "entry_type": "value",
+      "key": "Y2",
+      "target_class": "machine",
+      "target_property": "machine_Machine_series",
+      "value": "Y2"
+    },
+    {
+      "entry_type": "value",
+      "key": "Y2 시리즈",
+      "target_class": "machine",
+      "target_property": "machine_Machine_series",
+      "value": "Y2"
+    },
+    {
+      "entry_type": "value",
+      "key": "1",
+      "target_class": "machine",
+      "target_property": "machine_quality_rank",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "최고 등급",
+      "target_class": "machine",
+      "target_property": "machine_quality_rank",
+      "value": "1"
+    },
+    {
+      "entry_type": "value",
+      "key": "5",
+      "target_class": "machine",
+      "target_property": "machine_quality_rank",
+      "value": "5"
+    },
+    {
+      "entry_type": "value",
+      "key": "최저 등급",
+      "target_class": "machine",
+      "target_property": "machine_quality_rank",
+      "value": "5"
+    },
+    {
+      "entry_type": "value",
+      "key": "김철수",
+      "target_class": "technician",
+      "target_property": "technician_Name",
+      "value": "김철수"
+    },
+    {
+      "entry_type": "value",
+      "key": "이영희",
+      "target_class": "technician",
+      "target_property": "technician_Name",
+      "value": "김철수"
+    },
+    {
+      "entry_type": "value",
+      "key": "기계팀",
+      "target_class": "technician",
+      "target_property": "technician_Team",
+      "value": "기계팀"
+    },
+    {
+      "entry_type": "value",
+      "key": "전기팀",
+      "target_class": "technician",
+      "target_property": "technician_Team",
+      "value": "기계팀"
+    }
+  ]
+}

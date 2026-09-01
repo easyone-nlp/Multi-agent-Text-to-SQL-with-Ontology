@@ -1,0 +1,224 @@
+{
+  "db_id": "scientist_1",
+  "classes": [
+    {
+      "name": "Scientists",
+      "source_table": "Scientists",
+      "ranking": 1.0,
+      "primary_label": "scientists",
+      "synonyms": [
+        "과학자",
+        "연구자",
+        "학자",
+        "연구인",
+        "학계인사"
+      ]
+    },
+    {
+      "name": "Projects",
+      "source_table": "Projects",
+      "ranking": 3.5,
+      "primary_label": "프로젝트",
+      "synonyms": [
+        "프로젝트",
+        "연구 프로젝트",
+        "연구 사업",
+        "사업",
+        "공사"
+      ]
+    },
+    {
+      "name": "AssignedTo",
+      "source_table": "AssignedTo",
+      "ranking": 1.0,
+      "primary_label": "assigned to",
+      "synonyms": [
+        "할당",
+        "배정",
+        "지정",
+        "할당 대상",
+        "배정 대상"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Scientists_SSN",
+      "domain": "Scientists",
+      "source_table": "Scientists",
+      "source_column": "SSN",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "ssn",
+      "synonyms": [
+        "SSN",
+        "social security number",
+        "identification number",
+        "id",
+        "personal id",
+        "number",
+        "identification"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Scientists_Name",
+      "domain": "Scientists",
+      "source_table": "Scientists",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "Name",
+        "full name",
+        "scientist name",
+        "title",
+        "individual name",
+        "person name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Projects_Code",
+      "domain": "Projects",
+      "source_table": "Projects",
+      "source_column": "Code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "code",
+      "synonyms": [
+        "코드",
+        "프로젝트 코드",
+        "프로젝트 ID",
+        "코드 값",
+        "코드 항목",
+        "프로젝트 코드 정보",
+        "코드 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Projects_Name",
+      "domain": "Projects",
+      "source_table": "Projects",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "프로젝트 이름",
+        "제목",
+        "프로젝트 제목",
+        "이름 정보",
+        "프로젝트명",
+        "제목 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Projects_Hours",
+      "domain": "Projects",
+      "source_table": "Projects",
+      "source_column": "Hours",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "hours",
+      "synonyms": [
+        "시간",
+        "프로젝트 시간",
+        "시간 정보",
+        "총 시간",
+        "시간 수치",
+        "시간 값",
+        "시간 소요"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "AssignedTo_Scientist",
+      "domain": "AssignedTo",
+      "source_table": "AssignedTo",
+      "source_column": "Scientist",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "scientist",
+      "synonyms": [
+        "scientist",
+        "researcher",
+        "scientist id",
+        "ssn",
+        "scientist number"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "AssignedTo_Project",
+      "domain": "AssignedTo",
+      "source_table": "AssignedTo",
+      "source_column": "Project",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "project",
+      "synonyms": [
+        "project",
+        "project code",
+        "project name",
+        "project identifier",
+        "code",
+        "project number"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "AssignedTo_Projects_fk0",
+      "domain": "AssignedTo",
+      "range": "Projects",
+      "source_fk": [
+        "AssignedTo.Project",
+        "Projects.Code"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "AssignedTo_Scientists_fk1",
+      "domain": "AssignedTo",
+      "range": "Scientists",
+      "source_fk": [
+        "AssignedTo.Scientist",
+        "Scientists.SSN"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

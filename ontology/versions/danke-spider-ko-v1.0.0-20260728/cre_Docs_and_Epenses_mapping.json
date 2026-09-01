@@ -1,0 +1,127 @@
+{
+  "class_table": {
+    "Ref_Document_Types": "Ref_Document_Types",
+    "Ref_Budget_Codes": "Ref_Budget_Codes",
+    "Projects": "Projects",
+    "Documents": "Documents",
+    "Statements": "Statements",
+    "Documents_with_Expenses": "Documents_with_Expenses",
+    "Accounts": "Accounts"
+  },
+  "property_column": {
+    "Ref_Document_Types_Document_Type_Code": [
+      "Ref_Document_Types",
+      "Document_Type_Code"
+    ],
+    "Ref_Document_Types_Document_Type_Name": [
+      "Ref_Document_Types",
+      "Document_Type_Name"
+    ],
+    "Ref_Document_Types_Document_Type_Description": [
+      "Ref_Document_Types",
+      "Document_Type_Description"
+    ],
+    "Ref_Budget_Codes_Budget_Type_Code": [
+      "Ref_Budget_Codes",
+      "Budget_Type_Code"
+    ],
+    "Ref_Budget_Codes_Budget_Type_Description": [
+      "Ref_Budget_Codes",
+      "Budget_Type_Description"
+    ],
+    "Projects_Project_ID": [
+      "Projects",
+      "Project_ID"
+    ],
+    "Projects_Project_Details": [
+      "Projects",
+      "Project_Details"
+    ],
+    "Documents_Document_ID": [
+      "Documents",
+      "Document_ID"
+    ],
+    "Documents_Document_Type_Code": [
+      "Documents",
+      "Document_Type_Code"
+    ],
+    "Documents_Project_ID": [
+      "Documents",
+      "Project_ID"
+    ],
+    "Documents_Document_Date": [
+      "Documents",
+      "Document_Date"
+    ],
+    "Documents_Document_Name": [
+      "Documents",
+      "Document_Name"
+    ],
+    "Documents_Document_Description": [
+      "Documents",
+      "Document_Description"
+    ],
+    "Documents_Other_Details": [
+      "Documents",
+      "Other_Details"
+    ],
+    "Statements_Statement_ID": [
+      "Statements",
+      "Statement_ID"
+    ],
+    "Statements_Statement_Details": [
+      "Statements",
+      "Statement_Details"
+    ],
+    "Documents_with_Expenses_Document_ID": [
+      "Documents_with_Expenses",
+      "Document_ID"
+    ],
+    "Documents_with_Expenses_Budget_Type_Code": [
+      "Documents_with_Expenses",
+      "Budget_Type_Code"
+    ],
+    "Documents_with_Expenses_Document_Details": [
+      "Documents_with_Expenses",
+      "Document_Details"
+    ],
+    "Accounts_Account_ID": [
+      "Accounts",
+      "Account_ID"
+    ],
+    "Accounts_Statement_ID": [
+      "Accounts",
+      "Statement_ID"
+    ],
+    "Accounts_Account_Details": [
+      "Accounts",
+      "Account_Details"
+    ]
+  },
+  "object_property_fk": {
+    "Documents_Projects_fk0": [
+      "Documents.Project_ID",
+      "Projects.Project_ID"
+    ],
+    "Documents_Ref_Document_Types_fk1": [
+      "Documents.Document_Type_Code",
+      "Ref_Document_Types.Document_Type_Code"
+    ],
+    "Statements_Documents_fk2": [
+      "Statements.Statement_ID",
+      "Documents.Document_ID"
+    ],
+    "Documents_with_Expenses_Documents_fk3": [
+      "Documents_with_Expenses.Document_ID",
+      "Documents.Document_ID"
+    ],
+    "Documents_with_Expenses_Ref_Budget_Codes_fk4": [
+      "Documents_with_Expenses.Budget_Type_Code",
+      "Ref_Budget_Codes.Budget_Type_Code"
+    ],
+    "Accounts_Statements_fk5": [
+      "Accounts.Statement_ID",
+      "Statements.Statement_ID"
+    ]
+  }
+}

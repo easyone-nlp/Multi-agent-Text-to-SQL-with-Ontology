@@ -1,0 +1,970 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "비행기",
+      "target_class": "aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공기",
+      "target_class": "aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행차량",
+      "target_class": "aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행기 정보",
+      "target_class": "aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행기 데이터",
+      "target_class": "aircraft",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "pilot",
+      "target_class": "pilot",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행사",
+      "target_class": "pilot",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행요원",
+      "target_class": "pilot",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행자",
+      "target_class": "pilot",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행 인력",
+      "target_class": "pilot",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행자 정보",
+      "target_class": "pilot",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "pilot record",
+      "target_class": "pilot_record",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행기 기록",
+      "target_class": "pilot_record",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행사 기록",
+      "target_class": "pilot_record",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "항공기 운항 기록",
+      "target_class": "pilot_record",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행사 운항 기록",
+      "target_class": "pilot_record",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "비행 기록",
+      "target_class": "pilot_record",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행기 id",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행기 ID",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행기 고유번호",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기차 ID",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기차 고유번호",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Aircraft_ID",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기차 식별자",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 연도",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Order_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 년도",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Order_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "구매년도",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Order_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Aircraft_Year",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Order_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행기 주문년도",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Order_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행기 구매년도",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Order_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제조업체",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Manufacturer",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제조사",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Manufacturer",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제조사명",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Manufacturer",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제작회사",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Manufacturer",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제조사 이름",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Manufacturer",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Aircraft_Manufacturer",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Manufacturer",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행기 제조사",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Manufacturer",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "모델",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Model",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "모델명",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Model",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기종",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Model",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "모델 이름",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Model",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "기종명",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Model",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "모델 정보",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Model",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "플레트 시리즈",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fleet_Series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "페리트 시리즈",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fleet_Series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fleet_Series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "페리트 번호",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fleet_Series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈 번호",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fleet_Series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "페리트 시리즈명",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fleet_Series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시리즈 정보",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fleet_Series",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파워트레인",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Powertrain",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "엔진 유형",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Powertrain",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "동력 시스템",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Powertrain",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파워트레인 유형",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Powertrain",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "동력 방식",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Powertrain",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "파워트레인 정보",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Powertrain",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "동력 시스템 유형",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Powertrain",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연료 추진 방식",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fuel_Propulsion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연료 연소 방식",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fuel_Propulsion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연료 구동 방식",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fuel_Propulsion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연료 타입",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fuel_Propulsion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비행기 연료 구동 방식",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fuel_Propulsion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연료 사용 방식",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fuel_Propulsion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연료 구동 타입",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fuel_Propulsion",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pilot id",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Pilot_ID",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피터 ID",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피터 식별 번호",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pilot 식별자",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pilot 번호",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pilot name",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Pilot_name",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피터 이름",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pilot 이름",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pilot",
+      "target_class": "pilot",
+      "target_property": "pilot_Pilot_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "rank",
+      "target_class": "pilot",
+      "target_property": "pilot_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Rank",
+      "target_class": "pilot",
+      "target_property": "pilot_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급",
+      "target_class": "pilot",
+      "target_property": "pilot_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "피터 등급",
+      "target_class": "pilot",
+      "target_property": "pilot_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "등급 정보",
+      "target_class": "pilot",
+      "target_property": "pilot_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "rank 정보",
+      "target_class": "pilot",
+      "target_property": "pilot_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pilot 등급",
+      "target_class": "pilot",
+      "target_property": "pilot_Rank",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "age",
+      "target_class": "pilot",
+      "target_property": "pilot_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "pilot",
+      "target_property": "pilot_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "pilot",
+      "target_property": "pilot_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연대",
+      "target_class": "pilot",
+      "target_property": "pilot_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "생년",
+      "target_class": "pilot",
+      "target_property": "pilot_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 정보",
+      "target_class": "pilot",
+      "target_property": "pilot_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "nationality",
+      "target_class": "pilot",
+      "target_property": "pilot_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적",
+      "target_class": "pilot",
+      "target_property": "pilot_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나라",
+      "target_class": "pilot",
+      "target_property": "pilot_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적 정보",
+      "target_class": "pilot",
+      "target_property": "pilot_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소속국",
+      "target_class": "pilot",
+      "target_property": "pilot_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적별",
+      "target_class": "pilot",
+      "target_property": "pilot_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "position",
+      "target_class": "pilot",
+      "target_property": "pilot_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직책",
+      "target_class": "pilot",
+      "target_property": "pilot_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직위",
+      "target_class": "pilot",
+      "target_property": "pilot_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직역",
+      "target_class": "pilot",
+      "target_property": "pilot_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "직책 정보",
+      "target_class": "pilot",
+      "target_property": "pilot_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역할",
+      "target_class": "pilot",
+      "target_property": "pilot_Position",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "join year",
+      "target_class": "pilot",
+      "target_property": "pilot_Join_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입단년도",
+      "target_class": "pilot",
+      "target_property": "pilot_Join_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "입사년도",
+      "target_class": "pilot",
+      "target_property": "pilot_Join_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참가년도",
+      "target_class": "pilot",
+      "target_property": "pilot_Join_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결정년도",
+      "target_class": "pilot",
+      "target_property": "pilot_Join_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Join_Year",
+      "target_class": "pilot",
+      "target_property": "pilot_Join_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "team",
+      "target_class": "pilot",
+      "target_property": "pilot_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀",
+      "target_class": "pilot",
+      "target_property": "pilot_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소속팀",
+      "target_class": "pilot",
+      "target_property": "pilot_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀명",
+      "target_class": "pilot",
+      "target_property": "pilot_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀 이름",
+      "target_class": "pilot",
+      "target_property": "pilot_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "팀명칭",
+      "target_class": "pilot",
+      "target_property": "pilot_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Team",
+      "target_class": "pilot",
+      "target_property": "pilot_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "소속팀명",
+      "target_class": "pilot",
+      "target_property": "pilot_Team",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "record id",
+      "target_class": "pilot_record",
+      "target_property": "pilot_record_Record_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "pilot id",
+      "target_class": "pilot_record",
+      "target_property": "pilot_record_Pilot_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "aircraft id",
+      "target_class": "pilot_record",
+      "target_property": "pilot_record_Aircraft_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date",
+      "target_class": "pilot_record",
+      "target_property": "pilot_record_Date",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "boeing",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Manufacturer",
+      "value": "boeing"
+    },
+    {
+      "entry_type": "value",
+      "key": "보잉",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Manufacturer",
+      "value": "boeing"
+    },
+    {
+      "entry_type": "value",
+      "key": "airbus",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Manufacturer",
+      "value": "airbus"
+    },
+    {
+      "entry_type": "value",
+      "key": "에어버스",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Manufacturer",
+      "value": "airbus"
+    },
+    {
+      "entry_type": "value",
+      "key": "737",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Model",
+      "value": "737"
+    },
+    {
+      "entry_type": "value",
+      "key": "세이브 세븐",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Model",
+      "value": "737"
+    },
+    {
+      "entry_type": "value",
+      "key": "a320",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Model",
+      "value": "a320"
+    },
+    {
+      "entry_type": "value",
+      "key": "에어버스 320",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Model",
+      "value": "a320"
+    },
+    {
+      "entry_type": "value",
+      "key": "737-800",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fleet_Series",
+      "value": "737-800"
+    },
+    {
+      "entry_type": "value",
+      "key": "세이브 세븐 800",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fleet_Series",
+      "value": "737-800"
+    },
+    {
+      "entry_type": "value",
+      "key": "turbofan",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Powertrain",
+      "value": "turbofan"
+    },
+    {
+      "entry_type": "value",
+      "key": "터보팬",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Powertrain",
+      "value": "turbofan"
+    },
+    {
+      "entry_type": "value",
+      "key": "터보팬 엔진",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Powertrain",
+      "value": "turbofan"
+    },
+    {
+      "entry_type": "value",
+      "key": "jet fuel",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fuel_Propulsion",
+      "value": "jet fuel"
+    },
+    {
+      "entry_type": "value",
+      "key": "제트 연료",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fuel_Propulsion",
+      "value": "jet fuel"
+    },
+    {
+      "entry_type": "value",
+      "key": "제트 연료 사용",
+      "target_class": "aircraft",
+      "target_property": "aircraft_Fuel_Propulsion",
+      "value": "jet fuel"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-01-01",
+      "target_class": "pilot_record",
+      "target_property": "pilot_record_Date",
+      "value": "2023-01-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 1월 1일",
+      "target_class": "pilot_record",
+      "target_property": "pilot_record_Date",
+      "value": "2023-01-01"
+    }
+  ]
+}

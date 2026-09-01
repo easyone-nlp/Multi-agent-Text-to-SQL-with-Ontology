@@ -1,0 +1,446 @@
+{
+  "db_id": "flight_1",
+  "classes": [
+    {
+      "name": "flight",
+      "source_table": "flight",
+      "ranking": 3.5,
+      "primary_label": "비행기",
+      "synonyms": [
+        "비행",
+        "항공편",
+        "항공 운행",
+        "비행기 운행",
+        "항공 여정"
+      ]
+    },
+    {
+      "name": "aircraft",
+      "source_table": "aircraft",
+      "ranking": 3.0,
+      "primary_label": "항공기",
+      "synonyms": [
+        "비행기",
+        "항공기",
+        "기종",
+        "항공기 모델",
+        "등록 번호"
+      ]
+    },
+    {
+      "name": "employee",
+      "source_table": "employee",
+      "ranking": 3.0,
+      "primary_label": "사원",
+      "synonyms": [
+        "직원",
+        "사원",
+        "운영직원",
+        "비행기 직원",
+        "운영 인력"
+      ]
+    },
+    {
+      "name": "certificate",
+      "source_table": "certificate",
+      "ranking": 1.0,
+      "primary_label": "운영 인증서",
+      "synonyms": [
+        "비행 인증서",
+        "비행 자격증",
+        "비행 문서",
+        "비행 증명서",
+        "비행 자격서"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "flight_flno",
+      "domain": "flight",
+      "source_table": "flight",
+      "source_column": "flno",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "비행 번호",
+      "synonyms": [
+        "flno",
+        "비행 번호",
+        "비행기 번호",
+        "항공편 번호",
+        "비행 코드",
+        "항공편 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "flight_origin",
+      "domain": "flight",
+      "source_table": "flight",
+      "source_column": "origin",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "출발지",
+      "synonyms": [
+        "출발지",
+        "출발지 정보",
+        "출발 도시",
+        "출발지명",
+        "origin"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "flight_destination",
+      "domain": "flight",
+      "source_table": "flight",
+      "source_column": "destination",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "도착지",
+      "synonyms": [
+        "도착지",
+        "도착지 정보",
+        "도착 도시",
+        "도착지명",
+        "destination"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "flight_distance",
+      "domain": "flight",
+      "source_table": "flight",
+      "source_column": "distance",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "거리",
+      "synonyms": [
+        "거리",
+        "distance",
+        "비행 거리",
+        "항공 거리",
+        "거리 정보",
+        "거리 데이터",
+        "비행 거리 정보",
+        "거리 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "flight_departure_date",
+      "domain": "flight",
+      "source_table": "flight",
+      "source_column": "departure_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 4.5,
+      "primary_label": "출발 일시",
+      "synonyms": [
+        "출발 날짜",
+        "departure_date",
+        "출발 일자",
+        "출발 시간",
+        "출발일",
+        "출발 날짜 정보",
+        "출발 시간 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "flight_arrival_date",
+      "domain": "flight",
+      "source_table": "flight",
+      "source_column": "arrival_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 4.5,
+      "primary_label": "도착 일시",
+      "synonyms": [
+        "도착 날짜",
+        "arrival_date",
+        "도착 일자",
+        "도착 시간",
+        "도착일",
+        "도착 날짜 정보",
+        "도착 시간 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "flight_price",
+      "domain": "flight",
+      "source_table": "flight",
+      "source_column": "price",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "가격",
+      "synonyms": [
+        "가격",
+        "항공권 가격",
+        "요금",
+        "비용",
+        "가격 정보",
+        "price",
+        "요금 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "flight_aid",
+      "domain": "flight",
+      "source_table": "flight",
+      "source_column": "aid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "항공사 ID",
+      "synonyms": [
+        "항공사 ID",
+        "항공사 식별자",
+        "airline id",
+        "항공사 코드",
+        "airline_code",
+        "사고 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "aircraft_aid",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "aid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "항공사 ID",
+      "synonyms": [
+        "airline id",
+        "항공사 ID",
+        "운송사 코드",
+        "사고 번호",
+        "운송사 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "aircraft_name",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "항공사 이름",
+        "운송사 이름",
+        "사고 이름",
+        "운송사 표시"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "C-17": [
+          "C-17"
+        ]
+      }
+    },
+    {
+      "name": "aircraft_distance",
+      "domain": "aircraft",
+      "source_table": "aircraft",
+      "source_column": "distance",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "distance",
+      "synonyms": [
+        "distance",
+        "거리",
+        "항로 거리",
+        "항공 거리",
+        "운송 거리"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employee_eid",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "eid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "사원 id",
+      "synonyms": [
+        "직원 ID",
+        "사원 번호",
+        "직원 식별자",
+        "사원 ID",
+        "고유번호",
+        "eid",
+        "사원코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "employee_name",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "직원 이름",
+        "사원 이름",
+        "사원명",
+        "직원명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김철수": [
+          "김철수",
+          "이영희"
+        ]
+      }
+    },
+    {
+      "name": "employee_salary",
+      "domain": "employee",
+      "source_table": "employee",
+      "source_column": "salary",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "연봉",
+      "synonyms": [
+        "연봉",
+        "급여",
+        "급여액",
+        "임금",
+        "salary"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "certificate_eid",
+      "domain": "certificate",
+      "source_table": "certificate",
+      "source_column": "eid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "직원 id",
+      "synonyms": [
+        "직원 ID",
+        "직원 식별 번호",
+        "사원 번호",
+        "직원 코드",
+        "eid",
+        "직원 고유 ID",
+        "사원 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "certificate_aid",
+      "domain": "certificate",
+      "source_table": "certificate",
+      "source_column": "aid",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "항공사 id",
+      "synonyms": [
+        "항공사 ID",
+        "항공사 식별 번호",
+        "사회사 번호",
+        "항공사 코드",
+        "aid",
+        "항공사 고유 ID",
+        "사회사 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "flight_aircraft_fk0",
+      "domain": "flight",
+      "range": "aircraft",
+      "source_fk": [
+        "flight.aid",
+        "aircraft.aid"
+      ],
+      "weight": 1.0,
+      "primary_label": "운항한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "certificate_aircraft_fk1",
+      "domain": "certificate",
+      "range": "aircraft",
+      "source_fk": [
+        "certificate.aid",
+        "aircraft.aid"
+      ],
+      "weight": 1.0,
+      "primary_label": "등록한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "certificate_employee_fk2",
+      "domain": "certificate",
+      "range": "employee",
+      "source_fk": [
+        "certificate.eid",
+        "employee.eid"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "class_table": {
+    "people": "people",
+    "company": "company",
+    "employment": "employment"
+  },
+  "property_column": {
+    "people_People_ID": [
+      "people",
+      "People_ID"
+    ],
+    "people_Age": [
+      "people",
+      "Age"
+    ],
+    "people_Name": [
+      "people",
+      "Name"
+    ],
+    "people_Nationality": [
+      "people",
+      "Nationality"
+    ],
+    "people_Graduation_College": [
+      "people",
+      "Graduation_College"
+    ],
+    "company_Company_ID": [
+      "company",
+      "Company_ID"
+    ],
+    "company_Name": [
+      "company",
+      "Name"
+    ],
+    "company_Headquarters": [
+      "company",
+      "Headquarters"
+    ],
+    "company_Industry": [
+      "company",
+      "Industry"
+    ],
+    "company_Sales_in_Billion": [
+      "company",
+      "Sales_in_Billion"
+    ],
+    "company_Profits_in_Billion": [
+      "company",
+      "Profits_in_Billion"
+    ],
+    "company_Assets_in_Billion": [
+      "company",
+      "Assets_in_Billion"
+    ],
+    "company_Market_Value_in_Billion": [
+      "company",
+      "Market_Value_in_Billion"
+    ],
+    "employment_Company_ID": [
+      "employment",
+      "Company_ID"
+    ],
+    "employment_People_ID": [
+      "employment",
+      "People_ID"
+    ],
+    "employment_Year_working": [
+      "employment",
+      "Year_working"
+    ]
+  },
+  "object_property_fk": {
+    "employment_people_fk0": [
+      "employment.People_ID",
+      "people.People_ID"
+    ],
+    "employment_company_fk1": [
+      "employment.Company_ID",
+      "company.Company_ID"
+    ]
+  }
+}

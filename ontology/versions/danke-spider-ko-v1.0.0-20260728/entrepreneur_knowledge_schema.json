@@ -1,0 +1,274 @@
+{
+  "db_id": "entrepreneur",
+  "classes": [
+    {
+      "name": "entrepreneur",
+      "source_table": "entrepreneur",
+      "ranking": 3.5,
+      "primary_label": "창업자",
+      "synonyms": [
+        "창업자",
+        "창업인",
+        "사업가",
+        "기업가",
+        "상인",
+        "비즈니스 리더"
+      ]
+    },
+    {
+      "name": "people",
+      "source_table": "people",
+      "ranking": 3.0,
+      "primary_label": "사람",
+      "synonyms": [
+        "인구",
+        "개인",
+        "사람",
+        "이름",
+        "인적 정보",
+        "인사",
+        "인원",
+        "인구통계"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "entrepreneur_Entrepreneur_ID",
+      "domain": "entrepreneur",
+      "source_table": "entrepreneur",
+      "source_column": "Entrepreneur_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "창업자 ID",
+      "synonyms": [
+        "창업자 ID",
+        "창업자 식별 번호",
+        "창업자 고유 번호",
+        "창업자 식별자",
+        "창업자 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "entrepreneur_People_ID",
+      "domain": "entrepreneur",
+      "source_table": "entrepreneur",
+      "source_column": "People_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "인물 ID",
+      "synonyms": [
+        "인구 ID",
+        "개인 ID",
+        "인구 식별 번호",
+        "인구 고유 번호",
+        "개인 식별자",
+        "인구 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "entrepreneur_Company",
+      "domain": "entrepreneur",
+      "source_table": "entrepreneur",
+      "source_column": "Company",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "회사",
+      "synonyms": [
+        "회사 이름",
+        "기업명",
+        "회사",
+        "기업 이름",
+        "기업"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "삼성전자": [
+          "삼성전자"
+        ],
+        "현대자동차": [
+          "현대자동차"
+        ]
+      }
+    },
+    {
+      "name": "entrepreneur_Money_Requested",
+      "domain": "entrepreneur",
+      "source_table": "entrepreneur",
+      "source_column": "Money_Requested",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "금액 요청",
+      "synonyms": [
+        "투자 금액",
+        "금액 요청",
+        "모금 요청",
+        "자금 요청",
+        "MoneyRequested",
+        "투자금",
+        "자금"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "entrepreneur_Investor",
+      "domain": "entrepreneur",
+      "source_table": "entrepreneur",
+      "source_column": "Investor",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "투자자",
+      "synonyms": [
+        "투자자",
+        "투자 기관",
+        "인베스터",
+        "투자자 이름",
+        "Investor",
+        "투자자 정보",
+        "투자 기관 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "K-Startup Fund": [
+          "K-Startup Fund",
+          "KSF"
+        ],
+        "한국투자공사": [
+          "한국투자공사"
+        ]
+      }
+    },
+    {
+      "name": "people_People_ID",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "People_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "people id",
+      "synonyms": [
+        "People_ID",
+        "인물 ID",
+        "개인 식별 번호",
+        "ID",
+        "인물 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Name",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "Name",
+        "이름",
+        "성명",
+        "인물 이름",
+        "개인 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Height",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Height",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "height",
+      "synonyms": [
+        "Height",
+        "키",
+        "신장",
+        "키 높이",
+        "신장 높이",
+        "인물 키"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Weight",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Weight",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "weight",
+      "synonyms": [
+        "체중",
+        "몸무게",
+        "무게",
+        "Weight",
+        "체중 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Date_of_Birth",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Date_of_Birth",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "date of birth",
+      "synonyms": [
+        "생일",
+        "태어난 날",
+        "출생일",
+        "생년월일",
+        "Date_of_Birth",
+        "출생 날짜"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "entrepreneur_people_fk0",
+      "domain": "entrepreneur",
+      "range": "people",
+      "source_fk": [
+        "entrepreneur.People_ID",
+        "people.People_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "db_id": "debate",
+  "classes": [
+    {
+      "name": "people",
+      "source_table": "people",
+      "ranking": 3.0,
+      "primary_label": "사람",
+      "synonyms": [
+        "인물",
+        "참가자",
+        "참여자",
+        "인원",
+        "인사"
+      ]
+    },
+    {
+      "name": "debate",
+      "source_table": "debate",
+      "ranking": 3.0,
+      "primary_label": "debate",
+      "synonyms": [
+        "토론",
+        "토론회",
+        "토론 세션",
+        "토론 회의",
+        "토론 이벤트"
+      ]
+    },
+    {
+      "name": "debate_people",
+      "source_table": "debate_people",
+      "ranking": 3.0,
+      "primary_label": "debate people",
+      "synonyms": [
+        "토론 참가자",
+        "토론 인원",
+        "토론 참여자",
+        "토론 참가자 목록",
+        "토론 인원 목록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "people_People_ID",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "People_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "people id",
+      "synonyms": [
+        "People_ID",
+        "인구 ID",
+        "인구 고유 번호",
+        "인구 식별 번호",
+        "인구 고유 ID",
+        "인구 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_District",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "District",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "district",
+      "synonyms": [
+        "District",
+        "지역",
+        "구역",
+        "행정구역",
+        "지방",
+        "구역 정보",
+        "지역 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Name",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "Name",
+        "이름",
+        "인명",
+        "이름 정보",
+        "인물 이름",
+        "이름 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Party",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Party",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "party",
+      "synonyms": [
+        "정당",
+        "당파",
+        "정치적 소속",
+        "정당 소속",
+        "정당 정보",
+        "정당명",
+        "정당별",
+        "정당 소속 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "people_Age",
+      "domain": "people",
+      "source_table": "people",
+      "source_column": "Age",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "age",
+      "synonyms": [
+        "연령",
+        "나이",
+        "연령 정보",
+        "나이 정보",
+        "연령 데이터",
+        "나이 데이터",
+        "연령 차이",
+        "나이 차이"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "debate_Debate_ID",
+      "domain": "debate",
+      "source_table": "debate",
+      "source_column": "Debate_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "debate id",
+      "synonyms": [
+        "debate_id",
+        "debate identifier",
+        "debate number",
+        "debate sequence",
+        "debate code",
+        "debate key"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "debate_Date",
+      "domain": "debate",
+      "source_table": "debate",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "date",
+      "synonyms": [
+        "date",
+        "debate date",
+        "event date",
+        "meeting date",
+        "debate time",
+        "debate day",
+        "debate period"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-05": [
+          "2023년 10월 5일"
+        ]
+      }
+    },
+    {
+      "name": "debate_Venue",
+      "domain": "debate",
+      "source_table": "debate",
+      "source_column": "Venue",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "venue",
+      "synonyms": [
+        "venue",
+        "debate venue",
+        "event location",
+        "meeting location",
+        "debate place",
+        "debate site",
+        "debate location"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시청": [
+          "서울시청",
+          "서울"
+        ]
+      }
+    },
+    {
+      "name": "debate_Num_of_Audience",
+      "domain": "debate",
+      "source_table": "debate",
+      "source_column": "Num_of_Audience",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "num of audience",
+      "synonyms": [
+        "참가자 수",
+        "인원 수",
+        "관객 수",
+        "인원",
+        "audience count"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "debate_people_Debate_ID",
+      "domain": "debate_people",
+      "source_table": "debate_people",
+      "source_column": "Debate_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "debate id",
+      "synonyms": [
+        "Debate_ID",
+        "debate identifier",
+        "debate number",
+        "debate code",
+        "debate key",
+        "debate serial",
+        "debate unique id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "debate_people_Affirmative",
+      "domain": "debate_people",
+      "source_table": "debate_people",
+      "source_column": "Affirmative",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "affirmative",
+      "synonyms": [
+        "정당화된 측",
+        "긍정 측",
+        "긍정",
+        "정당화",
+        "긍정 측 인물"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "debate_people_Negative",
+      "domain": "debate_people",
+      "source_table": "debate_people",
+      "source_column": "Negative",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "negative",
+      "synonyms": [
+        "반대 측",
+        "부정 측",
+        "부정",
+        "반대",
+        "부정 측 인물"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "debate_people_If_Affirmative_Win",
+      "domain": "debate_people",
+      "source_table": "debate_people",
+      "source_column": "If_Affirmative_Win",
+      "range_types": [
+        "others"
+      ],
+      "ranking": 2.5,
+      "primary_label": "if affirmative win",
+      "synonyms": [
+        "If_Affirmative_Win",
+        "affirmative win result",
+        "win result if affirmative",
+        "affirmative victory outcome",
+        "affirmative win explanation",
+        "win condition for affirmative",
+        "affirmative win scenario"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "others": [
+          "others"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "debate_people_people_fk0",
+      "domain": "debate_people",
+      "range": "people",
+      "source_fk": [
+        "debate_people.Negative",
+        "people.People_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "부정자 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "debate_people_people_fk1",
+      "domain": "debate_people",
+      "range": "people",
+      "source_fk": [
+        "debate_people.Affirmative",
+        "people.People_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "긍정자 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "debate_people_debate_fk2",
+      "domain": "debate_people",
+      "range": "debate",
+      "source_fk": [
+        "debate_people.Debate_ID",
+        "debate.Debate_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "토론 소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

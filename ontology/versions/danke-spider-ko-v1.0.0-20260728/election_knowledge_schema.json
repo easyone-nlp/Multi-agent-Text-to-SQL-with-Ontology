@@ -1,0 +1,535 @@
+{
+  "db_id": "election",
+  "classes": [
+    {
+      "name": "county",
+      "source_table": "county",
+      "ranking": 3.0,
+      "primary_label": "군수 정보",
+      "synonyms": [
+        "지역",
+        "구역",
+        "행정구역",
+        "시군구",
+        "지자체",
+        "지방정부",
+        "행정구역 정보",
+        "지역 관리자"
+      ]
+    },
+    {
+      "name": "party",
+      "source_table": "party",
+      "ranking": 3.5,
+      "primary_label": "정당",
+      "synonyms": [
+        "정당",
+        "정파",
+        "정당 정보",
+        "정당명",
+        "정당 목록",
+        "정치 그룹",
+        "정당 데이터"
+      ]
+    },
+    {
+      "name": "election",
+      "source_table": "election",
+      "ranking": 3.0,
+      "primary_label": "선거",
+      "synonyms": [
+        "선거",
+        "투표",
+        "선거 정보",
+        "선거 데이터",
+        "선거 결과",
+        "투표 결과",
+        "선거 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "county_County_Id",
+      "domain": "county",
+      "source_table": "county",
+      "source_column": "County_Id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "군수 ID",
+      "synonyms": [
+        "County_Id",
+        "지역 번호",
+        "지역 ID",
+        "county identifier",
+        "지역 식별자",
+        "county code"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "county_County_name",
+      "domain": "county",
+      "source_table": "county",
+      "source_column": "County_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "군수 이름",
+      "synonyms": [
+        "County_name",
+        "지역 이름",
+        "지역명",
+        "county identifier",
+        "지역 코드",
+        "county title"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울특별시": [
+          "서울"
+        ],
+        "부산광역시": [
+          "부산"
+        ]
+      }
+    },
+    {
+      "name": "county_Population",
+      "domain": "county",
+      "source_table": "county",
+      "source_column": "Population",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "인구 수",
+      "synonyms": [
+        "Population",
+        "인구수",
+        "인구",
+        "인구량",
+        "county population",
+        "지역 인구",
+        "county population count"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "county_Zip_code",
+      "domain": "county",
+      "source_table": "county",
+      "source_column": "Zip_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "우편번호",
+      "synonyms": [
+        "우편번호",
+        "ZIP 코드",
+        "우리 지역 우편번호",
+        "지역 우편번호",
+        "ZIP",
+        "우편 번호 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "12345": [
+          "12345"
+        ]
+      }
+    },
+    {
+      "name": "party_Party_ID",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Party_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "정당 ID",
+      "synonyms": [
+        "정당 ID",
+        "정당 번호",
+        "Party_ID",
+        "정당 식별자",
+        "정당 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "party_Year",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "년도",
+      "synonyms": [
+        "연도",
+        "년도",
+        "Year",
+        "정당 연도",
+        "선거 연도"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "party_Party",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Party",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "정당",
+      "synonyms": [
+        "정당 이름",
+        "Party",
+        "정당명",
+        "정당",
+        "정당명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "더불어민주당": [
+          "더불어민주당"
+        ],
+        "국민의당": [
+          "국민의당"
+        ],
+        "자유한국당": [
+          "자유한국당"
+        ]
+      }
+    },
+    {
+      "name": "party_Governor",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Governor",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "Governor",
+      "synonyms": [
+        "Governor",
+        "Governor of the state",
+        "State governor",
+        "Governor name",
+        "Governor's name",
+        "Governor's title",
+        "Governor position"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "party_Lieutenant_Governor",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Lieutenant_Governor",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "부정부",
+      "synonyms": [
+        "Lieutenant Governor",
+        "Lieutenant governor of the state",
+        "State lieutenant governor",
+        "Lieutenant governor name",
+        "Lieutenant governor's name",
+        "Lieutenant governor's title",
+        "Lieutenant governor position"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "party_Comptroller",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Comptroller",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "재정감사관",
+      "synonyms": [
+        "Comptroller",
+        "Comptroller of the state",
+        "State comptroller",
+        "Comptroller name",
+        "Comptroller's name",
+        "Comptroller's title",
+        "Comptroller position"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "party_Attorney_General",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "Attorney_General",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "검사장",
+      "synonyms": [
+        "대법관",
+        "대법관 후보자",
+        "법원 총장",
+        "법무 장관",
+        "법무 대법관",
+        "Attorney General",
+        "대법관 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "party_US_Senate",
+      "domain": "party",
+      "source_table": "party",
+      "source_column": "US_Senate",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "미국 상원",
+      "synonyms": [
+        "상원",
+        "미국 상원",
+        "상원 후보자",
+        "US Senate",
+        "상원 의석",
+        "상원 후보",
+        "미국 상원 후보자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "election_Election_ID",
+      "domain": "election",
+      "source_table": "election",
+      "source_column": "Election_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "선거 ID",
+      "synonyms": [
+        "선거 번호",
+        "선거 ID",
+        "선거 고유 번호",
+        "Election_ID",
+        "선거 식별자",
+        "선거 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "election_Counties_Represented",
+      "domain": "election",
+      "source_table": "election",
+      "source_column": "Counties_Represented",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "표현하는 카운티",
+      "synonyms": [
+        "대표하는 지역",
+        "표출 지역",
+        "지역 목록",
+        "대표 지역",
+        "Counties_Represented",
+        "지역 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "경기": [
+          "경기"
+        ]
+      }
+    },
+    {
+      "name": "election_District",
+      "domain": "election",
+      "source_table": "election",
+      "source_column": "District",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "구역",
+      "synonyms": [
+        "구역 번호",
+        "선거 구역",
+        "District",
+        "구역 ID",
+        "선거 구역 번호",
+        "구역 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "election_Delegate",
+      "domain": "election",
+      "source_table": "election",
+      "source_column": "Delegate",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "대표자",
+      "synonyms": [
+        "대표",
+        "대표자",
+        "대리인",
+        "의사당 대표",
+        "대표자 이름",
+        "Delegate",
+        "대표자 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김정은": [
+          "김정은"
+        ],
+        "이재정": [
+          "이재정"
+        ]
+      }
+    },
+    {
+      "name": "election_Party",
+      "domain": "election",
+      "source_table": "election",
+      "source_column": "Party",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 3.5,
+      "primary_label": "정당",
+      "synonyms": [
+        "정당",
+        "정당 번호",
+        "정당 ID",
+        "Party",
+        "정당 식별자",
+        "정당 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "더불어민주당": [
+          "더불어민주당"
+        ],
+        "국민의힘": [
+          "국민의힘"
+        ]
+      }
+    },
+    {
+      "name": "election_First_Elected",
+      "domain": "election",
+      "source_table": "election",
+      "source_column": "First_Elected",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "최초 선거 연도",
+      "synonyms": [
+        "최초 선출 연도",
+        "처음 선출 연도",
+        "첫 선출 연도",
+        "First_Elected",
+        "첫 선출년도",
+        "초기 선출년도"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "election_Committee",
+      "domain": "election",
+      "source_table": "election",
+      "source_column": "Committee",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "위원회",
+      "synonyms": [
+        "위원회",
+        "집행위원회",
+        "위원회명",
+        "집행위원회 이름",
+        "위원회 정보",
+        "위원회명칭",
+        "위원회 관련 정보",
+        "위원회 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "교육위원회": [
+          "교육위원회"
+        ],
+        "건강위원회": [
+          "건강위원회"
+        ]
+      }
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "election_county_fk0",
+      "domain": "election",
+      "range": "county",
+      "source_fk": [
+        "election.District",
+        "county.County_Id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "election_party_fk1",
+      "domain": "election",
+      "range": "party",
+      "source_fk": [
+        "election.Party",
+        "party.Party_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

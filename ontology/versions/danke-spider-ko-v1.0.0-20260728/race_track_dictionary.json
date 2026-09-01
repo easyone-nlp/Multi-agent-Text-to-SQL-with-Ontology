@@ -1,0 +1,578 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "경기",
+      "target_class": "race",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경주",
+      "target_class": "race",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경주 이벤트",
+      "target_class": "race",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경주 정보",
+      "target_class": "race",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경주 행사",
+      "target_class": "race",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "경주 기록",
+      "target_class": "race",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트랙",
+      "target_class": "track",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트랙 정보",
+      "target_class": "track",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트랙 데이터",
+      "target_class": "track",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트랙 위치",
+      "target_class": "track",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트랙 구조",
+      "target_class": "track",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "트랙 설계",
+      "target_class": "track",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 ID",
+      "target_class": "race",
+      "target_property": "race_Race_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "RACE_ID",
+      "target_class": "race",
+      "target_property": "race_Race_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 고유 번호",
+      "target_class": "race",
+      "target_property": "race_Race_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 식별자",
+      "target_class": "race",
+      "target_property": "race_Race_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 번호",
+      "target_class": "race",
+      "target_property": "race_Race_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "race",
+      "target_property": "race_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 이름",
+      "target_class": "race",
+      "target_property": "race_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제목",
+      "target_class": "race",
+      "target_property": "race_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "RACE_NAME",
+      "target_class": "race",
+      "target_property": "race_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 제목",
+      "target_class": "race",
+      "target_property": "race_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클래스",
+      "target_class": "race",
+      "target_property": "race_Class",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "분류",
+      "target_class": "race",
+      "target_property": "race_Class",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 유형",
+      "target_class": "race",
+      "target_property": "race_Class",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "RACE_CLASS",
+      "target_class": "race",
+      "target_property": "race_Class",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 분류",
+      "target_class": "race",
+      "target_property": "race_Class",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "race",
+      "target_property": "race_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "race",
+      "target_property": "race_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기일",
+      "target_class": "race",
+      "target_property": "race_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시기",
+      "target_class": "race",
+      "target_property": "race_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 정보",
+      "target_class": "race",
+      "target_property": "race_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜 정보",
+      "target_class": "race",
+      "target_property": "race_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "경기 일자",
+      "target_class": "race",
+      "target_property": "race_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 데이터",
+      "target_class": "race",
+      "target_property": "race_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 ID",
+      "target_class": "race",
+      "target_property": "race_Track_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 번호",
+      "target_class": "race",
+      "target_property": "race_Track_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 식별자",
+      "target_class": "race",
+      "target_property": "race_Track_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 코드",
+      "target_class": "race",
+      "target_property": "race_Track_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 고유 ID",
+      "target_class": "race",
+      "target_property": "race_Track_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 식별",
+      "target_class": "race",
+      "target_property": "race_Track_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 ID",
+      "target_class": "track",
+      "target_property": "track_Track_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 식별 번호",
+      "target_class": "track",
+      "target_property": "track_Track_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 고유 번호",
+      "target_class": "track",
+      "target_property": "track_Track_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 번호",
+      "target_class": "track",
+      "target_property": "track_Track_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Track_ID",
+      "target_class": "track",
+      "target_property": "track_Track_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 아이디",
+      "target_class": "track",
+      "target_property": "track_Track_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 고유 ID",
+      "target_class": "track",
+      "target_property": "track_Track_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "트랙 식별자",
+      "target_class": "track",
+      "target_property": "track_Track_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "track",
+      "target_property": "track_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "location",
+      "target_class": "track",
+      "target_property": "track_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "track",
+      "target_property": "track_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역",
+      "target_class": "track",
+      "target_property": "track_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 정보",
+      "target_class": "track",
+      "target_property": "track_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치명",
+      "target_class": "track",
+      "target_property": "track_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "track",
+      "target_property": "track_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치 데이터",
+      "target_class": "track",
+      "target_property": "track_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지역 정보",
+      "target_class": "track",
+      "target_property": "track_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "seating",
+      "target_class": "track",
+      "target_property": "track_Seating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좌석 수",
+      "target_class": "track",
+      "target_property": "track_Seating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좌석",
+      "target_class": "track",
+      "target_property": "track_Seating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "총 앉은 인원",
+      "target_class": "track",
+      "target_property": "track_Seating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "좌석 수치",
+      "target_class": "track",
+      "target_property": "track_Seating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용 가능한 좌석",
+      "target_class": "track",
+      "target_property": "track_Seating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시원한 자리",
+      "target_class": "track",
+      "target_property": "track_Seating",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "year opened",
+      "target_class": "track",
+      "target_property": "track_Year_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개장 연도",
+      "target_class": "track",
+      "target_property": "track_Year_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개장년도",
+      "target_class": "track",
+      "target_property": "track_Year_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도",
+      "target_class": "track",
+      "target_property": "track_Year_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 시작 연도",
+      "target_class": "track",
+      "target_property": "track_Year_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개장 시기",
+      "target_class": "track",
+      "target_property": "track_Year_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 시작년도",
+      "target_class": "track",
+      "target_property": "track_Year_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도 정보",
+      "target_class": "track",
+      "target_property": "track_Year_Opened",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "그랑프리",
+      "target_class": "race",
+      "target_property": "race_Name",
+      "value": "그랑프리"
+    },
+    {
+      "entry_type": "value",
+      "key": "프리미엄 레이스",
+      "target_class": "race",
+      "target_property": "race_Name",
+      "value": "프리미엄 레이스"
+    },
+    {
+      "entry_type": "value",
+      "key": "F1",
+      "target_class": "race",
+      "target_property": "race_Class",
+      "value": "F1"
+    },
+    {
+      "entry_type": "value",
+      "key": "F2",
+      "target_class": "race",
+      "target_property": "race_Class",
+      "value": "F2"
+    },
+    {
+      "entry_type": "value",
+      "key": "2024-05-10",
+      "target_class": "race",
+      "target_property": "race_Date",
+      "value": "2024-05-10"
+    },
+    {
+      "entry_type": "value",
+      "key": "트랙 1",
+      "target_class": "track",
+      "target_property": "track_Name",
+      "value": "트랙 1"
+    },
+    {
+      "entry_type": "value",
+      "key": "트랙1",
+      "target_class": "track",
+      "target_property": "track_Name",
+      "value": "트랙 1"
+    },
+    {
+      "entry_type": "value",
+      "key": "트랙 2",
+      "target_class": "track",
+      "target_property": "track_Name",
+      "value": "트랙 2"
+    },
+    {
+      "entry_type": "value",
+      "key": "트랙2",
+      "target_class": "track",
+      "target_property": "track_Name",
+      "value": "트랙 2"
+    }
+  ]
+}

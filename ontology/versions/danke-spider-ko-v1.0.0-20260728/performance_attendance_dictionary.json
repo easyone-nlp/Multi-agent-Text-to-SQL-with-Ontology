@@ -1,0 +1,585 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "멤버",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "회원",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이용자",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "회원 정보",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사람",
+      "target_class": "member",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "성과",
+      "target_class": "performance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연출",
+      "target_class": "performance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "공연",
+      "target_class": "performance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "성능 데이터",
+      "target_class": "performance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "공연 정보",
+      "target_class": "performance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "연기",
+      "target_class": "performance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "member attendance",
+      "target_class": "member_attendance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "출석",
+      "target_class": "member_attendance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "출석 기록",
+      "target_class": "member_attendance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "출석 정보",
+      "target_class": "member_attendance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "출석 내역",
+      "target_class": "member_attendance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "출석 데이터",
+      "target_class": "member_attendance",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "멤버 ID",
+      "target_class": "member",
+      "target_property": "member_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "member",
+      "target_property": "member_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적",
+      "target_class": "member",
+      "target_property": "member_Nationality",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "역할",
+      "target_class": "member",
+      "target_property": "member_Role",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성과 ID",
+      "target_class": "performance",
+      "target_property": "performance_Performance_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Performance_ID",
+      "target_class": "performance",
+      "target_property": "performance_Performance_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공연 ID",
+      "target_class": "performance",
+      "target_property": "performance_Performance_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수행 ID",
+      "target_class": "performance",
+      "target_property": "performance_Performance_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공연 번호",
+      "target_class": "performance",
+      "target_property": "performance_Performance_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 ID",
+      "target_class": "performance",
+      "target_property": "performance_Performance_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수행 식별자",
+      "target_class": "performance",
+      "target_property": "performance_Performance_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 식별 번호",
+      "target_class": "performance",
+      "target_property": "performance_Performance_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자",
+      "target_class": "performance",
+      "target_property": "performance_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Date",
+      "target_class": "performance",
+      "target_property": "performance_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "날짜",
+      "target_class": "performance",
+      "target_property": "performance_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일정",
+      "target_class": "performance",
+      "target_property": "performance_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 정보",
+      "target_class": "performance",
+      "target_property": "performance_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공연 날짜",
+      "target_class": "performance",
+      "target_property": "performance_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 날짜",
+      "target_class": "performance",
+      "target_property": "performance_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "일자 데이터",
+      "target_class": "performance",
+      "target_property": "performance_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "호스트",
+      "target_class": "performance",
+      "target_property": "performance_Host",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Host",
+      "target_class": "performance",
+      "target_property": "performance_Host",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최자",
+      "target_class": "performance",
+      "target_property": "performance_Host",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최 단체",
+      "target_class": "performance",
+      "target_property": "performance_Host",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최",
+      "target_class": "performance",
+      "target_property": "performance_Host",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 주최자",
+      "target_class": "performance",
+      "target_property": "performance_Host",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사 주최 단체",
+      "target_class": "performance",
+      "target_property": "performance_Host",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주최 기관",
+      "target_class": "performance",
+      "target_property": "performance_Host",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소",
+      "target_class": "performance",
+      "target_property": "performance_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "위치",
+      "target_class": "performance",
+      "target_property": "performance_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "공연장",
+      "target_class": "performance",
+      "target_property": "performance_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "행사장",
+      "target_class": "performance",
+      "target_property": "performance_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소명",
+      "target_class": "performance",
+      "target_property": "performance_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Location",
+      "target_class": "performance",
+      "target_property": "performance_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "장소 정보",
+      "target_class": "performance",
+      "target_property": "performance_Location",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참석 인원",
+      "target_class": "performance",
+      "target_property": "performance_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "참석자 수",
+      "target_class": "performance",
+      "target_property": "performance_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인원수",
+      "target_class": "performance",
+      "target_property": "performance_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출석자 수",
+      "target_class": "performance",
+      "target_property": "performance_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인원",
+      "target_class": "performance",
+      "target_property": "performance_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Attendance",
+      "target_class": "performance",
+      "target_property": "performance_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "출석 인원",
+      "target_class": "performance",
+      "target_property": "performance_Attendance",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "member id",
+      "target_class": "member_attendance",
+      "target_property": "member_attendance_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 ID",
+      "target_class": "member_attendance",
+      "target_property": "member_attendance_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 번호",
+      "target_class": "member_attendance",
+      "target_property": "member_attendance_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 ID",
+      "target_class": "member_attendance",
+      "target_property": "member_attendance_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 식별자",
+      "target_class": "member_attendance",
+      "target_property": "member_attendance_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 구분자",
+      "target_class": "member_attendance",
+      "target_property": "member_attendance_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Member_ID",
+      "target_class": "member_attendance",
+      "target_property": "member_attendance_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "회원 고유 번호",
+      "target_class": "member_attendance",
+      "target_property": "member_attendance_Member_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "performance id",
+      "target_class": "member_attendance",
+      "target_property": "member_attendance_Performance_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "num of pieces",
+      "target_class": "member_attendance",
+      "target_property": "member_attendance_Num_of_Pieces",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "member",
+      "target_property": "member_Name",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "박지민",
+      "target_class": "member",
+      "target_property": "member_Name",
+      "value": "박지민"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국",
+      "target_class": "member",
+      "target_property": "member_Nationality",
+      "value": "한국"
+    },
+    {
+      "entry_type": "value",
+      "key": "미국",
+      "target_class": "member",
+      "target_property": "member_Nationality",
+      "value": "미국"
+    },
+    {
+      "entry_type": "value",
+      "key": "관리자",
+      "target_class": "member",
+      "target_property": "member_Role",
+      "value": "관리자"
+    },
+    {
+      "entry_type": "value",
+      "key": "일반 사용자",
+      "target_class": "member",
+      "target_property": "member_Role",
+      "value": "일반 사용자"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023-10-01",
+      "target_class": "performance",
+      "target_property": "performance_Date",
+      "value": "2023-10-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "2023년 10월 1일",
+      "target_class": "performance",
+      "target_property": "performance_Date",
+      "value": "2023-10-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "10월 1일",
+      "target_class": "performance",
+      "target_property": "performance_Date",
+      "value": "2023-10-01"
+    },
+    {
+      "entry_type": "value",
+      "key": "김민수",
+      "target_class": "performance",
+      "target_property": "performance_Host",
+      "value": "김민수"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울시 강남구",
+      "target_class": "performance",
+      "target_property": "performance_Location",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "강남구",
+      "target_class": "performance",
+      "target_property": "performance_Location",
+      "value": "서울시 강남구"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울 강남구",
+      "target_class": "performance",
+      "target_property": "performance_Location",
+      "value": "서울시 강남구"
+    }
+  ]
+}

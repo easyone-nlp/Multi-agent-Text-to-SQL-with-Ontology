@@ -1,0 +1,96 @@
+{
+  "class_table": {
+    "program": "program",
+    "channel": "channel",
+    "broadcast": "broadcast",
+    "broadcast_share": "broadcast_share"
+  },
+  "property_column": {
+    "program_Program_ID": [
+      "program",
+      "Program_ID"
+    ],
+    "program_Name": [
+      "program",
+      "Name"
+    ],
+    "program_Origin": [
+      "program",
+      "Origin"
+    ],
+    "program_Launch": [
+      "program",
+      "Launch"
+    ],
+    "program_Owner": [
+      "program",
+      "Owner"
+    ],
+    "channel_Channel_ID": [
+      "channel",
+      "Channel_ID"
+    ],
+    "channel_Name": [
+      "channel",
+      "Name"
+    ],
+    "channel_Owner": [
+      "channel",
+      "Owner"
+    ],
+    "channel_Share_in_percent": [
+      "channel",
+      "Share_in_percent"
+    ],
+    "channel_Rating_in_percent": [
+      "channel",
+      "Rating_in_percent"
+    ],
+    "broadcast_Channel_ID": [
+      "broadcast",
+      "Channel_ID"
+    ],
+    "broadcast_Program_ID": [
+      "broadcast",
+      "Program_ID"
+    ],
+    "broadcast_Time_of_day": [
+      "broadcast",
+      "Time_of_day"
+    ],
+    "broadcast_share_Channel_ID": [
+      "broadcast_share",
+      "Channel_ID"
+    ],
+    "broadcast_share_Program_ID": [
+      "broadcast_share",
+      "Program_ID"
+    ],
+    "broadcast_share_Date": [
+      "broadcast_share",
+      "Date"
+    ],
+    "broadcast_share_Share_in_percent": [
+      "broadcast_share",
+      "Share_in_percent"
+    ]
+  },
+  "object_property_fk": {
+    "broadcast_program_fk0": [
+      "broadcast.Program_ID",
+      "program.Program_ID"
+    ],
+    "broadcast_channel_fk1": [
+      "broadcast.Channel_ID",
+      "channel.Channel_ID"
+    ],
+    "broadcast_share_program_fk2": [
+      "broadcast_share.Program_ID",
+      "program.Program_ID"
+    ],
+    "broadcast_share_channel_fk3": [
+      "broadcast_share.Channel_ID",
+      "channel.Channel_ID"
+    ]
+  }
+}

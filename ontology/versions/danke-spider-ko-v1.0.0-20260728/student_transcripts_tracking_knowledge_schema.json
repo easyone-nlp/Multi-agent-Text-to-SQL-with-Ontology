@@ -1,0 +1,1494 @@
+{
+  "db_id": "student_transcripts_tracking",
+  "classes": [
+    {
+      "name": "Addresses",
+      "source_table": "Addresses",
+      "ranking": 3.5,
+      "primary_label": "주소",
+      "synonyms": []
+    },
+    {
+      "name": "Courses",
+      "source_table": "Courses",
+      "ranking": 3.5,
+      "primary_label": "강좌",
+      "synonyms": [
+        "과목",
+        "수업",
+        "강의",
+        "과정",
+        "교과",
+        "학과",
+        "교과목",
+        "수업 내용"
+      ]
+    },
+    {
+      "name": "Departments",
+      "source_table": "Departments",
+      "ranking": 3.0,
+      "primary_label": "부서",
+      "synonyms": [
+        "학과",
+        "학부",
+        "대학원",
+        "분과",
+        "학문 분야",
+        "학문 부문",
+        "학문 단위"
+      ]
+    },
+    {
+      "name": "Degree_Programs",
+      "source_table": "Degree_Programs",
+      "ranking": 3.5,
+      "primary_label": "학위 프로그램",
+      "synonyms": [
+        "학위 프로그램",
+        "학위 과정",
+        "학위 계획",
+        "학위 과목",
+        "학위 전공",
+        "학위 제도",
+        "학위 구조",
+        "학위 설계"
+      ]
+    },
+    {
+      "name": "Sections",
+      "source_table": "Sections",
+      "ranking": 3.0,
+      "primary_label": "섹션",
+      "synonyms": [
+        "강의 섹션",
+        "강의 세션",
+        "강의 조각",
+        "강의 단위",
+        "강의 그룹",
+        "강의 세부사항",
+        "강의 구성"
+      ]
+    },
+    {
+      "name": "Semesters",
+      "source_table": "Semesters",
+      "ranking": 3.5,
+      "primary_label": "학기",
+      "synonyms": [
+        "학기",
+        "학기 정보",
+        "학기 데이터",
+        "학기 기록",
+        "학기 구조",
+        "학기 계획",
+        "학기 설정",
+        "학기 구성"
+      ]
+    },
+    {
+      "name": "Students",
+      "source_table": "Students",
+      "ranking": 3.5,
+      "primary_label": "학생",
+      "synonyms": [
+        "학생 목록",
+        "학생 데이터",
+        "학생 정보",
+        "학생 기록",
+        "학생 목록 테이블"
+      ]
+    },
+    {
+      "name": "Student_Enrolment",
+      "source_table": "Student_Enrolment",
+      "ranking": 3.0,
+      "primary_label": "학생 등록",
+      "synonyms": [
+        "등록 정보",
+        "학생 등록",
+        "등록 기록",
+        "학생 등록 데이터",
+        "등록 상세 정보"
+      ]
+    },
+    {
+      "name": "Student_Enrolment_Courses",
+      "source_table": "Student_Enrolment_Courses",
+      "ranking": 3.5,
+      "primary_label": "학생 수강 과목",
+      "synonyms": [
+        "수강 과정",
+        "학생 수강 정보",
+        "수강 목록",
+        "수강 기록",
+        "학생 수강 데이터"
+      ]
+    },
+    {
+      "name": "Transcripts",
+      "source_table": "Transcripts",
+      "ranking": 3.0,
+      "primary_label": "transcripts",
+      "synonyms": [
+        "성적서",
+        "성적 보고서",
+        "학기 성적",
+        "학적 기록",
+        "학업 성적",
+        "학력 증명서"
+      ]
+    },
+    {
+      "name": "Transcript_Contents",
+      "source_table": "Transcript_Contents",
+      "ranking": 1.0,
+      "primary_label": "transcript contents",
+      "synonyms": [
+        "내용",
+        "세부 정보",
+        "학기별 성적",
+        "과목별 성적",
+        "학적 정보",
+        "학업 내역",
+        "학적 세부내역"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Addresses_address_id",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "주소 ID",
+      "synonyms": [
+        "주소 고유 번호",
+        "주소 식별 번호",
+        "주소 코드",
+        "주소 고유 ID",
+        "주소 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_line_1",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "line_1",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "1번 주소 라인",
+      "synonyms": [
+        "주소 첫 번째 줄",
+        "주소 라인1",
+        "주소 첫 번째 라인",
+        "주소 라인1 정보",
+        "주소 첫 번째 주소 라인"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_line_2",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "line_2",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "2번 주소 라인",
+      "synonyms": [
+        "주소 두 번째 줄",
+        "주소 라인2",
+        "주소 라인2 정보",
+        "주소 두 번째 주소 라인",
+        "주소 라인2 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_line_3",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "line_3",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "3번 주소 라인",
+      "synonyms": [
+        "세 번째 주소 줄",
+        "주소 라인 3",
+        "주소 세 번째 줄",
+        "주소 라인 3번",
+        "주소 세 번째 라인",
+        "주소 세 번째 줄 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_city",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "city",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "시",
+      "synonyms": [
+        "도시",
+        "시티",
+        "도시명",
+        "시 이름",
+        "도시 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_zip_postcode",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "zip_postcode",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "우편번호",
+      "synonyms": [
+        "우편번호",
+        "우편 번호",
+        "우편번호 정보",
+        "우편번호 코드",
+        "우편번호 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_state_province_county",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "state_province_county",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "주/도/군",
+      "synonyms": [
+        "지역",
+        "구역",
+        "도시",
+        "현",
+        "시",
+        "도",
+        "군",
+        "지역코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_country",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "나라",
+        "국",
+        "국가코드",
+        "국가명",
+        "국가정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Addresses_other_address_details",
+      "domain": "Addresses",
+      "source_table": "Addresses",
+      "source_column": "other_address_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "다른 주소 세부 정보",
+      "synonyms": [
+        "기타 주소 정보",
+        "추가 주소 세부 사항",
+        "다른 주소 설명",
+        "추가 주소 정보",
+        "기타 주소 설명",
+        "세부 주소 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Courses_course_id",
+      "domain": "Courses",
+      "source_table": "Courses",
+      "source_column": "course_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "강좌 ID",
+      "synonyms": [
+        "강좌 코드",
+        "강좌 번호",
+        "과목 ID",
+        "과목 코드",
+        "강좌 식별자",
+        "강좌 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Courses_course_name",
+      "domain": "Courses",
+      "source_table": "Courses",
+      "source_column": "course_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "강좌 이름",
+      "synonyms": [
+        "강좌 제목",
+        "과목 이름",
+        "강좌 명칭",
+        "과목 제목",
+        "강좌 표시 이름",
+        "과목 표시 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "데이터 분석": [
+          "데이터 분석 강좌",
+          "데이터 분석 과목"
+        ],
+        "영어 회화": [
+          "영어 회화 강좌",
+          "영어 회화 수업"
+        ]
+      }
+    },
+    {
+      "name": "Courses_course_description",
+      "domain": "Courses",
+      "source_table": "Courses",
+      "source_column": "course_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "강좌 설명",
+      "synonyms": [
+        "강좌 요약",
+        "강좌 내용",
+        "강좌 개요",
+        "과목 설명",
+        "강좌 요약 설명",
+        "과목 요약",
+        "강좌 설명 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Courses_other_details",
+      "domain": "Courses",
+      "source_table": "Courses",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "기타 정보",
+      "synonyms": [
+        "기타 정보",
+        "추가 설명",
+        "기타 사항",
+        "보충 정보",
+        "기타 내용",
+        "추가 정보",
+        "기타 설명",
+        "기타 세부 사항"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Departments_department_id",
+      "domain": "Departments",
+      "source_table": "Departments",
+      "source_column": "department_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "부서 ID",
+      "synonyms": [
+        "부서 코드",
+        "ID",
+        "코드",
+        "부서 식별자",
+        "부서 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Departments_department_name",
+      "domain": "Departments",
+      "source_table": "Departments",
+      "source_column": "department_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "부서 이름",
+      "synonyms": [
+        "부서명",
+        "이름",
+        "부서칭",
+        "부서 표시",
+        "부서 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "개발부": [
+          "개발 부서",
+          "개발팀"
+        ],
+        "인사부": [
+          "인사 부서",
+          "인사팀"
+        ]
+      }
+    },
+    {
+      "name": "Departments_department_description",
+      "domain": "Departments",
+      "source_table": "Departments",
+      "source_column": "department_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "부서 설명",
+      "synonyms": [
+        "설명",
+        "설명문",
+        "설명내용",
+        "설명 정보",
+        "부서 설명"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Departments_other_details",
+      "domain": "Departments",
+      "source_table": "Departments",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기타 정보",
+      "synonyms": [
+        "추가 정보",
+        "기타 사항",
+        "다른 정보",
+        "기타 설명",
+        "추가 설명",
+        "기타 세부 사항",
+        "다른 설명",
+        "기타 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Degree_Programs_degree_program_id",
+      "domain": "Degree_Programs",
+      "source_table": "Degree_Programs",
+      "source_column": "degree_program_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학위 프로그램 ID",
+      "synonyms": [
+        "학위 프로그램 고유 ID",
+        "학위 코드",
+        "학위 프로그램 번호",
+        "학위 식별자",
+        "학위 프로그램 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Degree_Programs_department_id",
+      "domain": "Degree_Programs",
+      "source_table": "Degree_Programs",
+      "source_column": "department_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "부서 ID",
+      "synonyms": [
+        "부서 고유 ID",
+        "학과 코드",
+        "부서 식별자",
+        "학과 번호",
+        "부서 식별 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Degree_Programs_degree_summary_name",
+      "domain": "Degree_Programs",
+      "source_table": "Degree_Programs",
+      "source_column": "degree_summary_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "학위 요약 이름",
+      "synonyms": [
+        "학위 이름",
+        "학위 요약",
+        "학위 제목",
+        "학위 간략명",
+        "학위 요약 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "컴퓨터 공학 학사": [
+          "컴퓨터 공학 학사",
+          "CS 학사"
+        ],
+        "경영학 석사": [
+          "경영학 석사",
+          "MBA"
+        ]
+      }
+    },
+    {
+      "name": "Degree_Programs_degree_summary_description",
+      "domain": "Degree_Programs",
+      "source_table": "Degree_Programs",
+      "source_column": "degree_summary_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "학위 요약 설명",
+      "synonyms": [
+        "요약",
+        "설명",
+        "개요",
+        "소개",
+        "요약내용",
+        "상세내용",
+        "요약문",
+        "요약정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Degree_Programs_other_details",
+      "domain": "Degree_Programs",
+      "source_table": "Degree_Programs",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "다른 세부 사항",
+      "synonyms": [
+        "추가 정보",
+        "기타 정보",
+        "다른 정보",
+        "기타 세부 사항",
+        "추가 설명",
+        "기타 세부내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Sections_section_id",
+      "domain": "Sections",
+      "source_table": "Sections",
+      "source_column": "section_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "섹션 ID",
+      "synonyms": [
+        "섹션 코드",
+        "학기 섹션 번호",
+        "강좌 섹션 ID",
+        "학기별 강좌 코드",
+        "강좌 섹션 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Sections_course_id",
+      "domain": "Sections",
+      "source_table": "Sections",
+      "source_column": "course_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "강좌 ID",
+      "synonyms": [
+        "강좌 코드",
+        "강좌 식별자",
+        "강좌 번호",
+        "강좌 고유 ID",
+        "강좌 식별 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Sections_section_name",
+      "domain": "Sections",
+      "source_table": "Sections",
+      "source_column": "section_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "섹션 이름",
+      "synonyms": [
+        "섹션 제목",
+        "학기 강좌 이름",
+        "강좌 섹션 이름",
+        "학기별 강좌 제목",
+        "강좌 섹션 명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "수업 세션": [
+          "수업 세션",
+          "세션"
+        ]
+      }
+    },
+    {
+      "name": "Sections_section_description",
+      "domain": "Sections",
+      "source_table": "Sections",
+      "source_column": "section_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "섹션 설명",
+      "synonyms": [
+        "설명",
+        "설명 정보",
+        "세부 설명",
+        "내용",
+        "설명 사항",
+        "상세 설명",
+        "설명서"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Sections_other_details",
+      "domain": "Sections",
+      "source_table": "Sections",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "다른 세부 정보",
+      "synonyms": [
+        "다른 정보",
+        "추가 정보",
+        "기타 정보",
+        "다른 세부 사항",
+        "추가 설명",
+        "기타 설명",
+        "다른 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Semesters_semester_id",
+      "domain": "Semesters",
+      "source_table": "Semesters",
+      "source_column": "semester_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "학기 ID",
+      "synonyms": [
+        "학기 코드",
+        "학기 식별자",
+        "학기 번호",
+        "학기 고유값",
+        "학기 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Semesters_semester_name",
+      "domain": "Semesters",
+      "source_table": "Semesters",
+      "source_column": "semester_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "학기 이름",
+      "synonyms": [
+        "학기명",
+        "학기 표시",
+        "학기 이름",
+        "학기 표기",
+        "학기 표시명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "1학기": [
+          "1학기",
+          "첫 학기"
+        ],
+        "2학기": [
+          "2학기",
+          "두 번째 학기"
+        ]
+      }
+    },
+    {
+      "name": "Semesters_semester_description",
+      "domain": "Semesters",
+      "source_table": "Semesters",
+      "source_column": "semester_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "학기 설명",
+      "synonyms": [
+        "학기 설명",
+        "학기 설명문",
+        "학기 설명내용",
+        "학기 설명 정보",
+        "학기 설명자료"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Semesters_other_details",
+      "domain": "Semesters",
+      "source_table": "Semesters",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "기타 정보",
+      "synonyms": [
+        "추가 정보",
+        "기타 설명",
+        "다른 정보",
+        "보조 설명",
+        "기타 정보",
+        "추가 설명"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_student_id",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "student_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 고유 번호",
+        "학번",
+        "학생 고유 ID",
+        "학번 번호",
+        "학생 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_current_address_id",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "current_address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "현재 주소 ID",
+      "synonyms": [
+        "현재 주소 고유 번호",
+        "현재 주소 ID",
+        "주소 식별자",
+        "현재 주소 번호",
+        "주소 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_permanent_address_id",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "permanent_address_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "정착 주소 ID",
+      "synonyms": [
+        "정착 주소 고유 번호",
+        "정착 주소 ID",
+        "정착 주소 식별자",
+        "정착 주소 번호",
+        "주소 정착 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_first_name",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "first_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "성명",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수",
+          "김민수"
+        ]
+      }
+    },
+    {
+      "name": "Students_middle_name",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "middle_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "중간 이름",
+      "synonyms": [
+        "중간 이름",
+        "이름 중간",
+        "성명 중간",
+        "중간 성명",
+        "이름의 중간 부분"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "지은": [
+          "지은"
+        ]
+      }
+    },
+    {
+      "name": "Students_last_name",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "last_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "성",
+      "synonyms": [
+        "성",
+        "성명",
+        "성씨",
+        "성함",
+        "성 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김": [
+          "김"
+        ]
+      }
+    },
+    {
+      "name": "Students_cell_mobile_number",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "cell_mobile_number",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "모바일 번호",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "010-1234-5678": [
+          "010-1234-5678",
+          "10-1234-5678"
+        ]
+      }
+    },
+    {
+      "name": "Students_email_address",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "email_address",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이메일 주소",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "student@university.ac.kr": [
+          "student@university.ac.kr",
+          "student@university.ac.kr"
+        ]
+      }
+    },
+    {
+      "name": "Students_ssn",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "ssn",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "주민등록번호",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Students_date_first_registered",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "date_first_registered",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "등록일",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "2020-05-10": [
+          "2020-05-10",
+          "2020년 5월 10일"
+        ]
+      }
+    },
+    {
+      "name": "Students_date_left",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "date_left",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "이탈일",
+      "synonyms": [
+        "이탈일",
+        "이탈일자",
+        "이탈일시",
+        "이탈일정"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-08-20": [
+          "2023-08-20",
+          "2023년 8월 20일"
+        ]
+      }
+    },
+    {
+      "name": "Students_other_student_details",
+      "domain": "Students",
+      "source_table": "Students",
+      "source_column": "other_student_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 기타 정보",
+      "synonyms": [
+        "학생 기타 정보",
+        "학생 추가 정보",
+        "학생 기타 사항",
+        "학생 기타 데이터",
+        "학생 기타 내용",
+        "학생 기타 세부 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Enrolment_student_enrolment_id",
+      "domain": "Student_Enrolment",
+      "source_table": "Student_Enrolment",
+      "source_column": "student_enrolment_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 등록 ID",
+      "synonyms": [
+        "등록 번호",
+        "학생 식별자",
+        "등록 코드",
+        "학생 고유 ID",
+        "등록 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Enrolment_degree_program_id",
+      "domain": "Student_Enrolment",
+      "source_table": "Student_Enrolment",
+      "source_column": "degree_program_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학위 프로그램 ID",
+      "synonyms": [
+        "학위 프로그램 코드",
+        "학위 식별자",
+        "학위 번호",
+        "학위 프로그램 고유 ID",
+        "학위 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Enrolment_semester_id",
+      "domain": "Student_Enrolment",
+      "source_table": "Student_Enrolment",
+      "source_column": "semester_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학기 ID",
+      "synonyms": [
+        "학기 코드",
+        "학기 식별자",
+        "학기 번호",
+        "학기 고유 ID",
+        "학기 식별 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Enrolment_student_id",
+      "domain": "Student_Enrolment",
+      "source_table": "Student_Enrolment",
+      "source_column": "student_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 ID",
+      "synonyms": [
+        "학생 고유 번호",
+        "학번",
+        "학생 식별자",
+        "학번 정보",
+        "학생 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Enrolment_other_details",
+      "domain": "Student_Enrolment",
+      "source_table": "Student_Enrolment",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "기타 정보",
+      "synonyms": [
+        "기타 데이터",
+        "추가 정보",
+        "기타 내용",
+        "기타 사항",
+        "기타 정보 항목"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Enrolment_Courses_student_course_id",
+      "domain": "Student_Enrolment_Courses",
+      "source_table": "Student_Enrolment_Courses",
+      "source_column": "student_course_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 수강 과목 ID",
+      "synonyms": [
+        "학생 과목 식별자",
+        "수강 과목 코드",
+        "학생 수강 번호",
+        "과목 식별 번호",
+        "수강 과목 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Enrolment_Courses_course_id",
+      "domain": "Student_Enrolment_Courses",
+      "source_table": "Student_Enrolment_Courses",
+      "source_column": "course_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "과목 ID",
+      "synonyms": [
+        "과목 식별자",
+        "과목 코드",
+        "과목 고유 번호",
+        "과목 번호",
+        "과목 식별 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Student_Enrolment_Courses_student_enrolment_id",
+      "domain": "Student_Enrolment_Courses",
+      "source_table": "Student_Enrolment_Courses",
+      "source_column": "student_enrolment_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "학생 수강 신청 ID",
+      "synonyms": [
+        "수강 신청 식별자",
+        "수강 신청 번호",
+        "학생 수강 신청 코드",
+        "신청 식별 번호",
+        "수강 신청 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Transcripts_transcript_id",
+      "domain": "Transcripts",
+      "source_table": "Transcripts",
+      "source_column": "transcript_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "transcript id",
+      "synonyms": [
+        "ID",
+        "번호",
+        "아이디",
+        "식별자",
+        "코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Transcripts_transcript_date",
+      "domain": "Transcripts",
+      "source_table": "Transcripts",
+      "source_column": "transcript_date",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "transcript date",
+      "synonyms": [
+        "일자",
+        "날짜",
+        "발행일",
+        "일정",
+        "일자 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Transcripts_other_details",
+      "domain": "Transcripts",
+      "source_table": "Transcripts",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "other details",
+      "synonyms": [
+        "기타 정보",
+        "추가 설명",
+        "다른 세부 사항",
+        "보충 설명",
+        "기타 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Transcript_Contents_student_course_id",
+      "domain": "Transcript_Contents",
+      "source_table": "Transcript_Contents",
+      "source_column": "student_course_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "student course id",
+      "synonyms": [
+        "학생 과정 ID",
+        "학생 과목 식별자",
+        "학생 과정 코드",
+        "학생 과목 ID",
+        "학생 과정 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Transcript_Contents_transcript_id",
+      "domain": "Transcript_Contents",
+      "source_table": "Transcript_Contents",
+      "source_column": "transcript_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "transcript id",
+      "synonyms": [
+        "성적 증명서 ID",
+        "성적 보고서 식별자",
+        "성적 증명서 코드",
+        "성적 보고서 번호",
+        "성적 증명서 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Degree_Programs_Departments_fk0",
+      "domain": "Degree_Programs",
+      "range": "Departments",
+      "source_fk": [
+        "Degree_Programs.department_id",
+        "Departments.department_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Sections_Courses_fk1",
+      "domain": "Sections",
+      "range": "Courses",
+      "source_fk": [
+        "Sections.course_id",
+        "Courses.course_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "속한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Students_Addresses_fk2",
+      "domain": "Students",
+      "range": "Addresses",
+      "source_fk": [
+        "Students.permanent_address_id",
+        "Addresses.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "정착 주소",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Students_Addresses_fk3",
+      "domain": "Students",
+      "range": "Addresses",
+      "source_fk": [
+        "Students.current_address_id",
+        "Addresses.address_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "현재 주소",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Student_Enrolment_Students_fk4",
+      "domain": "Student_Enrolment",
+      "range": "Students",
+      "source_fk": [
+        "Student_Enrolment.student_id",
+        "Students.student_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "등록한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Student_Enrolment_Semesters_fk5",
+      "domain": "Student_Enrolment",
+      "range": "Semesters",
+      "source_fk": [
+        "Student_Enrolment.semester_id",
+        "Semesters.semester_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "수강 학기",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Student_Enrolment_Degree_Programs_fk6",
+      "domain": "Student_Enrolment",
+      "range": "Degree_Programs",
+      "source_fk": [
+        "Student_Enrolment.degree_program_id",
+        "Degree_Programs.degree_program_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "등록한 프로그램",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Student_Enrolment_Courses_Student_Enrolment_fk7",
+      "domain": "Student_Enrolment_Courses",
+      "range": "Student_Enrolment",
+      "source_fk": [
+        "Student_Enrolment_Courses.student_enrolment_id",
+        "Student_Enrolment.student_enrolment_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "수강 과목 등록",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Student_Enrolment_Courses_Courses_fk8",
+      "domain": "Student_Enrolment_Courses",
+      "range": "Courses",
+      "source_fk": [
+        "Student_Enrolment_Courses.course_id",
+        "Courses.course_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "수강한 과목",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Transcript_Contents_Transcripts_fk9",
+      "domain": "Transcript_Contents",
+      "range": "Transcripts",
+      "source_fk": [
+        "Transcript_Contents.transcript_id",
+        "Transcripts.transcript_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "내용 포함",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Transcript_Contents_Student_Enrolment_Courses_fk10",
+      "domain": "Transcript_Contents",
+      "range": "Student_Enrolment_Courses",
+      "source_fk": [
+        "Transcript_Contents.student_course_id",
+        "Student_Enrolment_Courses.student_course_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "성적 기록",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "class_table": {
+    "routes": "routes",
+    "airports": "airports",
+    "airlines": "airlines"
+  },
+  "property_column": {
+    "routes_rid": [
+      "routes",
+      "rid"
+    ],
+    "routes_dst_apid": [
+      "routes",
+      "dst_apid"
+    ],
+    "routes_dst_ap": [
+      "routes",
+      "dst_ap"
+    ],
+    "routes_src_apid": [
+      "routes",
+      "src_apid"
+    ],
+    "routes_src_ap": [
+      "routes",
+      "src_ap"
+    ],
+    "routes_alid": [
+      "routes",
+      "alid"
+    ],
+    "routes_airline": [
+      "routes",
+      "airline"
+    ],
+    "routes_codeshare": [
+      "routes",
+      "codeshare"
+    ],
+    "airports_apid": [
+      "airports",
+      "apid"
+    ],
+    "airports_name": [
+      "airports",
+      "name"
+    ],
+    "airports_city": [
+      "airports",
+      "city"
+    ],
+    "airports_country": [
+      "airports",
+      "country"
+    ],
+    "airports_x": [
+      "airports",
+      "x"
+    ],
+    "airports_y": [
+      "airports",
+      "y"
+    ],
+    "airports_elevation": [
+      "airports",
+      "elevation"
+    ],
+    "airports_iata": [
+      "airports",
+      "iata"
+    ],
+    "airports_icao": [
+      "airports",
+      "icao"
+    ],
+    "airlines_alid": [
+      "airlines",
+      "alid"
+    ],
+    "airlines_name": [
+      "airlines",
+      "name"
+    ],
+    "airlines_iata": [
+      "airlines",
+      "iata"
+    ],
+    "airlines_icao": [
+      "airlines",
+      "icao"
+    ],
+    "airlines_callsign": [
+      "airlines",
+      "callsign"
+    ],
+    "airlines_country": [
+      "airlines",
+      "country"
+    ],
+    "airlines_active": [
+      "airlines",
+      "active"
+    ]
+  },
+  "object_property_fk": {
+    "routes_airlines_fk0": [
+      "routes.alid",
+      "airlines.alid"
+    ],
+    "routes_airports_fk1": [
+      "routes.src_apid",
+      "airports.apid"
+    ],
+    "routes_airports_fk2": [
+      "routes.dst_apid",
+      "airports.apid"
+    ]
+  }
+}

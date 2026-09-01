@@ -1,0 +1,175 @@
+{
+  "class_table": {
+    "Addresses": "Addresses",
+    "Products": "Products",
+    "Customers": "Customers",
+    "Contacts": "Contacts",
+    "Customer_Address_History": "Customer_Address_History",
+    "Customer_Orders": "Customer_Orders",
+    "Order_Items": "Order_Items"
+  },
+  "property_column": {
+    "Addresses_address_id": [
+      "Addresses",
+      "address_id"
+    ],
+    "Addresses_line_1_number_building": [
+      "Addresses",
+      "line_1_number_building"
+    ],
+    "Addresses_city": [
+      "Addresses",
+      "city"
+    ],
+    "Addresses_zip_postcode": [
+      "Addresses",
+      "zip_postcode"
+    ],
+    "Addresses_state_province_county": [
+      "Addresses",
+      "state_province_county"
+    ],
+    "Addresses_country": [
+      "Addresses",
+      "country"
+    ],
+    "Products_product_id": [
+      "Products",
+      "product_id"
+    ],
+    "Products_product_type_code": [
+      "Products",
+      "product_type_code"
+    ],
+    "Products_product_name": [
+      "Products",
+      "product_name"
+    ],
+    "Products_product_price": [
+      "Products",
+      "product_price"
+    ],
+    "Customers_customer_id": [
+      "Customers",
+      "customer_id"
+    ],
+    "Customers_payment_method_code": [
+      "Customers",
+      "payment_method_code"
+    ],
+    "Customers_customer_number": [
+      "Customers",
+      "customer_number"
+    ],
+    "Customers_customer_name": [
+      "Customers",
+      "customer_name"
+    ],
+    "Customers_customer_address": [
+      "Customers",
+      "customer_address"
+    ],
+    "Customers_customer_phone": [
+      "Customers",
+      "customer_phone"
+    ],
+    "Customers_customer_email": [
+      "Customers",
+      "customer_email"
+    ],
+    "Contacts_contact_id": [
+      "Contacts",
+      "contact_id"
+    ],
+    "Contacts_customer_id": [
+      "Contacts",
+      "customer_id"
+    ],
+    "Contacts_gender": [
+      "Contacts",
+      "gender"
+    ],
+    "Contacts_first_name": [
+      "Contacts",
+      "first_name"
+    ],
+    "Contacts_last_name": [
+      "Contacts",
+      "last_name"
+    ],
+    "Contacts_contact_phone": [
+      "Contacts",
+      "contact_phone"
+    ],
+    "Customer_Address_History_customer_id": [
+      "Customer_Address_History",
+      "customer_id"
+    ],
+    "Customer_Address_History_address_id": [
+      "Customer_Address_History",
+      "address_id"
+    ],
+    "Customer_Address_History_date_from": [
+      "Customer_Address_History",
+      "date_from"
+    ],
+    "Customer_Address_History_date_to": [
+      "Customer_Address_History",
+      "date_to"
+    ],
+    "Customer_Orders_order_id": [
+      "Customer_Orders",
+      "order_id"
+    ],
+    "Customer_Orders_customer_id": [
+      "Customer_Orders",
+      "customer_id"
+    ],
+    "Customer_Orders_order_date": [
+      "Customer_Orders",
+      "order_date"
+    ],
+    "Customer_Orders_order_status_code": [
+      "Customer_Orders",
+      "order_status_code"
+    ],
+    "Order_Items_order_item_id": [
+      "Order_Items",
+      "order_item_id"
+    ],
+    "Order_Items_order_id": [
+      "Order_Items",
+      "order_id"
+    ],
+    "Order_Items_product_id": [
+      "Order_Items",
+      "product_id"
+    ],
+    "Order_Items_order_quantity": [
+      "Order_Items",
+      "order_quantity"
+    ]
+  },
+  "object_property_fk": {
+    "Customer_Address_History_Addresses_fk0": [
+      "Customer_Address_History.address_id",
+      "Addresses.address_id"
+    ],
+    "Customer_Address_History_Customers_fk1": [
+      "Customer_Address_History.customer_id",
+      "Customers.customer_id"
+    ],
+    "Customer_Orders_Customers_fk2": [
+      "Customer_Orders.customer_id",
+      "Customers.customer_id"
+    ],
+    "Order_Items_Customer_Orders_fk3": [
+      "Order_Items.order_id",
+      "Customer_Orders.order_id"
+    ],
+    "Order_Items_Products_fk4": [
+      "Order_Items.product_id",
+      "Products.product_id"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "class_table": {
+    "festival_detail": "festival_detail",
+    "artwork": "artwork",
+    "nomination": "nomination"
+  },
+  "property_column": {
+    "festival_detail_Festival_ID": [
+      "festival_detail",
+      "Festival_ID"
+    ],
+    "festival_detail_Festival_Name": [
+      "festival_detail",
+      "Festival_Name"
+    ],
+    "festival_detail_Chair_Name": [
+      "festival_detail",
+      "Chair_Name"
+    ],
+    "festival_detail_Location": [
+      "festival_detail",
+      "Location"
+    ],
+    "festival_detail_Year": [
+      "festival_detail",
+      "Year"
+    ],
+    "festival_detail_Num_of_Audience": [
+      "festival_detail",
+      "Num_of_Audience"
+    ],
+    "artwork_Artwork_ID": [
+      "artwork",
+      "Artwork_ID"
+    ],
+    "artwork_Type": [
+      "artwork",
+      "Type"
+    ],
+    "artwork_Name": [
+      "artwork",
+      "Name"
+    ],
+    "nomination_Artwork_ID": [
+      "nomination",
+      "Artwork_ID"
+    ],
+    "nomination_Festival_ID": [
+      "nomination",
+      "Festival_ID"
+    ],
+    "nomination_Result": [
+      "nomination",
+      "Result"
+    ]
+  },
+  "object_property_fk": {
+    "nomination_festival_detail_fk0": [
+      "nomination.Festival_ID",
+      "festival_detail.Festival_ID"
+    ],
+    "nomination_artwork_fk1": [
+      "nomination.Artwork_ID",
+      "artwork.Artwork_ID"
+    ]
+  }
+}

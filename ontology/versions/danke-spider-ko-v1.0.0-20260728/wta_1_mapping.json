@@ -1,0 +1,195 @@
+{
+  "class_table": {
+    "players": "players",
+    "matches": "matches",
+    "rankings": "rankings"
+  },
+  "property_column": {
+    "players_player_id": [
+      "players",
+      "player_id"
+    ],
+    "players_first_name": [
+      "players",
+      "first_name"
+    ],
+    "players_last_name": [
+      "players",
+      "last_name"
+    ],
+    "players_hand": [
+      "players",
+      "hand"
+    ],
+    "players_birth_date": [
+      "players",
+      "birth_date"
+    ],
+    "players_country_code": [
+      "players",
+      "country_code"
+    ],
+    "matches_best_of": [
+      "matches",
+      "best_of"
+    ],
+    "matches_draw_size": [
+      "matches",
+      "draw_size"
+    ],
+    "matches_loser_age": [
+      "matches",
+      "loser_age"
+    ],
+    "matches_loser_entry": [
+      "matches",
+      "loser_entry"
+    ],
+    "matches_loser_hand": [
+      "matches",
+      "loser_hand"
+    ],
+    "matches_loser_ht": [
+      "matches",
+      "loser_ht"
+    ],
+    "matches_loser_id": [
+      "matches",
+      "loser_id"
+    ],
+    "matches_loser_ioc": [
+      "matches",
+      "loser_ioc"
+    ],
+    "matches_loser_name": [
+      "matches",
+      "loser_name"
+    ],
+    "matches_loser_rank": [
+      "matches",
+      "loser_rank"
+    ],
+    "matches_loser_rank_points": [
+      "matches",
+      "loser_rank_points"
+    ],
+    "matches_loser_seed": [
+      "matches",
+      "loser_seed"
+    ],
+    "matches_match_num": [
+      "matches",
+      "match_num"
+    ],
+    "matches_minutes": [
+      "matches",
+      "minutes"
+    ],
+    "matches_round": [
+      "matches",
+      "round"
+    ],
+    "matches_score": [
+      "matches",
+      "score"
+    ],
+    "matches_surface": [
+      "matches",
+      "surface"
+    ],
+    "matches_tourney_date": [
+      "matches",
+      "tourney_date"
+    ],
+    "matches_tourney_id": [
+      "matches",
+      "tourney_id"
+    ],
+    "matches_tourney_level": [
+      "matches",
+      "tourney_level"
+    ],
+    "matches_tourney_name": [
+      "matches",
+      "tourney_name"
+    ],
+    "matches_winner_age": [
+      "matches",
+      "winner_age"
+    ],
+    "matches_winner_entry": [
+      "matches",
+      "winner_entry"
+    ],
+    "matches_winner_hand": [
+      "matches",
+      "winner_hand"
+    ],
+    "matches_winner_ht": [
+      "matches",
+      "winner_ht"
+    ],
+    "matches_winner_id": [
+      "matches",
+      "winner_id"
+    ],
+    "matches_winner_ioc": [
+      "matches",
+      "winner_ioc"
+    ],
+    "matches_winner_name": [
+      "matches",
+      "winner_name"
+    ],
+    "matches_winner_rank": [
+      "matches",
+      "winner_rank"
+    ],
+    "matches_winner_rank_points": [
+      "matches",
+      "winner_rank_points"
+    ],
+    "matches_winner_seed": [
+      "matches",
+      "winner_seed"
+    ],
+    "matches_year": [
+      "matches",
+      "year"
+    ],
+    "rankings_ranking_date": [
+      "rankings",
+      "ranking_date"
+    ],
+    "rankings_ranking": [
+      "rankings",
+      "ranking"
+    ],
+    "rankings_player_id": [
+      "rankings",
+      "player_id"
+    ],
+    "rankings_ranking_points": [
+      "rankings",
+      "ranking_points"
+    ],
+    "rankings_tours": [
+      "rankings",
+      "tours"
+    ]
+  },
+  "object_property_fk": {
+    "matches_players_fk0": [
+      "matches.winner_id",
+      "players.player_id"
+    ],
+    "matches_players_fk1": [
+      "matches.loser_id",
+      "players.player_id"
+    ],
+    "rankings_players_fk2": [
+      "rankings.player_id",
+      "players.player_id"
+    ]
+  }
+}

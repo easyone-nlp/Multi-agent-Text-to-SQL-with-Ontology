@@ -1,0 +1,521 @@
+{
+  "db_id": "culture_company",
+  "classes": [
+    {
+      "name": "book_club",
+      "source_table": "book_club",
+      "ranking": 3.0,
+      "primary_label": "book club",
+      "synonyms": [
+        "책 클럽",
+        "책 그룹",
+        "책 모임",
+        "책 팀",
+        "책 집"
+      ]
+    },
+    {
+      "name": "movie",
+      "source_table": "movie",
+      "ranking": 3.5,
+      "primary_label": "영화",
+      "synonyms": [
+        "영화",
+        "영화 작품",
+        "영화 제목",
+        "영화 정보",
+        "영화 데이터"
+      ]
+    },
+    {
+      "name": "culture_company",
+      "source_table": "culture_company",
+      "ranking": 3.5,
+      "primary_label": "문화 기업",
+      "synonyms": [
+        "문화 기업",
+        "문화 회사",
+        "문화 조직",
+        "문화 업체",
+        "문화 기관"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "book_club_book_club_id",
+      "domain": "book_club",
+      "source_table": "book_club",
+      "source_column": "book_club_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "book club id",
+      "synonyms": [
+        "book_club_id",
+        "도서클럽ID",
+        "도서클럽 고유번호",
+        "도서클럽 식별자",
+        "도서클럽 번호",
+        "도서클럽 고유ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "book_club_Year",
+      "domain": "book_club",
+      "source_table": "book_club",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "year",
+      "synonyms": [
+        "Year",
+        "연도",
+        "년도",
+        "도서클럽 연도",
+        "활동 연도",
+        "도서클럽 활동년도"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2020": [
+          "2020"
+        ],
+        "2021": [
+          "2021"
+        ]
+      }
+    },
+    {
+      "name": "book_club_Author_or_Editor",
+      "domain": "book_club",
+      "source_table": "book_club",
+      "source_column": "Author_or_Editor",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "author or editor",
+      "synonyms": [
+        "Author_or_Editor",
+        "저자 또는 편집자",
+        "저자 및 편집자",
+        "도서 클럽 저자",
+        "도서 클럽 편집자",
+        "작가 또는 편집자",
+        "도서 저자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "book_club_Book_Title",
+      "domain": "book_club",
+      "source_table": "book_club",
+      "source_column": "Book_Title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "book title",
+      "synonyms": [
+        "책제목",
+        "도서제목",
+        "책 이름",
+        "책제",
+        "책제목 정보",
+        "도서제목 정보",
+        "책의 제목",
+        "책제목 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "book_club_Publisher",
+      "domain": "book_club",
+      "source_table": "book_club",
+      "source_column": "Publisher",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.8,
+      "primary_label": "publisher",
+      "synonyms": [
+        "출판사",
+        "출판자",
+        "출판 정보",
+        "출판사 이름",
+        "도서 출판사",
+        "출판자 정보",
+        "출판자명",
+        "도서 출판"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "book_club_Category",
+      "domain": "book_club",
+      "source_table": "book_club",
+      "source_column": "Category",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "category",
+      "synonyms": [
+        "분류",
+        "카테고리",
+        "도서 분류",
+        "분류 정보",
+        "카테고리 이름",
+        "도서 카테고리",
+        "분류 코드",
+        "도서 분류 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "fiction": [
+          "fiction"
+        ],
+        "non-fiction": [
+          "non-fiction"
+        ]
+      }
+    },
+    {
+      "name": "book_club_Result",
+      "domain": "book_club",
+      "source_table": "book_club",
+      "source_column": "Result",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.2,
+      "primary_label": "result",
+      "synonyms": [
+        "결과",
+        "도서 클럽 결과",
+        "활동 결과",
+        "책 클럽 결과",
+        "결과 정보",
+        "도서 클럽 성과",
+        "활동 성과",
+        "결과 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "movie_movie_id",
+      "domain": "movie",
+      "source_table": "movie",
+      "source_column": "movie_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "영화 ID",
+      "synonyms": [
+        "영화 ID",
+        "영화 고유 번호",
+        "영화 식별자",
+        "영화 코드",
+        "영화 번호",
+        "movie_id",
+        "영화 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "movie_Title",
+      "domain": "movie",
+      "source_table": "movie",
+      "source_column": "Title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "제목",
+      "synonyms": [
+        "제목",
+        "영화 제목",
+        "영화 이름",
+        "영화 타이틀",
+        "영화 명",
+        "Title",
+        "영화 제목 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "movie_Year",
+      "domain": "movie",
+      "source_table": "movie",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "년도",
+      "synonyms": [
+        "년도",
+        "개봉 연도",
+        "영화 연도",
+        "영화 발매 연도",
+        "영화 해",
+        "Year",
+        "영화 연도 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "movie_Director",
+      "domain": "movie",
+      "source_table": "movie",
+      "source_column": "Director",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "감독",
+      "synonyms": [
+        "감독",
+        "감독명",
+        "감독자",
+        "영화 감독",
+        "감독 이름",
+        "director",
+        "directors",
+        "감독자 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "movie_Budget_million",
+      "domain": "movie",
+      "source_table": "movie",
+      "source_column": "Budget_million",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "예산(백만달러)",
+      "synonyms": [
+        "예산",
+        "백만 달러 예산",
+        "영화 예산",
+        "예산 금액",
+        "예산 수치",
+        "budget",
+        "예산 금액 백만 달러",
+        "백만 달러"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "movie_Gross_worldwide",
+      "domain": "movie",
+      "source_table": "movie",
+      "source_column": "Gross_worldwide",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "글로벌 수익",
+      "synonyms": [
+        "전 세계 매출",
+        "전 세계 수익",
+        "전 세계 총 매출",
+        "전 세계 수익 금액",
+        "gross",
+        "전 세계 총 수익",
+        "전 세계 매출 금액",
+        "worldwide gross"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "culture_company_Company_name",
+      "domain": "culture_company",
+      "source_table": "culture_company",
+      "source_column": "Company_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "회사 이름",
+      "synonyms": [
+        "회사 이름",
+        "기업 이름",
+        "문화 기업 이름",
+        "회사명",
+        "명칭",
+        "문화 기업"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "culture_company_Type",
+      "domain": "culture_company",
+      "source_table": "culture_company",
+      "source_column": "Type",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.2,
+      "primary_label": "유형",
+      "synonyms": [
+        "유형",
+        "회사 종류",
+        "형태",
+        "회사 타입",
+        "종류",
+        "회사 유형"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "문화 기업": [
+          "문화 기업"
+        ],
+        "영화 제작사": [
+          "영화 제작사"
+        ],
+        "서적 출판사": [
+          "서적 출판사"
+        ]
+      }
+    },
+    {
+      "name": "culture_company_Incorporated_in",
+      "domain": "culture_company",
+      "source_table": "culture_company",
+      "source_column": "Incorporated_in",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.1,
+      "primary_label": "설립 국가",
+      "synonyms": [
+        "설립 국가",
+        "설립지",
+        "국가",
+        "지역",
+        "설립 국가 또는 지역",
+        "설립지역",
+        "설립 국가/지역"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "culture_company_Group_Equity_Shareholding",
+      "domain": "culture_company",
+      "source_table": "culture_company",
+      "source_column": "Group_Equity_Shareholding",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "그룹 주식 보유율",
+      "synonyms": [
+        "그룹 투자 비율",
+        "주주 비율",
+        "투자 비율",
+        "그룹 소유 비율",
+        "주식 소유 비율",
+        "그룹 공유 비율",
+        "주주 비중",
+        "주식 비율"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "culture_company_book_club_id",
+      "domain": "culture_company",
+      "source_table": "culture_company",
+      "source_column": "book_club_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "서적 클럽 ID",
+      "synonyms": [
+        "책 클럽 ID",
+        "book_club_id",
+        "책 클럽 식별자",
+        "책 클럽 코드",
+        "책 클럽 인덱스",
+        "책 클럽 식별 번호",
+        "책 클럽 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "culture_company_movie_id",
+      "domain": "culture_company",
+      "source_table": "culture_company",
+      "source_column": "movie_id",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "영화 ID",
+      "synonyms": [
+        "영화 ID",
+        "movie_id",
+        "영화 식별자",
+        "영화 코드",
+        "영화 인덱스",
+        "영화 식별 번호",
+        "영화 고유 ID",
+        "영화 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "culture_company_movie_fk0",
+      "domain": "culture_company",
+      "range": "movie",
+      "source_fk": [
+        "culture_company.movie_id",
+        "movie.movie_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "제작 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "culture_company_book_club_fk1",
+      "domain": "culture_company",
+      "range": "book_club",
+      "source_fk": [
+        "culture_company.book_club_id",
+        "book_club.book_club_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "클럽 소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

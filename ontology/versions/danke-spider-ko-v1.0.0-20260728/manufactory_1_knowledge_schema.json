@@ -1,0 +1,237 @@
+{
+  "db_id": "manufactory_1",
+  "classes": [
+    {
+      "name": "Manufacturers",
+      "source_table": "Manufacturers",
+      "ranking": 3.0,
+      "primary_label": "제조업체",
+      "synonyms": [
+        "제조사",
+        "제조업체",
+        "공장",
+        "생산자",
+        "제조업자"
+      ]
+    },
+    {
+      "name": "Products",
+      "source_table": "Products",
+      "ranking": 3.0,
+      "primary_label": "products",
+      "synonyms": [
+        "제품",
+        "상품",
+        "품목",
+        "물품",
+        "제조품",
+        "제품목록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Manufacturers_Code",
+      "domain": "Manufacturers",
+      "source_table": "Manufacturers",
+      "source_column": "Code",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "code",
+      "synonyms": [
+        "코드",
+        "코드번호",
+        "제조사코드",
+        "ID",
+        "코드값",
+        "제조사아이디",
+        "코드정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Manufacturers_Name",
+      "domain": "Manufacturers",
+      "source_table": "Manufacturers",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "제조사명",
+        "회사명",
+        "제조업체명",
+        "이름정보",
+        "제조사이름",
+        "회사이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Manufacturers_Headquarter",
+      "domain": "Manufacturers",
+      "source_table": "Manufacturers",
+      "source_column": "Headquarter",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "headquarter",
+      "synonyms": [
+        "본사",
+        "본사지",
+        "본사 위치",
+        "본사소재지",
+        "본사지역"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Manufacturers_Founder",
+      "domain": "Manufacturers",
+      "source_table": "Manufacturers",
+      "source_column": "Founder",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "founder",
+      "synonyms": [
+        "설립자",
+        "창립자",
+        "창업자",
+        "основатель",
+        "founder",
+        "설립자 정보",
+        "창립자 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Manufacturers_Revenue",
+      "domain": "Manufacturers",
+      "source_table": "Manufacturers",
+      "source_column": "Revenue",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "revenue",
+      "synonyms": [
+        "매출",
+        "매출액",
+        "수익",
+        "재venue",
+        "수익액",
+        "연간 매출",
+        "매출 금액"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_Code",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "Code",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "code",
+      "synonyms": [
+        "코드",
+        "제품 코드",
+        "제품 번호",
+        "식별 번호",
+        "제품 ID",
+        "코드 값",
+        "제품 코드 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_Name",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "이름",
+        "제품 이름",
+        "제품명",
+        "제품 타이틀",
+        "제품명칭",
+        "제품 이름 정보",
+        "제품명 입력"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_Price",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "Price",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "price",
+      "synonyms": [
+        "가격",
+        "제품 가격",
+        "가격 정보",
+        "제품 비용",
+        "제품 가격 값",
+        "제품 가격 수치",
+        "가격 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Products_Manufacturer",
+      "domain": "Products",
+      "source_table": "Products",
+      "source_column": "Manufacturer",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "manufacturer",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Products_Manufacturers_fk0",
+      "domain": "Products",
+      "range": "Manufacturers",
+      "source_fk": [
+        "Products.Manufacturer",
+        "Manufacturers.Code"
+      ],
+      "weight": 1.0,
+      "primary_label": "제조사 소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

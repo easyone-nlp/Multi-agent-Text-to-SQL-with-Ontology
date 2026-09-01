@@ -1,0 +1,392 @@
+{
+  "db_id": "train_station",
+  "classes": [
+    {
+      "name": "station",
+      "source_table": "station",
+      "ranking": 3.5,
+      "primary_label": "역",
+      "synonyms": [
+        "역",
+        "승강장",
+        "역 정보",
+        "철도역",
+        "역 데이터"
+      ]
+    },
+    {
+      "name": "train",
+      "source_table": "train",
+      "ranking": 3.0,
+      "primary_label": "열차",
+      "synonyms": [
+        "열차",
+        "철도차량",
+        "열차 정보",
+        "열차 데이터",
+        "철도열차"
+      ]
+    },
+    {
+      "name": "train_station",
+      "source_table": "train_station",
+      "ranking": 3.0,
+      "primary_label": "기차역",
+      "synonyms": [
+        "열차 승강장",
+        "열차-역 연동",
+        "열차와 승강장",
+        "열차 승강장 정보",
+        "열차-역 관계"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "station_Station_ID",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "Station_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "역 ID",
+      "synonyms": [
+        "역 ID",
+        "역번호",
+        "역 식별자",
+        "스테이션 ID",
+        "스테이션 번호",
+        "역 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_Name",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "역명",
+        "스테이션 이름",
+        "역 이름",
+        "스테이션명",
+        "역의 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_Annual_entry_exit",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "Annual_entry_exit",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "연간 입출입 인원",
+      "synonyms": [
+        "연간 입출입 인원",
+        "연간 입출입 수",
+        "연간 이동 인원",
+        "연간 입출입",
+        "연간 이동 수",
+        "연간 인원 수",
+        "연간 입출입 인원 수",
+        "연간 이동 인원 수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_Annual_interchanges",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "Annual_interchanges",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "연간 교환 인원",
+      "synonyms": [
+        "연간 교환 수치",
+        "연간 교통량 교환",
+        "연간 교환 통계",
+        "연간 교환 횟수",
+        "교환 수치",
+        "연간 교환 데이터",
+        "연간 교환 기준",
+        "연간 교환 통계치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_Total_Passengers",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "Total_Passengers",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.2,
+      "primary_label": "총 승하차 인원",
+      "synonyms": [
+        "연간 총 탑승 인원",
+        "총 탑승 인원",
+        "연간 인원 수",
+        "총 탑승 수치",
+        "연간 탑승 통계",
+        "총 탑승 기준",
+        "연간 인원 통계"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_Location",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "Location",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "위치",
+      "synonyms": [
+        "위치",
+        "위치 정보",
+        "위치 데이터",
+        "지하철역 위치",
+        "지하철역 위치 정보",
+        "위치 지정",
+        "위치 기준"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_Main_Services",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "Main_Services",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.7,
+      "primary_label": "주요 서비스",
+      "synonyms": [
+        "주요 서비스",
+        "서비스 유형",
+        "주요 기능",
+        "서비스 내용",
+        "주요 제공 서비스",
+        "서비스 종류",
+        "주요 서비스 정보",
+        "서비스 타입"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "station_Number_of_Platforms",
+      "domain": "station",
+      "source_table": "station",
+      "source_column": "Number_of_Platforms",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "플랫폼 수",
+      "synonyms": [
+        "플랫폼 수",
+        "플랫폼 개수",
+        "플랫폼 수량",
+        "역 플랫폼 수",
+        "플랫폼 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "train_Train_ID",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "Train_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "열차 ID",
+      "synonyms": [
+        "열차 ID",
+        "열차 번호",
+        "트레인 ID",
+        "트레인 번호",
+        "열차 식별자",
+        "트레인 식별자",
+        "열차 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "train_Name",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "타이틀",
+        "열차 이름",
+        "열차 타이틀",
+        "트레인 이름",
+        "트레인 타이틀",
+        "열차 명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "KTX": [
+          "KTX",
+          "경전철"
+        ],
+        "SRT": [
+          "SRT",
+          "서울-부산"
+        ]
+      }
+    },
+    {
+      "name": "train_Time",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "Time",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.5,
+      "primary_label": "시간",
+      "synonyms": [
+        "시간",
+        "운행 시간",
+        "출발 시간",
+        "트레인 시간",
+        "트레인 운행 시간",
+        "트레인 출발 시간",
+        "시간 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "08:00": [
+          "08시",
+          "오전8시"
+        ],
+        "18:30": [
+          "18시30분",
+          "오후6시30분"
+        ]
+      }
+    },
+    {
+      "name": "train_Service",
+      "domain": "train",
+      "source_table": "train",
+      "source_column": "Service",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "서비스",
+      "synonyms": [
+        "서비스",
+        "운행 서비스",
+        "열차 서비스",
+        "서비스 유형",
+        "운행 서비스 유형",
+        "서비스 정보",
+        "운행 서비스 내용",
+        "서비스 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "일반": [
+          "일반 서비스"
+        ],
+        "특급": [
+          "특급 서비스",
+          "고속"
+        ]
+      }
+    },
+    {
+      "name": "train_station_Train_ID",
+      "domain": "train_station",
+      "source_table": "train_station",
+      "source_column": "Train_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "기차 id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "train_station_Station_ID",
+      "domain": "train_station",
+      "source_table": "train_station",
+      "source_column": "Station_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "역 id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "train_station_station_fk0",
+      "domain": "train_station",
+      "range": "station",
+      "source_fk": [
+        "train_station.Station_ID",
+        "station.Station_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "train_station_train_fk1",
+      "domain": "train_station",
+      "range": "train",
+      "source_fk": [
+        "train_station.Train_ID",
+        "train.Train_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

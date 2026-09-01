@@ -1,0 +1,455 @@
+{
+  "db_id": "mountain_photos",
+  "classes": [
+    {
+      "name": "mountain",
+      "source_table": "mountain",
+      "ranking": 3.5,
+      "primary_label": "산",
+      "synonyms": [
+        "산",
+        "산 정보",
+        "산 데이터",
+        "산 관련 정보",
+        "산 기록",
+        "산 정보 저장",
+        "산 데이터베이스",
+        "산 기반 데이터"
+      ]
+    },
+    {
+      "name": "camera_lens",
+      "source_table": "camera_lens",
+      "ranking": 3.0,
+      "primary_label": "camera lens",
+      "synonyms": [
+        "카메라 렌즈",
+        "카메라 렌즈 정보",
+        "카메라 렌즈 데이터",
+        "카메라 렌즈 스펙",
+        "카메라 렌즈 설정",
+        "카메라 렌즈 사양",
+        "카메라 렌즈 파라미터"
+      ]
+    },
+    {
+      "name": "photos",
+      "source_table": "photos",
+      "ranking": 3.0,
+      "primary_label": "사진",
+      "synonyms": [
+        "사진",
+        "사진 데이터",
+        "사진 정보",
+        "사진 파일",
+        "사진 콘텐츠",
+        "사진 기록",
+        "사진 자료"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "mountain_id",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "ID",
+      "synonyms": [
+        "아이디",
+        "산 번호",
+        "식별 번호",
+        "ID",
+        "산 코드",
+        "산 고유 번호",
+        "식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mountain_name",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "이름",
+      "synonyms": [
+        "산 이름",
+        "이름",
+        "산명",
+        "산의 이름",
+        "산명칭",
+        "산 이름 정보",
+        "산 이름 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "백두산": [
+          "백두산"
+        ],
+        "용산": [
+          "용산"
+        ]
+      }
+    },
+    {
+      "name": "mountain_Height",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "Height",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "height",
+      "synonyms": [
+        "높이",
+        "산 높이",
+        "높이 정보",
+        "height",
+        "높이 데이터",
+        "산의 높이",
+        "높이 수치",
+        "산 높이 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mountain_Prominence",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "Prominence",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "prominence",
+      "synonyms": [
+        "지표",
+        "높이",
+        "산의 높이",
+        "높이 수치",
+        "지표값",
+        "높이 정보",
+        "산의 지표",
+        "높이 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mountain_Range",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "Range",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "range",
+      "synonyms": [
+        "산맥",
+        "지역",
+        "산맥 이름",
+        "산 지역",
+        "산맥 정보",
+        "산 지역 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "mountain_Country",
+      "domain": "mountain",
+      "source_table": "mountain",
+      "source_column": "Country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "country",
+      "synonyms": [
+        "국가",
+        "나라",
+        "국가 이름",
+        "산 위치 국가",
+        "산의 국가",
+        "국가 정보",
+        "산 위치 국가 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "camera_lens_id",
+      "domain": "camera_lens",
+      "source_table": "camera_lens",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "아이디",
+      "synonyms": [
+        "id",
+        "렌즈 번호",
+        "렌즈 고유번호",
+        "렌즈 아이디",
+        "렌즈 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "camera_lens_brand",
+      "domain": "camera_lens",
+      "source_table": "camera_lens",
+      "source_column": "brand",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "브랜드",
+      "synonyms": [
+        "brand",
+        "제조사",
+        "브랜드",
+        "제조사명",
+        "사양",
+        "제조사 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "Canon": [
+          "카논"
+        ],
+        "Nikon": [
+          "니콘"
+        ]
+      }
+    },
+    {
+      "name": "camera_lens_name",
+      "domain": "camera_lens",
+      "source_table": "camera_lens",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "name",
+        "제품명",
+        "모델명",
+        "렌즈 이름",
+        "렌즈 모델",
+        "제품 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "50mm f/1.8": [
+          "50mm f/1.8"
+        ]
+      }
+    },
+    {
+      "name": "camera_lens_focal_length_mm",
+      "domain": "camera_lens",
+      "source_table": "camera_lens",
+      "source_column": "focal_length_mm",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "초점 거리 mm",
+      "synonyms": [
+        "focal length mm",
+        "초점 거리",
+        "focal length",
+        "렌즈 초점 거리",
+        "focal length mm 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "camera_lens_max_aperture",
+      "domain": "camera_lens",
+      "source_table": "camera_lens",
+      "source_column": "max_aperture",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최대 조리개",
+      "synonyms": [
+        "max aperture",
+        "개구수",
+        "최대 개구수",
+        "aperture",
+        "max aperture 값",
+        "aperture 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "photos_id",
+      "domain": "photos",
+      "source_table": "photos",
+      "source_column": "id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.1,
+      "primary_label": "아이디",
+      "synonyms": [
+        "아이디",
+        "사진 ID",
+        "사진 고유 번호",
+        "사진 번호",
+        "ID",
+        "사진 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "photos_camera_lens_id",
+      "domain": "photos",
+      "source_table": "photos",
+      "source_column": "camera_lens_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "카메라 렌즈 id",
+      "synonyms": [
+        "카메라 렌즈 ID",
+        "렌즈 ID",
+        "카메라 렌즈 번호",
+        "렌즈 식별자",
+        "카메라 렌즈 아이디",
+        "카메라 렌즈 고유 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "photos_mountain_id",
+      "domain": "photos",
+      "source_table": "photos",
+      "source_column": "mountain_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "산 id",
+      "synonyms": [
+        "산 ID",
+        "산 번호",
+        "산 식별자",
+        "산 고유 번호",
+        "산 아이디",
+        "산 식별 번호",
+        "산 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "photos_color",
+      "domain": "photos",
+      "source_table": "photos",
+      "source_column": "color",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "색상",
+      "synonyms": [
+        "색상",
+        "색",
+        "색상 정보",
+        "색상 데이터",
+        "색상 속성",
+        "색상 특성",
+        "색상 값",
+        "색상 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "빨간색": [
+          "빨간"
+        ],
+        "파란색": [
+          "파란"
+        ],
+        "노란색": [
+          "노란"
+        ]
+      }
+    },
+    {
+      "name": "photos_name",
+      "domain": "photos",
+      "source_table": "photos",
+      "source_column": "name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "제목",
+        "사진 이름",
+        "제목 정보",
+        "사진 제목",
+        "이름 데이터",
+        "사진 이름 정보",
+        "제목 속성"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "photos_mountain_fk0",
+      "domain": "photos",
+      "range": "mountain",
+      "source_fk": [
+        "photos.mountain_id",
+        "mountain.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "산과의 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "photos_camera_lens_fk1",
+      "domain": "photos",
+      "range": "camera_lens",
+      "source_fk": [
+        "photos.camera_lens_id",
+        "camera_lens.id"
+      ],
+      "weight": 1.0,
+      "primary_label": "렌즈와의 연결",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

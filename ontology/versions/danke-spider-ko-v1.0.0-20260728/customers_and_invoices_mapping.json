@@ -1,0 +1,285 @@
+{
+  "class_table": {
+    "Customers": "Customers",
+    "Orders": "Orders",
+    "Invoices": "Invoices",
+    "Accounts": "Accounts",
+    "Product_Categories": "Product_Categories",
+    "Products": "Products",
+    "Financial_Transactions": "Financial_Transactions",
+    "Order_Items": "Order_Items",
+    "Invoice_Line_Items": "Invoice_Line_Items"
+  },
+  "property_column": {
+    "Customers_customer_id": [
+      "Customers",
+      "customer_id"
+    ],
+    "Customers_customer_first_name": [
+      "Customers",
+      "customer_first_name"
+    ],
+    "Customers_customer_middle_initial": [
+      "Customers",
+      "customer_middle_initial"
+    ],
+    "Customers_customer_last_name": [
+      "Customers",
+      "customer_last_name"
+    ],
+    "Customers_gender": [
+      "Customers",
+      "gender"
+    ],
+    "Customers_email_address": [
+      "Customers",
+      "email_address"
+    ],
+    "Customers_login_name": [
+      "Customers",
+      "login_name"
+    ],
+    "Customers_login_password": [
+      "Customers",
+      "login_password"
+    ],
+    "Customers_phone_number": [
+      "Customers",
+      "phone_number"
+    ],
+    "Customers_town_city": [
+      "Customers",
+      "town_city"
+    ],
+    "Customers_state_county_province": [
+      "Customers",
+      "state_county_province"
+    ],
+    "Customers_country": [
+      "Customers",
+      "country"
+    ],
+    "Orders_order_id": [
+      "Orders",
+      "order_id"
+    ],
+    "Orders_customer_id": [
+      "Orders",
+      "customer_id"
+    ],
+    "Orders_date_order_placed": [
+      "Orders",
+      "date_order_placed"
+    ],
+    "Orders_order_details": [
+      "Orders",
+      "order_details"
+    ],
+    "Invoices_invoice_number": [
+      "Invoices",
+      "invoice_number"
+    ],
+    "Invoices_order_id": [
+      "Invoices",
+      "order_id"
+    ],
+    "Invoices_invoice_date": [
+      "Invoices",
+      "invoice_date"
+    ],
+    "Accounts_account_id": [
+      "Accounts",
+      "account_id"
+    ],
+    "Accounts_customer_id": [
+      "Accounts",
+      "customer_id"
+    ],
+    "Accounts_date_account_opened": [
+      "Accounts",
+      "date_account_opened"
+    ],
+    "Accounts_account_name": [
+      "Accounts",
+      "account_name"
+    ],
+    "Accounts_other_account_details": [
+      "Accounts",
+      "other_account_details"
+    ],
+    "Product_Categories_production_type_code": [
+      "Product_Categories",
+      "production_type_code"
+    ],
+    "Product_Categories_product_type_description": [
+      "Product_Categories",
+      "product_type_description"
+    ],
+    "Product_Categories_vat_rating": [
+      "Product_Categories",
+      "vat_rating"
+    ],
+    "Products_product_id": [
+      "Products",
+      "product_id"
+    ],
+    "Products_parent_product_id": [
+      "Products",
+      "parent_product_id"
+    ],
+    "Products_production_type_code": [
+      "Products",
+      "production_type_code"
+    ],
+    "Products_unit_price": [
+      "Products",
+      "unit_price"
+    ],
+    "Products_product_name": [
+      "Products",
+      "product_name"
+    ],
+    "Products_product_color": [
+      "Products",
+      "product_color"
+    ],
+    "Products_product_size": [
+      "Products",
+      "product_size"
+    ],
+    "Financial_Transactions_transaction_id": [
+      "Financial_Transactions",
+      "transaction_id"
+    ],
+    "Financial_Transactions_account_id": [
+      "Financial_Transactions",
+      "account_id"
+    ],
+    "Financial_Transactions_invoice_number": [
+      "Financial_Transactions",
+      "invoice_number"
+    ],
+    "Financial_Transactions_transaction_type": [
+      "Financial_Transactions",
+      "transaction_type"
+    ],
+    "Financial_Transactions_transaction_date": [
+      "Financial_Transactions",
+      "transaction_date"
+    ],
+    "Financial_Transactions_transaction_amount": [
+      "Financial_Transactions",
+      "transaction_amount"
+    ],
+    "Financial_Transactions_transaction_comment": [
+      "Financial_Transactions",
+      "transaction_comment"
+    ],
+    "Financial_Transactions_other_transaction_details": [
+      "Financial_Transactions",
+      "other_transaction_details"
+    ],
+    "Order_Items_order_item_id": [
+      "Order_Items",
+      "order_item_id"
+    ],
+    "Order_Items_order_id": [
+      "Order_Items",
+      "order_id"
+    ],
+    "Order_Items_product_id": [
+      "Order_Items",
+      "product_id"
+    ],
+    "Order_Items_product_quantity": [
+      "Order_Items",
+      "product_quantity"
+    ],
+    "Order_Items_other_order_item_details": [
+      "Order_Items",
+      "other_order_item_details"
+    ],
+    "Invoice_Line_Items_order_item_id": [
+      "Invoice_Line_Items",
+      "order_item_id"
+    ],
+    "Invoice_Line_Items_invoice_number": [
+      "Invoice_Line_Items",
+      "invoice_number"
+    ],
+    "Invoice_Line_Items_product_id": [
+      "Invoice_Line_Items",
+      "product_id"
+    ],
+    "Invoice_Line_Items_product_title": [
+      "Invoice_Line_Items",
+      "product_title"
+    ],
+    "Invoice_Line_Items_product_quantity": [
+      "Invoice_Line_Items",
+      "product_quantity"
+    ],
+    "Invoice_Line_Items_product_price": [
+      "Invoice_Line_Items",
+      "product_price"
+    ],
+    "Invoice_Line_Items_derived_product_cost": [
+      "Invoice_Line_Items",
+      "derived_product_cost"
+    ],
+    "Invoice_Line_Items_derived_vat_payable": [
+      "Invoice_Line_Items",
+      "derived_vat_payable"
+    ],
+    "Invoice_Line_Items_derived_total_cost": [
+      "Invoice_Line_Items",
+      "derived_total_cost"
+    ]
+  },
+  "object_property_fk": {
+    "Orders_Customers_fk0": [
+      "Orders.customer_id",
+      "Customers.customer_id"
+    ],
+    "Invoices_Orders_fk1": [
+      "Invoices.order_id",
+      "Orders.order_id"
+    ],
+    "Accounts_Customers_fk2": [
+      "Accounts.customer_id",
+      "Customers.customer_id"
+    ],
+    "Products_Product_Categories_fk3": [
+      "Products.production_type_code",
+      "Product_Categories.production_type_code"
+    ],
+    "Financial_Transactions_Accounts_fk4": [
+      "Financial_Transactions.account_id",
+      "Accounts.account_id"
+    ],
+    "Financial_Transactions_Invoices_fk5": [
+      "Financial_Transactions.invoice_number",
+      "Invoices.invoice_number"
+    ],
+    "Order_Items_Orders_fk6": [
+      "Order_Items.order_id",
+      "Orders.order_id"
+    ],
+    "Order_Items_Products_fk7": [
+      "Order_Items.product_id",
+      "Products.product_id"
+    ],
+    "Invoice_Line_Items_Products_fk8": [
+      "Invoice_Line_Items.product_id",
+      "Products.product_id"
+    ],
+    "Invoice_Line_Items_Invoices_fk9": [
+      "Invoice_Line_Items.invoice_number",
+      "Invoices.invoice_number"
+    ],
+    "Invoice_Line_Items_Order_Items_fk10": [
+      "Invoice_Line_Items.order_item_id",
+      "Order_Items.order_item_id"
+    ]
+  }
+}

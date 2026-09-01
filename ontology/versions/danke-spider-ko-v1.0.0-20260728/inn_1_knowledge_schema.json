@@ -1,0 +1,406 @@
+{
+  "db_id": "inn_1",
+  "classes": [
+    {
+      "name": "Rooms",
+      "source_table": "Rooms",
+      "ranking": 3.0,
+      "primary_label": "방",
+      "synonyms": [
+        "객실",
+        "객실 정보",
+        "객실 목록",
+        "객실 데이터",
+        "객실 목표"
+      ]
+    },
+    {
+      "name": "Reservations",
+      "source_table": "Reservations",
+      "ranking": 3.5,
+      "primary_label": "예약",
+      "synonyms": [
+        "예약",
+        "예약 정보",
+        "예약 목록",
+        "예약 데이터",
+        "예약 목표"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Rooms_RoomId",
+      "domain": "Rooms",
+      "source_table": "Rooms",
+      "source_column": "RoomId",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "방 ID",
+      "synonyms": [
+        "객실 ID",
+        "객실 번호",
+        "객실 식별자",
+        "객실 코드",
+        "RoomId",
+        "객실 고유 번호",
+        "객실 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Rooms_roomName",
+      "domain": "Rooms",
+      "source_table": "Rooms",
+      "source_column": "roomName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "방 이름",
+      "synonyms": [
+        "객실 이름",
+        "객실 제목",
+        "객실 명",
+        "roomName",
+        "객실 타이틀",
+        "객실 명칭"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "스테이트 룸": [
+          "스테이트 룸"
+        ],
+        "프리미엄 룸": [
+          "프리미엄 룸"
+        ]
+      }
+    },
+    {
+      "name": "Rooms_beds",
+      "domain": "Rooms",
+      "source_table": "Rooms",
+      "source_column": "beds",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "침대 수",
+      "synonyms": [
+        "침대 수",
+        "침대 개수",
+        "침대 수량",
+        "침대 갯수",
+        "beds"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Rooms_bedType",
+      "domain": "Rooms",
+      "source_table": "Rooms",
+      "source_column": "bedType",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "침대 유형",
+      "synonyms": [
+        "침대 유형",
+        "침대 종류",
+        "침대 형태",
+        "침대 타입",
+        "침대 구분",
+        "bed type"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "싱글": [
+          "싱글"
+        ],
+        "더블": [
+          "더블"
+        ],
+        "퀸사이즈": [
+          "퀸사이즈"
+        ]
+      }
+    },
+    {
+      "name": "Rooms_maxOccupancy",
+      "domain": "Rooms",
+      "source_table": "Rooms",
+      "source_column": "maxOccupancy",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "최대 인원 수",
+      "synonyms": [
+        "최대 인원",
+        "최대 수용 인원",
+        "인원 제한",
+        "최대 인원 수",
+        "인원 수",
+        "max occupancy"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Rooms_basePrice",
+      "domain": "Rooms",
+      "source_table": "Rooms",
+      "source_column": "basePrice",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "기본 가격",
+      "synonyms": [
+        "기본 가격",
+        "기준 가격",
+        "기본 요금",
+        "기본 비용",
+        "가격",
+        "base price"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Rooms_decor",
+      "domain": "Rooms",
+      "source_table": "Rooms",
+      "source_column": "decor",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "裝장 스타일",
+      "synonyms": [
+        "장식",
+        "객실 장식",
+        "장식 스타일",
+        "장식 유형",
+        "객실 장식 유형",
+        "장식 특징",
+        "장식 방식",
+        "장식 요소"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "현대식": [
+          "현대식"
+        ],
+        "클래식": [
+          "클래식"
+        ],
+        "트렌디": [
+          "트렌디"
+        ]
+      }
+    },
+    {
+      "name": "Reservations_Code",
+      "domain": "Reservations",
+      "source_table": "Reservations",
+      "source_column": "Code",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "code",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Reservations_Room",
+      "domain": "Reservations",
+      "source_table": "Reservations",
+      "source_column": "Room",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "room",
+      "synonyms": [
+        "객실",
+        "방",
+        "객실 번호",
+        "실",
+        "호실"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Reservations_CheckIn",
+      "domain": "Reservations",
+      "source_table": "Reservations",
+      "source_column": "CheckIn",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "check in",
+      "synonyms": [
+        "체크인",
+        "입실일",
+        "체크인 날짜",
+        "입실 일자",
+        "체크인 날",
+        "체크인 일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Reservations_CheckOut",
+      "domain": "Reservations",
+      "source_table": "Reservations",
+      "source_column": "CheckOut",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "check out",
+      "synonyms": [
+        "체크아웃",
+        "체크아웃 날짜",
+        "퇴실 날짜",
+        "퇴실일",
+        "체크아웃일",
+        "CheckOut",
+        "체크아웃 날자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Reservations_Rate",
+      "domain": "Reservations",
+      "source_table": "Reservations",
+      "source_column": "Rate",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "rate",
+      "synonyms": [
+        "요금",
+        "가격",
+        "금액",
+        "체크아웃 요금",
+        "체크아웃 가격",
+        "체크아웃 금액",
+        "Rate"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Reservations_LastName",
+      "domain": "Reservations",
+      "source_table": "Reservations",
+      "source_column": "LastName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "last name",
+      "synonyms": [
+        "성",
+        "후성",
+        "체크아웃 성",
+        "체크아웃 후성",
+        "체크아웃 성명",
+        "LastName"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Reservations_FirstName",
+      "domain": "Reservations",
+      "source_table": "Reservations",
+      "source_column": "FirstName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "first name",
+      "synonyms": [
+        "first name",
+        "성명",
+        "이름",
+        "성",
+        "전성"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Reservations_Adults",
+      "domain": "Reservations",
+      "source_table": "Reservations",
+      "source_column": "Adults",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "adults",
+      "synonyms": [
+        "adults",
+        "성인",
+        "성인 인원",
+        "성인 수",
+        "성인 수량",
+        "성인 개수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Reservations_Kids",
+      "domain": "Reservations",
+      "source_table": "Reservations",
+      "source_column": "Kids",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "kids",
+      "synonyms": [
+        "kids",
+        "어린이",
+        "어린이 인원",
+        "어린이 수",
+        "어린이 수량",
+        "어린이 개수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Reservations_Rooms_fk0",
+      "domain": "Reservations",
+      "range": "Rooms",
+      "source_fk": [
+        "Reservations.Room",
+        "Rooms.RoomId"
+      ],
+      "weight": 1.0,
+      "primary_label": "예약한 방",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

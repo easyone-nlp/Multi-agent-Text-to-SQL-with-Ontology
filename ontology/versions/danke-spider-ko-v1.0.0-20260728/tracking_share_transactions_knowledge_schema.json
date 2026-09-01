@@ -1,0 +1,636 @@
+{
+  "db_id": "tracking_share_transactions",
+  "classes": [
+    {
+      "name": "Investors",
+      "source_table": "Investors",
+      "ranking": 1.0,
+      "primary_label": "investors",
+      "synonyms": [
+        "투자자",
+        "주주",
+        "투자자 정보",
+        "투자자 목록",
+        "투자자 데이터",
+        "투자자 기록",
+        "투자자 정보 테이블"
+      ]
+    },
+    {
+      "name": "Lots",
+      "source_table": "Lots",
+      "ranking": 3.0,
+      "primary_label": "lots",
+      "synonyms": [
+        "라이트",
+        "라이트 정보",
+        "주식 라이트",
+        "주식 라이트 수량",
+        "주식 거래 라이트",
+        "라이트 기록",
+        "라이트 데이터",
+        "주식 라이트 정보"
+      ]
+    },
+    {
+      "name": "Ref_Transaction_Types",
+      "source_table": "Ref_Transaction_Types",
+      "ranking": 3.0,
+      "primary_label": "참조 거래 유형",
+      "synonyms": [
+        "거래 유형 참고 데이터",
+        "거래 유형 코드",
+        "거래 유형 목록",
+        "거래 유형 분류",
+        "거래 유형 참고 정보",
+        "거래 유형 메스터 데이터"
+      ]
+    },
+    {
+      "name": "Transactions",
+      "source_table": "Transactions",
+      "ranking": 3.5,
+      "primary_label": "거래 내역",
+      "synonyms": [
+        "주식 거래 기록",
+        "거래 내역",
+        "주식 거래 내역",
+        "거래 기록"
+      ]
+    },
+    {
+      "name": "Sales",
+      "source_table": "Sales",
+      "ranking": 3.0,
+      "primary_label": "판매",
+      "synonyms": [
+        "판매 기록",
+        "판매 내역",
+        "판매 데이터",
+        "판매 정보"
+      ]
+    },
+    {
+      "name": "Purchases",
+      "source_table": "Purchases",
+      "ranking": 3.0,
+      "primary_label": "구매 내역",
+      "synonyms": [
+        "구매 기록",
+        "구매 내역",
+        "구매 데이터",
+        "구매 정보"
+      ]
+    },
+    {
+      "name": "Transactions_Lots",
+      "source_table": "Transactions_Lots",
+      "ranking": 1.0,
+      "primary_label": "거래 빌릿",
+      "synonyms": [
+        "거래 빈도",
+        "수량 기록",
+        "거래 빈도 기록",
+        "주식 거래 빈도",
+        "거래 수량 기록",
+        "주식 거래 수량",
+        "거래 빈도 데이터",
+        "주식 거래 빈도 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "Investors_investor_id",
+      "domain": "Investors",
+      "source_table": "Investors",
+      "source_column": "investor_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "investor id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Investors_Investor_details",
+      "domain": "Investors",
+      "source_table": "Investors",
+      "source_column": "Investor_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "investor details",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "주주 정보": [
+          "주주 정보"
+        ]
+      }
+    },
+    {
+      "name": "Lots_lot_id",
+      "domain": "Lots",
+      "source_table": "Lots",
+      "source_column": "lot_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "lot id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Lots_investor_id",
+      "domain": "Lots",
+      "source_table": "Lots",
+      "source_column": "investor_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "investor id",
+      "synonyms": [],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Lots_lot_details",
+      "domain": "Lots",
+      "source_table": "Lots",
+      "source_column": "lot_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "lot details",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Ref_Transaction_Types_transaction_type_code",
+      "domain": "Ref_Transaction_Types",
+      "source_table": "Ref_Transaction_Types",
+      "source_column": "transaction_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "거래 유형 코드",
+      "synonyms": [
+        "거래 유형 코드",
+        "트랜잭션 코드",
+        "코드",
+        "트랜잭션 유형 코드",
+        "유형 코드",
+        "코드 값",
+        "코드 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "입금": [
+          "입금"
+        ],
+        "출금": [
+          "출금"
+        ],
+        "이체": [
+          "이체"
+        ]
+      }
+    },
+    {
+      "name": "Ref_Transaction_Types_transaction_type_description",
+      "domain": "Ref_Transaction_Types",
+      "source_table": "Ref_Transaction_Types",
+      "source_column": "transaction_type_description",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "거래 유형 설명",
+      "synonyms": [
+        "거래 유형 설명",
+        "트랜잭션 설명",
+        "유형 설명",
+        "설명",
+        "거래 유형 설명 정보",
+        "트랜잭션 유형 설명",
+        "유형 설명 정보",
+        "설명 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Transactions_transaction_id",
+      "domain": "Transactions",
+      "source_table": "Transactions",
+      "source_column": "transaction_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "거래 ID",
+      "synonyms": [
+        "트랜잭션 ID",
+        "트랜잭션 식별자",
+        "트랜잭션 번호",
+        "트랜잭션 고유 번호",
+        "transaction_id",
+        "트랜잭션 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Transactions_investor_id",
+      "domain": "Transactions",
+      "source_table": "Transactions",
+      "source_column": "investor_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.5,
+      "primary_label": "투자자 ID",
+      "synonyms": [
+        "투자자 ID",
+        "투자자 식별자",
+        "투자자 고유 번호",
+        "투자자 번호",
+        "투자자 고유 ID",
+        "investor_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Transactions_transaction_type_code",
+      "domain": "Transactions",
+      "source_table": "Transactions",
+      "source_column": "transaction_type_code",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "거래 유형 코드",
+      "synonyms": [
+        "트랜잭션 유형 코드",
+        "트랜잭션 종류 코드",
+        "트랜잭션 코드",
+        "트랜잭션 유형",
+        "transaction_type_code"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "BUY": [
+          "구매",
+          "매수"
+        ],
+        "SELL": [
+          "판매",
+          "매도"
+        ]
+      }
+    },
+    {
+      "name": "Transactions_date_of_transaction",
+      "domain": "Transactions",
+      "source_table": "Transactions",
+      "source_column": "date_of_transaction",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.5,
+      "primary_label": "거래 일시",
+      "synonyms": [
+        "거래일시",
+        "날짜",
+        "거래 날짜",
+        "날짜_of_transaction",
+        "date_of_transaction",
+        "거래일",
+        "날짜_정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Transactions_amount_of_transaction",
+      "domain": "Transactions",
+      "source_table": "Transactions",
+      "source_column": "amount_of_transaction",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "거래 금액",
+      "synonyms": [
+        "거래 금액",
+        "금액",
+        "거래 금액_정보",
+        "amount_of_transaction",
+        "거래 금액_수량",
+        "금액_of_transaction"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Transactions_share_count",
+      "domain": "Transactions",
+      "source_table": "Transactions",
+      "source_column": "share_count",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "주식 수량",
+      "synonyms": [
+        "주식 수",
+        "주식 수량",
+        "share_count",
+        "주식 수_정보",
+        "주식 수량_정보",
+        "주식 수_수량"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "100": [
+          "백"
+        ]
+      }
+    },
+    {
+      "name": "Transactions_other_details",
+      "domain": "Transactions",
+      "source_table": "Transactions",
+      "source_column": "other_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 0.8,
+      "primary_label": "기타 세부 사항",
+      "synonyms": [
+        "기타 정보",
+        "추가 설명",
+        "기타 세부 사항",
+        "기타 설명",
+        "기타 자세한 내용",
+        "기타 설명 사항",
+        "기타 정보 내용"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Sales_sales_transaction_id",
+      "domain": "Sales",
+      "source_table": "Sales",
+      "source_column": "sales_transaction_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "판매 거래 ID",
+      "synonyms": [
+        "sales_transaction_id",
+        "판매 거래 ID",
+        "판매 번호",
+        "거래 식별자",
+        "거래 ID",
+        "판매 일련번호",
+        "트랜잭션 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Sales_sales_details",
+      "domain": "Sales",
+      "source_table": "Sales",
+      "source_column": "sales_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "판매 세부 사항",
+      "synonyms": [
+        "sales_details",
+        "판매 세부 사항",
+        "판매 내용",
+        "세부 정보",
+        "거래 내용",
+        "판매 설명",
+        "상세 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "제품 구매": [
+          "제품 구매",
+          "상품 구매"
+        ],
+        "서비스 구매": [
+          "서비스 구매",
+          "가격 혜택"
+        ]
+      }
+    },
+    {
+      "name": "Purchases_purchase_transaction_id",
+      "domain": "Purchases",
+      "source_table": "Purchases",
+      "source_column": "purchase_transaction_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "구매 거래 ID",
+      "synonyms": [
+        "구매 거래 ID",
+        "구매 번호",
+        "구매 트랜잭션 ID",
+        "트랜잭션 ID",
+        "구매 식별자",
+        "트랜잭션 번호",
+        "구매 고유 번호",
+        "purchase_transaction_id"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Purchases_purchase_details",
+      "domain": "Purchases",
+      "source_table": "Purchases",
+      "source_column": "purchase_details",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "구매 세부 사항",
+      "synonyms": [
+        "구매 정보",
+        "구매 세부 사항",
+        "구매 설명",
+        "구매 내용",
+        "구매 세부내용",
+        "구매 설명문",
+        "구매 정보 내용",
+        "purchase_details"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "식품 구매": [
+          "식품",
+          "음식"
+        ],
+        "가전제품 구매": [
+          "가전제품",
+          "가전"
+        ]
+      }
+    },
+    {
+      "name": "Transactions_Lots_transaction_id",
+      "domain": "Transactions_Lots",
+      "source_table": "Transactions_Lots",
+      "source_column": "transaction_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "거래 ID",
+      "synonyms": [
+        "transaction_id",
+        "거래번호",
+        "트랜잭션ID",
+        "트랜잭션 번호",
+        "거래 아이디",
+        "트랜잭션 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "Transactions_Lots_lot_id",
+      "domain": "Transactions_Lots",
+      "source_table": "Transactions_Lots",
+      "source_column": "lot_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "로트 ID",
+      "synonyms": [
+        "lot_id",
+        "로트번호",
+        "로트ID",
+        "로트 아이디",
+        "로트 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "Lots_Investors_fk0",
+      "domain": "Lots",
+      "range": "Investors",
+      "source_fk": [
+        "Lots.investor_id",
+        "Investors.investor_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "투자자 소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Transactions_Ref_Transaction_Types_fk1",
+      "domain": "Transactions",
+      "range": "Ref_Transaction_Types",
+      "source_fk": [
+        "Transactions.transaction_type_code",
+        "Ref_Transaction_Types.transaction_type_code"
+      ],
+      "weight": 1.0,
+      "primary_label": "거래 유형 참조",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Transactions_Investors_fk2",
+      "domain": "Transactions",
+      "range": "Investors",
+      "source_fk": [
+        "Transactions.investor_id",
+        "Investors.investor_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "투자자 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Sales_Transactions_fk3",
+      "domain": "Sales",
+      "range": "Transactions",
+      "source_fk": [
+        "Sales.sales_transaction_id",
+        "Transactions.transaction_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "판매 거래 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Purchases_Transactions_fk4",
+      "domain": "Purchases",
+      "range": "Transactions",
+      "source_fk": [
+        "Purchases.purchase_transaction_id",
+        "Transactions.transaction_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "구매 거래 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Transactions_Lots_Transactions_fk5",
+      "domain": "Transactions_Lots",
+      "range": "Transactions",
+      "source_fk": [
+        "Transactions_Lots.transaction_id",
+        "Transactions.transaction_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "거래-로트 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "Transactions_Lots_Lots_fk6",
+      "domain": "Transactions_Lots",
+      "range": "Lots",
+      "source_fk": [
+        "Transactions_Lots.lot_id",
+        "Lots.lot_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "거래-로트 연결",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

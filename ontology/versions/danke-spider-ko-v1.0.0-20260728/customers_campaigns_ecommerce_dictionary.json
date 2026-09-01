@@ -1,0 +1,2860 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "premises",
+      "target_class": "Premises",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "지점",
+      "target_class": "Premises",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "본사",
+      "target_class": "Premises",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "창고",
+      "target_class": "Premises",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "공장",
+      "target_class": "Premises",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "설립지",
+      "target_class": "Premises",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "products",
+      "target_class": "Products",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "제품",
+      "target_class": "Products",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "물품",
+      "target_class": "Products",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "품목",
+      "target_class": "Products",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "상품",
+      "target_class": "Products",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "제품목록",
+      "target_class": "Products",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구매자",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객목록",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "사용자 목록",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구매자 목록",
+      "target_class": "Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "mailshot campaigns",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전자우편 캠페인",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이메일 캠페인",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "마일샷 캠페인",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이메일 마케팅",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "전자우편 캠페인 정보",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 주소",
+      "target_class": "Customer_Addresses",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주소 정보",
+      "target_class": "Customer_Addresses",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 연락처",
+      "target_class": "Customer_Addresses",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "배송 주소",
+      "target_class": "Customer_Addresses",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 정보",
+      "target_class": "Customer_Addresses",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 주문",
+      "target_class": "Customer_Orders",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주문 정보",
+      "target_class": "Customer_Orders",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "구매 내역",
+      "target_class": "Customer_Orders",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주문 데이터",
+      "target_class": "Customer_Orders",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "고객 구매",
+      "target_class": "Customer_Orders",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "mailshot customers",
+      "target_class": "Mailshot_Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이메일 고객",
+      "target_class": "Mailshot_Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이메일 마케팅 대상자",
+      "target_class": "Mailshot_Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이메일 캠페인 참여자",
+      "target_class": "Mailshot_Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이메일 마케팅 고객",
+      "target_class": "Mailshot_Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이메일 대상 고객",
+      "target_class": "Mailshot_Customers",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "order items",
+      "target_class": "Order_Items",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주문 상품",
+      "target_class": "Order_Items",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주문 항목",
+      "target_class": "Order_Items",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주문 물품",
+      "target_class": "Order_Items",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주문 내역 항목",
+      "target_class": "Order_Items",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주문 상품 목록",
+      "target_class": "Order_Items",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "주문 상품 정보",
+      "target_class": "Order_Items",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "premise id",
+      "target_class": "Premises",
+      "target_property": "Premises_premise_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "premise_id",
+      "target_class": "Premises",
+      "target_property": "Premises_premise_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설 ID",
+      "target_class": "Premises",
+      "target_property": "Premises_premise_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 시설 ID",
+      "target_class": "Premises",
+      "target_property": "Premises_premise_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설 고유 번호",
+      "target_class": "Premises",
+      "target_property": "Premises_premise_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설 식별자",
+      "target_class": "Premises",
+      "target_property": "Premises_premise_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 시설 식별번호",
+      "target_class": "Premises",
+      "target_property": "Premises_premise_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "premises type",
+      "target_class": "Premises",
+      "target_property": "Premises_premises_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "premises_type",
+      "target_class": "Premises",
+      "target_property": "Premises_premises_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설 유형",
+      "target_class": "Premises",
+      "target_property": "Premises_premises_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 시설 유형",
+      "target_class": "Premises",
+      "target_property": "Premises_premises_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설 종류",
+      "target_class": "Premises",
+      "target_property": "Premises_premises_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설 유형 정보",
+      "target_class": "Premises",
+      "target_property": "Premises_premises_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 시설의 유형",
+      "target_class": "Premises",
+      "target_property": "Premises_premises_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설 카테고리",
+      "target_class": "Premises",
+      "target_property": "Premises_premises_type",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "premise details",
+      "target_class": "Premises",
+      "target_property": "Premises_premise_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "premise_details",
+      "target_class": "Premises",
+      "target_property": "Premises_premise_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설 상세 정보",
+      "target_class": "Premises",
+      "target_property": "Premises_premise_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 시설 상세 내용",
+      "target_class": "Premises",
+      "target_property": "Premises_premise_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설 설명",
+      "target_class": "Premises",
+      "target_property": "Premises_premise_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 시설 설명",
+      "target_class": "Premises",
+      "target_property": "Premises_premise_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설 세부 사항",
+      "target_class": "Premises",
+      "target_property": "Premises_premise_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전체 시설 세부 정보",
+      "target_class": "Premises",
+      "target_property": "Premises_premise_details",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product id",
+      "target_class": "Products",
+      "target_property": "Products_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 ID",
+      "target_class": "Products",
+      "target_property": "Products_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 번호",
+      "target_class": "Products",
+      "target_property": "Products_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 식별자",
+      "target_class": "Products",
+      "target_property": "Products_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 고유 번호",
+      "target_class": "Products",
+      "target_property": "Products_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product_id",
+      "target_class": "Products",
+      "target_property": "Products_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product category",
+      "target_class": "Products",
+      "target_property": "Products_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 분류",
+      "target_class": "Products",
+      "target_property": "Products_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "카테고리",
+      "target_class": "Products",
+      "target_property": "Products_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 유형",
+      "target_class": "Products",
+      "target_property": "Products_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 분류 정보",
+      "target_class": "Products",
+      "target_property": "Products_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product_category",
+      "target_class": "Products",
+      "target_property": "Products_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 카테고리",
+      "target_class": "Products",
+      "target_property": "Products_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product name",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 이름",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 제목",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 명",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 이름 정보",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product_name",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유번호",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객번호",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객ID",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객아이디",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고유아이디",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 방법",
+      "target_class": "Customers",
+      "target_property": "Customers_payment_method",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 수단",
+      "target_class": "Customers",
+      "target_property": "Customers_payment_method",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결제 방식",
+      "target_class": "Customers",
+      "target_property": "Customers_payment_method",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지불 방법",
+      "target_class": "Customers",
+      "target_property": "Customers_payment_method",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지불 수단",
+      "target_class": "Customers",
+      "target_property": "Customers_payment_method",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "지불 방식",
+      "target_class": "Customers",
+      "target_property": "Customers_payment_method",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 이름",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객명",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 이름",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "클라이언트 이름",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자명",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 전화번호",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 연락처",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화번호",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연락처",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_phone",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전화 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연락 방법",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_phone",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 이메일",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 주소",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_email",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "전자우편 주소",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_email",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 주소",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_address",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "거주지",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 데이터",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_address",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 로그인 ID",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_login",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "로그인 아이디",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_login",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계정 아이디",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_login",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 ID",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_login",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "로그인 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_login",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_login",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_login",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "로그인 계정",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_login",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계정명",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_login",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "사용자 계정",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_login",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 비밀번호",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비밀번호",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패스워드",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "암호",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비밀번호 정보",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_password",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "비밀번호 값",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "암호화된 비밀번호",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "패스워드 입력",
+      "target_class": "Customers",
+      "target_property": "Customers_customer_password",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot id",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot_id",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot 아이디",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마일샷 ID",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot 번호",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot 고유번호",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot 식별자",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product category",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product_category",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 카테고리",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 분류",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 카테고리",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 유형",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_product_category",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot name",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot_name",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot 이름",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마일샷 제목",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마일샷 명칭",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot 제목",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot 라벨",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot start date",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_start_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작일자",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_start_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 날짜",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_start_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마일샷 시작일",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_start_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작 시간",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_start_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마일샷 시작 시간",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_start_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시작일",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_start_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot end date",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_end_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료일자",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_end_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료 날짜",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_end_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마일샷 종료일",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_end_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료 시간",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_end_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "마일샷 종료 시간",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_end_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "종료일",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_end_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객번호",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객코드",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer id",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "임대물 ID",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_premise_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설 ID",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_premise_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설번호",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_premise_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "시설코드",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_premise_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 소속 시설",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_premise_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "premise id",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_premise_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 유효 시작일",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_date_address_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 시작일자",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_date_address_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 시작일",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_date_address_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 시작 날짜",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_date_address_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "date address from",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_date_address_from",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 유형 코드",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_address_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 코드",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_address_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 유형",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_address_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 코드 정보",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_address_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 타입 코드",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_address_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "address_type_code",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_address_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 코드 필드",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_address_type_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 유효 종료일",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_date_address_to",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 종료일",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_date_address_to",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 마감일",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_date_address_to",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 종료 날짜",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_date_address_to",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "address_to_date",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_date_address_to",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 유효일",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_date_address_to",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주소 마감일자",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_date_address_to",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 ID",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 번호",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 아이디",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "order id",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 식별자",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 고유 번호",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 코드",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 식별 번호",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객번호",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객코드",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer id",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 상태 코드",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 상태",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 코드",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 현황 코드",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "order status code",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "order status",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송 방법 코드",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_shipping_method_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송방법코드",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_shipping_method_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송코드",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_shipping_method_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "shipping_method_code",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_shipping_method_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송방법",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_shipping_method_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송유형코드",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_shipping_method_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 생성 시각",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_placed_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문일시",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_placed_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문날짜",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_placed_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문시간",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_placed_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "order_placed_datetime",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_placed_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문일자",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_placed_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문시각",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_placed_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문일",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_placed_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 배송 시각",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_delivered_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송일시",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_delivered_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송날짜",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_delivered_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송시간",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_delivered_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "order_delivered_datetime",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_delivered_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송일자",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_delivered_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송시각",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_delivered_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송일",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_delivered_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 배송비",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_shipping_charges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송비",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_shipping_charges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송비 정보",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_shipping_charges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송 비용",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_shipping_charges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송비 금액",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_shipping_charges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송비 항목",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_shipping_charges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "shipping charges",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_shipping_charges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "order_shipping_charges",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_shipping_charges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송비 내역",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_shipping_charges",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot id",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_mailshot_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot_id",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_mailshot_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot 번호",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_mailshot_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 캠페인 ID",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_mailshot_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot 식별자",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_mailshot_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot 코드",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_mailshot_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer id",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "customer_id",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 번호",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 ID",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 식별자",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 코드",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_customer_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "outcome code",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_outcome_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "outcome_code",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_outcome_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결과 코드",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_outcome_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 결과 코드",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_outcome_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot 결과 코드",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_outcome_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "outcome 코드",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_outcome_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot customer date",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_mailshot_customer_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 발송일시",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_mailshot_customer_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 날짜",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_mailshot_customer_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot 날짜",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_mailshot_customer_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이메일 발송일",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_mailshot_customer_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot 일시",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_mailshot_customer_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "고객 이메일 날짜",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_mailshot_customer_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "mailshot 날짜 시간",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_mailshot_customer_date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "item id",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이템 ID",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "물품 식별 번호",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이템 번호",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "item_id",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "물품 고유 ID",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "아이템 식별자",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "order item status code",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_item_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 상태 코드",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_item_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 상태 코드",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_item_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 상태",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_item_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "item_status_code",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_item_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 코드",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_item_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 상태 정보",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_item_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "order id",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 ID",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 번호",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 식별자",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "order_id",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 고유 ID",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 식별 번호",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product id",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 ID",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 번호",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 ID",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 번호",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "product_id",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 코드",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "제품 코드",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_product_id",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "item status code",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항목 상태 코드",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 상태 코드",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상품 상태",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "item_status_code",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "상태 코드",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_status_code",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "item delivered datetime",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_delivered_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송 시간",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_delivered_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송 날짜",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_delivered_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "배송 일시",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_delivered_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "항목 배송 일시",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_delivered_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "item_delivered_datetime",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_delivered_datetime",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "item order quantity",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_order_quantity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문 수량",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_order_quantity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수량",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_order_quantity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "item_order_quantity",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_order_quantity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문량",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_order_quantity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수량 정보",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_order_quantity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "주문한 개수",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_order_quantity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "수량 입력",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_order_quantity",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "item_quantity",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_order_quantity",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "주택",
+      "target_class": "Premises",
+      "target_property": "Premises_premises_type",
+      "value": "주택"
+    },
+    {
+      "entry_type": "value",
+      "key": "주거지",
+      "target_class": "Premises",
+      "target_property": "Premises_premises_type",
+      "value": "주택"
+    },
+    {
+      "entry_type": "value",
+      "key": "업소",
+      "target_class": "Premises",
+      "target_property": "Premises_premises_type",
+      "value": "업소"
+    },
+    {
+      "entry_type": "value",
+      "key": "상가",
+      "target_class": "Premises",
+      "target_property": "Premises_premises_type",
+      "value": "업소"
+    },
+    {
+      "entry_type": "value",
+      "key": "공공시설",
+      "target_class": "Premises",
+      "target_property": "Premises_premises_type",
+      "value": "공공시설"
+    },
+    {
+      "entry_type": "value",
+      "key": "공공장소",
+      "target_class": "Premises",
+      "target_property": "Premises_premises_type",
+      "value": "공공시설"
+    },
+    {
+      "entry_type": "value",
+      "key": "전자제품",
+      "target_class": "Products",
+      "target_property": "Products_product_category",
+      "value": "전자제품"
+    },
+    {
+      "entry_type": "value",
+      "key": "전자기기",
+      "target_class": "Products",
+      "target_property": "Products_product_category",
+      "value": "전자제품"
+    },
+    {
+      "entry_type": "value",
+      "key": "의료기기",
+      "target_class": "Products",
+      "target_property": "Products_product_category",
+      "value": "의료기기"
+    },
+    {
+      "entry_type": "value",
+      "key": "의약품",
+      "target_class": "Products",
+      "target_property": "Products_product_category",
+      "value": "의료기기"
+    },
+    {
+      "entry_type": "value",
+      "key": "식품",
+      "target_class": "Products",
+      "target_property": "Products_product_category",
+      "value": "식품"
+    },
+    {
+      "entry_type": "value",
+      "key": "음식",
+      "target_class": "Products",
+      "target_property": "Products_product_category",
+      "value": "식품"
+    },
+    {
+      "entry_type": "value",
+      "key": "스마트폰",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": "스마트폰"
+    },
+    {
+      "entry_type": "value",
+      "key": "스마트폰 모델",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": "스마트폰"
+    },
+    {
+      "entry_type": "value",
+      "key": "냉장고",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": "냉장고"
+    },
+    {
+      "entry_type": "value",
+      "key": "냉장고 제품",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": "냉장고"
+    },
+    {
+      "entry_type": "value",
+      "key": "우유",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": "우유"
+    },
+    {
+      "entry_type": "value",
+      "key": "유제품",
+      "target_class": "Products",
+      "target_property": "Products_product_name",
+      "value": "우유"
+    },
+    {
+      "entry_type": "value",
+      "key": "신용카드",
+      "target_class": "Customers",
+      "target_property": "Customers_payment_method",
+      "value": "신용카드"
+    },
+    {
+      "entry_type": "value",
+      "key": "카드 결제",
+      "target_class": "Customers",
+      "target_property": "Customers_payment_method",
+      "value": "신용카드"
+    },
+    {
+      "entry_type": "value",
+      "key": "계좌이체",
+      "target_class": "Customers",
+      "target_property": "Customers_payment_method",
+      "value": "계좌이체"
+    },
+    {
+      "entry_type": "value",
+      "key": "이체",
+      "target_class": "Customers",
+      "target_property": "Customers_payment_method",
+      "value": "계좌이체"
+    },
+    {
+      "entry_type": "value",
+      "key": "현금",
+      "target_class": "Customers",
+      "target_property": "Customers_payment_method",
+      "value": "현금"
+    },
+    {
+      "entry_type": "value",
+      "key": "현금결제",
+      "target_class": "Customers",
+      "target_property": "Customers_payment_method",
+      "value": "현금"
+    },
+    {
+      "entry_type": "value",
+      "key": "전자제품",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_product_category",
+      "value": "전자제품"
+    },
+    {
+      "entry_type": "value",
+      "key": "전자기기",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_product_category",
+      "value": "전자제품"
+    },
+    {
+      "entry_type": "value",
+      "key": "의류",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_product_category",
+      "value": "의류"
+    },
+    {
+      "entry_type": "value",
+      "key": "옷",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_product_category",
+      "value": "의류"
+    },
+    {
+      "entry_type": "value",
+      "key": "식품",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_product_category",
+      "value": "식품"
+    },
+    {
+      "entry_type": "value",
+      "key": "음식",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_product_category",
+      "value": "식품"
+    },
+    {
+      "entry_type": "value",
+      "key": "새해 할인 캠페인",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_name",
+      "value": "새해 할인 캠페인"
+    },
+    {
+      "entry_type": "value",
+      "key": "새해 할인",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_name",
+      "value": "새해 할인 캠페인"
+    },
+    {
+      "entry_type": "value",
+      "key": "여름 특가",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_name",
+      "value": "여름 특가"
+    },
+    {
+      "entry_type": "value",
+      "key": "여름 세일",
+      "target_class": "Mailshot_Campaigns",
+      "target_property": "Mailshot_Campaigns_mailshot_name",
+      "value": "여름 특가"
+    },
+    {
+      "entry_type": "value",
+      "key": "주소",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_address_type_code",
+      "value": "주소"
+    },
+    {
+      "entry_type": "value",
+      "key": "주소 유형",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_address_type_code",
+      "value": "주소"
+    },
+    {
+      "entry_type": "value",
+      "key": "이사",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_address_type_code",
+      "value": "이사"
+    },
+    {
+      "entry_type": "value",
+      "key": "이전 주소",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_address_type_code",
+      "value": "이사"
+    },
+    {
+      "entry_type": "value",
+      "key": "임대",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_address_type_code",
+      "value": "임대"
+    },
+    {
+      "entry_type": "value",
+      "key": "임대물 주소",
+      "target_class": "Customer_Addresses",
+      "target_property": "Customer_Addresses_address_type_code",
+      "value": "임대"
+    },
+    {
+      "entry_type": "value",
+      "key": "대기",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_status_code",
+      "value": "대기"
+    },
+    {
+      "entry_type": "value",
+      "key": "대기 중",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_status_code",
+      "value": "대기"
+    },
+    {
+      "entry_type": "value",
+      "key": "배송 중",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_status_code",
+      "value": "배송 중"
+    },
+    {
+      "entry_type": "value",
+      "key": "진행 중",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_status_code",
+      "value": "배송 중"
+    },
+    {
+      "entry_type": "value",
+      "key": "배송 완료",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_status_code",
+      "value": "배송 완료"
+    },
+    {
+      "entry_type": "value",
+      "key": "완료",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_status_code",
+      "value": "배송 완료"
+    },
+    {
+      "entry_type": "value",
+      "key": "취소",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_status_code",
+      "value": "취소"
+    },
+    {
+      "entry_type": "value",
+      "key": "취소됨",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_order_status_code",
+      "value": "취소"
+    },
+    {
+      "entry_type": "value",
+      "key": "택배",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_shipping_method_code",
+      "value": "택배"
+    },
+    {
+      "entry_type": "value",
+      "key": "배송",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_shipping_method_code",
+      "value": "택배"
+    },
+    {
+      "entry_type": "value",
+      "key": "자체 배송",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_shipping_method_code",
+      "value": "자체 배송"
+    },
+    {
+      "entry_type": "value",
+      "key": "직접 배송",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_shipping_method_code",
+      "value": "자체 배송"
+    },
+    {
+      "entry_type": "value",
+      "key": "소포",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_shipping_method_code",
+      "value": "소포"
+    },
+    {
+      "entry_type": "value",
+      "key": "소포 배송",
+      "target_class": "Customer_Orders",
+      "target_property": "Customer_Orders_shipping_method_code",
+      "value": "소포"
+    },
+    {
+      "entry_type": "value",
+      "key": "success",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_outcome_code",
+      "value": "success"
+    },
+    {
+      "entry_type": "value",
+      "key": "성공",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_outcome_code",
+      "value": "success"
+    },
+    {
+      "entry_type": "value",
+      "key": "failed",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_outcome_code",
+      "value": "failed"
+    },
+    {
+      "entry_type": "value",
+      "key": "실패",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_outcome_code",
+      "value": "failed"
+    },
+    {
+      "entry_type": "value",
+      "key": "pending",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_outcome_code",
+      "value": "pending"
+    },
+    {
+      "entry_type": "value",
+      "key": "대기",
+      "target_class": "Mailshot_Customers",
+      "target_property": "Mailshot_Customers_outcome_code",
+      "value": "pending"
+    },
+    {
+      "entry_type": "value",
+      "key": "DELIVERED",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_item_status_code",
+      "value": "DELIVERED"
+    },
+    {
+      "entry_type": "value",
+      "key": "배송 완료",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_item_status_code",
+      "value": "DELIVERED"
+    },
+    {
+      "entry_type": "value",
+      "key": "PENDING",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_item_status_code",
+      "value": "PENDING"
+    },
+    {
+      "entry_type": "value",
+      "key": "대기 중",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_item_status_code",
+      "value": "PENDING"
+    },
+    {
+      "entry_type": "value",
+      "key": "CANCELLED",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_item_status_code",
+      "value": "CANCELLED"
+    },
+    {
+      "entry_type": "value",
+      "key": "취소",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_order_item_status_code",
+      "value": "CANCELLED"
+    },
+    {
+      "entry_type": "value",
+      "key": "READY",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_status_code",
+      "value": "READY"
+    },
+    {
+      "entry_type": "value",
+      "key": "준비 완료",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_status_code",
+      "value": "READY"
+    },
+    {
+      "entry_type": "value",
+      "key": "SHIPPED",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_status_code",
+      "value": "SHIPPED"
+    },
+    {
+      "entry_type": "value",
+      "key": "배송 중",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_status_code",
+      "value": "SHIPPED"
+    },
+    {
+      "entry_type": "value",
+      "key": "DELIVERED",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_status_code",
+      "value": "DELIVERED"
+    },
+    {
+      "entry_type": "value",
+      "key": "배송 완료",
+      "target_class": "Order_Items",
+      "target_property": "Order_Items_item_status_code",
+      "value": "DELIVERED"
+    }
+  ]
+}

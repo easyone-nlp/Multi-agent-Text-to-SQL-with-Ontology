@@ -1,0 +1,720 @@
+{
+  "db_id": "city_record",
+  "classes": [
+    {
+      "name": "city",
+      "source_table": "city",
+      "ranking": 3.0,
+      "primary_label": "시",
+      "synonyms": [
+        "도시",
+        "도시정보",
+        "도시기록",
+        "도시데이터",
+        "도시정보기록"
+      ]
+    },
+    {
+      "name": "match",
+      "source_table": "match",
+      "ranking": 3.5,
+      "primary_label": "경기",
+      "synonyms": [
+        "경기",
+        "경기정보",
+        "경기데이터",
+        "경기기록",
+        "경기정보기록"
+      ]
+    },
+    {
+      "name": "temperature",
+      "source_table": "temperature",
+      "ranking": 3.5,
+      "primary_label": "온도",
+      "synonyms": [
+        "기온",
+        "기온데이터",
+        "기온정보",
+        "기온기록",
+        "기온정보기록"
+      ]
+    },
+    {
+      "name": "hosting_city",
+      "source_table": "hosting_city",
+      "ranking": 3.0,
+      "primary_label": "hosting city",
+      "synonyms": [
+        "호스팅 도시",
+        "주최 도시",
+        "개최 도시",
+        "개최지",
+        "주최지",
+        "행사 개최 도시",
+        "행사 주최 도시",
+        "행사 개최지"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "city_City_ID",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "City_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시 ID",
+      "synonyms": [
+        "도시 ID",
+        "도시 식별 번호",
+        "도시 코드",
+        "도시 고유 번호",
+        "도시 번호",
+        "City_ID",
+        "도시 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_City",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "City",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "시",
+      "synonyms": [],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "부산": [
+          "부산"
+        ],
+        "인천": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "city_Hanzi",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Hanzi",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "한자",
+      "synonyms": [
+        "한자",
+        "한자 표기",
+        "한자어",
+        "한자 기록",
+        "한자 이름",
+        "한자 표기법",
+        "한자 표기식"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_Hanyu_Pinyin",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Hanyu_Pinyin",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "하이유 피닌",
+      "synonyms": [
+        "한자 발음",
+        "한자 음성",
+        "한자 발음 정보",
+        "한자 발음 표기",
+        "한자 음성 표기",
+        "한자 발음 이름",
+        "한자 음성 이름",
+        "한자 발음 표기법"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_Regional_Population",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "Regional_Population",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "지역 인구",
+      "synonyms": [
+        "지역 인구",
+        "지역 인구 수",
+        "지역 인구량",
+        "지역 인구 통계",
+        "지역 인구 수치",
+        "지역 인구 정보",
+        "지역 인구 데이터",
+        "지역 인구 크기"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "city_GDP",
+      "domain": "city",
+      "source_table": "city",
+      "source_column": "GDP",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.5,
+      "primary_label": "GDP",
+      "synonyms": [
+        "지역 GDP",
+        "지역 국내총생산",
+        "지역 경제 성장",
+        "지역 경제 수치",
+        "지역 경제 성과",
+        "지역 경제 데이터",
+        "지역 경제 성장률",
+        "지역 경제 지표"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_Match_ID",
+      "domain": "match",
+      "source_table": "match",
+      "source_column": "Match_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "경기 ID",
+      "synonyms": [
+        "매치 ID",
+        "경기 번호",
+        "매치 식별자",
+        "경기 고유 번호",
+        "Match_ID",
+        "매치 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "match_Date",
+      "domain": "match",
+      "source_table": "match",
+      "source_column": "Date",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "일자",
+      "synonyms": [
+        "일자",
+        "날짜",
+        "경기 날짜",
+        "일",
+        "Date",
+        "경기 일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2023-10-05": [
+          "2023년 10월 5일"
+        ]
+      }
+    },
+    {
+      "name": "match_Venue",
+      "domain": "match",
+      "source_table": "match",
+      "source_column": "Venue",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.8,
+      "primary_label": "경기장",
+      "synonyms": [
+        "장소",
+        "경기 장소",
+        "Venue",
+        "경기 위치",
+        "경기 장소명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울종합경기장": [
+          "서울 경기장"
+        ]
+      }
+    },
+    {
+      "name": "match_Score",
+      "domain": "match",
+      "source_table": "match",
+      "source_column": "Score",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.9,
+      "primary_label": "스코어",
+      "synonyms": [
+        "스코어",
+        "점수",
+        "득점",
+        "결과점수",
+        "스코어 정보",
+        "점수 정보",
+        "득점 정보",
+        "경기 점수"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "2-1": [
+          "2대1"
+        ]
+      }
+    },
+    {
+      "name": "match_Result",
+      "domain": "match",
+      "source_table": "match",
+      "source_column": "Result",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.2,
+      "primary_label": "결과",
+      "synonyms": [
+        "결과",
+        "경기 결과",
+        "결과 정보",
+        "결과 문자열",
+        "경기 결과 문자열",
+        "결과값",
+        "결과 문자",
+        "경기 결과 문자"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "승리": [
+          "승"
+        ],
+        "패배": [
+          "패"
+        ]
+      }
+    },
+    {
+      "name": "match_Competition",
+      "domain": "match",
+      "source_table": "match",
+      "source_column": "Competition",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.1,
+      "primary_label": "경기 종목",
+      "synonyms": [
+        "경쟁",
+        "대회",
+        "경기 대회",
+        "경쟁 구도",
+        "대회 이름",
+        "경기 경쟁",
+        "경기 대회 이름",
+        "경쟁 대회"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "프리미어리그": [
+          "프리미어 리그"
+        ]
+      }
+    },
+    {
+      "name": "temperature_City_ID",
+      "domain": "temperature",
+      "source_table": "temperature",
+      "source_column": "City_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "시 ID",
+      "synonyms": [
+        "도시 ID",
+        "도시 식별 번호",
+        "도시 코드",
+        "도시 고유 번호",
+        "도시 식별자",
+        "City_ID",
+        "도시 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "temperature_Jan",
+      "domain": "temperature",
+      "source_table": "temperature",
+      "source_column": "Jan",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "1월",
+      "synonyms": [
+        "1월 기온",
+        "1월 평균 기온",
+        "1월 기온 데이터",
+        "1월 기온 정보",
+        "1월 기온 값",
+        "Jan",
+        "1월"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "temperature_Feb",
+      "domain": "temperature",
+      "source_table": "temperature",
+      "source_column": "Feb",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "2월",
+      "synonyms": [
+        "2월 기온",
+        "2월 평균 기온",
+        "2월 기온 데이터",
+        "2월 기온 정보",
+        "2월 기온 값",
+        "Feb",
+        "2월"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "temperature_Mar",
+      "domain": "temperature",
+      "source_table": "temperature",
+      "source_column": "Mar",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "3월",
+      "synonyms": [
+        "mar",
+        "3월",
+        "3월 기온",
+        "3월 평균 기온",
+        "3월 기온 값",
+        "3월 데이터",
+        "3월 기후"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "temperature_Apr",
+      "domain": "temperature",
+      "source_table": "temperature",
+      "source_column": "Apr",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "4월",
+      "synonyms": [
+        "apr",
+        "4월",
+        "4월 기온",
+        "4월 평균 기온",
+        "4월 기온 값",
+        "4월 데이터",
+        "4월 기후"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "temperature_Jun",
+      "domain": "temperature",
+      "source_table": "temperature",
+      "source_column": "Jun",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "6월",
+      "synonyms": [
+        "jun",
+        "6월",
+        "6월 기온",
+        "6월 평균 기온",
+        "6월 기온 값",
+        "6월 데이터",
+        "6월 기후"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "temperature_Jul",
+      "domain": "temperature",
+      "source_table": "temperature",
+      "source_column": "Jul",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "7월",
+      "synonyms": [
+        "jul",
+        "july",
+        "7월 기온",
+        "7월 평균 기온",
+        "july temperature",
+        "7월"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "temperature_Aug",
+      "domain": "temperature",
+      "source_table": "temperature",
+      "source_column": "Aug",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "8월",
+      "synonyms": [
+        "aug",
+        "august",
+        "8월 기온",
+        "8월 평균 기온",
+        "august temperature",
+        "8월"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "temperature_Sep",
+      "domain": "temperature",
+      "source_table": "temperature",
+      "source_column": "Sep",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "9월",
+      "synonyms": [
+        "sep",
+        "september",
+        "9월 기온",
+        "9월 평균 기온",
+        "september temperature",
+        "9월"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "temperature_Oct",
+      "domain": "temperature",
+      "source_table": "temperature",
+      "source_column": "Oct",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "10월",
+      "synonyms": [
+        "10월",
+        "10월 기온",
+        "10월 평균 기온",
+        "oct",
+        "10월 데이터",
+        "10월 기온 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "temperature_Nov",
+      "domain": "temperature",
+      "source_table": "temperature",
+      "source_column": "Nov",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "11월",
+      "synonyms": [
+        "11월",
+        "11월 기온",
+        "11월 평균 기온",
+        "nov",
+        "11월 데이터",
+        "11월 기온 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "temperature_Dec",
+      "domain": "temperature",
+      "source_table": "temperature",
+      "source_column": "Dec",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "12월",
+      "synonyms": [
+        "12월",
+        "12월 기온",
+        "12월 평균 기온",
+        "dec",
+        "12월 데이터",
+        "12월 기온 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "hosting_city_Year",
+      "domain": "hosting_city",
+      "source_table": "hosting_city",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "년도",
+        "년도 정보",
+        "년도 데이터",
+        "연",
+        "연도 번호",
+        "년도 값",
+        "년도 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "hosting_city_Match_ID",
+      "domain": "hosting_city",
+      "source_table": "hosting_city",
+      "source_column": "Match_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "match id",
+      "synonyms": [
+        "경기 ID",
+        "경기 번호",
+        "경기 식별자",
+        "경기 고유 번호",
+        "Match ID",
+        "경기 코드",
+        "경기 식별 번호",
+        "경기 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "hosting_city_Host_City",
+      "domain": "hosting_city",
+      "source_table": "hosting_city",
+      "source_column": "Host_City",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "host city",
+      "synonyms": [
+        "개최 도시",
+        "개최 도시 이름",
+        "도시 이름",
+        "개최 도시 정보",
+        "Host City",
+        "도시",
+        "개최 도시명",
+        "도시 이름 정보"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "temperature_city_fk0",
+      "domain": "temperature",
+      "range": "city",
+      "source_fk": [
+        "temperature.City_ID",
+        "city.City_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "도시 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "hosting_city_match_fk1",
+      "domain": "hosting_city",
+      "range": "match",
+      "source_fk": [
+        "hosting_city.Match_ID",
+        "match.Match_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "경기 주최",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "hosting_city_city_fk2",
+      "domain": "hosting_city",
+      "range": "city",
+      "source_fk": [
+        "hosting_city.Host_City",
+        "city.City_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "주최 도시",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

@@ -1,0 +1,814 @@
+{
+  "db_id": "scholar",
+  "classes": [
+    {
+      "name": "venue",
+      "source_table": "venue",
+      "ranking": 3.0,
+      "primary_label": "Venue",
+      "synonyms": [
+        "conference",
+        "journal",
+        "symposium",
+        "meeting",
+        "publication",
+        "event",
+        "forum"
+      ]
+    },
+    {
+      "name": "author",
+      "source_table": "author",
+      "ranking": 3.0,
+      "primary_label": "저자",
+      "synonyms": [
+        "researcher",
+        "writer",
+        "scientist",
+        "professor",
+        "expert",
+        "academic",
+        "author"
+      ]
+    },
+    {
+      "name": "dataset",
+      "source_table": "dataset",
+      "ranking": 3.0,
+      "primary_label": "데이터셋",
+      "synonyms": [
+        "data set",
+        "collection",
+        "repository",
+        "archive",
+        "database",
+        "data",
+        "set"
+      ]
+    },
+    {
+      "name": "journal",
+      "source_table": "journal",
+      "ranking": 1.0,
+      "primary_label": "저널 id",
+      "synonyms": [
+        "학술지",
+        "논문지",
+        "학술지 정보",
+        "학술지 목록",
+        "학술지 데이터"
+      ]
+    },
+    {
+      "name": "keyphrase",
+      "source_table": "keyphrase",
+      "ranking": 1.0,
+      "primary_label": "key phrase",
+      "synonyms": [
+        "키워드",
+        "주제어",
+        "핵심단어",
+        "키워드 목록",
+        "주요단어"
+      ]
+    },
+    {
+      "name": "paper",
+      "source_table": "paper",
+      "ranking": 1.0,
+      "primary_label": "paper",
+      "synonyms": [
+        "논문",
+        "학술논문",
+        "논문 정보",
+        "논문 데이터",
+        "학술작품"
+      ]
+    },
+    {
+      "name": "cite",
+      "source_table": "cite",
+      "ranking": 3.0,
+      "primary_label": "인용 논문 정보",
+      "synonyms": [
+        "인용",
+        "참조",
+        "인용관계",
+        "참조문헌",
+        "인용정보",
+        "참조데이터",
+        "인용연관",
+        "참조관계"
+      ]
+    },
+    {
+      "name": "paperDataset",
+      "source_table": "paperDataset",
+      "ranking": 3.0,
+      "primary_label": "paper dataset",
+      "synonyms": [
+        "논문데이터",
+        "논문집",
+        "논문정보",
+        "논문데이터셋",
+        "논문집합",
+        "논문정보집",
+        "논문데이터베이스"
+      ]
+    },
+    {
+      "name": "paperKeyphrase",
+      "source_table": "paperKeyphrase",
+      "ranking": 3.0,
+      "primary_label": "논문 키워드 표현",
+      "synonyms": [
+        "논문키워드",
+        "논문키",
+        "논문주요단어",
+        "논문핵심단어",
+        "논문키워드집",
+        "논문키워드데이터"
+      ]
+    },
+    {
+      "name": "writes",
+      "source_table": "writes",
+      "ranking": 3.0,
+      "primary_label": "글 작성자 관계",
+      "synonyms": [
+        "작성 기록",
+        "논문 작성",
+        "학술 기록",
+        "저작 기록",
+        "논문 기록",
+        "작성 내역",
+        "학술 저작"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "venue_venueId",
+      "domain": "venue",
+      "source_table": "venue",
+      "source_column": "venueId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "Venue ID",
+      "synonyms": [
+        "venueId",
+        "Venue Identifier",
+        "Venue Number",
+        "Venue Code",
+        "Venue ID Number",
+        "Venue ID Code"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "venue_venueName",
+      "domain": "venue",
+      "source_table": "venue",
+      "source_column": "venueName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "Venue Name",
+      "synonyms": [
+        "venueName",
+        "Venue Title",
+        "Venue Identifier Name",
+        "Venue Name Code",
+        "Venue Title Name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울시민문화회관": [
+          "서울시민문화회관"
+        ],
+        "대구문화예술회관": [
+          "대구문화예술회관"
+        ],
+        "부산아트홀": [
+          "부산아트홀"
+        ]
+      }
+    },
+    {
+      "name": "author_authorId",
+      "domain": "author",
+      "source_table": "author",
+      "source_column": "authorId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "저자 ID",
+      "synonyms": [
+        "저자 ID",
+        "저자 식별 번호",
+        "author id",
+        "아이디",
+        "ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "author_authorName",
+      "domain": "author",
+      "source_table": "author",
+      "source_column": "authorName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "저자 이름",
+      "synonyms": [
+        "저자 이름",
+        "저자명",
+        "author name",
+        "이름",
+        "명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "박지현": [
+          "박지현"
+        ]
+      }
+    },
+    {
+      "name": "dataset_datasetId",
+      "domain": "dataset",
+      "source_table": "dataset",
+      "source_column": "datasetId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "데이터셋 ID",
+      "synonyms": [
+        "데이터셋 ID",
+        "데이터셋 식별자",
+        "데이터셋 번호",
+        "ds_id",
+        "dataset_id",
+        "데이터셋 고유번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "dataset_datasetName",
+      "domain": "dataset",
+      "source_table": "dataset",
+      "source_column": "datasetName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "데이터셋 이름",
+      "synonyms": [
+        "데이터셋 이름",
+        "데이터셋 제목",
+        "데이터셋 타이틀",
+        "ds_name",
+        "dataset_name",
+        "데이터셋 명"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "빅데이터셋": [
+          "빅데이터셋"
+        ],
+        "기상데이터셋": [
+          "기상데이터셋"
+        ],
+        "교통데이터셋": [
+          "교통데이터셋"
+        ]
+      }
+    },
+    {
+      "name": "journal_journalId",
+      "domain": "journal",
+      "source_table": "journal",
+      "source_column": "journalId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "저널 id",
+      "synonyms": [
+        "journalId",
+        "학술지 ID",
+        "논문지 식별번호",
+        "학술지 고유번호",
+        "논문지 ID",
+        "학술지 번호",
+        "논문지 고유 식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "journal_journalName",
+      "domain": "journal",
+      "source_table": "journal",
+      "source_column": "journalName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "저널 이름",
+      "synonyms": [
+        "journalName",
+        "학술지 이름",
+        "논문지 이름",
+        "학술지 공식명",
+        "논문지 공식 이름",
+        "학술지 표준명",
+        "논문지 표준 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "국제 물리학 저널": [
+          "국제 물리학 저널"
+        ],
+        "한국 컴퓨터 학회 저널": [
+          "한국 컴퓨터 학회 저널"
+        ]
+      }
+    },
+    {
+      "name": "keyphrase_keyphraseId",
+      "domain": "keyphrase",
+      "source_table": "keyphrase",
+      "source_column": "keyphraseId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "key phrase id",
+      "synonyms": [
+        "keyphraseId",
+        "키워드 ID",
+        "키워드 식별자",
+        "keyphrase 번호",
+        "키워드 고유번호",
+        "keyphrase 고유 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "keyphrase_keyphraseName",
+      "domain": "keyphrase",
+      "source_table": "keyphrase",
+      "source_column": "keyphraseName",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "key phrase name",
+      "synonyms": [
+        "keyphraseName",
+        "키워드 이름",
+        "키워드 표현명",
+        "keyphrase 제목",
+        "키워드 표현",
+        "keyphrase 표시명"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "paper_paperId",
+      "domain": "paper",
+      "source_table": "paper",
+      "source_column": "paperId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "paper id",
+      "synonyms": [
+        "paperId",
+        "논문 ID",
+        "논문 식별자",
+        "논문 번호",
+        "논문 고유 번호",
+        "paper identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "paper_title",
+      "domain": "paper",
+      "source_table": "paper",
+      "source_column": "title",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "title",
+      "synonyms": [
+        "title",
+        "논문 제목",
+        "제목",
+        "논문 이름",
+        "논문 제목 정보",
+        "paper title"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "paper_venueId",
+      "domain": "paper",
+      "source_table": "paper",
+      "source_column": "venueId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "venue id",
+      "synonyms": [
+        "venueId",
+        "논문 출판물 ID",
+        "논문 출판물 식별자",
+        "venue identifier",
+        "논문 출판물 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "paper_year",
+      "domain": "paper",
+      "source_table": "paper",
+      "source_column": "year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "년도",
+        "출판년도",
+        "년도 정보",
+        "발행년도",
+        "년도 데이터",
+        "년도 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "paper_numCiting",
+      "domain": "paper",
+      "source_table": "paper",
+      "source_column": "numCiting",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "number citing",
+      "synonyms": [
+        "numCiting",
+        "인용 횟수",
+        "인용수",
+        "인용된 횟수",
+        "인용 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "paper_numCitedBy",
+      "domain": "paper",
+      "source_table": "paper",
+      "source_column": "numCitedBy",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "number cited by",
+      "synonyms": [
+        "numCitedBy",
+        "인용자 수",
+        "인용자 횟수",
+        "인용된 수",
+        "인용자 수치",
+        "인용 횟수"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "paper_journalId",
+      "domain": "paper",
+      "source_table": "paper",
+      "source_column": "journalId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "journal id",
+      "synonyms": [
+        "저널 ID",
+        "저널 번호",
+        "저널 식별자",
+        "저널 코드",
+        "journalId",
+        "저널 고유번호",
+        "저널 식별번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cite_citingPaperId",
+      "domain": "cite",
+      "source_table": "cite",
+      "source_column": "citingPaperId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "인용 논문 ID",
+      "synonyms": [
+        "citingPaperId",
+        "인용 논문 ID",
+        "인용 논문 번호",
+        "인용 논문 식별자",
+        "인용 논문 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "cite_citedPaperId",
+      "domain": "cite",
+      "source_table": "cite",
+      "source_column": "citedPaperId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.5,
+      "primary_label": "인용된 논문 ID",
+      "synonyms": [
+        "citedPaperId",
+        "인용된 논문 ID",
+        "인용된 논문 번호",
+        "인용된 논문 식별자",
+        "인용된 논문 코드"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "paperDataset_paperId",
+      "domain": "paperDataset",
+      "source_table": "paperDataset",
+      "source_column": "paperId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "paper id",
+      "synonyms": [
+        "논문 ID",
+        "논문 식별 번호",
+        "PAPER_ID",
+        "논문 번호",
+        "논문 식별자",
+        "paper identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "paperDataset_datasetId",
+      "domain": "paperDataset",
+      "source_table": "paperDataset",
+      "source_column": "datasetId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 4.0,
+      "primary_label": "dataset id",
+      "synonyms": [
+        "데이터셋 ID",
+        "데이터셋 식별 번호",
+        "DATASET_ID",
+        "데이터셋 번호",
+        "데이터셋 식별자",
+        "dataset identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "paperKeyphrase_paperId",
+      "domain": "paperKeyphrase",
+      "source_table": "paperKeyphrase",
+      "source_column": "paperId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "논문 ID",
+      "synonyms": [
+        "논문 ID",
+        "논문 식별자",
+        "paper ID",
+        "paper identifier",
+        "논문 번호",
+        "paper number",
+        "논문 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "paperKeyphrase_keyphraseId",
+      "domain": "paperKeyphrase",
+      "source_table": "paperKeyphrase",
+      "source_column": "keyphraseId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "키워드 ID",
+      "synonyms": [
+        "키워드 ID",
+        "키워드 식별자",
+        "keyphrase ID",
+        "keyphrase identifier",
+        "키워드 번호",
+        "keyphrase number",
+        "키워드 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "writes_paperId",
+      "domain": "writes",
+      "source_table": "writes",
+      "source_column": "paperId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "논문 ID",
+      "synonyms": [
+        "paperId",
+        "논문 ID",
+        "논문 식별자",
+        "논문 번호",
+        "논문 고유번호",
+        "논문 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "writes_authorId",
+      "domain": "writes",
+      "source_table": "writes",
+      "source_column": "authorId",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 2.0,
+      "primary_label": "저자 ID",
+      "synonyms": [
+        "authorId",
+        "저자 ID",
+        "저자 식별자",
+        "저자 번호",
+        "저자 고유번호",
+        "저자 식별"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "paper_venue_fk0",
+      "domain": "paper",
+      "range": "venue",
+      "source_fk": [
+        "paper.venueId",
+        "venue.venueId"
+      ],
+      "weight": 1.0,
+      "primary_label": "발행지",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "paper_journal_fk1",
+      "domain": "paper",
+      "range": "journal",
+      "source_fk": [
+        "paper.journalId",
+        "journal.journalId"
+      ],
+      "weight": 1.0,
+      "primary_label": "저널",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "cite_paper_fk2",
+      "domain": "cite",
+      "range": "paper",
+      "source_fk": [
+        "cite.citingPaperId",
+        "paper.paperId"
+      ],
+      "weight": 1.0,
+      "primary_label": "인용한",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "cite_paper_fk3",
+      "domain": "cite",
+      "range": "paper",
+      "source_fk": [
+        "cite.citedPaperId",
+        "paper.paperId"
+      ],
+      "weight": 1.0,
+      "primary_label": "인용받은",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "paperKeyphrase_keyphrase_fk4",
+      "domain": "paperKeyphrase",
+      "range": "keyphrase",
+      "source_fk": [
+        "paperKeyphrase.keyphraseId",
+        "keyphrase.keyphraseId"
+      ],
+      "weight": 1.0,
+      "primary_label": "키워드",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "paperKeyphrase_paper_fk5",
+      "domain": "paperKeyphrase",
+      "range": "paper",
+      "source_fk": [
+        "paperKeyphrase.paperId",
+        "paper.paperId"
+      ],
+      "weight": 1.0,
+      "primary_label": "키워드 포함",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "writes_author_fk6",
+      "domain": "writes",
+      "range": "author",
+      "source_fk": [
+        "writes.authorId",
+        "author.authorId"
+      ],
+      "weight": 1.0,
+      "primary_label": "저자",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "writes_paper_fk7",
+      "domain": "writes",
+      "range": "paper",
+      "source_fk": [
+        "writes.paperId",
+        "paper.paperId"
+      ],
+      "weight": 1.0,
+      "primary_label": "작성한",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

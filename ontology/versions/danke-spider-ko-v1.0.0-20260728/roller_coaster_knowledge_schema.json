@@ -1,0 +1,362 @@
+{
+  "db_id": "roller_coaster",
+  "classes": [
+    {
+      "name": "roller_coaster",
+      "source_table": "roller_coaster",
+      "ranking": 3.5,
+      "primary_label": "롤러코스터",
+      "synonyms": [
+        "롤러코스터 정보",
+        "롤러코스터 데이터",
+        "롤러코스터 기록",
+        "롤러코스터 사양",
+        "롤러코스터 세부사항"
+      ]
+    },
+    {
+      "name": "country",
+      "source_table": "country",
+      "ranking": 3.5,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가 데이터",
+        "국가 정보",
+        "국가 목록",
+        "국가 세부사항",
+        "국가 기록"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "roller_coaster_Roller_Coaster_ID",
+      "domain": "roller_coaster",
+      "source_table": "roller_coaster",
+      "source_column": "Roller_Coaster_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "롤러코스터 ID",
+      "synonyms": [
+        "롤러코스터 ID",
+        "롤러코스터 고유번호",
+        "롤러코스터 번호",
+        "ID",
+        "식별번호",
+        "고유아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "roller_coaster_Name",
+      "domain": "roller_coaster",
+      "source_table": "roller_coaster",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "이름",
+      "synonyms": [
+        "이름",
+        "제목",
+        "롤러코스터명",
+        "명칭",
+        "제품명",
+        "롤러코스터 이름",
+        "타이틀"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "roller_coaster_Park",
+      "domain": "roller_coaster",
+      "source_table": "roller_coaster",
+      "source_column": "Park",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.2,
+      "primary_label": "파크",
+      "synonyms": [
+        "파크",
+        "파크 이름",
+        "위치",
+        "파크명",
+        "공원",
+        "공원 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "roller_coaster_Country_ID",
+      "domain": "roller_coaster",
+      "source_table": "roller_coaster",
+      "source_column": "Country_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.4,
+      "primary_label": "국가 ID",
+      "synonyms": [
+        "country id",
+        "국가 코드",
+        "국가 식별자",
+        "국가 ID",
+        "국가 번호",
+        "국가 아이디"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "roller_coaster_Length",
+      "domain": "roller_coaster",
+      "source_table": "roller_coaster",
+      "source_column": "Length",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.2,
+      "primary_label": "길이",
+      "synonyms": [
+        "length",
+        "길이",
+        "길이 값",
+        "길이 수치",
+        "길이 측정",
+        "길이 정보",
+        "길이 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "roller_coaster_Height",
+      "domain": "roller_coaster",
+      "source_table": "roller_coaster",
+      "source_column": "Height",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.2,
+      "primary_label": "높이",
+      "synonyms": [
+        "height",
+        "높이",
+        "높이 값",
+        "높이 수치",
+        "높이 측정",
+        "높이 정보",
+        "높이 데이터"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "roller_coaster_Speed",
+      "domain": "roller_coaster",
+      "source_table": "roller_coaster",
+      "source_column": "Speed",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.5,
+      "primary_label": "속도",
+      "synonyms": [
+        "속도",
+        "속도 정보",
+        "속도 데이터",
+        "속도 속도",
+        "속도 관련 정보",
+        "속도 내용",
+        "속도 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "roller_coaster_Opened",
+      "domain": "roller_coaster",
+      "source_table": "roller_coaster",
+      "source_column": "Opened",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.8,
+      "primary_label": "오픈 일자",
+      "synonyms": [
+        "개장일",
+        "개장 날짜",
+        "개장일자",
+        "개장일자 정보",
+        "개장일자 데이터",
+        "개장일자 관련 정보",
+        "개장일자 내용",
+        "개장일자 기록"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "roller_coaster_Status",
+      "domain": "roller_coaster",
+      "source_table": "roller_coaster",
+      "source_column": "Status",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "상태",
+      "synonyms": [
+        "상태",
+        "상태 정보",
+        "상태 데이터",
+        "상태 관련 정보",
+        "상태 내용",
+        "상태 기록",
+        "상태 현황",
+        "상태 상태"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "운영 중": [
+          "운영중",
+          "운영 중"
+        ],
+        "정지": [
+          "정지",
+          "휴원"
+        ],
+        "계획 중": [
+          "계획 중"
+        ]
+      }
+    },
+    {
+      "name": "country_Country_ID",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Country_ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "country id",
+      "synonyms": [
+        "국가 ID",
+        "국가 번호",
+        "국가 코드",
+        "국가 식별자",
+        "국가 고유번호",
+        "Country_ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_Name",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "국가명",
+        "국가 이름",
+        "국가",
+        "이름",
+        "Name"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_Population",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Population",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "population",
+      "synonyms": [
+        "인구",
+        "인구수",
+        "인구량",
+        "인구수량",
+        "Population"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_Area",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Area",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "area",
+      "synonyms": [
+        "면적",
+        "국가면적",
+        "지역면적",
+        "면적정보",
+        "면적데이터",
+        "Area",
+        "국가의 면적"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "country_Languages",
+      "domain": "country",
+      "source_table": "country",
+      "source_column": "Languages",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "languages",
+      "synonyms": [
+        "언어",
+        "국가언어",
+        "언어정보",
+        "언어데이터",
+        "Languages",
+        "국가의 언어",
+        "언어 종류"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "roller_coaster_country_fk0",
+      "domain": "roller_coaster",
+      "range": "country",
+      "source_fk": [
+        "roller_coaster.Country_ID",
+        "country.Country_ID"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

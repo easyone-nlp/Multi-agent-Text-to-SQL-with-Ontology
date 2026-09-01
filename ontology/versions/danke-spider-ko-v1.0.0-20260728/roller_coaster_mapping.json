@@ -1,0 +1,70 @@
+{
+  "class_table": {
+    "roller_coaster": "roller_coaster",
+    "country": "country"
+  },
+  "property_column": {
+    "roller_coaster_Roller_Coaster_ID": [
+      "roller_coaster",
+      "Roller_Coaster_ID"
+    ],
+    "roller_coaster_Name": [
+      "roller_coaster",
+      "Name"
+    ],
+    "roller_coaster_Park": [
+      "roller_coaster",
+      "Park"
+    ],
+    "roller_coaster_Country_ID": [
+      "roller_coaster",
+      "Country_ID"
+    ],
+    "roller_coaster_Length": [
+      "roller_coaster",
+      "Length"
+    ],
+    "roller_coaster_Height": [
+      "roller_coaster",
+      "Height"
+    ],
+    "roller_coaster_Speed": [
+      "roller_coaster",
+      "Speed"
+    ],
+    "roller_coaster_Opened": [
+      "roller_coaster",
+      "Opened"
+    ],
+    "roller_coaster_Status": [
+      "roller_coaster",
+      "Status"
+    ],
+    "country_Country_ID": [
+      "country",
+      "Country_ID"
+    ],
+    "country_Name": [
+      "country",
+      "Name"
+    ],
+    "country_Population": [
+      "country",
+      "Population"
+    ],
+    "country_Area": [
+      "country",
+      "Area"
+    ],
+    "country_Languages": [
+      "country",
+      "Languages"
+    ]
+  },
+  "object_property_fk": {
+    "roller_coaster_country_fk0": [
+      "roller_coaster.Country_ID",
+      "country.Country_ID"
+    ]
+  }
+}

@@ -1,0 +1,865 @@
+{
+  "entries": [
+    {
+      "entry_type": "class",
+      "key": "people",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인물",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "참여자",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "개인",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "이름",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "인원",
+      "target_class": "people",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "교회",
+      "target_class": "church",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "성당",
+      "target_class": "church",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "예배소",
+      "target_class": "church",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "교회 정보",
+      "target_class": "church",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "종교 기관",
+      "target_class": "church",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "결혼 정보",
+      "target_class": "wedding",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "결혼식",
+      "target_class": "wedding",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "결혼",
+      "target_class": "wedding",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "혼인",
+      "target_class": "wedding",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "결혼식 정보",
+      "target_class": "wedding",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "class",
+      "key": "혼인식",
+      "target_class": "wedding",
+      "target_property": null,
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "people id",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "People_ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인물 ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개인 번호",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "식별 번호",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "ID",
+      "target_class": "people",
+      "target_property": "people_People_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "name",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Name",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성명",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "인물 이름",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개인 이름",
+      "target_class": "people",
+      "target_property": "people_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "country",
+      "target_class": "people",
+      "target_property": "people_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Country",
+      "target_class": "people",
+      "target_property": "people_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가",
+      "target_class": "people",
+      "target_property": "people_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적",
+      "target_class": "people",
+      "target_property": "people_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나라",
+      "target_class": "people",
+      "target_property": "people_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국가 정보",
+      "target_class": "people",
+      "target_property": "people_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "국적 정보",
+      "target_class": "people",
+      "target_property": "people_Country",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "is male",
+      "target_class": "people",
+      "target_property": "people_Is_Male",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별",
+      "target_class": "people",
+      "target_property": "people_Is_Male",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "남녀",
+      "target_class": "people",
+      "target_property": "people_Is_Male",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 여부",
+      "target_class": "people",
+      "target_property": "people_Is_Male",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 정보",
+      "target_class": "people",
+      "target_property": "people_Is_Male",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 상태",
+      "target_class": "people",
+      "target_property": "people_Is_Male",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "남자 여자",
+      "target_class": "people",
+      "target_property": "people_Is_Male",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 구분",
+      "target_class": "people",
+      "target_property": "people_Is_Male",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "성별 코드",
+      "target_class": "people",
+      "target_property": "people_Is_Male",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "age",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연세",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 정보",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 데이터",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 구분",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연령 상태",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "나이 코드",
+      "target_class": "people",
+      "target_property": "people_Age",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 ID",
+      "target_class": "church",
+      "target_property": "church_Church_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 식별 번호",
+      "target_class": "church",
+      "target_property": "church_Church_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 고유 번호",
+      "target_class": "church",
+      "target_property": "church_Church_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 코드",
+      "target_class": "church",
+      "target_property": "church_Church_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "Church ID",
+      "target_class": "church",
+      "target_property": "church_Church_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 번호",
+      "target_class": "church",
+      "target_property": "church_Church_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 식별자",
+      "target_class": "church",
+      "target_property": "church_Church_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이름",
+      "target_class": "church",
+      "target_property": "church_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 이름",
+      "target_class": "church",
+      "target_property": "church_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회명",
+      "target_class": "church",
+      "target_property": "church_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 공식 이름",
+      "target_class": "church",
+      "target_property": "church_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 제목",
+      "target_class": "church",
+      "target_property": "church_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 표지",
+      "target_class": "church",
+      "target_property": "church_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 라벨",
+      "target_class": "church",
+      "target_property": "church_Name",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영자",
+      "target_class": "church",
+      "target_property": "church_Organized_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 주체",
+      "target_class": "church",
+      "target_property": "church_Organized_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 단체",
+      "target_class": "church",
+      "target_property": "church_Organized_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 주도자",
+      "target_class": "church",
+      "target_property": "church_Organized_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 기관",
+      "target_class": "church",
+      "target_property": "church_Organized_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영자 이름",
+      "target_class": "church",
+      "target_property": "church_Organized_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 주체 이름",
+      "target_class": "church",
+      "target_property": "church_Organized_by",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개관일",
+      "target_class": "church",
+      "target_property": "church_Open_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개관 날짜",
+      "target_class": "church",
+      "target_property": "church_Open_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 시작일",
+      "target_class": "church",
+      "target_property": "church_Open_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개설일",
+      "target_class": "church",
+      "target_property": "church_Open_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "운영 시작 날짜",
+      "target_class": "church",
+      "target_property": "church_Open_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "개관일자",
+      "target_class": "church",
+      "target_property": "church_Open_Date",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계속된 교회",
+      "target_class": "church",
+      "target_property": "church_Continuation_of",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계승 교회",
+      "target_class": "church",
+      "target_property": "church_Continuation_of",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이전 교회",
+      "target_class": "church",
+      "target_property": "church_Continuation_of",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계승 대상",
+      "target_class": "church",
+      "target_property": "church_Continuation_of",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이어진 교회",
+      "target_class": "church",
+      "target_property": "church_Continuation_of",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계승 이름",
+      "target_class": "church",
+      "target_property": "church_Continuation_of",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이어짐 교회",
+      "target_class": "church",
+      "target_property": "church_Continuation_of",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "계승 대상 교회",
+      "target_class": "church",
+      "target_property": "church_Continuation_of",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "이어진 교회 이름",
+      "target_class": "church",
+      "target_property": "church_Continuation_of",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 ID",
+      "target_class": "wedding",
+      "target_property": "wedding_Church_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 식별자",
+      "target_class": "wedding",
+      "target_property": "wedding_Church_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 번호",
+      "target_class": "wedding",
+      "target_property": "wedding_Church_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 코드",
+      "target_class": "wedding",
+      "target_property": "wedding_Church_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 고유 ID",
+      "target_class": "wedding",
+      "target_property": "wedding_Church_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "교회 식별 번호",
+      "target_class": "wedding",
+      "target_property": "wedding_Church_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "남성 ID",
+      "target_class": "wedding",
+      "target_property": "wedding_Male_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "남자 ID",
+      "target_class": "wedding",
+      "target_property": "wedding_Male_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "남자 식별자",
+      "target_class": "wedding",
+      "target_property": "wedding_Male_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "남성 식별 번호",
+      "target_class": "wedding",
+      "target_property": "wedding_Male_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "남자 고유 ID",
+      "target_class": "wedding",
+      "target_property": "wedding_Male_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "남성 고유 ID",
+      "target_class": "wedding",
+      "target_property": "wedding_Male_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "남자 코드",
+      "target_class": "wedding",
+      "target_property": "wedding_Male_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "여성 ID",
+      "target_class": "wedding",
+      "target_property": "wedding_Female_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "여자 ID",
+      "target_class": "wedding",
+      "target_property": "wedding_Female_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "여자 식별자",
+      "target_class": "wedding",
+      "target_property": "wedding_Female_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "여성 식별 번호",
+      "target_class": "wedding",
+      "target_property": "wedding_Female_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "여자 고유 ID",
+      "target_class": "wedding",
+      "target_property": "wedding_Female_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "여성 고유 ID",
+      "target_class": "wedding",
+      "target_property": "wedding_Female_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "여성 코드",
+      "target_class": "wedding",
+      "target_property": "wedding_Female_ID",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도",
+      "target_class": "wedding",
+      "target_property": "wedding_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결혼년도",
+      "target_class": "wedding",
+      "target_property": "wedding_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 정보",
+      "target_class": "wedding",
+      "target_property": "wedding_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "년도 데이터",
+      "target_class": "wedding",
+      "target_property": "wedding_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "결혼식 연도",
+      "target_class": "wedding",
+      "target_property": "wedding_Year",
+      "value": null
+    },
+    {
+      "entry_type": "property",
+      "key": "연도 정보",
+      "target_class": "wedding",
+      "target_property": "wedding_Year",
+      "value": null
+    },
+    {
+      "entry_type": "value",
+      "key": "한국성당",
+      "target_class": "church",
+      "target_property": "church_Name",
+      "value": "한국성당"
+    },
+    {
+      "entry_type": "value",
+      "key": "성당",
+      "target_class": "church",
+      "target_property": "church_Name",
+      "value": "한국성당"
+    },
+    {
+      "entry_type": "value",
+      "key": "한국교회협회",
+      "target_class": "church",
+      "target_property": "church_Organized_by",
+      "value": "한국교회협회"
+    },
+    {
+      "entry_type": "value",
+      "key": "협회",
+      "target_class": "church",
+      "target_property": "church_Organized_by",
+      "value": "한국교회협회"
+    },
+    {
+      "entry_type": "value",
+      "key": "서울성당",
+      "target_class": "church",
+      "target_property": "church_Continuation_of",
+      "value": "서울성당"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020",
+      "target_class": "wedding",
+      "target_property": "wedding_Year",
+      "value": "2020"
+    },
+    {
+      "entry_type": "value",
+      "key": "2020년",
+      "target_class": "wedding",
+      "target_property": "wedding_Year",
+      "value": "2020"
+    }
+  ]
+}

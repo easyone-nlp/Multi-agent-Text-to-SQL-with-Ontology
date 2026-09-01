@@ -1,0 +1,499 @@
+{
+  "db_id": "wine_1",
+  "classes": [
+    {
+      "name": "grapes",
+      "source_table": "grapes",
+      "ranking": 1.0,
+      "primary_label": "포도",
+      "synonyms": [
+        "포도",
+        "원료",
+        "주요재료",
+        "과일",
+        "원산지"
+      ]
+    },
+    {
+      "name": "appellations",
+      "source_table": "appellations",
+      "ranking": 1.0,
+      "primary_label": "appellation",
+      "synonyms": [
+        "지역",
+        "출처",
+        "지역명",
+        "지역정보",
+        "지역표시"
+      ]
+    },
+    {
+      "name": "wine",
+      "source_table": "wine",
+      "ranking": 3.5,
+      "primary_label": "와인",
+      "synonyms": [
+        "와인",
+        "주류",
+        "알코올음료",
+        "주류제품",
+        "와인제품"
+      ]
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "grapes_ID",
+      "domain": "grapes",
+      "source_table": "grapes",
+      "source_column": "ID",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "id",
+      "synonyms": [
+        "ID",
+        "아이디",
+        "식별번호",
+        "고유번호",
+        "번호",
+        "식별자"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "grapes_Grape",
+      "domain": "grapes",
+      "source_table": "grapes",
+      "source_column": "Grape",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "grape",
+      "synonyms": [
+        "Grape",
+        "주식",
+        "식물",
+        "종류",
+        "식재료",
+        "식물명"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "grapes_Color",
+      "domain": "grapes",
+      "source_table": "grapes",
+      "source_column": "Color",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "color",
+      "synonyms": [
+        "Color",
+        "색상",
+        "색",
+        "색색",
+        "색상정보",
+        "색상특성"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appellations_No",
+      "domain": "appellations",
+      "source_table": "appellations",
+      "source_column": "No",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "no",
+      "synonyms": [
+        "No",
+        "번호",
+        "아ппellation 번호",
+        "아이디",
+        "아ппellation ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appellations_Appelation",
+      "domain": "appellations",
+      "source_table": "appellations",
+      "source_column": "Appelation",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "appelation",
+      "synonyms": [
+        "Appelation",
+        "아ппellation",
+        "이름",
+        "지명",
+        "아ппellation명",
+        "아ппellation 이름"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appellations_County",
+      "domain": "appellations",
+      "source_table": "appellations",
+      "source_column": "County",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "county",
+      "synonyms": [
+        "County",
+        "카운티",
+        "군",
+        "시군구",
+        "아ппellation 카운티",
+        "카운티 이름"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appellations_State",
+      "domain": "appellations",
+      "source_table": "appellations",
+      "source_column": "State",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "state",
+      "synonyms": [
+        "주",
+        "주소",
+        "주 이름",
+        "주 번호",
+        "주 코드",
+        "주소 정보",
+        "주 이름 정보",
+        "주 번호 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appellations_Area",
+      "domain": "appellations",
+      "source_table": "appellations",
+      "source_column": "Area",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "area",
+      "synonyms": [
+        "지역",
+        "지역 이름",
+        "지역 정보",
+        "지역명",
+        "지역 번호",
+        "지역 코드",
+        "지역명 정보",
+        "지역 번호 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "appellations_isAVA",
+      "domain": "appellations",
+      "source_table": "appellations",
+      "source_column": "isAVA",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "isava",
+      "synonyms": [
+        "AVA 여부",
+        "AVA 여부 정보",
+        "AVA 플래그",
+        "AVA 여부 코드",
+        "AVA 여부 표시",
+        "AVA 여부 확인",
+        "AVA 여부 데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "wine_No",
+      "domain": "wine",
+      "source_table": "wine",
+      "source_column": "No",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "no",
+      "synonyms": [
+        "No",
+        "번호",
+        "식별번호",
+        "번호 정보",
+        "주식 번호"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "wine_Grape",
+      "domain": "wine",
+      "source_table": "wine",
+      "source_column": "Grape",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "grape",
+      "synonyms": [
+        "Grape",
+        "포도",
+        "포도 종류",
+        "재료 포도",
+        "주 포도",
+        "포도 이름"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "wine_Winery",
+      "domain": "wine",
+      "source_table": "wine",
+      "source_column": "Winery",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "winery",
+      "synonyms": [
+        "Winery",
+        "생산자",
+        "와인 생산자",
+        "제조사",
+        "생산 기업",
+        "와인 제조사"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "wine_Appelation",
+      "domain": "wine",
+      "source_table": "wine",
+      "source_column": "Appelation",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "appelation",
+      "synonyms": [
+        "appelation",
+        "지명",
+        "출산지",
+        "인증지명",
+        "지역"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "wine_State",
+      "domain": "wine",
+      "source_table": "wine",
+      "source_column": "State",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "state",
+      "synonyms": [
+        "state",
+        "주",
+        "지역",
+        "주류 생산지",
+        "지방"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "wine_Name",
+      "domain": "wine",
+      "source_table": "wine",
+      "source_column": "Name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "name",
+      "synonyms": [
+        "name",
+        "제품명",
+        "이름",
+        "주류 이름",
+        "제품"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "wine_Year",
+      "domain": "wine",
+      "source_table": "wine",
+      "source_column": "Year",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "year",
+      "synonyms": [
+        "년도",
+        "생산년도",
+        "년도 정보",
+        "제작년도",
+        "년도 데이터",
+        "년도 값",
+        "년도 기준"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "wine_Price",
+      "domain": "wine",
+      "source_table": "wine",
+      "source_column": "Price",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "price",
+      "synonyms": [
+        "가격",
+        "판매가격",
+        "가격 정보",
+        "가격 값",
+        "가격 기준",
+        "가격 데이터",
+        "가격 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "wine_Score",
+      "domain": "wine",
+      "source_table": "wine",
+      "source_column": "Score",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "score",
+      "synonyms": [
+        "점수",
+        "평가 점수",
+        "점수 정보",
+        "점수 값",
+        "점수 기준",
+        "점수 데이터",
+        "점수 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "wine_Cases",
+      "domain": "wine",
+      "source_table": "wine",
+      "source_column": "Cases",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "cases",
+      "synonyms": [
+        "사례",
+        "생산량",
+        "사례수",
+        "출하량",
+        "사례 수량",
+        "생산 수량",
+        "사례 수치"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "wine_Drink",
+      "domain": "wine",
+      "source_table": "wine",
+      "source_column": "Drink",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 1.0,
+      "primary_label": "drink",
+      "synonyms": [
+        "음용 방법",
+        "소비 방식",
+        "마시는 방법",
+        "마시기",
+        "술 마시기",
+        "술 소비 방식",
+        "음용 방식"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "wine_appellations_fk0",
+      "domain": "wine",
+      "range": "appellations",
+      "source_fk": [
+        "wine.Appelation",
+        "appellations.Appelation"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "wine_grapes_fk1",
+      "domain": "wine",
+      "range": "grapes",
+      "source_fk": [
+        "wine.Grape",
+        "grapes.Grape"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}

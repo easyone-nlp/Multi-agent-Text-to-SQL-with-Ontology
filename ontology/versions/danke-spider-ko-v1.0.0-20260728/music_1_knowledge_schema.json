@@ -1,0 +1,697 @@
+{
+  "db_id": "music_1",
+  "classes": [
+    {
+      "name": "genre",
+      "source_table": "genre",
+      "ranking": 3.0,
+      "primary_label": "장르",
+      "synonyms": [
+        "장르",
+        "음악 장르",
+        "음악 분류",
+        "음악 유형",
+        "음악 카테고리"
+      ]
+    },
+    {
+      "name": "artist",
+      "source_table": "artist",
+      "ranking": 3.5,
+      "primary_label": "가수",
+      "synonyms": [
+        "아티스트",
+        "음악인",
+        "연주자",
+        "연출가",
+        "연가"
+      ]
+    },
+    {
+      "name": "files",
+      "source_table": "files",
+      "ranking": 3.0,
+      "primary_label": "파일",
+      "synonyms": [
+        "파일",
+        "음악 파일",
+        "음악 데이터",
+        "음악 자료"
+      ]
+    },
+    {
+      "name": "song",
+      "source_table": "song",
+      "ranking": 3.5,
+      "primary_label": "노래",
+      "synonyms": []
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "genre_g_name",
+      "domain": "genre",
+      "source_table": "genre",
+      "source_column": "g_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "장르 이름",
+      "synonyms": [
+        "장르 이름",
+        "g_name",
+        "음악 장르",
+        "장르명",
+        "음악 유형",
+        "장르"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "액션": [
+          "액션"
+        ],
+        "로맨스": [
+          "로맨스"
+        ],
+        "드라마": [
+          "드라마"
+        ]
+      }
+    },
+    {
+      "name": "genre_rating",
+      "domain": "genre",
+      "source_table": "genre",
+      "source_column": "rating",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "평가",
+      "synonyms": [
+        "평점",
+        "평가",
+        "점수",
+        "가점",
+        "평가 점수",
+        "등급"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "genre_most_popular_in",
+      "domain": "genre",
+      "source_table": "genre",
+      "source_column": "most_popular_in",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "가장 인기 있는 지역",
+      "synonyms": [
+        "인기 있는 곳",
+        "인기 지역",
+        "인기 국가",
+        "가장 인기 있는 곳",
+        "인기 있는 지역"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "서울": [
+          "서울"
+        ],
+        "부산": [
+          "부산"
+        ],
+        "인천": [
+          "인천"
+        ]
+      }
+    },
+    {
+      "name": "artist_artist_name",
+      "domain": "artist",
+      "source_table": "artist",
+      "source_column": "artist_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.5,
+      "primary_label": "가수 이름",
+      "synonyms": [
+        "아티스트 이름",
+        "가수 이름",
+        "음악가 이름",
+        "아티스트",
+        "가수"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "김민수": [
+          "김민수"
+        ],
+        "이지은": [
+          "이지은"
+        ]
+      }
+    },
+    {
+      "name": "artist_country",
+      "domain": "artist",
+      "source_table": "artist",
+      "source_column": "country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "국적",
+        "나라",
+        "국가명",
+        "국적 정보",
+        "국가 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국": [
+          "한국"
+        ],
+        "미국": [
+          "미국"
+        ]
+      }
+    },
+    {
+      "name": "artist_gender",
+      "domain": "artist",
+      "source_table": "artist",
+      "source_column": "gender",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "성별",
+      "synonyms": [
+        "성별",
+        "성",
+        "성별 정보",
+        "성별 데이터",
+        "성별 구분",
+        "성별 코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "남성": [
+          "남성"
+        ],
+        "여성": [
+          "여성"
+        ]
+      }
+    },
+    {
+      "name": "artist_preferred_genre",
+      "domain": "artist",
+      "source_table": "artist",
+      "source_column": "preferred_genre",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "선호 장르",
+      "synonyms": [
+        "선호 장르",
+        "좋아하는 장르",
+        "이ศ의 장르",
+        "주장르",
+        "음악 장르",
+        "좋아하는 음악 장르",
+        "이용 장르"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "팝": [
+          "팝"
+        ],
+        "록": [
+          "록"
+        ],
+        "재즈": [
+          "재즈"
+        ]
+      }
+    },
+    {
+      "name": "files_f_id",
+      "domain": "files",
+      "source_table": "files",
+      "source_column": "f_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.0,
+      "primary_label": "SONG ID",
+      "synonyms": [
+        "f_id",
+        "곡 ID",
+        "파일 ID",
+        "곡 식별자",
+        "사ong ID",
+        "file identifier"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "files_artist_name",
+      "domain": "files",
+      "source_table": "files",
+      "source_column": "artist_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.0,
+      "primary_label": "아티스트 이름",
+      "synonyms": [
+        "artist_name",
+        "아티스트 이름",
+        "가수 이름",
+        "예술가",
+        "가수",
+        "아티스트"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "방탄소년단": [
+          "방탄소년단",
+          "BTS"
+        ],
+        "아이유": [
+          "아이유",
+          "IU"
+        ]
+      }
+    },
+    {
+      "name": "files_file_size",
+      "domain": "files",
+      "source_table": "files",
+      "source_column": "file_size",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "파일 크기",
+      "synonyms": [
+        "file_size",
+        "파일 크기",
+        "용량",
+        "크기",
+        "파일 용량",
+        "파일 크기 정보"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "10MB": [
+          "10MB",
+          "10메가바이트"
+        ],
+        "500KB": [
+          "500KB",
+          "500킬로바이트"
+        ]
+      }
+    },
+    {
+      "name": "files_duration",
+      "domain": "files",
+      "source_table": "files",
+      "source_column": "duration",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.0,
+      "primary_label": "소요 시간",
+      "synonyms": [
+        "장시간",
+        "소요시간",
+        "음악 길이",
+        "장소",
+        "장시간 소요",
+        "소요 시간 정보",
+        "음악 소요 시간"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "files_formats",
+      "domain": "files",
+      "source_table": "files",
+      "source_column": "formats",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.0,
+      "primary_label": "포맷",
+      "synonyms": [
+        "형식",
+        "파일 형식",
+        "음악 형식",
+        "형식 정보",
+        "파일 형식 정보",
+        "음악 파일 형식",
+        "형식 종류",
+        "파일 형식 목록"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "MP3": [
+          "MP3",
+          "mp3"
+        ],
+        "WAV": [
+          "WAV",
+          "wav"
+        ]
+      }
+    },
+    {
+      "name": "song_song_name",
+      "domain": "song",
+      "source_table": "song",
+      "source_column": "song_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 4.8,
+      "primary_label": "노래 이름",
+      "synonyms": [
+        "노래 이름",
+        "곡 제목",
+        "가사 이름",
+        "곡명",
+        "노래 제목",
+        "곡 이름",
+        "제목"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "가사": [
+          "가사",
+          "노래 가사"
+        ],
+        "사랑의 노래": [
+          "사랑의 노래",
+          "사랑 노래"
+        ]
+      }
+    },
+    {
+      "name": "song_artist_name",
+      "domain": "song",
+      "source_table": "song",
+      "source_column": "artist_name",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.7,
+      "primary_label": "아티스트 이름",
+      "synonyms": [
+        "아티스트 이름",
+        "가수 이름",
+        "아티스트",
+        "가수",
+        "뮤지션"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "방탄소년단": [
+          "방탄소년단",
+          "BTS"
+        ],
+        "아이유": [
+          "아이유",
+          "IU"
+        ]
+      }
+    },
+    {
+      "name": "song_country",
+      "domain": "song",
+      "source_table": "song",
+      "source_column": "country",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.9,
+      "primary_label": "국가",
+      "synonyms": [
+        "국가",
+        "발행국",
+        "원산지",
+        "나라",
+        "국가정보",
+        "국가명",
+        "국가코드"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국": [
+          "한국",
+          "Korea"
+        ],
+        "미국": [
+          "미국",
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "song_f_id",
+      "domain": "song",
+      "source_table": "song",
+      "source_column": "f_id",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 0.3,
+      "primary_label": "노래 ID",
+      "synonyms": [
+        "f_id",
+        "곡 ID",
+        "파일 ID",
+        "곡 식별 번호",
+        "곡 고유 번호",
+        "f_id 값",
+        "곡 파일 ID"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "song_genre_is",
+      "domain": "song",
+      "source_table": "song",
+      "source_column": "genre_is",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 3.2,
+      "primary_label": "장르는",
+      "synonyms": [
+        "genre_is",
+        "장르",
+        "장르 정보",
+        "장르 이름",
+        "장르 종류",
+        "g_name"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "팝": [
+          "팝",
+          "pop"
+        ],
+        "록": [
+          "록",
+          "rock"
+        ],
+        "재즈": [
+          "재즈",
+          "jazz"
+        ]
+      }
+    },
+    {
+      "name": "song_rating",
+      "domain": "song",
+      "source_table": "song",
+      "source_column": "rating",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.8,
+      "primary_label": "평점",
+      "synonyms": [
+        "rating",
+        "평점",
+        "평점 정보",
+        "평점 수치",
+        "곡 평점",
+        "평가 점수",
+        "평점 값"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    },
+    {
+      "name": "song_languages",
+      "domain": "song",
+      "source_table": "song",
+      "source_column": "languages",
+      "range_types": [
+        "text"
+      ],
+      "ranking": 2.5,
+      "primary_label": "언어",
+      "synonyms": [
+        "언어",
+        "언어정보",
+        "언어들",
+        "언어내용",
+        "언어구성",
+        "언어자료",
+        "언어종류",
+        "언어데이터"
+      ],
+      "indexed": true,
+      "value_synonyms": {
+        "한국어": [
+          "한국어",
+          "Korean"
+        ],
+        "영어": [
+          "영어",
+          "English"
+        ]
+      }
+    },
+    {
+      "name": "song_releasedate",
+      "domain": "song",
+      "source_table": "song",
+      "source_column": "releasedate",
+      "range_types": [
+        "time"
+      ],
+      "ranking": 2.1,
+      "primary_label": "발매일",
+      "synonyms": [
+        "발매일",
+        "출시일",
+        "발매일자",
+        "출시일자",
+        "발매날짜",
+        "출시날짜",
+        "일자"
+      ],
+      "indexed": true,
+      "value_synonyms": {}
+    },
+    {
+      "name": "song_resolution",
+      "domain": "song",
+      "source_table": "song",
+      "source_column": "resolution",
+      "range_types": [
+        "number"
+      ],
+      "ranking": 1.2,
+      "primary_label": "해상도",
+      "synonyms": [
+        "해상도",
+        "해상도정보",
+        "해상도값",
+        "해상도데이터",
+        "해상도내용",
+        "해상도구분",
+        "해상도속도",
+        "해상도설정"
+      ],
+      "indexed": false,
+      "value_synonyms": {}
+    }
+  ],
+  "object_properties": [
+    {
+      "name": "artist_genre_fk0",
+      "domain": "artist",
+      "range": "genre",
+      "source_fk": [
+        "artist.preferred_genre",
+        "genre.g_name"
+      ],
+      "weight": 1.0,
+      "primary_label": "주 Genre",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "files_artist_fk1",
+      "domain": "files",
+      "range": "artist",
+      "source_fk": [
+        "files.artist_name",
+        "artist.artist_name"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속된 아티스트",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "song_genre_fk2",
+      "domain": "song",
+      "range": "genre",
+      "source_fk": [
+        "song.genre_is",
+        "genre.g_name"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속된 Genre",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "song_files_fk3",
+      "domain": "song",
+      "range": "files",
+      "source_fk": [
+        "song.f_id",
+        "files.f_id"
+      ],
+      "weight": 1.0,
+      "primary_label": "파일 연결",
+      "synonyms": [],
+      "inferred": false
+    },
+    {
+      "name": "song_artist_fk4",
+      "domain": "song",
+      "range": "artist",
+      "source_fk": [
+        "song.artist_name",
+        "artist.artist_name"
+      ],
+      "weight": 1.0,
+      "primary_label": "소속된 아티스트",
+      "synonyms": [],
+      "inferred": false
+    }
+  ]
+}
