@@ -1,6 +1,9 @@
 # Local data files and generated artifacts
 # Do not upload raw dataset or large model artifacts to GitHub.
-data/
+# Keep empty directory structure for repository layout.
+data/*
+!data/.gitkeep
+
 assets/
 .claude/
 *.zip
@@ -17,9 +20,11 @@ __pycache__/
 # OS files
 .DS_Store
 
-# Large outputs
+# Large outputs and subprojects not meant for public code upload
 schema_augmentation/*.json
 schema_augmentation/*.jsonl
 schema_augmentation/*.xlsx
 ontology/output/
 experiment_freezes/
+schema linking/AutoLink/
+schema linking/multi-agent/
