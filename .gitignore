@@ -1,6 +1,8 @@
 # Local data files and generated artifacts
 # Do not upload raw dataset or large model artifacts to GitHub.
 data/
+assets/
+.claude/
 *.zip
 *.tar
 *.gz
