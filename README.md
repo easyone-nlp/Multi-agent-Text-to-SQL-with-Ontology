@@ -172,7 +172,8 @@ Each database element is directly mapped to an ontology element:
 Database Table  ↔  Ontology Class
 Database Column ↔  Ontology Property
 Database Value  ↔  Value / Entity
-
+```
+---
 
 ## Acknowledgement
 
